@@ -32,7 +32,7 @@
 Ｂ：上司は、原告に対して、海外子会社が付加価値税還付を受ける対応をしていることを説明した。
 <p class="hg-idt12" style="margin-bottom: 1.6em;">
 Ｃ：被告の海外子会社が上記の付加価値税の金額を被告に送金した。
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base">
 被告の調査報告は、 は、以下のとおりでした。
 <div class="base">
 
