@@ -151,17 +151,17 @@ p {
   padding-left:1em;
   text-indent:-1em;
 }
-.hg-idt12 {
-  margin-right: 72px;
-  margin-left: 72px;
-  padding-left:2em;
-  text-indent:-2em;
-}
 .hg-idt2 {
   margin-right: 72px;
   margin-left: 72px;
   padding-left:2em;
   text-indent:-1em;
+}
+.hg-idt44 {
+  margin-right: 72px;
+  margin-left: 72px;
+  padding-left:4em;
+  text-indent:-4em;
 }
 .tyu1 {
   margin-right: 72px;
@@ -662,12 +662,6 @@ p {
     padding-left:2em;
     text-indent:1em;
   }
-  .hg-idt12 {
-    margin-right:0;
-    margin-left:0;
-    padding-left:2em;
-    text-indent:-2em;
-  }
   .hg-idt1 {
     margin-right:0;
     margin-left:0;
@@ -680,11 +674,11 @@ p {
     padding-left:2em;
     text-indent:-1em;
   }
-  .hg-idt22 {
+  .hg-idt44 {
     margin-right:0;
     margin-left:0;
-    padding-left:2em;
-    text-indent:-2em;
+    padding-left:4em;
+    text-indent:-4em;
   }
   .tyu1 {
     margin-right:0;
