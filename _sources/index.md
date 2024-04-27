@@ -60,17 +60,27 @@
 
 ## ５　裁判所の判断
 ---
+
+`````{margin} 
+````{admonition} <span class="title_ad" style="font-size:12px;"></span>
+:class: Caution
+<p class="c_mini" style="margin-bottom: 1.6em;">裁判所で引用している最高裁判決は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。この最高裁判決は原告側から提示しました。</span>
+<p class="c_mini">細かいことですが、最高裁判決は、「適切に<u>対応</u>すべき信義則上の義務を負う場合がある」と判示している一方、本件訴訟における裁判所は、「信義則上の<u>調査義務等</u>を負っていたということはできない」と判示しているので、「対応」と「調査義務等」というところで若干表現が異なります。</span>
+````
+`````
+
 <p class="base">
-裁判所の判断 <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#handan1"><i class="fa-solid fa-link"></i></a> は、以下のとおりです。なお、裁判所が引用している最高裁判決は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。
+裁判所の判断 <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#handan1"><i class="fa-solid fa-link"></i></a> は、以下のとおりです。
 <div class="base">
 
 ````{card}
 不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。（判決文原文ママ）
 ````
 </div>
-
 <p class="base" style="margin-bottom: 1.6em;">
 内部通報をすることを考えている人は、上記の裁判所の判断について留意する必要があります。
+
+
 
 
 ## ６　引用や用語について
