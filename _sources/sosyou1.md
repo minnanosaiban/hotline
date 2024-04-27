@@ -16,8 +16,8 @@
 不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。（判決文原文ママ）
 ````
 </div>
-
-※　判決文の内容はこちら <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hanketsu1"><i class="fa-solid fa-link"></i></a> に記載しています。
+<div class="base">
+※　判決文全文はこちら <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hanketsu1"><i class="fa-solid fa-link"></i></a> に記載しています。
 
 
 ## ２　通報の内容について
