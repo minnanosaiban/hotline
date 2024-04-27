@@ -17,7 +17,7 @@
 ````
 </div>
 <div class="base">
-※　判決文全文はこちら <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hanketsu1"><i class="fa-solid fa-link"></i></a> に記載しています。
+※　判決文全文は、こちら <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hanketsu1"><i class="fa-solid fa-link"></i></a> に記載しています。
 
 
 ## ２　通報の内容について
