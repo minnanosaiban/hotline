@@ -9,7 +9,7 @@
 本ウェブサイトの管理人（以下「原告」といいます）は、原告の勤務先（以下「被告」といいます）の内部通報制度を利用した従業員です。本ウェブサイトは、内部通報を受けた被告の不適切な対応について疑問を呈する目的で開設しており、被告の代理人に対して、本ウェブサイトの内容を被告の代表取締役社長と共有することを求めています。なお、被告は、人権尊重、コンプライアンス徹底を経営の最優先事項と位置付けていることを公式ウェブサイトで表明しています。
 
 <!--<div class="twitter">-->
-<!--<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本アカウントおよび以下のウェブサイトについて、ＥＮＥＯＳ側に対して、宮田社長代理と共有することを求めています。<br><br>対する、ＥＮＥＯＳの代理人からの回答は、「必要に応じて必要な事項を伝えています」という回答です。<a href="https://t.co/GVn4OHG6Kb">https://t.co/GVn4OHG6Kb</a></p>&mdash; Tomo@内部通報制度に関する訴訟を提起しました (@fuseimatome) <a href="https://twitter.com/fuseimatome/status/1770034005347565854?ref_src=twsrc%5Etfw">March 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+<!--<blockquote class="twitter-tweet">-->
 <!--</div>-->
 
 
@@ -66,8 +66,8 @@ Quote枠内以外の文章は私個人の解釈が含まれています。裁判
 
 <div class="base">
 
-<i class="fa-brands fa-github"></i> GitHub issues [<i class="fa-solid fa-up-right-from-square"></i>](https://github.com/fuseimatome/docs/issues)
+<i class="fa-brands fa-github"></i> GitHub issues [<i class="fa-solid fa-up-right-from-square"></i>](https://github.com/minnanosaiban/hotline/issues)
 
-<i class="fa-brands fa-twitter"></i> X-Twitter [<i class="fa-solid fa-up-right-from-square"></i>](https://twitter.com/fuseimatome)
+<i class="fa-brands fa-twitter"></i> X-Twitter [<i class="fa-solid fa-up-right-from-square"></i>](https://twitter.com/minnanosaiban)
 
 </div>
