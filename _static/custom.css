@@ -151,11 +151,11 @@ p {
   padding-left:1em;
   text-indent:-1em;
 }
-.hg-idt13 {
+.hg-idt12 {
   margin-right: 72px;
   margin-left: 72px;
-  padding-left:3em;
-  text-indent:-3em;
+  padding-left:2em;
+  text-indent:-2em;
 }
 .hg-idt2 {
   margin-right: 72px;
@@ -661,6 +661,12 @@ p {
     margin-left:0;
     padding-left:2em;
     text-indent:1em;
+  }
+  .hg-idt12 {
+    margin-right:0;
+    margin-left:0;
+    padding-left:2em;
+    text-indent:-2em;
   }
   .hg-idt1 {
     margin-right:0;
