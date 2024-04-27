@@ -9,7 +9,7 @@
 ２０２１年に提起した訴訟は、勤務先の内部通報制度を利用した原告が、通報を受けた被告の対応につき、<span class="strong_or">内部通報制度において適切に対応すべき信義則上の義務に違反したと主張している訴訟</span>です。コンプライアンスホットライン規程は、必要な調査を実施すること、調査を実施しない場合はその理由を通報者に通知すること、調査結果や対応策を通補者に通知することを規定しています。
 
 <p class="base">
-裁判所は <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#handan1"><i class="fa-solid fa-link"></i></a> は、以下のとおりに判示して、棄却しました。
+裁判所は <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#handan1"><i class="fa-solid fa-link"></i></a> は、以下のとおりに判示して、棄却しました。なお、裁判所が引用している最高裁判決は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。
 <div class="base">
 
 ````{card}
