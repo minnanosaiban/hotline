@@ -170,7 +170,7 @@
 最高裁判所　御中<br>
 頭書事件につき、申立人は下記のとおり上告受理申立ての理由を提出する。
 
-<p class="q" style="margin-top: 1.4em; margin-bottom: 1.4em;">目次
+<p class="q" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>目次</b>
 
 <p class="q" style="margin-bottom: 1.4em;">第１　用語の説明
 

@@ -504,6 +504,15 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.q_idt5 {
+  padding-left:5em;
+  text-indent:1em;
+  font-size:14px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .q_hg-idt1 {
   padding-left:1em;
   text-indent:-1em;
@@ -862,6 +871,12 @@ p {
   }
   .q_idt45 {
     padding-left:4.5em;
+    text-indent:1em;
+    font-size:14px;
+    margin: 0;
+  }
+  .q_idt5 {
+    padding-left:5em;
     text-indent:1em;
     font-size:14px;
     margin: 0;
