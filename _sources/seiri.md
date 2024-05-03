@@ -15,13 +15,13 @@
 <p class="q">第１　本案前の申立て
 <p class="q">第２　請求の趣旨に対する答弁
 <p class="q">第３　被告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-1">１</a>　本件訴訟における原告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-2">２</a>　前回訴訟における原告の主張と判決の確定
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-3">３</a>　前回訴訟の確定判決の既判力による遮断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-4">４</a>　信義則に違反する紛争の蒸し返し
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-5">５</a>　本件規程３．６⑴イ・ウの違反の不存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-6">６</a>　信義則上の義務の違反の不存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/tsuho/syutyou2.html#toben3-7">７</a>　結論（被告の主張）
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-1">１</a>　本件訴訟における原告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-2">２</a>　前回訴訟における原告の主張と判決の確定
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-3">３</a>　前回訴訟の確定判決の既判力による遮断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-4">４</a>　信義則に違反する紛争の蒸し返し
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-5">５</a>　本件規程３．６⑴イ・ウの違反の不存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-6">６</a>　信義則上の義務の違反の不存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#toben3-7">７</a>　結論（被告の主張）
 <p class="q">第４　訴状第２（請求の原因）（２頁以下）に対する認否
 <p class="q_hg-idt2">１　第２の１（用語の意味）（２頁）について
 <p class="q_hg-idt2">２　第２の２（当事者）（２頁）について
