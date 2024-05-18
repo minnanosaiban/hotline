@@ -50,8 +50,7 @@
 `````{margin} 
 ````{admonition} <span class="title_ad" style="font-size:12px;">注</span>
 :class: Important
-<p class="c_mini">調査補助者とは、公益通報者保護法の「公益通報対応業務従事者」に該当します。
-<p class="c_mini">「公益通報者保護法に基づく指針の解説」<a href="https://minnanosaiban.github.io/hotline/hourei.html#kaisetsu9"><i class="fa-solid fa-link"></i></a> の内容からすると裁判所の判断は間違っているように思います。
+<p class="c_mini">調査補助者とは、公益通報者保護法の「公益通報対応業務従事者」に該当します。「公益通報者保護法に基づく指針の解説」<a href="https://minnanosaiban.github.io/hotline/hourei.html#kaisetsu9"><i class="fa-solid fa-link"></i></a> の内容からすると裁判所の判断は間違っているように思います。
 ````
 `````
 
