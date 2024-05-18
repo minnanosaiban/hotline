@@ -139,20 +139,19 @@
 
 | 　　        |<p style="font-size: 12px;"><b>年月日</b>|<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>書証番号</b>|
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>ク</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>コ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>サ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>シ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-
+|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">平成27年11月16日|<p style="font-size: 12px;">「本件支払手続」|<p style="font-size: 12px;">甲３|
+|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">平成28年3月31日|<p style="font-size: 12px;">「還付手続対応説明」|<p style="font-size: 12px;">甲４|
+|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">平成28年9月14日～<br>平成29年7月31日|<p style="font-size: 12px;">「本件通報」及び「調査補助者に対する追加通報」|<p style="font-size: 12px;">　●）|
+|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">平成29年2月7日|<p style="font-size: 12px;">「本件調査対応協議」|<p style="font-size: 12px;">乙２及び甲８ないし１８|
+|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">平成29年3月9日|<p style="font-size: 12px;">「ＧＳＴ業務移管通知」|<p style="font-size: 12px;">甲１５の２及び乙３|
+|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">平成29年4月|<p style="font-size: 12px;">「何かしらの措置」|<p style="font-size: 12px;">乙３|
+|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">平成29年7月31日|<p style="font-size: 12px;">「金銭の流れが一部不明瞭な送金」|<p style="font-size: 12px;">甲２７|
+|<p style="font-size: 12px;"><b>ク</b>|<p style="font-size: 12px;">平成29年8月14日|<p style="font-size: 12px;">「本件調査報告１」|<p style="font-size: 12px;">乙１１|
+|<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">平成30年9月13日|<p style="font-size: 12px;">「本件契約の措置|<p style="font-size: 12px;">甲２１|
+|<p style="font-size: 12px;"><b>コ</b>|<p style="font-size: 12px; white-space: nowrap;">平成30年11月27日～<br>令和2年1月24日|<p style="font-size: 12px;">「追加通報」及び「調査補助者に対する追加通報」|<p style="font-size: 12px;">甲２２、２３、２５及び乙９|
+|<p style="font-size: 12px;"><b>サ</b>|<p style="font-size: 12px;">令和元年10月25日|<p style="font-size: 12px;">「本件調査報告２」|<p style="font-size: 12px;">乙１２|
+|<p style="font-size: 12px;"><b>シ</b>|<p style="font-size: 12px;">令和2年3月27日|<p style="font-size: 12px;">「社内ＳＮＳ投稿」|<p style="font-size: 12px;">甲２６|
+|<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px;">令和2年6月25日及び<br>令和2年7月9日|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px;">甲２１|
 
 </div>
 
@@ -161,13 +160,13 @@
 
 | 　　        |<p style="font-size: 12px;"><b>年月日</b>|<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>書証番号</b>|
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
+|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">本件規程１．２ ⑸ に定める「通報」について|<p style="font-size: 12px;">本件通報（乙２）、追加通報（乙９）及び調査補助者に対する追加通報（甲８ないし１８、２２、２３及び２５）。|<p style="font-size: 12px;">本件通報（乙２）及び追加通報（乙９）。|
+|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">本件規程１．２ ⑹ に定める「通報情報」について|<p style="font-size: 12px;">上記の通報に係る情報。|<p style="font-size: 12px;">上記の通報に係る情報。|
+|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「通報情報に関する事実」について|<p style="font-size: 12px;">本件支払手続（甲３）、他。|<p style="font-size: 12px;">不明。
+|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「調査」に係る調査事項について|<p style="font-size: 12px;">本件支払手続（甲３）に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。|<p style="font-size: 12px;">不明。|
+|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ に定める「調査結果等の通知・報告」について|<p style="font-size: 12px;">本件調査報告１（乙１１）及び本件調査報告２（乙１２）。|<p style="font-size: 12px;">乙１０について、本件規程３．６ ⑴ に定める調査報告であるか否かが不明瞭。|
+|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ ア に定める「法令等に違反する事実又は違反するおそれのある事実」の存在について|<p style="font-size: 12px;">本件支払手続（甲３）に係る支払の内容が契約内容に基づいていないという不正行為等の事実が存在した（甲２１）。|<p style="font-size: 12px;">不明。|
+|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ イ又はウに定める是正措置、再発防止策又は対応策について|<p style="font-size: 12px;">何かしらの措置及び本件契約の措置を実行した（甲２１）。|<p style="font-size: 12px;">不明。|
 
 </div>
 
