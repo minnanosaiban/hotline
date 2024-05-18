@@ -34,18 +34,18 @@
 <p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_223">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
 <p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_224">⑷</a>　争点４（原告の損害）
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3">第３</a>　当裁判所の判断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1">１</a>　認定事実
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1-1">⑴</a>　本件通報１及び本件調査報告１に至る経緯等
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1-2">⑵</a>　本件通報２及び本件調査報告２に至る経緯等
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1-3">⑶</a>　本件措置に至る経緯等
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2">２</a>　争点１について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-1">⑴</a>　（調査等の対応）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-2">⑵</a>　（被通報者等との協議・ヒアリング）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-3">⑶</a>　（通報情報の役員等への報告）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-4">⑷</a>　（結論）
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-3">３</a>　争点２について
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-4">４</a>　争点３について
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-5">５</a>　小括
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_31">１</a>　認定事実
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_311">⑴</a>　本件通報１及び本件調査報告１に至る経緯等
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_312">⑵</a>　本件通報２及び本件調査報告２に至る経緯等
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_313">⑶</a>　本件措置に至る経緯等
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_32">２</a>　争点１について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_321">⑴</a>　（調査等の対応）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_322">⑵</a>　（被通報者等との協議・ヒアリング）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_323">⑶</a>　（通報情報の役員等への報告）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_324">⑷</a>　（結論）
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_33">３</a>　争点２について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_34">４</a>　争点３について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_35">５</a>　小括
 <p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_4">第４</a>　結論
 
 ```` 
