@@ -192,8 +192,23 @@
 <p class="q_hg-idt3">⑶　甲２１の３の情報を得たことにより推定される事実について
 <p class="q_idt3">本件訴訟で提出した書証のうち、前回訴訟において提出されなかった証拠は、甲２１の３に記載している内容であり、その内容のうち、前回訴訟において把握できなかった情報は、以下の枠内の下線の部分である。
 
+<div class="q_pad3">
 
+```{card}
 
+<p class="q_hg-idt1" style="font-size: 12px;>１　質問：契約書の記載内容Ａ契約
+<p class="q_idt2" style="font-size: 12px;>回答：
+<p class="q_idt3" style="font-size: 12px;>締結日：２０１５年１月１９日
+<p class="q_idt3" style="font-size: 12px;>有効期間：２０１４年４月１日から２０１６年３月３１日（２年間）。以降いずれか一方当事者からの９０日前予告がない限り自動延長。
+<p class="q_idt3" style="font-size: 12px;>ＧＳＴ等に関する表示：記載なし
+<p class="q_hg-idt1" style="font-size: 12px;>２　質問：契約書の記載内容Ｂ契約
+<p class="q_idt2" style="font-size: 12px;>回答：
+<p class="q_idt3" style="font-size: 12px;>締結日：２０１８年９月１３日
+<p class="q_idt3" style="font-size: 12px;>有効期間：いずれか一方の当事者から解約の意思表示がない限りは無期限
+<p class="q_idt3" style="font-size: 12px;>ＧＳＴ等に関する表示：豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。なお、 本件豪州企業  がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する。
+
+```
+</div>
 
 
 </blockquote>
