@@ -19,12 +19,12 @@
 
 ````{card}
 
-<p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京高裁判決　目次</b>
+<p class="q_center" style="margin-top: 1.4em;"><b>東京高裁判決　目次</b>
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_1">第１</a>　控訴の趣旨
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_2">第２</a>　事案の概要
-<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_3">第３</a>　当裁判所の判断
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_3">第３</a>　当裁判所の判断
 
-<p class="q_center" style="margin-bottom: 1.4em;"><b>東京地裁判決　目次</b>
+<p class="q_center" style="margin-top: 1.4em;"><b>東京地裁判決　目次</b>
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_1">第１</a>　請求
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_2">第２</a>　事案の概要
 <p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_21">１</a>　前提事実
@@ -54,8 +54,6 @@
 <div class="base">
 
 <blockquote>
-<p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京高裁判決</b>
-
 <p class="q">令和５年６月１５日判決言渡　同日原本領収 裁判所書記官<br>
 令和５年（ネ）第〇〇〇号　損害賠償請求控訴事件（原審・東京地方裁判所令和３年（ワ）第〇〇〇〇〇号）<br>
 令和５年４月１８日口頭弁論終結<br>
@@ -112,7 +110,6 @@
 </blockquote>
 
 <blockquote>
-<p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京地裁判決</b>
 <p class="q">令和４年１２月２２日判決言渡　同日原本領収　裁判所書記官<br>
 令和３年（ワ）第〇〇〇〇〇号　損害賠償請求事件<br>
 口頭弁論の終結の日　令和４年１０月２７日<br>
