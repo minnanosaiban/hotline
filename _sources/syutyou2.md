@@ -49,9 +49,6 @@
 以下、作成中です。
 
 
-</blockquote>
-</div>
-
 ## ２　答弁書
 ---
 <p class="base" style="margin-bottom: 1.6em;">
