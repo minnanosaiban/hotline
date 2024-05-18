@@ -40,13 +40,6 @@
 ````
 `````
 
-`````{margin} 
-````{admonition} <span class="title_ad" style="font-size:12px;">注</span>
-:class: Important
-<p class="c_mini">最高裁判決は、「適切に<u>対応</u>すべき信義則上の義務を負う場合がある」と判示している一方、本件訴訟における裁判所は、「信義則上の<u>調査義務等</u>を負っていたということはできない」と判示しているので、「対応」と「調査義務等」というところで若干表現が異なります。</span>
-````
-`````
-
 <div class="base">
 <blockquote>
 <p class="q">
