@@ -180,15 +180,10 @@
 
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;">●|<p style="font-size: 12px;">不正行為等によって直接被害を受けた者が、不正行為等を通報した場合|<p style="font-size: 12px;">不正行為等によって直接被害を受けた旨を告げる通報ではない場合|
+| 　　        |<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>用語の意味</b>|
 |------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在する場合|<p style="font-size: 12px;">ケース１<br>信義則及び社内規程の<br>違反を適用|<p style="font-size: 12px;">ケース３<br>社内規程違反を適用|
-|<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在しない場合|<p style="font-size: 12px;">ケース２<br>信義則違反を適用|<p style="font-size: 12px;">－|
-
-| 　　        |●|●|●|
-|------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在する場合|<p style="font-size: 12px;">ケース１<br>信義則及び社内規程の<br>違反を適用|<p style="font-size: 12px;">ケース３<br>社内規程違反を適用|
-|<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在しない場合|<p style="font-size: 12px;">ケース２<br>信義則違反を適用|<p style="font-size: 12px;">－|
+|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|
+|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|
 
 
 </div>
