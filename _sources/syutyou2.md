@@ -3,7 +3,26 @@
 # 主張書面
 
 
-## １　訴状
+## ３　原告第１準備書面
+---
+<div class="base">
+<blockquote>
+<p class="q" style="margin-top: 1.4em;"><a name="sojou"></a><b>原告第１準備書面</b>
+<p class="q">令和６年５月１７日
+<p class="q">東京簡易裁判所　御中
+
+
+
+</blockquote>
+</div>
+
+## ２　答弁書
+---
+<p class="base" style="margin-bottom: 1.6em;">
+作成中です。
+
+
+## ３　訴状
 ---
 <p class="base" style="margin-bottom: 1.6em;">
 <strong>２０２４年２月１９日、東京簡易裁判所に、勤務先の〇〇〇〇〇を被告とする内部通報制度に関する訴訟を提起しました。以下の quote 枠内に訴状の内容を記載しています。</strong>
