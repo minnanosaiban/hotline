@@ -571,11 +571,11 @@
 ```{card}
 
 <p class="q" style="font-size: 12px;>３．６　調査結果等の通知・報告
-<p class="q_hg-idt2" style="font-size: 12px;">⑴　法務部長は、調査の終了後、被通報者および調査協力者の名誉、信用、プライバシー等に十分配慮したうえで、実名通報者に対して、次の事項（以下総称して「調査結果等」という。）を通知する。（中略）
-<p class="q_hg-idt3" style="font-size: 12px;">ア．法令等に違反する事実または違反するおそれのある事実の有無
-<p class="q_hg-idt3" style="font-size: 12px;">イ．法令等に違反する事実が確認された場合は、その是正措置および再発防止策
-<p class="q_hg-idt3" style="font-size: 12px;">ウ．法令等に違反するおそれのある事実が確認された場合は、その対応策
-<p class="q_hg-idt3" style="font-size: 12px;">エ．（中略）
+<p class="q_hg-idt1" style="font-size: 12px;">⑴　法務部長は、調査の終了後、被通報者および調査協力者の名誉、信用、プライバシー等に十分配慮したうえで、実名通報者に対して、次の事項（以下総称して「調査結果等」という。）を通知する。（中略）
+<p class="q_hg-idt2" style="font-size: 12px;">ア．法令等に違反する事実または違反するおそれのある事実の有無
+<p class="q_hg-idt2" style="font-size: 12px;">イ．法令等に違反する事実が確認された場合は、その是正措置および再発防止策
+<p class="q_hg-idt2" style="font-size: 12px;">ウ．法令等に違反するおそれのある事実が確認された場合は、その対応策
+<p class="q_hg-idt2" style="font-size: 12px;">エ．（中略）
 
 ```
 </div>
