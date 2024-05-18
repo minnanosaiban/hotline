@@ -152,20 +152,6 @@
 |<p style="font-size: 12px;"><b>シ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
 |<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
 
-</div>
-
-<p class="q_hg-idt3"><b>⑶　表３．時系列における用語と書証番号の整理</b>
-<div class="q_pad3">
-
-| 　　        ||<p style="font-size: 12px;">|<p style="font-size: 12px;"><b>原告の主張</b>|<p style="font-size: 12px;"><b>被告の主張</b>|
-|------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|<p style="font-size: 12px;">　●）|
 
 </div>
 
@@ -180,10 +166,10 @@
 
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>用語の意味</b>|
+| 　　        |<p style="font-size: 12px;">不正行為等によって直接被害を受けた者が、不正行為等を通報した場合|<p style="font-size: 12px;">不正行為等によって直接被害を受けた旨を告げる通報ではない場合|
 |------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|
+|<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在する場合|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|
+|<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在しない場合|<p style="font-size: 12px;">「●」|<p style="font-size: 12px;">　●）|
 
 
 </div>
