@@ -3,13 +3,102 @@
 # 主張書面
 
 
-## ３　原告第１準備書面
+## １　原告第１準備書面
 ---
+<p class="base" style="margin-bottom: 1.6em;">
+<strong>２０２４年〇月〇〇日、原告第１準備書面を提出しました。</strong>
+
+<div class="base">
+
+````{card}
+
+<p class="q_center" style="margin-top: 1.4em;"><b>原告第１準備書面　目次</b>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_1">第１</a>　用語の整理
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_12">１</a>　本書に用いる用語および表記の意味
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_13">２</a>　「本件通報」という用語の意味
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_121">⑴</a>　本件規程に定める「通報」及び「通報情報」の範囲について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_122">⑵</a>　訴状において定義した「本件通報」という用語の意味の変更について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_123">⑶</a>　「本件通報」及び「本件通報に係る情報」を区別することについて
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_13">３</a>　本件訴訟に用いる用語のまとめ
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_131">⑴</a>　表１．本件内部通報制度の仕組みに関する用語
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_132">⑵</a>　表２．「通報情報に関する事実」に関する用語
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_133">⑶</a>　表３．時系列における用語と書証番号の整理
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_134">⑷</a>　表４．本件規程に定める事項と当事者の主張との対応表
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_2">第２</a>　原告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_21">１</a>　本件訴訟における原告の主張が遮断されないこと
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_211">⑴</a>　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_212">⑵</a>　原告の主張が既判力によって遮断されることはない
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_213">⑶</a>　甲２１の３の情報を得たことにより推定される事実について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_214">⑷</a>　原告における情報把握の状況と前回訴訟主要事実との関係について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_215">⑸</a>　本件訴訟における原告の主張は、信義則に反せず、許される
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_2">２</a>　被告について債務不履行又は不法行為に基づく責任が成立すること
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_21">⑴</a>　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_22">⑵</a>　本件規程に定める「通報情報に関する事実を確認するための調査」について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_23">⑶</a>　「通報情報に関する事実を確認するための調査」についての考察
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_24">⑷</a>　「通報情報に関する事実を確認するための調査」についての考察、つづき
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_25">⑸</a>　本件規程３．６ ⑴ に違反する行為の存在
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_26">⑹</a>　原告の損害
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_27">⑺</a>　被告の責任
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_3">第３</a>　答弁書に対する認否
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#dai1_4">第４</a>　結語
+
+```` 
+
+</div>
+
 <div class="base">
 <blockquote>
-<p class="q" style="margin-top: 1.4em;"><a name="sojou"></a><b>原告第１準備書面</b>
+<p class="q" style="margin-top: 1.4em;"><a name="sojou"><b>原告第１準備書面</b>
 <p class="q">令和６年５月１７日
-<p class="q">東京簡易裁判所　御中
+<p class="q" style="margin-bottom: 1.4em;">東京簡易裁判所　御中
+<p class="q"><b>目次</b>
+<p class="q_hg-idt1">第１　用語の整理
+<p class="q_hg-idt2">１　本書に用いる用語および表記の意味
+<p class="q_hg-idt2">２　「本件通報」という用語の意味
+<p class="q_hg-idt3">⑴　本件規程に定める「通報」及び「通報情報」の範囲について
+<p class="q_hg-idt3">⑵　訴状において定義した「本件通報」という用語の意味の変更について
+<p class="q_hg-idt3">⑶　「本件通報」及び「本件通報に係る情報」を区別することについて
+<p class="q_hg-idt2">３　本件訴訟に用いる用語のまとめ
+<p class="q_hg-idt3">⑴　表１．本件内部通報制度の仕組みに関する用語
+<p class="q_hg-idt3">⑵　表２．「通報情報に関する事実」に関する用語
+<p class="q_hg-idt3">⑶　表３．時系列における用語と書証番号の整理
+<p class="q_hg-idt3">⑷　表４．本件規程に定める事項と当事者の主張との対応表
+<p class="q_hg-idt1">第２　原告の主張
+<p class="q_hg-idt2">１　本件訴訟における原告の主張が遮断されないこと
+<p class="q_hg-idt3">⑴　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない
+<p class="q_hg-idt3">⑵　原告の主張が既判力によって遮断されることはない
+<p class="q_hg-idt3">⑶　甲２１の３の情報を得たことにより推定される事実について
+<p class="q_hg-idt3">⑷　原告における情報把握の状況と前回訴訟主要事実との関係について
+<p class="q_hg-idt3">⑸　本件訴訟における原告の主張は、信義則に反せず、許される
+<p class="q_hg-idt2">２　被告について債務不履行又は不法行為に基づく責任が成立すること
+<p class="q_hg-idt3">⑴　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
+<p class="q_hg-idt3">⑵　本件規程に定める「通報情報に関する事実を確認するための調査」について
+<p class="q_hg-idt3">⑶　「通報情報に関する事実を確認するための調査」についての考察
+<p class="q_hg-idt3">⑷　「通報情報に関する事実を確認するための調査」についての考察、つづき
+<p class="q_hg-idt3">⑸　本件規程３．６ ⑴ に違反する行為の存在
+<p class="q_hg-idt3">⑹　原告の損害
+<p class="q_hg-idt3">⑺　被告の責任
+<p class="q_hg-idt1">第３　答弁書に対する認否
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;">第４　結語
+<p class="q_hg-idt1">第１　用語の整理
+<p class="q_hg-idt2">１　本書に用いる用語および表記の意味
+<p class="q_idt2">　本書に用いる用語の意味は、本書に別段の定義のない限り、本件規程及び原告の訴状に定義するところによる。同様に、上記の書面に別段の定義のない限り、被告が定義する用語の意味を用いる。
+<p class="q_idt2">　また、原告及び上司Ａが平成２７年４月１日から平成３０年３月３１日に所属していた部署を以下「本件事業部」又は「本件グループ」といい、被告の豪州子会社を以下、単に「豪州子会社」という。引用文の一部で「≪ 本件豪州企業 ≫」のように示している表記は、固有名詞の伏せ字を意味する。
+<p class="q_hg-idt2">２　「本件通報」という用語の意味
+<p class="q_hg-idt3">⑴　本件規程に定める「通報」及び「通報情報」の範囲について
+<p class="q_idt3">　「公益通報者保護法に基づく指針（令和３年内閣府告示第１１８号）の解説」５頁の注釈５には、「内部公益通報を「受け付ける」とは、内部公益通報受付窓口のものとして表示された連絡先（電話番号、メールアドレス等）に直接内部公益通報がされた場合だけではなく、例えば、公益通報対応業務に従事する担当者個人のメールアドレス宛てに内部公益通報があった場合等、実質的に同窓口において内部公益通報を受け付けたといえる場合を含む。」と記載されている。
+<p class="q_idt3">　本件規程３．４ ⑵ では、法務部長を「対応者」というと定め、対応者たる法務部長が調査を行うにあたり、調査を補助する者として選任した者が「調査補助者」であると定めている。そして、本件規程３．４ ⑶ では、対応者たる法務部長及び選任された調査補助者は、通報情報を相互に開示する旨が定められている。実務上としても、被告も認めるとおり、被告は、被告が本件規程２．１ ⑴ アに定める法務部長宛の電子メールアドレスに対する通報を受け付けた後の対応について、通報情報の追加を通報する宛先を調査補助者のみにするように制限している（甲６）。
+<p class="q_idt3">　すなわち、調査過程などにおいて調査補助者に対して通報情報の追加を告げる行為は、本件規程１．２ ⑹ に定める「２．１の通報窓口に対してなされた通報」と実質的に同じである。
+<p class="q_idt3">　以上により、調査過程などにおいて調査補助者に対して告げた通報情報は、本件規程１．２ ⑹ に「通報情報とは、２．１の通報窓口に対してなされた通報にかかる情報をいう。」と定める「通報情報」と実質的に同じである。
+<p class="q_hg-idt3">⑵　訴状において定義した「本件通報」という用語の意味の変更について
+<p class="q_idt3">　訴状においては、「本件通報」という用語の意味を、「本件ＧＳＴの支払いに関連する事実、疑念、確認事項又は疑問事項などの情報を通報する通報を総称して「本件通報」という。」と定義していた。一方で、答弁書においては、平成２８年９月１４日に通報した通報のみを意味するようである。
+<p class="q_idt3">　上記 ⑴ のとおり、調査過程などにおいて調査補助者に対して通報情報の追加を告げる行為は、本件規程１．２ ⑹ に定める「２．１の通報窓口に対してなされた通報」と実質的に同じであるけれども、本件訴訟における混乱を避けるために、本書以降に用いる「本件通報」という用語の意味を答弁書に定義する用語の意味に変更する。
+<p class="q_hg-idt3">⑶　「本件通報」及び「本件通報に係る情報」を区別することについて
+<p class="q_idt3">　本件規程においては、通報する行為である「通報」、及び通報に係る情報である「通報情報」を区別している。同様に、公益通報者保護法においても、「公益通報」及び「通報対象事実」を区別している。
+<p class="q_idt3">　本件規程に定める対応事項は、通報者や通報という行為に対する対応（通報の受付及び調査結果の通知等）、及び通報情報という行為に係る内容に対する対応（調査、是正措置、再発防止策及び対応策）がある。そのため、「本件通報の調査」、「本件通報について報告」又は「本件通報について対応」というような表現をしてしまうと、紛らわしい表現又は不正確な表現になりやすい。
+<p class="q_idt3">　上記の理由により、被告に対しては、本件規程又は公益通報者保護法等と同様に、「本件通報」及び「本件通報に係る情報」を区別して主張することを求める。
+
+
 
 
 
@@ -19,13 +108,38 @@
 ## ２　答弁書
 ---
 <p class="base" style="margin-bottom: 1.6em;">
-作成中です。
+<strong>口頭弁論期日の２０２４年４月２２日、答弁書を受け取りました。</strong>
+
+<div class="base">
+
+````{card}
+
+<p class="q_center" style="margin-top: 1.4em;"><b>答弁書　目次</b>
+<p class="q_hg-idt1">第１　本案前の申立て
+<p class="q_hg-idt1">第２　請求の趣旨に対する答弁
+<p class="q_hg-idt1">第３　被告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_31">１</a>　本件訴訟における原告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_32">２</a>　前回訴訟における原告の主張と判決の確定
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_33">３</a>　前回訴訟の確定判決の既判力による遮断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_34">４</a>　信義則に違反する紛争の蒸し返し
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_35">５</a>　本件規程３．６⑴イ・ウの違反の不存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_36">６</a>　信義則上の義務の違反の不存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#toben_37">７</a>　結論（被告の主張）
+<p class="q_hg-idt1">第４　訴状第２（請求の原因）（２頁以下）に対する認否
+<p class="q_hg-idt1">第５　訴状第３（まとめ）（１３頁）に対する認否
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;">第６　結語
+
+```` 
+
+</div>
+<p class="base" style="margin-bottom: 1.6em;">
+以下、作成中です。
 
 
 ## ３　訴状
 ---
 <p class="base" style="margin-bottom: 1.6em;"><a name="sojou"></a>
-<strong>２０２４年２月１９日、東京簡易裁判所に、勤務先を被告とする内部通報制度に関する訴訟を提起しました。以下の quote 枠内に訴状の内容を記載しています。</strong>
+<strong>２０２４年２月１９日、東京簡易裁判所に、勤務先を被告とする内部通報制度に関する訴訟を提起しました。</strong>
 
 <div class="base">
 
@@ -40,7 +154,7 @@
 <p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#sojou_24">４</a>　経緯
 <p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#sojou_25">５</a>　被告の本件規程違反の存在
 <p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#sojou_26">６</a>　原告の損害
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#sojou_3">第３</a>　まとめ
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/syutyou2.html#sojou_3">第３</a>　まとめ
 
 ```` 
 
