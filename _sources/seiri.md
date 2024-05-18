@@ -1,6 +1,9 @@
 <p class="top">上部はダークモードスイッチ等のメニューです
 
-# こちらのページは作成中で仮のページです。
+# 作成中のページ
+
+<p class="base" style="margin-bottom: 1.6em;">
+以下の内容は、後日、こちらに <a href="https://minnanosaiban.github.io/hotline/syutyou2"><i class="fa-solid fa-link"></i></a> 掲載する予定です。。
 
 ## 答弁書
 ---

@@ -17,6 +17,42 @@
 
 <div class="base">
 
+````{card}
+
+<p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京高裁判決　目次</b>
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_1">第１</a>　控訴の趣旨
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_2">第２</a>　事案の概要
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_3">第３</a>　当裁判所の判断
+
+<p class="q_center" style="margin-bottom: 1.4em;"><b>東京地裁判決　目次</b>
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_1">第１</a>　請求
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_2">第２</a>　事案の概要
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_21">１</a>　前提事実
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_22">２</a>　争点及びこれに関する当事者の主張の要旨
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_221">⑴</a>　争点１（内部通報制度における信義則上の義務違反）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_222">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_223">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_224">⑷</a>　争点４（原告の損害）
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3">第３</a>　当裁判所の判断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1">１</a>　認定事実
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1-1">⑴</a>　本件通報１及び本件調査報告１に至る経緯等
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1-2">⑵</a>　本件通報２及び本件調査報告２に至る経緯等
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-1-3">⑶</a>　本件措置に至る経緯等
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2">２</a>　争点１について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-1">⑴</a>　（調査等の対応）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-2">⑵</a>　（被通報者等との協議・ヒアリング）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-3">⑶</a>　（通報情報の役員等への報告）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-2-4">⑷</a>　（結論）
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-3">３</a>　争点２について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-4">４</a>　争点３について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3-5">５</a>　小括
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_4">第４</a>　結論
+
+```` 
+</div>
+
+<div class="base">
+
 <blockquote>
 <p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京高裁判決</b>
 
@@ -40,35 +76,35 @@
 
 <p class="q">事実及び理由
 
-<p class="q">第１　控訴の趣旨
+<p class="q"><a name="kousai_1"></a>第１　控訴の趣旨
 
-<p class="q_hg-idt1">１　原判決を取り消す。
+<p class="q_hg-idt1"><a name="kousai_11"></a>１　原判決を取り消す。
 
-<p class="q_hg-idt1">２　被控訴人は控訴人に対し１円を支払え。
+<p class="q_hg-idt1"><a name="kousai_12"></a>２　被控訴人は控訴人に対し１円を支払え。
 
-<p class="q">第２　事案の事案の概要（略称は、原判決のものを用いる。）
+<p class="q"><a name="kousai_2"></a>第２　事案の事案の概要（略称は、原判決のものを用いる。）
 
-<p class="q_hg-idt1">１　本件は、被控訴人の従業員である控訴人が、被控訴人の社内の内部通報制度によって通報をしたが、 被控訴人は、 ①これについて十分な調査等をせず、 ②控訴人に対し、内部通報を理由とする不利益な取扱いや違法なパワーハラスメントをし、③控訴人の人事考課上のフィードバックは根拠を示しておらず、これらが信義則上の義務等に違反するなどと主張して、 債務不履行又は不法行為（従業員の行為については使用者責任）に基づく損害賠償として、 １円の支払を求めた事案である。原審は、被控訴人に債務不履行又は不法行為は認められないとして、控訴人の請求を棄却した。
+<p class="q_hg-idt1"><a name="kousai_21"></a>１　本件は、被控訴人の従業員である控訴人が、被控訴人の社内の内部通報制度によって通報をしたが、 被控訴人は、 ①これについて十分な調査等をせず、 ②控訴人に対し、内部通報を理由とする不利益な取扱いや違法なパワーハラスメントをし、③控訴人の人事考課上のフィードバックは根拠を示しておらず、これらが信義則上の義務等に違反するなどと主張して、 債務不履行又は不法行為（従業員の行為については使用者責任）に基づく損害賠償として、 １円の支払を求めた事案である。原審は、被控訴人に債務不履行又は不法行為は認められないとして、控訴人の請求を棄却した。
 
 <p class="q_idt1">控訴人は、これを不服として、控訴を提起した。
 
-<p class="q_hg-idt1">２　前提事実、争点及びこれに関する当事者の主張の要旨は、 控訴理由を踏まえて以下のとおり補正するほか、原判決 「事実及び理由」欄の「第２　事案の概要」 の１及び２のとおりであるから、これを引用する。
+<p class="q_hg-idt1"><a name="kousai_22"></a>２　前提事実、争点及びこれに関する当事者の主張の要旨は、 控訴理由を踏まえて以下のとおり補正するほか、原判決 「事実及び理由」欄の「第２　事案の概要」 の１及び２のとおりであるから、これを引用する。
 
-<p class="q_hg-idt2">⑴　原判決８頁２２行目の 「相応の措置を講ずるべき」 を 「体制として整備された仕組みに基づいて適切に対応すべき」 に改める。
+<p class="q_hg-idt2"><a name="kousai_221"></a>⑴　原判決８頁２２行目の 「相応の措置を講ずるべき」 を 「体制として整備された仕組みに基づいて適切に対応すべき」 に改める。
 
-<p class="q_hg-idt2">⑵　原判決９頁１５行目末尾に改行の上、次のとおり加える。
+<p class="q_hg-idt2"><a name="kousai_222"></a>⑵　原判決９頁１５行目末尾に改行の上、次のとおり加える。
 
 <p class="q_idt2">「このうち、①については、 移管する前の業務実態が不明であるため、本件移管の通知は嘘の通知である。②は、控訴人が行った分析方法である線形回帰分析は、時系列データの分析に使用することは適さないため、データ分析の分析方法としては間違いであるにもかかわらず、 控訴人に表計算ソフトの Microsoft Excel で分析をさせ、データ分析を行うための他の環境を与えずに、 間違った分析方法による分析を〇〇事業部長らの面前でプレゼンテーションさせた点においてパワーハラスメントに当たる。 また、③は、控訴人の担当業務を 「グループ内庶務」 のみとし、 担当業務が 「グループ内庶務」のみである社員は、部内では控訴人だけである点が控訴人に対する差別的取扱いであり、 控訴人が有する(ア)日商簿記検定２級、(イ).com Master★★、(ウ)品質管理検定３級、 (エ) Python3エンジニア認定デー夕分析試験等の資格を全く考慮していないものである。」
 
-<p class="q">第３　当裁判所の判断
+<p class="q"><a name="kousai_3"></a>第３　当裁判所の判断
 
-<p class="q_hg-idt1">１　当裁判所も、 控訴人の請求は理由がないと判断する。 その理由は、次のとおり補正するほか、原判決 「事実及び理由」 欄の「第３　当裁判所の判断」の１から４までのとおりであるから、これを引用する。
+<p class="q_hg-idt1"><a name="kousai_31"></a>１　当裁判所も、 控訴人の請求は理由がないと判断する。 その理由は、次のとおり補正するほか、原判決 「事実及び理由」 欄の「第３　当裁判所の判断」の１から４までのとおりであるから、これを引用する。
 
-<p class="q_hg-idt2">⑴　原判決３０頁１９行目の「上記」 を 「前記１⑴ア及びケ」 に改め、同２２行目末尾に 「控訴人は、移管する前の業務実態が不明であるため、本件移管の通知は嘘の通知であると主張する。 しかし、上記のとおり、 本件移管は、本件通報１に係るＧＳＴの業務を〇〇〇〇〇〇〇〇グループ所属の〇〇が担当していたところ、 〇〇が〇〇〇〇グループへ異動にしたのに伴って同グループに移管したことが認められるのであり、控訴人の主張を採用することは.できない。」 を加える。
+<p class="q_hg-idt2"><a name="kousai_311"></a>⑴　原判決３０頁１９行目の「上記」 を 「前記１⑴ア及びケ」 に改め、同２２行目末尾に 「控訴人は、移管する前の業務実態が不明であるため、本件移管の通知は嘘の通知であると主張する。 しかし、上記のとおり、 本件移管は、本件通報１に係るＧＳＴの業務を〇〇〇〇〇〇〇〇グループ所属の〇〇が担当していたところ、 〇〇が〇〇〇〇グループへ異動にしたのに伴って同グループに移管したことが認められるのであり、控訴人の主張を採用することは.できない。」 を加える。
 
-<p class="q_hg-idt2">⑵　原判決３１頁１３行目の「上記判断を左右するものではない。」を「説明会等において、 控訴人が、 データ分析の手法が適切でない等の指摘を受けて困惑するなどの場面があった事実を認めるに足りる証拠はなく、まして、 〇〇〇ＧＭや〇〇が事前にそのような事態を予想して、意図的に控訴人に平成２９年５月業務命令を出した事実も認められないから、パワーハラスメントに該当するものとはいえない。」に改める。
+<p class="q_hg-idt2"><a name="kousai_312"></a>⑵　原判決３１頁１３行目の「上記判断を左右するものではない。」を「説明会等において、 控訴人が、 データ分析の手法が適切でない等の指摘を受けて困惑するなどの場面があった事実を認めるに足りる証拠はなく、まして、 〇〇〇ＧＭや〇〇が事前にそのような事態を予想して、意図的に控訴人に平成２９年５月業務命令を出した事実も認められないから、パワーハラスメントに該当するものとはいえない。」に改める。
 
-<p class="q_hg-idt1">２　以上によれば、控訴人の請求は、いずれも理由がない。 よって、 本件控訴を棄却することとし、主文のとおり判決する。
+<p class="q_hg-idt1"><a name="kousai_32"></a>２　以上によれば、控訴人の請求は、いずれも理由がない。 よって、 本件控訴を棄却することとし、主文のとおり判決する。
 
 <p class="q">東京高等裁判所第７民事部<br>
 裁判長裁判官　〇〇〇〇
@@ -97,23 +133,23 @@
 
 <p class="q">事実及び理由
 
-<p class="q">第１　請求
+<p class="q"><a name="tisai_1"></a>第１　請求
 
 <p class="q_idt1">被告は、原告に対し、１円を支払え。
 
-<p class="q">第２　事案の概要
+<p class="q"><a name="tisai_2"></a>第２　事案の概要
 
 <p class="q_idt1">本件は、被告の従業員である原告が、①原告のした内部通報について被告は十分な調査等をせず、また、②内部通報を理由とする不利益な取扱いや違法なパワーハラスメントがされ、さらに、③被告の人事考課上のフィードバックは根拠を示しておらず、これらが信義則上の義務等に違反するなどと主張して、被告に対し、債務不履行又は不法行為（従業員の行為については使用者責任。以下同じ。）に基づく損害賠償として、慰謝料１円の支払を求める事案である。
 
-<p class="q_hg-idt1">１　前提事実（当事者間に争いがないか、後掲各証拠［特に注記しない限り枝番号を含む。以下同じ。］及び弁論の全趣旨によって容易に認定できる事実）
+<p class="q_hg-idt1"><a name="tisai_21"></a>１　前提事実（当事者間に争いがないか、後掲各証拠［特に注記しない限り枝番号を含む。以下同じ。］及び弁論の全趣旨によって容易に認定できる事実）
 
-<p class="q_hg-idt2">⑴　当事者
+<p class="q_hg-idt2"><a name="tisai_211"></a>⑴　当事者
 
 <p class="q_hg-idt3">ア　被告は、－中略－
 
 <p class="q_hg-idt3">イ　原告は、－中略－
 
-<p class="q_hg-idt2">⑵　事実経過
+<p class="q_hg-idt2"><a name="tisai_212"></a>⑵　事実経過
 
 <p class="q_hg-idt3">ア　原告は、平成２８年９月１４日、被告の社内通報窓口に対し、被告が海外取引で支払った金額に付加価値税（以下「ＧＳＴ」という。）が含まれており、そのＧＳＴの還付はオーストラリアの被告関連会社である「※※※」（･･ ･･････ ･･･ ･ ･･････（･････････）Pty. Ltd. 。以下、単に「※※※」という。）に納付されたなどと記載した通報用フォームをメールで送信した（乙２。以下「本件通報１」という。）。
 
@@ -135,15 +171,15 @@
 
 <p class="q_hg-idt3">コ　被告は、令和３年４月２日、原告に対し、本件各調査報告及びこれに関連する情報を、本件ＳＮＳに投稿することを禁じ、投稿した場合は過去の投稿を削除することを通知した（以下「本件措置」という。）。
 
-<p class="q_hg-idt2">⑶　本件規程
+<p class="q_hg-idt2"><a name="tisai_213"></a>⑶　本件規程
 
 <p class="q_idt2">被告が定めるコンプライアンスホットライン規程（以下「本件規程」という。）には、次の規定がある（乙１）。
 
 <p class="q_idt2">－中略－
 
-<p class="q_hg-idt1">２　争点及びこれに関する当事者の主張の要旨
+<p class="q_hg-idt1"><a name="tisai_22"></a>２　争点及びこれに関する当事者の主張の要旨
 
-<p class="q_hg-idt2">⑴　争点１（内部通報制度における信義則上の義務違反）［不利益取扱いの点を除く。］
+<p class="q_hg-idt2"><a name="tisai_221"></a>⑴　争点１（内部通報制度における信義則上の義務違反）［不利益取扱いの点を除く。］
 
 <p class="q_hg-idt2">（原告の主張の要旨）
 
@@ -165,7 +201,7 @@
 
 <p class="q_idt1">否認又は争う。
 
-<p class="q_hg-idt2">⑵　争点２（不利益取扱い及びパワーハラスメントの有無）
+<p class="q_hg-idt2"><a name="tisai_222"></a>⑵　争点２（不利益取扱い及びパワーハラスメントの有無）
 
 <p class="q_hg-idt2">（原告の主張の要旨）
 
@@ -177,7 +213,7 @@
 
 <p class="q_idt2">否認又は争う。
 
-<p class="q_hg-idt2">⑶　争点３（人材育成体制における信義則上の義務違反等）
+<p class="q_hg-idt2"><a name="tisai_223"></a>⑶　争点３（人材育成体制における信義則上の義務違反等）
 
 <p class="q_hg-idt2">（原告の主張の要旨）
 
@@ -193,7 +229,7 @@
 
 <p class="q_idt2">否認又は争う。
 
-<p class="q_hg-idt2">⑷　争点４（原告の損害）
+<p class="q_hg-idt2"><a name="tisai_224"></a>⑷　争点４（原告の損害）
 
 <p class="q_hg-idt2">（原告の主張の要旨）
 
@@ -203,12 +239,12 @@
 
 <p class="q_idt2">否認又は争う。
 
-<p class="q">第３　当裁判所の判断
+<p class="q"><a name="tisai_3"></a>第３　当裁判所の判断
 
-<p class="q_hg-idt1">１　認定事実
+<p class="q_hg-idt1"><a name="tisai_31"></a>１　認定事実
 <p class="q_idt1">前記前提事実に加え、後掲各証拠及び弁論の全趣旨を総合すると、次の事実が認められる。
 
-<p class="q_hg-idt2">⑴　本件通報１及び本件調査報告１に至る経緯等
+<p class="q_hg-idt2"><a name="tisai_311"></a>⑴　本件通報１及び本件調査報告１に至る経緯等
 
 <p class="q_hg-idt3">ア　<a name="jdg3-1-1-ア"></a>原告は、平成２８年当時、〇〇〇〇〇〇〇〇グループに所属していたが、同年１月７日、〇〇〇ＧＭに対し、オーストラリアの〇〇〇〇〇〇〇〇〇事務所（以下「本件豪州企業」という。）が被告に発行した請求書にはＧＳＴが記載されているが、被告に支払義務がなく、誤りがあるおそれがある旨を伝えた。
 
@@ -266,7 +302,7 @@
 
 <p class="q_idt3">なお、法務グループは、本件通報１の調査結果等についても、関係役員等に報告しなかった。
 
-<p class="q_hg-idt2">⑵　本件通報２及び本件調査報告２に至る経緯等
+<p class="q_hg-idt2"><a name="tisai_312"></a>⑵　本件通報２及び本件調査報告２に至る経緯等
 
 <p class="q_hg-idt3">ア　<a name="jdg3-1-2-ア"></a>〇〇は、平成２９年１０月１６日、オーストラリアＧＳＴの過年度支払分については、※※※において同年９月までに還付請求を実施し、※※※への還付額については被告への戻入れも実施済みである、具体的処理は、経理部の指示に従って、支払の際は一般管理費で計上し、戻入れの際は雑収入で計上したなどと報告する〇〇事業部部長宛てのメールを送信し、原告もこれを受信した（乙１６［添付資料１９頁］）。
 
@@ -308,7 +344,7 @@
 
 <p class="q_hg-idt3">コ　原告は、令和２年４月１日、〇〇〇〇〇〇〇部〇〇〇〇グループに異動し、その担当業務は「グループ内庶務」とされた（令和２年度業務分担）（前記前提事実⑵ク）
 
-<p class="q_hg-idt2">⑶　本件措置に至る経緯等
+<p class="q_hg-idt2"><a name="tisai_313"></a>⑶　本件措置に至る経緯等
 
 <p class="q_hg-idt3">ア　原告は、令和２年３月２７日、本件ＳＮＳに、本投稿は、コンプライアンスホットライン制度の責任者である〇〇社長に伝えるものであるとした上で、本件各通報について、契約書におけるＧＳＴに関する記載内容等について十分な調査がされていないなどとして、本質や論点がすり替わっていない調査をお願いしたいなどとする投稿をした。
 
@@ -330,9 +366,9 @@
 
 <p class="q_hg-idt3">オ　被告は、令和３年４月２日、本件措置をした（前記前提事実⑵コ）。
 
-<p class="q_hg-idt1">２　争点１について（内部通報制度における信義則上の義務違反）［不利益取扱いの点を除く。］
+<p class="q_hg-idt1"><a name="tisai_32"></a>２　争点１について（内部通報制度における信義則上の義務違反）［不利益取扱いの点を除く。］
 
-<p class="q_hg-idt32">⑴ア　原告は、まず、原告が通報窓口担当者に伝えた内容は、特段の理由がない限り、全て通報情報であり、被告は、内部通報を行った従業員である原告に対し、通報情報に関する事実を確認するための調査を行う信義則上の義務を負うなどとした上で、大要、①原告が、本件通報１の当初から、ＧＳＴの支払手続をした事実及び支払手続をした際の会計計上科目を伝えて、不適切会計のおそれがある旨等を通報していたのに、被告は契約内容及び会計帳簿の確認等をせず、②その後の平成２９年７月２８日等に、原告が、通報情報として、(a)被告と海外企業との契約内容に関すること、(b)※※※がＧＳＴ相当額の還付を受けた際の被告及び※※※における会計処理に関すること、(c)原告が〇〇〇ＧＭにＧＳＴについて確認を行ったタイミングで、〇〇〇ＧＭから必要性に疑問のある資料作成を３回命じられたこと（本件各業務命令）を伝えるなどしていたのに、被告は契約内容等に加えて上記資料の確認等もせず、③さらに、原告が、本件通報２で、被告と〇〇〇間の会計処理について疑問視している旨等を伝え、また、調査補助者の〇〇も、平成３１年３月１２日、被告及び※※※において会計処理が適切であったか否かや、税制及び契約内容を確認した上でＧＳＴの支払を行っていたか否か等を確認する旨メールに記載していたのに、契約内容及び会計帳簿の確認等をしなかったなどとして、もって、被告は調査義務を怠り（上記②(c)については、通報者に対する不利益取扱いの事実又はそのおそれのある事実であることを理由に、通報者の保護の徹底を定めた本件規程３．１１⑴上も調査義務等があると主張するようである。）また、本件規程３．１⑴では、調査を実施しない場合には調査しない旨及び理由の通知が求められているのに、被告はこれも怠ったなどと主張する。
+<p class="q_hg-idt32"><a name="tisai_321"></a>⑴ア　原告は、まず、原告が通報窓口担当者に伝えた内容は、特段の理由がない限り、全て通報情報であり、被告は、内部通報を行った従業員である原告に対し、通報情報に関する事実を確認するための調査を行う信義則上の義務を負うなどとした上で、大要、①原告が、本件通報１の当初から、ＧＳＴの支払手続をした事実及び支払手続をした際の会計計上科目を伝えて、不適切会計のおそれがある旨等を通報していたのに、被告は契約内容及び会計帳簿の確認等をせず、②その後の平成２９年７月２８日等に、原告が、通報情報として、(a)被告と海外企業との契約内容に関すること、(b)※※※がＧＳＴ相当額の還付を受けた際の被告及び※※※における会計処理に関すること、(c)原告が〇〇〇ＧＭにＧＳＴについて確認を行ったタイミングで、〇〇〇ＧＭから必要性に疑問のある資料作成を３回命じられたこと（本件各業務命令）を伝えるなどしていたのに、被告は契約内容等に加えて上記資料の確認等もせず、③さらに、原告が、本件通報２で、被告と〇〇〇間の会計処理について疑問視している旨等を伝え、また、調査補助者の〇〇も、平成３１年３月１２日、被告及び※※※において会計処理が適切であったか否かや、税制及び契約内容を確認した上でＧＳＴの支払を行っていたか否か等を確認する旨メールに記載していたのに、契約内容及び会計帳簿の確認等をしなかったなどとして、もって、被告は調査義務を怠り（上記②(c)については、通報者に対する不利益取扱いの事実又はそのおそれのある事実であることを理由に、通報者の保護の徹底を定めた本件規程３．１１⑴上も調査義務等があると主張するようである。）また、本件規程３．１⑴では、調査を実施しない場合には調査しない旨及び理由の通知が求められているのに、被告はこれも怠ったなどと主張する。
 
 <p class="q_hg-idt3"><a name="handan1"></a>イ　しかしながら、そもそも、前記前提事実⑶のとおり、被告の内部通報制度について定めた本件規程では、その目的について、被告及び被告グループ会社（以下「被告等」という。）における不正行為等（法令等に違反する行為または違反するおそれのある行為）を早期に是正し、もって被告等のコンプライアンス体制を強化することである旨が規定され（１．１）、調査の結果、法令等に違反する事実等が確認された場合は、是正措置及び再発防止策等を検討し、速やかにこれらを実行する（３．５）などと規定されている一方、通報者に対しては、通報を理由とした不利益取扱いの禁止（２．４、３．１１）や調査結果等の通知（３．６⑴）が定められるにとどまっていることに照らすと、被告の内部通報における調査等は、基本的に、不正行為等を早期に発見、是正して被告等の業務の適正化を図るためのものであって、通報者個人のためにされるものではないというべきである。
 
@@ -354,11 +390,11 @@
 
 <p class="q_hg-idt3">エ　以上によれば、本件各通報を受けた被告の調査等の対応に関し、原告に対する信義則上の義務違反があったということはできない。
 
-<p class="q_hg-idt2">⑵　次に、原告は、被告が、本件通報１に関し、法務グループと〇〇〇〇〇〇〇〇グループのＧＭ間で協議をしたこと、本件通報２に関し、関係者のヒアリング調査を実施したことが、本件規程３．１２の通報情報の厳重な管理を行わなかったものとして、信義則上の義務違反である旨主張する。しかしながら、上記認定のとおり、原告は、本件通報１に関し、平成２９年１月５日、〇〇に対し、ＧＭ間の相談、確認については被告の判断に任せる、〇〇〇ＧＭに本件を伝えると通知者を特定できることはほぼ間違いがないが、覚悟しているなどと告げ、本件通報２に関しても、平成３０年１２月１９日、〇〇に対し、〇〇〇ＧＭや〇〇等に直接確認してもらうことは全く構わないなどと告げていたのであるから、上記ＧＭ間での協議や〇〇〇ＧＭ等へのヒアリングを原告が了承していたことは明らかであり、調査の具体的方法等は被告の合理的裁量に委ねられることにも照らすと、被告が、ＧＭ間での協議や関係者のヒアリング調査を実施したことが信義則上の義務違反であるなどとは到底いえない。
+<p class="q_hg-idt2"><a name="tisai_322"></a>⑵　次に、原告は、被告が、本件通報１に関し、法務グループと〇〇〇〇〇〇〇〇グループのＧＭ間で協議をしたこと、本件通報２に関し、関係者のヒアリング調査を実施したことが、本件規程３．１２の通報情報の厳重な管理を行わなかったものとして、信義則上の義務違反である旨主張する。しかしながら、上記認定のとおり、原告は、本件通報１に関し、平成２９年１月５日、〇〇に対し、ＧＭ間の相談、確認については被告の判断に任せる、〇〇〇ＧＭに本件を伝えると通知者を特定できることはほぼ間違いがないが、覚悟しているなどと告げ、本件通報２に関しても、平成３０年１２月１９日、〇〇に対し、〇〇〇ＧＭや〇〇等に直接確認してもらうことは全く構わないなどと告げていたのであるから、上記ＧＭ間での協議や〇〇〇ＧＭ等へのヒアリングを原告が了承していたことは明らかであり、調査の具体的方法等は被告の合理的裁量に委ねられることにも照らすと、被告が、ＧＭ間での協議や関係者のヒアリング調査を実施したことが信義則上の義務違反であるなどとは到底いえない。
 
 <p class="q_idt2">これに対し、原告は、契約内容や会計帳簿等の資料を確認すればＧＭ間での協議やヒアリング調査の必要はないなどと主張するが、調査の具体的方法等は被告の合理的裁量に委ねられるなどの上記認定説示の事情に照らし、上記判断を左右するものではない。
 
-<p class="q_hg-idt32">⑶ア　さらに、原告は、本件各通報について、被告が、①通報情報の役員等への報告（本件規程３．２⑴、３．６⑶）や、②再度、通報窓口に通報することが可能であることの原告への通知（同３．６⑴エ）を行っていなかったなどとして、信義則上の義務違反があると主張する。
+<p class="q_hg-idt32"><a name="tisai_323"></a>⑶ア　さらに、原告は、本件各通報について、被告が、①通報情報の役員等への報告（本件規程３．２⑴、３．６⑶）や、②再度、通報窓口に通報することが可能であることの原告への通知（同３．６⑴エ）を行っていなかったなどとして、信義則上の義務違反があると主張する。
 
 <p class="q_hg-idt3">イ　しかしながら、まず、上記①について、本件規程において、通報情報や調査結果等を関係役員等に対して報告するなどと規定されている（３．２３．６⑶）のは、被告等の業務の適正化のために（上記⑴イ参照）関係役員等がこれらの情報を把握できるようにするためのものと解され、通報者のためのものとは解されないから、被告が原告に対してその旨の義務を負うものとはいえない。
 
@@ -370,13 +406,13 @@
 
 <p class="q_hg-idt3">エ　以上によれば、上記①②いずれについても、被告の原告に対する損害賠償責任を生じさせることとなる信義則上の義務違反があったものとすることはできない。
 
-<p class="q_hg-idt2">⑷　原告はその他るる主張するが、いずれも採用できず、本件各通報に関する被告の対応（ただし、不利益取扱いの点を除く。）について、信義則上の義務違反があったとはいえない。
+<p class="q_hg-idt2"><a name="tisai_324"></a>⑷　原告はその他るる主張するが、いずれも採用できず、本件各通報に関する被告の対応（ただし、不利益取扱いの点を除く。）について、信義則上の義務違反があったとはいえない。
 
-<p class="q_hg-idt1">３　争点２について（不利益取扱い及びパワーハラスメントの有無）
+<p class="q_hg-idt1"><a name="tisai_33"></a>３　争点２について（不利益取扱い及びパワーハラスメントの有無）
 
-<p class="q_hg-idt2">⑴　原告は、①本件移管（これを理由に、〇〇〇ＧＭが原告に対してＧＳＴについて言及しなかったことを含む。）②平成２９年５月業務命令、③本件各業務分担及び④本件措置が、本件各通報を理由とした不利益な取扱いであるとか、違法なパワーハラスメントであるなどと主張する。
+<p class="q_hg-idt2"><a name="tisai_331"></a>⑴　原告は、①本件移管（これを理由に、〇〇〇ＧＭが原告に対してＧＳＴについて言及しなかったことを含む。）②平成２９年５月業務命令、③本件各業務分担及び④本件措置が、本件各通報を理由とした不利益な取扱いであるとか、違法なパワーハラスメントであるなどと主張する。
 
-<p class="q_hg-idt32">⑵ア　しかしながら、まず、上記①の本件移管については、上記認定のとおり、本件通報に係るＧＳＴの業務を担当していた〇〇の異動に伴ってされたものであるから、原告に対する不利益取扱いでないことはもとより、違法なパワーハラスメントともいえない。
+<p class="q_hg-idt32"><a name="tisai_332"></a>⑵ア　しかしながら、まず、上記①の本件移管については、上記認定のとおり、本件通報に係るＧＳＴの業務を担当していた〇〇の異動に伴ってされたものであるから、原告に対する不利益取扱いでないことはもとより、違法なパワーハラスメントともいえない。
 
 <p class="q_idt3">また、上記認定のとおり、〇〇〇ＧＭは、原告から平成２８年３月３１日にＧＳＴについて問合せを受けると、同日、その対応方針を整理した上、当面は原告の手を煩わせる事項はないが、何かあれば相談するなどと返信していたものであり、その後、本件移管の前後を通じ、直接の担当者でない原告に対して、特段、ＧＳＴについて言及しなかったとしても、原告が主張するような隠蔽等の不当な動機に基づくとか、違法なパワーハラスメント等に当たるなどということはできない。
 
@@ -390,20 +426,20 @@
 
 <p class="q_hg-idt3">オ　以上によると、上記⑴の原告の主張はいずれも採用できない。
 
-<p class="q_hg-idt1">４　争点３について（人材育成体制における信義則上の義務違反等）
+<p class="q_hg-idt1"><a name="tisai_34"></a>４　争点３について（人材育成体制における信義則上の義務違反等）
 
-<p class="q_hg-idt2">⑴　原告は、被告が、従業員に対して公正な評価等を実施する信義則上の義務を負うなどとした上で、被告の原告に対する評価コメントは、「業務の推進にあたっては、（略）周囲の意見もよく聞き、柔軟に取り組んでくれることを期待する。」（令和２年度乙２１）などと裏付けとなる根拠事実を示していない上、「業務遂行にあたっての基本姿勢、教育が出来ていない。債権回収業務において督促を怠り多額の回収漏れを発生させた、ＧＭへの相談・承諾なしにＧＭ承認済メールを発信した、先輩社員への相談時、ノートも取らずに同じ質問を何度も繰り返した等々、これまでどのような教育を受け、業務を遂行してきたのか理解に苦しむ。」（平成２３年度。乙１９の２）などと、人材育成体制の趣旨を逸脱した人事権の濫用によるいじめともいえる事態であるなどとして、信義則上の義務違反があると主張する。
+<p class="q_hg-idt2"><a name="tisai_341"></a>⑴　原告は、被告が、従業員に対して公正な評価等を実施する信義則上の義務を負うなどとした上で、被告の原告に対する評価コメントは、「業務の推進にあたっては、（略）周囲の意見もよく聞き、柔軟に取り組んでくれることを期待する。」（令和２年度乙２１）などと裏付けとなる根拠事実を示していない上、「業務遂行にあたっての基本姿勢、教育が出来ていない。債権回収業務において督促を怠り多額の回収漏れを発生させた、ＧＭへの相談・承諾なしにＧＭ承認済メールを発信した、先輩社員への相談時、ノートも取らずに同じ質問を何度も繰り返した等々、これまでどのような教育を受け、業務を遂行してきたのか理解に苦しむ。」（平成２３年度。乙１９の２）などと、人材育成体制の趣旨を逸脱した人事権の濫用によるいじめともいえる事態であるなどとして、信義則上の義務違反があると主張する。
 
 <p class="q_idt2">しかしながら、使用者が、労働者の人事評価をするに際して、逐一、その裏付けとなる具体的な根拠事実を示す義務があるなどとは解されない上、原告の業務上の問題点を指摘する上記コメントの表現それ自体が人事権の濫用であるとかいじめであるなどということもできず（原告も、多額の債権回収漏れ等が発生した事実は否定していない。）、原告の主張は採用できない。
 
-<p class="q_hg-idt2">⑵　また、原告は、〇〇社長が被告従業員に向けて発したメッセージには、「今後の女性活躍推進について」として「新たな成長機会につながる異動」を行っていく旨が記載されていたのに、令和２年４月の異動後の原告の担当職務が従前と同様の「グループ内庶務」であるから、〇〇社長のメッセージは見せかけにすぎず、信義則上の義務に違反するとともに、女性である原告の職域が庶務業務等に限定されており、雇用機会均等法６条に違反するなどと主張する。
+<p class="q_hg-idt2"><a name="tisai_342"></a>⑵　また、原告は、〇〇社長が被告従業員に向けて発したメッセージには、「今後の女性活躍推進について」として「新たな成長機会につながる異動」を行っていく旨が記載されていたのに、令和２年４月の異動後の原告の担当職務が従前と同様の「グループ内庶務」であるから、〇〇社長のメッセージは見せかけにすぎず、信義則上の義務に違反するとともに、女性である原告の職域が庶務業務等に限定されており、雇用機会均等法６条に違反するなどと主張する。
 
 <p class="q_idt2">しかしながら、職種限定合意等がない限り、労働者にいかなる業務を担当させるかは基本的に使用者の裁量に委ねられるものであり、〇〇社長が被告従業員全体に宛てて上記のような抽象的なメッセージ（認定事実⑵カ）を発したとしても直ちに、被告が、個々の従業員に対し、従前と全く異なる業務を担当させるなどの法的義務を負うものとは解されない。また、被告における女性従業員の職域一般が、庶務業務等に限定されているなどの事情はうかがわれず、上記３⑵ウのとおり、令和２年度業務分担が、原告の適性や課題等を踏まえたものとみることができることにも照らすと、これが原告の性別を理由とした差別的取扱いであるとは認められない。以上によれば、令和２年度業務分担が、信義則上の義務に違反するとか、雇用機会均等法６条に違反するなどということはできない。
 
-<p class="q_hg-idt1">５　小括
+<p class="q_hg-idt1"><a name="tisai_35"></a>５　小括
 <p class="q_idt1">以上によれば、原告の主張はいずれも採用できず、被告は、原告に対して債務不履行又は不法行為に基づく損害賠償責任を負わないというべきである。
 
-<p class="q">第４　結論
+<p class="q"><a name="tisai_4"></a>第４　結論
 <p class="q_idt1">よって、その余の点について判断するまでもなく、原告の請求はいずれも理由がないから棄却することとして、主文のとおり判決する。
 
 <p class="q">東京地方裁判所民事第１１部<br>
@@ -422,7 +458,6 @@
 <p class="base" style="margin-bottom: 1.6em;">
 <strong>判決文の内容だけでは状況が把握できないことがあるため、下線で装飾し、枠内に原告による注記を記載しています。装飾のない判決文はこちら <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#zenbun"><i class="fa-solid fa-link"></i></a> に記載しています。</strong>
 
-
 <div class="base">
 
 ````{card}
@@ -430,7 +465,31 @@
 <p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京高裁判決　目次</b>
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai1">第１</a>　控訴の趣旨
 <p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai2">第２</a>　事案の概要, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.1">No.1</a>
-<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai3">第３</a>　当裁判所の判断, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.2">No.2</a>
+<p class="q" style="margin-bottom: 2.8em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai3">第３</a>　当裁判所の判断, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.2">No.2</a>
+
+<p class="q_center" style="margin-bottom: 1.4em;"><b>東京地裁判決　目次</b>
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai1">第１</a>　請求
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2">第２</a>　事案の概要
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-1">１</a>　前提事実, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.3">No.3</a> 
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2">２</a>　争点及びこれに関する当事者の主張の要旨
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-1">⑴</a>　争点１（内部通報制度における信義則上の義務違反）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.4">No.4</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-2">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.5">No.5</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-3">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-4">⑷</a>　争点４（原告の損害）
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3">第３</a>　当裁判所の判断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1">１</a>　認定事実
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-1">⑴</a>　本件通報１及び本件調査報告１に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.6">No.6</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.7">No.7</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.8">No.8</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.9">No.9</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.10">No.10</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.11">No.11</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.12">No.12</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-2">⑵</a>　本件通報２及び本件調査報告２に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.13">No.13</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.14">No.14</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.15">No.15</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.16">No.16</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-3">⑶</a>　本件措置に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.17">No.17</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2">２</a>　争点１について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-1">⑴</a>　（調査等の対応）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.18">No.18</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.19">No.19</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.20">No.20</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.21">No.21</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-2">⑵</a>　（被通報者等との協議・ヒアリング）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.22">No.22</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.23">No.23</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-3">⑶</a>　（通報情報の役員等への報告）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.24">No.24</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-4">⑷</a>　（結論）
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-3">３</a>　争点２について, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.25">No.25</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-4">４</a>　争点３について, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.26">No.26</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.27">No.27</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-5">５</a>　小括
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai4">第４</a>　結論
 
 ```` 
 </div>
@@ -493,41 +552,8 @@
 <p class="k_hg-idt2"><a name="hosei3"></a>⑴　原判決３０頁１９行目の「上記」 を 「前記１⑴ア及びケ」 に改め、同２２行目末尾に 「<span class="u_or"><sub>No.2 </sub>控訴人は、移管する前の業務実態が不明であるため、本件移管の通知は嘘の通知であると主張する。</span> しかし、上記のとおり、 本件移管は、本件通報１に係るＧＳＴの業務を〇〇〇〇〇〇〇〇グループ所属の〇〇が担当していたところ、 〇〇が〇〇〇〇グループへ異動にしたのに伴って同グループに移管したことが認められるのであり、控訴人の主張を採用することは.できない。」 を加える。
 <p class="k_hg-idt2"><a name="hosei4"></a>⑵　原判決３１頁１３行目の「上記判断を左右するものではない。」を「説明会等において、 控訴人が、 データ分析の手法が適切でない等の指摘を受けて困惑するなどの場面があった事実を認めるに足りる証拠はなく、まして、 〇〇〇ＧＭや〇〇が事前にそのような事態を予想して、意図的に控訴人に平成２９年５月業務命令を出した事実も認められないから、パワーハラスメントに該当するものとはいえない。」に改める。
 <p class="k_hg-idt1">２　以上によれば、控訴人の請求は、いずれも理由がない。 よって、 本件控訴を棄却することとし、主文のとおり判決する。
-<p class="k" style="margin-bottom: 1.6em;">東京高等裁判所第７民事部<br>
+<p class="k" style="margin-bottom: 2.8em;">東京高等裁判所第７民事部<br>
 裁判長裁判官　〇〇〇〇
-
-
-<div class="base">
-
-````{card}
-
-<p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>東京地裁判決　目次</b>
-
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai1">第１</a>　請求
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2">第２</a>　事案の概要
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-1">１</a>　前提事実, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.3">No.3</a> 
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2">２</a>　争点及びこれに関する当事者の主張の要旨
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-1">⑴</a>　争点１（内部通報制度における信義則上の義務違反）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.4">No.4</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-2">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.5">No.5</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-3">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-4">⑷</a>　争点４（原告の損害）
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3">第３</a>　当裁判所の判断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1">１</a>　認定事実
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-1">⑴</a>　本件通報１及び本件調査報告１に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.6">No.6</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.7">No.7</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.8">No.8</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.9">No.9</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.10">No.10</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.11">No.11</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.12">No.12</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-2">⑵</a>　本件通報２及び本件調査報告２に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.13">No.13</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.14">No.14</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.15">No.15</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.16">No.16</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-3">⑶</a>　本件措置に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.17">No.17</a>
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2">２</a>　争点１について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-1">⑴</a>　（調査等の対応）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.18">No.18</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.19">No.19</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.20">No.20</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.21">No.21</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-2">⑵</a>　（被通報者等との協議・ヒアリング）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.22">No.22</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.23">No.23</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-3">⑶</a>　（通報情報の役員等への報告）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.24">No.24</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-4">⑷</a>　（結論）
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-3">３</a>　争点２について, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.25">No.25</a>
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-4">４</a>　争点３について, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.26">No.26</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.27">No.27</a>
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-5">５</a>　小括
-<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai4">第４</a>　結論
-
-```` 
-</div>
 
 <p class="k" style="margin-top: 1.4em;">令和４年１２月２２日判決言渡　同日原本領収　裁判所書記官<br>
 令和３年（ワ）第〇〇〇〇〇号　損害賠償請求事件<br>

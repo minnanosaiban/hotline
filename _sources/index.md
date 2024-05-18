@@ -31,7 +31,7 @@
 ---
 
 <p class="base">
-裁判所の判断は、以下のとおりです。なお、判決文全文 <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#handan1"><i class="fa-solid fa-link"></i></a> は、こちらに掲載しています。
+裁判所の判断は、以下のとおりです。なお、判決文全文は、こちらに <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#handan1"><i class="fa-solid fa-link"></i></a> 掲載しています。
 
 `````{margin} 
 ````{admonition} <span class="title_ad" style="font-size:12px;">注</span>
