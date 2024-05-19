@@ -164,7 +164,7 @@
 |<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「通報情報に関する事実」について|<p style="font-size: 12px;">本件支払手続（甲３）、他。|<p style="font-size: 12px;">不明。
 |<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「調査」に係る調査事項について|<p style="font-size: 12px; white-space: nowrap;">本件支払手続（甲３）に係<br>る支払の内容が契約条項又<br>は租税条約などの法令等に<br>基づいていたのか否かにつ<br>いて確認する事項が含まれ<br>ていたと推定される。|<p style="font-size: 12px;">不明。|
 |<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ に定める「調査結果等の通知・報告」について|<p style="font-size: 12px; white-space: nowrap;">本件調査報告１（乙１１）<br>及び本件調査報告２（乙<br>１２）。|<p style="font-size: 12px; white-space: nowrap;">乙１０について、本件規程<br>３．６ ⑴ に定める調査報<br>告であるか否かが不明瞭。|
-|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ ア に定める「法令等に違反する事実又は違反するおそれのある事実」の存在について|<p style="font-size: 12px; white-space: nowrap;">本件支払手続（甲３）に係る<br>支払の内容が契約内容に<br>基づいていないという不正<br>行為等の事実が存在した<br>（甲２１）。|<p style="font-size: 12px;">不明。|
+|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px; white-space: nowrap;">本件規程３．６ ⑴ ア に定<br>める「法令等に違反する事<br>実又は違反するおそれのあ<br>る事実」の存在について|<p style="font-size: 12px; white-space: nowrap;">本件支払手続（甲３）に係る<br>支払の内容が契約内容に<br>基づいていないという不正<br>行為等の事実が存在した<br>（甲２１）。|<p style="font-size: 12px;">不明。|
 |<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ イ又はウに定める是正措置、再発防止策又は対応策について|<p style="font-size: 12px; white-space: nowrap;">何かしらの措置及び本件契<br>約の措置を実行した（甲２<br>１）。|<p style="font-size: 12px;">不明。|
 
 </div>
