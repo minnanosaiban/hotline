@@ -104,7 +104,7 @@
 <p class="q_hg-idt3"><b>⑴　表１．本件内部通報制度の仕組みに関する用語</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px; text-align: center; "><b>用語</b>|<p style="font-size: 12px; text-align: center; "><b>用語の意味</b>|
+| 　　        |<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>用語の意味</b>|
 |------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「本件通報」|<p style="font-size: 12px; white-space: nowrap;">　原告が平成２８年９月１４日に、本件規程２．１⑴ に<br>定める本件内部通報制度の社内通報窓口の電子メールア<br>ドレス宛に本件規程１．２ ⑸ に定める「通報」をした行<br>為をいう。（乙２）|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「追加通報」|<p style="font-size: 12px; white-space: nowrap;">　原告が平成３０年１１月２７日に、本件規程２．１ ⑴<br>に定める本件内部通報制度の社内通報窓口の電子メール<br>アドレス宛に本件規程１．２ ⑸ に定める「通報」をした<br>行為をいう。（乙９）|
@@ -119,7 +119,7 @@
 <p class="q_hg-idt3"><b>⑵　表２．「通報情報に関する事実」に関する用語</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px; text-align: center; "><b>用語</b>|<p style="font-size: 12px; text-align: center; "><b>用語の意味</b>|
+| 　　        |<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>用語の意味</b>|
 |------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「本件支払手続」|<p style="font-size: 12px; white-space: nowrap;">　原告が平成２７年１１月６日に、本件豪州企業に対し<br>てコンサルタントの役務対価と本件ＧＳＴ 75,437.10 豪<br>ドルを合わせた金額 836,601.06 豪ドルを支払うための手<br>続をした行為をいう。（甲３）|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「還付手続対応説明」|<p style="font-size: 12px; white-space: nowrap;">　上司Ａが平成２８年３月３１日に、原告に対して本件<br>支払手続に係る支払の内容に関する対応事項を説明した<br>行為をいう。なお、説明に係る内容は甲４に記載する内<br>容である。（甲４）|
@@ -129,7 +129,7 @@
 |<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px; white-space: nowrap;">「金銭の流れが一部不<br>明瞭な送金」|<p style="font-size: 12px;">　豪州子会社が平成２９年７月３１日に、被告に対して<br>79,315.52 豪ドルを送金した行為をいう。（甲２７）|
 |<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">「本件契約の措置」|<p style="font-size: 12px; white-space: nowrap;">　被告が平成３０年９月１３日に、「豪州国外の顧客に<br>対するサービス提供費用には、豪州ＧＳＴを課さない。<br>なお、本件豪州企業がＧＳＴを課すべきと判断すれば、<br>ＧＳＴ込みで請求する権利を有する。」という定めが存<br>在する被告と本件豪州企業との間の本件契約を締結した<br>行為をいう。なお、被告と本件豪州企業との間で締結し<br>た契約には、本件契約が締結されるまでの間、ＧＳＴに<br>関する定めは存在していなかった。（甲２１）|
 |<p style="font-size: 12px;"><b>ク</b>|<p style="font-size: 12px;">「社内ＳＮＳ投稿」|<p style="font-size: 12px; white-space: nowrap;">　原告が令和２年３月２７日に、本件ＳＮＳに対して投<br>稿した行為をいう。なお、投稿に係る内容は甲２６に記<br>載する内容である。（甲２６）|
-|<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px; white-space: nowrap;">　調査補助者が令和２年６月２５日及び同年７月９日<br>に、原告に対して、本件契約に係る契<br>約の内容、本件契約の措置を実行する前に被告と本件豪州企業との間で締<br>結した契約の内容、及び本件豪州企業が被告に対してＧ<br>ＳＴを請求していたのは平成２９年４月までであった事<br>実を、社内ＳＮＳ投稿に係る内容に対する回答として通<br>知する電子メールを送信した行為をいう。（甲２１）|
+|<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px; white-space: nowrap;">　調査補助者が令和２年６月２５日及び同年７月９日<br>に、原告に対して、本件契約に係る契約の内容、本件契<br>約の措置を実行する前に被告と本件豪州企業との間で締<br>結した契約の内容、及び本件豪州企業が被告に対してＧ<br>ＳＴを請求していたのは平成２９年４月までであった事<br>実を、社内ＳＮＳ投稿に係る内容に対する回答として通<br>知する電子メールを送信した行為をいう。（甲２１）|
 
 </div>
 
