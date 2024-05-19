@@ -104,7 +104,7 @@
 <p class="q_hg-idt3"><b>⑴　表１．本件内部通報制度の仕組みに関する用語</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>用語の意味</b>|
+| 　　        |<p style="font-size: 12px; text-align: center; "><b>用語</b>|<p style="font-size: 12px; text-align: center; "><b>用語の意味</b>|
 |------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「本件通報」|<p style="font-size: 12px;">　原告が平成２８年９月１４日に、本件規程２．１⑴ に定める本件内部通報制度の社内通報窓口の電子メールアドレス宛に本件規程１．２ ⑸ に定める「通報」をした行為をいう。（乙２）|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「追加通報」|<p style="font-size: 12px;">　原告が平成３０年１１月２７日に、本件規程２．１ ⑴ に定める本件内部通報制度の社内通報窓口の電子メールアドレス宛に本件規程１．２ ⑸ に定める「通報」をした行為をいう。（乙９）|
@@ -119,7 +119,7 @@
 <p class="q_hg-idt3"><b>⑵　表２．「通報情報に関する事実」に関する用語</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>用語の意味</b>|
+| 　　        |<p style="font-size: 12px; text-align: center; "><b>用語</b>|<p style="font-size: 12px; text-align: center; "><b>用語の意味</b>|
 |------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">「本件支払手続」|<p style="font-size: 12px;">　原告が平成２７年１１月６日に、本件豪州企業に対してコンサルタントの役務対価と本件ＧＳＴ 75,437.10 豪ドルを合わせた金額 836,601.06 豪ドルを支払うための手続をした行為をいう。（甲３）|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">「還付手続対応説明」|<p style="font-size: 12px;">　上司Ａが平成２８年３月３１日に、原告に対して本件支払手続に係る支払の内容に関する対応事項を説明した行為をいう。なお、説明に係る内容は甲４に記載する内容である。（甲４）|
@@ -136,7 +136,7 @@
 <p class="q_hg-idt3"><b>⑶　表３．時系列における用語と書証番号の整理</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;"><b>年月日</b>|<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>書証番号</b>|
+| 　　        |<p style="font-size: 12px; text-align: center; "><b>年月日</b>|<p style="font-size: 12px; text-align: center; "><b>用語</b>|<p style="font-size: 12px; text-align: center; "><b>書証番号</b>|
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">平成27年11月16日|<p style="font-size: 12px;">「本件支払手続」|<p style="font-size: 12px;">甲３|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">平成28年3月31日|<p style="font-size: 12px;">「還付手続対応説明」|<p style="font-size: 12px;">甲４|
@@ -157,9 +157,9 @@
 <p class="q_hg-idt3"><b>⑷　表４．本件規程に定める事項と当事者の主張との対応表</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;"><b></b>|<p style="font-size: 12px;"><b>原告の主張</b>|<p style="font-size: 12px;"><b>被告の主張</b>|
+| 　　        |<p style="font-size: 12px;"><b></b>|<p style="font-size: 12px; text-align: center; "><b>原告の主張</b>|<p style="font-size: 12px; text-align: center; "><b>被告の主張</b>|
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">本件規程１．２ ⑸ に定める「通報」について|<p style="font-size: 12px; white-space: nowrap;">本件通報（乙２）、追加通<br>報（乙９）及び調査補助者<br>に対する追加通報（甲８な<br>いし１８、２２、２３及び<br>２５）。|<p style="font-size: 12px;">本件通報（乙２）及び追加通報（乙９）。|
+|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">本件規程１．２ ⑸ に定める「通報」について|<p style="font-size: 12px; white-space: nowrap;">本件通報（乙２）、追加通<br>報（乙９）及び調査補助者<br>に対する追加通報（甲８な<br>いし１８、２２、２３及び<br>２５）。|<p style="font-size: 12px; white-space: nowrap;">本件通報（乙２）及び追加<br>通報（乙９）。|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">本件規程１．２ ⑹ に定める「通報情報」について|<p style="font-size: 12px;">上記の通報に係る情報。|<p style="font-size: 12px;">上記の通報に係る情報。|
 |<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「通報情報に関する事実」について|<p style="font-size: 12px;">本件支払手続（甲３）、他。|<p style="font-size: 12px;">不明。
 |<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「調査」に係る調査事項について|<p style="font-size: 12px; white-space: nowrap;">本件支払手続（甲３）に係<br>る支払の内容が契約条項又<br>は租税条約などの法令等に<br>基づいていたのか否かにつ<br>いて確認する事項が含まれ<br>ていたと推定される。|<p style="font-size: 12px;">不明。|
