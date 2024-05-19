@@ -61,7 +61,7 @@
 </blockquote>
 </div>
 <p class="base" style="margin-top: 1.6em; ">
-判決文全文は、こちらに <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#id2"><i class="fa-solid fa-link"></i></a> 掲載しています。
+判決文全文は、こちらに <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hanketsu1"><i class="fa-solid fa-link"></i></a> 掲載しています。
 
 <p class="base" style="margin-top: 1.6em; ">
 被告のコンプライアンスホットライン規程は、
