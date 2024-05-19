@@ -157,7 +157,7 @@
 <p class="q_hg-idt3"><b>⑷　表４．本件規程に定める事項と当事者の主張との対応表</b>
 <div class="q_pad3">
 
-| 　　        |<p style="font-size: 12px;"><b>年月日</b>|<p style="font-size: 12px;"><b>用語</b>|<p style="font-size: 12px;"><b>書証番号</b>|
+| 　　        |<p style="font-size: 12px;"><b></b>|<p style="font-size: 12px;"><b>原告の主張</b>|<p style="font-size: 12px;"><b>被告の主張</b>|
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">本件規程１．２ ⑸ に定める「通報」について|<p style="font-size: 12px;">本件通報（乙２）、追加通報（乙９）及び調査補助者に対する追加通報（甲８ないし１８、２２、２３及び２５）。|<p style="font-size: 12px;">本件通報（乙２）及び追加通報（乙９）。|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">本件規程１．２ ⑹ に定める「通報情報」について|<p style="font-size: 12px;">上記の通報に係る情報。|<p style="font-size: 12px;">上記の通報に係る情報。|
