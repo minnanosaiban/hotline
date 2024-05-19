@@ -50,7 +50,7 @@
 `````{margin} 
 ````{admonition} <span class="title_ad" style="font-size:12px;">注</span>
 :class: Important
-<p class="c_mini">調査補助者とは、通報対応業務を行う担当者です。「公益通報者保護法に基づく指針の解説」<a href="https://minnanosaiban.github.io/hotline/hourei.html#kaisetsu9"><i class="fa-solid fa-link"></i></a> の内容からすると裁判所の判断は誤っているように思います。
+<p class="c_mini">調査補助者とは、通報対応業務を行う担当者です。「公益通報者保護法に基づく指針の解説」<a href="https://minnanosaiban.github.io/hotline/hourei.html#kaisetsu"><i class="fa-solid fa-link"></i></a> の内容からすると裁判所の判断は誤っているように思います。
 ````
 `````
 
