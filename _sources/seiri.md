@@ -150,7 +150,7 @@
 |<p style="font-size: 12px;"><b>コ</b>|<p style="font-size: 12px; white-space: nowrap;">平成30年11月27日～<br>令和2年1月24日|<p style="font-size: 12px; white-space: nowrap;">「追加通報」及び「調査補<br>助者に対する追加通報」|<p style="font-size: 12px;">甲２２、２３、２５及び乙９|
 |<p style="font-size: 12px;"><b>サ</b>|<p style="font-size: 12px;">令和元年10月25日|<p style="font-size: 12px;">「本件調査報告２」|<p style="font-size: 12px;">乙１２|
 |<p style="font-size: 12px;"><b>シ</b>|<p style="font-size: 12px;">令和2年3月27日|<p style="font-size: 12px;">「社内ＳＮＳ投稿」|<p style="font-size: 12px;">甲２６|
-|<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px;">令和2年6月25日及び<br>令和2年7月9日|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px;">甲２１|
+|<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px;">令和2年6月25日及び　<br>令和2年7月9日|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px;">甲２１|
 
 </div>
 
