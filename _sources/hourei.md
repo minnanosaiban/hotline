@@ -8,7 +8,7 @@
 
 <a name="kaisetsu5"></a>
 <p class="base" style="margin-top: 2.8em; margin-bottom: 1.6em;">
-<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（５頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>の引用です。</strong>
+<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（５頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用です。</strong>
 
 
 <div class="base">
@@ -22,7 +22,7 @@
 
 <a name="kaisetsu9"></a>
 <p class="base" style="margin-bottom: 1.6em;">
-<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（９頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>の引用です。</strong>
+<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（９頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用です。</strong>
 
 <div class="base">
 
@@ -48,7 +48,7 @@
 
 <a name="kaisetsu20"></a>
 <p class="base" style="margin-top: 2.8em; margin-bottom: 1.6em;">
-<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（２０頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>の引用です。</strong>
+<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（２０頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用です。</strong>
 
 <div class="base">
 <blockquote>
