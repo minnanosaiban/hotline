@@ -141,10 +141,10 @@
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">平成27年11月16日|<p style="font-size: 12px;">「本件支払手続」|<p style="font-size: 12px;">甲３|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">平成28年3月31日|<p style="font-size: 12px;">「還付手続対応説明」|<p style="font-size: 12px;">甲４|
-|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">平成28年9月14日～<br>平成29年7月31日|<p style="font-size: 12px;">「本件通報」及び「調査補助者に対する追加通報」|<p style="font-size: 12px;">　●）|
-|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">平成29年2月7日|<p style="font-size: 12px;">「本件調査対応協議」|<p style="font-size: 12px;">乙２及び甲８ないし１８|
-|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">平成29年3月9日|<p style="font-size: 12px;">「ＧＳＴ業務移管通知」|<p style="font-size: 12px;">甲１５の２及び乙３|
-|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">平成29年4月|<p style="font-size: 12px;">「何かしらの措置」|<p style="font-size: 12px;">乙３|
+|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">平成28年9月14日～<br>平成29年7月31日|<p style="font-size: 12px;">「本件通報」及び「調査補助者に対する追加通報」|<p style="font-size: 12px;">乙２及び甲８ないし１８|
+|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">平成29年2月7日|<p style="font-size: 12px;">「本件調査対応協議」|<p style="font-size: 12px;">甲１５の２及び乙３|
+|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">平成29年3月9日|<p style="font-size: 12px;">「ＧＳＴ業務移管通知」|<p style="font-size: 12px;">乙３|
+|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">平成29年4月|<p style="font-size: 12px;">「何かしらの措置」|<p style="font-size: 12px;">甲２１|
 |<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">平成29年7月31日|<p style="font-size: 12px;">「金銭の流れが一部不明瞭な送金」|<p style="font-size: 12px;">甲２７|
 |<p style="font-size: 12px;"><b>ク</b>|<p style="font-size: 12px;">平成29年8月14日|<p style="font-size: 12px;">「本件調査報告１」|<p style="font-size: 12px;">乙１１|
 |<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">平成30年9月13日|<p style="font-size: 12px;">「本件契約の措置|<p style="font-size: 12px;">甲２１|
@@ -233,12 +233,13 @@
 
 | 　　        | 　　                                                 |
 |----------------------|-------------------------------------------------------------------------------------------------------|
-| <p style="font-size: 12px;">● | <p style="font-size: 12px;">●。 |
-| <p style="font-size: 12px;">● | <p style="font-size: 12px;">●。 |
-| <p style="font-size: 12px;">● | <p style="font-size: 12px;">●。 |
-| <p style="font-size: 12px;">● | <p style="font-size: 12px;">●。 |
-| <p style="font-size: 12px;">● | <p style="font-size: 12px;">●。 |
-| <p style="font-size: 12px;">● | <p style="font-size: 12px;">●。 |
+| <p style="font-size: 12px;">平成27年11月6日 | <p style="font-size: 12px;">　原告が本件支払手続をした。 |
+| <p style="font-size: 12px;">平成28年9月14日<br>～平成29年7月31日 | <p style="font-size: 12px;">　原告が本件通報及び調査補助者に対する追加通報をした。|
+| <p style="font-size: 12px;">平成29年2月7日| <p style="font-size: 12px;">　調査補助者が本件調査対応協議を実施した。 |
+| <p style="font-size: 12px;">平成29年3月9日| <p style="font-size: 12px;">　本件グループの担当者がＧＳＴ業務移管通知をした。|
+| <p style="font-size: 12px;">平成29年4月| <p style="font-size: 12px;">　<u>被告は、本件調査対応協議を実施した結果、被告と本件豪州企業との間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在しないことを把握し、本件支払手続に係る支払の内容が当該契約に基づいていないという事実を確認したものの、<b>契約終了日まで契約内容の変更ができないため、何かしらの措置を実行した。</b></u><br>　これにより、本件豪州企業が被告にＧＳＴを請求していたのは、この時点までであった。|
+| <p style="font-size: 12px;">平成30年3月31日| <p style="font-size: 12px;">　被告と本件豪州企業との間で締結したＧＳＴに関する定めが存在していない契約の契約終了日（※注）。 |
+| <p style="font-size: 12px;">平成30年9月13日| <p style="font-size: 12px;">　<u>この時点では、被告と本件豪州企業との間で、<b>役務提供対価にＧＳＴを課す旨の定めが存在する契約を結ぶことができる状況であったため、本件契約の措置を実行した。</b></u> |
 
 <p class="c_hg-idt1" style="font-size: 12px;">※注　甲２１の１には、本件契約が締結されるまでの間は、ＧＳＴに関する定めが存在していない契約に基づき発注が行われていた旨が記載されている。しかし、乙１２の１頁に記載されている内容から、本件豪州企業が関わったプロジェクトは、平成３０年３月に終了したと思われる。そのため、契約の自動延長ではなく、契約が終了した可能性がある。
 </div>
