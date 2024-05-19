@@ -140,7 +140,7 @@
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
 |<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">平成27年11月16日|<p style="font-size: 12px;">「本件支払手続」|<p style="font-size: 12px;">甲３|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">平成28年3月31日|<p style="font-size: 12px;">「還付手続対応説明」|<p style="font-size: 12px;">甲４|
-|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">平成28年9月14日～<br>平成29年7月31日|<p style="font-size: 12px;">「本件通報」及び「調査補助者に対する追加通報」|<p style="font-size: 12px;">乙２及び甲８ないし１８|
+|<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">平成28年9月14日～<br>平成29年7月31日|<p style="font-size: 12px;"><p style="font-size: 12px; white-space: nowrap;">「本件通報」及び「調査補<br>助者に対する追加通報」|<p style="font-size: 12px;">乙２及び甲８ないし１８|
 |<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">平成29年2月7日|<p style="font-size: 12px;">「本件調査対応協議」|<p style="font-size: 12px;">甲１５の２及び乙３|
 |<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">平成29年3月9日|<p style="font-size: 12px;">「ＧＳＴ業務移管通知」|<p style="font-size: 12px;">乙３|
 |<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">平成29年4月|<p style="font-size: 12px;">「何かしらの措置」|<p style="font-size: 12px;">甲２１|
@@ -434,7 +434,7 @@
 <p class="q_hg-idt2">１　本件訴えを却下する。
 <p class="q_hg-idt2">２　訴訟費用は原告の負担とする。
 <p class="q_idt">との判決を求める。
-<p class="q">v<b>第２　請求の趣旨に対する答弁</b>
+<p class="q"><a name="toben_2"></a><b>第２　請求の趣旨に対する答弁</b>
 <p class="q_hg-idt2">１　原告の請求を却下する。
 <p class="q_hg-idt2">２　訴訟費用は原告の負担とする。
 <p class="q_idt">との判決を求める。
