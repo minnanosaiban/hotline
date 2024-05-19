@@ -31,7 +31,7 @@
 ---
 
 <p class="base">
-裁判所の判断は、以下のとおりです。
+裁判所の判断（判決文の引用）は、以下のとおりです。
 
 `````{margin} 
 ````{admonition} <span class="title_ad" style="font-size:12px;">注</span>
