@@ -150,7 +150,7 @@
 |<p style="font-size: 12px;"><b>コ</b>|<p style="font-size: 12px; white-space: nowrap;">平成30年11月27日～<br>令和2年1月24日|<p style="font-size: 12px; white-space: nowrap;">「追加通報」及び「調査補<br>助者に対する追加通報」|<p style="font-size: 12px;">甲２２、２３、２５及び乙９|
 |<p style="font-size: 12px;"><b>サ</b>|<p style="font-size: 12px;">令和元年10月25日|<p style="font-size: 12px;">「本件調査報告２」|<p style="font-size: 12px;">乙１２|
 |<p style="font-size: 12px;"><b>シ</b>|<p style="font-size: 12px;">令和2年3月27日|<p style="font-size: 12px;">「社内ＳＮＳ投稿」|<p style="font-size: 12px;">甲２６|
-|<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px;">令和2年6月25日及び　<br>令和2年7月9日|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px;">甲２１|
+|<p style="font-size: 12px;"><b>ス</b>|<p style="font-size: 12px; white-space: nowrap;">令和2年6月25日及び　<br>令和2年7月9日|<p style="font-size: 12px;">「本件通知」|<p style="font-size: 12px;">甲２１|
 
 </div>
 
@@ -159,13 +159,13 @@
 
 | 　　        |<p style="font-size: 12px;"><b></b>|<p style="font-size: 12px;"><b>原告の主張</b>|<p style="font-size: 12px;"><b>被告の主張</b>|
 |------------|------------------------------------------|------------------------------------------|------------------------------------------|
-|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">本件規程１．２ ⑸ に定める「通報」について|<p style="font-size: 12px;">本件通報（乙２）、追加通報（乙９）及び調査補助者に対する追加通報（甲８ないし１８、２２、２３及び２５）。|<p style="font-size: 12px;">本件通報（乙２）及び追加通報（乙９）。|
+|<p style="font-size: 12px;"><b>ア</b>|<p style="font-size: 12px;">本件規程１．２ ⑸ に定める「通報」について|<p style="font-size: 12px; white-space: nowrap;">本件通報（乙２）、追加通<br>報（乙９）及び調査補助者<br>に対する追加通報（甲８な<br>いし１８、２２、２３及び<br>２５）。|<p style="font-size: 12px;">本件通報（乙２）及び追加通報（乙９）。|
 |<p style="font-size: 12px;"><b>イ</b>|<p style="font-size: 12px;">本件規程１．２ ⑹ に定める「通報情報」について|<p style="font-size: 12px;">上記の通報に係る情報。|<p style="font-size: 12px;">上記の通報に係る情報。|
 |<p style="font-size: 12px;"><b>ウ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「通報情報に関する事実」について|<p style="font-size: 12px;">本件支払手続（甲３）、他。|<p style="font-size: 12px;">不明。
-|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「調査」に係る調査事項について|<p style="font-size: 12px;">本件支払手続（甲３）に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。|<p style="font-size: 12px;">不明。|
-|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ に定める「調査結果等の通知・報告」について|<p style="font-size: 12px;">本件調査報告１（乙１１）及び本件調査報告２（乙１２）。|<p style="font-size: 12px;">乙１０について、本件規程３．６ ⑴ に定める調査報告であるか否かが不明瞭。|
-|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ ア に定める「法令等に違反する事実又は違反するおそれのある事実」の存在について|<p style="font-size: 12px;">本件支払手続（甲３）に係る支払の内容が契約内容に基づいていないという不正行為等の事実が存在した（甲２１）。|<p style="font-size: 12px;">不明。|
-|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ イ又はウに定める是正措置、再発防止策又は対応策について|<p style="font-size: 12px;">何かしらの措置及び本件契約の措置を実行した（甲２１）。|<p style="font-size: 12px;">不明。|
+|<p style="font-size: 12px;"><b>エ</b>|<p style="font-size: 12px;">本件規程１．２ ⑼ に定める「調査」に係る調査事項について|<p style="font-size: 12px; white-space: nowrap;">本件支払手続（甲３）に係<br>る支払の内容が契約条項又<br>は租税条約などの法令等に<br>基づいていたのか否かにつ<br>いて確認する事項が含まれ<br>ていたと推定される。|<p style="font-size: 12px;">不明。|
+|<p style="font-size: 12px;"><b>オ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ に定める「調査結果等の通知・報告」について|<p style="font-size: 12px; white-space: nowrap;">本件調査報告１（乙１１）<br>及び本件調査報告２（乙<br>１２）。|<p style="font-size: 12px;">乙１０について、本件規程３．６ ⑴ に定める調査報告であるか否かが不明瞭。|
+|<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ ア に定める「法令等に違反する事実又は違反するおそれのある事実」の存在について|<p style="font-size: 12px; white-space: nowrap;">本件支払手続（甲３）に係る<br>支払の内容が契約内容に<br>基づいていないという不正<br>行為等の事実が存在した<br>（甲２１）。|<p style="font-size: 12px;">不明。|
+|<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">本件規程３．６ ⑴ イ又はウに定める是正措置、再発防止策又は対応策について|<p style="font-size: 12px; white-space: nowrap;">何かしらの措置及び本件契<br>約の措置を実行した（甲２<br>１）。|<p style="font-size: 12px;">不明。|
 
 </div>
 
