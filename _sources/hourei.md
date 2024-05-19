@@ -3,22 +3,32 @@
 
 # 法令
 
-## １　公益通報者保護法に基づく指針の解説
+## １　<a name="kaisetsu"></a>公益通報者保護法に基づく指針の解説
 ---
+
+<a name="kaisetsu5"></a>
+<p class="base" style="margin-top: 2.8em; margin-bottom: 1.6em;">
+<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（５頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>の引用です。</strong>
+
+
+<div class="base">
+<blockquote>
+
+<p class="q" style="margin-bottom: 1.4em;">
+５　内部公益通報を「受け付ける」とは、内部公益通報受付窓口のものとして表示された連絡先（電話番号、メールアドレス等）に直接内部公益通報がされた場合だけではなく、例えば、公益通報対応業務に従事する担当者個人のメールアドレス宛てに内部公益通報があった場合等、実質的に同窓口において内部公益通報を受け付けたといえる場合を含む。
+
+</blockquote>
+</div>
 
 <a name="kaisetsu9"></a>
 <p class="base" style="margin-bottom: 1.6em;">
-<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（９頁）の引用です。</strong>
-<p class="base" style="margin-bottom: 1.6em;">
+<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（９頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>の引用です。</strong>
 
 <div class="base">
 
 <blockquote>
 
 <p class="q" style="margin-bottom: 1.4em;">
-引用元：公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説 <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
-
-<p class="q">
 ①　指針本文
 <p class="q_idt1" style="margin-bottom: 1.4em;">
 内部公益通報受付窓口において内部公益通報を受け付け、正当な理由がある場合を除いて、必要な調査を実施する。そして、当該調査の結果、通報対象事実に係る法令違反行為が明らかになった場合には、速やかに是正に必要な措置をとる。また、是正に必要な措置をとった後、当該措置が適切に機能しているかを確認し、適切に機能していない場合には、改めて是正に必要な措置をとる。
@@ -38,16 +48,13 @@
 
 <a name="kaisetsu20"></a>
 <p class="base" style="margin-top: 2.8em; margin-bottom: 1.6em;">
-<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（２０頁）の引用です。</strong>
-<p class="base" style="margin-bottom: 1.6em;">
+<strong>以下の quote 枠内は、公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説（２０頁） <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>の引用です。</strong>
 
 <div class="base">
 <blockquote>
 
 <p class="q" style="margin-bottom: 1.4em;">
-引用元：公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説 <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
-
-<p class="q">①　指針本文
+①　指針本文
 
 <p class="q_idt1" style="margin-bottom: 1.4em;">
 書面により内部公益通報を受けた場合において、当該内部公益通報に係る通報対象事実の中止その他是正に必要な措置をとったときはその旨を、当該内部公益通報に係る通報対象事実がないときはその旨を、適正な業務の遂行及び利害関係人の秘密、信用、名誉、プライバシー等の保護に支障がない範囲において、当該内部公益通報を行った者に対し、速やかに通知する。
