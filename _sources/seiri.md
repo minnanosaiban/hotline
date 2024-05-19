@@ -183,7 +183,7 @@
 
 | 　　        |||
 |------------|------------------------------------------|------------------------------------------|
-| 　　        |<p style="font-size: 12px;">不正行為等によって直接被害を受けた者が、不正行為等を通報した場合|<p style="font-size: 12px;">不正行為等によって直接被害を受けた旨を告げる通報ではない場合|
+| 　　        |<p style="font-size: 12px; white-space: nowrap;">不正行為等によって直接被<br>害を受けた者が、不正行為等を通報した<br>場合|<p style="font-size: 12px; white-space: nowrap;">不正行為等によって直接被<br>害を受けた旨を告げる通報では<br>ない場合|
 |<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在する場合|<p style="font-size: 12px; text-align: center; ">ケース１<br>信義則及び社内規程の<br>違反を適用|<p style="font-size: 12px; text-align: center; ">ケース３<br>社内規程違反を適用|
 |<p style="font-size: 12px;">内部通報制度の運用を定める社内規程が存在しない場合|<p style="font-size: 12px; text-align: center;">ケース２<br>信義則違反を適用|<p style="font-size: 12px; text-align: center;">－|
 
