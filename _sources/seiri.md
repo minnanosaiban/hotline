@@ -9,7 +9,7 @@
 ## １　原告第１準備書面
 ---
 <p class="base" style="margin-bottom: 1.6em;">
-<strong>２０２４年〇月〇〇日、原告第１準備書面を提出しました。</strong>
+<strong>２０２４年５月２０日、原告第１準備書面を提出しました。</strong>
 
 <div class="base">
 
