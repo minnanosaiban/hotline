@@ -34,14 +34,14 @@
 <p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_213">⑶</a>　甲２１の３の情報を得たことにより推定される事実について
 <p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_214">⑷</a>　原告における情報把握の状況と前回訴訟主要事実との関係について
 <p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_215">⑸</a>　本件訴訟における原告の主張は、信義則に反せず、許される
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_2">２</a>　被告について債務不履行又は不法行為に基づく責任が成立すること
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_21">⑴</a>　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_22">⑵</a>　本件規程に定める「通報情報に関する事実を確認するための調査」について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_23">⑶</a>　「通報情報に関する事実を確認するための調査」についての考察
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_24">⑷</a>　「通報情報に関する事実を確認するための調査」についての考察、つづき
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_25">⑸</a>　本件規程３．６ ⑴ に違反する行為の存在
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_26">⑹</a>　原告の損害
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_27">⑺</a>　被告の責任
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_22">２</a>　被告について債務不履行又は不法行為に基づく責任が成立すること
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_221">⑴</a>　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_222">⑵</a>　本件規程に定める「通報情報に関する事実を確認するための調査」について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_223">⑶</a>　「通報情報に関する事実を確認するための調査」についての考察
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_224">⑷</a>　「通報情報に関する事実を確認するための調査」についての考察、つづき
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_225">⑸</a>　本件規程３．６ ⑴ に違反する行為の存在
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_226">⑹</a>　原告の損害
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_227">⑺</a>　被告の責任
 <p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_3">第３</a>　答弁書に対する認否
 <p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/seiri.html#dai1_4">第４</a>　結語
 
