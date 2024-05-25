@@ -7,9 +7,9 @@
 ---
 
 <p class="base" style="margin-bottom: 1.6em;">
-２０２１年に提起した訴訟は、勤務先の内部通報制度を利用した原告が、通報を受けた被告の対応につき、<span class="strong_or">内部通報制度において適切に対応すべき信義則上の義務に違反したと主張している訴訟</span>です。
+２０２１年に提起した訴訟は、勤務先の内部通報制度を利用した原告が、通報を受けた相手方の対応につき、<span class="strong_or">内部通報制度において適切に対応すべき信義則上の義務に違反したと主張している訴訟</span>です。
 <p class="base">
-被告のコンプライアンスホットライン規程は、
+相手方のコンプライアンスホットライン規程は、
 <p class="hg-idt1">
 ➀　必要な調査を実施すること
 <p class="hg-idt1">
@@ -43,7 +43,7 @@
 ところが、通報を受けて勤務先が行った措置は、「ＧＳＴの業務」を移管する旨を通知したあと、豪州子会社が本社に対して送金するという措置でした。部長報告の内容は、豪州子会社が本社に送金した金銭に本社が支払ったＧＳＴに係る還付金が含まれていると解釈される内容であるものの、還付金の金額を示さないなど、会計処理の報告としては不明瞭なところがありました。
 
 <p class="c_idt" style="margin-bottom: 1.4em;"> 
-被告は、業務の適正を確保するための体制の一環として内部通報制度を整備していることを公表しています。しかしながら、本件については、未だに、経費支払いの際にＧＳＴを支払うべきだったのかどうかを契約内容から検証していませんし、また、豪州子会社の会計帳簿の確認をしていません。結果として、不適切会計が存在したのかどうかについては有耶無耶になっています。
+相手方は、業務の適正を確保するための体制の一環として内部通報制度を整備していることを公表しています。しかしながら、本件については、未だに、経費支払いの際にＧＳＴを支払うべきだったのかどうかを契約内容から検証していませんし、また、豪州子会社の会計帳簿の確認をしていません。結果として、不適切会計が存在したのかどうかについては有耶無耶になっています。
 
 ```` 
 </div>
@@ -73,13 +73,13 @@
 | <p style="font-size: 12px;">3月9日| <p style="font-size: 12px; margin-bottom: 1.2em;">本件通報１に係る「ＧＳＴの業務」について移管する旨の通知がされました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-1-ケ"><i class="fa-solid fa-link"></i></a> 。移管したとする「ＧＳＴの業務」は、これまでどのような業務を行っていたのかは未だに不明です。|
 | <p style="font-size: 12px;">2017年度5月11日 | <p style="font-size: 12px; margin-bottom: 1.2em;">ＣＣで受信した「ＧＳＴの業務」に関するメールが不明瞭な内容だったため、上司に本件ＧＳＴに関して質問したものの、原告の質問に対する上司の回答は、「ＧＳＴの業務」を移管したという旨の回答でした。 |
 | <p style="font-size: 12px;">5月12日 | <p style="font-size: 12px; margin-bottom: 1.2em;"><span class="u_or">本件ＧＳＴに関して上司に質問したあとに、原告は、「平成２９年５月業務命令」を命じられました（不必要な業務の命令）</span> <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-1-コ"><i class="fa-solid fa-link"></i></a> 。その業務内容は、原油価格等の時系列データを Excel アドインの線形回帰分析に投入して事業に係るコストを予測するというものでした。|
-| <p style="font-size: 12px;">7月20日 | <p style="font-size: 12px; margin-bottom: 1.2em;">原告は、通報窓口担当者に通報に係るＧＳＴに関する状況を伝えて、コンプライアンスホットライン規程で規定している「調査を実施しない場合はその旨および理由」を伝えてほしい旨を依頼しました。<p style="font-size: 12px; margin-bottom: 1.2em;">被告側の主張によると、本件通報１に関する一連の対応は完了したものとして整理しており、ここで、別個の新たな通報として整理したそうです。|
+| <p style="font-size: 12px;">7月20日 | <p style="font-size: 12px; margin-bottom: 1.2em;">原告は、通報窓口担当者に通報に係るＧＳＴに関する状況を伝えて、コンプライアンスホットライン規程で規定している「調査を実施しない場合はその旨および理由」を伝えてほしい旨を依頼しました。<p style="font-size: 12px; margin-bottom: 1.2em;">相手方の主張によると、本件通報１に関する一連の対応は完了したものとして整理しており、ここで、別個の新たな通報として整理したそうです。|
 | <p style="font-size: 12px;">8月14日 | <p style="font-size: 12px; margin-bottom: 1.2em;">通報窓口担当者は、本件調査報告１をしました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-1-シ"><i class="fa-solid fa-link"></i></a> 。<p style="font-size: 12px; margin-bottom: 1.2em;"> 「コンプライアンス違反ではない」という結果でしたので、何かしらを調査した結果であるはずです。しかしながら、調査結果からは、何を調査したのか、何が「コンプライアンス違反ではない」のか分かりませんでした。|
 | <p style="font-size: 12px;">10月16日| <p style="font-size: 12px; margin-bottom: 1.2em;">通報に対する措置と思われる内容の部長報告がありました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-ア"><i class="fa-solid fa-link"></i></a> 。その内容は、「オーストラリアＧＳＴの過年度支払分については、※※※において同年９月までに還付請求を実施し、※※※への還付額については被告への戻入れも実施済みである、具体的処理は、経理部の指示に従って、支払の際は一般管理費で計上し、戻入れの際は雑収入で計上した（伏字以外は判決文原文ママ）」というものです。<p style="font-size: 12px; margin-bottom: 1.2em;"><span class="strong_or">部長報告の内容は、豪州子会社が本社に送金した金銭に本社が支払ったＧＳＴに係る還付金が含まれていると解釈される内容であるものの、還付金の金額を示さないなど不明瞭なところがありました。</span><p style="font-size: 12px; margin-bottom: 1.2em;">また、豪州子会社の※※※が2017年に還付請求した還付金とする金銭に、本社が2015年に豪州企業に対して支払ったＧＳＴについて還付請求した還付金が含まれているように解釈される報告です。 |
 | <p style="font-size: 12px;">2018年度4月1日 | <p style="font-size: 12px; margin-bottom: 1.2em;">2018年度の原告の担当業務は、「グループ内庶務」のみであり、 担当業務が「グループ内庶務」のみである社員は、部内では原告だけでした <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-イ"><i class="fa-solid fa-link"></i></a> 。|
 | <p style="font-size: 12px;">11月27日　| <p style="font-size: 12px; margin-bottom: 1.2em;">豪州子会社が本社の代わりに還付金を受領したようにみせかけているのではないかという疑念を抱いたため、原告は、<span class="strong_or">本件通報２</span>をしました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-ウ"><i class="fa-solid fa-link"></i></a> 。|
 | <p style="font-size: 12px;">3月13日 | <p style="font-size: 12px; margin-bottom: 1.2em;">「今後の女性活躍推進について」と題する社長メッセージがありました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-カ"><i class="fa-solid fa-link"></i></a> 。そのメッセージには、全ての社員に男女を問わず一層活躍してもらうという基本方針の下、マインド・スキルの向上等を目的とした研修実施や「新たな成長機会につながる異動」を行っていく旨等が記載されていました。 |
-| <p style="font-size: 12px;">2019年度10月25日 | <p style="font-size: 12px; margin-bottom: 1.2em;">通報窓口担当者は、本件調査報告２をしました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-キ"><i class="fa-solid fa-link"></i></a> 。<p style="font-size: 12px; margin-bottom: 1.2em;">被告は、通報対象の経費支払い以外の経費についてＧＳＴが課されていたかどうかを調査していました。調査による結論は、「一般にＧＳＴの還付は納税者の権利であり義務ではなく、したがって、ＧＳＴの還付を受けないままでも不正行為等に当たらない（判決文原文ママ）」でした。 |
+| <p style="font-size: 12px;">2019年度10月25日 | <p style="font-size: 12px; margin-bottom: 1.2em;">通報窓口担当者は、本件調査報告２をしました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-キ"><i class="fa-solid fa-link"></i></a> 。<p style="font-size: 12px; margin-bottom: 1.2em;">相手方は、通報対象の経費支払い以外の経費についてＧＳＴが課されていたかどうかを調査していました。調査による結論は、「一般にＧＳＴの還付は納税者の権利であり義務ではなく、したがって、ＧＳＴの還付を受けないままでも不正行為等に当たらない（判決文原文ママ）」でした。 |
 | <p style="font-size: 12px;">12月3日 | <p style="font-size: 12px; margin-bottom: 1.2em;">通報窓口担当者は、原告の質問に対して回答しました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-2-ク"><i class="fa-solid fa-link"></i></a> 。その内容は、<span class="strong_or">「取引に税金が課されるか否かは、契約書ではなく国が決めることであるので、契約書を確認する必要はない、※※※の財務諸表については会計監査人から適正意見を得ており、勘定科目についてこれ以上調べる必要はない（伏字以外は判決文原文ママ）」</span>でした。|
 | <p style="font-size: 12px;">11月8日| <p style="font-size: 12px; margin-bottom: 1.2em;">原告は、労働組合本社支部の委員長と支部長に、本件について相談しました。|
 | <p style="font-size: 12px;">3月27日| <p style="font-size: 12px; margin-bottom: 1.2em;">原告は、社内ＳＮＳに、コンプライアンスホットライン制度の調査結果報告に対して疑問を呈する投稿をしました <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#jdg3-1-3-ア"><i class="fa-solid fa-link"></i></a> 。その後、5月29日から翌年2月17日まで、10回投稿しました。|
