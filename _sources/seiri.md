@@ -147,6 +147,9 @@
 <p class="k_hg-idt3"><b>⑺　第２の２（７）（被告の責任）（２２頁）について</b>
 <p class="k_idt3">争う。
 <p class="k" style="margin-bottom: 1.6em;">以上
+
+
+<p class="k" style="margin-bottom: 1.6em;"><b>被告の反論の抜粋</b>
 <div class="base">
 <blockquote>
 <p class="q"><a name="hikoku2_q1"></a><b>第２の１ ⑵ イ（４頁）</b>
@@ -398,7 +401,7 @@
 <p class="k_pad3">（以上を総称して、以下「前回訴訟主要事実」という。）についての信義則上の義務違反の不存在については、前回訴訟控訴審判決の既判力が生じている。
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「前回訴訟控訴審判決の」以下について争う。反論 <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q1"><i class="fa-solid fa-link"></i></a> 
+<p class="c_mini"><b>被告の認否</b>　「前回訴訟控訴審判決の」以下について争う。反論はこちら <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q1"><i class="fa-solid fa-link"></i></a> 
 
 `````
 
@@ -553,7 +556,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件調査に係る」以下について認める。言い訳 <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q2"><i class="fa-solid fa-link"></i></a> 
+<p class="c_mini"><b>被告の認否</b>　「本件調査に係る」以下について認める。言い訳はこちら <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q2"><i class="fa-solid fa-link"></i></a> 
 `````
 
 <p class="k_idt3">本件調査に係る調査事項については、依然として、「具体的に何を調査したのか、及び何を調査しなかったのか」が判然としていない状況であり、未だに、その調査事項について、被告から提示されていない。
@@ -568,7 +571,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「前回訴訟における」以下について争う。反論 <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q3"><i class="fa-solid fa-link"></i></a> 
+<p class="c_mini"><b>被告の認否</b>　「前回訴訟における」以下について争う。反論はこちら <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q3"><i class="fa-solid fa-link"></i></a> 
 
 `````
 
@@ -680,7 +683,7 @@
 </div>
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告と調査補助者との」以下について事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。反論 <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q4"><i class="fa-solid fa-link"></i></a> 
+<p class="c_mini"><b>被告の認否</b>　「原告と調査補助者との」以下について事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。反論はこちら <a href="https://minnanosaiban.github.io/hotline/seiri.html#hikoku2_q4"><i class="fa-solid fa-link"></i></a> 
 `````
 
 <p class="k_idt3">原告と調査補助者との調査過程におけるやり取りは上記のとおりであるから、本件支払手続をした行為に関する調査事項には、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。
