@@ -9,7 +9,7 @@
 ## １　被告準備書面（２）
 ---
 
-<p class="k" style="margin-bottom: 1.6em;"><b>以下のquote枠内は、被告準備書面（２）の抜粋です。</b>
+<p class="k" style="margin-bottom: 1.6em;"><b>以下の quote 枠内は、被告準備書面（２）の抜粋です。 quote 枠の下に被告準備書面（２）全文を掲載しています。</b>
 <div class="base">
 <blockquote>
 <p class="q"><a name="hikoku2_q1"></a><b>第２の１ ⑵ イ（４頁）</b>
