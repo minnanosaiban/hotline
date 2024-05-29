@@ -9,7 +9,7 @@
 <p class="k" style="margin-bottom: 1.6em;"><b>以下の quote 枠内は、被告準備書面（２）の抜粋です。 quote 枠の下に被告準備書面（２）全文を掲載しています。</b>
 
 `````{margin}
-<p class="c_mini"><b>メモ</b>　被告が主張している太字の部分は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> 最高裁判決です。
+<p class="c_mini"><b>メモ</b>　被告が主張している太字の部分は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> の最高裁判決の引用です。
 `````
 
 <div class="base">
