@@ -179,6 +179,8 @@
 <p class="k_idt3">争う。
 <p class="k">以上
 
+
+
 ## ２　原告第１準備書面
 ---
 <p class="base" style="margin-bottom: 1.6em;">
