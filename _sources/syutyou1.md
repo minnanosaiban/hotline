@@ -129,34 +129,34 @@
 <p class="q_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>上告受理申立理由書　目次</b>
 
 <p class="q" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku1">第１</a>　用語の説明
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku1">第１</a>　用語の説明
 
 <p class="q" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku2">第２</a>　本件規程と原判決の違反
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku2">第２</a>　本件規程と原判決の違反
 
 <p class="q" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku3">第３</a>　争点１の概要と経緯
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku3">第３</a>　争点１の概要と経緯
 
 <p class="q" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku4">第４</a>　法令の解釈に関する重要な事項
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku4">第４</a>　法令の解釈に関する重要な事項
 
 <p class="q_hg-idt2" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku4-1">１</a>　最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁は、相談窓口制度において、事業者が適切に対応すべき信義則上の義務を負う場合を、不正行為等によって直接被害を受けた者等が不正行為等を通報した場合に限るとはしていないから、原判決は、最高裁判所の判例と相反する判断があること
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku4-1">１</a>　最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁は、相談窓口制度において、事業者が適切に対応すべき信義則上の義務を負う場合を、不正行為等によって直接被害を受けた者等が不正行為等を通報した場合に限るとはしていないから、原判決は、最高裁判所の判例と相反する判断があること
 
 <p class="q_hg-idt2" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku4-2">２</a>　通報への対応結果の通知に関する原判決の判示は、本件規程３．１⑴及び３．６⑴を規定した趣旨を検討していないことにより、上記規定の解釈を誤る違反があり、ひいては、「民間事業者ガイドライン」及び「公益通報者保護法に基づく指針」において定める指針の解釈を誤るものであること
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku4-2">２</a>　通報への対応結果の通知に関する原判決の判示は、本件規程３．１⑴及び３．６⑴を規定した趣旨を検討していないことにより、上記規定の解釈を誤る違反があり、ひいては、「民間事業者ガイドライン」及び「公益通報者保護法に基づく指針」において定める指針の解釈を誤るものであること
 
 <p class="q_hg-idt2" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku4-3">３</a>　調査の実施に関する原判決の判示は、本件規程３．４⑴の規定を遵守するために必要な事項を検討していないことにより、上記規定の解釈を誤る違反があり、ひいては、「民間事業者ガイドライン」及び「公益通報者保護法に基づく指針」において定める指針の解釈を誤るものであること
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku4-3">３</a>　調査の実施に関する原判決の判示は、本件規程３．４⑴の規定を遵守するために必要な事項を検討していないことにより、上記規定の解釈を誤る違反があり、ひいては、「民間事業者ガイドライン」及び「公益通報者保護法に基づく指針」において定める指針の解釈を誤るものであること
 
 <p class="q_hg-idt2" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku4-4">４</a>　本件規程１．２⑹で定義されている「通報情報」に関する原判決の判示は、「通報への対応結果の通知を受けるために、通報先には通報対象事実について、いつ何をどのようにどの程度まで告げる必要があるのか」という意味で、法令の解釈に関する重要な事項を含むものであること
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku4-4">４</a>　本件規程１．２⑹で定義されている「通報情報」に関する原判決の判示は、「通報への対応結果の通知を受けるために、通報先には通報対象事実について、いつ何をどのようにどの程度まで告げる必要があるのか」という意味で、法令の解釈に関する重要な事項を含むものであること
 
 <p class="q_hg-idt2" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku4-5">５</a>　通報者が問題視などしていない事項を調査対象に設定して、不正行為等が検出できない方法で調査を行い、不正行為等に当たらないという結論を通知するという対応が「不合理とはいえない」と評価されることは、内部公益通報対応体制の機能不全を助長するものであって、体制の形骸化をもたらすものであること
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku4-5">５</a>　通報者が問題視などしていない事項を調査対象に設定して、不正行為等が検出できない方法で調査を行い、不正行為等に当たらないという結論を通知するという対応が「不合理とはいえない」と評価されることは、内部公益通報対応体制の機能不全を助長するものであって、体制の形骸化をもたらすものであること
 
 <p class="q" style="margin-bottom: 1.4em;">
-<a href="https://minnanosaiban.github.io/hotline/joukoku.html#joukoku5">第５</a>　結論
+<a href="https://minnanosaiban.github.io/hotline/syutyou1.html#joukoku5">第５</a>　結論
 
 ```` 
 
