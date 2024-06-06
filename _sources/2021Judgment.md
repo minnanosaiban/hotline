@@ -903,14 +903,14 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/syutyou1.html#saikousai"><i class="fa-solid fa-link"></i></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。
+<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#saikousai"><i class="fa-solid fa-link"></i></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。
 `````
 
 <p class="k_idt3"><a name="handan1"></a>そうすると、<span class="u_or"><sub>No.19 </sub>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである</span>。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.20"></a><span style="color: #f37726;"><b>No.20</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/syutyou1.html#tuuti"><i class="fa-solid fa-link"></i></a> と こちら <a href="https://minnanosaiban.github.io/hotline/syutyou1.html#yoken"><i class="fa-solid fa-link"></i></a> に記載しています。
+<p class="c_mini"><a name="No.20"></a><span style="color: #f37726;"><b>No.20</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#tuuti"><i class="fa-solid fa-link"></i></a> と こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#yoken"><i class="fa-solid fa-link"></i></a> に記載しています。
 `````
 
 <p class="k_hg-idt3">ウ　この点をおくとしても、本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２⑹）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２⑸参照）から、本件規程の解釈としても、<a name="handan2"></a><span class="u_or"><sub>No.20 </sub>本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</span>
@@ -919,7 +919,7 @@
 <p class="k_idt3">さらに、本件規程上、調査とは、通報情報に関する事実を確認するための調査と定義され（１．２⑼）、これは法令等に違反する事実又は違反するおそれのある事実の確認を目的とするものと解される（３．５参照）から、必ずしも上記各事実の判断に影響しない事実までもが調査の対象になるとは解されず、また、調査の具体的方法についても、通報者の希望に沿って行うなどとも規定されていないから、被告の合理的裁量に委ねられているというべきである。
 
 `````{margin} 
-<p class="c_mini"><a name="No.21"></a><span style="color: #f37726;"><b>No.21</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/syutyou1.html#taiou"><i class="fa-solid fa-link"></i></a> に記載しています。
+<p class="c_mini"><a name="No.21"></a><span style="color: #f37726;"><b>No.21</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#taiou"><i class="fa-solid fa-link"></i></a> に記載しています。
 `````
 
 `````{margin} 
