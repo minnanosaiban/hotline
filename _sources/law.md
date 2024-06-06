@@ -2,8 +2,8 @@
 
 
 # 法令
-
-## １　<a name="kaisetsu"></a>公益通報者保護法に基づく指針の解説
+<a name="kaisetsu"></a>
+## １　公益通報者保護法に基づく指針の解説
 ---
 
 <a name="kaisetsu5"></a>
