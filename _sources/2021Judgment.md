@@ -20,33 +20,33 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>東京高裁判決　目次</b>
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_1">第１</a>　控訴の趣旨
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_2">第２</a>　事案の概要
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai_3">第３</a>　当裁判所の判断
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#kousai_1">第１</a>　控訴の趣旨
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#kousai_2">第２</a>　事案の概要
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#kousai_3">第３</a>　当裁判所の判断
 
 <p class="q_center" style="margin-top: 1.4em;"><b>東京地裁判決　目次</b>
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_1">第１</a>　請求
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_2">第２</a>　事案の概要
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_21">１</a>　前提事実
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_22">２</a>　争点及びこれに関する当事者の主張の要旨
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_221">⑴</a>　争点１（内部通報制度における信義則上の義務違反）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_222">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_223">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_224">⑷</a>　争点４（原告の損害）
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_3">第３</a>　当裁判所の判断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_31">１</a>　認定事実
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_311">⑴</a>　本件通報１及び本件調査報告１に至る経緯等
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_312">⑵</a>　本件通報２及び本件調査報告２に至る経緯等
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_313">⑶</a>　本件措置に至る経緯等
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_32">２</a>　争点１について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_321">⑴</a>　（調査等の対応）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_322">⑵</a>　（被通報者等との協議・ヒアリング）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_323">⑶</a>　（通報情報の役員等への報告）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_324">⑷</a>　（結論）
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_33">３</a>　争点２について
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_34">４</a>　争点３について
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_35">５</a>　小括
-<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai_4">第４</a>　結論
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_1">第１</a>　請求
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_2">第２</a>　事案の概要
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_21">１</a>　前提事実
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_22">２</a>　争点及びこれに関する当事者の主張の要旨
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_221">⑴</a>　争点１（内部通報制度における信義則上の義務違反）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_222">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_223">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_224">⑷</a>　争点４（原告の損害）
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_3">第３</a>　当裁判所の判断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_31">１</a>　認定事実
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_311">⑴</a>　本件通報１及び本件調査報告１に至る経緯等
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_312">⑵</a>　本件通報２及び本件調査報告２に至る経緯等
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_313">⑶</a>　本件措置に至る経緯等
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_32">２</a>　争点１について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_321">⑴</a>　（調査等の対応）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_322">⑵</a>　（被通報者等との協議・ヒアリング）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_323">⑶</a>　（通報情報の役員等への報告）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_324">⑷</a>　（結論）
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_33">３</a>　争点２について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_34">４</a>　争点３について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_35">５</a>　小括
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai_4">第４</a>　結論
 
 ```` 
 </div>
@@ -453,40 +453,40 @@
 ---
 
 <p class="base" style="margin-bottom: 1.6em;">
-<strong>判決文の内容だけでは状況が把握できないことがあるため、下線で装飾し、枠内に原告による注記を記載しています。装飾のない判決文はこちら <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#zenbun"><i class="fa-solid fa-link"></i></a> に記載しています。</strong>
+<strong>判決文の内容だけでは状況が把握できないことがあるため、下線で装飾し、枠内に原告による注記を記載しています。装飾のない判決文はこちら <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#zenbun"><i class="fa-solid fa-link"></i></a> に記載しています。</strong>
 
 <div class="base">
 
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em"><b>東京高裁判決　目次</b>
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai1">第１</a>　控訴の趣旨
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai2">第２</a>　事案の概要, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.1">No.1</a>
-<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#kousai3">第３</a>　当裁判所の判断, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.2">No.2</a>
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#kousai1">第１</a>　控訴の趣旨
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#kousai2">第２</a>　事案の概要, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.1">No.1</a>
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#kousai3">第３</a>　当裁判所の判断, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.2">No.2</a>
 
 <p class="q_center"><b>東京地裁判決　目次</b>
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai1">第１</a>　請求
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2">第２</a>　事案の概要
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-1">１</a>　前提事実, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.3">No.3</a> 
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2">２</a>　争点及びこれに関する当事者の主張の要旨
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-1">⑴</a>　争点１（内部通報制度における信義則上の義務違反）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.4">No.4</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-2">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.5">No.5</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-3">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai2-2-4">⑷</a>　争点４（原告の損害）
-<p class="q"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3">第３</a>　当裁判所の判断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1">１</a>　認定事実
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-1">⑴</a>　本件通報１及び本件調査報告１に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.6">No.6</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.7">No.7</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.8">No.8</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.9">No.9</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.10">No.10</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.11">No.11</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.12">No.12</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-2">⑵</a>　本件通報２及び本件調査報告２に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.13">No.13</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.14">No.14</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.15">No.15</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.16">No.16</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-1-3">⑶</a>　本件措置に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.17">No.17</a>
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2">２</a>　争点１について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-1">⑴</a>　（調査等の対応）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.18">No.18</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.19">No.19</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.20">No.20</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.21">No.21</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-2">⑵</a>　（被通報者等との協議・ヒアリング）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.22">No.22</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.23">No.23</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-3">⑶</a>　（通報情報の役員等への報告）, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.24">No.24</a>
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2-4">⑷</a>　（結論）
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-3">３</a>　争点２について, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.25">No.25</a>
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-4">４</a>　争点３について, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.26">No.26</a>, <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#No.27">No.27</a>
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-5">５</a>　小括
-<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai4">第４</a>　結論
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai1">第１</a>　請求
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2">第２</a>　事案の概要
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2-1">１</a>　前提事実, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.3">No.3</a> 
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2-2">２</a>　争点及びこれに関する当事者の主張の要旨
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2-2-1">⑴</a>　争点１（内部通報制度における信義則上の義務違反）, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.4">No.4</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2-2-2">⑵</a>　争点２（不利益取扱い及びパワーハラスメントの有無）, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.5">No.5</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2-2-3">⑶</a>　争点３（人材育成体制における信義則上の義務違反等）
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai2-2-4">⑷</a>　争点４（原告の損害）
+<p class="q"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3">第３</a>　当裁判所の判断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-1">１</a>　認定事実
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-1-1">⑴</a>　本件通報１及び本件調査報告１に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.6">No.6</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.7">No.7</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.8">No.8</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.9">No.9</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.10">No.10</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.11">No.11</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.12">No.12</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-1-2">⑵</a>　本件通報２及び本件調査報告２に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.13">No.13</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.14">No.14</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.15">No.15</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.16">No.16</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-1-3">⑶</a>　本件措置に至る経緯等, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.17">No.17</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-2">２</a>　争点１について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-2-1">⑴</a>　（調査等の対応）, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.18">No.18</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.19">No.19</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.20">No.20</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.21">No.21</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-2-2">⑵</a>　（被通報者等との協議・ヒアリング）, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.22">No.22</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.23">No.23</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-2-3">⑶</a>　（通報情報の役員等への報告）, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.24">No.24</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-2-4">⑷</a>　（結論）
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-3">３</a>　争点２について, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.25">No.25</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-4">４</a>　争点３について, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.26">No.26</a>, <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#No.27">No.27</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-5">５</a>　小括
+<p class="q" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai4">第４</a>　結論
 
 ```` 
 </div>
@@ -515,7 +515,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.1"></a><span style="color: #f37726;"><b>No.1</b></span>　地裁判決のここの部分 <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hosei5"><i class="fa-solid fa-link"></i></a> については、高裁判決で追加されました。ちなみに、保有資格については、原告はJDLA Ｅ資格 2023#1 <a href="https://www.jdla.org/certificate/engineer/"><i class="fa-solid fa-up-right-from-square"></i></a> を保有しています。
+<p class="c_mini"><a name="No.1"></a><span style="color: #f37726;"><b>No.1</b></span>　地裁判決のここの部分 <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#hosei5"><i class="fa-solid fa-link"></i></a> については、高裁判決で追加されました。ちなみに、保有資格については、原告はJDLA Ｅ資格 2023#1 <a href="https://www.jdla.org/certificate/engineer/"><i class="fa-solid fa-up-right-from-square"></i></a> を保有しています。
 `````
 
 `````{margin} 
@@ -633,7 +633,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.4"></a><span style="color: #f37726;"><b>No.4</b></span>　被告の主張に関する判決文における記載は、判決文全体を見ても、なぜか、<span class="u_or">「否認又は争う。」の７文字だけ</span>となっています。判決文の記載からは、被告が何を主張していたのか分かりにくいですが、被告が主張していた主旨は、判決文の第３の２「争点１について」以下の記載 <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#tisai3-2"><i class="fa-solid fa-link"></i></a> と同様と考えていただいてよいと思います。
+<p class="c_mini"><a name="No.4"></a><span style="color: #f37726;"><b>No.4</b></span>　被告の主張に関する判決文における記載は、判決文全体を見ても、なぜか、<span class="u_or">「否認又は争う。」の７文字だけ</span>となっています。判決文の記載からは、被告が何を主張していたのか分かりにくいですが、被告が主張していた主旨は、判決文の第３の２「争点１について」以下の記載 <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#tisai3-2"><i class="fa-solid fa-link"></i></a> と同様と考えていただいてよいと思います。
 `````
 
 <p class="k_hg-idt2">（被告の主張の要旨）
@@ -648,7 +648,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.5"></a><span style="color: #f37726;"><b>No.5</b></span>　高裁判決 <a href="https://minnanosaiban.github.io/hotline/hanketsu1.html#hosei2"><i class="fa-solid fa-link"></i></a> では、地裁判決のここの部分について「改行の上、次のとおり加える」と追加しています。
+<p class="c_mini"><a name="No.5"></a><span style="color: #f37726;"><b>No.5</b></span>　高裁判決 <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#hosei2"><i class="fa-solid fa-link"></i></a> では、地裁判決のここの部分について「改行の上、次のとおり加える」と追加しています。
 `````
 
 <p class="k_idt1"><span class="u_or"><span style="color: #f37726;"><span class="u_or"><sub>No.5 </sub><a name="hosei5">高裁判決追加箇所</span></span>
@@ -903,7 +903,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/syutyou1.html#saikousai"><i class="fa-solid fa-link"></i></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。
+<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/syutyou1.html#saikousai"><i class="fa-solid fa-link"></i></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。
 `````
 
 <p class="k_idt3"><a name="handan1"></a>そうすると、<span class="u_or"><sub>No.19 </sub>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである</span>。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。
