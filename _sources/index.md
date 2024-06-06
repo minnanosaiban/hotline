@@ -36,7 +36,7 @@
 裁判所の判断（判決文の引用）は、以下のとおりです。
 
 `````{margin}
-<p class="c_mini"><b>注</b>　裁判所で引用している最高裁判決は、こちら <a href="https://minnanosaiban.github.io/hotline/hanrei.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。この最高裁判決は原告側から提示しました。
+<p class="c_mini"><b>注</b>　裁判所で引用している最高裁判決は、こちら <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> に記載しています。この最高裁判決は原告側から提示しました。
 `````
 
 <div class="base">
