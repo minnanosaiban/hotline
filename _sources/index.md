@@ -85,7 +85,9 @@
 ```{card}
 
 <p class="q" style="font-size: 12px;">
-<i class="fa-solid fa-clipboard-question"></i> ちょっとした疑問 <i class="fa-solid fa-clipboard-question"></i> 最高裁判決は、「適切に<span class="u_or">対応</span>すべき信義則上の義務を負う場合がある」と表現し、本件訴訟の判決は、「信義則上の<span class="u_or">調査義務等</span>を負っていたということはできない」と表現し、そして、相手方は２回目の訴訟において、「適切に<span class="u_or">対応</span>すべき信義則上の義務を負う場合がある（したがって訴訟物は同一）」という表現をしています。訴訟では、その時々によって、ちょっとだけ表現が変わるのかもしれません。
+<i class="fa-solid fa-circle-question"></i> ちょっとした疑問 <i class="fa-solid fa-circle-question"></i>
+<p class="q" style="font-size: 12px;">
+最高裁判決は、「適切に<span class="u_or">対応</span>すべき信義則上の義務を負う場合がある」と表現し、本件訴訟の判決は、「信義則上の<span class="u_or">調査義務等</span>を負っていたということはできない」と表現し、そして、相手方は２回目の訴訟において、「適切に<span class="u_or">対応</span>すべき信義則上の義務を負う場合がある（したがって訴訟物は同一）」という表現をしています。訴訟では、その時々によって、ちょっとだけ表現が変わるのかもしれません。
 
 ```
 </div>
