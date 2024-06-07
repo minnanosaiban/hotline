@@ -109,7 +109,7 @@
 <p class="base" style="margin-top: 1.6em; ">
 また、原告は、通報者が具体的な法令違反や不適切であるか否かの評価をする権限がないと理解していました。そのため、通報の当初は、原告が知り得た事実や上司から伝えられた内容を告げるにとどめていました。ただし、調査補助者とのやり取りのなかでは、上司が契約内容を確認しないことを通知しています。
 <p class="base" style="margin-top: 1.6em; ">
-調査補助者とは、通報対応業務を行う担当者です。「公益通報者保護法に基づく指針の解説」リンク <a href="https://minnanosaiban.github.io/hotline/law.html#kaisetsu"><i class="fa-solid fa-link"></i></a> の内容からすると裁判所の判断は誤っているように思います。
+調査補助者とは、通報対応業務を行う担当者です。「公益通報者保護法に基づく指針の解説」<a href="https://minnanosaiban.github.io/hotline/law.html#kaisetsu">リンク <i class="fa-solid fa-link"></i></a> の内容からすると裁判所の判断は誤っているように思います。
 
 
 ## ６　相手方が実行した措置
