@@ -6,13 +6,13 @@
 
 ```{card}
 
-<p class="q" style="font-size: 12px;">
+<p class="q">
 本件訴訟は、<span style="color: #f37726;"><b>既判力の作用</b></span>について争いがあります。以下リンクの先のオレンジの部分に原告と被告の主張を記載しています。
-<p class="q" style="font-size: 12px;">
+<p class="q">
 １　答弁書における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point1">ココ <i class="fa-solid fa-link"></i></a> と <a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point2">ココ <i class="fa-solid fa-link"></i></a>
-<p class="q" style="font-size: 12px;">
+<p class="q">
 ２　原告第１準備書面における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point3">ココ  <i class="fa-solid fa-link"></i> </a>
-<p class="q" style="font-size: 12px;">
+<p class="q">
 ３　被告準備書面（２）における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html##point4">ココ <i class="fa-solid fa-link"></i> </a>
 
 ```
