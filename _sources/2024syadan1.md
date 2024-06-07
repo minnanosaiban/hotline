@@ -1,16 +1,28 @@
 <p class="top">上部はダークモードスイッチ等のメニューです
 
-# 主張書面
+# 既判力の作用
+
+<div class="base">
+
+```{card}
+
+<p class="q" style="font-size: 12px;">
+本件訴訟は、<span style="color: #f37726;"><b>既判力の作用</b></span>について争いがあります。以下リンクの先のオレンジの部分に原告と被告の主張を記載しています。
+<p class="q" style="font-size: 12px;">
+１　答弁書における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point1">ココ <i class="fa-solid fa-link"></i></a> と <a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point2">ココ <i class="fa-solid fa-link"></i></a>
+<p class="q" style="font-size: 12px;">
+２　原告第１準備書面における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point3">ココ  <i class="fa-solid fa-link"></i> </a>
+<p class="q" style="font-size: 12px;">
+３　被告準備書面（２）における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html##point4">ココ <i class="fa-solid fa-link"></i> </a>
+
+```
+</div>
 
 
 ## １　被告準備書面（２）
 ---
 
 <p class="k" style="margin-bottom: 1.6em;"><b>以下の quote 枠内は、被告準備書面（２）の抜粋です。 quote 枠の下に被告準備書面（２）全文を掲載しています。</b>
-
-`````{margin}
-<p class="c_mini"><b>メモ</b>　被告が主張している太字の部分は、こちら <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> の最高裁判決の引用です。
-`````
 
 <div class="base">
 <blockquote>
@@ -68,8 +80,8 @@
 <p class="k_idt4">認める。
 <p class="k_hg-idt4"><b>イ　第２段落（「前回訴訟控訴審判決の」以下）（１２頁）について</b>
 <p class="k_idt4">争う。
-<p class="k_idt4">答弁書にも述べたとおり（注１）、本件規程は、会社組織内における自律的な規範にとどまるものであって、被告と従業員の間に直接の権利義務又は債権債務を生ぜしめるものではない。本件規程が被告と従業員の間に何らかの権利義務関係を生ぜしめるとすれば、<b>本件規程によって（被告に内部通報制度が設けられることによって）、被告の従業員が内部通報制度の通報窓口に通報をしたときに、当該通報の具体的状況の如何によっては、被告が、当該従業員に対し、当該通報を受け、体制として整備された仕組みに基づいて適切に対応すべき信義則上の義務を負う場合がある</b>、というものである。
-<p class="k_idt4">とすれば、原告が「前回訴訟主要事実」として掲げる各事実も、それぞれが個別に被告が従業員たる原告に対して負う義務に違反したこと又は被告が従業員たる原告に対して負う債務を履行しなかったことを意味するものではない。むしろ、被告が、従業員たる原告からの本件通報を受けて、原告に対し、前述のような信義則上の義務を負っていた可能性があるところ、<b>原告が「前回訴訟主要事実」として掲げる各事実は、当該信義則上の義務の違反の評価根拠事実となりうるにとどまるし、同様に、原告が「本件訴訟主要事実」として記載する各事実も、原告のいう「前回訴訟主要事実」と同一の通報（本件通報）に関するものである以上は、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものにとどまる。</b>
+<p class="k_idt4"><a name="point4"></a><span style="color: #f37726;"><b>答弁書にも述べたとおり（注１）、本件規程は、会社組織内における自律的な規範にとどまるものであって、被告と従業員の間に直接の権利義務又は債権債務を生ぜしめるものではない。本件規程が被告と従業員の間に何らかの権利義務関係を生ぜしめるとすれば、<b>本件規程によって（被告に内部通報制度が設けられることによって）、被告の従業員が内部通報制度の通報窓口に通報をしたときに、当該通報の具体的状況の如何によっては、被告が、当該従業員に対し、当該通報を受け、体制として整備された仕組みに基づいて適切に対応すべき信義則上の義務を負う場合がある</b>、というものである。
+<p class="k_idt4">とすれば、原告が「前回訴訟主要事実」として掲げる各事実も、それぞれが個別に被告が従業員たる原告に対して負う義務に違反したこと又は被告が従業員たる原告に対して負う債務を履行しなかったことを意味するものではない。むしろ、被告が、従業員たる原告からの本件通報を受けて、原告に対し、前述のような信義則上の義務を負っていた可能性があるところ、<b>原告が「前回訴訟主要事実」として掲げる各事実は、当該信義則上の義務の違反の評価根拠事実となりうるにとどまるし、同様に、原告が「本件訴訟主要事実」として記載する各事実も、原告のいう「前回訴訟主要事実」と同一の通報（本件通報）に関するものである以上は、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものにとどまる。</b></span>
 <p class="k_idt4">よって、答弁書にも述べたとおり（注２）、前回訴訟における前回訴訟争点１に係る損害賠償請求も、本件訴訟における損害賠償請求も、<b>被告が原告に対して本件通報に関して負っている同一の信義則上の義務に違反したことを理由として、債務不履行又は不法行為に基づく損害賠償を請求するもの</b>であるから、訴訟物は同一である。
 <p class="k_hg-idt4"><b>ウ　第３段落（「そして」以下）（１２頁）について</b>
 <p class="k_idt4">争う。
@@ -191,34 +203,34 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>原告第１準備書面　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_1">第１</a>　用語の整理
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_11">１</a>　本書に用いる用語および表記の意味
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_12">２</a>　「本件通報」という用語の意味
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_121">⑴</a>　本件規程に定める「通報」及び「通報情報」の範囲について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_122">⑵</a>　訴状において定義した「本件通報」という用語の意味の変更について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123">⑶</a>　「本件通報」及び「本件通報に係る情報」を区別することについて
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_13">３</a>　本件訴訟に用いる用語のまとめ
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_131">⑴</a>　表１．本件内部通報制度の仕組みに関する用語
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_132">⑵</a>　表２．「通報情報に関する事実」に関する用語
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_133">⑶</a>　表３．時系列における用語と書証番号の整理
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_134">⑷</a>　表４．本件規程に定める事項と当事者の主張との対応表
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_2">第２</a>　原告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_21">１</a>　本件訴訟における原告の主張が遮断されないこと
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211">⑴</a>　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212">⑵</a>　原告の主張が既判力によって遮断されることはない
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_213">⑶</a>　甲２１の３の情報を得たことにより推定される事実について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_214">⑷</a>　原告における情報把握の状況と前回訴訟主要事実との関係について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_215">⑸</a>　本件訴訟における原告の主張は、信義則に反せず、許される
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_22">２</a>　被告について債務不履行又は不法行為に基づく責任が成立すること
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_221">⑴</a>　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_222">⑵</a>　本件規程に定める「通報情報に関する事実を確認するための調査」について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_223">⑶</a>　「通報情報に関する事実を確認するための調査」についての考察
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_224">⑷</a>　「通報情報に関する事実を確認するための調査」についての考察、つづき
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_225">⑸</a>　本件規程３．６ ⑴ に違反する行為の存在
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_226">⑹</a>　原告の損害
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_227">⑺</a>　被告の責任
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_3">第３</a>　答弁書に対する認否
-<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_4">第４</a>　結語
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_1">第１</a>　用語の整理
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_11">１</a>　本書に用いる用語および表記の意味
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_12">２</a>　「本件通報」という用語の意味
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_121">⑴</a>　本件規程に定める「通報」及び「通報情報」の範囲について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_122">⑵</a>　訴状において定義した「本件通報」という用語の意味の変更について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_123">⑶</a>　「本件通報」及び「本件通報に係る情報」を区別することについて
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_13">３</a>　本件訴訟に用いる用語のまとめ
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_131">⑴</a>　表１．本件内部通報制度の仕組みに関する用語
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_132">⑵</a>　表２．「通報情報に関する事実」に関する用語
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_133">⑶</a>　表３．時系列における用語と書証番号の整理
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_134">⑷</a>　表４．本件規程に定める事項と当事者の主張との対応表
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_2">第２</a>　原告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_21">１</a>　本件訴訟における原告の主張が遮断されないこと
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_211">⑴</a>　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_212">⑵</a>　原告の主張が既判力によって遮断されることはない
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_213">⑶</a>　甲２１の３の情報を得たことにより推定される事実について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_214">⑷</a>　原告における情報把握の状況と前回訴訟主要事実との関係について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_215">⑸</a>　本件訴訟における原告の主張は、信義則に反せず、許される
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_22">２</a>　被告について債務不履行又は不法行為に基づく責任が成立すること
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_221">⑴</a>　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_222">⑵</a>　本件規程に定める「通報情報に関する事実を確認するための調査」について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_223">⑶</a>　「通報情報に関する事実を確認するための調査」についての考察
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_224">⑷</a>　「通報情報に関する事実を確認するための調査」についての考察、つづき
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_225">⑸</a>　本件規程３．６ ⑴ に違反する行為の存在
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_226">⑹</a>　原告の損害
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_227">⑺</a>　被告の責任
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_3">第３</a>　答弁書に対する認否
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#dai1_4">第４</a>　結語
 
 ```` 
 
@@ -344,31 +356,11 @@
 
 <p class="k_hg-idt1"><a name="dai1_2"></a><b>第２　原告の主張</b>
 <p class="k_hg-idt2"><a name="dai1_21"></a><b>１　本件訴訟における原告の主張が遮断されないこと</b>
-<p class="k_hg-idt3"><a name="dai1_211"></a><b>⑴　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告は、本件訴訟における」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
+<p class="k_hg-idt3"><a name="dai1_211"></a><a name="point2"></a><span style="color: #f37726;"><b>⑴　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない
 <p class="k_idt3">被告は、本件訴訟における原告の主張を合理的に解釈するとして、答弁書において、④ → ④´ の対応付けを示しているものの<sup>9</sup>、当然ながら、これは、被告独自の解釈にすぎないというべきものである。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「最高裁平成３０年」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁（以下「最高裁平成３０年判決」という。）は、相談窓口制度の利用者に対する信義則上の義務を負う場合と、相談窓口制度の運用を定める規程類の存在の有無との関係を示していないところ、本件規程のような社内規程が存在しない場合でも、信義則上の義務違反が適用される可能性があると考えられる。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そして」以下について認める。
-`````
-
 <p class="k_idt3">そして、どのような相談の申出があった場合にいかなる措置を講ずるべきかについては、最高裁平成３０年判決以降の類似の裁判例の集積によって、具体的に明らかになっていくと考えられていたところ、前回訴訟第一審判決は、「不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。」と判示した<sup>10</sup>。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そこで」以下（表５を含む）について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
-<p class="k_idt3">そこで、上記のふたつの判決から、内部通報制度を整備している会社が、通報に係る通報の内容等に応じて適切に対応していない場合、その違反行為に適用しうる法令等を整理すると、表５（マトリクス表）のとおりである。
+<p class="k_idt3">そこで、上記のふたつの判決から、内部通報制度を整備している会社が、通報に係る通報の内容等に応じて適切に対応していない場合、その違反行為に適用しうる法令等を整理すると、表５（マトリクス表）のとおりである。</b></span>
 
 <p class="k_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>表５．内部通報制度における違反行為に適用しうる法令等</b>
 
@@ -382,18 +374,9 @@
 
 
 </div>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告における」以下について<br>
-　被告には、本件内部通報制度の運用を定める本件規程が存在していること、本件通報が、不正行為等によって直接被害を受けた者が不正行為等を通報した場合ではないことについては、それぞれ認めるが、その余は、事実上の主張については<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張については<span style="color: #FF0000;"><b>争う</b></span>。<br>　「よって」以下について意味が不明であるため、認否を<span class="u_rd">留保</span>する。
-`````
-<p class="k_idt3">被告における法令遵守体制は、本件内部通報制度の運用を定める本件規程が存在している状況である。また、本件是正措置等の実行は、被告が本件支払手続に係る支払の内容に関する契約内容を把握したことにより実行したものであるため、不正行為等によって直接被害を受けた者が、不正行為等を通報した場合ではない。そして、被告は、本件内部通報制度において、通報に係る通報の内容等に応じて適切に対応していないところ、被告の違反行為は、表５のケース３に該当する。
+<p class="k_idt3"><span style="color: #f37726;"><b>被告における法令遵守体制は、本件内部通報制度の運用を定める本件規程が存在している状況である。また、本件是正措置等の実行は、被告が本件支払手続に係る支払の内容に関する契約内容を把握したことにより実行したものであるため、不正行為等によって直接被害を受けた者が、不正行為等を通報した場合ではない。そして、被告は、本件内部通報制度において、通報に係る通報の内容等に応じて適切に対応していないところ、被告の違反行為は、表５のケース３に該当する。
 <p class="k_idt3">よって、被告の違反行為は、本件規程違反が適用される。
 <p class="k_hg-idt3"><a name="dai1_212"></a><b>⑵　原告の主張が既判力によって遮断されることはない</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件規程に」から「既判力が生じている。」までについて認める。
-`````
 <p class="k_idt3">本件規程に定める対応事項のうち、
 <p class="k_hg-idt4">● 調査をせず、あるいは不十分であったこと
 <p class="k_hg-idt4">● 調査を実施しない場合の通知をしなかったこと
@@ -401,50 +384,12 @@
 <p class="k_hg-idt4">● 役員等への報告を適正に行っていなかったこと
 <p class="k_hg-idt4">● 再度、通報可能であることの通知をしなかったこと
 <p class="k_pad3">（以上を総称して、以下「前回訴訟主要事実」という。）についての信義則上の義務違反の不存在については、前回訴訟控訴審判決の既判力が生じている。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「前回訴訟控訴審判決の」以下について<span style="color: #FF0000;"><b>争う</b></span>。反論はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q1"><i class="fa-solid fa-link"></i></a> 
-
-`````
-
 <p class="k_idt3">前回訴訟控訴審判決の既判力の生じた訴訟物は上記のとおりであるのに対し、本件訴訟訴訟物は、被告が、本件規程１．２ ⑸ に定める通報を受けて、本件規程１．２ ⑼ に定める調査を実施した結果、法令等に違反する事実または違反するおそれのある事実が確認され、当該事実に対する是正措置、再発防止策又は対応策として何かしらの措置及び本件契約の措置を実行したにもかかわらず、被告は、原告に対し、本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったこと（以下「本件訴訟主要事実」という。）についての本件規程違反の存在についてであるところ、同一関係にないことは明らかである。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そして」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">そして、本件訴訟主要事実は、不正行為等によって直接被害を受けた者が、不正行為等を通報した場合ではないところ、表５でも説明できるとおり、前回訴訟控訴審判決の信義則上の義務違反の不存在と、本件訴訟の本件規程違反の存在は非両立ではなく、本件訴訟訴訟物が前回訴訟控訴審判決と矛盾関係にある場合に当たらない。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「さらに」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">さらに、前回訴訟の訴訟物が本件訴訟の訴訟物の前提となっているわけではない以上、前回訴訟控訴審判決が本件訴訟の訴訟物の先決関係にある場合に当たらない。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「以上により」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
-<p class="k_idt3">以上により、前回訴訟控訴審判決の既判力が本件訴訟に作用しない。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
+<p class="k_idt3">以上により、前回訴訟控訴審判決の既判力が本件訴訟に作用しない。</b></span>
 <p class="k_idt3">よって、前回訴訟控訴審判決の既判力は本件訴訟に及ばず、原告の主張が既判力によって遮断されることはない。
 <p class="k_hg-idt3"><a name="dai1_213"></a><b>⑶　甲２１の３の情報を得たことにより推定される事実について</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件訴訟で」以下（引用部分を含む。）について<br>
-　甲第２１号証の３が前回訴訟において書証として提出されていなかったこと、甲第２１号証の３の電子メールに、原告の引用する内容の記載があることは、それぞれ認めるが、その余は、<span style="color: #FF0000;"><b>否認</b></span>する。
-`````
-
-
 <p class="k_idt3">本件訴訟で提出した書証のうち、前回訴訟において提出されなかった証拠は、甲２１の３に記載している内容であり、その内容のうち、前回訴訟において把握できなかった情報は、以下の枠内の下線の部分である。
 
 <div class="k_pad3">
@@ -464,16 +409,7 @@
 
 ```
 </div>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告と」以下（表６を含む。）について<br>
-　表６に記載する事実のうち下線部分以外の事実は認めるが、その余は、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。<br>
-　表６に記載する事実のうち下線部分の事実は、原告の主張するような因果関係によるものではないし、原告の主張するような「推定」も働かない。<br>
-`````
-
 <p class="k_idt3">被告と本件豪州企業との間で締結した契約に関する経緯について、上記の枠内の下線の情報を得たことにより推定される事実は、表６の下線部分である。
-
 <p class="k_center" style="margin-top: 1.4em; margin-bottom: 1.4em;"><b>表６．被告と本件豪州企業との間で締結した契約に関する経緯</b>
 <div class="k_pad3">
 
@@ -491,179 +427,38 @@
 </div>
 
 <p class="k_hg-idt3"><a name="dai1_214"></a><b>⑷　原告における情報把握の状況と前回訴訟主要事実との関係について</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「表６で」以下について<br>
-　事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。原告の主張するような因果関係によるものではないし、原告の主張するような「推定」も働かない。
-`````
-
 <p class="k_idt3">表６で示した経緯からすると、被告は、本件調査対応協議を実施した結果、被告と本件豪州企業との間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在しないことを把握し、本件支払手続に係る支払の内容が当該契約に基づいていないという事実を確認したため、当該事実に対する本件是正措置等として何かしらの措置及び本件契約の措置を実行したと推定される。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「しかし」以下について<br>
-　原告のいう「本件調査対応協議」が実施されたこと、原告のいう「ＧＳＴ業務移管通知」がなされたこと、ＧＳＴ業務移管通知に基づく業務移管によって、原告は被告と本件豪州企業の間で締結した契約に関する情報から遮断された状態になったことは、それぞれ認めるが、その余は、<span style="color: #FF0000;"><b>不知</b></span>であり又は<span style="color: #FF0000;"><b>否認</b></span>する。
-`````
-
 <p class="k_idt3">しかし、本件調査対応協議を実施した後に（甲１５の２及び乙３<sup>11</sup>）、ＧＳＴ業務移管通知がなされ（乙３<sup>12</sup>）、これにより、原告は、被告と本件豪州企業との間で締結した契約に関する情報から遮断された状態になったことから、何かしらの措置又は本件契約の措置を実行したことを知らされない状況であった。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「さらに」以下について認める。
-`````
-
 <p class="k_idt3">さらに、調査補助者は、原告からの本件調査報告２に係る通知の内容に対する質問に回答する際、原告に対し、「当社と ≪ 本件豪州企業 ≫ 間の契約書について確認するように再三お求めですが、これを行う必要はないものと判断しています。」などと説明して（甲２５の５）、原告を被告と本件豪州企業との間で締結した契約に関する情報から遮断した。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「甲２１の３に」以下について認める。
-`````
-
 <p class="k_idt3">甲２１の３に記載している内容を通知した本件通知の際にも、調査補助者は、原告に対し、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて通知していない（甲２１の３）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記の状況であったため」以下について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">上記の状況であったため、原告は、被告が本件是正措置等として何かしらの措置及び本件契約の措置を実行したことが認識ができず、前回訴訟においては、本件訴訟主要事実ではなく、前回訴訟主要事実である「調査をせず、あるいは不十分であったこと」という視点で主張した。
 <p class="k_hg-idt3"><a name="dai1_215"></a><b>⑸　本件訴訟における原告の主張は、信義則に反せず、許される</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「甲２１の３に」以下について<br>
-　甲第２１号証の３が前回訴訟において証拠として提出されていないこと、被告が原告に対して私的な訴訟の追行のためにオフィススペース、会社貸与パソコン等を使用することを禁止していたことは、それぞれ認めるが、その余は、<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">甲２１の３に記載している内容は、前回訴訟控訴審判決が確定した後に、原告が会社貸与パソコンで確認した内容であるため、前回訴訟において、証拠として提出していない。これについては、被告が令和３年５月２６日に、原告に対して、訴訟に関する全ての行為についてオフィススペース及び会社貸与パソコン等を使用することを禁じていたという事情があった。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「確かに」以下について認める。
-`````
-
 <p class="k_idt3">確かに、被告が原告に対して、訴訟に関する行為について会社貸与パソコン等を使用することを禁じていたとはいっても、甲２１の３に記載している内容は、前回訴訟の提起前に、被告が原告に対して通知していた内容ではある。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は」以下について認める。
-
-`````
-
 <p class="k_idt3">原告は、前回訴訟においても、被告と本件豪州企業との間で締結した契約に関する主張をしており、被告と本件豪州企業との間の契約書の所持者である被告にその契約書の送付を嘱託することを申し立てをする令和４年４月１５日付の「文書送付嘱託申立書 ⑴ 」を提出していた<sup>13</sup>。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「これに対し」以下について認める。<br>
-　ただし、被告が前回訴訟において被告と本件豪州企業の間の契約書を送付しなかったのは、前回訴訟の第一審の裁判所が令和４年１０月２７日の第８回弁論準備手続期日において原告の文書送付嘱託の申立てを却下したからである。
-`````
-
 <p class="k_idt3">これに対し、被告は、令和４年６月７日付の「文書送付嘱託の申立てに対する意見書」において、原告の主張に理由があるか否かの認定に影響を及ぼさないとして、証拠調べの必要性の不存在を主張し、文書を送付しなかった<sup>14</sup>という経緯があった。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件調査に係る」以下について認める。言い訳はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q2"><i class="fa-solid fa-link"></i></a> 
-`````
-
 <p class="k_idt3">本件調査に係る調査事項については、依然として、「具体的に何を調査したのか、及び何を調査しなかったのか」が判然としていない状況であり、未だに、その調査事項について、被告から提示されていない。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そして」以下について<br>
-　前回訴訟の第一審及び控訴審の各裁判所が原告のいう「本件調査」に係る調査事項について釈明権を行使しなかったことは認めるが、その余は<span style="color: #FF0000;"><b>否認</b></span>する。<br>
-　前回訴訟第一審判決及び前回訴訟控訴審判決のいずれも、原告の主張する事実として原告のいう「前回訴訟主要事実」を明示的に摘示したうえ（注４）、原告のいう「前回訴訟主要事実」のそれぞれについて、「信義則上の義務違反があったということはできない」（注５）、「信義則上の義務違反であるなどとは到底いえない」（注６）、「信義則上の義務違反があったものとすることはできない」（注７）などと明示的に判示している。
-`````
-
 <p class="k_idt3">そして、前回訴訟第一審判決及び前回訴訟控訴審判決は、前回訴訟において、本件調査に係る調査事項について釈明権を行使しておらず、また、前回訴訟主要事実について、信義則違反であるか又は本件規程違反であるかという法的観点の指摘をしていない。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「前回訴訟における」以下について<span style="color: #FF0000;"><b>争う</b></span>。反論はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q3"><i class="fa-solid fa-link"></i></a> 
-
-`````
-
 <p class="k_idt3">前回訴訟における情報把握の状況は以上のとおりであるから、原告が前回訴訟において、本件訴訟における訴訟物と同様の主張をして、一回的解決を図ることは、困難であったといえる。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">よって、本件訴訟における原告の主張は、信義則に反せず、許される。
-
 <p class="k_hg-idt2"><a name="dai1_22"></a><b>２　被告について債務不履行又は不法行為に基づく責任が成立すること</b>
 <p class="k_hg-idt3"><a name="dai1_221"></a><b>⑴　本件規程を定めて本件内部通報制度を整備したことによる債務の存在</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告は」以下について認める。
-`````
-
 <p class="k_idt3">被告は、被告等の取締役および使用人（従業員）の職務の執行が法令および定款に適合することを確保するための体制の一環として、本件内部通報制度を整備・運用している（甲２８）。また、本件規程１．２ ⑴ に定める「法令等」には、グループ行動基準も含まれている（甲２）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件内部通報制度が」以下について一般論としては認める。
-`````
-
 <p class="k_idt3">本件内部通報制度が適切に運用されているか否かは、従業員が職務を執行するための環境及び従業員の職場環境に影響する。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「労働契約法第７条により」以下について一般論としては認める。
-`````
-
 <p class="k_idt3">労働契約法第７条により労働契約の内容となる「就業規則」は、就業規則という名称のものに限られず、労働条件を定めるもので規則規程として周知されているものであれば該当しうる。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「労働基準法第８９条の」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">労働基準法第８９条の事項には１０号の「当該事業場の労働者のすべてに適用される定めをする場合においては、これに関する事項」もあり、本件規程も当該事業場の労働者すべてに適用されるから、被告のいう就業規則として使用者たる会社と労働者たる従業員との間に効力を生ずる場合である。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件規程も」以下）（１６頁）について<span style="color: #FF0000;"><b>争う</b></span>。<br>
-　労働契約法第７条にいう「就業規則」と労働基準法第８９条にいう「就業規則」とは同じものを意味すると解され（注９）、労働契約法第７条によれば、就業規則は、「労働条件が定められている」ものであることを要すると解されるところ、本件規程は、労働者の「労働条件」を定めているものではない。
-`````
-
 <p class="k_idt3">本件規程も、労働者の側からは職場環境の改善の側面があり、労働条件に関わるものである。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「仮に本件規程の」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-
-`````
-
 <p class="k_idt3">仮に本件規程の趣旨が労働条件に関係しないとした場合であっても、会社が自ら一定の場合に一定の行為を具体的に行うことを定めて公表した以上、会社は要件に該当する者に対してそれを行う債務がある。
-
 <p class="k_hg-idt3"><a name="dai1_222"></a><b>⑵　本件規程に定める「通報情報に関する事実を確認するための調査」について</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件規程１.２（９）では」以下について認める。
-
-`````
-
 <p class="k_idt3">本件規程１．２ ⑼ では、「調査とは、通報情報に関する事実を確認するための調査をいう」と定めている。調査過程などにおいて調査補助者に対して告げた通報情報は、本件規程１．２ ⑹ に定める「通報情報」と実質的に同じであることは、上記第１の２ ⑴ のとおりである。すなわち、本件調査の対象は、本件通報、追加通報及び調査補助者に対する追加通報に係る情報（通報情報）に関する事実である。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「ここで」から「３つであった」までについて<span style="color: #FF0000;"><b>特に争わない</b></span>。
-`````
-
 <p class="k_idt3">ここで、本件通報、追加通報及び調査補助者に対する追加通報に係る情報（通報情報）に関する事実を大きく分けると、
 <p class="k_hg-idt4">● 事実Ａ．原告が本件支払手続をした行為（甲３）、
 <p class="k_hg-idt4">● 事実Ｂ．上司Ａが還付手続対応説明をした行為（甲４）、及び
 <p class="k_hg-idt4">● 事実Ｃ．豪州子会社が金銭の流れが一部不明瞭な送金をした行為（甲２７）<br>の３つであった。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記のうち」以下について特に認否しない。
-`````
-
 <p class="k_pad3">上記のうち事実Ａについて、本件支払手続をした行為に関する調査事項はどのようなことであったか、以下、考察する。
 <p class="k_hg-idt3"><a name="dai1_223"></a><b>⑶　「通報情報に関する事実を確認するための調査」についての考察</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は」以下について認める。
-`````
-
 <p class="k_idt3">原告は、調査補助者に対する追加通報において、調査補助者に対し、被告と本件豪州企業との間で締結した契約の確認に関する状況を告げていた<sup>15</sup>（甲１０ないし１７、２２及び２３）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「これに対し」以下について認める。
-`````
-
 <p class="k_idt3">これに対し、調査補助者は、「追加でいただいた疑問含め、対応検討させていただきます。（甲１４の１）」及び「打ち合わせを行う場合は、また別途日程を設定させていただきます。（甲１８の１）」と返答し、また、以下の枠内の事項を「調査の対象となる事項」として提示していた（甲２３の８）。
-
 <div class="k_pad3">
 
 ```{card}
@@ -683,110 +478,24 @@
 
 ```
 </div>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告と調査補助者との」以下について事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。反論はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q4"><i class="fa-solid fa-link"></i></a> 
-`````
-
 <p class="k_idt3">原告と調査補助者との調査過程におけるやり取りは上記のとおりであるから、本件支払手続をした行為に関する調査事項には、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。
 <p class="k_hg-idt3"><a name="dai1_224"></a><b>⑷　「通報情報に関する事実を確認するための調査」についての考察、つづき</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告も」以下）は認めるが、第２文（「このような状況のなかで」以下）は、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">被告も認めるとおり<sup>16</sup>、実務上、海外企業が被告に発行する請求書において、海外企業が被告に対してＧＳＴを請求することは、特殊な場合を除いてほとんどない。このような状況のなかで、本件豪州企業が被告に対してＧＳＴを請求していたという事実が存在すれば、売買契約においてＧＳＴに関する定めが存在するという特殊な事情があるかどうかを確認する必要があるのは当然である。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　第１文（「売買契約において」以下）は認めるが、第２文（「一方で」以下）は、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">売買契約において役務提供対価にＧＳＴを課す旨の定めが存在する場合は、当然、ＧＳＴを支払う義務がある。一方で、売買契約において役務提供対価にＧＳＴを課す旨の定めが存在しないにもかからわず、支払義務がないＧＳＴ分の金銭を支払っていたような場合は、その支払の行為自体が法令等に違反する事実または違反するおそれのある事実であるのはもちろんのこと、契約条項又は租税条約などの法令等に基づかない支払の行為は、従業員が不正なキックバックを受け取るような不正行為を生ずるおそれがある。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「仮に」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">仮に原告が本件通報、追加通報又は調査補助者に対する追加通報において、契約内容の確認の必要性について告げていないとしても、被告は、被告等の取締役および使用人（従業員）の職務の執行が法令および定款に適合することを確保するための体制の一環として、本件内部通報制度を整備・運用していること（甲２８）、また、本件規程の目的について、被告等における法令等に違反する行為または違反するおそれのある行為を早期に是正し、もって被告等のコンプライアンス体制を強化することである旨が定められていること（本件規程１．１）からすると、本件支払手続をした行為に関する調査事項には、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。
-
-
 <p class="k_hg-idt3"><a name="dai1_225"></a><b>⑸　本件規程３．６ ⑴ に違反する行為の存在</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件支払手続を」以下）（２０頁）について<br>
-　被告と本件豪州企業の間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在していなかったこと、被告が本件通報及び原告のいう「調査補助者に対する追加通報」を受けた後に、調査補助者が原告のいう「上司A」と原告のいう「本件調査対応協議」をしたこと、「本件調査対応協議」の後に、被告と本件豪州企業の間で締結した契約において役務提供対価にＧＳＴを課さない旨の定めが置かれたことは、それぞれ認めるが、その余は、事実上の主張については<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張については<span style="color: #FF0000;"><b>争う</b></span>。
-
-`````
-
-
 <p class="k_idt3">本件支払手続をした行為に関する調査事項は、上記で推定されるとおりであるところ、証拠で明らかになっている事実としても、被告と本件豪州企業との間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在していなかったという事実が存在し（甲２１）、また、被告が本件通報及び調査補助者に対する追加通報を受けた後に調査補助者が上司Ａと本件調査対応協議をしたという事実が存在し（甲１５の２及び乙３<sup>17</sup>）、さらに、本件調査対応協議の後に、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置及び本件契約の措置を実行したという事実が存在する（甲２１）。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「以上により」について<br>
-　事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。原告の主張するような事実は存在しないし、原告の主張するような「推認」も相当でない。
-`````
-
 <p class="k_idt3">以上により、本件調査に係る調査事項には、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かを確認するという事項が存在しており、被告は、本件調査を実施した結果、被告と本件豪州企業との間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在しないことを把握し、本件支払手続に係る支払の内容が当該契約に基づいていないという事実を確認したため、当該事実に対する本件是正措置等として何かしらの措置及び本件契約の措置を実行したと推認するのが相当である。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件規程３.６（１）アに」以下について認める。
-
-`````
-
 <p class="k_idt3">本件規程３．６ ⑴ アに定める「法令等に違反する事実または違反するおそれのある事実の有無」という通知事項は、法令等に違反する事実または違反するおそれのある事実の存在ついて、当該事実が存在しない場合はその旨を通知し、存在した場合はその旨を通知するものである。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「この点」以下）（２０頁）について<span style="color: #FF0000;"><b>否認</b></span>する。<br>
-　「コンプライアンス違反ではない」又は「いずれも不正行為等に該当しない」との調査結果を報告することは、まさしく「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知するものにほかならない。
-`````
-
 <p class="k_idt3">この点、被告は、答弁書において、「コンプライアンス違反ではないなどとする調査結果報告」及び「いずれも不正行為等に該当しない旨の調査結果報告」という調査報告の内容の存在を主張しているものの、法令等に違反する事実または違反するおそれのある事実が存在したのか否かについては言及していない<sup>18</sup>。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「取引上の社会通念に照らすと」以下について<br>
-　事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">取引上の社会通念に照らすと、売買契約において税金の支払に関する定めが存在することは一般的な認識であるところ、調査補助者は、原告からの本件調査報告２に係る通知の内容に対する質問に回答する際、原告に対し、「契約書を確認するという行為は、先に述べた通り対応として意味がない行為ですので、行わなかったとしても対応を怠ったことにはなりません。」などと説明しており（甲２５の５）、係る説明の内容が著しく不合理であることからすると、調査補助者は、原告に対し、実際の事実に反して、法令等に違反する事実または違反するおそれのある事実が存在しないかのように説き伏せるために不合理な内容を説明したと推認するのが相当である。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「以上より」以下）（２１頁）について意味が不明であるが、少なくとも結論については<span style="color: #FF0000;"><b>争う</b></span>。<br>
-　答弁書にも述べたとおり（注１２）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、本件通報について、本件規程３.６（１）イ及びウに基づく通知は必要でない。
-`````
-
 <p class="k_idt3">以上により、法令等に違反する事実または違反するおそれのある事実の存在を伏せていた調査結果報告１及び調査結果報告２は、本件規程３．６ ⑴ アの通知事項が不正である点につき、本件規程３．６ ⑴ に違反する行為である。そして、不正な本件規程３．６ ⑴ アの通知事項に続いて、本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったことも、本件規程３．６ ⑴ に違反する。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">よって、被告に本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったことについての本件規程違反が存在する。
-
 <p class="k_hg-idt3"><a name="dai1_226"></a><b>⑹　原告の損害</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　第２の２（６）（原告の損害）（２１頁）について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">かつて、原告が業務プロセスの問題について上司に報告していたにもかかわらず、その問題が原因でトラブルが発生した際、トラブルの原因を原告個人のみの問題として処理されたことがあった。
 <p class="k_idt3">原告は、上記と同様の事態になることをおそれて本件内部通報制度を利用したものの、これに対して被告が行ったことは、原告を被告が本件調査により把握した契約内容に関する情報から遮断することであった。
 <p class="k_idt3">このような被告の対応により、原告は、業務プロセスの問題が適正化されない不安を感じながら職務を執行するという精神的損害が生じた。
 <p class="k_hg-idt3"><a name="dai1_227"></a><b>⑺　被告の責任</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　第２の２（７）（被告の責任）（２２頁）について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
 <p class="k_idt3">よって、被告について、債務不履行に基づく責任又は不法行為に基づく責任が成立し、原告は、被告に対して、１円の支払いを求める。
 <p class="k_hg-idt1"><a name="dai1_3"></a><b>第３　答弁書に対する認否</b>
 <p class="k_hg-idt2"><a name="dai1_31"></a><b>１　第３の「１　本件訴訟における原告の主張」（５頁以下）について</b>
@@ -837,19 +546,19 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>答弁書　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_1">第１</a>　本案前の申立て
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_2">第２</a>　請求の趣旨に対する答弁
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_3">第３</a>　被告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_31">１</a>　本件訴訟における原告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_32">２</a>　前回訴訟における原告の主張と判決の確定
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_33">３</a>　前回訴訟の確定判決の既判力による遮断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_34">４</a>　信義則に違反する紛争の蒸し返し
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">５</a>　本件規程３．６⑴イ・ウの違反の不存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_36">６</a>　信義則上の義務の違反の不存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_37">７</a>　結論（被告の主張）
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_4">第４</a>　訴状第２（請求の原因）（２頁以下）に対する認否
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_5">第５</a>　訴状第３（まとめ）（１３頁）に対する認否
-<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_6">第６</a>　結語
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_1">第１</a>　本案前の申立て
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_2">第２</a>　請求の趣旨に対する答弁
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_3">第３</a>　被告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_31">１</a>　本件訴訟における原告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_32">２</a>　前回訴訟における原告の主張と判決の確定
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_33">３</a>　前回訴訟の確定判決の既判力による遮断
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_34">４</a>　信義則に違反する紛争の蒸し返し
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_35">５</a>　本件規程３．６⑴イ・ウの違反の不存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_36">６</a>　信義則上の義務の違反の不存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_37">７</a>　結論（被告の主張）
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_4">第４</a>　訴状第２（請求の原因）（２頁以下）に対する認否
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_5">第５</a>　訴状第３（まとめ）（１３頁）に対する認否
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#toben_6">第６</a>　結語
 
 ```` 
 
@@ -921,11 +630,11 @@
 <p class="k_hg-idt4">③　被告は、本件通報を受けて、是正措置、再発防止策又は対応策を実施したにもかかわらず、原告に対し、当該事実を通知しなかった（注４）。
 <p class="k_hg-idt4">④　よって、被告は、本件規定３．６⑴イ又はウに違反した。
 <p class="k_hg-idt4">⑤　したがって、被告は、原告に対し、債務不履行（民法第４１５条）又は不法行為（民法第７０９条）に基づく損害賠償責任を負う。
-<p class="k_idt2"><a name="point1"></a>しかし、一般に、会社の社内規程・社内規則は、労働基準法において就業規則の必要的記載事項とされている事項（同法第８９条各号）の定めが就業規則として使用者たる会社と労働者たる従業員との間に効力を生ずる場合、会社と労働組合の間の労働条件等に関する合意が同法第１４条に基づく労働協約として会社と従業員との間に効力を生ずる場合などを除いては、会社組織内における自律的な規範であるに過ぎず、会社と従業員の間に何らかの権利義務関係・債権債務関係を生ぜしめるものではないところ、本件規程も、就業規則、労働協約等の一部を構成するものなどではないので、仮に被告が本件規程に違反したとしても、直ちに被告が従業員たる原告に対する何らかの義務に違反し又は何らかの債務を履行しなかったことになるものではない。
+<p class="k_idt2"><a name="point1"></a><span style="color: #f37726;"><b>しかし、一般に、会社の社内規程・社内規則は、労働基準法において就業規則の必要的記載事項とされている事項（同法第８９条各号）の定めが就業規則として使用者たる会社と労働者たる従業員との間に効力を生ずる場合、会社と労働組合の間の労働条件等に関する合意が同法第１４条に基づく労働協約として会社と従業員との間に効力を生ずる場合などを除いては、会社組織内における自律的な規範であるに過ぎず、会社と従業員の間に何らかの権利義務関係・債権債務関係を生ぜしめるものではないところ、本件規程も、就業規則、労働協約等の一部を構成するものなどではないので、仮に被告が本件規程に違反したとしても、直ちに被告が従業員たる原告に対する何らかの義務に違反し又は何らかの債務を履行しなかったことになるものではない。
 <p class="k_idt2">よって、<b>仮に被告が本件規程３．６⑴イ又はウに違反していたと仮定しても、当該違反の事実によって、直ちに被告の原告に対する債務不履行又は不法行為となるものではない</b>。
 <p class="k_idt2">もっとも、一般に、会社が内部通報制度を設けている場合において、従業員が当該内部通報制度の通報窓口に通報をしたときは、当該通報の具体的状況の如何によっては、会社は、当該従業員に対し、当該通報を受け、体制として整備された仕組みに基づいて適切に対応すべき信義則上の義務を負う場合があると解されている（注５）。
 <p class="k_idt2">そこで、本件訴訟における原告の主張を合理的に解釈すると、上記の原告の主張は、次の主張を含むものであると思われる。
-<p class="k_hg-idt3">④´ 被告は、本件通報について、本件内部通報制度に基づいて適切に対応すべき信義則上の義務を負っていたところ、本件規程３．６⑴イ又はウに違反したことは、かかる信義則上の義務の違反を構成する。
+<p class="k_hg-idt3">④´ 被告は、本件通報について、本件内部通報制度に基づいて適切に対応すべき信義則上の義務を負っていたところ、本件規程３．６⑴イ又はウに違反したことは、かかる信義則上の義務の違反を構成する。</b></span>
 <p class="k_hg-idt2"><a name="toben_32"></a><b>２　前回訴訟における原告の主張と判決の確定</b>
 <p class="k_idt2">原告は、令和３年５月３１日に、東京地方裁判所において被告に対する損害賠償請求訴訟を提起しており（東京地方裁判所令和３年（ワ）第〇〇〇〇〇号損害賠償請求事件）（以下「<b>前回訴訟</b>」という。）、原告は、前回訴訟においても、原告が被告の本件内部通報制度の通報窓口に対して行った本件通報を含む２件の内部通報について、被告の対応が本件規程の規定に違反しているために信義則上の義務に違反したとして、債務不履行及び不法行為に基づく損害賠償責任を負うとの主張（以下「<b>前回訴訟争点１</b>」という。）をし、被告に対し、債務不履行又は不法行為に基づく損害賠償を請求していた（乙第３号証（注６））。
 <p class="k_idt2">そして、前回訴訟の第一審裁判所は、令和４年１２月２２日に判決（以下「<b>前回訴訟第一審判決</b>」という。）を言い渡しているところ（乙第３号証）、<b>前回訴訟第一審判決は、前回訴訟争点１について、本件通報を含む２件の内部通報に関する被告の対応について、信義則上の義務違反があったとはいえないと判示</b>し（乙第３号証（注７））、その他の争点についても原告の主張はいずれも採用できないとしたうえで、<b>被告は、原告に対し、債務不履行又は不法行為に基づく損害賠償責任を負わないと結論</b>付け（乙第３号証（注８））、原告の請求を棄却した（乙第３号証（注９））。
@@ -933,7 +642,7 @@
 <p class="k_idt2">原告は、前回訴訟控訴審判決も不服とし、令和５年６月２８日、最高裁判所において、上告を提起するとともに（最高裁判所令和５年（ネオ）第〇〇〇号上告提起事件）（乙第５号証）、上告受理の申立てをした（最高裁判所令和５年（受）第〇〇〇号上告受理申立事件・令和５年（受）第〇〇〇〇号）（乙第６号証）。上告については、原告が、同年８月２８日に、その全部を取り下げたが（乙第７号証）、上告受理申立てについては、最高裁判所が、令和６年１月２５日に、上告審として受理しない旨の決定をした（乙第８号証）。これによって、<b>前回訴訟控訴審判決が確定している</b>。
 <p class="k_hg-idt2"><a name="toben_33"></a><b>３　前回訴訟の確定判決の既判力による遮断</b>
 <p class="k_idt2">前回訴訟控訴審判決が確定したことにより、前回訴訟の訴訟物の内容をなす権利・法律関係の存否の判断について既判力を生じているため（民事訴訟法第１１４条第１項）、前回訴訟の控訴審の口頭弁論終結後に生じた新たな事由がない限り、後訴裁判所は、前回訴訟控訴審判決と矛盾する判断をすることが許されなくなり、これを前提として後訴の審判をしなければならないし、前回訴訟の当事者である本件訴訟の原告及び被告も、前回訴訟控訴審判決が判断した権利・法律関係の存否を争うことは許されなくなっている。
-<p class="k_idt2">この点、前回訴訟における前回訴訟争点１に係る損害賠償請求も、本件訴訟における損害賠償請求も、本件通報に関して被告が原告に対する信義則上の義務に違反したことを理由として債務不履行又は不法行為に基づく損害賠償を請求するものであるから、訴訟物は同一であるし、原告は、本件訴訟において、前回訴訟の控訴審の口頭弁論終結後に生じた新たな事由を主張しているわけでもない。
+<p class="k_idt2"><a name="point2"></a><span style="color: #f37726;"><b>この点、前回訴訟における前回訴訟争点１に係る損害賠償請求も、本件訴訟における損害賠償請求も、本件通報に関して被告が原告に対する信義則上の義務に違反したことを理由として債務不履行又は不法行為に基づく損害賠償を請求するものであるから、訴訟物は同一であるし、原告は、本件訴訟において、前回訴訟の控訴審の口頭弁論終結後に生じた新たな事由を主張しているわけでもない。</b></span>
 <p class="k_idt2">よって、<b>本件訴訟における原告の請求は、確定した前回訴訟控訴審判決の既判力によって遮断され、かつ理由がない</b>。
 <p class="k_hg-idt2"><a name="toben_34"></a><b>４　信義則に違反する紛争の蒸し返し</b>
 <p class="k_idt2">確かに、原告は、前回訴訟においては、本件通報を含む２件の内部通報に関する被告の対応に信義則違反があったことの理由として、調査をせず又は調査が不十分であったこと（本件規程１．２⑼又は３．４の違反）、調査を実施しない場合の通知をしなかったこと（同規程３．１⑴の違反）、通報情報の厳重な管理を行わなかったこと（同規程３．１２の違反）、役員等への報告を適正に行っていなかったこと（同規程３．２⑴又は３．６⑶の違反）、原告に対して再度の通報が可能であるとの通知をしなかったこと（同規程３．６⑴エの違反）、本件通報を理由に不利益な取扱いをしたこと（同規程２．４⑴又は３．１１⑴の違反）など、多数の本件規程違反を主張していたものの（乙第３号証（注１２））、本件訴訟において主張している、原告に対して是正措置、再発防止策又は対応策を実施したとの通知をしなかったこと（同規程３．６⑴イ又はウの違反）については、主張していなかった（乙第３号証）。
@@ -1067,15 +776,15 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>訴状　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_1">第１</a>　請求の趣旨
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_2">第２</a>　請求の原因
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_21">１</a>　用語の意味
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_22">２</a>　当事者
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_23">３</a>　被告における業務の適正等を確保するための体制
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_24">４</a>　経緯
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_25">５</a>　被告の本件規程違反の存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_26">６</a>　原告の損害
-<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_3">第３</a>　まとめ
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_1">第１</a>　請求の趣旨
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_2">第２</a>　請求の原因
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_21">１</a>　用語の意味
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_22">２</a>　当事者
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_23">３</a>　被告における業務の適正等を確保するための体制
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_24">４</a>　経緯
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_25">５</a>　被告の本件規程違反の存在
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_26">６</a>　原告の損害
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#sojou_3">第３</a>　まとめ
 
 ```` 
 
@@ -1106,261 +815,71 @@
 <p class="k"><b><a name="sojou_1"></a>第１　請求の趣旨</b>
 <p class="k_idt">被告は、原告に対し、金１円の金員を支払え。
 <p class="k"><b><a name="sojou_2"></a>第２　請求の原因</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「１　用語の意味」について特に認否しない。
-`````
-
 <p class="k_hg-idt2"><a name="sojou_21"></a><b>１　用語の意味</b>
 <p class="k_idt2">本書に用いる用語の意味は、本書に別段の定義のない限り、被告が定める「コンプライアンスホットライン規程」（甲１。以下「本件規程」という。）において定義するところによる。
 <p class="k_hg-idt2"><a name="sojou_22"></a><b>２　当事者</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告は」について認める。
-`````
-
 <p class="k_hg-idt3"><a name="sojou_221"></a>⑴　被告は、（中略）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は」について<br>
-「本件当時」というのが、原告が訴状第２の４⑷（３頁）にいう「本件通報」がなされた当時を意味するという前提で、認める。
-`````
-
 <p class="k_hg-idt3"><a name="sojou_222"></a>⑵　原告は、被告の従業員である。原告は、本件当時、被告において、経費の支払い業務に従事していた。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「３　被告における業務の適正等を確保するための体制」について認める。
-`````
-
 <p class="k_hg-idt2"><a name="sojou_23"></a><b>３　被告における業務の適正等を確保するための体制</b>
 <p class="k_idt2">被告は、国内外の法令、定款、社内規程及び企業倫理の遵守に関するグループ行動基準を定め（甲２）、〇〇〇〇〇グループのコーポレートガバナンスに関する基本方針を制定し、通報窓口および対応体制を含む自社及び子会社等から成る企業集団の業務の適正等を確保するための体制を整備して、これらを被告の公式ホームページで公表している。
 <p class="k_idt2">被告における通報窓口および対応体制は、コンプライアンスホットライン制度（以下「本件内部通報制度」という。）という名称であり、被告が本件規程を定めて、これを運用している。
 <p class="k_hg-idt2"><a name="sojou_24"></a><b>４　経緯</b>
 <p class="k_hg-idt3"><b>⑴　平成２７年１１月６日（2015年）</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は、平成２７年１１月６日」平成２７年１１月６日」以下について認める。
-`````
-
 <p class="k_idt3">原告は、平成２７年１１月６日、オーストラリアの法律事務所（以下「本件豪州企業」という。）に対してコンサルタントの役務対価とオーストラリアの物品サービス税であるＧＳＴ 75,437.10 豪ドル（以下「本件ＧＳＴ」という。）を合わせた金額 836,601.06 豪ドルを支払う手続きを行った（甲３）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「実務上」以下について第１文は認めるが、第２文は<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">実務上、海外企業が被告に発行する請求書において、海外企業が被告に対してＧＳＴを請求することは、特殊な場合を除いてほとんどない。原告は、本件豪州企業に対して本件ＧＳＴを支払う義務があるのか否かを確認することを失念していた。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑵　平成２８年１月７日（2016年）」について認める。
-`````
-
 <p class="k_hg-idt3"><b>⑵　平成２８年１月７日（2016年）</b>
 <p class="k_idt3">原告は、本件豪州企業に対して本件ＧＳＴを支払う義務がないかもしれないことに気が付いた。そのため、原告は、平成２８年１月７日、直属の上司（以下「上司Ａ」という。）に対し、本件豪州企業に対して本件ＧＳＴを支払う手続きを行ったことを報告した（甲４）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑶　平成２８年３月３１日（2016年）」について<br>
-原告が平成２８年３月３１日に上司Ａに対して本件ＧＳＴの支払に関して確認する電子メールを送付したことは認めるが、その余は、原告の解釈又は心理についての主張であるため、<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_hg-idt3"><b>⑶　平成２８年３月３１日（2016年）</b>
 <p class="k_idt3">決算期のため、原告は、平成２８年３月３１日、上司Ａに対し、本件ＧＳＴの支払いに関して確認するメールを送信した。これに対し、上司Ａの回答は、経費支払いに関する内容であるにもかかわらず、被告と本件豪州企業との契約内容から本件ＧＳＴを支払う義務があるのか否かについて確認する意向が認められないなど不明瞭な点があった。（甲４）
 <p class="k_idt3">そのため、原告は、上司Ａの回答に原告を誤導する意図を感じており、後になってから、原告が契約内容の確認を取らずに支払い手続きをしたなどと叱責を受けるおそれを抱いていた。
 <p class="k_hg-idt3"><b>⑷　平成２８年９月１４日（2016年）</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は、平成２８年９月１４日」以下について概ね認める。
-`````
-
 <p class="k_idt3">原告は、平成２８年９月１４日、本件規程２．１⑴アに定めるメールアドレスに対し、本件豪州企業に対して本件ＧＳＴを支払う手続きを行った事実、及びこれに関連する上司Ａらから伝えられた内容を通報するメールを送信した（甲５。以下、本件ＧＳＴの支払いに関連する事実、疑念、確認事項又は疑問事項などの情報を通報する通報を総称して「本件通報」という）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記メールアドレスは」以下について認める。
-`````
-
 <p class="k_idt3">上記メールアドレスは、本件内部通報制度における社内窓口の法務部長宛のメールアドレスとして本件規程２．１⑴アに定められているものの、実務上は、内部通報の受付窓口のメールアドレスとして機能しているメーリングリストである。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告が本件規程２．１⑴アに」以下について概ね認める。
-`````
-
 <p class="k_idt3">被告が本件規程２．１⑴アに定めるメールアドレスに対する通報を受け付けた後は、通報情報の追加を通報する宛先に法務部長を含めないなど、通報の宛先を本件規程３．４⑵に定める「調査補助者」（以下「調査補助者」という。）のみにするように制限されている。（以上につき、甲６）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件規程１．２⑸は」以下について認める。
-`````
 <p class="k_idt3">本件規程１．２⑸は、「通報」について、（発見した不正行為等を）是正する目的でこの内容を告げる行為をいうと定義しており、また、本件規程１．２⑼は、「調査」について、通報情報に関する事実を確認するための調査をいうと定義している（甲１）。一般的な通報も「公益通報の対象となる事実については、具体的な法令名や条項を明示する必要はありませんが、通報が「公益通報」に該当するか否か判断できる程度に、またその後の調査や是正等が実施できる程度に具体的な事実を知らせる必要があります」と消費者庁のウェブサイトに記載されているとおりである。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記で述べた」以下について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">上記で述べた本件規程の内容により、原告は、通報者が具体的な法令違反や不適切であるか否かの評価を指摘する必要がない、又は指摘する権限がないという理解をしていたことから、本件豪州企業に対して本件ＧＳＴを支払う手続きを行った事実、及びこれに関連する上司Ａらから伝えられた内容を本件通報に係る情報（以下、本件通報に係る事実、疑念、確認事項又は疑問事項などの情報を総称して「本件通報情報」という。）として告げるに留め、上司Ａが部下に対して虚偽の内容を伝えているという疑念、及び本件豪州企業に対する支払いが契約に基づいているか否かなどの評価、確認事項又は疑問事項を本件通報情報として告げていなかった。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「ちなみに」以下について事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。<br>
-確かに、被告の法務部長は、本件通報に係る通報情報を、本件規程３．２⑴各号に列挙する関係役員等に報告していなかったが、それは、法務部長が、本件通報を、本件規程１．２⑸にいう「通報」ではなく、同規程２．３にいう「相談」として取り扱ったためであり、前回訴訟の確定判決も、本件通報の内容が「将来的に法人税法等の法令違反に該当する可能性があるのか、分からないため、相談させていただきたい。」というものだったこと（乙第２号証）に照らすと、かかる取扱いも不合理なものではないと判示している（乙第３号証〔注２１〕）。
-`````
-
 <p class="k_idt3">ちなみに、法務部は、平成２８年９月１４日の通報について、本件規程に基づく通報であると認識していたものの（甲７）、通報があった旨を関係役員等に報告していなかったため、被告は、本件規程３．２⑴に違反している。
 <p class="k_hg-idt3"><b>⑸　平成２８年１０月３日（2016年）</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は、平成２８年１０月３日」以下について認める。
-`````
-
 <p class="k_idt3">原告は、平成２８年１０月３日、調査補助者に対し、本件ＧＳＴの金額が請求金額として記載されている請求書や上記⑶で述べた原告と上司Ａとのやり取りが記載されているメールファイルを添付して本件通報情報の追加を告げるメールを送信した（甲８）。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件通報においては」以下について認める。
-`````
-
 <p class="k_idt3">本件通報においては、平成２８年１０月３日の時点で、本件豪州企業に対して本件ＧＳＴを支払う手続きを行った事実を通報していた。加えて、ＧＳＴに関しては、実務上、海外企業が被告に発行する請求書において、海外企業が被告に対してＧＳＴを請求することは、特殊な場合を除いてほとんどない。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そのため、原告は」以下について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">そのため、原告は、原告から通報窓口又は調査補助者に対して、本件豪州企業に対する支払いが契約に基づいているか否かなどの評価、確認事項又は疑問事項を告げなくても、本件規程上の調査において、被告と本件豪州企業との契約内容から本件ＧＳＴを支払う義務があるのか否かについて確認する作業が行われるものと考えていた。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑹　平成２８年１２月１６日（2016年）」について<br>
-上司が部下に対して契約内容を確認する行為を咎める事態が発生したことは<span style="color: #FF0000;"><b>不知</b></span>であるが、その余は概ね認める。
-`````
-
 <p class="k_hg-idt3"><b>⑹　平成２８年１２月１６日（2016年）</b>
 <p class="k_idt3">原告は、調査補助者からの報告を待っている状態であった（甲９）。原告が調査補助者からの報告を待っている間に、上司Ａが部下に対して、契約内容を確認する行為を咎める事態が発生したため、原告は、平成２８年１２月１６日、調査補助者に対し、上司Ａが契約書の提示を求められることを理由に税務に関する疑問事項について税務グループに照会しない意向であると思われる旨及びこの上司の意向が起因となって発生する可能性がある問題事項を本件通報情報の追加として告げるメールを送信した（甲１０）。
 <p class="k_idt3">調査補助者は、同日、上記のメールに返信するかたちで、原告に対し、「ご連絡内容についても、経理部に申し伝えますので、もう少々お時間をいただきたく存じます。（原文ママ）」と返信した（甲１１）。
 <p class="k_hg-idt3"><b>⑺　平成２８年１２月２８日（2016年）～平成２９年１月６日（2017年）</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「調査補助者は、平成２８年１２月２８日」以下について認める。
-`````
-
 <p class="k_idt3">調査補助者は、平成２８年１２月２８日、原告に対し、本件通報情報に関して、今後の対応を伝えるメールを送信した（甲１２）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は、平成２９年１月４日及び同月５日」以下について概ね認める。
-`````
-
 <p class="k_idt3">原告は、平成２９年１月４日及び同月５日、調査補助者に対し、調査補助者から伝えられた内容から本件通報情報に関して確認できた事項と確認できていない事項を整理した内容を伝えるメールを送信した。本件通報情報に関して確認できていない事項として上記メールに記載していた内容は、被告と本件豪州企業との契約に関する事項である。原告は、上記メールのなかで、調査補助者に対し、契約内容の確認に関する状況を伝え、「契約締結時、契約書に付加価値税を請求額に含めないことを記載することについて、相手企業に依頼することができるのかどうか？（原文ママ）」と伝えていた。（甲１３）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は、上司Ａが」以下について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">原告は、上司Ａが契約内容を確認しないという行為が意図的であると感じていたものの、上司Ａ個人の問題とされないようにと配慮して、調査補助者に対し、上司Ａが部下に対して虚偽の内容を伝えている疑念を通報するような通報情報ではなく、上記のように契約内容の確認に関する状況や契約内容に関して確認できていない事項を伝えるような通報情報を本件通報情報の追加として告げた。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑻　平成２９年７月２０日（2017年）」について認める。
-`````
-
 <p class="k_hg-idt3"><b>⑻　平成２９年７月２０日（2017年）</b>
 <p class="k_idt3">調査補助者が原告に対して「追加でいただいた疑問も含め、対応検討させていただきます。（原文ママ）」と通知した平成２９年１月５日のメールから（甲１４）、本件通報情報に関する連絡が半年以上も途絶えていたため、原告は、同年７月２０日、調査補助者に対し、本件規程３．１⑴に規定する「調査を実施しない場合はその旨および理由」の通知を依頼するメールを送信した（甲１５）。
 <p class="k_idt3">調査補助者は、上記のメールの後の原告と調査補助者とのメールのやり取りや面談のなかで、原告に対し、同年２月７日に法務グループのＧＭと上司Ａとの間で協議を実施していたことを通知した。
 <p class="k_hg-idt3"><b>⑼　平成２９年７月２８日（2017年）</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記⑻で述べた」以下について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">上記⑻で述べた平成２９年２月７日に行った協議について、その内容や結果については通知されていなかったこと、また、原告と調査補助者との面談において、原告が本件通報情報に関する確認事項のたたき台を作成することになっていたことから、原告は、上司Ａが本件通報情報の具体的内容について把握をしていないという理解をしていた。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告は、同年７月２８日」以下について認める。
-`````
-
 <p class="k_idt3">原告は、同年７月２８日、調査補助者に対し、本件通報情報に関する確認事項のたたき台として作成した Excel ファイルを添付したメールを送信した（甲１６）。その Excel ファイルの一番上には、平成２８年１月７日にコンサルタント費用の請求額に付加価値税 75,437.10 豪ドルが含まれていたことを報告した事実に加えて、「契約時に、"税抜きで請求"という契約は行えないのか？、海外取引の際、付加価値税と合わせて支払わなくてはならないのはどのようなケースか？（原文ママ）」という確認事項を記載していた（甲１７）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記メールを」以下について認める。
-`````
-
 <p class="k_idt3">上記メールを受信した調査補助者は、同日、原告に対し、追加の資料提供を依頼して、打ち合わせの日程を設定する場合があることを通知するメールを送信した（甲１８）。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑽（平成２９年８月１４日（2017年）」について認める。
-`````
-
 <p class="k_hg-idt3"><b>⑽　平成２９年８月１４日（2017年）</b>
 <p class="k_idt3">調査補助者の依頼により、原告が本件通報情報に関する確認事項のたたき台を作成して提出したにもかかわらず、調査補助者は、原告との打ち合わせ等を行わないままに、平成２９年８月１４日、原告に対し、本件通報情報に関する調査結果を報告するメールを送信した（以下「本件調査報告１」という。）。
 <p class="k_idt3">本件調査報告１のメールには、「本件は既にコンプライアンス違反では無いことが確認されているため、制度の趣旨と異なることから、具体的な個別の事項については、回答を差し控えさせていただきます。（原文ママ）」と記載されていた。（以上につき、甲１９）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑾　平成２９年１０月１６日（2017年）」について第１文は認めるが、第２文は<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_hg-idt3"><b>⑾　平成２９年１０月１６日（2017年）</b>
 <p class="k_idt3">平成２９年１０月１６日、本件通報情報に関する措置と思われる内容の部長報告が行われた 。被告の豪州子会社が被告に対して「戻入れ」として送金した金銭は、コンサルタント費用として一般管理費で計上している被告が過去に支払った豪州ＧＳＴに係る還付金であると解釈される内容が含まれる部長報告ではあるものの、還付金の金額を示さないなど会計処理について報告する部長報告としては不明瞭な点があった 。（甲２０）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑿　平成３０年９月１３日（2018年）」について認める。
-`````
-
 <p class="k_hg-idt3"><b>⑿　平成３０年９月１３日（2018年）</b>
 <p class="k_idt3">被告は、平成３０年９月１３日、「豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。なお、本件豪州企業がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する。」という内容が記載されている被告と本件豪州企業との間の契約（以下「本件契約」という。）を締結した。被告と本件豪州企業との間の契約に関しては、本件契約が締結されるまでの間、ＧＳＴに関する定めは存在していなかった。
 <p class="k_idt3">原告は、令和２年６月２５日まで、上記の契約内容について通知されていなかった。（以上につき、甲２１）
 <p class="k_hg-idt3"><b>⒀　平成３０年１１月２７日（2018年）～平成３１年３月２０日（2019年）</b>
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件調査報告１において」以下について<br>
-原告が平成３０年１１月２７日に本件規程２．１⑴アに定めるメールアドレス宛に内部通報（追加通報）を行ったことは認めるが、その余は<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_idt3">本件調査報告１において何を調査したのか分からなかったことに加え、被告の豪州子会社が被告の代わりに本件ＧＳＴの支払いに係る還付金を受領したようにみせかけるために、被告の豪州子会社が被告に対して送金したのではないかという疑念を抱いたため、原告は、平成３０年１１月２７日、本件規程２．１⑴アに定めるメールアドレスに対し、本件豪州企業に対して本件ＧＳＴを支払う手続きに関連して発生した一連の事実を通報するメールを送信した（甲２２）。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「その後」以下について認める。
-`````
-
 <p class="k_idt3">その後、原告と調査補助者は、平成３１年３月２０日までメールのやり取りを行った。そのメールのやり取りにおいても、本件ＧＳＴの支払いに係る契約内容についての議論があり、原告は、「２０１６年１月にＧＳＴを支払っていることに気が付いていたのに、なぜ、２０１７年４月まで同様にＧＳＴの支払をしていたのか？契約書の記載は確認をしているのか？（原文ママ）」と指摘していた。（甲２３）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⒁　令和元年１０月２５日（2019年）」以下について認める。
-`````
-
 <p class="k_hg-idt3"><b>⒁　令和元年１０月２５日（2019年）</b>
 <p class="k_idt3">調査補助者は、令和元年１０月２５日、原告に対し、本件通報情報に関する調査結果を報告する面談をした（以下「本件調査報告２」といい、本件調査報告１と併せて「本件各調査報告」という。）。
 <p class="k_idt3">被告は、上記⑴で述べた本件豪州企業に対する 836,601.06 豪ドルの経費支払い以外の経費支払いについてＧＳＴが課されていたか否かを調査していた。調査による結論は、「一般に、ＧＳＴの還付は納税者の「権利」であり、「義務」ではない。したがって、ＧＳＴの還付をするか否かは任意であり、還付を受けないままであったとしても、不正行為等にはあたらない。（原文ママ）」であった。（以上につき、甲２４）
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⒂　令和元年１０月２９日～１２月２０日（2019年）」以下について概ね認める。
-`````
-
 <p class="k_hg-idt3"><b>⒂　令和元年１０月２９日～１２月２０日（2019年）</b>
 <p class="k_idt3">原告は、令和元年１０月２９日、同年１２月２日及び同月１０日、調査補助者に対し、本件各調査報告についての質問として、本件ＧＳＴの支払いに係る契約内容、及び豪州子会社が被告に対して送金した際の豪州子会社側の会計帳簿の内容について質問をした。<a name="kaitou"></a>これに対し、調査補助者は、同月３日及び同月２０日、原告に対し、原告の質問事項について回答をした。
 <p class="k_idt3">本件ＧＳＴの支払いに係る契約内容についての調査補助者の回答は、「取引に税金が課されるか否かについては、民間同士の合意である契約書ではなく、国（（本件豪州企業）との取引であればオーストラリア国家）が決めることです。したがいまして、契約書上のＧＳＴ条項の有無や記載内容については、結論に関係がありませんのでお調べしませんし、また、※※事業部内でそうした確認をしなかったことも特に不審なこととは認定いたしません。「真摯に対応した」という記載については、被通報者が※※事業部長にも報告し、経理部や税務部門にも展開して納得が得られており、また豪州ＧＳＴについて還付を受けているという事実をもって認定しました。まず、契約書を確認する行為は、先に述べた通り対応として意味がない行為ですので、行われなかったとしても対応を怠ったことになりません。また、（本件豪州企業）への照会の時期についても、税務アドバイザーの意見を得てから照会をかけるという方法は適切です。（「（本件豪州企業）」と「※※」以外は原文ママ）」という回答であった。なお、本当に税務アドバイザーの意見を得ていたのか否かについては、その証拠が無いため、今もなお不明である。
 <p class="k_idt3">ちなみに、豪州子会社が被告に対して送金した際の豪州子会社側の会計帳簿の内容についての調査補助者の回答は、「（豪州子会社）の会計仕訳を調べることは、「コンプライアンス違反ではない」という結論に影響しませんので調査不要と判断しています。（「（豪州子会社）」以外は原文ママ）」であった。（以上につき、甲２５）
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⒃　令和２年３月２７日（2020年）」以下について認める。
-`````
-
 <p class="k_hg-idt3"><b>⒃　令和２年３月２７日（2020年）</b>
 <p class="k_idt3">原告は、令和２年３月２７日、「社長・大田さんの輪」と題する被告の社内ＳＮＳ（以下「本件ＳＮＳ」という。）に、コンプライアンスホットライン制度の本件各調査報告の内容について疑問を呈する投稿をした（甲２６）。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⒄　令和２年６月２５日及び同年７月９日（2020年）」以下について認める。
-`````
-
-
 <p class="k_hg-idt3"><b>⒄　令和２年６月２５日及び同年７月９日（2020年）</b>
 <p class="k_idt3">調査補助者は、令和２年６月２５日及び同年７月９日、原告に対し、上記⒃で述べた原告の本件ＳＮＳへの投稿内容についての回答として、上記⑿で述べた被告と本件豪州企業との間で締結された契約の内容、及び本件豪州企業が被告に対してＧＳＴを請求していたのは平成２９年４月までであった旨を通知するメールを送信した（甲２１）。
 <p class="k_hg-idt2"><b><a name="sojou_25"></a>５　被告の本件規程違反の存在</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「⑴　本件規程３．６⑴について」以下について認める。
-`````
-
-
 <p class="k_hg-idt3"><b>⑴　本件規程３．６⑴について</b>
 <p class="k_idt3">本件規程３．６⑴は、本件内部通報制度における調査結果等の通知・報告について定めており、その内容は以下のとおりである（甲１）。
 
@@ -1379,27 +898,9 @@
 </div>
 
 <p class="k_hg-idt3"><b>⑵　被告の本件規程３．６⑴イ又は同ウ違反の存在</b>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記第３の４⑷~⑺、⑼及び⒀で述べたとおり」以下について概ね認める。
-`````
-
-
 <p class="k_hg-idt4">ア　上記第３の４⑷～⑺、⑼及び⒀で述べたとおり、原告は、被告に対し、本件豪州企業に対して本件ＧＳＴを支払う手続きを行った事実、本件ＧＳＴの支払いに係る契約内容に関する確認事項又は疑問事項、及び本件ＧＳＴの支払いに係る契約内容を確認していないことについて疑念を本件通報情報として告げていた。
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記同⑽及び⒁で述べたとおり」以下について認める。
-`````
-
 <p class="k_hg-idt4">イ　上記同⑽及び⒁で述べたとおり、被告は、原告に対し、本件各調査報告において、コンプライアンス違反ではないことが確認されていることにより具体的な個別の事項の回答は差し控える旨、及びＧＳＴの還付を受けないままであったとしても不正行為等にはあたらない旨を報告した。被告は、原告に対して本件規程３．６⑴イ又はウに定める通知をしない場合に該当する内容の調査報告を行ったことにより、本件規程３．６⑴イに定める「是正措置および再発防止策」又は同ウに定める「対応策」を通知しなかった。
 <p class="k_idt4">さらに、上記同⒂で述べたとおり、被告は、原告に対し、本件各調査報告に対する原告の質問事項についての回答として、契約書上のＧＳＴ条項の有無や記載内容については調査しない旨、及び契約書を確認する行為は意味がない行為であるとして、契約書を確認しなかった行為を不審な行為や対応を怠った行為として認定しない旨を通知していた。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記同⑿及び⒄で述べたとおり」以下について認める。
-`````
-
 <p class="k_hg-idt4">ウ　上記同⑿及び⒄で述べたとおり、甲２１の内容によると、被告は、平成３０年９月１３日、本件契約を締結していた。被告と本件豪州企業との間の契約に関しては、本件契約が締結されるまでの間、ＧＳＴに関する定めは存在していなかった。ＧＳＴの請求については、何かしらの措置を行ったことにより、本件豪州企業が被告に対してＧＳＴを請求していたのは平成２９年４月までであった。
 <p class="k_idt4">被告と本件豪州企業との契約の経緯について甲２１の内容から整理すると、以下のとおりである。
 
@@ -1420,43 +921,11 @@
 | <p style="font-size: 12px; white-space: nowrap;">令和元年10月25日 | <p style="font-size: 12px;">本件調査報告２を行った。 |
 
 </div>
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記ウで述べた」以下について<span style="color: #FF0000;"><b>否認</b></span>する。
-`````
-
 <p class="k_hg-idt4">エ　上記ウで述べた被告が本件契約を締結した事実、及び本件豪州企業が被告に対してＧＳＴを請求していたのは平成２９年４月までであった事実からすると、本件豪州企業に対するＧＳＴの支払いが契約に基づいていないこと、又は契約に基づいていないおそれがあることを、被告が本件通報を受けたことにより把握したから、是正措置、再発防止策又は対応策を実行したことが明らかである。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「これにもかかわらず」以下について認める。
-`````
-
 <p class="k_idt4">これにもかかわらず、被告は、本件各調査報告又は本件契約を締結した前後において、原告に対し、本件契約を締結した事実及び被告が本件豪州企業からＧＳＴを請求されないために実行した是正措置、再発防止策又は対応策を本件規程３．６⑴イ又は同ウに定める事項として通知していなかった。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「したがって」以下について<br>
-事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。理由は、前記第３の５に詳述したとおりである。
-`````
-
 <p class="k_hg-idt4">オ　したがって、被告に本件規程３．６⑴イ又は同ウの違反が存在する。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「６　原告の損害」について<span style="color: #FF0000;"><b>不知</b></span>である。
-`````
-
 <p class="k_hg-idt2"><b><a name="sojou_26"></a>６　原告の損害</b>
 <p class="k_idt2">被告の本件規程３．６⑴イ又は同ウの違反により、原告に対して業務の適正化に関する通知が行われなかったことから、原告は、業務を遂行するなかで本来行うべき業務プロセスを行うことができないなど、業務の適正等が確保できなかったという認識をしており、精神的苦痛が続いていた。
-
-
-`````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「第３　まとめ」について<span style="color: #FF0000;"><b>争う</b></span>。
-`````
-
-
 <p class="k"><b><a name="sojou_3"></a>第３　まとめ</b>
 <p class="k_idt1">よって、被告について、民法第４１５条の債務不履行に基づく責任又は民法第７０９条の不法行為に基づく責任が成立し、原告は、被告に対して、１円の支払いを求める。
 <p class="k">以上
