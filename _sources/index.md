@@ -32,9 +32,6 @@
 ## ３　裁判所の判断
 ---
 <p class="base">
-判決文全文は、こちらに <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#hanketsu_1"><i class="fa-solid fa-link"></i></a> 掲載しています。
-
-<p class="base" style="margin-top: 1.6em; ">
 相手方のコンプライアンスホットライン規程は、
 <p class="hg-idt1">
 ➀　必要な調査を実施すること
@@ -55,7 +52,7 @@
 と判断したと思われます。
 
 <p class="base" style="margin-bottom: 1.6em;">
-判決文の引用を以下に示しております。内部通報を検討している人は、上記の裁判所の判断について留意する必要があります。
+詳しくは、次の４と５で説明しますが、内部通報を検討している人は、上記の裁判所の判断について留意する必要があります。
 
 
 ## ４　調査をする義務がない
