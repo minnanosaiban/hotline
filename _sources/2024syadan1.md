@@ -352,9 +352,9 @@
 
 | 　　        |||
 |------------|------------------------------------------|------------------------------------------|
-| 　　        |<p style="font-size: 12px; white-space: nowrap;"><span style="color: #f37726;">不正行為等によって直接被<br>害を受けた者が、不正行為<br>等を通報した場合|<p style="font-size: 12px; white-space: nowrap;">不正行為等によって直接被<br>害を受けた旨を告げる通報<br>ではない場合|
+| 　　        |<p style="font-size: 12px; white-space: nowrap;"><span style="color: #f37726;">不正行為等によって直接被<br>害を受けた者が、不正行為<br>等を通報した場合|<p style="font-size: 12px; white-space: nowrap;"><span style="color: #f37726;">不正行為等によって直接被<br>害を受けた旨を告げる通報<br>ではない場合|
 |<p style="font-size: 12px; white-space: nowrap;"><span style="color: #f37726;">内部通報制度の運用を定め<br>る社内規程が存在する場合|<p style="font-size: 12px; text-align: center; "><span style="color: #f37726;">ケース１<br>信義則及び社内規程の<br>違反を適用|<p style="font-size: 12px; text-align: center; "><span style="color: #f37726;">ケース３<br>社内規程違反を適用|
-|<p style="font-size: 12px; white-space: nowrap;">内部通報制度の運用を定め<br>る社内規程が存在しない場<br>合|<p style="font-size: 12px; text-align: center;"><span style="color: #f37726;">ケース２<br>信義則違反を適用<br>|<p style="font-size: 12px; text-align: center;"><span style="color: #f37726;">－|
+|<p style="font-size: 12px; white-space: nowrap;"><span style="color: #f37726;">内部通報制度の運用を定め<br>る社内規程が存在しない場<br>合|<p style="font-size: 12px; text-align: center;"><span style="color: #f37726;">ケース２<br>信義則違反を適用<br>|<p style="font-size: 12px; text-align: center;"><span style="color: #f37726;">－|
 
 
 </div>
