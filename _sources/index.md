@@ -72,8 +72,7 @@
 </div>
 
 <p class="base" style="margin-top: 1.6em; ">
-裁判所で引用している最高裁判決は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。
-<p class="base" style="margin-top: 1.6em; ">
+裁判所で引用している最高裁判決は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。<br>
 参考：最高裁判決については、<a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden">リンク <i class="fa-solid fa-link"></i></a> 先に記載しています。
 
 <p class="base" style="margin-top: 1.6em; margin-bottom: 1.6em;">
