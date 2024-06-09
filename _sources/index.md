@@ -83,7 +83,7 @@
 ```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　判決文についてちょっとした疑問があります。</span>
 
 <p class="q">
-「適切に対応すべき信義則上の義務」と「信義則上の調査義務等」は同じことなのかどうかが気になります。
+<b>「適切に対応すべき信義則上の義務」と「信義則上の調査義務等」は同じことなのかどうか？</b>
 
 <p class="q" style="margin-top: 1.6em; ">
 <b>イビデン事件最高裁判決の引用</b>
