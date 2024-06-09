@@ -5,11 +5,12 @@
 ## １　被告準備書面（２）抜粋
 ---
 
+<p class="base" style="margin-top: 1.6em; margin-bottom: 0.8em;">
+<a name="hikoku2_q1"></a><b>被告準備書面（２）　第２の１ ⑵ イ（４頁）</b>
+
 `````{margin}
 <p class="c_mini"><b>メモ</b>　被告が主張している太字の部分は、こちら <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> の最高裁判決の引用です。
 `````
-<p class="base" style="margin-top: 1.6em; margin-bottom: 0.8em;">
-<a name="hikoku2_q1"></a><b>被告準備書面（２）　第２の１ ⑵ イ（４頁）</b>
 
 <div class="base">
 <blockquote>
