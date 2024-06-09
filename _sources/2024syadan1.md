@@ -11,7 +11,7 @@
 ```{card}
 
 <p class="q">
-本件訴訟は、<span style="color: #f37726;"><b>既判力の作用についての争い</b></span>があります。以下リンクの先のオレンジの部分が主張書面の該当箇所です。
+本件訴訟は、<b>既判力の作用についての争い</b>があります。以下リンクの先のオレンジの部分が主張書面の該当箇所です。
 <p class="q">
 １　答弁書における主張は、<a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point1">ココ <i class="fa-solid fa-link"></i></a> と <a href="https://minnanosaiban.github.io/hotline/2024syadan1.html#point2">ココ <i class="fa-solid fa-link"></i></a>
 <p class="q">
