@@ -131,12 +131,12 @@
 ```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　消費者庁が公表した指針 <a href="https://minnanosaiban.github.io/hotline/law.html#kaisetsu">リンク <i class="fa-solid fa-link"></i></a> からすると、裁判所の解釈は誤っているように思います</span>
 
 <p class="q" style="margin-top: 1.6em; ">
-<strong><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（５頁）
+<b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（５頁）</b>
 <p class="q">
 ５　内部公益通報を「受け付ける」とは、内部公益通報受付窓口のものとして表示された連絡先（電話番号、メールアドレス等）に直接内部公益通報がされた場合だけではなく、例えば、公益通報対応業務に従事する担当者個人のメールアドレス宛てに内部公益通報があった場合等、実質的に同窓口において内部公益通報を受け付けたといえる場合を含む。
 
 <p class="q" style="margin-top: 1.6em; ">
-<strong><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（９頁）
+<b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（９頁）</b>
 <p class="q">
 ①　指針本文
 <p class="q_idt1" style="margin-bottom: 0.8em;">
@@ -151,7 +151,7 @@
 調査を実施しない「正当な理由」がある場合の例として、例えば、解決済みの案件に関する情報が寄せられた場合、公益通報者と連絡がとれず事実確認が困難である場合等が考えられる。解決済みの案件か否かについては、解決に関する公益通報者の認識と事業者の認識が一致しないことがあるが、解決しているか否かの判断は可能な限り客観的に行われることが求められる。また、一見、法令違反行為が是正されたように見えても、案件自体が再発する場合や、当該再発事案に関する新たな情報が寄せられる場合もあること等から、解決済みといえるか、寄せられた情報が以前の案件と同一のものといえるかについては慎重に検討する必要がある。
 
 <p class="q" style="margin-top: 1.6em;">
-<strong><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（２０頁）
+<b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（２０頁）</b>
 <p class="q">
 ①　指針本文
 <p class="q_idt1">
