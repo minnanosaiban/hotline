@@ -846,8 +846,6 @@
 
 ## ５　答弁書
 ---
-<p class="base" style="margin-bottom: 1.6em;">
-<strong>口頭弁論期日の２０２４年４月２２日、答弁書を受け取りました。</strong>
 
 <div class="base">
 
@@ -1258,8 +1256,6 @@
 
 ## ６　訴状
 ---
-<p class="base" style="margin-bottom: 1.6em;"><a name="sojou"></a>
-<strong>２０２４年２月１９日、東京簡易裁判所に、勤務先を被告とする内部通報制度に関する訴訟を提起しました。</strong>
 
 <div class="base">
 
