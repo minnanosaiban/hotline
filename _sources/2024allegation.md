@@ -2,6 +2,57 @@
 
 # 主張書面
 
+## １　原告第２準備書面
+---
+
+<div class="base">
+
+````{card}
+
+<p class="q_center" style="margin-top: 1.4em;"><b>原告第２準備書面　目次</b>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_0">はじめに</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_1">第１</a>　原告の主張
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11">１</a>　行動基準及び本件規程の解釈について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_111">⑴</a>　行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_112">⑵</a>　「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_113">⑶</a>　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務があること
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_114">⑷</a>　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、当該事実に対する徹底した原因究明及び効果的な再発防止策を実行する義務があること
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_12">２</a>　通報情報に関する事実について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_121">⑴</a>　通報情報及びこれに対する調査補助者の応答
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_122">⑵</a>　事実Ａ　原告が本件支払手続をした行為
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123">⑶</a>　事実Ｂ　上司Ａが還付手続で対応する旨を説明をした行為
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_124">⑷</a>　事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金をした行為
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_13">３</a>　被告の行動基準及び本件規程に違反する行為について
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_131">⑴</a>　被告が、法令等に違反する事実又は違反するおそれのある事実の存在を把握していたこと
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_132">⑵</a>　被告が、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知したこと
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_133">⑶</a>　違反Ａ　原告に対して従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実の存在を伏せた行為
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_134">⑷</a>　違反Ｂ　是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_135">⑸</a>　違反Ｃ　法令等に違反する事実又は違反するおそれのある事実に対する徹底した原因究明及び効果的な再発防止策を実行しなかった行為
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_14">４</a>　原告が被告の行動基準違反及び本件規程違反によって被った精神的損害
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_141">⑴</a>　被告の行動基準違反及び本件規程違反
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_142">⑵</a>　業務プロセスがかかわるトラブルに関する状況
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_143">⑶</a>　原告が被った精神的損害
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_15">５</a>　まとめ
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_16">６</a>　本件訴訟における原告の主張は許される
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_161">⑴</a>　既判力が本件訴訟に及ばす、実質的な蒸し返しにも当たらない
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_162">⑵</a>　本件訴訟における原告の主張は、信義則に反せず、許される
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_2">第２</a>　被告準備書面（２）の第２に対する認否
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_21">１</a>　第２の１（３頁以下）について
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_22">２</a>　第２の２（１０頁以下）について
+
+
+```` 
+
+</div>
+
+<p class="k" style="margin-top: 1.4em;"><a name="sojou">原告第２準備書面
+<p class="k">令和６年７月１９日
+<p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
+<p class="k"><b>目次</b>
+<p class="k" style="margin-bottom: 1.4em;">
+
+
+
 ## ２　被告準備書面（２）
 ---
 <p class="k" style="margin-top: 1.4em;"><a name="sojou">被告準備書面（２）
