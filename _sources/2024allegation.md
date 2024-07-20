@@ -1482,7 +1482,10 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。理由は、前記第３の５に詳述したとおりである。
+<p class="c_mini"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。
+```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
+<p class="c_mini">　理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">前記第３の５</a>に詳述したとおりである。
+```
 `````
 <p class="k_hg-idt4">オ　したがって、被告に本件規程３．６⑴イ又は同ウの違反が存在する。
 
