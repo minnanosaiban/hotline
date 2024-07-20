@@ -889,8 +889,8 @@
 
 <p class="k" style="margin-top: 1.4em;">答弁書
 <p class="k">令和６年４月１５日
-<p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
-<p class="k"><b>目次</b>
+<p class="k">東京簡易裁判所民事第５室６係Ｂ　御中
+<p class="k" style="margin-top: 1.4em;"><b>目次</b>
 <p class="k">第１　本案前の申立て
 <p class="k">第２　請求の趣旨に対する答弁
 <p class="k">第３　被告の主張
@@ -1116,16 +1116,7 @@
 <p class="k" style="margin-top: 1.4em;">訴状
 <p class="k">令和６年２月１９日
 <p class="k">東京簡易裁判所　御中
-<p class="k" style="margin-bottom: 1.4em;">原告　〇〇〇〇
-<p class="k">〒〇〇〇-〇〇〇〇 東京都〇〇〇区〇〇町〇－〇－〇　〇〇〇〇〇株式会社内
-<p class="k">原告　〇〇〇〇
-<p class="k">〒〇〇〇-〇〇〇〇 東京都〇〇〇区〇〇町〇－〇－〇
-<p class="k">被告　〇〇〇〇〇株式会社
-<p class="k" style="margin-bottom: 1.4em;">同代表者代表取締役　〇〇〇〇
-<p class="k">損害賠償請求事件
-<p class="k">訴訟物の価額　１円
-<p class="k" style="margin-bottom: 1.4em;">貼用印紙　１，０００円
-<p class="k"><b>目次</b>
+<p class="k" style="margin-top: 1.4em;"><b>目次</b>
 <p class="k">第１　請求の趣旨
 <p class="k">第２　請求の原因
 <p class="k_hg-idt2">１　用語の意味
