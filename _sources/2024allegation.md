@@ -357,13 +357,12 @@
 <p class="k_idt4">争う。
 
 
-
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下について、<span style="color: #FF0000;"><b>争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　原告の認否</b>　「答弁書にも」以下について、<span style="color: #FF0000;"><b>争う</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　被告の従業員が内部通報制度の通報窓口に通報をしたときに、被告にどのような義務を負う場合があるのかについての原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11">上記第１の１</a>のとおりである。<br>
-また、被告の従業員が内部通報制度の通報窓口に通報をしたときに、信義則上の義務を負う場合があるのか否かについての原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211">原告第１準備書面第２の１ ⑴ </a>のとおりである。<br>
+<p class="c_mini">　被告の従業員が内部通報制度の通報窓口に通報をしたときに、被告にどのような義務を負う場合があるのかについての原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11">上記第１の１</a>のとおりである。
+また、被告の従業員が内部通報制度の通報窓口に通報をしたときに、信義則上の義務を負う場合があるのか否かについての原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211">原告第１準備書面第２の１ ⑴ </a>のとおりである。
 前回訴訟における前回訴訟争点１に係る損害賠償請求、及び本件訴訟における損害賠償請求が同一関係にあるのか否かについての原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161">上記第１の６ ⑴ </a>のとおりである。
 ```
 
