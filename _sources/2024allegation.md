@@ -452,7 +452,9 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
+
 <p class="c_mini">　これに対する原告の主張は、 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162">上記第１の６ ⑵ </a>のとおりである。
+
 ```
 
 `````
