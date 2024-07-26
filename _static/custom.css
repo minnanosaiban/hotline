@@ -272,6 +272,15 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.k_idt6 {
+  padding-left:6em;
+  text-indent:1em;
+  font-size:14px;
+  margin-right: 112px;
+  margin-left: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .k_idt45 {
   padding-left:4.5em;
   text-indent:1em;
@@ -815,6 +824,12 @@ p {
   }
   .k_idt5 {
     padding-left:5em;
+    text-indent:1em;
+    font-size:14px;
+    margin: 0;
+  }
+  .k_idt6 {
+    padding-left:6em;
     text-indent:1em;
     font-size:14px;
     margin: 0;
