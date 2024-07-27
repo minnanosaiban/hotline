@@ -74,14 +74,14 @@ hr {
   height: auto;
 }
 /* dropdownボタンのカスタマイズ */
-.dropdown > button {
+div.dropdown {
   background-color: transparent !important; /* 背景色を透明にする */
   border: none !important;                  /* ボーダーを消す */
   box-shadow: none !important;              /* 影を消す */
 }
 /* dropdownコンテンツのカスタマイズ */
-.dropdown-content {
-  background-color: transparent !important; /* 背景色を透明にする */
+div.dropdown .dropdown-content {
+  background-color: transparent !important; /* コンテンツの背景色を透明にする */
   border: none !important;                  /* ボーダーを消す */
   box-shadow: none !important;              /* 影を消す */
 }
