@@ -73,18 +73,6 @@ hr {
   max-width: 100%;
   height: auto;
 }
-/* dropdownのカスタマイズ */
-div.custom-dropdown {
-  background-color: transparent !important; /* 背景色を透明にする */
-  border: none !important;                  /* ボーダーを消す */
-  box-shadow: none !important;              /* 影を消す */
-}
-/* dropdownコンテンツのカスタマイズ */
-div.custom-dropdown .dropdown-content {
-  background-color: transparent !important; /* コンテンツの背景色を透明にする */
-  border: none !important;                  /* ボーダーを消す */
-  box-shadow: none !important;              /* 影を消す */
-}
 .strong_or {
   font-weight:bold;
   color:#f37726;
