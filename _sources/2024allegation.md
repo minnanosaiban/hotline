@@ -44,8 +44,8 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_min9"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113u">第１の１ ⑶ ウ</a>　
-<p class="c_mini">　従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実についての本件規程３．６ ⑴ に定める通知の内容が「事実に基づき、正確に、遺漏なく」作成された情報であるか否かは、業務プロセスがかかわるトラブルを未然に防ぐ対策が取られているかという点について、行動基準１２項の ⑶ に定める「私たちは、相互の対話および円滑な意思疎通を通じて、働きやすい職場環境を確保・維持するよう努めます。」という事項に影響を与える。
+```{dropdown} <p class="c_min10"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113u">第１の１ ⑶ ウ</a>　
+<p class="c_min10">　従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実についての本件規程３．６ ⑴ に定める通知の内容が「事実に基づき、正確に、遺漏なく」作成された情報であるか否かは、業務プロセスがかかわるトラブルを未然に防ぐ対策が取られているかという点について、行動基準１２項の ⑶ に定める「私たちは、相互の対話および円滑な意思疎通を通じて、働きやすい職場環境を確保・維持するよう努めます。」という事項に影響を与える。
 ```
 
 `````
@@ -57,8 +57,8 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_min9"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113e">第１の１ ⑶ エ</a>　
-<p class="c_mini">　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務がある。
+```{dropdown} <p class="c_min10"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113e">第１の１ ⑶ エ</a>　
+<p class="c_min10">　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務がある。
 ```
 
 `````
@@ -82,8 +82,8 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_min9"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114u">第１の１ ⑷ ウ</a>　
-<p class="c_mini">　従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実についての原因究明及び再発防止策を実行しているか否かは、業務プロセスがかかわるトラブルを未然に防ぐ対策が取られているかという点について、行動基準１２項の ⑶ に定める「私たちは、相互の対話および円滑な意思疎通を通じて、働きやすい職場環境を確保・維持するよう努めます。」という事項に影響を与える。
+```{dropdown} <p class="c_min10"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114u">第１の１ ⑷ ウ</a>　
+<p class="c_min10">　従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実についての原因究明及び再発防止策を実行しているか否かは、業務プロセスがかかわるトラブルを未然に防ぐ対策が取られているかという点について、行動基準１２項の ⑶ に定める「私たちは、相互の対話および円滑な意思疎通を通じて、働きやすい職場環境を確保・維持するよう努めます。」という事項に影響を与える。
 ```
 
 `````
@@ -95,8 +95,8 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114e">第１の１ ⑷ エ</a>　
-<p class="c_mini">　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、当該事実に対する徹底した原因究明及び効果的な再発防止策を実行する義務がある。
+```{dropdown} <p class="c_min10"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114e">第１の１ ⑷ エ</a>　
+<p class="c_min10">　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、当該事実に対する徹底した原因究明及び効果的な再発防止策を実行する義務がある。
 ```
 
 `````
@@ -138,10 +138,10 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122a">第１の２ ⑵ ア～ウ</a>　
-<p class="c_mini">　ア　被告において、本件豪州企業に対してコンサルタントの役務対価と本件ＧＳＴ 75,437.10 豪ドルを合わせた金額 836,601.06 豪ドルを支払うための手続をした行為が存在していたところ（本件支払手続）、その支払の内容は、被告と本件豪州企業との間で締結したＧＳＴに関する定めが存在していない契約の内容に基づいていない支払であった。
-<p class="c_mini">　イ　本件規程１．２ ⑴ に定めるの法令等は、国内外の法令、契約、定款および規程類をいうのであるから、原告が本件支払手続をした行為は、本件支払手続で支払をした本件ＧＳＴの支払が契約内容に基づいていなかった点について、法令等に違反する事実又は違反するおそれのある事実が存在したということである。
-<p class="c_mini">　ウ　以上のとおり、原告が本件支払手続をした行為は、本来であれば、本件規程３．５又は行動基準１４項の ⑶ に定める是正措置及び再発防止策を実行する対象である。
+```{dropdown} <p class="c_min10"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122a">第１の２ ⑵ ア～ウ</a>　
+<p class="c_min10">　ア　被告において、本件豪州企業に対してコンサルタントの役務対価と本件ＧＳＴ 75,437.10 豪ドルを合わせた金額 836,601.06 豪ドルを支払うための手続をした行為が存在していたところ（本件支払手続）、その支払の内容は、被告と本件豪州企業との間で締結したＧＳＴに関する定めが存在していない契約の内容に基づいていない支払であった。
+<p class="c_min10">　イ　本件規程１．２ ⑴ に定めるの法令等は、国内外の法令、契約、定款および規程類をいうのであるから、原告が本件支払手続をした行為は、本件支払手続で支払をした本件ＧＳＴの支払が契約内容に基づいていなかった点について、法令等に違反する事実又は違反するおそれのある事実が存在したということである。
+<p class="c_min10">　ウ　以上のとおり、原告が本件支払手続をした行為は、本来であれば、本件規程３．５又は行動基準１４項の ⑶ に定める是正措置及び再発防止策を実行する対象である。
 ```
 
 `````

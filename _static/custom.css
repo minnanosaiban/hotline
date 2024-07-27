@@ -73,15 +73,15 @@ hr {
   max-width: 100%;
   height: auto;
 }
-/* dropdownの背景色、ボーダー、影をカスタマイズ */
-.dropdown {
+/* dropdownボタンのカスタマイズ */
+.dropdown > button {
   background-color: transparent !important; /* 背景色を透明にする */
   border: none !important;                  /* ボーダーを消す */
   box-shadow: none !important;              /* 影を消す */
 }
-/* dropdownコンテンツの背景色をカスタマイズ */
+/* dropdownコンテンツのカスタマイズ */
 .dropdown-content {
-  background-color: transparent !important; /* コンテンツの背景色を透明にする */
+  background-color: transparent !important; /* 背景色を透明にする */
   border: none !important;                  /* ボーダーを消す */
   box-shadow: none !important;              /* 影を消す */
 }
@@ -385,9 +385,9 @@ p {
   font-size:14px;
   text-align: center;
 }
-.c_min9 {
+.c_min10 {
   margin: 0;
-  font-size:9px;
+  font-size:10px;
 }
 .c_mini {
   margin: 0;
