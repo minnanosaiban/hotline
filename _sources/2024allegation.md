@@ -411,7 +411,7 @@
 <p class="k_hg-idt4">
 オ　第１の４ ⑶ オ（「原告は」以下）（２２頁）について
 <p class="k_idt4">
-事実上の主張としては否認し、法律上の主張としては争う。
+事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
 <p class="k_hg-idt2">
 ５　第１の５（まとめ）（２２頁）について
 <p class="k_idt2">
