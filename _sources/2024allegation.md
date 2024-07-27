@@ -25,6 +25,16 @@
 <p class="k_hg-idt2">
 １　第１の１（行動基準及び本件規程の解釈について）（３頁以下）について
 
+`````{margin} 
+
+```{dropdown} Custom Dropdown
+:class: custom-dropdown
+
+This is a custom dropdown with a transparent background.
+```
+
+`````
+
 
 `````{margin} 
 
@@ -40,6 +50,18 @@
 ⑴　第１の１ ⑴ （行動基準は･･･拠り所となるものであること）（３頁以下）について
 <p class="k_idt3">
 認める。
+
+
+`````{margin} 
+
+```{dropdown} <p class="c_min10"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">第１の１ ⑵</a>　
+<p class="c_min10">ア　被告が公表している「ＥＮＥＯＳグループ行動基準（以下「行動基準」という。）」は、事業活動を通じて「ＥＮＥＯＳグループ理念」を実現し、社会的責任を果たしていくために実践すべき基準であり、「ＥＮＥＯＳグループ理念」では、「誠実・公正であり続けることを価値観の中核とし、高い倫理観を持って企業活動を行います。」と表明している。
+<p class="c_min10">　また、行動基準は、被告におけるすべての社内規程類の前提として位置づけられており、被告の事業活動における判断の拠り所となるものである。
+<p class="c_min10">イ　すなわち、行動基準は、本件規程の前提であり、また、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものである。の債権未回収が発生したということは、従業員に課した業務プロセスに問題があることが否定できない状況であるといえる。
+```
+
+`````
+
 <p class="k_hg-idt3">
 ⑵　第１の１ ⑵ （「事実に基づき、正確に、遺漏なく」･･･対象であること）（４頁）について
 <p class="k_idt3">
