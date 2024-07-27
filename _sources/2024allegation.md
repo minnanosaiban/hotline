@@ -44,7 +44,7 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113u">第１の１ ⑶ ウ</a>　
+```{dropdown} <p class="c_min9"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113u">第１の１ ⑶ ウ</a>　
 <p class="c_mini">　従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実についての本件規程３．６ ⑴ に定める通知の内容が「事実に基づき、正確に、遺漏なく」作成された情報であるか否かは、業務プロセスがかかわるトラブルを未然に防ぐ対策が取られているかという点について、行動基準１２項の ⑶ に定める「私たちは、相互の対話および円滑な意思疎通を通じて、働きやすい職場環境を確保・維持するよう努めます。」という事項に影響を与える。
 ```
 
@@ -57,7 +57,7 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113e">第１の１ ⑶ エ</a>　
+```{dropdown} <p class="c_min9"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113e">第１の１ ⑶ エ</a>　
 <p class="c_mini">　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務がある。
 ```
 
@@ -82,7 +82,7 @@
 
 `````{margin} 
 
-```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114u">第１の１ ⑷ ウ</a>　
+```{dropdown} <p class="c_min9"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の主張　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114u">第１の１ ⑷ ウ</a>　
 <p class="c_mini">　従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実についての原因究明及び再発防止策を実行しているか否かは、業務プロセスがかかわるトラブルを未然に防ぐ対策が取られているかという点について、行動基準１２項の ⑶ に定める「私たちは、相互の対話および円滑な意思疎通を通じて、働きやすい職場環境を確保・維持するよう努めます。」という事項に影響を与える。
 ```
 
