@@ -152,10 +152,20 @@
 ア　第１の２ ⑶ ア（「上司Ａは」以下）（１０頁）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123i">原告第２準備書面　第１の２ ⑶ イ</a>
+`````
 <p class="k_hg-idt4">
 イ　第１の２ ⑶ イ（「しかし」以下）（１０頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123u">原告第２準備書面　第１の２ ⑶ ウ</a>
+`````
 <p class="k_hg-idt4">
 ウ　第１の２ ⑶ ウ（「また、被告においては、本件調査報告１」以下）（１０頁）について
 <p class="k_idt4">
@@ -199,12 +209,27 @@
 エ　第１の２ ⑷ エ（「本件部長報告は」以下）（１１頁）について
 <p class="k_idt4">
 原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124o">原告第２準備書面　第１の２ ⑷ オ</a>
+`````
 <p class="k_hg-idt4">
 オ　第１の２ ⑷ オ（「そのため」以下）（１２頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ka">原告第２準備書面　第１の２ ⑷ カ</a>
+`````
 <p class="k_hg-idt4">
 カ　第１の２ ⑷ カ（「要するに」以下）（１２頁）について
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ki">原告第２準備書面　第１の２ ⑷ キ</a>
+`````
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
 <p class="k_hg-idt4">
@@ -252,14 +277,29 @@
 カ　第１の３ ⑴ カ（「そのため」以下）（１３頁以下）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ki">原告第２準備書面　第１の３ ⑴ キ</a>
+`````
 <p class="k_hg-idt4">
 キ　第１の３ ⑴ キ（以上のとおり」以下）（１４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ku">原告第２準備書面　第１の３ ⑴ ク</a>
+`````
 <p class="k_hg-idt4">
 ク　第１の３ ⑴ ク（「本件規程１．２（１）に」以下）（１４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ke">原告第２準備書面　第１の３ ⑴ ケ</a>
+`````
 <p class="k_hg-idt4">
 ケ　第１の３ ⑴ ケ（「少なくとも」以下）（１４頁）について
 <p class="k_idt4">
@@ -279,10 +319,20 @@
 イ　第１の３ ⑵ イ（「ところが」以下）（１５頁）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132u">原告第２準備書面　第１の３ ⑵ ウ</a>
+`````
 <p class="k_hg-idt4">
 ウ　第１の３ ⑵ ウ（「上記イのとおり」以下）（１５頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132e">原告第２準備書面　第１の３ ⑵ エ</a>
+`````
 <p class="k_hg-idt4">
 エ　第１の３ ⑵ エ（「原告に対して」以下）（１５頁）について
 <p class="k_idt4">
@@ -306,10 +356,20 @@
 ウ　第１の３ ⑶ ウ（「また、調査補助者は、原告に対して」以下）（１６頁）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133e">原告第２準備書面　第１の３ ⑶ エ</a>
+`````
 <p class="k_hg-idt4">
 エ　第１の３ ⑶ エ（「しかし」以下）（１６頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133o">原告第２準備書面　第１の３ ⑶ オ</a>
+`````
 <p class="k_hg-idt4">
 オ　第１の３ ⑶ オ（「要するに」以下）（１６頁）について
 <p class="k_idt4">
@@ -333,6 +393,11 @@
 イ　第１の３ ⑷ イ（「要するに」以下）（１７頁）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134u">原告第２準備書面　第１の３ ⑷ ウ</a>
+`````
 <p class="k_hg-idt4">
 ウ　第１の３ ⑷ ウ（「なお」以下）（１７頁）について
 <p class="k_idt4">
@@ -341,14 +406,29 @@
 エ　第１の３ ⑷ エ（「本件部長報告は、『過年度」以下）（１７頁）について
 <p class="k_idt4">
 原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134o">原告第２準備書面　第１の３ ⑷ オ</a>
+`````
 <p class="k_hg-idt4">
 オ　第１の３ ⑷ オ（「そのため、本件部長報告の」以下）（１７頁）について
 <p class="k_idt4">
 事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134ka">原告第２準備書面　第１の３ ⑷ カ</a>
+`````
 <p class="k_hg-idt4">
 カ　第１の３ ⑷ カ（「また」以下）（１８頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134ki">原告第２準備書面　第１の３ ⑷ キ</a>
+`````
 <p class="k_hg-idt4">
 キ　第１の３ ⑷ キ（「そのため、この点についても」以下（１８頁）について
 <p class="k_idt4">
@@ -364,10 +444,20 @@
 `````
 <p class="k_hg-idt3">
 <b>⑹　第１の３ ⑸ （違反Ｃ･･･実行しなかった行為）（１８頁以下）について</b>
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135a">原告第２準備書面　第１の３ ⑸ ア</a>
+`````
 <p class="k_hg-idt4">
 ア　第１の３ ⑸ ア被告は」以下）（１８頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135i">原告第２準備書面　第１の３ ⑸ イ</a>
+`````
 <p class="k_hg-idt4">
 イ　第１の３ ⑸ イ（「ところが」以下）（１８頁）について
 <p class="k_idt4">
@@ -389,6 +479,11 @@
 `````
 <p class="k_hg-idt3">
 <b>⑴　第１の４ ⑴ （被告の行動基準違反及び本件規程違反）（１９頁以下）について</b>
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141a">原告第２準備書面　第１の４ ⑴ ア</a>
+`````
 <p class="k_hg-idt4">
 ア　第１の４ ⑴ ア（「被告は」以下）（１９頁）について
 <p class="k_hg-idt5">
@@ -420,6 +515,11 @@
 `````
 <p class="k_hg-idt3">
 <b>⑵　第１の４ ⑵ （業務プロセスがかかわるトラブルに関する状況）（２０頁以下）について</b>
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142a">原告第２準備書面　第１の４ ⑵ ア</a>
+`````
 <p class="k_hg-idt4">
 ア　第１の４ ⑵ ア（「債権回収業務の」以下）（２０頁）について
 <p class="k_hg-idt5">
@@ -434,6 +534,11 @@
 イ　第１の４ ⑵ イ（「多数の債権未回収が」以下）（２０頁）について
 <p class="k_idt4">
 一般論としては認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142u">原告第２準備書面　第１の４ ⑵ ウ</a>
+`````
 <p class="k_hg-idt4">
 ウ　第１の４ ⑵ ウ「しかし」以下）（２０頁）について
 <p class="k_idt4">
@@ -450,10 +555,20 @@
 カ　第１の４ ⑵ カ（「上記オに」以下）（２１頁）について
 <p class="k_idt4">
 不知である。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142ki">原告第２準備書面　第１の４ ⑵ キ</a>
+`````
 <p class="k_hg-idt4">
 キ　第１の４ ⑵ キ（「以上のとおり」以下）（２１頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142ku">原告第２準備書面　第１の４ ⑵ ク</a>
+`````
 <p class="k_hg-idt4">
 ク　第１の４ ⑵ ク（「さらに」以下）（２１頁）について
 <p class="k_idt4">
@@ -465,6 +580,11 @@
 `````
 <p class="k_hg-idt3">
 <b>⑶　第１の４ ⑶ （原告が被った精神的損害）（２１頁）について</b>
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143a">原告第２準備書面　第１の４ ⑶ ア</a>
+`````
 <p class="k_hg-idt4">
 ア　第１の４ ⑶ ア（「経費支払業務の際に請求内容の」以下）（２１頁）について
 <p class="k_hg-idt5">
@@ -479,10 +599,20 @@
 （ウ）第３段落（「経費支払い業務の際に契約内容を」以下）（２１頁）について
 <p class="k_idt6">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143a">原告第２準備書面　第１の４ ⑶ イ</a>
+`````
 <p class="k_hg-idt4">
 イ　第１の４ ⑶ イ（「上記 ⑵ で」以下）（２１頁以下）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143a">原告第２準備書面　第１の４ ⑶ ウ</a>
+`````
 <p class="k_hg-idt4">
 ウ　第１の４ ⑶ ウさらに以下）（２２頁）について
 <p class="k_idt4">
@@ -491,6 +621,11 @@
 エ　第１の４ ⑶ エ（「以上の状況のなか」以下）（２２頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">争う</span>。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143o">原告第２準備書面　第１の４ ⑶ オ</a>
+`````
 <p class="k_hg-idt4">
 オ　第１の４ ⑶ オ（「原告は」以下）（２２頁）について
 <p class="k_idt4">
@@ -525,7 +660,7 @@
 <p class="k_idt4">
 また、前回訴訟の訴訟物と本件訴訟の訴訟物が同一であるという被告の立場からすると、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものであり、弁論終結の直前になって攻撃方法を追加的に提出するものであるから、<span class="u_or">時機に遅れた攻撃防御方法として却下されるべきである（民事訴訟法第１５７条第１項）</span>。
 <p class="k_hg-idt4">
-ウ　第１の６ ⑴ ウ（したがって」以下）（２３頁）について
+ウ　第１の６ ⑴ ウ（「したがって」以下）（２３頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">争う</span>。
 <p class="k_hg-idt4">
@@ -551,6 +686,11 @@
 ア　第１の６ ⑵ アまず」以下）（２４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">争う</span>。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162i">原告第２準備書面　第１の６ ⑵ イ</a>
+`````
 <p class="k_hg-idt4">
 イ　第１の６ ⑵ イ（「この点をおくとしても」以下）（２４頁）について
 <p class="k_idt4">
@@ -559,8 +699,13 @@
 ウ　第１の６ ⑵ ウ（「調査補助者は、原告に対して」以下）（２４頁）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162e">原告第２準備書面　第１の６ ⑵ エ</a>
+`````
 <p class="k_hg-idt4">
-エ　第１の６ ⑵ エ（「「実際には以下）（２４頁）について
+エ　第１の６ ⑵ エ（「「実際には」以下）（２４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
 <p class="k_hg-idt4">
@@ -575,10 +720,20 @@
 キ　第１の６ ⑵ キ（「被告が」以下）（２５頁）について
 <p class="k_idt4">
 認める。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ku">原告第２準備書面　第１の６ ⑵ ク</a>
+`````
 <p class="k_hg-idt4">
 ク　第１の６ ⑵ ク（「原告が前回訴訟を」以下）（２５頁）について
 <p class="k_idt4">
 原告が前回訴訟を提起する前に甲第２１号証における調査補助者による通知の内容を分析できたことは、認めるが、その余は、<span style="color: #f37726;">否認</span>する。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ke">原告第２準備書面　第１の６ ⑵ ケ</a>
+`````
 <p class="k_hg-idt4">
 ケ　第１の６ ⑵ ケ（「被告訴訟代理人が」以下）（２５頁）について
 <p class="k_idt4">
