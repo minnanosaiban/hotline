@@ -2730,6 +2730,10 @@
 <p class="k">東京簡易裁判所　御中
 <p class="k"><b>目次</b>
 <p class="k" style="margin-bottom: 1.4em;">≪ 中略 ≫
+<p class="k"><a name="sojou_1"></a><b>第１　請求の趣旨</b>
+<p class="k_idt1">被告は、原告に対し、金１円の金員を支払え。
+
+<p class="k"><a name="sojou_1"></a><b>第２　請求の原因</b>
 
 
 <p class="k_hg-idt2"><a name="sojou_21"></a><b>１　用語の意味</b>
@@ -3105,7 +3109,7 @@
 `````{margin} 
 <p class="c_mini"><b>被告の認否</b>　「よって」以下について、<span style="color: #FF0000;"><b>争う</b></span>。
 `````
-<p class="k"><b><a name="sojou_3"></a>第３　まとめ</b>
+<p class="k"><a name="sojou_3"></a><b>第３　まとめ</b>
 <p class="k_idt1">よって、被告について、民法第４１５条の債務不履行に基づく責任又は民法第７０９条の不法行為に基づく責任が成立し、原告は、被告に対して、１円の支払いを求める。
 <p class="k">以上
 <p class="k" style="margin-top: 1.4em;"><b>証拠方法</b>
