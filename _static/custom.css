@@ -163,6 +163,12 @@ p {
   padding-left:4em;
   text-indent:-4em;
 }
+.hg-idt88 {
+  margin-right: 72px;
+  margin-left: 72px;
+  padding-left:8em;
+  text-indent:-8em;
+}
 .tyu1 {
   margin-right: 72px;
   margin-left: 72px;
@@ -756,6 +762,12 @@ p {
     margin-left:0;
     padding-left:4em;
     text-indent:-4em;
+  }
+  .hg-idt88 {
+    margin-right:0;
+    margin-left:0;
+    padding-left:8em;
+    text-indent:-8em;
   }
   .tyu1 {
     margin-right:0;
