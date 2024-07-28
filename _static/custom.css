@@ -760,14 +760,14 @@ p {
   .hg-idt44 {
     margin-right:0;
     margin-left:0;
-    padding-left:1em;
-    text-indent:-1em;
+    padding-left:4em;
+    text-indent:-4em;
   }
   .hg-idt88 {
     margin-right:0;
     margin-left:0;
-    padding-left:1em;
-    text-indent:-1em;
+    padding-left:0;
+    text-indent:0;
   }
   .tyu1 {
     margin-right:0;
