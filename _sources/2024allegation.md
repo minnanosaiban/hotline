@@ -318,12 +318,12 @@
 カ　第１の３ ⑶ カ（「以上により」以下）（１６頁以下）について
 <p class="k_idt4">
 <span style="color: #f37726;">争う</span>。
-<p class="k_hg-idt3">
 
 
 `````{margin} 
 <p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134">原告第２準備書面　第１の３ ⑷</a><br>違反Ｂ　是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為
 `````
+<p class="k_hg-idt3">
 <b>⑸　第１の３ ⑷ （違反Ｂ･･･通知した行為）（１７頁以下）について</b>
 <p class="k_hg-idt4">
 ア　第１の３ ⑷ ア（「本件部長報告は」以下）（１７頁）について
@@ -495,12 +495,19 @@
 オ　第１の４ ⑶ オ（「原告は」以下）（２２頁）について
 <p class="k_idt4">
 事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+
 <p class="k_hg-idt2">
 <b>５　第１の５（まとめ）（２２頁）について</b>
 <p class="k_idt2">
 <span style="color: #f37726;">争う</span>。
+
 <p class="k_hg-idt2">
 <b>６　第１の６（本件訴訟における原告の主張は許される）（２２頁以下）について</b>
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161">原告第２準備書面　第１の６ ⑴</a><br>既判力が本件訴訟に及ばす、実質的な蒸し返しにも当たらない
+`````
 <p class="k_hg-idt3">
 <b>⑴　第１の６ ⑴ （既判力が．．当たらない）（２２頁以下）について</b>
 <p class="k_hg-idt4">
@@ -533,6 +540,11 @@
 カ　第１の６ ⑴ カ（「よって」以下）（２４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">争う</span>。
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162">原告第２準備書面　第１の６ ⑵</a><br>本件訴訟における原告の主張は、信義則に反せず、許される
+`````
 <p class="k_hg-idt3">
 <b>⑵　第１の６ ⑵ （本件訴訟における．．．許される）（２４頁以下）について</b>
 <p class="k_hg-idt4">
