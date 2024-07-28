@@ -6,16 +6,16 @@
 
 ## 被告準備書面（３）
 ---
+
+
+`````{margin} 
+<p class="c_mini" style="margin-bottom: 0.5em;">
+`````
 <p class="k" style="margin-top: 1.4em;"><a name="sojou">被告準備書面（３）
 <p class="k">令和６年７月２５日
 <p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
 <p class="k"><b>目次</b>
 <p class="k" style="margin-bottom: 1.4em;">≪ 中略 ≫
-
-
-`````{margin} 
-
-`````
 <p class="k">
 <b>第１　緒言</b>
 <p class="k_idt1">
@@ -29,7 +29,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告第２準備書面　第１の１ ⑴ </b>　
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告第２準備書面　第１の１ ⑴　行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること</b>　
 `````
 <p class="k_hg-idt3">
 <b>⑴　第１の１ ⑴ （行動基準は･･･拠り所となるものであること）（３頁以下）について</b>
