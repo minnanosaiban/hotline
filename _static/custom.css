@@ -317,15 +317,6 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-.k_hg-idt32 {
-  padding-left:3em;
-  text-indent:-2em;
-  font-size:14px;
-  margin-right: 112px;
-  margin-left: 72px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .k_hg-idt4 {
   padding-left:4em;
   text-indent:-1em;
@@ -347,6 +338,15 @@ p {
 .k_hg-idt6 {
   padding-left:6em;
   text-indent:-1em;
+  font-size:14px;
+  margin-right: 112px;
+  margin-left: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.k_hg-idt32 {
+  padding-left:3em;
+  text-indent:-2em;
   font-size:14px;
   margin-right: 112px;
   margin-left: 72px;
@@ -862,12 +862,6 @@ p {
     font-size:14px;
     margin: 0;
   }
-  .k_hg-idt32 {
-    padding-left:3em;
-    text-indent:-2em;
-    font-size:14px;
-    margin: 0;
-  }
   .k_hg-idt4 {
     padding-left:4em;
     text-indent:-1em;
@@ -883,6 +877,12 @@ p {
   .k_hg-idt6 {
     padding-left:6em;
     text-indent:-1em;
+    font-size:14px;
+    margin: 0;
+  }
+  .k_hg-idt32 {
+    padding-left:3em;
+    text-indent:-2em;
     font-size:14px;
     margin: 0;
   }
