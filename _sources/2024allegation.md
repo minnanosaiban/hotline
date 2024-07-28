@@ -24,7 +24,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;">原告第２準備書面　第１の１ ⑴ 　。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「 ⑴　行動基準は」以下について、認める。
 `````
 <p class="k_hg-idt3">
 ⑴　第１の１ ⑴ （行動基準は･･･拠り所となるものであること）（３頁以下）について
