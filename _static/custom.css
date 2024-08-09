@@ -77,6 +77,9 @@ hr {
   font-weight:bold;
   color:#f37726;
 }
+.u_r {
+  border-bottom: 1px solid #FF0000;
+}
 .u_rd {
   border-bottom: 2px solid #FF0000;
 }

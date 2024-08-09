@@ -48,13 +48,13 @@
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113u">第１の１ ⑶　ウ</a>（「従業員の」以下）（５頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113e">第１の１ ⑶　エ</a>（「以上のとおり」以下）（５頁）について
 <p class="k_idt4">
-本件規程３．６ ⑴ に定める通知の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span style="color: #f37726;">争う</span>。
+本件規程３．６ ⑴ に定める通知の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span style="color: #FF0000;">争う</span>。
 <p class="k_idt4">
-本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
+本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、<span class="u_r">法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="k_hg-idt3">
 <b>⑷　第２の１ ⑷ （被告は、･･･実行する義務があること）（６頁）について</b>
 <p class="k_hg-idt4">
@@ -68,19 +68,19 @@
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114u">第１の１ ⑷　ウ</a>（「従業員の」以下）（６頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114e">第１の１ ⑷　エ</a>（「以上のとおり」以下）（６頁）について
 <p class="k_idt4">
-本件規程３．５に定める是正措置及び再発防止策等の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span style="color: #f37726;">争う</span>。
+本件規程３．５に定める是正措置及び再発防止策等の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span style="color: #FF0000;">争う</span>。
 <p class="k_idt4">
-本件規程３．５の文言からも明らかなとおり、本件規程３．５は、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
+本件規程３．５の文言からも明らかなとおり、本件規程３．５は、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、<span class="u_r">法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="k_hg-idt2">
 <b>２　第１の２（通報情報に関する事実について）（７頁以下）について</b>
 <p class="k_hg-idt3">
 <b>⑴　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_12">第１の２柱書</a>（「本件通報、追加情報」以下）（７頁）について</b>
 <p class="k_idt3">
-<span style="color: #f37726;">特に争わない</span>。
+<span style="color: #FF0000;">特に争わない</span>。
 <p class="k_hg-idt3">
 <b>⑵　第１の２ ⑴ （通報情報及びこれに対する調査補助者の応答）（７頁以下）について</b>
 <p class="k_hg-idt4">
@@ -106,11 +106,11 @@
 <p class="k_hg-idt3">
 <b>⑶　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122">第１の２ ⑵</a> （事実Ａ　原告が本件支払手続をした行為）（９頁以下）について</b>
 <p class="k_idt3">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_idt3">
-原告が原告のいう「本件支払手続」をした行為は、本件通報に係る調査の結果、コンプライアンス違反ではない（法令等に違反するものではない）と<span class="u_or">結論づけられたものである</span>（乙第３号証・乙第１０号証・乙第１１号証）。
+原告が原告のいう「本件支払手続」をした行為は、本件通報に係る調査の結果、コンプライアンス違反ではない（法令等に違反するものではない）と<span class="u_r">結論づけられたものである</span>（乙第３号証・乙第１０号証・乙第１１号証）。
 <p class="k_idt3">
-よって、答弁書にも述べたとおり（注１）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、<span class="u_or">本件通報について、本件規程３．６ ⑴ イ及びウに基づく通知は必要でない</span>。
+よって、答弁書にも述べたとおり（注１）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、<span class="u_r">本件通報について、本件規程３．６ ⑴ イ及びウに基づく通知は必要でない</span>。
 <p class="k_hg-idt3">
 <b>⑷　第１の２ ⑶ （事実Ｂ　上司Ａが還付手続で対応する旨を説明した行為）（１０頁以下）について</b>
 <p class="k_hg-idt4">
@@ -120,11 +120,11 @@
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123i">第１の２ ⑶ イ</a>（「しかし」以下）（１０頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123u">第１の２ ⑶ ウ</a>（「また、被告においては、本件調査報告１」以下）（１０頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123e">第１の２ ⑶ エ</a>（「また、被告においては、上記アの」以下）（１０頁）について
 <p class="k_idt4">
@@ -132,15 +132,15 @@
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123o">第１の２ ⑶ オ</a>（「上司Ａが」以下）（１０頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_idt4">
-上司Ａが還付手続で対応する旨を説明した行為は、追加通報に係る調査の結果、「不正行為等には該当しない」「対応に懈怠は認められなかった」と<span class="u_or">結論づけられたものである</span>（乙第１２号証〔７頁〕）。
+上司Ａが還付手続で対応する旨を説明した行為は、追加通報に係る調査の結果、「不正行為等には該当しない」「対応に懈怠は認められなかった」と<span class="u_r">結論づけられたものである</span>（乙第１２号証〔７頁〕）。
 <p class="k_hg-idt4">
 カ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123ka">第１の２ ⑶ カ</a>（「以上のとおり」以下）（１０頁以下）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_idt4">
-追加通報に関する調査結果も、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、<span class="u_or">上司Ａが還付手続で対応する旨を説明した行為は、本件規程３．５又は行動基準第１４項（３）に定める是正措置及び再発防止策の実行は必要でない</span>。
+追加通報に関する調査結果も、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、<span class="u_r">上司Ａが還付手続で対応する旨を説明した行為は、本件規程３．５又は行動基準第１４項（３）に定める是正措置及び再発防止策の実行は必要でない</span>。
 <p class="k_hg-idt3">
 <b>⑸　第１の２ ⑷ （事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金した行為）（１１頁）について</b>
 <p class="k_hg-idt4">
@@ -162,25 +162,25 @@
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124o">第１の２ ⑷ オ</a>（「そのため」以下）（１２頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 カ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ka">第１の２ ⑷ カ</a>（「要するに」以下）（１２頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 キ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ki">第１の２ ⑷ キ</a>（「豪州子会社が」以下）（１２頁）について
 <p class="k_idt4">
-事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+事実上の主張としては<span style="color: #FF0000;">否認</span>し、法律上の主張としては<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 ク　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ku">第１の２ ⑷ ク</a>（「以上のとおり」以下）（１２頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt2">
 <b>３　第１の３（被告の行動基準及び本件規程に違反する行為について）（１２頁以下）について</b>
 <p class="k_hg-idt3">
 <b>⑴　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_13">第１の３柱書</a>（「本件通報、追加通報及び」以下）（１２頁）について</b>
 <p class="k_idt3">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt3">
 <b>⑵　第１の３ ⑴ （被告が、･･･把握していたこと）（１３頁以下）について</b>
 <p class="k_hg-idt4">
@@ -210,21 +210,21 @@
 <p class="k_hg-idt4">
 キ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ki">第１の３ ⑴ キ</a>（以上のとおり」以下）（１４頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ク　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ku">第１の３ ⑴ ク</a>（「本件規程１．２（１）に」以下）（１４頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ケ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ke">第１の３ ⑴ ケ</a>（「少なくとも」以下）（１４頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt3">
 <b>⑶　第１の３ ⑵ （被告が、･･･通知したこと）（１４頁以下）について</b>
 <p class="k_hg-idt4">
 ア　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132a">第１の３ ⑵ ア</a>（「本件内部通報制度の目的は」以下）（１４頁以下）について
 <p class="k_idt4">
-本件内部通報制度の目的が、被告等における法令等に違反する行為又は違反するおそれのある行為を早期に是正することであることについては、認めるが、その余については、<span style="color: #f37726;">争う</span>。
+本件内部通報制度の目的が、被告等における法令等に違反する行為又は違反するおそれのある行為を早期に是正することであることについては、認めるが、その余については、<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132i">第１の３ ⑵ イ</a>（「ところが」以下）（１５頁）について
 <p class="k_idt4">
@@ -232,11 +232,11 @@
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132u">第１の３ ⑵ ウ</a>（「上記イのとおり」以下）（１５頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132e">第１の３ ⑵ エ</a>（「原告に対して」以下）（１５頁）について
 <p class="k_idt4">
-事実上の主張については<span style="color: #f37726;">否認</span>し、法律上の主張については<span style="color: #f37726;">争う</span>。
+事実上の主張については<span style="color: #FF0000;">否認</span>し、法律上の主張については<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt3">
 <b>⑷　第１の３ ⑶ （違反Ａ･･･伏せた行為）（１５頁以下）について</b>
 <p class="k_hg-idt4">
@@ -254,15 +254,15 @@
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133e">第１の３ ⑶ エ</a>（「しかし」以下）（１６頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133o">第１の３ ⑶ オ</a>（「要するに」以下）（１６頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 カ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133ka">第１の３ ⑶ カ</a>（「以上により」以下）（１６頁以下）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt3">
 <b>⑸　第１の３ ⑷ （違反Ｂ･･･通知した行為）（１７頁以下）について</b>
 <p class="k_hg-idt4">
@@ -276,7 +276,7 @@
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134u">第１の３ ⑷ ウ</a>（「なお」以下）（１７頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134e">第１の３ ⑷ エ</a>（「本件部長報告は、『過年度」以下）（１７頁）について
 <p class="k_idt4">
@@ -284,29 +284,29 @@
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134o">第１の３ ⑷ オ</a>（「そのため、本件部長報告の」以下）（１７頁）について
 <p class="k_idt4">
-事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+事実上の主張としては<span style="color: #FF0000;">否認</span>し、法律上の主張としては<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 カ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134ka">第１の３ ⑷ カ</a>（「また」以下）（１８頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 キ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134ki">第１の３ ⑷ キ</a>（「そのため、この点についても」以下（１８頁）について
 <p class="k_idt4">
-事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+事実上の主張としては<span style="color: #FF0000;">否認</span>し、法律上の主張としては<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 ク　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134ku">第１の３ ⑷ ク</a>（「以上により」以下）（１８頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt3">
 <b>⑹　第１の３ ⑸ （違反Ｃ･･･実行しなかった行為）（１８頁以下）について</b>
 <p class="k_hg-idt4">
 ア　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135a">第１の３ ⑸ ア</a>（「被告は」以下）（１８頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135i">第１の３ ⑸ イ</a>（「ところが」以下）（１８頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135u">第１の３ ⑸ ウ</a>（「被告において」以下）（１８頁以下）について
 <p class="k_idt4">
@@ -314,7 +314,7 @@
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135e">第１の３ ⑸ エ</a>（「以上により」以下）（１９頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt2">
 <b>４　第１の４（原告が･･･被った精神的損害）（１９頁以下）について</b>
 <p class="k_hg-idt3">
@@ -324,13 +324,13 @@
 <p class="k_hg-idt5">
 （ア）第１段落（「被告は」以下）（１９頁）について
 <p class="k_idt6">
-事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+事実上の主張としては<span style="color: #FF0000;">否認</span>し、法律上の主張としては<span style="color: #FF0000;">争う</span>。
 <p class="k_idt6">
-本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
+本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、<span class="u_r">法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="k_idt6">
-本件規程３．５の文言からも明らかなとおり、本件規程３．５も、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
+本件規程３．５の文言からも明らかなとおり、本件規程３．５も、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、<span class="u_r">法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="k_idt6">
-行動基準の文言からも明らかなとおり、行動基準も、「ＥＮＥＯＳグループで働く私たち」、すなわち被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
+行動基準の文言からも明らかなとおり、行動基準も、「ＥＮＥＯＳグループで働く私たち」、すなわち被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、<span class="u_r">法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="k_hg-idt5">
 （イ）第２段落（「かつ」以下）（１９頁）について
 <p class="k_idt6">
@@ -338,11 +338,11 @@
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141i">第１の４ ⑴ イ</a>（「ところが」以下）（１９頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141u">第１の４ ⑴ ウ</a>（以上により」以下）（１９頁以下）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt3">
 <b>⑵　第１の４ ⑵ （業務プロセスがかかわるトラブルに関する状況）（２０頁以下）について</b>
 <p class="k_hg-idt4">
@@ -354,7 +354,7 @@
 <p class="k_hg-idt5">
 （イ）第２段落（「原告が債権回収業務を」以下）（２０頁）について
 <p class="k_idt6">
-原告が被告のＳＩ推進事業部ＳＩ品質保証グループに所属していた平成２３年度（２０１１年度）に、原告の担当していた債権回収業務において、多額（多数）の債権未回収というトラブルが発生したことについては、認めるが、その余については、<span style="color: #f37726;">否認</span>する。
+原告が被告のＳＩ推進事業部ＳＩ品質保証グループに所属していた平成２３年度（２０１１年度）に、原告の担当していた債権回収業務において、多額（多数）の債権未回収というトラブルが発生したことについては、認めるが、その余については、<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142i">第１の４ ⑵ イ</a>（「多数の債権未回収が」以下）（２０頁）について
 <p class="k_idt4">
@@ -362,7 +362,7 @@
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142u">第１の４ ⑵ ウ</a>（「しかし」以下）（２０頁）について
 <p class="k_idt4">
-被告における平成２３年度（２０１１年度）を評価対象期間とする原告の人事評価において、能力評価における「上司コメント」として、原告が「債権回収業務において催促を怠り多数の回収漏れを発生させた」とのコメントがあったこと、当該人事評価における原告の能力評価において、評価項目のすべてがｅ評価のゼロ点であったこと、当該人事評価における原告の実績評価において、評価項目のすべてがｄ評価の１点であったことは、いずれも認めるが、その余は、<span style="color: #f37726;">否認</span>する。
+被告における平成２３年度（２０１１年度）を評価対象期間とする原告の人事評価において、能力評価における「上司コメント」として、原告が「債権回収業務において催促を怠り多数の回収漏れを発生させた」とのコメントがあったこと、当該人事評価における原告の能力評価において、評価項目のすべてがｅ評価のゼロ点であったこと、当該人事評価における原告の実績評価において、評価項目のすべてがｄ評価の１点であったことは、いずれも認めるが、その余は、<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142e">第１の４ ⑵ エ</a>（「上記ウの」以下）（２０頁）について
 <p class="k_idt4">
@@ -378,11 +378,11 @@
 <p class="k_hg-idt4">
 キ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142ki">第１の４ ⑵ キ</a>（「以上のとおり」以下）（２１頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ク　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142ku">第１の４ ⑵ ク</a>（「さらに」以下）（２１頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt3">
 <b>⑶　第１の４ ⑶ （原告が被った精神的損害）（２１頁）について</b>
 <p class="k_hg-idt4">
@@ -394,31 +394,31 @@
 <p class="k_hg-idt5">
 （イ）第２段落（「原告が上司Ａに対して」以下）（２１頁）について
 <p class="k_idt6">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt5">
 （ウ）第３段落（「経費支払い業務の際に契約内容を」以下）（２１頁）について
 <p class="k_idt6">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143i">第１の４ ⑶ イ</a>（「上記 ⑵ で」以下）（２１頁以下）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143u">第１の４ ⑶ ウ</a>さらに以下）（２２頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143e">第１の４ ⑶ エ</a>（「以上の状況のなか」以下）（２２頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143o">第１の４ ⑶ オ</a>（「原告は」以下）（２２頁）について
 <p class="k_idt4">
-事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+事実上の主張としては<span style="color: #FF0000;">否認</span>し、法律上の主張としては<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt2">
 <b>５　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_15">第１の５</a>（まとめ）（２２頁）について</b>
 <p class="k_idt2">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt2">
 <b>６　第１の６（本件訴訟における原告の主張は許される）（２２頁以下）について</b>
 <p class="k_hg-idt3">
@@ -432,37 +432,37 @@
 <p class="k_idt4">
 本件訴訟における原告の主張の要約であると思われるため、特に認否はしない。
 <p class="k_idt4">
-ただし、原告は、請求原因事実として、訴状においては「被告に本件規程３．６ ⑴ イ又は同ウの違反が存在する」（注２）と主張し、原告第１準備書面でも「被告に本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったことについての本件規程違反が存在する」（注３）と主張していたのであるから、<span class="u_or">原告が原告第２準備書面において行動基準第１項 ⑴ 、同第１１項 ⑶ 、同第１２項 ⑶ 、同第１４項 ⑶ 及び本件規程３．５の違反を主張する部分は、新たに請求原因事実を追加するものである</span>。
+ただし、原告は、請求原因事実として、訴状においては「被告に本件規程３．６ ⑴ イ又は同ウの違反が存在する」（注２）と主張し、原告第１準備書面でも「被告に本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったことについての本件規程違反が存在する」（注３）と主張していたのであるから、<span class="u_r">原告が原告第２準備書面において行動基準第１項 ⑴ 、同第１１項 ⑶ 、同第１２項 ⑶ 、同第１４項 ⑶ 及び本件規程３．５の違反を主張する部分は、新たに請求原因事実を追加するものである</span>。
 <p class="k_idt4">
-これは、前回訴訟の訴訟物と本件訴訟の訴訟物が同一ではないという原告の立場からすると、<span class="u_or">訴えの追加的変更（民事訴訟法第１４３条）になるはずである</span>。
+これは、前回訴訟の訴訟物と本件訴訟の訴訟物が同一ではないという原告の立場からすると、<span class="u_r">訴えの追加的変更（民事訴訟法第１４３条）になるはずである</span>。
 <p class="k_idt4">
-また、前回訴訟の訴訟物と本件訴訟の訴訟物が同一であるという被告の立場からすると、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものであり、弁論終結の直前になって攻撃方法を追加的に提出するものであるから、<span class="u_or">時機に遅れた攻撃防御方法として却下されるべきである（民事訴訟法第１５７条第１項）</span>。
+また、前回訴訟の訴訟物と本件訴訟の訴訟物が同一であるという被告の立場からすると、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものであり、弁論終結の直前になって攻撃方法を追加的に提出するものであるから、<span class="u_r">時機に遅れた攻撃防御方法として却下されるべきである（民事訴訟法第１５７条第１項）</span>。
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161u">第１の６ ⑴ ウ</a>（「したがって」以下）（２３頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161e">第１の６ ⑴ エ</a>（「また、被告が」以下）（２３頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161o">第１の６ ⑴ オ</a>（「また、原告が」以下）（２３頁以下）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 カ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161ka">第１の６ ⑴ カ</a>（「よって」以下）（２４頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt3">
 <b>⑵　第１の６ ⑵ （本件訴訟における．．．許される）（２４頁以下）について</b>
 <p class="k_hg-idt4">
 ア　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162a">第１の６ ⑵ ア</a>まず」以下）（２４頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 イ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162i">第１の６ ⑵ イ</a>（「この点をおくとしても」以下）（２４頁）について
 <p class="k_idt4">
-事実上の主張としては<span style="color: #f37726;">否認</span>し、法律上の主張としては<span style="color: #f37726;">争う</span>。
+事実上の主張としては<span style="color: #FF0000;">否認</span>し、法律上の主張としては<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 ウ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162u">第１の６ ⑵ ウ</a>（「調査補助者は、原告に対して」以下）（２４頁）について
 <p class="k_idt4">
@@ -470,7 +470,7 @@
 <p class="k_hg-idt4">
 エ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162e">第１の６ ⑵ エ</a>（「「実際には」以下）（２４頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">否認</span>する。
+<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 オ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162o">第１の６ ⑵ オ</a>（「調査補助者は、令和元年」以下）（２４頁以下）について
 <p class="k_idt4">
@@ -486,11 +486,11 @@
 <p class="k_hg-idt4">
 ク　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ka">第１の６ ⑵ ク</a>（「原告が前回訴訟を」以下）（２５頁）について
 <p class="k_idt4">
-原告が前回訴訟を提起する前に甲第２１号証における調査補助者による通知の内容を分析できたことは、認めるが、その余は、<span style="color: #f37726;">否認</span>する。
+原告が前回訴訟を提起する前に甲第２１号証における調査補助者による通知の内容を分析できたことは、認めるが、その余は、<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 ケ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ka">第１の６ ⑵ ケ</a>（「被告訴訟代理人が」以下）（２５頁）について
 <p class="k_idt4">
-被告訴訟代理人が令和３年８月３１日に原告に対して伝えた内容については、概ね認めるが、その余については、<span style="color: #f37726;">否認</span>する。
+被告訴訟代理人が令和３年８月３１日に原告に対して伝えた内容については、概ね認めるが、その余については、<span style="color: #FF0000;">否認</span>する。
 <p class="k_hg-idt4">
 コ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ka">第１の６ ⑵ コ</a>（「なお」以下）（２５頁以下）について
 <p class="k_idt4">
@@ -502,11 +502,11 @@
 <p class="k_hg-idt4">
 シ　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ka">第１の６ ⑵ シ</a>（「前回訴訟に関しては」以下）（２６頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k_hg-idt4">
 ス　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162ka">第１の６ ⑵ ス</a>（「よって」以下）（２６頁）について
 <p class="k_idt4">
-<span style="color: #f37726;">争う</span>。
+<span style="color: #FF0000;">争う</span>。
 <p class="k">
 <b>第３　原告第２準備書面第２による「補正」後の原告の主張に対する認否</b>
 <p class="k_idt1">
