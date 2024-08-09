@@ -48,16 +48,10 @@
 <p class="k_idt3">
 認める。
 </p>
-
-`````{margin} 
-
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">原告第２準備書面　第１の１ ⑶</a><br>被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務があること
-　
-`````
 <p class="k_hg-idt3">
 <b>⑶　第１の１ ⑶ （被告は、･･･通知をする義務があること）（５頁）について</b>
 <p class="k_hg-idt4">
-ア　第１の１ ⑶  ア（「本件規程３．６（１）に」以下）（５頁）について
+ア　第１の１ ⑶  ア（「本件規程３．６ ⑴ に」以下）（５頁）について
 <p class="k_idt4">
 認める。
 <p class="k_hg-idt4">
@@ -74,11 +68,6 @@
 本件規程３．６ ⑴ に定める通知の内容が、正当であることはもちろんのこと、行動基準第１１項（３）に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span style="color: #f37726;">争う</span>。
 <p class="k_idt4">
 本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６（１）は、調査終了時の「法務部長」の職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114">原告第２準備書面　第１の１ ⑷</a><br>被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、当該事実に対する徹底した原因究明及び効果的な再発防止策を実行する義務があること　
-`````
 <p class="k_hg-idt3">
 <b>⑷　第２の１ ⑷ （被告は、･･･実行する義務があること）（６頁）について</b>
 <p class="k_hg-idt4">
@@ -105,11 +94,6 @@
 <b>⑴　第１の２柱書（「本件通報、追加情報」以下）（７頁）について</b>
 <p class="k_idt3">
 特に争わない。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_121">原告第２準備書面　第１の２ ⑴</a><br>通報情報及びこれに対する調査補助者の応答　
-`````
 <p class="k_hg-idt3">
 <b>⑵　第１の２ ⑴ （通報情報及びこれに対する調査補助者の応答）（７頁以下）について</b>
 <p class="k_hg-idt4">
@@ -132,11 +116,6 @@
 オ　第１の２ ⑴ オ（「調査補助者が」以下）（８頁以下）について
 <p class="k_idt4">
 認める。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122">原告第２準備書面　第１の２ ⑵</a><br>事実Ａ　原告が本件支払手続をした行為　
-`````
 <p class="k_hg-idt3">
 <b>⑶　第１の２ ⑵ （事実Ａ　原告が本件支払手続をした行為）（９頁以下）について</b>
 <p class="k_idt3">
@@ -145,31 +124,16 @@
 原告が原告のいう「本件支払手続」をした行為は、本件通報に係る調査の結果、コンプライアンス違反ではない（法令等に違反するものではない）と<span class="u_or">結論づけられたものである</span>（乙第３号証・乙第１０号証・乙第１１号証）。
 <p class="k_idt3">
 よって、答弁書にも述べたとおり（注１）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、<span class="u_or">本件通報について、本件規程３．６ ⑴ イ及びウに基づく通知は必要でない</span>。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123">原告第２準備書面　第１の２ ⑶</a><br>事実Ｂ　上司Ａが還付手続で対応する旨を説明をした行為　
-`````
 <p class="k_hg-idt3">
 <b>⑷　第１の２ ⑶ （事実Ｂ　上司Ａが還付手続で対応する旨を説明した行為）（１０頁以下）について</b>
 <p class="k_hg-idt4">
 ア　第１の２ ⑶ ア（「上司Ａは」以下）（１０頁）について
 <p class="k_idt4">
 認める。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123i">原告第２準備書面　第１の２ ⑶ イ</a>
-`````
 <p class="k_hg-idt4">
 イ　第１の２ ⑶ イ（「しかし」以下）（１０頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123u">原告第２準備書面　第１の２ ⑶ ウ</a>
-`````
 <p class="k_hg-idt4">
 ウ　第１の２ ⑶ ウ（「また、被告においては、本件調査報告１」以下）（１０頁）について
 <p class="k_idt4">
@@ -190,11 +154,6 @@
 <span style="color: #f37726;">争う</span>。
 <p class="k_idt4">
 追加通報に関する調査結果も、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、<span class="u_or">上司Ａが還付手続で対応する旨を説明した行為は、本件規程３．５又は行動基準第１４項（３）に定める是正措置及び再発防止策の実行は必要でない</span>。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124">原告第２準備書面　第１の２ ⑷</a><br>事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金をした行為　
-`````
 <p class="k_hg-idt3">
 <b>⑸　第１の２ ⑷ （事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金した行為）（１１頁）について</b>
 <p class="k_hg-idt4">
@@ -213,27 +172,12 @@
 エ　第１の２ ⑷ エ（「本件部長報告は」以下）（１１頁）について
 <p class="k_idt4">
 原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124o">原告第２準備書面　第１の２ ⑷ オ</a>
-`````
 <p class="k_hg-idt4">
 オ　第１の２ ⑷ オ（「そのため」以下）（１２頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ka">原告第２準備書面　第１の２ ⑷ カ</a>
-`````
 <p class="k_hg-idt4">
 カ　第１の２ ⑷ カ（「要するに」以下）（１２頁）について
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124ki">原告第２準備書面　第１の２ ⑷ キ</a>
-`````
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
 <p class="k_hg-idt4">
@@ -250,11 +194,6 @@
 <b>⑴　第１の３柱書（「本件通報、追加通報及び」以下）（１２頁）について</b>
 <p class="k_idt3">
 <span style="color: #f37726;">争う</span>。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131">原告第２準備書面　第１の３ ⑴</a><br>被告が、法令等に違反する事実又は違反するおそれのある事実の存在を把握していたこと　
-`````
 <p class="k_hg-idt3">
 <b>⑵　第１の３ ⑴ （被告が、･･･把握していたこと）（１３頁以下）について</b>
 <p class="k_hg-idt4">
@@ -281,38 +220,18 @@
 カ　第１の３ ⑴ カ（「そのため」以下）（１３頁以下）について
 <p class="k_idt4">
 認める。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ki">原告第２準備書面　第１の３ ⑴ キ</a>
-`````
 <p class="k_hg-idt4">
 キ　第１の３ ⑴ キ（以上のとおり」以下）（１４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ku">原告第２準備書面　第１の３ ⑴ ク</a>
-`````
 <p class="k_hg-idt4">
 ク　第１の３ ⑴ ク（「本件規程１．２（１）に」以下）（１４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131ke">原告第２準備書面　第１の３ ⑴ ケ</a>
-`````
 <p class="k_hg-idt4">
 ケ　第１の３ ⑴ ケ（「少なくとも」以下）（１４頁）について
 <p class="k_idt4">
 <span style="color: #f37726;">否認</span>する。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132">原告第２準備書面　第１の３ ⑵</a><br>被告が、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知したこと
-`````
 <p class="k_hg-idt3">
 <b>⑶　第１の３ ⑵ （被告が、･･･通知したこと）（１４頁以下）について</b>
 <p class="k_hg-idt4">
@@ -323,11 +242,6 @@
 イ　第１の３ ⑵ イ（「ところが」以下）（１５頁）について
 <p class="k_idt4">
 認める。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132u">原告第２準備書面　第１の３ ⑵ ウ</a>
-`````
 <p class="k_hg-idt4">
 ウ　第１の３ ⑵ ウ（「上記イのとおり」以下）（１５頁）について
 <p class="k_idt4">
