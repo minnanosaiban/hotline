@@ -1,46 +1,66 @@
-<p class="top">上部はダークモードスイッチ等のメニューです
+<p class="top">
+上部はダークモードスイッチ等のメニューです
+</p>
 
 # 主張書面
 
-
-
 ## 被告準備書面（３）
+
 ---
 
-<p class="k" style="margin-top: 1.4em;"><a name="sojou">被告準備書面（３）
-<p class="k">令和６年７月２５日
-<p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
-<p class="k"><b>目次</b>
-<p class="k" style="margin-bottom: 1.4em;">≪ 中略 ≫
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;">
-`````
+<p class="k" style="margin-top: 1.4em;"><a name="sojou">
+被告準備書面（３）
+</p>
+<p class="k">
+令和６年７月２５日
+</p>
+<p class="k" style="margin-bottom: 1.4em;">
+東京簡易裁判所民事第５室６係Ｂ　御中
+</p>
+<p class="k">
+<b>目次</b>
+</p>
+<p class="k" style="margin-bottom: 1.4em;">
+≪ 中略 ≫
+</p>
 <p class="k">
 <b>第１　緒言</b>
+</p>
 <p class="k_idt1">
-本書に用いる用語の意味は、本書に別段の定義のない限り、被告の令和６年５月２３日付の「被告準備書面（２）（以下「被告準備書面（２）」という。）までの被告の主張書面に定義するところによる。
+本書に用いる用語の意味は、本書に別段の定義のない限り、被告の令和６年５月２３日付の「被告準備書面（２）（以下「被告準備書面（２）」という。）までの被告の主張書面に定義するところによる。</p>
 <p class="k">
 <b>第２　原告第２準備書面第１（原告の主張）に対する認否</b>
+</p>
 <p class="k_idt1">
 原告の令和６年７月１９日付の「原告第２準備書面」（以下「原告第２準備書面」という。）の第１（原告の主張）（３頁以下）における原告の主張に対する被告の認否は、以下のとおりである。
+</p>
 <p class="k_hg-idt2">
 <b>１　第１の１（行動基準及び本件規程の解釈について）（３頁以下）について</b>
-
+</p>
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_111">原告第２準備書面　第１の１ ⑴</a><br>行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること
+
+<p class="c_mini" style="margin-bottom: 0.5em;">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_111">原告第２準備書面　第１の１ ⑴</a><br>行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること
+</p>
+
 `````
+
 <p class="k_hg-idt3">
 <b>⑴　第１の１ ⑴ （行動基準は･･･拠り所となるものであること）（３頁以下）について</b>
+</p>
 <p class="k_idt3">
 認める。
-
+</p>
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">原告第２準備書面　第１の１ ⑵</a><br>「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること　
+
+<p class="c_mini" style="margin-bottom: 0.5em;">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">原告第２準備書面　第１の１ ⑵</a><br>「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること
+</p>
+
 `````
+
 <p class="k_hg-idt3">
 <b>⑵　第１の１ ⑵ （「事実に基づき、正確に、遺漏なく」･･･対象であること）（４頁）について</b>
 <p class="k_idt3">
@@ -94,7 +114,7 @@
 <p class="k_idt4">
 本件規程３．５に定める是正措置及び再発防止策等の内容が、正当であることはもちろんのこと、行動基準第１１項（３）に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span style="color: #f37726;">争う</span>。
 <p class="k_idt4">
-本件規程３．５の文言からも明らかなとおり、本件規程３．５は、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４（２）職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
+本件規程３．５の文言からも明らかなとおり、本件規程３．５は、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４（２））の職務を定めているのであって、<span class="u_or">法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="k_hg-idt2">
 <b>２　第１の２（通報情報に関する事実について）（７頁以下）について</b>
 <p class="k_hg-idt3">
