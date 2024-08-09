@@ -37,38 +37,22 @@
 <p class="k_hg-idt2">
 <b>１　第１の１（行動基準及び本件規程の解釈について）（３頁以下）について</b>
 </p>
-
-`````{margin} 
-
-<p class="c_mini" style="margin-bottom: 0.5em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_111">原告第２準備書面　第１の１ ⑴</a><br>行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること
-</p>
-
-`````
-
 <p class="k_hg-idt3">
-<b>⑴　第１の１ ⑴ （行動基準は･･･拠り所となるものであること）（３頁以下）について</b>
+<b>⑴　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_111">第１の１ ⑴</a> （行動基準は･･･拠り所となるものであること）（３頁以下）について</b>
 </p>
+<p class="k_idt3">
+認める。
+</p>
+<p class="k_hg-idt3">
+<b>⑵　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">第１の１ ⑵</a> （「事実に基づき、正確に、遺漏なく」･･･対象であること）（４頁）について</b>
 <p class="k_idt3">
 認める。
 </p>
 
 `````{margin} 
 
-<p class="c_mini" style="margin-bottom: 0.5em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">原告第２準備書面　第１の１ ⑵</a><br>「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること
-</p>
-
-`````
-
-<p class="k_hg-idt3">
-<b>⑵　第１の１ ⑵ （「事実に基づき、正確に、遺漏なく」･･･対象であること）（４頁）について</b>
-<p class="k_idt3">
-認める。
-
-
-`````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">原告第２準備書面　第１の１ ⑶</a><br>被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務があること　
+<p class="c_mini" style="margin-bottom: 0.5em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">原告第２準備書面　第１の１ ⑶</a><br>被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務があること
+　
 `````
 <p class="k_hg-idt3">
 <b>⑶　第１の１ ⑶ （被告は、･･･通知をする義務があること）（５頁）について</b>
