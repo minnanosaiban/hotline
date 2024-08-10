@@ -1638,11 +1638,11 @@
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 
 <p class="c_mini">　被告の従業員が内部通報制度の通報窓口に通報をしたときに、被告にどのような義務を負う場合があるのかについての原告の主張は、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11">上記第１の１</a>のとおりである。<br>
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11"><u>上記第１の１</u></a>のとおりである。<br>
 　また、被告の従業員が内部通報制度の通報窓口に通報をしたときに、信義則上の義務を負う場合があるのか否かについての原告の主張は、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_21">原告第１準備書面第２の１ ⑴ </a>のとおりである。<br>
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_21"><u>原告第１準備書面第２の１ ⑴ </u></a>のとおりである。<br>
 　前回訴訟における前回訴訟争点１に係る損害賠償請求、及び本件訴訟における損害賠償請求が同一関係にあるのか否かについての原告の主張は、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161">上記第１の６ ⑴ </a>のとおりである。
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161"><u>上記第１の６ ⑴ </u></a>のとおりである。
 
 ```
 
@@ -1669,7 +1669,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「表６に記載する事実のうち下線部分の事実は」以下について、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131">上記第１の３ ⑴ </a>のとおりである。これにより、被告は、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置、及び本件契約の措置を実行した。
+<p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。これにより、被告は、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置、及び本件契約の措置を実行した。
 ```
 
 `````
@@ -1784,7 +1784,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「とすれば、」から「とはいえない。」までについては、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かという調査事項を調査することは、まさしく、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響する事実を確認することである。一方で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132">上記第１の３ ⑵ </a>のとおり、被告は、原告に対し、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知していたのであり、被告の行為は、不合理かつ悪質である。
+<p class="c_mini">　本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かという調査事項を調査することは、まさしく、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響する事実を確認することである。一方で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132"><u>上記第１の３ ⑵ </u></a>のとおり、被告は、原告に対し、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知していたのであり、被告の行為は、不合理かつ悪質である。
 ```
 
 `````
@@ -1822,7 +1822,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下については、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131">上記第１の３ ⑴ </a>のとおりである。また、被告が本件規程３．６ ⑴ に定める通知をする義務があることは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">上記第１の１ ⑶ </a>のとおりである。
+<p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。また、被告が本件規程３．６ ⑴ に定める通知をする義務があることは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">上記第１の１ ⑶ </a>のとおりである。
 ```
 
 `````
