@@ -3123,10 +3123,10 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては争う。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては否認し、法律上の主張としては争う。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">前記第３の５</a>に詳述したとおりである。
+<p class="c_mini">理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">前記第３の５</a>に詳述したとおりである。
 ```
 
 `````
@@ -3141,7 +3141,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について、<span style="color: #FF0000;"><b>争う</b></span>。
+<p class="c_mini"><b>被告の認否</b>　「よって」以下について、争う。
 `````
 <p class="k"><a name="sojou_3"></a><b>第３　まとめ</b>
 <p class="k_idt1">よって、被告について、民法第４１５条の債務不履行に基づく責任又は民法第７０９条の不法行為に基づく責任が成立し、原告は、被告に対して、１円の支払いを求める。
