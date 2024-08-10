@@ -2875,7 +2875,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「ちなみに」以下について、事実上の主張としては<span style="color: #FF0000;"><b>否認</b></span>し、法律上の主張としては<span style="color: #FF0000;"><b>争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「ちなみに」以下について、事実上の主張としては否認し、法律上の主張としては争う。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　確かに、被告の法務部長は、本件通報に係る通報情報を、本件規程３．２⑴各号に列挙する関係役員等に報告していなかったが、それは、法務部長が、本件通報を、本件規程１．２⑸にいう「通報」ではなく、同規程２．３にいう「相談」として取り扱ったためであり、前回訴訟の確定判決も、本件通報の内容が「将来的に法人税法等の法令違反に該当する可能性があるのか、分からないため、相談させていただきたい。」というものだったこと（乙第２号証）に照らすと、かかる取扱いも不合理なものではないと判示している（乙第３号証〔注２１〕）。
@@ -3112,6 +3112,12 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告の認否</b>　「上記ウで述べた」以下について、<span style="color: #FF0000;"><b>否認</b></span>する。
+
+```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;"><span style="color: #FF0000;"><b>ポイント</b></span>
+<p class="c_mini">原告の主張 <i class="fa-solid fa-arrow-right"></i> 本件規程３．６ ⑴ イ又は同ウの違反が存在する
+<p class="c_mini">飛行の主張 <i class="fa-solid fa-arrow-right"></i> <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">前記第３の５</a>に詳述したとおり
+```
+
 `````
 <p class="k_hg-idt4">エ　上記ウで述べた被告が本件契約を締結した事実、及び本件豪州企業が被告に対してＧＳＴを請求していたのは平成２９年４月までであった事実からすると、<span class="u_r">本件豪州企業に対するＧＳＴの支払いが契約に基づいていないこと、又は契約に基づいていないおそれがあることを、被告が本件通報を受けたことにより把握したから、是正措置、再発防止策又は対応策を実行した</span>ことが明らかである。
 
@@ -3130,7 +3136,7 @@
 ```
 
 `````
-<p class="k_hg-idt4">オ　したがって、被告に本件規程３．６⑴イ又は同ウの違反が存在する。
+<p class="k_hg-idt4">オ　したがって、被告に本件規程３．６ ⑴ イ又は同ウの違反が存在する。
 
 
 `````{margin} 
