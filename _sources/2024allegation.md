@@ -556,34 +556,34 @@
 
 <p class="q_center" style="margin-top: 1.4em;"><b>原告第２準備書面　目次</b>
 <p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_0">はじめに</a>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_1">第１</a>　原告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11">１</a>　行動基準及び本件規程の解釈について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_111">⑴</a>　行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">⑵</a>　「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">⑶</a>　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務があること
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114">⑷</a>　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、当該事実に対する徹底した原因究明及び効果的な再発防止策を実行する義務があること
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_12">２</a>　通報情報に関する事実について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_121">⑴</a>　通報情報及びこれに対する調査補助者の応答
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122">⑵</a>　事実Ａ　原告が本件支払手続をした行為
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123">⑶</a>　事実Ｂ　上司Ａが還付手続で対応する旨を説明をした行為
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124">⑷</a>　事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金をした行為
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_13">３</a>　被告の行動基準及び本件規程に違反する行為について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131">⑴</a>　被告が、法令等に違反する事実又は違反するおそれのある事実の存在を把握していたこと
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132">⑵</a>　被告が、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知したこと
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133">⑶</a>　違反Ａ　原告に対して従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実の存在を伏せた行為
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134">⑷</a>　違反Ｂ　是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135">⑸</a>　違反Ｃ　法令等に違反する事実又は違反するおそれのある事実に対する徹底した原因究明及び効果的な再発防止策を実行しなかった行為
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_14">４</a>　原告が被告の行動基準違反及び本件規程違反によって被った精神的損害
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141">⑴</a>　被告の行動基準違反及び本件規程違反
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142">⑵</a>　業務プロセスがかかわるトラブルに関する状況
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143">⑶</a>　原告が被った精神的損害
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_15">５</a>　まとめ
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_16">６</a>　本件訴訟における原告の主張は許される
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161">⑴</a>　既判力が本件訴訟に及ばす、実質的な蒸し返しにも当たらない
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162">⑵</a>　本件訴訟における原告の主張は、信義則に反せず、許される
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_2">第２</a>　被告準備書面（２）の第２に対する認否
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_21">１</a>　第２の１（３頁以下）について
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_22">２</a>　第２の２（１０頁以下）について
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_1">第１　原告の主張</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_11">１　行動基準及び本件規程の解釈について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_111">⑴　行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_112">⑵　「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">⑶　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、本件規程３．６ ⑴ に定める通知をする義務があること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_114">⑷　被告は、被告が従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実を把握した場合に、当該事実に対する徹底した原因究明及び効果的な再発防止策を実行する義務があること</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_12">２　通報情報に関する事実について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_121">⑴　通報情報及びこれに対する調査補助者の応答</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122">⑵　事実Ａ　原告が本件支払手続をした行為</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123">⑶　事実Ｂ　上司Ａが還付手続で対応する旨を説明をした行為</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124">⑷　事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金をした行為</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_13">３　被告の行動基準及び本件規程に違反する行為について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131">⑴　被告が、法令等に違反する事実又は違反するおそれのある事実の存在を把握していたこと</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132">⑵　被告が、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知したこと</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_133">⑶　違反Ａ　原告に対して従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実の存在を伏せた行為</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_134">⑷　違反Ｂ　是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_135">⑸　違反Ｃ　法令等に違反する事実又は違反するおそれのある事実に対する徹底した原因究明及び効果的な再発防止策を実行しなかった行為</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_14">４　原告が被告の行動基準違反及び本件規程違反によって被った精神的損害</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141">⑴　被告の行動基準違反及び本件規程違反</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_142">⑵　業務プロセスがかかわるトラブルに関する状況</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_143">⑶　原告が被った精神的損害</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_15">５　まとめ</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_16">６　本件訴訟における原告の主張は許される</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_161">⑴　既判力が本件訴訟に及ばす、実質的な蒸し返しにも当たらない</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162">⑵　本件訴訟における原告の主張は、信義則に反せず、許される</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_2">第２　被告準備書面（２）の第２に対する認否</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_21">１　第２の１（３頁以下）について</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_22">２　第２の２（１０頁以下）について</a>
 
 
 ```` 
@@ -1726,34 +1726,34 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>原告第１準備書面　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_1">第１</a>　用語の整理
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_11">１</a>　本書に用いる用語および表記の意味
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_12">２</a>　「本件通報」という用語の意味
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_121">⑴</a>　本件規程に定める「通報」及び「通報情報」の範囲について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_122">⑵</a>　訴状において定義した「本件通報」という用語の意味の変更について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123">⑶</a>　「本件通報」及び「本件通報に係る情報」を区別することについて
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_13">３</a>　本件訴訟に用いる用語のまとめ
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_131">⑴</a>　表１．本件内部通報制度の仕組みに関する用語
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_132">⑵</a>　表２．「通報情報に関する事実」に関する用語
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_133">⑶</a>　表３．時系列における用語と書証番号の整理
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_134">⑷</a>　表４．本件規程に定める事項と当事者の主張との対応表
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_2">第２</a>　原告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_21">１</a>　本件訴訟における原告の主張が遮断されないこと
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211">⑴</a>　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212">⑵</a>　原告の主張が既判力によって遮断されることはない
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_213">⑶</a>　甲２１の３の情報を得たことにより推定される事実について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_214">⑷</a>　原告における情報把握の状況と前回訴訟主要事実との関係について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_215">⑸</a>　本件訴訟における原告の主張は、信義則に反せず、許される
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_22">２</a>　被告について債務不履行又は不法行為に基づく責任が成立すること
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_221">⑴</a>　本件規程を定めて本件内部通報制度を整備したことによる債務の存在
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_222">⑵</a>　本件規程に定める「通報情報に関する事実を確認するための調査」について
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_223">⑶</a>　「通報情報に関する事実を確認するための調査」についての考察
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_224">⑷</a>　「通報情報に関する事実を確認するための調査」についての考察、つづき
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_225">⑸</a>　本件規程３．６ ⑴ に違反する行為の存在
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_226">⑹</a>　原告の損害
-<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_227">⑺</a>　被告の責任
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_3">第３</a>　答弁書に対する認否
-<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_4">第４</a>　結語
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_1">第１　用語の整理</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_11">１　本書に用いる用語および表記の意味</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_12">２　「本件通報」という用語の意味</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_121">⑴　本件規程に定める「通報」及び「通報情報」の範囲について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_122">⑵　訴状において定義した「本件通報」という用語の意味の変更について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123">⑶　「本件通報」及び「本件通報に係る情報」を区別することについて</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_13">３　本件訴訟に用いる用語のまとめ</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_131">⑴　表１．本件内部通報制度の仕組みに関する用語</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_132">⑵　表２．「通報情報に関する事実」に関する用語</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_133">⑶　表３．時系列における用語と書証番号の整理</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_134">⑷　表４．本件規程に定める事項と当事者の主張との対応表</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_2">第２　原告の主張</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_21">１　本件訴訟における原告の主張が遮断されないこと</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211">⑴　答弁書における ④ → ④´ の対応付けは、被告独自の解釈にすぎない</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212">⑵　原告の主張が既判力によって遮断されることはない</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_213">⑶　甲２１の３の情報を得たことにより推定される事実について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_214">⑷　原告における情報把握の状況と前回訴訟主要事実との関係について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_215">⑸　本件訴訟における原告の主張は、信義則に反せず、許される</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_22">２　被告について債務不履行又は不法行為に基づく責任が成立すること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_221">⑴　本件規程を定めて本件内部通報制度を整備したことによる債務の存在</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_222">⑵　本件規程に定める「通報情報に関する事実を確認するための調査」について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_223">⑶　「通報情報に関する事実を確認するための調査」についての考察</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_224">⑷　「通報情報に関する事実を確認するための調査」についての考察、つづき</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_225">⑸　本件規程３．６ ⑴ に違反する行為の存在</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_226">⑹　原告の損害</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_227">⑺　被告の責任</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_3">第３　答弁書に対する認否</a>
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_4">第４　結語</a>
 
 ```` 
 
@@ -2373,19 +2373,19 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>答弁書　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_1">第１</a>　本案前の申立て
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_2">第２</a>　請求の趣旨に対する答弁
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_3">第３</a>　被告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_31">１</a>　本件訴訟における原告の主張
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_32">２</a>　前回訴訟における原告の主張と判決の確定
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_33">３</a>　前回訴訟の確定判決の既判力による遮断
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_34">４</a>　信義則に違反する紛争の蒸し返し
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">５</a>　本件規程３．６⑴イ・ウの違反の不存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_36">６</a>　信義則上の義務の違反の不存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_37">７</a>　結論（被告の主張）
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_4">第４</a>　訴状第２（請求の原因）（２頁以下）に対する認否
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_5">第５</a>　訴状第３（まとめ）（１３頁）に対する認否
-<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_6">第６</a>　結語
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_1">第１　本案前の申立て</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_2">第２　請求の趣旨に対する答弁</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_3">第３　被告の主張</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_31">１　本件訴訟における原告の主張</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_32">２　前回訴訟における原告の主張と判決の確定</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_33">３　前回訴訟の確定判決の既判力による遮断</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_34">４　信義則に違反する紛争の蒸し返し</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">５　本件規程３．６⑴イ・ウの違反の不存在</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_36">６　信義則上の義務の違反の不存在</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_37">７　結論（被告の主張）</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_4">第４　訴状第２（請求の原因）（２頁以下）に対する認否</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_5">第５　訴状第３（まとめ）（１３頁）に対する認否</a>
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_6">第６　結語</a>
 
 ```` 
 
@@ -2745,15 +2745,15 @@
 ````{card}
 
 <p class="q_center" style="margin-top: 1.4em;"><b>訴状　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_1">第１</a>　請求の趣旨
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_2">第２</a>　請求の原因
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_21">１</a>　用語の意味
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_22">２</a>　当事者
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_23">３</a>　被告における業務の適正等を確保するための体制
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_24">４</a>　経緯
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_25">５</a>　被告の本件規程違反の存在
-<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_26">６</a>　原告の損害
-<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_3">第３</a>　まとめ
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_1">第１　請求の趣旨</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_2">第２　請求の原因</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_21">１　用語の意味</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_22">２　当事者</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_23">３　被告における業務の適正等を確保するための体制</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_24">４　経緯</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_25">５　被告の本件規程違反の存在</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_26">６　原告の損害</a>
+<p class="q_hg-idt1" style="margin-bottom: 1.4em;"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#sojou_3">第３　まとめ</a>
 
 ```` 
 
