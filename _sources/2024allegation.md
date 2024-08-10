@@ -3,10 +3,13 @@
 
 # 主張書面
 
-## 被告準備書面（３）
-
+## 第３回口頭弁論
 ---
+<p class="k">令和６年８月１４日　１１時３０分
 
+
+## 被告準備書面（３）
+---
 <p class="k" style="margin-top: 1.4em;"><a name="sojou">
 被告準備書面（３）
 <p class="k">
@@ -1440,6 +1443,9 @@
 <p class="k_hg-idt1">以上
 
 
+## 第２回口頭弁論
+---
+<p class="k">令和６年５月２７日　１１時３０分
 
 
 ## 被告準備書面（２）
@@ -2356,6 +2362,11 @@
 <p class="k">以上
 
 
+## 第１回口頭弁論
+---
+<p class="k">令和６年４月２２日　１１時３０分
+
+
 ## 被告準備書面（１）
 ---
 <p class="k" style="margin-top: 1.4em;">被告準備書面（１）
@@ -2878,7 +2889,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「ちなみに」以下について、事実上の主張としては否認し、法律上の主張としては争う。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　確かに、被告の法務部長は、本件通報に係る通報情報を、本件規程３．２⑴各号に列挙する関係役員等に報告していなかったが、それは、法務部長が、本件通報を、本件規程１．２⑸にいう「通報」ではなく、同規程２．３にいう「相談」として取り扱ったためであり、前回訴訟の確定判決も、本件通報の内容が「将来的に法人税法等の法令違反に該当する可能性があるのか、分からないため、相談させていただきたい。」というものだったこと（乙第２号証）に照らすと、かかる取扱いも不合理なものではないと判示している（乙第３号証〔注２１〕）。
+<p class="c_mini">確かに、被告の法務部長は、本件通報に係る通報情報を、本件規程３．２⑴各号に列挙する関係役員等に報告していなかったが、それは、法務部長が、本件通報を、本件規程１．２⑸にいう「通報」ではなく、同規程２．３にいう「相談」として取り扱ったためであり、前回訴訟の確定判決も、本件通報の内容が「将来的に法人税法等の法令違反に該当する可能性があるのか、分からないため、相談させていただきたい。」というものだったこと（乙第２号証）に照らすと、かかる取扱いも不合理なものではないと判示している（乙第３号証〔注２１〕）。
 ```
 
 `````
@@ -3113,7 +3124,7 @@
 `````{margin} 
 <p class="c_mini"><b>被告の認否</b>　「上記ウで述べた」以下について、<span style="color: #FF0000;"><b>否認</b></span>する。
 
-```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;"><span style="color: #FF0000;">主張の対立</span>
+```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">主張の対立
 <p class="c_mini"><b>原告の主張</b>　本件規程３．６ ⑴ イ又は同ウの違反が存在する
 <p class="c_mini">　<i class="fa-solid fa-up-down"></i>
 <p class="c_mini"><b>被告の主張</b>　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35">前記第３の５</a>に詳述したとおり
@@ -3158,6 +3169,10 @@
 <p class="k" style="margin-top: 1.4em;"><b>付属書類</b>
 <p class="k_idt">１　訴状副本　　１通
 <p class="k_idt">２　資格証明書　１通
+
+## 書面のＰＤＦ
+---
+<p class="k">
 
 ## 
 
