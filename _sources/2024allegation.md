@@ -1633,7 +1633,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下について、<span style="color: #FF0000;"><b>争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下について、<span class="u_r"><b>争う</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 
@@ -1666,7 +1666,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「表６に記載する事実のうち下線部分の事実は」以下について、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「表６に記載する事実のうち下線部分の事実は」以下について、<span class="u_r"><b>否認ないし争う</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。これにより、被告は、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置、及び本件契約の措置を実行した。
@@ -1680,7 +1680,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の主張するような」以下について、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の主張するような」以下について、<span class="u_r"><b>否認ないし争う</b></span>。
 `````
 <p class="k_idt4">原告の主張するような因果関係によるものではないし、原告の主張するような「推定」も働かない。
 <p class="k_hg-idt4"><b>イ　第２段落（「しかし」以下）（１４頁）について</b>
@@ -1703,7 +1703,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「ただし」以下の裁判所が原告の文書送付嘱託の申立てを却下したことについては、<span style="color: #FF0000;"><b>不知</b></span>である。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「ただし」以下の裁判所が原告の文書送付嘱託の申立てを却下したことについては、<span class="u_r"><b>不知</b></span>である。
 `````
 <p class="k_idt4">ただし、被告が前回訴訟において被告と本件豪州企業の間の契約書を送付しなかったのは、前回訴訟の第一審の裁判所が令和４年１０月２７日の第８回弁論準備手続期日において原告の文書送付嘱託の申立てを却下したからである。
 <p class="k_hg-idt4"><b>オ　第５段落（「本件調査に係る」以下）（１５頁以下）について</b>
@@ -1711,7 +1711,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「確定した」以下の被告が通報者に対して調査の内容を提示する必要があるか否かについては、<span style="color: #FF0000;"><b>争わない</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「確定した」以下の被告が通報者に対して調査の内容を提示する必要があるか否かについては、<span class="u_r"><b>争わない</b></span>。
 `````
 <p class="k_idt4">確定した前回訴訟控訴審判決も判示するとおり、「本件規程上、調査とは、通報情報に関する事実を確認するための調査と定義され（〔本件規程〕１.２（９））、これは<b>法令等に違反する事実又は違反するおそれのある事実の確認を目的とする</b>ものと解される（（本件規程）３．５参照）から、必ずしも上記各事実の判断に影響しない事実までもが調査の対象になるとは解されず、また、<b>調査の具体的方法についても、通報者の希望に沿って行うなどとも規定されていないから、被告の合理的裁量に委ねられている</b>」のであるから（注３）、被告は、本件通報に関する調査についても、原告に対し、「具体的に何を調査したのか、及び何を調査しなかったのか」を提示する必要もなかった。
 <p class="k_hg-idt4"><b>カ　第６段落（「そして」以下）（１６頁）について</b>
@@ -1727,11 +1727,11 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span class="u_r"><b>否認ないし争う</b></span>。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 
-<p class="c_mini">　これに対する原告の主張は、 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162">上記第１の６ ⑵ </a>のとおりである。
+<p class="c_mini">　これに対する原告の主張は、 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_162"><u>上記第１の６ ⑵ </u></a>のとおりである。
 
 ```
 
@@ -1754,7 +1754,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「労働契約法」の本件規程が労働者の「労働条件」を定めているものであるのか否かについては、<span style="color: #FF0000;"><b>争わない</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「労働契約法」の本件規程が労働者の「労働条件」を定めているものであるのか否かについては、<span class="u_r"><b>争わない</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　被告は、「労働条件に関わる」という原告の主張を曲解して、「本件規程は、労働者の「労働条件」を定めているものではない。」と主張しているが、原告は、本件規程について、すなわち、本件内部通報制度における活動について、労働者の側からは職場環境の改善の側面があり、労働条件にかかわりがあることを主張している。
@@ -1781,7 +1781,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「とすれば、」から「とはいえない。」までについては、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「とすれば、」から「とはいえない。」までについては、<span class="u_r"><b>否認ないし争う</b></span>。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かという調査事項を調査することは、まさしく、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響する事実を確認することである。一方で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132"><u>上記第１の３ ⑵ </u></a>のとおり、被告は、原告に対し、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知していたのであり、被告の行為は、不合理かつ悪質である。
@@ -1819,10 +1819,10 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下については、<span style="color: #FF0000;"><b>否認ないし争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下については、<span class="u_r"><b>否認ないし争う</b></span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。また、被告が本件規程３．６ ⑴ に定める通知をする義務があることは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113">上記第１の１ ⑶ </a>のとおりである。
+<p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。また、被告が本件規程３．６ ⑴ に定める通知をする義務があることは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113"><u>上記第１の１ ⑶ </u></a>のとおりである。
 ```
 
 `````
