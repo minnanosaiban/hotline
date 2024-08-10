@@ -90,7 +90,13 @@ hr {
   border-bottom: 2px solid rgba(243,119,38,0.1);
 }
 a {
+  color: inherit;
   text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 sub {
   color:#f37726;
