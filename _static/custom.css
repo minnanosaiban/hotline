@@ -90,13 +90,22 @@ hr {
   border-bottom: 2px solid rgba(243,119,38,0.1);
 }
 a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit; /* 親要素から色を継承 */
+  text-decoration: none; /* 下線なし */
 }
 a:hover {
-  color: blue;
-  text-decoration: underline;
-  text-decoration-color: blue;
+  color: #1558d6; /* ホバー時の文字色 */
+  text-decoration: underline; /* ホバー時の下線 */
+  text-decoration-color: #1558d6; /* ホバー時の下線色 */
+}
+a:visited {
+  color: inherit; /* 親要素から色を継承 */
+  text-decoration: none; /* 下線なし */
+}
+a:visited:hover {
+  color: #1558d6; /* ホバー時の文字色 */
+  text-decoration: underline; /* ホバー時の下線 */
+  text-decoration-color: #1558d6; /* ホバー時の下線色 */
 }
 sub {
   color:#f37726;
