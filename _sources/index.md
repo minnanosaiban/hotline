@@ -58,23 +58,17 @@
 ## ４　調査をする義務がない
 ---
 
-<p class="base" style="margin-top: 1.6em; ">
-判決文で引用している最高裁判決「イビデン事件」は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。<br>
-参考：イビデン事件最高裁判決  <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、リンク <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> 先に記載しています。
-
-<p class="base" style="margin-top: 1.6em; margin-bottom: 1.6em;">
-そして、どのような相談の申出があった場合にいかなる措置を講ずるべきかについては、最高裁判決以降の類似の裁判例の集積によって、具体的に明らかになっていくと考えられていたところ、本件訴訟の判決は、ハラスメントなどによって被害を受けたことを訴える通報ではない場合、信義則上の調査義務等がないという判断を示しました。
+<p class="base">
+判決文の引用は、以下のとおりです。
 
 <div class="base">
 <blockquote>
-<p class="q">
-判決文の引用は、以下のとおりです。
 
 <p class="q">
 不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記 ② (c) の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。
 
-<p class="q" style="margin-top: 1.6em; ">
-参考：判決文の該当箇所、リンク <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#handan1"><i class="fa-solid fa-link"></i> </a>先のオレンジの部分です。
+<p class="q" style="margin-top: 1.6em; margin-bottom: 1.6em; ">
+参考：判決文の該当箇所は、リンク <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#handan1"><i class="fa-solid fa-link"></i> </a>先のオレンジの部分です。
 
 ```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　判決文の言葉の使い方についてちょっとした疑問があります</span>
 
@@ -98,6 +92,12 @@
 
 ```
 
+<p class="base" style="margin-top: 1.6em; ">
+判決文で引用している最高裁判決「イビデン事件」は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。<br>
+参考：イビデン事件最高裁判決  <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、リンク <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> 先に記載しています。
+
+<p class="base" style="margin-top: 1.6em; margin-bottom: 1.6em;">
+そして、どのような相談の申出があった場合にいかなる措置を講ずるべきかについては、最高裁判決以降の類似の裁判例の集積によって、具体的に明らかになっていくと考えられていたところ、本件訴訟の判決は、ハラスメントなどによって被害を受けたことを訴える通報ではない場合、信義則上の調査義務等がないという判断を示しました。
 
 
 </blockquote>
