@@ -214,11 +214,18 @@
 
 ## ８　引用や用語について
 ---
-<p class="base">
-本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。主張書面について「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。
-<p class="base" style="margin-top: 1.6em;">
-その他、裁判に関連する文書から一部を引用している場合は、「原文ママ」と明記しておりますが、事実をより正確に把握をしたい場合は、引用元をご参照いただくことをお勧めいたします。
-<p class="base" style="margin-top: 1.6em;">
+
+<p class="base" style="margin-bottom: 1.6em;">
+本ウェブサイトでは、以下のような Quote 枠内 <a href="https://jupyterbook.org/en/stable/reference/cheatsheet.html#quote"><i class="fa-solid fa-up-right-from-square"></i></a> に判決文や法令など、裁判に関連する文書を記載しております。
+<div class="base">
+
+> <p class="q">Quote 枠内は、判決文や法令など、裁判に関連する文書を記載しています。
+
+</div>
+
+<p class="base" style="margin-top: 1.6em; margin-bottom: 1.6em;">
+その他、裁判に関連する文書から一部を引用している場合は、「原文ママ」と明記しておりますが、事実をより正確に把握をしたい場合は、Quote 枠内に記載している文書や引用元をご参照いただくことをお勧めいたします。
+<p class="base" style="margin-bottom: 1.6em;">
 本ウェブサイトに用いている用語の意味は、別段の定義のない限り、判決文や主張書面などの裁判書類において定義しているものと同様です。
 
 ## ９　ウェブサイトの記載について
