@@ -2579,7 +2579,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の令和６年」以下について、<span class="u_r">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_314">下記<u> ⑷ </u></a>以下のとおり、原告の主張の要旨としては不正確であるため、否認する。
+<p class="c_mini">　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_314"><u>下記 ⑷ </u></a>以下のとおり、原告の主張の要旨としては不正確であるため、否認する。
 ```
 
 `````
@@ -2607,7 +2607,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「➂　被告は、本件通報を」以下について、<span class="u_r">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　原告が行った本件規程１．２ ⑸ に定める通報は、本件通報、追加通報、調査補助者に対する追加通報であり、本件通報だけではないため否認する。本件訴訟における原告の主張の要旨は、上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212"><u>第２の１ ⑵ </u></a>第２段落のとおりである。
+<p class="c_mini">　原告が行った本件規程１．２ ⑸ に定める通報は、本件通報、追加通報、調査補助者に対する追加通報であり、本件通報だけではないため否認する。本件訴訟における原告の主張の要旨は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212"><u>上記第２の１ ⑵ </u></a>第２段落のとおりである。
 ```
 
 `````
@@ -2624,7 +2624,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「しかし、一般に」以下について、<span class="u_r">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　これに対する原告の主張は、上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_221"><u>第２の２ ⑴ </u></a>のとおりである。
+<p class="c_mini">　これに対する原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_221"><u>上記第２の２ ⑴ </u></a>のとおりである。
 ```
 
 `````
@@ -2647,7 +2647,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「そこで、本件訴訟における」以下について、<span class="u_r">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　これに対する否認の理由は、上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211"><u>第２の１ ⑴ </u></a>のとおりである。
+<p class="c_mini">　これに対する否認の理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211"><u>上記第２の１ ⑴ </u></a>のとおりである。
 ```
 
 `````
@@ -2662,7 +2662,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告が被告の本件内部通報制度の通報窓口に対して行った本件通報を含む２件の内部通報について、被告の対応が本件規程の規定に違反しているために信義則上の義務に違反したとして」について、<span class="u_r">否認</span>する。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123"><u>第１の２ ⑶ </u></a>第２段落で述べたとおり、「本件通報を含む２件の内部通報について」について、「通報について対応」という表現は、紛らわしい表現又は不正確な表現である。また、前回訴訟第一審判決書第３の２ ⑴ ア （２３頁１９行目以下）は、原告の主張について、「原告が通報窓口担当者に伝えた内容は、特段の理由がない限り、全て通報情報であり、被告は、内部通報を行った従業員である原告に対し、通報情報に関する事実を確認するための調査を行う信義則上の義務を負うなどとした上で、」と記載しており、被告の主張は、正確とはいえないため否認する。
+<p class="c_mini">　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123"><u>上記第１の２ ⑶ </u></a>第２段落で述べたとおり、「本件通報を含む２件の内部通報について」について、「通報について対応」という表現は、紛らわしい表現又は不正確な表現である。また、前回訴訟第一審判決書第３の２ ⑴ ア （２３頁１９行目以下）は、原告の主張について、「原告が通報窓口担当者に伝えた内容は、特段の理由がない限り、全て通報情報であり、被告は、内部通報を行った従業員である原告に対し、通報情報に関する事実を確認するための調査を行う信義則上の義務を負うなどとした上で、」と記載しており、被告の主張は、正確とはいえないため否認する。
 ```
 
 `````
@@ -2680,7 +2680,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟控訴審判決が」以下について、<span class="u_r">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　これに対する原告の主張は、上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212"><u>第２の１ ⑵ </u></a>のとおりである。
+<p class="c_mini">　これに対する原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212"><u>上記第２の１ ⑵ </u></a>のとおりである。
 ```
 
 `````
@@ -2708,7 +2708,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「そして、原告は」以下について、「原告には、前回訴訟において」以下については、<span class="u_r">争う</span>。その余は認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　これに対する否認の理由及び原告の主張は、上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_213"><u>第２の１ ⑶ </u></a>ないし ⑸ のとおりである。
+<p class="c_mini">　これに対する否認の理由及び原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_213"><u>上記第２の１ ⑶ </u></a>ないし ⑸ のとおりである。
 ```
 
 `````
@@ -2752,7 +2752,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「よって」以下について、<span class="u_r">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
-<p class="c_mini">　これに対する原告の主張は、上記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_22"><u>第２の２</u></a>のとおりである。
+<p class="c_mini">　これに対する原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_22"><u>上記第２の２</u></a>のとおりである。
 ```
 
 `````
@@ -2892,7 +2892,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟の」以下については、<span style="color: #FF0000;"><b>争う</b></span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟の」以下については、<span class="u_r">争う</span>。
 `````
 <p class="k_idt1">前回訴訟の確定判決が正当に認定及び判断しているとおり、被告は、原告による本件通報及び追加通報のいずれについても、本件内部通報制度に基づいて極めて真摯かつ丁寧に対応しており（注２２）、当然のことながら本件規程にも何ら違反していない（注２３）。
 <p class="k_idt1">本件訴訟における原告の訴えが不適法であること及び原告の請求に理由がないことは、いずれも明白であるから、被告としては、貴庁において、速やかに弁論を終結し、速やかに訴え却下又は請求棄却の判決を下されるよう、強く要望するものである。
@@ -3289,7 +3289,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては<span class="u_r">否認</span>し、法律上の主張としては<span class="u_r">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
-<p class="c_mini">　理由は、前記<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35"><u>第３の５</u></a>に詳述したとおりである。
+<p class="c_mini">　理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35"><u>前記第３の５</u></a>に詳述したとおりである。
 ```
 
 `````
