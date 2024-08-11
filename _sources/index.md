@@ -19,49 +19,49 @@
 
 ## ２　法律のココが問題！
 ---
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em;">
 公益通報者保護法などの規定では、内部通報制度の活動で何をどのように調査するかは事業者の裁量に委ねられています。そして、不正があったか否かの結果を通報者に対して伝える際、その判断過程を伝える必要がありません。
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em;">
 これはどういうことかというと、<br>
 <span class="strong_or">意図的に事業者が不正行為が確認できない方法で調査をしていたとしても、通報者に調査結果を通知する際に、何を調査したのかを伝える必要はなく、「不正行為ではない」と伝えるだけでいい</span><br>
 のです。
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em;">
 現在の法律の下では、通報に対して適切に対応していないことを通報者に分からないように伏せることが容易に行えますので、内部通報制度に関する法律は課題があります。
 
 
 ## ３　裁判所の判断
 ---
-<p class="base">
+<p class="base" style="margin-top: 1.6em;">
 相手方が定めたコンプライアンスホットライン規程は、
-<p class="hg-idt1">
+<p class="hg-idt1" style="margin-top: 1.6em;">
 ➀　必要な調査を実施すること
 <p class="hg-idt1">
 ➁　調査を実施しない場合はその理由を通報者に通知すること
 <p class="hg-idt1">
 ➂　調査結果や対応策を通報者に通知すること
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em;">
 を規定しています。
 
-<p class="base">
+<p class="base" style="margin-top: 1.6em;">
 裁判所は、
 <p class="hg-idt1">
 ➀　ハラスメントなどによって被害を受けたことを訴える通報ではない場合は、信義則上の調査義務等がない
 <p class="hg-idt1">
 ➁　「事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえ」ない
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base">
 と判断したと思われます。
 
-<p class="base" style="margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em;">
 次の４と５で、もう少し詳しく説明しますが、内部通報を検討している人は、上記の裁判所の判断について留意する必要があります。
 
 
 ## ４　調査をする義務がない
 ---
 
-<p class="base">
+<p class="base" style="margin-top: 1.6em;">
 判決文の引用は、以下のとおりです。リンク <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#handan1"><i class="fa-solid fa-link"></i> </a>先に判決文全文を掲載しています。該当箇所は、リンク先のオレンジの部分です。
 
-<div class="base">
+<div class="base" style="margin-top: 1.6em;">
 <blockquote>
 
 <p class="q" style="margin-bottom: 1.6em; ">
@@ -104,10 +104,10 @@
 
 ## ５　通報する側の態様の問題
 ---
-<p class="base">
+<p class="base" style="margin-top: 1.6em; ">
 判決文の引用は、以下のとおりです。リンク <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#handan2"><i class="fa-solid fa-link"></i> </a>先に判決文全文を掲載しています。該当箇所は、リンク先のオレンジの部分です。
 
-<div class="base">
+<p class="base" style="margin-top: 1.6em; ">
 <blockquote>
 <p class="q" style="margin-bottom: 1.6em; ">
 <b>本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２ ⑹ ）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２ ⑸ 参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</b>
@@ -168,7 +168,7 @@
 
 ## ６　相手方が実行した措置
 ---
-<p class="base">
+<p class="base" style="margin-top: 1.6em; ">
 内部通報に関する発端は、海外企業に対する経費支払が契約に基づいていないのではといった些細なことでした。この経費支払について上司に報告したところ、その回答には原告を誤導する意図が感じられました。
 <p class="base" style="margin-top: 1.6em; ">
 経費支払の手続きを行っていたのは原告でしたので、後になってから、「確認を怠った」と叱責を受けるおそれを感じていました。そのため、原告は、上記の経費支払について相手方の内部通報制度に通報しました。
@@ -180,7 +180,7 @@
 
 ## ７　通報内容に関する事実と調査
 ---
-<p class="base">
+<p class="base" style="margin-top: 1.6em; ">
 通報内容に関する事実には、以下の事実がありました。
 <p class="hg-idt44">
 <b>事実Ａ</b>：原告による支払手続により、ある海外企業に対して付加価値税を支払い続けていた。
@@ -198,22 +198,22 @@
 <p class="hg-idt44">
 <b>事実Ｃ</b>：海外子会社が相手方に送金した行為が、不正な送金である疑いがあること。
 
-<p class="base" style="margin-top: 1.6em; margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em; ">
 内部通報制度の調査報告は、 以下のとおりでした。
-<div class="base">
+<div class="base" style="margin-top: 1.6em; ">
 <blockquote>
 <p class="q">
 一般に、ＧＳＴの還付は納税者の「権利」であり、「義務」ではない。したがって、ＧＳＴの還付をするか否かは任意であり、還付を受けないままであったとしても、不正行為等にはあたらない。
 ※※事業部 は、通報者による問題提起に対して、豪州のＧＳＴ還付制度を利用して還付を受けられるすべての金額について、２０１７年９月までに還付を受け対応を完了している。（伏字以外書証原文ママ）
 </blockquote>
 </div>
-<p class="base" style="margin-top: 1.6em; margin-bottom: 1.6em;">
+<p class="base" style="margin-top: 1.6em; ">
 相手方は、支払に関する契約内容や会計帳簿の確認については触れずに、上記の調査結果を通知しました。このような調査では、不正の存在を把握することに影響しないことは明らかです。意図的に的外れな調査の結果を通知したのであれば、相手方の行為は悪質です。
 
 
 ## ８　引用や用語について
 ---
-<p class="base">
+<p class="base" style="margin-top: 1.6em; ">
 本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。主張書面について「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。
 <p class="base" style="margin-top: 1.6em;">
 その他、裁判に関連する文書から一部を引用している場合は、「原文ママ」と明記しておりますが、事実をより正確に把握をしたい場合は、引用元をご参照いただくことをお勧めいたします。
@@ -222,10 +222,10 @@
 
 ## ９　ウェブサイトの記載について
 ---
-<p class="base" style="margin-bottom: 1.6em;">
-Quote枠内以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。もし私の解釈に誤りがあると感じられる場合は、GitHub issues や X-Twitter でご指摘いただければ幸いです。
+<p class="base" style="margin-top: 1.6em; ">
+引用以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。もし私の解釈に誤りがあると感じられる場合は、GitHub issues や X-Twitter でご指摘いただければ幸いです。
 
-<div class="base">
+<div class="base" style="margin-top: 1.6em; ">
 
 <i class="fa-brands fa-github"></i> GitHub issues [<i class="fa-solid fa-up-right-from-square"></i>](https://github.com/minnanosaiban/hotline/issues)
 
