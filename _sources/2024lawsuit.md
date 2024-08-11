@@ -11,4 +11,14 @@
 <p class="base" style="margin-bottom: 1.6em;">
 ＥＮＥＯＳ行動基準は、<span class="strong_or">「私たちは、業務上必要なすべての記録および報告を、事実に基づき、正確に、遺漏なく、かつ適時に作成します。」</span>と定めています。
 
+
+## ２　規程について
+---
+
+<p class="base" style="margin-bottom: 1.6em;">
+ＥＮＥＯＳ行動基準 <a href="https://www.hd.eneos.co.jp/company/conduct.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+<p class="base" style="margin-bottom: 1.6em;">
+ＥＮＥＯＳ行動基準
+
 ## 
