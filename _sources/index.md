@@ -64,7 +64,7 @@
 <div class="base" style="margin-top: 1.6em;">
 <blockquote>
 
-<p class="q" style="margin-bottom: 1.6em; ">
+<p class="q" style="margin-bottom: 1.6em;">
 <b>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記 ② (c) の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。</b>
 
 ```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　判決文の言葉の使い方についてちょっとした疑問があります</span>
@@ -72,12 +72,12 @@
 <p class="q">
 <b>「適切に対応すべき信義則上の義務」と「信義則上の調査義務等」は同じことなのかどうか？</b>
 
-<p class="q" style="margin-top: 1.6em; ">
+<p class="q" style="margin-top: 1.6em;">
 <b><a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden">イビデン事件最高裁判決</a>の引用</b>
 <p class="q">
 　「これらのことに照らすと，本件グループ会社の事業場内で就労した際に，法令等違反行為によって被害を受けた従業員等が，本件相談窓口に対しその旨の相談の申出をすれば，上告人は，相応の対応をするよう努めることが想定されていたものといえ，上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じ<span class="u_or">適切に対応すべき信義則上の義務</span>を負う場合があると解される。」
 
-<p class="q" style="margin-top: 1.6em; ">
+<p class="q" style="margin-top: 1.6em;">
 <b><a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#handan1">本件訴訟判決</a>の引用</b>
 <p class="q">
 　「不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記 ② (c) の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に<span class="u_or">信義則上の調査義務等</span>を負っていたということはできない</b>。」
@@ -91,7 +91,7 @@
 </blockquote>
 </div>
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 判決文で引用している最高裁判決「イビデン事件」は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。<br>
 参考：イビデン事件最高裁判決  <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、リンク <a href="https://minnanosaiban.github.io/hotline/precedent.html#ibiden"><i class="fa-solid fa-link"></i></a> 先に記載しています。
 
@@ -104,22 +104,22 @@
 
 ## ５　通報する側の態様の問題
 ---
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 判決文の引用は、以下のとおりです。リンク <a href="https://minnanosaiban.github.io/hotline/2021Judgment.html#handan2"><i class="fa-solid fa-link"></i> </a>先に判決文全文を掲載しています。該当箇所は、リンク先のオレンジの部分です。
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 <blockquote>
-<p class="q" style="margin-bottom: 1.6em; ">
+<p class="q" style="margin-bottom: 1.6em;">
 <b>本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２ ⑹ ）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２ ⑸ 参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</b>
 
 ```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　消費者庁が公表した指針 <a href="https://minnanosaiban.github.io/hotline/law.html#kaisetsu"><i class="fa-solid fa-link"></i></a> からすると、裁判所の解釈は誤っているように思います</span>
 
-<p class="q" style="margin-top: 1.6em; ">
+<p class="q" style="margin-top: 1.6em;">
 <b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（５頁）</b>
 <p class="q">
 ５　内部公益通報を「受け付ける」とは、内部公益通報受付窓口のものとして表示された連絡先（電話番号、メールアドレス等）に直接内部公益通報がされた場合だけではなく、例えば、公益通報対応業務に従事する担当者個人のメールアドレス宛てに内部公益通報があった場合等、実質的に同窓口において内部公益通報を受け付けたといえる場合を含む。
 
-<p class="q" style="margin-top: 1.6em; ">
+<p class="q" style="margin-top: 1.6em;">
 <b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（９頁）</b>
 <p class="q">
 ①　指針本文
@@ -150,15 +150,15 @@
 </blockquote>
 </div>
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 原告は、経費支払に関する上司の説明に嘘があると感じてはいたものの、通報の際は、上司個人の問題とならないように配慮して通報しました。また、通報者が具体的な法令違反や不適切であるか否かの評価をする権限がないと考えており、原告は、通報の当初は、原告が知り得た事実や上司から伝えられた内容を告げるにとどめていました。
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 このような通報の態様について、<br>
 裁判所は、<span class="strong_or">「事実経過の説明として記載されたにすぎない事項」</span>と判断したのかもしれません。
 
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 原告は、通報フォームで通報した後、調査補助者とのやり取りのなかで、経費支払にかかる契約内容に関する疑問を告げていました。原告が通報した後、相手方の海外子会社が相手方に送金しており、さらに不正を重ねた疑いがあります。この疑いに関しても、原告は、調査補助者に対し、会計帳簿を確認する必要があることを告げていました。
 
 <p class="base" style="margin-top: 1.6em;">
@@ -168,19 +168,19 @@
 
 ## ６　相手方が実行した措置
 ---
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 内部通報に関する発端は、海外企業に対する経費支払が契約に基づいていないのではといった些細なことでした。この経費支払について上司に報告したところ、その回答には原告を誤導する意図が感じられました。
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 経費支払の手続きを行っていたのは原告でしたので、後になってから、「確認を怠った」と叱責を受けるおそれを感じていました。そのため、原告は、上記の経費支払について相手方の内部通報制度に通報しました。
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 内部通報を受けた相手方が行った措置は、原告を通報の内容に関係する情報から遮断したうえ、相手方の海外子会社が相手方に送金をして不適切会計の存在を有耶無耶にしてしまうことでした。
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 通報を受けて海外子会社が不明瞭な金銭の送金しているので、さらに不適切会計を重ねた疑いがあります。この送金についても通報したものの、相手方は、海外子会社の会計帳簿を確認をする調査を行っていません。
 
 
 ## ７　通報内容に関する事実と調査
 ---
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 通報内容に関する事実には、以下の事実がありました。
 <p class="hg-idt44">
 <b>事実Ａ</b>：原告による支払手続により、ある海外企業に対して付加価値税を支払い続けていた。
@@ -189,7 +189,7 @@
 <p class="hg-idt44">
 <b>事実Ｃ</b>：相手方の海外子会社が、相手方が当該海外企業に支払った付加価値税の金額を相手方に送金した。
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 そして、各事実には、以下の問題点があります。
 <p class="hg-idt44">
 <b>事実Ａ</b>：ある海外企業に対する付加価値税の支払が、契約内容に基づいていない疑いがあること。
@@ -198,22 +198,22 @@
 <p class="hg-idt44">
 <b>事実Ｃ</b>：海外子会社が相手方に送金した行為が、不正な送金である疑いがあること。
 
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 内部通報制度の調査報告は、 以下のとおりでした。
-<div class="base" style="margin-top: 1.6em; ">
+<div class="base" style="margin-top: 1.6em;">
 <blockquote>
 <p class="q">
 一般に、ＧＳＴの還付は納税者の「権利」であり、「義務」ではない。したがって、ＧＳＴの還付をするか否かは任意であり、還付を受けないままであったとしても、不正行為等にはあたらない。
 ※※事業部 は、通報者による問題提起に対して、豪州のＧＳＴ還付制度を利用して還付を受けられるすべての金額について、２０１７年９月までに還付を受け対応を完了している。（伏字以外書証原文ママ）
 </blockquote>
 </div>
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 相手方は、支払に関する契約内容や会計帳簿の確認については触れずに、上記の調査結果を通知しました。このような調査では、不正の存在を把握することに影響しないことは明らかです。意図的に的外れな調査の結果を通知したのであれば、相手方の行為は悪質です。
 
 
 ## ８　引用や用語について
 ---
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。主張書面について「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。
 <p class="base" style="margin-top: 1.6em;">
 その他、裁判に関連する文書から一部を引用している場合は、「原文ママ」と明記しておりますが、事実をより正確に把握をしたい場合は、引用元をご参照いただくことをお勧めいたします。
@@ -222,10 +222,10 @@
 
 ## ９　ウェブサイトの記載について
 ---
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base" style="margin-top: 1.6em;">
 引用以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。もし私の解釈に誤りがあると感じられる場合は、GitHub issues や X-Twitter でご指摘いただければ幸いです。
 
-<div class="base" style="margin-top: 1.6em; ">
+<div class="base" style="margin-top: 1.6em;">
 
 <i class="fa-brands fa-github"></i> GitHub issues [<i class="fa-solid fa-up-right-from-square"></i>](https://github.com/minnanosaiban/hotline/issues)
 
