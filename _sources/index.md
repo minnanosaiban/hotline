@@ -33,13 +33,13 @@
 ---
 <p class="base" style="margin-top: 1.6em;">
 相手方が定めたコンプライアンスホットライン規程は、
-<p class="hg-idt1" style="margin-top: 1.6em;">
+<p class="hg-idt1">
 ➀　必要な調査を実施すること
 <p class="hg-idt1">
 ➁　調査を実施しない場合はその理由を通報者に通知すること
 <p class="hg-idt1">
 ➂　調査結果や対応策を通報者に通知すること
-<p class="base" style="margin-top: 1.6em;">
+<p class="base">
 を規定しています。
 
 <p class="base" style="margin-top: 1.6em;">
@@ -112,7 +112,7 @@
 <p class="q" style="margin-bottom: 1.6em;">
 <b>本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２ ⑹ ）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２ ⑸ 参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</b>
 
-```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　消費者庁が公表した指針 <a href="https://minnanosaiban.github.io/hotline/law.html#kaisetsu"><i class="fa-solid fa-link"></i></a> からすると、裁判所の解釈は誤っているように思います</span>
+```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　消費者庁の指針 <a href="https://minnanosaiban.github.io/hotline/law.html#kaisetsu"><i class="fa-solid fa-link"></i></a> からすると、裁判所の解釈は誤ってるかも？</span>
 
 <p class="q" style="margin-top: 1.6em;">
 <b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（５頁）</b>
