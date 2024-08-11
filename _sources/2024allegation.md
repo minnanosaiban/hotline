@@ -47,7 +47,7 @@
 
 </div>
 
-<p class="k" style="margin-top: 1.4em;"><a name="sojou">原告第３準備書面
+<p class="k" style="margin-top: 1.4em;">原告第３準備書面
 <p class="k">令和６年８月９日
 <p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
 <p class="k"><b>目次</b>
@@ -161,7 +161,7 @@
 
 ## 被告準備書面（３）
 ---
-<p class="k" style="margin-top: 1.4em;"><a name="sojou">
+<p class="k" style="margin-top: 1.4em;">
 被告準備書面（３）
 <p class="k">
 令和６年７月２５日
@@ -744,7 +744,7 @@
 
 </div>
 
-<p class="k" style="margin-top: 1.4em;"><a name="sojou">原告第２準備書面
+<p class="k" style="margin-top: 1.4em;">原告第２準備書面
 <p class="k">令和６年７月１９日
 <p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
 <p class="k"><b>目次</b>
@@ -1248,7 +1248,7 @@
 
 ## 被告準備書面（２）
 ---
-<p class="k" style="margin-top: 1.4em;"><a name="sojou"></a>被告準備書面（２）
+<p class="k" style="margin-top: 1.4em;">被告準備書面（２）
 <p class="k">令和６年５月２３日
 <p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
 <p class="k"><b>目次</b>
@@ -1563,7 +1563,7 @@
 
 </div>
 
-<p class="k" style="margin-top: 1.4em;"><a name="sojou">原告第１準備書面
+<p class="k" style="margin-top: 1.4em;">原告第１準備書面
 <p class="k">令和６年５月１７日
 <p class="k" style="margin-bottom: 1.4em;">東京簡易裁判所民事第５室６係Ｂ　御中
 <p class="k"><b>目次</b>
@@ -2559,7 +2559,7 @@
 
 </div>
 
-<p class="k" style="margin-top: 1.4em;">訴状
+<p class="k" style="margin-top: 1.4em;"><a name="sojou"></a>訴状
 <p class="k">令和６年２月１９日
 <p class="k">東京簡易裁判所　御中
 <p class="k"><b>目次</b>
@@ -2567,7 +2567,7 @@
 <p class="k"><a name="sojou_1"></a><b>第１　請求の趣旨</b>
 <p class="k_idt1">被告は、原告に対し、金１円の金員を支払え。
 
-<p class="k"><a name="sojou_1"></a><b>第２　請求の原因</b>
+<p class="k"><a name="sojou_2"></a><b>第２　請求の原因</b>
 
 
 <p class="k_hg-idt2"><a name="sojou_21"></a><b>１　用語の意味</b>
