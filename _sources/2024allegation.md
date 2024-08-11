@@ -1809,7 +1809,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「「コンプライアンス」以下については、被告が「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知したつもりであったのであれば、被告がその通知をしたつもりであったことを認める。。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「「コンプライアンス」以下については、被告が「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知したつもりであったのであれば、被告がその通知をしたつもりであったことを認める。
 `````
 <p class="k_idt4">「コンプライアンス違反ではない」又は「いずれも不正行為等に該当しない」との調査結果を報告することは、まさしく「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知するものにほかならない。
 <p class="k_hg-idt4"><b>オ　第５段落（「取引上の社会通念に照らすと」以下）（２１頁）について</b>
@@ -1985,7 +1985,7 @@
 |<p style="font-size: 12px;"><b>カ</b>|<p style="font-size: 12px;">平成29年4月|<p style="font-size: 12px;">「何かしらの措置」|<p style="font-size: 12px;">甲２１|
 |<p style="font-size: 12px;"><b>キ</b>|<p style="font-size: 12px;">平成29年7月31日|<p style="font-size: 12px; white-space: nowrap;">「金銭の流れが一部不明瞭<br>な送金」|<p style="font-size: 12px;">甲２７|
 |<p style="font-size: 12px;"><b>ク</b>|<p style="font-size: 12px;">平成29年8月14日|<p style="font-size: 12px;">「本件調査報告１」|<p style="font-size: 12px;">乙１１|
-|<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">平成30年9月13日|<p style="font-size: 12px;">「本件契約の措置|<p style="font-size: 12px;">甲２１|
+|<p style="font-size: 12px;"><b>ケ</b>|<p style="font-size: 12px;">平成30年9月13日|<p style="font-size: 12px;">「本件契約の措置」|<p style="font-size: 12px;">甲２１|
 |<p style="font-size: 12px;"><b>コ</b>|<p style="font-size: 12px; white-space: nowrap;">平成30年11月27日～<br>令和2年1月24日|<p style="font-size: 12px; white-space: nowrap;">「追加通報」及び「調査補<br>助者に対する追加通報」|<p style="font-size: 12px; white-space: nowrap;">甲２２、２３、２５及び乙<br>９|
 |<p style="font-size: 12px;"><b>サ</b>|<p style="font-size: 12px;">令和元年10月25日|<p style="font-size: 12px;">「本件調査報告２」|<p style="font-size: 12px;">乙１２|
 |<p style="font-size: 12px;"><b>シ</b>|<p style="font-size: 12px;">令和2年3月27日|<p style="font-size: 12px;">「社内ＳＮＳ投稿」|<p style="font-size: 12px;">甲２６|
@@ -2119,15 +2119,15 @@
 ```{card}
 
 <p class="q_hg-idt1" style="font-size: 12px;">１　質問：契約書の記載内容Ａ契約
-<p class="q_idt2" style="font-size: 12px;">回答：
-<p class="q_idt3" style="font-size: 12px;">締結日：２０１５年１月<u>１９日</u>
-<p class="q_idt3" style="font-size: 12px;"><u>有効期間：２０１４年４月１日から２０１６年３月３１日（２年間）。以降いずれか一方当事者からの９０日前予告がない限り自動延長。</u>
-<p class="q_idt3" style="font-size: 12px;">ＧＳＴ等に関する表示：記載なし
+<p class="q_pad2" style="font-size: 12px;">回答：
+<p class="q_pad3" style="font-size: 12px;">締結日：２０１５年１月<u>１９日</u>
+<p class="q_pad3" style="font-size: 12px;"><u>有効期間：２０１４年４月１日から２０１６年３月３１日（２年間）。以降いずれか一方当事者からの９０日前予告がない限り自動延長。</u>
+<p class="q_pad3" style="font-size: 12px;">ＧＳＴ等に関する表示：記載なし
 <p class="q_hg-idt1" style="font-size: 12px;">２　質問：契約書の記載内容Ｂ契約
-<p class="q_idt2" style="font-size: 12px;">回答：
-<p class="q_idt3" style="font-size: 12px;">締結日：２０１８年<u>９月１３日</u>
-<p class="q_idt3" style="font-size: 12px;">有効期間：<u>いずれか一方の当事者から解約の意思表示がない限りは無期限</u>
-<p class="q_idt3" style="font-size: 12px;">ＧＳＴ等に関する表示：豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。<u>なお、 本件豪州企業  がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する。</u>
+<p class="q_pad2" style="font-size: 12px;">回答：
+<p class="q_pad3" style="font-size: 12px;">締結日：２０１８年<u>９月１３日</u>
+<p class="q_pad3" style="font-size: 12px;">有効期間：<u>いずれか一方の当事者から解約の意思表示がない限りは無期限</u>
+<p class="q_pad3" style="font-size: 12px;">ＧＳＴ等に関する表示：豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。<u>なお、 本件豪州企業  がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する。</u>
 
 ```
 
