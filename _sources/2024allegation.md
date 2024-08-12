@@ -83,16 +83,16 @@
 <p class="k_hg-idt4">
 オ　第１の１ ⑶ オ（「また」以下）（５頁以下）について
 <p class="k_idt4">
-「追加通報に係る調査の結果」のみでは「判然としない」という限度で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113o"><u>認める</u>。
+「追加通報に係る調査の結果」のみでは「判然としない」という限度で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113o"><u>認める</u></a>。
 <p class="k_hg-idt4">
 カ　第１の１ ⑶ カ（「事実Ｃに関して」以下）（６頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ka"><u>認める</u>。
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ka"><u>認める</u></a>。
 <p class="k_hg-idt4">
 キ　第１の１ ⑶ キ（「しかしながら」以下）（６頁）について
 <p class="k_idt4">
 一般論である限りにおいて、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ki"><u>認める</u>。
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ki"><u>認める</u></a>。
 <p class="k_hg-idt4">
 ク　第１の１ ⑶ ク（「そのため」以下）（６頁）について
 <p class="k_idt4">
