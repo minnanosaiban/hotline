@@ -94,21 +94,20 @@ a {
   text-decoration: none; /* 下線なし */
 }
 a:hover {
-  color: #007bff; /* ホバー時の文字色 */
-  text-decoration: underline; /* ホバー時の下線 */
-  text-decoration-color: #007bff; /* ホバー時の下線色 */
+  color: #6f42c1; /* ホバー時の文字色 */
+  text-decoration: none; /* ホバー時の下線 */
+  text-decoration-color: #6f42c1; /* ホバー時の下線色 */
+  font-weight: bold;
 }
 a:visited {
   color: inherit; /* 親要素から色を継承 */
   text-decoration: none; /* 下線なし */
 }
 a:visited:hover {
-  color: #007bff; /* ホバー時の文字色 */
-  text-decoration: underline; /* ホバー時の下線 */
-  text-decoration-color: #007bff; /* ホバー時の下線色 */
-}
-.bd-sidebar .nav-item a {
-  color: inherit;  /* テキストの色を継承 */
+  color: #6f42c1; /* ホバー時の文字色 */
+  text-decoration: none; /* ホバー時の下線 */
+  text-decoration-color: #6f42c1; /* ホバー時の下線色 */
+  font-weight: bold;
 }
 sub {
   color:#f37726;
