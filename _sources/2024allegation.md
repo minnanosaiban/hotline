@@ -31,19 +31,19 @@
 <p class="k_hg-idt4">
 ア　第１の１ ⑴ ア（「被告は」以下）（２頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_111a"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 イ　第１の１ ⑴ イ（「要するに」以下）（２頁以下）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_111i"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 ウ　第１の１ ⑴ ウ（「しかしながら」以下）（３頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_111u"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 エ　第１の１ ⑴ エ（「したがって」以下）（３頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_111ie"><u>争う</u></a>。
+争う。
 <p class="k_idt4">
 <span class="imp">仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。</span>
 <p class="k_hg-idt3">
@@ -51,72 +51,71 @@
 <p class="k_hg-idt4">
 ア　第１の１ ⑵ ア（「被告は、被告の」以下）（３頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_112a"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 イ　第１の１ ⑵ イ（被告は、行動基準」以下）（３頁以下）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_112i"><u>争う</u></a>。
+争う。
 <p class="k_idt4">
 <span class="imp">仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。</span>
 <p class="k_hg-idt4">
 ウ　第１の１ ⑵ ウ（被告は、被告の」以下）（４頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_112u"><u>争う</u></a>。
+争う。
 <p class="k_hg-idt3">
 <b>⑶　第１の１ ⑶ （被告の・・・正当とはいえないこと）（４頁以下）について</b>
 <p class="k_hg-idt4">
 ア　第１の１ ⑶ ア（「被告は、本件通報」以下）（４頁以下）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113a"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 イ　第１の１ ⑶ イ（「事実Ａに関して」以下）（５頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113i"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 ウ　第１の１ ⑶ ウ（「しかしながら」以下）（５頁）について
 <p class="k_idt4">
-事実上の主張としては<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113u"><u>否認</u></a>し、法律上の主張としては<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113u"><u>争う</u></a>。
+事実上の主張としては否認し、法律上の主張としては争う。
 <p class="k_hg-idt4">
 エ　第１の１ ⑶ エ（「事実Ｂに関して」以下）（５頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113e"><u>否認</u></a>する。
+否認する。
 <p class="k_hg-idt4">
 オ　第１の１ ⑶ オ（「また」以下）（５頁以下）について
 <p class="k_idt4">
-「追加通報に係る調査の結果」のみでは「判然としない」という限度で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113o"><u>認める</u></a>。
+「追加通報に係る調査の結果」のみでは「判然としない」という限度で、認める。
 <p class="k_hg-idt4">
 カ　第１の１ ⑶ カ（「事実Ｃに関して」以下）（６頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ka"><u>認める</u></a>。
+認める。
 <p class="k_hg-idt4">
 キ　第１の１ ⑶ キ（「しかしながら」以下）（６頁）について
 <p class="k_idt4">
-一般論である限りにおいて、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ki"><u>認める</u></a>。
+一般論である限りにおいて、認める。
 <p class="k_hg-idt4">
 ク　第１の１ ⑶ ク（「そのため」以下）（６頁）について
 <p class="k_idt4">
-事実上の主張としては<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ku"><u>否認</u></a>し、法律上の主張としては<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ku"><u>争う</u></a>。
+事実上の主張としては否認し、法律上の主張としては争う。
 <p class="k_hg-idt4">
 ケ　第１の１ ⑶ ケ（「このように」以下）（６頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ke"><u>争う</u></a>。
+争う。
 <p class="k_hg-idt4">
 コ　第１の１ ⑶ コ（「以上のとおり」以下）（６頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113ko"><u>争う</u></a>。
+争う。
 <p class="k_hg-idt4">
 サ　第１の１ ⑶ サ（「よって」以下）（７頁）について
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_113sa"><u>争う</u></a>。
+争う。
 <p class="k_hg-idt3">
 <b>⑷　第１の１ ⑷ （まとめ）（７頁）について</b>
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_114"><u>争う</u></a>。
+争う。
 <p class="k_hg-idt3">
 <b>第１の２（被告の認否について）（７頁以下）について</b>
 <p class="k_idt4">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_12"><u>争う</u></a>。
+争う。
 <p class="k_hg-idt1">
 <b>第３　訂正後の原告第１準備書面・原告第２準備書面に対する認否</b>
 <p class="k_idt1">
@@ -126,13 +125,12 @@
 <b>第４　文書送付嘱託申立てについて</b>
 <p class="k_idt1">
 原告は、原告第２準備書面「はじめに」第３段落（３頁）において、甲第２７号証以降の書証については、原告の主張に対する適切な認否が行われた後に文書送付嘱託を申し立てると述べ（原告訂正申立書２ ⑴ （２頁）、原告第３準備書面第１の２柱書第５段落（「引き続き」以下）（８頁）において、被告が準備書面において否認の理由を記載しない場合は、裁判所に対して文書送付嘱託を申し立てると述べている。
+<p class="k_idt1">
 <span class="imp">
-<p class="k_idt1">
-しかし、文書の送付を嘱託するためには、その文書につき証拠調べをする必要性があることを要するところ（民事訴訟法第１８１条第１項）、原告が原告第３準備書面第１の２以下において「明らかにすべき」と主張している「否認」又は「争う」の理由は、その理由の如何によって、本件訴訟の争点あるいは原告の主張に理由があるか否かの認定に影響を及ぼすものでない。
-<p class="k_idt1">
-よって、原告がいかなる文書について文書送付嘱託を申し立てるかにかかわらず、証拠調べをする必要性がない。
-<p class="k_idt1">
-したがって、仮に原告が文書送付嘱託を申し立てたとしても、当該申立ては直ちに却下されるべきである。</span>
+しかし、文書の送付を嘱託するためには、その文書につき証拠調べをする必要性があることを要するところ（民事訴訟法第１８１条第１項）、原告が原告第３準備書面第１の２以下において「明らかにすべき」と主張している「否認」又は「争う」の理由は、その理由の如何によって、本件訴訟の争点あるいは原告の主張に理由があるか否かの認定に影響を及ぼすものでない。<br>
+　よって、原告がいかなる文書について文書送付嘱託を申し立てるかにかかわらず、証拠調べをする必要性がない。<br>
+　したがって、仮に原告が文書送付嘱託を申し立てたとしても、当該申立ては直ちに却下されるべきである。
+</span>
 <p class="k_hg-idt1">
 以上
 
