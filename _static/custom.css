@@ -108,9 +108,9 @@ a:visited:hover {
   border-bottom: 1px solid #FF0000;
 }
 .imp:hover {
-  color: #6d13fc; /* ホバー時の文字色 */
+  color: #6d13fc; 
   font-weight: bold;
-  text-decoration: none; /* 下線なし */
+  text-decoration: none; 
 }
 sub {
   color:#f37726;
