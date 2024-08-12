@@ -109,7 +109,6 @@ a:visited:hover {
 }
 .highlight:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  text-decoration: none; /* 下線なし */
   font-weight: bold;
 }
 sub {
