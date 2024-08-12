@@ -105,7 +105,6 @@ a:visited:hover {
   text-decoration-color: #6d13fc; /* ホバー時の下線色 */
 }
 .highlight {
-  color: inherit; /* 親要素から色を継承 */
   border-bottom: 1px solid #FF0000;
 }
 .highlight:hover {
@@ -1107,7 +1106,6 @@ p {
     text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
   }
   .highlight {
-    color: inherit; /* 親要素から色を継承 */
     text-decoration: none; /* 下線なし */
   }
   .highlight:hover {
