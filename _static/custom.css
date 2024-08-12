@@ -77,9 +77,6 @@ hr {
   font-weight:bold;
   color:#f37726;
 }
-.u_r {
-  border-bottom: 1px solid #FF0000;
-}
 .u_rd {
   border-bottom: 2px solid #FF0000;
 }
@@ -95,9 +92,8 @@ a {
 }
 a:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  text-decoration: none; /* ホバー時の下線 */
+  text-decoration: underline; /* ホバー時の下線 */
   text-decoration-color: #6d13fc; /* ホバー時の下線色 */
-  font-weight: bold;
 }
 a:visited {
   color: inherit; /* 親要素から色を継承 */
@@ -105,8 +101,16 @@ a:visited {
 }
 a:visited:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  text-decoration: none; /* ホバー時の下線 */
+  text-decoration: underline; /* ホバー時の下線 */
   text-decoration-color: #6d13fc; /* ホバー時の下線色 */
+}
+.highlight {
+  color: inherit; /* 親要素から色を継承 */
+  border-bottom: 1px solid #FF0000;
+}
+.highlight:hover {
+  color: #6d13fc; /* ホバー時の文字色 */
+  text-decoration: none; /* 下線なし */
   font-weight: bold;
 }
 sub {
@@ -1090,18 +1094,25 @@ p {
     margin: 0;
   }
   }
-  
-  @media (prefers-color-scheme: dark) {
-    a:hover {
-      color: #9c5ffd; /* ホバー時の文字色 */
-      text-decoration: none; /* ホバー時の下線 */
-      text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
-      font-weight: bold;
-    }
-    a:visited:hover {
-      color: #9c5ffd; /* ホバー時の文字色 */
-      text-decoration: none; /* ホバー時の下線 */
-      text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
-      font-weight: bold;
-    }
+
+@media (prefers-color-scheme: dark) {
+  a:hover {
+    color: #9c5ffd; /* ホバー時の文字色 */
+    text-decoration: underline; /* ホバー時の下線 */
+    text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
   }
+  a:visited:hover {
+    color: #9c5ffd; /* ホバー時の文字色 */
+    text-decoration: underline; /* ホバー時の下線 */
+    text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
+  }
+  .highlight {
+    color: inherit; /* 親要素から色を継承 */
+    text-decoration: none; /* 下線なし */
+  }
+  .highlight:hover {
+    color: #9c5ffd; /* ホバー時の文字色 */
+    text-decoration: none; /* 下線なし */
+    font-weight: bold;
+  }
+}
