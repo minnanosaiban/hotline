@@ -105,10 +105,10 @@ a:visited:hover {
   text-decoration-color: #6d13fc; /* ホバー時の下線色 */
 }
 .imp {
-  border-bottom: 1px solid #FF0000;
+  border-bottom: 0.5px solid #FF0000;
 }
 .imp:hover {
-  color: #e57373; 
+  color: #c0392b; 
   font-weight: bold;
   border-bottom: 1px solid #00000000;
 }
@@ -1094,23 +1094,3 @@ p {
   }
   }
 
-@media (prefers-color-scheme: dark) {
-  a:hover {
-    color: #9c5ffd; /* ホバー時の文字色 */
-    text-decoration: underline; /* ホバー時の下線 */
-    text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
-  }
-  a:visited:hover {
-    color: #9c5ffd; /* ホバー時の文字色 */
-    text-decoration: underline; /* ホバー時の下線 */
-    text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
-  }
-  .imp {
-    border-bottom: 1px solid #FF0000;
-  }
-  .imp:hover {
-    color: #9c5ffd; /* ホバー時の文字色 */
-    font-weight: bold;
-    text-decoration: none; /* 下線なし */
-  }
-}
