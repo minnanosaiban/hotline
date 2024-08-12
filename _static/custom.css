@@ -92,7 +92,7 @@ a {
 }
 a:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  border-bottom: 0.2px solid #6d13fc;
+  text-decoration: none; /* 下線なし */
 }
 a:visited {
   color: inherit; /* 親要素から色を継承 */
@@ -100,7 +100,7 @@ a:visited {
 }
 a:visited:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  border-bottom: 0.2px solid #6d13fc;
+  text-decoration: none; /* 下線なし */
 }
 .imp {
   border-bottom: 0.2px solid #FF0000;
