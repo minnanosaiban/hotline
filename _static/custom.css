@@ -110,6 +110,7 @@ a:visited:hover {
 .imp:hover {
   color: #6d13fc; /* ホバー時の文字色 */
   font-weight: bold;
+  text-decoration: none; /* 下線なし */
 }
 sub {
   color:#f37726;
@@ -1105,11 +1106,11 @@ p {
     text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
   }
   .imp {
-    text-decoration: none; /* 下線なし */
+    border-bottom: 1px solid #FF0000;
   }
   .imp:hover {
     color: #9c5ffd; /* ホバー時の文字色 */
-    text-decoration: none; /* 下線なし */
     font-weight: bold;
+    text-decoration: none; /* 下線なし */
   }
 }
