@@ -104,10 +104,10 @@ a:visited:hover {
   text-decoration: underline; /* ホバー時の下線 */
   text-decoration-color: #6d13fc; /* ホバー時の下線色 */
 }
-.highlight {
+.imp {
   border-bottom: 1px solid #FF0000;
 }
-.highlight:hover {
+.imp:hover {
   color: #6d13fc; /* ホバー時の文字色 */
   font-weight: bold;
 }
@@ -1104,10 +1104,10 @@ p {
     text-decoration: underline; /* ホバー時の下線 */
     text-decoration-color: #9c5ffd; /* ホバー時の下線色 */
   }
-  .highlight {
+  .imp {
     text-decoration: none; /* 下線なし */
   }
-  .highlight:hover {
+  .imp:hover {
     color: #9c5ffd; /* ホバー時の文字色 */
     text-decoration: none; /* 下線なし */
     font-weight: bold;
