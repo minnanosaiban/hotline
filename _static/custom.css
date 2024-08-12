@@ -92,7 +92,7 @@ a {
 }
 a:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  border-bottom: 0.5px solid #6d13fc;
+  border-bottom: 0.2px solid #6d13fc;
 }
 a:visited {
   color: inherit; /* 親要素から色を継承 */
@@ -100,15 +100,15 @@ a:visited {
 }
 a:visited:hover {
   color: #6d13fc; /* ホバー時の文字色 */
-  border-bottom: 0.5px solid #6d13fc;
+  border-bottom: 0.2px solid #6d13fc;
 }
 .imp {
-  border-bottom: 0.5px solid #FF0000;
+  border-bottom: 0.2px solid #FF0000;
 }
 .imp:hover {
   color: #c0392b; 
   font-weight: bold;
-  border-bottom: 1px solid #00000000;
+  border-bottom: 0.2px solid #00000000;
 }
 sub {
   color:#f37726;
