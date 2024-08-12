@@ -103,12 +103,12 @@ a:visited:hover {
   text-decoration: none; /* 下線なし */
 }
 .imp {
-  border-bottom: 0.2px solid #FF0000;
+  border-bottom: 0.1px solid #FF0000;
 }
 .imp:hover {
   color: #C8102E; 
   font-weight: bold;
-  border-bottom: 0.2px solid #00000000;
+  border-bottom: 0.1px solid #00000000;
 }
 sub {
   color:#f37726;
