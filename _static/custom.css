@@ -111,10 +111,10 @@ a:visited:hover {
   font-weight: bold;
 }
 .imp {
-  border-bottom: 0.1px solid #C8102E;
+  border-bottom: 0.1px solid #B23A48;
 }
 .imp:hover {
-  color: #C8102E; 
+  color: #B23A48; 
   font-weight: bold;
   border-bottom: 0.1px solid #00000000;
 }
