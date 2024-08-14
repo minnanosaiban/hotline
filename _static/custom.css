@@ -95,9 +95,9 @@ a {
   text-decoration: none; /* 下線なし */
 }
 a:hover {
-  color: #6d13fc; /* ホバー時の文字色 */
+  color: #4a6eff; /* ホバー時の文字色 */
   text-decoration: underline; /* ホバー時の下線 */
-  text-decoration-color: #6d13fc; /* ホバー時の下線色 */
+  text-decoration-color: #4a6eff; /* ホバー時の下線色 */
   font-weight: bold;
 }
 a:visited {
@@ -105,9 +105,9 @@ a:visited {
   text-decoration: none; /* 下線なし */
 }
 a:visited:hover {
-  color: #6d13fc; /* ホバー時の文字色 */
+  color: #4a6eff; /* ホバー時の文字色 */
   text-decoration: underline; /* ホバー時の下線 */
-  text-decoration-color: #6d13fc; /* ホバー時の下線色 */
+  text-decoration-color: #4a6eff; /* ホバー時の下線色 */
   font-weight: bold;
 }
 .imp {
@@ -1099,12 +1099,3 @@ p {
     margin: 0;
   }
   }
-
-
-/* ダークモード用のスタイル */
-@media (prefers-color-scheme: dark) {
-  a:hover, a:visited:hover {
-    color: #9c5ffd; /* ダークモード時のホバー文字色 */
-    text-decoration-color: #9c5ffd; /* ダークモード時のホバー下線色 */
-  }
-}
