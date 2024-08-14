@@ -95,9 +95,9 @@ a {
   text-decoration: none; /* 下線なし */
 }
 a:hover {
-  color: #4a6eff; /* ホバー時の文字色 */
+  color: #579aca; /* ホバー時の文字色 */
   text-decoration: underline; /* ホバー時の下線 */
-  text-decoration-color: #4a6eff; /* ホバー時の下線色 */
+  text-decoration-color: #579aca; /* ホバー時の下線色 */
   font-weight: bold;
 }
 a:visited {
@@ -105,9 +105,9 @@ a:visited {
   text-decoration: none; /* 下線なし */
 }
 a:visited:hover {
-  color: #4a6eff; /* ホバー時の文字色 */
+  color: #579aca; /* ホバー時の文字色 */
   text-decoration: underline; /* ホバー時の下線 */
-  text-decoration-color: #4a6eff; /* ホバー時の下線色 */
+  text-decoration-color: #579aca; /* ホバー時の下線色 */
   font-weight: bold;
 }
 .imp {
