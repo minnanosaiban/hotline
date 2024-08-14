@@ -111,7 +111,7 @@ a:visited:hover {
   font-weight: bold;
 }
 .imp {
-  border-bottom: 0.1px solid #FF0000;
+  border-bottom: 0.1px solid #C8102E;
 }
 .imp:hover {
   color: #C8102E; 
@@ -1100,3 +1100,29 @@ p {
   }
   }
 
+
+  @media (prefers-color-scheme: dark) {
+      body {
+          color: #ffffff; /* ダークモード時の通常の文字色 */
+      }
+      a {
+          color: #9c5ffd; /* ダークモード時のリンクの文字色 */
+          text-decoration: none; /* 下線なし */
+      }
+      a:hover {
+          color: #6d13fc; /* ダークモード時のホバー時のリンク色 */
+          text-decoration: underline; /* ホバー時の下線 */
+          text-decoration-color: #6d13fc; /* ホバー時の下線色 */
+          font-weight: bold;
+      }
+      a:visited {
+          color: #9c5ffd; /* ダークモード時の訪問済みリンクの色 */
+          text-decoration: none; /* 下線なし */
+      }
+      a:visited:hover {
+          color: #6d13fc; /* ダークモード時の訪問済みリンクのホバー色 */
+          text-decoration: underline; /* ホバー時の下線 */
+          text-decoration-color: #6d13fc; /* ホバー時の下線色 */
+          font-weight: bold;
+      }
+  }
