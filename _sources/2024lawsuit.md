@@ -20,13 +20,20 @@
 ## ２　ＥＮＥＯＳの違反について
 ---
 <p class="base" style="margin-top: 1.6em;">
-本件訴訟で問題となっている違反は、以下のとおりです。
-<p class="base" style="margin-top: 1.6em;">
 ＥＮＥＯＳは、
-<a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針 （以下、「ガバナンス内部統制基本方針」といいます。）</a>・
-<a href="https://www.hd.eneos.co.jp/company/conduct.html">ＥＮＥＯＳ行動基準（以下、「行動基準」といいます。）</a>・
-コンプライアンスホットライン（以下、「本件規程」といいます。）・
-<a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf">内部統制システムの整備・運用に関する基本方針（以下、「内部統制基本方針」といいます。）</a>に違反しています。
+<p class="base">
+● <a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針 （以下、「ガバナンス内部統制基本方針」といいます。）</a>
+<p class="base">
+● <a href="https://www.hd.eneos.co.jp/company/conduct.html">ＥＮＥＯＳ行動基準（以下、「行動基準」といいます。）</a>
+<p class="base">
+● コンプライアンスホットライン（以下、「本件規程」といいます。）
+<p class="base">
+● <a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf">内部統制システムの整備・運用に関する基本方針（以下、「内部統制基本方針」といいます。）</a>
+<p class="base">
+に違反しています。
+
+<p class="base" style="margin-top: 1.6em;">
+本件訴訟で問題となっている違反は、以下のとおりです。
 
 <div class="base">
 
