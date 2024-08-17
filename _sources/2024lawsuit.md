@@ -5,7 +5,7 @@
 ## １　訴訟について
 ---
 <p class="base" style="margin-top: 1.6em; ">
-２０２４年に提起した訴訟は、勤務先の内部通報制度を利用した原告が、通報を受けた相手方の対応につき、<span class="strong_rd">ＥＮＥＯＳ行動基準及びコンプライアンスホットライン規程に違反したと主張している訴訟</span>です。
+本件訴訟は、勤務先の内部通報制度を利用した原告が、通報を受けた相手方の対応につき、<span class="strong_rd">ＥＮＥＯＳ行動基準及びコンプライアンスホットライン規程に違反したと主張している訴訟</span>です。
 <p class="base" style="margin-top: 1.6em; ">
 相手方は、通報を受けて、取引先との契約に契約条項を追加する措置を行っていたにもかかわらず、通報者に対しては、<span class="imp">「契約書を確認する行為は、先に述べた通り対応として意味がない行為ですので、行われなかったとしても対応を怠ったことになりません。（書証原文ママ）」</span>などと回答し、
 
@@ -21,13 +21,13 @@
 ---
 <p class="base" style="margin-top: 1.6em;">
 ＥＮＥＯＳは、
-<p class="idt1">
+<p class="hg-idt1">
 ● <a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針 </a>
-<p class="idt1">
+<p class="hg-idt1">
 ● <a href="https://www.hd.eneos.co.jp/company/conduct.html">ＥＮＥＯＳ行動基準</a>
-<p class="idt1">
+<p class="hg-idt1">
 ● コンプライアンスホットライン
-<p class="idt1">
+<p class="hg-idt1">
 ● <a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf">内部統制システムの整備・運用に関する基本方針</a>
 <p class="base">
 に違反しています。
@@ -37,7 +37,6 @@
 
 <p class="base" style="margin-top: 1.6em;">
 本件訴訟で問題となっている違反は、以下のとおりです。
-
 <div class="base">
 
 ````{card}
@@ -59,7 +58,7 @@
 ## ３　通報事実について
 ---
 <p class="base" style="margin-top: 1.6em;">
-<b>通報内容に関する事実</b>は、以下の事実です。
+通報内容に関する事実は、以下の事実です。
 <div class="base">
 
 ````{card}
@@ -79,8 +78,7 @@
 </div>
 
 <p class="base" style="margin-top: 1.6em;">
-<b>事実の問題点</b>は、以下の不正行為です。
-
+事実の問題点は、以下の不正行為です。
 <div class="base">
 
 ````{card}
