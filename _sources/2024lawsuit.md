@@ -6,19 +6,17 @@
 ---
 <p class="base" style="margin-top: 1.6em; ">
 本件訴訟は、勤務先の内部通報制度を利用した原告が、相手方の対応につき、
-
 <a href="https://minnanosaiban.github.io/hotline/2024law.html">
-<p class="hg-idt1">
+<p class="hg-idt2">
 ● ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針
-<p class="hg-idt1">
+<p class="hg-idt2">
 ● ＥＮＥＯＳ行動基準
-<p class="hg-idt1">
+<p class="hg-idt2">
 ● コンプライアンスホットライン規程
-<p class="hg-idt1">
+<p class="hg-idt2">
 ● 内部統制システムの整備・運用に関する基本方針
 </a>
-
-<p class="base" style="margin-top: 1.6em; ">
+<p class="base">
 に違反したと主張している訴訟です。
 
 <p class="base" style="margin-top: 1.6em; ">
