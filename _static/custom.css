@@ -398,6 +398,15 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.k_foot {
+  padding-left:14px;
+  text-indent:-1em;
+  font-size:12px;
+  margin-right: 112px;
+  margin-left: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 
 .c {
@@ -950,6 +959,12 @@ p {
     padding-left:4.5em;
     text-indent:-1em;
     font-size:14px;
+    margin: 0;
+  }
+  .k_foot {
+    padding-left:14px;
+    text-indent:-1em;
+    font-size:12px;
     margin: 0;
   }
   
