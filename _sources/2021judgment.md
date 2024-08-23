@@ -451,7 +451,7 @@
 ---
 
 <p class="base" style="margin-bottom: 1.6em;">
-<strong>判決文の内容だけでは状況が把握できないことがあるため、下線で装飾し、枠内に原告による注記を記載しています。装飾のない判決文はこちら <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#zenbun"><i class="fa-solid fa-square-arrow-up-right"></i></a> に記載しています。</strong>
+<strong>判決文の内容だけでは状況が把握できないことがあるため、下線で装飾し、枠内に原告による注記を記載しています。装飾のない判決文はこちら <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#zenbun"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。</strong>
 
 <div class="base">
 
@@ -529,7 +529,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.1"></a><span style="color: #f37726;"><b>No.1</b></span>　地裁判決のここの部分 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#hosei5"><i class="fa-solid fa-square-arrow-up-right"></i></a> については、高裁判決で追加されました。ちなみに、保有資格については、原告はJDLA Ｅ資格 2023#1 <a href="https://www.jdla.org/certificate/engineer/"><i class="fa-solid fa-up-right-from-square"></i></a> を保有しています。
+<p class="c_mini"><a name="No.1"></a><span style="color: #f37726;"><b>No.1</b></span>　地裁判決のここの部分 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#hosei5"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> については、高裁判決で追加されました。ちなみに、保有資格については、原告はJDLA Ｅ資格 2023#1 <a href="https://www.jdla.org/certificate/engineer/"><i class="fa-solid fa-up-right-from-square"></i></a> を保有しています。
 `````
 
 `````{margin} 
@@ -647,7 +647,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.4"></a><span style="color: #f37726;"><b>No.4</b></span>　被告の主張に関する判決文における記載は、判決文全体を見ても、なぜか、<span class="u_or">「否認又は争う。」の７文字だけ</span>となっています。判決文の記載からは、被告が何を主張していたのか分かりにくいですが、被告が主張していた主旨は、判決文の第３の２「争点１について」以下の記載 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#tisai3-2"><i class="fa-solid fa-square-arrow-up-right"></i></a> と同様と考えていただいてよいと思います。
+<p class="c_mini"><a name="No.4"></a><span style="color: #f37726;"><b>No.4</b></span>　被告の主張に関する判決文における記載は、判決文全体を見ても、なぜか、<span class="u_or">「否認又は争う。」の７文字だけ</span>となっています。判決文の記載からは、被告が何を主張していたのか分かりにくいですが、被告が主張していた主旨は、判決文の第３の２「争点１について」以下の記載 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#tisai3-2"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> と同様と考えていただいてよいと思います。
 `````
 
 <p class="k_hg-idt2">（被告の主張の要旨）
@@ -662,7 +662,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.5"></a><span style="color: #f37726;"><b>No.5</b></span>　高裁判決 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#hosei2"><i class="fa-solid fa-square-arrow-up-right"></i></a> では、地裁判決のここの部分について「改行の上、次のとおり加える」と追加しています。
+<p class="c_mini"><a name="No.5"></a><span style="color: #f37726;"><b>No.5</b></span>　高裁判決 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#hosei2"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> では、地裁判決のここの部分について「改行の上、次のとおり加える」と追加しています。
 `````
 
 <p class="k_idt1"><span class="u_or"><span style="color: #f37726;"><span class="u_or"><sub>No.5 </sub><a name="hosei5">高裁判決追加箇所</span></span>
@@ -917,14 +917,14 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#saikousai"><i class="fa-solid fa-square-arrow-up-right"></i></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden"><i class="fa-solid fa-square-arrow-up-right"></i></a> に記載しています。
+<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#saikousai"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。
 `````
 
 <p class="k_idt3"><a name="handan1"></a>そうすると、<span class="u_or"><sub>No.19 </sub>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである</span>。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.20"></a><span style="color: #f37726;"><b>No.20</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#tuuti"><i class="fa-solid fa-square-arrow-up-right"></i></a> と こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#yoken"><i class="fa-solid fa-square-arrow-up-right"></i></a> に記載しています。
+<p class="c_mini"><a name="No.20"></a><span style="color: #f37726;"><b>No.20</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#tuuti"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> と こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#yoken"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。
 `````
 
 <p class="k_hg-idt3">ウ　この点をおくとしても、本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２⑹）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２⑸参照）から、本件規程の解釈としても、<a name="handan2"></a><span class="u_or"><sub>No.20 </sub>本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</span>
@@ -933,7 +933,7 @@
 <p class="k_idt3">さらに、本件規程上、調査とは、通報情報に関する事実を確認するための調査と定義され（１．２⑼）、これは法令等に違反する事実又は違反するおそれのある事実の確認を目的とするものと解される（３．５参照）から、必ずしも上記各事実の判断に影響しない事実までもが調査の対象になるとは解されず、また、調査の具体的方法についても、通報者の希望に沿って行うなどとも規定されていないから、被告の合理的裁量に委ねられているというべきである。
 
 `````{margin} 
-<p class="c_mini"><a name="No.21"></a><span style="color: #f37726;"><b>No.21</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#taiou"><i class="fa-solid fa-square-arrow-up-right"></i></a> に記載しています。
+<p class="c_mini"><a name="No.21"></a><span style="color: #f37726;"><b>No.21</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#taiou"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。
 `````
 
 `````{margin} 
