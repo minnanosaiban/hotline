@@ -13,8 +13,70 @@ ghp-import -n -p -f _build/html
 ```
 
 ```
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="ＥＮＥＯＳの内部通報制度に関する訴訟について">
-  <meta name="twitter:description" content="現在の法律の下では、通報者に対して不正の存在を伏せることが容易に行えますので、内部通報制度に関する法律は課題があります。">
-  <meta name="twitter:image" content="https://minnanosaiban.github.io/hotline/_static/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ＥＮＥＯＳの内部通報制度に関する訴訟について">
+<meta name="twitter:description" content="従業員からの通報を受けたＥＮＥＯＳは、不正を隠蔽するために、不正を重ねた疑いがあります。">
+<meta name="twitter:image" content="https://minnanosaiban.github.io/hotline/_static/logo.png">
+
+
+<meta property="og:title" content="ＥＮＥＯＳの内部通報制度に関する訴訟について">
+<meta property="og:description" content="従業員からの通報を受けたＥＮＥＯＳは、不正を隠蔽するために、不正を重ねた疑いがあります。">
+<meta property="og:image" content="https://minnanosaiban.github.io/hotline/_static/logo.png">
+<meta property="og:url" content="https://minnanosaiban.github.io/hotline/">
+
+https://minnanosaiban.github.io/hotline/google41b9fb8c20b97e3f.html
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/index.html</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021allegation</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021judgment</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021law</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021lawsuit</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2024allegation</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2024law</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2024lawsuit</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+
 ```
+

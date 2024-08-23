@@ -33,10 +33,8 @@ hr {
   margin-left: 72px;
   border: 2px solid #f37726;
 }
-.base {
-  margin-right: 72px;
-  margin-left: 72px;
-}
+
+
 .twitter {
   margin-right: 72px;
   margin-left: 72px;
@@ -123,25 +121,16 @@ sub {
   color:#f37726;
   font-weight:bold;
 }
-.title_q {
-  margin: 0;
-  font-size:14px;
-  font-weight:normal;
-}
-.title_ad {
-  margin: 0;
-  font-size:14px;
-  color:#f37726;
-  font-weight:normal;
-}
+
 
 p {
   margin-top: 0em;
   margin-bottom: 0em;
   line-height:2.4;
 }
-.center {
-  text-align: center;
+.base {
+  margin-right: 72px;
+  margin-left: 72px;
 }
 .pad1 {
   margin-right: 72px;
