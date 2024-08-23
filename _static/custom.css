@@ -90,6 +90,11 @@ hr {
   font-weight:bold;
   color:#C54454;
 }
+.link_u {
+  color: #579aca; 
+  text-decoration: underline; 
+  text-decoration-color: #579aca; 
+}
 .u_rd {
   border-bottom: 1px solid #C54454;
 }
