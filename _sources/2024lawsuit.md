@@ -163,13 +163,13 @@
 
 </div>
 
-<p class="base" style="margin-top: 1.6em;">
+<p class="base" style="margin-top: 3.2em;">
 <b>※１　平成３０年９月１３日に締結した契約について</b>
 <p class="base" style="font-size:14px;">
 新たに相手方と当該豪州企業との間で締結した契約には、「豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。なお、本件豪州企業がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する」という表示がありました。
 
-<p class="base" style="margin-top: 1.6em;">
-<b>※３　令和元年１２月２０日の調査補助者（公益通報対応業務従事者）の回答について</b>
+<p class="base" style="margin-top: 3.2em;">
+<b>※２　令和元年１２月２０日の調査補助者（公益通報対応業務従事者）の回答について</b>
 <p class="base" style="font-size:14px;">
 調査補助者（公益通報対応業務従事者）の原告に対する回答は以下のとおりでした。
 <div class="base">
