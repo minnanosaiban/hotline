@@ -59,7 +59,7 @@
 ---
 
 <p class="base" style="margin-top: 1.6em;">
-<b>判決文の引用は、以下のとおりです。</b>なお、 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan1">判決文全文を掲載しています  <i class="fa-solid fa-link"></i> </a>。
+<b>判決文の引用は、以下のとおりです。</b>なお、 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan1">本ウェブサイトでは判決文全文を掲載しています  <i class="fa-solid fa-link"></i> </a>。
 
 <div class="base" style="margin-top: 1.6em;">
 <blockquote>
@@ -100,7 +100,7 @@
 ## ５　通報する側の態様の問題
 ---
 <p class="base" style="margin-top: 1.6em;">
-<b>判決文の引用は、以下のとおりです。</b>なお、 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan2">判決文全文を掲載しています <i class="fa-solid fa-link"></i> </a>。
+<b>判決文の引用は、以下のとおりです。</b>なお、 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan2">本ウェブサイトでは判決文全文を掲載しています <i class="fa-solid fa-link"></i> </a>。
 
 <div class="base" style="margin-top: 1.6em;">
 <blockquote>
