@@ -3,6 +3,8 @@
 
 # 主張書面
 
+ＰＤＦはこちら <i class="fa-solid fa-square-arrow-up-right"></i>
+
 ## ・第３回口頭弁論
 ---
 <p class="k">令和６年８月１４日　１１時３０分
@@ -3142,6 +3144,12 @@
 <p class="k_idt">１　訴状副本　　１通
 <p class="k_idt">２　資格証明書　１通
 
-##
+
+### ＰＤＦファイル
+---
+<a name="2024pdf"></a>
+
+
+###
 
 

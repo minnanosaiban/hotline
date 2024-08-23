@@ -23,7 +23,7 @@
 以下、それぞれ、「ガバナンス・コード」、「ガバナンス基本方針」、「ＥＮＥＯＳ行動基準」、「ホットライン規程」、「内部統制基本方針」といいます。
 
 <p class="base" style="margin-top: 1.6em; ">
-<a href="https://minnanosaiban.github.io/hotline/2024law.html">相手方が違反した規程は、こちらに記載しています。<i class="fa-solid fa-link"></i></a>
+<a href="https://minnanosaiban.github.io/hotline/2024law.html">相手方が違反した規程は、こちらに記載しています。<i class="fa-solid fa-square-arrow-up-right"></i></a>
 
 
 
