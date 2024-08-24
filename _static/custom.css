@@ -1,8 +1,24 @@
-body .navbar-nav .nav-link, 
-body .navbar-nav .nav-link:link, 
-body .navbar-nav .nav-link:visited {
-  color: #f37726
+/* クラスが「reference internal」のリンク */
+a.reference.internal {
+  color: #f37726 !important; /* 通常時の色 */
 }
+
+/* クラスが「reference internal」のリンクのホバー時の色 */
+a.reference.internal:hover {
+  color: #f37726 !important; /* ホバー時の色 */
+}
+
+/* クラスが「reference internal nav-link」のリンク */
+a.reference.internal.nav-link {
+  color: #f37726 !important; /* 通常時の色 */
+}
+
+/* クラスが「reference internal nav-link」のリンクのホバー時の色 */
+a.reference.internal.nav-link:hover {
+  color: #f37726 !important; /* ホバー時の色 */
+}
+
+
 .top {
   margin:0em;
   font-size:12px;
