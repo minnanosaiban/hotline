@@ -133,6 +133,10 @@ sub {
   color:#f37726;
   font-weight:bold;
 }
+.title_n {
+  font-size:14px;
+  font-weight:normal;
+}
 
 
 p {
@@ -502,12 +506,6 @@ p {
   margin-left: 16px;
   margin-top: 0;
   margin-bottom: 0;
-}
-.q_title_n {
-  font-size:14px;
-  margin-right: 0;
-  margin-left: 0;
-  font-weight:normal;
 }
 .q_center {
   font-size:14px;
