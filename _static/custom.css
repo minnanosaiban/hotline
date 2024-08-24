@@ -1,3 +1,8 @@
+.navbar-nav .nav-link {
+  color: #f37726; /* ここに希望の色を指定 */
+}
+
+
 .top {
   margin:0em;
   font-size:12px;
