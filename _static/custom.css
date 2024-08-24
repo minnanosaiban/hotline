@@ -1,7 +1,6 @@
-.navbar-nav .nav-link {
+.navbar-nav .nav-link, .navbar-nav .nav-link:link, .navbar-nav .nav-link:visited {
   color: #f37726; /* ここに希望の色を指定 */
 }
-
 
 .top {
   margin:0em;
