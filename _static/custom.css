@@ -103,20 +103,20 @@ hr {
   border-bottom: 2px solid #f37726;
 }
 a.reference.internal:active {
-  color: #f37726 ; /* 親要素から色を継承 */
+  color: inherit; /* 親要素から色を継承 */
 }
 a.reference.internal:visited {
-  color: #f37726 ; /* 親要素から色を継承 */
+  color: inherit; /* 親要素から色を継承 */
 }
 a.reference.internal:hover {
   color: #f37726 ; 
   text-decoration: none; /* 下線なし */
 }
 a.reference.internal.nav-link:active {
-  color: #f37726 ; /* 親要素から色を継承 */
+  color: inherit; /* 親要素から色を継承 */
 }
 a.reference.internal.nav-link:visited {
-  color: #f37726 ; /* 親要素から色を継承 */
+  color: inherit; /* 親要素から色を継承 */
 }
 a.reference.internal.nav-link:hover {
   color: #f37726 ; 
