@@ -8,7 +8,7 @@
 <p class="base" style="margin-top: 1.6em;">
 本ウェブサイトの管理人（以下「原告」といいます）は、原告の勤務先（以下「相手方」といいます）の内部通報制度を利用した従業員です。本ウェブサイトは、内部通報制度の問題点を明確にする目的で開設しています。
 <p class="base" style="margin-top: 1.6em;">
-相手方は、人権尊重、コンプライアンス徹底を経営の最優先事項と位置付けていることを公式ウェブサイトで表明している企業です。また、<a href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf">元社長の不祥事の後、「コンプライアンスに関する取組みの再徹底に係る進捗について 」という文書をニュースリリースしました <i class="fa-solid fa-up-right-from-square"></i></a> 。
+相手方は、人権尊重、コンプライアンス徹底を経営の最優先事項と位置付けていることを公式ウェブサイトで表明している企業です。また、<a href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf">元社長の不祥事の後、「コンプライアンスに関する取組みの再徹底に係る進捗について 」という文書をニュースリリースしました <span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> 。
 <p class="base" style="margin-top: 1.6em;">
 しかし、裁判では、「規程類の遵守の徹底を図る義務がある」という原告の主張に対し、<span class="strong_rd">「仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。」</span>と主張しています。
 
@@ -67,7 +67,7 @@
 <p class="q" style="margin-bottom: 1.6em;">
 <b>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記 ② (c) の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。</b>
 
-```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　判決文の言葉の使い方についてちょっとした疑問があります</span>
+```{dropdown} <span class="q_title_n"><i class="fa-solid fa-arrows-down-to-line"></i>　判決文の言葉の使い方についてちょっとした疑問があります</span>
 
 <p class="q">
 <b>「適切に対応すべき信義則上の義務」と「信義則上の調査義務等」は同じことなのかどうか？</b>
@@ -88,7 +88,7 @@
 
 <p class="base" style="margin-top: 1.6em;">
 判決文で引用している最高裁判決「イビデン事件」は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。<br>
-参考：<a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">イビデン事件最高裁判決 <i class="fa-solid fa-up-right-from-square"></i></a> は、<a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden">本ウェブサイトのこちらに引用しています <span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span> </a>。
+参考：<a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">イビデン事件最高裁判決 <span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> は、<a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden">本ウェブサイトのこちらに引用しています <span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span> </a>。
 
 <p class="base" style="margin-top: 1.6em;">
 そして、どのような相談の申出があった場合にいかなる措置を講ずるべきかについては、最高裁判決以降の類似の裁判例の集積によって、具体的に明らかになっていくと考えられていたところ、本件訴訟の判決は、<span class="strong_rd">ハラスメントなどによって被害を受けたことを訴える通報ではない場合、信義則上の調査義務等がない</span>という判断を示しました。
@@ -107,7 +107,7 @@
 <p class="q" style="margin-bottom: 1.6em;">
 <b>本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２ ⑹ ）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２ ⑸ 参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</b>
 
-```{dropdown} <span class="title_q"><i class="fa-solid fa-arrows-down-to-line"></i>　消費者庁の指針 <a href="https://minnanosaiban.github.io/hotline/2021law.html#kaisetsu"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> からすると、裁判所の解釈は誤ってるかも？</span>
+```{dropdown} <span class="q_title_n"><i class="fa-solid fa-arrows-down-to-line"></i>　消費者庁の指針 <a href="https://minnanosaiban.github.io/hotline/2021law.html#kaisetsu"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> からすると、裁判所の解釈は誤ってるかも？</span>
 
 <p class="q" style="margin-top: 1.6em;">
 <b><a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説</a>（５頁）</b>

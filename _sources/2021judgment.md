@@ -529,7 +529,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.1"></a><span style="color: #f37726;"><b>No.1</b></span>　地裁判決のここの部分 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#hosei5"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> については、高裁判決で追加されました。ちなみに、保有資格については、原告はJDLA Ｅ資格 2023#1 <a href="https://www.jdla.org/certificate/engineer/"><i class="fa-solid fa-up-right-from-square"></i></a> を保有しています。
+<p class="c_mini"><a name="No.1"></a><span style="color: #f37726;"><b>No.1</b></span>　地裁判決のここの部分 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#hosei5"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> については、高裁判決で追加されました。ちなみに、保有資格については、原告はJDLA Ｅ資格 2023#1 <a href="https://www.jdla.org/certificate/engineer/"><span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> を保有しています。
 `````
 
 `````{margin} 
@@ -907,7 +907,7 @@
 <p class="k"><a name="tisai3-2"></a>２　争点１について（内部通報制度における信義則上の義務違反）［不利益取扱いの点を除く。］
 
 `````{margin} 
-<p class="c_mini"><a name="No.18"></a><span style="color: #f37726;"><b>No.18</b></span>　原告が、まず、主張していたことは、被告がグループ行動基準 <a href="https://www.hd.eneos.co.jp/company/conduct.html"><i class="fa-solid fa-up-right-from-square"></i></a> を定め、業務の適正を確保するための体制 <a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/03_internal_control.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の一環として、コンプライアンスホットライン制度を整備していたことです。</span>この主張に続けて、被告の主張に対して反論するというかたちで主張していました。判決文における原告の主張に関する記載は、被告が業務の適正を確保するための体制を整備していたという肝心なことが抜けており、また、言葉の使い方により微妙に意味合いがズレているところがあるので、微妙に読み手を誤導する文面です。
+<p class="c_mini"><a name="No.18"></a><span style="color: #f37726;"><b>No.18</b></span>　原告が、まず、主張していたことは、被告がグループ行動基準 <a href="https://www.hd.eneos.co.jp/company/conduct.html"><span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> を定め、業務の適正を確保するための体制 <a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/03_internal_control.pdf"><span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> の一環として、コンプライアンスホットライン制度を整備していたことです。</span>この主張に続けて、被告の主張に対して反論するというかたちで主張していました。判決文における原告の主張に関する記載は、被告が業務の適正を確保するための体制を整備していたという肝心なことが抜けており、また、言葉の使い方により微妙に意味合いがズレているところがあるので、微妙に読み手を誤導する文面です。
 `````
 
 <p class="k_hg-idt32"><span class="u_or"><sub>No.18 </sub><a name="tisai3-2-1"></a>⑴ア　原告は、まず、原告が通報窓口担当者に伝えた内容は、</span>特段の理由がない限り、全て通報情報であり、被告は、内部通報を行った従業員である原告に対し、通報情報に関する事実を確認するための調査を行う信義則上の義務を負うなどとした上で、大要、①原告が、本件通報１の当初から、ＧＳＴの支払手続をした事実及び支払手続をした際の会計計上科目を伝えて、不適切会計のおそれがある旨等を通報していたのに、被告は契約内容及び会計帳簿の確認等をせず、②その後の平成２９年７月２８日等に、原告が、通報情報として、(a)被告と海外企業との契約内容に関すること、(b)※※※がＧＳＴ相当額の還付を受けた際の被告及び※※※における会計処理に関すること、(c)原告が〇〇〇ＧＭにＧＳＴについて確認を行ったタイミングで、〇〇〇ＧＭから必要性に疑問のある資料作成を３回命じられたこと（本件各業務命令）を伝えるなどしていたのに、被告は契約内容等に加えて上記資料の確認等もせず、③さらに、原告が、本件通報２で、被告と〇〇〇間の会計処理について疑問視している旨等を伝え、また、調査補助者の〇〇も、平成３１年３月１２日、被告及び※※※において会計処理が適切であったか否かや、税制及び契約内容を確認した上でＧＳＴの支払を行っていたか否か等を確認する旨メールに記載していたのに、契約内容及び会計帳簿の確認等をしなかったなどとして、もって、被告は調査義務を怠り（上記②(c)については、通報者に対する不利益取扱いの事実又はそのおそれのある事実であることを理由に、通報者の保護の徹底を定めた本件規程３．１１⑴上も調査義務等があると主張するようである。）また、本件規程３．１⑴では、調査を実施しない場合には調査しない旨及び理由の通知が求められているのに、被告はこれも怠ったなどと主張する。
@@ -917,7 +917,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#saikousai"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-up-right-from-square"></i></a> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。
+<p class="c_mini"><a name="No.19"></a><span style="color: #f37726;"><b>No.19</b></span>　原判決の法令解釈の誤りについては、こちら <a href="https://minnanosaiban.github.io/hotline/2021allegation.html#saikousai"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。また、最高裁平成３０年２月１５日第一小法廷判決 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> の引用は、こちら <a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden"><span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a> に記載しています。
 `````
 
 <p class="k_idt3"><a name="handan1"></a>そうすると、<span class="u_or"><sub>No.19 </sub>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである</span>。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。
@@ -1025,7 +1025,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><a name="No.26"></a><span style="color: #f37726;"><b>No.26</b></span>　被告は、原告分のみの人事評価であるにもかかわらず、この人事評価について「第三者閲覧制限の申立て」 <a href="https://www.courts.go.jp/tokyo/saiban/minzi_section29_40_46_47/eturannseigenn/index.html#:~:text=%E9%96%B2%E8%A6%A7%E7%AD%89%E5%88%B6%E9%99%90%E3%81%AE%E7%94%B3%E7%AB%8B,%E6%B3%9592%E6%9D%A11%E9%A0%85%EF%BC%89%E3%80%82"><i class="fa-solid fa-up-right-from-square"></i></a> を行いました。</span>原告も意見書を提出しています。結果として、第三者閲覧制限は認められました。実際には、もっとヒドイ言葉が人事評価コメント欄に記載されていましたので、原告は人格否定と受け取っています。<span style="color: #f37726;"><i class="fa-solid fa-hand-point-left"></i> 事実認定されていない事実
+<p class="c_mini"><a name="No.26"></a><span style="color: #f37726;"><b>No.26</b></span>　被告は、原告分のみの人事評価であるにもかかわらず、この人事評価について「第三者閲覧制限の申立て」 <a href="https://www.courts.go.jp/tokyo/saiban/minzi_section29_40_46_47/eturannseigenn/index.html#:~:text=%E9%96%B2%E8%A6%A7%E7%AD%89%E5%88%B6%E9%99%90%E3%81%AE%E7%94%B3%E7%AB%8B,%E6%B3%9592%E6%9D%A11%E9%A0%85%EF%BC%89%E3%80%82"><span class="link_u"><i class="fa-solid fa-up-right-from-square"></i></a></span> を行いました。</span>原告も意見書を提出しています。結果として、第三者閲覧制限は認められました。実際には、もっとヒドイ言葉が人事評価コメント欄に記載されていましたので、原告は人格否定と受け取っています。<span style="color: #f37726;"><i class="fa-solid fa-hand-point-left"></i> 事実認定されていない事実
 `````
 
 
