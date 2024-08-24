@@ -188,9 +188,9 @@
 
 <div class="base" style="margin-top: 1.6em;">
 
-[<i class="fa-brands fa-github"></i> GitHub issues <i class="fa-solid fa-up-right-from-square"></i>](https://github.com/minnanosaiban/hotline/issues)
+[<i class="fa-brands fa-github"></i> GitHub issues <span class="link_u"><i class="fa-solid fa-up-right-from-square"></i>](https://github.com/minnanosaiban/hotline/issues)
 
-[<i class="fa-brands fa-twitter"></i> X-Twitter <i class="fa-solid fa-up-right-from-square"></i>](https://twitter.com/minnanosaiban)
+[<i class="fa-brands fa-twitter"></i> X-Twitter <span class="link_u"><i class="fa-solid fa-up-right-from-square"></i>](https://twitter.com/minnanosaiban)
 
 </div>
 
