@@ -57,15 +57,12 @@
 
 ## ４　調査をする義務がない
 ---
-
-<p class="base" style="margin-top: 1.6em;">
-<b>判決文の引用は、以下のとおりです。</b>なお、 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan1">本ウェブサイトでは判決文全文を掲載しています  <span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span> </a>。
-
 <div class="base" style="margin-top: 1.6em;">
 <blockquote>
-
 <p class="q" style="margin-bottom: 1.6em;">
-<b>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記 ② (c) の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。</b>
+<a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan1"><b>令和４年１２月２２日判決より<b> <span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span> </a>。
+<p class="q" style="margin-bottom: 1.6em;">
+<b>不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記 ② (c) の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。<b>
 
 ```{dropdown} <span class="title_n"><i class="fa-solid fa-arrows-down-to-line"></i>　判決文の言葉の使い方についてちょっとした疑問があります</span>
 
@@ -94,16 +91,11 @@
 そして、どのような相談の申出があった場合にいかなる措置を講ずるべきかについては、最高裁判決以降の類似の裁判例の集積によって、具体的に明らかになっていくと考えられていたところ、本件訴訟の判決は、<span class="strong_rd">ハラスメントなどによって被害を受けたことを訴える通報ではない場合、信義則上の調査義務等がない</span>という判断を示しました。
 
 
-
-
-
 ## ５　通報する側の態様の問題
 ---
-<p class="base" style="margin-top: 1.6em;">
-<b>判決文の引用は、以下のとおりです。</b>なお、 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan2">本ウェブサイトでは判決文全文を掲載しています <span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span> </a>。
-
-<div class="base" style="margin-top: 1.6em;">
 <blockquote>
+<p class="q" style="margin-bottom: 1.6em;">
+<a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan2"><b>令和４年１２月２２日判決より<b> <span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span> </a>。
 <p class="q" style="margin-bottom: 1.6em;">
 <b>本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２ ⑹ ）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２ ⑸ 参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。</b>
 
