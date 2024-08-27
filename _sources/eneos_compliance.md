@@ -1,6 +1,6 @@
 <p class="top">上部はダークモードスイッチ等のメニューです
 
-# <span style="color: #f37726;">ＥＮＥＯＳ</span>のガバナンス体制抜粋
+# <span style="color: #f37726;">ＥＮＥＯＳ</span>のコンプライアンス遵守体制
 
 
 <p class="base" style="margin-top: 1.6em; ">
