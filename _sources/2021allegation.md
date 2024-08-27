@@ -25,7 +25,7 @@
 </div>
 
 <p class="base" style="margin-bottom: 1.6em;">
-裁判所が引用している最高裁判決は、「イビデン判決」とも呼ばれ、学説等で議論されるなど、注目された判決です。このイビデン判決において、最高裁が「もっとも」として判示していることは、<a href="https://minnanosaiban.github.io/hotline/2021law.html#ibiden">本ウェブサイトで引用しているとおりですので <i class="fa-solid fa-square-arrow-up-right"></i></a> 、
+裁判所が引用している最高裁判決は、「イビデン判決」とも呼ばれ、学説等で議論されるなど、注目された判決です。このイビデン判決において、最高裁が「もっとも」として判示していることは、<a href="https://minnanosaiban.github.io/hotline/whistleblower_protection_act.html#ibiden">本ウェブサイトで引用しているとおりですので <i class="fa-solid fa-square-arrow-up-right"></i></a> 、
 
 <p class="base" style="margin-bottom: 1.6em;">
 <span class="strong_rd">最高裁は、相談窓口制度の運用を理由に、相談窓口の利用者に対する信義則上の義務を負う場合があることを認めた</span>と解されます。
@@ -52,7 +52,7 @@
 </div>
 
 <p class="base" style="margin-bottom: 1.6em;">
-「公益通報者保護法に基づく指針」は、内部公益通報への対応結果を内部公益通報をした者に通知することを規定しています。「公益通報者保護法に基づく指針の解説」で示していることは、<a href="https://minnanosaiban.github.io/hotline/2021law.html#kaisetsu20">本ウェブサイトで引用しているとおりですので <i class="fa-solid fa-square-arrow-up-right"></i></a> 、
+「公益通報者保護法に基づく指針」は、内部公益通報への対応結果を内部公益通報をした者に通知することを規定しています。「公益通報者保護法に基づく指針の解説」で示していることは、<a href="https://minnanosaiban.github.io/hotline/whistleblower_protection_act.html#kaisetsu20">本ウェブサイトで引用しているとおりですので <i class="fa-solid fa-square-arrow-up-right"></i></a> 、
 
 <p class="base" style="margin-bottom: 1.6em;">
 <span class="strong_rd">何を調査するのか、何を調査したのか、及び何を調査しないのかを把握できる程度に、通報者に対して通報への対応結果を通知することが必要である</span>と解されます。
@@ -79,7 +79,7 @@
 </div>
 
 <p class="base" style="margin-bottom: 1.6em;">
-内部通報制度において事業者がとるべき措置を法令等で定めて一律な対応を求めることは適切ではなく、また、現実的ではないという事情があります。そのため、「公益通報者保護法に基づく指針の解説」では、「指針を遵守するための考え方や具体例」を示しています。その内容は、<a href="https://minnanosaiban.github.io/hotline/2021law.html#kaisetsu9">本ウェブサイトで引用しているとおりですので <i class="fa-solid fa-square-arrow-up-right"></i></a> 、
+内部通報制度において事業者がとるべき措置を法令等で定めて一律な対応を求めることは適切ではなく、また、現実的ではないという事情があります。そのため、「公益通報者保護法に基づく指針の解説」では、「指針を遵守するための考え方や具体例」を示しています。その内容は、<a href="https://minnanosaiban.github.io/hotline/whistleblower_protection_act.html#kaisetsu9">本ウェブサイトで引用しているとおりですので <i class="fa-solid fa-square-arrow-up-right"></i></a> 、
 
 <p class="base" style="margin-bottom: 1.6em;">
 <span class="strong_rd">内部通報制度の調査においては、通報者との十分なコミュケーションをとることが必要であり、また、調査しない場合は、「一般論として、誰が考えても、調査しなくてよいと考えるもの」というように正当な理由が必要である</span>と解されます。

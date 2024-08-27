@@ -12,6 +12,8 @@ jb build .
 ghp-import -n -p -f _build/html
 ```
 
+## メタタグ
+
 ```
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ＥＮＥＯＳの内部通報制度に関する訴訟について">
@@ -24,8 +26,16 @@ ghp-import -n -p -f _build/html
 <meta property="og:image" content="https://minnanosaiban.github.io/hotline/_static/logo.png">
 <meta property="og:url" content="https://minnanosaiban.github.io/hotline/">
 
+```
+
+
 https://minnanosaiban.github.io/hotline/google41b9fb8c20b97e3f.html
 
+## sitemap.xml
+
+https://minnanosaiban.github.io/hotline/sitemap.xmlでアクセスできるようする。
+
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -80,3 +90,13 @@ https://minnanosaiban.github.io/hotline/google41b9fb8c20b97e3f.html
 
 ```
 
+## robots.txt
+
+https://minnanosaiban.github.io/hotline/robots.txtでアクセスできるようにする
+
+```
+User-agent: *
+Disallow: /private/
+Allow: /public/
+Sitemap: https://minnanosaiban.github.io/hotline/sitemap.xml
+```
