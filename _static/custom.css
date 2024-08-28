@@ -90,7 +90,7 @@ hr {
 }
 .strong_rd {
   font-weight:bold;
-  color:#ff6347;
+  color:#e74c3c;
 }
 .link_u {
   color: #579aca; 
@@ -98,7 +98,7 @@ hr {
   text-decoration-color: #579aca; 
 }
 .u_rd {
-  border-bottom: 1px solid #ff6347;
+  border-bottom: 1px solid #e74c3c;
 }
 .u_or {
   border-bottom: 2px solid #f37726;
@@ -155,10 +155,10 @@ a:visited:hover {
   font-weight: bold;
 }
 .imp {
-  border-bottom: 0.1px solid #ff6347;
+  border-bottom: 0.1px solid #e74c3c;
 }
 .imp:hover {
-  color: #ff6347; 
+  color: #e74c3c; 
   font-weight: bold;
   border-bottom: 0.1px solid #00000000;
 }

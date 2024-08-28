@@ -45,25 +45,19 @@ https://minnanosaiban.github.io/hotline/sitemap.xmlでアクセスできるよ�
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://minnanosaiban.github.io/hotline/2021allegation</loc>
+    <loc>https://minnanosaiban.github.io/hotline/eneos_allegation</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://minnanosaiban.github.io/hotline/2021judgment</loc>
+    <loc>https://minnanosaiban.github.io/hotline/eneos_compliance</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://minnanosaiban.github.io/hotline/2021law</loc>
-    <lastmod>2024-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://minnanosaiban.github.io/hotline/2021lawsuit</loc>
+    <loc>https://minnanosaiban.github.io/hotline/whistleblower_protection_act</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -75,13 +69,31 @@ https://minnanosaiban.github.io/hotline/sitemap.xmlでアクセスできるよ�
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://minnanosaiban.github.io/hotline/2024law</loc>
+    <loc>https://minnanosaiban.github.io/hotline/2024background</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://minnanosaiban.github.io/hotline/2024lawsuit</loc>
+    <loc>https://minnanosaiban.github.io/hotline/2021judicial_interpretation</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021judgment</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021allegation</loc>
+    <lastmod>2024-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://minnanosaiban.github.io/hotline/2021background</loc>
     <lastmod>2024-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -89,6 +101,8 @@ https://minnanosaiban.github.io/hotline/sitemap.xmlでアクセスできるよ�
 </urlset>
 
 ```
+
+
 
 ## robots.txt
 
