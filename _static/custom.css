@@ -143,7 +143,6 @@ a:hover {
   color: #579aca; /* ホバー時の文字色 */
   text-decoration: underline; /* ホバー時の下線 */
   text-decoration-color: #579aca; /* ホバー時の下線色 */
-  font-weight: bold;
 }
 a:visited {
   color: inherit; /* 親要素から色を継承 */
