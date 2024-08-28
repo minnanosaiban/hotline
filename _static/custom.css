@@ -134,6 +134,18 @@ a.reference.internal.nav-link:hover {
   transform: translate(-50%);
   z-index: 1080;
 }
+.toc-entry a.nav-link.active {
+  background-color: transparent;
+  box-shadow: inset max(3px, .1875rem, .12em) 0 0 #f37726;
+  color: #f37726;
+  font-weight: 600;
+}
+nav.bd-links .current>a {
+  background-color: transparent;
+  box-shadow: inset max(3px, .1875rem, .12em) 0 0 #f37726;
+  color: #f37726;
+  font-weight: 600;
+}
 
 a {
   color: inherit; /* 親要素から色を継承 */
