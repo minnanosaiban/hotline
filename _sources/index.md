@@ -15,7 +15,7 @@
 <a href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf"><span class="link_u">ニュースリリース | ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a> 
 
 <p class="base" style="margin-top: 1.6em;">
-しかし、裁判では、「規程類の遵守の徹底を図る義務がある」という原告の主張に対し、<span class="strong_rd">「仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。」</span>と主張しています。
+しかし、裁判では、「（コンプライアンスホットライン規程等、）規程類の遵守の徹底を図る義務がある」という原告の主張に対し、<span class="strong_rd">「仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。」</span>と主張しています。
 
 <p class="k" style="margin-top: 1.6em;">
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_111e"><span class="link_u">被告準備書面（４） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
