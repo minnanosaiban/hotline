@@ -1,33 +1,9 @@
 <p class="top">上部はダークモードスイッチ等のメニューです
 
-# 訴訟について
-
-## １　訴訟について
----
-<p class="base" style="margin-top: 1.6em; ">
-本件訴訟は、勤務先の内部通報制度を利用した原告が、相手方の対応につき、
-<p class="hg-idt2">
-● 東京証券取引所が定める「コーポレートガバナンス・コード」
-<p class="hg-idt2">
-● ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針
-<p class="hg-idt2">
-● ＥＮＥＯＳ行動基準
-<p class="hg-idt2">
-● コンプライアンスホットライン規程
-<p class="hg-idt2">
-● 内部統制システムの整備・運用に関する基本方針
-<p class="base">
-に違反したと主張している訴訟です。
-
-<p class="base" style="margin-top: 1.6em; ">
-以下、それぞれ、「ガバナンス・コード」、「ガバナンス基本方針」、「ＥＮＥＯＳ行動基準」、「ホットライン規程」、「内部統制基本方針」といいます。
-
-<p class="base" style="margin-top: 1.6em; ">
-<a href="https://minnanosaiban.github.io/hotline/2024law.html">相手方が違反した規程は、こちらに記載しています。<span class="link_u"><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+# 経緯等
 
 
-
-## ２　ＥＮＥＯＳの違反について
+## １　違反について
 ---
 <p class="base" style="margin-top: 1.6em;">
 本件訴訟で問題となっている違反（原告の主張）は、以下のとおりです。違反Ａ、違反Ｂ、違反Ｃの３つに整理しました。
@@ -58,7 +34,7 @@
 </div>
 
 
-## ３　調査報告について
+## ２　調査報告について
 ---
 
 <p class="base" style="margin-top: 1.6em;">
@@ -92,7 +68,7 @@
 
 
 
-## ４　通報事実について
+## ３　通報内容について
 ---
 <p class="base" style="margin-top: 1.6em;">
 通報内容に関する事実は、以下の事実です。事実Ａ、事実Ｂ、事実Ｃの３つに整理しました。
@@ -142,7 +118,7 @@
 
 
 
-## ５　経緯について
+## ４　経緯について
 ---
 <div class="base">
 
