@@ -90,7 +90,7 @@ hr {
 }
 .strong_rd {
   font-weight:bold;
-  color:#C54454;
+  color:#cc0000;
 }
 .link_u {
   color: #579aca; 
@@ -98,7 +98,7 @@ hr {
   text-decoration-color: #579aca; 
 }
 .u_rd {
-  border-bottom: 1px solid #C54454;
+  border-bottom: 1px solid #cc0000;
 }
 .u_or {
   border-bottom: 2px solid #f37726;
@@ -134,6 +134,19 @@ a.reference.internal.nav-link:hover {
   transform: translate(-50%);
   z-index: 1080;
 }
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #f37726;
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 
 
 a {
@@ -157,10 +170,10 @@ a:visited:hover {
   font-weight: bold;
 }
 .imp {
-  border-bottom: 0.1px solid #C54454;
+  border-bottom: 0.1px solid #cc0000;
 }
 .imp:hover {
-  color: #C54454; 
+  color: #cc0000; 
   font-weight: bold;
   border-bottom: 0.1px solid #00000000;
 }
