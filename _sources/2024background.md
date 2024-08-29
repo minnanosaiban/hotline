@@ -24,6 +24,7 @@
 <p class="base" style="margin-top: 1.6em;">
 これは、ＥＮＥＯＳ行動基準第１項 ⑴ 、同第１１項 ⑶ 、同第１２項 ⑶ 、内部統制システム基本方針第５項 ⑴ 、同 ⑶ 、コンプライアンスホットライン規程３．６ ⑴ の違反に違反します。
 
+<div class="base" style="margin-top: 1.6em;">
 
 ````{card}
 <p class="q" style="margin-top: 1.6em;">
