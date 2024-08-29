@@ -24,7 +24,7 @@
 　このような認識のもと、当社は、以下のとおり、当社グループのコーポレートガバナンスを構築・運営します。
 
 <p class="q" style="margin-top: 1.4em;">
-出典：https://www.hd.eneos.co.jp/esgdb/governance/system.html
+出典：<a href="https://www.hd.eneos.co.jp/esgdb/governance/system.html">https://www.hd.eneos.co.jp/esgdb/governance/system.html</a>
 
 <p class="q" style="margin-top: 1.4em;">
 
@@ -42,7 +42,7 @@
 　なお、この基本方針は、当社の株主をはじめ、当社グループのお客様、お取引先、従業員、地域社会等あらゆるステークホルダーに対するコミットメントとして、当社のウェブサイト等に開示しています。
 
 <p class="q" style="margin-top: 1.4em;">
-出典：https://www.hd.eneos.co.jp/esgdb/governance/system.html
+出典：<a href="https://www.hd.eneos.co.jp/esgdb/governance/system.html">https://www.hd.eneos.co.jp/esgdb/governance/system.html</a>
 
 <p class="q" style="margin-top: 1.4em;">
 
@@ -83,7 +83,7 @@
 上場会社は、その従業員等が、不利益を被る危険を懸念することなく、違法または不適切な行為・情報開示に関する情報や真摯な疑念を伝えることができるよう、また、伝えられた情報や疑念が客観的に検証され適切に活用されるよう、内部通報に係る適切な体制整備を行うべきである。取締役会は、こうした体制整備を実現する責務を負うとともに、その運用状況を監督すべきである。 
 
 <p class="q" style="margin-top: 1.4em;">
-出典：https://www.jpx.co.jp/equities/listing/cg/
+出典：<a href="https://www.jpx.co.jp/equities/listing/cg/">https://www.jpx.co.jp/equities/listing/cg/</a>
 
 <p class="q" style="margin-top: 1.4em;">
 
@@ -124,7 +124,7 @@
 <p class="q">
 　当社は、東京証券取引所が定める「コーポレートガバナンス・コード」の趣旨に賛同し、当社がコーポレートガバナンスを構築・運営する上で有効と考えることから、全ての原則に応諾することを基本方針とし、ＥＮＥＯＳグループとしてこれを実践する。
 <p class="q" style="margin-top: 1.4em;">
-出典：https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf
+出典：<a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf</a>
 <p class="q" style="margin-top: 1.4em;">
 
 ```` 
@@ -158,7 +158,7 @@
 私たちは、この行動基準に違反する事態が発生した場合、その原因を徹底して究明するとともに、効果的な再発防止策を定め、これを遂行します。
 
 <p class="q" style="margin-top: 1.4em;">
-出典：https://www.hd.eneos.co.jp/company/conduct.html
+出典：<a href="https://www.hd.eneos.co.jp/company/conduct.html">https://www.hd.eneos.co.jp/company/conduct.html</a>
 <p class="q" style="margin-top: 1.4em;">
 
 
@@ -204,7 +204,7 @@
 当社とグループ会社の使命・目的、基本的役割、意思決定の権限体系等、ＥＮＥＯＳグループの運営に関する基本的な事項を規程類において定めるとともに、ＥＮＥＯＳグループ全体に適用されるべき規程類を整備・運用し、これら規程類のグループ各社における共有および遵守の徹底を図る。
 
 <p class="q" style="margin-top: 1.4em;">
-出典：https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf
+出典：<a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf">https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf</a>
 <p class="q" style="margin-top: 1.4em;">
 
 ```` 
