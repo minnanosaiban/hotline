@@ -17,7 +17,7 @@
 <p class="base" style="margin-top: 1.6em;">
 判決文からすると、<span class="strong_rd">裁判所は、ハラスメントなどによって被害を受けたことを訴える通報ではない場合は、信義則上の調査義務等がないと判断した</span>と考えられます。
 
-<p class="k" style="margin-top: 1.6em;">
+<p class="link" style="margin-top: 1.6em;">
 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan1"><span class="link_u">判決文全文 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 <div class="base" style="margin-top: 1.6em;">
@@ -39,9 +39,9 @@
 <p class="base" style="margin-top: 1.6em;">
 判決文で引用している最高裁判決「イビデン事件」は、法令遵守体制の相談窓口制度の運用を理由に、相談窓口制度の利用者に対する信義則上の義務を負う場合があることを認めた裁判であり、この点において、学説等で議論されるなど、注目された判決です。
 
-<p class="k" style="margin-top: 1.6em;">
+<p class="link" style="margin-top: 1.6em;">
 <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><span class="link_u">裁判例結果詳細 | 裁判所 - Courts in Japan</span></a>
-<p class="k">
+<p class="link">
 <a href="https://minnanosaiban.github.io/hotline/whistleblower_protection_act.html#ibiden"><span class="link_u">公益通報に関する法令・判例 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 <p class="base" style="margin-top: 1.6em;">
@@ -54,7 +54,7 @@
 <p class="base" style="margin-top: 1.6em;">
 判決文からすると、<span class="strong_rd">「事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえ」ないと判断した</span>と考えられます。
 
-<p class="k" style="margin-top: 1.6em;">
+<p class="link" style="margin-top: 1.6em;">
 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html#handan2"><span class="link_u">判決文全文 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 <div class="base" style="margin-top: 1.6em;">
 
@@ -83,7 +83,7 @@
 <p class="base" style="margin-top: 1.6em;">
 調査補助者とは、通報対応業務を行う従事者です。裁判所は、<span class="strong_rd">「調査の過程で調査補助者に告げたにすぎない疑問事項」</span>と判断していますが、「公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説」と相反する判断です。
 
-<p class="k" style="margin-top: 1.6em;">
+<p class="link" style="margin-top: 1.6em;">
 <a href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><span class="link_u">公益通報者保護法に基づく指針（令和３年内閣府告示第118号）の解説 | 消費者庁 (caa.go.jp) </span></a>
 
 
