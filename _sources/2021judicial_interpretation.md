@@ -66,6 +66,8 @@
 <p class="q" style="margin-top: 1.4em;">
 出典：令和４年１２月２２日判決２５頁
 
+<p class="q" style="margin-top: 1.4em;">
+
 ````
 
 </div>
