@@ -796,6 +796,11 @@ p {
     margin-right:0;
     margin-left:0;
   }
+  .link {
+    margin-right:0;
+    margin-left:0;
+    font-size:14px;
+  }
   .twitter {
     margin-right:0;
     margin-left:0;
