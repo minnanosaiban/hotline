@@ -75,11 +75,10 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ````{card}
-<p class="q" style="margin-top: 1.6em;">
+<p class="q16" style="margin-top: 1em;">
 <b>違反Ａ</b>
-<p class="q">
+<p class="q16" style="margin-top: 1em; margin-bottom: 1em;">
 通報者である原告に対して従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実の存在を伏せた行為
-<p class="q" style="margin-top: 1.6em;">
 ```` 
 </div>
 
@@ -92,11 +91,10 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ````{card}
-<p class="q" style="margin-top: 1.6em;">
+<p class="q16" style="margin-top: 1em;">
 <b>違反Ｂ</b>
-<p class="q">
+<p class="q16" style="margin-top: 1em; margin-bottom: 1em;">
 是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為
-<p class="q" style="margin-top: 1.6em;">
 ```` 
 </div>
 
@@ -109,11 +107,10 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ````{card}
-<p class="q" style="margin-top: 1.6em;">
+<p class="q16" style="margin-top: 1em;">
 <b>違反Ｃ</b>
-<p class="q">
+<p class="q16" style="margin-top: 1em; margin-bottom: 1em;">
 法令等に違反する事実又は違反するおそれのある事実に対する徹底した原因究明及び効果的な再発防止策を実行しなかった行為
-<p class="q" style="margin-top: 1.6em;">
 ```` 
 </div>
 
