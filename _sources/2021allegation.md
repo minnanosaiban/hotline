@@ -14,7 +14,7 @@
 <a name="saikousai"></a>
 
 ---
-<p class="q16" style="margin-top: 1em;">
+<p class="base" style="margin-top: 1.6em;">
 原判決の判示は、以下のとおりです。
 <div class="base" style="margin-top: 1.6em;">
 

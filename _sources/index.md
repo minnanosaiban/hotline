@@ -23,7 +23,7 @@
 と主張しています。
 
 <p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_111e"><span class="link_u">被告準備書面（４） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_211e"><span class="link_u">被告準備書面（４） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 
 <!--<div class="twitter">-->
