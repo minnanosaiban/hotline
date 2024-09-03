@@ -77,11 +77,11 @@
 
 <p class="link" style="margin-top: 1.6em;">
 <a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf"><span class="link_u">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針｜ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a>
-<p class="link" style="margin-top: 1.6em;">
+<p class="link">
 <a href="https://www.hd.eneos.co.jp/company/conduct.html"><span class="link_u">グループ行動基準｜会社情報｜ＥＮＥＯＳホールディングス (eneos.co.jp) </span></a>
-<p class="link" style="margin-top: 1.6em;">
+<p class="link">
 <a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf"><span class="link_u">内部統制システムの整備・運用に関する基本方針｜ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a>
-<p class="link" style="margin-top: 1.6em;">
+<p class="link">
 <a href="https://www.jpx.co.jp/equities/listing/cg/tvdivq0000008jdy-att/nlsgeu000005lnul.pdf"><span class="link_u">コーポレート・ガバナンス・コード | 日本取引所グループ (jpx.co.jp) </span></a>
 
 <div class="base" style="margin-top: 1.6em;">
