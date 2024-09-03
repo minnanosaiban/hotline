@@ -46,8 +46,6 @@
 原告は、相手方が法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知していたことを主張しています。これに対する相手方の主張は以下の枠内のみですので、まだまだ議論が必要と考えます。
 
 <p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_12"><span class="link_u">原告第３準備書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_222u"><span class="link_u">被告準備書面（２） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 <div class="base" style="margin-top: 1.6em;">
@@ -194,7 +192,7 @@
 　④´ 被告は、本件通報について、本件内部通報制度に基づいて適切に対応すべき信義則上の義務を負っていたところ、本件規程３．６ ⑴ イ又はウに違反したことは、かかる信義則上の義務の違反を構成する。
 
 <p class="q" style="margin-top: 1.4em;">
-出典：<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_241a">答弁書第３の１</a>
+出典：<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_31">答弁書第３の１</a>
 <p class="q" style="margin-top: 1.4em;">
 
 ```` 
@@ -260,7 +258,7 @@
 ---
 
 <p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_34"><span class="link_u">被告準備書面（３）- ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_261i"><span class="link_u">被告準備書面（３）- ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 <div class="base" style="margin-top: 1.6em;">
 
