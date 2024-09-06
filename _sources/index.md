@@ -26,11 +26,6 @@
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_211e"><span class="link_u">被告準備書面（４） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 
-<!--<div class="twitter">-->
-<!--<blockquote class="twitter-tweet">-->
-<!--</div>-->
-
-
 ## ３　法律のココが問題！
 ---
 <p class="base" style="margin-top: 1.6em;">
@@ -135,15 +130,16 @@
 ## ７　ウェブサイトの記載について
 ---
 <p class="base" style="margin-top: 1.6em;">
-引用以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。もし私の解釈に誤りがあると感じられる場合は、GitHub issues や X-Twitter でご指摘いただければ幸いです。
+引用以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。もし私の解釈に誤りがあると感じられる場合は、X-Twitter でご指摘いただければ幸いです。
 
 <div class="base" style="margin-top: 1.6em;">
 
-[<i class="fa-brands fa-github"></i> GitHub issues <span class="link_u"><i class="fa-solid fa-up-right-from-square"></i>](https://github.com/minnanosaiban/hotline/issues)
-
-[<i class="fa-brands fa-twitter"></i> X-Twitter <span class="link_u"><i class="fa-solid fa-up-right-from-square"></i>](https://twitter.com/minnanosaiban)
+```{raw} html
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">「被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。」<br><br>という判示でした。<br><br>内部通報制度の調査は、通報者のためにされるものではないというのがその理由です。… <a href="https://t.co/5lVUnzqIYl">https://t.co/5lVUnzqIYl</a></p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1831723989124968742?ref_src=twsrc%5Etfw">September 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 </div>
+
 
 ## <span style="color: #00000000;">エネオスのコンプライアンスホットラインに関する訴訟について</span>
 
