@@ -1471,7 +1471,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下について、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下について、<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 
@@ -1853,13 +1853,13 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告は、本件訴訟における」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「被告は、本件訴訟における」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">被告は、本件訴訟における原告の主張を合理的に解釈するとして、答弁書において、④ → ④´ の対応付けを示しているものの<sup>9</sup>、当然ながら、これは、被告独自の解釈にすぎないというべきものである。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「最高裁平成３０年」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「最高裁平成３０年」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁（以下「最高裁平成３０年判決」という。）は、相談窓口制度の利用者に対する信義則上の義務を負う場合と、相談窓口制度の運用を定める規程類の存在の有無との関係を示していないところ、本件規程のような社内規程が存在しない場合でも、信義則上の義務違反が適用される可能性があると考えられる。
 
@@ -1871,7 +1871,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そこで」以下（表５を含む）について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「そこで」以下（表５を含む）について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">そこで、上記のふたつの判決から、内部通報制度を整備している会社が、通報に係る通報の内容等に応じて適切に対応していない場合、その違反行為に適用しうる法令等を整理すると、表５（マトリクス表）のとおりである。
 
@@ -1889,7 +1889,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告における」以下について、被告には、本件内部通報制度の運用を定める本件規程が存在していること、本件通報が、不正行為等によって直接被害を受けた者が不正行為等を通報した場合ではないことについては、それぞれ認めるが、その余は、事実上の主張については<span class="imp">否認</span>し、法律上の主張については<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「被告における」以下について、被告には、本件内部通報制度の運用を定める本件規程が存在していること、本件通報が、不正行為等によって直接被害を受けた者が不正行為等を通報した場合ではないことについては、それぞれ認めるが、その余は、事実上の主張については<span class="strong_rd">否認</span>し、法律上の主張については<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">被告における法令遵守体制は、本件内部通報制度の運用を定める本件規程が存在している状況である。また、本件是正措置等の実行は、被告が本件支払手続に係る支払の内容に関する契約内容を把握したことにより実行したものであるため、不正行為等によって直接被害を受けた者が、不正行為等を通報した場合ではない。そして、被告は、本件内部通報制度において、通報に係る通報の内容等に応じて適切に対応していないところ、被告の違反行為は、表５のケース３に該当する。
 
@@ -1916,39 +1916,39 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「前回訴訟控訴審判決の」以下について、<span class="imp">争う</span>。<br>
+<p class="c_mini"><b>被告の認否</b>　「前回訴訟控訴審判決の」以下について、<span class="strong_rd">争う</span>。<br>
 被告の反論はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q1"><i class="fa-solid fa-link"></i></a> 
 `````
 <p class="k_idt3">前回訴訟控訴審判決の既判力の生じた訴訟物は上記のとおりであるのに対し、本件訴訟訴訟物は、被告が、本件規程１．２ ⑸ に定める通報を受けて、本件規程１．２ ⑼ に定める調査を実施した結果、法令等に違反する事実または違反するおそれのある事実が確認され、当該事実に対する是正措置、再発防止策又は対応策として何かしらの措置及び本件契約の措置を実行したにもかかわらず、被告は、原告に対し、本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったこと（以下「本件訴訟主要事実」という。）についての本件規程違反の存在についてであるところ、同一関係にないことは明らかである。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「そして」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「そして」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">そして、本件訴訟主要事実は、不正行為等によって直接被害を受けた者が、不正行為等を通報した場合ではないところ、表５でも説明できるとおり、前回訴訟控訴審判決の信義則上の義務違反の不存在と、本件訴訟の本件規程違反の存在は非両立ではなく、本件訴訟訴訟物が前回訴訟控訴審判決と矛盾関係にある場合に当たらない。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「さらに」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「さらに」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">さらに、前回訴訟の訴訟物が本件訴訟の訴訟物の前提となっているわけではない以上、前回訴訟控訴審判決が本件訴訟の訴訟物の先決関係にある場合に当たらない。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「以上により」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「以上により」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">以上により、前回訴訟控訴審判決の既判力が本件訴訟に作用しない。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「よって」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">よって、前回訴訟控訴審判決の既判力は本件訴訟に及ばず、原告の主張が既判力によって遮断されることはない。
 <p class="k_hg-idt3"><a name="dai1_213"></a><b>⑶　甲２１の３の情報を得たことにより推定される事実について</b>
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件訴訟で」以下（引用部分を含む。）について、甲第２１号証の３が前回訴訟において書証として提出されていなかったこと、甲第２１号証の３の電子メールに、原告の引用する内容の記載があることは、それぞれ認めるが、その余は、<span class="imp">否認</span>する。
+<p class="c_mini"><b>被告の認否</b>　「本件訴訟で」以下（引用部分を含む。）について、甲第２１号証の３が前回訴訟において書証として提出されていなかったこと、甲第２１号証の３の電子メールに、原告の引用する内容の記載があることは、それぞれ認めるが、その余は、<span class="strong_rd">否認</span>する。
 `````
 
 <p class="k_idt3">本件訴訟で提出した書証のうち、前回訴訟において提出されなかった証拠は、甲２１の３に記載している内容であり、その内容のうち、前回訴訟において、原告及び被告が裁判所に提出した準備書面及び書証から把握できなかった情報は、以下の枠内の下線の部分である。
@@ -1974,7 +1974,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「被告と」以下（表６を含む。）について、表６に記載する事実のうち下線部分以外の事実は認めるが、その余は、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。※被告準備書面⑵第２の１⑶「イ　第２段落」以下（６頁１０行目以下）
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「被告と」以下（表６を含む。）について、表６に記載する事実のうち下線部分以外の事実は認めるが、その余は、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。※被告準備書面⑵第２の１⑶「イ　第２段落」以下（６頁１０行目以下）
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">被告の反論
 <p class="c_mini">　表６に記載する事実のうち下線部分の事実は、原告の主張するような因果関係によるものではないし、原告の主張するような「推定」も働かない。
@@ -2004,7 +2004,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「表６で」以下について、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「表６で」以下について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">被告の反論
 <p class="c_mini">　原告の主張するような因果関係によるものではないし、原告の主張するような「推定」も働かない。
@@ -2015,7 +2015,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「しかし」以下について、原告のいう「本件調査対応協議」が実施されたこと、原告のいう「ＧＳＴ業務移管通知」がなされたこと、ＧＳＴ業務移管通知に基づく業務移管によって、原告は被告と本件豪州企業の間で締結した契約に関する情報から遮断された状態になったことは、それぞれ認めるが、その余は、不知であり又は<span class="imp">否認</span>する。※被告準備書面⑵第２の１⑷「イ　第２段落」以下（７頁１行目以下）
+<p class="c_mini"><b>被告の認否</b>　「しかし」以下について、原告のいう「本件調査対応協議」が実施されたこと、原告のいう「ＧＳＴ業務移管通知」がなされたこと、ＧＳＴ業務移管通知に基づく業務移管によって、原告は被告と本件豪州企業の間で締結した契約に関する情報から遮断された状態になったことは、それぞれ認めるが、その余は、不知であり又は<span class="strong_rd">否認</span>する。※被告準備書面⑵第２の１⑷「イ　第２段落」以下（７頁１行目以下）
 `````
 
 <p class="k_idt3">しかし、本件調査対応協議を実施した後に（甲１５の２及び乙３<sup>11</sup>）、ＧＳＴ業務移管通知がなされ（乙３<sup>12</sup>）、これにより、原告は、被告と本件豪州企業との間で締結した契約に関する情報から遮断された状態になったことから、被告が何かしらの措置又は本件契約の措置を実行した時期又は検討した時期に、これを知らされない状況であった。
@@ -2077,7 +2077,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「そして」以下について、　前回訴訟の第一審及び控訴審の各裁判所が原告のいう「本件調査」に係る調査事項について釈明権を行使しなかったことは認めるが、その余は<span class="imp">否認</span>する。※被告準備書面⑵第２の１⑸「カ　第６段落」以下（９頁１行目以下）
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「そして」以下について、　前回訴訟の第一審及び控訴審の各裁判所が原告のいう「本件調査」に係る調査事項について釈明権を行使しなかったことは認めるが、その余は<span class="strong_rd">否認</span>する。※被告準備書面⑵第２の１⑸「カ　第６段落」以下（９頁１行目以下）
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　前回訴訟第一審判決及び前回訴訟控訴審判決のいずれも、原告の主張する事実として原告のいう「前回訴訟主要事実」を明示的に摘示したうえ（注４）、原告のいう「前回訴訟主要事実」のそれぞれについて、「信義則上の義務違反があったということはできない」（注５）、「信義則上の義務違反であるなどとは到底いえない」（注６）、「信義則上の義務違反があったものとすることはできない」（注７）などと明示的に判示している。
@@ -2089,14 +2089,14 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「前回訴訟における」以下について、<span class="imp">争う</span>。<br>
+<p class="c_mini"><b>被告の認否</b>　「前回訴訟における」以下について、<span class="strong_rd">争う</span>。<br>
 被告の反論はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q3"><i class="fa-solid fa-link"></i></a> 
 `````
 <p class="k_idt3">前回訴訟における情報把握の状況は以上のとおりであるから、原告が前回訴訟において、本件訴訟における訴訟物と同様の主張をして、一回的解決を図ることは、困難であったといえる。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">よって、本件訴訟における原告の主張は、信義則に反せず、許される。
 
@@ -2123,13 +2123,13 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「労働基準法第８９条の」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「労働基準法第８９条の」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">労働基準法第８９条の事項には１０号の「当該事業場の労働者のすべてに適用される定めをする場合においては、これに関する事項」もあり、本件規程も当該事業場の労働者すべてに適用されるから、被告のいう就業規則として使用者たる会社と労働者たる従業員との間に効力を生ずる場合である。
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「本件規程も」以下について、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「本件規程も」以下について、<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">被告の反論
 <p class="c_mini">　労働契約法第７条にいう「就業規則」と労働基準法第８９条にいう「就業規則」とは同じものを意味すると解され（注９）、労働契約法第７条によれば、就業規則は、「労働条件が定められている」ものであることを要すると解されるところ、<b>本件規程は、労働者の「労働条件」を定めているものではない。</b>
@@ -2140,7 +2140,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「仮に本件規程の」以下について<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「仮に本件規程の」以下について<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">仮に本件規程の趣旨が労働条件に関係しないとした場合であっても、会社が自ら一定の場合に一定の行為を具体的に行うことを定めて公表した以上、会社は要件に該当する者に対してそれを行う債務がある。
 
@@ -2203,7 +2203,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「原告と調査補助者との」以下について、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。<br>
+<p class="c_mini"><b>被告の認否</b>　「原告と調査補助者との」以下について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。<br>
 被告の反論はこちら <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_q4"><i class="fa-solid fa-link"></i></a> 
 `````
 <p class="k_idt3">原告と調査補助者との調査過程におけるやり取りは上記のとおりであるから、本件支払手続をした行為に関する調査事項には、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。
@@ -2211,19 +2211,19 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「被告も」以下について、第１文は認めるが、第２文は、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。※被告準備書面⑵第２の２⑷「ア　第１段落」以下（１３頁６行目以下）
+<p class="c_mini"><b>被告の認否</b>　「被告も」以下について、第１文は認めるが、第２文は、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。※被告準備書面⑵第２の２⑷「ア　第１段落」以下（１３頁６行目以下）
 `````
 <p class="k_idt3">被告も認めるとおり<sup>16</sup>、実務上、海外企業が被告に発行する請求書において、海外企業が被告に対してＧＳＴを請求することは、特殊な場合を除いてほとんどない。このような状況のなかで、本件豪州企業が被告に対してＧＳＴを請求していたという事実が存在すれば、売買契約においてＧＳＴに関する定めが存在するという特殊な事情があるかどうかを確認する必要があるのは当然である。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「売買契約において」以下について、第１文は認めるが、第２文は、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。※被告準備書面⑵第２の２⑷「イ　第２段落」以下（１３頁９行目以下）
+<p class="c_mini"><b>被告の認否</b>　「売買契約において」以下について、第１文は認めるが、第２文は、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。※被告準備書面⑵第２の２⑷「イ　第２段落」以下（１３頁９行目以下）
 `````
 <p class="k_idt3">売買契約において役務提供対価にＧＳＴを課す旨の定めが存在する場合は、当然、ＧＳＴを支払う義務がある。一方で、売買契約において役務提供対価にＧＳＴを課す旨の定めが存在しないにもかからわず、支払義務がないＧＳＴ分の金銭を支払っていたような場合は、その支払の行為自体が法令等に違反する事実または違反するおそれのある事実であるのはもちろんのこと、契約条項又は租税条約などの法令等に基づかない支払の行為は、従業員が不正なキックバックを受け取るような不正行為を生ずるおそれがある。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「仮に」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「仮に」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">仮に原告が本件通報、追加通報又は調査補助者に対する追加通報において、契約内容の確認の必要性について告げていないとしても、被告は、被告等の取締役および使用人（従業員）の職務の執行が法令および定款に適合することを確保するための体制の一環として、本件内部通報制度を整備・運用していること（甲２８）、また、本件規程の目的について、被告等における法令等に違反する行為または違反するおそれのある行為を早期に是正し、もって被告等のコンプライアンス体制を強化することである旨が定められていること（本件規程１．１）からすると、本件支払手続をした行為に関する調査事項には、本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていたと推定される。
 
@@ -2232,13 +2232,13 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「本件支払手続を」以下について、被告と本件豪州企業の間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在していなかったこと、被告が本件通報及び原告のいう「調査補助者に対する追加通報」を受けた後に、調査補助者が原告のいう「上司A」と原告のいう「本件調査対応協議」をしたこと、「本件調査対応協議」の後に、被告と本件豪州企業の間で締結した契約において役務提供対価にＧＳＴを課さない旨の定めが置かれたことは、それぞれ認めるが、その余は、事実上の主張については<span class="imp">否認</span>し、法律上の主張については<span class="imp">争う</span>。※被告準備書面⑵第２の２⑸「ア　第１段落」以下（１３頁１６行目以下）
+<p class="c_mini"><b>被告の認否</b>　「本件支払手続を」以下について、被告と本件豪州企業の間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在していなかったこと、被告が本件通報及び原告のいう「調査補助者に対する追加通報」を受けた後に、調査補助者が原告のいう「上司A」と原告のいう「本件調査対応協議」をしたこと、「本件調査対応協議」の後に、被告と本件豪州企業の間で締結した契約において役務提供対価にＧＳＴを課さない旨の定めが置かれたことは、それぞれ認めるが、その余は、事実上の主張については<span class="strong_rd">否認</span>し、法律上の主張については<span class="strong_rd">争う</span>。※被告準備書面⑵第２の２⑸「ア　第１段落」以下（１３頁１６行目以下）
 `````
 <p class="k_idt3">本件支払手続をした行為に関する調査事項は、上記で推定されるとおりであるところ、証拠で明らかになっている事実としても、被告と本件豪州企業との間で締結した契約において役務提供対価にＧＳＴを課す旨の定めが存在していなかったという事実が存在し（甲２１）、また、被告が本件通報及び調査補助者に対する追加通報を受けた後に調査補助者が上司Ａと本件調査対応協議をしたという事実が存在し（甲１５の２及び乙３<sup>17</sup>）、さらに、本件調査対応協議の後に、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置及び本件契約の措置を実行したという事実が存在する（甲２１）。
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「以上により」について、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「以上により」について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">被告の反論
 <p class="c_mini">　原告の主張するような事実は存在しないし、原告の主張するような「推認」も相当でない。
@@ -2255,7 +2255,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「この点」以下について、<span class="imp">否認</span>する。<br>
+<p class="c_mini"><b>被告の認否</b>　「この点」以下について、<span class="strong_rd">否認</span>する。<br>
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　「コンプライアンス違反ではない」又は「いずれも不正行為等に該当しない」との調査結果を報告することは、まさしく「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知するものにほかならない。
@@ -2265,13 +2265,13 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「取引上の社会通念に照らすと」以下について、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「取引上の社会通念に照らすと」以下について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">取引上の社会通念に照らすと、売買契約において税金の支払に関する定めが存在することは一般的な認識であるところ、調査補助者は、原告からの本件調査報告２に係る通知の内容に対する質問に回答する際、原告に対し、「契約書を確認するという行為は、先に述べた通り対応として意味がない行為ですので、行わなかったとしても対応を怠ったことにはなりません。」などと説明しており（甲２５の５）、係る説明の内容が著しく不合理であることからすると、調査補助者は、原告に対し、実際の事実に反して、法令等に違反する事実または違反するおそれのある事実が存在しないかのように説き伏せるために不合理な内容を説明したと推認するのが相当である。
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「以上より」以下について、意味が不明であるが、少なくとも結論については<span class="imp">争う</span>。<br>
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「以上より」以下について、意味が不明であるが、少なくとも結論については<span class="strong_rd">争う</span>。<br>
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">被告の反論
 <p class="c_mini">　答弁書にも述べたとおり（注１２）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、本件通報について、本件規程３．６（１）イ及びウに基づく通知は必要でない。
@@ -2282,7 +2282,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">よって、被告に本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったことについての本件規程違反が存在する。
 
@@ -2302,7 +2302,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「よって」以下について<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt3">よって、被告について、債務不履行に基づく責任又は不法行為に基づく責任が成立し、原告は、被告に対して、１円の支払いを求める。
 
@@ -2406,7 +2406,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の令和６年」以下について、<span class="imp">否認</span>する。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の令和６年」以下について、<span class="strong_rd">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_314"><u>下記 ⑷ </u></a>以下のとおり、原告の主張の要旨としては不正確であるため、否認する。
@@ -2434,7 +2434,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「➂　被告は、本件通報を」以下について、<span class="imp">否認</span>する。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「➂　被告は、本件通報を」以下について、<span class="strong_rd">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　原告が行った本件規程１．２ ⑸ に定める通報は、本件通報、追加通報、調査補助者に対する追加通報であり、本件通報だけではないため否認する。本件訴訟における原告の主張の要旨は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212"><u>上記第２の１ ⑵ </u></a>第２段落のとおりである。
@@ -2451,7 +2451,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「しかし、一般に」以下について、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「しかし、一般に」以下について、<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　これに対する原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_221"><u>上記第２の２ ⑴ </u></a>のとおりである。
@@ -2460,7 +2460,7 @@
 `````
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「もっとも、一般に」以下について、<span class="imp">否認</span>する。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「もっとも、一般に」以下について、<span class="strong_rd">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　最高裁平成３０年判決は、「上記申出の具体的状況いかんによっては、当該申出をした者に対し、当該申出を受け、体制として整備された仕組みの内容、当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される。」と判示している。被告の解釈による対応付けは、「当該申出に係る相談の内容等に応じて」に対応するものが抜けているため、不正確である。
@@ -2469,7 +2469,7 @@
 `````
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「そこで、本件訴訟における」以下について、<span class="imp">否認</span>する。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「そこで、本件訴訟における」以下について、<span class="strong_rd">否認</span>する。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　これに対する否認の理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_211"><u>上記第２の１ ⑴ </u></a>のとおりである。
@@ -2488,7 +2488,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告が被告の本件内部通報制度の通報窓口に対して行った本件通報を含む２件の内部通報について、被告の対応が本件規程の規定に違反しているために信義則上の義務に違反したとして」について、<span class="imp">否認</span>する。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告が被告の本件内部通報制度の通報窓口に対して行った本件通報を含む２件の内部通報について、被告の対応が本件規程の規定に違反しているために信義則上の義務に違反したとして」について、<span class="strong_rd">否認</span>する。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_123"><u>上記第１の２ ⑶ </u></a>第２段落で述べたとおり、「本件通報を含む２件の内部通報について」について、「通報について対応」という表現は、紛らわしい表現又は不正確な表現である。また、前回訴訟第一審判決書第３の２ ⑴ ア （２３頁１９行目以下）は、原告の主張について、「原告が通報窓口担当者に伝えた内容は、特段の理由がない限り、全て通報情報であり、被告は、内部通報を行った従業員である原告に対し、通報情報に関する事実を確認するための調査を行う信義則上の義務を負うなどとした上で、」と記載しており、被告の主張は、正確とはいえないため否認する。
@@ -2506,7 +2506,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟控訴審判決が」以下について、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟控訴審判決が」以下について、<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　これに対する原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_212"><u>上記第２の１ ⑵ </u></a>のとおりである。
@@ -2522,19 +2522,19 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「確かに、原告は」以下について、「本件通報を含む２件の内部通報に関する被告の対応に信義則違反があったことの理由として」については、上記２と同様の理由により<span class="imp">否認</span>する。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「確かに、原告は」以下について、「本件通報を含む２件の内部通報に関する被告の対応に信義則違反があったことの理由として」については、上記２と同様の理由により<span class="strong_rd">否認</span>する。その余は、認める。
 `````
 <p class="k_idt2">確かに、原告は、前回訴訟においては、本件通報を含む２件の内部通報に関する被告の対応に信義則違反があったことの理由として、調査をせず又は調査が不十分であったこと（本件規程１．２ ⑼ 又は３．４の違反）、調査を実施しない場合の通知をしなかったこと（同規程３．１ ⑴ の違反）、通報情報の厳重な管理を行わなかったこと（同規程３．１２の違反）、役員等への報告を適正に行っていなかったこと（同規程３．２ ⑴ 又は３．６ ⑶ の違反）、原告に対して再度の通報が可能であるとの通知をしなかったこと（同規程３．６ ⑴ エの違反）、本件通報を理由に不利益な取扱いをしたこと（同規程２．４ ⑴ 又は３．１１ ⑴ の違反）など、多数の本件規程違反を主張していたものの（乙第３号証（注１２））、本件訴訟において主張している、原告に対して是正措置、再発防止策又は対応策を実施したとの通知をしなかったこと（同規程３．６ ⑴ イ又はウの違反）については、主張していなかった（乙第３号証）。
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「しかし、原告は」以下について、「「前回訴訟においては」以下については、上記２と同様の理由に加えて、「ほとんど網羅的な主張」という表現も曖昧な表現であるため<span class="imp">否認</span>する。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「しかし、原告は」以下について、「「前回訴訟においては」以下については、上記２と同様の理由に加えて、「ほとんど網羅的な主張」という表現も曖昧な表現であるため<span class="strong_rd">否認</span>する。その余は、認める。
 `````
 <p class="k_idt2">しかし、原告は、本件通報後の平成３０年１１月２７日にも、本件内部通報制度の社内通報窓口の電子メールアドレス宛に、本件通報に関連する事実について内部通報（以下<b>「追加通報」</b>という。）を行っており（乙第３号証（注１３）・乙第９号証）、前回訴訟においては、本件通報及び追加通報の２件の内部通報に関する被告の対応について、被告に信義則違反があったことの理由として、上記のとおり多数の本件規程違反を主張していたのであり、本件通報に関連する本件規程違反については、ほとんど網羅的な主張を行っていたはずである。
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「そして、原告は」以下について、「原告には、前回訴訟において」以下については、<span class="imp">争う</span>。その余は認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「そして、原告は」以下について、「原告には、前回訴訟において」以下については、<span class="strong_rd">争う</span>。その余は認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　これに対する否認の理由及び原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_213"><u>上記第２の１ ⑶ </u></a>ないし ⑸ のとおりである。
@@ -2577,7 +2577,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「よって」以下について、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「よって」以下について、<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　これに対する原告の主張は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai1_22"><u>上記第２の２</u></a>のとおりである。
@@ -2603,7 +2603,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「以上からすると」以下について、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「以上からすると」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt2">以上からすると、前記４により、<b>本件訴訟における原告の訴えは、不適法として却下されるべき</b>であり、そうでなくても、前記３、５又は６により、<b>本件訴訟における原告の請求は、理由がないものとして棄却されるべき</b>である。
 
@@ -2720,7 +2720,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟の」以下については、<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「前回訴訟の」以下については、<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt1">前回訴訟の確定判決が正当に認定及び判断しているとおり、被告は、原告による本件通報及び追加通報のいずれについても、本件内部通報制度に基づいて極めて真摯かつ丁寧に対応しており（注２２）、当然のことながら本件規程にも何ら違反していない（注２３）。
 <p class="k_idt1">本件訴訟における原告の訴えが不適法であること及び原告の請求に理由がないことは、いずれも明白であるから、被告としては、貴庁において、速やかに弁論を終結し、速やかに訴え却下又は請求棄却の判決を下されるよう、強く要望するものである。
@@ -2865,7 +2865,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「ちなみに」以下について、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「ちなみに」以下について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　確かに、被告の法務部長は、本件通報に係る通報情報を、本件規程３．２ ⑴ 各号に列挙する関係役員等に報告していなかったが、それは、法務部長が、本件通報を、本件規程１．２ ⑸ にいう「通報」ではなく、同規程２．３にいう「相談」として取り扱ったためであり、前回訴訟の確定判決も、本件通報の内容が「将来的に法人税法等の法令違反に該当する可能性があるのか、分からないため、相談させていただきたい。」というものだったこと（乙第２号証）に照らすと、かかる取扱いも不合理なものではないと判示している（乙第３号証〔注２１〕）。
@@ -3101,7 +3101,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「上記ウで述べた」以下について、<span class="imp">否認</span>する。
+<p class="c_mini"><b>被告の認否</b>　「上記ウで述べた」以下について、<span class="strong_rd">否認</span>する。
 
 `````
 <p class="k_hg-idt4">エ　上記ウで述べた被告が本件契約を締結した事実、及び本件豪州企業が被告に対してＧＳＴを請求していたのは平成２９年４月までであった事実からすると、本件豪州企業に対するＧＳＴの支払いが契約に基づいていないこと、又は契約に基づいていないおそれがあることを、被告が本件通報を受けたことにより把握したから、是正措置、再発防止策又は対応策を実行したことが明らかである。
@@ -3114,7 +3114,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては<span class="imp">否認</span>し、法律上の主張としては<span class="imp">争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>被告の認否</b>　「したがって」以下について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">否認の理由
 <p class="c_mini">　理由は、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35"><u>前記第３の５</u></a>に詳述したとおりである。
@@ -3132,7 +3132,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>被告の認否</b>　「よって」以下について、<span class="imp">争う</span>。
+<p class="c_mini"><b>被告の認否</b>　「よって」以下について、<span class="strong_rd">争う</span>。
 `````
 <p class="k"><a name="sojou_3"></a><b>第３　まとめ</b>
 <p class="k_idt1">よって、被告について、民法第４１５条の債務不履行に基づく責任又は民法第７０９条の不法行為に基づく責任が成立し、原告は、被告に対して、１円の支払いを求める。
