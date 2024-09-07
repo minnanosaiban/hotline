@@ -135,7 +135,7 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ```{raw} html
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">「被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。」<br><br>という判示でした。<br><br>内部通報制度の調査は、通報者のためにされるものではないというのがその理由です。… <a href="https://t.co/5lVUnzqIYl">https://t.co/5lVUnzqIYl</a></p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1831723989124968742?ref_src=twsrc%5Etfw">September 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">通報すれば調査が行われるものと普通に考えてしまいますが、<br><br>実は、内部通報制度は通報者に対して調査をする義務はありません。<br><br>私も勘違いしていました。<br><br>でも、やっぱり裁判所の判示は納得いかない部分が多々あります。…</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1832240288318025931?ref_src=twsrc%5Etfw">September 7, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
 </div>
