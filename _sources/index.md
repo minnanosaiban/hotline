@@ -66,8 +66,6 @@
 ## ５　内部通報制度における違反
 ---
 <p class="base" style="margin-top: 1.6em;">
-原告から通報を受けたことにより、相手が行った違反行為を、違反Ａ、違反Ｂ、違反Ｃの３つに整理します。
-<p class="base" style="margin-top: 1.6em;">
 相手方は、内部通報制度における活動において、相手方が自ら定めたコンプライアンス遵守に関する方針やＥＮＥＯＳ行動基準に違反しています。
 
 <p class="link" style="margin-top: 1.6em;">
@@ -78,6 +76,9 @@
 <a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf"><span class="link_u">内部統制システムの整備・運用に関する基本方針｜ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a>
 <p class="link">
 <a href="https://www.jpx.co.jp/equities/listing/cg/tvdivq0000008jdy-att/nlsgeu000005lnul.pdf"><span class="link_u">コーポレート・ガバナンス・コード | 日本取引所グループ (jpx.co.jp) </span></a>
+
+<p class="base" style="margin-top: 1.6em;">
+原告から通報を受けたことにより、相手が行った違反行為を、違反Ａ、違反Ｂ、違反Ｃの３つに整理します。
 
 <div class="base" style="margin-top: 1.6em;">
 
