@@ -19,8 +19,17 @@
 
 <p class="base" style="margin-top: 1.6em;">
 であり、調査すべき事項は上記に関することであると主張しています。
+
+<p class="link" style="margin-top: 1.6em;">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122"><span class="link_u">原告第２準備書面第１の２ ⑵ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+<p class="link">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123"><span class="link_u">原告第２準備書面第１の２ ⑶ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+<p class="link">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124"><span class="link_u">原告第２準備書面第１の２ ⑷ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+
+
 <p class="base" style="margin-top: 1.6em; ">
-これに対して、相手方は、理由を述べずに「否認する」と主張しています。調査する側であった相手方の主張からすると、具体的に何を調査したのか依然として不明瞭です。<span class="strong_rd">相手方に対して、内部通報制度における調査事項が確認できる一切の書類の送付を求める必要があります</span>。
+これに対して、相手方は、理由を述べずに「否認する」と主張しています。調査する側であったはずの相手方の主張からすると、具体的に何を調査したのか依然として不明瞭です。<span class="strong_rd">相手方に対して、内部通報制度における調査事項が確認できる一切の書類の送付を求める必要があります</span>。
 <p class="base" style="margin-top: 1.6em; ">
 なお、内部通報制度における調査報告は、以下のとおりでした。
 
