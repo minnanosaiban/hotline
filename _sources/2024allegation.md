@@ -1504,7 +1504,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「表６に記載する事実のうち下線部分の事実は」以下について、<span class="imp">否認ないし争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「表６に記載する事実のうち下線部分の事実は」以下について、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。これにより、被告は、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置、及び本件契約の措置を実行した。
@@ -1518,7 +1518,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の主張するような」以下について、<span class="imp">否認ないし争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「原告の主張するような」以下について、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 `````
 <p class="k_idt4">原告の主張するような因果関係によるものではないし、原告の主張するような「推定」も働かない。
 <p class="k_hg-idt4"><b>イ　第２段落（「しかし」以下）（１４頁）について</b>
@@ -1565,7 +1565,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span class="imp">否認ないし争う</span>。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 
@@ -1620,7 +1620,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「とすれば、」から「とはいえない。」までについては、<span class="imp">否認ないし争う</span>。その余は、認める。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「とすれば、」から「とはいえない。」までについては、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。その余は、認める。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かという調査事項を調査することは、まさしく、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響する事実を確認することである。一方で、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_132"><u>上記第１の３ ⑵ </u></a>のとおり、被告は、原告に対し、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知していたのであり、被告の行為は、不合理かつ悪質である。
@@ -1658,7 +1658,7 @@
 
 
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下については、<span class="imp">否認ないし争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「答弁書にも」以下については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。また、被告が本件規程３．６ ⑴ に定める通知をする義務があることは、<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_113"><u>上記第１の１ ⑶ </u></a>のとおりである。
@@ -2553,7 +2553,7 @@
 <p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　「本件規程３．６ ⑴ イ・ウ」以下について、認める。
 `````
 `````{margin} 
-<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　被告が「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知したつもりであったのであれば、被告がその通知をしたつもりであったことを認める。ただし、太字の「本件通報に関する調査結果は」以下については、<span class="imp">否認ないし争う</span>。
+<p class="c_mini" style="margin-bottom: 0.5em;"><b>原告の認否</b>　被告が「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知したつもりであったのであれば、被告がその通知をしたつもりであったことを認める。ただし、太字の「本件通報に関する調査結果は」以下については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 
 ```{dropdown} <p class="c_mini"  style="padding: 0; margin: 0; line-height:1; font-weight: normal;">原告の反論
 <p class="c_mini">　被告は、法令等に違反する事実又は違反するおそれのある事実の存在を把握したのであるから、その事実の存在を伏せるのではなく、本件規程３．６ ⑴ イ及びウに基づく通知をするべきである。
