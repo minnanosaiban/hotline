@@ -39,7 +39,7 @@
 </div>
 
 
-## ２　調査で確認する事項
+## ２　通報に対して調査すべき事項
 ---
 
 <p class="base" style="margin-top: 1.6em; ">
