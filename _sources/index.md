@@ -35,7 +35,7 @@
 そして、不正があったか否かの結果を通報者に対して伝える際、その判断過程を伝える必要がありません。
 
 <p class="base" style="margin-top: 1.6em;">
-再発防止策等を問われても、「不正行為等には該当しないと結論づけられたもの」という主張が成り立つようです。
+相手方の主張によると、通報者に対する通知や再発防止策等の不実施を問われても、「不正行為等には該当しないと結論づけられたもの」という理由が成り立つようです。
 
 <p class="link" style="margin-top: 1.6em;">
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35"><span class="link_u">答弁書 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
