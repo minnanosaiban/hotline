@@ -66,7 +66,7 @@
 ## ５　内部通報制度における違反
 ---
 <p class="base" style="margin-top: 1.6em;">
-相手方は、内部通報制度における活動において、相手方が自ら定めたコンプライアンス遵守に関する方針やＥＮＥＯＳ行動基準に違反しています。
+<span class="strong_rd">相手方は、内部通報制度における活動において、内部通報により把握した法令等に違反する事実又は違反するおそれのある事実の存在を伏せました。これは、相手方が自ら定めたコンプライアンス遵守に関する方針やＥＮＥＯＳ行動基準に違反しています。</span>
 
 <p class="link" style="margin-top: 1.6em;">
 <a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf"><span class="link_u">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針｜ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a>
