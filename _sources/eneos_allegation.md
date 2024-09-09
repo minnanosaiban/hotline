@@ -97,11 +97,11 @@
 
 <p class="link" style="margin-top: 1.6em;">
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_12"><span class="link_u">原告第３準備書面第１の２ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
 
 <p class="base" style="margin-top: 1.6em; ">
 原告の指摘に対して、相手方は、以下のとおり主張しています。
 
+<p class="link" style="margin-top: 1.6em;">
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_4"><span class="link_u">被告準備書面（４）第４ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 <div class="base" style="margin-top: 1.6em;">
