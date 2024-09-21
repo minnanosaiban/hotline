@@ -3,6 +3,17 @@
 # <span style="color: #f37726;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 
 
+````{card} 
+:link: https://minnanosaiban.github.io/hotline/2024allegation.html
+
+<p class="q_center" style="margin-top: 1.6em;">
+<b>令和６年８月１４日は、第３回口頭弁論です。</b>
+<p class="q_center" style="margin-top: 1.6em;">
+ＥＮＥＯＳと原告の主張書面を掲載しています。
+<p class="base" style="margin-top: 1.6em;">
+
+````
+
 ## １　ウェブサイトについて
 ---
 <p class="base" style="margin-top: 1.6em;">
@@ -134,7 +145,15 @@
 ## ７　ウェブサイトの記載について
 ---
 <p class="base" style="margin-top: 1.6em;">
-引用以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。もし私の解釈に誤りがあると感じられる場合は、X-Twitter でご指摘いただければ幸いです。
+裁判文書の引用以外の文章は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。
+
+<p class="base" style="margin-top: 1.6em;">
+事実をより正確に把握をしたい場合は、裁判文書のページ（
+<a href="https://minnanosaiban.github.io/hotline/2021judgment.html"><span class="link_u">判決文全文</span></a>、
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">主張書面</span></a>）や引用元をご参照いただくことをお勧めいたします。
+
+<p class="base" style="margin-top: 1.6em;">
+もし私の解釈に誤りがあると感じられる場合は、X-Twitter でご指摘いただければ幸いです。
 
 <div class="base" style="margin-top: 1.6em;">
 
