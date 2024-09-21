@@ -50,13 +50,12 @@ hr {
   float:left
 }
 .linkcard_img {
-  max-width: 160px;
-  max-height: 160px;
+  max-width: 120px;
+  max-height: 120px;
   margin-right: 10px;
 }
 .linkcard_text {
   font-size:14px;
-  margin-right: 16px;
 }
 .image-container {
   text-align: center; /* 子要素を水平方向に中央揃え */

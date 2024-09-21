@@ -6,11 +6,11 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ````{card} 
-:link: https://chng.it/QTjj9xpQyT
+:link: https://minnanosaiban.github.io/hotline/2024allegation.html
 
 <div class="linkcard">
     <img class="linkcard_img" src="https://minnanosaiban.github.io/hotline/_static/logo.png">
-    <p class="linkcard_text">令和６年８月１４日は、第３回口頭弁論です。<br>ＥＮＥＯＳと原告の主張書面を掲載しています。</p>
+    <p class="linkcard_text">令和６年８月１４日は、第３回口頭弁論です。<br><a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">ＥＮＥＯＳと原告の主張書面を掲載しています。</a></p>
 </div>
 
 ````
