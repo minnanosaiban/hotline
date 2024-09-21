@@ -3,16 +3,19 @@
 # <span style="color: #f37726;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 
 
-````{card} 
-:link: https://minnanosaiban.github.io/hotline/2024allegation.html
+<div class="base" style="margin-top: 1.6em;">
 
-<p class="q_center" style="margin-top: 1.6em;">
-<b>令和６年８月１４日は、第３回口頭弁論です。</b>
-<p class="q_center" style="margin-top: 1.6em;">
-ＥＮＥＯＳと原告の主張書面を掲載しています。
-<p class="base" style="margin-top: 1.6em;">
+````{card} 
+:link: https://chng.it/QTjj9xpQyT
+
+<div class="linkcard">
+    <img class="linkcard_img" src="https://minnanosaiban.github.io/hotline/_static/logo.png">
+    <p class="linkcard_text">令和６年８月１４日は、第３回口頭弁論です。<br>ＥＮＥＯＳと原告の主張書面を掲載しています。</p>
+</div>
 
 ````
+
+</div>
 
 ## １　ウェブサイトについて
 ---
