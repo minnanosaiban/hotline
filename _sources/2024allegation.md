@@ -1223,13 +1223,13 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の４ ⑴</b>
-<p class="c_mini">「<b>ア</b>　被告は」以下について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 <p class="c_mini"><span class="strong_rd">　本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。<br>
 　本件規程３．５の文言からも明らかなとおり、本件規程３．５も、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。<br>
 　行動基準の文言からも明らかなとおり、行動基準も、「ＥＮＥＯＳグループで働く私たち」、すなわち被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="c_mini">「かつ」以下について、認める。
-<p class="c_mini">「<b>イ</b>　ところが」以下について、<span class="strong_rd">争う</span>。
-<p class="c_mini">「<b>ウ</b>　以上により」以下について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_141"></a><b>⑴　被告の行動基準違反及び本件規程違反</b>
