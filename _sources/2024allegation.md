@@ -5,6 +5,68 @@
 
 ## 原告第４準備書面（仮）
 ---
+
+<div class="base">
+
+````{card}
+<p class="q_center" style="margin-top: 1.4em;"><b>原告第３準備書面　目次</b>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__1">
+第１　はじめに</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__2">
+第２　原告の主張</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__21">
+１　被告が定めた規程および方針に基づく被告の義務</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__211">
+⑴　コーポレートガバナンス基本方針と被告の義務について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__212">
+⑵　内部統制基本方針と被告の義務について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__213">
+⑶　行動基準と被告の義務について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__214">
+⑷　本件規程３．６ ⑴ と通報者に対する被告の債務について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__215">
+⑸　本件規程３．５と通報者に対する被告の債務について</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__216">
+⑹　行動基準に基づく本件規程違反の判断について</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__22">
+２　通報に係る情報に対する対応</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__221">
+⑴　通報に係る情報に応じた対応により、被告が把握した事実</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__222">
+⑵　不正行為等に対する対応（対応Ａ、対応Ｂ、対応Ｃ）</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__223">
+⑶　対応Ｂは、その正当性が疑問視される対応であること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__224">
+⑷　被告が通知した「結論づけられたもの」は、正当とはいえないこと</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__23">
+３　本件内部通報制度における被告の違反</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__231">
+⑴　本件規程３．６ ⑴ イ又はウに定める通知事項を通知しなかったこと</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__232">
+⑵　本件規程３．６ ⑴ アに定める通知事項の通知内容が不正であること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__233">
+⑶　是正措置及び再発防止策等を通知する内容が不正であること</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__234">
+⑷　実行すべき是正措置及び再発防止策等を実行していないこと</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__24">
+４　被告における業務プロセスの適正性に関する状況</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__241">
+⑴　業務上のトラブルが表面化した際、特定の個人に対して抽象的かつ一方的に非を指摘することが可能な状況</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__242">
+⑵　本件内部通報制度の利用について、上司に相談しても解決しない場合に利用するよう促していたという状況</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__25">
+５　被告の違反と原告の損害</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__251">
+⑴　被告の違反</a>
+<p class="q_hg-idt3"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__252">
+⑵　原告の損害</a>
+<p class="q_hg-idt2"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__26">
+６　まとめ</a>
+<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4_appendix">
+【別紙】</a>
+```` 
+
+</div>
 <p class="k"><a name="dai4_1"></a>
 <b>第１　はじめに</b>
 <p class="k_idt1">
@@ -111,13 +173,19 @@
 ●  <b>対応Ｃ</b>　平成２９年９月１３日、被告と本件豪州企業が本件契約を締結した。その本件契約におけるＧＳＴ等に関する表示は、「豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。なお、 ≪ 本件豪州企業 ≫ がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する。（甲２１の３）」であった。（【別紙】ソ）
 <p class="k_hg-idt4"><a name="dai4_222i"></a>
 <b>イ</b>　なお、本件豪州企業にＧＳＴを支払っていた事実は、以下 ➀ から ➂ であり、これらのＧＳＴの支払については、原告が支払手続を行った。
+<p class="k_hg-idt5">
 ➀　平成２７年４日に支払ったＧＳＴ
+<p class="k_hg-idt5">
 ➁　平成２７年１１月に支払ったＧＳＴ（本件支払手続）
+<p class="k_hg-idt5">
 ➂　平成２９年１月から４月に支払ったＧＳＴ
 <p class="k_hg-idt4"><a name="dai4_222u"></a>
 <b>ウ</b>　それぞれの本件豪州企業にＧＳＴを支払っていた事実に対する対応は、以下のとおりである。
+<p class="k_hg-idt5">
 ➀　平成２７年４日に支払ったＧＳＴについては、特段の対応をしていない。
-➁　平成２７年１１月に支払ったＧＳＴ（本件支払手続）については、<b>対応Ｂ</bで対応した。
+<p class="k_hg-idt5">
+➁　平成２７年１１月に支払ったＧＳＴ（本件支払手続）については、<b>対応Ｂ</b>で対応した。
+<p class="k_hg-idt5">
 ➂　平成２９年１月から４月に支払ったＧＳＴについては、<b>対応Ａ</b>で対応した。
 <p class="k_hg-idt3"><a name="dai4_223"></a>
 <b>⑶　対応Ｂは、その正当性が疑問視される対応であること</b>
@@ -482,6 +550,7 @@
 <p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_2">
 第２　被告準備書面（３）の第２に対する認否</a>
 ```` 
+
 </div>
 
 <p class="k" style="margin-top: 1.4em;">
