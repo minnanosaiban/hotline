@@ -9,7 +9,7 @@
 <div class="base">
 
 ````{card}
-<p class="q_center" style="margin-top: 1.4em;"><b>原告第３準備書面　目次</b>
+<p class="q_center" style="margin-top: 1.4em;"><b> 原告第４準備書面（仮）　目次</b>
 <p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__1">
 第１　はじめに</a>
 <p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4__2">
