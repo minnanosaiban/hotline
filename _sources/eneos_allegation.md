@@ -3,59 +3,19 @@
 
 # <span style="color: #f37726;">ＥＮＥＯＳ</span>の主張
 
-## １　通報に対して調査すべき事項
+## １　通報により相手方が把握した事実
 ---
 <p class="base" style="margin-top: 1.6em; ">
-原告は、通報対象事実における問題事項は、
-
-<p class="hg-idt2" style="margin-top: 1.6em;">
-<b>事実Ａ</b>　豪州企業に対するＧＳＴの支払が契約内容に基づいていなかったこと
-
-<p class="hg-idt2" style="margin-top: 1.6em;">
-<b>事実Ｂ</b>　上司が原告に説明した内容が、「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報であること
-
-<p class="hg-idt2" style="margin-top: 1.6em;">
-<b>事実Ｃ</b>　豪州子会社による送金に関する報告が、「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報であること、かつ、豪州子会社による送金が、不正な送金である疑いがあること
-
-<p class="base" style="margin-top: 1.6em;">
-であり、調査すべき事項は上記に関することであると主張しています。
-
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_122"><span class="link_u">原告第２準備書面第１の２ ⑵ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_123"><span class="link_u">原告第２準備書面第１の２ ⑶ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_124"><span class="link_u">原告第２準備書面第１の２ ⑷ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+原告は、相手方が原告から通報を受け、その通報に係る情報に応じて対応した結果、契約内容に基づかない経費支払の事実の存在を把握したことを主張しています。
 
 <p class="base" style="margin-top: 1.6em; ">
 これに対し、相手方は、理由を述べずに「否認する」と主張しています。
 
 <p class="base" style="margin-top: 1.6em; ">
-本件訴訟は、相手方が、原告の通報により、豪州企業に対するＧＳＴの支払が契約内容に基づいていなかったことを把握していたにもかかわらず、コンプライアンスホットライン規程に定める通知事項を通知しなかったことについて争いがあります。（<b>事実Ａ</b>）
+本件訴訟は、相手方が原告から通報を受け、不正行為等を把握していたにもかかわらず、コンプライアンスホットライン規程に定める通知事項を通知しなかったことについて争いがあります。
 
 <p class="base" style="margin-top: 1.6em; ">
-当時の状況については、原告が述べて、相手方も認めるとおりです。原告は、その状況から推定できる内部通報制度における調査事項を主張していますが、相手方の主張は、理由を述べずに「否認する」と主張するのみです。
-
-<p class="base" style="margin-top: 1.6em; ">
-<span class="strong_rd">公正な裁判を実現するためには、調査事項の具体的な内容を客観的に把握する必要があります。そのため、相手方に対して、内部通報制度における調査事項が確認できる一切の書類の送付を求める必要があります</span>。
-
-<p class="base" style="margin-top: 1.6em; ">
-なお、関係する相手方の「否認する」以外の主張は、以下の内容のみです。
-
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_222u"><span class="link_u">被告準備書面（２）第２の２ ⑵ - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-
-<div class="base" style="margin-top: 1.6em;">
-
-````{card}
-<p class="q" style="margin-top: 1.4em;">
-　確定した前回訴訟控訴審判決も判示するとおり、「<b>被告の内部通報における調査等は、基本的に、不正行為等を早期に発見、是正して被告等の業務の適正化を図るためのもの</b>」であり（注１０）、「本件規程上、調査とは、通報情報に関する事実を確認するための調査と定義され（〔本件規程〕１．２（９））、これは<b>法令等に違反する事実又は違反するおそれのある事実の確認を目的とする</b>ものと解される（〔本件規程〕３．５参照）から、必ずしも上記各事実の判断に影響しない事実までもが調査の対象になるとは解され」ない（注１１）。とすれば、原告のいう「本件支払手続」をした行為に関する調査事項にも、当然には「支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かについて確認する事項が含まれていた」とはいえない。
-<p class="q" style="margin-top: 1.4em;">
-出典：<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku2_222u">被告準備書面（２）第２の２ ⑵ ウ</a>
-<p class="q" style="margin-top: 1.4em;">
-```` 
-
-</div>
+<span class="strong_rd">公正な裁判を実現するためには、相手方と豪州企業とのＧＳＴの返金に関する協議におけるやり取りを客観的に把握する必要があります。</span>
 
 ## ２　通報により相手方が実行した措置
 ---
