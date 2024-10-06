@@ -286,7 +286,7 @@
 
 <p class="k" style="margin-top: 1.4em;"><a name="dai4_appendix"></a>
 <b>別紙</b>
-<div class="k_pad3">
+<div class="k">
 
 | 　　        |<p style="font-size: 12px; text-align: center; "><b>経緯</b>|<p style="font-size: 12px; text-align: center; "><b>書証番号等</b>|
 |------------|------------------------------------------|------------------------------------------|
