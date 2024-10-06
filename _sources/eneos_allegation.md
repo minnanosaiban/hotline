@@ -276,7 +276,7 @@
 </div>
 
 
-## ９　時機に遅れた攻撃防御方法
+## ９　時機に遅れた攻撃防御
 ---
 
 <p class="link" style="margin-top: 1.6em;">
