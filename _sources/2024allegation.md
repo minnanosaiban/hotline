@@ -7,7 +7,7 @@
 ---
 
 <p class="k" style="margin-top: 1.4em;">
-<i class="fa-solid fa-file-pdf"></i> <a href="https://minnanosaiban.github.io/hotline/_static/2024plaintiff4.pdf">ＰＤＦ</a>の用意があります。
+<i class="fa-solid fa-file-pdf fa-2x"></i> <a href="https://minnanosaiban.github.io/hotline/_static/2024plaintiff4.pdf"><span class="link_u">ＰＤＦ</span></a>の用意があります。
 
 <div class="base" style="margin-top: 1.4em;">
 
