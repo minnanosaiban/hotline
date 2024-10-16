@@ -10,7 +10,7 @@
 
 <div class="linkcard">
     <img class="linkcard_img" src="https://minnanosaiban.github.io/hotline/_static/logo.png">
-    <p class="linkcard_text">簡裁から地裁へ移送になりました。次の提出は原告第４準備書面です。<br><a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">こちらに、ＥＮＥＯＳと原告の主張書面を掲載しています。</a></p>
+    <p class="linkcard_text"><b>簡裁から地裁へ移送になりました。次の提出は原告第４準備書面です。</b><br><a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">こちらに、ＥＮＥＯＳと原告の主張書面を掲載しています。</a></p>
 </div>
 
 ````
