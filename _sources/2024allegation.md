@@ -98,7 +98,7 @@
 なお、コーポレートガバナンス基本方針の別紙１は「ＥＮＥＯＳグループ行動基準」（甲２、行動基準）であり、別紙３は「内部統制システムの整備・運用に関する基本方針」（甲２８、以下「内部統制基本方針」という。）である。
 <p class="k_hg-idt4"><a name="dai4_211i"></a>
 <b>イ</b>　被告は、行動基準及び内部統制基本方針について、それぞれ、「被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_241a">（注<sup>2</sup>）
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_241a">（注<sup>2</sup>）</a>
 」、及び「仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_211e">（注<sup>3</sup>）</a>
 」と主張している。
