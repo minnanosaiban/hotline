@@ -3,7 +3,7 @@
 
 # 主張書面
 
-## 原告第４準備書面（仮）
+## 13　原告第４準備書面（仮）
 ---
 
 <p class="k" style="margin-top: 1.4em;">
@@ -493,12 +493,12 @@
 
 </div>
 
-## ・第３回口頭弁論
+## 12　第３回口頭弁論
 ---
 <p class="k">
 令和６年８月１４日　１１時３０分
 
-## 被告準備書面（４）
+## 11　被告準備書面（４）
 ---
 <p class="k" style="margin-top: 1.4em;">
 被告準備書面（４）
@@ -519,19 +519,19 @@
 <b>第２　原告第３準備書面第１（原告の主張）に対する認否</b>
 <p class="k_idt1">
 原告の令和６年８月９日付の「原告第３準備書面」（以下「<b>原告第３準備書面</b>」という。）の第１（原告の主張）（２頁以下）における原告の主張に対する被告の認否は、以下のとおりである。
-<p class="k_hg-idt2">
+<p class="k_hg-idt2"><a name="hikoku4_21"></a>
 <b>１　第１の１（被告の主張に対する反論）（２頁以下）について</b>
-<p class="k_hg-idt3">
+<p class="k_hg-idt3"><a name="hikoku4_211"></a>
 <b>⑴　第１の１ ⑴ （被告には...義務があること）（２頁以下）について</b>
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_211a"></a>
 ア　第１の１ ⑴ ア（「被告は」以下）（２頁）について
 <p class="k_idt4">
 認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_211i"></a>
 イ　第１の１ ⑴ イ（「要するに」以下）（２頁以下）について
 <p class="k_idt4">
 認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_211u"></a>
 ウ　第１の１ ⑴ ウ（「しかしながら」以下）（３頁）について
 <p class="k_idt4">
 認める。
@@ -541,77 +541,77 @@
 争う。
 <p class="k_idt4">
 <span class="imp">仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。</span>
-<p class="k_hg-idt3">
+<p class="k_hg-idt3"><a name="hikoku4_212"></a>
 <b>⑵　第１の１ ⑵ （被告が・・・債務があること）（３頁以下）について</b>
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_212a"></a>
 ア　第１の１ ⑵ ア（「被告は、被告の」以下）（３頁）について
 <p class="k_idt4">
 認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_212i"></a>
 イ　第１の１ ⑵ イ（被告は、行動基準」以下）（３頁以下）について
 <p class="k_idt4">
 争う。
 <p class="k_idt4">
 <span class="imp">仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。</span>
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_212u"></a>
 ウ　第１の１ ⑵ ウ（被告は、被告の」以下）（４頁）について
 <p class="k_idt4">
 争う。
-<p class="k_hg-idt3">
+<p class="k_hg-idt3"><a name="hikoku4_213"></a>
 <b>⑶　第１の１ ⑶ （被告の・・・正当とはいえないこと）（４頁以下）について</b>
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213a"></a>
 ア　第１の１ ⑶ ア（「被告は、本件通報」以下）（４頁以下）について
 <p class="k_idt4">
 認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213i"></a>
 イ　第１の１ ⑶ イ（「事実Ａに関して」以下）（５頁）について
 <p class="k_idt4">
 認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213u"></a>
 ウ　第１の１ ⑶ ウ（「しかしながら」以下）（５頁）について
 <p class="k_idt4">
 事実上の主張としては否認し、法律上の主張としては争う。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213e"></a>
 エ　第１の１ ⑶ エ（「事実Ｂに関して」以下）（５頁）について
 <p class="k_idt4">
 否認する。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213o"></a>
 オ　第１の１ ⑶ オ（「また」以下）（５頁以下）について
 <p class="k_idt4">
 「追加通報に係る調査の結果」のみでは「判然としない」という限度で、認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213ka"></a>
 カ　第１の１ ⑶ カ（「事実Ｃに関して」以下）（６頁）について
 <p class="k_idt4">
 認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213ki"></a>
 キ　第１の１ ⑶ キ（「しかしながら」以下）（６頁）について
 <p class="k_idt4">
 一般論である限りにおいて、認める。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213ku"></a>
 ク　第１の１ ⑶ ク（「そのため」以下）（６頁）について
 <p class="k_idt4">
 事実上の主張としては否認し、法律上の主張としては争う。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213ke"></a>
 ケ　第１の１ ⑶ ケ（「このように」以下）（６頁）について
 <p class="k_idt4">
 争う。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213ko"></a>
 コ　第１の１ ⑶ コ（「以上のとおり」以下）（６頁）について
 <p class="k_idt4">
 争う。
-<p class="k_hg-idt4">
+<p class="k_hg-idt4"><a name="hikoku4_213sa"></a>
 サ　第１の１ ⑶ サ（「よって」以下）（７頁）について
 <p class="k_idt4">
 争う。
-<p class="k_hg-idt3">
+<p class="k_hg-idt3"><a name="hikoku4_214"></a>
 <b>⑷　第１の１ ⑷ （まとめ）（７頁）について</b>
 <p class="k_idt3">
 争う。
-<p class="k_hg-idt2">
+<p class="k_hg-idt2"><a name="hikoku4_22"></a>
 <b>２　第１の２（被告の認否について）（７頁以下）について</b>
 <p class="k_idt2">
 争う。
-<p class="k_hg-idt1">
+<p class="k_hg-idt1"><a name="hikoku4_3"></a>
 <b>第３　訂正後の原告第１準備書面・原告第２準備書面に対する認否</b>
 <p class="k_idt1">
 原告の令和６年８月９日付の「訂正申立書」（以下「<b>原告訂正申立書</b>」という。）による原告第１準備書面及び原告第２準備書面の訂正にもかかわらず（以下、原告訂正申立書による訂正後の原告第１準備書面及び原告第２準備書面を、それぞれ「<b>原告第１準備書面</b>」及び「<b>原告第２準備書面</b>」という。）、被告準備書面 ⑶ までの被告の主張書面における被告の認否及び主張に変更はない。
@@ -628,7 +628,7 @@
 <p class="k_hg-idt1">
 以上
 
-## 原告第３準備書面
+## 10　原告第３準備書面
 ---
 
 <div class="base">
@@ -942,7 +942,7 @@
 以上
 
 
-## 被告準備書面（３）
+## 09　被告準備書面（３）
 ---
 <p class="k" style="margin-top: 1.4em;">
 被告準備書面（３）
@@ -1465,7 +1465,7 @@
 
 
 
-## 原告第２準備書面
+## 08　原告第２準備書面
 ---
 
 <div class="base">
@@ -1997,12 +1997,12 @@
 <p class="k_hg-idt1">以上
 
 
-## ・第２回口頭弁論
+## 07　第２回口頭弁論
 ---
 <p class="k">令和６年５月２７日　１１時３０分
 
 
-## 被告準備書面（２）
+## 06　被告準備書面（２）
 ---
 <p class="k" style="margin-top: 1.4em;">被告準備書面（２）
 <p class="k">令和６年５月２３日
@@ -2259,7 +2259,7 @@
 </div>
 
 
-## 原告第１準備書面
+## 05　原告第１準備書面
 ---
 
 <div class="base">
@@ -2801,12 +2801,12 @@
 <p class="k">以上
 
 
-## ・第１回口頭弁論
+## 04　第１回口頭弁論
 ---
 <p class="k">令和６年４月２２日　１１時３０分
 
 
-## 被告準備書面（１）
+## 03　被告準備書面（１）
 ---
 <p class="k" style="margin-top: 1.4em;">被告準備書面（１）
 <p class="k">令和６年４月１９日
@@ -2815,7 +2815,7 @@
 <p class="k">　原告の令和６年４月１２日付の「訴状訂正申立書」（以下「<b>訴状訂正申立書</b>」という。）による訴状の訂正にもかかわらず（以下、訴状訂正申立書による訂正後の訴状を「<b>訴状</b>」という。）、答弁書における被告の認否及び主張に変更はない。
 
 
-## 答弁書
+## 02　答弁書
 ---
 
 <div class="base">
@@ -3277,7 +3277,7 @@
 <p class="k">
 以上
 
-## 訴状
+## 01　訴状
 ---
 
 <div class="base">
