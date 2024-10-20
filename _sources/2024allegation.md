@@ -13,7 +13,7 @@
 
 ````{card}
 <p class="q_center" style="margin-top: 1.4em;"><b> 原告第４準備書面（仮）　目次</b>
-<p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4_1">
+<p class="q_hg-idt1"><a href="#dai4_1">
 第１　はじめに</a>
 <p class="q_hg-idt1"><a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai4_2">
 第２　原告の主張</a>
