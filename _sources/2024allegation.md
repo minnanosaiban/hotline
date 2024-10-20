@@ -227,7 +227,7 @@
 `````{margin} 
 <p class="c_mini"><b>エ</b>、<b>オ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>
 （<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">本件規程３．５</a>、
-<a href="https://www.hd.eneos.co.jp/company/conduct.html#anc02">行動基準第１２項 ⑶ </a>）
+<a href="https://www.hd.eneos.co.jp/company/conduct.html#anc02">行動基準第１４項 ⑶ </a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_214e"></a>
 <b>エ</b>　行動基準第１４項 ⑶ は、「私たちは、この行動基準に違反する事態が発生した場合、その原因を徹底して究明するとともに、効果的な再発防止策を定め、これを遂行します。」と定めている。（<a href="https://www.hd.eneos.co.jp/company/conduct.html">甲２の１</a>）
@@ -243,7 +243,7 @@
 <b>⑴　被告において契約内容に基づかない経費支払が存在した</b>
 
 `````{margin} 
-<p class="c_mini"><b>ア</b>、ＧＳＴ支払の事実（甲３）
+<p class="c_mini"><b>ア</b>、ＧＳＴ支払の事実（<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">甲３</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_221a"></a>
 <b>ア</b>　原告の支払手続による本件豪州企業に対するＧＳＴの支払は、以下 ➀ から ➂ である。（本件支払手続については、【別紙】ウ）
@@ -255,7 +255,7 @@
 ➂　平成２９年１月から４月の支払手続によるＧＳＴの支払
 
 `````{margin} 
-<p class="c_mini"><b>イ</b>、契約内容の事実（甲２１）
+<p class="c_mini"><b>イ</b>、契約内容の事実（<a href="https://drive.google.com/file/d/1koXDP3xUAry042a7NGq5hFJqGQw5NtOW/view?usp=drive_link">甲２１</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_221i"></a>
 <b>イ</b>　平成２６年４月１日から平成３０年３月３１日までの被告と本件豪州企業との取引に関しては、被告と本件豪州企業との契約において、ＧＳＴ等に関する定めが存在しない。（【別紙】イ）
@@ -272,7 +272,9 @@
 <b>⑵　契約内容に基づかない経費支払に対する対応</b>
 
 `````{margin} 
-<p class="c_mini"><b>ア</b>、原告と調査補助者のやり取りの事実（甲５、甲８ないし甲１８）
+<p class="c_mini"><b>ア</b>、原告と調査補助者のやり取りの事実（
+<a href="https://drive.google.com/file/d/1f4WHzx3EhC7o-Q1zSfCxQbvxMys2aOex/view?usp=drive_link">甲５</a>、
+<a href="https://drive.google.com/file/d/1S22l13N9gZoI-wCyXGZdY2Q7QlClIljK/view?usp=drive_link">甲８ないし甲１８</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_222a"></a>
 <b>ア</b>　平成２８年９月１４日から平成２９年７月３１日まで、原告は、本件規程２．１ ⑴ ア に定めるメールアドレス又は調査補助者に対し、被告と本件豪州企業との間で締結した契約の確認に関する状況等、原告が本件豪州企業に対して本件ＧＳＴを支払う手続を行った事実（甲３）に関連する事項を告げるメールを送信した。（【別紙】オ）
@@ -284,7 +286,9 @@
 <b>イ</b>　平成２９年２月７日、被告は、原告による通報に係る情報に応じ、調査補助者と上司Ａが協議するという対応をした。（【別紙】カ）
 
 `````{margin} 
-<p class="c_mini"><b>ウ</b>、返金かどうかについては認否未定、ＧＳＴ支払に対する対応の事実（甲２０、甲２１）
+<p class="c_mini"><b>ウ</b>、返金かどうかについては認否未定、ＧＳＴ支払に対する対応の事実（
+<a href="https://drive.google.com/file/d/18d9a42jiInj8QppzSFNGUC-6G4xbGRvj/view?usp=drive_link">甲２０</a>、
+<a href="https://drive.google.com/file/d/1koXDP3xUAry042a7NGq5hFJqGQw5NtOW/view?usp=drive_link">甲２１</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_222u"></a>
 <b>ウ</b>　上記イの協議の後に実行した契約内容に基づかない経費支払に対する対応は、以下のとおりである。（以下、それぞれ、「対応Ａ」、「対応Ｂ」、「対応Ｃ」という。）
@@ -296,7 +300,8 @@
 ●　<b>対応Ｃ</b>　平成３０年９月１３日、被告と本件豪州企業が本件契約を締結した。本件契約におけるＧＳＴ等に関する定めは、「豪州国外の顧客に対するサービス提供費用には、豪州ＧＳＴを課さない。なお、 ≪ 本件豪州企業 ≫ がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する。（甲２１の３）」であった。（【別紙】セ）
 
 `````{margin} 
-<p class="c_mini"><b>エ</b>、認否未定、ＧＳＴ支払に対する対応の事実（甲２０）
+<p class="c_mini"><b>エ</b>、認否未定、ＧＳＴ支払に対する対応の事実（
+<a href="https://drive.google.com/file/d/18d9a42jiInj8QppzSFNGUC-6G4xbGRvj/view?usp=drive_link">甲２０</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_222e"></a>
 <b>エ</b>　なお、上記 ⑴ アの ➀ から ➂ の本件豪州企業にＧＳＴを支払っていた事実について、それぞれの対応は以下のとおりである。
@@ -311,7 +316,8 @@
 <b>⑶　対応Ａは、「精算」よりも「返金」ほうが適切な表現であること</b>
 
 `````{margin} 
-<p class="c_mini"><b>ア</b>、本件部長報告の内容の事実（甲２０）
+<p class="c_mini"><b>ア</b>、本件部長報告の内容の事実（
+<a href="https://drive.google.com/file/d/18d9a42jiInj8QppzSFNGUC-6G4xbGRvj/view?usp=drive_link">甲２０</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_223a"></a>
 <b>ア</b>　<b>対応Ａ</b>の実行に関しては、本件部長報告において、≪ 本件事業部 ≫ 業務グループの担当者が、「≪ 本件豪州企業 ≫ には上記の点を連絡し、１７年１月〜４月の当社へのＧＳＴ請求分については、５月の請求から１～４月に支払済みのＧＳＴ分を差し引く形で精算済み。（甲２０の１）」と報告した。（【別紙】ク）
@@ -331,7 +337,8 @@
 <b>エ</b>　本来は「返金」と報告すべきところを「精算」と報告しているため、結果として、本件豪州企業に対するＧＳＴの支払が契約内容に基づいていない事実が隠されている。
 
 `````{margin} 
-<p class="c_mini"><b>オ</b>、本件部長報告の内容の事実（甲２０）
+<p class="c_mini"><b>オ</b>、本件部長報告の内容の事実（
+<a href="https://drive.google.com/file/d/18d9a42jiInj8QppzSFNGUC-6G4xbGRvj/view?usp=drive_link">甲２０</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_223o"></a>
 <b>オ</b>　加えて、本件部長報告においては、<b>対応Ａ</b>の実行の理由等について、「２０１６年１１月以降ＧＳＴの法改正により、非居住者であるＪＸＴＧエネルギ一に対するコンサルタント料の請求にはＧＳＴは含まれないことを確認済み（甲２０の１）」と報告した。（【別紙】ク）
@@ -354,7 +361,8 @@
 <b>⑷　対応Ｂは、その正当性が疑問視される点が存在したこと</b>
 
 `````{margin} 
-<p class="c_mini"><b>ア</b>、本件部長報告の内容の事実（甲２０）
+<p class="c_mini"><b>ア</b>、本件部長報告の内容の事実（
+<a href="https://drive.google.com/file/d/18d9a42jiInj8QppzSFNGUC-6G4xbGRvj/view?usp=drive_link">甲２０</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_224a"></a>
 <b>ア</b>　<b>対応Ｂ</b>の実行に関しては、本件部長報告において、≪ 本件事業部 ≫ 業務グループの担当者が、「過年度ＪＸＴＧエネルギーの支払分については ≪ 豪州子会社 ≫ にて１７年９月までに還付請求を実施。また ≪ 豪州子会社 ≫ への還付額について、ＪＸＴＧエネルギーへの戻入れも実施済み。（甲２０の１）」、「 ≪ 豪州子会社 ≫ にて還付をうけた過去分のＧＳＴのＪＸＴＧエネルギーへの戻し入れは、雑収入で計上。（甲２０の１）」と報告した。（【別紙】ケ）
@@ -394,7 +402,8 @@
 <b>⑸　被告が契約内容に基づかない経費支払の存在を把握したこと</b>
 
 `````{margin} 
-<p class="c_mini"><b>ア</b>、ＧＳＴ支払に対する対応の事実（甲２０）
+<p class="c_mini"><b>ア</b>、ＧＳＴ支払に対する対応の事実（
+<a href="https://drive.google.com/file/d/18d9a42jiInj8QppzSFNGUC-6G4xbGRvj/view?usp=drive_link">甲２０</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_225a"></a>
 <b>ア</b>　上記 ⑵ イ及びウで述べたとおり、平成２９年２月７日、被告が、原告による通報に係る情報に応じ、調査補助者と上司Ａが協議するという対応を行った後、同年５月、<b>対応Ａ</b>を実行した。（【別紙】カ及びク）
@@ -410,7 +419,8 @@
 <b>エ</b>　したがって、本件豪州企業と被告との間の協議に先立って、被告に対してＧＳＴを請求する請求書の内容が契約内容に基づいていたのか否かを確認していないことは極めて考えにくい。
 
 `````{margin} 
-<p class="c_mini"><b>オ</b>、ＧＳＴ支払に対する対応の事実（甲２１）
+<p class="c_mini"><b>オ</b>、ＧＳＴ支払に対する対応の事実（
+<a href="https://drive.google.com/file/d/1koXDP3xUAry042a7NGq5hFJqGQw5NtOW/view?usp=drive_link">甲２１</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_225o"></a>
 <b>オ</b>　また、上記 ⑵ ウで述べたとおり、平成３０年９月１３日、<b>対応Ｃ</b>を実行した。（【別紙】セ）
@@ -485,7 +495,9 @@
 ）、通報を「受け付ける」とは、実質的に本件規程２．１に定める通報窓口において通報を受け付けたといえる場合を含むから、通報者が調査過程などにおいて調査補助者に対して告げた情報は、本件規程１．２ ⑹ に定める「通報情報」である。
 
 `````{margin} 
-<p class="c_mini"><b>オ</b>、原告と調査補助者のやり取りの事実（甲５、甲８ないし甲１８）
+<p class="c_mini"><b>オ</b>、原告と調査補助者のやり取りの事実（
+<a href="https://drive.google.com/file/d/1f4WHzx3EhC7o-Q1zSfCxQbvxMys2aOex/view?usp=drive_link">甲５</a>、
+<a href="https://drive.google.com/file/d/1S22l13N9gZoI-wCyXGZdY2Q7QlClIljK/view?usp=drive_link">甲８ないし甲１８</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_226o"></a>
 <b>オ</b>　上記 ⑵ アのとおり、本件通報及び調査補助者に対する追加通報において、原告は、本件規程２．１ ⑴ ア に定めるメールアドレス又は調査補助者に対し、被告と本件豪州企業との間で締結した契約の確認に関する状況等、原告が本件豪州企業に対して本件ＧＳＴを支払う手続を行った事実（甲３）に関連する事項を告げるメールを送信した。（【別紙】オ）
@@ -499,7 +511,8 @@
 ）、上記オの通報において、原告は、上司Ａが契約内容を確認しないという行為が意図的であると感じてはいたものの、上司Ａ個人に問題があるとされないようにと配慮して通報した。
 
 `````{margin} 
-<p class="c_mini"><b>キ</b>、認否未定、原告と調査補助者のやり取りの事実（甲１０ないし甲１２）
+<p class="c_mini"><b>キ</b>、認否未定、原告と調査補助者のやり取りの事実（
+<a href="https://drive.google.com/file/d/1S22l13N9gZoI-wCyXGZdY2Q7QlClIljK/view?usp=drive_link">甲１０ないし甲１２</a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_226ki"></a>
 <b>キ</b>　ただし、平成２８年１２月１６日の通報では、上司Ａが若手社員に対して契約内容を確認する行為を咎めたことについて、率直に通報した。この後、同月２８日に調査補助者が行った回答の内容が、乙１０に記載されている内容である。（甲１０ないし甲１２）
