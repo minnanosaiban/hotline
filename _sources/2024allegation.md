@@ -165,7 +165,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>ウ</b>、<b>エ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>
-（<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">本件規程３．６ ⑴ </a> ）
+（<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">本件規程３．６ ⑴ </a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_212u"></a>
 <b>ウ</b>　しかし、本件規程は、法人たる被告全体としての義務や責任を果たすために規定されたものである。本件規程全体が被告の内部統制の一環であるため、仮に法務部長の職務として規定されている内容であったとしても、最終的には、法人たる被告全体の義務や責任であると解される。
@@ -191,7 +191,9 @@
 ）」と主張している。
 
 `````{margin} 
-<p class="c_mini"><b>イ</b>、<b>ウ</b>、<b>エ</b>、<b>オ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>（本件規程３．５、行動基準第１２項 ⑶ ）
+<p class="c_mini"><b>イ</b>、<b>ウ</b>、<b>エ</b>、<b>オ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>
+（<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">本件規程３．５</a>、
+<a href="https://www.hd.eneos.co.jp/company/conduct.html#anc02">行動基準第１２項 ⑶ </a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_213i"></a>
 <b>イ</b>　確かに、通報の内容が特定の個人による横領などの不正行為等の場合、本件規程３．５に定める是正措置及び再発防止策等の実行は、必ずしも従業員に対する債務に該当しない可能性がある。
@@ -220,7 +222,9 @@
 ）
 
 `````{margin} 
-<p class="c_mini"><b>イ</b>、<b>ウ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>（本件規程３．６ ⑴ 、行動基準第１１項 ⑶ ）
+<p class="c_mini"><b>イ</b>、<b>ウ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>
+（<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">本件規程３．６ ⑴ </a>、
+<a href="https://www.hd.eneos.co.jp/company/conduct.html#anc02">行動基準第１１項 ⑶ </a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_214i"></a>
 <b>イ</b>　行動基準第１１項 ⑶ は、「私たちは、業務上必要なすべての記録および報告を、事実に基づき、正確に、遺漏なく、かつ適時に作成します。」と定めている。（
@@ -230,7 +234,9 @@
 <b>ウ</b>　したがって、本件規程３．６ ⑴ に定める通知事項が「事実に基づき、正確に、遺漏なく」作成された情報でない場合、本件規程３．６ ⑴ 及び本件規程の前提である行動基準第１１項 ⑶ に違反していることになる。
 
 `````{margin} 
-<p class="c_mini"><b>エ</b>、<b>オ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>（本件規程３．５、行動基準第１４項 ⑶ ）
+<p class="c_mini"><b>エ</b>、<b>オ</b>、認否未定、<span class="strong_rd"><b>法令解釈</b></span>
+（<a href="https://drive.google.com/file/d/1vVKWlUJ46QBM-JvtKDHZNJ1MRQUrGUgd/view?usp=sharing">本件規程３．５</a>、
+<a href="https://www.hd.eneos.co.jp/company/conduct.html#anc02">行動基準第１２項 ⑶ </a>）
 `````
 <p class="k_hg-idt4"><a name="dai4_214e"></a>
 <b>エ</b>　行動基準第１４項 ⑶ は、「私たちは、この行動基準に違反する事態が発生した場合、その原因を徹底して究明するとともに、効果的な再発防止策を定め、これを遂行します。」と定めている。（
