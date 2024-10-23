@@ -916,10 +916,10 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の１ ⑴</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、認める。
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、認める。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">争う</span>。
 <p class="c_mini">　<span class="strong_rd">仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。</span>
 `````
 
@@ -950,10 +950,10 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の１ ⑵</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、<span class="strong_rd">争う</span>。
 <p class="c_mini">　<span class="strong_rd">仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。</span>
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai3_112"></a>
@@ -968,7 +968,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の１ ⑶</b>
-<p class="c_mini"><b>ア</b>について、認める。
+<p class="c_mini"><b>ア</b>、認める。
 `````
 
 <p class="k_hg-idt3"><a name="dai3_113"></a>
@@ -988,8 +988,8 @@
 である。
 
 `````{margin} 
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt4"><a name="dai3_113i"></a>
@@ -998,8 +998,8 @@
 <b>ウ</b>　しかしながら、被告のいう「本件通報に係る調査の結果」は、本件支払手続をした行為のどの点が、「コンプライアンス違反ではない（法令等に違反するものではない）」と結論づけられたものであるのかが分からず、全く判然としない内容である。（乙１１）
 
 `````{margin} 
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>オ</b>について、「追加通報にかかる調査の結果」のみでは「判然としない」という限度で、認める。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>オ</b>、「追加通報にかかる調査の結果」のみでは「判然としない」という限度で、認める。
 
 `````
 
@@ -1009,10 +1009,10 @@
 <b>オ</b>　また、被告のいう「追加通報に係る調査の結果」は、「被通報者を含めた ≪ 本件事業部 ≫ においては、ＧＳＴに関する問題提起を受けてから、間違いのない対応を期して社内経理部門、 ≪ 豪州子会社 ≫ 経理部門および税務コンサルタントに照会を行っており、対応に時間を要したことについては理解できる。」と通知しているけれども、照会先が経理部であるのかという点すら判然としないというだけでなく、何について照会したのかが分からず、全く判然としない内容である。（乙１２の７頁）
 
 `````{margin} 
-<p class="c_mini"><b>カ</b>について、認める。
-<p class="c_mini"><b>キ</b>について、一般論である限りにおいて、認める。
-<p class="c_mini"><b>ク</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>ケ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>カ</b>、認める。
+<p class="c_mini"><b>キ</b>、一般論である限りにおいて、認める。
+<p class="c_mini"><b>ク</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ケ</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt4"><a name="dai3_113ka"></a>
@@ -1025,8 +1025,8 @@
 <b>ケ</b>　このように一般的な対応を考えても、上記カの調査補助者による回答は、追加通報及び調査補助者に対する追加通報に係る調査の結果が不合理な内容であることを示すものである。（甲２５の５ ⑻ ）
 
 `````{margin} 
-<p class="c_mini"><b>コ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>サ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>コ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>サ</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt4"><a name="dai3_113ko"></a>
@@ -1036,7 +1036,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の１ ⑷</b>
-<p class="c_mini">「⑷　まとめ」について、<span class="strong_rd">争う</span>。
+<p class="c_mini">「⑷　まとめ」、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai3_114"></a>
@@ -1052,7 +1052,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の２</b>
-<p class="c_mini">「２　被告の認否について」について、<span class="strong_rd">争う</span>。
+<p class="c_mini">「２　被告の認否について」、<span class="strong_rd">争う</span>。
 `````
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第４</b>
