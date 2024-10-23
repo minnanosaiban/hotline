@@ -1752,7 +1752,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の１ ⑴</b>
-<p class="c_mini">「 <b>⑴　行動基準は</b>」以下について、認める。
+<p class="c_mini"> <b>⑴</b> 、認める。
 `````
 <p class="k_hg-idt3"><a name="dai2_111"></a><b>⑴　行動基準は、本件規程の前提であり、本件規程に定める対応事項を実行するか否かの判断の拠り所となるものであること</b>
 <p class="k_hg-idt4"><a name="dai2_111a"></a><b>ア</b>　被告が公表している「ＥＮＥＯＳグループ行動基準（以下「行動基準」という。）<sup>1</sup>」は、事業活動を通じて「ＥＮＥＯＳグループ理念」を実現し、社会的責任を果たしていくために実践すべき基準であり、「ＥＮＥＯＳグループ理念」では、「誠実・公正であり続けることを価値観の中核とし、高い倫理観を持って企業活動を行います。」と表明している。
@@ -1761,7 +1761,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の１ ⑵</b>
-<p class="c_mini">「<b>⑵　「事実に基づき</b>」以下について、認める。
+<p class="c_mini"> <b>⑵</b> 、認める。
 `````
 <p class="k_hg-idt3"><a name="dai2_112"></a><b>⑵　「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知するという不正行為等も、本件規程等に定める再発防止策の対象であること</b>
 <p class="k_hg-idt4"><a name="dai2_112a"></a><b>ア</b>　行動基準１項の ⑴ に、「私たちは、コンプライアンス（法令・契約・社内規程類等の遵守）を徹底し、社会規範に適切に対応します。」と定めている。
@@ -1774,10 +1774,10 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の１ ⑶</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>エ</b>について、本件規程３．６ ⑴ に定める通知の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>エ</b>、本件規程３．６ ⑴ に定める通知の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span class="strong_rd">争う</span>。
 <p class="c_mini"><span class="strong_rd">　本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。</span>
 `````
 
@@ -1790,10 +1790,10 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の１ ⑷</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>エ</b>について、本件規程３．５に定める是正措置及び再発防止策等の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>エ</b>、本件規程３．５に定める是正措置及び再発防止策等の内容が、正当であることはもちろんのこと、行動基準第１１項 ⑶ に定める「事実に基づき、正確に、遺漏なく」作成された情報であることが求められることについては、認めるが、その余については、<span class="strong_rd">争う</span>。
 <p class="c_mini"><span class="strong_rd">　本件規程３．５の文言からも明らかなとおり、本件規程３．５は、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。</span>
 `````
 
@@ -1810,7 +1810,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の２ ⑴</b>
-<p class="c_mini">「本件通報、追加通報」以下について、特に争わない。
+<p class="c_mini">「本件通報、追加通報」以下、特に争わない。
 `````
 <p class="k_idt2">本件通報、追加通報及び調査補助者に対する追加通報に係る情報（通報情報）に関する事実を大きく分けると、
 <p class="k_hg-idt3">●　<b>事実Ａ</b>　原告が本件支払手続をした行為（甲３）
@@ -1821,11 +1821,11 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の２ ⑵</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、原告が本件通報にあたって通報用フォームの「法令等違反を行った者・部署等」の欄を空欄にしたことは、認めるが、その余は、不知である。
-<p class="c_mini"><b>ウ</b>について、認める。
-<p class="c_mini"><b>エ</b>について、認める。
-<p class="c_mini"><b>オ</b>について、認める。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、原告が本件通報にあたって通報用フォームの「法令等違反を行った者・部署等」の欄を空欄にしたことは、認めるが、その余は、不知である。
+<p class="c_mini"><b>ウ</b>、認める。
+<p class="c_mini"><b>エ</b>、認める。
+<p class="c_mini"><b>オ</b>、認める。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_121"></a><b>⑴　通報情報及びこれに対する調査補助者の応答</b>
@@ -1864,7 +1864,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の２ ⑶</b>
-<p class="c_mini"><b>⑵</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>⑵</b>、<span class="strong_rd">争う</span>。
 <p class="c_mini"><span class="strong_rd">　原告が原告のいう「本件支払手続」をした行為は、本件通報に係る調査の結果、コンプライアンス違反ではない（法令等に違反するものではない）と結論づけられたものである（乙第３号証・乙第１０号証・乙第１１号証）。<br>
 　よって、答弁書にも述べたとおり（注１）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、本件通報について、本件規程３．６ ⑴ イ及びウに基づく通知は必要でない。</span>
 `````
@@ -1876,13 +1876,13 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の２ ⑷</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>エ</b>について、認める。
-<p class="c_mini"><b>オ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>エ</b>、認める。
+<p class="c_mini"><b>オ</b>、<span class="strong_rd">争う</span>。
 <p class="c_mini"><span class="strong_rd">　上司Ａが還付手続で対応する旨を説明した行為は、追加通報に係る調査の結果、「不正行為等には該当しない」「対応に懈怠は認められなかった」と結論づけられたものである（乙第１２号証〔７頁〕）。<br>
-<p class="c_mini"><b>カ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>カ</b>、<span class="strong_rd">争う</span>。
 　追加通報に関する調査結果も、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、上司Ａが還付手続で対応する旨を説明した行為は、本件規程３．５又は行動基準第１４項 ⑶ に定める是正措置及び再発防止策の実行は必要でない。</span>
 `````
 
@@ -1896,14 +1896,14 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の２ ⑸</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、認める。
-<p class="c_mini"><b>エ</b>について、原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
-<p class="c_mini"><b>オ</b>について、<span class="strong_rd">否認</span>。
-<p class="c_mini"><b>カ</b>について、<span class="strong_rd">否認</span>。
-<p class="c_mini"><b>キ</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>ク</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、認める。
+<p class="c_mini"><b>エ</b>、原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
+<p class="c_mini"><b>オ</b>、<span class="strong_rd">否認</span>。
+<p class="c_mini"><b>カ</b>、<span class="strong_rd">否認</span>。
+<p class="c_mini"><b>キ</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ク</b>、<span class="strong_rd">争う</span>。
 `````
 <p class="k_hg-idt3"><a name="dai2_124"></a><b>⑷　事実Ｃ　豪州子会社が金銭の流れが判然としない金銭を送金をした行為</b>
 <p class="k_hg-idt4"><a name="dai2_124a"></a><b>ア</b>　豪州子会社が、平成２９年７月３１日、被告に対して 79,315.52 豪ドルを送金した。被告側における入金処理の摘要欄は、「≪ 豪州子会社 ≫ に対する雑収入請求　ＪＸＴＧエネルギー分のＧＳＴ額戻し入れ　２０１４、２０１５年度のＧＳＴ還付額（ＪＸＴＧエネルギー分）（甲２７）」<sup>13</sup>である。（注<sup>14</sup>）
@@ -1932,15 +1932,15 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の３ ⑵</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、認める。
-<p class="c_mini"><b>エ</b>について、認める。
-<p class="c_mini"><b>オ</b>について、認める。
-<p class="c_mini"><b>カ</b>について、認める。
-<p class="c_mini"><b>キ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ク</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ケ</b>について、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、認める。
+<p class="c_mini"><b>エ</b>、認める。
+<p class="c_mini"><b>オ</b>、認める。
+<p class="c_mini"><b>カ</b>、認める。
+<p class="c_mini"><b>キ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ク</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ケ</b>、<span class="strong_rd">否認</span>する。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_131"></a><b>⑴　被告が、法令等に違反する事実又は違反するおそれのある事実の存在を把握していたこと</b>
@@ -1956,10 +1956,10 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の３ ⑶</b>
-<p class="c_mini"><b>ア</b>について、本件内部通報制度の目的が、被告等における法令等に違反する行為又は違反するおそれのある行為を早期に是正することであることについては、認めるが、その余については、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>エ</b>について、事実上の主張については<span class="strong_rd">否認</span>し、法律上の主張については<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、本件内部通報制度の目的が、被告等における法令等に違反する行為又は違反するおそれのある行為を早期に是正することであることについては、認めるが、その余については、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>エ</b>、事実上の主張については<span class="strong_rd">否認</span>し、法律上の主張については<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_132"></a><b>⑵　被告が、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知したこと</b>
@@ -1975,12 +1975,12 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の３ ⑷</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、認める。
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>オ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>カ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、認める。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>オ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>カ</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_133"></a><b>⑶　違反Ａ　原告に対して従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実の存在を伏せた行為</b>
@@ -1994,14 +1994,14 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の３ ⑸</b>
-<p class="c_mini"><b>ア</b>について、認める。
-<p class="c_mini"><b>イ</b>について、認める。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>エ</b>について、原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
-<p class="c_mini"><b>オ</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>カ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>キ</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>ク</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、認める。
+<p class="c_mini"><b>イ</b>、認める。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>エ</b>、原告のいう「本件部長報告」のみでは「判然としない」という限度で、認める。
+<p class="c_mini"><b>オ</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>カ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>キ</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ク</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_134"></a><b>⑷　違反Ｂ　是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為</b>
@@ -2020,10 +2020,10 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の３ ⑹</b>
-<p class="c_mini"><b>ア</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>イ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ウ</b>について、一般論としては認める。
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>イ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ウ</b>、一般論としては認める。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">争う</span>。
 
 `````
 
@@ -2039,13 +2039,13 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の４ ⑴</b>
-<p class="c_mini"><b>ア</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 <p class="c_mini"><span class="strong_rd">　本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。<br>
 　本件規程３．５の文言からも明らかなとおり、本件規程３．５も、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。<br>
 　行動基準の文言からも明らかなとおり、行動基準も、「ＥＮＥＯＳグループで働く私たち」、すなわち被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、法人たる「被告」の「義務」を定めているのではない</span>。
 <p class="c_mini">「かつ」以下について、認める。
-<p class="c_mini"><b>イ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_141"></a><b>⑴　被告の行動基準違反及び本件規程違反</b>
@@ -2060,15 +2060,15 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の４ ⑵</b>
-<p class="c_mini"><b>ア</b>　について、一般論としては認める。
+<p class="c_mini"><b>ア</b>　、一般論としては認める。
 <p class="c_mini">「原告が債権回収業務を」以下について、原告が被告のＳＩ推進事業部ＳＩ品質保証グループに所属していた平成２３年度（２０１１年度）に、原告の担当していた債権回収業務において、多額（多数）の債権未回収というトラブルが発生したことについては、認めるが、その余については、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>イ</b>について、一般論としては認める。
-<p class="c_mini"><b>ウ</b>について、被告における平成２３年度（２０１１年度）を評価対象期間とする原告の人事評価において、能力評価における「上司コメント」として、原告が「債権回収業務において催促を怠り多数の回収漏れを発生させた」とのコメントがあったこと、当該人事評価における原告の能力評価において、評価項目のすべてがｅ評価のゼロ点であったこと、当該人事評価における原告の実績評価において、評価項目のすべてがｄ評価の１点であったことは、いずれも認めるが、その余は、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>エ</b>について、認める。
-<p class="c_mini"><b>オ</b>について、不知である。
-<p class="c_mini"><b>カ</b>について、不知である。
-<p class="c_mini"><b>キ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ク</b>について、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>イ</b>、一般論としては認める。
+<p class="c_mini"><b>ウ</b>、被告における平成２３年度（２０１１年度）を評価対象期間とする原告の人事評価において、能力評価における「上司コメント」として、原告が「債権回収業務において催促を怠り多数の回収漏れを発生させた」とのコメントがあったこと、当該人事評価における原告の能力評価において、評価項目のすべてがｅ評価のゼロ点であったこと、当該人事評価における原告の実績評価において、評価項目のすべてがｄ評価の１点であったことは、いずれも認めるが、その余は、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>エ</b>、認める。
+<p class="c_mini"><b>オ</b>、不知である。
+<p class="c_mini"><b>カ</b>、不知である。
+<p class="c_mini"><b>キ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ク</b>、<span class="strong_rd">否認</span>する。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_142"></a><b>⑵　業務プロセスがかかわるトラブルに関する状況</b>
@@ -2087,13 +2087,13 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の４ ⑶</b>
-<p class="c_mini">「<b>ア</b>　経費支払業務の」以下について、一般論としては認める。
-<p class="c_mini">「原告が上司Ａに対して」以下について、<span class="strong_rd">否認</span>する。
-<p class="c_mini">「経費支払業務の際に契約内容を」以下について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>イ</b>　について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>オ</b>について、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
+<p class="c_mini">「<b>ア</b>　経費支払業務の」以下、一般論としては認める。
+<p class="c_mini">「原告が上司Ａに対して」以下、<span class="strong_rd">否認</span>する。
+<p class="c_mini">「経費支払業務の際に契約内容を」以下、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>イ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>オ</b>、事実上の主張としては<span class="strong_rd">否認</span>し、法律上の主張としては<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_143"></a><b>⑶　原告が被った精神的損害</b>
@@ -2107,7 +2107,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の５</b>
-<p class="c_mini"><b>５</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>５</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt2"><a name="dai2_15"></a><b>５　まとめ</b>
@@ -2118,12 +2118,12 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の６ ⑴</b>
-<p class="c_mini"><b>ア</b>について、概ね認める。
-<p class="c_mini"><b>イ</b>について、本件訴訟における原告の主張の要約であると思われるため、特に認否はしない。
-<p class="c_mini"><b>ウ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>オ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>カ</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、概ね認める。
+<p class="c_mini"><b>イ</b>、本件訴訟における原告の主張の要約であると思われるため、特に認否はしない。
+<p class="c_mini"><b>ウ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>オ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>カ</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_161"></a><b>⑴　既判力が本件訴訟に及ばす、実質的な蒸し返しにも当たらない</b>
@@ -2142,19 +2142,19 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の６ ⑵</b>
-<p class="c_mini"><b>ア</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>イ</b>について、事実上の主張については<span class="strong_rd">否認</span>し、法律上の主張については<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>ウ</b>について、認める。
-<p class="c_mini"><b>エ</b>について、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>オ</b>について、認める。
-<p class="c_mini"><b>カ</b>について、原告が、前回訴訟において、「調査をせず、あるいは不十分であったこと」等について信義則上の義務違反の存在を主張したことについては、認めるが、その余については、不知である。
-<p class="c_mini"><b>キ</b>について、認める。
-<p class="c_mini"><b>ク</b>について、原告が前回訴訟を提起する前に甲第２１号証における調査補助者による通知の内容を分析できたことは、認めるが、その余は、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>ケ</b>について、被告訴訟代理人が令和３年８月３１日に原告に対して伝えた内容については、概ね認めるが、その余については、<span class="strong_rd">否認</span>する。
-<p class="c_mini"><b>コ</b>について、不知である。
-<p class="c_mini"><b>サ</b>について、認める。
-<p class="c_mini"><b>シ</b>について、<span class="strong_rd">争う</span>。
-<p class="c_mini"><b>ス</b>について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>、事実上の主張については<span class="strong_rd">否認</span>し、法律上の主張については<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ウ</b>、認める。
+<p class="c_mini"><b>エ</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>オ</b>、認める。
+<p class="c_mini"><b>カ</b>、原告が、前回訴訟において、「調査をせず、あるいは不十分であったこと」等について信義則上の義務違反の存在を主張したことについては、認めるが、その余については、不知である。
+<p class="c_mini"><b>キ</b>、認める。
+<p class="c_mini"><b>ク</b>、原告が前回訴訟を提起する前に甲第２１号証における調査補助者による通知の内容を分析できたことは、認めるが、その余は、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>ケ</b>、被告訴訟代理人が令和３年８月３１日に原告に対して伝えた内容については、概ね認めるが、その余については、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>コ</b>、不知である。
+<p class="c_mini"><b>サ</b>、認める。
+<p class="c_mini"><b>シ</b>、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ス</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai2_162"></a><b>⑵　本件訴訟における原告の主張は、信義則に反せず、許される</b>
@@ -2258,7 +2258,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の１ ⑵</b>
-<p class="c_mini"><b>イ</b>について、「答弁書にも」以下について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>、「答弁書にも」以下について、<span class="strong_rd">争う</span>。
 <p class="c_mini">　被告の従業員が内部通報制度の通報窓口に通報をしたときに、被告にどのような義務を負う場合があるのかについての原告の主張は、
 <a href="#dai2_11"><u>上記第１の１</u></a>のとおりである。<br>
 　また、被告の従業員が内部通報制度の通報窓口に通報をしたときに、信義則上の義務を負う場合があるのか否かについての原告の主張は、
@@ -2287,7 +2287,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の１ ⑶</b>
-<p class="c_mini"><b>イ</b>について、「表６に記載する事実のうち下線部分の事実は」以下について、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>イ</b>、「表６に記載する事実のうち下線部分の事実は」以下について、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 <p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。これにより、被告は、被告が本件豪州企業からＧＳＴを請求されないための何かしらの措置、及び本件契約の措置を実行した。
 `````
 
@@ -2300,7 +2300,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の１ ⑷</b>
-<p class="c_mini"><b>ア</b>について、「原告の主張するような」以下について、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>ア</b>、「原告の主張するような」以下について、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><b>⑷　第２の１（４）（原告における･･･関係について）（１４頁以下）について</b>
@@ -2325,7 +2325,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の１ ⑸</b>
-<p class="c_mini"><b>エ</b>について、「ただし」以下の裁判所が原告の文書送付嘱託の申立てを却下したことについては、<span class="imp">不知</span>である。
+<p class="c_mini"><b>エ</b>、「ただし」以下の裁判所が原告の文書送付嘱託の申立てを却下したことについては、<span class="imp">不知</span>である。
 `````
 
 <p class="k_hg-idt4"><b>エ　第４段落（「これに対し」以下）（１５頁）について</b>
@@ -2333,7 +2333,7 @@
 <p class="k_idt4">ただし、被告が前回訴訟において被告と本件豪州企業の間の契約書を送付しなかったのは、前回訴訟の第一審の裁判所が令和４年１０月２７日の第８回弁論準備手続期日において原告の文書送付嘱託の申立てを却下したからである。
 
 `````{margin} 
-<p class="c_mini"><b>オ</b>について、「確定した」以下の被告が通報者に対して調査の内容を提示する必要があるか否かについては、<span class="imp">争わない</span>。
+<p class="c_mini"><b>オ</b>、「確定した」以下の被告が通報者に対して調査の内容を提示する必要があるか否かについては、<span class="imp">争わない</span>。
 `````
 
 <p class="k_hg-idt4"><b>オ　第５段落（「本件調査に係る」以下）（１５頁以下）について</b>
@@ -2342,7 +2342,7 @@
 
 
 `````{margin} 
-<p class="c_mini"><b>カ</b>について、「前回訴訟第一審判決及び」以下については、認める。
+<p class="c_mini"><b>カ</b>、「前回訴訟第一審判決及び」以下については、認める。
 `````
 
 <p class="k_hg-idt4"><b>カ　第６段落（「そして」以下）（１６頁）について</b>
@@ -2350,7 +2350,7 @@
 <p class="k_idt4">前回訴訟第一審判決及び前回訴訟控訴審判決のいずれも、原告の主張する事実として原告のいう「前回訴訟主要事実」を明示的に摘示したうえ（注４）、原告のいう「前回訴訟主要事実」のそれぞれについて、「信義則上の義務違反があったということはできない」（注５）、「信義則上の義務違反であるなどとは到底いえない」（注６）、「信義則上の義務違反があったものとすることはできない」（注７）などと明示的に判示している。
 
 `````{margin} 
-<p class="c_mini"><b>キ</b>について、「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。その余は、認める。
+<p class="c_mini"><b>キ</b>、「それによって原告のいうところの」から「困難ではなかったはずである。」については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。その余は、認める。
 <p class="c_mini">　これに対する原告の主張は、 <a href="#dai2_162"><u>上記第１の６ ⑵ </u></a>のとおりである。
 `````
 <p class="k_hg-idt4"><b>キ　第７段落（「前回訴訟における」以下）（１６頁）について</b>
@@ -2371,7 +2371,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の２ ⑴</b>
-<p class="c_mini"><b>オ</b>について、「労働契約法」の本件規程が労働者の「労働条件」を定めているものであるのか否かについては、<span class="imp">争わない</span>。
+<p class="c_mini"><b>オ</b>、「労働契約法」の本件規程が労働者の「労働条件」を定めているものであるのか否かについては、<span class="imp">争わない</span>。
 <p class="c_mini">　被告は、「労働条件に関わる」という原告の主張を曲解して、「本件規程は、労働者の「労働条件」を定めているものではない。」と主張しているが、原告は、本件規程について、すなわち、本件内部通報制度における活動について、労働者の側からは職場環境の改善の側面があり、労働条件にかかわりがあることを主張している。
 `````
 
@@ -2395,7 +2395,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の２ ⑶</b>
-<p class="c_mini"><b>ウ</b>について、「とすれば、」から「とはいえない。」までについては、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。その余は、認める。
+<p class="c_mini"><b>ウ</b>、「とすれば、」から「とはいえない。」までについては、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。その余は、認める。
 <p class="c_mini">　本件支払手続に係る支払の内容が契約条項又は租税条約などの法令等に基づいていたのか否かという調査事項を調査することは、まさしく、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響する事実を確認することである。一方で、<a href="#dai2_132"><u>上記第１の３ ⑵ </u></a>のとおり、被告は、原告に対し、法令等に違反する事実又は違反するおそれのある事実の有無の判断に影響しない事実について調査した結果を通知していたのであり、被告の行為は、不合理かつ悪質である。
 `````
 
@@ -2421,7 +2421,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>原告第２準備書面第２の２ ⑸</b>
-<p class="c_mini"><b>エ</b>について、「「コンプライアンス」以下については、被告が「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知したつもりであったのであれば、被告がその通知をしたつもりであったことを認める。
+<p class="c_mini"><b>エ</b>、「「コンプライアンス」以下については、被告が「法令等に違反する事実または違反するおそれのある事実」が存在しない旨を通知したつもりであったのであれば、被告がその通知をしたつもりであったことを認める。
 `````
 
 <p class="k_hg-idt4"><b>エ　第４段落（「この点」以下）（２０頁）について</b>
@@ -2431,7 +2431,7 @@
 <p class="k_idt4">事実上の主張としては否認し、法律上の主張としては争う。
 
 `````{margin} 
-<p class="c_mini"><b>カ</b>について、「答弁書にも」以下については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>カ</b>、「答弁書にも」以下については、<span class="strong_rd">否認</span>ないし<span class="strong_rd">争う</span>。
 <p class="c_mini">　被告が法令等に違反する事実又は違反するおそれのある事実の存在を把握していたことは、<a href="#dai2_131"><u>上記第１の３ ⑴ </u></a>のとおりである。また、被告が本件規程３．６ ⑴ に定める通知をする義務があることは、<a href="#dai2_113"><u>上記第１の１ ⑶ </u></a>のとおりである。
 `````
 
