@@ -1036,7 +1036,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の１ ⑷</b>
-<p class="c_mini">「⑷　まとめ」、<span class="strong_rd">争う</span>。
+<p class="c_mini"> <b>⑷</b> <span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt3"><a name="dai3_114"></a>
