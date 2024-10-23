@@ -1052,7 +1052,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第２の２</b>
-<p class="c_mini">「２　被告の認否について」、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>２</b>、<span class="strong_rd">争う</span>。
 `````
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（４）第４</b>
@@ -1920,7 +1920,7 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の３ ⑴</b>
-<p class="c_mini">「本件通報、追加通報及び」以下について、<span class="strong_rd">争う</span>。
+<p class="c_mini"><b>「本件通報、追加通報及び」以下</b>、<span class="strong_rd">争う</span>。
 `````
 
 <p class="k_hg-idt2"><a name="dai2_13"></a><b>３　被告の行動基準及び本件規程に違反する行為について</b>
@@ -2087,9 +2087,9 @@
 
 `````{margin} 
 <p class="c_mini"><b>被告準備書面（３）第２の４ ⑶</b>
-<p class="c_mini">「<b>ア</b>　経費支払業務の」以下、一般論としては認める。
-<p class="c_mini">「原告が上司Ａに対して」以下、<span class="strong_rd">否認</span>する。
-<p class="c_mini">「経費支払業務の際に契約内容を」以下、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>「ア　経費支払業務の」以下</b>、一般論としては認める。
+<p class="c_mini"><b>「原告が上司Ａに対して」以下</b>、<span class="strong_rd">否認</span>する。
+<p class="c_mini"><b>「経費支払業務の際に」以下</b>、<span class="strong_rd">否認</span>する。
 <p class="c_mini"><b>イ</b>、<span class="strong_rd">否認</span>する。
 <p class="c_mini"><b>ウ</b>、<span class="strong_rd">否認</span>する。
 <p class="c_mini"><b>エ</b>、<span class="strong_rd">争う</span>。
