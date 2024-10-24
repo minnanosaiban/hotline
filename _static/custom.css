@@ -474,11 +474,10 @@ p {
   margin: 0;
   font-size:12px;
 }
-.c_mini_hg-idt2 {
+.c_mini_pad {
   margin: 0;
   font-size:12px;
-  padding-left:2em;
-  text-indent:-1em;
+  padding-left:1em;
 }
 .c_pad1 {
   margin:0;
