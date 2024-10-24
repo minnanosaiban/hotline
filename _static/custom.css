@@ -478,7 +478,7 @@ p {
   margin: 0;
   font-size:12px;
   padding-left:2em;
-  text-indent:1em;
+  text-indent:-1em;
 }
 .c_pad1 {
   margin:0;
