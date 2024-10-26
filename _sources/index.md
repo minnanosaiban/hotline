@@ -161,7 +161,7 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ```{raw} html
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">通報すれば調査が行われるものと普通に考えてしまいますが、<br><br>実は、内部通報制度は通報者に対して調査をする義務はありません。<br><br>私も勘違いしていました。<br><br>でも、やっぱり裁判所の判示は納得いかない部分が多々あります。…</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1832240288318025931?ref_src=twsrc%5Etfw">September 7, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">要するに、<br><br>ＥＮＥＯＳの内部通報制度を利用したら、逆に、不正行為を隠蔽されたことなんですが、<br><br>こういう隠蔽行為があっても、相談できる機関がない。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1850063397137809895?ref_src=twsrc%5Etfw">October 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
 </div>
