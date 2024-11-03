@@ -37,8 +37,19 @@
 と主張しています。
 
 <p class="link" style="margin-top: 1.6em;">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_111"><span class="link_u">原告第３準備書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+<p class="link">
 <a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_211e"><span class="link_u">被告準備書面（４） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
+<p class="base" style="margin-top: 1.6em;">
+また、「行動指針１４項の ⑶ 及び本件規程３．５に定める徹底した原因究明及び効果的な再発防止策を実行する義務がある」という原告の主張に対し、<br>
+<span class="strong_rd">「行動基準も、「ＥＮＥＯＳグループで働く私たち」、すなわち被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。」</span><br>
+と主張しています。
+
+<p class="link" style="margin-top: 1.6em;">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141"><span class="link_u">原告第２準備書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
+<p class="link">
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_241a"><span class="link_u">被告準備書面（３） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
 
 ## ３　法律のココが問題！
 ---
@@ -77,62 +88,8 @@
 <p class="base" style="margin-top: 1.6em;">
 上記の措置は、海外子会社が不明瞭な金銭の送金するというものですので、さらに不適切会計を重ねた疑いがあります。この送金についても通報していますが、相手方は、海外子会社の会計帳簿を確認をする調査を行っていません。
 
-## ５　内部通報制度における違反
----
-<p class="base" style="margin-top: 1.6em;">
-<span class="strong_rd">相手方は、内部通報制度における活動において、内部通報により把握した法令等に違反する事実又は違反するおそれのある事実の存在を伏せていました。これは、相手方が自ら定めたコンプライアンス遵守に関する方針やＥＮＥＯＳ行動基準に違反しています。</span>
 
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf"><span class="link_u">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針｜ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a>
-<p class="link">
-<a href="https://www.hd.eneos.co.jp/company/conduct.html"><span class="link_u">グループ行動基準｜会社情報｜ＥＮＥＯＳホールディングス (eneos.co.jp) </span></a>
-<p class="link">
-<a href="https://www.hd.eneos.co.jp/esgdb/governance/pdf/system_policy.pdf"><span class="link_u">内部統制システムの整備・運用に関する基本方針｜ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a>
-<p class="link">
-<a href="https://www.jpx.co.jp/equities/listing/cg/tvdivq0000008jdy-att/nlsgeu000005lnul.pdf"><span class="link_u">コーポレート・ガバナンス・コード | 日本取引所グループ (jpx.co.jp) </span></a>
-
-<p class="base" style="margin-top: 1.6em;">
-原告から通報を受けたことにより、相手方が行った違反行為を、違反Ａ、違反Ｂ、違反Ｃの３つに整理します。
-
-<div class="base" style="margin-top: 1.6em;">
-
-````{card}
-<p class="q16" style="margin-top: 1em; margin-bottom: 1em;">
-<b>違反Ａ</b><br>
-通報者である原告に対して従業員の業務遂行にかかわる法令等に違反する事実又は違反するおそれのある事実の存在を伏せた行為
-```` 
-</div>
-
-<p class="base" style="margin-top: 1.6em;">
-原告の通報を受けて、相手方が実行したことは、ＧＳＴに関する条項を追加した契約を締結することでした。すなわち、相手方は、経費支払が契約に基づいていなかったという不正行為を、原告の通報によって把握したということです。それにもかかわらず、相手方は、通報者である原告に対してこの事実を隠していました。
-
-<div class="base" style="margin-top: 1.6em;">
-
-````{card}
-<p class="q16" style="margin-top: 1em; margin-bottom: 1em;">
-<b>違反Ｂ</b><br>
-是正措置及び再発防止策等に関して「事実に基づき、正確に、遺漏なく」作成されたとはいえない情報を通知した行為
-```` 
-</div>
-
-<p class="base" style="margin-top: 1.6em;">
-原告の通報を受けて、相手方が実行したことは、相手方の豪州子会社がＧＳＴ還付金として相手方に送金するという措置でした。また、その措置については、部長報告を行いました。しかし、この部長報告は、豪州子会社が実際には豪州からＧＳＴ還付金を受け取っていないにもかかわらず、相手方に送金したのではないかという疑念を抱かざるを得ない内容でした。
-
-<div class="base" style="margin-top: 1.6em;">
-
-````{card}
-<p class="q16" style="margin-top: 1em; margin-bottom: 1em;">
-<b>違反Ｃ</b><br>
-法令等に違反する事実又は違反するおそれのある事実に対する徹底した原因究明及び効果的な再発防止策を実行しなかった行為
-```` 
-</div>
-
-<p class="base" style="margin-top: 1.6em;">
-原告の通報を受けて、相手方が実行したことは、ＧＳＴに関する条項を追加した契約を締結したり、相手方の豪州子会社がＧＳＴ還付金として相手方に送金するという措置でしたが、業務プロセスの問題など、不正行為に対する原因の徹底した究明や再発防止策を実行しませんでした。
-
-
-
-## ６　引用や用語について
+## ５　引用や用語について
 ---
 <p class="base" style="margin-top: 1.6em;">
 本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。主張書面について「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。
@@ -145,7 +102,7 @@
 <a href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf"><span class="link_u">公益通報者保護法第 11 条第１項及び第２項の規定に基づき事業者がとるべき措置に関して、その適切かつ有効な実施を図るために必要な指針 | 消費者庁 (caa.go.jp)</span></a>
 
 
-## ７　ウェブサイトの記載について
+## ６　ウェブサイトの記載について
 ---
 <p class="base" style="margin-top: 1.6em;">
 ウェブサイトの記載は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。
@@ -161,7 +118,7 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ```{raw} html
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">要するに、<br><br>ＥＮＥＯＳの内部通報制度を利用したら、逆に、不正行為を隠蔽されたことなんですが、<br><br>こういう隠蔽行為があっても、相談できる機関がない。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1850063397137809895?ref_src=twsrc%5Etfw">October 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
 </div>
