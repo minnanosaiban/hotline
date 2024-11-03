@@ -118,7 +118,7 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ```{raw} html
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
 </div>
