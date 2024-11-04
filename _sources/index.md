@@ -78,13 +78,13 @@
 公益通報者保護法では、内部通報制度などの通報窓口の整備を義務付けてはいるものの、内部通報制度の活動で何をどのように調査するかは事業者の裁量に委ねられています。
 
 <p class="base" style="margin-top: 1.6em;">
-そして、不正があったか否かの結果を通報者に対して伝える際、その判断過程を伝える必要がありません。
+そして、不正があったか否かの結果を通報者に伝える際、その判断過程を伝える必要がありません。
 
 <p class="base" style="margin-top: 1.6em;">
 相手方の主張によると、通報者に対する通知や再発防止策等の不実施を問われても、「不正行為等には該当しないと結論づけられたもの」という理由が成り立つようです。
 
 <p class="base" style="margin-top: 1.6em;">
-これらはどういうことかというと、
+通報者に対しては、というと、
 
 <p class="base" style="margin-top: 1.6em;">
 <span class="strong_rd">意図的に、事業者が不正行為が確認できない方法で調査をしていたとしても、通報者に調査結果を通知する際に、何を調査したのかを伝える必要はなく、「不正行為ではない」と伝えるだけでいいのです。</span>
@@ -133,7 +133,7 @@
 <p class="base" style="margin-top: 1.6em;">
 事実をより正確に把握をしたい場合は、裁判文書のページ（
 <a href="https://minnanosaiban.github.io/hotline/2021judgment.html"><span class="link_u">判決文全文</span></a>、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">主張書面</span></a>）や引用元をご参照いただくことをお勧めいたします。
+<a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">主張書面</span></a> ）や引用元をご参照いただくことをお勧めいたします。
 
 <p class="base" style="margin-top: 1.6em;">
 もし私の解釈に誤りがあると感じられる場合は、X-Twitter でご指摘いただければ幸いです。
@@ -150,4 +150,5 @@
 ## <span style="color: #00000000;">エネオスのコンプライアンスホットラインに関する訴訟について</span>
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
 
