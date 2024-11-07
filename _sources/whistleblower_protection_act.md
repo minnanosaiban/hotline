@@ -93,6 +93,7 @@
 ## イビデン事件最高裁判決
 ---
 
+<a name="ibiden"></a>
 <p class="base" style="margin-top: 1.6em; ">
 <strong>イビデン事件最高裁判決は、最高裁は、相談窓口制度の運用を理由に、相談窓口の利用者に対する信義則上の義務を負う場合があることを認めたと解される判決です。</strong>
 
@@ -101,7 +102,6 @@
 
 
 <div class="base" style="margin-top: 1.6em;">
-<a name="ibiden"></a>
 
 ````{card}
 
