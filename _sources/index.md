@@ -146,6 +146,10 @@
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
+```{raw} html
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">因果関係は難しいのですけど、<br><br>通報に対する結果報告の後、翌年度の担当業務は「グループ内庶務」の７文字だけでした。<br><br>そんな人は他にいなくて、「チャレンジングな目標を立てよ」と言われても難しかったです。<br><br>結果として、勤続３０年の私の職能資格は、新卒入社１年目の人と同じでした。…</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1854464324359905462?ref_src=twsrc%5Etfw">November 7, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
+
 </div>
 
 
