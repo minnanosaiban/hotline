@@ -1,155 +1,145 @@
-<p class="top">上部はダークモードスイッチ等のメニューです
-
 # <span style="color: #f37726;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 
+## １　ＥＮＥＯＳの内部通報制度の問題
+---
+<p>
+ＥＮＥＯＳの従業員です。勤務先の内部通報制度を通じて通報を行ったところ、不正を隠蔽するために不正な会計処理が行われました。さらに、あたかも法改正が存在したかのような通知を行い、契約内容について誤解釈を促すなど、その対応は悪質です。
+<p style="margin-top:1.6em;">
+こうした悪質な対応がなされても、内部通報制度の不適切な対応を是正する独立機関が存在しないため、通報者はなすすべがありません。報道でも多く取り上げられているように、通報者が不利益を被り、追い詰められて自殺に至る悲劇的な事例も存在します。
+<p style="margin-top:4.8em;">
+通報者には、自ら命を絶つという限られた選択肢しか残されていないのが実情です。✏️
 
-<div class="base" style="margin-top: 1.6em;">
+## ２　ウェブサイトについて
+---
+<p>
+本ウェブサイトは、ＥＮＥＯＳを被告とした訴訟の裁判文書を掲載してます。
+<div class="base">
 
-````{card} 
-:link: https://minnanosaiban.github.io/hotline/2024allegation.html
+::::{grid} 1 1 2 2
+:class-container: text-left
+:gutter: 3
 
-<div class="linkcard">
-    <img class="linkcard_img" src="https://minnanosaiban.github.io/hotline/_static/logo.png">
-    <p class="linkcard_text"><b>簡裁から地裁へ移送になりました。次の提出は原告第４準備書面です。</b><br><a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">こちらに、ＥＮＥＯＳと原告の主張書面を掲載しています。</a></p>
+:::{grid-item-card}
+:link: tisai
+:link-type: doc
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b>主張書面（地裁）</b></span>
+
+^^^
+簡裁から地裁に移送になりました。ＥＮＥＯＳ側は通報者に対して通知の義務はないと主張しています。
+:::
+:::{grid-item-card}
+:link: kansai
+:link-type: doc
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b>主張書面（簡裁）</b></span>
+
+^^^
+原告は、通報者に対して是正措置及び再発防止策を通知しなかったことについて違反を主張しています。
+:::
+:::{grid-item-card}
+:link: judgment
+:link-type: doc
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b>判決文（令和５年判決）</b></span>
+
+^^^
+通報に応じた調査の実施については、「法的義務を負うということはできない」として、棄却しました。<br>
+
+:::
+:::{grid-item-card}
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b>判決文（作成中）</b></span>
+
+^^^
+通報者に対する通知については、現在、係争中です。判決言い渡し後、判決文を掲載します。<br>
+
+:::
+:::{grid-item-card}
+:link: background
+:link-type: doc
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b>経緯及び書証</b></span>
+
+^^^
+内部通報制度に対する通報に関する事実関係を記載しています。書証の一部も掲載する予定です。
+:::
+:::{grid-item-card}
+:link: x-twitter
+:link-type: doc
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b><i class="fa-brands fa-x-twitter"></i> </b></span>
+
+^^^
+<i class="fa-brands fa-x-twitter"></i> での発信、株主総会での問題提起、自殺すること、通報者に残されている選択肢は限られています。
+
+:::
+
+::::
 </div>
 
-````
-
-</div>
-
-## １　ウェブサイトについて
+## ３　裁判所の判断　その１
 ---
-<p class="base" style="margin-top: 1.6em;">
-本ウェブサイトの管理人（以下「原告」といいます）は、原告の勤務先（以下「相手方」といいます）の内部通報制度を利用した従業員です。本ウェブサイトは、内部通報制度の問題点を明確にする目的で開設しています。
+<p>
+令和５年判決は、通報を受けた後、調査を実施しなかったことについて、
+<p>
+<b>「不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。」</b>
+<p>
+と判示しました。
+<p>
+<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment.html#handan1">判決文の該当箇所</a>
+<p style="margin-top:1.6em;">
+なお、上記判決文で引用されている最高裁平成３０年判決は、
+<p>
+<b>「上告人は，相応の対応をするよう努めることが想定されていたものといえ，上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される。」</b>
+<p>
+と判示しています。
+<p>
+<i class="fa-solid fa-arrow-right"></i> <a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">裁判例結果詳細 | 裁判所 - Courts in Japan</a>
 
-## ２　相手方について
+<p style="margin-top:4.8em;">
+間違えやすい点ですが、最高裁平成３０年判決の判示は、令和５年判決の判示の根拠ではありません。✏️
+
+## ４　裁判所の判断　その２
 ---
-<p class="base" style="margin-top: 1.6em;">
-相手方は、人権尊重、コンプライアンス徹底を経営の最優先事項と位置付けていることを公式ウェブサイトで表明している企業です。また、「コンプライアンスに関する取組みの再徹底に係る進捗について」という文書をニュースリリースしています。 
+<p>
+令和５年判決は、通報の態様について、
+<p>
+<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。」</b>
+<p>
+と判示しました。
+<p>
+<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment.html#handan2">判決文の該当箇所</a>
+<p style="margin-top:1.6em;">
+しかし、消費者庁が公表した「公益通報者保護法に基づく指針の解説」は、
+<p>
+<b>「内部公益通報を「受け付ける」とは、内部公益通報受付窓口のものとして表示された連絡先（電話番号、メールアドレス等）に直接内部公益通報がされた場合だけではなく、例えば、公益通報対応業務に従事する担当者個人のメールアドレス宛てに内部公益通報があった場合等、実質的に同窓口において内部公益通報を受け付けたといえる場合を含む。」</b>
+<p>
+と示しています。
+<p>
+<i class="fa-solid fa-arrow-right"></i> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) </a>
 
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf"><span class="link_u">ニュースリリース | ＥＮＥＯＳホールディングス (eneos.co.jp)</span></a> 
+<p style="margin-top:4.8em;">
+裁判所の判断は、「公益通報者保護法に基づく指針」に反する判断です。✏️
 
-<p class="base" style="margin-top: 1.6em;">
-しかし、裁判では、「（コンプライアンスホットライン規程等、）規程類の遵守の徹底を図る義務がある」という原告の主張に対し、
-
-<p class="base" style="margin-top: 1.6em;">
-<span class="strong_rd">「仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。」</span>
-
-<p class="base" style="margin-top: 1.6em;">
-と主張しています。
-
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai3_111"><span class="link_u">原告第３準備書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku4_211e"><span class="link_u">被告準備書面（４） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-
-<p class="base" style="margin-top: 1.6em;">
-また、「行動指針１４項の ⑶ 及び本件規程３．５に定める徹底した原因究明及び効果的な再発防止策を実行する義務がある」という原告の主張に対し、
-
-<p class="base" style="margin-top: 1.6em;">
-<span class="strong_rd">「行動基準も、「ＥＮＥＯＳグループで働く私たち」、すなわち被告を含むＥＮＥＯＳグループの役員及び従業員の義務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。」</span>
-
-<p class="base" style="margin-top: 1.6em;">
-と主張しています。
-
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#dai2_141"><span class="link_u">原告第２準備書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_241a"><span class="link_u">被告準備書面（３） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-
-<p class="base" style="margin-top: 1.6em;">
-さらに、「契約内容に基づいていない支払について、本件規程３．５又は行動基準１４項の ⑶ に定める是正措置及び再発防止策を実行する対象である」という原告の主張に対し、
-
-<p class="base" style="margin-top: 1.6em;">
-<span class="strong_rd">結論の根拠を述べずに、「本件通報に係る調査の結果、コンプライアンス違反ではない（法令等に違反するものではない）と結論づけられたものである」</span>
-
-<p class="base" style="margin-top: 1.6em;">
-と主張しています。
-
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#toben_35"><span class="link_u">答弁書 - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-<p class="link">
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html#hikoku3_223"><span class="link_u">被告準備書面（３） - ＥＮＥＯＳの内部通報制度に関する訴訟について</span></a>
-
-## ３　通報に対する対応
+## ５　記載の内容や用語について
 ---
-<p class="base" style="margin-top: 1.6em;">
-通報のきっかけは、豪州企業の請求書にＧＳＴが請求金額として記載されていたことでした。請求書の誤りを上司に報告した際、上司の言動に原告を誤導する意図を感じました。
-<p class="base" style="margin-top: 1.6em;">
-そのため、後になってから、実務担当者の私が契約を確認せず支払いを進めたと叱責を受ける不安を感じ、内部通報制度を利用しました。
-<p class="base" style="margin-top: 1.6em;">
-通報に対する対応は、豪州企業に対するＧＳＴの支払が契約に基づいていないことを隠し、豪州子会社が豪州からＧＳＴ還付を受けたかのように装って本社に対して送金することでした。
-<p class="base" style="margin-top: 1.6em;">
-また、存在しない法改正が存在したかのような報告も行われました。
-<p class="base" style="margin-top: 1.6em;">
-つまり、相手方は、不正を隠蔽したということです。
-
-## ４　通報者に対する不利益取扱い
----
-<p class="base" style="margin-top: 1.6em;">
-通報を受けたＥＮＥＯＳは、まず、業務を移管する旨を通知し、通報内容に関することから通報者を切り離しました。
-<p class="base" style="margin-top: 1.6em;">
-その後、「部長に説明するため」という理由で、通報者に対して不適切な分析手法を用いた分析（線形回帰分析を用いて時系列データを分析すること）を命じました。
-<p class="base" style="margin-top: 1.6em;">
-さらに、翌年度の通報者の担当業務を「グループ内庶務」のみに限定しました。事業部内で担当業務が「グループ内庶務」に限定されたのは通報者のみでした。
-<p class="base" style="margin-top: 1.6em;">
-訴訟では、これらの対応が通報者に対する不利益取扱いに当たるとして主張しました。
-<p class="base" style="margin-top: 1.6em;">
-その後、通報者の原告に対する昇格据え置き措置が続きました。
-<p class="base" style="margin-top: 1.6em;">
-結果として、勤続３０年の原告は新卒入社１年目の人と同じでした。
-
-## ５　法律のココが問題！
----
-<p class="base" style="margin-top: 1.6em;">
-公益通報者保護法では、内部通報制度などの通報窓口の整備を義務付けてはいるものの、通報を受けて何をどのように調査するかは事業者の裁量に委ねられています。
-<p class="base" style="margin-top: 1.6em;">
-そして、不正があったか否かの結果を通報者に伝える際、その判断過程を伝える必要がありません。
-<p class="base" style="margin-top: 1.6em;">
-通報者に調査結果を通知する際に、事業者が意図的に不正行為が確認できない方法で調査した結果を通知しても問題ありません。
-
-## ６　引用や用語について
----
-<p class="base" style="margin-top: 1.6em;">
-本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。主張書面について「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。
-<p class="base" style="margin-top: 1.6em;">
-その他、裁判に関連する文書から一部を引用している場合は、「原文ママ」と明記しておりますが、事実をより正確に把握をしたい場合は、引用元をご参照いただくことをお勧めいたします。
-<p class="base" style="margin-top: 1.6em;">
-本ウェブサイトに用いている用語の意味は、別段の定義のない限り、判決文や主張書面などの裁判書類、<a href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">消費者庁が公表した指針</a>において定義しているものと同様です。
-　
-<p class="link" style="margin-top: 1.6em;">
-<a href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf"><span class="link_u">公益通報者保護法第 11 条第１項及び第２項の規定に基づき事業者がとるべき措置に関して、その適切かつ有効な実施を図るために必要な指針 | 消費者庁 (caa.go.jp)</span></a>
-
-
-## ７　ウェブサイトの記載について
----
-<p class="base" style="margin-top: 1.6em;">
-ウェブサイトの記載は私個人の解釈が含まれています。裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。
-
-<p class="base" style="margin-top: 1.6em;">
-事実をより正確に把握をしたい場合は、裁判文書のページ（
-<a href="https://minnanosaiban.github.io/hotline/2021judgment.html"><span class="link_u">判決文全文</span></a>、
-<a href="https://minnanosaiban.github.io/hotline/2024allegation.html"><span class="link_u">主張書面</span></a> ）や引用元をご参照いただくことをお勧めいたします。
-
-<p class="base" style="margin-top: 1.6em;">
-もし私の解釈に誤りがあると感じられる場合は、X-Twitter でご指摘いただければ幸いです。
-
-<div class="base" style="margin-top: 1.6em;">
-
-```{raw} html
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
-
-```{raw} html
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">因果関係は難しいのですけど、<br><br>通報に対する結果報告の後、翌年度の担当業務は「グループ内庶務」の７文字だけでした。<br><br>そんな人は他にいなくて、「チャレンジングな目標を立てよ」と言われても難しかったです。<br><br>結果として、勤続３０年の私の職能資格は、新卒入社１年目の人と同じでした。…</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1854464324359905462?ref_src=twsrc%5Etfw">November 7, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-```
-
-</div>
-
+<p>
+裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。事実をより正確に把握をしたい場合は、裁判文書のページや引用元をご参照いただくことをお勧めいたします。
+<p style="margin-top:1.6em;">
+本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。また、用いている用語の意味は、判決文や主張書面などの裁判書類、<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">公益通報者保護法に基づく指針</a>において定義しているものと同様です。
+<p style="margin-top:4.8em;">
+もし私の解釈に誤りがあると感じられる場合は、<a class="reference external" href="https://x.com/minnanosaiban">X-Twitter</a> でご指摘いただけますと幸いです。✏️
 
 ## <span style="color: #00000000;">エネオスのコンプライアンスホットラインに関する訴訟について</span>
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
+
 
