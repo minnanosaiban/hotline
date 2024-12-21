@@ -75,7 +75,7 @@
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_521">
 ⑴　第２の２ ⑴（本件豪州企業に対する...説明していた。）（５頁以下）について</a>
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_522">
-⑵　第２の２ ⑵（本件豪州企業への・・・回答を行っていた。）（８頁以下）に（本件豪州企業への回答を行っていた。）について</a>
+⑵　第２の２ ⑵（本件豪州企業への・・・回答を行っていた。）（８頁以下）について</a>
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_523">
 ⑶　第２の２ ⑶（あたかも・・・原告に隠していた。）（９頁以下）について</a>
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_524">
