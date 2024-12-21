@@ -6,6 +6,8 @@
 <div class="base" style="margin-top: 1.6em;">
 
 ````{card}
+<p class="card-text" style="margin-top: 1.6em; text-align: center;">
+<b>被告準備書面（５）　目次</b>
 <p class="card-text pad1 hg-idt"><a class="reference internal text" href="#hikoku54_1">
 第１　緒言
 <p class="card-text pad1 hg-idt"><a class="reference internal text" href="#hikoku5_2">
@@ -33,7 +35,7 @@
 <p class="card-text pad1 hg-idt"><a class="reference internal text" href="#hikoku5_32">
 第３－２　第２（調査事項に対応する「法令等」について）（２頁）について
 <p class="card-text pad1 hg-idt"><a class="reference internal text" href="#hikoku5_33">
-第３－３　第３（本件規程３.５に定める是正措置及び再発防止策等の実行について）（２頁以下）について
+第３－３　第３（本件規程３．５に定める是正措置及び再発防止策等の実行について）（２頁以下）について
 <p class="card-text pad1 hg-idt"><a class="reference internal text" href="#hikoku5_34">
 第３－４　第４（本体ＧＳＴの支払について）（３頁）について
 <p class="card-text pad2 hg-idt"><a class="reference internal text" href="#hikoku5_341">
@@ -53,7 +55,7 @@
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_423">
 ⑶　原告文書送付嘱託申立書第１の１ ⑷ に記載の文書
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_424">
-⑷　原告文書送付嘱託申立書第１の１ ⑸ ⑹ に記載の文書
+⑷　原告文書送付嘱託申立書第１の１ ⑸・⑹ に記載の文書
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_425">
 ⑸　原告文書送付嘱託申立書第２の１ ⑴・⑵に記載の文書
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_426">
@@ -80,7 +82,7 @@
 ⑷　第２の２ ⑷（豪州子会社が・・・原告に隠していた。）（１１頁以下）について
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_525">
 ⑸　第２の２ ⑸（まとめ）（１３頁）について
-<p class="card-text pad2 hg-idt"><a class="reference internal text" href="#hikoku5_53">
+<p class="card-text pad2 hg-idt"><a class="reference internal text" style="margin-bottom: 1.6em;" href="#hikoku5_53">
 ３　第２の３（前回訴訟の・・・許される。）（１３頁以下）について
 ````
 
@@ -122,7 +124,7 @@
 ⑴　本件訴訟訴訟物における通報と前回訴訟訴訟物における通報は同一関係にない。仮に同一の通報とみなすとしても、本件規程に基づく対応事項は、独立関係にあるだけでなく、その対象が異なるため、本件訴訟訴訟物と前回訴訟訴訟物は同一関係にない。</a>
 <p class="card-text pad2 hg-idt"><a class="reference internal text" href="#dai4_232">
 ⑵　原告は、被告による行動基準第１１項 ⑶ に違反する行為により、調査によって確認されている法令等に違反する事実又は違反するおそれのある事実の存在だけでなく、これに対する対応がなされたのか否かが把握できない状況に置かれていた。</a>
-<p class="card-text pad2 hg-idt"><a class="reference internal text" href="#dai4_234">
+<p class="card-text pad2 hg-idt"><a class="reference internal text" style="margin-bottom: 1.6em;" href="#dai4_234">
 ⑷　まとめ</a>
 ````
 </div>
