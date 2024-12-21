@@ -120,12 +120,12 @@
 ⑸　まとめ</a>
 <p class="card-text pad2 hg-idt"><a class="reference internal text" href="#dai4_23">
 ３　前回訴訟の確定判決の既判力が本件訴訟に及ばす、実質的な蒸し返しにも当たらない。また、本件訴訟における原告の主張は、信義則に反せず、許される。</a>
-<p class="card-text pad2 hg-idt"><a class="reference internal text" href="#dai4_231">
+<p class="card-text pad3 hg-idt"><a class="reference internal text" href="#dai4_231">
 ⑴　本件訴訟訴訟物における通報と前回訴訟訴訟物における通報は同一関係にない。仮に同一の通報とみなすとしても、本件規程に基づく対応事項は、独立関係にあるだけでなく、その対象が異なるため、本件訴訟訴訟物と前回訴訟訴訟物は同一関係にない。</a>
-<p class="card-text pad2 hg-idt"><a class="reference internal text" href="#dai4_232">
+<p class="card-text pad3 hg-idt"><a class="reference internal text" href="#dai4_232">
 ⑵　原告は、被告による行動基準第１１項 ⑶ に違反する行為により、調査によって確認されている法令等に違反する事実又は違反するおそれのある事実の存在だけでなく、これに対する対応がなされたのか否かが把握できない状況に置かれていた。</a>
-<p class="card-text pad2 hg-idt"><a class="reference internal text" style="margin-bottom: 1.6em;" href="#dai4_234">
-⑷　まとめ</a>
+<p class="card-text pad3 hg-idt"><a class="reference internal text" style="margin-bottom: 1.6em;" href="#dai4_233">
+⑶　まとめ</a>
 ````
 </div>
 <p style="margin-top: 1.6em;">
@@ -627,8 +627,8 @@
 <a name="dai4_232ka"></a>
 <b>カ</b>　以上のとおり、原告は、被告による行動基準第１１項 ⑶ に違反する行為により、調査によって確認されている法令等に違反する事実又は違反するおそれのある事実の存在だけでなく、これに対する対応がなされたのか否かが把握できない状況に置かれていた。
 <p class="pad3 hg-idt">
-<a name="dai4_234"></a>
-<b>⑷　まとめ</b>
+<a name="dai4_233"></a>
+<b>⑶　まとめ</b>
 <p class="pad3 idt">
 以上のとおり、被告は、原告に対して行動基準第１１項 ⑶ に違反する行為を行うことで、原告に「本件豪州企業に対するＧＳＴの支払が契約内容に基づいていたか否かを調査しなかった」という誤った事実を認識させており、原告が、前回訴訟において、
 <p class="pad4 hg-idt">
