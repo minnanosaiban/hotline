@@ -82,7 +82,7 @@
 ⑷　第２の２ ⑷（豪州子会社が・・・原告に隠していた。）（１１頁以下）について
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#hikoku5_525">
 ⑸　第２の２ ⑸（まとめ）（１３頁）について
-<p class="card-text pad2 hg-idt"><a class="reference internal text" style="margin-bottom: 1.6em;" href="#hikoku5_53">
+<p class="card-text pad2 hg-idt" style="margin-bottom: 1.6em;"><a class="reference internal text" href="#hikoku5_53">
 ３　第２の３（前回訴訟の・・・許される。）（１３頁以下）について
 ````
 
@@ -124,7 +124,7 @@
 ⑴　本件訴訟訴訟物における通報と前回訴訟訴訟物における通報は同一関係にない。仮に同一の通報とみなすとしても、本件規程に基づく対応事項は、独立関係にあるだけでなく、その対象が異なるため、本件訴訟訴訟物と前回訴訟訴訟物は同一関係にない。</a>
 <p class="card-text pad3 hg-idt"><a class="reference internal text" href="#dai4_232">
 ⑵　原告は、被告による行動基準第１１項 ⑶ に違反する行為により、調査によって確認されている法令等に違反する事実又は違反するおそれのある事実の存在だけでなく、これに対する対応がなされたのか否かが把握できない状況に置かれていた。</a>
-<p class="card-text pad3 hg-idt"><a class="reference internal text" style="margin-bottom: 1.6em;" href="#dai4_233">
+<p class="card-text pad3 hg-idt" style="margin-bottom: 1.6em;"><a class="reference internal text" href="#dai4_233">
 ⑶　まとめ</a>
 ````
 </div>
