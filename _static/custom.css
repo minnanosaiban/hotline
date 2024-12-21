@@ -244,6 +244,10 @@ a.headerlink {
   font-weight: bold;
   text-decoration: none;
   }
+.bouten {
+  text-emphasis: dot;
+  text-emphasis-position: over;
+　}
 /* 追加）インデント設定 */
 .idt {
   text-indent:1em;
