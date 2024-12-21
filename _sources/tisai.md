@@ -68,7 +68,7 @@
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text"><b>⑴</b>、<span class="strong-rd">争う</span>。
-<p class="margin-set">なお、原告の主張の要旨は、前記第２の１に詳述したとおりである。📄
+<p class="margin-set"><span class="margin-text">なお、原告の主張の要旨は、前記第２の１に詳述したとおりである。📄
 `````
 <p class="pad3 hg-idt">
 <a name="dai4_211"></a>
@@ -99,7 +99,7 @@
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text"><b>⑵</b>、認める。
-<p class="margin-set">被告の主張の要旨は、前記第２の２に詳述したとおりである。📄
+<p class="margin-set"><span class="margin-text">>被告の主張の要旨は、前記第２の２に詳述したとおりである。📄
 `````
 <p class="pad3 hg-idt">
 <a name="dai4_212"></a>
