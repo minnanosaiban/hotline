@@ -71,6 +71,11 @@ p {
   line-height: 2.5;
   }
 /* カード設定 ★★★ */
+div.dropdown {
+  font-size: 0.8em;
+  height: 0.8em;
+  background-color: transparent;
+}
 .sd-card-text {
   margin-right: 1rem;
   margin-left: 1rem;
