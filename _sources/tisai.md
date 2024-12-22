@@ -1061,7 +1061,7 @@
 「ＧＳＴの法改正」については、原告が令和元年１２月２日に、調査補助者に対して「今回の件に影響したとされる「２０１６年１１月以降ＧＳＴの法改正」は、どの時点の何の法改正かを具体的に教えてください。（甲２５の２）」と告げた際、調査補助者が「その法改正について調べて ≪ 原告 ≫ さんにお伝えすることが、「コンプライアンス違反ではない」という結論に影響しませんので法務部はそのような調査を行いません。（甲２５の５）」と通知した。<b>（甲２５の２、甲２５の５）</b>
 
 `````{margin} 
-<p class="margin-set"><span class="margin-text"><b>キ</b>、不知である。（明らかな事実にたいする<span class="strong-rd">不知</span>）
+<p class="margin-set"><span class="margin-text"><b>キ</b>、不知である。（明らかな事実に対する<span class="strong-rd">不知</span>）
 `````
 <p class="pad4 hg-idt">
 <a name="dai4_223ki"></a>
@@ -1297,6 +1297,11 @@
 ## 
 
 <div class="base" style="margin: 4rem 0;">
+
+:::{dropdown} 
+:class-title: 'custom-dropdown-title'
+:color: light
+:::
 
 :::{dropdown} 
 

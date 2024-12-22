@@ -114,6 +114,11 @@ p {
   border: 1px solid #e5e7ea; 
   vertical-align: top;
   }
+.custom-dropdown-title {
+  font-size: 0.8em;               /* 文字サイズを0.8emに設定 */
+  height: 1em;                    /* 高さを1emに設定 */
+  color: #e5e7ea !important;
+}
 .twitter-tweet {
   margin-right: auto;
   margin-left: auto;
