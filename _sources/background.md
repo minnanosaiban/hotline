@@ -5,7 +5,7 @@
 <div class="base" style="margin-top: 1.6em;">
 <table class="table-set">
   <tr>
-    <td class="table-text" style="text-align: center; width: 6em;"><b>書証番号</b></td>
+    <td class="table-text" style="text-align: center; width: 8em;"><b>書証番号</b></td>
     <td class="table-text" style="text-align: center;"><b>内容</b></td>
   </tr>
   <tr>
@@ -70,7 +70,7 @@
 <div class="base" style="margin-top: 1.6em;">
 <table class="table-set">
   <tr>
-    <td class="table-text" style="text-align: center; width: 6em;"><b>書証番号</b></td>
+    <td class="table-text" style="text-align: center; width: 8em;"><b>書証番号</b></td>
     <td class="table-text" style="text-align: center;"><b>内容</b></td>
   </tr>
   <tr>
