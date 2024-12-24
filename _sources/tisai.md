@@ -51,56 +51,56 @@
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その１</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 コンプライアンスホットライン規程、行動基準、内部統制基本方針のいずれも、被告の役員や従業員の行動を規定するものであり、法人としての被告の義務や従業員に対する直接的な義務を定めるものではない。その違反が債務不履行や損害賠償責任を生じさせることはなく、就業規則のように従業員との間に法的権利義務関係を生じさせるものではない。
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その２</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 コンプライアンスホットライン規程に定める通報者に対する通知は、前回訴訟争点１に係る通報と同一の（本件通報及び追加通報）に関するものである以上は、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものにとどまる。
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その３</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 本件部長報告は、原告の所属していた部署の担当者が当該部署の部長に対して報告をしたものに過ぎず、被告又は被告の調査補助者が原告に対して本件通報に関して通知又は情報共有をしたものではないので、被告又はその履行補助者が原告の主張を困難にしたわけでもない。
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その４</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 ＧＳＴは、当該ＧＳＴについて定める法令に基づいて支払う必要があるものであって、契約に基づいて支払う必要が生ずるものではなく、契約の定めの有無・内容にかかわらず、法令上ＧＳＴの課税される取引であれば、ＧＳＴを支払う必要があるし、法令上ＧＳＴの課税されない取引であれば、ＧＳＴを支払う必要はない。
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その５</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 ＧＳＴが課税されるか否かは個別の取引の性質よって取引毎に異なるため、ＧＳＴの課税されない取引についてＧＳＴを支払ったり、支払済みのＧＳＴの還付申請がされなかったりしたとしても、直ちにコンプライアンス違反となるわけでもない。<span class="strong-rd"><i class="fa-solid fa-arrow-right"></i> 論点のすり替え！</span>
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その６</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 調査結果は、本件規程３．６ ⑴ イにいう「法令等に違反する事実が確認された場合」又は本件規程３．６ ⑴ ウにいう「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかった
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その７</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 「判然としない」又は「不確か」な部分があったり、そこに言及されている事実が存在しない「可能性がある」又は「疑いが拭えない」と思えたりするというだけであって、「事実に基づき、正確に、遺漏なく」作成されたものでないことを示す客観的事実があるわけでもない。
 </div>
 
 <div class="base table-card" style="margin-top: 1.6em;">
 <p class="card-text center" style="margin-top: 1.6em;">
 <b>被告の主張　その８</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
+<p class="card-text idt" style="margin-top: 1.6em;">
 本件通報又は追加通報において原告が通報をした内容は、ＧＳＴの還付又はその会計処理に関する疑義であって、それによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に本件通報に適切に対応すべき信義則上の義務を負うということはできない。 
 </div>
 
