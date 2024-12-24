@@ -1,6 +1,6 @@
 # １　主張書面（地裁）
 
-## 17　第４回口頭弁論<a name="17"></a>
+## 17　第４回口頭弁論
 ---
 <div class="base" style="margin-top: 1.6em;">
 <table class="table-set">
