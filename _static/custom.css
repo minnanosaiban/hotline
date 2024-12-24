@@ -3,7 +3,7 @@
   --web-color: #f37726;
   --link-color: #4A90E2;
   --strong-color: #dc3545;
-  --table-color: #d1d5da;
+  --table-color: #e5e7ea;
   }
 /* Sphinx Book Theme のカスタマイズ */
 .search-button-field {
@@ -85,6 +85,9 @@ p {
   margin-top: 1rem;
   margin-bottom: 1rem;
   }
+.center {
+  text-align: center;
+  }  
 .card-text{
   margin-right: 1rem;
   margin-left: 1rem;
@@ -101,13 +104,18 @@ p {
   font-size: 0.8em;
   line-height: 2.5;
   }
+.table-card {
+  border: 1px solid #e5e7ea;
+  box-shadow: none;
+  padding: 0.5rem;
+  }
 .table-set{
   border-collapse: collapse; 
   width: 100%; 
   border: 1px solid #e5e7ea;
   }
 .table-text{
-  padding: 0.8rem;
+  padding: 0.5rem;
   margin: 0;
   font-size: 0.85em;
   line-height: 2;
@@ -321,6 +329,9 @@ a.headerlink {
     margin-right: 0;
     margin-left: 0;
     }
+  .center {
+    text-align: left;
+    }  
   .card-text{
     margin-right: 0.5rem;
     margin-left: 0.5rem;

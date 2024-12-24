@@ -79,7 +79,7 @@
   </tr>
   <tr>
     <td class="table-text"><b>甲２の１</b></td>
-    <td class="table-text"><a class="reference internal text" href="">ＥＮＥＯＳグループ行動基準</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://www.hd.eneos.co.jp/about/conduct.html">ＥＮＥＯＳグループ行動基準</a></td>
   </tr>
   <tr>
     <td class="table-text"><b>甲２の２</b></td>
