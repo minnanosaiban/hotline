@@ -44,7 +44,7 @@
 :link-type: doc
 :class-header: bg-light text-center
 
-<span style="color: #8045e5;"><b>判決文（令和５年判決）</b></span>
+<span style="color: #8045e5;"><b>判決文（山田悠一郎裁判官）</b></span>
 
 ^^^
 通報に応じた調査の実施については、「法的義務を負うということはできない」として、棄却しました。<br>
