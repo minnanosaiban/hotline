@@ -472,198 +472,198 @@
 <p class="pad1 idt">
 原告の令和６年１１月２５日付の「<b>原告第４準備書面</b>」（以下「原告第４準備書面」という。）の第２（原告の主張）（３頁以下）における原告の主張に対する被告の認否は、以下のとおりである。
 <p class="pad2 hg-idt">
-<a name="hikoku5_41"></a>
+<a name="hikoku5_51"></a>
 <b>１　第２の１（本件訴訟における原告及び被告の主張）（３頁以下）について</b>
 <p class="pad3 hg-idt">
-<a name="hikoku5_411"></a>
+<a name="hikoku5_511"></a>
 <b>⑴　第２の１ ⑴（原告が主張する被告の違反行為について）（３頁以下）について</b>
 <p class="pad3 idt">
 争う。
 <p class="pad3 idt">
 なお、原告の主張の要旨は、前記第２の１に詳述したとおりである。
 <p class="pad3 hg-idt">
-<a name="hikoku5_412"></a>
+<a name="hikoku5_512"></a>
 <b>⑵　第２の１ ⑵（被告の主張について）（４頁）について</b>
 <p class="pad3 idt">
 認める。
 <p class="pad3 idt">
 被告の主張の要旨は、前記第２の２に詳述したとおりである。
 <p class="pad3 hg-idt">
-<a name="hikoku5_413"></a>
+<a name="hikoku5_513"></a>
 <b>⑶　第２の１ ⑶（原告の主張について）（４頁以下）について</b>
 <p class="pad3 idt">
 特に認否しない。
 <p class="pad2 hg-idt">
-<a name="hikoku5_42"></a>
+<a name="hikoku5_52"></a>
 <b>２　第２の２（被告は．．．誤った事実を認識させていた。）（５頁以下）について</b>
 <p class="pad3 hg-idt">
-<a name="hikoku5_421"></a>
+<a name="hikoku5_521"></a>
 <b>⑴　第２の２ ⑴（本件豪州企業に対する・・・説明していた。）（５頁以下）について</b>
 <p class="pad4 hg-idt">
-<a name="hikoku5_421a"></a>
+<a name="hikoku5_521a"></a>
 <b>ア　第２の２ ⑴ ア（「被告の主張においては」以下）（５頁）について</b>
 <p class="pad4 idt">
 概ね認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421i"></a>
+<a name="hikoku5_51i"></a>
 <b>イ　第２の２ ⑴ イ（「既に述べたとおり」以下）（６頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421u"></a>
+<a name="hikoku5_521u"></a>
 <b>ウ　第２の２ ⑴ ウ（「また」以下）（６頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421e"></a>
+<a name="hikoku5_521e"></a>
 <b>エ　第２の２ ⑴ エ（「表７の（ア）に」以下）（６頁）について</b>
 <p class="pad4 idt">
 第１段落（「表７の（ア）に」以下）は認めるが、第２段落（「そのため」以下）は否認する。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421o"></a>
+<a name="hikoku5_521o"></a>
 <b>オ　第２の２ ⑴ オ（「表７の（イ）に」以下）（６頁以下）について</b>
 <p class="pad4 idt">
 原告第４準備書面５頁の表７の（イ）に示す通知事項（調査結果の通知）（乙第１１号証）に、原告の引用する記載があること、当該通知事項に「質問票」の内容や日付が記載されていないこと、原告が被告と本件豪州企業との契約の内容について調査が行われたかどうかについて確認できない状況であったことは、それぞれ認めるが、その余は、否認する。
 <p class="pad4 idt">
 乙第１１号証の電子メールに記載の「質問票」は、原告の調査補助者に対する２０１７年（平成２９年）７月２８日１４時１７分送信の電子メール（甲第１６号証の７）に添付されていた「付加価値税_ＧＭへの確認．xlsx」と題する Excel ファイルを意味し、甲第１６号証の７に「もう一つの Excel ファイル」と記載されているところのものである。そして、そのことは、原告自らが甲第１６号証の７の電子メールにおいて当該ファイルについて「（ＧＭへ）確認する内容」であると記載していることからも容易に理解可能である。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421ka"></a>
+<a name="hikoku5_521ka"></a>
 <b>カ　第２の２ ⑴ カ（「表７の（ウ）に」以下）（７頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421ki"></a>
+<a name="hikoku5_521ki"></a>
 <b>キ　第２の２ ⑴ キ（「調査補助者が」以下）（７頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_421ku"></a>
+<a name="hikoku5_521ku"></a>
 <b>ク　第２の２ ⑴ ク（「以上のとおり」以下）（７頁）について</b>
 <p class="pad4 idt">
 被告の調査補助者が原告に対して契約書を確認するという行為は意味がない行為である旨を説明していたことは認めるが、その余は否認する。
 <p class="pad3 hg-idt">
-<a name="hikoku5_422"></a>
+<a name="hikoku5_522"></a>
 <b>⑵　第２の２ ⑵（本件豪州企業への・・・回答を行っていた。）（８頁以下）について</b>
 <p class="pad4 hg-idt">
-<a name="hikoku5_422a"></a>
+<a name="hikoku5_522a"></a>
 <b>ア　第２の２ ⑵ ア（「被告は」以下）（８頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_422i"></a>
+<a name="hikoku5_522i"></a>
 <b>イ　第２の２ ⑵ イ（「原告の」以下）（８頁）について</b>
 <p class="pad4 idt">
 平成２７年１１月の支払手続によるＧＳＴの支払については、認める。その余の支払については、「原告の支払手続による」ものか否かが不明であるため不知であるが、特に争わない。
 <p class="pad4 hg-idt">
-<a name="hikoku5_422u"></a>
+<a name="hikoku5_522u"></a>
 <b>ウ　第２の２ ⑵ ウ（「上記アの」以下）（８頁）について</b>
 <p class="pad4 idt">
 否認する。
 <p class="pad4 hg-idt">
-<a name="hikoku5_422e"></a>
+<a name="hikoku5_522e"></a>
 <b>エ　第２の２ ⑵ エ（「さらに」以下）（８頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_422o"></a>
+<a name="hikoku5_522o"></a>
 <b>オ　第２の２ ⑵ オ（「以上のとおり」以下）（８頁以下）について</b>
 <p class="pad4 idt">
 否認する。
 <p class="pad3 hg-idt">
-<a name="hikoku5_423"></a>
+<a name="hikoku5_523"></a>
 <b>⑶　第２の２ ⑶（あたかも・・・原告に隠していた。）（９頁以下）について</b>
 <p class="pad4 hg-idt">
-<a name="hikoku5_423a"></a>
+<a name="hikoku5_523a"></a>
 <b>ア　第２の２ ⑶ ア（「被告も認めるとおり」以下）（９頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423i"></a>
+<a name="hikoku5_523i"></a>
 <b>イ　第２の２ ⑶ イ（「原告と」以下）（９頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423u"></a>
+<a name="hikoku5_523u"></a>
 <b>ウ　第２の２ ⑶ ウ（「しかし」以下）（９頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423e"></a>
+<a name="hikoku5_523e"></a>
 <b>エ　第２の２ ⑶ エ（「そのため、本件豪州企業で」以下）（１０頁）について</b>
 <p class="pad4 idt">
 争う。
 <p class="pad4 idt">
 甲第２０号証の１にも記載のあるとおり、「〔２０〕１７年１月~４月の当社へのＧＳＴ請求分については、〔同年〕５月の請求から１~４月に支払済みのＧＳＴを差し引く形で精算」したのであり、「〔２０〕１７年１月~４月の当社へのＧＳＴ請求分」の「返金」を受けたわけではないので、「精算済み」のほうが「返金された」よりも適切な表現である。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423o"></a>
+<a name="hikoku5_523o"></a>
 <b>オ　第２の２ ⑶ オ（「要するに」以下）（１０頁）について</b>
 <p class="pad4 idt">
 事実上の主張としては否認し、法律上の主張としては争う。
 <p class="pad4 idt">
 被告が何らかの事実を原告に「隠していた」などというのは、原告の邪推でしかない。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423ka"></a>
+<a name="hikoku5_523ka"></a>
 <b>カ　第２の２ ⑶ カ「さらに」以下）（１０頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423ki"></a>
+<a name="hikoku5_523ki"></a>
 <b>キ　第２の２ ⑶ キ（「そのため、原告と」以下）（１０頁）について</b>
 <p class="pad4 idt">
 不知である。
 <p class="pad4 hg-idt">
-<a name="hikoku5_423ku"></a>
+<a name="hikoku5_523ku"></a>
 <b>ク　第２の２ ⑶ ク（「以上のとおり」以下）（１０頁以下）について</b>
 <p class="pad4 idt">
 事実上の主張としては否認し、法律上の主張としては争う。
 <p class="pad4 idt">
 被告が何らかの事実を原告に「隠していた」などというのは、原告の邪推でしかない。
 <p class="pad3 hg-idt">
-<a name="hikoku5_424"></a>
+<a name="hikoku5_524"></a>
 <b>⑷　第２の２ ⑷（豪州子会社が・・・原告に隠していた。）（１１頁以下）について</b>
 <p class="pad4 hg-idt">
-<a name="hikoku5_424a"></a>
+<a name="hikoku5_524a"></a>
 <b>ア　第２の２ ⑷ ア（「被告の主張によって」以下）（１１頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_424i"></a>
+<a name="hikoku5_524i"></a>
 <b>イ　第２の２ ⑷ イ（「原告と」以下）（１１頁以下）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_424u"></a>
+<a name="hikoku5_524u"></a>
 <b>ウ　第２の２ ⑷ ウ（「さらに」以下）（１２頁）について</b>
 <p class="pad4 idt">
 争う。
 <p class="pad4 idt">
 そもそも、「報告していないこと」が「不確かにしている」という因果関係が不明である。
 <p class="pad4 hg-idt">
-<a name="hikoku5_424e"></a>
+<a name="hikoku5_524e"></a>
 <b>エ　第２の２ ⑷ エ（「そのため」以下）（１２頁）について</b>
 <p class="pad4 idt">
 否認し又は不知である。
 <p class="pad4 idt">
 豪州子会社が豪州税務当局から還付を受けていないなどというのは、原告の邪推でしかない。
 <p class="pad4 hg-idt">
-<a name="hikoku5_424o"></a>
+<a name="hikoku5_524o"></a>
 <b>オ　第２の２ ⑷ オ（「豪州子会社による」以下）（１２頁）について</b>
 <p class="pad4 idt">
 認める。
 <p class="pad4 hg-idt">
-<a name="hikoku5_424ka"></a>
+<a name="hikoku5_524ka"></a>
 <b>カ　第２の２ ⑷ 力（「以上のとおり」以下）（１２頁）について</b>
 <p class="pad4 idt">
 事実上の主張としては否認し、法律上の主張としては争う。
 <p class="pad4 idt">
 被告が何らかの事実を原告に「隠していた」などというのは、原告の邪推でしかない。
 <p class="pad3 hg-idt">
-<a name="hikoku5_425"></a>
+<a name="hikoku5_525"></a>
 <b>⑸　第２の２ ⑸ （まとめ）（１３頁）について</b>
 <p class="pad3 idt">
 第１段落（「被告は、原告に対し、以下のような」以下）は認めるが、第２段落（「被告は、原告に対して行動基準」以下）は否認する。
 <p class="pad2 hg-idt">
-<a name="hikoku5_43"></a>
+<a name="hikoku5_53"></a>
 <b>３　第２の３（前回訴訟の．．．許される。）（１３頁以下）について</b>
 <p class="pad2 idt">
 争う。
