@@ -147,11 +147,11 @@
   </tr>
   <tr>
     <td class="table-text"><b>甲２８</b></td>
-    <td class="table-text"><a class="reference internal text" href="">内部統制システムの整備・運用に関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/drive/folders/1DwASJBZwHxVy6TIhqlg76wPMiDaiYocf">内部統制システムの整備・運用に関する基本方針</a></td>
   </tr>
   <tr>
     <td class="table-text"><b>甲２９</b></td>
-    <td class="table-text"><a class="reference internal text" href="">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
   </tr>
   <tr>
     <td class="table-text"><b>甲３０</b></td>
@@ -160,8 +160,53 @@
 </table>
 </div>
 
+<div class="base" style="margin: 4rem 0;">
 
-## 
+:::{dropdown} 
+
+<div class="base" style="margin-top: 1.6em;">
+<table class="table-set">
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
+    <td class="table-text"></td>
+  </tr>
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="https://www.hd.eneos.co.jp/about/conduct.html">ＥＮＥＯＳグループ行動基準</a></td>
+    <td class="table-text"></td>
+  </tr>
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/drive/folders/1DwASJBZwHxVy6TIhqlg76wPMiDaiYocf">内部統制システムの整備・運用に関する基本方針</a></td>
+    <td class="table-text"></td>
+  </tr>
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="">ＥＮＥＯＳグループ内部統制基本規程</a></td>
+    <td class="table-text"></td>
+  </tr>
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="">内部統制基準</a></td>
+    <td class="table-text"></td>
+  </tr>
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1Xyi9rD5LUutySaYR-1DFWZCFMFEGXSb7CMQnqeeFuRw/edit?usp=drive_link">ＥＮＥＯＳグループコンプライアンス活動基本規程</a></td>
+    <td class="table-text"></td>
+  </tr>
+    <tr>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1xxEEU1BD9pPsgF92ndBRk_wY_mjFAouZQmQ2ARQjoqM/edit?usp=drive_link">コンプライアンス規程</a></td>
+    <td class="table-text"></td>
+  </tr>
+  <tr>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17n2UIWhIUbi4kpWxAGSdblhyOiUNJDw7CHHz6VfO3bM/edit?usp=drive_link">ＥＮＥＯＳグループ内部通報制度基本規程</a></td>
+    <td class="table-text"></td>
+  </tr>
+    <tr>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/16nnCKm8KjCyPp2s-hYSQExVPItL2UUFPk1XwuQe-eVA/edit?usp=drive_link">コンプライアンスホットライン規程</a></td>
+    <td class="table-text"></td>
+  </tr>
+</table>
+</div>
+
+:::
+
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
