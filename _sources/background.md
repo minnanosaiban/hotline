@@ -172,39 +172,39 @@
 <div class="base" style="margin-top: 1.6em;">
 <table class="table-set">
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17FrlB0z4xQOdvOoN0HUJWwuyehhhY29Hm35waQ5BbhY/edit?usp=drive_link">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17FrlB0z4xQOdvOoN0HUJWwuyehhhY29Hm35waQ5BbhY/edit?usp=drive_link">01_ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://www.hd.eneos.co.jp/about/conduct.html">ＥＮＥＯＳグループ行動基準</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1jy-ZEwZIvx7vZv4n_Lc1F_BRsvXBgEHfdwawC4oHdXI/edit?usp=drive_link">02_ＥＮＥＯＳグループ行動基準</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1345Ioeb6K7hcaJqS2l3npHuommnvEAL3CW0fcjuVryA/edit?usp=drive_link">内部統制システムの整備・運用に関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1345Ioeb6K7hcaJqS2l3npHuommnvEAL3CW0fcjuVryA/edit?usp=drive_link">03_内部統制システムの整備・運用に関する基本方針</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="">ＥＮＥＯＳグループ内部統制基本規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="">04_ＥＮＥＯＳグループ内部統制基本規程</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="">内部統制基準</a></td>
+    <td class="table-text"><a class="reference internal text" href="">05_内部統制基準</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1Xyi9rD5LUutySaYR-1DFWZCFMFEGXSb7CMQnqeeFuRw/edit?usp=drive_link">ＥＮＥＯＳグループコンプライアンス活動基本規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1Xyi9rD5LUutySaYR-1DFWZCFMFEGXSb7CMQnqeeFuRw/edit?usp=drive_link">06_ＥＮＥＯＳグループコンプライアンス活動基本規程</a></td>
     <td class="table-text"></td>
   </tr>
     <tr>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1xxEEU1BD9pPsgF92ndBRk_wY_mjFAouZQmQ2ARQjoqM/edit?usp=drive_link">コンプライアンス規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1xxEEU1BD9pPsgF92ndBRk_wY_mjFAouZQmQ2ARQjoqM/edit?usp=drive_link">07_コンプライアンス規程</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17n2UIWhIUbi4kpWxAGSdblhyOiUNJDw7CHHz6VfO3bM/edit?usp=drive_link">ＥＮＥＯＳグループ内部通報制度基本規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17n2UIWhIUbi4kpWxAGSdblhyOiUNJDw7CHHz6VfO3bM/edit?usp=drive_link">08_ＥＮＥＯＳグループ内部通報制度基本規程</a></td>
     <td class="table-text"></td>
   </tr>
     <tr>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/16nnCKm8KjCyPp2s-hYSQExVPItL2UUFPk1XwuQe-eVA/edit?usp=drive_link">コンプライアンスホットライン規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/16nnCKm8KjCyPp2s-hYSQExVPItL2UUFPk1XwuQe-eVA/edit?usp=drive_link">09_コンプライアンスホットライン規程</a></td>
     <td class="table-text"></td>
   </tr>
 </table>
