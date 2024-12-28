@@ -58,11 +58,11 @@
   </tr>
   <tr>
     <td class="table-text"><b>乙１３</b></td>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1xxEEU1BD9pPsgF92ndBRk_wY_mjFAouZQmQ2ARQjoqM/edit?usp=drive_link">コンプライアンス規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/file/d/1Ex5qtHLt-K-mnJ305QolbPNFEapFcjDi/view?usp=drive_link">コンプライアンス規程</a></td>
   </tr>
   <tr>
     <td class="table-text"><b>乙１４</b></td>
-    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17n2UIWhIUbi4kpWxAGSdblhyOiUNJDw7CHHz6VfO3bM/edit?usp=drive_link">ＥＮＥＯＳグループ内部通報制度基本規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/file/d/1SqEhGOgcSMvg1lk5lmlJcvUHkHGnB96R/view?usp=drive_link">ＥＮＥＯＳグループ内部通報制度基本規程</a></td>
   </tr>
 </table>
 </div>
@@ -147,7 +147,7 @@
   </tr>
   <tr>
     <td class="table-text"><b>甲２８</b></td>
-    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/drive/folders/1DwASJBZwHxVy6TIhqlg76wPMiDaiYocf">内部統制システムの整備・運用に関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/file/d/1C8q7HUQ1EaL3bpbNNmeY66aW4_1Ni3n_/view?usp=drive_link">内部統制システムの整備・運用に関する基本方針</a></td>
   </tr>
   <tr>
     <td class="table-text"><b>甲２９</b></td>
@@ -184,11 +184,11 @@
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="">04_ＥＮＥＯＳグループ内部統制基本規程</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1Ouk_WeZIjso9cR84cuBM0PfcUHtDKH0Ncm2VqyY4YQU/edit?usp=drive_link">04_ＥＮＥＯＳグループ内部統制基本規程</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="">05_内部統制基準</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1fhkbZtUWmRxc6Ap1sd1oqrqzVdT7Ah5spS3U6nXkoTg/edit?usp=drive_link">05_内部統制基準</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
