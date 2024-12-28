@@ -161,6 +161,9 @@
 </div>
 
 ##
+[![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
 
 <div class="base" style="margin: 4rem 0;">
 
@@ -169,7 +172,7 @@
 <div class="base" style="margin-top: 1.6em;">
 <table class="table-set">
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://www.hd.eneos.co.jp/esgdb/pdf/system01.pdf">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17FrlB0z4xQOdvOoN0HUJWwuyehhhY29Hm35waQ5BbhY/edit?usp=drive_link">ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
@@ -177,7 +180,7 @@
     <td class="table-text"></td>
   </tr>
   <tr>
-    <td class="table-text"><a class="reference internal text" href="https://drive.google.com/drive/folders/1DwASJBZwHxVy6TIhqlg76wPMiDaiYocf">内部統制システムの整備・運用に関する基本方針</a></td>
+    <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/1345Ioeb6K7hcaJqS2l3npHuommnvEAL3CW0fcjuVryA/edit?usp=drive_link">内部統制システムの整備・運用に関する基本方針</a></td>
     <td class="table-text"></td>
   </tr>
   <tr>
@@ -209,6 +212,4 @@
 
 :::
 
-[![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
+

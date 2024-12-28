@@ -124,8 +124,8 @@ p {
   }
 details.sd-dropdown summary.sd-summary-title {
   padding: .5em .6em .5em 1em;
-  font-size: 0.8em; 
-  height: 1em;
+  font-size: 0.4em; 
+  height: 0.4em;
   font-weight: var(--sd-fontweight-dropdown-title);
   -webkit-user-select: none;
   list-style: none;
