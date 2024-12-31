@@ -169,7 +169,7 @@
 
 :::{dropdown} 
 
-<div class="base" style="margin-top: 1.6em;">
+<div style="margin-top: 1.6em;">
 <table class="table-set">
   <tr>
     <td class="table-text"><a class="reference internal text" href="https://docs.google.com/document/d/17FrlB0z4xQOdvOoN0HUJWwuyehhhY29Hm35waQ5BbhY/edit?usp=drive_link">01_ＥＮＥＯＳグループのコーポレートガバナンスに関する基本方針</a></td>

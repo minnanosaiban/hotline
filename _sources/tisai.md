@@ -1454,7 +1454,7 @@
 :::{dropdown} 
 
 <p><i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku4-2.pdf">ＰＤＦ</a>の用意があります。
-<div class="base" style="margin-top: 1.6em;">
+<div style="margin-top: 1.6em;">
 
 ````{card}
 <p class="card-text" style="margin-top: 1.6em; text-align: center;">
