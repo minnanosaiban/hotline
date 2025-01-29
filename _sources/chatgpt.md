@@ -1,4 +1,4 @@
-# ５　<i class="fa-brands fa-x-twitter"></i> （X-Twitter）
+# ６　ChatGPT
 
 ≪ 作成中です ≫
 
