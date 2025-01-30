@@ -1,4 +1,10 @@
-# １　主張書面（地裁）
+# ２　主張書面
+
+## 18　原告第５準備書面
+---
+<i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">ＰＤＦ</a>の用意があります。
+<div class="base" style="margin-top: 1.6em;">
+
 
 ## 17　第４回口頭弁論
 ---

@@ -122,27 +122,6 @@ p {
   border: 1px solid #e5e7ea; 
   vertical-align: top;
   }
-details.sd-dropdown summary.sd-summary-title {
-  padding: .5em .6em .5em 1em;
-  font-size: 0.4em; 
-  height: 0.4em;
-  font-weight: var(--sd-fontweight-dropdown-title);
-  -webkit-user-select: none;
-  list-style: none;
-  display: inline-flex;
-  justify-content: space-between;
-  }
-details.sd-dropdown summary.sd-card-header {
-  align-items: center;
-  background-color: #FFFFFF00 !important;
-  border: 0 !important;
-  border-left: .2rem solid #FFFFFF00 !important;
-  position: relative;
-  }
-details.sd-dropdown summary.sd-card-header+div.sd-summary-content {
-  --pst-sd-dropdown-color: #FFFFFF00 !important;
-  border: 0;
-  }
 .twitter-tweet {
   margin-right: auto;
   margin-left: auto;

@@ -3,11 +3,7 @@
 ## １　ＥＮＥＯＳの内部通報制度の問題
 ---
 <p>
-ＥＮＥＯＳの従業員です。業務に関する不安を解消すべく、内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不適切な対応がなされました。要するに隠蔽です。
-<p style="margin-top:1.6em;">
-こうした悪質な対応がなされても、不適切な対応を是正する独立機関が存在しないため、通報者はなすすべがありません。報道でも取り上げられているように、通報者が追い詰められて自殺に至る悲劇的な事例も存在します。
-<p style="margin-top:4.8em;">
-通報者には、命が削られるような辛い選択肢しか残されていないのが現状です。✏️
+ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。要するに隠蔽です。訴訟では、隠蔽のような対応も通報者に対する不利益に該当すると主張しています。✏️
 
 ## ２　ウェブサイトについて
 ---
@@ -19,26 +15,7 @@
 :class-container: text-left
 :gutter: 3
 
-:::{grid-item-card}
-:link: tisai
-:link-type: doc
-:class-header: bg-light text-center
 
-<span style="color: #8045e5;"><b>主張書面（地裁）</b></span>
-
-^^^
-簡裁から地裁に移送になりました。ＥＮＥＯＳ側は通報者に対して通知する義務はないと主張しています。
-:::
-:::{grid-item-card}
-:link: kansai
-:link-type: doc
-:class-header: bg-light text-center
-
-<span style="color: #8045e5;"><b>主張書面（簡裁）</b></span>
-
-^^^
-原告は、通報者に対して是正措置及び再発防止策を通知しなかったことについて違反を主張しています。
-:::
 :::{grid-item-card}
 :link: judgment
 :link-type: doc
@@ -47,7 +24,7 @@
 <span style="color: #8045e5;"><b>判決文（山田悠一郎裁判官）</b></span>
 
 ^^^
-通報に応じた調査の実施については、「法的義務を負うということはできない」として、棄却しました。<br>
+調査を実施する義務については、「法的義務を負うということはできない」として、棄却しました。
 
 :::
 :::{grid-item-card}
@@ -56,31 +33,52 @@
 <span style="color: #8045e5;"><b>判決文（作成中）</b></span>
 
 ^^^
-通報者に対する通知については、現在、係争中です。判決言い渡し後、判決文を掲載します。<br>
+調査結果の通知に関する争いについては、現在、係争中です。判決言い渡し後、判決文を掲載します。
 
 :::
 :::{grid-item-card}
-:link: background
+:link: tisai
 :link-type: doc
 :class-header: bg-light text-center
 
-<span style="color: #8045e5;"><b>経緯及び書証</b></span>
+<span style="color: #8045e5;"><b>主張書面</b></span>
 
 ^^^
-内部通報制度に対する通報に関する事実関係を記載しています。書証の一部も掲載する予定です。
+簡裁から地裁に移送になりました。ＥＮＥＯＳ側は通報者に対して通知する義務はないと主張しています。
+:::
+:::{grid-item-card}
+:link: links
+:link-type: doc
+:class-header: bg-light text-center
+
+<span style="color: #8045e5;"><b>Links</b></span>
+
+^^^
+主に私が作成したウェブサイトのリンクです。Sphinx で作成しています。多言語化も挑戦したい。
+
 :::
 :::{grid-item-card}
 :link: x-twitter
 :link-type: doc
 :class-header: bg-light text-center
 
-<span style="color: #8045e5;"><b><i class="fa-brands fa-x-twitter"></i> </b></span>
+<span style="color: #8045e5;"><b><i class="fa-brands fa-x-twitter"></i>（X-Twitter）</b></span>
 
 ^^^
 <i class="fa-brands fa-x-twitter"></i> での発信、株主総会での問題提起、自殺すること、通報者に残されている選択肢は限られています。
 
 :::
+:::{grid-item-card}
+:link: chatgpt
+:link-type: doc
+:class-header: bg-light text-center
 
+<span style="color: #8045e5;"><b>ChatGPT</b></span>
+
+^^^
+裁判書類を ChatGPT で分析しています。ＡＩの進化はすごい！ホントすごいので随時更新します。✏️
+
+:::
 ::::
 </div>
 
