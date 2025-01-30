@@ -1,5 +1,20 @@
 # <span style="color: #f37726;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 
+<div class="base">
+
+:::{card} 
+:link: https://minnanosaiban.github.io/hotline/2024allegation.html
+
+<div style="text-align: center; font-size: 20px;">
+  原告第５準備書面（最終準備書面）を提出しました。<br>
+  リンクは<a href="https://minnanosaiban.github.io/hotline/2024allegation.html">こちら</a>です。✏️
+</div>
+
+:::
+
+</div>
+
+
 ## １　ＥＮＥＯＳの内部通報制度の問題
 ---
 <p>
