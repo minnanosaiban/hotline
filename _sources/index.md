@@ -48,7 +48,7 @@
 :::
 
 :::{grid-item-card}
-:link: judgment2024.html#zenbun
+:link: judgment2024#zenbun
 :link-type: doc
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>判決文</b></span>
@@ -57,7 +57,7 @@
 :::
 
 :::{grid-item-card}
-:link: judgment2024.html#chatgpt
+:link: judgment2024#chatgpt
 :link-type: doc
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>ChatGPT ✏️</b></span>
