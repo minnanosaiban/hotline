@@ -6,15 +6,13 @@
 <p style="margin-top:1.6em; margin-bottom:1.6em">
 <b>主張書面を ChatGPT で分析しています。ＥＮＥＯＳの主張は内部通報制度の趣旨を狭く解釈しているようです。</b>
 <p style="margin-top:1.6em; margin-bottom:1.6em">
-<b>ＡＩの進化はホントすごいです！</b> ✏️
+<b>ＡＩの進化はホントすごいです！</b> 
 :::
 
 </div>
 
 ## 01　被告の主張は正当ですか？
-
 ---
-
 <b><a class="reference external" href="https://chatgpt.com/share/679b9f24-4ac4-8009-9591-e52bfe4c5ddc">ChatGPT の答え</a></b>
 
 <div class="base">
@@ -31,9 +29,7 @@
 
 
 ## 02　なぜ省略しているのですか？
-
 ---
-
 <b><a class="reference external" href="https://chatgpt.com/share/679ba2d0-4d90-8009-ac1c-87b6b69f49a6">ChatGPT の答え</a></b>
 
 <div class="base">

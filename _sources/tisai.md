@@ -13,13 +13,11 @@
 
 ## 18　原告第５準備書面
 ---
-
 <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">ＰＤＦ</a>の用意があります。
 
 
 ## 17　第４回口頭弁論
 ---
-
 <div class="base table-card" style="margin-top: 1.6em;">
  <p class="card-text" style="margin-top: 1.6em;">
  <b>ＥＮＥＯＳ側が認めない事実</b>
@@ -41,7 +39,6 @@
 
 ## 16　被告準備書面（５）
 ---
-
 <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-hikoku5.pdf">ＰＤＦ</a>の用意があります。
 <div class="base" style="margin-top: 1.6em;">
 
@@ -606,7 +603,6 @@
 
 ## 15　文書送付嘱託申立書
 ---
-
 <p style="margin-top: 1.6em;">
 <b>文書送付嘱託申立書</b>
 <p>
@@ -712,7 +708,6 @@
 
 ## 14　求釈明申立書
 ---
-
 <p style="margin-top: 1.6em;">
 <b>求釈明申立書</b>
 <p>
@@ -824,7 +819,6 @@
 
 ## 13　原告第４準備書面
 ---
-
 <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku4.pdf">ＰＤＦ</a>の用意があります。
 <div class="base" style="margin-top: 1.6em;">
 
