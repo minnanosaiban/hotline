@@ -1,57 +1,40 @@
-# ２　主張書面
+# １　主張書面
+
+<div class="base">
+
+:::{card} 
+<p style="margin-top:1.6em; margin-bottom:1.6em">
+ <b>ＥＮＥＯＳは、通報者に対して通知する義務はないと主張しています。自ら表明した</b><a class="reference external" href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf">「あるべき姿へ向けた取組み」</a><b>に反しており、従業員との「対話」を軽視しているといえます。</b>
+<p style="margin-top:1.6em; margin-bottom:1.6em">
+ <b>主張書面の内容は、ChatGPT で分析しています。</b><a class="reference internal word" href="https://minnanosaiban.github.io/hotline/chatgpt.html">リンク</a> ✏️
+:::
+
+</div>
 
 ## 18　原告第５準備書面
 ---
 <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">ＰＤＦ</a>の用意があります。
-<div class="base" style="margin-top: 1.6em;">
 
 
 ## 17　第４回口頭弁論
 ---
-<div class="base" style="margin-top: 1.6em;">
-<table class="table-set">
-  <tr>
-    <td class="table-text center"><b>原告提出書類</b></td>
-    <td class="table-text center"><b>被告提出書類</b></td>
-  </tr>
-  <tr>
-    <td class="table-text">
-    原告第４準備書面（令和6年11月25日）<br>
-    訂正申立書（同）<br>
-    求釈明申立書（同）<br>
-    文書送付嘱託申立書（同）<br>
-    原告第３証拠説明書（同）<br>
-    甲２９<br>
-    甲３０<br>
-    訂正申立書（令和6年12月23日）<br>
-    </td>
-    <td class="table-text">
-    被告準備書面（５）（令和6年12月17日）<br>
-    被告証拠説明書（２）（同）<br>
-    乙１３<br>
-    乙１４<br>
-    </td>
-  </tr>
-</table>
-</div>
-
 <div class="base table-card" style="margin-top: 1.6em;">
-<p class="card-text center" style="margin-top: 1.6em;">
-<b>ＥＮＥＯＳ側が認めない事実</b>
-<p class="card-text hg-idt" style="margin-top: 1.6em;">
-・乙１０について、調査報告がなされたこと自体が認識できない態様であること
-<p class="card-text hg-idt">
-・乙１１について、調査報告で告げられている「質問票」が特定できないこと
-<p class="card-text hg-idt">
-・本件豪州企業に対するＧＳＴの支払は、原告の手続によって支払われたものであること
-<p class="card-text hg-idt">
-・社内で報告された「精算」は、実質、本件豪州企業から返金されたものであること
-<p class="card-text hg-idt">
-・社内で報告された「法改正」は、オーストラリア税務局のウェブサイトで確認できないこと
-<p class="card-text hg-idt">
-・「預り金」としての性質であることを報告していない点が、不確かにしていること
-<p class="card-text hg-idt" style="margin-bottom: 1.6em;">
-・豪州子会社が豪州から還付を受けていないにもかかわらず、還付金として本社に送金していること
+ <p class="card-text" style="margin-top: 1.6em;">
+ <b>ＥＮＥＯＳ側が認めない事実</b>
+ <p class="card-text hg-idt" style="margin-top: 1.6em;">
+ ⚡調査報告（乙１０）について、調査報告がなされたこと自体が認識できない態様であること
+ <p class="card-text hg-idt">
+ ⚡調査報告（乙１１）について、調査報告で告げられている「質問票」が特定できないこと
+ <p class="card-text hg-idt">
+ ⚡本件豪州企業に対するＧＳＴの支払は、原告の手続によって支払われたものであること
+ <p class="card-text hg-idt">
+ ⚡支払ったＧＳＴ分の「精算」は、実質、本件豪州企業から返金されたものであること
+ <p class="card-text hg-idt">
+ ⚡「ＧＳＴの法改正」について、オーストラリア税務局のウェブサイトで当該法改正が確認できないこと
+ <p class="card-text hg-idt">
+ ⚡「預り金」としての性質であることを報告していない点が、報告の内容を不確かにしていること
+ <p class="card-text hg-idt" style="margin-bottom: 1.6em;">
+ ⚡豪州子会社が豪州から還付を受けていないにもかかわらず、還付金として本社に送金していること
 </div>
 
 ## 16　被告準備書面（５）

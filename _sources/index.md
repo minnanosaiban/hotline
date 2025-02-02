@@ -4,12 +4,8 @@
 
 :::{card} 
 :link: https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf
-
-<div style="text-align: center; font-size: 18px;">
-  原告第５準備書面（最終準備書面）を提出しました。<br>
-  リンクは<a href="https://minnanosaiban.github.io/hotline/2024allegation.html">こちら</a>です。✏️
-</div>
-
+<p style="text-align:center; margin-top:1.6em; margin-bottom:1.6em;">
+  <b>原告第５準備書面（最終準備書面）を提出しました。</b><a class="reference internal word" href="https://minnanosaiban.github.io/hotline/2024allegation.html">ＰＤＦ</a> ✏️
 :::
 
 </div>
@@ -17,84 +13,76 @@
 
 ## １　ＥＮＥＯＳの内部通報制度の問題
 ---
-<p>
-ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。要するに隠蔽です。訴訟では、原告に対すて誤認させる行為も通報者に対する不利益に該当すると主張しています。✏️
+<p class="base" style="margin-top: 1.6em;">
+ ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。要するに隠蔽です。訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。✏️
 
 ## ２　ウェブサイトについて
 ---
-<p>
-本ウェブサイトは、ＥＮＥＯＳを被告とした訴訟の裁判文書を掲載してます。
+<p class="base" style="margin-top: 1.6em;">
+ 本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、ChatGPT で裁判文書を分析しています。
+<p class="base" style="margin-top: 1.6em;">
+ 現在の訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。判決言い渡し後、判決文を掲載します。
+
 <div class="base">
 
 ::::{grid} 1 1 2 2
 :class-container: text-left
 :gutter: 3
 
-
-:::{grid-item-card}
-:link: judgment
-:link-type: doc
-:class-header: bg-light text-center
-
-<span style="color: #8045e5;"><b>判決文（山田悠一郎裁判官）</b></span>
-
-^^^
-調査を実施する義務については、「法的義務を負うということはできない」として、棄却しました。
-
-:::
-:::{grid-item-card}
-:class-header: bg-light text-center
-
-<span style="color: #8045e5;"><b>判決文（作成中）</b></span>
-
-^^^
-調査結果の通知に関する争いについては、現在、係争中です。判決言い渡し後、判決文を掲載します。
-
-:::
 :::{grid-item-card}
 :link: tisai
 :link-type: doc
 :class-header: bg-light text-center
-
 <span style="color: #8045e5;"><b>主張書面</b></span>
-
 ^^^
-簡裁から地裁に移送になりました。ＥＮＥＯＳ側は通報者に対して通知する義務はないと主張しています。
+ＥＮＥＯＳの主張も掲載しています。通報者に対して通知する義務はないとの主張です。従業員との「対話」を軽視しているといえます。
 :::
-:::{grid-item-card}
-:link: links
-:link-type: doc
-:class-header: bg-light text-center
 
-<span style="color: #8045e5;"><b>Links</b></span>
-
-^^^
-主に私が作成したウェブサイトのリンクです。Sphinx で作成しています。多言語化も挑戦したい。
-
-:::
-:::{grid-item-card}
-:link: x-twitter
-:link-type: doc
-:class-header: bg-light text-center
-
-<span style="color: #8045e5;"><b><i class="fa-brands fa-x-twitter"></i>（X-Twitter）</b></span>
-
-^^^
-<i class="fa-brands fa-x-twitter"></i> での発信、株主総会での問題提起、自殺すること、通報者に残されている選択肢は限られています。
-
-:::
 :::{grid-item-card}
 :link: chatgpt
 :link-type: doc
 :class-header: bg-light text-center
-
-<span style="color: #8045e5;"><b>ChatGPT</b></span>
-
+<span style="color: #8045e5;"><b>ChatGPT ✏️</b></span>
 ^^^
-裁判書類を ChatGPT で分析しています。ＡＩの進化はすごい！ホントすごいので随時更新します。✏️
-
+主張書面を ChatGPT で分析しています。ＥＮＥＯＳの主張は内部通報制度の趣旨を狭く解釈しているようです。ＡＩの進化はホントすごいです！
 :::
+
+:::{grid-item-card}
+:link: judgment2024#zenbun
+:link-type: doc
+:class-header: bg-light text-center
+<span style="color: #8045e5;"><b>判決文</b></span>
+^^^
+山田悠一郎裁判官。2024年確定。調査の実施についての判決（前訴の判決）です。「法的義務を負うということはできない」として棄却しました。
+:::
+
+:::{grid-item-card}
+:link: judgment2024#chatgpt
+:link-type: doc
+:class-header: bg-light text-center
+<span style="color: #8045e5;"><b>ChatGPT ✏️</b></span>
+^^^
+判決文を ChatGPT で分析しました。2024年判決は、内部通報制度の本来の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
+:::
+
+:::{grid-item-card}
+:link-type: doc
+:class-header: bg-light text-center
+<span style="color: #8045e5;"><b>Links（作成中）</b></span>
+^^^
+主に私が作成したウェブサイトのリンクです。Sphinx で作成しています。多言語化も挑戦したい。
+:::
+
+:::{grid-item-card}
+:link-type: doc
+:class-header: bg-light text-center
+<span style="color: #8045e5;"><b>X-Twitter（作成中）</b></span>
+^^^
+<i class="fa-brands fa-x-twitter"></i> での発信、株主総会での問題提起、自殺すること、通報者に残されている選択肢は限られています。
+:::
+
 ::::
+
 </div>
 
 ## ３　裁判所の判断　その１
@@ -106,11 +94,11 @@
 <p>
 と判示しました。
 <p>
-<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment.html#handan1">判決文の該当箇所</a>
+<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment2024.html#handan1">判決文の該当箇所</a>
 <p style="margin-top:1.6em;">
 なお、上記判決文で引用されている最高裁平成３０年判決は、
 <p>
-<b>「上告人は，相応の対応をするよう努めることが想定されていたものといえ，上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される。」</b>
+<b>「本件グループ会社の事業場内で就労した際に，法令等違反行為によって被害を受けた従業員等が，本件相談窓口に対しその旨の相談の申出をすれば，上告人は，相応の対応をするよう努めることが想定されていたものといえ，上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される。」</b>
 <p>
 と判示しています。
 <p>
@@ -128,7 +116,7 @@
 <p>
 と判示しました。
 <p>
-<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment.html#handan2">判決文の該当箇所</a>
+<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment2024.html#handan2">判決文の該当箇所</a>
 <p style="margin-top:1.6em;">
 しかし、消費者庁が公表した「公益通報者保護法に基づく指針の解説」は、
 <p>
