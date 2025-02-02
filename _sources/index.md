@@ -62,7 +62,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>ChatGPT ✏️</b></span>
 ^^^
-判決文を ChatGPT で分析しました。2024年判決は、内部通報制度の本来の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
+判決文を ChatGPT で分析しました。2024年判決は、内部通報制度の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
 :::
 
 :::{grid-item-card}
