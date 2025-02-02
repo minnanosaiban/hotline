@@ -1375,7 +1375,7 @@
 <p>
 以上
 
-## 簡易裁判所における主張
+## 地裁移送前（簡裁）の主張
 ---
 
 簡易裁判所における主張は、<a class="reference internal word" href="kansai">こちら</a>
