@@ -13,12 +13,12 @@
 
 ## １　ChatGPT へのプロンプト
 ---
-<b><a class="reference external" href="https://chatgpt.com/share/679f5d66-e83c-8009-966e-b8e7d6b4d7bf">ChatGPT の答え</a></b>
+<b><a class="reference external" href="https://chatgpt.com/share/67a0c3d0-066c-8009-9005-141ae333056b">ChatGPT の答え</a></b>
 
 <div class="base">
 
 :::{card} プロンプト
-:link: https://chatgpt.com/share/679f5d66-e83c-8009-966e-b8e7d6b4d7bf
+:link: https://chatgpt.com/share/67a0c3d0-066c-8009-9005-141ae333056b
 <p class="card-text idt" style="margin-top:1em;">
 最高裁の判示「上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される」について、裁判所（判決）の解釈は以下のとおりでした。この解釈を評価してください。
 <p class="card-text idt">
