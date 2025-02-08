@@ -144,6 +144,52 @@ p {
 .linkcard-text {
   font-size: 0.85em;
   }
+/* ドロップダウン*/
+details.sd-dropdown summary.sd-summary-title {
+  padding: .5em .6em .5em 1em;
+  font-size: var(--sd-fontsize-dropdown-title);
+  font-weight: var(--sd-fontweight-dropdown-title);
+  -webkit-user-select: none;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  }
+details.sd-dropdown summary.sd-card-header {
+  align-items: center;
+  background-color: #FFFFFF00 !important;
+  border: 0 !important;
+  border-left: .2rem solid #FFFFFF00 !important;
+  position: relative;
+  }
+details.sd-dropdown summary.sd-card-header+div.sd-summary-content {
+  --pst-sd-dropdown-color: #FFFFFF00 !important;
+  border: 0;
+  }
+/* タブ*/
+.sd-tab-set>label {
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 700;
+  transition: color 250ms;
+  width: auto;
+  z-index: 1;
+  }
+.bd-content .sd-tab-set>input:checked+label {
+  background-color: var(--pst-color-on-background);
+  border-color: var(--web-color) var(--web-color) transparent;
+  border-radius: .125rem .125rem 0 0;
+  border-style: solid solid none;
+  border-width: .125rem .125rem 0;
+  color: inherit;
+  transform: translateY(.125rem);
+  }
+.bd-content .sd-tab-set .sd-tab-content {
+  border: .125rem solid var(--web-color);
+  border-radius: .1875rem;
+  box-shadow: unset;
+  padding: .625rem;
+  }
 /* 外部リンク */
 a.reference.external {
   color: var(--link-color);

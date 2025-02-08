@@ -72,7 +72,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>Links（作成中）</b></span>
 ^^^
-主に私が作成したウェブサイトのリンクです。私のウェブサイトは、Jupyter Book で作成しています。多言語化も挑戦したい。
+主に私が作成したウェブサイトのリンクです。本ウェブサイトは、Jupyter Book で作成しています。多言語化も挑戦したい。
 :::
 
 :::{grid-item-card}
@@ -98,7 +98,7 @@
 <p>
 と判示しました。
 <p>
-<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment2024.html#handan1">判決文の該当箇所</a>
+<a class="reference internal word" href="judgment2024.html#handan1"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
 <p style="margin-top:1.6em;">
 なお、上記判決文で引用されている最高裁平成３０年判決は、
 <p>
@@ -106,7 +106,7 @@
 <p>
 と判示しています。
 <p>
-<i class="fa-solid fa-arrow-right"></i> <a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">裁判例結果詳細 | 裁判所 - Courts in Japan</a>
+<a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-arrow-right"></i> 裁判例結果詳細 | 裁判所 - Courts in Japan</a>
 
 <p style="margin-top:4.8em;">
 間違えやすい点ですが、最高裁平成３０年判決の判示は、令和５年判決の判示の根拠ではありません。✏️
@@ -122,7 +122,7 @@
 <p>
 と判示しました。
 <p>
-<i class="fa-solid fa-arrow-right"></i> <a class="reference internal word" href="judgment2024.html#handan2">判決文の該当箇所</a>
+<a class="reference internal word" href="judgment2024.html#handan2"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
 <p style="margin-top:1.6em;">
 しかし、消費者庁が公表した「公益通報者保護法に基づく指針の解説」は、
 <p>
@@ -130,7 +130,7 @@
 <p>
 と示しています。
 <p>
-<i class="fa-solid fa-arrow-right"></i> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) </a>
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-arrow-right"></i> 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) </a>
 
 <p style="margin-top:4.8em;">
 裁判所の判断は、「公益通報者保護法に基づく指針」に反する判断です。✏️
