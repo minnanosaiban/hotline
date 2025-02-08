@@ -14,12 +14,14 @@
 ## １　ＥＮＥＯＳの内部通報制度の問題
 ---
 <p class="base" style="margin-top: 1.6em;">
- ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。要するに隠蔽です。訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。
+ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。
+<p class="base" style="margin-top: 1.6em;">
+要するに隠蔽です。訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。
 
 ## ２　ウェブサイトについて
 ---
 <p class="base" style="margin-top: 1.6em;">
- 本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、ChatGPT で裁判文書を分析しています。
+ 本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。
 <p class="base" style="margin-top: 1.6em;">
  現在の訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。判決言い渡し後、判決文を掲載します。
 
@@ -35,23 +37,23 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>主張書面</b></span>
 ^^^
-ＥＮＥＯＳの主張も掲載しています。通報者に対して通知する義務はないとの主張です。従業員との「対話」を軽視しているといえます。
+ＥＮＥＯＳ側の主張も掲載しています。通報者に対して通知する義務はないとの主張です。従業員との「対話」を軽視しているといえます。
 :::
 
 :::{grid-item-card}
 :link: chatgpt
 :link-type: doc
 :class-header: bg-light text-center
-<span style="color: #8045e5;"><b>ChatGPT ✏️</b></span>
+<span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
 ^^^
-主張書面を ChatGPT で分析しています。ＥＮＥＯＳの主張は内部通報制度の趣旨を狭く解釈しているようです。ＡＩの進化はホントすごいです！
+ＥＮＥＯＳ側の主張書面を ChatGPT で分析しています。内部通報制度の趣旨を狭く解釈しているようです。ＡＩの進化はホントすごいです！
 :::
 
 :::{grid-item-card}
 :link: judgment2024.html#zenbun
 :link-type: url
 :class-header: bg-light text-center
-<span style="color: #8045e5;"><b>判決文</b></span>
+<span style="color: #8045e5;"><b>判決文全文</b></span>
 ^^^
 山田悠一郎裁判官。2024年確定。調査の実施についての判決（前訴の判決）です。「法的義務を負うということはできない」として棄却しました。
 :::
@@ -60,7 +62,7 @@
 :link: judgment2024.html#chatgpt
 :link-type: url
 :class-header: bg-light text-center
-<span style="color: #8045e5;"><b>ChatGPT ✏️</b></span>
+<span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
 ^^^
 判決文を ChatGPT で分析しました。2024年判決は、内部通報制度の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
 :::
@@ -70,7 +72,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>Links（作成中）</b></span>
 ^^^
-主に私が作成したウェブサイトのリンクです。Sphinx で作成しています。多言語化も挑戦したい。
+主に私が作成したウェブサイトのリンクです。私のウェブサイトは、Jupyter Book で作成しています。多言語化も挑戦したい。
 :::
 
 :::{grid-item-card}
@@ -85,7 +87,7 @@
 
 </div>
 
-## ３　裁判所の判断　その１
+## ３　判決文（山田悠一郎裁判官）　その１
 ---
 <p>
 令和５年判決は、ＥＮＥＯＳが通報を受けた後、調査を実施しなかったことについて、
@@ -107,7 +109,7 @@
 <p style="margin-top:4.8em;">
 間違えやすい点ですが、最高裁平成３０年判決の判示は、令和５年判決の判示の根拠ではありません。✏️
 
-## ４　裁判所の判断　その２
+## ４　判決文（山田悠一郎裁判官）　その２
 ---
 <p>
 令和５年判決は、通報の態様について、
