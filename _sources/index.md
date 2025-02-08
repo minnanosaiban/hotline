@@ -13,16 +13,16 @@
 
 ## １　ＥＮＥＯＳの内部通報制度の問題
 ---
-<p class="base" style="margin-top: 1.6em;">
+<p style="margin-top:1.6em;">
 ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。
-<p class="base" style="margin-top: 1.6em;">
+<p style="margin-top:1.6em;">
 要するに隠蔽です。訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。
 
 ## ２　ウェブサイトについて
 ---
-<p class="base" style="margin-top: 1.6em;">
+<p style="margin-top:1.6em;">
  本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。
-<p class="base" style="margin-top: 1.6em;">
+<p style="margin-top:1.6em;">
  現在の訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。判決言い渡し後、判決文を掲載します。
 
 <div class="base">
@@ -55,7 +55,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>判決文全文</b></span>
 ^^^
-山田悠一郎裁判官。2024年確定。調査の実施についての判決（前訴の判決）です。「法的義務を負うということはできない」として棄却しました。
+山田悠一郎裁判官　2024年確定　調査の実施について義務があるか否かについて。「法的義務を負うということはできない」として棄却しました。
 :::
 
 :::{grid-item-card}
@@ -87,10 +87,12 @@
 
 </div>
 
-## ３　判決文（山田悠一郎裁判官）　その１
+## ３　判決文について　その１
 ---
-<p>
-令和５年判決は、ＥＮＥＯＳが通報を受けた後、調査を実施しなかったことについて、
+<p class="base" style="margin-top: 1.6em;">
+山田悠一郎裁判官　2024年確定
+<p class="base" style="margin-top: 1.6em;">
+ＥＮＥＯＳが通報を受けた後、調査を実施しなかったことについて、
 <p>
 <b>「不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。」</b>
 <p>
@@ -109,10 +111,12 @@
 <p style="margin-top:4.8em;">
 間違えやすい点ですが、最高裁平成３０年判決の判示は、令和５年判決の判示の根拠ではありません。✏️
 
-## ４　判決文（山田悠一郎裁判官）　その２
+## ４　判決文について　その２
 ---
-<p>
-令和５年判決は、通報の態様について、
+<p style="margin-top:1.6em;">
+山田悠一郎裁判官　2024年確定
+<p style="margin-top:1.6em;">
+通報の態様について、
 <p>
 <b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。」</b>
 <p>
@@ -140,7 +144,7 @@
 <p style="margin-top:4.8em;">
 もし私の解釈に誤りがあると感じられる場合は、<a class="reference external" href="https://x.com/minnanosaiban">X-Twitter</a> でご指摘いただけますと幸いです。✏️
 
-## <span style="color: #00000000;">エネオスのコンプライアンスホットラインに関する訴訟について</span>
+## 
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
