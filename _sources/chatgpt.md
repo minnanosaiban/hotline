@@ -1,4 +1,4 @@
-# ２　ChatGPT で分析 ✏️
+# ⚡ChatGPT で分析 ✏️
 
 <div class="base">
 
