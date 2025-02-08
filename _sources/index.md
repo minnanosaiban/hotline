@@ -22,7 +22,7 @@
 ---
 <p style="margin-top:1.6em;">
  本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。
-<p style="margin-top:1.6em;">
+<p style="margin-top:1.6em; margin-bottom:1.6em;">
  現在の訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。判決言い渡し後、判決文を掲載します。
 
 <div class="base">
