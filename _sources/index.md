@@ -5,7 +5,7 @@
 :::{card} 
 :link: https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf
 <p style="text-align:center; margin-top:1em; margin-bottom:1em;">
-  <b>原告第５準備書面（最終準備書面）を提出しました。</b><a class="reference internal word" href="https://minnanosaiban.github.io/hotline/2024allegation.html">ＰＤＦ</a> ✏️
+  <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">原告第５準備書面</a><b>（最終準備書面）を提出しました。</b>
 :::
 
 </div>
@@ -21,9 +21,14 @@
 ## 🔸本ウェブサイトについて
 ---
 <p style="margin-top:1.6em;">
- 本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。
+ 本ウェブサイトは、<a class="reference internal word" href="tisai.html">原告と被告（ＥＮＥＯＳ）の主張書面</a> 、<a class="reference internal word" href="judgment2024.html">調査の実施についての判決</a>（前訴の判決）を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。公平性を目指しているため、ChatGPT Shared Links も張っています。
 <p style="margin-top:1.6em; margin-bottom:1.6em;">
  現在の訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。判決言い渡し後、判決文を掲載します。
+
+`````{margin} 
+<p class="margin-set"><span class="margin-text">
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※ コンプライアンスに関する取組みの再徹底に係る進捗について | ENEOSホールディングス <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+`````
 
 <div class="base">
 
@@ -37,7 +42,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>主張書面</b></span>
 ^^^
-ＥＮＥＯＳ側の主張も掲載しています。通報者に対して通知する義務はないとの主張です。従業員との「対話」を軽視しているといえます。
+<a class="reference internal word" href="tisai.html">ＥＮＥＯＳ側の主張も掲載</a>しています。通報者に対して通知する義務はないとの主張です。従業員との「対話」を軽視しているといえます。
 :::
 
 :::{grid-item-card}
@@ -46,7 +51,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
 ^^^
-ＥＮＥＯＳ側の主張書面を ChatGPT で分析しています。内部通報制度の趣旨を狭く解釈しているようです。ＡＩの進化はホントすごいです！
+<a class="reference internal word" href="tisai.html">ＥＮＥＯＳ側の主張を ChatGPT で分析</a>しています。世間に対する表明<sup> ※ </sup>に反し、内部通報制度の趣旨を狭く解釈する主張を行っています。
 :::
 
 :::{grid-item-card}
@@ -55,7 +60,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>判決文全文</b></span>
 ^^^
-山田悠一郎裁判官　2024年確定<br>調査を実施する義務があるか否かについて。「法的義務を負うということはできない」として棄却しました。
+<a class="reference internal word" href="judgment2024.html">山田悠一郎裁判官　2024年確定</a><br>調査を実施する義務があるか否かについて。「法的義務を負うということはできない」として棄却しました。
 :::
 
 :::{grid-item-card}
@@ -64,7 +69,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
 ^^^
-判決文を ChatGPT で分析しました。2024年判決は、内部通報制度の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
+<a class="reference internal word" href="judgment2024.html#chatgpt">判決文を ChatGPT で分析</a>しています。2024年判決は、内部通報制度の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
 :::
 
 ::::
@@ -76,10 +81,16 @@
 ---
 <p>
 裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。事実をより正確に把握をしたい場合は、裁判文書のページや引用元をご参照いただくことをお勧めいたします。
+
+`````{margin} 
+<p class="margin-set"><span class="margin-text">
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※ 公益通報者保護法に基づく指針 | 消費者庁 (caa.go.jp) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+`````
+
 <p style="margin-top:1.6em;">
-本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。また、用いている用語の意味は、判決文や主張書面などの裁判書類、<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">公益通報者保護法に基づく指針</a>において定義しているものと同様です。
+本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。また、用いている用語の意味は、判決文や主張書面などの裁判書類、「公益通報者保護法に基づく指針<sup> ※ </sup>」において定義しているものと同様です。
 <p style="margin-top:4.8em;">
-もし私の解釈に誤りがあると感じられる場合は、<a class="reference external" href="https://x.com/minnanosaiban">X-Twitter</a> でご指摘いただけますと幸いです。✏️
+もし私の解釈に誤りがあると感じられる場合は、<i class="fa-brands fa-x-twitter"></i> でご指摘いただけますと幸いです。
 
 <div class="base" style="margin-top: 4.8rem;">
 
@@ -106,5 +117,3 @@
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
-
-

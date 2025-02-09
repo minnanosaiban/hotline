@@ -6,7 +6,7 @@
 <p style="margin-top:1.6em; margin-bottom:1.6em">
  <b>ＥＮＥＯＳ側は、通報者に対して通知する義務はないと主張しています。これは、自ら表明した</b><a class="reference external" href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf">「あるべき姿へ向けた取組み」</a><b>に反しており、従業員との「対話」を軽視しているといえます。</b>
 <p style="margin-top:1.6em; margin-bottom:1.6em">
- <b>主張書面の内容は、ChatGPT で分析しています。</b><a class="reference internal word" href="https://minnanosaiban.github.io/hotline/chatgpt.html">リンク</a> ✏️
+ <b>主張書面を </b><a class="reference internal word" href="https://minnanosaiban.github.io/hotline/chatgpt.html">ChatGPT で分析</a><b>しています。</b>
 :::
 
 </div>
@@ -1375,10 +1375,10 @@
 <p>
 以上
 
-## 地裁移送前（簡裁）の主張
+## 地裁移送前（簡裁）の主張は、こちら
 ---
 
-簡易裁判所における主張は、<a class="reference internal word" href="kansai">こちら</a>
+地裁移送前（簡裁）の主張は、<a class="reference internal word" href="kansai">こちら</a>
 ##
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)

@@ -4,9 +4,9 @@
 
 :::{card} 
 <p style="margin-top:1.6em; margin-bottom:1.6em">
-<b>主張書面を ChatGPT で分析しています。ＥＮＥＯＳの主張は内部通報制度の趣旨を狭く解釈しているようです。</b>
+<a class="reference internal word" href="tisai.html">ＥＮＥＯＳ側の主張を ChatGPT で分析</a>しています。公平性のある掲載を目指しているため、プロンプトも掲載しています。
 <p style="margin-top:1.6em; margin-bottom:1.6em">
-<b>ＡＩの進化はホントすごいです！</b> 
+<b>ＥＮＥＯＳは、内部通報制度の趣旨を狭く解釈しているようです。ＡＩの進化はホントすごいです！</b> 
 :::
 
 </div>
