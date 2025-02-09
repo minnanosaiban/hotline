@@ -916,7 +916,7 @@
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text"><b>⑵</b>、認める。
-<p class="margin-set"><span class="margin-text">被告の主張の要旨は、前記<a class="reference internal word" href="#hikoku5_22">第２の２</a>に詳述したとおりである。📄
+<p class="margin-set"><span class="margin-text">被告の主張の要旨は、前記<a class="reference internal word" href="#hikoku5_22">第２の２</a>に詳述したとおりである。
 `````
 <p class="pad3 hg-idt">
 <a name="dai4_212"></a>
