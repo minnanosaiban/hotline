@@ -16,13 +16,13 @@
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text">
-<a class="reference internal word" href="judgment2024.html#handan1">※ 判決文の該当箇所</a>
+<a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">※ 裁判例結果詳細 | 裁判所 - Courts in Japan <i class="bi bi-box-arrow-up-right"></i> </a>
 <p class="margin-set"><span class="margin-text">
-<a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">裁判例結果詳細 | 裁判所 - Courts in Japan <i class="bi bi-box-arrow-up-right"></i> </a>
+<a class="reference internal word" href="judgment2024.html#handan1">※ 判決文の該当箇所</a>
 `````
 
 <p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。<sup><a class="reference internal word" href="judgment2024.html#handan1">※</a></sup>」</b>と判示しています。
+判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。<sup> <a class="reference internal word" href="judgment2024.html#handan1">※</a> </sup>」</b>と判示しています。
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
@@ -89,7 +89,7 @@
 `````
 
 <p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。<sup><a class="reference internal word" href="judgment2024.html#handan2">※</a></sup>」</b>と判示しています。
+判決文（山田悠一郎裁判官）では、<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。 <sup> <a class="reference internal word" href="judgment2024.html#handan2">※</a> </sup>」</b>と判示しています。
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
