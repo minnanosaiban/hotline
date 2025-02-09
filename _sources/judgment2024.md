@@ -22,7 +22,7 @@
 `````
 
 <p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。<sup> <a class="reference internal word" href="judgment2024.html#handan1">※</a> </sup>」</b>と判示しています。
+判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決<sup> <a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf">※</a> </sup>を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。<sup> <a class="reference internal word" href="judgment2024.html#handan1">※</a> </sup>」</b>と判示しています。
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
