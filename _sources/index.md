@@ -51,7 +51,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
 ^^^
-<a class="reference internal word" href="tisai.html">ＥＮＥＯＳ側の主張を ChatGPT で分析</a>しています。世間に対する表明<sup> ※ </sup>に反し、内部通報制度の趣旨を狭く解釈する主張を行っています。
+<a class="reference internal word" href="chatgpt.html">ＥＮＥＯＳ側の主張を ChatGPT で分析</a>しています。世間に対する表明<sup> ※ </sup>に反し、内部通報制度の趣旨を狭く解釈する主張を行っています。
 :::
 
 :::{grid-item-card}
