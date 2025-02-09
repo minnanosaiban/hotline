@@ -51,7 +51,7 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
 ^^^
-<a class="reference internal word" href="chatgpt.html">ＥＮＥＯＳ側の主張を ChatGPT で分析</a>しています。世間に対する表明<sup> ※ </sup>に反し、内部通報制度の趣旨を狭く解釈する主張を行っています。
+<a class="reference internal word" href="chatgpt.html">ＥＮＥＯＳ側の主張を ChatGPT で分析</a>しています。世間に対する表明<sup><a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※</i></sup>に反し、内部通報制度の趣旨を狭く解釈する主張を行っています。
 :::
 
 :::{grid-item-card}
@@ -88,7 +88,7 @@
 `````
 
 <p style="margin-top:1.6em;">
-本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。また、用いている用語の意味は、判決文や主張書面などの裁判書類、「公益通報者保護法に基づく指針<sup> ※ </sup>」において定義しているものと同様です。
+本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。また、用いている用語の意味は、判決文や主張書面などの裁判書類、「公益通報者保護法に基づく指針<sup><a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※</i></sup>」において定義しているものと同様です。
 <p style="margin-top:4.8em;">
 もし私の解釈に誤りがあると感じられる場合は、<i class="fa-brands fa-x-twitter"></i> でご指摘いただけますと幸いです。
 
