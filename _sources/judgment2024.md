@@ -26,11 +26,11 @@
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
-<a class="reference external" href="https://chatgpt.com/share/67a0c3d0-066c-8009-9005-141ae333056b">ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
+<a class="reference external" href="https://chatgpt.com/share/67a0c3d0-066c-8009-9005-141ae333056b">※ ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
 `````
 
 <p style="margin-top:1.6em;">
-そこで、ChatGPT で分析✏️ してみたところ、評価は以下のとおりです。
+そこで、ChatGPT で分析✏️ してみたところ、評価<sup> <a class="reference external" href="https://chatgpt.com/share/67a0c3d0-066c-8009-9005-141ae333056b">※</a> </sup>は以下のとおりです。
 <p style="margin-top:1.6em;">
 <b>「本件判決は、最高裁判決の趣旨を狭く解釈し、特に「直接被害」の要件を強調することで、信義則上の義務が成立する範囲を限定している。しかし、最高裁判決は「申出の具体的状況」によっては義務が生じる可能性を示しており、本件判決のような機械的な判断には問題がある。したがって、本件判決の解釈は、最高裁の判示を十分に反映しているとは言えず、妥当性に欠けるものと評価できる。」</b>
 
@@ -93,10 +93,10 @@
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
-<a class="reference external" href="https://chatgpt.com/share/67a0d4fc-d838-8009-903a-f94ccba42d71">ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
+<a class="reference external" href="https://chatgpt.com/share/67a0d4fc-d838-8009-903a-f94ccba42d71">※ ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
 `````
 <p style="margin-top:1.6em;">
-そこで、ChatGPT で分析✏️ してみたところ、評価は以下のとおりです。
+そこで、ChatGPT で分析✏️ してみたところ、評価<sup> <a class="reference external" href="https://chatgpt.com/share/67a0d4fc-d838-8009-903a-f94ccba42d71">※</a> </sup>は以下のとおりです。
 <p style="margin-top:1.6em;">
 <b>「本件判決は、本件規程の文言に則った厳格な解釈を行っており、形式的な整合性はある。しかし、公益通報制度の趣旨や通報者の保護という観点からすると、通報の要件を狭く解釈しすぎている可能性があり、企業側に過度に有利な判断となっている点には批判の余地がある。」</b>
 
