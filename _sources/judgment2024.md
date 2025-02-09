@@ -11,8 +11,22 @@
 
 <a name="chatgpt"></a>
 
-## １　ChatGPT で分析✏️　その１
+## 🔸ChatGPT で分析✏️　その１
 ---
+
+`````{margin} 
+<p class="margin-set"><span class="margin-text">
+<a class="reference internal word" href="judgment2024.html#handan1"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
+<p class="margin-set"><span class="margin-text">
+<a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-arrow-right"></i> 裁判例結果詳細 | 裁判所 - Courts in Japan</a>
+`````
+
+<p style="margin-top:1.6em;">
+判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。」</b>と判示しています。
+<p style="margin-top:1.6em;">
+そこで、ChatGPT で分析✏️ してみたところ、評価は以下のとおりです。
+<p style="margin-top:1.6em;">
+<b>「本件判決は、最高裁判決の趣旨を狭く解釈し、特に「直接被害」の要件を強調することで、信義則上の義務が成立する範囲を限定している。しかし、最高裁判決は「申出の具体的状況」によっては義務が生じる可能性を示しており、本件判決のような機械的な判断には問題がある。したがって、本件判決の解釈は、最高裁の判示を十分に反映しているとは言えず、妥当性に欠けるものと評価できる。」</b>
 
 <div class="base" style="margin-top: 1.6em;">
 
@@ -23,7 +37,7 @@
 
 ````{tab-set}
 ```{tab-item} ChatGPT の答え
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; padding-top:1.6em;">
 この裁判所の解釈は、最高裁の判示に比べて、信義則上の義務が成立する範囲を狭く解釈していると言える。以下、評価を述べる。
 <p class="card-text hg-idt" style="margin-top:1.6em;">
 <b>１． 最高裁の判示の趣旨</b>
@@ -41,11 +55,11 @@
 ⑶　個別の事情を考慮していない 　最高裁は、「申出の具体的状況」に応じて義務が生じる可能性があると述べており、通報者の状況や通報内容に即して判断すべきことを示唆している。しかし、本件判決は、原告の通報が「直接被害」に当たらないから当然に義務は生じないと結論付けており、個別の状況を十分に検討した形跡がない。
 <p class="card-text hg-idt" style="margin-top:1.6em;">
 <b>３．結論</b>
-<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
 本件判決は、最高裁判決の趣旨を狭く解釈し、特に「直接被害」の要件を強調することで、信義則上の義務が成立する範囲を限定している。しかし、最高裁判決は「申出の具体的状況」によっては義務が生じる可能性を示しており、本件判決のような機械的な判断には問題がある。したがって、本件判決の解釈は、最高裁の判示を十分に反映しているとは言えず、妥当性に欠けるものと評価できる。
 ```
 ```{tab-item} ChatGPT へのプロンプト
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; padding-top:1.6em;">
 最高裁の判示「上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される」について、裁判所（判決）の解釈は以下のとおりでした。この解釈を評価してください。
 <p class="card-text idt" style="margin-top:1.6em;">
 そもそも、前記前提事実⑶のとおり、被告の内部通報制度について定めた本件規程では、その目的について、被告及び被告グループ会社（以下「被告等」という。）における不正行為等（法令等に違反する行為または違反するおそれのある行為）を早期に是正し、もって被告等のコンプライアンス体制を強化することである旨が規定され（１．１）、調査の結果、法令等に違反する事実等が確認された場合は、是正措置及び再発防止策等を検討し、速やかにこれらを実行する（３．５）などと規定されている一方、通報者に対しては、通報を理由とした不利益取扱いの禁止（２．４、３．１１）や調査結果等の通知（３．６⑴）が定められるにとどまっていることに照らすと、被告の内部通報における調査等は、基本的に、不正行為等を早期に発見、是正して被告等の業務の適正化を図るためのものであって、通報者個人のためにされるものではないというべきである。
@@ -53,31 +67,29 @@
 そうすると、不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。
 <p class="card-text idt" style="margin-top:1.6em;">
 なお、引用されている最高裁平成３０年２月１５日第一小法廷判決の判示は以下のカッコ内のとおりです。
-<p class="card-text idt" style="margin-top:1em; margin-bottom:1em;">
+<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
 「その趣旨は，本件グループ会社から成る企業集団の業務の適正の確保等を目的として，本件相談窓口における相談への対応を通じて，本件グループ会社の業務に関して生じる可能性がある法令等に違反する行為（以下「法令等違反行為」という。）を予防し，又は現に生じた法令等違反行為に対処することにあると解される。これらのことに照らすと，本件グループ会社の事業場内で就労した際に，法令等違反行為によって被害を受けた従業員等が，本件相談窓口に対しその旨の相談の申出をすれば，上告人は，相応の対応をするよう努めることが想定されていたものといえ，上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される。」 
 ```
 ````
 `````
 </div>
 
+## 🔸ChatGPT で分析✏️　その２
+---
+
 `````{margin} 
 <p class="margin-set"><span class="margin-text">
-<a class="reference internal word" href="judgment2024.html#handan1"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
+<a class="reference internal word" href="judgment2024.html#handan2"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
 <p class="margin-set"><span class="margin-text">
-<a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-arrow-right"></i> 裁判例結果詳細 | 裁判所 - Courts in Japan</a>
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-arrow-right"></i> 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) </a>
 `````
 
 <p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。」</b>と判示しています。
+判決文（山田悠一郎裁判官）では、<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。」</b>と判示しています。
 <p style="margin-top:1.6em;">
 そこで、ChatGPT で分析✏️ してみたところ、評価は以下のとおりです。
 <p style="margin-top:1.6em;">
-<b>「本件判決は、最高裁判決の趣旨を狭く解釈し、特に「直接被害」の要件を強調することで、信義則上の義務が成立する範囲を限定している。しかし、最高裁判決は「申出の具体的状況」によっては義務が生じる可能性を示しており、本件判決のような機械的な判断には問題がある。したがって、本件判決の解釈は、最高裁の判示を十分に反映しているとは言えず、妥当性に欠けるものと評価できる。」</b>
-
-<a name="chatgpt"></a>
-
-## ２　ChatGPT で分析✏️　その２
----
+<b>「本件判決は、本件規程の文言に則った厳格な解釈を行っており、形式的な整合性はある。しかし、公益通報制度の趣旨や通報者の保護という観点からすると、通報の要件を狭く解釈しすぎている可能性があり、企業側に過度に有利な判断となっている点には批判の余地がある。」</b>
 
 <div class="base" style="margin-top: 1.6em;">
 
@@ -88,7 +100,7 @@
 
 ````{tab-set}
 ```{tab-item} ChatGPT の答え
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; padding-top:1.6em;">
 判決の評価として、以下の点を考慮する必要がある。
 <p class="card-text hg-idt" style="margin-top:1.6em;">
 <b>１． 通報の定義と解釈</b>
@@ -104,11 +116,11 @@
 判決では、事実経過の説明や疑問事項については「当然に通報又は通報情報として調査の対象になるとはいえない」とし、調査しない場合でも「逐一、その旨や理由の通知が求められるものともいえない」と判断している。しかし、公益通報制度の趣旨からすれば、少なくとも通報者に対して、何が通報とみなされ、何が調査対象となるのかを適切に説明することが望ましい。この点において、判決は通報者保護の観点を十分に考慮していない可能性がある。
 <p class="card-text hg-idt" style="margin-top:1.6em;">
 <b>結論</b>
-<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
 本件判決は、本件規程の文言に則った厳格な解釈を行っており、形式的な整合性はある。しかし、公益通報制度の趣旨や通報者の保護という観点からすると、通報の要件を狭く解釈しすぎている可能性があり、企業側に過度に有利な判断となっている点には批判の余地がある。
 ```
 ```{tab-item} ChatGPT へのプロンプト
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; padding-top:1.6em;">
 消費者庁が公表した内容は以下のとおりです。
 <p class="card-text idt" style="margin-top:1.6em;">
 「「公益通報」とは、労働者が、不正の目的でなく、労務提供先（事業者又はその役員、従業員等）について、通報対象事実が生じ、又はまさに生じようとしている旨を、通報先に通報することです。通報対象事実については、法令の具体的な条項まで指定する必要はありませんが、どのような行為を行ったかなどを具体的に示さなければ、通報先は、その行為が法令に違反しているのかを判断できません。このように、通報先には、通報が「公益通報」に該当するか否か判断できる程度に、またその後の調査や是正等が実施できる程度に具体的な事実を知らせる必要があります。」
@@ -126,30 +138,16 @@
 「調査」とは、通報情報に関する事実を確認するための調査をいう。
 <p class="card-text idt" style="margin-top:1.6em;">
 上記の法令等に関して、判決では、原告の通報を「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等」と表現し、以下のとおり判示しています。以下の判示を評価してください。
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
 本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２⑹）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２⑸参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。
 ```
 ````
 `````
 </div>
 
-`````{margin} 
-<p class="margin-set"><span class="margin-text">
-<a class="reference internal word" href="judgment2024.html#handan2"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
-<p class="margin-set"><span class="margin-text">
-<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-arrow-right"></i> 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) </a>
-`````
-
-<p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。」</b>と判示しています。
-<p style="margin-top:1.6em;">
-そこで、ChatGPT で分析✏️ してみたところ、評価は以下のとおりです。
-<p style="margin-top:1.6em;">
-<b>「本件判決は、本件規程の文言に則った厳格な解釈を行っており、形式的な整合性はある。しかし、公益通報制度の趣旨や通報者の保護という観点からすると、通報の要件を狭く解釈しすぎている可能性があり、企業側に過度に有利な判断となっている点には批判の余地がある。」</b>
-
 <a name="zenbun"></a>
 
-## ２　判決文全文
+## 🔸判決文全文
 ---
 <i class="fa-regular fa-file-pdf fa-2x"></i> ＰＤＦは、マスキング後、掲載します。
 

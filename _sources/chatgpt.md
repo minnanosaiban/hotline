@@ -11,7 +11,7 @@
 
 </div>
 
-## 01　被告の主張は正当ですか？
+## 🔸被告の主張は正当ですか？
 ---
 <b><a class="reference external" href="https://chatgpt.com/share/679b9f24-4ac4-8009-9591-e52bfe4c5ddc">ChatGPT の答え</a></b>
 
@@ -28,7 +28,7 @@
 </div>
 
 
-## 02　なぜ省略しているのですか？
+## 🔸なぜ省略しているのですか？
 ---
 <b><a class="reference external" href="https://chatgpt.com/share/679ba2d0-4d90-8009-ac1c-87b6b69f49a6">ChatGPT の答え</a></b>
 

@@ -4,21 +4,21 @@
 
 :::{card} 
 :link: https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf
-<p style="text-align:center; margin-top:1.6em; margin-bottom:1.6em;">
+<p style="text-align:center; margin-top:1em; margin-bottom:1em;">
   <b>原告第５準備書面（最終準備書面）を提出しました。</b><a class="reference internal word" href="https://minnanosaiban.github.io/hotline/2024allegation.html">ＰＤＦ</a> ✏️
 :::
 
 </div>
 
 
-## １　ＥＮＥＯＳの内部通報制度の問題
+## 🔸ＥＮＥＯＳの内部通報制度の問題
 ---
 <p style="margin-top:1.6em;">
 ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。
 <p style="margin-top:1.6em;">
 要するに隠蔽です。訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。
 
-## ２　ウェブサイトについて
+## 🔸本ウェブサイトについて
 ---
 <p style="margin-top:1.6em;">
  本ウェブサイトは、原告と被告の <a class="reference internal word" href="tisai.html">主張書面</a> 、調査の実施についての <a class="reference internal word" href="judgment2024.html">判決（前訴の判決）</a> を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。
@@ -67,75 +67,12 @@
 判決文を ChatGPT で分析しました。2024年判決は、内部通報制度の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
 :::
 
-:::{grid-item-card}
-:link-type: doc
-:class-header: bg-light text-center
-<span style="color: #8045e5;"><b>Links（作成中）</b></span>
-^^^
-主に私が作成したウェブサイトのリンクです。本ウェブサイトは、Jupyter Book で作成しています。多言語化も挑戦したい。
-:::
-
-:::{grid-item-card}
-:link-type: doc
-:class-header: bg-light text-center
-<span style="color: #8045e5;"><b>X-Twitter（作成中）</b></span>
-^^^
-<i class="fa-brands fa-x-twitter"></i> での発信、株主総会での問題提起、自殺すること、通報者に残されている選択肢は限られています。
-:::
-
 ::::
 
 </div>
 
-## ３　判決文について　その１
----
-<p style="margin-top:1.6em;">
-山田悠一郎裁判官　2024年確定
-<p style="margin-top:1.6em;">
-ＥＮＥＯＳが通報を受けた後、調査を実施しなかったことについて、
-<p>
-<b>「不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。」</b>
-<p>
-と判示しました。
-<p>
-<a class="reference internal word" href="judgment2024.html#handan1"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
-<p style="margin-top:1.6em;">
-なお、上記判決文で引用されている最高裁平成３０年判決は、
-<p>
-<b>「本件グループ会社の事業場内で就労した際に，法令等違反行為によって被害を受けた従業員等が，本件相談窓口に対しその旨の相談の申出をすれば，上告人は，相応の対応をするよう努めることが想定されていたものといえ，上記申出の具体的状況いかんによっては，当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合があると解される。」</b>
-<p>
-と判示しています。
-<p>
-<a class="reference external" href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf"><i class="fa-solid fa-arrow-right"></i> 裁判例結果詳細 | 裁判所 - Courts in Japan</a>
 
-<p style="margin-top:4.8em;">
-間違えやすい点ですが、最高裁平成３０年判決の判示は、令和５年判決の判示の根拠ではありません。✏️
-
-## ４　判決文について　その２
----
-<p style="margin-top:1.6em;">
-山田悠一郎裁判官　2024年確定
-<p style="margin-top:1.6em;">
-通報の態様について、
-<p>
-<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。」</b>
-<p>
-と判示しました。
-<p>
-<a class="reference internal word" href="judgment2024.html#handan2"><i class="fa-solid fa-arrow-right"></i> 判決文の該当箇所</a>
-<p style="margin-top:1.6em;">
-しかし、消費者庁が公表した「公益通報者保護法に基づく指針の解説」は、
-<p>
-<b>「内部公益通報を「受け付ける」とは、内部公益通報受付窓口のものとして表示された連絡先（電話番号、メールアドレス等）に直接内部公益通報がされた場合だけではなく、例えば、公益通報対応業務に従事する担当者個人のメールアドレス宛てに内部公益通報があった場合等、実質的に同窓口において内部公益通報を受け付けたといえる場合を含む。」</b>
-<p>
-と示しています。
-<p>
-<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf"><i class="fa-solid fa-arrow-right"></i> 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) </a>
-
-<p style="margin-top:4.8em;">
-裁判所の判断は、「公益通報者保護法に基づく指針」に反する判断です。✏️
-
-## ５　記載の内容や用語について
+## 🔸記載の内容や用語について
 ---
 <p>
 裁判に関連する書類は、解釈が困難な場合があるため、私の解釈よる文章の内容が誤っている可能性が十分に考えられます。事実をより正確に把握をしたい場合は、裁判文書のページや引用元をご参照いただくことをお勧めいたします。
@@ -143,6 +80,27 @@
 本ウェブサイトでは、判決文や法令など、裁判に関連する文書を記載しております。実際の主張書面も掲載しています。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。また、用いている用語の意味は、判決文や主張書面などの裁判書類、<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">公益通報者保護法に基づく指針</a>において定義しているものと同様です。
 <p style="margin-top:4.8em;">
 もし私の解釈に誤りがあると感じられる場合は、<a class="reference external" href="https://x.com/minnanosaiban">X-Twitter</a> でご指摘いただけますと幸いです。✏️
+
+<div class="base" style="margin-top: 4.8rem;">
+
+:::{card} 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+:::
+
+</div>
+
+<div class="base" style="margin-top: 4.8rem;">
+
+:::{card} 
+:link: x-twitter
+:link-type: doc
+<p>
+  <b>X-Twitterまとめ（作成中です）</b>
+<p>
+  <i class="fa-brands fa-x-twitter"></i> での発信、株主総会での問題提起、最終的には自殺すること、通報者に残されている選択肢は限られています。
+:::
+
+</div>
 
 ## 
 [![Jupyter Book Badge](https://jupyterbook.org/_images/badge.svg)](https://jupyterbook.org)
