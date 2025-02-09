@@ -27,7 +27,7 @@
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text">
-<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※ コンプライアンスに関する取組みの再徹底に係る進捗について | ENEOSホールディングス <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※ コンプライアンスに関する取組みの再徹底に係る進捗について | ENEOSホールディングス <i class="bi bi-box-arrow-up-right"></i> </a>
 `````
 
 <div class="base">
@@ -84,7 +84,7 @@
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text">
-<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※ 公益通報者保護法に基づく指針 | 消費者庁 (caa.go.jp) <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※ 公益通報者保護法に基づく指針 | 消費者庁 (caa.go.jp) <i class="bi bi-box-arrow-up-right"></i> </a>
 `````
 
 <p style="margin-top:1.6em;">

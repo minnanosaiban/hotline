@@ -604,7 +604,6 @@
 ## 15　文書送付嘱託申立書
 ---
 <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-souhusyokutaku_2024.11.25.pdf">ＰＤＦ</a>の用意があります。
-<div class="base" style="margin-top: 1.6em;">
 
 <p style="margin-top: 1.6em;">
 <b>文書送付嘱託申立書</b>
@@ -712,7 +711,6 @@
 ## 14　求釈明申立書
 ---
 <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference internal word" href="https://minnanosaiban.github.io/hotline/_static/eneos-kyusyakumei_2024.11.25.pdf">ＰＤＦ</a>の用意があります。
-<div class="base" style="margin-top: 1.6em;">
 
 <p style="margin-top: 1.6em;">
 <b>求釈明申立書</b>
