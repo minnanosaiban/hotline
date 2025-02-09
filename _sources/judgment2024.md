@@ -22,7 +22,7 @@
 `````
 
 <p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。<sup><a class="reference internal word" href="judgment2024.html#handan1">※</i></sup>」</b>と判示しています。
+判決文（山田悠一郎裁判官）では、最高裁平成３０年２月１５日第一小法廷判決を引用しつつ、<b>「調査等をする法的義務を負うということはできないというべきである。<sup><a class="reference internal word" href="judgment2024.html#handan1">※</a></sup>」</b>と判示しています。
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
@@ -89,7 +89,7 @@
 `````
 
 <p style="margin-top:1.6em;">
-判決文（山田悠一郎裁判官）では、<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。<sup><a class="reference internal word" href="judgment2024.html#handan2">※</i></sup>」</b>と判示しています。
+判決文（山田悠一郎裁判官）では、<b>「本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。<sup><a class="reference internal word" href="judgment2024.html#handan2">※</a></sup>」</b>と判示しています。
 
 `````{margin} 
 <p class="card-text" style="margin-bottom:1em; margin-left:0">
