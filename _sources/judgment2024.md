@@ -47,21 +47,21 @@
 この裁判所の解釈は、最高裁の判示に比べて、信義則上の義務が成立する範囲を狭く解釈していると言える。以下、評価を述べる。
 <p class="card-text hg-idt" style="margin-top:1.6em;">
 <b>１． 最高裁の判示の趣旨</b>
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em;">
 最高裁の判示は、申出の具体的状況によっては、申出を受けた者が「適切に対応すべき信義則上の義務を負う場合がある」としている。つまり、必ずしも一律に義務を認めるものではないが、申出の内容や状況によっては義務が生じる可能性を示唆している。
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em;">
 特に、最高裁平成30年判決の引用部分においても、「法令等違反行為によって被害を受けた従業員等」が申し出た場合、企業側には「相応の対応をするよう努めることが想定されていた」とし、申出の具体的状況によっては信義則上の義務を認める余地を示している。
-<p class="card-text hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
 <b>２．本件判決の解釈の問題点</b>
-<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad2 hg-idt" style="margin-top:1.6em;">
 ⑴　内部通報制度の目的に過度に依拠 　本件判決は、内部通報制度の目的が「不正行為等を早期に発見・是正し、被告等の業務の適正化を図るため」であり、「通報者個人のためにされるものではない」としている。しかし、制度の目的が企業の業務適正化にあることと、個別の通報に対する適切な対応義務を否定することは直ちに結びつかない。最高裁の判示が示すように、通報者の申出の内容によっては、企業側が一定の対応義務を負う可能性があるため、本件判決のように内部通報制度の目的のみをもって義務を否定するのは、最高裁判例の趣旨を狭く解しすぎている。
-<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad2 hg-idt" style="margin-top:1.6em;">
 ⑵　「直接被害」を義務成立の要件として強調 　本件判決は、「不正行為等によって直接被害を受けた者等」が申し出た場合には格別であるが、そうでない限り信義則上の義務を負うことはできないとしている。しかし、最高裁判決は「直接被害」を受けた者に限定せず、「申出の具体的状況いかんによっては」義務が生じるとしている。したがって、本件判決が「直接被害」の有無を決定的要素とするのは、最高裁判決の趣旨よりも狭い解釈となっている。
-<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad2 hg-idt" style="margin-top:1.6em;">
 ⑶　個別の事情を考慮していない 　最高裁は、「申出の具体的状況」に応じて義務が生じる可能性があると述べており、通報者の状況や通報内容に即して判断すべきことを示唆している。しかし、本件判決は、原告の通報が「直接被害」に当たらないから当然に義務は生じないと結論付けており、個別の状況を十分に検討した形跡がない。
-<p class="card-text hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
 <b>３．結論</b>
-<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
 本件判決は、最高裁判決の趣旨を狭く解釈し、特に「直接被害」の要件を強調することで、信義則上の義務が成立する範囲を限定している。しかし、最高裁判決は「申出の具体的状況」によっては義務が生じる可能性を示しており、本件判決のような機械的な判断には問題がある。したがって、本件判決の解釈は、最高裁の判示を十分に反映しているとは言えず、妥当性に欠けるものと評価できる。
 ```
 ```{tab-item} ChatGPT へのプロンプト
@@ -111,21 +111,21 @@
 ```{tab-item} ChatGPT の分析結果
 <p class="card-text idt" style="margin-top:1.6em; padding-top:1.6em;">
 判決の評価として、以下の点を考慮する必要がある。
-<p class="card-text hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
 <b>１． 通報の定義と解釈</b>
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em;">
 判決では、本件規程に基づき「通報」は不正行為等を特定し、その内容を告げることが前提であると解釈している。そのため、単に事実経過を記載した事項や調査補助者への疑問の表明は「通報」や「通報情報」には該当しないと判断した。この解釈は、本件規程の文言に即しており、規程上の定義を厳格に適用したものである。
-<p class="card-text hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
 <b>２．公益通報制度との整合性</b>
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em;">
 一方で、消費者庁の公表内容によれば、公益通報は「どのような行為を行ったかを具体的に示す必要がある」とされているが、法令違反の具体的な条項まで指定する必要はないとされている。判決の解釈は、通報の要件として「対象の特定」を強調しており、消費者庁の指針よりも狭い解釈をしているように見える。これにより、通報者が不正を特定できない場合でも、問題提起自体が適切に扱われるべきかという点が論点となる。
-<p class="card-text hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
 <b>３．調査義務と通知の必要性</b>
-<p class="card-text idt" style="margin-top:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em;">
 判決では、事実経過の説明や疑問事項については「当然に通報又は通報情報として調査の対象になるとはいえない」とし、調査しない場合でも「逐一、その旨や理由の通知が求められるものともいえない」と判断している。しかし、公益通報制度の趣旨からすれば、少なくとも通報者に対して、何が通報とみなされ、何が調査対象となるのかを適切に説明することが望ましい。この点において、判決は通報者保護の観点を十分に考慮していない可能性がある。
-<p class="card-text hg-idt" style="margin-top:1.6em;">
+<p class="card-text pad1 hg-idt" style="margin-top:1.6em;">
 <b>結論</b>
-<p class="card-text idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
+<p class="card-text pad1 idt" style="margin-top:1.6em; margin-bottom:1.6em; padding-bottom:1.6em;">
 本件判決は、本件規程の文言に則った厳格な解釈を行っており、形式的な整合性はある。しかし、公益通報制度の趣旨や通報者の保護という観点からすると、通報の要件を狭く解釈しすぎている可能性があり、企業側に過度に有利な判断となっている点には批判の余地がある。
 ```
 ```{tab-item} ChatGPT へのプロンプト
