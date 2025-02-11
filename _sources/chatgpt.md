@@ -5,6 +5,8 @@
 :::{card} 
 <p style="margin-top:1.6em; margin-bottom:1.6em">
 <b>ＥＮＥＯＳ側の主張を ChatGPT で分析しています。公平性のため、ChatGPT Shared Links も張っています。</b>  
+<p style="margin-top:1.6em; margin-bottom:1.6em">
+<b>判決文（山田悠一郎裁判官）も</b> <a class="reference internal word" href="judgment2024.html#chatgpt">ChatGPT で分析</a><b> しています。</b>
 :::
 
 </div>
