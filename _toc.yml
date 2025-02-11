@@ -1,0 +1,8 @@
+format: jb-book
+root: index
+chapters:
+    - file: tisai
+    - file: chatgpt
+    - file: judgment2024
+
+
