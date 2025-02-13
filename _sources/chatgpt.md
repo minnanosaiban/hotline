@@ -20,7 +20,19 @@
 `````
 
 <p style="margin-top:1.6em;">
-ＥＮＥＯＳ側は、「通報者のために若しくは通報者に代わって通報に係る個別具体的な事実関係を調査すること又は通報者の納得若しくは満足を得ることを目的としているわけではない。」と主張しています。つまり、「目的としているわけではない」と主張することで、通報者に対する通知の不実施を正当化したいもののようです。これは正当な主張でしょうか？
+ＥＮＥＯＳ側は、「通報者のために若しくは通報者に代わって通報に係る個別具体的な事実関係を調査すること又は通報者の納得若しくは満足を得ることを目的としているわけではない。」と主張しています。
+<p style="margin-top:1.6em;">
+つまり、通報者に対する適切な通知は、内部通報制度の目的に含まれないとし、通報者への通知を行わないことを正当化しようとしているようです。これは正当な主張といえるでしょうか？
+
+`````{margin} 
+<p class="card-text" style="margin-bottom:1em; margin-left:0">
+<a class="reference external" href="https://chatgpt.com/share/679b9f24-4ac4-8009-9591-e52bfe4c5ddc">※ ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
+`````
+
+<p style="margin-top:1.6em;">
+そこで、ChatGPT で分析✏️ してみたところ、評価<sup> <a class="reference external" href="https://chatgpt.com/share/679b9f24-4ac4-8009-9591-e52bfe4c5ddc">※</a> </sup>は以下のとおりです。
+<p style="margin-top:1.6em;">
+<b>「通報者の納得や満足を目的としない」こと自体は、制度の趣旨として誤りとは言えないが、それをもって「通報内容の調査や適切な対応の義務がない」と解釈する余地はなく、この部分を過度に強調する主張は適切ではない。」</b>
 
 <div class="base" style="margin-top: 1.6em;">
 
@@ -66,7 +78,7 @@
 `````
 </div>
 
-## 🔸なぜ省略しているのですか？
+## 🔸省略の意図はなんでしょう？
 ---
 
 `````{margin} 
@@ -76,6 +88,16 @@
 
 <p style="margin-top:1.6em;">
 ＥＮＥＯＳ側は、消費者庁が公表した「事業者における内部公益通報制度の意義」を引用していますが、「事業者が実効性のある内部公益通報対応体制を整備・運用すること」という重要な前提条件を省略しています。その意図はなんでしょう？
+
+`````{margin} 
+<p class="card-text" style="margin-bottom:1em; margin-left:0">
+<a class="reference external" href="https://chatgpt.com/share/679ba2d0-4d90-8009-ac1c-87b6b69f49a6">※ ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
+`````
+
+<p style="margin-top:1.6em;">
+そこで、ChatGPT で分析✏️ してみたところ、評価<sup> <a class="reference external" href="https://chatgpt.com/share/679ba2d0-4d90-8009-ac1c-87b6b69f49a6">※</a> </sup>は以下のとおりです。
+<p style="margin-top:1.6em;">
+<b>「原文の趣旨を忠実に反映するならば、企業の内部通報制度が「実効性」を持っているかどうかが議論の焦点になるはずだ。しかし、省略によってこの点がぼかされ、制度の存在そのものが意義を持つかのような印象を与えている。これにより、「企業が設置した通報制度自体は適切であり、通報者の期待に応えるかどうかは問題ではない」という方向へ議論を誘導している可能性がある。」</b>
 
 <div class="base" style="margin-top: 1.6em;">
 
