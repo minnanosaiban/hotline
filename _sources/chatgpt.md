@@ -13,12 +13,6 @@
 
 ## 🔸被告の主張は正当ですか？
 ---
-
-`````{margin} 
-<p class="card-text" style="margin-bottom:1em; margin-left:0">
-<a class="reference external" href="https://chatgpt.com/share/679b9f24-4ac4-8009-9591-e52bfe4c5ddc">※ ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
-`````
-
 <p style="margin-top:1.6em;">
 ＥＮＥＯＳ側は、「通報者のために若しくは通報者に代わって通報に係る個別具体的な事実関係を調査すること又は通報者の納得若しくは満足を得ることを目的としているわけではない。」と主張しています。
 <p style="margin-top:1.6em;">
@@ -80,12 +74,6 @@
 
 ## 🔸省略の意図はなんでしょう？
 ---
-
-`````{margin} 
-<p class="card-text" style="margin-bottom:1em; margin-left:0">
-<a class="reference external" href="https://chatgpt.com/share/679ba2d0-4d90-8009-ac1c-87b6b69f49a6">※ ChatGPT で分析 <i class="bi bi-box-arrow-up-right"></i> </a>
-`````
-
 <p style="margin-top:1.6em;">
 ＥＮＥＯＳ側は、消費者庁が公表した「事業者における内部公益通報制度の意義」を引用していますが、「事業者が実効性のある内部公益通報対応体制を整備・運用すること」という重要な前提条件を省略しています。その意図はなんでしょう？
 
