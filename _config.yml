@@ -1,0 +1,37 @@
+title: ＥＮＥＯＳの内部通報制度に関する訴訟について　※エネオスのコンプライアンスホットライン、判決文（山田悠一郎裁判官）
+logo: logo.png
+description: ＥＮＥＯＳの従業員です。内部通報制度を利用したところ、調査事項のすり替え、調査結果の隠蔽、不適切な情報提供といった不正な対応がなされました。要するに隠蔽です。訴訟では、原告に対して誤認させる行為も通報者に対する不利益に該当すると主張しています。
+exclude_patterns: [_build, _00hikae, README.md, memo.txt]
+
+html:
+  announcement: <a class="reference external" href="https://minnanosaiban.github.io/hotline/judgment2025.html">東京地裁判決</a>と<a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">原告最終準備書面</a>を掲載しました。
+  favicon: "_static/favicon.png" 
+  baseurl: https://minnanosaiban.github.io/hotline/
+  use_multitoc_numbering: true
+  home_page_in_navbar: true
+  use_edit_page_button: false
+  use_repository_button: true
+  use_issues_button: false
+  show_navbar_previous: false
+  show_navbar_next: false
+
+parse:
+  myst_enable_extensions: 
+    - amsmath
+    - attrs_inline
+    - colon_fence
+    - deflist
+    - dollarmath
+    - fieldlist
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - strikethrough
+    - substitution
+    - tasklist
+
+repository:
+  url: https://github.com/minnanosaiban/hotline
+  branch: main

@@ -1,0 +1,414 @@
+/* アイコンのインストール */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+/* 色の設定 */
+:root {
+  --web-color: #f37726;
+  --link-color: #4A90E2;
+  --strong-color: #dc3545;
+  --table-color: #e5e7ea;
+  }
+/* Sphinx Book Theme のカスタマイズ */
+.search-button-field {
+  display: none;
+  }
+.bd-sidebar::-webkit-scrollbar {
+  display: none;
+  }
+.bd-sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+.prev-next-footer {
+  display: none;
+  }
+.caption {
+  margin-right: 0;
+  margin-left: 0;
+  }
+/* 基本要素 ★★★ */
+h1 {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  font-size: 3em;
+  line-height: 1.5;
+  margin-bottom: 10rem;
+  }
+h2 {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  margin-top: 10rem;
+  font-size: 2em;
+  padding-left:2em;
+  text-indent:-2em;
+  line-height: 1.5;
+  }
+h3 {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  margin-top: 10rem;
+  font-size: 2em;
+  }
+h4 {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  margin-top: 10rem;
+  font-size: 2em;
+  }
+h5 {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  margin-top: 10rem;
+  font-size: 2em;
+  }
+hr {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  border:2px solid var(--web-color);
+  }
+p {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 2.5;
+  }
+/* カード設定 ★★★ */
+.sd-card-text {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.85em;
+  }
+.sd-card-hover:hover{
+  border-color: var(--web-color) !important;
+  transform:scale(1.01)
+  }
+/* 追加）カード設定 ★★★ */
+.base {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+.center {
+  text-align: center;
+  } 
+.card-text{
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.85em;
+  line-height: 2.5;
+  }
+.card-text-16{
+  margin: 1rem;
+  font-size: 1em;
+  line-height: 2.5;
+  }
+.margin-set{
+  margin: 0;
+  line-height: 2;
+  }
+.margin-text{
+  font-size: 0.8em;
+  line-height: 2.5;
+  }
+.table-card {
+  border: 1px solid #e5e7ea;
+  box-shadow: none;
+  padding: 0.5rem;
+  }
+.table-set{
+  border-collapse: collapse; 
+  width: 100%; 
+  border: 1px solid #e5e7ea;
+  }
+.table-text{
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 2;
+  border: 1px solid #e5e7ea; 
+  vertical-align: top;
+  }
+.twitter-tweet {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  text-align: center;
+  }
+.linkcard {
+  display: flex;
+  align-items: center;
+  float: left
+  }
+.linkcard-img {
+  max-width: 10rem;
+  max-height: 10rem;
+  margin-right: 1rem;
+  }
+.linkcard-text {
+  font-size: 0.85em;
+  }
+/* ドロップダウン*/
+details.sd-dropdown summary.sd-summary-title {
+  padding: .5em .6em .5em 1em;
+  font-size: var(--sd-fontsize-dropdown-title);
+  font-weight: var(--sd-fontweight-dropdown-title);
+  -webkit-user-select: none;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  }
+details.sd-dropdown summary.sd-card-header {
+  align-items: center;
+  background-color: #FFFFFF00 !important;
+  border: 0 !important;
+  border-left: .2rem solid #FFFFFF00 !important;
+  position: relative;
+  }
+details.sd-dropdown summary.sd-card-header+div.sd-summary-content {
+  --pst-sd-dropdown-color: #FFFFFF00 !important;
+  border: 0;
+  }
+/* タブ*/
+.sd-tab-set>label {
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 700;
+  transition: color 250ms;
+  width: auto;
+  z-index: 1;
+  }
+.bd-content .sd-tab-set>input:checked+label {
+  background-color: var(--pst-color-on-background);
+  border-color: var(--web-color) var(--web-color) transparent;
+  border-radius: .125rem .125rem 0 0;
+  border-style: solid solid none;
+  border-width: .125rem .125rem 0;
+  color: inherit;
+  transform: translateY(.125rem);
+  }
+.bd-content .sd-tab-set .sd-tab-content {
+  border: .125rem solid var(--web-color);
+  border-radius: .1875rem;
+  box-shadow: unset;
+  padding: .625rem;
+  }
+/* 外部リンク */
+a.reference.external {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 1px;
+  }
+a.reference.external:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 1.5px;
+  }
+/* 内部リンク）サイトナビゲーション */
+a.reference.internal {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  }
+a.reference.internal:hover {
+  color: var(--web-color);
+  text-decoration: underline;
+  text-decoration-color: var(--web-color);
+  text-decoration-thickness: 1px;
+  }
+/* 内部リンク）目次ナビゲーション */
+a.reference.internal.nav-link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal !important;
+  padding-left: 2.5em;
+  text-indent: -2em;
+  }
+a.reference.internal.nav-link:hover {
+  color: var(--web-color);
+  text-decoration: underline;
+  text-decoration-color: var(--web-color);
+  text-decoration-thickness: 1px;
+  }
+/* 追加）内部リンク設定 */
+a.reference.internal.text {
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal !important;
+  }
+a.reference.internal.text:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 1px;
+  }
+a.reference.internal.word {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 1px;
+  font-weight: normal !important;
+  }
+a.reference.internal.word:hover {
+  text-decoration-thickness: 1.5px;
+  }
+/* ナビゲーションの装飾 */
+.toc-entry a.nav-link.active {
+  background-color: transparent;
+  box-shadow: inset max(3px, .1875rem, .12em) 0 0 var(--web-color);
+  color: inherit;
+  font-weight: 600;
+  }
+nav.bd-links .current>a {
+  background-color: transparent;
+  box-shadow: inset max(3px, .1875rem, .12em) 0 0 var(--web-color);
+  color: inherit;
+  font-weight: 600;
+  }
+/* ヘッダーの「#」 */
+a.headerlink {
+  color: var(--web-color);
+  font-size: .8em;
+  margin-left: .2em;
+  padding: 0 4px;
+  text-decoration: none;
+  user-select: none;
+  }
+/* Badgeの色 */
+.sd-bg-text-dark {
+  text-decoration: none !important;
+  }
+/* 追加）下線太字設定 */
+.strong-rd {
+  font-weight:bold;
+  color:var(--strong-color);
+  }
+.strong-highlight-rd {
+  background-color: #B33A3A;
+  color: white;
+  font-weight:bold;
+  padding: 4px;
+  border-radius: 4px;
+ }
+.strong-rd-hover {
+  text-decoration: underline;
+  text-decoration-color: var(--strong-color);
+  text-decoration-thickness: 0.1px;
+  }
+.strong-rd-hover:hover {
+  color: var(--strong-color); 
+  font-weight: bold;
+  text-decoration: none;
+  }
+.bouten {
+  text-emphasis: dot;
+  text-emphasis-position: over;
+　}
+/* 追加）インデント設定 */
+.idt {
+  text-indent:1em;
+  }
+.hg-idt {
+  padding-left:1em;
+  text-indent:-1em;
+  }
+.hg-idt2 {
+  padding-left:2em;
+  text-indent:-2em;
+  }
+.pad1 {
+  padding-left:1em;
+  }
+.pad2 {
+  padding-left:2em;
+  }
+.pad3 {
+  padding-left:3em;
+  }
+.pad4 {
+  padding-left:4em;
+  }
+.pad5 {
+  padding-left:5em;
+  }
+.pad6 {
+  padding-left:6em;
+  }
+.foot {
+  font-size: 0.85em;
+  padding-left:1em;
+  text-indent:-1em;
+  }  
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  h2 {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  h3 {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  h4 {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  h5 {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  hr {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  p {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  .sd-card-text{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    }
+  .base {
+    margin-right: 0;
+    margin-left: 0;
+    }
+  .center {
+    text-align: left;
+    }  
+  .card-text{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    }  
+  .linkcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  .linkcard-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+  .linkcard-text {
+    position: static;
+    width: auto;
+    padding: 0;
+    text-align: left;
+    }
+    }
