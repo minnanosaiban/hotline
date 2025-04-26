@@ -2,7 +2,6 @@ format: jb-book
 root: index
 chapters:
     - file: tisai
-    - file: kansai  
     - file: chatgpt
     - file: judgment2024
     - file: judgment2025
