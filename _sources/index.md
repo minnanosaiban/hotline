@@ -106,17 +106,14 @@
 :class-header: bg-light text-center
 <span style="color: #8045e5;"><b>判決書全文</b></span>
 ^^^
-<a class="reference internal word" href="judgment2025.html">坂巻陽士裁判官　2025年確定</a><br>「内部通報制度は、通報者個人のために設けられたものではない」として適正性を検討しませんでした。
+<a class="reference internal word" href="judgment2025.html">坂巻陽士裁判官　2025年言渡</a><br>「内部通報制度は、通報者個人のために設けられたものではない」として適正性を検討しませんでした。
 :::
 
 ::::
 
 </div>
 
-
-## 🔸記載の内容や用語について
----
-<p style="margin-top:1.6em;">
+<p style="margin-top:6.4em;">
 本ウェブサイトでは、裁判文書を ChatGPT によって分析し、その結果を解説として掲載しています。また、裁判文書の原文も併せて掲載しております。「訂正申立書」を裁判所に提出した場合は、訂正を反映した主張書面を掲載しています。
 <p style="margin-top:1.6em;">
 判決文や裁判文書に基づいて解説を行っておりますが、これらの文書は解釈が難しい場合があり、解釈に誤りが含まれる可能性もあります。より正確に事実を把握したい場合は、裁判文書のページや引用元をご参照いただくことをお勧めします。
@@ -128,10 +125,11 @@
 
 <p style="margin-top:1.6em;">
 また、用いている用語の意味は、判決文や主張書面などの裁判書類、「公益通報者保護法に基づく指針 <sup> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_system/whisleblower_protection_system/overview/assets/overview_210820_0001.pdf">※</a> </sup> 」において定義しているものと同様です。
-<p style="margin-top:4.8em;">
+
+<p style="margin-top:6.4em;">
 もし私の解釈に誤りがあると感じられる場合は、<i class="fa-brands fa-x-twitter"></i> でご指摘いただけますと幸いです。
 
-<div class="base" style="margin-top: 4.8rem;">
+<div class="base" style="margin-top: 1.6rem;">
 
 :::{card} 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんなにも苦しいのは、<br><br>通報したら、嘘をつかれたり、隠蔽されたりしたからです。<br><br>信頼を裏切ったからです。<br><br>思いどおりにならないからではありません。</p>&mdash; Tomo@ＥＮＥＯＳの内部通報制度に関する裁判 (@minnanosaiban) <a href="https://twitter.com/minnanosaiban/status/1852322361556828357?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -139,7 +137,7 @@
 
 </div>
 
-<div class="base" style="margin-top: 4.8rem;">
+<div class="base" style="margin-top: 1.6rem;">
 
 :::{card} 
 :link: x-twitter
