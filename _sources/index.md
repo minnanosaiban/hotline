@@ -45,26 +45,30 @@
 <p style="margin-top:1.6em;">
 裁判所には、制度運用の適正さという観点に基づいて実質的な検討を行おうという姿勢は感じられません。つまり、制度の運用がどれほどずさんであろうと、「直接被害を受けたものではない限りは、法的に問題にできない」という線引きを明確にしています。
 
+## 🔸通報者への通知は通報者のため
+---
+
+`````{margin} 
+<p class="margin-set"><span class="margin-text">
+<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※ 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) <i class="bi bi-arrow-up-right"></i> </a>
+`````
+<p style="margin-top:1.6em;">
+消費者庁の「指針の解説20頁、➁ 指針の趣旨 <sup> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※</a> </sup>」にあるように、通報者は通知がなければ是正措置の有無を知ることができず、行政へ通報するか否かの判断ができません。この通知が虚偽・不正確・曖昧であった場合、通報者の判断に重大な影響を与えます。
+<p style="margin-top:1.6em;">
+したがって、調査が通報者のためであるかどうかとは無関係に、通報者に対する不適切な通知は、通知の義務違反＝制度の趣旨違反＝誠実義務違反といえます。よって、裁判所の内部通報制度に関する解釈は誤りです。
+
+## 🔸2024年の通報について
+---
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text">
 <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※ 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) <i class="bi bi-arrow-up-right"></i> </a>
 `````
 
-
-## 🔸通報者への通知は通報者のため
----
-<p style="margin-top:1.6em;">
-消費者庁の「指針の解説20頁、➁ 指針の趣旨」にあるように、通報者は通知がなければ是正措置の有無を知ることができず、行政へ通報するか否かの判断ができません。この通知が虚偽・不正確・曖昧であった場合、通報者の判断に重大な影響を与えます。
-<p style="margin-top:1.6em;">
-したがって、調査が通報者のためであるかどうかとは無関係に、通報者に対する不適切な通知は、通知の義務違反＝制度の趣旨違反＝誠実義務違反といえます。よって、裁判所の内部通報制度に関する解釈は誤りです。
-
-## 🔸2024年の通報について
----
 <p style="margin-top:1.6em;">
 ＥＮＥＯＳの元会長・元社長らによるセクハラ行為が表面化し、これを受けて宮田社長が全社員に内部通報制度の利用を促しました。これを受けて原告は<b>通報された事実が表面化しないよう、海外子会社を使って不正送金を行った</b>疑いを通報しました。
 <p style="margin-top:1.6em;">
-ところが、ＥＮＥＯＳは「解決済み」という言葉のみの通知をしました。これは、「指針の解説10頁、➂ 指針を遵守するための考え方や具体例」に反するものです。衆議院答弁により、通報窓口の運用が指針の趣旨に反する場合、消費者庁が指導する権限を有することが明示されています。
+ところが、ＥＮＥＯＳは「解決済み」という言葉のみの通知をしました。これは、「指針の解説10頁、➂ 指針を遵守するための考え方や具体例 <sup> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※</a> </sup>」に反するものです。衆議院答弁により、通報窓口の運用が指針の趣旨に反する場合、消費者庁が指導する権限を有することが明示されています。
 
 
 ## 🔸本ウェブサイトについて
