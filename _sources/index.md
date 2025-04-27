@@ -60,9 +60,7 @@
 ## 🔸本ウェブサイトについて
 ---
 <p style="margin-top:1.6em;">
- 本ウェブサイトは、<a class="reference internal word" href="tisai.html">原告と被告（ＥＮＥＯＳ）の主張書面</a> 、<a class="reference internal word" href="judgment2024.html">調査の実施についての判決</a>（前訴の判決）を掲載してます。また、判決文やＥＮＥＯＳ側の主張書面を <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>しています。公平性のため、ChatGPT Shared Links も張っています。
-<p style="margin-top:1.6em; margin-bottom:1.6em;">
- 現在の訴訟では、調査の過程で確認された事実について、原告に誤認させる行為も通報者に対する不利益に該当すると主張しています。判決言い渡し後、判決文を掲載します。
+ 本ウェブサイトは、裁判文書と <a class="reference internal word" href="chatgpt.html">ChatGPT で分析</a>した結果を掲載しています。公平性のため、ChatGPT Shared Links も張っています。
 
 `````{margin} 
 <p class="margin-set"><span class="margin-text">
@@ -106,9 +104,9 @@
 :link: judgment2024.html#chatgpt
 :link-type: url
 :class-header: bg-light text-center
-<span style="color: #8045e5;"><b>ChatGPT で分析✏️</b></span>
+<span style="color: #8045e5;"><b>判決書全文</b></span>
 ^^^
-<a class="reference internal word" href="judgment2024.html#chatgpt">判決文を ChatGPT で分析</a>しています。2024年判決は、内部通報制度の趣旨を狭め、通報者保護の観点を十分に考慮していない点が特徴のようです。
+<a class="reference internal word" href="judgment2025.html">坂巻陽士裁判官　2025年確定</a><br>「内部通報制度は、通報者個人のために設けられたものではない」として適正性を検討しませんでした。
 :::
 
 ::::
