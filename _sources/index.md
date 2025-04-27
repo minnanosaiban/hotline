@@ -69,7 +69,9 @@
 `````
 
 <p style="margin-top:1.6em;">
-ところが、ＥＮＥＯＳは「解決済み」という言葉のみの通知をしました。これは、「指針の解説10頁、➂ 指針を遵守するための考え方や具体例 <sup> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※</a> </sup>」に反するものです。衆議院答弁により、通報窓口の運用が指針の趣旨に反する場合、消費者庁が指導する権限を有することが明示されています。
+ところが、ＥＮＥＯＳは「解決済み」という言葉のみの通知をしました。これは、「指針の解説10頁、➂ 指針を遵守するための考え方や具体例 <sup> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※</a> </sup>」に反するものです。
+
+なお、衆議院答弁により、通報窓口の運用が指針の趣旨に反する場合、消費者庁が指導する権限を有することが明示されました。ＥＮＥＯＳの内部通報制度おける対応事項は、消費者庁に通報し、是正を求めるべき事項といえます。
 
 
 ## 🔸本ウェブサイトについて
