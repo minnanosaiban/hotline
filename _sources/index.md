@@ -5,7 +5,7 @@
 :::{card} 
 :link: https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf
 <p style="text-align:center; margin-top:1em; margin-bottom:1em;">
-  <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">原告第５準備書面</a><b>（最終準備書面）を提出しました。</b>
+  <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">控訴理由書</a><b>（最終準備書面）を提出しました。</b>
 :::
 
 </div>
@@ -13,7 +13,7 @@
 ## 🔸通報の背景と内容
 ---
 <p style="margin-top:1.6em;">
-通報者は、日本企業であるＥＮＥＯＳが 本来支払う必要のないオーストラリアの消費税（ＧＳＴ） を支払う手続を行わされており、業務の適正性に不安を抱き、この事実を内部通報しました。
+通報者である原告は、日本企業であるＥＮＥＯＳが 本来支払う必要のないオーストラリアの消費税（ＧＳＴ）を支払う手続を行わされていたことから不安を抱き、この事実を内部通報しました。
 <p style="margin-top:1.6em;">
 その背景には、
 <p  class="hg-idt">
@@ -21,7 +21,7 @@
 <p  class="hg-idt">
 ● それによって表面化した問題について実務担当者に責任を押し付け
 <p  class="hg-idt">
-● その問題解決として実務担当者にペナルティを課すことを盛り込む
+● 実務担当者の評価を全てｅ評価にすることで問題解決とする
 <p>
 といった 職場いじめのような存在がありました。
 
@@ -34,28 +34,16 @@
 <p  class="hg-idt">
 ● その後、調査過程および関連情報の共有から<b>通報者を排除</b>
 <p  class="hg-idt">
-● 通報者には、何を調査したのか分からない<b>不透明な調査結果</b>を通知
+● 通報者には、調査の対象を曖昧な<b>不透明な調査結果</b>を通知
 <p style="margin-top:1.6em;">
 そして、通報者に対して選択的な情報提供（調査事項のすり替え、調査結果の隠蔽、不適切な情報提供）で誤認誘導しました。さらに、<b>通報された事実が表面化しないよう海外子会社を使って不正送金を行った</b>可能性が極めて高いです。
 
 ## 🔸適正性を問う訴訟
 ---
 <p style="margin-top:1.6em;">
-通報者に対する通知の適正性を問う訴訟を提起しました。東京地裁は、「内部通報制度は、通報者個人のために設けられたものではない」と判示し、通報者に対する通知の適正性については一切検討しませんでした。
+調査事項のすり替え、調査結果の隠蔽、不適切な情報提供があったことについて、この問題を問う訴訟を提起しました。東京地裁は、「内部通報制度は、通報者個人のために設けられたものではない」と判示し、通報者に対する通知の適正性については一切検討しませんでした。
 <p style="margin-top:1.6em;">
-裁判所には、制度運用の適正さという観点に基づいて実質的な検討を行おうという姿勢は感じられません。つまり、制度の運用がどれほどずさんであろうと、「直接被害を受けたものではない限りは、法的に問題にできない」という線引きを明確にしています。
-
-## 🔸通報者への通知は通報者のため
----
-
-`````{margin} 
-<p class="margin-set"><span class="margin-text">
-<a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※ 公益通報者保護法に基づく指針の解説 | 消費者庁 (caa.go.jp) <i class="bi bi-arrow-up-right"></i> </a>
-`````
-<p style="margin-top:1.6em;">
-消費者庁の「指針の解説20頁、➁ 指針の趣旨 <sup> <a class="reference external" href="https://www.caa.go.jp/policies/policy/consumer_partnerships/whisleblower_protection_system/overview/assets/overview_211013_0001.pdf">※</a> </sup>」にあるように、通報者は通知がなければ是正措置の有無を知ることができず、行政へ通報するか否かの判断ができません。この通知が虚偽・不正確・曖昧であった場合、通報者の判断に重大な影響を与えます。
-<p style="margin-top:1.6em;">
-したがって、調査が通報者のためであるかどうかとは無関係に、通報者に対する不適切な通知は、通知の義務違反＝制度の趣旨違反＝誠実義務違反といえます。よって、裁判所の内部通報制度に関する解釈は誤りです。
+裁判所には、通報者に対する対応について、その正しさを検討するという姿勢は感じられません。つまり、制度の運用がどれほどずさんであろうと、「通報者が直接被害を受けたものではない限りは、法的に問題にできない」という線引きを明確にしています。
 
 ## 🔸2024年の通報について
 ---
