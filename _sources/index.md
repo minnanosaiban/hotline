@@ -2,12 +2,6 @@
 
 <div class="base">
 
-:::{card} 
-:link: https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf
-<p style="text-align:center; margin-top:1em; margin-bottom:1em;">
-  <i class="fa-regular fa-file-pdf fa-2x"></i> <a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-kouso1.pdf">控訴理由書</a><b>を提出しました。</b>
-:::
-
 </div>
 
 ## 🔸通報の背景と内容
