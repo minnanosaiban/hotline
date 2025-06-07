@@ -4,7 +4,7 @@ description: ＥＮＥＯＳの従業員です。内部通報制度を利用し�
 exclude_patterns: [_build, _00hikae, README.md, memo.txt]
 
 html:
-  announcement: <a class="reference external" href="https://minnanosaiban.github.io/hotline/judgment2025.html">東京地裁判決</a>と<a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-genkoku5.pdf">原告最終準備書面</a>を掲載しました。
+  announcement: <a class="reference external" href="https://minnanosaiban.github.io/hotline/judgment2025.html">東京地裁判決</a>と<a class="reference external" href="https://minnanosaiban.github.io/hotline/_static/eneos-kouso1.pdf">控訴理由書</a>を掲載しました。
   favicon: "_static/favicon.png" 
   baseurl: https://minnanosaiban.github.io/hotline/
   use_multitoc_numbering: true
