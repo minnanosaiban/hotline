@@ -17,7 +17,7 @@
   --md-strong-accent-color: #0068b7; /* アクセントカラー */  
   --md-typeset-a-color: #0068b7; /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
-  --md-footer-bg-color--dark: #efefef; /* フッター */
+  --md-footer-bg-color--dark: #f4f4f0; /* フッター */
   --md-footer-fg-color--light: #2E404d; /* フッターテキスト１ */
   --md-footer-fg-color--lighter: #2E404d; /* フッターテキスト２ */
 }
@@ -365,8 +365,8 @@ a {
   } 
 /* 画面調整 */
 .top-page { /* 画面余白調整 */
-  margin-right: 4rem !important;
-  margin-left: 4rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
 }
 @media only screen and (max-width: 767px) {
   .top-page { /* 画面余白調整 */
@@ -415,7 +415,15 @@ a {
 */
 .md-content__inner {
   padding-top: 0rem;
+  margin-right: 3.2rem !important;
+  margin-left: 3.2rem !important;
 }
+@media only screen and (max-width: 767px) {
+  .md-content__inner {
+    margin-right: 0.8rem !important;
+    margin-left: 0.8rem !important;
+  }
+  }
 .md-tabs__link:hover { /* タブのホバー時の下線 */
   color: var(--eneos-color) ;
   text-decoration: underline;
