@@ -7,14 +7,12 @@
   --ntt-color: #0068b7;
   --eneos-color: #e94709;  
   --tomato-color: #dc3545;
-  --test-color: #2E404d;  
+  --text-color: #2E404d;  
 }
 [data-md-color-scheme="default"] {
-  --md-typeset-color: #000000; /* テキストカラー*/
-  --md-strong-color: #000000; /* 濃いテキストカラー*/  
-  --md-typeset-back-color: #FFFFFF; /* テキストカラー逆 */
+  --md-typeset-color: #2E404d; /* テキストカラー*/
+  --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
-  --md-strong-accent-color: #0068b7; /* アクセントカラー */  
   --md-typeset-a-color: #0068b7; /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #f4f4f0; /* フッター */
@@ -23,10 +21,8 @@
 }
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
-  --md-strong-color: #E0E0E0; /* 濃いテキストカラー*/  
-  --md-typeset-back-color: #282828; /* テキストカラー逆 */
+  --md-typeset-bg-color: #2E404d; /* テキストカラー逆 */
   --md-primary-fg-color: #070f26; /* ヘッダーの背景色 */
-  --md-strong-accent-color: #0068b7; /* アクセントカラー */  
   --md-typeset-a-color: #0068b7; /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #070f26; /* フッター */
@@ -60,7 +56,6 @@ strong em {
   font-style: normal !important;
 }
 strong {
-  color: var(--md-strong-color) !important;
   font-style: 700;
 }
 /*
@@ -99,7 +94,7 @@ h2:after {
   display: block;
   height: 4px;
   width: 100%;
-  background: linear-gradient(to right, var(--md-typeset-color), var(--md-typeset-back-color));
+  background: linear-gradient(to right, var(--md-typeset-color), var(--md-typeset-bg-color));
 }
 /* md-post__content 内の h2 に対して h2:after を無効にする */
 .md-post__content h2 {
@@ -201,12 +196,12 @@ a {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  color: #070f26 !important;
-  background-color: #efefef;
+  color: var(--md-typeset-color) !important;
+  background-color: var(--md-default-fg-color--lightest);
 } 
 .x-share:hover {
-  color: #efefef !important;
-  background-color: var(--md-accent-fg-color) !important;
+  color: var(--md-primary-fg-color) !important;
+  background-color: var(--md-default-fg-color--lighter);
 }
 /* リンクに矢印 */
 .link-arr {
@@ -232,7 +227,7 @@ a {
   color: var(--md-typeset-color);
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-strong-accent-color);
+  text-decoration-color: var(--eneos-color);
   text-decoration-thickness: 1px;
   display: inline-flex;
   align-items: center;
@@ -348,6 +343,12 @@ a {
   padding-left:5em;
   }
 .pad6 {
+  padding-left:6em;
+  }
+.pad7 {
+  padding-left:6em;
+  }
+.pad8 {
   padding-left:6em;
   }
 .foot {
@@ -640,9 +641,13 @@ a {
 .nt-card  {
   color: var(--md-typeset-color) !important;
 }
-.nt-card :hover,
-.nt-card :focus {
-  color: var(--md-typeset-a-color) !important;
+.nt-card:hover .nt-card-title,
+.nt-card:focus-within .nt-card-title {
+  color: var(--eneos-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
 }
 /* カード内のタイトル */
 .nt-card-title {
