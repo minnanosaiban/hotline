@@ -10,8 +10,8 @@
   --test-color: #2E404d;  
 }
 [data-md-color-scheme="default"] {
-  --md-typeset-color: #282828; /* テキストカラー*/
-  --md-strong-color: #282828; /* 濃いテキストカラー*/  
+  --md-typeset-color: #000000; /* テキストカラー*/
+  --md-strong-color: #000000; /* 濃いテキストカラー*/  
   --md-typeset-back-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
   --md-strong-accent-color: #0068b7; /* アクセントカラー */  
@@ -128,6 +128,10 @@ h3 {
 }
 h2 + h3 {
   margin-top: 1.2rem !important;
+}
+/* 小さめの文字 */
+.small {
+  font-size: 0.6rem !important;
 }
 /* カードテキスト */
 .card-text-center {
@@ -246,18 +250,6 @@ a {
   transform: translateX(5px);
 }
 /* センタリング・右寄せ・文字数 */
-.bullet-28 { /* 最大28文字で改行 */
-  max-width: 28em;
-  word-wrap: break-word;
-  white-space: normal;
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
-}
-@media only screen and (max-width: 767px) {
-  .bullet-28 {
-    max-width: 100%;
-  }
-  }
 .right {
   text-align: right;
 }

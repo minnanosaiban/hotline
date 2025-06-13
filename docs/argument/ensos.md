@@ -13,8 +13,8 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
 # links:
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
-url: https://minnanosaiban.github.io/eneos/argument/
-image: https://minnanosaiban.github.io/eneos/img/card1.jpg
+url: https://minnanosaiban.github.io/hotline/argument/
+image: https://minnanosaiban.github.io/hotline/img/card1.jpg
 twitter_card: summary
 hide:
     - date
@@ -24,7 +24,7 @@ hide:
 ---
 
 <p style="margin: 0;">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos/argument/ &text=ＥＮＥＯＳの主張 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/argument/ &text=ＥＮＥＯＳの主張 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -1499,7 +1499,6 @@ hide:
 とすれば、原告が「前回訴訟主要事実」として掲げる各事実も、それぞれが個別に被告が従業員たる原告に対して負う義務に違反したこと又は被告が従業員たる原告に対して負う債務を履行しなかったことを意味するものではない。むしろ、被告が、従業員たる原告からの本件通報を受けて、原告に対し、前述のような信義則上の義務を負っていた可能性があるところ、<b>原告が「前回訴訟主要事実」として掲げる各事実は、当該信義則上の義務の違反の評価根拠事実となりうるにとどまるし、同様に、原告が「本件訴訟主要事実」として記載する各事実も、原告のいう「前回訴訟主要事実」と同一の通報（本件通報）に関するものである以上は、同一の信義則上の義務の違反の評価根拠事実を新たに追加するものにとどまる。</b></p>
 <p class="pad4 idt">
 よって、答弁書にも述べたとおり（注２）、前回訴訟における前回訴訟争点１に係る損害賠償請求も、本件訴訟における損害賠償請求も、<b>被告が原告に対して本件通報に関して負っている同一の信義則上の義務に違反したことを理由として、債務不履行又は不法行為に基づく損害賠償を請求するもの</b>であるから、訴訟物は同一である。</p>
-</div>
 <p class="pad4 hg-idt">
 <b>ウ　第３段落（「そして」以下）（１２頁）について</b></p>
 <p class="pad4 idt">
