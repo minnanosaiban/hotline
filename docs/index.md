@@ -13,8 +13,8 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
 # links:
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
-url: https://minnanosaiban.github.io/eneos/
-image: https://minnanosaiban.github.io/eneos/img/card1.jpg
+url: https://minnanosaiban.github.io/hotline/
+image: https://minnanosaiban.github.io/hotline/img/card1.jpg
 twitter_card: summary
 hide:
   - date
@@ -24,7 +24,7 @@ icon: material/home
 ---
 
 <p class="top-page" style="margin: 0;">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos/ &text=ＥＮＥＯＳの内部通報制度に関する訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度に関する訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -38,19 +38,19 @@ icon: material/home
 </p> 
 
 <div class="top-page nt-cards nt-grid cols-3" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
-    <a href="https://minnanosaiban.github.io/eneos/summary/" class="nt-card">
+    <a href="https://minnanosaiban.github.io/hotline/summary/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title  center">事案の概要</p>
             <p>本来支払う必要のないオーストラリアのＧＳＴ（消費税）の支払手続を行わされていたことから不安を抱き、この事実を内部通報しました。</p>
         </div>
     </a>
-        <a href="https://minnanosaiban.github.io/eneos/judgment/" class="nt-card">
+        <a href="https://minnanosaiban.github.io/hotline/judgment/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title center">判決文全文</p>
             <p>会社が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者への通知内容の正しさについては検討しませんでした。</p>
         </div>
     </a>
-    <a href="https://minnanosaiban.github.io/eneos/argument/" class="nt-card">
+    <a href="https://minnanosaiban.github.io/hotline/argument/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title  center">ＥＮＥＯＳの主張</p>
             <p>規程に定める規定は会社組織内の自律的な規範にとどまるものであるとして、通報者に対して調査結果を通知する義務はないと主張しています。</p>
