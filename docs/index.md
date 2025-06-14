@@ -41,19 +41,19 @@ icon: material/home
     <a href="https://minnanosaiban.github.io/hotline/summary/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">事案の概要</p>
-            <p>日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました。<i class="bi bi-arrow-right"></i></p>
+            <p class="nt-card-text">日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました。<i class="bi bi-arrow-right"></i></p>
         </div>
     </a>
         <a href="https://minnanosaiban.github.io/hotline/judgment/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">判決文全文</p>
-            <p>企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者への通知内容の正しさについては検討しませんでした。<i class="bi bi-arrow-right"></i></p>
+            <p class="nt-card-text">企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。<i class="bi bi-arrow-right"></i></p>
         </div>
     </a>
     <a href="https://minnanosaiban.github.io/hotline/argument/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">ＥＮＥＯＳの主張書面</p>
-            <p>コンプライアンスホットライン規程は企業組織内の自律的な規範にとどまるものであるとして、通報者に対して調査結果を通知する義務はないと主張しています。<i class="bi bi-arrow-right"></i></p>
+            <p class="nt-card-text">コンプライアンスホットライン規程は企業組織内の自律的な規範にとどまるものであるとして、通報者に対して調査結果を通知する義務はないと主張しています。<i class="bi bi-arrow-right"></i></p>
         </div>
     </a>
 </div>
