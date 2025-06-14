@@ -103,7 +103,7 @@ h1 {
 h1 {
   font-size: 3.2em !important;
   line-height: 1.4 !important;
-  color: #000 !important;
+  color: var(--md-typeset-color) !important;
 }
 @media only screen and (max-width: 767px) {
   h1 {
@@ -123,7 +123,7 @@ h2 {
   margin: 6.4rem 0 1.2rem 0 !important;
   font-size: 1.6rem !important;
   line-height: 1.4 !important;
-  color: #000 !important;
+  color: var(--md-typeset-color) !important;
 }
 /* デフォルトの h2:after スタイル */
 h2:after {
@@ -140,6 +140,11 @@ h2:after {
 .md-post__content h2:after {
   content: none; /* 横線を無効化 */
 }
+@media only screen and (max-width: 767px) {
+  h2 {
+  font-size: 1.3rem !important;
+  }
+  }
 /*
 h3 {
   margin: px2em(32px, 20px) 0 px2em(16px, 20px);
@@ -155,12 +160,17 @@ h2 + h3 {
 h3 {
   margin: 4rem 0 1.2rem 0 !important;
   font-size: 1.2rem !important;
-  line-height: 1.4 !important;
+  line-height: 1.8 !important;
   color: var(--md-typeset-color) !important;
 }
 h2 + h3 {
   margin-top: 1.2rem !important;
 }
+@media only screen and (max-width: 767px) {
+  h3 {
+  font-size: 1rem !important;
+  }
+  }
 /* カードテキスト */
 .card-text-center {
   text-align: center;
