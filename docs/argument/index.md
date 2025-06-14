@@ -30,7 +30,14 @@ hide:
   </a>
 </p>
 
-# ＥＮＥＯＳの主張
+# ＥＮＥＯＳの主張書面
+
+  <a href="https://minnanosaiban.github.io/hotline/argument/ensos/" class="arrow-link">
+    ⚡ＥＮＥＯＳの主張書面 <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+  </a>
+  <a href="https://minnanosaiban.github.io/eneos-saiban/" class="arrow-link">
+    ⚡主張書面と双方の認否 <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+  </a>
 
 ## 通報者の主張の要旨
 

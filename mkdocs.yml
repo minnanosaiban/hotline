@@ -11,12 +11,12 @@ nav:
       - summary/index.md
   - 判決文全文:
       - judgment/index.md
-      - <i class="bi bi-chevron-compact-right"></i> 2025年 坂巻陽士裁判官 : judgment/2025.md
-      - <i class="bi bi-chevron-compact-right"></i> 2022年 山田悠一郎裁判官 : judgment/2024.md
+      - <i class="bi bi-chevron-compact-right"></i> 2025年判決 坂巻陽士裁判官 : judgment/2025.md
+      - <i class="bi bi-chevron-compact-right"></i> 2022年判決 山田悠一郎裁判官 : judgment/2022.md
   - ＥＮＥＯＳの主張:
       - argument/index.md
       - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : argument/ensos.md
-      - <i class="bi bi-chevron-compact-right"></i> 全ての主張書面と認否 <i class="bi bi-box-arrow-up-right"></i> : https://minnanosaiban.github.io/eneos-saiban/
+      - <i class="bi bi-chevron-compact-right"></i> 主張書面と双方の認否 <i class="bi bi-box-arrow-up-right"></i> : https://minnanosaiban.github.io/eneos-saiban/
 
 extra_css:
   - css/custom.css
