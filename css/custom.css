@@ -67,7 +67,7 @@ strong {
 }
 /* 小さめの文字 */
 .small {
-  font-size: 0.6rem !important;
+  font-size: 0.75em !important;
 }
 /* タイトル */
 .top-page { /* 画面余白調整 */
@@ -121,7 +121,7 @@ h2 {
 */
 h2 {
   margin: 6.4rem 0 1.2rem 0 !important;
-  font-size: 1.6rem !important;
+  font-size: 2em !important;
   line-height: 1.4 !important;
   color: var(--md-typeset-color) !important;
 }
@@ -142,7 +142,7 @@ h2:after {
 }
 @media only screen and (max-width: 767px) {
   h2 {
-  font-size: 1.3rem !important;
+  font-size: 1.6em !important;
   }
   }
 /*
@@ -159,16 +159,16 @@ h2 + h3 {
 */
 h3 {
   margin: 4rem 0 1.2rem 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.6em !important;
   line-height: 1.8 !important;
   color: var(--md-typeset-color) !important;
 }
 h2 + h3 {
-  margin-top: 1.2rem !important;
+  margin-top: 1.6em !important;
 }
 @media only screen and (max-width: 767px) {
   h3 {
-  font-size: 1rem !important;
+  font-size: 1.2em !important;
   }
   }
 /* カードテキスト */
@@ -246,46 +246,28 @@ a {
   color: var(--md-primary-fg-color) !important;
   background-color: var(--md-default-fg-color--lighter);
 }
-/* リンクに矢印 */
-.link-arr {
-  font-size: 0.75rem !important;
-  color: var(--md-typeset-color);
-  display: inline-flex;
-  align-items: center;
-  transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-.link-arr .arrow {
-  display: inline-block;
-  margin-left: 5px;
-  transition: transform 0.3s ease;
-}
-.link-arr:hover {
-  text-decoration: none;
-}
-.link-arr:hover .arrow {
-  transform: translateX(5px);
-}
 /* リンクに下線と矢印 */
-.link-line {
-  color: var(--md-typeset-color);
+.arrow-link {
+  display: inline-block;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: var(--eneos-color);
   text-decoration-thickness: 1px;
-  display: inline-flex;
-  align-items: center;
-  transition: color 0.3s ease, text-decoration 0.3s ease;
 }
-.link-line .arrow {
+.arrow-link .arrow {
   display: inline-block;
   margin-left: 5px;
   transition: transform 0.3s ease;
 }
-.link-line:hover {
-  text-decoration: none;
-}
-.link-line:hover .arrow {
-  transform: translateX(5px);
+.arrow-link:hover .arrow {
+  transform: translateX(8px);
+  }
+.arrow-link:hover {
+  color: var(--md-default-fg-color--light) !important;  
 }
 /* センタリング・右寄せ・文字数 */
 .right {
@@ -493,7 +475,7 @@ a {
 .margin-note {
   float: right ;
   width: 12.1rem;
-  font-size: 0.6rem !important;
+  font-size: 0.75em !important;
   line-height: 1.5;
 }
 @media only screen and (max-width: 767px) {
@@ -547,12 +529,12 @@ a {
   flex: 1;
 }
 .link-text strong {
-  font-size: 1rem;
+  font-size: 1.2em;
   line-height: 1.6;
   font-weight: 400;
 }
 .link-text p {
-  font-size: 1rem;
+  font-size: 1.2em;
   line-height: 1.6;
   font-weight: 300;
   margin: 0 0 1.5rem 0;
@@ -674,7 +656,7 @@ a {
 /* カード内のタイトル */
 .nt-card-title {
   margin: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.6em !important;
   line-height: 1.4 !important;
 }
 /* カードのコンテンツ */
