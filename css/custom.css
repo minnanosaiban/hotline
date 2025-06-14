@@ -13,7 +13,7 @@
   --md-typeset-color: #2E404d; /* テキストカラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
-  --md-typeset-a-color: #0068b7; /* リンクカラー */
+  --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #f4f4f0; /* フッター */
   --md-footer-fg-color--light: #2E404d; /* フッターテキスト１ */
@@ -23,7 +23,7 @@
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
   --md-typeset-bg-color: #2E404d; /* テキストカラー逆 */
   --md-primary-fg-color: #070f26; /* ヘッダーの背景色 */
-  --md-typeset-a-color: #0068b7; /* リンクカラー */
+  --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #070f26; /* フッター */
   --md-footer-fg-color--light: var(--md-default-fg-color--light); /* フッターテキスト１ */
@@ -61,9 +61,12 @@ strong {
 /* 下線 */
 .line {
   text-decoration: underline;
-  text-underline-offset: 12px;
+  text-underline-offset: 8px;
   text-decoration-color: var(--red-color);
   text-decoration-thickness: 1px;
+}
+.line :hover {
+  color: var(--md-default-fg-color--light) !important;  
 }
 /* 小さめの文字 */
 .small {
@@ -653,9 +656,14 @@ a {
   text-decoration-color: var(--eneos-color);
   text-decoration-thickness: 1px;
 }
+/* カードのホバーでテキストカラーを変更 */
+.nt-card:hover .nt-card-text,
+.nt-card:focus-within .nt-card-text {
+  color: var(--md-default-fg-color--light) !important;
+}
 /* カード内のタイトル */
 .nt-card-title {
-  margin: 0 !important;
+  margin: 0.4em 0 !important;
   font-size: 1.6em !important;
   line-height: 1.4 !important;
 }
@@ -666,7 +674,7 @@ a {
 .nt-card-text {
   font-size: 1em;
   padding: 0;
-  margin: 0 !important;
+  margin: 1em 0 !important;
 }
 /* 画像エリアのスタイル */
 .nt-card .nt-card-image {
