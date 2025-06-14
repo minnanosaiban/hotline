@@ -58,6 +58,38 @@ strong em {
 strong {
   font-style: 700;
 }
+/* 下線 */
+.line {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--red-color);
+  text-decoration-thickness: 1px;
+}
+/* 小さめの文字 */
+.small {
+  font-size: 0.6rem !important;
+}
+/* タイトル */
+.top-page { /* 画面余白調整 */
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .top-page { /* 画面余白調整 */
+    margin-right: 0.2rem !important;
+    margin-left: 0.2rem !important;
+  }
+}
+.top-title { /* ホームページのタイトル */
+  max-width: 13em;
+  word-wrap: break-word;
+  white-space: normal;
+}
+@media only screen and (max-width: 767px) {
+  .top-title {
+    max-width: 100%;
+  }
+  }
 /*
 h1 {
   margin: 0 0 px2em(40px, 32px); margin: 0 0 1.25em 0; 上 右 下 左
@@ -69,10 +101,15 @@ h1 {
 }
 */
 h1 {
-  font-size: 2rem !important;
+  font-size: 3.2em !important;
   line-height: 1.4 !important;
-  color: var(--md-typeset-color) !important;
+  color: #000 !important;
 }
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.4em !important;
+  }
+  }
 /*
 h2 {
   margin: px2em(40px, 25px) 0 px2em(16px, 25px); margin: 1.6em 0 0.64em 0;
@@ -86,7 +123,7 @@ h2 {
   margin: 6.4rem 0 1.2rem 0 !important;
   font-size: 1.6rem !important;
   line-height: 1.4 !important;
-  color: var(--md-typeset-color) !important;
+  color: #000 !important;
 }
 /* デフォルトの h2:after スタイル */
 h2:after {
@@ -123,10 +160,6 @@ h3 {
 }
 h2 + h3 {
   margin-top: 1.2rem !important;
-}
-/* 小さめの文字 */
-.small {
-  font-size: 0.6rem !important;
 }
 /* カードテキスト */
 .card-text-center {
@@ -357,28 +390,6 @@ a {
   text-indent:-1em;
   } 
 /* 画面調整 */
-.top-page { /* 画面余白調整 */
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-@media only screen and (max-width: 767px) {
-  .top-page { /* 画面余白調整 */
-    margin-right: 0.2rem !important;
-    margin-left: 0.2rem !important;
-  }
-}
-.top-title { /* ホームページのタイトル */
-  font-size: 2.4rem !important;
-  max-width: 13em;
-  word-wrap: break-word;
-  white-space: normal;
-}
-@media only screen and (max-width: 767px) {
-  .top-title {
-    font-size: 2rem !important;
-    max-width: 100%;
-  }
-  }
 /*
 .md-main__inner {
   display: flex;
@@ -641,6 +652,7 @@ a {
 .nt-card  {
   color: var(--md-typeset-color) !important;
 }
+/* カードのホバーで下線をひく*/
 .nt-card:hover .nt-card-title,
 .nt-card:focus-within .nt-card-title {
   color: var(--eneos-color) ;
