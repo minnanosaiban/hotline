@@ -32,18 +32,19 @@ hide:
 
 # 判決文全文
 
+
 裁判所は、会社が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知内容の正しさについては検討しませんでした。
 
 <div class="nt-cards nt-grid cols-2" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2025/" class="nt-card">
         <div class="nt-card-content">
-            <p class="nt-card-title  center">2025年3月言渡</p>
+            <p class="nt-card-title" style="text-align: center;">2025年3月言渡</p>
             <p class="center">東京地裁　坂巻陽士裁判官<br>3月19日終結　3月31日言渡</p>
         </div>
     </a>
         <a href="https://minnanosaiban.github.io/hotline/judgment/2024/" class="nt-card">
         <div class="nt-card-content">
-            <p class="nt-card-title center">2022年10月言渡</p>
+            <p class="nt-card-title" style="text-align: center;">2022年12月言渡</p>
             <p class="center">東京地裁　山田悠一郎裁判官<br>10月27日終結　12月22日言渡</p>
         </div>
     </a>

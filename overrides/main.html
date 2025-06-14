@@ -4,6 +4,7 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+  <link rel="icon" href="/favicon.png" type="image/png">
   {% if page and page.meta %}
     <meta property="twitter:card" content="{{ page.meta.twitter_card | default('summary') }}">
     <meta property="twitter:title" content="{{ page.meta.title }}">
