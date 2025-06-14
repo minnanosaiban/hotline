@@ -11,8 +11,8 @@ nav:
       - summary/index.md
   - 判決文全文:
       - judgment/index.md
-      - <i class="bi bi-chevron-compact-right"></i> 2025年言渡 坂巻陽士裁判官 : judgment/2025.md
-      - <i class="bi bi-chevron-compact-right"></i> 2024年確定 山田悠一郎裁判官 : judgment/2024.md
+      - <i class="bi bi-chevron-compact-right"></i> 2025年 坂巻陽士裁判官 : judgment/2025.md
+      - <i class="bi bi-chevron-compact-right"></i> 2022年 山田悠一郎裁判官 : judgment/2024.md
   - ＥＮＥＯＳの主張:
       - argument/index.md
       - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : argument/ensos.md
@@ -29,7 +29,6 @@ extra_javascript:
 theme:
   name: "material"
   custom_dir: overrides # カスタマイズ用のディレクトリ
-  language: ja # サイトの言語設定
   logo: img/card1.png # サイト左上のアイコン
   favicon: img/favicon.png
 
