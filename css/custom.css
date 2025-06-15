@@ -647,6 +647,10 @@ a {
 .nt-card  {
   color: var(--md-typeset-color) !important;
 }
+/* カードのコンテンツ */
+.nt-card-content {
+  padding: 0.4rem 0.8rem 0.8rem 0.8rem;
+}
 /* カードのホバーで下線をひく*/
 .nt-card:hover .nt-card-title,
 .nt-card:focus-within .nt-card-title {
@@ -667,10 +671,7 @@ a {
   font-size: 1.6em !important;
   line-height: 1.4 !important;
 }
-/* カードのコンテンツ */
-.nt-card-content {
-  padding: 0.4rem 0.8rem 0.8rem 0.8rem;
-}
+/* カード内のテキスト */
 .nt-card-text {
   font-size: 1em;
   padding: 0;
