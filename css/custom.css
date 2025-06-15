@@ -262,6 +262,7 @@ a {
   text-decoration-thickness: 1px;
 }
 .arrow-link .arrow {
+  color: var(--eneos-color);  
   display: inline-block;
   margin-left: 5px;
   transition: transform 0.3s ease;
