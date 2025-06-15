@@ -39,13 +39,13 @@ hide:
     <a href="https://minnanosaiban.github.io/hotline/judgment/2025/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">2025年3月判決</p>
-            <p class="nt-card-text center">東京地裁　坂巻陽士裁判官<br>3月19日終結　3月31日言渡</p>
+            <p class="nt-card-text" style="text-align: center;">東京地裁　坂巻陽士裁判官<br>3月19日終結　3月31日言渡</p>
         </div>
     </a>
         <a href="https://minnanosaiban.github.io/hotline/judgment/2022/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">2022年12月判決</p>
-            <p class="nt-card-text center">東京地裁　山田悠一郎裁判官<br>10月27日終結　12月22日言渡</p>
+            <p class="nt-card-text" style="text-align: center;">東京地裁　山田悠一郎裁判官<br>10月27日終結　12月22日言渡</p>
         </div>
     </a>
 </div>
