@@ -68,6 +68,13 @@ strong {
 .line :hover {
   color: var(--md-default-fg-color--light) !important;  
 }
+.wavy {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--red-color);
+  text-decoration-thickness: 1px;
+  text-decoration-style: wavy;
+}
 /* 小さめの文字 */
 .small {
   font-size: 0.75em !important;
@@ -264,7 +271,6 @@ a {
 .arrow-link .arrow {
   color: var(--eneos-color);  
   display: inline-block;
-  margin-left: 5px;
   transition: transform 0.3s ease;
 }
 .arrow-link:hover .arrow {
@@ -652,6 +658,22 @@ a {
 .nt-card-content {
   padding: 0.4rem 0.8rem 0.8rem 0.8rem;
 }
+/* カード内のタイトル */
+.nt-card-title {
+  margin: 0.4em 0 !important;
+  font-size: 1.6em !important;
+  line-height: 1.4 !important;
+}
+/* カード内のテキスト */
+.nt-card-text {
+  font-size: 1em;
+  padding: 0;
+  margin: 1em 0 !important;
+}
+.nt-card-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
 /* カードのホバーで下線をひく*/
 .nt-card:hover .nt-card-title,
 .nt-card:focus-within .nt-card-title {
@@ -666,17 +688,11 @@ a {
 .nt-card:focus-within .nt-card-text {
   color: var(--md-default-fg-color--light) !important;
 }
-/* カード内のタイトル */
-.nt-card-title {
-  margin: 0.4em 0 !important;
-  font-size: 1.6em !important;
-  line-height: 1.4 !important;
-}
-/* カード内のテキスト */
-.nt-card-text {
-  font-size: 1em;
-  padding: 0;
-  margin: 1em 0 !important;
+/* カードのホバーで矢印を動かす */
+.nt-card:hover .nt-card-arrow,
+.nt-card:focus-within .nt-card-arrow {
+  color: var(--eneos-color)  !important;
+  transform: translateX(8px);
 }
 /* 画像エリアのスタイル */
 .nt-card .nt-card-image {
