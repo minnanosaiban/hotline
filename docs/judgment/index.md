@@ -32,9 +32,6 @@ hide:
 
 # 判決文全文
 
-
-裁判所は、企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。
-
 <div class="nt-cards nt-grid cols-2" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2025/" class="nt-card">
         <div class="nt-card-content">
@@ -50,14 +47,35 @@ hide:
     </a>
 </div>
 
+裁判所は、企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。
+
+実際には、ＥＮＥＯＳは、通報者に対して問題事項や対応策を秘匿していましたので、「控訴理由書」を提出しています。
+
+なお、講じた対応策は、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するというものです。
+
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos-kouso1.pdf" class="arrow-link">
+  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>2025年6月6日付　控訴理由書（PDF）
+</a>
+
 <div class="nt-cards nt-grid cols-1" style="margin-top: 4rem !important; margin-bottom: 0rem !important;">
-    <a href="https://minnanosaiban.github.io/hotline/judgment/2025/#2025-tisai-judgment_332" class="nt-card">
+    <a href="https://minnanosaiban.github.io/hotline/judgment/2025/#2025-tisai-judgment_332-1" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title">判決文抜粋</p>
             <p class="nt-card-text">原告は、本件各通報に対する被告の調査結果等に対して不服を述べる法的な利益を有していないというべきであって、本件各調査報告における被告の判断及びそれを前提とする被告の対応をもって、被告の原告に対する損害賠償責任を生じさせることとなる信義則上の義務違反があったということはできない。（2025年3月判決）<span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
 </div>
+
+<div class="nt-cards nt-grid cols-1" style="margin-top: 4rem !important; margin-bottom: 0rem !important;">
+    <a href="https://minnanosaiban.github.io/hotline/judgment/2025/#2025-tisai-judgment_332-2" class="nt-card">
+        <div class="nt-card-content">
+            <p class="nt-card-title">判決文抜粋</p>
+            <p class="nt-card-text">本件各通報に対する調査結果を踏まえ、被告がＧＳＴを支払ったことがコンプライアンス違反となる事項ではない旨（本件調査報告）、ＧＳＴの還付をするかは任意であり、還付を受けないままでも不正行為等には当たらない旨（本件追加調査報告）の各判断をしたことが不相当であると認めるに足りる的確な証拠もない（2025年3月判決）<span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
+        </div>
+    </a>
+</div>
+
+※ ***通報者側による注***　「ＧＳＴを支払ったことがコンプライアンス違反となる事項ではない旨」と判示していますが、ＥＮＥＯＳ側も通報者側もそのような主張をしていません。そもそも、ＥＮＥＯＳ側は、「コンプライアンス違反となる事項ではない」と判断した対象を明らかにしていません。ですので、裁判所の認識は誤りです。
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321i-2" class="nt-card">
@@ -68,7 +86,7 @@ hide:
     </a>
 </div>
 
-※ 判決文では紛らわしい表現となっておりますが、<span class="line">[最高裁平成３０年２月１５日第一小法廷判決](https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf)</span> <i class="bi bi-box-arrow-up-right"></i> は上記と同旨の判決ではなく、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき***信義則上の義務を負う場合がある***」と判示しています。
+※ ***通報者側による注***　判決文では紛らわしい表現となっておりますが、<span class="line">[最高裁平成３０年２月１５日第一小法廷判決](https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf)</span> <i class="bi bi-box-arrow-up-right"></i> は上記と同旨の判決ではなく、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき***信義則上の義務を負う場合がある***」と判示しています。
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321u" class="nt-card">
