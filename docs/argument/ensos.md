@@ -14,7 +14,7 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
 url: https://minnanosaiban.github.io/hotline/argument/
-image: https://minnanosaiban.github.io/hotline/img/card1.jpg
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
     - date

@@ -14,7 +14,7 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
 url: https://minnanosaiban.github.io/hotline/
-image: https://minnanosaiban.github.io/hotline/img/card1.jpg
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
   - date
@@ -34,26 +34,29 @@ icon: material/home
   <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 </h1>
 <p style="margin-bottom: 0.4rem !important; margin-top: 0rem !important; line-height: 1.4 !important;">
-  ※ 本ウェブサイトの存在については、<span class="line">山口社長と共有</span>しています。
+  ※ 本ウェブサイトの存在については、<span class="wavy">山口社長と共有</span>しています。
 </p> 
 
 <div class="top-page nt-cards nt-grid cols-3" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/summary/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">事案の概要</p>
-            <p class="nt-card-text">日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました。<i class="bi bi-arrow-right"></i></p>
+            <p class="nt-card-text">日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました。
+            <span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
         <a href="https://minnanosaiban.github.io/hotline/judgment/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">判決文全文</p>
-            <p class="nt-card-text">企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。<i class="bi bi-arrow-right"></i></p>
+            <p class="nt-card-text">企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。
+            <span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
     <a href="https://minnanosaiban.github.io/hotline/argument/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">ＥＮＥＯＳの主張書面</p>
-            <p class="nt-card-text">コンプライアンスホットライン規程は企業組織内の自律的な規範にとどまるものであるとして、通報者に対して調査結果を通知する義務はないと主張しています。<i class="bi bi-arrow-right"></i></p>
+            <p class="nt-card-text">コンプライアンスホットライン規程は企業組織内の自律的な規範にとどまるものであるとして、通報者に対して調査結果を通知する義務はないと主張しています。
+            <span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
 </div>
