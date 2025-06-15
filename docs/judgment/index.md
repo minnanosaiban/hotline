@@ -14,7 +14,7 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
 url: https://minnanosaiban.github.io/hotline/judgment/
-image: https://minnanosaiban.github.io/hotline/img/card1.jpg
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
     - date
@@ -54,7 +54,7 @@ hide:
     <a href="https://minnanosaiban.github.io/hotline/judgment/2025/#2025-tisai-judgment_332" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title">判決文抜粋</p>
-            <p class="nt-card-text">原告は、本件各通報に対する被告の調査結果等に対して不服を述べる法的な利益を有していないというべきであって、本件各調査報告における被告の判断及びそれを前提とする被告の対応をもって、被告の原告に対する損害賠償責任を生じさせることとなる信義則上の義務違反があったということはできない。（2025年3月判決　坂巻陽士裁判官より）</p>
+            <p class="nt-card-text">原告は、本件各通報に対する被告の調査結果等に対して不服を述べる法的な利益を有していないというべきであって、本件各調査報告における被告の判断及びそれを前提とする被告の対応をもって、被告の原告に対する損害賠償責任を生じさせることとなる信義則上の義務違反があったということはできない。（2025年3月判決）<span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
 </div>
@@ -63,7 +63,7 @@ hide:
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321i-2" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title">判決文抜粋</p>
-            <p class="nt-card-text">不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。（2022年1月判決　山田悠一郎裁判官より）</p>
+            <p class="nt-card-text">不正行為等によって直接被害を受けた者等が、不正行為等を通報した場合は格別（最高裁平成３０年２月１５日第一小法廷判決・集民２５８号４３頁参照）、そうでない限り、被告が、通報者個人に対し、当然に信義則上、調査等をする法的義務を負うということはできないというべきである。そして、原告が通報をしたと主張する不正行為等は、上記②(c)の点を除き、不適切会計等、これによって原告が直接被害を受けるようなものではないから、被告が、原告に対し、当然に信義則上の調査義務等を負っていたということはできない。（2022年1月判決）<span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
 </div>
@@ -74,7 +74,7 @@ hide:
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321u" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title">判決文抜粋</p>
-            <p class="nt-card-text">本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２⑹）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２⑸参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。（2022年1月判決　山田悠一郎裁判官より）</p>
+            <p class="nt-card-text">本件規程上、通報情報とは通報窓口に対してなされた通報に係る情報をいうと定義され（１．２⑹）、通報とは、不正行為等として対象を特定した上でその内容を告げることを前提とするものと解される（１．２⑸参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえず、これらについて調査をしない場合であっても、逐一、その旨や理由の通知が求められるものともいえない。（2022年1月判決）<span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
 </div>

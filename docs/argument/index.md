@@ -1,5 +1,5 @@
 ---
-title: ＥＮＥＯＳの主張
+title: ＥＮＥＯＳの主張書面
 description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査姿勢を検証しています。
 # date: 2023-03-06
 # categories:
@@ -14,7 +14,7 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
 url: https://minnanosaiban.github.io/hotline/argument/
-image: https://minnanosaiban.github.io/hotline/img/card1.jpg
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
     - date
@@ -33,10 +33,10 @@ hide:
 # ＥＮＥＯＳの主張書面
 
   <a href="https://minnanosaiban.github.io/hotline/argument/ensos/" class="arrow-link">
-    ⚡ＥＮＥＯＳの主張書面 <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+    <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>ＥＮＥＯＳの主張書面
   </a>
   <a href="https://minnanosaiban.github.io/eneos-saiban/" class="arrow-link">
-    ⚡主張書面と双方の認否 <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+    <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>主張書面と双方の認否
   </a>
 
 ## 通報者の主張の要旨
