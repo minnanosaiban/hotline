@@ -2090,34 +2090,47 @@ hide:
 <p class="pad5 hg-idt">
 （ア）第１段落（「上記ウで述べた」以下）（１２頁以下）について
 <p class="pad6 idt">
-否認する。
+否認する。</p>
 <p class="pad5 hg-idt">
-（イ）第２段落（「これにもかかわらず」以下）（１３頁）について
+（イ）第２段落（「これにもかかわらず」以下）（１３頁）について</p>
 <p class="pad6 idt">
-認める。
+認める。</p>
 <p class="pad4 hg-idt">
 <a name="toben_452o"></a>
-オ　第２の５⑵オ（「したがって」以下）（１３頁）について
+オ　第２の５⑵オ（「したがって」以下）（１３頁）について</p>
 <p class="pad4 idt">
-事実上の主張としては否認し、法律上の主張としては争う。
+事実上の主張としては否認し、法律上の主張としては争う。</p>
 <p class="pad4 idt">
-理由は、前記第３の５に詳述したとおりである。
+理由は、前記第３の５に詳述したとおりである。</p>
 <p class="pad2 hg-idt">
 <a name="toben_46"></a>
-<b>６　第２の６（原告の損害）（１３頁）について</b>
+<b>６　第２の６（原告の損害）（１３頁）について</b></p>
 <p class="pad2 idt">
-不知である。
+不知である。</p>
 <p class="pad1 hg-idt">
 <a name="toben_5"></a>
-<b>第５　訴状第３（まとめ）（１３頁）に対する認否</b>
+<b>第５　訴状第３（まとめ）（１３頁）に対する認否</b></p>
 <p class="pad1 idt">
-争う。
+争う。</p>
 <p class="pad1 hg-idt">
 <a name="toben_6"></a>
-<b>第６　結語</b>
+<b>第６　結語</b></p>
 <p class="pad1 idt">
-前回訴訟の確定判決が正当に認定及び判断しているとおり、被告は、原告による本件通報及び追加通報のいずれについても、本件内部通報制度に基づいて極めて真摯かつ丁寧に対応しており（注２２）、当然のことながら本件規程にも何ら違反していない（注２３）。
+前回訴訟の確定判決が正当に認定及び判断しているとおり、被告は、原告による本件通報及び追加通報のいずれについても、本件内部通報制度に基づいて極めて真摯かつ丁寧に対応しており（注２２）、当然のことながら本件規程にも何ら違反していない（注２３）。</p>
 <p class="pad1 idt">
-本件訴訟における原告の訴えが不適法であること及び原告の請求に理由がないことは、いずれも明白であるから、被告としては、貴庁において、速やかに弁論を終結し、速やかに訴え却下又は請求棄却の判決を下されるよう、強く要望するものである。
+本件訴訟における原告の訴えが不適法であること及び原告の請求に理由がないことは、いずれも明白であるから、被告としては、貴庁において、速やかに弁論を終結し、速やかに訴え却下又は請求棄却の判決を下されるよう、強く要望するものである。</p>
 <p class="doc">
-以上
+以上</p>
+
+<p class="small center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
+</a>　
+<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
+</a>　
+<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
+</a></p> 
+<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
+※本ウェブサイトの記載について問題や誤りなどのご指摘は、 <a href="https://x.com/minnanosaiban" class="arrow-link-small"><i class="fa-brands fa-square-x-twitter"></i>（@minnanosaiban）</a>までお願いいたします。</p> 
