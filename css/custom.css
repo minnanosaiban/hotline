@@ -58,16 +58,6 @@ strong em {
 strong {
   font-style: 700;
 }
-/* 下線 */
-.line {
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--red-color);
-  text-decoration-thickness: 1px;
-}
-.line :hover {
-  color: var(--md-default-fg-color--light) !important;  
-}
 .wavy {
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -257,11 +247,32 @@ a {
   background-color: var(--md-default-fg-color--lighter);
 }
 /* リンクに下線と矢印 */
+.arrow-link-small {
+  display: inline-block;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none;
+}
+.arrow-link-small .arrow {
+  color: var(--eneos-color);  
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.arrow-link-small:hover .arrow {
+  transform: translateX(2px);
+  }
+.arrow-link-small:hover {
+  color: var(--md-default-fg-color--light) !important;  
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
+  }
+/* リンクに下線と矢印 */
 .arrow-link {
   display: inline-block;
   color: var(--md-typeset-color) !important;
   text-decoration: none;
-  font-size: 1em;
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -434,9 +445,6 @@ a {
   min-width: 0;
 }
 */
-.md-content { /* 画面余白調整 */
-  margin-bottom: 8rem;
-}
 /*
 .md-content__inner {
   margin: 0 .8rem 1.2rem;
