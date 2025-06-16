@@ -49,9 +49,9 @@ hide:
 
 裁判所は、企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。
 
-実際には、ＥＮＥＯＳは、通報者に対して問題事項や対応策を秘匿していましたので、「控訴理由書」を提出しています。
+ＥＮＥＯＳは、通報を受けて、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応策を講じていました。
 
-なお、講じた対応策は、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するというものです。
+ところが、通報者に対しては、問題事項を伏せ、実際に講じた対応策を秘匿していました。裁判所の認識には、基本的なところに誤りがありますので、「控訴理由書」を提出しています。
 
 <a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos-kouso1.pdf" class="arrow-link">
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>2025年6月6日付　控訴理由書（PDF）
@@ -75,7 +75,8 @@ hide:
     </a>
 </div>
 
-※ ***通報者側による注***　「ＧＳＴを支払ったことがコンプライアンス違反となる事項ではない旨」と判示していますが、ＥＮＥＯＳ側も通報者側もそのような主張をしていません。そもそも、ＥＮＥＯＳ側は、「コンプライアンス違反となる事項ではない」と判断した対象を明らかにしていません。ですので、裁判所の認識は誤りです。
+<p class="hg-idt pad12 small">
+※ <strong><em>注</strong></em>　「ＧＳＴを支払ったことがコンプライアンス違反となる事項ではない旨」と判示していますが、ＥＮＥＯＳ側も通報者側もそのような主張をしていません。そもそも、ＥＮＥＯＳ側は、「コンプライアンス違反となる事項ではない」と判断した対象を明らかにしていません。ですので、裁判所の認識は誤りです。</p>
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321i-2" class="nt-card">
@@ -86,7 +87,10 @@ hide:
     </a>
 </div>
 
-※ ***通報者側による注***　判決文では紛らわしい表現となっておりますが、<span class="line">[最高裁平成３０年２月１５日第一小法廷判決](https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf)</span> <i class="bi bi-box-arrow-up-right"></i> は上記と同旨の判決ではなく、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき***信義則上の義務を負う場合がある***」と判示しています。
+<p class="hg-idt pad12 small">
+※ <strong><em>注</strong></em>　判決文では紛らわしい表現となっておりますが、最高裁は上記と同旨の判決ではなく、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき<strong><em>信義則上の義務を負う場合がある</strong></em>」と判示しています。</p>
+<p class="doc pad105 small">※　<a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf" class="arrow-link">詳しくは、裁判所ホームページへ<span class="arrow">　<i class="bi bi-arrow-right"></i></span></a></p>
+
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321u" class="nt-card">
