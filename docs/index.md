@@ -54,7 +54,7 @@ icon: material/home
     </a>
     <a href="https://minnanosaiban.github.io/hotline/argument/" class="nt-card">
         <div class="nt-card-content">
-            <p class="nt-card-title" style="text-align: center;">ＥＮＥＯＳの主張書面</p>
+            <p class="nt-card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
             <p class="nt-card-text">コンプライアンスホットライン規程は企業組織内の自律的な規範にとどまるものであるとして、通報者に対して調査結果を通知する義務はないと主張しています。
             <span class="nt-card-arrow"><i class="bi bi-arrow-right"></i></span></p>
         </div>
@@ -63,3 +63,17 @@ icon: material/home
 
 
 ### 通報者を情報から排除し、調査事項のすり替え・調査結果の隠蔽・不適切な情報提供で通報者を誤認誘導する行為は、ＥＮＥＯＳが公に掲げる表明と大きく乖離しています。
+
+
+<p class="small center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
+</a>　
+<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
+</a>　
+<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
+</a></p> 
+<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
+※本ウェブサイトの記載について問題や誤りなどのご指摘は、 <a href="https://x.com/minnanosaiban" class="arrow-link-small"><i class="fa-brands fa-square-x-twitter"></i>（@minnanosaiban）</a>までお願いいたします。</p> 

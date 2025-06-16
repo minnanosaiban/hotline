@@ -89,7 +89,7 @@ hide:
 
 <p class="hg-idt pad12 small">
 ※ <strong><em>注</strong></em>　判決文では紛らわしい表現となっておりますが、最高裁は上記と同旨の判決ではなく、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき<strong><em>信義則上の義務を負う場合がある</strong></em>」と判示しています。</p>
-<p class="doc pad105 small">※　<a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf" class="arrow-link">詳しくは、裁判所ホームページへ<span class="arrow">　<i class="bi bi-arrow-right"></i></span></a></p>
+<p class="doc pad105 small">※ <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf" class="arrow-link">詳しくは、裁判所ホームページへ<span class="arrow">　<i class="bi bi-arrow-right"></i></span></a></p>
 
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
@@ -100,3 +100,16 @@ hide:
         </div>
     </a>
 </div>
+
+<p class="small center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
+</a>　
+<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
+</a>　
+<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
+  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
+</a></p> 
+<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
+※本ウェブサイトの記載について問題や誤りなどのご指摘は、 <a href="https://x.com/minnanosaiban" class="arrow-link-small"><i class="fa-brands fa-square-x-twitter"></i>（@minnanosaiban）</a>までお願いいたします。</p> 
