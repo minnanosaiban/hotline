@@ -35,7 +35,7 @@ hide:
 <a href="https://minnanosaiban.github.io/hotline/argument/ensos/" class="arrow-link">
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>ＥＮＥＯＳの主張書面
 </a>
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument/#dai5" class="arrow-link">
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>主張書面と双方の認否
 </a>
 

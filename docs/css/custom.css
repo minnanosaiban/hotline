@@ -348,6 +348,14 @@ a {
   padding-left:1em;
   text-indent:-1em;
   }
+.hg-idt15 {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4;
+  margin: 0;
+  padding-left:1.5em;
+  text-indent:-1.5em;
+  }
 .hg-idt2 {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
@@ -381,11 +389,27 @@ a {
   padding-left:6em;
   }
 .pad7 {
-  padding-left:6em;
+  padding-left:7em;
   }
 .pad8 {
-  padding-left:6em;
-  }
+  padding-left:8em;
+  } 
+.pad105 {
+  padding-left:10.5em;
+  } 
+@media only screen and (max-width: 767px) {
+  .pad105 {
+    padding-left:6.5em;
+  } 
+}
+.pad12 {
+  padding-left:12em;
+  } 
+@media only screen and (max-width: 767px) {
+  .pad12 {
+    padding-left:8em;
+  } 
+}
 .foot {
   font-size: 0.8em;
   padding-left:1em;
@@ -420,6 +444,7 @@ a {
 }
 */
 .md-content__inner {
+  margin: 0 .4rem 1.2rem;
   padding-top: 0rem;
   margin-right: 3.2rem !important;
   margin-left: 3.2rem !important;
