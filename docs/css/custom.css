@@ -15,9 +15,7 @@
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
-  --md-footer-bg-color--dark: #f4f4f0; /* フッター */
-  --md-footer-fg-color--light: #2E404d; /* フッターテキスト１ */
-  --md-footer-fg-color--lighter: #2E404d; /* フッターテキスト２ */
+  --md-footer-bg-color--dark: #2E404d; /* フッター */
 }
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
@@ -26,8 +24,6 @@
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #070f26; /* フッター */
-  --md-footer-fg-color--light: var(--md-default-fg-color--light); /* フッターテキスト１ */
-  --md-footer-fg-color--lighter: var(--md-default-fg-color--light); /* フッターテキスト２ */
 }
 /* フォント */
 :root {
@@ -251,6 +247,11 @@ a {
   display: inline-block;
   color: var(--md-typeset-color) !important;
   text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-thickness: 1px;
 }
 .arrow-link-small .arrow {
   color: var(--eneos-color);  

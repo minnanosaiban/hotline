@@ -68,7 +68,9 @@ hide:
 
 ***通報者の心理的安全性の確保は、通報者保護として重要なこと***であると考えます。これを軽視するＥＮＥＯＳの対応は、ＥＮＥＯＳ役員が公表するコミットメントに反するものといわざるを得ません。
 
-<p class="small center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
+<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
 <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
   <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
 </a>　
@@ -79,4 +81,6 @@ hide:
   <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
 </a></p> 
 <p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※本ウェブサイトの記載について問題や誤りなどのご指摘は、 <a href="https://x.com/minnanosaiban" class="arrow-link-small"><i class="fa-brands fa-square-x-twitter"></i>（@minnanosaiban）</a>までお願いいたします。</p> 
+
+<p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
+※ 本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
