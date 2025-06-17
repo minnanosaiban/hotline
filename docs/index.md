@@ -1,5 +1,5 @@
 ---
-title: ＥＮＥＯＳの内部通報制度に関する訴訟について
+title: ⚡️ＥＮＥＯＳの内部通報制度に関する訴訟について
 description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査姿勢を検証しています。
 # date: 2023-03-06
 # categories:
@@ -34,7 +34,7 @@ icon: material/home
   <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 </h1>
 
-<a href="https://minnanosaiban.github.io/eneos-saiban/agm" class="arrow-link" style="font-size: 1.6em">
+<a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link" style="font-size: 1.6em">
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>株主総会での質問事項
 </a>
 
