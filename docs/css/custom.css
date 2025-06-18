@@ -54,13 +54,6 @@ strong em {
 strong {
   font-style: 700;
 }
-.wavy {
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--red-color);
-  text-decoration-thickness: 1px;
-  text-decoration-style: wavy;
-}
 /* 小さめの文字 */
 .small {
   font-size: 0.75em !important;
@@ -84,6 +77,13 @@ strong {
 @media only screen and (max-width: 767px) {
   .top-title {
     max-width: 100%;
+  }
+  }
+@media only screen and (max-width: 767px) {
+  .foot-title {
+  max-width: 13em;
+  word-wrap: break-word;
+  white-space: normal;
   }
   }
 /*

@@ -36,7 +36,7 @@ hide:
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>ＥＮＥＯＳの主張書面
 </a>
 <a href="https://minnanosaiban.github.io/eneos-saiban/argument/#dai5" class="arrow-link">
-  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>主張書面と双方の認否
+  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>当事者の主張書面と認否
 </a>
 
 ## 通報者の主張の要旨
@@ -66,7 +66,7 @@ hide:
 ※3　<strong><em>注</em></strong>　ＥＮＥＯＳ社内の規定において、「不正行為等」は、法令等に違反する行為または違反するおそれのある行為と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。
 </p>
 
-<p class="center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 <p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
 <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
@@ -78,8 +78,6 @@ hide:
 <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
   <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
 </a></p> 
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-
 <p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※ 本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
 
