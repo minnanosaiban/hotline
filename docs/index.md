@@ -34,7 +34,7 @@ icon: material/home
   <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 </h1>
 
-<a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link" style="font-size: 1.6em">
+<a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link" style="font-size: 1.6em">
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>株主総会での質問事項
 </a>
 
@@ -65,7 +65,7 @@ icon: material/home
 
 ### 通報者を情報から排除し、調査事項のすり替え・調査結果の隠蔽・不適切な情報提供で通報者を誤認誘導する行為は、ＥＮＥＯＳが公に掲げる表明と大きく乖離しています。
 
-<p class="center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 <p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
 <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
@@ -77,7 +77,5 @@ icon: material/home
 <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
   <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
 </a></p> 
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-
 <p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※ 本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 

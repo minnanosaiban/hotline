@@ -33,26 +33,21 @@ hide:
 # 事案の概要
 
 ## 通報の経緯と企業の対応
-通報者である原告は、権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました^※1^。
+通報者である原告は、権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました。
 
-しかし、通報者が知らないうちに通報窓口担当者と被通報者との間で***接触***し、「業務の移管」を名目に通報者を***排除***しました。さらに、調査対象を***曖昧***にした調査結果を通知され、誤解を誘導するような情報共有も行われました^※2^。
+しかし、通報者が知らないうちに通報窓口担当者と被通報者が***接触***し、「業務の移管」を名目に通報者を***排除***しました。さらに、調査対象を***曖昧***にした調査結果を通知したうえ、誤解を誘導するような情報共有を行いました。
 
 加えて、***通報された問題が是正されたように見せかけるため、豪州子会社による不正送金***が行われた可能性も否定できません。現在の常務執行役員は、当時の豪州子会社の社長を務めていましたので、この点について説明できるはずです。
 
-<p class="hg-idt15 pad12 small">
-※1　背景には、部下の実務担当者に不適切な業務プロセスで業務を行わせ、問題が表面化した場合に、実務担当者の評価を全てｅ評価とするなど、実務担当者個人の問題に転嫁する事実が存在していました。</p>
-<p class="doc pad105 small">※2　<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">詳しくは、原告第５準備書面へ<span class="arrow">　<i class="bi bi-arrow-right"></i></span></a></p>
-
 ## 通知の正しさを問う訴訟
-通報者に対して、問題事項を伏せ、実際に講じた対応策を秘匿していたことにつき^※3^、この問題を問う訴訟を提起しました。通報者に対する通知が不適切であったからです。
+通報者に対して、問題事項を伏せ、実際に講じた対応策を秘匿していたことにつき^※^、この問題を問う訴訟を提起しました。通報者に対する通知が不適切であったからです。
 
 しかし、東京地裁は、「被告社内の内部通報制度は、基本的に、被告が不正行為等を早期に発見し、自らそれを是正して被告等の業務の適正化を図るために設けられたものであり、通報者個人のために設けられたものではない」と判示し、
 
-「通報者に対する通知」の正しさについては一切検討しませんでした^※4^。
+「通報者に対する通知」の正しさについては一切検討しませんでした^※^。
 
-<p class="hg-idt15 pad12 small">
-※3　通報者に対して秘匿していたものの、実際には、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応策を講じていました。</p>
-<p class="doc pad105 small">※4　<a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos-kouso1.pdf" class="arrow-link">詳しくは、控訴理由書へ<span class="arrow">　<i class="bi bi-arrow-right"></i></span></a></p>
+<p class="hg-idt pad12 small">
+※　ＥＮＥＯＳと豪州企業との間で、「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応を講じていましたが、通報者に対しては、これを秘匿していました。</p>
 
 ## 再通報と不透明な対応
 ＥＮＥＯＳでは、元社長によるセクハラ問題を契機に、再発防止策として様々な施策が講じられ、これに続いて、宮田社長が全社員に対して内部通報制度の積極的な利用を呼びかけました。
@@ -68,7 +63,7 @@ hide:
 
 ***通報者の心理的安全性の確保は、通報者保護として重要なこと***であると考えます。これを軽視するＥＮＥＯＳの対応は、ＥＮＥＯＳ役員が公表するコミットメントに反するものといわざるを得ません。
 
-<p class="center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 <p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
 <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
@@ -80,7 +75,5 @@ hide:
 <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
   <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
 </a></p> 
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-
 <p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※ 本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
