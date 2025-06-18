@@ -35,7 +35,7 @@ icon: material/home
 </h1>
 
 <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link" style="font-size: 1.6em">
-  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>株主総会での質問事項
+  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>株主総会での質問事項（作成中）
 </a>
 
 <div class="top-page nt-cards nt-grid cols-3" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
