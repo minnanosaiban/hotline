@@ -250,16 +250,16 @@ a {
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-color: var(--md-default-fg-color--lightest);
   text-decoration-thickness: 1px;
 }
 .arrow-link-small .arrow {
-  color: var(--eneos-color);  
   display: inline-block;
   transition: transform 0.3s ease;
 }
 .arrow-link-small:hover .arrow {
   transform: translateX(2px);
+  color: var(--eneos-color);  
   }
 .arrow-link-small:hover {
   color: var(--md-default-fg-color--light) !important;  
@@ -457,11 +457,13 @@ a {
   padding-top: 0rem;
   margin-right: 3.2rem !important;
   margin-left: 3.2rem !important;
+  margin-bottom: 8rem !important;  
 }
 @media only screen and (max-width: 767px) {
   .md-content__inner {
-    margin-right: 0.8rem !important;
-    margin-left: 0.8rem !important;
+    margin-right: 0.4rem !important;
+    margin-left: 0.4rem !important;
+    margin-bottom: 0rem !important;  
   }
   }
 .md-tabs__link:hover { /* タブのホバー時の下線 */
@@ -496,6 +498,15 @@ a {
 .md-nav__link--active:hover {
   color: var(--eneos-color)  !important;
   font-weight: 400 !important;
+}
+/* スマホで表示 */
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
 }
 /* リンクボタン */
 .links {
