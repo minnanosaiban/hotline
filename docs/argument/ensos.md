@@ -30,6 +30,8 @@ hide:
   </a>
 </p>
 
+<p class="small mobile" style="margin-top: 0rem !important; margin-bottom: 0.4rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p> 
 
 # ＥＮＥＯＳの主張書面
 
@@ -2122,17 +2124,7 @@ hide:
 <p class="doc">
 以上</p>
 
-<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title mobile" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
-</a></p> 
-<p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+<p class="small mobile" style="margin-top: 0.2rem !important; margin-bottom: 1rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p>

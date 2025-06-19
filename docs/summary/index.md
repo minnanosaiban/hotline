@@ -23,6 +23,9 @@ hide:
 # icon: material/home
 ---
 
+<p class="small mobile" style="margin-top: 0rem !important; margin-bottom: 0.4rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p> 
+
 <p style="margin: 0;">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/summary/ &text=事案の概要 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
@@ -33,47 +36,34 @@ hide:
 # 事案の概要
 
 ## 通報の経緯と企業の対応
-通報者である原告は、権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていたことに不安を感じ、この事実を内部通報しました。
+通報者である原告は、権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていることに不安を抱き、この事実を内部通報しました。
 
-しかし、通報者が知らないうちに通報窓口担当者と被通報者が***接触***し、「業務の移管」を名目に通報者を***排除***しました。さらに、調査対象を***曖昧***にした調査結果を通知したうえ、誤解を誘導するような情報共有を行いました。
+しかし、通報者の知らないところで、通報窓口の担当者が被通報者と***接触***し、「業務の移管」を名目として通報者を***排除***しました。さらに、通報者に通知した調査結果は、調査対象を***曖昧***にしていました。
 
-加えて、***通報された問題が是正されたように見せかけるため、豪州子会社による不正送金***が行われた可能性も否定できません。現在の常務執行役員は、当時の豪州子会社の社長を務めていましたので、この点について説明できるはずです。
+その後、通報者に誤解を与えるような不正確な情報が通報者に伝えられました。また、状況からすると、***問題が是正されたように見せかけるため、豪州子会社が本社に対して不正な送金を行った疑い***があります。
 
-## 通知の正しさを問う訴訟
-通報者に対して、問題事項を伏せ、実際に講じた対応策を秘匿していたことにつき^※^、この問題を問う訴訟を提起しました。通報者に対する通知が不適切であったからです。
+## 通知義務違反をめぐる訴訟
+ＥＮＥＯＳは、通報を受けた後、豪州企業との間で、「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」との新たな契約を締結するという対応策を実際に講じていました。
 
-しかし、東京地裁は、「被告社内の内部通報制度は、基本的に、被告が不正行為等を早期に発見し、自らそれを是正して被告等の業務の適正化を図るために設けられたものであり、通報者個人のために設けられたものではない」と判示し、
+通報に応じて一定の対応を実際に行っていたにもかかわらず、それを通報者に通知しなかったことは、コンプライアンスホットライン規程に違反する行為となります。このため、「通報者に対する通知内容の適切さ」を問う訴訟を提起しました。
 
-「通報者に対する通知」の正しさについては一切検討しませんでした^※^。
+しかし、裁判所は、通報者は調査結果に対して不服を述べる法的な利益を有していないと判示して、***「通報者に対する通知内容の適切さ」については検討しませんでした***。
 
-<p class="hg-idt pad12 small">
-※　ＥＮＥＯＳと豪州企業との間で、「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応を講じていましたが、通報者に対しては、これを秘匿していました。</p>
+## 再通報への不透明な対応
+ＥＮＥＯＳでは、元社長によるセクハラ問題を契機に、コンプライアンス徹底に関する様々な表明がなされ、その流れの中で、宮田社長が全社員に対し、内部通報制度の活用を呼びかけました。
 
-## 再通報と不透明な対応
-ＥＮＥＯＳでは、元社長によるセクハラ問題を契機に、再発防止策として様々な施策が講じられ、これに続いて、宮田社長が全社員に対して内部通報制度の積極的な利用を呼びかけました。
+この呼びかけを受け、通報者は、前回の内部通報の際に行われた***豪州子会社が本社に対して不正な送金を行った疑いについて、再通報を行いました***。
 
-この呼びかけを受け、通報者は、前回の内部通報の際に行われた***豪州子会社による不正送金の疑いについて、あらためて内部通報***を行いました。
-
-ところが、ＥＮＥＯＳはこれに対し、「解決済み」との一文だけを通知するという極めて不透明な対応を取りました。このような行為は、同社が公に掲げる表明と大きく乖離しています。
+しかし、ＥＮＥＯＳの対応は、「解決済み」との一文を通知したのみで、内容の説明は一切なく、真摯な対応とはいえませんでした。このような行為は、同社が公に掲げる表明と著しく矛盾しています。
 
 ## 通報者保護と心理的安全性
-「違反ではない」、「解決済み」という文言のみを通知された場合、通報者は何がどのように検討されたのかを知ることができず、通報が適切に取り扱われたのかわかりません。その結果、通報者に不安が生じ、心理的安全性が損なわれます。
+「違反ではない」「解決済み」という文言のみを通知された場合、通報者は、何がどのように検討され、どのように対応されたのかを知ることができません。その結果、通報者には不信感や不安が生じ、心理的安全性が損なわれることになります。
 
 ＥＮＥＯＳは、「みんなが安心して働くための３か条」という施策を対外的にも公表しています。「01 相手を尊重する」「02 相手の話を聞く」「03 言うべきことを伝える」という３か条です。
 
-***通報者の心理的安全性の確保は、通報者保護として重要なこと***であると考えます。これを軽視するＥＮＥＯＳの対応は、ＥＮＥＯＳ役員が公表するコミットメントに反するものといわざるを得ません。
+***通報者の心理的安全性を確保することは、通報者保護の観点から重要***です。このように心理的安全性を軽視する対応は、宮田知秀社長自身が掲げる「安心して働ける職場環境の整備」という表明にも反しています。
 
-<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title mobile" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
-</a></p> 
-<p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+<p class="small mobile" style="margin-top: 0.2rem !important; margin-bottom: 1rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p>

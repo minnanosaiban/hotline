@@ -30,6 +30,9 @@ hide:
   </a>
 </p>
 
+<p class="small mobile" style="margin-top: 0rem !important; margin-bottom: 0.4rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p> 
+
 # 判決文全文
 
 <div class="nt-cards nt-grid cols-2" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
@@ -47,12 +50,7 @@ hide:
     </a>
 </div>
 
-裁判所は、企業が自ら是正するために設けられた制度であり、通報者のためのものではないとして、通報者に対する通知の正しさについては検討しませんでした。
-
-ＥＮＥＯＳは、通報を受けて、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応策を講じていました。
-
-ところが、通報者に対しては、問題事項を伏せ、実際に講じた対応策を秘匿していました。裁判所の認識には、基本的なところに誤りがありますので、「控訴理由書」を提出しています。
-
+裁判所は、通報者は調査結果に対して不服を述べる法的な利益を有していないと判示して、「通報者に対する通知内容の適切さ」については検討しませんでした。
 <a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos-kouso1.pdf" class="arrow-link">
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>2025年6月6日付　控訴理由書（PDF）
 </a>
@@ -76,7 +74,7 @@ hide:
 </div>
 
 <p class="hg-idt pad12 small">
-※ <strong><em>注</strong></em>　「ＧＳＴを支払ったことがコンプライアンス違反となる事項ではない旨」と判示していますが、ＥＮＥＯＳ側も通報者側もそのような主張をしていません。そもそも、ＥＮＥＯＳ側は、「コンプライアンス違反となる事項ではない」と判断した対象を明らかにしていません。ですので、裁判所の認識は誤りです。</p>
+※ <strong><em>注</strong></em>　裁判所は、「ＧＳＴを支払ったことがコンプライアンス違反となる事項ではない旨」と判示していますが、そもそも、ＥＮＥＯＳ側は、「コンプライアンス違反となる事項ではない」と判断した対象を明らかにしていません。<b>ＥＮＥＯＳ側も通報者側もそのような主張をしていませんので、裁判所の認識は誤り</b>です。</p>
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321i-2" class="nt-card">
@@ -88,9 +86,7 @@ hide:
 </div>
 
 <p class="hg-idt pad12 small">
-※ <strong><em>注</strong></em>　判決文では紛らわしい表現となっておりますが、最高裁は上記と同旨の判決ではなく、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき<strong><em>信義則上の義務を負う場合がある</strong></em>」と判示しています。</p>
-<p class="doc pad105 small">※ <a href="https://www.courts.go.jp/app/files/hanrei_jp/458/087458_hanrei.pdf" class="arrow-link">詳しくは、裁判所ホームページへ<span class="arrow">　<i class="bi bi-arrow-right"></i></span></a></p>
-
+※ <strong><em>注</strong></em>　判決文では紛らわしい表現となっておりますが、<b>最高裁は、「当該申出をした者に対し，当該申出を受け，体制として整備された仕組みの内容，当該申出に係る相談の内容等に応じて適切に対応すべき信義則上の義務を負う場合がある」と判断</b>しています。最高裁は、東京地裁とは全く異なる判断です。</p>
 
 <div class="nt-cards nt-grid cols-1" style="margin-top: 2rem !important; margin-bottom: 0rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/judgment/2022/#2022-tisai-judgment_321u" class="nt-card">
@@ -101,17 +97,7 @@ hide:
     </a>
 </div>
 
-<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title mobile" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
-</a></p> 
-<p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+<p class="small mobile" style="margin-top: 0.2rem !important; margin-bottom: 1rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p>

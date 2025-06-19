@@ -30,6 +30,9 @@ hide:
   </a>
 </p>
 
+<p class="small mobile" style="margin-top: 0rem !important; margin-bottom: 0.4rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p> 
+
 # ＥＮＥＯＳの主張
 
 <a href="https://minnanosaiban.github.io/hotline/argument/ensos/" class="arrow-link">
@@ -41,43 +44,41 @@ hide:
 
 ## 通報者の主張の要旨
 
-通報者に対する調査結果の通知は、行動基準 第11項 ⑶ <sup>※1 </sup>が求める「正確性及び遺漏のなさ」を満たすものでなければならない。
+通報者に対する調査結果の通知は、行動基準 第11項 ⑶ <sup>※ </sup>が求める「正確性及び遺漏のなさ」を満たすものでなければならない。
 
-しかし、通報者に通知した「コンプライアンス違反となる事項ではない」との対象を明らかにせず、実際に講じていた対応策<sup>※2 </sup>を通知しなかった。
+しかし、通報者に通知した「コンプライアンス違反となる事項ではない」との対象を明らかにせず、実際に講じていた対応策<sup>※ </sup>を通知しなかった。
 
 したがって、通報者に対して問題事項や対応策を秘匿したＥＮＥＯＳには、コンプライアンスホットライン規程に違反する行為が存在する。
 
-<p class="hg-idt15 pad12 small">
-※1　行動基準 第11項 ⑶ 「私たちは、業務上必要なすべての記録および報告を、事実に基づき、正確に、遺漏なく、かつ適時に作成します。」
+<p class="hg-idt pad12 small">
+※　行動基準 第11項 ⑶ 「私たちは、業務上必要なすべての記録および報告を、事実に基づき、正確に、遺漏なく、かつ適時に作成します。」
 </p>
-<p class="hg-idt15 pad12 small">
-※2　「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応策を講じていました。
+<p class="hg-idt pad12 small">
+※　実際には、ＥＮＥＯＳは、通報を受けた後、豪州企業との間で、<b>「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」との新たな契約を締結</b>するという対応策を講じていました。
 </p>
+
+
 
 ## ＥＮＥＯＳの主張の要旨
 
-コンプライアンスホットライン規程は、ＥＮＥＯＳの各役員又は従業員の職務を規定するものであって、会社の義務を定めているのではない。
+コンプライアンスホットライン規程は、ＥＮＥＯＳの各役員又は従業員の職務を規定するものであって、企業の従業員に対する義務を定めているのではない。
 
-行動基準は、「ＥＮＥＯＳグループで働く私たち」が「実践すべき基準」であり、「事業活動における判断の拠り所」となるにとどまるものであって、会社の義務を定めているのではない。
+行動基準は、「ＥＮＥＯＳグループで働く私たち」が「実践すべき基準」であり、「事業活動における判断の拠り所」となるにとどまるものであって、企業の義務を定めているのではない。
 
-ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」<sup>※3 </sup>があったか否かには直接の関係がない。
+ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」<sup>※3 </sup>があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。。
 
-<p class="hg-idt15 pad12 small">
-※3　<strong><em>注</em></strong>　ＥＮＥＯＳ社内の規定において、「不正行為等」は、法令等に違反する行為または違反するおそれのある行為と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。
+<p class="hg-idt pad12 small">
+※　ＥＮＥＯＳ社内の規定において、「不正行為等」は、法令等に違反する行為または違反するおそれのある行為と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。
+</p>
+<p class="hg-idt pad12 small">
+※　オーストラリアのＧＳＴ法３８条の１によれば、免税取引又はゼロ税率取引に課税することは許されず、<b>取引そのものにＧＳＴを課すことは法令に反する</b>と解釈されるといえます。
+</p>
+<p class="hg-idt pad12 small">
+※　実際には、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応策を講じていました。
 </p>
 
-<p class="foot-title center" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
+<p class="foot-title mobile" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
-<p class="small center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>事案の概要
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>判決文全文
-</a>　
-<a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">
-  <span class="arrow"><i class="fa-solid fa-chevron-right"></i>　</span>ＥＮＥＯＳの主張
-</a></p> 
-<p class="small hg-idt center" style="margin-top: 0.2rem !important; margin-bottom: 0rem !important;">
-※本ウェブサイトの存在については、ＥＮＥＯＳ 山口敦治社長と共有しています。</p> 
+<p class="small mobile" style="margin-top: 0.2rem !important; margin-bottom: 1rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p>
 
