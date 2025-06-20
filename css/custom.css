@@ -250,7 +250,7 @@ a {
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-default-fg-color--lightest);
+  text-decoration-color: var(--md-default-fg-color--lighter);
   text-decoration-thickness: 1px;
 }
 .arrow-link-small .arrow {
@@ -360,14 +360,6 @@ a {
   padding-left:1em;
   text-indent:-1em;
   }
-.hg-idt15 {
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
-  line-height: 2.4;
-  margin: 0;
-  padding-left:1.5em;
-  text-indent:-1.5em;
-  }
 .hg-idt2 {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
@@ -400,33 +392,18 @@ a {
 .pad6 {
   padding-left:6em;
   }
-.pad7 {
-  padding-left:7em;
-  }
-.pad8 {
-  padding-left:8em;
-  } 
-.pad105 {
-  padding-left:10.5em;
-  } 
-@media only screen and (max-width: 767px) {
-  .pad105 {
-    padding-left:6.5em;
-  } 
-}
-.pad12 {
-  padding-left:12em;
-  } 
-@media only screen and (max-width: 767px) {
-  .pad12 {
-    padding-left:8em;
-  } 
-}
 .foot {
-  font-size: 0.8em;
-  padding-left:1em;
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4;
+  padding-left:16em;
   text-indent:-1em;
   } 
+@media only screen and (max-width: 767px) {
+  .foot {
+    padding-left:8em;
+  }
+}
 /* 画面調整 */
 /*
 .md-main__inner {
