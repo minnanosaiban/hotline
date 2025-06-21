@@ -746,3 +746,48 @@ strong {
   color: var(--md-primary-fg-color) !important;
   background-color: var(--md-default-fg-color--lighter);
 }
+
+/* ハンバーガーアイコン */
+.hamburger {
+  display: none;
+  font-size: 0.8em;
+  color: var(--md-default-fg-color);
+  padding: 0;
+  cursor: pointer;
+  margin: 0 0 0.4rem 0;
+}
+.hamburger:hover {
+  color: var(--eneos-color) ;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
+}
+
+
+/* モバイルメニュー本体 */
+.mobile-menu {
+  display: none;
+  background: var(--md-default-bg-color);
+  padding: 0.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+  .mobile-menu {
+    background: var(--md-typeset-color);
+  }
+}
+
+/* モバイル幅で有効化 */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .mobile-menu a {
+    display: inline-block;
+    padding: 0.2rem 0;
+  }
+}
