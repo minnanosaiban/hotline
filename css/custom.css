@@ -755,6 +755,7 @@ strong {
   padding: 0;
   cursor: pointer;
   margin: 0 0 0.4rem 0;
+  text-align: right;
 }
 .hamburger:hover {
   color: var(--eneos-color) ;
@@ -763,8 +764,6 @@ strong {
   text-decoration-color: var(--eneos-color);
   text-decoration-thickness: 1px;
 }
-
-
 /* モバイルメニュー本体 */
 .mobile-menu {
   display: none;
@@ -772,20 +771,15 @@ strong {
   padding: 0.2rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
-/* ダークモード対応 */
 @media (prefers-color-scheme: dark) {
   .mobile-menu {
     background: var(--md-typeset-color);
   }
 }
-
-/* モバイル幅で有効化 */
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
-
   .mobile-menu a {
     display: inline-block;
     padding: 0.2rem 0;
