@@ -55,13 +55,6 @@ hide:
 
 # ＥＮＥＯＳの主張書面
 
-<p style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 0.8rem !important;">
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >
-</span>通報者側の主張書面はこちら <span class="arrow"><i class="bi bi-arrow-right"></i></a></p>
-<p style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 4rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/argument/party/" class="arrow-link" >
-</span>当事者主張の対照はこちら <span class="arrow"><i class="bi bi-arrow-right"></i></a></p>
-
 ## 被告準備書面（５）
 
 <p class="doc">
