@@ -1,5 +1,5 @@
 ---
-title: ＥＮＥＯＳの主張
+title: 当事者主張の対照
 description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査姿勢を検証しています。
 # date: 2023-03-06
 # categories:
@@ -13,7 +13,7 @@ description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプ�
 # links:
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
-url: https://minnanosaiban.github.io/hotline/argument/
+url: https://minnanosaiban.github.io/hotline/argument/party/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
@@ -23,62 +23,169 @@ hide:
 # icon: material/home
 ---
 
+<div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
+<div id="mobileMenu" class="mobile-menu">
+  <p class="mobile small doc pad1">
+    <i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
+  </p>
+  <p class="mobile small doc pad1">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a>
+  </p>
+  <p class="mobile small doc pad1">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a>
+  </p>
+  <p class="mobile small doc pad1">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張書面</a>
+  </p>
+  <p class="mobile small doc pad1" style="margin-bottom: 0.4rem !important;">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a>
+  </p>
+</div>
+
 <p style="margin: 0;">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/argument/ &text=ＥＮＥＯＳの主張 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/argument/party/ &text=当事者の主張 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
-<p class="small mobile" style="margin-top: 0rem !important; margin-bottom: 0.4rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p> 
+# 当事者主張の対照
 
-# ＥＮＥＯＳの主張
+権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていることに不安を抱き、この事実を内部通報しました。
 
-<a href="https://minnanosaiban.github.io/hotline/argument/ensos/" class="arrow-link">
+これに対してＥＮＥＯＳは、通報者に通知した調査結果において、その調査対象を明確に示さず、さらに、法改正の有無や豪州子会社による還付請求の代行に関して、不正確な情報を通報者に共有しました。
+
+<p class="link-nav" style="font-size: 1.2em; margin-top: 4rem !important; margin-bottom: 0.8rem !important;">
+<a href="https://minnanosaiban.github.io/argument/eneos" class="arrow-link" >
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>ＥＮＥＯＳの主張書面
-</a>
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument/#dai5" class="arrow-link">
-  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>当事者の主張書面と認否
-</a>
+</a></p>
+<p class="link-nav" style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 4rem !important;">
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >
+  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>通報者側の主張書面
+</a></p>
 
-## 通報者の主張の要旨
+## 1　通知する義務の有無
+本件訴訟では、通報者に対して調査結果を通知する法的義務の有無が争点となっています。通報者に通知した調査結果では、その調査対象を明確に示しませんでした。
+<div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">通報者の主張</p>
+            <p class="card-text">ＥＮＥＯＳは通報者に対して調査結果を通知する義務がある。その内容は、行動基準 第11項 ⑶ が求める「正確性及び遺漏のなさ」を満たすものでなければならない。</p>
+        </div>
+    </div>
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
+            <p class="card-text">コンプライアンスホットライン規程は、ＥＮＥＯＳの各役員又は従業員の職務を規定するものであって、企業の従業員に対する義務を定めているのではない。</p>
+        </div>
+    </div>
+</div>
 
-通報者に対する調査結果の通知は、行動基準 第11項 ⑶ <sup>※ </sup>が求める「正確性及び遺漏のなさ」を満たすものでなければならない。
+## 2　通報に対する対応策
+ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後、豪州企業との間で、**「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」**との新たな契約を締結しました。通報に応じて一定の対応を実際に行っていたにもかかわらず、それを通報者に通知しなかった場合は、コンプライアンスホットライン規程に違反する行為となります。
+<div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">通報者の主張</p>
+            <p class="card-text">豪州企業との契約締結は、コンプライアンスホットライン規程に定める是正措置及び再発防止策、又は対応策に該当する。</p>
+        </div>
+    </div>
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
+            <p class="card-text">豪州企業との契約締結は、コンプライアンスホットライン規程に定める是正措置又は再発防止策等として行ったわけではない。</p>
+        </div>
+    </div>
+</div>
 
-しかし、通報者に通知した「コンプライアンス違反となる事項ではない」との対象を明らかにせず、実際に講じていた対応策<sup>※ </sup>を通知しなかった。
+## 3　不正行為等か否か
+ＥＮＥＯＳの規程類において、「不正行為等」とは、「法令等に違反する行為または違反するおそれのある行為」と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。
+<div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">通報者の主張</p>
+            <p class="card-text">豪州ＧＳＴ法３８条によれば、本件の取引についてＧＳＴを課すことは法令に反すると解釈される。また、契約においてもＧＳＴを課す旨の定めは存在していない。したがって、本件のＧＳＴの支払は「不正行為等」に該当する。</p>
+        </div>
+    </div>
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
+            <p class="card-text">ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。</p>
+        </div>
+    </div>
+</div>
 
-したがって、通報者に対して問題事項や対応策を秘匿したＥＮＥＯＳには、コンプライアンスホットライン規程に違反する行為が存在する。
+## 4　ＧＳＴの法改正の存在
+ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後、「2016年11月以降、ＧＳＴの法改正が施行された」との内容を通報者に共有しました。
+<div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">通報者の主張</p>
+            <p class="card-text">オーストラリア税務局（ATO）のウェブサイトで、「GST 2016 amendments」と検索しても、該当する「ＧＳＴの法改正」の存在が確認できない。</p>
+        </div>
+    </div>
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
+            <p class="card-text">法改正の具体的な内容は、訴訟関係を明瞭にするためのものとはいえないので、ＥＮＥＯＳにおいて回答する必要を認めない。</p>
+        </div>
+    </div>
+</div>
 
-<p class="hg-idt pad12 small">
-※　行動基準 第11項 ⑶ 「私たちは、業務上必要なすべての記録および報告を、事実に基づき、正確に、遺漏なく、かつ適時に作成します。」
-</p>
-<p class="hg-idt pad12 small">
-※　実際には、ＥＮＥＯＳは、通報を受けた後、豪州企業との間で、<b>「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」との新たな契約を締結</b>するという対応策を講じていました。
-</p>
+## 5　豪州子会社の送金
+ＥＮＥＯＳがＧＳＴの支払に関する通報を受けた後、ＥＮＥＯＳの豪州子会社が、本社のＧＳＴ還付請求を代行したとして、当該金額を本社に送金しました。
+<div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">通報者の主張</p>
+            <p class="card-text">本社に対する豪州子会社の送金は確認できるものの、豪州子会社が当該代行した痕跡がない。したがって、不正な送金であるの可能性が示唆される。</p>
+        </div>
+    </div>
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
+            <p class="card-text"> 否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。</p>
+        </div>
+    </div>
+</div>
+
+## 6　還付請求の任意性
+ＥＮＥＯＳは、２度目の通報に対する調査報告として、通報者に**「ＧＳＴの還付をするか否かは任意であり、還付を受けないままであったとしても、不正行為等にはあたらない。」**と通知しました。
+<div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">通報者の主張</p>
+            <p class="card-text">還付の任意性の点は、そもそも「不正行為等」の評価の対象になり得ない。したがって、調査事項のすり替えが存在している。</p>
+        </div>
+    </div>
+    <div class="nt-card">
+        <div class="nt-card-content">
+            <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
+            <p class="card-text">ＧＳＴの還付申請がされなかったりしたとしても、直ちにコンプライアンス違反となるわけではない。</p>
+        </div>
+    </div>
+</div>
 
 
-
-## ＥＮＥＯＳの主張の要旨
-
-コンプライアンスホットライン規程は、ＥＮＥＯＳの各役員又は従業員の職務を規定するものであって、企業の従業員に対する義務を定めているのではない。
-
-行動基準は、「ＥＮＥＯＳグループで働く私たち」が「実践すべき基準」であり、「事業活動における判断の拠り所」となるにとどまるものであって、企業の義務を定めているのではない。
-
-ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」<sup>※3 </sup>があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。。
-
-<p class="hg-idt pad12 small">
-※　ＥＮＥＯＳ社内の規定において、「不正行為等」は、法令等に違反する行為または違反するおそれのある行為と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。
-</p>
-<p class="hg-idt pad12 small">
-※　オーストラリアのＧＳＴ法３８条の１によれば、免税取引又はゼロ税率取引に課税することは許されず、<b>取引そのものにＧＳＴを課すことは法令に反する</b>と解釈されるといえます。
-</p>
-<p class="hg-idt pad12 small">
-※　実際には、「豪州コンサルタント企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」という新たな契約を締結するという対応策を講じていました。
-</p>
-
-<p class="foot-title mobile" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
-<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
-<p class="small mobile" style="margin-top: 0.2rem !important; margin-bottom: 1rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p>
-
+<p class="foot-title mobile bottom-nav" style="margin-bottom: 0.2rem !important;">
+<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について</p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="bi bi-chevron-compact-right"></i><a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small"> ＥＮＥＯＳの主張書面</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.8rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a></p>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("mobileMenu");
+  menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+</script>
