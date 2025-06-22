@@ -693,6 +693,7 @@ strong {
 .nt-card-arrow {
   display: inline-block;
   transition: transform 0.3s ease;
+  color: var(--eneos-color)  !important;
 }
 .nt-card:hover .nt-card-title,
 .nt-card:focus-within .nt-card-title { /* カードのホバーでタイトルに下線をひく*/
@@ -708,7 +709,6 @@ strong {
 }
 .nt-card:hover .nt-card-arrow,
 .nt-card:focus-within .nt-card-arrow { /* カードのホバーで矢印を動かす */
-  color: var(--eneos-color)  !important;
   transform: translateX(8px);
 }
 /* 画像エリアのスタイル */
