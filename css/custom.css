@@ -768,7 +768,7 @@ strong {
 .mobile-menu {
   display: none;
   background: var(--md-default-bg-color);
-  padding: 0.2rem;
+  padding: 0.4rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 @media (prefers-color-scheme: dark) {
