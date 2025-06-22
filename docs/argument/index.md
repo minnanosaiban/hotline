@@ -55,18 +55,17 @@ hide:
 
 # 当事者主張の対照
 
-権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていることに不安を抱き、この事実を内部通報しました。
-
-これに対してＥＮＥＯＳは、通報者に通知した調査結果において、その調査対象を明確に示さず、さらに、法改正の有無や豪州子会社による還付請求の代行に関して、不正確な情報を通報者に共有しました。
-
-<p class="link-nav" style="font-size: 1.2em; margin-top: 4rem !important; margin-bottom: 0.8rem !important;">
-<a href="https://minnanosaiban.github.io/argument/eneos" class="arrow-link" >
+<p class="link-nav" style="font-size: 1.2em; margin-top: 6.4rem !important; margin-bottom: 0.8rem !important;">
+<a href="https://minnanosaiban.github.io/argument/eneos/" class="arrow-link" >
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>ＥＮＥＯＳの主張書面
 </a></p>
-<p class="link-nav" style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 4rem !important;">
+<p class="link-nav" style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 6.4rem !important;">
 <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>通報者側の主張書面
 </a></p>
+
+
+権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていることに不安を抱き、この事実を内部通報しました。
 
 ## 1　通知する義務の有無
 本件訴訟では、通報者に対して調査結果を通知する法的義務の有無が争点となっています。通報者に通知した調査結果では、その調査対象を明確に示しませんでした。
