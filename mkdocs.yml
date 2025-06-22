@@ -1,5 +1,5 @@
-site_name: ⚡️ＥＮＥＯＳの内部通報制度に関する訴訟について
-site_description: ⚡️ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における調査の透明性、心理的安全性との関係を検証しています。
+site_name: ＥＮＥＯＳの内部通報制度に関する訴訟について
+site_description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における調査の透明性、心理的安全性との関係を検証しています。
 site_url: https://minnanosaiban.github.io/hotline/
 # site_author: Mokeya
 # copyright: Copyright &copy; 2025 ★★★
@@ -9,15 +9,15 @@ nav:
       - index.md
   - 事案の概要: 
       - summary/index.md
-      - <i class="bi bi-chevron-compact-right"></i> 2025年6月 株主総会での質問 : summary/agm.md
+      - <i class="bi bi-chevron-compact-right"></i> 株主総会質問事項 : summary/agm.md
   - 判決文全文:
       - judgment/index.md
-      - <i class="bi bi-chevron-compact-right"></i> 2025年判決 坂巻陽士裁判官 : judgment/2025.md
-      - <i class="bi bi-chevron-compact-right"></i> 2022年判決 山田悠一郎裁判官 : judgment/2022.md
-  - ＥＮＥＯＳの主張:
+      - <i class="bi bi-chevron-compact-right"></i> 2025年3月判決<br>　 坂巻陽士裁判官 : judgment/2025.md
+      - <i class="bi bi-chevron-compact-right"></i> 2022年12月判決<br>　 山田悠一郎裁判官 : judgment/2022.md
+  - ＥＮＥＯＳの主張書面:
       - argument/index.md
-      - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : argument/ensos.md
-      - <i class="bi bi-chevron-compact-right"></i> 当事者の主張書面と認否 : https://minnanosaiban.github.io/eneos-saiban/argument.html
+      - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳのの主張書面 : argument/eneos.md     
+      - <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面 : https://minnanosaiban.github.io/eneos-saiban/argument.html
 
 extra_css:
   - css/custom.css

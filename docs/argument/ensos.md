@@ -1,5 +1,5 @@
 ---
-title: ＥＮＥＯＳの主張
+title: ＥＮＥＯＳの主張書面
 description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査姿勢を検証しています。
 # date: 2023-03-06
 # categories:
@@ -23,6 +23,29 @@ hide:
 # icon: material/home
 ---
 
+<div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
+<div id="mobileMenu" class="mobile-menu">
+  <p class="mobile small doc pad1">
+    <i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
+  </p>
+  <p class="mobile small doc pad1">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a>
+  </p>
+  <p class="mobile small doc pad1">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a>
+  </p>
+  <p class="mobile small doc pad1">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張書面</a>
+  </p>
+  <p class="mobile small doc pad1" style="margin-bottom: 0.4rem !important;">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a>
+  </p>
+</div>
+
 <p style="margin: 0;">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/argument/ &text=ＥＮＥＯＳの主張書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
@@ -30,10 +53,14 @@ hide:
   </a>
 </p>
 
-<p class="small mobile" style="margin-top: 0rem !important; margin-bottom: 0.4rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p> 
-
 # ＥＮＥＯＳの主張書面
+
+<p style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 0.8rem !important;">
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >
+</span>通報者側の主張書面はこちら <span class="arrow"><i class="bi bi-arrow-right"></i></a></p>
+<p style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 4rem !important;">
+<a href="https://minnanosaiban.github.io/hotline/argument/party/" class="arrow-link" >
+</span>当事者主張の対照はこちら <span class="arrow"><i class="bi bi-arrow-right"></i></a></p>
 
 ## 被告準備書面（５）
 
@@ -2124,7 +2151,21 @@ hide:
 <p class="doc">
 以上</p>
 
-<p class="foot-title mobile" style="margin-top: 8rem !important; margin-bottom: 0rem !important;">
-<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
-<p class="small mobile" style="margin-top: 0.2rem !important; margin-bottom: 1rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small"><i class="fa-solid fa-house"></i> Home</a> ・ <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a> ・ <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a> ・ <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張</a></p>
+<p class="foot-title mobile bottom-nav" style="margin-bottom: 0.2rem !important;">
+<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について</p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
+<i class="bi bi-chevron-compact-right"></i><a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small"> ＥＮＥＯＳの主張書面</a></p>
+<p class="mobile small doc" style="margin-bottom: 0.8rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a></p>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("mobileMenu");
+  menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+</script>
