@@ -1,6 +1,6 @@
 ---
 title: 当事者主張の対照
-description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査姿勢を検証しています。
+description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、公平にＥＮＥＯＳ側の主張も公表し、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査対応を検証しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -64,8 +64,32 @@ hide:
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>通報者側の主張書面
 </a></p>
 
+<div class="mokuji" onclick="togglemokuji()"> <i id="mokuji-icon" class="fa-solid fa-sort-down"></i>　目次（ 当事者主張の対照 ）</div>
+<div id="mobilemokuji" class="mobile-mokuji" style="display: block;">
+  <p class="mobile small doc pad1">
+     1　<a href="https://minnanosaiban.github.io/hotline/argument/#1" class="arrow-link-small">通知する義務の有無</a>
+  </p>
+  <p class="mobile small doc pad1">
+     2　<a href="https://minnanosaiban.github.io/hotline/argument/#2" class="arrow-link-small">通報に対する対応策</a>
+  </p>
+  <p class="mobile small doc pad1">
+     3　<a href="https://minnanosaiban.github.io/hotline/argument/#3" class="arrow-link-small">不正行為等か否か</a>
+  </p>
+  <p class="mobile small doc pad1">
+     4　<a href="https://minnanosaiban.github.io/hotline/argument/#4" class="arrow-link-small">ＧＳＴの法改正の存在</a>
+  </p>
+  <p class="mobile small doc pad1">
+     5　<a href="https://minnanosaiban.github.io/hotline/argument/#5" class="arrow-link-small">豪州子会社の送金</a>
+  </p>
+  <p class="mobile small doc pad1">
+     6　<a href="https://minnanosaiban.github.io/hotline/argument/#6" class="arrow-link-small">還付請求の任意性</a>
+  </p>
+</div>
+
 
 権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていることに不安を抱き、この事実を内部通報しました。
+
+<a name="1"></a>
 
 ## 1　通知する義務の有無
 本件訴訟では、通報者に対して調査結果を通知する法的義務の有無が争点となっています。通報者に通知した調査結果では、その調査対象を明確に示しませんでした。
@@ -84,6 +108,8 @@ hide:
     </div>
 </div>
 
+<a name="2"></a>
+
 ## 2　通報に対する対応策
 ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後、豪州企業との間で、**「豪州企業がＧＳＴ（消費税）を課すべきと判断した場合には、ＧＳＴ込みで請求する権利を有する」**との新たな契約を締結しました。通報に応じて一定の対応を実際に行っていたにもかかわらず、それを通報者に通知しなかった場合は、コンプライアンスホットライン規程に違反する行為となります。
 <div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
@@ -100,6 +126,8 @@ hide:
         </div>
     </div>
 </div>
+
+<a name="3"></a>
 
 ## 3　不正行為等か否か
 ＥＮＥＯＳの規程類において、「不正行為等」とは、「法令等に違反する行為または違反するおそれのある行為」と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。
@@ -118,6 +146,8 @@ hide:
     </div>
 </div>
 
+<a name="4"></a>
+
 ## 4　ＧＳＴの法改正の存在
 ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後、「2016年11月以降、ＧＳＴの法改正が施行された」との内容を通報者に共有しました。
 <div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
@@ -135,6 +165,8 @@ hide:
     </div>
 </div>
 
+<a name="5"></a>
+
 ## 5　豪州子会社の送金
 ＥＮＥＯＳがＧＳＴの支払に関する通報を受けた後、ＥＮＥＯＳの豪州子会社が、本社のＧＳＴ還付請求を代行したとして、当該金額を本社に送金しました。
 <div class="nt-cards nt-grid cols-2" style="margin-top: 0rem !important; margin-bottom: 0rem !important;">
@@ -151,6 +183,8 @@ hide:
         </div>
     </div>
 </div>
+
+<a name="6"></a>
 
 ## 6　還付請求の任意性
 ＥＮＥＯＳは、２度目の通報に対する調査報告として、通報者に**「ＧＳＴの還付をするか否かは任意であり、還付を受けないままであったとしても、不正行為等にはあたらない。」**と通知しました。
@@ -186,5 +220,21 @@ hide:
 function toggleMenu() {
   const menu = document.getElementById("mobileMenu");
   menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+</script>
+<script>
+function togglemokuji() {
+  const menu = document.getElementById("mobilemokuji");
+  const icon = document.getElementById("mokuji-icon");
+  const isVisible = window.getComputedStyle(menu).display !== "none";
+  if (isVisible) {
+    menu.style.display = "none";
+    icon.classList.remove("fa-sort-down");
+    icon.classList.add("fa-caret-right");
+  } else {
+    menu.style.display = "block";
+    icon.classList.remove("fa-caret-right");
+    icon.classList.add("fa-sort-down");
+  }
 }
 </script>

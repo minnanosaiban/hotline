@@ -73,7 +73,7 @@ icon: material/home
         <a href="https://minnanosaiban.github.io/hotline/judgment/" class="nt-card">
         <div class="nt-card-content">
             <p class="nt-card-title" style="text-align: center;">判決文全文</p>
-            <p class="nt-card-text">裁判所は、通報者は調査結果に対して不服を述べる法的な利益を有していないと判示して、「通報者に対する通知の適切さ」については検討しませんでした。
+            <p class="nt-card-text">通報者は調査結果に対して不服を述べる法的な利益を有していないとして、裁判所は、「通報者に対する通知の適切さ」については検討しませんでした。
             <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
