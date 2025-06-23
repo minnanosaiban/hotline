@@ -61,6 +61,13 @@ p {
   }
   }
 @media only screen and (max-width: 767px) {
+  .mobile-6 {
+  max-width: 6em;
+  word-wrap: break-word;
+  white-space: normal;
+  }
+  }
+@media only screen and (max-width: 767px) {
   .foot-title {
   max-width: 13em;
   word-wrap: break-word;
