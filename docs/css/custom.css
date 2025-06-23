@@ -61,6 +61,13 @@ p {
   }
   }
 @media only screen and (max-width: 767px) {
+  .mobile-6 {
+  max-width: 6em;
+  word-wrap: break-word;
+  white-space: normal;
+  }
+  }
+@media only screen and (max-width: 767px) {
   .foot-title {
   max-width: 13em;
   word-wrap: break-word;
@@ -115,7 +122,7 @@ h2 {
 h2 {
   margin: 6.4rem 0 1.2rem 0 !important;
   font-size: 2em !important;
-  line-height: 1.4 !important;
+  line-height: 1.6 !important;
   color: var(--md-typeset-color) !important;
   font-weight: 400 !important;
 }
@@ -266,6 +273,12 @@ strong em {
 }
 strong {
   font-style: 700;
+}
+.kasen {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
 }
 .large {
   font-size: 1.6em !important;
@@ -746,7 +759,6 @@ strong {
   color: var(--md-primary-fg-color) !important;
   background-color: var(--md-default-fg-color--lighter);
 }
-
 /* ハンバーガーアイコン */
 .hamburger {
   display: none;
@@ -778,6 +790,40 @@ strong {
     display: block;
   }
   .mobile-menu a {
+    display: inline-block;
+    padding: 0.2rem 0;
+  }
+}
+/* モバイル用の目次 */
+.mokuji {
+  display: none;
+}
+.mobile-mokuji {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .mobile-mokuji {
+    background: var(--md-typeset-color);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mokuji {
+    display: block;
+    color: var(--md-default-fg-color);
+    padding: 0;
+    cursor: pointer;
+    margin: 0 0 0.4rem 0;
+    text-align: left;
+  }
+  .mobile-mokuji {
+    display: block;
+    font-size: 1em !important;
+    background: var(--md-default-bg-color);
+    padding: 0.4rem;
+    margin: 0.8rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .mobile-mokuji a {
     display: inline-block;
     padding: 0.2rem 0;
   }
