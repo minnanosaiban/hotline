@@ -122,7 +122,7 @@ h2 {
 h2 {
   margin: 6.4rem 0 1.2rem 0 !important;
   font-size: 2em !important;
-  line-height: 1.4 !important;
+  line-height: 1.6 !important;
   color: var(--md-typeset-color) !important;
   font-weight: 400 !important;
 }
@@ -273,6 +273,12 @@ strong em {
 }
 strong {
   font-style: 700;
+}
+.kasen {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
 }
 .large {
   font-size: 1.6em !important;
