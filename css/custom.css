@@ -746,7 +746,6 @@ strong {
   color: var(--md-primary-fg-color) !important;
   background-color: var(--md-default-fg-color--lighter);
 }
-
 /* ハンバーガーアイコン */
 .hamburger {
   display: none;
@@ -778,6 +777,38 @@ strong {
     display: block;
   }
   .mobile-menu a {
+    display: inline-block;
+    padding: 0.2rem 0;
+  }
+}
+/* 目次 */
+.mokuji {
+  display: none;
+  color: var(--md-default-fg-color);
+  padding: 0;
+  cursor: pointer;
+  margin: 0 0 0.4rem 0;
+  text-align: left;
+}
+/* モバイルメニュー本体 */
+.mobile-mokuji {
+  font-size: 1em !important;
+  display: none;
+  background: var(--md-default-bg-color);
+  padding: 0.4rem;
+  margin: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+@media (prefers-color-scheme: dark) {
+  .mobile-mokuji {
+    background: var(--md-typeset-color);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mokuji {
+    display: block;
+  }
+  .mobile-mokuji a {
     display: inline-block;
     padding: 0.2rem 0;
   }
