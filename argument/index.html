@@ -7,9 +7,7 @@ function toggleMenu() {
 function togglemokuji() {
   const menu = document.getElementById("mobilemokuji");
   const icon = document.getElementById("mokuji-icon");
-
   const isVisible = window.getComputedStyle(menu).display !== "none";
-
   if (isVisible) {
     menu.style.display = "none";
     icon.classList.remove("fa-sort-down");
