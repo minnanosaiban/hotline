@@ -97,13 +97,13 @@ hide:
     <div class="nt-card">
         <div class="nt-card-content">
             <p class="card-title" style="text-align: center;">通報者の主張</p>
-            <p class="card-text">ＥＮＥＯＳは通報者に対して調査結果を通知する義務がある。その内容は、行動基準 第11項 ⑶ が求める「正確性及び遺漏のなさ」を満たすものでなければならない。</p>
+            <p class="card-text">ＥＮＥＯＳは、通報者に対して調査結果を通知する義務がある。その通知の内容は、行動基準 第11項 ⑶ が求める「正確性及び遺漏のなさ」を満たすものでなければならない。</p>
         </div>
     </div>
     <div class="nt-card">
         <div class="nt-card-content">
             <p class="card-title" style="text-align: center;">ＥＮＥＯＳの主張</p>
-            <p class="card-text">コンプライアンスホットライン規程は、ＥＮＥＯＳの各役員又は従業員の職務を規定するものであって、企業の従業員に対する義務を定めているのではない。</p>
+            <p class="card-text">コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない</p>
         </div>
     </div>
 </div>
