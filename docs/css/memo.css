@@ -1,0 +1,142 @@
+/* 注釈ディレクティブ */
+.margin-note {
+  float: right ;
+  width: 12.1rem;
+  font-size: 0.75em !important;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 767px) {
+  .margin-note {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  div.margin-note {
+    display: none;
+    }
+}
+/* リンクボタン */
+.links {
+  display: inline-block;
+  margin: 0;
+  padding: .35em .65em;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.75rem;
+  color: #2E404d !important;
+  background-color: #efefef ;
+} 
+.links:hover {
+  color: #2E404d  !important;
+  background-color: #707070;
+}
+/* 本文部分：2つ目以降の段落を0.8emに */
+.grid.cards.two-columns > * > p:not(:first-child) {
+  font-size: 0.8em !important;
+  line-height: 1.6;
+}
+/* 折り返し */
+@media only screen and (max-width: 767px) {
+  .mobile-6 {
+  max-width: 6em;
+  word-wrap: break-word;
+  white-space: normal;
+  }
+  }
+/* カード（丸み） */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+  max-width: 38em;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+/* カード（リンクカード） */
+.link-card {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 6.4rem;
+} 
+.link-card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.link-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0 1.5rem;
+  gap: 16px;
+}
+.link-text {
+  flex: 1;
+}
+.link-text strong {
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.link-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0 0 1.5rem 0;
+}
+.link-image {
+  width: auto;
+  max-width: 20rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.link-card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.link-card a:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .link-card-content {
+  flex-direction: column;
+  gap: 8px;
+  } 
+  .link-text {
+  padding: 1rem 0;
+  }   
+  .link-image {
+      max-width: 100%;
+  }  
+}
+/* カード（Twitter） */
+.tweet-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* グリッドカード（影付き） */
+.cards li:hover {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+}

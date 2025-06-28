@@ -1,0 +1,135 @@
+/* グリッドカード（Neoteroiデザイン） */
+.nt-cards.nt-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 0.5rem;
+  /* モバイル対応 */
+  max-width: 100vw;
+  overflow-x: auto;
+  padding: 1px;
+}
+.nt-cards.nt-grid.cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.nt-cards.nt-grid.cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.nt-cards.nt-grid.cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.nt-cards.nt-grid.cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.nt-cards.nt-grid.cols-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.nt-cards.nt-grid.cols-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+/* 小さい画面（400px以下）の場合は1カラムにする */
+@media only screen and (max-width: 767px) {
+  .nt-cards.nt-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nt-cards {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+}
+/* カードのスタイル */
+.nt-card {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 
+              0 3px 1px -2px rgb(0 0 0 / 20%), 
+              0 1px 5px 0 rgb(0 0 0 / 12%);
+  padding: 5px;
+  margin-bottom: 0.5rem;
+  color: var(--md-typeset-color) !important;
+}
+.nt-card:hover {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 24%), 
+              0 3px 1px -2px rgb(0 0 0 / 30%), 
+              0 1px 5px 0 rgb(0 0 0 / 22%);
+}
+/* スレートテーマ用の影 */
+[data-md-color-scheme="slate"] .nt-card {
+  box-shadow: 0 2px 2px 0 rgb(4 40 33 / 14%), 
+              0 3px 1px -2px rgb(40 86 94 / 47%), 
+              0 1px 5px 0 rgb(139 252 255 / 64%);
+}
+[data-md-color-scheme="slate"] .nt-card:hover {
+  box-shadow: 0 2px 2px 0 rgb(0 255 206 / 14%), 
+              0 3px 1px -2px rgb(33 156 177 / 47%), 
+              0 1px 5px 0 rgb(96 251 255 / 64%);
+}
+/* カードのコンテンツ 上 右 下 左*/
+.nt-card-content {
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+@media only screen and (max-width: 767px) {
+  .nt-card-content {
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  }
+}
+/* カード内のテキスト（ホバー未対応） */
+.card-title {
+  margin: 0.4em 0 !important;
+  font-size: 1.2em !important;
+  line-height: 1.6 !important;
+  font-weight: 700 !important;
+}
+.card-text {
+  font-size: 1em;
+  padding: 0;
+  margin: 1em 0 !important;
+}
+/* カード内のテキスト（ホバー対応） */
+.nt-card-title {
+  margin: 0.4em 0 !important;
+  font-size: 1.2em !important;
+  line-height: 1.6 !important;
+  font-weight: 700 !important;
+}
+.nt-card-text {
+  font-size: 1em;
+  padding: 0;
+  margin: 1em 0 !important;
+}
+.nt-card-arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--eneos-color)  !important;
+}
+.nt-card:hover .nt-card-title,
+.nt-card:focus-within .nt-card-title { /* カードのホバーでタイトルに下線をひく*/
+  color: var(--eneos-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
+}
+.nt-card:hover .nt-card-text,
+.nt-card:focus-within .nt-card-text { /* カードのホバーでテキストカラーを変更 */
+  color: var(--md-default-fg-color--light) !important;
+}
+.nt-card:hover .nt-card-arrow,
+.nt-card:focus-within .nt-card-arrow { /* カードのホバーで矢印を動かす */
+  transform: translateX(8px);
+}
+/* 画像エリアのスタイル */
+.nt-card .nt-card-image {
+  text-align: center;
+  border-radius: 2px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 120px;
+}
+.nt-card .nt-card-image.tags img {
+  margin-top: 12px;
+}
+.nt-card .nt-card-image img {
+  height: 105px;
+  margin-top: 5px;
+}

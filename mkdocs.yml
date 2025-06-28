@@ -20,7 +20,15 @@ nav:
       - <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面 : https://minnanosaiban.github.io/eneos-saiban/argument.html
 
 extra_css:
-  - css/custom.css
+  - css/01-color.css
+  - css/02-layout.css
+  - css/03-typeset.css
+  - css/04-button.css
+  - css/05-card.css
+  - css/06-link-text.css
+  - css/07-link-button.css
+  - css/08-link-card.css
+  - css/09-mobile-menu.css
   - https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
 

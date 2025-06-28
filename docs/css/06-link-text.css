@@ -1,0 +1,95 @@
+/* 色付き下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
+.link-nav {
+  margin-top: 1.6rem !important;
+  margin-bottom: 1.6rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .link-nav {
+  margin-left: 0.8rem !important;
+  }
+  }
+.arrow-link {
+  display: inline-block;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
+}
+.arrow-link .arrow {
+  color: var(--eneos-color);  
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.arrow-link:hover .arrow {
+  transform: translateX(8px);
+  }
+.arrow-link:hover {
+  color: var(--md-default-fg-color--light) !important;  
+}
+/* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
+.arrow-link-small {
+  display: inline-block;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-thickness: 1px;
+}
+.arrow-link-small .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.arrow-link-small:hover .arrow {
+  transform: translateX(2px);
+  color: var(--eneos-color);  
+  }
+.arrow-link-small:hover {
+  color: var(--md-default-fg-color--light) !important;  
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--eneos-color);
+  text-decoration-thickness: 1px;
+  }
+
+/* リンクテキスト */
+/*
+a {
+  color: var(--md-typeset-a-color);
+  word-break: break-word;
+  &,
+  &::before {
+    transition: color 125ms;
+  }
+  &:is(:focus, :hover) {
+    color: var(--md-accent-fg-color);
+
+    code {
+      background-color: var(--md-accent-fg-color--transparent);
+    }
+  }
+  code {
+    color: currentcolor;
+    transition: background-color 125ms;
+  }
+  &.focus-visible {
+    outline-color: var(--md-accent-fg-color);
+    outline-offset: px2rem(4px);
+  }
+}
+*/
+/*
+.md-typeset .md-tags:not([hidden]) {
+  display: inline-flex
+;
+  flex-wrap: wrap;
+  gap: .5em;
+  margin-bottom: .75em;
+  margin-top: -.125em;
+}
+*/

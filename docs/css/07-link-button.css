@@ -1,0 +1,19 @@
+/* シェアボタン */
+.x-share {
+  display: inline-block;
+  margin: 0;
+  padding: .35em .65em;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: var(--md-typeset-color) !important;
+  background-color: var(--md-default-fg-color--lightest);
+} 
+.x-share:hover {
+  color: var(--md-primary-fg-color) !important;
+  background-color: var(--md-default-fg-color--lighter);
+}

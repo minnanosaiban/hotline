@@ -55,11 +55,11 @@ hide:
 
 # 当事者主張の対照
 
-<p class="link-nav" style="font-size: 1.2em; margin-top: 6.4rem !important; margin-bottom: 0.8rem !important;">
+<p class="link-nav large" style="margin-top: 6.4rem !important; margin-bottom: 0.8rem !important;">
 <a href="https://minnanosaiban.github.io/hotline/argument/eneos/" class="arrow-link" >
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>ＥＮＥＯＳの主張書面
 </a></p>
-<p class="link-nav" style="font-size: 1.2em; margin-top: 0.8rem !important; margin-bottom: 6.4rem !important;">
+<p class="link-nav large" style="margin-top: 0.8rem !important; margin-bottom: 6.4rem !important;">
 <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>通報者側の主張書面
 </a></p>
