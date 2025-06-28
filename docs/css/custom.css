@@ -5,6 +5,7 @@
   --orange-color: #f37726;
   --table-color: #e5e7ea;
   --ntt-color: #0068b7;
+  --ntt-data-color: #0072bc;
   --eneos-color: #e94709;  
   --tomato-color: #dc3545;
   --text-color: #2E404d;  
@@ -47,7 +48,7 @@ p {
   margin-bottom: 1.5em;
   line-height: 2;
   color: var(--md-typeset-color) !important;
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 /* トップとボトム */
 .top-title { /* ホームページのタイトル */
@@ -679,24 +680,21 @@ strong {
 /* カード内のテキスト（ホバー未対応） */
 .card-title {
   margin: 0.4em 0 !important;
-  font-size: 1.6em !important;
-  line-height: 1.4 !important;
+  font-size: 1.2em !important;
+  line-height: 1.6 !important;
+  font-weight: 700 !important;
 }
 .card-text {
   font-size: 1em;
   padding: 0;
   margin: 1em 0 !important;
 }
-@media only screen and (max-width: 767px) {
-  .card-title {
-    font-size: 1.2em !important;
-  }
-}
 /* カード内のテキスト（ホバー対応） */
 .nt-card-title {
   margin: 0.4em 0 !important;
-  font-size: 1.6em !important;
-  line-height: 1.4 !important;
+  font-size: 1.2em !important;
+  line-height: 1.6 !important;
+  font-weight: 700 !important;
 }
 .nt-card-text {
   font-size: 1em;

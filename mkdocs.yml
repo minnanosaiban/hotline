@@ -159,6 +159,9 @@ markdown_extensions:
   - pymdownx.details # detailsタグによる折り畳み処理
   - pymdownx.mark # markタグ（ハイライト）
   - pymdownx.betterem: # emタグやstrongタグ（強調）を区別する
+  - pymdownx.snippets:
+      auto_append:
+        - includes/sitemap.md
 
   # - meta # フロントマターを使えるようにする
   # - md_in_html # マークダウンとhtmlを一緒に使う

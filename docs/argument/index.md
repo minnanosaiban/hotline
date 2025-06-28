@@ -64,7 +64,7 @@ hide:
   <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>通報者側の主張書面
 </a></p>
 
-<div class="mokuji" onclick="togglemokuji()"> <i id="mokuji-icon" class="fa-solid fa-sort-down"></i>　目次（ 当事者主張の対照 ）</div>
+<div class="mokuji" onclick="toggleindex()"> <i id="mokuji-icon" class="fa-solid fa-sort-down"></i>　目次（ 当事者主張の対照 ）</div>
 <div id="mobilemokuji" class="mobile-mokuji" style="display: block;">
   <p class="mobile small doc pad1">
      1　<a href="https://minnanosaiban.github.io/hotline/argument/#1" class="arrow-link-small">通知する義務の有無</a>
@@ -202,39 +202,3 @@ hide:
         </div>
     </div>
 </div>
-
-
-<p class="foot-title mobile bottom-nav" style="margin-bottom: 0.2rem !important;">
-<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について</p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="bi bi-chevron-compact-right"></i><a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small"> ＥＮＥＯＳの主張書面</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a></p>
-<script>
-function toggleMenu() {
-  const menu = document.getElementById("mobileMenu");
-  menu.style.display = (menu.style.display === "block") ? "none" : "block";
-}
-</script>
-<script>
-function togglemokuji() {
-  const menu = document.getElementById("mobilemokuji");
-  const icon = document.getElementById("mokuji-icon");
-  const isVisible = window.getComputedStyle(menu).display !== "none";
-  if (isVisible) {
-    menu.style.display = "none";
-    icon.classList.remove("fa-sort-down");
-    icon.classList.add("fa-caret-right");
-  } else {
-    menu.style.display = "block";
-    icon.classList.remove("fa-caret-right");
-    icon.classList.add("fa-sort-down");
-  }
-}
-</script>

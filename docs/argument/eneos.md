@@ -2145,22 +2145,3 @@ hide:
 本件訴訟における原告の訴えが不適法であること及び原告の請求に理由がないことは、いずれも明白であるから、被告としては、貴庁において、速やかに弁論を終結し、速やかに訴え却下又は請求棄却の判決を下されるよう、強く要望するものである。</p>
 <p class="doc">
 以上</p>
-
-<p class="foot-title mobile bottom-nav" style="margin-bottom: 0.2rem !important;">
-<span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について</p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
-<i class="bi bi-chevron-compact-right"></i><a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small"> ＥＮＥＯＳの主張書面</a></p>
-<p class="mobile small doc" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a></p>
-<script>
-function toggleMenu() {
-  const menu = document.getElementById("mobileMenu");
-  menu.style.display = (menu.style.display === "block") ? "none" : "block";
-}
-</script>
