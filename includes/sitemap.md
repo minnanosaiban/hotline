@@ -1,4 +1,4 @@
-<p class="foot-title mobile bottom-nav" style="margin-top: 6.4rem !important; margin-bottom: 0.2rem !important;">
+<p class="foot-title mobile bottom-nav">
 <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について</p>
 <p class="mobile small doc" style="margin-bottom: 0.2rem !important;">
 <i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>

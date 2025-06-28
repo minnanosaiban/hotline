@@ -86,6 +86,8 @@ icon: material/home
     </a>
 </div>
 
-<p class="large" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
+<div class="center-container" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
+<p class="large width-40">
 通報者を通報内容に関係する情報から排除し、通報者に不正確な情報を通報者に共有する行為は、ＥＮＥＯＳが公に掲げる表明と大きく乖離しています。
 </p>
+</div>

@@ -1,0 +1,100 @@
+/* 画面余白・タブ・縦スクロールバー・サイドバーのテキスト・スマホで表示・トップとボトムのナビゲーション・センタリング */
+/* 画面余白 */
+/*
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 1.5rem;
+}
+*/
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 0.5rem;
+}
+/*
+.md-content {
+  flex-grow: 1;
+  min-width: 0;
+}
+*/
+/*
+.md-content__inner {
+  margin: 0 .8rem 1.2rem;
+  padding-top: .6rem;
+}
+*/
+.md-content__inner {
+  padding-top: 0rem;
+  margin-top: 0 !important;
+  margin-right: 3.2rem !important;
+  margin-left: 3.2rem !important;
+  margin-bottom: 8rem !important;  
+}
+@media only screen and (max-width: 767px) {
+  .md-content__inner {
+    margin-right: 0.8rem !important;
+    margin-left: 0.8rem !important;
+    margin-bottom: 0rem !important;  
+  }
+  }
+/* タブ（ホバー時の下線・アクティブの色） */
+.md-tabs__link:hover { /* タブのホバー時の下線 */
+  color: var(--eneos-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--eneos-color);
+}
+.md-tabs__item--active .md-tabs__link { /* タブのアクティブの色 */
+  color: var(--eneos-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--eneos-color);
+}
+/* 縦スクロールバー */
+.md-sidebar__inner {
+  overflow: hidden;
+}
+.md-sidebar__scrollwrap {
+  scrollbar-color: #0000;
+  scrollbar-width: 1px;
+}
+/* サイドバーのテキスト */
+.md-nav__link { 
+  font-weight: 400 !important;
+  color: var(--md-typeset-color) !important;
+}
+.md-nav__link:hover {
+  font-weight: 400 !important;
+  color: var(--eneos-color)  !important;
+}
+.md-nav__link--active, 
+.md-nav__link--active:hover {
+  color: var(--eneos-color)  !important;
+  font-weight: 400 !important;
+}
+/* スマホで表示 */
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+/* センタリング */
+.center-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+  .center-container {
+    justify-content: flex-start;
+  }
+}
