@@ -282,8 +282,9 @@ strong {
   text-decoration-thickness: 1px;
 }
 .large {
-  font-size: 1.6em !important;
+  font-size: 1.2em !important;
   line-height: 1.6 !important;
+  font-weight: 700;
 }
 @media only screen and (max-width: 767px) {
   .large {
