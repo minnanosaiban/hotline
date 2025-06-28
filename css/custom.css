@@ -284,7 +284,7 @@ strong {
 .large {
   font-size: 1.2em !important;
   line-height: 1.6 !important;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 @media only screen and (max-width: 767px) {
   .large {
