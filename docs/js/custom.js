@@ -10,3 +10,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+function toggleMenu() {
+  const menu = document.getElementById("mobileMenu");
+  menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+
+function toggleindex() {
+  const menu = document.getElementById("mobilemokuji");
+  const icon = document.getElementById("mokuji-icon");
+  const isVisible = window.getComputedStyle(menu).display !== "none";
+  if (isVisible) {
+    menu.style.display = "none";
+    icon.classList.remove("fa-sort-down");
+    icon.classList.add("fa-caret-right");
+  } else {
+    menu.style.display = "block";
+    icon.classList.remove("fa-caret-right");
+    icon.classList.add("fa-sort-down");
+  }
+}
