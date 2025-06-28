@@ -1,0 +1,77 @@
+/* カラー定義 */
+:root {
+  --link-color: #4A90E2;
+  --red-color: #dc3545;
+  --orange-color: #f37726;
+  --table-color: #e5e7ea;
+  --ntt-color: #0068b7;
+  --ntt-data-color: #0072bc;
+  --eneos-color: #e94709;  
+  --tomato-color: #dc3545;
+  --text-color: #2E404d;  
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-color: #2E404d; /* テキストカラー*/   
+  --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
+  --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
+  --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
+  --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
+  --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-color: #E0E0E0; /* テキストカラー*/
+  --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
+  --md-primary-fg-color: #2E404d; /* ヘッダーの背景色 */
+  --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
+  --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
+  --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
+}
+
+/* 
+[data-md-color-scheme="default"] {
+--md-default-fg-color: hsla(0, 0%, 0%, 0.87)
+--md-default-fg-color--light: hsla(0, 0%, 0%, 0.54)
+--md-default-fg-color--lighter: hsla(0, 0%, 0%, 0.32)
+--md-default-fg-color--lightest: hsla(0, 0%, 0%, 0.07)
+--md-default-bg-color: hsla(0, 0%, 100%, 1)
+--md-default-bg-color--light: hsla(0, 0%, 100%, 0.7)
+--md-default-bg-color--lighter: hsla(0, 0%, 100%, 0.3)
+--md-default-bg-color--lightest: hsla(0, 0%, 100%, 0.12)
+--md-typeset-color:  var(--md-default-fg-color) 
+--md-typeset-a-color: var(--md-primary-fg-color)
+--md-typeset-table-color: hsla(0, 0%, 0%, 0.12)
+--md-typeset-table-color--light	hsla(0, 0%, 0%, 0.035)
+--md-footer-fg-color: hsla(0, 0%, 100%, 1)
+--md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7)
+--md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.45)
+--md-footer-bg-color: hsla(0, 0%, 0%, 0.87)
+--md-footer-bg-color--dark: hsla(0, 0%, 0%, 0.32)
+--md-shadow-z1: 0 4px 10px hsla(0, 0%, 0%, 0.05), 0 0 1px hsla(0, 0%, 0%, 0.1)
+--md-shadow-z2: 0 4px 10px hsla(0, 0%, 0%, 0.1), 0 0 1px hsla(0, 0%, 0%, 0.25)
+--md-shadow-z3: 0 4px 10px hsla(0, 0%, 0%, 0.2), 0 0 1px hsla(0, 0%, 0%, 0.35)
+}
+[data-md-color-scheme="slate"] {
+--md-default-fg-color: hsla(var(--md-hue), 15%, 90%, 0.82)
+--md-default-fg-color--light: hsla(var(--md-hue), 15%, 90%, 0.56)
+--md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 90%, 0.32)
+--md-default-fg-color--lightest: hsla(var(--md-hue), 15%, 90%, 0.12)
+--md-default-bg-color: hsla(var(--md-hue), 15%, 14%, 1)
+--md-default-bg-color--light: hsla(var(--md-hue), 15%, 14%, 0.54)
+--md-default-bg-color--lighter: hsla(var(--md-hue), 15%, 14%, 0.26)
+--md-default-bg-color--lightest: hsla(var(--md-hue), 15%, 14%, 0.07)
+--md-typeset-color: var(--md-default-fg-color)
+--md-typeset-a-color: var(--md-primary-fg-color) (またはプライマリカラーに応じたHSL値)
+--md-typeset-table-color: hsla(var(--md-hue), 15%, 95%, 0.12)
+--md-typeset-table-color--light: hsla(var(--md-hue), 15%, 95%, 0.035)
+--md-footer-fg-color: hsla(0, 0%, 100%, 1)
+--md-footer-fg-color--light	hsla(0, 0%, 100%, 0.7)
+--md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.45)
+--md-footer-bg-color: hsla(var(--md-hue), 15%, 10%, 0.87)
+--md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1)
+--md-shadow-z1: 0 4px 10px hsla(0, 0%, 0%, 0.05), 0 0 1px hsla(0, 0%, 0%, 0.1)
+--md-shadow-z2: 0 4px 10px hsla(0, 0%, 0%, 0.25), 0 0 1px hsla(0, 0%, 0%, 0.25)
+--md-shadow-z3: 0 4px 10px hsla(0, 0%, 0%, 0.4), 0 0 1px hsla(0, 0%, 0%, 0.35)
+} 
+*/
