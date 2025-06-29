@@ -27,7 +27,7 @@
   transform: translateX(8px);
   }
 .arrow-link:hover {
-  color: var(--md-default-fg-color--light) !important;  
+  color: var(--md-main1-color) !important;  
 }
 /* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link-small {
@@ -49,7 +49,7 @@
   color: var(--md-main1-color);  
   }
 .arrow-link-small:hover {
-  color: var(--md-default-fg-color--light) !important;  
+  color: var(--md-main1-color) !important;  
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
