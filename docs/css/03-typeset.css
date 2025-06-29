@@ -120,7 +120,7 @@ strong {
 .kasen {
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--eneos-color);
+  text-decoration-color: var(--md-main1-color);
   text-decoration-thickness: 1px;
 }
 /* 文字の大きさ */
