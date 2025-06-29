@@ -26,7 +26,7 @@
   color: var(--md-default-fg-color);
   padding: 0;
   cursor: pointer;
-  margin: 0 0 0.4rem 0;
+  margin: 0;
   text-align: right;
 }
 .hamburger:hover {
