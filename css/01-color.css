@@ -6,9 +6,10 @@
   --table-color: #e5e7ea;
   --ntt-color: #0068b7;
   --ntt-data-color: #0072bc;
+  --pasol-color: #e0217f;
   --eneos-color: #e94709;  
   --tomato-color: #dc3545;
-  --text-color: #2E404d;  
+  --text-color: #2E404d;
 }
 
 [data-md-color-scheme="default"] {
@@ -18,6 +19,8 @@
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
+  --md-main1-color: var(--eneos-color); /* メインカラー1 */
+  --md-main2-color: var(--eneos-color); /* メインカラー2 */  
 }
 
 [data-md-color-scheme="slate"] {
@@ -27,6 +30,8 @@
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
+  --md-main1-color: var(--eneos-color); /* メインカラー1 */
+  --md-main2-color: var(--eneos-color); /* メインカラー2 */  
 }
 
 /* 

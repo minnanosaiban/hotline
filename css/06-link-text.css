@@ -15,11 +15,11 @@
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--eneos-color);
+  text-decoration-color: var(--md-main1-color);
   text-decoration-thickness: 1px;
 }
 .arrow-link .arrow {
-  color: var(--eneos-color);  
+  color: var(--md-main1-color);  
   display: inline-block;
   transition: transform 0.3s ease;
 }
@@ -46,14 +46,14 @@
 }
 .arrow-link-small:hover .arrow {
   transform: translateX(2px);
-  color: var(--eneos-color);  
+  color: var(--md-main1-color);  
   }
 .arrow-link-small:hover {
   color: var(--md-default-fg-color--light) !important;  
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--eneos-color);
+  text-decoration-color: var(--md-main1-color);
   text-decoration-thickness: 1px;
   }
 

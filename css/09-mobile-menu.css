@@ -30,7 +30,7 @@
   text-align: right;
 }
 .hamburger:hover {
-  color: var(--eneos-color) ;
+  color: var(--md-main1-color) ;
 }
 /* モバイルメニュー本体 */
 .mobile-menu {
