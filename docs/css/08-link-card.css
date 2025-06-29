@@ -99,14 +99,14 @@
 .nt-card-arrow {
   display: inline-block;
   transition: transform 0.3s ease;
-  color: var(--eneos-color)  !important;
+  color: var(--md-main1-color)  !important;
 }
 .nt-card:hover .nt-card-title,
 .nt-card:focus-within .nt-card-title { /* カードのホバーでタイトルに下線をひく*/
-  color: var(--eneos-color) ;
+  color: var(--md-main1-color)  !important;
   text-decoration: underline;
   text-underline-offset: 12px;
-  text-decoration-color: var(--eneos-color);
+  text-decoration-color: var(--md-main1-color);
   text-decoration-thickness: 1px;
 }
 .nt-card:hover .nt-card-text,
