@@ -1,6 +1,6 @@
 /* トップとボトムのナビゲーション */
 @media only screen and (max-width: 767px) {
-  .foot-title {
+  .foot-title-eneos {
     max-width: 13em;
     overflow-wrap: break-word;
     white-space: normal;
