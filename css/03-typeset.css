@@ -214,14 +214,11 @@ strong {
     max-width: 100%;
   }
   }
-.top-title-ntt {
-  max-width: 100%;
-}
 .top-title-10 {
   max-width: 13em;
   overflow-wrap: break-word;
   white-space: normal;
-}
+  }
 @media only screen and (max-width: 767px) {
   .top-title-10 {
     max-width: 100%;
@@ -248,4 +245,3 @@ strong {
     max-width: 100%;
   }
   }
-
