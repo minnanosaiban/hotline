@@ -204,21 +204,34 @@ strong {
   padding-left:6em;
   }
 /* １行の文字数（トップタイトル） */
-.top-title-eneos {
+.top-title-13 {
   max-width: 13em;
   overflow-wrap: break-word;
   white-space: normal;
 }
 @media only screen and (max-width: 767px) {
-  .top-title-eneos {
+  .top-title-13 {
     max-width: 100%;
   }
   }
 .top-title-ntt {
   max-width: 100%;
 }
+.top-title-10 {
+  max-width: 13em;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
 @media only screen and (max-width: 767px) {
-  .top-title-ntt {
+  .top-title-10 {
+    max-width: 100%;
+  }
+  }
+.top-title-7 {
+  max-width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .top-title-7 {
     max-width: 7em;
     overflow-wrap: break-word;
     white-space: normal;
