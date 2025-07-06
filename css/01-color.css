@@ -9,11 +9,12 @@
   --pasol-color: #e0217f;
   --eneos-color: #e94709;  
   --tomato-color: #dc3545;
-  --text-color: #2E404d;
+  --text-color-1: #150e0c;
+  --text-color-1: #2E404d;
 }
 
 [data-md-color-scheme="default"] {
-  --md-typeset-color: #2E404d; /* テキストカラー*/   
+  --md-typeset-color: #150e0c; /* テキストカラー*/   
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
