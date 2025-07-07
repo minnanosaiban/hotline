@@ -95,7 +95,7 @@ h2 + h3 {
 }
 */
 h3 {
-  margin: 6.4rem 0 1.2rem 0 !important;
+  margin: 2rem 0 2rem 0 !important;
   font-size: 1.6em !important;
   line-height: 1.8 !important;
   color: var(--md-typeset-color) !important;
@@ -153,20 +153,20 @@ strong {
 .doc {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
-  line-height: 2.4;
+  line-height: 2.4 !important;
   margin: 0;
   }
 .idt {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
-  line-height: 2.4;
+  line-height: 2.4 !important;
   margin: 0;
   text-indent:1em;
   }
 .hg-idt {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
-  line-height: 2.4;
+  line-height: 2.4 !important;
   margin: 0;
   padding-left:1em;
   text-indent:-1em;
@@ -174,13 +174,13 @@ strong {
 .hg-idt2 {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
-  line-height: 2.4;
+  line-height: 2.4 !important;
   margin: 0;
   padding-left:2em;
   text-indent:-2em;
   }
 .hg-idt6 {
-  line-height: 2.4;
+  line-height: 2.4 !important;
   margin: 0;
   padding-left:6em;
   text-indent:-6em;
@@ -204,19 +204,39 @@ strong {
   padding-left:6em;
   }
 /* １行の文字数（トップタイトル） */
-.top-title {
+.top-title-13 {
   max-width: 13em;
   overflow-wrap: break-word;
   white-space: normal;
 }
 @media only screen and (max-width: 767px) {
-  .top-title {
+  .top-title-13 {
     max-width: 100%;
+  }
+  }
+.top-title-9 {
+  max-width: 9em;
+  overflow-wrap: break-word;
+  white-space: normal;
+  }
+@media only screen and (max-width: 767px) {
+  .top-title-9 {
+    max-width: 100%;
+  }
+  }
+.top-title-7 {
+  max-width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .top-title-7 {
+    max-width: 7em;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
   }
 /* １行の文字数（４０文字） */
 .width-40 {
-  max-width: 40em;
+  max-width: 32rem;
   overflow-wrap: break-word;
   white-space: normal;
 }
@@ -225,4 +245,3 @@ strong {
     max-width: 100%;
   }
   }
-

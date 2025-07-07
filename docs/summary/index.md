@@ -1,5 +1,5 @@
 ---
-title: 事案の概要
+title: 事案の概要 - ＥＮＥＯＳの内部通報制度に関する訴訟について
 description: ＥＮＥＯＳ（エネオス）は、元社長のセクハラ不祥事を受けて、コンプライアンス徹底を表明しておりますが、通報窓口における対応には問題があるといえます。内部通報制度をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、公益通報に関する問題を検証していきます。
 # date: 2023-03-06
 # categories:
@@ -18,31 +18,43 @@ image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
     - date
-    # - navigation
+    - navigation
     # - toc
 # icon: material/home
 ---
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
 <div id="mobileMenu" class="mobile-menu">
-  <p class="mobile small doc pad1">
-    <i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
+  <p class="mobile small doc">
+    <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
   </p>
-  <p class="mobile small doc pad1">
+  <p class="mobile small doc">
     <i class="bi bi-chevron-compact-right"></i>
     <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a>
   </p>
-  <p class="mobile small doc pad1">
+  <p class="mobile small doc">
     <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a>
+    <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">当事者の主張</a>
   </p>
-  <p class="mobile small doc pad1">
+  <p class="mobile small doc pad2">
     <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張書面</a>
+    <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a>
   </p>
-  <p class="mobile small doc pad1" style="margin-bottom: 0.4rem !important;">
+  <p class="mobile small doc pad2">
     <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a>
+    <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">通報者側の主張</a>
+  </p>
+  <p class="mobile small doc pad2">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a>
+  </p>
+  <p class="mobile small doc">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会質疑応答</a>
+  </p>
+  <p class="mobile small doc pad2">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/agm/hotline" class="arrow-link-small">通報者からの質問</a>
   </p>
 </div>
 
@@ -54,6 +66,8 @@ hide:
 </p>
 
 # 事案の概要
+
+<div class="width-40" markdown>
 
 ## 通報の経緯と企業の対応
 権益売買が関わるコンサルタント費用の支払において、日本企業が本来支払う必要のないオーストラリアのＧＳＴ（消費税）を支払う手続をとらされていることに不安を抱き、この事実を内部通報しました。
@@ -82,3 +96,5 @@ hide:
 ＥＮＥＯＳは、従業員の心理的安全性を確保するための施策として、「みんなが安心して働くための３か条」を対外的に公表しています。「01 相手を尊重する」「02 相手の話を聞く」「03 言うべきことを伝える」という３か条です。
 
 にもかかわらず、調査の対象を不明確なままに通報者へ「違反ではない」「解決済み」と通知する対応は、この３か条の趣旨や、ＥＮＥＯＳが掲げる「安心して働ける職場環境の整備を約束する」という表明とも矛盾しています。
+
+</div>

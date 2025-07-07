@@ -26,24 +26,36 @@ icon: material/home
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
 <div id="mobileMenu" class="mobile-menu">
-  <p class="mobile small doc pad1">
-    <i class="fa-solid fa-house"></i> <a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
+  <p class="mobile small doc">
+    <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
   </p>
-  <p class="mobile small doc pad1">
+  <p class="mobile small doc">
     <i class="bi bi-chevron-compact-right"></i>
     <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a>
   </p>
-  <p class="mobile small doc pad1">
+  <p class="mobile small doc">
     <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/judgment/" class="arrow-link-small">判決文全文</a>
+    <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">当事者の主張</a>
   </p>
-  <p class="mobile small doc pad1">
+  <p class="mobile small doc pad2">
     <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/argument/" class="arrow-link-small">ＥＮＥＯＳの主張書面</a>
+    <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a>
   </p>
-  <p class="mobile small doc pad1" style="margin-bottom: 0.4rem !important;">
+  <p class="mobile small doc pad2">
     <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link-small">株主総会質問事項</a>
+    <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">通報者側の主張</a>
+  </p>
+  <p class="mobile small doc pad2">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a>
+  </p>
+  <p class="mobile small doc">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会質疑応答</a>
+  </p>
+  <p class="mobile small doc pad2">
+    <i class="bi bi-chevron-compact-right"></i>
+    <a href="https://minnanosaiban.github.io/hotline/agm/hotline" class="arrow-link-small">通報者からの質問</a>
   </p>
 </div>
 
@@ -54,14 +66,9 @@ icon: material/home
   </a>
 </p>
 
-<h1 class="top-title" style="margin-bottom: 4rem !important;">
+<h1 class="top-title-13" style="margin-bottom: 4rem !important;">
   <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
 </h1>
-
-<p class="link-nav" style="font-size: 1.2em; margin-top: 4rem !important; margin-bottom: 0.8rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/summary/agm/" class="arrow-link" >
-  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span><b>株主総会質問事項</b>
-</a></p>
 
 <div class="nt-cards nt-grid cols-3" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
     <a href="https://minnanosaiban.github.io/hotline/summary/" class="nt-card">
@@ -71,24 +78,24 @@ icon: material/home
             <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
-        <a href="https://minnanosaiban.github.io/hotline/judgment/" class="nt-card">
+        <a href="https://minnanosaiban.github.io/hotline/trial/" class="nt-card">
         <div class="nt-card-content">
-            <p class="nt-card-title" style="text-align: center;">🔸判決文全文🔸</p>
-            <p class="nt-card-text">通報者は調査結果に対して不服を述べる法的な利益を有していないとして、裁判所は、「通報者に対する通知の適切さ」については検討しませんでした。
+            <p class="nt-card-title" style="text-align: center;">🔸当事者の主張🔸</p>
+            <p class="nt-card-text">通報者に対する義務の有無など、ＥＮＥＯＳと通報者、当事者の主張が対立する事項を示しています。ＥＮＥＯＳの主張書面全文を掲載しています。
             <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
-    <a href="https://minnanosaiban.github.io/hotline/argument/" class="nt-card">
+    <a href="https://minnanosaiban.github.io/hotline/agm/" class="nt-card">
         <div class="nt-card-content">
-            <p class="nt-card-title" style="text-align: center;">🔸ＥＮＥＯＳの主張書面🔸</p>
-            <p class="nt-card-text">コンプライアンスホットライン規程は企業組織内の自律的な規範にとどまるものであるとして、従業員に対する義務を定めているのではないと主張しています。
+            <p class="nt-card-title" style="text-align: center;">🔸株主総会質疑応答🔸</p>
+            <p class="nt-card-text">株主総会の質疑応答の文字起こしを掲載しています。内部通報制度の利用者である私も問題提起すべく、指名されるまで株主総会に出席します。
             <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
         </div>
     </a>
 </div>
 
 <div class="center-container" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
-<p class="large width-40">
+<p style="max-width: 40em;" class="large">
 通報者を通報内容に関係する情報から排除し、通報者に不正確な情報を通報者に共有する行為は、ＥＮＥＯＳが公に掲げる表明と大きく乖離しています。
 </p>
 </div>
