@@ -14,7 +14,7 @@
 }
 
 [data-md-color-scheme="default"] {
-  --md-typeset-color: #150e0c; /* テキストカラー*/   
+  --md-typeset-color: #150e0c !important; /* テキストカラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */

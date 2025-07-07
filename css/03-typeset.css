@@ -95,7 +95,7 @@ h2 + h3 {
 }
 */
 h3 {
-  margin: 6.4rem 0 1.2rem 0 !important;
+  margin: 2rem 0 2rem 0 !important;
   font-size: 1.6em !important;
   line-height: 1.8 !important;
   color: var(--md-typeset-color) !important;
@@ -236,7 +236,7 @@ strong {
   }
 /* １行の文字数（４０文字） */
 .width-40 {
-  max-width: 40em;
+  max-width: 32rem;
   overflow-wrap: break-word;
   white-space: normal;
 }

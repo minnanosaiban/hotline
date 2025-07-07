@@ -21,14 +21,14 @@
 .arrow-link .arrow {
   color: var(--md-main1-color);  
   display: inline-block;
-  margin-right: 1em;
   transition: transform 0.3s ease;
 }
 .arrow-link:hover .arrow {
   transform: translateX(8px);
   }
 .arrow-link:hover {
-  color: var(--md-main1-color) !important;  
+  color: var(--md-typeset-color) !important;  
+  text-decoration-thickness: 1.5px;
 }
 /* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link-small {
