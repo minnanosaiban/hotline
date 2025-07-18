@@ -80,7 +80,8 @@
   font-weight: 700 !important;
   }
 .card-text {
-  font-size: 1em;
+  font-size: 1em !important;
+  line-height: 2 !important;
   padding: 0;
   margin: 1em 0 !important;
   }
@@ -92,7 +93,8 @@
   font-weight: 700 !important;
 }
 .nt-card-text {
-  font-size: 1em;
+  font-size: 1em !important;
+  line-height: 2 !important;
   padding: 0;
   margin: 1em 0 !important;
 }
