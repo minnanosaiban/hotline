@@ -29,6 +29,7 @@
 .arrow-link:hover {
   color: var(--md-typeset-color) !important;  
   text-decoration-thickness: 1.5px;
+  font-weight: 700 !important;
 }
 /* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link-small {
