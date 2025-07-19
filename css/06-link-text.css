@@ -1,4 +1,10 @@
-/* 色付き下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
+/* リンクリストの文字の大きさと行間 */
+.link-list {
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
+  font-size: 16px !important;
+}
+/* nav用のリンク文字の大きさと行間 */
 .link-nav {
   margin-top: 1.6rem !important;
   margin-bottom: 1.6rem !important;
@@ -8,6 +14,15 @@
   margin-left: 0.8rem !important;
   }
   }
+/* アイコンのホバー */
+.icon-hover {
+  color: var(--md-typeset-color);
+  transition: color 0.3s ease;
+}
+.icon-hover:hover {
+  color: var(--md-main1-color);
+}
+/* 色付き下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link {
   display: inline-block;
   color: var(--md-typeset-color) !important;
@@ -18,6 +33,11 @@
   text-decoration-color: var(--md-main1-color);
   text-decoration-thickness: 1px;
 }
+.arrow-link:hover {
+  color: var(--md-typeset-color) !important;  
+  text-decoration-thickness: 1.5px;
+  font-weight: 700 !important;
+}
 .arrow-link .arrow {
   color: var(--md-main1-color);  
   display: inline-block;
@@ -26,11 +46,6 @@
 .arrow-link:hover .arrow {
   transform: translateX(8px);
   }
-.arrow-link:hover {
-  color: var(--md-typeset-color) !important;  
-  text-decoration-thickness: 1.5px;
-  font-weight: 700 !important;
-}
 /* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link-small {
   display: inline-block;
