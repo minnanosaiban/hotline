@@ -100,15 +100,15 @@ h3 {
   margin: 4.8rem 0 2.4rem 0 !important;
   font-size: 1.6em !important;
   line-height: 1.4 !important;
-  color: var(--md-typeset-color) !important;
-  font-weight: 700 !important;
+  color: var(--md-h-color) !important;
+  font-weight: 400 !important;
 }
 h2 + h3 {
   margin-top: 2.4rem !important;
 }
 @media only screen and (max-width: 767px) {
   h3 {
-  font-size: 1.2em !important;
+  font-size: 1.4em !important;
   }
   }
 
@@ -129,7 +129,7 @@ strong {
 /* 文字の大きさ */
 .large {
   font-size: 1.2em !important;
-  line-height: 1.6 !important;
+  line-height: 2.4 !important;
   font-weight: 700 !important;
 }
 .small {
@@ -244,7 +244,7 @@ strong {
   }
 /* １行の文字数（４０文字） */
 .width-40 {
-  max-width: 38rem;
+  max-width: 36rem;
   overflow-wrap: break-word;
   white-space: normal;
 }

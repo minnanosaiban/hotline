@@ -11,10 +11,12 @@
   --tomato-color: #dc3545;
   --text-color-1: #150e0c;
   --text-color-2: #2E404d;
+  --text-color-3: #5f3dc4;
 }
 
 [data-md-color-scheme="default"] {
   --md-typeset-color: #150e0c !important; /* テキストカラー*/
+  --md-h-color: #5f3dc4 !important; /* hテキストカラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
@@ -26,6 +28,7 @@
 
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
+  --md-h-color: #5f3dc4 !important; /* hテキストカラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
   --md-primary-fg-color: #2E404d; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
