@@ -57,27 +57,11 @@ h2 {
 }
 */
 h2 {
-  font-size: 2.4em !important;
+  font-size: 1.6em !important;
   margin: 8rem 0 1.2rem 0 !important;
   line-height: 1.4 !important;
-  color: var(--md-typeset-color) !important;
-  font-weight: 300 !important;
-}
-/* デフォルトの h2:after スタイル */
-h2:after {
-  content: "";
-  display: block;
-  height: 4px;
-  width: 100%;
-  background: linear-gradient(to right, var(--md-typeset-color), var(--md-typeset-bg-color));
-  margin-top: 8px;
-}
-/* md-post__content 内の h2 に対して h2:after を無効にする */
-.md-post__content h2 {
-  margin: 0 0 1.2rem 0 !important;
-}
-.md-post__content h2:after {
-  content: none; /* 横線を無効化 */
+  color: var(--md-h-color) !important;
+  font-weight: 400 !important;
 }
 @media only screen and (max-width: 767px) {
   h2 {
@@ -97,7 +81,7 @@ h2 + h3 {
 }
 */
 h3 {
-  margin: 4.8rem 0 2.4rem 0 !important;
+  margin: 2.4rem 0 2.4rem 0 !important;
   font-size: 1.6em !important;
   line-height: 1.4 !important;
   color: var(--md-h-color) !important;
@@ -111,10 +95,25 @@ h2 + h3 {
   font-size: 1.4em !important;
   }
   }
-
+/* デフォルトの h2:after スタイル */
+/* h2:after { */
+/*   content: ""; */
+/*   display: block; */
+/*   height: 4px; */
+/*   width: 100%; */
+/*   background: linear-gradient(to right, var(--md-typeset-color), var(--md-typeset-bg-color)); */
+/*   margin-top: 8px; */
+/* }  */
+/* md-post__content 内の h2 に対して h2:after を無効にする */
+/* .md-post__content h2 { */
+/*   margin: 0 0 1.2rem 0 !important; */
+/* } */
+/* .md-post__content h2:after { */
+/*   content: none; /* 横線を無効化 */
+/* } */
 /* 強調・下線 */
 strong em {
-  color: var(--red-color) !important;
+  color: var(--md-strong-color) !important;
   font-style: normal !important;
 }
 strong {
@@ -133,7 +132,7 @@ strong {
   font-weight: 700 !important;
 }
 .small {
-  font-size: 0.8em !important;
+  font-size: 16px !important;
 }
 /* センタリング・右寄せ */
 .center {
@@ -253,3 +252,11 @@ strong {
     max-width: 100%;
   }
   }
+/* 広めの段落マージン */
+.yohaku-20 {
+  margin: 4.8rem 0 4rem 0 !important;
+}
+/* 狭い行間 */
+.list {
+  line-height: 1.6 !important;
+}
