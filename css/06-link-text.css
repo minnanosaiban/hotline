@@ -84,6 +84,34 @@
   text-decoration-color: var(--md-main1-color);
   text-decoration-thickness: 1px;
   }
+/* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
+.arrow-link-small-h {
+  display: inline-block;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-thickness: 1px;
+}
+.arrow-link-small-h .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-default-fg-color--lighter);
+}
+.arrow-link-small-h:hover .arrow {
+  transform: translateX(4px);
+  color: var(--md-h-color);  
+  }
+.arrow-link-small-h:hover {
+  color: var(--md-h-color) !important;  
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-h-color);
+  text-decoration-thickness: 1px;
+  }
 /* リンクテキスト */
 /*
 a {
