@@ -1,0 +1,17 @@
+/* カード */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0;
+  padding: 1.6rem;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px !important;
+  line-height: 2.4;
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
+}
+@media only screen and (max-width: 767px) {
+  card {
+  padding: 0.8rem;
+  }
+  }

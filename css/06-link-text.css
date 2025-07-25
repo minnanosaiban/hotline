@@ -57,6 +57,30 @@
 .arrow-link:hover .arrow {
   transform: translateX(8px);
   }
+/* 色付き下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
+.arrow-link-b {
+  display: inline-block;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-thickness: 1px;
+}
+.arrow-link-b:hover {
+  color: var(--md-typeset-color) !important;  
+  text-decoration-thickness: 1.5px;
+  font-weight: 700 !important;
+}
+.arrow-link-b .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.arrow-link-b:hover .arrow {
+  color: var(--md-h-color);  
+  transform: translateX(8px);
+  }
 /* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link-small {
   display: inline-block;
