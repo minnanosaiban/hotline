@@ -25,37 +25,24 @@ hide:
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
 <div id="mobileMenu" class="mobile-menu">
-  <p class="mobile small doc">
-    <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a>
-  </p>
-  <p class="mobile small doc">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">事案の概要</a>
-  </p>
-  <p class="mobile small doc">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">当事者の主張</a>
-  </p>
-  <p class="mobile small doc pad2">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a>
-  </p>
-  <p class="mobile small doc pad2">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">通報者側の主張</a>
-  </p>
-  <p class="mobile small doc pad2">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a>
-  </p>
-  <p class="mobile small doc">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会質疑応答</a>
-  </p>
-  <p class="mobile small doc pad2">
-    <i class="bi bi-chevron-compact-right"></i>
-    <a href="https://minnanosaiban.github.io/hotline/agm/hotline" class="arrow-link-small">通報者からの質問</a>
-  </p>
+<p class="sitemap-text">
+<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
+<p class="sitemap-text">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">問題の概要</a></p>
+<p class="sitemap-text">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
+<p class="sitemap-text">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">主張と判決文</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張と認否（主張書面全文）</a></p>
+<p class="sitemap-text" style="margin-bottom: 0.8rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会</a></p>
 </div>
 
 <p style="margin: 0;">
@@ -65,27 +52,20 @@ hide:
   </a>
 </p>
 
-# 株主総会質疑応答<br>文字起こし
+# 株主総会<br>質疑応答文字起こし
 <div class="width-40" markdown>
-<p class="large">
-株主総会の質疑応答の文字起こしを掲載しています。内部通報制度の利用者である私も問題提起すべく、指名されるまで株主総会に出席します。</p>
-<p style="margin-top: 0.4rem !important; margin-bottom: 0.4rem !important;">
-<a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link">
-  <span class="arrow"><i class="fa-solid fa-angles-right"></i>　</span>通報者からの質問事項</a></p>
 
 <div class="video-container" style="margin-top: 6.4rem !important; margin-bottom: 6.4rem !important;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yGMbUWehn8Y?si=V_2DWIfNKB6EP-aU&amp;start=2549" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-## 第14回定時株主総会
-
 続きまして、本総会の報告事項と決議事項の全般に関してご質問をお受けいたしますが、まず、インターネットでお受けしておりました事前質問にご回答申し上げます。
 
 今回、９３件の事前質問をいただいておりまして、このうち代表的なものをご紹介いたします。
 
-### ＰＢＲ１倍以上に向けた今後の取り組みについて
+## ＰＢＲ１倍以上に向けた今後の取り組みについて
 
-まず、株価についてのご質問でございます。株価の目標値はいくらか。ＰＢＲが低いが、ＰＢＲ１倍以上に向けた今後の取り組みについて教えてほしいといったご質問をいただきましたので、ご解答いたします。
+まず、株価についてのご質問でございます。株価の目標値はいくらか。ＰＢＲが低いが、ＰＢＲ１倍以上に向けた今後の取り組みについて教えてほしいといったご質問をいただきましたので、ご回答いたします。
 
 まず、私どもといたしましては、現状の株価に満足しておりません。ＰＢＲ１倍を下回る状況につきましては、当初から要請を踏まえ、取締役会にて議論を重ね、現状分析から改善に向けた取り組みの内容を、昨年８月及び本年５月に公表いたしました。
 
