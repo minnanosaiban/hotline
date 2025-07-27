@@ -14,10 +14,14 @@
     padding-bottom: 0.4rem !important;
   }
   }
+.bottom-nav {
+  margin-top: 16rem !important;
+  margin-bottom: 0rem !important;
+}
 @media only screen and (max-width: 767px) {
   .bottom-nav {
     margin-top: 8rem !important;
-    margin-bottom: 0.4rem !important;
+    margin-bottom: 0rem !important;
   }
   }
 /* ハンバーガーアイコン */
@@ -80,7 +84,7 @@
     display: block;
     font-size: 1em !important;
     background: var(--md-default-bg-color);
-    padding: 0.4rem;
+    padding: 0.8rem;
     margin: 0.8rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }

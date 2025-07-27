@@ -29,7 +29,7 @@
   margin-top: 0 !important;
   margin-right: 3.2rem !important;
   margin-left: 3.2rem !important;
-  margin-bottom: 8rem !important;  
+  margin-bottom: 0rem !important;  
 }
 @media only screen and (max-width: 767px) {
   .md-content__inner {
@@ -97,4 +97,22 @@
   .center-container {
     justify-content: flex-start;
   }
+}
+/* サイトマップの設定 */
+.sitemap-text {
+  font-size: 14px !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+.sitemap-text-1 {
+  font-size: 14px !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+  padding-left:2em;
+}
+.sitemap-text-2 {
+  font-size: 14px !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+  padding-left:4em;
 }

@@ -18,9 +18,10 @@ p {
 }
 */
 .md-content p {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  line-height: 2;
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
+  font-size: 18px;
+  line-height: 2.4;
   color: var(--md-typeset-color) !important;
   font-weight: 400;
 }
@@ -37,7 +38,7 @@ h1 {
 h1 {
   font-size: 3.2em !important;
   line-height: 1.4 !important;
-  margin: 0rem 0 6.4rem 0 !important;
+  margin: 0rem 0 8rem 0 !important;
   color: var(--md-typeset-color) !important;
   font-weight: 300 !important;
   }
@@ -56,26 +57,11 @@ h2 {
 }
 */
 h2 {
-  margin: 6.4rem 0 1.2rem 0 !important;
-  font-size: 2em !important;
-  line-height: 1.6 !important;
-  color: var(--md-typeset-color) !important;
+  font-size: 1.6em !important;
+  margin: 8rem 0 1.2rem 0 !important;
+  line-height: 1.4 !important;
+  color: var(--md-h-color) !important;
   font-weight: 400 !important;
-}
-/* デフォルトの h2:after スタイル */
-h2:after {
-  content: "";
-  display: block;
-  height: 4px;
-  width: 100%;
-  background: linear-gradient(to right, var(--md-typeset-color), var(--md-typeset-bg-color));
-}
-/* md-post__content 内の h2 に対して h2:after を無効にする */
-.md-post__content h2 {
-  margin: 0 0 1.2rem 0 !important;
-}
-.md-post__content h2:after {
-  content: none; /* 横線を無効化 */
 }
 @media only screen and (max-width: 767px) {
   h2 {
@@ -95,23 +81,39 @@ h2 + h3 {
 }
 */
 h3 {
-  margin: 2rem 0 2rem 0 !important;
+  margin: 2.4rem 0 2.4rem 0 !important;
   font-size: 1.6em !important;
-  line-height: 1.8 !important;
-  color: var(--md-typeset-color) !important;
+  line-height: 1.4 !important;
+  color: var(--md-h-color) !important;
+  font-weight: 400 !important;
 }
 h2 + h3 {
-  margin-top: 1.6em !important;
+  margin-top: 2.4rem !important;
 }
 @media only screen and (max-width: 767px) {
   h3 {
-  font-size: 1.2em !important;
+  font-size: 1.4em !important;
   }
   }
-
+/* デフォルトの h2:after スタイル */
+/* h2:after { */
+/*   content: ""; */
+/*   display: block; */
+/*   height: 4px; */
+/*   width: 100%; */
+/*   background: linear-gradient(to right, var(--md-typeset-color), var(--md-typeset-bg-color)); */
+/*   margin-top: 8px; */
+/* }  */
+/* md-post__content 内の h2 に対して h2:after を無効にする */
+/* .md-post__content h2 { */
+/*   margin: 0 0 1.2rem 0 !important; */
+/* } */
+/* .md-post__content h2:after { */
+/*   content: none; /* 横線を無効化 */
+/* } */
 /* 強調・下線 */
 strong em {
-  color: var(--red-color) !important;
+  color: var(--md-strong-color) !important;
   font-style: normal !important;
 }
 strong {
@@ -126,11 +128,11 @@ strong {
 /* 文字の大きさ */
 .large {
   font-size: 1.2em !important;
-  line-height: 1.6 !important;
+  line-height: 2.4 !important;
   font-weight: 700 !important;
 }
 .small {
-  font-size: 0.8em !important;
+  font-size: 16px !important;
 }
 /* センタリング・右寄せ */
 .center {
@@ -154,12 +156,14 @@ strong {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
   line-height: 2.4 !important;
+  font-size: 16px !important;
   margin: 0;
   }
 .idt {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
   line-height: 2.4 !important;
+  font-size: 16px !important;
   margin: 0;
   text-indent:1em;
   }
@@ -167,6 +171,7 @@ strong {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
   line-height: 2.4 !important;
+  font-size: 16px !important;
   margin: 0;
   padding-left:1em;
   text-indent:-1em;
@@ -175,12 +180,14 @@ strong {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
   line-height: 2.4 !important;
+  font-size: 16px !important;
   margin: 0;
   padding-left:2em;
   text-indent:-2em;
   }
 .hg-idt6 {
   line-height: 2.4 !important;
+  font-size: 16px !important;
   margin: 0;
   padding-left:6em;
   text-indent:-6em;
@@ -236,7 +243,7 @@ strong {
   }
 /* １行の文字数（４０文字） */
 .width-40 {
-  max-width: 32rem;
+  max-width: 36rem;
   overflow-wrap: break-word;
   white-space: normal;
 }
@@ -245,3 +252,11 @@ strong {
     max-width: 100%;
   }
   }
+/* 広めの段落マージン */
+.yohaku-20 {
+  margin: 4.8rem 0 4rem 0 !important;
+}
+/* 狭い行間 */
+.list {
+  line-height: 1.6 !important;
+}
