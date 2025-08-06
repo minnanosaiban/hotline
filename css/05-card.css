@@ -15,3 +15,17 @@
   padding: 0.8rem;
   }
   }
+/* テーブル */
+.table-set{
+  border-collapse: collapse; 
+  width: 100%; 
+  border: 1px solid #e5e7ea;
+  }
+.table-text{
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 2;
+  border: 1px solid #e5e7ea; 
+  vertical-align: top;
+  }
