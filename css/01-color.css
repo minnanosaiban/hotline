@@ -9,13 +9,13 @@
   --pasol-color: #e0217f;
   --eneos-color: #e94709;  
   --tomato-color: #dc3545;
-  --text-color-1: #150e0c;
+  --text-color-1: #08131a;
   --text-color-2: #2E404d;
   --text-color-3: #5f3dc4;
 }
 
 [data-md-color-scheme="default"] {
-  --md-typeset-color: #150e0c !important; /* テキストカラー*/
+  --md-typeset-color: #08131a !important; /* テキストカラー*/
   --md-h-color: #5f3dc4; /* hテキストカラー*/
   --md-strong-color: #5f3dc4;  /* 強調カラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
