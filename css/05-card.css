@@ -1,3 +1,22 @@
+/* カード内のテキスト（ホバー未対応） */
+.card-title-large {
+  margin: 0.8em 0 !important;
+  font-size: 1.6em !important;
+  line-height: 1.6 !important;
+  font-weight: 300 !important;
+  }
+.card-title {
+  margin: 0.8em 0 !important;
+  font-size: 1.2em !important;
+  line-height: 1.6 !important;
+  font-weight: 700 !important;
+  }
+.card-text {
+  font-size: 1em !important;
+  line-height: 2 !important;
+  padding: 0;
+  margin: 1.6em 0 !important;
+  }
 /* カード */
 .card {
   border: 1px solid #ddd;
@@ -11,7 +30,7 @@
   margin-bottom: 2.4em;
 }
 @media only screen and (max-width: 767px) {
-  card {
+  .card {
   padding: 0.8rem;
   }
   }
@@ -29,3 +48,16 @@
   border: 1px solid #e5e7ea; 
   vertical-align: top;
   }
+/* 音声カード */
+.audio-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 1.5rem;
+}
+.audio-content {
+  flex: 1;
+}
