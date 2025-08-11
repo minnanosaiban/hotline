@@ -73,6 +73,10 @@
   color: var(--md-main1-color)  !important;
   font-weight: 400 !important;
 }
+.md-sidebar--secondary {
+  overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
+  white-space: nowrap;    /* テキストの改行を抑える */
+}
 /* スマホで表示 */
 .mobile {
   display: none;
