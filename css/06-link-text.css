@@ -125,7 +125,6 @@
   color: var(--md-default-fg-color--lighter);
 }
 .arrow-link-small-h:hover .arrow {
-  transform: translateX(4px);
   color: var(--md-h-color);  
   }
 .arrow-link-small-h:hover {
