@@ -1,7 +1,7 @@
 /* カード内のテキスト（ホバー未対応） */
 .card-title-large {
   margin: 0.8em 0 !important;
-  font-size: 1.6em !important;
+  font-size: 20px !important;
   line-height: 1.6 !important;
   font-weight: 300 !important;
   }

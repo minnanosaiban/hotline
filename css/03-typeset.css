@@ -1,5 +1,4 @@
 /* フォント・pタグ・hタグ・強調・下線・文字の大きさ・センタリング・右寄せ・インデント */
-
 /* フォント */
 :root {
   --md-text-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -127,9 +126,9 @@ strong {
 }
 /* 文字の大きさ */
 .large {
-  font-size: 1.2em !important;
+  font-size: 20px !important;
   line-height: 2.4 !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 .small {
   font-size: 16px !important;
@@ -264,5 +263,6 @@ strong {
 }
 /* 狭い行間 */
 .list {
-  line-height: 1.6 !important;
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.1rem !important;
 }
