@@ -51,7 +51,7 @@
 .arrow-link:hover .arrow {
   transform: translateX(8px);
   }
-/* 色付き下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
+/* 青色付き下線付きのリンクテキストのホバーで太文字、矢印が動く */
 .arrow-link-b {
   display: inline-block;
   color: var(--md-typeset-color) !important;
@@ -63,8 +63,9 @@
   text-decoration-thickness: 1px;
 }
 .arrow-link-b:hover {
-  color: var(--md-typeset-color) !important;  
-  text-decoration-thickness: 1.5px;
+  color: var(--md-h-color) !important;  
+  text-decoration-thickness: 1.2px;
+  text-decoration-color: var(--md-h-colo);
   font-weight: 700 !important;
 }
 .arrow-link-b .arrow {
