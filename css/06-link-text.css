@@ -27,34 +27,29 @@
 .icon-hover:hover {
   color: var(--md-main1-color);
 }
-/* 色付き下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
-.arrow-link {
+/* 矢印が動く */
+.arrow-link-main1 {
   display: inline-block;
-  color: var(--md-typeset-color) !important;
+  color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
   text-decoration: none;
   transition: color 0.3s ease;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--md-main1-color);
-  text-decoration-thickness: 1px;
 }
-.arrow-link:hover {
-  color: var(--md-typeset-color) !important;  
-  text-decoration-thickness: 1.5px;
-  font-weight: 700 !important;
-}
-.arrow-link .arrow {
-  color: var(--md-main1-color);  
+.arrow-link-main1:hover {
+  color: var(--md-main1-color) !important;  /* 後：メインの文字色 */
+  transition: color 0.3s ease;
+  }
+.arrow-link-main1 .arrow {
   display: inline-block;
   transition: transform 0.3s ease;
+  color: var(--md-main1-color);  /* 前と後：メインの矢印 */
 }
-.arrow-link:hover .arrow {
+.arrow-link-main1:hover .arrow {
   transform: translateX(8px);
-  }
-/* 青色付き下線付きのリンクテキストのホバーで太文字、矢印が動く */
-.arrow-link-b {
+}
+/* 下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
+.arrow-link-main2 {
   display: inline-block;
-  color: var(--md-typeset-color) !important;
+  color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
   text-decoration: none;
   transition: color 0.3s ease;
   text-decoration: underline;
@@ -62,21 +57,39 @@
   text-decoration-color: var(--md-default-fg-color--lighter);
   text-decoration-thickness: 1px;
 }
-.arrow-link-b:hover {
-  color: var(--md-h-color) !important;  
-  text-decoration-thickness: 1.2px;
-  text-decoration-color: var(--md-h-colo);
-  font-weight: 700 !important;
-}
-.arrow-link-b .arrow {
+.arrow-link-main2:hover {
+  color: var(--md-main2-color) !important;  /* 前：メインの文字色 */
+  transition: color 0.3s ease;
+  text-decoration-color: var(--md-main2-color);
+  }
+.arrow-link-main2 .arrow1 {
   display: inline-block;
   transition: transform 0.3s ease;
+  color: var(--md-main2-color);  /* 前：メインの矢印 */
 }
-.arrow-link-b:hover .arrow {
-  color: var(--md-h-color);  
+.arrow-link-main2:hover .arrow1 {
   transform: translateX(8px);
-  }
-/* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
+  color: var(--md-main2-color);  /* 後：メインの矢印 */
+}
+.arrow-link-main2 .arrow2 {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-typeset-color);  /* 前：黒の矢印 */
+}
+.arrow-link-main2:hover .arrow2 {
+  transform: translateX(8px);
+  color: var(--md-main2-color);  /* 後：メインの矢印 */
+}
+.arrow-link-main2 .arrow3 {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-default-fg-color--lighter);  /* 前：グレーの矢印 */
+}
+.arrow-link-main2:hover .arrow3 {
+  transform: translateX(8px);
+  color: var(--md-main2-color);  /* 後：メインの矢印 */
+}
+/* （ヘッダーフッターのリンク）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
 .arrow-link-small {
   display: inline-block;
   color: var(--md-typeset-color) !important;
@@ -121,10 +134,10 @@
   color: var(--md-default-fg-color--lighter);
 }
 .arrow-link-small-h:hover .arrow {
-  color: var(--md-h-color);  
+  color: var(--md-main2-color);  
   }
 .arrow-link-small-h:hover {
-  color: var(--md-h-color) !important;  
+  color: var(--md-main2-color) !important;  
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;

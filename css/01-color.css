@@ -24,7 +24,7 @@
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
   --md-main1-color: var(--eneos-color); /* メインカラー1 */
-  --md-main2-color: var(--eneos-color); /* メインカラー2 */  
+  --md-main2-color: #5f3dc4; /* メインカラー2 */  
 }
 
 [data-md-color-scheme="slate"] {
@@ -37,7 +37,7 @@
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
   --md-main1-color: var(--eneos-color); /* メインカラー1 */
-  --md-main2-color: var(--eneos-color); /* メインカラー2 */  
+  --md-main2-color: #5f3dc4; /* メインカラー2 */  
 }
 
 /* 
