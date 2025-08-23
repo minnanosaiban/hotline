@@ -31,10 +31,7 @@
   padding: 1.6rem;
   box-shadow: none;
   width: 100%;
-  font-size: 16px !important;
-  line-height: 2.4;
-  margin-top: 2.4em;
-  margin-bottom: 2.4em;
+  margin: 2.4rem 0;
 }
 @media only screen and (max-width: 767px) {
   .card {
@@ -56,15 +53,7 @@
   vertical-align: top;
   }
 /* 音声カード */
-.audio-card {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  margin-bottom: 1.5rem;
-}
 .audio-content {
   flex: 1;
+  margin: 1.6rem 0;
 }
