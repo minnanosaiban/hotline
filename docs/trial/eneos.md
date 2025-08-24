@@ -58,15 +58,15 @@ hide:
 
 <div class="margin08">
 <div class="card width-40">
-<p  class="larger center">
+<p  class="larger center margin01">
 ＥＮＥＯＳ側の主張を解説</p>
-<div class="audio-content center">
+<div class="audio-content center margin01">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_20250811.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
-<p class="smallest center">
+<p class="smallest center margin01">
 NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月11日作成</p>
 </div>
 </div>

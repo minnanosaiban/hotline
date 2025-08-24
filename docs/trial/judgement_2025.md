@@ -57,8 +57,8 @@ hide:
 # 東京地裁判決<br>2025年3月<br>坂巻陽士裁判官
 
 <div class="margin08">
-<div class="card width-40">
-<p  class="larger center">
+<div class="card width-40 margin01">
+<p  class="larger center margin01">
 東京地裁判決を解説</p>
 <div class="audio-content center">
   <audio controls preload="none">
@@ -66,7 +66,7 @@ hide:
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
-<p class="smallest center">
+<p class="smallest center margin01">
 NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁2025年判決</a><br>カスタム指示無し<br>2025年8月7日作成</p>
 </div>
 </div>
