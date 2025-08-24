@@ -25,19 +25,8 @@
 }
 */
 .md-content__inner {
-  padding-top: 0rem;
-  margin-top: 0 !important;
-  margin-right: 6.4rem !important;
-  margin-left: 6.4rem !important;
-  margin-bottom: 0rem !important;  
+  padding-top: 0rem; 
 }
-@media only screen and (max-width: 767px) {
-  .md-content__inner {
-    margin-right: 0.8rem !important;
-    margin-left: 0.8rem !important;
-    margin-bottom: 0rem !important;  
-  }
-  }
 /* タブ（ホバー時の下線・アクティブの色） */
 .md-tabs__link:hover { /* タブのホバー時の下線 */
   color: var(--md-main1-color) ;
