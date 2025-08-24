@@ -25,19 +25,8 @@
 }
 */
 .md-content__inner {
-  padding-top: 0rem;
-  margin-top: 0 !important;
-  margin-right: 3.2rem !important;
-  margin-left: 3.2rem !important;
-  margin-bottom: 0rem !important;  
+  padding-top: 0rem; 
 }
-@media only screen and (max-width: 767px) {
-  .md-content__inner {
-    margin-right: 0.8rem !important;
-    margin-left: 0.8rem !important;
-    margin-bottom: 0rem !important;  
-  }
-  }
 /* タブ（ホバー時の下線・アクティブの色） */
 .md-tabs__link:hover { /* タブのホバー時の下線 */
   color: var(--md-main1-color) ;
@@ -72,6 +61,10 @@
 .md-nav__link--active:hover {
   color: var(--md-main1-color)  !important;
   font-weight: 400 !important;
+}
+.md-sidebar--secondary {
+  overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
+  white-space: nowrap;    /* テキストの改行を抑える */
 }
 /* スマホで表示 */
 .mobile {

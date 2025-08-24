@@ -1,5 +1,5 @@
 ---
-title: 株主総会質疑応答　文字起こし（ＥＮＥＯＳホールディングス株主総会） - ＥＮＥＯＳの内部通報制度に関する訴訟について
+title: 株主総会質疑応答　文字起こし（ＥＮＥＯＳホールディングス株主総会） - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
 description: ＥＮＥＯＳの公式 YouTube を基にＥＮＥＯＳ株主総会の質疑応答を文字起こししています。内部通報制度を利用した通報者として、裁判の他、株主総会やタウンホールミーティングで問題提起を行ってまいります。
 # date: 2023-03-06
 # categories:
@@ -32,21 +32,23 @@ hide:
 <p class="sitemap-text">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
 <p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">主張と判決文</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張と認否（主張書面全文）</a></p>
-<p class="sitemap-text" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
 </div>
 
 <p style="margin: 0;">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/agm/ &text=株主総会質疑応答　文字起こし（ＥＮＥＯＳホールディングス株主総会） - ＥＮＥＯＳの内部通報制度に関する訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/agm/ &text=株主総会質疑応答　文字起こし（ＥＮＥＯＳホールディングス株主総会） - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -79,5 +81,5 @@ hide:
 
 当社が着実に第３次中計の各施策を実行し、また将来にわたって収益を創出し、成長することの善性を皆様にお示し、株価ＰＢＲの向上に向けて全力で取り組む所存でございます。
 
-＜以下、作成中です＞
+＜以下、作成中＞
 </div>

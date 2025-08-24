@@ -7,14 +7,16 @@
 <p class="sitemap-text">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
 <p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">主張と判決文</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張と認否（主張書面全文）</a></p>
-<p class="sitemap-text" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
+<p class="sitemap-text-1" style="margin-bottom: 0.8rem !important;">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
