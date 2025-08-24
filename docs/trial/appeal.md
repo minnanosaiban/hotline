@@ -58,15 +58,15 @@ hide:
 
 <div class="margin08">
 <div class="card width-40">
-<p  class="larger center">
+<p  class="larger center margin01">
 控訴審を解説</p>
-<div class="audio-content center">
+<div class="audio-content center margin01">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/kouso_20250807.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
-<p class="smallest center">
+<p class="smallest center margin01">
 NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月7日作成</p>
 </div>
 </div>
