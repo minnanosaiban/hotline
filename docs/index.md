@@ -1,5 +1,5 @@
 ---
-title: ＥＮＥＯＳの内部通報制度に関する訴訟について
+title: ＥＮＥＯＳの内部通報制度をめぐる訴訟について
 description: ＥＮＥＯＳ（エネオス）は、元社長のセクハラ不祥事を受けて、コンプライアンス徹底を表明しておりますが、通報窓口における対応には問題があるといえます。内部通報制度をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、公益通報に関する問題を検証していきます。
 
 # date: 2023-03-06
@@ -33,58 +33,107 @@ icon: material/home
 <p class="sitemap-text">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
 <p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">主張と判決文</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張と認否（主張書面全文）</a></p>
-<p class="sitemap-text" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
 </div>
 
-<p style="margin: 0;">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度に関する訴訟について"
+<p class="base">
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
-<h1 class="top-title-13" style="margin-bottom: 4rem !important;">
-  <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度に関する訴訟について
+<h1 class="base top-title-13">
+  <span style="color: #e94709;">ＥＮＥＯＳ</span>の内部通報制度をめぐる訴訟について
 </h1>
 
-<div class="nt-cards nt-grid cols-3" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
+<div class="base margin08">
+<p class="width-40">
+ＥＮＥＯＳは、「法的拘束力がない」「罰則がない」といった主張を行っています。このような主張に表れているとおり、現行の法制度では、通報者に誤解を促すような不確かな情報を伝えても問題となりません。法制度のあり方には問い直されるべき問題があります。
+</p>
+</div>
+
+<div class="base margin08 nt-cards nt-grid cols-2">
     <a href="https://minnanosaiban.github.io/hotline/summary/" class="nt-card">
       <div class="nt-card-content">
-        <p class="nt-card-title" style="text-align: center;">🔸問題の概要🔸</p>
-        <p class="nt-card-text">私は、ＥＮＥＯＳの従業員であり、勤務先の内部通報制度を利用した通報者です。その過程で、通報者に誤解を与えるような不正確な通知がなされるという問題に直面しました。
-        <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
+        <p class="nt-card-title margin01" style="text-align: center;">🔸問題の概要🔸</p>
+        <p class="nt-card-text margin01">私は、勤務先の内部通報制度を利用したＥＮＥＯＳの従業員です。通報対応の過程で、会社から誤解を促すような不確かな情報を受けるという問題に直面しました。
+        <span class="nt-card-arrow"> 続き <i class="bi bi-arrow-right"></i></span></p>
       </div>
     </a>
     <a href="https://minnanosaiban.github.io/hotline/fact/" class="nt-card">
       <div class="nt-card-content">
-        <p class="nt-card-title" style="text-align: center;">🔸背景と事実🔸</p>
-        <p class="nt-card-text">私が通報した内容は、日本が本来支払う必要のないオーストラリアの消費税（ＧＳＴ）を支払っていたというものでした。上司は「後で還付請求する」と説明していましたが…
-        <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
-      </div>
-    </a>
-    <a href="https://minnanosaiban.github.io/hotline/trial/" class="nt-card">
-      <div class="nt-card-content">
-        <p class="nt-card-title" style="text-align: center;">🔸主張と判決文🔸</p>
-        <p class="nt-card-text">判決文、ＥＮＥＯＳ側の主張書面を掲載しています。争点は、通報者に対して調査結果を通知する法的義務の有無です。裁判所は、通報者のために設けられたものではないとして…
-        <span class="nt-card-arrow"> 詳しく <i class="bi bi-arrow-right"></i></span></p>
+        <p class="nt-card-title margin01" style="text-align: center;">🔸背景と事実🔸</p>
+        <p class="nt-card-text margin01">私が通報したのは、日本企業が本来支払う必要のないオーストラリアの消費税（ＧＳＴ）を支払っていたという事実です。上司は、通報者に「還付手続きを進めて…　
+        <span class="nt-card-arrow"> 続き <i class="bi bi-arrow-right"></i></span></p>
       </div>
     </a>
 </div>
 
-<div class="center-container" style="margin-top: 4rem !important; margin-bottom: 4rem !important;">
-<p class="small" style="max-width: 40em;">
-当初の裁判の目的は、ＥＮＥＯＳ社長に内部通報制度の実態を認識させることにありました。次の手段として、ＥＮＥＯＳの株主総会に出席しましたが、発言の機会を得ることは叶いませんでした。
-（ <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small"  class="arrow-link-small">株主総会　文字起こし<span class="arrow">　<i class="bi bi-arrow-right"></i></span>
-</a>　）
-</p>
+<h1 class="center margin04">
+  裁判記録
+</h1>
+
+<div class="center-container margin04">
+<p class="width-40">
+<a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-main1" >
+「ＥＮＥＯＳ側の主張書面」「通報者の主張書面」「判決書」を掲載しています。また、これらの文書をソースにして NotebookLM で生成した音声を掲載しています。<span class="arrow"> 裁判記録へ <i class="bi bi-arrow-right"></i></span>
+</a></p>
+</div>
+      
+<div class="center-container margin04">
+<div class="card width-40">
+<p  class="larger center">
+ＥＮＥＯＳ側の主張を解説</p>
+<div class="audio-content center">
+  <audio controls preload="none">
+    <source src="https://minnanosaiban.github.io/hotline/img/eneos_20250811.m4a" type="audio/wav">
+    お使いのブラウザは audio 要素をサポートしていません。
+  </audio>
+</div>
+<p class="smallest center">
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月11日作成</p>
+</div>
+</div>
+
+<div class="center-container margin04">
+<div class="card width-40">
+<p  class="larger center">
+東京地裁判決を解説</p>
+<div class="audio-content center">
+  <audio controls preload="none">
+    <source src="https://minnanosaiban.github.io/hotline/img/judgement_20280807.m4a" type="audio/wav">
+    お使いのブラウザは audio 要素をサポートしていません。
+  </audio>
+</div>
+<p class="smallest center">
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁2025年判決</a><br>カスタム指示無し<br>2025年8月7日作成</p>
+</div>
+</div>
+
+<div class="center-container margin04">
+<div class="card width-40">
+<p  class="larger center">
+控訴審を解説</p>
+<div class="audio-content center">
+  <audio controls preload="none">
+    <source src="https://minnanosaiban.github.io/hotline/img/kouso_20250807.m4a" type="audio/wav">
+    お使いのブラウザは audio 要素をサポートしていません。
+  </audio>
+</div>
+<p class="smallest center">
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月7日作成</p>
+</div>
 </div>

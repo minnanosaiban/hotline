@@ -11,14 +11,14 @@ nav:
       - summary/index.md
   - 背景と事実: 
       - fact/index.md
-  - 主張と判決文:
+  - 裁判記録:
       - trial/index.md
       - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳのの主張書面 : trial/eneos.md     
       - <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面 : trial/whistleblower.md 
-      - <i class="bi bi-chevron-compact-right"></i> 東京地裁判決 : trial/judgement.md
-      - <i class="bi bi-chevron-compact-right"></i> 主張と認否（裁判文書全文） : https://minnanosaiban.github.io/eneos-saiban/argument.html
-  - 株主総会:
-      - agm/index.md
+      - <i class="bi bi-chevron-compact-right"></i> 控訴審の主張 : trial/appeal.md 
+      - <i class="bi bi-chevron-compact-right"></i> 東京地裁判決 2025年 : trial/judgement_2025.md
+      - <i class="bi bi-chevron-compact-right"></i> 東京地裁判決 2022年 : trial/judgement_2022.md
+      - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 : https://minnanosaiban.github.io/eneos-saiban/argument.html
 
 extra_css:
   - css/01-color.css

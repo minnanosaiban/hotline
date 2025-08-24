@@ -1,5 +1,5 @@
 ---
-title: ＥＮＥＯＳ側の主張書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について
+title: ＥＮＥＯＳ側の主張書面 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
 description: ＥＮＥＯＳ（エネオス）は、元社長のセクハラ不祥事を受けて、コンプライアンス徹底を表明しておりますが、通報窓口における対応には問題があるといえます。内部通報制度をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、公益通報に関する問題を検証していきます。
 # date: 2023-03-06
 # categories:
@@ -32,21 +32,23 @@ hide:
 <p class="sitemap-text">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
 <p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">主張と判決文</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">東京地裁判決</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
 <p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張と認否（主張書面全文）</a></p>
-<p class="sitemap-text" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/agm/" class="arrow-link-small">株主総会</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
+<p class="sitemap-text-1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
 </div>
 
-<p style="margin: 0;">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/eneos/ &text=ＥＮＥＯＳ側の主張書面 - ＥＮＥＯＳの内部通報制度に関する訴訟について"
+<p>
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/eneos/ &text=ＥＮＥＯＳ側の主張書面 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -54,49 +56,45 @@ hide:
 
 # ＥＮＥＯＳの主張書面
 
-<p  class="link-list">
-<b>ＰＤＦの用意があります。（PDFは作成中…）</b></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-主張と認否（主張書面全文）<span class="arrow">　<i class="bi bi-box-arrow-up-right"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small">
-控訴答弁書<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-被告準備書面（５）<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-被告準備書面（４）<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-被告準備書面（３）<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-被告準備書面（２）<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-被告準備書面（１）<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
-<p  class="link-list">🔸
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement/" class="arrow-link-small" >
-答弁書<span class="arrow">　<i class="bi bi-file-pdf"></i></span>
-</a></p>
+<div class="margin08">
+<div class="card width-40">
+<p  class="larger center">
+ＥＮＥＯＳ側の主張を解説</p>
+<div class="audio-content center">
+  <audio controls preload="none">
+    <source src="https://minnanosaiban.github.io/hotline/img/eneos_20250811.m4a" type="audio/wav">
+    お使いのブラウザは audio 要素をサポートしていません。
+  </audio>
+</div>
+<p class="smallest center">
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月11日作成</p>
+</div>
+</div>
 
+<div class="margin08">
+<div class="card width-40">
+<p  class="larger center margin01">
+主張書面 ＰＤＦ</p>
+<p class="small center margin01">
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/22_控訴答弁書.pdf" class="arrow-link-main2">控訴答弁書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/16_被告準備書面（５）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（５）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/11_被告準備書面（４）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（４）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/09_被告準備書面（３）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（３）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（２）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（２）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（１）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/02_答弁書_ENEOS_公開.pdf" class="arrow-link-main2">答弁書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-main2" >主張書面全文と認否</a>
+</p>
+</div>
+</div>
+
+<div class="width-40" markdown>
 <a name="kousotoben"></a>
-
 ## 控訴答弁書
-
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/22_控訴答弁書.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p  class="doc">
 <b>控訴答弁書</b>
 </p>
@@ -606,9 +604,9 @@ hide:
 
 ## 被告準備書面（５）
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/16_被告準備書面（５）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p class="doc">
 <b>被告準備書面（５）</b></p>
 <p class="doc">
@@ -1161,11 +1159,12 @@ hide:
 <p class="doc">
 以上</p>
 
+<a name="hikoku4"></a>
 ## 被告準備書面（４）
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/11_被告準備書面（４）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p class="doc">
 <b>被告準備書面（４）</b></p>
 <p class="doc">
@@ -1337,11 +1336,13 @@ hide:
 <p class="pad1 hg-idt">
 以上</p>
 
+
+<a name="hikoku3"></a>
 ## 被告準備書面（３）
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/09_被告準備書面（３）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p class="doc">
 <b>被告準備書面（３）</b></p>
 <p class="doc">
@@ -1987,9 +1988,9 @@ hide:
 
 ## 被告準備書面（２）
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（２）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p class="doc">
 <b>被告準備書面（２）</b></p>
 <p class="doc">
@@ -2301,11 +2302,12 @@ hide:
 <p class="doc">
 以上</p>
 
+<a name="hikoku1"></a>
 ## 被告準備書面（１）
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p class="doc">
 <b>被告準備書面（１）</b></p>
 <p class="doc">
@@ -2317,11 +2319,13 @@ hide:
 <p class="pad1 idt">
 　原告の令和６年４月１２日付の「訴状訂正申立書」（以下「<b>訴状訂正申立書</b>」という。）による訴状の訂正にもかかわらず（以下、訴状訂正申立書による訂正後の訴状を「<b>訴状</b>」という。）、答弁書における被告の認否及び主張に変更はない。</p>
 
+
+<a name="toben"></a>
 ## 答弁書
 <p  class="doc">
-<a href="★★★" class="arrow-link-b" >
-<span class="arrow"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
-</a></p>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/02_答弁書_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+</a>
+</p>
 <p class="doc">
 <b>答弁書</b>
 <p class="doc">
@@ -2418,13 +2422,13 @@ hide:
 <a name="toben_32"></a>
 <b>２　前回訴訟における原告の主張と判決の確定</b>
 <p class="pad2 idt">
-原告は、令和３年５月３１日に、東京地方裁判所において被告に対する損害賠償請求訴訟を提起しており（東京地方裁判所令和３年（ワ）第〇〇〇〇〇号損害賠償請求事件）（以下「<b>前回訴訟</b>」という。）、原告は、前回訴訟においても、原告が被告の本件内部通報制度の通報窓口に対して行った本件通報を含む２件の内部通報について、被告の対応が本件規程の規定に違反しているために信義則上の義務に違反したとして、債務不履行及び不法行為に基づく損害賠償責任を負うとの主張（以下「<b>前回訴訟争点１</b>」という。）をし、被告に対し、債務不履行又は不法行為に基づく損害賠償を請求していた（乙第３号証（注６））。
+原告は、令和３年５月３１日に、東京地方裁判所において被告に対する損害賠償請求訴訟を提起しており（東京地方裁判所令和３年（ワ）第■■■■■号損害賠償請求事件）（以下「<b>前回訴訟</b>」という。）、原告は、前回訴訟においても、原告が被告の本件内部通報制度の通報窓口に対して行った本件通報を含む２件の内部通報について、被告の対応が本件規程の規定に違反しているために信義則上の義務に違反したとして、債務不履行及び不法行為に基づく損害賠償責任を負うとの主張（以下「<b>前回訴訟争点１</b>」という。）をし、被告に対し、債務不履行又は不法行為に基づく損害賠償を請求していた（乙第３号証（注６））。
 <p class="pad2 idt">
 そして、前回訴訟の第一審裁判所は、令和４年１２月２２日に判決（以下「<b>前回訴訟第一審判決</b>」という。）を言い渡しているところ（乙第３号証）、<b>前回訴訟第一審判決は、前回訴訟争点１について、本件通報を含む２件の内部通報に関する被告の対応について、信義則上の義務違反があったとはいえないと判示</b>し（乙第３号証（注７））、その他の争点についても原告の主張はいずれも採用できないとしたうえで、<b>被告は、原告に対し、債務不履行又は不法行為に基づく損害賠償責任を負わないと結論</b>付け（乙第３号証（注８））、原告の請求を棄却した（乙第３号証（注９））。
 <p class="pad2 idt">
-原告は、前回訴訟の第一審の判決を不服とし、令和５年１月４日、東京高等裁判所において控訴を提起したが（東京高等裁判所令和５年（ネ）第〇〇〇号損害賠償請求控訴事件）、前回訴訟の控訴審裁判所は、同年６月１５日に判決（以下「<b>前回訴訟控訴審判決</b>」という。）を言い渡し（乙第４号証）、<b>前回訴訟控訴審判決は、前回訴訟争点１に関するものを含め、原判決である前回訴訟第一審判決の認定及び判断のとおりであるとして、控訴人たる原告の請求は理由がないと結論</b>付け（乙第４号証（注１０））、原告の控訴を棄却した（乙第４号証（注１１））。
+原告は、前回訴訟の第一審の判決を不服とし、令和５年１月４日、東京高等裁判所において控訴を提起したが（東京高等裁判所令和５年（ネ）第■■■号損害賠償請求控訴事件）、前回訴訟の控訴審裁判所は、同年６月１５日に判決（以下「<b>前回訴訟控訴審判決</b>」という。）を言い渡し（乙第４号証）、<b>前回訴訟控訴審判決は、前回訴訟争点１に関するものを含め、原判決である前回訴訟第一審判決の認定及び判断のとおりであるとして、控訴人たる原告の請求は理由がないと結論</b>付け（乙第４号証（注１０））、原告の控訴を棄却した（乙第４号証（注１１））。
 <p class="pad2 idt">
-原告は、前回訴訟控訴審判決も不服とし、令和５年６月２８日、最高裁判所において、上告を提起するとともに（最高裁判所令和５年（ネオ）第〇〇〇号上告提起事件）（乙第５号証）、上告受理の申立てをした（最高裁判所令和５年（受）第〇〇〇号上告受理申立事件・令和５年（受）第〇〇〇〇号）（乙第６号証）。上告については、原告が、同年８月２８日に、その全部を取り下げたが（乙第７号証）、上告受理申立てについては、最高裁判所が、令和６年１月２５日に、上告審として受理しない旨の決定をした（乙第８号証）。これによって、<b>前回訴訟控訴審判決が確定している</b>。
+原告は、前回訴訟控訴審判決も不服とし、令和５年６月２８日、最高裁判所において、上告を提起するとともに（最高裁判所令和５年（ネオ）第■■■号上告提起事件）（乙第５号証）、上告受理の申立てをした（最高裁判所令和５年（受）第■■■号上告受理申立事件・令和５年（受）第■■■■号）（乙第６号証）。上告については、原告が、同年８月２８日に、その全部を取り下げたが（乙第７号証）、上告受理申立てについては、最高裁判所が、令和６年１月２５日に、上告審として受理しない旨の決定をした（乙第８号証）。これによって、<b>前回訴訟控訴審判決が確定している</b>。
 <p class="pad2 hg-idt">
 <a name="toben_33"></a>
 <b>３　前回訴訟の確定判決の既判力による遮断</b>
@@ -2710,3 +2714,4 @@ hide:
 本件訴訟における原告の訴えが不適法であること及び原告の請求に理由がないことは、いずれも明白であるから、被告としては、貴庁において、速やかに弁論を終結し、速やかに訴え却下又は請求棄却の判決を下されるよう、強く要望するものである。</p>
 <p class="doc">
 以上</p>
+</div>
