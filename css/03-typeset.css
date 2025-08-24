@@ -18,6 +18,10 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+.margin01 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
 .margin02 {
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
@@ -156,8 +160,13 @@ strong {
 }
 /* 文字の大きさ */
 .large {
-  font-size: 20px !important;
-  line-height: 2.4 !important;
+  font-size: 24px !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+}
+.larger {
+  font-size: 28px !important;
+  line-height: 1.2 !important;
   font-weight: 400 !important;
 }
 .small {

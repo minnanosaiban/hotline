@@ -1,23 +1,4 @@
 /* カード内のテキスト（ホバー未対応） */
-.card-title-large {
-  margin: 0.8em 0 !important;
-  font-size: 1.6em !important;
-  line-height: 1.6 !important;
-  font-weight: 400 !important;
-  }
-.card-title-bold {
-  margin: 0 !important;
-  font-size: 18px !important;
-  line-height: 2.4 !important;
-  color: var(--md-typeset-color) !important;
-  font-weight: 700 !important;
-  }
-.card-title {
-  margin: 0.8em 0 !important;
-  font-size: 1.2em !important;
-  line-height: 1.6 !important;
-  font-weight: 700 !important;
-  }
 .card-text {
   font-size: 1em !important;
   line-height: 2 !important;
@@ -35,7 +16,7 @@
 }
 @media only screen and (max-width: 767px) {
   .card {
-  padding: 0.8rem !important;
+  padding: 0 0.8rem!important;
   }
   }
 /* テーブル */
