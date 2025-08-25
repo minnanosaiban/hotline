@@ -62,7 +62,7 @@ hide:
 控訴審を解説</p>
 <div class="audio-content center margin01">
   <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/kouso_20250807.m4a" type="audio/wav">
+    <source src="https://minnanosaiban.github.io/hotline/img/kouso_20250807.wav" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>

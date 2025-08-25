@@ -62,7 +62,7 @@ hide:
 東京地裁判決を解説</p>
 <div class="audio-content center">
   <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_20280807.m4a" type="audio/wav">
+    <source src="https://minnanosaiban.github.io/hotline/img/judgement_20250807.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
