@@ -42,9 +42,17 @@
   display: inline-block;
   transition: transform 0.3s ease;
   color: var(--md-main1-color);  /* 前と後：メインの矢印 */
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-main1-color);
+  text-decoration-thickness: 1px;
 }
 .arrow-link-main1:hover .arrow {
   transform: translateX(8px);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-main1-color);
+  text-decoration-thickness: 1.2px;
 }
 /* 下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
 .arrow-link-main2 {
