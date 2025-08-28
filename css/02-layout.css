@@ -56,8 +56,8 @@
   color: var(--md-typeset-color) !important;
 }
 .md-nav__link:hover {
-  font-weight: 400 !important;
   color: var(--md-main-color)  !important;
+  font-weight: 700 !important;
 }
 .md-nav__link--active, 
 .md-nav__link--active:hover {
