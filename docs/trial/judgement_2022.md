@@ -58,7 +58,7 @@ hide:
 
 <div class="width-40" markdown>
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos_judgment_2022.12.22.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos_judgment_2022.12.22.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">

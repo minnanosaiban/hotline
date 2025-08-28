@@ -67,7 +67,7 @@ hide:
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
+NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
 </div>
 </div>
 
@@ -76,23 +76,24 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 <p  class="larger center margin01">
 主張書面 ＰＤＦ</p>
 <p class="small center margin01">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/22_控訴答弁書.pdf" class="arrow-link-main2">控訴答弁書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/16_被告準備書面（５）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（５）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/11_被告準備書面（４）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（４）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/09_被告準備書面（３）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（３）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（２）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（２）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link-main2">被告準備書面（１）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/02_答弁書_ENEOS_公開.pdf" class="arrow-link-main2">答弁書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-main2" >主張書面全文と認否</a>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/22_控訴答弁書.pdf" class="arrow-link">控訴答弁書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/16_被告準備書面（５）_ENEOS_公開.pdf" class="arrow-link">被告準備書面（５）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/11_被告準備書面（４）_ENEOS_公開.pdf" class="arrow-link">被告準備書面（４）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/09_被告準備書面（３）_ENEOS_公開.pdf" class="arrow-link">被告準備書面（３）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（２）_ENEOS_公開.pdf" class="arrow-link">被告準備書面（２）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link">被告準備書面（１）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/02_答弁書_ENEOS_公開.pdf" class="arrow-link">答弁書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >主張書面全文と認否</a>
 </p>
 </div>
 </div>
 
 <div class="width-40" markdown>
+
 <a name="kousotoben"></a>
 ## 控訴答弁書
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/22_控訴答弁書.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/22_控訴答弁書.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p  class="doc">
@@ -603,7 +604,7 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 
 ## 被告準備書面（５）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/16_被告準備書面（５）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/16_被告準備書面（５）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">
@@ -1161,7 +1162,7 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 <a name="hikoku4"></a>
 ## 被告準備書面（４）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/11_被告準備書面（４）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/11_被告準備書面（４）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">
@@ -1339,7 +1340,7 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 <a name="hikoku3"></a>
 ## 被告準備書面（３）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/09_被告準備書面（３）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/09_被告準備書面（３）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">
@@ -1987,7 +1988,7 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 
 ## 被告準備書面（２）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（２）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（２）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">
@@ -2304,7 +2305,7 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 <a name="hikoku1"></a>
 ## 被告準備書面（１）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">
@@ -2322,7 +2323,7 @@ NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiba
 <a name="toben"></a>
 ## 答弁書
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/02_答弁書_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/02_答弁書_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">

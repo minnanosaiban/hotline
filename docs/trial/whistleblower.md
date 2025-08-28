@@ -61,18 +61,18 @@ hide:
 <p  class="larger center margin01">
 主張書面 ＰＤＦ</p>
 <p class="small center margin01">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link-main2">控訴理由補充書（２）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link-main2">控訴理由補充書（１）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link-main2">控訴理由書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" class="arrow-link-main2">原告第５準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/15_文書送付嘱託申立書_ENEOS_公開.pdf" class="arrow-link-main2">文書送付嘱託申立書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/14_求釈明申立書_ENEOS_公開.pdf" class="arrow-link-main2">求釈明申立書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/13_原告第４準備書面_ENEOS_公開" class="arrow-link-main2">原告第４準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/10_原告第３準備書面_ENEOS_公開" class="arrow-link-main2">原告第３準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/08_原告第２準備書面_ENEOS_公開" class="arrow-link-main2">原告第２準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/05_原告第１準備書面_ENEOS_公開" class="arrow-link-main2">原告第１準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/01_訴状_ENEOS_公開.pdf" class="arrow-link-main2">訴状</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-main2" >主張書面全文と認否</a>
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link">控訴理由補充書（２）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link">控訴理由補充書（１）</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link">控訴理由書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" class="arrow-link">原告第５準備書面</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/15_文書送付嘱託申立書_ENEOS_公開.pdf" class="arrow-link">文書送付嘱託申立書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/14_求釈明申立書_ENEOS_公開.pdf" class="arrow-link">求釈明申立書</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/13_原告第４準備書面_ENEOS_公開" class="arrow-link">原告第４準備書面</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/10_原告第３準備書面_ENEOS_公開" class="arrow-link">原告第３準備書面</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/08_原告第２準備書面_ENEOS_公開" class="arrow-link">原告第２準備書面</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/05_原告第１準備書面_ENEOS_公開" class="arrow-link">原告第１準備書面</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/01_訴状_ENEOS_公開.pdf" class="arrow-link">訴状</a>　
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >主張書面全文と認否</a>
 </p>
 </div>
 </div>
@@ -81,7 +81,7 @@ hide:
 <a name="hoju2"></a>
 ## 控訴理由補充書（２）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p  class="doc">
@@ -206,7 +206,7 @@ hide:
 <a name="hoju1"></a>
 ## 控訴理由補充書（１）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p  class="doc">
@@ -543,7 +543,7 @@ hide:
 <a name="kouso"></a>
 ## 控訴理由書
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p  class="doc">
@@ -1125,7 +1125,7 @@ hide:
 <a name="dai5"></a>
 ## 原告第５準備書面
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" class="arrow-link-main2" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p  class="doc">
