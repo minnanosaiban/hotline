@@ -86,14 +86,14 @@
 .nt-card-arrow {
   display: inline-block;
   transition: transform 0.3s ease;
-  color: var(--md-main1-color)  !important;
+  color: var(--md-accent-color)  !important;
 }
 .nt-card:hover .nt-card-title,
 .nt-card:focus-within .nt-card-title { /* カードのホバーでタイトルに下線をひく*/
-  color: var(--md-main1-color)  !important;
+  color: var(--md-accent-color)  !important;
   text-decoration: underline;
   text-underline-offset: 12px;
-  text-decoration-color: var(--md-main1-color);
+  text-decoration-color: var(--md-accent-color);
   text-decoration-thickness: 1px;
 }
 .nt-card:hover .nt-card-text,

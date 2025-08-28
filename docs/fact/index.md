@@ -25,26 +25,26 @@ hide:
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
 <div id="mobileMenu" class="mobile-menu">
-<p class="sitemap-text">
-<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">問題の概要</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
+<p class="smaller">
+<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">問題の概要</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link">裁判記録</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link">ＥＮＥＯＳ側の主張書面</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link">通報者側の主張書面</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link">控訴審の主張</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">東京地裁判決 2025年</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
 </div>
 
 <p class="base">
@@ -112,7 +112,7 @@ hide:
 上記１～３を整理すると、ＥＮＥＯＳの不適切な対応は以下のとおりです。
 </p>
 <div class="margin02">
-<div class="card width-40">
+<div class="card-bule width-40">
 <h3>⑴　被通報者との協議と通報者の排除</h3>
 <p class="pad1 idt">
  ＥＮＥＯＳは、通報者が知らないうちに、被通報者と協議しました。その後、通報者は、「業務の移管」を名目に、通報に関する情報共有から排除されました。
@@ -120,7 +120,7 @@ hide:
 </div>
 </div>
 <div class="margin02">
-<div class="card width-40">
+<div class="card-bule width-40">
 <h3>⑵　不正確・不明確な情報を共有</h3>
 <p class="pad1 idt">
  ＥＮＥＯＳは、2016年にＧＳＴの法改正が存在した旨の情報を通報者に共有しました。しかし、該当する「法改正」は未だに特定されていません。
@@ -128,7 +128,7 @@ hide:
 </div>
 </div>
 <div class="margin02">
-<div class="card width-40">
+<div class="card-bule width-40">
 <h3>⑶　不適切な会計処理で対応</h3>
 <p class="pad1 idt">
  ＥＮＥＯＳは、通報に対して、海外子会社が本社のＧＳＴ還付請求を代行したとの名目で本社に送金を行うという対応をとりました。送金の事実は確認されていますが、実際に還付請求が代行されたことを示す証拠は確認されていません。
@@ -136,7 +136,7 @@ hide:
 </div>
 </div>
 <div class="margin02">
-<div class="card width-40">
+<div class="card-bule width-40">
 <h3>⑷　是正措置等の不通知</h3>
 <p class="pad1 idt">
  ＥＮＥＯＳは、ＧＳＴの支払に関し、当該オーストラリア企業との間で、「オーストラリア企業がＧＳＴを課すと判断した場合には、ＧＳＴ込みで請求する権利を有する」という条文を追加した新しい契約を締結しましたが、これを通報者に通知しませんでした。
@@ -144,7 +144,7 @@ hide:
 </div>
 </div>
 <div class="margin02">
-<div class="card width-40">
+<div class="card-bule width-40">
 <h3>⑸　すり替えられた調査事項</h3>
 <p class="pad1 idt">
  通報者は、解決策として講じられた海外子会社による本社への送金に疑念を抱き、改めて通報しました（２度目の通報）。これに対してＥＮＥＯＳは、「ＧＳＴの還付をするか否かは任意であり、還付を受けない場合でも不正行為にはあたらない」とする調査結果を通知しました。
@@ -152,7 +152,7 @@ hide:
 </div>
 </div>
 <div class="margin02">
-<div class="card width-40">
+<div class="card-bule width-40">
 <h3>⑹　隠し通した不正の有無</h3>
 <p class="pad1 idt">
  新社長の制度利用の呼びかけを受けて行った再通報（３度目の通報）に対しては、「解決済み」というわずか一言だけを通知しました。これは、法定指針に反しているうえ、不正があったのかという点すら、通報者に隠しています。
@@ -170,11 +170,10 @@ hide:
 <p class="margin02">
 社長が訴訟の存在を認識した後に、ＥＮＥＯＳが取った対応は、全社員に向けて「コンプライアンスホットラインは、会社を守るための制度です」と周知することでした。
 </p>
-<p class="sitemap-text">
-<a href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf" class="arrow-link-main2" >
-コンプライアンスに関する取組みの再徹底に係る進捗について - ＥＮＥＯＳホールディングス<span class="arrow3">　<i class="bi bi-box-arrow-up-right"></i></span></a><br>
-<a href="https://www.hd.eneos.co.jp/esgdb/pdf/report_connectingproject.pdf" class="arrow-link-main2" >
-当社およびENEOSの取り組み「つなぐプロジェクト～働きやすさから働きがいへ～」 - ＥＮＥＯＳホールディングス<span class="arrow3">　<i class="bi bi-box-arrow-up-right"></i></span></a>
-</p>
+<p class="margin02 smaller">
+<a href="https://www.hd.eneos.co.jp/newsrelease/20240228_03_01_2003128.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-box-arrow-up-right"></i>　</span>
+コンプライアンスに関する取組みの再徹底に係る進捗について - ＥＮＥＯＳホールディングス</a><br>
+<a href="https://www.hd.eneos.co.jp/esgdb/pdf/report_connectingproject.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-box-arrow-up-right"></i>　</span>
+当社およびENEOSの取り組み「つなぐプロジェクト～働きやすさから働きがいへ～」 - ＥＮＥＯＳホールディングス</p>
 
 </div>

@@ -19,6 +19,19 @@
   padding: 1.6rem 0.8rem !important;
   }
   }
+.card-bule {
+  border: 1px solid #c5d1e0;
+  border-radius: 0;
+  padding: 1.6rem;
+  box-shadow: none;
+  width: 100%;
+  margin: 0 !important;
+}
+@media only screen and (max-width: 767px) {
+  .card-bule {
+  padding: 1.6rem 0.8rem !important;
+  }
+  }
 /* テーブル */
 .table-set{
   border-collapse: collapse; 
