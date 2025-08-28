@@ -50,7 +50,7 @@ hide:
 <p class="base">
   <a href="https://minnanosaiban.github.io/hotline/summary/summary.pdf"
      target="_blank" class="x-share" style="color: #FFFFFF;">
-    <span style="color: var(--tomato-color) !important;"><b>ＰＤＦ</b></span> で表示
+    <span style="color: var(--md-accent-color) !important;"><b>ＰＤＦ</b></span> で表示
   </a>
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/summary/ &text=問題の概要 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
