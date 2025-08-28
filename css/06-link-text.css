@@ -1,61 +1,32 @@
-/* nav用のホバーの色 */
-.md-nav__link {
-    font-weight: 400 !important;
-    color: var(--md-typeset-color) !important;
-}
-.md-nav__link--active {
-    color: var(--md-h-color) !important;
-}
-.md-nav__link:hover {
-    color: var(--md-h-color) !important;
-}
-/* nav用のリンク文字の大きさと行間 */
-.link-nav {
-  margin-top: 1.6rem !important;
-  margin-bottom: 1.6rem !important;
-}
-@media only screen and (max-width: 767px) {
-  .link-nav {
-  margin-left: 0.8rem !important;
-  }
-  }
-/* アイコンのホバー */
-.icon-hover {
-  color: var(--md-typeset-color);
-  transition: color 0.3s ease;
-}
-.icon-hover:hover {
-  color: var(--md-main1-color);
-}
-/* 矢印が動く */
-.arrow-link-main1 {
+/* リンクを強調、ホバーで動く */
+.link-accent {
   display: inline-block;
   color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.arrow-link-main1:hover {
-  color: var(--md-main1-color) !important;  /* 後：メインの文字色 */
+.link-accent:hover {
+  color: var(--md-accent-color) !important; /* 後：アクセント色 */
   transition: color 0.3s ease;
   }
-.arrow-link-main1 .arrow {
+.link-accent .arrow {
   display: inline-block;
   transition: transform 0.3s ease;
-  color: var(--md-main1-color);  /* 前と後：メインの矢印 */
+  color: var(--md-accent-color); /* 前と後：アクセント色の矢印 */
+  text-decoration-color: var(--md-accent-color); /* 前と後：アクセント色のライン */
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-main1-color);
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 1px; /* 前：細めのライン */
 }
-.arrow-link-main1:hover .arrow {
-  transform: translateX(8px);
+.link-accent:hover .arrow {
+  transform: translateX(8px); /* 後：動く */
+  text-decoration-color: var(--md-accent-color); /* 前と後：アクセント色のライン */
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-main1-color);
-  text-decoration-thickness: 1.2px;
+  text-decoration-thickness: 1.2px; /* 前：ラインを少し太く */
 }
 /* 下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
-.arrow-link-main2 {
+.arrow-link {
   display: inline-block;
   color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
   text-decoration: none;
@@ -65,93 +36,39 @@
   text-decoration-color: var(--md-default-fg-color--lighter);
   text-decoration-thickness: 1px;
 }
-.arrow-link-main2:hover {
-  color: var(--md-main2-color) !important;  /* 前：メインの文字色 */
+.arrow-link:hover {
+  color: var(--md-link-colorr) !important;  /* 前：メインの文字色 */
+  text-decoration-thickness: 1.1px; /* 前：ラインを少し太く */
   transition: color 0.3s ease;
-  text-decoration-color: var(--md-main2-color);
+  text-decoration-color: var(--md-link-color);
   }
-.arrow-link-main2 .arrow1 {
+.arrow-link .arrow1 {
   display: inline-block;
   transition: transform 0.3s ease;
-  color: var(--md-main2-color);  /* 前：メインの矢印 */
+  color: var(--md-link-color);  /* 前：メインの矢印 */
 }
-.arrow-link-main2:hover .arrow1 {
+.arrow-link:hover .arrow1 {
   transform: translateX(8px);
-  color: var(--md-main2-color);  /* 後：メインの矢印 */
+  color: var(--md-link-color);  /* 後：メインの矢印 */
 }
-.arrow-link-main2 .arrow2 {
+.arrow-link .arrow2 {
   display: inline-block;
   transition: transform 0.3s ease;
   color: var(--md-typeset-color);  /* 前：黒の矢印 */
 }
-.arrow-link-main2:hover .arrow2 {
+.arrow-link:hover .arrow2 {
   transform: translateX(8px);
-  color: var(--md-main2-color);  /* 後：メインの矢印 */
+  color: var(--md-link-color);  /* 後：メインの矢印 */
 }
-.arrow-link-main2 .arrow3 {
+.arrow-link .arrow3 {
   display: inline-block;
   transition: transform 0.3s ease;
   color: var(--md-default-fg-color--lighter);  /* 前：グレーの矢印 */
 }
-.arrow-link-main2:hover .arrow3 {
+.arrow-link:hover .arrow3 {
   transform: translateX(8px);
-  color: var(--md-main2-color);  /* 後：メインの矢印 */
+  color: var(--md-link-color);  /* 後：メインの矢印 */
 }
-/* （ヘッダーフッターのリンク）下線付きのテキストのホバーでテキストの色が変化し、矢印が動く */
-.arrow-link-small {
-  display: inline-block;
-  color: var(--md-typeset-color) !important;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--md-default-fg-color--lighter);
-  text-decoration-thickness: 1px;
-}
-.arrow-link-small .arrow {
-  display: inline-block;
-  transition: transform 0.3s ease;
-  color: var(--md-default-fg-color--lighter);  
-}
-.arrow-link-small:hover .arrow {
-  transform: translateX(4px);
-  color: var(--md-main1-color);  
-  }
-.arrow-link-small:hover {
-  color: var(--md-main1-color) !important;  
-  transition: color 0.3s ease;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--md-main1-color);
-  text-decoration-thickness: 1px;
-  }
-/* （小さめのテキスト）下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
-.arrow-link-small-h {
-  display: inline-block;
-  color: var(--md-typeset-color) !important;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--md-default-fg-color--lighter);
-  text-decoration-thickness: 1px;
-}
-.arrow-link-small-h .arrow {
-  display: inline-block;
-  transition: transform 0.3s ease;
-  color: var(--md-default-fg-color--lighter);
-}
-.arrow-link-small-h:hover .arrow {
-  color: var(--md-main2-color);  
-  }
-.arrow-link-small-h:hover {
-  color: var(--md-main2-color) !important;  
-  transition: color 0.3s ease;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--md-h-color);
-  text-decoration-thickness: 1px;
-  }
 /* リンクテキスト */
 /*
 a {
@@ -188,3 +105,4 @@ a {
   margin-top: -.125em;
 }
 */
+

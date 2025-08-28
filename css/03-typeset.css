@@ -14,6 +14,13 @@
     margin: 0 !important;
   }
 }
+/* 狭い行間 */
+.list {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.6 !important;
+}
+/* 広い行間 */
 .margin00 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -33,11 +40,6 @@
 .margin08 {
   margin-top: 8rem !important;
   margin-bottom: 8rem !important;
-}
-/* 狭い行間 */
-.list {
-  margin-top: 0.1rem !important;
-  margin-bottom: 0.1rem !important;
 }
 /* タイプセット */
 /*
@@ -93,8 +95,8 @@ h2 {
   font-size: 1.6em !important;
   margin: 8rem 0 1.2rem 0 !important;
   line-height: 1.4 !important;
-  color: var(--md-h-color) !important;
-  font-weight: 400 !important;
+  color: var(--md-main-color) !important;
+  font-weight: 500 !important;
 }
 @media only screen and (max-width: 767px) {
   h2 {
@@ -150,7 +152,7 @@ strong {
 .kasen {
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-main1-color);
+  text-decoration-color: var(--md-main-color);
   text-decoration-thickness: 1px;
 }
 /* 文字の大きさ */

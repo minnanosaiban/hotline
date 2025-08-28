@@ -4,41 +4,43 @@
   --card-color2: #f4f4f0; /* クリーム系 */
   --card-color3: #F2f2f2; /* グレー系 */  
   --typeset-color-1: #08131a; /* Note */
-  --typeset-color-2: #003682; /* 濃い青 */  
+  --typeset-color-2: #003682; /* 濃い青 */ 
+  --typeset-color-2-d: #2563eb; /* 濃い青のホバー */
+  --typeset-color-2-C: #c5d1e0; /* 濃い青のカードの色 */  
   --blue-color-1: #0068b7; /* NTT */
   --blue-color-2: #0072bc; /* NTTDate */
   --pink-color-1: #e0217f; /* pasol */
   --red-color-1: #dc3545;
   --orange-color-1: #e94709; /* ENEOS */
-  --orange-color-1: #f37726; /* Juputerbook */
+  --orange-color-2: #f37726; /* Juputerbook */
   --color-1: #2E404d;
   --color-2: #5f3dc4;
 }
 
 [data-md-color-scheme="default"] {
   --md-typeset-color: #08131a !important; /* テキストカラー*/
-  --md-h-color: #5f3dc4; /* hテキストカラー*/
-  --md-strong-color: #5f3dc4;  /* 強調カラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
-  --md-main1-color: var(--typeset-color-2); /* メインカラー1 */
-  --md-main2-color: #003682; /* メインカラー2 */  
+  --md-main-color: var(--typeset-color-2); /* メインカラー */
+  --md-strong-color: var(--typeset-color-2);  /* 強調カラー*/
+  --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー */
 }
 
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
-  --md-h-color: #b8aaff; /* hテキストカラー*/
-  --md-strong-color: #b8aaff;  /* 強調カラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
-  --md-primary-fg-color: #003682; /* ヘッダーの背景色 */
+  --md-primary-fg-color: #0f172a; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
-  --md-main1-color: #2563eb; /* メインカラー1 */
-  --md-main2-color: #5f3dc4; /* メインカラー2 */  
+  --md-main-color: var(--typeset-color-2-d); /* メインカラー */
+  --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
+  --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー */  
 }
 
 /* 
