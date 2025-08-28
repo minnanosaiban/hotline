@@ -26,26 +26,26 @@ icon: material/home
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
 <div id="mobileMenu" class="mobile-menu">
-<p class="sitemap-text">
-<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">問題の概要</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
+<p class="smaller">
+<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">問題の概要</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link">裁判記録</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link">ＥＮＥＯＳ側の主張書面</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link">通報者側の主張書面</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link">控訴審の主張</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">東京地裁判決 2025年</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
 </div>
 
 <p class="base">
@@ -61,7 +61,8 @@ icon: material/home
 
 <div class="base margin08">
 <p class="width-40">
-ＥＮＥＯＳは、「法的拘束力がない」「罰則がない」といった主張を行っています。このような主張に表れているとおり、現行の法制度では、通報者に誤解を促すような不確かな情報を伝えても問題となりません。法制度のあり方には問い直されるべき問題があります。
+<a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="link-accent" >ＥＮＥＯＳ側の主張も掲載しています。　<span class="arrow"> 主張書面と音声解説へ <i class="bi bi-arrow-right"></i></span></a><br>
+会社側の「法的拘束力がない」「罰則がない」といった主張に表れているとおり、現行の法制度では、通報者に誤解を促すような不確かな情報を伝えても問題となりません。法制度のあり方には問い直されるべき問題があります。
 </p>
 </div>
 
@@ -82,58 +83,58 @@ icon: material/home
     </a>
 </div>
 
-<h1 class="center margin04">
-  裁判記録
+<h1 class="center margin04" style="margin-top: 12rem !important;">
+  <span style="color: #e94709;">裁判記録</span>
 </h1>
 
 <div class="center-container margin04">
 <p class="width-40">
-<a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-main1" >
-「ＥＮＥＯＳ側の主張書面」「通報者の主張書面」「判決書」を掲載しています。また、これらの文書をソースにして NotebookLM で生成した音声を掲載しています。<span class="arrow"> 裁判記録へ <i class="bi bi-arrow-right"></i></span>
+<a href="https://minnanosaiban.github.io/hotline/trial/" class="link-accent" >
+「ＥＮＥＯＳ側の主張書面」「通報者の主張書面」「判決書」を掲載しています。また、これらの文書をソースにして NotebookLM で生成した音声を掲載しています。　<span class="arrow">裁判記録へ <i class="bi bi-arrow-right"></i></span>
 </a></p>
 </div>
       
 <div class="center-container margin04">
-<div class="card width-40">
+<div class="card-bule width-40">
 <p  class="larger center margin01">
 ＥＮＥＯＳ側の主張を解説</p>
 <div class="audio-content center margin01">
   <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/eneos_20250811.m4a" type="audio/wav">
+    <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月11日作成</p>
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
 </div>
 </div>
 
 <div class="center-container margin04">
-<div class="card width-40">
+<div class="card-bule width-40">
 <p  class="larger center margin01">
 東京地裁判決を解説</p>
 <div class="audio-content center margin01">
   <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_20250807.m4a" type="audio/wav">
+    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁2025年判決</a><br>カスタム指示無し<br>2025年8月7日作成</p>
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁2025年判決</a><br>カスタム指示無し<br>2025年8月作成</p>
 </div>
 </div>
 
 <div class="center-container margin04">
-<div class="card width-40">
+<div class="card-bule width-40">
 <p  class="larger center margin01">
 控訴審を解説</p>
 <div class="audio-content center margin01">
   <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/kouso_20250807.wav" type="audio/wav">
+    <source src="https://minnanosaiban.github.io/hotline/img/kouso_202508.wav" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月7日作成</p>
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月作成</p>
 </div>
 </div>

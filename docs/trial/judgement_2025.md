@@ -25,26 +25,26 @@ hide:
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
 <div id="mobileMenu" class="mobile-menu">
-<p class="sitemap-text">
-<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link-small">Home</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link-small">問題の概要</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link-small">背景と事実</a></p>
-<p class="sitemap-text">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link-small">裁判記録</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link-small">ＥＮＥＯＳ側の主張書面</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link-small">通報者側の主張書面</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link-small">控訴審の主張</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link-small">東京地裁判決 2025年</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link-small">東京地裁判決 2022年</a></p>
-<p class="sitemap-text-1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link-small">主張書面全文と認否</a></p>
+<p class="smaller">
+<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">問題の概要</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link">裁判記録</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link">ＥＮＥＯＳ側の主張書面</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link">通報者側の主張書面</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link">控訴審の主張</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">東京地裁判決 2025年</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
 </div>
 
 <p>
@@ -57,17 +57,17 @@ hide:
 # 東京地裁判決<br>2025年3月<br>坂巻陽士裁判官
 
 <div class="margin08">
-<div class="card width-40 margin01">
+<div class="card-bule width-40 margin01">
 <p  class="larger center margin01">
 東京地裁判決を解説</p>
 <div class="audio-content center">
   <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_20250807.m4a" type="audio/wav">
+    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁2025年判決</a><br>カスタム指示無し<br>2025年8月7日作成</p>
+NotebookLM<br>ソース：<a class="arrow-link-main2" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁2025年判決</a><br>カスタム指示無し<br>2025年8月作成</p>
 </div>
 </div>
 

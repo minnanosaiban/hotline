@@ -10,7 +10,7 @@
 .md-main__inner {
   display: flex;
   height: 100%;
-  margin-top: 0.5rem;
+  margin-top: 0.5rem;  /* トップの余白を狭くする */
 }
 /*
 .md-content {
@@ -27,18 +27,20 @@
 .md-content__inner {
   padding-top: 0rem; 
 }
-/* タブ（ホバー時の下線・アクティブの色） */
-.md-tabs__link:hover { /* タブのホバー時の下線 */
-  color: var(--md-main1-color) ;
+/* タブ */
+/* タブのホバーはメインカラーの下線 */
+/* タブのアクティブはメインカラーの下線 */
+.md-tabs__link:hover {
+  color: var(--md-main-color) ;
   text-decoration: underline;
   text-underline-offset: 12px;
-  text-decoration-color: var(--md-main1-color);
+  text-decoration-color: var(--md-main-color);
 }
-.md-tabs__item--active .md-tabs__link { /* タブのアクティブの色 */
-  color: var(--md-main1-color) ;
+.md-tabs__item--active .md-tabs__link {
+  color: var(--md-main-color) ;
   text-decoration: underline;
   text-underline-offset: 12px;
-  text-decoration-color: var(--md-main1-color);
+  text-decoration-color: var(--md-main-color);
 }
 /* 縦スクロールバー */
 .md-sidebar__inner {
@@ -55,12 +57,12 @@
 }
 .md-nav__link:hover {
   font-weight: 400 !important;
-  color: var(--md-main1-color)  !important;
+  color: var(--md-main-color)  !important;
 }
 .md-nav__link--active, 
 .md-nav__link--active:hover {
-  color: var(--md-main1-color)  !important;
-  font-weight: 400 !important;
+  color: var(--md-main-color)  !important;
+  font-weight: 700 !important;
 }
 .md-sidebar--secondary {
   overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
@@ -90,22 +92,4 @@
   .center-container {
     justify-content: flex-start;
   }
-}
-/* サイトマップの設定 */
-.sitemap-text {
-  font-size: 14px !important;
-  margin-top: 1px !important;
-  margin-bottom: 1px !important;
-}
-.sitemap-text-1 {
-  font-size: 14px !important;
-  margin-top: 1px !important;
-  margin-bottom: 1px !important;
-  padding-left:2em;
-}
-.sitemap-text-2 {
-  font-size: 14px !important;
-  margin-top: 1px !important;
-  margin-bottom: 1px !important;
-  padding-left:4em;
 }
