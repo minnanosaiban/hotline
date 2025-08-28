@@ -1,17 +1,18 @@
 /* カラー定義 */
 :root {
-  --link-color: #4A90E2;
-  --red-color: #dc3545;
-  --orange-color: #f37726;
-  --table-color: #e5e7ea;
-  --ntt-color: #0068b7;
-  --ntt-data-color: #0072bc;
-  --pasol-color: #e0217f;
-  --eneos-color: #e94709;  
-  --tomato-color: #dc3545;
-  --text-color-1: #08131a;
-  --text-color-2: #2E404d;
-  --text-color-3: #5f3dc4;
+  --card-color1: #e5e7ea; /* 青みがかかったグレー */
+  --card-color2: #f4f4f0; /* クリーム系 */
+  --card-color3: #F2f2f2; /* グレー系 */  
+  --typeset-color-1: #08131a; /* Note */
+  --typeset-color-2: #003682; /* 濃い青 */  
+  --blue-color-1: #0068b7; /* NTT */
+  --blue-color-2: #0072bc; /* NTTDate */
+  --pink-color-1: #e0217f; /* pasol */
+  --red-color-1: #dc3545;
+  --orange-color-1: #e94709; /* ENEOS */
+  --orange-color-1: #f37726; /* Juputerbook */
+  --color-1: #2E404d;
+  --color-2: #5f3dc4;
 }
 
 [data-md-color-scheme="default"] {
@@ -19,12 +20,12 @@
   --md-h-color: #5f3dc4; /* hテキストカラー*/
   --md-strong-color: #5f3dc4;  /* 強調カラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
-  --md-primary-fg-color: #f4f4f0; /* ヘッダーの背景色 */
+  --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
-  --md-main1-color: var(--eneos-color); /* メインカラー1 */
-  --md-main2-color: #5f3dc4; /* メインカラー2 */  
+  --md-main1-color: var(--typeset-color-2); /* メインカラー1 */
+  --md-main2-color: #003682; /* メインカラー2 */  
 }
 
 [data-md-color-scheme="slate"] {
@@ -32,11 +33,11 @@
   --md-h-color: #b8aaff; /* hテキストカラー*/
   --md-strong-color: #b8aaff;  /* 強調カラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
-  --md-primary-fg-color: #2E404d; /* ヘッダーの背景色 */
+  --md-primary-fg-color: #003682; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
-  --md-main1-color: var(--eneos-color); /* メインカラー1 */
+  --md-main1-color: #2563eb; /* メインカラー1 */
   --md-main2-color: #5f3dc4; /* メインカラー2 */  
 }
 
