@@ -3,7 +3,7 @@
   font-size: 1em !important;
   line-height: 2 !important;
   padding: 0;
-  margin: 1.6em 0 !important;
+  margin: 1.6rem 0 !important;
   }
 /* カード */
 .card {
@@ -31,6 +31,9 @@
   padding: 1.6rem 0.8rem !important;
   }
   }
+.card-bule, .card-bule * {
+  box-sizing: border-box;
+}
 /* テーブル */
 .table-set{
   border-collapse: collapse; 
@@ -46,7 +49,15 @@
   vertical-align: top;
   }
 /* 音声カード */
-.audio-content {
-  flex: 1;
-  margin: 1.6rem 0;
+.audio-content audio {
+  width: 100% !important;
+  max-width: 16rem;  /* PCでは最大幅を制限 */
+  display: block;
+  height: 40px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .audio-content audio {
+    max-width: 100%;
+  }
 }
