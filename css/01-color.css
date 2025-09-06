@@ -46,6 +46,10 @@
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */  
 }
 
+audio::-webkit-media-controls-panel {
+  background-color: #e5e7ea !important;
+}
+
 /* 
 [data-md-color-scheme="default"] {
 --md-default-fg-color: hsla(0, 0%, 0%, 0.87)
