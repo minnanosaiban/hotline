@@ -6,8 +6,24 @@
                          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 /* 余白 */
-.base {
+.base00 {
+  margin: 0 !important;
+}
+@media screen and (max-width: 768px) {
+  .base00 {
+    margin: 0 !important;
+  }
+}
+.base64 {
   margin: 0 6.4rem !important;
+}
+@media screen and (max-width: 768px) {
+  .base64 {
+    margin: 0 !important;
+  }
+}
+.base {
+  margin: 0 3.2rem !important;
 }
 @media screen and (max-width: 768px) {
   .base {
@@ -259,6 +275,16 @@ strong {
 }
 @media only screen and (max-width: 767px) {
   .top-title-13 {
+    max-width: 100%;
+  }
+  }
+.top-title-11 {
+  max-width: 11em;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+@media only screen and (max-width: 767px) {
+  .top-title-11 {
     max-width: 100%;
   }
   }

@@ -25,7 +25,6 @@
   padding: 1.6rem;
   box-shadow: none;
   width: 100%;
-  margin: 0 !important;
 }
 @media only screen and (max-width: 767px) {
   .card-bule {

@@ -83,8 +83,6 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
   max-width: 100%;
   overflow: hidden;
 }
