@@ -10,9 +10,12 @@
   --blue-color-1: #0068b7; /* NTT */
   --blue-color-2: #0072bc; /* NTTDate */
   --pink-color-1: #e0217f; /* pasol */
-  --red-color-1: #dc3545;
-  --orange-color-1: #e94709; /* ENEOS */
-  --orange-color-2: #f37726; /* Juputerbook */
+  --red-color-1: #C70025; /* ENEOS-A */
+  --red-color-2: #DF0515; /* ENEOS-B */
+  --red-color-3:  #dc3545; /* TOMATO */
+  --orange-color-1: #e94709; /* ENEOS-A */
+  --orange-color-2: #ED6C00; /* ENEOS-B */  
+  --orange-color-3: #f37726; /* Juputerbook */
   --color-1: #2E404d;
   --color-2: #5f3dc4;
 }
@@ -41,6 +44,10 @@
   --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */  
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #e5e7ea !important;
 }
 
 /* 
