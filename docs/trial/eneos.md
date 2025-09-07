@@ -28,7 +28,7 @@ hide:
 <p class="smaller">
 <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
 <p class="smaller">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">問題の概要</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">窓口の問題</a></p>
 <p class="smaller">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
 <p class="smaller">
@@ -45,6 +45,8 @@ hide:
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
 <p class="smaller pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/docu/" class="arrow-link">法令・判例</a></p>
 </div>
 
 <p>
@@ -60,7 +62,7 @@ hide:
 <div class="card-bule width-40">
 <p  class="larger center margin01">
 ＥＮＥＯＳ側の主張を解説</p>
-<div class="audio-content center margin01">
+<div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
     お使いのブラウザは audio 要素をサポートしていません。
@@ -2305,7 +2307,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <a name="hikoku1"></a>
 ## 被告準備書面（１）
 <p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/03_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<a href="https://minnanosaiban.github.io/eneos-saiban/_static/06_被告準備書面（１）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
 </a>
 </p>
 <p class="doc">

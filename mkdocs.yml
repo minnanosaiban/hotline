@@ -7,7 +7,7 @@ site_url: https://minnanosaiban.github.io/hotline/
 nav:
   - Home:
       - index.md
-  - 問題の概要: 
+  - 窓口の問題: 
       - summary/index.md
   - 背景と事実: 
       - fact/index.md
@@ -19,6 +19,7 @@ nav:
       - <i class="bi bi-chevron-compact-right"></i> 東京地裁判決 2025年 : trial/judgement_2025.md
       - <i class="bi bi-chevron-compact-right"></i> 東京地裁判決 2022年 : trial/judgement_2022.md
       - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 : https://minnanosaiban.github.io/eneos-saiban/argument.html
+      - <i class="bi bi-chevron-compact-right"></i> 法令・判例 : trial/docu.md
 
 extra_css:
   - css/01-color.css

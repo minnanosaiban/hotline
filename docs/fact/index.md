@@ -28,7 +28,7 @@ hide:
 <p class="smaller">
 <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
 <p class="smaller">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">問題の概要</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">窓口の問題</a></p>
 <p class="smaller">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
 <p class="smaller">
@@ -45,9 +45,11 @@ hide:
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
 <p class="smaller pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
+<p class="smaller pad1">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/docu/" class="arrow-link">法令・判例</a></p>
 </div>
 
-<p class="base">
+<p class="base64">
   <a href="https://minnanosaiban.github.io/hotline/fact/fact.pdf"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <span style="color: var(--md-accent-color) !important;"><b>ＰＤＦ</b></span> で表示
@@ -58,7 +60,7 @@ hide:
   </a>
 </p>
 
-<div class="width-40 base" markdown>
+<div class="width-40 base64" markdown>
 
 # 背景と事実
 
@@ -113,9 +115,9 @@ hide:
 </p>
 <div class="margin02">
 <div class="card-bule width-40">
-<h3>⑴　被通報者との協議と通報者の排除</h3>
+<h3>⑴　被通報者との接触と通報者の排除</h3>
 <p class="pad1 idt">
- ＥＮＥＯＳは、通報者が知らないうちに、被通報者と協議しました。その後、通報者は、「業務の移管」を名目に、通報に関する情報共有から排除されました。
+ ＥＮＥＯＳは、通報者が知らないうちに、被通報者と接触しました。その後、通報者は、「業務の移管」を名目に、通報に関する情報共有から排除されました。
 </p>
 </div>
 </div>
@@ -153,9 +155,9 @@ hide:
 </div>
 <div class="margin02">
 <div class="card-bule width-40">
-<h3>⑹　隠し通した不正の有無</h3>
+<h3>⑹　「不正の有無」を通報者に秘匿</h3>
 <p class="pad1 idt">
- 新社長の制度利用の呼びかけを受けて行った再通報（３度目の通報）に対しては、「解決済み」というわずか一言だけを通知しました。これは、法定指針に反しているうえ、不正があったのかという点すら、通報者に隠しています。
+ 新社長の制度利用の呼びかけを受けて行った再通報（３度目の通報）に対しては、「解決済み」というわずか一言だけを通知しました。これは、法定指針に反しているうえ、不正があったのかという点すら、通報者に秘匿しています。
 </p>
 </div>
 </div>
