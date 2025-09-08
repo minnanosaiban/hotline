@@ -1,11 +1,11 @@
 /* カラー定義 */
 :root {
   --card-color1: #e5e7ea; /* 青みがかかったグレー */
-  --card-color2: #f4f4f0; /* クリーム系 */
+  --card-color2: #f4f4f0; /* ベージュ系 */
   --card-color3: #F2f2f2; /* グレー系 */  
   --typeset-color-1: #08131a; /* Note */
   --typeset-color-2: #003682; /* 濃い青 */ 
-  --typeset-color-2-d: #2563eb; /* 濃い青のホバー */
+  --typeset-color-2-d: #4D8BCC; /* 濃い青のホバー */
   --typeset-color-2-C: #c5d1e0; /* 濃い青のカードの色 */  
   --blue-color-1: #0068b7; /* NTT */
   --blue-color-2: #0072bc; /* NTTDate */
@@ -26,28 +26,32 @@
   --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
-  --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
+  --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1);; /* フッター デフォルトの色を薄めに*/
   --md-main-color: var(--typeset-color-2); /* メインカラー */
   --md-strong-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
+  --md-bg-beige-color: #f4f4f0; /* バックグラウンド　ベージュ*/
+  --md-bg-blue-color: #e5e7ea; /* バックグラウンド　ブルー*/
 }
 
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
-  --md-primary-fg-color: #0f172a; /* ヘッダーの背景色 */
+  --md-primary-fg-color: hsla(var(--md-hue), 15%, 8%, 1); /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
-  --md-footer-bg-color--dark: #2E404d; /* フッター デフォルトの色を薄めに*/
+  --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1); /* フッター デフォルトの色を薄めに*/
   --md-main-color: var(--typeset-color-2-d); /* メインカラー */
   --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
-  --md-accent-color: var(--orange-color-1); /* アクセントカラー */  
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー */
+  --md-bg-beige-color: hsla(var(--md-hue), 15%, 10%, 0.87); /* バックグラウンド　ベージュ*/ 
+  --md-bg-blue-color: hsla(var(--md-hue), 15%, 8%, 1); /* バックグラウンド　ブルー*/
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: #e5e7ea !important;
+  background-color: var(--md-bg-blue-color);
 }
 
 /* 
