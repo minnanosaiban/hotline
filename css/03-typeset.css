@@ -138,6 +138,13 @@ h3 {
   color: var(--md-typeset-color) !important;
   font-weight: 700 !important;
 }
+h4 {
+  margin: 0 !important;
+  font-size: 18px !important;
+  line-height: 2.4 !important;
+  color: var(--md-typeset-color) !important;
+  font-weight: 400 !important;
+}
 /* h2 + h3 {
   margin-top: 2.4rem !important;
 } */
