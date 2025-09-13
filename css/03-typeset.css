@@ -165,6 +165,11 @@ h4 {
 /*   content: none; /* 横線を無効化 */
 /* } */
 /* 強調・下線 */
+u {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--md-main-color);
+}
 strong em {
   color: var(--md-strong-color) !important;
   font-style: normal !important;
@@ -297,6 +302,12 @@ strong {
   }
 .pad8 {
   padding-left:8em;
+  }
+.pad9 {
+  padding-left:9em;
+  }
+.pad10 {
+  padding-left:10em;
   }
 /* １行の文字数（トップタイトル） */
 .top-title-13 {
