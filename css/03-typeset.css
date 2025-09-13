@@ -249,6 +249,24 @@ strong {
   padding-left:2em;
   text-indent:-2em;
   }
+.hg-idt3 {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4 !important;
+  font-size: 16px !important;
+  margin: 0;
+  padding-left:3em;
+  text-indent:-3em;
+  }
+.hg-idt4 {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4 !important;
+  font-size: 16px !important;
+  margin: 0;
+  padding-left:4em;
+  text-indent:-4em;
+  }
 .hg-idt6 {
   line-height: 2.4 !important;
   font-size: 16px !important;
@@ -273,6 +291,12 @@ strong {
   }
 .pad6 {
   padding-left:6em;
+  }
+.pad7 {
+  padding-left:7em;
+  }
+.pad8 {
+  padding-left:8em;
   }
 /* １行の文字数（トップタイトル） */
 .top-title-13 {
