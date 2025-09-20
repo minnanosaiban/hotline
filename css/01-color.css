@@ -31,8 +31,7 @@
   --md-strong-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
-  --md-bg-beige-color: #f4f4f0; /* バックグラウンド　ベージュ*/
-  --md-bg-blue-color: #e5e7ea; /* バックグラウンド　ブルー*/
+  --md-bg-blue-color: #F2f2f2; /* バックグラウンド　ブルー*/
 }
 
 [data-md-color-scheme="slate"] {
@@ -46,13 +45,17 @@
   --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
-  --md-bg-beige-color: hsla(var(--md-hue), 15%, 10%, 0.87); /* バックグラウンド　ベージュ*/ 
-  --md-bg-blue-color: hsla(var(--md-hue), 15%, 8%, 1); /* バックグラウンド　ブルー*/
+  --md-bg-blue-color: hsla(var(--md-hue), 15%, 10%, 0.87); /* バックグラウンド　ブルー*/ 
 }
 
-audio::-webkit-media-controls-panel {
+/* audio::-webkit-media-controls-panel {
   background-color: var(--md-bg-blue-color);
-}
+}*/
+
+.bg-blue{
+  background-color: var(--md-bg-blue-color);
+  }
+
 
 /* 
 [data-md-color-scheme="default"] {
