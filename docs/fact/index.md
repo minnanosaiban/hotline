@@ -1,6 +1,6 @@
 ---
 title: 背景と事実 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳ（エネオス）は、元社長のセクハラ不祥事を受けて、コンプライアンス徹底を表明しておりますが、通報窓口における対応には問題があるといえます。内部通報制度をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、公益通報に関する問題を検証していきます。
+description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者への「法改正があった」との虚偽通知という問題に正面から向き合っていません。この問題について株主総会で問題提起をします。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -13,7 +13,7 @@ description: ＥＮＥＯＳ（エネオス）は、元社長のセクハラ不�
 # links:
   # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
   # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
-url: https://minnanosaiban.github.io/hotline/summary/issue/
+url: https://minnanosaiban.github.io/hotline/fact/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
@@ -28,7 +28,7 @@ hide:
 <p class="smaller">
 <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
 <p class="smaller">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">窓口の問題</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">法制度の問題</a></p>
 <p class="smaller">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
 <p class="smaller">
@@ -38,15 +38,13 @@ hide:
 <p class="smaller pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link">通報者側の主張書面</a></p>
 <p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link">控訴審の主張</a></p>
-<p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">東京地裁判決 2025年</a></p>
-<p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">判決書（水野有子裁判長）</a></p>
 <p class="smaller pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
 <p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/docu/" class="arrow-link">法令・判例</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/document/" class="arrow-link">法令・判例</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/generativeai/" class="arrow-link">ＡＩ ✕ 裁判分析</a></p>
 </div>
 
 <p class="base64">
@@ -54,7 +52,7 @@ hide:
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <span style="color: var(--md-accent-color) !important;"><b>ＰＤＦ</b></span> で表示
   </a>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/summary/issue/ &text=背景と事実 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/fact/ &text=背景と事実 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -103,7 +101,7 @@ hide:
 私はこの呼びかけに応じ、通報の「解決策」とされた海外子会社を使った対応に会計不正の疑いがあるとして再通報しました。
 </p>
 <p class="margin02">
-しかし、返ってきた回答は、「解決済み」というわずか一言だけでした。これは、法定指針に反しているうえ、不正があったのかという点すら、通報者に隠しています。
+しかし、返ってきた回答は、「解決済み」というわずか一言だけでした。これは、法定指針に反しているうえ、不正があったのかという点すら、通報者に秘匿しています。
 </p>
 <div class="margin04" markdown>
  - <b>消費者庁「指針の解説」から引用</b><br>「解決済みの案件か否かについては、解決に関する公益通報者の認識と事業者の認識が一致しないことがあるが、解決しているか否かの判断は可能な限り客観的に行われることが求められる。」
