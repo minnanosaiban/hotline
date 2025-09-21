@@ -1,6 +1,6 @@
 ---
-title: 窓口の問題 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳ（エネオス）は、元社長のセクハラ不祥事を受けて、コンプライアンス徹底を表明しておりますが、通報窓口における対応には問題があるといえます。内部通報制度をめぐる訴訟について、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、公益通報に関する問題を検証していきます。
+title: 法制度の問題 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
+description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者への「法改正があった」との虚偽通知という問題に正面から向き合っていません。この問題について株主総会で問題提起をします。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -28,7 +28,7 @@ hide:
 <p class="smaller">
 <i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
 <p class="smaller">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">窓口の問題</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">法制度の問題</a></p>
 <p class="smaller">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
 <p class="smaller">
@@ -38,15 +38,13 @@ hide:
 <p class="smaller pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link">通報者側の主張書面</a></p>
 <p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/appeal/" class="arrow-link">控訴審の主張</a></p>
-<p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">東京地裁判決 2025年</a></p>
-<p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2022/" class="arrow-link">東京地裁判決 2022年</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">判決書（水野有子裁判長）</a></p>
 <p class="smaller pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
 <p class="smaller pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/docu/" class="arrow-link">法令・判例</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/document/" class="arrow-link">法令・判例</a></p>
+<p class="smaller">
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/generativeai/" class="arrow-link">ＡＩ ✕ 裁判分析</a></p>
 </div>
 
 <p class="base64">
@@ -54,7 +52,7 @@ hide:
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <span style="color: var(--md-accent-color) !important;"><b>ＰＤＦ</b></span> で表示
   </a>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/summary/ &text=窓口の問題 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/summary/ &text=法制度の問題 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -62,17 +60,17 @@ hide:
 
 <div class="width-40 base64" markdown>
 
-# 窓口の問題
+# 法制度の問題
 
 ## １　裁判とその判決
 <p class="margin02">
-私は、勤務先の内部通報制度を利用したＥＮＥＯＳの従業員です。通報対応の過程で、会社から誤解を促すような不確かな情報を受けるという問題に直面しました。
+私は、勤務先の内部通報制度を利用したＥＮＥＯＳの従業員です。通報対応の過程で、会社から不正確な情報を通知されるという問題がありました。
 </p>
 <p class="margin02">
-裁判では、通報に対する調査結果や是正措置等を適切に知らせなかったことを「通報者に対する通知義務違反」として訴えました（東京地裁）。
+裁判では、いくつかの問題のうち、通報に対する調査結果や是正措置等を適切に知らせなかったことを「通報者に対する通知義務違反」として訴えました（東京地裁）。
 </p>
 <p class="margin02">
-しかし、裁判所は、「通報制度は通報者のために設けられたものではない」「調査結果に対する不服申立てに関する規定は置かれていない」「通報者は調査結果に対して法的利益を有していない」として、私の訴えを棄却しました。
+しかし、東京地裁は、「通報制度は通報者のために設けられたものではない」「調査結果に対する不服申立てに関する規定は置かれていない」「通報者は調査結果に対して法的利益を有していない」として、私の訴えを棄却しました。
 </p>
 <p class="margin02 smaller">
 <a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos_judgment_2025.03.31.pdf" class="arrow-link" >
@@ -81,7 +79,7 @@ hide:
 
 ## ２　判決が示す制度の限界
 <p class="margin02">
-この判決が示したのは、通報者が「自分の通報がどう扱われたのか」を知る権利や利益が、法的に保護されていないという現実です。
+この判決が示したのは、通報者の「自分の通報がどのように扱われたのか」を知る権利や利益が、法的に保護されていないという現実です。
 </p>
 <p class="margin02">
 そのため、会社は、「調査の有無」「調査の対象」「不正の有無」を曖昧にして、選別的・誘導的な通知で通報者に誤認を促すことが可能になっています。
@@ -106,10 +104,10 @@ hide:
 
 ## ４　法制度の不備が生む問題
 <p class="margin02">
-ＣＧコードだけではありません。公益通報者保護法も、通報窓口の整備を義務づけてはいますが、通報者に対する情報提供の正確性について定めていません。
+ＣＧコードだけではありません。公益通報者保護法も、通報者に対する情報提供の正確性について、その義務を定めていません。
 </p>
 <p class="margin02">
-ＥＮＥＯＳの「法的拘束力がない」「罰則がない」などの主張にも表れているとおり、こうした制度上の不備は、「通報者への誠実な情報提供を避ける余地」を与え、内部通報制度の形骸化を招いています。
+ＥＮＥＯＳの「法的拘束力がない」「罰則がない」などの主張にも表れているとおり、こうした制度上の不備は、「通報者への通知の正確性を避ける余地」を与え、内部通報制度の形骸化を招いています。
 </p>
 <p class="margin02">
 その結果、通報者は、「なぜ調査が行われないのかが不明」「何が調査対象とされたのかが不明」「不正の有無すら不明」といった不透明な状況に置かれます。
