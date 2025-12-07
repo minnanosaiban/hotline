@@ -1,0 +1,94 @@
+/* 画面余白・タブ・縦スクロールバー・サイドバーのテキスト・スマホで表示・トップとボトムのナビゲーション・センタリング */
+/* 画面余白 */
+/*
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 1.5rem;
+}
+*/
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 0.5rem;  /* トップの余白を狭くする */
+}
+/*
+.md-content {
+  flex-grow: 1;
+  min-width: 0;
+}
+*/
+/*
+.md-content__inner {
+  margin: 0 .8rem 1.2rem;
+  padding-top: .6rem;
+}
+*/
+.md-content__inner {
+  padding-top: 0rem; 
+}
+/* タブ */
+/* タブのホバーはメインカラーの下線 */
+/* タブのアクティブはメインカラーの下線 */
+.md-tabs__link:hover {
+  color: var(--md-main-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--md-main-color);
+}
+.md-tabs__item--active .md-tabs__link {
+  color: var(--md-main-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--md-main-color);
+}
+/* 縦スクロールバー */
+.md-sidebar__inner {
+  overflow: hidden;
+}
+.md-sidebar__scrollwrap {
+  scrollbar-color: #0000;
+  scrollbar-width: 1px;
+}
+/* サイドバーのテキスト */
+.md-nav__link { 
+  font-weight: 400 !important;
+  color: var(--md-typeset-color) !important;
+}
+.md-nav__link:hover {
+  color: var(--md-main-color) !important;
+  font-weight: 700 !important;
+}
+.md-nav__link--active, 
+.md-nav__link--active:hover {
+  color: var(--md-main-color) !important;
+  font-weight: 700 !important;
+}
+.md-sidebar--secondary {
+  overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
+  white-space: nowrap;    /* テキストの改行を抑える */
+}
+/* スマホで表示 */
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+/* センタリング */
+.center-container {
+  display: flex;
+  flex-direction: column; /* ← 横並びではなく縦並びにする */
+  align-items: center;    /* 横方向の中央揃え */
+  gap: 10px;              /* 子要素間の余白 */
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+@media only screen and (max-width: 767px) {
+  .center-container {
+    justify-content: flex-start;
+  }
+}

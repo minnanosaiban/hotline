@@ -1,12 +1,20 @@
 /* カラー定義 */
 :root {
+  --corporate-color001: #C70025; /* ENEOS-A */
+  --corporate-color002: #DF0515; /* ENEOS-B */
+  --corporate-color003: #e94709; /* ENEOS-A */
+  --corporate-color004: #ED6C00; /* ENEOS-B */ 
+  --corporate-color011: #c03; /* 出光興産 */
+  --corporate-color021: #fc2e14; /* コスモ石油 */
+  --corporate-color022: #2c31a6; /* コスモ石油 */
+  --corporate-color023: #00ad92; /* コスモ石油 */
   --card-color1: #e5e7ea; /* 青みがかかったグレー */
   --card-color2: #f4f4f0; /* ベージュ系 */
   --card-color3: #F2f2f2; /* グレー系 */  
   --typeset-color-1: #08131a; /* Note */
   --typeset-color-2: #003682; /* 濃い青 */ 
   --typeset-color-2-d: #4D8BCC; /* 濃い青のホバー */
-  --typeset-color-2-C: #c5d1e0; /* 濃い青のカードの色 */  
+  --typeset-color-2-C: #c5d1e0; /* 濃い青のカードの色 */
   --blue-color-1: #0068b7; /* NTT */
   --blue-color-2: #0072bc; /* NTTDate */
   --pink-color-1: #e0217f; /* pasol */
