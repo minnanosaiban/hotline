@@ -1,6 +1,6 @@
 ---
-title: ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者への「法改正があった」との虚偽通知という問題に正面から向き合っていません。この問題について株主総会で問題提起をします。
+title: ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 -
+description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。
 
 # date: 2023-03-06
 # categories:
@@ -56,35 +56,35 @@ icon: material/home
 </p>
 
 <div class="center-container" markdown>
-<h1 class="base00 top-title-13">
+<h1 class="top-title-13">
   <span style="color: var(--md-accent-color);"><b>ＥＮＥＯＳ</b></span>の内部通報制度をめぐる訴訟について
 </h1>
 
-<div class="base00 margin04" markdown>
+<div markdown>
 <p class="width-40">
-ＥＮＥＯＳは、豪州企業へのＧＳＴ（消費税）の支払いが発生した事実の通報に対して、その対応は以下のとおりでした。
+私は、支払手続の際、豪州企業へＧＳＴ（消費税）の支払を行っていることに気が付いて上司に相談しましたが、曖昧な回答しか得られませんでした。そのため、社内の通報窓口を利用しました。
 </p>
 ### 1. 調査事項のすり替え
 <p class="width-40 pad1">
-ＧＳＴの支払について講じた是正措置を通報者に秘匿し、代わりに「還付の任意性」という別の論点を持ち出して報告しました。
+ＧＳＴの支払について講じた措置を通報者に秘匿し、代わりに「ＧＳＴ還付の任意性」という別の論点を持ち出して通報者に調査報告をしました。
 </p>
 ### 2. 通報者への誤認誘導
 <p class="width-40 pad1">
-「ＧＳＴの法改正があった」などと不正確な説明を行い、さらに、豪州子会社の本社への送金は、「豪州子会社が本社の還付請求を代行した」と装ったといえます。
+「ＧＳＴの法改正」という不正確な通知で通報者を誤認誘導。さらに、「本社の還付請求を子会社が代行」と装って豪州子会社が本社へ送金した疑いがあります。
 </p>
-### 3. 不合理な契約変更
+### 3. 不合理な措置
 <p class="width-40 pad1">
-通報後に行われた契約変更（是正措置）は「オーストラリア企業がＧＳＴを請求する権利を有する」という内容で、不要な支払いを認める形でした。
+通報者に秘匿した通報に関する措置は、「オーストラリア企業がＧＳＴを請求する権利を有する」という、不要な支払いを認める形の契約変更でした。
 </p>
 </div>
 
-<h1 class="center top-title-11" style="margin-top: 4rem !important;  margin-right: 0rem  !important;  margin-bottom: 2rem !important;  margin-left: 0rem !important;">
-  <span style="color: #e94709;"><b>見て、聞いて、分かる！ＥＮＥＯＳ裁判</b></span>
-</h1>
+<p class="center top-title-11 largest" style="margin-top: 12rem  !important; margin-bottom: 8rem  !important;">
+<span style="color: #e94709;">見て、聞いて、分かる！ＡＩ ✕ 裁判分析</span>
+</p>
 
-<div class="card-bule width-40 margin02">
+<div class="card-bule width-40">
 <p  class="larger center margin01">
-ＥＮＥＯＳ側の主張を解説</p>
+ＥＮＥＯＳの主張を音声解説</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
@@ -95,30 +95,113 @@ icon: material/home
 NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
 </div>
 
-<div class="card-bule width-40 margin02">
-<p  class="larger center margin01">
-東京地裁判決を解説</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
+
+<p class="center largest" style="margin-top: 12rem  !important; margin-bottom: 0rem !important;">
+<span style="color: #e94709;">ＥＮＥＯＳの主張はこれ！</span>
+</p>
+<p style="margin-top: 0rem  !important; margin-bottom: 2rem  !important;">
+<span style="color: #e94709;">コンプライアンス徹底表明に反する主張</span>
+</p>
+
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+通報者に調査結果を通知する義務は？
+</p>
+<p class="margin02">
+コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない。
+</p>
 </div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a><br>カスタム指示無し<br>2025年8月作成</p>
 </div>
 
-<div class="card-bule width-40 margin02">
-<p  class="larger center margin01">
-控訴審を解説</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/kouso_202508.wav" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+コーポレートガバナンス・コードの応諾を表明した責任は？
+</p>
+<p class="margin02">
+法的拘束力はなく、ＣＧコードの各原則を実施しない場合でも、罰則が適用されることはなく、公表措置等の対象となる可能性があるというにとどまるものである。
+</p>
 </div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月作成</p>
 </div>
+<p  class="list smallest width-40">
+※　ＥＮＥＯＳは、東京証券取引所が定める「コーポレートガバナンス・コード」の全ての原則に応諾することを基本方針として実践することを公表しています。</p>
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+調査の対象が曖昧にされている！
+</p>
+<p class="margin02">
+本件通報に係る通報用フォームに記載された情報及びその後に原告が調査補助者に提供した情報のうち、「不正行為等」（に該当するか否かが問題となる行為）の内容たる情報である。
+</p>
+</div>
+</div>
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+契約変更をしており、通報を受けて措置を取ったのでは？
+</p>
+<p class="margin02">
+豪州企業との契約締結は、コンプライアンスホットライン規程に定める是正措置又は再発防止策等として行ったわけではない。
+</p>
+</div>
+</div>
+<p  class="list smallest width-40">
+※　ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後に、<b>「オーストラリア企業がＧＳＴを課すと判断した場合には、ＧＳＴ込みで請求する権利を有する」</b>という条文を追加した新しい契約を締結しました。</p>
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+ＧＳＴの支払は、規程に基づく「不正行為等」では？
+</p>
+<p class="margin02">
+ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。
+</p>
+</div>
+</div>
+<p  class="list smallest width-40">
+※　「不正行為等」は、ＥＮＥＯＳの規程類に「法令等に違反する行為または違反するおそれのある行為」と定義されています。また、「法令等」には、法令だけではなく契約も含まれるものとして定義されています。</p>
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+通報者に通知した「ＧＳＴの法改正」は不正確な内容では？
+</p>
+<p class="margin02">
+通報者の所属していた部署の担当者が当該部署の部長に対して業務に関して報告をしたものに過ぎず、調査補助者が通報者に対して通報内容に関して通知又は情報共有をしたものではない。
+</p>
+</div>
+</div>
+<p  class="list smallest width-40">
+※　「ＧＳＴの法改正」とは、ＥＮＥＯＳがＧＳＴの支払に関する通報を受けた後に、通報者に共有した<b>「2016年11月以降、ＧＳＴの法改正が施行された」</b>という情報。しかし、オーストラリア税務局（ATO）のウェブサイトで該当の法改正が確認できません。</p>
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+海外子会社による本社に対する送金は不正な送金では？
+</p>
+<p class="margin02">
+否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。
+</p>
+</div>
+</div>
+<p  class="list smallest width-40">
+※　ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後に、<b>「海外子会社が本社のＧＳＴ還付請求を代行したとの名目で本社に送金する」</b>という措置をとりました。しかし、実際に還付請求が代行されたことを示す証拠は確認されていません。</p>
+ 
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+ＧＳＴ還付の任意性に関する調査結果は調査事項のすり替えでは？
+</p>
+<p class="margin02">
+ＧＳＴの還付申請がされなかったりしたとしても、直ちにコンプライアンス違反となるわけではない。
+</p>
+</div>
+</div>
+<p  class="list smallest width-40">
+※　ＥＮＥＯＳは、２度目の通報に対する調査報告として、通報者に、法令等に基づいた「ＧＳＴ支払の適正性」ではなく「ＧＳＴ還付の任意性」について調査した結果を通知しました</p>
 
 </div>

@@ -1,6 +1,6 @@
 ---
 title: 判決書（水野有子裁判長） - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者への「法改正があった」との虚偽通知という問題に正面から向き合っていません。この問題について株主総会で問題提起をします。
+description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -59,9 +59,9 @@ hide:
 </h1>
 
 <div class="margin08">
-<div class="card-bule width-40 margin01">
+<div class="card-bule width-40">
 <p  class="larger center margin01">
-東京地裁判決を解説</p>
+東京地裁判決を音声解説</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">

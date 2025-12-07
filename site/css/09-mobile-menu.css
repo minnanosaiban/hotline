@@ -1,0 +1,110 @@
+/* トップとボトムのナビゲーション */
+@media only screen and (max-width: 767px) {
+  .foot-title-eneos {
+    max-width: 13em;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  }
+@media only screen and (max-width: 767px) {
+  .top-nav {
+    margin-top: 0 !important;
+    margin-bottom: 6.4rem !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+  }
+  }
+.bottom-nav {
+  margin-top: 16rem !important;
+  margin-bottom: 0rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .bottom-nav {
+    margin-top: 8rem !important;
+    margin-bottom: 0rem !important;
+  }
+  }
+/* ハンバーガーアイコン */
+.hamburger {
+  display: none;
+  color: var(--md-default-fg-color);
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+  text-align: right;
+}
+.hamburger:hover {
+  color: var(--md-accent-color) ;
+}
+/* モバイルメニュー本体 */
+.mobile-menu {
+  font-size: 1em !important;
+  display: none;
+  background: var(--md-default-bg-color);
+  padding: 0.4rem;
+  margin: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+@media (prefers-color-scheme: dark) {
+  .mobile-menu {
+    background: var(--md-typeset-color);
+  }
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .mobile-menu a {
+    display: inline-block;
+    padding: 0.2rem 0;
+  }
+}
+/* モバイル用の目次 */
+.mokuji {
+  display: none;
+}
+.mobile-mokuji {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  .mobile-mokuji {
+    background: var(--md-typeset-color);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mokuji {
+    display: block;
+    color: var(--md-default-fg-color);
+    padding: 0;
+    cursor: pointer;
+    margin: 0 0 0.4rem 0;
+    text-align: left;
+  }
+  .mobile-mokuji {
+    display: block;
+    font-size: 1em !important;
+    background: var(--md-default-bg-color);
+    padding: 0.8rem;
+    margin: 0.8rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .mobile-mokuji a {
+    display: inline-block;
+    padding: 0.2rem 0;
+  }
+}
+/* ビデオ */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 アスペクト比 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

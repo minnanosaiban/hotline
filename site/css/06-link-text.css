@@ -1,0 +1,108 @@
+/* リンクを強調、ホバーで動く */
+.link-accent {
+  display: inline-block;
+  color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.link-accent:hover {
+  color: var(--md-accent-color) !important; /* 後：アクセント色 */
+  transition: color 0.3s ease;
+  }
+.link-accent .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-accent-color); /* 前と後：アクセント色の矢印 */
+  text-decoration-color: var(--md-accent-color); /* 前と後：アクセント色のライン */
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px; /* 前：細めのライン */
+}
+.link-accent:hover .arrow {
+  transform: translateX(8px); /* 後：動く */
+  text-decoration-color: var(--md-accent-color); /* 前と後：アクセント色のライン */
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1.2px; /* 前：ラインを少し太く */
+}
+/* 下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
+.arrow-link {
+  display: inline-block;
+  color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-thickness: 1px;
+}
+.arrow-link:hover {
+  color: var(--md-link-colorr) !important;  /* 前：メインの文字色 */
+  text-decoration-thickness: 1.1px; /* 前：ラインを少し太く */
+  transition: color 0.3s ease;
+  text-decoration-color: var(--md-link-color);
+  }
+.arrow-link .arrow1 {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-link-color);  /* 前：メインの矢印 */
+}
+.arrow-link:hover .arrow1 {
+  transform: translateX(8px);
+  color: var(--md-link-color);  /* 後：メインの矢印 */
+}
+.arrow-link .arrow2 {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-typeset-color);  /* 前：黒の矢印 */
+}
+.arrow-link:hover .arrow2 {
+  transform: translateX(8px);
+  color: var(--md-link-color);  /* 後：メインの矢印 */
+}
+.arrow-link .arrow3 {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--md-default-fg-color--lighter);  /* 前：グレーの矢印 */
+}
+.arrow-link:hover .arrow3 {
+  transform: translateX(8px);
+  color: var(--md-link-color);  /* 後：メインの矢印 */
+}
+/* リンクテキスト */
+/*
+a {
+  color: var(--md-typeset-a-color);
+  word-break: break-word;
+  &,
+  &::before {
+    transition: color 125ms;
+  }
+  &:is(:focus, :hover) {
+    color: var(--md-accent-fg-color);
+
+    code {
+      background-color: var(--md-accent-fg-color--transparent);
+    }
+  }
+  code {
+    color: currentcolor;
+    transition: background-color 125ms;
+  }
+  &.focus-visible {
+    outline-color: var(--md-accent-fg-color);
+    outline-offset: px2rem(4px);
+  }
+}
+*/
+/*
+.md-typeset .md-tags:not([hidden]) {
+  display: inline-flex
+;
+  flex-wrap: wrap;
+  gap: .5em;
+  margin-bottom: .75em;
+  margin-top: -.125em;
+}
+*/
+
