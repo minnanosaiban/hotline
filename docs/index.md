@@ -62,24 +62,37 @@ icon: material/home
 
 <div markdown>
 <p class="width-40">
-私は、支払手続の際、豪州企業へＧＳＴ（消費税）の支払を行っていることに気が付いて上司に相談しましたが、曖昧な回答しか得られませんでした。そのため、社内の通報窓口を利用しました。
+私は、支払手続の際、海外企業へＧＳＴ（消費税）の支払を行っていることに気が付きました。そこで、上司に相談しましたが、曖昧な回答しか得られませんでした。そのため、社内の通報窓口を利用しました。
 </p>
-### 1. 調査事項のすり替え
-<p class="width-40 pad1">
-ＧＳＴの支払について講じた措置を通報者に秘匿し、代わりに「ＧＳＴ還付の任意性」という別の論点を持ち出して通報者に調査報告をしました。
+<p class="width-40 margin04">
+通報を受け、ＥＮＥＯＳ側が行ったことは次のとおりです。
 </p>
-### 2. 通報者への誤認誘導
-<p class="width-40 pad1">
-「ＧＳＴの法改正」という不正確な通知で通報者を誤認誘導。さらに、「本社の還付請求を子会社が代行」と装って豪州子会社が本社へ送金した疑いがあります。
+
+<p  class="larger width-40 margin02">
+<b>１. 調査事項をすり替えた</b>
 </p>
-### 3. 不合理な措置
 <p class="width-40 pad1">
-通報者に秘匿した通報に関する措置は、「オーストラリア企業がＧＳＴを請求する権利を有する」という、不要な支払いを認める形の契約変更でした。
+通報者には実際に講じた措置を秘匿したうえ、全く別のそもそも問題のない論点を調査した結果を通知しました。
+</p>
+<p  class="larger width-40 margin02">
+<b>２. 通報者へ誤認誘導した</b>
+</p>
+<p class="width-40 pad1">
+通報者に「法改正があった」と誤認識させる通知をしました。さらに、「海外子会社が代行」と装い、不正会計を重ねた疑いがあります。
+</p>
+<p  class="larger width-40 margin02">
+<b>３. 適正性を有耶無耶にした</b>
+</p>
+<p class="width-40 pad1">
+海外企業がＧＳＴ（消費税）を請求することを認めるというの契約に変更しました。これにより、支払の適正性が有耶無耶になりました。
+</p>
+<p class="width-40 margin04">
+海外企業との契約変更は通報に対する措置といえます。通報に対する措置は通報者に通知するべきか否かを裁判で争いました。
 </p>
 </div>
 
-<p class="center top-title-11 largest" style="margin-top: 12rem  !important; margin-bottom: 8rem  !important;">
-<span style="color: #e94709;">見て、聞いて、分かる！ＡＩ ✕ 裁判分析</span>
+<p class="center top-title-11 largest" style="margin-top: 8rem  !important; margin-bottom: 8rem  !important;">
+<span style="color: #e94709;"><b>見て、聞いて、分かる！ＡＩ ✕ 裁判分析</b></span>
 </p>
 
 <div class="card-bule width-40">
@@ -97,10 +110,10 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 
 
 <p class="center largest" style="margin-top: 12rem  !important; margin-bottom: 0rem !important;">
-<span style="color: #e94709;">ＥＮＥＯＳの主張はこれ！</span>
+<span style="color: #e94709;"><b>ＥＮＥＯＳの主張はこれ！</b></span>
 </p>
 <p style="margin-top: 0rem  !important; margin-bottom: 2rem  !important;">
-<span style="color: #e94709;">コンプライアンス徹底表明に反する主張</span>
+<span style="color: #e94709;"><b>コンプライアンス徹底を表明しているはずでは？</b></span>
 </p>
 
 
