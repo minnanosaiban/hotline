@@ -1,7 +1,17 @@
 @echo off
 setlocal
 
-rem バッチファイルがある場所をカレントディレクトリにする（最も確実な方法）
+rem git clone https://github.com/minnanosaiban/hotline.git
+rem git remote set-url origin https://github.com/minnanosaiban/hotline.git
+rem mkdocs build --clean
+rem mkdocs serve
+rem mkdocs gh-deploy --force
+rem git add .
+rem git reset site/
+rem git commit -m "Update main branch (excluding site/)"
+rem git push -f origin main
+
+
 cd /d "%~dp0"
 
 echo === Check Current Directory ===
