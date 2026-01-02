@@ -61,7 +61,7 @@ hide:
 <div class="margin08">
 <div class="card-bule width-40">
 <p  class="larger center margin01">
-東京地裁判決を音声解説</p>
+東京地裁判決を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">

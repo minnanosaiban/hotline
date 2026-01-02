@@ -7,7 +7,7 @@ site_url: https://minnanosaiban.github.io/hotline/
 nav:
   - Home:
       - index.md
-  - 法制度の問題: 
+  - 法制度の不備: 
       - summary/index.md
   - 背景と事実: 
       - fact/index.md
@@ -17,7 +17,6 @@ nav:
       - <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面 : trial/whistleblower.md 
       - <i class="bi bi-chevron-compact-right"></i> 判決書（水野有子裁判長） : trial/judgement_2025.md
       - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 : https://minnanosaiban.github.io/eneos-saiban/argument.html
-      - ＡＩ ✕ 裁判分析 : trial/generativeai.md
 
 extra_css:
   - css/01-color.css
