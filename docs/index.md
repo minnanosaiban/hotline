@@ -78,23 +78,25 @@ icon: material/home
 通報者に「法改正があった」と誤認識させる通知をしました。さらに、「海外子会社が代行」と装い、不正会計を重ねた疑いがあります。
 </p>
 <p  class="larger width-40 margin02">
-<b>３. 適正性を有耶無耶にした</b>
+<b>３. 適正性を曖昧化にした</b>
 </p>
 <p class="width-40 pad1">
-海外企業側がＧＳＴ（消費税）請求を認めるという内容に契約変更し、この措置を秘匿しました。これにより、支払の適正性が有耶無耶になりました。
+契約を「海外企業がＧＳＴ（消費税）請求することを認める」と変更したうえ、この変更を秘匿しました。これにより、支払が適正であったかどうかが曖昧になりました。
 </p>
 <p class="width-40 margin04">
-通報窓口の利用後、私の担当業務は「グループ庶務」だけに限定されました。社内では活かすことはできませんが、私は一定の Python の知見を有しており（Ｅ資格ホルダー）、株価を利用するためのコードを Qiita で公開しています。
+通報窓口を利用した後、私の担当業務は「グループ庶務」に限定されました。社内において専門性を活かす機会はありませんが、私は Python に関する一定の知見を有しています（Ｅ資格ホルダー）。
+<p class="width-40 margin02">
+本ウェブサイトも Python により作成しています。また、株価売買に関する Python のテクニックを Qiita にて公開しておりますので、ご関心がございましたらご覧いただければ幸いです。
 </p>
 </div>
 
-<p class="center top-title-11 largest" style="margin-top: 8rem  !important; margin-bottom: 8rem  !important;">
+<p class="center top-title-11 largest" style="margin-top: 8rem  !important; margin-bottom: 4rem  !important;">
 <span style="color: #e94709;"><b>見て、聞いて、分かる！ＡＩ ✕ 裁判分析</b></span>
 </p>
 
 <div class="card-bule width-40">
 <p  class="larger center margin01">
-ＥＮＥＯＳの主張を音声解説</p>
+ＥＮＥＯＳの主張を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
@@ -109,7 +111,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <p class="center largest" style="margin-top: 12rem  !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;"><b>ＥＮＥＯＳの主張はこれ！</b></span>
 </p>
-<p style="margin-top: 0rem  !important; margin-bottom: 2rem  !important;">
+<p style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
 <span style="color: #e94709;"><b>コンプライアンス徹底を表明しているはずでは？</b></span>
 </p>
 
@@ -118,9 +120,8 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="card-bule width-40">
 <p class="larger margin02">
 通報者に調査結果を通知する義務は？
-</p>
-<p class="margin02">
-コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない。
+</span><p class="margin02">
+<b>ＥＮＥＯＳの主張</b>👉 コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない。
 </p>
 </div>
 </div>
@@ -131,7 +132,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 コーポレートガバナンス・コードの応諾を表明した責任は？
 </p>
 <p class="margin02">
-法的拘束力はなく、ＣＧコードの各原則を実施しない場合でも、罰則が適用されることはなく、公表措置等の対象となる可能性があるというにとどまるものである。
+<b>ＥＮＥＯＳの主張</b>👉 法的拘束力はなく、ＣＧコードの各原則を実施しない場合でも、罰則が適用されることはなく、公表措置等の対象となる可能性があるというにとどまるものである。
 </p>
 </div>
 </div>
@@ -144,7 +145,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 調査の対象が曖昧にされている！
 </p>
 <p class="margin02">
-本件通報に係る通報用フォームに記載された情報及びその後に原告が調査補助者に提供した情報のうち、「不正行為等」（に該当するか否かが問題となる行為）の内容たる情報である。
+<b>ＥＮＥＯＳの主張</b>👉 本件通報に係る通報用フォームに記載された情報及びその後に原告が調査補助者に提供した情報のうち、「不正行為等」（に該当するか否かが問題となる行為）の内容たる情報である。
 </p>
 </div>
 </div>
@@ -152,10 +153,10 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-契約変更をしており、通報を受けて措置を取ったのでは？
+通報者に通知すべき措置を取ったのでは？
 </p>
 <p class="margin02">
-豪州企業との契約締結は、コンプライアンスホットライン規程に定める是正措置又は再発防止策等として行ったわけではない。
+<b>ＥＮＥＯＳの主張</b>👉 契約を「海外企業がＧＳＴ（消費税）請求することを認める」と変更したのは、是正措置又は再発防止策等として行ったわけではない。
 </p>
 </div>
 </div>
@@ -168,7 +169,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 ＧＳＴの支払は、規程に基づく「不正行為等」では？
 </p>
 <p class="margin02">
-ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。
+<b>ＥＮＥＯＳの主張</b>👉 ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。
 </p>
 </div>
 </div>
@@ -181,7 +182,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 通報者に通知した「ＧＳＴの法改正」は不正確な内容では？
 </p>
 <p class="margin02">
-通報者の所属していた部署の担当者が当該部署の部長に対して業務に関して報告をしたものに過ぎず、調査補助者が通報者に対して通報内容に関して通知又は情報共有をしたものではない。
+<b>ＥＮＥＯＳの主張</b>👉 通報者の所属していた部署の担当者が当該部署の部長に対して業務に関して報告をしたものに過ぎず、調査補助者が通報者に対して通報内容に関して通知又は情報共有をしたものではない。
 </p>
 </div>
 </div>
@@ -194,7 +195,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 海外子会社による本社に対する送金は不正な送金では？
 </p>
 <p class="margin02">
-否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。
+<b>ＥＮＥＯＳの主張</b>👉 否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。
 </p>
 </div>
 </div>
@@ -207,7 +208,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 ＧＳＴ還付の任意性に関する調査結果は調査事項のすり替えでは？
 </p>
 <p class="margin02">
-ＧＳＴの還付申請がされなかったりしたとしても、直ちにコンプライアンス違反となるわけではない。
+<b>ＥＮＥＯＳの主張</b>👉 ＧＳＴの還付申請がされなかったりしたとしても、直ちにコンプライアンス違反となるわけではない。
 </p>
 </div>
 </div>

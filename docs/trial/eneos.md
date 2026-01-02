@@ -59,7 +59,7 @@ hide:
 <div class="margin08">
 <div class="card-bule width-40">
 <p  class="larger center margin01">
-ＥＮＥＯＳ側の主張を音声解説</p>
+ＥＮＥＯＳ側の主張を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">

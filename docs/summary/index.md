@@ -60,7 +60,7 @@ hide:
 
 <div class="width-40 base64" markdown>
 
-# 法制度の問題
+# 法制度の不備
 
 ## １　裁判とその判決
 <p class="margin02">

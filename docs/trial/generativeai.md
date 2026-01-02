@@ -62,7 +62,7 @@ NotebookLM で分析
 <div class="margin04">
 <div class="card-bule">
 <p  class="larger center margin01">
-ＥＮＥＯＳ側の主張を音声解説</p>
+ＥＮＥＯＳ側の主張を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
@@ -77,7 +77,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin04">
 <div class="card-bule">
 <p  class="larger center margin01">
-東京地裁判決を音声解説</p>
+東京地裁判決を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
@@ -92,7 +92,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin04">
 <div class="card-bule">
 <p  class="larger center margin01">
-控訴審を音声解説</p>
+控訴審を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/kouso_202508.wav" type="audio/wav">
