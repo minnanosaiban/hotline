@@ -62,7 +62,7 @@ icon: material/home
 
 <div markdown>
 <p class="width-40 margin02">
-ＥＮＥＯＳの従業員です。訴訟では、通報に対する措置を通報者に通知すべきか否かを争いました。ＥＮＥＯＳ側が行ったことは次のとおりです。
+ＥＮＥＯＳの従業員です。訴訟では、通報に対する措置を通報者に通知すべきか否かを争いました。ＥＮＥＯＳが行ったことは次のとおりです。
 </p>
 
 <p  class="larger width-40 margin02">
@@ -75,20 +75,28 @@ icon: material/home
 <b>２. 通報者へ誤認誘導した</b>
 </p>
 <p class="width-40 pad1">
-通報者に「法改正があった」と誤認識させる通知をしました。さらに、「海外子会社が代行」と装い、<b>不正会計を重ねて誤魔化した</b>疑いがあります。
+通報者に「法改正があった」と誤認識させる通知をしました。さらに、「本社に代わって海外子会社が代行した」と装い、<b>不正会計を重ねて誤魔化した疑い</b> があります。
 </p>
 <p  class="larger width-40 margin02">
 <b>３. 適正性を曖昧化にした</b>
 </p>
 <p class="width-40 pad1">
-契約を「海外企業がＧＳＴ（消費税）請求することを認める」と変更したうえ、この変更を秘匿しました。これにより、支払が適正であったかどうかが曖昧になりました。
+通報を受けた後、契約を「海外企業がＧＳＴ（消費税）請求すること」を認めるように変更したうえ、このことを秘匿しました。要するに、発生した支払について、その適正性を曖昧化しました。
 </p>
+
+<!-- 
 <p class="width-40 margin04">
 通報窓口を利用した後、私の担当業務は「グループ庶務」に限定されました。社内において専門性を活かす機会はありませんが、私は Python に関する一定の知見を有しています（Ｅ資格ホルダー）。
 <p class="width-40 margin02">
 本ウェブサイトも Python により作成しています。また、株価売買に関する Python のテクニックを Qiita にて公開しておりますので、ご関心がございましたらご覧いただければ幸いです。
 </p>
+<p class="width-40 margin02">
+現在、私は、裁判所に社内文書を提出したことを理由に <b>懲戒処分</b> の可能性を示唆されている状況です。
+</p>
+ -->
+ 
 </div>
+
 
 <p class="center top-title-11 largest" style="margin-top: 8rem  !important; margin-bottom: 4rem  !important;">
 <span style="color: #e94709;"><b>見て、聞いて、分かる！ＡＩ ✕ 裁判分析</b></span>
@@ -111,7 +119,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <p class="center largest" style="margin-top: 12rem  !important; margin-bottom: 0rem !important;">
 <span style="color: #e94709;"><b>ＥＮＥＯＳの主張はこれ！</b></span>
 </p>
-<p style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
+<p class="center" style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
 <span style="color: #e94709;"><b>コンプライアンス徹底を表明しているはずでは？</b></span>
 </p>
 
@@ -169,7 +177,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 通報を受けて契約変更してますね。このことは、通報者に通知すべきなのでは？
 </p>
 <p class="margin02">
-<b>ＥＮＥＯＳの主張</b>👉 契約を「海外企業がＧＳＴ（消費税）請求することを認める」と変更したのは、是正措置又は再発防止策等として行ったわけではない。
+<b>ＥＮＥＯＳの主張</b>👉 契約を「オーストラリア企業ＧＳＴ（消費税）請求する権利を有する」と変更したのは、是正措置又は再発防止策等として行ったわけではない。
 </p>
 </div>
 </div>
@@ -193,10 +201,10 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-海外子会社による本社に対する送金は不正な送金、つまり、不正会計では？
+通報の後、本社に海外子会社からの送金がありました。しかし、その報告が不正確です。不正会計では？
 </p>
 <p class="margin02">
-<b>ＥＮＥＯＳの主張</b>👉 否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。（要するに、不正か否かには答えず、「証拠を出せ！」と言っています）
+<b>ＥＮＥＯＳの主張</b>👉 通報者の邪推でしかない。（要するに、報告内容が正確か否か、送金が不正か否か、には答えず、通報者に「証拠を出せ！」と言っています）
 </p>
 </div>
 </div>

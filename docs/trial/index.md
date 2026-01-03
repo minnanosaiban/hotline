@@ -76,7 +76,7 @@ hide:
 
 <div class="center-container" markdown>
 <p class="center top-title-11 largest" style="margin-top: 12rem  !important;">
-<span style="color: #e94709;">見て、聞いて、分かる！ＡＩ ✕ 裁判分析</span>
+<span style="color: #e94709;"><b>見て、聞いて、分かる！ＡＩ ✕ 裁判分析</b></span>
 </p>
 </div>
 
