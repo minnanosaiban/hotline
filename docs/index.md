@@ -57,7 +57,7 @@ icon: material/home
 
 <div class="center-container" markdown>
 <h1 class="top-title-13">
-  <span style="color: var(--md-accent-color);"><b>ＥＮＥＯＳ</b></span>の内部通報制度をめぐる訴訟について
+  <b><span style="color: var(--md-accent-color);">ＥＮＥＯＳ</span>の内部通報制度をめぐる訴訟について</b>
 </h1>
 
 <div markdown>
@@ -119,7 +119,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-通報者に調査結果を通知する義務は？
+通報者に対して調査結果を通知する義務があるのでは？
 </span><p class="margin02">
 <b>ＥＮＥＯＳの主張</b>👉 コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない。
 </p>
@@ -129,7 +129,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-コーポレートガバナンス・コードの応諾を表明した責任は？
+コーポレートガバナンス・コードの応諾をしてますね。これを表明した責任があるのでは？
 </p>
 <p class="margin02">
 <b>ＥＮＥＯＳの主張</b>👉 法的拘束力はなく、ＣＧコードの各原則を実施しない場合でも、罰則が適用されることはなく、公表措置等の対象となる可能性があるというにとどまるものである。
@@ -142,7 +142,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-調査の対象が曖昧にされている！
+調査の対象が曖昧にされていますよ！ごまかしはダメですよ！
 </p>
 <p class="margin02">
 <b>ＥＮＥＯＳの主張</b>👉 本件通報に係る通報用フォームに記載された情報及びその後に原告が調査補助者に提供した情報のうち、「不正行為等」（に該当するか否かが問題となる行為）の内容たる情報である。
@@ -153,20 +153,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-通報者に通知すべき措置を取ったのでは？
-</p>
-<p class="margin02">
-<b>ＥＮＥＯＳの主張</b>👉 契約を「海外企業がＧＳＴ（消費税）請求することを認める」と変更したのは、是正措置又は再発防止策等として行ったわけではない。
-</p>
-</div>
-</div>
-<p  class="list smallest width-40">
-※　ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後に、<b>「オーストラリア企業がＧＳＴを課すと判断した場合には、ＧＳＴ込みで請求する権利を有する」</b>という条文を追加した新しい契約を締結しました。</p>
-
-<div class="margin02">
-<div class="card-bule width-40">
-<p class="larger margin02">
-ＧＳＴの支払は、規程に基づく「不正行為等」では？
+契約に反する支払がありました。ＥＮＥＯＳの規程に基づく「不正行為等」が存在したのでは？
 </p>
 <p class="margin02">
 <b>ＥＮＥＯＳの主張</b>👉 ＧＳＴの支払が契約内容に基づくものであったか否かは、「不正行為等」があったか否かには直接の関係がないし、ＧＳＴの支払が契約内容に基づくものでなかったとしても、「不正行為等」があったことになるわけではない。
@@ -179,7 +166,21 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-通報者に通知した「ＧＳＴの法改正」は不正確な内容では？
+通報を受けて契約変更してますね。このことは、通報者に通知すべきなのでは？
+</p>
+<p class="margin02">
+<b>ＥＮＥＯＳの主張</b>👉 契約を「海外企業がＧＳＴ（消費税）請求することを認める」と変更したのは、是正措置又は再発防止策等として行ったわけではない。
+</p>
+</div>
+</div>
+<p  class="list smallest width-40">
+※　ＥＮＥＯＳは、ＧＳＴの支払に関する通報を受けた後に、<b>「オーストラリア企業がＧＳＴを課すと判断した場合には、ＧＳＴ込みで請求する権利を有する」</b>という条文を追加した新しい契約を締結しました。</p>
+
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="larger margin02">
+通報者には「法改正があった」と伝えましたが、該当する法改正が未だに見つかりません！
 </p>
 <p class="margin02">
 <b>ＥＮＥＯＳの主張</b>👉 通報者の所属していた部署の担当者が当該部署の部長に対して業務に関して報告をしたものに過ぎず、調査補助者が通報者に対して通報内容に関して通知又は情報共有をしたものではない。
@@ -192,10 +193,10 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="margin02">
 <div class="card-bule width-40">
 <p class="larger margin02">
-海外子会社による本社に対する送金は不正な送金では？
+海外子会社による本社に対する送金は不正な送金、つまり、不正会計では？
 </p>
 <p class="margin02">
-<b>ＥＮＥＯＳの主張</b>👉 否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。
+<b>ＥＮＥＯＳの主張</b>👉 否認し又は不知である。豪州子会社が豪州税務当局から還付を受けていないなどというのは、通報者の邪推でしかない。（要するに、不正か否かには答えず、「証拠を出せ！」と言っています）
 </p>
 </div>
 </div>
