@@ -61,8 +61,8 @@ icon: material/home
 </h1>
 
 <div markdown>
-<p class="width-40 margin02">
-ＥＮＥＯＳの従業員です。訴訟では、通報に対する措置を通報者に通知すべきか否かを争いました。ＥＮＥＯＳが行ったことは次のとおりです。
+<p class="width-40 margin04">
+ＥＮＥＯＳの従業員です。勤務先のＥＮＥＯＳを被告として訴訟提起しました。訴訟では通報に対する措置を通報者に通知すべきか否かを争いました。
 </p>
 
 <p  class="larger width-40 margin02">
