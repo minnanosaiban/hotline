@@ -60,7 +60,7 @@ hide:
 
 <div class="smaller" markdown>
 <p  class="larger width-40" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
-<b>裁判文書全文（目次）</b>
+<b>裁判文書全文を掲載（目次）</b>
 </p>
 <p><i class="bi bi-chevron-compact-right"></i> 
 <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link" >
