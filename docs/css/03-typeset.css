@@ -89,13 +89,13 @@ h1 {
 h1 {
   font-size: 3.2em !important;
   line-height: 1.4 !important;
-  margin: 0 0 0 0 !important;
+  margin: 0 0 0.2rem 0 !important;
   color: var(--md-typeset-color) !important;
   font-weight: 300 !important;
   }
 @media only screen and (max-width: 767px) {
   h1 {
-    font-size: 2.4em !important;
+    font-size: 2.8em !important;
   }
 }
 /*
