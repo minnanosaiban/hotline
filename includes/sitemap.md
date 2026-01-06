@@ -7,7 +7,7 @@
 <p class="smallest">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
 <p class="smallest">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link">裁判記録</a></p>
+<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link">裁判文書全文</a></p>
 <p class="smallest pad1">
 <i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link">ＥＮＥＯＳ側の主張書面</a></p>
 <p class="smallest pad1">
