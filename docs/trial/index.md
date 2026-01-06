@@ -52,7 +52,7 @@ hide:
   </a>
 </p>
 
-# 裁判文書全文（目次）
+# 裁判文書全文
 
 <p>
 判決文、および、実際に裁判所に提出された裁判文書の全文です。
@@ -60,7 +60,7 @@ hide:
 
 <div class="smaller" markdown>
 <p  class="larger width-40" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
-<b>裁判文書全文</b>
+<b>裁判文書全文（目次）</b>
 </p>
 <p><i class="bi bi-chevron-compact-right"></i> 
 <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link" >
