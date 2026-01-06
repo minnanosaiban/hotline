@@ -61,8 +61,12 @@ icon: material/home
 </h1>
 
 <div markdown>
-<p class="width-40 margin04">
-ＥＮＥＯＳの従業員です。勤務先のＥＮＥＯＳを被告として訴訟提起しました。訴訟では通報に対する措置を通報者に通知すべきか否かを争いました。
+<p  class="larger width-40" style="margin-top: 12rem  !important; margin-bottom: 2rem  !important;">
+<b>社内通報窓口を利用した従業員です。</b>
+</p>
+
+<p class="width-40 margin02">
+ＥＮＥＯＳを被告として訴訟提起しました。訴訟では通報に対する措置を通報者に通知すべきか否かを争いました。
 </p>
 
 <p  class="larger width-40 margin02">
@@ -98,8 +102,14 @@ icon: material/home
 </div>
 
 
-<p class="center top-title-11 largest" style="margin-top: 8rem  !important; margin-bottom: 4rem  !important;">
-<span style="color: #e94709;"><b>見て、聞いて、分かる！ＡＩ ✕ 裁判分析</b></span>
+<p class="center largest" style="margin-top: 8rem  !important; margin-bottom: 0rem  !important;">
+<span style="color: #e94709;"><b>ＡＩで分かる！</b></span>
+</p>
+<p class="center largest" style="margin-top: 0rem  !important; margin-bottom: 0rem  !important;">
+<span style="color: #e94709;"><b>裁判記録</b></span>
+</p>
+<p class="center" style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
+<span style="color: #e94709;"><b>準備書面や判決文をＡＩで音声解説します</b></span>
 </p>
 
 <div class="card-bule width-40">
@@ -115,14 +125,15 @@ icon: material/home
 NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
 </div>
 
-
-<p class="center largest" style="margin-top: 12rem  !important; margin-bottom: 0rem !important;">
-<span style="color: #e94709;"><b>ＥＮＥＯＳの主張はこれ！</b></span>
+<p class="center largest" style="margin-top: 8rem  !important; margin-bottom: 0rem  !important;">
+<span style="color: #e94709;"><b>ＥＮＥＯＳの主張は</b></span>
+</p>
+<p class="center largest" style="margin-top: 0rem  !important; margin-bottom: 0rem  !important;">
+<span style="color: #e94709;"><b>これなのです！</b></span>
 </p>
 <p class="center" style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
-<span style="color: #e94709;"><b>コンプライアンス徹底を表明しているはずでは？</b></span>
+<span style="color: #e94709;"><b>コンプライアンス徹底とは建前なのか？</b></span>
 </p>
-
 
 <div class="margin02">
 <div class="card-bule width-40">

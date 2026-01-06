@@ -89,7 +89,7 @@ h1 {
 h1 {
   font-size: 3.2em !important;
   line-height: 1.4 !important;
-  margin: 0rem 0 8rem 0 !important;
+  margin: 0 0 0 0 !important;
   color: var(--md-typeset-color) !important;
   font-weight: 300 !important;
   }

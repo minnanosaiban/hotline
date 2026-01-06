@@ -61,6 +61,9 @@ hide:
 <div class="width-40 base64" markdown>
 
 # 背景と事実
+<p >
+私の通報に対する対応や事実関係です
+</p>
 
 ## １　通報内容と背景
 <p class="margin02">

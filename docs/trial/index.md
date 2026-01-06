@@ -56,9 +56,13 @@ hide:
 
 # 裁判記録
 
+<p >
+判決文や裁判所に提出された裁判文書の全文です
+</p>
+
 <div class="smaller" markdown>
-<p>
-<b>裁判記録</b>
+<p  class="larger width-40" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
+<b>裁判文書全文</b>
 </p>
 <p><i class="bi bi-chevron-compact-right"></i> 
 <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link" >
@@ -75,8 +79,14 @@ hide:
 </div>
 
 <div class="center-container" markdown>
-<p class="center top-title-11 largest" style="margin-top: 12rem  !important;">
-<span style="color: #e94709;"><b>見て、聞いて、分かる！ＡＩ ✕ 裁判分析</b></span>
+<p class="center largest" style="margin-top: 8rem  !important; margin-bottom: 0rem  !important;">
+<span style="color: #e94709;"><b>ＡＩで分かる！</b></span>
+</p>
+<p class="center largest" style="margin-top: 0rem  !important; margin-bottom: 0rem  !important;">
+<span style="color: #e94709;"><b>裁判記録</b></span>
+</p>
+<p class="center" style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
+<span style="color: #e94709;"><b>準備書面や判決文をＡＩで音声解説します</b></span>
 </p>
 </div>
 
