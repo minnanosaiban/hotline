@@ -80,7 +80,7 @@ icon: material/home
 通報者に「法改正があった」と誤認識させる通知をしました。さらに、「本社に代わって海外子会社が代行した」と装い、<b>不正会計を重ねて誤魔化した疑い</b> があります。
 </p>
 <p  class="larger width-40 margin02">
-<b>３. 通報対応を秘匿にした</b>
+<b>３. 通報対応を秘匿した</b>
 </p>
 <p class="width-40 pad1">
 通報を受けた後、契約を「海外企業がＧＳＴ（消費税）請求すること」を認めるように変更したうえ、この契約変更の事実を秘匿しました。ちなみに、日本企業には海外の消費税を支払う義務はありません。
@@ -120,7 +120,7 @@ icon: material/home
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
+ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
 </div>
 
 <p class="center largest" style="margin-top: 8rem  !important; margin-bottom: 0rem  !important;">

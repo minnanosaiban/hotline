@@ -5,7 +5,7 @@ rem --- メモ（初回設定やコマンド確認用） ---
 rem pip install -r requirements.txt
 rem git clone https://github.com/minnanosaiban/hotline.git
 rem git remote set-url origin https://github.com/minnanosaiban/hotline.git
-rem mkdocs serve
+rem python -m mkdocs serve
 rem --------------------------------------
 
 echo === Deploy to GitHub Pages ===
@@ -15,7 +15,8 @@ echo === Check Current Directory ===
 echo Current: %CD%
 
 echo === MkDocs build ===
-mkdocs build --clean
+rem --- ここを python -m mkdocs に書き換え ---
+python -m mkdocs build --clean
 if %errorlevel% neq 0 (
     echo Build failed.
     pause
@@ -23,8 +24,8 @@ if %errorlevel% neq 0 (
 )
 
 echo === MkDocs deploy to gh-pages ===
-rem gh-deployは site/ フォルダを自動で gh-pages ブランチに反映します
-mkdocs gh-deploy --force
+rem --- ここを python -m mkdocs に書き換え ---
+python -m mkdocs gh-deploy --force
 if %errorlevel% neq 0 (
     echo Deploy failed.
     pause
