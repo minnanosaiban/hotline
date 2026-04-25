@@ -21,7 +21,7 @@ hide:
   - date
   - navigation
   - toc
-icon: material/home
+# icon: material/home
 ---
 
 <div class="hamburger" onclick="toggleMenu()"> <i class="fa-solid fa-bars"></i> メニュー</div>
@@ -64,7 +64,7 @@ icon: material/home
 </p>
 
 <p class="width-40 margin02">
-このウェブサイトは、内部通報制度の実態と法制度の課題を、裁判記録をもとに公開するものです。
+本サイトは、内部通報制度の実態と法制度の課題を、裁判記録をもとに公開するものです。
 </p>
 
 <p  class="larger width-40 margin02">
@@ -86,17 +86,20 @@ icon: material/home
 通報を受けた後、契約を「海外企業がＧＳＴ（消費税）請求すること」を認めるように変更したうえ、この契約変更の事実を秘匿しました。ちなみに、日本企業には海外の消費税を支払う義務はありません。
 </p>
 
-<!-- 
-<p class="width-40 margin04">
-通報窓口を利用した後、私の担当業務は「グループ庶務」に限定されました。社内において専門性を活かす機会はありませんが、私は Python に関する一定の知見を有しています（Ｅ資格ホルダー）。
-<p class="width-40 margin02">
-本ウェブサイトも Python により作成しています。また、株価売買に関する Python のテクニックを Qiita にて公開しておりますので、ご関心がございましたらご覧いただければ幸いです。
+
+<div class="margin02">
+<div class="card-bule width-40">
+<p class="margin01 small">
+<b>⚡通報者への措置⚡</b>ＥＮＥＯＳがまず行ったことは、私を排除することで通報内容に関する情報から遠ざけることでした。その後、私にだけに対して業務を「グループ内庶務」に限定しました。</p>
+<p class="margin01 small">
+社内施策でＥ資格を保有しており、Python に関する一定の知見を有しています。これを活かし、本サイトの「株 × Python × AI」で株価分析を掲載しています。
+Qiita や GitHub でもテクニックを公開しています。
 </p>
-<p class="width-40 margin02">
-現在、私は、裁判所に社内文書を提出したことを理由に <b>懲戒処分</b> の可能性を示唆されている状況です。
-</p>
- -->
- 
+<p class="margin01 small">
+なお、ＥＮＥＯＳ側の裁判における主張の原文は、こちらです。</p>
+</div>
+</div>
+
 </div>
 
 
@@ -137,7 +140,7 @@ icon: material/home
 <div class="card-bule width-40">
 <p class="larger margin02">
 通報者に対して調査結果を通知する義務があるのでは？
-</span><p class="margin02">
+<p class="margin02">
 <b>ＥＮＥＯＳ側の主張</b>👉 コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない。
 </p>
 </div>
