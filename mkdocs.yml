@@ -8,7 +8,7 @@ nav:
   - Home:
       - index.md
   - 株 × Python × AI: 
-      - index.md
+      - blog/index.md
   - 裁判:
       - trial/index.md
       - <i class="bi bi-chevron-compact-right"></i> 背景と事実 : fact/index.md          
@@ -107,7 +107,7 @@ plugins:
       # - css_files:
         # - css/custom.css
         # - css/card.css
-  # - blog
+  - blog
   # - tags:
       # tags_file: tags.md
   # - blogging:
