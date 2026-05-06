@@ -28,17 +28,17 @@
 /* 下線付きのテキストのホバーでテキストの色が青に変化し、矢印が動く */
 .arrow-link {
   display: inline-block;
-  color: var(--md-typeset-color) !important; /* 前：黒の文字色 */
+  color: var(--md-link-color) !important; /* 前：黒の文字色 */
   text-decoration: none;
   transition: color 0.3s ease;
   text-decoration: underline;
   text-underline-offset: 8px;
-  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-decoration-color: var(--md-link-color);
   text-decoration-thickness: 1px;
 }
 .arrow-link:hover {
-  color: var(--md-link-colorr) !important;  /* 前：メインの文字色 */
-  text-decoration-thickness: 1.1px; /* 前：ラインを少し太く */
+  color: var(--md-link-color) !important;  /* 前：メインの文字色 */
+  text-decoration-thickness: 1.2px; /* 前：ラインを少し太く */
   transition: color 0.3s ease;
   text-decoration-color: var(--md-link-color);
   }
