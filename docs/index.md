@@ -64,26 +64,26 @@ hide:
 </p>
 
 <p class="width-40 margin02">
-本サイトは、内部通報制度の実態と法制度の課題を、裁判記録をもとに公開するものです。
+本サイトは、ＥＮＥＯＳの内部通報制度における問題について、裁判文書をもとに当事者双方の主張を公開するものです。
 </p>
 
 <p  class="larger width-40 margin02">
 <b>１. 調査事項をすり替えた</b>
 </p>
 <p class="width-40 pad1">
-通報者には通報を受けて講じた措置を秘匿したうえ、全く別のそもそも問題のない論点を持ち出して、その調査結果を通知しました。
+通報内容は、「支払う必要のない海外の消費税（ＧＳＴ）を支払っている」というものでした。ところが、全く別の、そもそも問題のない事柄を持ち出して、その事柄の調査結果を通知しました。
 </p>
 <p  class="larger width-40 margin02">
 <b>２. 通報者へ誤認誘導した</b>
 </p>
 <p class="width-40 pad1">
-通報者に「法改正があった」と誤認識させる通知をしました。さらに、「本社に代わって海外子会社が代行した」と装い、<b>不正会計を重ねて誤魔化した疑い</b> があります。
+通報者に「法改正があった」と誤認識させる通知をしました。さらに、「海外子会社が本社に代わってＧＳＴ還付を代行した」と装い、<b>不正会計を重ねて誤魔化した疑い</b> があります。
 </p>
 <p  class="larger width-40 margin02">
-<b>３. 通報対応を秘匿した</b>
+<b>３. ＧＳＴ支払を密かに契約化した</b>
 </p>
 <p class="width-40 pad1">
-後出しで「海外企業がＥＮＥＯＳにＧＳＴ（消費税）請求することを認めるかたち」に契約を変更し、この事実を秘匿しました。ちなみに、日本企業には海外の消費税を支払う義務はありません。
+本来、日本企業には海外の消費税（ＧＳＴ）を支払う義務はありません。にもかかわらず、通報を受けた後に「海外企業がＥＮＥＯＳへＧＳＴを請求できる」形へ密かに契約変更した。
 </p>
 
 
@@ -92,9 +92,9 @@ hide:
 <p class="margin01 small">
 <b>⚡通報者への措置⚡</b>ＥＮＥＯＳがまず行ったことは、私を排除することで通報内容に関する情報から遠ざけることでした。その後、私ひとりだけに対して担当業務を「グループ内庶務」に限定しました。</p>
 <p class="margin01 small">
-なお、業務限定に関するＥＮＥＯＳ側の主張原文は、こちらです。私に対しては、裁判所に社内文書を提出する行為について懲戒処分の可能性があると示唆しました。</p>
+なお、業務限定に関するＥＮＥＯＳ側の主張原文は、こちらです。私に対しては、裁判所に社内文書を提出する行為を問題として、懲戒処分を示唆しました。</p>
 <p class="margin01 small">
-私は社内施策でＥ資格（Python資格）を保有しており、また企業価値分析を行う業務に従事していました。本サイトでは、Python を使った株価分析のテクニックを紹介しています。
+私は社内施策によりＥ資格（Python資格）を保有しており、また企業価値分析業務に従事していました。本サイトでは、<b>Python を使った株価分析のテクニック</b>を紹介しています。
 </p>
 </div>
 </div>
@@ -106,15 +106,15 @@ hide:
 <span style="color: #e94709;"><b>ＡＩで分かる！</b></span>
 </p>
 <p class="center largest" style="margin-top: 0rem  !important; margin-bottom: 0rem  !important;">
-<span style="color: #e94709;"><b>裁判記録</b></span>
+<span style="color: #e94709;"><b>裁判文書</b></span>
 </p>
 <p class="center" style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
-<span style="color: #e94709;"><b>判決文や書面の原文も掲載しています</b></span>
+<span style="color: #e94709;"><b>判決文や書面の原文と音声解説を掲載</b></span>
 </p>
 
 <div class="card-bule width-40">
 <p  class="larger center margin01">
-ＥＮＥＯＳの主張を音声解説🎙️</p>
+ＥＮＥＯＳの主張書面を音声解説🎙️</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
@@ -137,7 +137,7 @@ hide:
 
 <div class="margin02">
 <div class="card-bule width-40">
-<p class="larger margin02">
+<p class="larger margin01">
 通報者に対して調査結果を通知する義務があるのでは？
 <p class="margin02">
 <b>ＥＮＥＯＳ側の主張</b>👉 コンプライアンスホットライン規程は、従業員に対する義務を定めているのではない。また、通報者に代わって事実関係を調査することを目的としているわけではない。

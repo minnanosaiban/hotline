@@ -1,6 +1,8 @@
 site_name: ＥＮＥＯＳの内部通報制度に関する訴訟について
 site_description: ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、公平にＥＮＥＯＳ側の主張も公表し、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査対応を検証しています。
 site_url: https://minnanosaiban.github.io/hotline/
+site_dir: site
+# mkdocs serve --livereload 起動
 # site_author: Mokeya
 # copyright: Copyright &copy; 2025 ★★★
 
@@ -9,7 +11,7 @@ nav:
       - index.md
   - 株 × Python × AI: 
       - blog/index.md
-  - 裁判:
+  - 裁判文書:
       - trial/index.md
       - <i class="bi bi-chevron-compact-right"></i> 背景と事実 : fact/index.md          
       - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : trial/eneos.md     
@@ -98,10 +100,10 @@ theme:
     # - search.suggest # 検索時に、関連する検索候補を表示
 
 plugins:
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
+  # - minify:
+  #     minify_html: true
+  #     minify_js: true
+  #     minify_css: true
       # js_files:
         # - js/toc.js
       # - css_files:
