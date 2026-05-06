@@ -1,2 +1,2 @@
-# Blog
+# 株 × Python × AI
 
