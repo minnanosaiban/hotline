@@ -1,0 +1,97 @@
+/* blog セクション専用リセット — 03-typeset.css のグローバル上書きを打ち消す */
+
+/*
+  blog/index.md タイトル用
+  .md-content p.blog-main-title = 特異度 (0,2,1)
+  → グローバル .md-content p (0,1,1) に !important 同士でも特異度で勝つ
+  → JS 不要・フリッカーなし
+*/
+.md-content p.blog-main-title {
+  font-size: 3.2em !important;
+  line-height: 1.4 !important;
+  margin: 0 0 0.2rem 0 !important;
+  color: var(--md-typeset-color) !important;
+  font-weight: 300 !important;
+}
+/* blog-page クラス付与後も .blog-page .md-content p (0,2,1) に勝つ */
+.blog-page .md-content p.blog-main-title {
+  font-size: 3.2em !important;
+  line-height: 1.4 !important;
+  margin: 0 0 0.2rem 0 !important;
+  color: var(--md-typeset-color) !important;
+  font-weight: 300 !important;
+}
+@media only screen and (max-width: 767px) {
+  .md-content p.blog-main-title,
+  .blog-page .md-content p.blog-main-title {
+    font-size: 2.8em !important;
+  }
+}
+
+/* JS が body に .blog-page クラスを付与した場合にのみ適用 */
+
+/* p タグ: MkDocs Material 標準の行間・フォントサイズに戻す */
+.blog-page .md-content p {
+  font-size: inherit !important;
+  line-height: 1.7 !important;
+  margin-top: 0.75em !important;
+  margin-bottom: 0.75em !important;
+  color: var(--md-typeset-color) !important;
+  font-weight: 400 !important;
+}
+
+/* h1: Material 標準サイズに戻す */
+.blog-page h1 {
+  font-size: 2em !important;
+  line-height: 1.3 !important;
+  font-weight: 300 !important;
+  margin: 0 0 1.25em 0 !important;
+  color: var(--md-typeset-color) !important;
+}
+
+/* h2: Material 標準サイズに戻す */
+.blog-page h2 {
+  font-size: 1.5625em !important;
+  line-height: 1.4 !important;
+  font-weight: 300 !important;
+  margin: 1.6em 0 0.64em 0 !important;
+  color: var(--md-typeset-color) !important;
+}
+
+/* h3: Material 標準サイズに戻す */
+.blog-page h3 {
+  font-size: 1.25em !important;
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+  margin: 1.6em 0 0.8em 0 !important;
+  color: var(--md-typeset-color) !important;
+}
+
+/* blog 記事タイトルと Continue reading を 01-color.css の --md-link-color 相当色に */
+/* light: --typeset-color-2 = #003682 / dark: --typeset-color-2-d = #4D8BCC */
+[data-md-color-scheme="default"] .md-post__title a,
+[data-md-color-scheme="default"] .md-post__title a:visited,
+[data-md-color-scheme="default"] .md-post h2 a,
+[data-md-color-scheme="default"] .md-post h2 a:visited,
+[data-md-color-scheme="default"] .md-post__action a,
+[data-md-color-scheme="default"] .md-post__action a:visited {
+  color: var(--typeset-color-2) !important;
+  text-decoration: none;
+}
+[data-md-color-scheme="slate"] .md-post__title a,
+[data-md-color-scheme="slate"] .md-post__title a:visited,
+[data-md-color-scheme="slate"] .md-post h2 a,
+[data-md-color-scheme="slate"] .md-post h2 a:visited,
+[data-md-color-scheme="slate"] .md-post__action a,
+[data-md-color-scheme="slate"] .md-post__action a:visited {
+  color: var(--typeset-color-2-d) !important;
+  text-decoration: none;
+}
+.md-post__title a:hover,
+.md-post h2 a:hover,
+.md-post__action a:hover {
+  color: var(--md-link-hover-color) !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}

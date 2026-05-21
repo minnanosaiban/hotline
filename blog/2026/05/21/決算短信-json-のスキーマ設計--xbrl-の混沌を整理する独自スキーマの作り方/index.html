@@ -1,0 +1,2066 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、公平にＥＮＥＯＳ側の主張も公表し、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査対応を検証しています。">
+      
+      
+      
+        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/blog/2026/05/21/%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A1-json-%E3%81%AE%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E%E8%A8%AD%E8%A8%88--xbrl-%E3%81%AE%E6%B7%B7%E6%B2%8C%E3%82%92%E6%95%B4%E7%90%86%E3%81%99%E3%82%8B%E7%8B%AC%E8%87%AA%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%9E%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/">
+      
+      
+        <link rel="prev" href="../%E9%80%B2%E6%8D%97%E7%8E%87-z-score-%E6%97%A9%E6%9C%9F%E8%AD%A6%E5%A0%B1--%E6%B1%BA%E7%AE%97%E4%B8%8B%E6%96%B9%E4%BF%AE%E6%AD%A3%E3%82%92-13-%E3%83%B6%E6%9C%88%E5%85%88%E5%8F%96%E3%82%8A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">
+      
+      
+        <link rel="next" href="../edinet--tdnet-%E3%81%8B%E3%82%89-xbrl-%E3%82%92%E5%8F%96%E5%BE%97%E3%81%97%E3%81%A6%E3%83%91%E3%83%BC%E3%82%B9%E3%81%99%E3%82%8B--%E8%87%AA%E5%89%8D%E3%81%AE%E6%B1%BA%E7%AE%97%E3%83%87%E3%83%BC%E3%82%BF%E5%9F%BA%E7%9B%A4%E3%82%92%E4%BD%9C%E3%82%8B/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>決算短信 JSON のスキーマ設計 ― XBRL の混沌を整理する独自スキーマの作り方 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../css/01-color.css">
+    
+      <link rel="stylesheet" href="../../../../../css/02-layout.css">
+    
+      <link rel="stylesheet" href="../../../../../css/03-typeset.css">
+    
+      <link rel="stylesheet" href="../../../../../css/04-button.css">
+    
+      <link rel="stylesheet" href="../../../../../css/05-card.css">
+    
+      <link rel="stylesheet" href="../../../../../css/06-link-text.css">
+    
+      <link rel="stylesheet" href="../../../../../css/07-link-button.css">
+    
+      <link rel="stylesheet" href="../../../../../css/08-link-card.css">
+    
+      <link rel="stylesheet" href="../../../../../css/09-mobile-menu.css">
+    
+      <link rel="stylesheet" href="../../../../../css/10-blog-reset.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link rel="icon" href="/favicon.png" type="image/png">
+  
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="../../../../..">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="../../../../..">
+    <meta property="og:url" content="https://example.com">
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#json-xbrl" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            <a href="../../../../.." 
+              onmouseover="this.style.color='#0056b3'" 
+              onmouseout="this.style.color='#003682'">
+              ＥＮＥＯＳの内部通報制度をめぐる訴訟について
+            </a>
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              決算短信 JSON のスキーマ設計 ― XBRL の混沌を整理する独自スキーマの作り方
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="ダークモードに切り替えます"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="ダークモードに切り替えます" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="ライトモードに切り替えます"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="ライトモードに切り替えます" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  株 × Python × AI
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../trial/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  株主総会意見
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="ＥＮＥＯＳの内部通報制度に関する訴訟について" class="md-nav__button md-logo" aria-label="ＥＮＥＯＳの内部通報制度に関する訴訟について" data-md-component="logo">
+      
+  <img src="../../../../../img/card1.png" alt="logo">
+
+    </a>
+    ＥＮＥＯＳの内部通報制度に関する訴訟について
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Home
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    株 × Python × AI
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    株 × Python × AI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archive
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Archive
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Categories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Categories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/ai%E7%B5%B1%E5%90%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI統合
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/xbrl%E5%9F%BA%E7%A4%8E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    XBRL基礎
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/xbrl%E6%B4%BB%E7%94%A8%E5%88%86%E6%9E%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    XBRL活用分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/%E9%8A%98%E6%9F%84%E5%88%86%E6%9E%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    銘柄分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../trial/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    株主総会意見
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    株主総会意見
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../fact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="bi bi-chevron-compact-right"></i> 背景と事実
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../trial/eneos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../trial/whistleblower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../trial/judgement_2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="bi bi-chevron-compact-right"></i> 判決書（水野有子裁判長）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="bi bi-chevron-compact-right"></i> 法制度の不備
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ■ スキーマ設計の概要
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="■ スキーマ設計の概要">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xbrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        なぜ XBRL を「そのまま」使えないのか
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#csv-json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        解決策 ― マッピング辞書 CSV と統一 JSON スキーマ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        本記事で扱う設計原則
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ■ 分析で分かったこと
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="■ 分析で分かったこと">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance-70" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        セクション別ルール分布 ― performance に 70% 集中
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        会計基準 × カテゴリ の対応
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-json_path-n-xbrl_tag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「1 json_path : N xbrl_tag」 ― 設計の威力
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        実データのフィールドカバレッジ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        スキーマ設計の 5 原則
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ■ スキーマ設計の判断ロジック
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="■ スキーマ設計の判断ロジック">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. マッピング辞書のスキーマ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. パーサーの基本ロジック
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. スキーマのバージョン管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. CSV 編集での拡張手順
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ■ Python コードの紹介
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="■ Python コードの紹介">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        横串分析の最小実装
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        カバレッジ計測
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        マッピング辞書の品質チェック
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs-xbrl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ■ 既存スキーマ vs 公式 XBRL の比較
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        まとめ ― フェーズ 2 の総括
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2026-05-21 00:00:00+00:00" class="md-ellipsis">May 21, 2026</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                          <span class="md-ellipsis">
+                            in
+                            
+                              <a href="../../../../category/xbrl%E5%9F%BA%E7%A4%8E/">XBRL基礎</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              7 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+
+
+
+
+<h1 id="json-xbrl">決算短信 JSON のスキーマ設計 ― XBRL の混沌を整理する独自スキーマの作り方</h1>
+<p>連載06 で「XBRL から見える 7 年時系列」を、連載07 で「取得とパースの実装」を解説しました。残るは最大の難所 ― <strong>XBRL の混沌をどう独自スキーマに整理するか</strong> です。</p>
+<p>同じ "売上高" を表す XBRL タグは、日本基準・IFRS・業種別タクソノミでバラバラ。さらに当期/前期/予想/予想レンジ上限・下限といった時間軸の区別もあり、本連載の <code>kessan_mapping.csv</code> だけで <strong>net_sales 系だけで 55 ルール</strong> という巨大さです。これをどう整理して使う側のコードを楽にするか ― それがスキーマ設計の本質です。フェーズ 2 の集大成として、5 つの設計原則と実データのカバレッジを示します。</p>
+<!-- more -->
+
+<hr />
+<h2 id="_1">■ スキーマ設計の概要</h2>
+<h3 id="xbrl">なぜ XBRL を「そのまま」使えないのか</h3>
+<p>XBRL は金融庁・取引所が定めた標準フォーマットですが、<strong>使う側の負担が大きすぎる</strong> という問題があります。</p>
+<table>
+<thead>
+<tr>
+<th>課題</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>会計基準で要素 ID が違う</td>
+<td>売上 = <code>NetSales</code>（JP） / <code>RevenueIFRS</code>（IFRS） / <code>Revenues</code>（IFRS 別表現）</td>
+</tr>
+<tr>
+<td>業種別タクソノミがある</td>
+<td>石油・ガス業は <code>jpigp_cor:</code> 名前空間で独自タグ</td>
+</tr>
+<tr>
+<td>context（文脈）が分離される</td>
+<td>当期/前期/連結/個別が別タグではなく context の組み合わせで決まる</td>
+</tr>
+<tr>
+<td>1 ファイルに数百のタグ</td>
+<td>必要な財務項目はそのうち 40 程度</td>
+</tr>
+</tbody>
+</table>
+<p>連載07 で示したように、市販データを超えたい個人投資家にとって XBRL は強力ですが、<strong>それを毎回直接扱うのは現実的ではない</strong>。「決算データ分析」と「XBRL タクソノミ理解」を切り離す層が必要です。</p>
+<h3 id="csv-json">解決策 ― マッピング辞書 CSV と統一 JSON スキーマ</h3>
+<p>本連載のアプローチは、<strong>マッピング辞書（CSV）で会計基準・文脈の差分を吸収し、統一 JSON スキーマで使う側に提供する</strong> という設計です。</p>
+<pre><code>XBRL（カオス）
+  ↓ kessan_mapping.csv（263 ルール）の照合
+JSON スキーマ（整理）
+  → performance.current.net_sales
+  → balance_sheet.current.total_assets
+  → segments.current.{...}
+  → dividend.{forecast/current/prior}
+  → ...
+  ↓
+使う側のコード（横串分析が容易）
+</code></pre>
+<p>統一 JSON が手に入れば、連載06 で示した <strong>ＥＮＥＯＳ 7 期の net_sales / net_income / ROE</strong> のような時系列分析を、たった数行の Python で書けます。</p>
+<h3 id="_2">本記事で扱う設計原則</h3>
+<p>スキーマ設計は地味ですが、ここを丁寧にやるかどうかで <strong>後段の分析の生産性が 100 倍変わります</strong>。本記事では本連載で適用している 5 原則と、その結果としての実データカバレッジを示します。</p>
+<pre><code>本記事で扱うこと:
+  ・kessan_mapping.csv の構造分析（263 ルール）
+  ・「1 json_path : N xbrl_tag」という設計の威力
+  ・実データ 500 ファイルでのフィールドカバレッジ
+  ・スキーマ設計 5 原則とその実装例
+
+本記事で扱わないこと:
+  ・XBRL タクソノミの厳密な定義（連載07 で言及）
+  ・パース失敗時のリカバリ戦略（連載11 三角検証で扱う）
+</code></pre>
+<hr />
+<h2 id="_3">■ 分析で分かったこと</h2>
+<p><code>kessan_mapping.csv</code> 263 ルールの構造と、それが生み出す JSON の実データカバレッジを観察します。</p>
+<h3 id="performance-70">セクション別ルール分布 ― performance に 70% 集中</h3>
+<p><img alt="セクション別ルール分布" src="../../../../img/08_schema/01_section_distribution.png" width="950" /></p>
+<p>決算短信 JSON のスキーマは <strong>performance（業績）が 186 ルール、70% 強</strong> を占めます。これは設計の意図的な選択です。</p>
+<table>
+<thead>
+<tr>
+<th>セクション</th>
+<th>ルール数</th>
+<th>構成比</th>
+<th>設計意図</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>performance</strong></td>
+<td><strong>186</strong></td>
+<td>70%</td>
+<td>投資家が最も使うため集中投資</td>
+</tr>
+<tr>
+<td>dividend</td>
+<td>18</td>
+<td>7%</td>
+<td>配当政策の時系列追跡</td>
+</tr>
+<tr>
+<td>balance_sheet</td>
+<td>16</td>
+<td>6%</td>
+<td>主要 BS 項目（総資産・純資産・自己資本比率）</td>
+</tr>
+<tr>
+<td>notes</td>
+<td>13</td>
+<td>5%</td>
+<td>注記・後発事象</td>
+</tr>
+<tr>
+<td>accounting_changes</td>
+<td>10</td>
+<td>4%</td>
+<td>会計方針変更（品質シグナル）</td>
+</tr>
+<tr>
+<td>その他（meta/shares/...）</td>
+<td>20</td>
+<td>8%</td>
+<td>メタ情報・株式数・訂正等</td>
+</tr>
+</tbody>
+</table>
+<p>performance の内訳は、連載04 で扱った業績モメンタムの構成要素そのものです：</p>
+<pre><code>performance.current.{net_sales, operating_income, ordinary_income, net_income, eps, ...}
+performance.prior.{...}                          ← 前期実績（current と同じ構造）
+performance.forecast.{...}                       ← 通期予想（current と同じ構造）
+performance.forecast.upper.{...} / lower.{...}   ← 予想レンジ上下限
+performance.change_pct.{...}                     ← 前期比
+performance.forecast_change_pct.{...}            ← 予想前期比
+</code></pre>
+<p><strong>時間軸の各バリエーション × 数値項目</strong> の組み合わせで 186 ルールに膨らみます。dividend や balance_sheet も同様の構造（current/prior/forecast）を持ちます。</p>
+<h3 id="_4">会計基準 × カテゴリ の対応</h3>
+<p><img alt="会計基準 × カテゴリ ヒートマップ" src="../../../../img/08_schema/02_standard_category_heatmap.png" width="950" /></p>
+<table>
+<thead>
+<tr>
+<th>カテゴリ</th>
+<th>IFRS</th>
+<th>JP</th>
+<th>any</th>
+<th>合計</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>performance</strong></td>
+<td><strong>104</strong></td>
+<td><strong>82</strong></td>
+<td>0</td>
+<td>186</td>
+</tr>
+<tr>
+<td>balance_sheet</td>
+<td>8</td>
+<td>8</td>
+<td>0</td>
+<td>16</td>
+</tr>
+<tr>
+<td>accounting_changes</td>
+<td>4</td>
+<td>6</td>
+<td>0</td>
+<td>10</td>
+</tr>
+<tr>
+<td>consolidation_changes</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>4</td>
+</tr>
+<tr>
+<td>notes</td>
+<td>1</td>
+<td>2</td>
+<td>10</td>
+<td>13</td>
+</tr>
+<tr>
+<td>dividend</td>
+<td>0</td>
+<td>0</td>
+<td>18</td>
+<td>18</td>
+</tr>
+<tr>
+<td>metadata / shares / corrections / audit</td>
+<td>0</td>
+<td>0</td>
+<td>14</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<p>読み取れる設計の特徴：</p>
+<ol>
+<li><strong>performance は IFRS / JP の両方を厚く対応</strong>（104 + 82）。連載06 でＥＮＥＯＳ（IFRS 採用）の業績を市販データと同等以上に取れたのは、この厚みのおかげ</li>
+<li><strong>balance_sheet は IFRS / JP が同数</strong>（8 + 8）。連結ベースの主要項目に絞った設計</li>
+<li><strong>dividend / metadata / shares は accounting_standard = "any"</strong>。これらは会計基準に依存しないメタ情報なので 1 つのルールで全企業対応</li>
+<li><strong>consolidation_changes は IFRS 専用</strong>（連結範囲変更は IFRS 採用企業で多く発生）</li>
+</ol>
+<h3 id="1-json_path-n-xbrl_tag">「1 json_path : N xbrl_tag」 ― 設計の威力</h3>
+<p><img alt="net_sales 系の 1 対 N 構造" src="../../../../img/08_schema/03_net_sales_multi_tags.png" width="950" /></p>
+<p>net_sales 系 JSON パスだけで <strong>55 ルール</strong> が存在します。</p>
+<table>
+<thead>
+<tr>
+<th>json_path</th>
+<th>紐づくタグ数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>performance.forecast.lower.net_sales</td>
+<td>10</td>
+</tr>
+<tr>
+<td>performance.forecast.upper.net_sales</td>
+<td>10</td>
+</tr>
+<tr>
+<td>performance.forecast.net_sales</td>
+<td>10</td>
+</tr>
+<tr>
+<td>performance.forecast_change_pct.net_sales</td>
+<td>10</td>
+</tr>
+<tr>
+<td>performance.current.net_sales</td>
+<td>5</td>
+</tr>
+<tr>
+<td>performance.prior.net_sales</td>
+<td>5</td>
+</tr>
+<tr>
+<td>performance.change_pct.net_sales</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>予想（forecast）系の json_path に 10 タグずつ紐づくのは、<strong>業績予想に複数の表現方法があるため</strong>：</p>
+<pre><code>予想通期売上 のタグ候補:
+  ・tse-ed-t:ForecastNetSales                 (JP, FY)
+  ・tse-ed-t:ForecastNetSalesIFRS             (IFRS, FY)
+  ・tse-ed-t:ForecastRevenueIFRS              (IFRS, FY, 別表現)
+  ・tse-ed-t:RangeForecastNetSales            (JP, FY, レンジ)
+  ・tse-ed-t:RangeForecastNetSalesIFRS        (IFRS, FY, レンジ)
+  ・... 計 10 タグ
+</code></pre>
+<p>これを <strong>使う側は意識せず <code>performance.forecast.net_sales</code> 1 つで取り出せる</strong> のが、マッピング辞書による吸収の威力です。連載03 で使った業績予想修正率を時系列で追えるのは、この net_sales 系 55 ルールが裏で支えているからです。</p>
+<h3 id="_5">実データのフィールドカバレッジ</h3>
+<p>スキーマがどれだけ「実用的に機能しているか」を測るには、実データを通してみるのが一番です。決算短信 FY 500 ファイルで各 JSON パスの出現率を集計しました。</p>
+<p><img alt="実データのフィールドカバレッジ" src="../../../../img/08_schema/04_field_coverage.png" width="950" /></p>
+<p><strong>Top 高カバレッジ</strong>（全銘柄で安定取得可能）：</p>
+<table>
+<thead>
+<tr>
+<th>フィールド</th>
+<th>カバレッジ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>metadata.code</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>metadata.filing_date</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>metadata.accounting_standard</td>
+<td>100.0%</td>
+</tr>
+<tr>
+<td>metadata.fiscal_year_end</td>
+<td>99.8%</td>
+</tr>
+<tr>
+<td>performance.current.net_income</td>
+<td>93.8%</td>
+</tr>
+<tr>
+<td>performance.current.eps</td>
+<td>93.4%</td>
+</tr>
+<tr>
+<td>performance.current.net_sales</td>
+<td>93.0%</td>
+</tr>
+<tr>
+<td>performance.current.operating_income</td>
+<td>90.8%</td>
+</tr>
+<tr>
+<td>performance.current.ordinary_income</td>
+<td>68.0%</td>
+</tr>
+<tr>
+<td>performance.current.comprehensive_income</td>
+<td>62.8%</td>
+</tr>
+</tbody>
+</table>
+<p>metadata は <strong>100% カバレッジ</strong>。これはスキーマ設計が正しく機能している証です。逆に <code>ordinary_income</code>（経常利益）が 68% に留まるのは、IFRS 採用企業が「経常利益」概念を使わない（営業利益 → 税引前利益 の構造）ためです。これは欠陥ではなく <strong>会計基準の正直な反映</strong> です。</p>
+<p><strong>低カバレッジの代表例</strong>（該当時のみ存在するフィールド）：</p>
+<table>
+<thead>
+<tr>
+<th>フィールド</th>
+<th>カバレッジ</th>
+<th>解釈</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dividend.current.q4_dps</td>
+<td>数 %</td>
+<td>4Q 配当を分けて公表する企業のみ</td>
+</tr>
+<tr>
+<td>accounting_changes.estimates_changed</td>
+<td>数 %</td>
+<td>会計上の見積り変更があった企業のみ</td>
+</tr>
+<tr>
+<td>consolidation_changes.scope_change</td>
+<td>数 %</td>
+<td>連結範囲変更があった企業のみ</td>
+</tr>
+<tr>
+<td>corrections.original_filing_date</td>
+<td>0.2%</td>
+<td>訂正報告書だけが持つ</td>
+</tr>
+<tr>
+<td>segments.aggregates.<em>.</em></td>
+<td>0.2%</td>
+<td>parser_version 0.1.x で集約済みデータを持つ企業のみ</td>
+</tr>
+</tbody>
+</table>
+<p>低カバレッジのフィールドは <strong>「該当する場合のみ存在する」</strong> タイプ。むしろこのカバレッジ分布があるからこそ、「業績悪化なのに会計上の見積り変更があった」のような <strong>品質シグナル</strong> を後段の連載10（アクルーアル）や 11（三角検証）で活用できます。</p>
+<h3 id="5">スキーマ設計の 5 原則</h3>
+<p>ここまでの観察を踏まえ、本連載でのスキーマ設計原則をまとめます。</p>
+<p><img alt="スキーマ設計 5 原則" src="../../../../img/08_schema/05_schema_principles.png" width="950" /></p>
+<p><strong>① 意味的なセクション分け</strong><br />
+技術分類（XBRL の <code>instant</code> / <code>duration</code> など）ではなく、会計的に意味のある単位で切ります。<code>balance_sheet</code> / <code>performance</code> / <code>cash_flow</code> / <code>dividend</code> のように。</p>
+<p><strong>② 時間軸の対称性</strong><br />
+<code>current</code> / <code>prior</code> / <code>forecast</code> を <strong>同じフィールド構造</strong> で持ちます。同じコードで <code>current</code> と <code>prior</code> を扱えれば、前期比などのロジックが 1 行で書けます。</p>
+<pre><code class="language-python">def growth_rate(d, field):
+    cur = d[&quot;performance&quot;][&quot;current&quot;][field]
+    prv = d[&quot;performance&quot;][&quot;prior&quot;][field]
+    return (cur - prv) / prv * 100
+</code></pre>
+<p><strong>③ 会計基準の透過性</strong><br />
+使う側のコードは基準を意識しません。<code>1 json_path : N xbrl_tag</code> の設計で、マッピング辞書が完全に吸収します。連載06 でＥＮＥＯＳ（IFRS）と日本基準銘柄を同じグラフ上で比較できたのは、この透過性の成果。</p>
+<p><strong>④ 優先順位による複数候補対応</strong><br />
+同じ json_path に複数タグが対応するとき、<code>notes</code> 列の priority で最優先タグを明示します。「<code>NetSales</code> があれば <code>OperatingRevenues</code> より優先」というルールで、安定した値選択を実現。</p>
+<p><strong>⑤ データ駆動・コード変更不要</strong><br />
+スキーマ拡張は <strong>CSV 編集だけで完結</strong> し、パーサーコードは触りません。新しいフィールドを追加するときの手順は：</p>
+<pre><code class="language-bash"># 1. CSV に 1 行追加（XBRL タグ ID と JSON パスの対応）
+echo &quot;tse-ed-t:NewMetric,JP,performance,current,Current{period}Duration,performance.current.new_metric,int,JPY,priority 1&quot; &gt;&gt; collectors/kessan_mapping.csv
+
+# 2. 再パース実行
+python collectors/xbrl_to_json.py
+</code></pre>
+<p>これだけ。連載10〜16 のフェーズ 3 以降で新指標を扱うとき、毎回この CSV 編集だけで済みます。</p>
+<hr />
+<h2 id="_6">■ スキーマ設計の判断ロジック</h2>
+<p>ここまでの 5 原則を、実装の具体的な判断シーンに落とし込みます。</p>
+<h3 id="1">1. マッピング辞書のスキーマ</h3>
+<p><code>kessan_mapping.csv</code> は 9 列構造です。</p>
+<pre><code class="language-csv">xbrl_tag,accounting_standard,category,context_role,context_pattern,json_path,value_type,unit_ref,notes
+tse-ed-t:NetSales,JP,performance,current,Current{period}Duration_ConsolidatedMember_ResultMember,performance.current.net_sales,int,JPY,priority 1
+tse-ed-t:NetSalesIFRS,IFRS,performance,current,Current{period}Duration_ConsolidatedMember_ResultMember,performance.current.net_sales,int,JPY,priority 1
+tse-ed-t:OperatingRevenues,JP,performance,current,Current{period}Duration_ConsolidatedMember_ResultMember,performance.current.net_sales,int,JPY,priority 2
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>列</th>
+<th>役割</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>xbrl_tag</code></td>
+<td>入力側（XBRL の要素 ID）</td>
+</tr>
+<tr>
+<td><code>accounting_standard</code></td>
+<td>適用条件（IFRS / JP / any）</td>
+</tr>
+<tr>
+<td><code>category</code></td>
+<td>スキーマ上の大分類（performance / balance_sheet / ...）</td>
+</tr>
+<tr>
+<td><code>context_role</code></td>
+<td>時間軸（current / prior / forecast / ...）</td>
+</tr>
+<tr>
+<td><code>context_pattern</code></td>
+<td>XBRL 内の context 名のテンプレート</td>
+</tr>
+<tr>
+<td><code>json_path</code></td>
+<td>出力側（ドット区切り）</td>
+</tr>
+<tr>
+<td><code>value_type</code></td>
+<td>型変換（int / float / str / date / bool）</td>
+</tr>
+<tr>
+<td><code>unit_ref</code></td>
+<td>単位（JPY / shares / pure / —）</td>
+</tr>
+<tr>
+<td><code>notes</code></td>
+<td>優先順位や注釈</td>
+</tr>
+</tbody>
+</table>
+<p><strong>「同じ json_path に複数行」を許容する設計</strong> がポイント。net_sales 系で 55 ルールがあるのもこの構造のおかげです。</p>
+<h3 id="2">2. パーサーの基本ロジック</h3>
+<pre><code class="language-python">import pandas as pd
+
+def parse_xbrl_to_json(xbrl_data: dict, mapping_df: pd.DataFrame) -&gt; dict:
+    &quot;&quot;&quot;マッピング辞書で XBRL から JSON を構築。priority で衝突解決。&quot;&quot;&quot;
+    result: dict = {}
+    written_priority: dict[str, int] = {}
+
+    for _, rule in mapping_df.iterrows():
+        # 1. 会計基準フィルタ
+        if rule[&quot;accounting_standard&quot;] not in (&quot;any&quot;, xbrl_data[&quot;accounting_standard&quot;]):
+            continue
+
+        # 2. XBRL タグから値を取り出す
+        value = find_xbrl_value(xbrl_data, rule[&quot;xbrl_tag&quot;], rule[&quot;context_pattern&quot;])
+        if value is None:
+            continue
+
+        # 3. 型変換
+        value = convert_value(value, rule[&quot;value_type&quot;])
+
+        # 4. priority で衝突解決（小さいほど優先）
+        path = rule[&quot;json_path&quot;]
+        prio = parse_priority(rule[&quot;notes&quot;])  # default 99
+        if path in written_priority and written_priority[path] &lt; prio:
+            continue   # 既に優先度の高い値が書かれている
+
+        # 5. ネスト構造に書き込む
+        set_nested(result, path, value)
+        written_priority[path] = prio
+
+    return result
+</code></pre>
+<p><strong>priority による衝突解決</strong> が肝。同じ <code>performance.current.net_sales</code> に複数のタグから値が候補に上がっても、<strong>priority が最も小さい（=最優先）タグの値だけが採用</strong> されます。</p>
+<h3 id="3">3. スキーマのバージョン管理</h3>
+<p>JSON 出力には <code>_source.parser_version</code> を含めます。</p>
+<pre><code class="language-json">{
+  &quot;metadata&quot;: {&quot;code&quot;: &quot;5020&quot;, &quot;fiscal_year_end&quot;: &quot;2025-03-31&quot;, ...},
+  &quot;performance&quot;: {...},
+  &quot;_source&quot;: {
+    &quot;format&quot;: &quot;edinet-xbrl-csv&quot;,
+    &quot;file&quot;: &quot;S100W1E2.zip&quot;,
+    &quot;parser_version&quot;: &quot;0.2.0&quot;
+  }
+}
+</code></pre>
+<p>これにより：<br />
+- スキーマ非互換変更時に既存 JSON を識別可能<br />
+- 0.2.x で対応していなかった項目（連載06 で言及した営業利益 2019-2023）が、0.3.x で取れるようになったら識別できる<br />
+- マイグレーションスクリプトが書きやすい</p>
+<h3 id="4-csv">4. CSV 編集での拡張手順</h3>
+<p>新フィールド追加の典型手順：</p>
+<pre><code>1. XBRL タクソノミドキュメントで対象タグ ID を特定
+2. その企業の生 XBRL（or XBRL_TO_CSV）でタグが実在することを確認
+3. kessan_mapping.csv に 1 行追加
+4. python collectors/xbrl_to_json.py で再パース
+5. data/statements/*.json で新フィールドの出現を確認
+6. カバレッジを measure
+</code></pre>
+<p>実装コードは一切変更しません。<strong>スキーマ拡張がレビューしやすい CSV diff になる</strong> のもデータ駆動設計の副次的なメリットです。</p>
+<hr />
+<h2 id="python">■ Python コードの紹介</h2>
+<p>スキーマ駆動の典型ユースケースを Python で示します。</p>
+<h3 id="_7">横串分析の最小実装</h3>
+<p>統一スキーマがあれば、500 ファイルの決算短信を 10 行で横串分析できます。</p>
+<pre><code class="language-python">import json, glob
+import pandas as pd
+
+records = []
+for f in glob.glob(&quot;data/statements/*_FY.json&quot;):
+    with open(f, encoding=&quot;utf-8&quot;) as fp:
+        d = json.load(fp)
+    records.append({
+        &quot;code&quot;:      d[&quot;metadata&quot;][&quot;code&quot;],
+        &quot;fy_end&quot;:    d[&quot;metadata&quot;][&quot;fiscal_year_end&quot;],
+        &quot;std&quot;:       d[&quot;metadata&quot;][&quot;accounting_standard&quot;],
+        &quot;net_sales&quot;: d.get(&quot;performance&quot;, {}).get(&quot;current&quot;, {}).get(&quot;net_sales&quot;),
+        &quot;op_income&quot;: d.get(&quot;performance&quot;, {}).get(&quot;current&quot;, {}).get(&quot;operating_income&quot;),
+        &quot;ni&quot;:        d.get(&quot;performance&quot;, {}).get(&quot;current&quot;, {}).get(&quot;net_income&quot;),
+    })
+
+df = pd.DataFrame(records)
+# 会計基準を意識せず、全銘柄横串で営業利益率を計算
+df[&quot;op_margin&quot;] = df[&quot;op_income&quot;] / df[&quot;net_sales&quot;] * 100
+print(df.nlargest(10, &quot;op_margin&quot;))
+</code></pre>
+<p>連載04 のサプライズスコアや、連載01 の GARP スコアも、最終的にはこの形のコードに落ちます。</p>
+<h3 id="_8">カバレッジ計測</h3>
+<p>スキーマの「実用性」を測る関数：</p>
+<pre><code class="language-python">def measure_coverage(stmt_dir: str = &quot;data/statements&quot;,
+                    pattern: str = &quot;*_FY.json&quot;) -&gt; pd.DataFrame:
+    &quot;&quot;&quot;JSON 各パスの出現率を集計。&quot;&quot;&quot;
+    field_counts: dict[str, int] = {}
+    total = 0
+
+    for f in glob.glob(f&quot;{stmt_dir}/{pattern}&quot;):
+        total += 1
+        with open(f, encoding=&quot;utf-8&quot;) as fp:
+            d = json.load(fp)
+
+        def walk(obj, path=&quot;&quot;):
+            if isinstance(obj, dict):
+                for k, v in obj.items():
+                    if v is None:
+                        continue
+                    walk(v, f&quot;{path}.{k}&quot; if path else k)
+            elif not isinstance(obj, list):
+                field_counts[path] = field_counts.get(path, 0) + 1
+
+        walk(d)
+
+    return pd.DataFrame({
+        &quot;field&quot;:    list(field_counts.keys()),
+        &quot;count&quot;:    list(field_counts.values()),
+        &quot;coverage&quot;: [c / total * 100 for c in field_counts.values()],
+    }).sort_values(&quot;coverage&quot;, ascending=False)
+</code></pre>
+<p>新しいフィールドを追加した直後にこれを実行すれば、<strong>そのフィールドの実用カバレッジ</strong> がすぐ分かります。</p>
+<h3 id="_9">マッピング辞書の品質チェック</h3>
+<pre><code class="language-python">def audit_mapping(csv_path: str = &quot;collectors/kessan_mapping.csv&quot;) -&gt; dict:
+    &quot;&quot;&quot;マッピング辞書のカバレッジ感を集計。&quot;&quot;&quot;
+    df = pd.read_csv(csv_path)
+    return {
+        &quot;total_rules&quot;:       len(df),
+        &quot;unique_json_paths&quot;: df[&quot;json_path&quot;].nunique(),
+        &quot;avg_tags_per_path&quot;: len(df) / df[&quot;json_path&quot;].nunique(),
+        &quot;by_section&quot;:        df[&quot;json_path&quot;].str.split(&quot;.&quot;).str[0].value_counts().to_dict(),
+        &quot;by_standard&quot;:       df[&quot;accounting_standard&quot;].value_counts().to_dict(),
+    }
+
+
+print(audit_mapping())
+# → total_rules: 263
+# → unique_json_paths: ~90
+# → avg_tags_per_path: 2.9（1 パスあたり平均 2.9 個の XBRL タグが紐づく）
+</code></pre>
+<p>「1 json_path あたり平均 3 タグ」という数字は、<strong>会計基準と業種別タクソノミの差分吸収にどれだけ投資しているか</strong> の指標になります。</p>
+<hr />
+<h2 id="vs-xbrl">■ 既存スキーマ vs 公式 XBRL の比較</h2>
+<table>
+<thead>
+<tr>
+<th>観点</th>
+<th>公式 XBRL</th>
+<th>本連載の独自 JSON</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>データ構造</td>
+<td>XML（タクソノミ依存）</td>
+<td>JSON（フラットに近い）</td>
+</tr>
+<tr>
+<td>会計基準対応</td>
+<td>利用者が自分で吸収</td>
+<td>スキーマで自動吸収</td>
+</tr>
+<tr>
+<td>学習コスト</td>
+<td>高い（タクソノミ理解必須）</td>
+<td>低い（辞書的）</td>
+</tr>
+<tr>
+<td>横串分析</td>
+<td>困難</td>
+<td>容易</td>
+</tr>
+<tr>
+<td>拡張性</td>
+<td>公式タクソノミ依存</td>
+<td>CSV 編集で自由拡張</td>
+</tr>
+<tr>
+<td>容量</td>
+<td>大きい（メタデータ込み）</td>
+<td>小さい（必要項目のみ）</td>
+</tr>
+</tbody>
+</table>
+<p>公式 XBRL は <strong>金融庁が定めた網羅的な仕様</strong> ですが、実用には冗長です。独自スキーマは <strong>「投資判断に必要な項目に絞った扱いやすい形」</strong> にすることで、分析の生産性を大幅に上げます。</p>
+<p>「すべての XBRL タグを完璧に取り込む」ことは目標にしません。<strong>目的は投資判断であり、XBRL タクソノミの忠実な再現ではない</strong> ― この割り切りが設計の自由度を生みます。</p>
+<hr />
+<h2 id="2_1">まとめ ― フェーズ 2 の総括</h2>
+<ul>
+<li>XBRL の混沌を独自 JSON スキーマで整理。マッピング辞書 <code>kessan_mapping.csv</code> の <strong>263 ルール / 約 90 個の json_path</strong> が本体</li>
+<li>セクション別では <strong>performance に 70% 集中</strong>（186 ルール）。投資家が最も使う業績データへの集中投資</li>
+<li><strong>「1 json_path : N xbrl_tag」設計</strong> で会計基準（IFRS 121 / JP 98 / any 44）と業種別タクソノミの差分を吸収。net_sales 系だけで 55 ルール</li>
+<li>実データ 500 ファイルでのカバレッジは <strong>metadata 100% / 業績核項目（net_sales/net_income/eps/operating_income）90% 以上</strong> と高水準</li>
+<li>低カバレッジは「該当時のみ存在する」タイプ（会計方針変更・訂正・連結範囲変更等）で、欠陥ではなく品質シグナルの源泉</li>
+<li>スキーマ設計 5 原則: ① 意味的セクション ② 時間軸対称 ③ 会計基準透過 ④ 優先順位 ⑤ データ駆動。<strong>CSV 編集だけでスキーマ拡張可能</strong></li>
+<li>連載06 で示したＥＮＥＯＳ 7 期データが、市販データを超える価値を持つのは、この設計の上に成立している</li>
+</ul>
+<p>これでフェーズ 2（XBRL 基礎）の 3 本（連載06・07・08）が完成しました。次回からは <strong>フェーズ 3: XBRL 活用分析</strong> に入り、独自スキーマで蓄積した JSON を実際に使って <strong>進捗率 Z-score 早期警報・アクルーアル分析・三角検証</strong> などの本格的な銘柄分析を行います。連載01〜05 のフェーズ 1（市販データ分析）と連載06〜08 のフェーズ 2（XBRL 基盤構築）で築いた土台の上に、機関投資家レベルの定量分析が乗っていきます。</p>
+<hr />
+<p><em>マッピング辞書: <code>collectors/kessan_mapping.csv</code> (263 ルール) / <code>collectors/yuho_mapping.csv</code> (98 ルール)。本記事の数値は 2026-05-21 時点の自前パイプライン状況</em></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+    
+    
+     <p style="margin-top: 0.1rem !important; margin-bottom: 0.1rem !important;">※本ウェブサイトの存在については、タウンホールミーティングにおいて、ＥＮＥＯＳ 山口敦治社長と共有しています。</p>
+     <p style="margin-top: 0.1rem !important; margin-bottom: 0.1rem !important;">※掲載している主張書面の内容は、「訂正申立書」の内容を反映させた内容です。</p>
+     <p style="margin-top: 0.1rem !important; margin-bottom: 0.1rem !important;">※本ウェブサイトに関するご意見は、<a href="https://x.com/minnanosaiban"> <i class="fa-brands fa-x-twitter"></i>（ <u>@minnanosaiban</u> ）</a>までお願いいたします。</p>
+    
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../../../js/custom.js"></script>
+      
+    
+  </body>
+</html>
