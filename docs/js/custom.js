@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
+  if (window.location.pathname.includes("/blog/")) {
+    document.body.classList.add("blog-page");
+  } else {
+    document.body.classList.remove("blog-page");
+  }
+
   document.querySelectorAll('nav a[href^="http"]').forEach(function (link) {
     link.setAttribute("target", "_blank");
     link.setAttribute("rel", "noopener noreferrer");
