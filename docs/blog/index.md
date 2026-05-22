@@ -35,7 +35,7 @@ hide:
 <p class="blog-main-title">株 × Python × AI</p>
 
 <p>
-Python と AI を使って、株価・決算短信・有報を分析しています。
+Python と AI を使って、株価・決算短信・有報を分析してみました。
 </p>
 
 <div markdown>
