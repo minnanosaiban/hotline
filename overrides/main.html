@@ -5,6 +5,14 @@
 
 {% block extrahead %}
   <link rel="icon" href="/favicon.png" type="image/png">
+  {% if page %}
+    {% set src = page.file.src_path | replace('\\', '/') %}
+    {% if src == 'blog/index.md' %}
+      <style>.md-typeset h1 { display: none !important; }</style>
+    {% elif src.startswith('blog/posts/') %}
+      <style>.md-typeset h1 { font-size: 2em !important; font-weight: 300 !important; line-height: 1.3 !important; margin: 0 0 1.25em 0 !important; }</style>
+    {% endif %}
+  {% endif %}
   {% if page and page.meta %}
     <meta property="twitter:card" content="{{ page.meta.twitter_card | default('summary') }}">
     <meta property="twitter:title" content="{{ page.meta.title }}">
