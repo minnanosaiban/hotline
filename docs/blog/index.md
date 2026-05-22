@@ -1,5 +1,42 @@
+---
+title: 株 × Python × AI
+description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。
+# date: 2023-03-06
+# categories:
+  # - NTTデータにおけるセクハラに関する紛争
+  # - 労働委員会
+# tags:
+  # - NTTデータ
+  # - パーソルテンプスタッフ
+  # - セクハラ
+  # - 雇止め
+# links:
+  # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
+  # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
+# url: https://minnanosaiban.github.io/hotline/trial/
+# image: https://minnanosaiban.github.io/hotline/img/card1.png
+twitter_card: summary
+hide:
+    - date
+    # - navigation
+    # - toc
+# icon: material/home
+---
+
+<style>.md-typeset h1 { display: none !important; }</style>
+
+<p>
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=株主総会意見 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+     target="_blank" class="x-share" style="color: #FFFFFF;">
+    <i class="fa-brands fa-x-twitter"></i> でシェア
+  </a>
+</p>
+
 <p class="blog-main-title">株 × Python × AI</p>
 
+<p>
+Python と AI を使って、株価・決算短信・有報を分析しています。
+</p>
 
 <div markdown>
 <p  class="large" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
@@ -101,19 +138,6 @@
 </p>
 </div>
 </div>
-
-
-
----
-
-## 連載が目指すもの
-
-- **データソース**: 市販の銘柄情報サービス CSV + yfinance 日足 + EDINET 有報 XBRL + TDnet 決算短信 XBRL
-- **コスト**: 個人投資家の年間ランニングコスト数千円〜数万円で運用可能
-- **方針**: AI/LLM の代理出力で実装ロジックを明示。実 API は使わずローカル計算で完結（API 呼び出しは番外編で）
-- **読み手**: ＥＮＥＯＳ関係者・株主、大型・有名株中心の個別投資家、IR・経営企画担当
-
-データ駆動投資の時代、投資家の差別化要素は **「データを使う」から「データを持つ・整理する・AI と組み合わせる」** に移っています。本連載がそのスタート地点になれば幸いです。
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 裁判文書 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
+title: 株主総会意見 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について（裁判記録）
 description: ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。
 # date: 2023-03-06
 # categories:
@@ -24,13 +24,13 @@ hide:
 ---
 
 <p>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=裁判記録 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=株主総会意見 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
-# 裁判文書
+# 株主総会意見
 
 <p>
 判決文、および、実際に裁判所に提出された裁判文書の全文です。

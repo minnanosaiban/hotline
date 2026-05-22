@@ -117,6 +117,45 @@
     display: block;
   }
 }
+/* フッター余白 */
+.md-footer {
+  margin-top: 8rem;
+}
+/* フッター注記 */
+.md-footer-note {
+  padding: 1rem 1.2rem 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  opacity: 0.75;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+.md-footer-note__section {
+  min-width: 220px;
+  flex: 1;
+}
+.md-footer-note__heading {
+  font-weight: 600;
+  margin: 0.4rem 0 0.2rem !important;
+}
+.md-footer-note ul {
+  margin: 0 !important;
+  padding-left: 1.2em;
+}
+.md-footer-note li {
+  margin: 0.1rem 0 !important;
+}
+.md-footer-note a {
+  opacity: 0.85;
+}
+@media screen and (max-width: 768px) {
+  .md-footer-note {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
 /* センタリング */
 .center-container {
   display: flex;
