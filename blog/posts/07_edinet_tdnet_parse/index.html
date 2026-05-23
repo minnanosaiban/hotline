@@ -1801,6 +1801,7 @@
 
 
 <h1 id="edinet-tdnet-xbrl">EDINET / TDnet から XBRL を取得してパースする ― 自前の決算データ基盤を作る</h1>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/00_thumbnail.png" data-desc-position="bottom"><img alt="EDINET/TDnetパイプライン" src="../img/07_pipeline/00_thumbnail.png" width="1280"></a></p>
 <p>連載06 では ＥＮＥＯＳ の <strong>2022 純利益 5,371 億円ピーク → 2025 純利 2,261 億円</strong> という 7 年時系列を、有報 XBRL で可視化しました（2022 は ウクライナ侵攻による特殊年、2025 にも のれん減損などの一時要因 ― 詳細は連載06 の構造要因解説と連載01 の 4 基準試算を参照）。あの 7 行のデータは <strong>「EDINET から XBRL ZIP を 1 つダウンロードして JSON にパースする」</strong> という単純なステップから生まれます。</p>
 <p>本記事ではその実装を解説します。EDINET API の使い方、TDnet スクレイピング、ZIP の解凍、XBRL → JSON 変換のマッピング辞書、そして 8,907 個の決算短信 ZIP と 47 個の有報 ZIP からどう 1,368 + 91 個の JSON が生成されるのか ― <strong>自前パイプラインの全体像</strong> を実装ベースで示します。</p>
 <!-- more -->
@@ -1818,7 +1819,7 @@
 </code></pre>
 <p>この JSON は、EDINET API から取得した <strong>doc_id S100W1E2 の XBRL ZIP</strong>（ＥＮＥＯＳ 2025 年提出有報）を、<code>parse_yuho_xbrl.py</code> でパースして作られました。<strong>1 つの有報 XBRL に約 40 項目の財務データが詰まっている</strong> ことが、フェーズ 2 の出発点です。</p>
 <h3 id="2-3">パイプライン全体像 ― 2 経路 × 3 ステップ</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/01_pipeline_diagram.png" data-desc-position="bottom"><img alt="パイプライン全体像" src="../img/07_pipeline/01_pipeline_diagram.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/01_pipeline_diagram.png" data-desc-position="bottom"><img alt="パイプライン全体像" src="../img/07_pipeline/01_pipeline_diagram.png" width="1200"></a></p>
 <p>XBRL は <strong>2 つの経路</strong> で入手し、いずれも <strong>3 ステップで JSON 化</strong> します。</p>
 <table>
 <thead>
@@ -1874,7 +1875,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 <h2 id="_4">分析で分かったこと</h2>
 <p>自前パイプラインを 2026-05-21 時点で観察すると、以下の状況が見えます。</p>
 <h3 id="zip-9-gbjson-22-mb">ストレージ統計 ― ZIP 9 GB、JSON 22 MB</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/02_storage_stats.png" data-desc-position="bottom"><img alt="ストレージ統計" src="../img/07_pipeline/02_storage_stats.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/02_storage_stats.png" data-desc-position="bottom"><img alt="ストレージ統計" src="../img/07_pipeline/02_storage_stats.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -1919,7 +1920,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 <p>特筆すべきは <strong>「ZIP 935 MB → JSON 22 MB」という 40 倍の圧縮率</strong> です。XBRL ZIP には XBRL 本体・XSD（スキーマ）・CSV（XBRL_TO_CSV 変換版）・PDF・テキスト等が全部含まれますが、<strong>JSON は本当に必要な財務項目だけに絞り込んだ</strong> 結果、サイズが大幅に小さくなります。</p>
 <p>また 8,907 ZIP に対して JSON が 1,368 しか作れていない（≈ 15%）のは、現在のパーサが <strong>FY 本決算と forecast に対応した銘柄</strong> だけを処理しているためです。Q1〜Q3 四半期短信のパースは段階的に追加していく方針です。</p>
 <h3 id="3-fy">決算短信のカバレッジ ― 3 月期と FY が中心</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/03_kessan_distribution.png" data-desc-position="bottom"><img alt="決算短信の決算期末月 + 種別分布" src="../img/07_pipeline/03_kessan_distribution.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/03_kessan_distribution.png" data-desc-position="bottom"><img alt="決算短信の決算期末月 + 種別分布" src="../img/07_pipeline/03_kessan_distribution.png" width="1200"></a></p>
 <p>決算短信 JSON 1,368 ファイルの内訳：</p>
 <table>
 <thead>
@@ -1954,7 +1955,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 <p>日本の上場企業は <strong>3 月期決算が圧倒的多数</strong>（全体の 58%）。次に多いのは国際派企業の 12 月期、小売・流通の 2 月期です。「3 月期だけ追えば事足りる」と思いがちですが、それでは年間 5 ヶ月（4〜8 月）しか決算フローがなく、決算プレイの機会を失います。<strong>多様な決算期末を取得することで、年間を通じて決算データが途切れずに流れてきます</strong>。</p>
 <p>書類種別では <strong>FY（本決算）639 + forecast_FY（業績予想）327</strong> が中心。連載02〜04 で使った業績予想修正率（証券会社の無料データ）は、本来この <strong>forecast_FY を時系列で繋ぐ</strong> ことで自前構築できます。</p>
 <h3 id="98-263">マッピング辞書の構成 ― 98 + 263 ルール</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/04_mapping_dict.png" data-desc-position="bottom"><img alt="マッピング辞書の構成" src="../img/07_pipeline/04_mapping_dict.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/04_mapping_dict.png" data-desc-position="bottom"><img alt="マッピング辞書の構成" src="../img/07_pipeline/04_mapping_dict.png" width="1200"></a></p>
 <p><strong>yuho_mapping.csv（98 ルール）</strong> の内訳：</p>
 <table>
 <thead>
@@ -2030,7 +2031,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 <p>会計基準別: <strong>IFRS 121 + JP 98 + any 44</strong>。決算短信は有報より項目が多く、複数の会計基準への対応エントリも多いため、ルール数が 2.7 倍になります。</p>
 <p>このマッピング辞書こそが <strong>無料で取れるデータを超えるカバレッジを実現するノウハウの本体</strong> です。タクソノミの追加・改正に追随するメンテナンスコストはありますが、一度蓄積すれば再利用できます。</p>
 <h3 id="eneos-7">ＥＮＥＯＳ 7 期の取得カタログ実例</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/05_eneos_catalog.png" data-desc-position="bottom"><img alt="ENEOS 7 期取得カタログ" src="../img/07_pipeline/05_eneos_catalog.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_pipeline/05_eneos_catalog.png" data-desc-position="bottom"><img alt="ENEOS 7 期取得カタログ" src="../img/07_pipeline/05_eneos_catalog.png" width="1200"></a></p>
 <p>連載06 で見せた ＥＮＥＯＳ 7 期データは、実は <strong>3 つの doc_id</strong> から構成されています。</p>
 <table>
 <thead>

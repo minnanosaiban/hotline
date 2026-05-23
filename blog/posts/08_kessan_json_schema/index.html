@@ -1801,6 +1801,7 @@
 
 
 <h1 id="json-xbrl">決算短信 JSON のスキーマ設計 ― XBRL の混沌を整理する独自スキーマの作り方</h1>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/00_thumbnail.png" data-desc-position="bottom"><img alt="決算短信JSONスキーマ" src="../img/08_schema/00_thumbnail.png" width="1280"></a></p>
 <p>連載06 で「XBRL から見える 7 年時系列」を、連載07 で「取得とパースの実装」を解説しました。残るは最大の難所 ― <strong>XBRL の混沌をどう独自スキーマに整理するか</strong> です。</p>
 <p>同じ "売上高" を表す XBRL タグは、日本基準・IFRS・業種別タクソノミでバラバラ。さらに当期/前期/予想/予想レンジ上限・下限といった時間軸の区別もあり、本連載の <code>kessan_mapping.csv</code> だけで <strong>net_sales 系だけで 55 ルール</strong> という巨大さです。これをどう整理して使う側のコードを楽にするか ― それがスキーマ設計の本質です。フェーズ 2 の集大成として、5 つの設計原則と実データのカバレッジを示します。</p>
 <!-- more -->
@@ -1866,7 +1867,7 @@ JSON スキーマ（整理）
 <h2 id="_3">分析で分かったこと</h2>
 <p><code>kessan_mapping.csv</code> 263 ルールの構造と、それが生み出す JSON の実データカバレッジを観察します。</p>
 <h3 id="performance-70">セクション別ルール分布 ― performance に 70% 集中</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/01_section_distribution.png" data-desc-position="bottom"><img alt="セクション別ルール分布" src="../img/08_schema/01_section_distribution.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/01_section_distribution.png" data-desc-position="bottom"><img alt="セクション別ルール分布" src="../img/08_schema/01_section_distribution.png" width="1200"></a></p>
 <p>決算短信 JSON のスキーマは <strong>performance（業績）が 186 ルール、70% 強</strong> を占めます。これは設計の意図的な選択です。</p>
 <table>
 <thead>
@@ -1926,7 +1927,7 @@ performance.forecast_change_pct.{...}            ← 予想前期比
 </code></pre>
 <p><strong>時間軸の各バリエーション × 数値項目</strong> の組み合わせで 186 ルールに膨らみます。dividend や balance_sheet も同様の構造（current/prior/forecast）を持ちます。</p>
 <h3 id="_4">会計基準 × カテゴリ の対応</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/02_standard_category_heatmap.png" data-desc-position="bottom"><img alt="会計基準 × カテゴリ ヒートマップ" src="../img/08_schema/02_standard_category_heatmap.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/02_standard_category_heatmap.png" data-desc-position="bottom"><img alt="会計基準 × カテゴリ ヒートマップ" src="../img/08_schema/02_standard_category_heatmap.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -1997,7 +1998,7 @@ performance.forecast_change_pct.{...}            ← 予想前期比
 <li><strong>consolidation_changes は IFRS 専用</strong>（連結範囲変更は IFRS 採用企業で多く発生）</li>
 </ol>
 <h3 id="1-json_path-n-xbrl_tag">「1 json_path : N xbrl_tag」 ― 設計の威力</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/03_net_sales_multi_tags.png" data-desc-position="bottom"><img alt="net_sales 系の 1 対 N 構造" src="../img/08_schema/03_net_sales_multi_tags.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/03_net_sales_multi_tags.png" data-desc-position="bottom"><img alt="net_sales 系の 1 対 N 構造" src="../img/08_schema/03_net_sales_multi_tags.png" width="1200"></a></p>
 <p>net_sales 系 JSON パスだけで <strong>55 ルール</strong> が存在します。</p>
 <table>
 <thead>
@@ -2049,7 +2050,7 @@ performance.forecast_change_pct.{...}            ← 予想前期比
 <p>これを <strong>使う側は意識せず <code>performance.forecast.net_sales</code> 1 つで取り出せる</strong> のが、マッピング辞書による吸収の威力です。連載03 で使った業績予想修正率を時系列で追えるのは、この net_sales 系 55 ルールが裏で支えているからです。</p>
 <h3 id="_5">実データのフィールドカバレッジ</h3>
 <p>スキーマがどれだけ「実用的に機能しているか」を測るには、実データを通してみるのが一番です。決算短信 FY 500 ファイルで各 JSON パスの出現率を集計しました。</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/04_field_coverage.png" data-desc-position="bottom"><img alt="実データのフィールドカバレッジ" src="../img/08_schema/04_field_coverage.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/04_field_coverage.png" data-desc-position="bottom"><img alt="実データのフィールドカバレッジ" src="../img/08_schema/04_field_coverage.png" width="1200"></a></p>
 <p><strong>Top 高カバレッジ</strong>（全銘柄で安定取得可能）：</p>
 <table>
 <thead>
@@ -2142,7 +2143,7 @@ performance.forecast_change_pct.{...}            ← 予想前期比
 <p>低カバレッジのフィールドは <strong>「該当する場合のみ存在する」</strong> タイプ。むしろこのカバレッジ分布があるからこそ、「業績悪化なのに会計上の見積り変更があった」のような <strong>品質シグナル</strong> を後段の連載10（アクルーアル）や 11（三角検証）で活用できます。</p>
 <h3 id="5">スキーマ設計の 5 原則</h3>
 <p>ここまでの観察を踏まえ、本連載でのスキーマ設計原則をまとめます。</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/05_schema_principles.png" data-desc-position="bottom"><img alt="スキーマ設計 5 原則" src="../img/08_schema/05_schema_principles.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_schema/05_schema_principles.png" data-desc-position="bottom"><img alt="スキーマ設計 5 原則" src="../img/08_schema/05_schema_principles.png" width="1200"></a></p>
 <p><strong>① 意味的なセクション分け</strong><br>
 技術分類（XBRL の <code>instant</code> / <code>duration</code> など）ではなく、会計的に意味のある単位で切ります。<code>balance_sheet</code> / <code>performance</code> / <code>cash_flow</code> / <code>dividend</code> のように。</p>
 <p><strong>② 時間軸の対称性</strong><br>

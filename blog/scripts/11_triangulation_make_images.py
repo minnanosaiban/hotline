@@ -134,9 +134,9 @@ def make_concept() -> None:
                                     linewidth=2.2, edgecolor=color,
                                     facecolor="white"))
         ax.text(x, y + 0.15, label, ha="center", va="center",
-                fontsize=11, fontweight="bold", color=color)
+                fontsize=15.4, fontweight="bold", color=color)
         ax.text(x, y - 0.45, src, ha="center", va="center",
-                fontsize=8, color=C_TEXT_SUB, style="italic")
+                fontsize=11.2, color=C_TEXT_SUB, style="italic")
 
     # 3 ペア
     pairs = [
@@ -160,20 +160,21 @@ def make_concept() -> None:
         ax.add_patch(a)
         # ラベル
         mx, my = (x1 + x2) / 2, (y1 + y2) / 2
-        ax.text(mx, my, label, fontsize=9.5, ha="center", va="center",
+        ax.text(mx, my, label, fontsize=13.3, ha="center", va="center",
                 color="#444444", fontweight="bold",
                 bbox=dict(facecolor="white", edgecolor="#cccccc",
                           boxstyle="round,pad=0.25"))
 
     ax.text(5.5, 6.7, "三角検証  ―  3 ソース × 3 ペア比較",
-            fontsize=14, fontweight="bold", color=C_TEXT,
+            fontsize=19.6, fontweight="bold", color=C_TEXT,
             ha="center", va="center")
     ax.text(5.5, 0.2,
             "保守ガイダンス × アナリスト強気 = 上方修正期待大\n"
             "強気ガイダンス × アナリスト懐疑 = 達成困難",
-            fontsize=10, ha="center", va="center",
+            fontsize=14, ha="center", va="center",
             color=C_TEXT_SUB, style="italic")
 
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "01_triangulation_concept.png")
     plt.close(fig)
 
@@ -224,7 +225,7 @@ def make_quadrant_scatter(m: pd.DataFrame) -> None:
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(8, 8),
                     textcoords="offset points",
-                    fontsize=9.5, fontweight="bold", color="#1F4E8C",
+                    fontsize=13.3, fontweight="bold", color="#1F4E8C",
                     bbox=dict(facecolor="white", edgecolor="#1F4E8C",
                               boxstyle="round,pad=0.25"),
                     zorder=9)
@@ -235,30 +236,31 @@ def make_quadrant_scatter(m: pd.DataFrame) -> None:
 
     # ゾーンラベル
     ax.text(-70, 70, "★上方修正期待大★\n保守ガイダンス\n× アナリスト強気",
-            fontsize=11, fontweight="bold", color=C_UP,
+            fontsize=15.4, fontweight="bold", color=C_UP,
             ha="center", va="center")
     ax.text(60, -30, "⚠ 達成困難 ⚠\n強気ガイダンス\n× アナリスト懐疑",
-            fontsize=11, fontweight="bold", color=C_WARN,
+            fontsize=15.4, fontweight="bold", color=C_WARN,
             ha="center", va="center")
-    ax.text(60, 70, "両者強気\n（過熱注意）", fontsize=9.5,
+    ax.text(60, 70, "両者強気\n（過熱注意）", fontsize=13.3,
             color=C_TEXT_SUB, ha="center", va="center")
-    ax.text(-70, -30, "両者弱気\n（業界全体不調）", fontsize=9.5,
+    ax.text(-70, -30, "両者弱気\n（業界全体不調）", fontsize=13.3,
             color=C_TEXT_SUB, ha="center", va="center")
 
     ax.set_xlim(-100, 100)
     ax.set_ylim(-50, 100)
     ax.set_xlabel("ガイダンス − 実績（%）  ← 保守     強気 →",
-                  fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
     ax.set_ylabel("コンセンサス − ガイダンス（%）  ← 懐疑    強気 →",
-                  fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
     ax.set_title(f"三角検証 4 象限マップ  ―  決算短信 211 銘柄",
-                 fontsize=13, fontweight="bold", color=C_TEXT,
+                 fontsize=18.2, fontweight="bold", color=C_TEXT,
                  pad=14, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="upper right", fontsize=10, frameon=True,
+    ax.legend(loc="upper right", fontsize=14, frameon=True,
               facecolor="white", edgecolor="#dddddd")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "02_quadrant_scatter.png")
     plt.close(fig)
 
@@ -283,29 +285,30 @@ def make_upside_top10(m: pd.DataFrame) -> None:
     for i, (_, r) in enumerate(top.iterrows()):
         ax.text(r["guide_vs_actual_pct"] - 2, i - bw / 2,
                 f"{r['guide_vs_actual_pct']:+.1f}%",
-                va="center", ha="right", fontsize=9,
+                va="center", ha="right", fontsize=12.6,
                 color="#3498db", fontweight="bold")
         ax.text(r["consensus_vs_guide_pct"] + 2, i + bw / 2,
                 f"+{r['consensus_vs_guide_pct']:.1f}%",
-                va="center", ha="left", fontsize=9,
+                va="center", ha="left", fontsize=12.6,
                 color=C_UP, fontweight="bold")
 
     ax.set_yticks(y)
     ax.set_yticklabels([f"{r['code']} {r['name_a'][:14]}"
-                        for _, r in top.iterrows()], fontsize=9.5)
+                        for _, r in top.iterrows()], fontsize=13.3)
     ax.axvline(0, color="#444444", linewidth=0.8)
     ax.set_xlabel("乖離率（%）",
-                  fontsize=10, color=C_TEXT_SUB)
+                  fontsize=14, color=C_TEXT_SUB)
     ax.set_xlim(top["guide_vs_actual_pct"].min() * 1.15,
                 top["consensus_vs_guide_pct"].max() * 1.15)
-    ax.legend(loc="lower right", fontsize=10, frameon=False)
+    ax.legend(loc="lower right", fontsize=14, frameon=False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "★ 上方修正期待 Top 10  ―  保守ガイダンス × アナリスト強気",
-        fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "03_upside_top10.png")
     plt.close(fig)
 
@@ -330,27 +333,28 @@ def make_downside_top10(m: pd.DataFrame) -> None:
     for i, (_, r) in enumerate(top.iterrows()):
         ax.text(r["guide_vs_actual_pct"] + 2, i - bw / 2,
                 f"+{r['guide_vs_actual_pct']:.1f}%",
-                va="center", ha="left", fontsize=9,
+                va="center", ha="left", fontsize=12.6,
                 color="#F39C12", fontweight="bold")
         ax.text(r["consensus_vs_guide_pct"] - 2, i + bw / 2,
                 f"{r['consensus_vs_guide_pct']:.1f}%",
-                va="center", ha="right", fontsize=9,
+                va="center", ha="right", fontsize=12.6,
                 color=C_WARN, fontweight="bold")
 
     ax.set_yticks(y)
     ax.set_yticklabels([f"{r['code']} {r['name_a'][:14]}"
-                        for _, r in top.iterrows()], fontsize=9.5)
+                        for _, r in top.iterrows()], fontsize=13.3)
     ax.axvline(0, color="#444444", linewidth=0.8)
     ax.set_xlabel("乖離率（%）",
-                  fontsize=10, color=C_TEXT_SUB)
-    ax.legend(loc="upper right", fontsize=10, frameon=False)
+                  fontsize=14, color=C_TEXT_SUB)
+    ax.legend(loc="upper right", fontsize=14, frameon=False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "⚠ 達成困難 Top 10  ―  強気ガイダンス × アナリスト懐疑",
-        fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "04_downside_top10.png")
     plt.close(fig)
 
@@ -401,23 +405,23 @@ def make_trading_companies(m: pd.DataFrame) -> None:
         ax_l.text(r["ga"] + (1 if r["ga"] >= 0 else -1), i - bw / 2,
                   f"{r['ga']:+.1f}%", va="center",
                   ha="left" if r["ga"] >= 0 else "right",
-                  fontsize=8.5, color="#3498db", fontweight="bold")
+                  fontsize=11.9, color="#3498db", fontweight="bold")
         ax_l.text(r["cg"] + (1 if r["cg"] >= 0 else -1), i + bw / 2,
                   f"{r['cg']:+.1f}%", va="center",
                   ha="left" if r["cg"] >= 0 else "right",
-                  fontsize=8.5, color=C_CONS, fontweight="bold")
+                  fontsize=11.9, color=C_CONS, fontweight="bold")
 
     ax_l.axvline(0, color="#444444", linewidth=0.8)
     ax_l.set_yticks(y)
     ax_l.set_yticklabels([f"{r['code']} {r['label']}" for _, r in rdf.iterrows()],
-                         fontsize=10)
-    ax_l.set_xlabel("乖離率（%）", fontsize=10, color=C_TEXT_SUB)
-    ax_l.legend(loc="lower right", fontsize=9.5, frameon=False)
+                         fontsize=14)
+    ax_l.set_xlabel("乖離率（%）", fontsize=14, color=C_TEXT_SUB)
+    ax_l.legend(loc="lower right", fontsize=13.3, frameon=False)
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title("三角検証（連載11）",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
 
     # 右: 連載10 のアクルーアル比率
     ax_r = axes[1]
@@ -428,23 +432,24 @@ def make_trading_companies(m: pd.DataFrame) -> None:
     for i, r in rdf.iterrows():
         ax_r.text(r["accrual"] - 0.001, i, f"{r['accrual']:+.4f}",
                   va="center", ha="right",
-                  fontsize=9, color=C_TEXT, fontweight="bold")
+                  fontsize=12.6, color=C_TEXT, fontweight="bold")
     ax_r.axvline(-0.05, color="#27AE60", linestyle="--", linewidth=0.7, alpha=0.6)
     ax_r.axvline(0, color="#999999", linewidth=0.7)
     ax_r.set_yticks(y)
     ax_r.set_yticklabels([""] * len(rdf))
-    ax_r.set_xlabel("7 年平均アクルーアル比率", fontsize=10, color=C_TEXT_SUB)
+    ax_r.set_xlabel("7 年平均アクルーアル比率", fontsize=14, color=C_TEXT_SUB)
     ax_r.set_xlim(-0.05, 0.01)
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("アクルーアル（連載10）",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
 
     fig.suptitle(
         "総合商社 8 社  ―  三角検証 × アクルーアル の合流  ―  健全な利益の質 × 保守ガイダンス × アナリスト強気",
-        fontsize=12.5, fontweight="bold", color=C_TEXT, y=1.02,
+        fontsize=17.5, fontweight="bold", color=C_TEXT, y=0.99,
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "05_trading_companies.png")
     plt.close(fig)
 

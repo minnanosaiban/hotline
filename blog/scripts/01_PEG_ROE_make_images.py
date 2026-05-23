@@ -204,35 +204,35 @@ def make_garp_map(df: pd.DataFrame, out_path: Path):
                      shrinkA=0, shrinkB=4) if name in _LABEL_WITH_LINE else None
         ax.annotate(name, xy=(peg, roe), xytext=(dx, dy),
                     textcoords="offset points",
-                    fontsize=10.5, color=C_TEXT, fontweight="bold", zorder=6,
+                    fontsize=14.7, color=C_TEXT, fontweight="bold", zorder=6,
                     bbox=dict(facecolor="white", edgecolor="none",
                               alpha=0.85, boxstyle="round,pad=0.25"),
                     arrowprops=arrow)
 
     # ゾーンラベル
     ax.text(0.5, 55, "★ GARP 理想ゾーン", ha="center", va="top",
-            fontsize=13, color=C_GARP_IDEAL, fontweight="bold")
+            fontsize=18.2, color=C_GARP_IDEAL, fontweight="bold")
     ax.text(2.0, 55, "割高グロース", ha="center", va="top",
-            fontsize=11, color=C_GROWTH)
+            fontsize=15.4, color=C_GROWTH)
     ax.text(0.5, -2.5, "バリュー候補 (低ROE)", ha="center", va="top",
-            fontsize=11, color=C_VALUE)
+            fontsize=15.4, color=C_VALUE)
     ax.text(2.0, -2.5, "投資不適格", ha="center", va="top",
-            fontsize=11, color=C_INVALID)
+            fontsize=15.4, color=C_INVALID)
 
     # 範囲外銘柄の注釈（グラフ下、軸ラベル下）
     if off_majors:
         note = "※ PEG > 3.0 で図外: " + "  ".join(
             f"{n} (PEG={p:.1f})" for n, p, _r in off_majors
         )
-        fig.text(0.5, 0.005, note, fontsize=9, color=C_TEXT_SUB,
+        fig.text(0.5, 0.005, note, fontsize=12.6, color=C_TEXT_SUB,
                  va="bottom", ha="center")
 
     ax.set_xlim(0, 3.0)
     ax.set_ylim(-5, 60)
-    ax.set_xlabel("PEG（予）  ← 割安   割高 →", fontsize=12, color=C_TEXT_SUB)
-    ax.set_ylabel("ROE（%）  ← 低収益   高収益 →", fontsize=12, color=C_TEXT_SUB)
+    ax.set_xlabel("PEG（予）  ← 割安   割高 →", fontsize=16.8, color=C_TEXT_SUB)
+    ax.set_ylabel("ROE（%）  ← 低収益   高収益 →", fontsize=16.8, color=C_TEXT_SUB)
     ax.set_title("PEG × ROE GARP マップ — 主要銘柄の位置",
-                 fontsize=15, color=C_TEXT, fontweight="bold", pad=18)
+                 fontsize=21, color=C_TEXT, fontweight="bold", pad=18)
     ax.grid(True, color=C_GRID, linewidth=0.8)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
@@ -290,12 +290,12 @@ def make_majors_table(df: pd.DataFrame, out_path: Path):
     ax.text(0.5, y_top + row_h * 0.5,
             "主要銘柄の GARP スコア — 本表内で 0〜100 に正規化",
             ha="center", va="bottom",
-            fontsize=15, color=C_TEXT, fontweight="bold", transform=ax.transAxes)
+            fontsize=21, color=C_TEXT, fontweight="bold", transform=ax.transAxes)
 
     # ヘッダ行
     for x, h, al in zip(col_x, headers, aligns):
         ax.text(x, y_top - row_h * 0.7, h, ha=al, va="center",
-                fontsize=10.5, color=C_TEXT_SUB, fontweight="bold",
+                fontsize=14.7, color=C_TEXT_SUB, fontweight="bold",
                 transform=ax.transAxes)
     ax.plot([0.02, 0.98], [y_top - row_h * 1.2, y_top - row_h * 1.2],
             color=C_GRID, linewidth=1.2, transform=ax.transAxes)
@@ -327,7 +327,7 @@ def make_majors_table(df: pd.DataFrame, out_path: Path):
         colors  = [C_TEXT] + [C_TEXT_SUB] + [C_TEXT] * 5 + [C_TEXT]
         for x, v, al, w, c in zip(col_x, vals, aligns, weights, colors):
             ax.text(x, y, v, ha=al, va="center",
-                    fontsize=10.5, color=c, fontweight=w, transform=ax.transAxes)
+                    fontsize=14.7, color=c, fontweight=w, transform=ax.transAxes)
 
     fig.savefig(out_path)
     plt.close(fig)
@@ -342,7 +342,7 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
 
     fig = plt.figure(figsize=(13, 6.5))
     gs = fig.add_gridspec(1, 2, width_ratios=[1.4, 1.0], wspace=0.18,
-                          left=0.06, right=0.97, top=0.88, bottom=0.10)
+                          left=0.06, right=0.97, top=0.80, bottom=0.10)
 
     # 左: GARPマップ拡大
     ax = fig.add_subplot(gs[0, 0])
@@ -366,13 +366,13 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
         ax.scatter(peg, roe, s=320, color=c, edgecolor="white", linewidth=2.5, zorder=5)
         ax.annotate(name, xy=(peg, roe), xytext=(12, 8),
                     textcoords="offset points",
-                    fontsize=12, color=C_TEXT, fontweight="bold")
+                    fontsize=16.8, color=C_TEXT, fontweight="bold")
 
     ax.set_xlim(0, 1.5)
     ax.set_ylim(0, 20)
-    ax.set_xlabel("PEG（予）", fontsize=11, color=C_TEXT_SUB)
-    ax.set_ylabel("ROE（%）", fontsize=11, color=C_TEXT_SUB)
-    ax.set_title("石油元売3社のGARP位置", fontsize=13, color=C_TEXT, fontweight="bold", pad=12)
+    ax.set_xlabel("PEG（予）", fontsize=15.4, color=C_TEXT_SUB)
+    ax.set_ylabel("ROE（%）", fontsize=15.4, color=C_TEXT_SUB)
+    ax.set_title("石油元売3社のGARP位置", fontsize=18.2, color=C_TEXT, fontweight="bold", pad=6)
     ax.grid(True, color=C_GRID, linewidth=0.8)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
@@ -413,9 +413,9 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
         ))
         # 銘柄名・コード
         ax2.text(0.08, y0 + card_h * 0.78, name,
-                 fontsize=13, color=C_TEXT, fontweight="bold", transform=ax2.transAxes)
+                 fontsize=18.2, color=C_TEXT, fontweight="bold", transform=ax2.transAxes)
         ax2.text(0.08, y0 + card_h * 0.58, f"{code}",
-                 fontsize=9.5, color=C_TEXT_SUB, transform=ax2.transAxes)
+                 fontsize=13.3, color=C_TEXT_SUB, transform=ax2.transAxes)
         # 指標
         items = [
             ("PEG", f"{peg:.2f}" if pd.notna(peg) else "—"),
@@ -426,14 +426,14 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
         xs = [0.34, 0.50, 0.68, 0.84]
         for x, (label, val) in zip(xs, items):
             ax2.text(x, y0 + card_h * 0.62, label,
-                     fontsize=9, color=C_TEXT_SUB,
+                     fontsize=12.6, color=C_TEXT_SUB,
                      ha="center", transform=ax2.transAxes)
             ax2.text(x, y0 + card_h * 0.30, val,
-                     fontsize=12.5, color=C_TEXT, fontweight="bold",
+                     fontsize=17.5, color=C_TEXT, fontweight="bold",
                      ha="center", transform=ax2.transAxes)
 
     fig.suptitle("石油元売3社の GARP 比較 — コスモのみ理想ゾーン",
-                 fontsize=15, color=C_TEXT, fontweight="bold", y=0.97)
+                 fontsize=21, color=C_TEXT, fontweight="bold", y=0.97)
 
     fig.savefig(out_path)
     plt.close(fig)
@@ -482,20 +482,20 @@ def _draw_minichart(ax, s: pd.Series, name: str, code: str,
                    labelbottom=False, bottom=False)
 
     # 銘柄ラベル
-    ax.text(0.02, 0.95, name, fontsize=11, color=C_TEXT,
+    ax.text(0.02, 0.95, name, fontsize=15.4, color=C_TEXT,
             fontweight="bold", ha="left", va="top", transform=ax.transAxes)
-    ax.text(0.02, 0.82, f"{code}", fontsize=8.5, color=C_TEXT_SUB,
+    ax.text(0.02, 0.82, f"{code}", fontsize=11.9, color=C_TEXT_SUB,
             ha="left", va="top", transform=ax.transAxes)
 
     # 騰落率（右上）
     ax.text(0.98, 0.95, f"{chg:+.1f}%",
-            fontsize=11, color=line_c, fontweight="bold",
+            fontsize=15.4, color=line_c, fontweight="bold",
             ha="right", va="top", transform=ax.transAxes)
     # GARP指標（右下）
     peg_str = f"PEG {peg:.2f}" if pd.notna(peg) else "PEG —"
     roe_str = f"ROE {roe:.1f}%" if pd.notna(roe) else "ROE —"
     ax.text(0.98, 0.04, f"{peg_str}   {roe_str}",
-            fontsize=8.5, color=C_TEXT_SUB,
+            fontsize=11.9, color=C_TEXT_SUB,
             ha="right", va="bottom", transform=ax.transAxes)
 
     # GARPゾーンドット
@@ -538,7 +538,7 @@ def make_charts_grid(df: pd.DataFrame, codes: list[tuple[str, str]],
         r, c = divmod(i, cols)
         axes[r][c].axis("off")
 
-    fig.suptitle(title, fontsize=15, color=C_TEXT, fontweight="bold", y=0.995)
+    fig.suptitle(title, fontsize=21, color=C_TEXT, fontweight="bold", y=0.995)
     fig.subplots_adjust(top=0.92, bottom=0.05, left=0.03, right=0.97,
                         hspace=0.30, wspace=0.18)
     fig.savefig(out_path)

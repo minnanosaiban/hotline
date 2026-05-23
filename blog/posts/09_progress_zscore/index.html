@@ -1867,6 +1867,7 @@
 
 
 <h1 id="z-score-13">進捗率 Z-score 早期警報 ― 決算下方修正を 1〜3 ヶ月先取りする方法</h1>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/00_thumbnail.png" data-desc-position="bottom"><img alt="Z-score早期警報" src="../img/09_zscore/00_thumbnail.png" width="1280"></a></p>
 <p>連載01〜05 のフェーズ 1 で見た <strong>業績予想修正率</strong> や <strong>EPS リビジョン</strong> は、<strong>「アナリストが修正した後」のシグナル</strong> ― つまり遅行指標でした。本記事ではフェーズ 3 の入口として、<strong>「アナリストが修正する前」に業績の異常を察知する</strong> 進捗率 Z-score 早期警報を、連載06〜08 で構築した独自スキーマ JSON から実装します。</p>
 <p>四半期累積実績を通期予想で割った <strong>進捗率</strong> を全銘柄で比較すると、<strong>Ｅ・Ｊ HD（2153）Q3 営業利益進捗率 −28%（Z-score −5.56）</strong> や <strong>京葉瓦斯（9539）Q1 営業利益進捗率 127%（Z-score +4.71）</strong> のような極端な事例が一発で抽出できます。機関投資家のクオンツヘッジファンドが古くから使う <strong>業績早期警報モデル</strong> を、独自スキーマで実装します。</p>
 <!-- more -->
@@ -1949,7 +1950,7 @@
 <h2 id="_4">分析で分かったこと</h2>
 <p>決算短信 JSON 1,368 ファイルから、<strong>Q1-Q3 累積実績 262 件と通期予想 466 件をマッチさせた 139 件</strong> で分析しました。</p>
 <h3 id="_5">四半期別の進捗率パターン ― 「営業利益は売上より進捗が早い」</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/05_quarterly_pattern.png" data-desc-position="bottom"><img alt="四半期別の進捗率パターン" src="../img/09_zscore/05_quarterly_pattern.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/05_quarterly_pattern.png" data-desc-position="bottom"><img alt="四半期別の進捗率パターン" src="../img/09_zscore/05_quarterly_pattern.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -1995,7 +1996,7 @@
 特に <strong>Q3 の営業利益 81% は売上 73% より 8 ポイント高い</strong>。これは多くの企業で「<strong>上期は利益が出やすく、下期にコスト計上が重なる</strong>」構造があることを示唆します。設備修繕費・賞与・年末商戦のための販促費などの下期偏重コストが原因と推察されます。</p>
 <p>この <strong>「営業利益のほうが進捗率が高い」事実</strong> が、Z-score で正規化する重要性を裏付けます。理論線（25/50/75）だけで判定すると、Q3 営業利益 75% の銘柄は「想定通り」と見えますが、市場平均 81% から見れば <strong>下振れ気味</strong> と判定すべきです。</p>
 <h3 id="_6">進捗率の分布 ― 売上は集中、営業利益はバラつき</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/01_progress_distribution.png" data-desc-position="bottom"><img alt="進捗率分布" src="../img/09_zscore/01_progress_distribution.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/01_progress_distribution.png" data-desc-position="bottom"><img alt="進捗率分布" src="../img/09_zscore/01_progress_distribution.png" width="1200"></a></p>
 <p>売上進捗率（緑、上段）と営業利益進捗率（青、下段）の分布を四半期別に並べると、<strong>営業利益のほうが圧倒的に分散が広い</strong> ことが分かります。</p>
 <ul>
 <li>売上: Q1 標準偏差 5.9% / Q2 9.1% / Q3 10.6%</li>
@@ -2003,7 +2004,7 @@
 </ul>
 <p>営業利益の分散が売上の <strong>3 倍</strong> あるのは、コスト構造（固定費 / 変動費）と価格決定力の違いから売上のブレが利益に増幅される <strong>オペレーティング・レバレッジ</strong> の効果です。これが早期警報を「営業利益進捗率」で取る理由 ― 営業利益のほうがシグナル比ノイズ比（SNR）が高い。</p>
 <h3 id="top-15-z-score">🚨 早期警報 Top 15 ― 営業利益進捗率 Z-score 下位</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/02_early_warning_top15.png" data-desc-position="bottom"><img alt="早期警報 Top 15" src="../img/09_zscore/02_early_warning_top15.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/02_early_warning_top15.png" data-desc-position="bottom"><img alt="早期警報 Top 15" src="../img/09_zscore/02_early_warning_top15.png" width="1200"></a></p>
 <p>下位 5 銘柄を抜粋すると、極端な業績悪化が顕在化しています。</p>
 <table>
 <thead>
@@ -2062,7 +2063,7 @@
 <p>Top 3 はいずれも <strong>Z-score ≤ −2.5 の "重大警報" ゾーン</strong>。Ｅ・Ｊ HD の Z-score −5.56 は、確率的には <strong>「市場平均からの偏差として 100 万銘柄に 1 つ」レベルの異常値</strong>。Q3 で営業赤字（−28%）かつ売上進捗が市場中央値 73% より大幅に低い 43%、これは「<strong>通期決算で大幅下方修正</strong>」が公式に出る前から十分察知可能なシグナルです。</p>
 <p>注目すべきは、<strong>三協立山（5932）Q3 の構図</strong>: 売上は 74% 進捗（市場中央値とほぼ同じ）にもかかわらず、営業利益は 9.5%。<strong>「売上は計画通りなのに利益だけ消失」</strong> ― これは典型的なマージン悪化、原材料高・人件費上昇・値下げ圧力の現れです。</p>
 <h3 id="top-15-z-score_1">🚀 業績超過 Top 15 ― 営業利益進捗率 Z-score 上位</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/03_surprise_top15.png" data-desc-position="bottom"><img alt="業績超過 Top 15" src="../img/09_zscore/03_surprise_top15.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/03_surprise_top15.png" data-desc-position="bottom"><img alt="業績超過 Top 15" src="../img/09_zscore/03_surprise_top15.png" width="1200"></a></p>
 <p>逆に上位 5 銘柄では、Q1 時点で通期予想に近い利益が出ています。</p>
 <table>
 <thead>
@@ -2121,7 +2122,7 @@
 <p>Top 3 は <strong>Z-score ≥ +2.5 の "重大上振れ"</strong>。京葉瓦斯の Q1 営業利益進捗率 127% は、もはや「上方修正待ち」ではなく <strong>「通期予想が保守的すぎる」</strong> と読むべきレベル。連載04 のサプライズスコアで先取りした上方修正候補が、本記事の進捗率ではより明瞭にデータで裏付けられます。</p>
 <p>注意すべきは、京葉瓦斯のような業績超過銘柄は <strong>「既に株価が織り込んでいる可能性」</strong> も高いこと。連載03 で扱った「リビジョン × モメンタム」散布図と組み合わせ、<strong>「業績は良いがまだ株価が動いていない」出遅れ銘柄</strong> に絞ると、エントリーのリスク・リワードが改善します。</p>
 <h3 id="_7">売上 × 営業利益 進捗率の散布図 ― マージン分析</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/04_sales_vs_op_scatter.png" data-desc-position="bottom"><img alt="売上×営利 進捗率散布図" src="../img/09_zscore/04_sales_vs_op_scatter.png" width="950"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/04_sales_vs_op_scatter.png" data-desc-position="bottom"><img alt="売上×営利 進捗率散布図" src="../img/09_zscore/04_sales_vs_op_scatter.png" width="1200"></a></p>
 <p>四半期ごとに <strong>45° 線（売上進捗率 = 営業利益進捗率）</strong> を基準に、線下が「マージン悪化」ゾーンです。</p>
 <p>実データを見ると、Q1 時点では多くの銘柄が <strong>45° 線の上</strong>（営業利益進捗が売上より高い ＝ 上期偏重の利益構造）に並んでいます。一方で Ｅ・Ｊ HD や三協立山のような明らかなマージン崩壊銘柄は、Q2/Q3 で <strong>大きく 45° 線下に落ちる</strong> ことで識別できます。</p>
 <p>連載04 のサプライズスコア（修正率 + EPS 超過率 + 経常変化率）は <strong>過去 1〜3 ヶ月の業績変化</strong> を捉えるのに対し、本記事の進捗率散布図は <strong>「来期の決算で何が起きるか」の予測</strong> を立てるのに使えます。</p>
