@@ -21,7 +21,7 @@ tags:
 
 ---
 
-## ■ 取得とパースの概要
+## 取得とパースの概要
 
 ### 連載06 で見たデータの「出どころ」
 
@@ -83,7 +83,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 
 ---
 
-## ■ 分析で分かったこと
+## 分析で分かったこと
 
 自前パイプラインを 2026-05-21 時点で観察すると、以下の状況が見えます。
 
@@ -173,7 +173,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 
 ---
 
-## ■ 実装の核心
+## 実装の核心
 
 ### 1. EDINET API ― 2 ステップで XBRL を取得
 
@@ -355,7 +355,7 @@ python collectors/fetch_statements.py
 
 ---
 
-## ■ Python コードの紹介
+## Python コードの紹介
 
 実装の主要部分はすでに前節で示しましたが、**XBRL ZIP の構造を理解するための補助コード** を追加で紹介します。
 
