@@ -35,22 +35,71 @@
   font-weight: 400 !important;
 }
 
-/* h2: Material 標準サイズに戻す */
-.blog-page h2 {
-  font-size: 1.5625em !important;
-  line-height: 1.4 !important;
-  font-weight: 300 !important;
-  margin: 1.6em 0 0.64em 0 !important;
+/* h2: 行頭マーカー ┃（リンク色）＋ 罫線・太字なし */
+.blog-page .md-content h2 {
+  font-size: 1.55em !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
+  margin: 3em 0 1em 0 !important;
+  padding: 0 !important;
+  border: none !important;
   color: var(--md-typeset-color) !important;
+  letter-spacing: 0 !important;
+}
+.blog-page .md-content h2::before {
+  content: "\2503"; /* ┃ BOX DRAWINGS HEAVY VERTICAL */
+  color: var(--md-link-color);
+  margin-right: 0.45em;
+  font-weight: 400;
+  display: inline-block;
 }
 
-/* h3: Material 標準サイズに戻す */
-.blog-page h3 {
-  font-size: 1.25em !important;
-  line-height: 1.5 !important;
-  font-weight: 400 !important;
-  margin: 1.6em 0 0.8em 0 !important;
+/* h3: 行頭マーカー │（リンク色 50% 透過）＋ 太字なし */
+.blog-page .md-content h3 {
+  font-size: 1.2em !important;
+  line-height: 1.6 !important;
+  font-weight: 500 !important;
+  margin: 2em 0 0.7em 0 !important;
+  padding: 0 !important;
+  border: none !important;
   color: var(--md-typeset-color) !important;
+}
+.blog-page .md-content h3::before {
+  content: "\2502"; /* │ BOX DRAWINGS LIGHT VERTICAL */
+  color: var(--md-link-color);
+  opacity: 0.5;
+  margin-right: 0.5em;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/* h4: 行頭マーカー ·（リンク色 50% 透過）＋ 控えめサイズ */
+.blog-page .md-content h4 {
+  font-size: 1.05em !important;
+  line-height: 1.7 !important;
+  font-weight: 500 !important;
+  margin: 1.5em 0 0.5em 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  color: var(--md-typeset-color) !important;
+}
+.blog-page .md-content h4::before {
+  content: "\00B7"; /* · MIDDLE DOT */
+  color: var(--md-link-color);
+  opacity: 0.5;
+  margin-right: 0.6em;
+  font-weight: 700;
+  display: inline-block;
+}
+
+/* hr: ブログでは罫線を非表示（マークダウンの `---` は隠す） */
+.blog-page .md-content hr {
+  display: none !important;
+}
+
+/* TOC: ブログページは h2 までに制限（h3 のネストを非表示） */
+.blog-page .md-nav--secondary .md-nav__item > .md-nav {
+  display: none !important;
 }
 
 /* blog 記事タイトルと Continue reading を 01-color.css の --md-link-color 相当色に */
