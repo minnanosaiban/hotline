@@ -46,7 +46,7 @@
 [data-md-color-scheme="slate"] {
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
-  --md-primary-fg-color: #0d1b2a; /* ヘッダーの背景色（サムネイル背景色と統一） */
+  --md-primary-fg-color: hsla(var(--md-hue), 15%, 8%, 1); /* ヘッダーの背景色 */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1); /* フッター デフォルトの色を薄めに*/
@@ -64,7 +64,12 @@
 
 .bg-blue{
   background-color: var(--md-bg-blue-color);
-  }
+}
+
+/* ダークモード: ヘッダー背景をサムネイル背景色と統一 */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0d1b2a !important;
+}
 
 
 /* 
