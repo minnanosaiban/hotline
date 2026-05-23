@@ -190,19 +190,19 @@ def make_scoreboard_top20(df: pd.DataFrame) -> None:
     ax.set_ylim(len(top) + 1, -1)
 
     # ヘッダ
-    ax.text(0.0, -0.5, "順位", fontsize=10, fontweight="bold", ha="center", va="center", color=C_TEXT)
-    ax.text(1.0, -0.5, "コード", fontsize=10, fontweight="bold", ha="center", va="center", color=C_TEXT)
-    ax.text(2.5, -0.5, "銘柄名", fontsize=10, fontweight="bold", ha="left",   va="center", color=C_TEXT)
+    ax.text(0.0, -0.5, "順位", fontsize=14, fontweight="bold", ha="center", va="center", color=C_TEXT)
+    ax.text(1.0, -0.5, "コード", fontsize=14, fontweight="bold", ha="center", va="center", color=C_TEXT)
+    ax.text(2.5, -0.5, "銘柄名", fontsize=14, fontweight="bold", ha="left",   va="center", color=C_TEXT)
     for i, lab in enumerate(labels):
-        ax.text(5.5 + i, -0.5, lab, fontsize=10, fontweight="bold",
+        ax.text(5.5 + i, -0.5, lab, fontsize=14, fontweight="bold",
                 ha="center", va="center", color=C_TEXT)
 
     cmap = plt.get_cmap("RdYlGn")
     for r, (_, row) in enumerate(top.iterrows()):
-        ax.text(0.0, r + 0.5, f"{r+1}",   fontsize=10, ha="center", va="center", color=C_TEXT)
-        ax.text(1.0, r + 0.5, row["コード"], fontsize=10, ha="center", va="center", color=C_TEXT)
+        ax.text(0.0, r + 0.5, f"{r+1}",   fontsize=14, ha="center", va="center", color=C_TEXT)
+        ax.text(1.0, r + 0.5, row["コード"], fontsize=14, ha="center", va="center", color=C_TEXT)
         name = (row["銘柄名"] or "")[:14]
-        ax.text(2.5, r + 0.5, name, fontsize=10, ha="left", va="center", color=C_TEXT)
+        ax.text(2.5, r + 0.5, name, fontsize=14, ha="left", va="center", color=C_TEXT)
         for i, col in enumerate(cols):
             v = row[col]
             color = cmap(np.clip(v / 100, 0.05, 0.95))
@@ -211,7 +211,7 @@ def make_scoreboard_top20(df: pd.DataFrame) -> None:
             ax.add_patch(rect)
             txt_color = "white" if v < 35 or v > 70 else "#202124"
             ax.text(5.5 + i, r + 0.5, f"{v:.0f}",
-                    fontsize=9.5, ha="center", va="center",
+                    fontsize=13.3, ha="center", va="center",
                     color=txt_color, fontweight="bold" if col == "score_総合" else "normal")
 
     ax.set_xticks([])
@@ -219,7 +219,8 @@ def make_scoreboard_top20(df: pd.DataFrame) -> None:
     for spine in ("top", "right", "left", "bottom"):
         ax.spines[spine].set_visible(False)
     ax.set_title("総合スコア Top 20  ―  7 ファクター × ヒートマップ",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "01_scoreboard_top20.png")
     plt.close(fig)
 
@@ -236,21 +237,21 @@ def make_factor_distribution(df: pd.DataFrame) -> None:
         med = float(s.median())
         ax.axvline(med, color="#202124", linestyle="--", linewidth=1.0, alpha=0.5)
         ax.text(med + 1.5, ax.get_ylim()[1] * 0.92, f"中央{med:.0f}",
-                fontsize=9, color="#202124")
-        ax.set_title(f, fontsize=11, fontweight="bold", color=C_TEXT)
+                fontsize=12.6, color="#202124")
+        ax.set_title(f, fontsize=15.4, fontweight="bold", color=C_TEXT)
         ax.set_xlim(0, 100)
         ax.set_xticks([0, 50, 100])
         ax.tick_params(labelsize=8, colors=C_TEXT_SUB)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
         ax.grid(axis="y", color=C_GRID, linewidth=0.5)
-    # 余ったセルを消す（7ファクター → 8セル中 1つ余る）
+    # 余ったセルを消す（マルチファクター → 8セル中 1つ余る）
     for ax in axes[len(FACTORS):]:
         ax.axis("off")
 
     fig.suptitle(f"7 ファクター スコア分布（対象 {len(df):,} 銘柄）",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.02)
-    plt.tight_layout()
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "02_factor_distribution.png")
     plt.close(fig)
 
@@ -280,7 +281,7 @@ def make_value_quality_scatter(df: pd.DataFrame) -> None:
                    s=180, color="#1ABC9C", edgecolor="white", linewidth=2.0, zorder=5)
         ax.annotate(label, xy=(r["score_Value"], r["score_Quality"]),
                     xytext=(10, 8), textcoords="offset points",
-                    fontsize=10.5, fontweight="bold", color=C_TEXT,
+                    fontsize=14.7, fontweight="bold", color=C_TEXT,
                     bbox=dict(facecolor="white", alpha=0.88,
                               edgecolor="none", boxstyle="round,pad=0.25"))
 
@@ -292,24 +293,25 @@ def make_value_quality_scatter(df: pd.DataFrame) -> None:
 
     # ゾーンラベル
     ax.text(85, 92, "★クオリティ・バリュー\n（バフェット流）",
-            fontsize=10.5, fontweight="bold", color="#27ae60",
+            fontsize=14.7, fontweight="bold", color="#27ae60",
             ha="center", va="center")
-    ax.text(15, 92, "高品質グロース\n（割高優良）", fontsize=10, color="#3498db",
+    ax.text(15, 92, "高品質グロース\n（割高優良）", fontsize=14, color="#3498db",
             ha="center", va="center")
-    ax.text(85, 12, "バリュー・トラップ警戒", fontsize=10, color="#e74c3c",
+    ax.text(85, 12, "バリュー・トラップ警戒", fontsize=14, color="#e74c3c",
             ha="center", va="center")
-    ax.text(15, 12, "低品質×割高\n（投資不適格）", fontsize=10, color="#888888",
+    ax.text(15, 12, "低品質×割高\n（投資不適格）", fontsize=14, color="#888888",
             ha="center", va="center")
 
     ax.set_xlim(0, 100)
     ax.set_ylim(0, 100)
-    ax.set_xlabel("Value スコア  ← 割高     割安 →", fontsize=11, color=C_TEXT)
-    ax.set_ylabel("Quality スコア  ← 低品質    高品質 →", fontsize=11, color=C_TEXT)
+    ax.set_xlabel("Value スコア  ← 割高     割安 →", fontsize=15.4, color=C_TEXT)
+    ax.set_ylabel("Quality スコア  ← 低品質    高品質 →", fontsize=15.4, color=C_TEXT)
     ax.set_title("Value × Quality 散布図  ―  4 ゾーンと主要銘柄の位置",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "03_value_quality_scatter.png")
     plt.close(fig)
 
@@ -347,21 +349,21 @@ def make_majors_radar(df: pd.DataFrame) -> None:
         ax.set_theta_direction(-1)
         ax.set_ylim(0, 100)
         ax.set_yticks([25, 50, 75])
-        ax.set_yticklabels(["25", "50", "75"], fontsize=7, color=C_TEXT_SUB)
+        ax.set_yticklabels(["25", "50", "75"], fontsize=9.8, color=C_TEXT_SUB)
         ax.set_xticks(angles)
-        ax.set_xticklabels(FACTORS, fontsize=9, color=C_TEXT)
+        ax.set_xticklabels(FACTORS, fontsize=12.6, color=C_TEXT)
 
         total = r["score_総合"]
         label = r["銘柄名"]
         ax.set_title(f"{label}（総合 {total:.0f}）",
-                     fontsize=11, fontweight="bold", color=C_TEXT, pad=14)
+                     fontsize=15.4, fontweight="bold", color=C_TEXT, pad=14)
 
     for ax in axes[n_majors:]:
         ax.axis("off")
 
     fig.suptitle("主要 6 社の 7 ファクターレーダー",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.00)
-    plt.tight_layout()
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=1.00)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "04_majors_radar.png")
     plt.close(fig)
 
@@ -397,11 +399,11 @@ def make_oil_refining_compare(df: pd.DataFrame) -> None:
         ax.set_theta_direction(-1)
         ax.set_ylim(0, 100)
         ax.set_yticks([25, 50, 75])
-        ax.set_yticklabels(["25", "50", "75"], fontsize=7, color=C_TEXT_SUB)
+        ax.set_yticklabels(["25", "50", "75"], fontsize=9.8, color=C_TEXT_SUB)
         ax.set_xticks(angles)
-        ax.set_xticklabels(FACTORS, fontsize=8.5, color=C_TEXT)
+        ax.set_xticklabels(FACTORS, fontsize=11.9, color=C_TEXT)
         ax.set_title(f"{label}\n（総合 {r['score_総合']:.0f}）",
-                     fontsize=10.5, fontweight="bold", color=C_TEXT, pad=12)
+                     fontsize=14.7, fontweight="bold", color=C_TEXT, pad=12)
 
         rows_for_table.append({
             "label": label, "color": color,
@@ -424,23 +426,24 @@ def make_oil_refining_compare(df: pd.DataFrame) -> None:
                     label=row["label"])
         for y, v in zip(ys, vals):
             ax_bar.text(v + 1.5, y, f"{v:.0f}", va="center",
-                        fontsize=8, color=C_TEXT)
+                        fontsize=11.2, color=C_TEXT)
 
     ax_bar.axvline(50, color="#cccccc", linestyle=":", linewidth=0.8)
     ax_bar.set_yticks(y_base)
-    ax_bar.set_yticklabels(highlight, fontsize=9.5, color=C_TEXT)
+    ax_bar.set_yticklabels(highlight, fontsize=13.3, color=C_TEXT)
     ax_bar.invert_yaxis()
     ax_bar.set_xlim(0, 100)
     ax_bar.set_xticks([0, 25, 50, 75, 100])
     ax_bar.tick_params(labelsize=8, colors=C_TEXT_SUB)
     for sp in ("top", "right"):
         ax_bar.spines[sp].set_visible(False)
-    ax_bar.set_title("主要ファクター比較", fontsize=10.5, fontweight="bold",
+    ax_bar.set_title("主要ファクター比較", fontsize=14.7, fontweight="bold",
                      color=C_TEXT, pad=12, loc="left")
-    ax_bar.legend(loc="lower right", fontsize=7.5, frameon=False)
+    ax_bar.legend(loc="lower right", fontsize=10.5, frameon=False)
 
     fig.suptitle("石油元売 3 社の 7 ファクター比較  ―  セクター内マルチファクター分析",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "05_oil_refining_factors.png", bbox_inches="tight")
     plt.close(fig)
 

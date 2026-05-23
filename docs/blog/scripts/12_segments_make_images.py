@@ -139,28 +139,28 @@ def make_segment_coverage(by_code: dict) -> None:
     ax.add_patch(Rectangle((0.3, 2.5), 5.0, 1.2, facecolor="#FFE5E5",
                             edgecolor="#E74C3C", linewidth=1.5))
     ax.text(0.5, 3.4, "有報 XBRL（連載06-08 で構築）",
-            fontsize=11.5, fontweight="bold", color="#E74C3C", va="center")
+            fontsize=16.1, fontweight="bold", color="#E74C3C", va="center")
     ax.text(0.5, 2.95, "13 銘柄 × 7 期 = 91 ファイル / セグメント取得済み 0 件",
-            fontsize=10, color=C_TEXT, va="center")
+            fontsize=14, color=C_TEXT, va="center")
     ax.text(0.5, 2.65, "★ parser_version 0.2.0 で yuho セグメント未対応",
-            fontsize=9, color=C_TEXT_SUB, va="center", style="italic")
+            fontsize=12.6, color=C_TEXT_SUB, va="center", style="italic")
 
     # 決算短信 (statements)
     ax.add_patch(Rectangle((6.0, 2.5), 5.2, 1.2, facecolor="#E5FFE5",
                             edgecolor=C_UP, linewidth=1.5))
     ax.text(6.2, 3.4, "決算短信 XBRL（連載07 で構築）",
-            fontsize=11.5, fontweight="bold", color=C_UP, va="center")
+            fontsize=16.1, fontweight="bold", color=C_UP, va="center")
     ax.text(6.2, 2.95, "1,368 ファイル / セグメント取得済み 616 ファイル",
-            fontsize=10, color=C_TEXT, va="center")
+            fontsize=14, color=C_TEXT, va="center")
     n_2yrs = sum(1 for fy_map in by_code.values() if len(fy_map) >= 2)
     ax.text(6.2, 2.65, f"★ 2 年分時系列を持つ銘柄: {n_2yrs} 銘柄",
-            fontsize=9, color=C_UP, va="center", fontweight="bold")
+            fontsize=12.6, color=C_UP, va="center", fontweight="bold")
 
     # サンプル銘柄
     ax.add_patch(Rectangle((0.3, 0.5), 10.9, 1.5, facecolor="#F5F5F5",
                             edgecolor="#888888", linewidth=1.0))
     ax.text(0.5, 1.8, "本記事で扱う代表銘柄（連載01-11 と接続）",
-            fontsize=11, fontweight="bold", color=C_TEXT, va="center")
+            fontsize=15.4, fontweight="bold", color=C_TEXT, va="center")
     samples = [
         ("ソニーＧ", "6758", "6 セグメント / 連載02 主要 6 社"),
         ("トヨタ", "7203", "3 セグメント / 連載01-11 全登場"),
@@ -170,14 +170,15 @@ def make_segment_coverage(by_code: dict) -> None:
     x = 0.6
     for label, code, note in samples:
         ax.text(x, 1.2, f"{label} ({code})",
-                fontsize=10.5, fontweight="bold", color="#1F4E8C")
-        ax.text(x, 0.85, note, fontsize=8.5, color=C_TEXT_SUB)
+                fontsize=14.7, fontweight="bold", color="#1F4E8C")
+        ax.text(x, 0.85, note, fontsize=11.9, color=C_TEXT_SUB)
         x += 2.7
 
     ax.set_title(
         "セグメント情報のデータカバレッジ  ―  決算短信 XBRL からの 2 年時系列で実施",
-        fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "01_segment_coverage.png")
     plt.close(fig)
 
@@ -216,18 +217,18 @@ def make_sony_portfolio(by_code: dict) -> None:
               alpha=0.85, edgecolor="white", linewidth=0.8, label="営業利益（億円）")
     for i, r in df.reset_index(drop=True).iterrows():
         ax_l.text(r["sales_oku"] + 200, i - bw / 2, f"{r['sales_oku']:,.0f}億",
-                  va="center", fontsize=9, color=C_NS, fontweight="bold")
+                  va="center", fontsize=12.6, color=C_NS, fontweight="bold")
         ax_l.text(r["oi_oku"] + 200, i + bw / 2, f"{r['oi_oku']:,.0f}億",
-                  va="center", fontsize=9, color=C_OI, fontweight="bold")
+                  va="center", fontsize=12.6, color=C_OI, fontweight="bold")
     ax_l.set_yticks(y)
-    ax_l.set_yticklabels(df["label"].str[:24], fontsize=9.5)
-    ax_l.set_xlabel("億円", fontsize=10, color=C_TEXT_SUB)
-    ax_l.legend(loc="lower right", fontsize=10, frameon=False)
+    ax_l.set_yticklabels(df["label"].str[:24], fontsize=13.3)
+    ax_l.set_xlabel("億円", fontsize=14, color=C_TEXT_SUB)
+    ax_l.legend(loc="lower right", fontsize=14, frameon=False)
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title(f"ソニーＧ  ―  6 セグメントの売上 × 営業利益（{yrs[-1][:4]} 年度）",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
 
     # 右: 営業利益率
     df_m = df.dropna(subset=["margin"]).sort_values("margin", ascending=True)
@@ -237,19 +238,20 @@ def make_sony_portfolio(by_code: dict) -> None:
               edgecolor="white", linewidth=0.8)
     for i, r in df_m.reset_index(drop=True).iterrows():
         ax_r.text(r["margin"] + 0.4, i, f"{r['margin']:.1f}%",
-                  va="center", fontsize=10, fontweight="bold", color=C_TEXT)
+                  va="center", fontsize=14, fontweight="bold", color=C_TEXT)
     ax_r.set_yticks(y2)
-    ax_r.set_yticklabels(df_m["label"].str[:24], fontsize=9.5)
-    ax_r.set_xlabel("営業利益率（%）", fontsize=10, color=C_TEXT)
+    ax_r.set_yticklabels(df_m["label"].str[:24], fontsize=13.3)
+    ax_r.set_xlabel("営業利益率（%）", fontsize=14, color=C_TEXT)
     ax_r.set_xlim(0, max(df_m["margin"]) * 1.2)
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("セグメント別 営業利益率  ―  音楽セグメントが突出",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
 
     fig.suptitle("ソニーグループの事業ポートフォリオ  ―  6 セグメントの収益構造",
-                 fontsize=13.5, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=18.9, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "02_sony_segment_portfolio.png")
     plt.close(fig)
 
@@ -275,17 +277,17 @@ def make_yoy_acceleration(dfg: pd.DataFrame, names: dict[str, str]) -> None:
     for i, r in top.reset_index(drop=True).iterrows():
         ax_l.text(r["sales_growth"] + 3, i,
                   f"+{r['sales_growth']:.1f}%  (売上 {r['cur_sales_oku']:,.0f}億)",
-                  va="center", fontsize=8.5, color=C_UP, fontweight="bold")
+                  va="center", fontsize=11.9, color=C_UP, fontweight="bold")
     ax_l.set_yticks(y)
     ax_l.set_yticklabels([f"{r['code']} {r['name'][:9]}\n  {r['segment'][:16]}"
-                          for _, r in top.iterrows()], fontsize=8.5)
-    ax_l.set_xlabel("売上前期比成長率（%）", fontsize=10, color=C_TEXT_SUB)
+                          for _, r in top.iterrows()], fontsize=11.9)
+    ax_l.set_xlabel("売上前期比成長率（%）", fontsize=14, color=C_TEXT_SUB)
     ax_l.set_xlim(0, max(top["sales_growth"]) * 1.5)
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title("★ 加速 Top10  ―  売上 100 億以上のセグメント",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
 
     # 減速 Worst10
     y = np.arange(len(worst))
@@ -294,21 +296,22 @@ def make_yoy_acceleration(dfg: pd.DataFrame, names: dict[str, str]) -> None:
     for i, r in worst.reset_index(drop=True).iterrows():
         ax_r.text(r["sales_growth"] - 0.5, i,
                   f"{r['sales_growth']:.1f}%  (売上 {r['cur_sales_oku']:,.0f}億)",
-                  va="center", ha="right", fontsize=8.5, color=C_DOWN, fontweight="bold")
+                  va="center", ha="right", fontsize=11.9, color=C_DOWN, fontweight="bold")
     ax_r.set_yticks(y)
     ax_r.set_yticklabels([f"{r['code']} {r['name'][:9]}\n  {r['segment'][:16]}"
-                          for _, r in worst.iterrows()], fontsize=8.5)
-    ax_r.set_xlabel("売上前期比成長率（%）", fontsize=10, color=C_TEXT_SUB)
+                          for _, r in worst.iterrows()], fontsize=11.9)
+    ax_r.set_xlabel("売上前期比成長率（%）", fontsize=14, color=C_TEXT_SUB)
     ax_r.set_xlim(min(worst["sales_growth"]) * 1.25, 0)
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("⚠ 減速 Worst10  ―  売上 100 億以上のセグメント",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
 
     fig.suptitle(
         f"セグメント別 前期比成長率  ―  決算短信 2 年分から抽出（対象 {len(sub)} セグメント）",
-        fontsize=13, fontweight="bold", color=C_TEXT, y=1.02)
+        fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "03_segment_yoy_acceleration.png")
     plt.close(fig)
 
@@ -331,19 +334,20 @@ def make_high_margin_segments(dfg: pd.DataFrame, names: dict[str, str]) -> None:
     for i, r in top.reset_index(drop=True).iterrows():
         ax.text(r["margin"] + 0.5, i,
                 f"{r['margin']:.1f}%  (売上 {r['cur_sales_oku']:,.0f}億 / 営利 {r['cur_oi_oku']:,.0f}億)",
-                va="center", fontsize=8.5, color=C_TEXT, fontweight="bold")
+                va="center", fontsize=11.9, color=C_TEXT, fontweight="bold")
     ax.set_yticks(y)
     ax.set_yticklabels([f"{r['code']} {r['name'][:10]}\n  {r['segment'][:18]}"
-                        for _, r in top.iterrows()], fontsize=8.5)
-    ax.set_xlabel("営業利益率（%）", fontsize=10, color=C_TEXT)
+                        for _, r in top.iterrows()], fontsize=11.9)
+    ax.set_xlabel("営業利益率（%）", fontsize=14, color=C_TEXT)
     ax.set_xlim(0, max(top["margin"]) * 1.4)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "高営業利益率セグメント Top15  ―  売上 200 億以上 × 利益率 > 0%",
-        fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "04_high_margin_segments.png")
     plt.close(fig)
 
@@ -402,16 +406,16 @@ def make_major_companies_2yr(by_code: dict, names: dict[str, str]) -> None:
             if g is not None:
                 col = C_UP if g >= 0 else C_DOWN
                 ax.text(r["cur"] + max(df["cur"]) * 0.02, i + bw / 2,
-                        f"{g:+.1f}%", va="center", fontsize=8,
+                        f"{g:+.1f}%", va="center", fontsize=11.2,
                         color=col, fontweight="bold")
         ax.set_yticks(y)
-        ax.set_yticklabels(df["label"], fontsize=9)
-        ax.set_xlabel("売上（億円）", fontsize=9, color=C_TEXT_SUB)
-        ax.legend(loc="lower right", fontsize=8, frameon=False)
+        ax.set_yticklabels(df["label"], fontsize=12.6)
+        ax.set_xlabel("売上（億円）", fontsize=12.6, color=C_TEXT_SUB)
+        ax.legend(loc="lower right", fontsize=11.2, frameon=False)
         ax.grid(axis="x", color=C_GRID, linewidth=0.5)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
-        ax.set_title(f"{name} ({code})", fontsize=11.5,
+        ax.set_title(f"{name} ({code})", fontsize=16.1,
                      fontweight="bold", color=C_TEXT, pad=8, loc="left")
 
     # 余ったセルを消す
@@ -420,7 +424,8 @@ def make_major_companies_2yr(by_code: dict, names: dict[str, str]) -> None:
 
     fig.suptitle(
         "主要 4 銘柄のセグメント 2 年推移  ―  決算短信 XBRL から抽出",
-        fontsize=13.5, fontweight="bold", color=C_TEXT, y=1.00)
+        fontsize=18.9, fontweight="bold", color=C_TEXT, y=1.00)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "05_major_companies_2yr.png")
     plt.close(fig)
 

@@ -136,14 +136,14 @@ def make_surprise_top20(df: pd.DataFrame) -> None:
                ("経常変化率(予)(%)", 9.9, "center"),
                ("ROE(%)", 11.2, "center")]
     for label, x, ha in headers:
-        ax.text(x, -0.5, label, fontsize=10, fontweight="bold",
+        ax.text(x, -0.5, label, fontsize=14, fontweight="bold",
                 ha=ha, va="center", color=C_TEXT)
 
     cmap_score = plt.get_cmap("RdYlGn")
     for r, (_, row) in enumerate(top.iterrows()):
-        ax.text(0.0, r + 0.5, f"{r+1}", fontsize=10, ha="center", va="center")
-        ax.text(1.0, r + 0.5, row["コード"], fontsize=10, ha="center", va="center")
-        ax.text(2.5, r + 0.5, str(row["銘柄名"])[:14], fontsize=10, ha="left", va="center")
+        ax.text(0.0, r + 0.5, f"{r+1}", fontsize=14, ha="center", va="center")
+        ax.text(1.0, r + 0.5, row["コード"], fontsize=14, ha="center", va="center")
+        ax.text(2.5, r + 0.5, str(row["銘柄名"])[:14], fontsize=14, ha="left", va="center")
 
         # サプライズスコア（背景塗り）
         score = row["サプライズスコア"]
@@ -152,21 +152,21 @@ def make_surprise_top20(df: pd.DataFrame) -> None:
                          facecolor=color, edgecolor="white", linewidth=1.0)
         ax.add_patch(rect)
         txt_color = "white" if score < 35 or score > 70 else "#202124"
-        ax.text(5.0, r + 0.5, f"{score:.1f}", fontsize=10, fontweight="bold",
+        ax.text(5.0, r + 0.5, f"{score:.1f}", fontsize=14, fontweight="bold",
                 ha="center", va="center", color=txt_color)
 
         # 個別指標
         ax.text(6.7, r + 0.5, f"{row['業績予想修正率(予)']:+.2f}",
-                fontsize=9.5, ha="center", va="center", color=C_REV)
+                fontsize=13.3, ha="center", va="center", color=C_REV)
         ax.text(8.2, r + 0.5,
                 f"{row['EPS予想超過率']:+.1f}" if pd.notna(row['EPS予想超過率']) else "—",
-                fontsize=9.5, ha="center", va="center", color=C_EPS)
+                fontsize=13.3, ha="center", va="center", color=C_EPS)
         ax.text(9.9, r + 0.5,
                 f"{row['経常利益変化率(予)']:+.2f}" if pd.notna(row['経常利益変化率(予)']) else "—",
-                fontsize=9.5, ha="center", va="center", color=C_ORD)
+                fontsize=13.3, ha="center", va="center", color=C_ORD)
         ax.text(11.2, r + 0.5,
                 f"{row['ROE']:.1f}" if pd.notna(row['ROE']) else "—",
-                fontsize=9.5, ha="center", va="center", color=C_TEXT_SUB)
+                fontsize=13.3, ha="center", va="center", color=C_TEXT_SUB)
 
     ax.set_xticks([])
     ax.set_yticks([])
@@ -174,8 +174,9 @@ def make_surprise_top20(df: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         f"サプライズスコア Top 20  ―  3 指標合成 × 時価総額 100 億円・ROE 5% 以上 (対象 {len(f):,} 銘柄)",
-        fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "01_surprise_top20.png")
     plt.close(fig)
 
@@ -216,21 +217,22 @@ def make_oil_refining_surprise(df: pd.DataFrame) -> None:
             txt = f"{v:+.1f}%" if abs(v) > 0.01 else "—"
             ax.text(v + (1.0 if v >= 0 else -1.0), i + y_off, txt,
                     va="center", ha="left" if v >= 0 else "right",
-                    fontsize=9, color=c, fontweight="bold")
+                    fontsize=12.6, color=c, fontweight="bold")
 
     ax.axvline(0, color="#999999", linewidth=0.8)
     ax.set_yticks(y)
     ax.set_yticklabels([f"{lab}\n(ROE {ro:.1f}%)" for lab, ro in zip(labels, rocols)],
-                       fontsize=11, color=C_TEXT)
+                       fontsize=15.4, color=C_TEXT)
     ax.invert_yaxis()
     ax.set_xlim(-15, 60)
-    ax.set_xlabel("%", fontsize=10, color=C_TEXT_SUB)
-    ax.legend(loc="lower right", fontsize=9.5, frameon=False)
+    ax.set_xlabel("%", fontsize=14, color=C_TEXT_SUB)
+    ax.legend(loc="lower right", fontsize=13.3, frameon=False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title("石油元売 3 社  ―  3 シグナル比較（修正率 / EPS超過率 / 経常変化率(予)）",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "02_oil_refining_surprise.png")
     plt.close(fig)
 
@@ -274,7 +276,7 @@ def make_revision_vs_ordprofit(df: pd.DataFrame) -> None:
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=10.5, fontweight="bold", color="#1F4E8C",
+                    fontsize=14.7, fontweight="bold", color="#1F4E8C",
                     bbox=dict(facecolor="white", alpha=0.92,
                               edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
                     zorder=9)
@@ -286,27 +288,28 @@ def make_revision_vs_ordprofit(df: pd.DataFrame) -> None:
 
     # ゾーンラベル
     ax.text(25, 50, "★最強ゾーン★\n上方修正 × 来期成長",
-            fontsize=11, fontweight="bold", color=C_HOT, ha="center", va="center")
+            fontsize=15.4, fontweight="bold", color=C_HOT, ha="center", va="center")
     ax.text(-20, 50, "下方修正 × 来期成長\n（回復期待・限定的）",
-            fontsize=9.5, color=C_TEXT_SUB, ha="center", va="center")
+            fontsize=13.3, color=C_TEXT_SUB, ha="center", va="center")
     ax.text(-20, -25, "下方修正 × 来期減益\n（回避ゾーン）",
-            fontsize=9.5, color=C_TEXT_SUB, ha="center", va="center")
+            fontsize=13.3, color=C_TEXT_SUB, ha="center", va="center")
     ax.text(25, -25, "上方修正 × 来期減益\n（ピークアウト警戒）",
-            fontsize=9.5, color=C_TEXT_SUB, ha="center", va="center")
+            fontsize=13.3, color=C_TEXT_SUB, ha="center", va="center")
 
     ax.set_xlim(-30, 40)
     ax.set_ylim(-50, 100)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 下方修正    上方修正 →",
-                  fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
     ax.set_ylabel("経常利益変化率(予)（%）  ← 来期減益    来期成長 →",
-                  fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
     ax.set_title("リビジョン × 来期成長予想  ―  業績モメンタムの 4 象限",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="lower right", fontsize=10, frameon=True,
+    ax.legend(loc="lower right", fontsize=14, frameon=True,
               facecolor="white", edgecolor="#dddddd")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "03_revision_vs_ordprofit.png")
     plt.close(fig)
 
@@ -335,14 +338,14 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
     ax.set_ylim(len(sc10) + 1, -1)
 
     # Header
-    ax.text(0.2, -0.5, "順位", fontsize=10, fontweight="bold", ha="left", color=C_TEXT)
-    ax.text(1.0, -0.5, "コード", fontsize=10, fontweight="bold", ha="center", color=C_TEXT)
-    ax.text(2.5, -0.5, "銘柄名", fontsize=10, fontweight="bold", ha="left", color=C_TEXT)
-    ax.text(5.0, -0.5, "合成SC", fontsize=10, fontweight="bold", ha="center", color=C_TEXT)
-    ax.text(6.5, -0.5, "修正率\nTop10", fontsize=9.5, fontweight="bold", ha="center", color=C_REV)
-    ax.text(7.7, -0.5, "EPS超過率\nTop10", fontsize=9.5, fontweight="bold", ha="center", color=C_EPS)
-    ax.text(8.9, -0.5, "経常変化率\nTop10", fontsize=9.5, fontweight="bold", ha="center", color=C_ORD)
-    ax.text(10.0, -0.5, "合致数", fontsize=10, fontweight="bold", ha="center", color=C_TEXT)
+    ax.text(0.2, -0.5, "順位", fontsize=14, fontweight="bold", ha="left", color=C_TEXT)
+    ax.text(1.0, -0.5, "コード", fontsize=14, fontweight="bold", ha="center", color=C_TEXT)
+    ax.text(2.5, -0.5, "銘柄名", fontsize=14, fontweight="bold", ha="left", color=C_TEXT)
+    ax.text(5.0, -0.5, "合成SC", fontsize=14, fontweight="bold", ha="center", color=C_TEXT)
+    ax.text(6.5, -0.5, "修正率\nTop10", fontsize=13.3, fontweight="bold", ha="center", color=C_REV)
+    ax.text(7.7, -0.5, "EPS超過率\nTop10", fontsize=13.3, fontweight="bold", ha="center", color=C_EPS)
+    ax.text(8.9, -0.5, "経常変化率\nTop10", fontsize=13.3, fontweight="bold", ha="center", color=C_ORD)
+    ax.text(10.0, -0.5, "合致数", fontsize=14, fontweight="bold", ha="center", color=C_TEXT)
 
     for r, (_, row) in enumerate(sc10.iterrows()):
         code = row["コード"]
@@ -351,24 +354,24 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
         in_ord = code in top_ord
         n_in = int(in_rev) + int(in_eps) + int(in_ord)
 
-        ax.text(0.2, r + 0.5, f"{r+1}", fontsize=10, ha="left", va="center")
-        ax.text(1.0, r + 0.5, code, fontsize=10, ha="center", va="center")
-        ax.text(2.5, r + 0.5, str(row["銘柄名"])[:14], fontsize=10, ha="left", va="center")
+        ax.text(0.2, r + 0.5, f"{r+1}", fontsize=14, ha="left", va="center")
+        ax.text(1.0, r + 0.5, code, fontsize=14, ha="center", va="center")
+        ax.text(2.5, r + 0.5, str(row["銘柄名"])[:14], fontsize=14, ha="left", va="center")
         ax.text(5.0, r + 0.5, f"{row['サプライズスコア']:.1f}",
-                fontsize=10.5, fontweight="bold", ha="center", va="center", color="#27AE60")
+                fontsize=14.7, fontweight="bold", ha="center", va="center", color="#27AE60")
 
         for x, in_set, c in [(6.5, in_rev, C_REV), (7.7, in_eps, C_EPS), (8.9, in_ord, C_ORD)]:
             if in_set:
                 ax.scatter([x], [r + 0.5], s=180, color=c, alpha=0.85,
                            edgecolor="white", linewidth=1.5, zorder=3)
-                ax.text(x, r + 0.5, "✓", fontsize=11, fontweight="bold",
+                ax.text(x, r + 0.5, "✓", fontsize=15.4, fontweight="bold",
                         ha="center", va="center", color="white")
             else:
-                ax.text(x, r + 0.5, "—", fontsize=11, color="#cccccc",
+                ax.text(x, r + 0.5, "—", fontsize=15.4, color="#cccccc",
                         ha="center", va="center")
 
         col_n = "#27AE60" if n_in >= 2 else ("#F39C12" if n_in == 1 else "#cccccc")
-        ax.text(10.0, r + 0.5, f"{n_in}/3", fontsize=11, fontweight="bold",
+        ax.text(10.0, r + 0.5, f"{n_in}/3", fontsize=15.4, fontweight="bold",
                 ha="center", va="center", color=col_n)
 
     ax.set_xticks([])
@@ -376,7 +379,7 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
     for sp in ("top", "right", "left", "bottom"):
         ax.spines[sp].set_visible(False)
     ax.set_title("合成スコア Top10 と単一シグナル Top10 の重なり  ―  合成の効用",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left")
 
     # 注釈
     n_all3 = sum(1 for _, row in sc10.iterrows()
@@ -385,8 +388,9 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
     ax.text(0.0, len(sc10) + 0.7,
             f"合成 Top10 中、3 シグナル全部 Top10 入りは {n_all3} 銘柄。"
             f"単一指標で見落とされる銘柄を合成が拾う構造です。",
-            fontsize=10, color=C_TEXT_SUB, va="top")
+            fontsize=14, color=C_TEXT_SUB, va="top")
 
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "04_signal_overlap.png")
     plt.close(fig)
 
@@ -412,7 +416,7 @@ def make_signal_distribution(df: pd.DataFrame) -> None:
         ax.axvline(med, color="#202124", linestyle="--", linewidth=1.0, alpha=0.6)
         ax.axvline(0, color="#aaaaaa", linewidth=0.7)
         ax.set_title(f"{title}  (中央 {med:+.1f}%)",
-                     fontsize=11, fontweight="bold", color=C_TEXT)
+                     fontsize=15.4, fontweight="bold", color=C_TEXT)
         ax.set_xlim(*xrange)
         ax.tick_params(labelsize=8, colors=C_TEXT_SUB)
         for sp in ("top", "right"):
@@ -420,8 +424,8 @@ def make_signal_distribution(df: pd.DataFrame) -> None:
         ax.grid(axis="y", color=C_GRID, linewidth=0.5)
 
     fig.suptitle(f"3 シグナルの分布（時価総額 100 億円・ROE 5% 以上、{len(f):,} 銘柄）",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.02)
-    plt.tight_layout()
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "05_signal_distribution.png")
     plt.close(fig)
 
