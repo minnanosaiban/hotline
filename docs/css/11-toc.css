@@ -1,4 +1,1 @@
-/* デフォルト: ToC の H3 項目（ネスト nav）を非表示 */
-.md-nav--secondary .md-nav__item > .md-nav {
-  display: none;
-}
+/* ToC depth control is handled per-page in overrides/main.html */
