@@ -11,22 +11,22 @@ nav:
       - index.md
   - 株 × Python × AI:
       - blog/index.md
-      - 連載01 PEG×ROE: blog/posts/01_PEG_ROE銘柄分析.md
-      - 連載02 マルチファクター: blog/posts/02_マルチファクタースコアボード.md
-      - 連載03 EPSリビジョン: blog/posts/03_EPSリビジョンモメンタム.md
-      - 連載04 連続サプライズ: blog/posts/04_連続サプライズスコアボード.md
-      - 連載05 信用需給: blog/posts/05_信用需給ダッシュボード.md
-      - 連載06 XBRLとは: blog/posts/06_XBRLとは何か.md
-      - 連載07 EDINET/TDnet: blog/posts/07_EDINET_TDnet取得とパース.md
-      - 連載08 スキーマ設計: blog/posts/08_決算短信JSONスキーマ設計.md
-      - 連載09 Zscore警報: blog/posts/09_進捗率Zscore.md
-      - 連載10 アクルーアル: blog/posts/10_アクルーアル.md
-      - 連載11 三角検証: blog/posts/11_三角検証.md
-      - 連載12 セグメント: blog/posts/12_セグメント発進力.md
-      - 連載13 CAR: blog/posts/13_CARイベントスタディ.md
-      - 連載14 LLM要約: blog/posts/14_LLM要約.md
-      - 連載15 類似検索: blog/posts/15_類似決算検索.md
-      - 連載16 K-NN予測: blog/posts/16_類似決算値動き予測.md
+      - 連載01 PEG×ROE: blog/posts/01_garp_peg_roe.md
+      - 連載02 マルチファクター: blog/posts/02_multifactor_scoreboard.md
+      - 連載03 EPSリビジョン: blog/posts/03_eps_revision_momentum.md
+      - 連載04 連続サプライズ: blog/posts/04_surprise_scoreboard.md
+      - 連載05 信用需給: blog/posts/05_credit_supply_dashboard.md
+      - 連載06 XBRLとは: blog/posts/06_what_is_xbrl.md
+      - 連載07 EDINET/TDnet: blog/posts/07_edinet_tdnet_parse.md
+      - 連載08 スキーマ設計: blog/posts/08_kessan_json_schema.md
+      - 連載09 Zscore警報: blog/posts/09_progress_zscore.md
+      - 連載10 アクルーアル: blog/posts/10_accrual_analysis.md
+      - 連載11 三角検証: blog/posts/11_triangulation.md
+      - 連載12 セグメント: blog/posts/12_segment_analysis.md
+      - 連載13 CAR: blog/posts/13_car_event_study.md
+      - 連載14 LLM要約: blog/posts/14_llm_summary.md
+      - 連載15 類似検索: blog/posts/15_similar_earnings_search.md
+      - 連載16 K-NN予測: blog/posts/16_knn_prediction.md
   - 株主総会意見:
       - trial/index.md
       - <i class="bi bi-chevron-compact-right"></i> 背景と事実 : fact/index.md          
@@ -142,8 +142,11 @@ plugins:
           # insert: top
   # - search # 追加の際は「features」も設定する
   # - callouts # admonitionと同様の機能
-  # - glightbox: # 画像・動画のポップアップ表示
-    # width: 80%
+  - glightbox: # 画像・動画のポップアップ表示
+      width: 90%
+      height: auto
+      shadow: true
+      touchNavigation: true
   # - heti
   # - include_dir_to_nav:
   #     sort_file: true
