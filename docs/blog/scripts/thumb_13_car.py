@@ -34,32 +34,40 @@ ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, l
 ax_l.text(0.07, 0.48, 'イベント直後の', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.text(0.07, 0.37, '超過リターンを検出', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
-ax_r.set_xlim(-25, 25)
-ax_r.set_ylim(-20, 20)
+ax_r = fig.add_axes([0.46, 0.12, 0.50, 0.78], facecolor=BG)
+ax_r.set_xlim(-7, 24)
+ax_r.set_ylim(-20, 10)
 ax_r.axis('off')
 
-# CARチャート（t=0でイベント発生）
 import numpy as np
-t = np.linspace(-20, 20, 100)
-# ENEOS ピークアウト CAR: [-1,+20]=-13.89%
-car_curve = -13.89 * (1 - np.exp(-0.1 * np.abs(t)))
-for i in range(len(t)-1):
-    if t[i] >= -1 and t[i+1] <= 20:
-        ax_r.plot(t[i:i+2], car_curve[i:i+2], color='#ff6b6b', linewidth=3, alpha=0.8)
+t_before = np.linspace(-6, 0, 30)
+t_after  = np.linspace(0, 22, 80)
+car_after = -13.89 * (1 - np.exp(-0.18 * t_after))
 
-ax_r.axvline(0, color=SOFT, linewidth=1.5, linestyle='--', alpha=0.6)
+# 発表前（水平）
+ax_r.plot(t_before, np.zeros_like(t_before), color=SOFT, linewidth=2.5, alpha=0.7)
+# 発表後（下落）
+ax_r.plot(t_after, car_after, color='#ff6b6b', linewidth=3)
+ax_r.fill_between(t_after, 0, car_after, color='#ff6b6b', alpha=0.15)
+
+# ベースライン
 ax_r.axhline(0, color=SOFT, linewidth=1, alpha=0.3)
 
-# イベント期間
-ax_r.fill_between([-1, 20], -20, 20, color=GREEN, alpha=0.05)
-ax_r.text(9.5, -15, 'Event Window\n[-1, +20]', color=GREEN, fontsize=11, ha='center', va='center', fontweight='bold')
+# イベントマーカー
+ax_r.axvline(0, color=WHITE, linewidth=2, linestyle='--', alpha=0.65)
+ax_r.scatter([0], [0], s=120, color=WHITE, zorder=5)
+ax_r.text(0, 2, '決算発表  t=0', color=WHITE, fontsize=20,
+          ha='center', va='bottom', fontweight='bold')
 
-# マーカー
-ax_r.plot(0, 0, 'o', color=BLUE_L, markersize=8)
-ax_r.text(0, 2, 'イベント\nt=0', color=BLUE_L, fontsize=10, ha='center', va='bottom', fontweight='bold')
+# CAR値アノテーション
+ax_r.annotate('', xy=(21, car_after[-1]), xytext=(21, 0),
+              arrowprops=dict(arrowstyle='<->', color='#ff6b6b', lw=2))
+ax_r.text(22.5, car_after[-1]/2, 'CAR\n−13.89%', color='#ff6b6b', fontsize=24,
+          ha='left', va='center', fontweight='bold')
 
-ax_r.text(0, -20, 'ENEOS 2025/3期通期: CAR = -13.89% (r=+0.694)', color='#ff6b6b', fontsize=9, ha='center', va='top', style='italic')
+# 銘柄
+ax_r.text(-4, 8, 'ENEOS 2025/3期', color=SOFT, fontsize=20,
+          ha='center', va='center')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '13_car', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

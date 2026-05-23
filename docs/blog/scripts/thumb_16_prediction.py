@@ -34,33 +34,40 @@ ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, l
 ax_l.text(0.07, 0.48, '予測乖離で', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.text(0.07, 0.37, '個別ショック検出', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
+ax_r = fig.add_axes([0.46, 0.08, 0.50, 0.84], facecolor=BG)
 ax_r.set_xlim(0, 100)
-ax_r.set_ylim(-30, 30)
+ax_r.set_ylim(0, 100)
 ax_r.axis('off')
 
-# 予測精度チャート
-actual = 20
-predicted = 20
-shock = -40
+# 左カード: 予測失敗
+ax_r.add_patch(patches.FancyBboxPatch((3, 28), 43, 60,
+                                      boxstyle='round,pad=1.5',
+                                      facecolor=MUTED_BG, edgecolor='#ff6b6b', linewidth=2))
+ax_r.text(24.5, 80, '予測', color='#ff6b6b', fontsize=24,
+          ha='center', va='center', fontweight='bold')
+ax_r.text(24.5, 67, 'r = −0.03', color='#ff6b6b', fontsize=24,
+          ha='center', va='center', fontweight='bold')
+ax_r.text(24.5, 52, 'ベースライン', color=SOFT, fontsize=20, ha='center', va='center')
+ax_r.text(24.5, 42, '以下', color=SOFT, fontsize=20, ha='center', va='center')
+ax_r.text(24.5, 32, '×  失敗', color='#ff6b6b', fontsize=24,
+          ha='center', va='center', fontweight='bold')
 
-# 予測線
-ax_r.barh(20, predicted, height=6, color=BLUE_L, alpha=0.6, label='予測 r=-0.03')
-# 実績線
-ax_r.barh(8, actual, height=6, color=GREEN, alpha=0.6, label='実績')
-# ショック線
-ax_r.barh(-4, shock, height=6, color='#ff6b6b', alpha=0.7, label='個別ショック')
+# 右カード: 発見器として活用
+ax_r.add_patch(patches.FancyBboxPatch((54, 28), 43, 60,
+                                      boxstyle='round,pad=1.5',
+                                      facecolor=MUTED_BG, edgecolor=GREEN, linewidth=2))
+ax_r.text(75.5, 80, '乖離', color=GREEN, fontsize=24,
+          ha='center', va='center', fontweight='bold')
+ax_r.text(75.5, 67, '= ショック', color=GREEN, fontsize=24,
+          ha='center', va='center', fontweight='bold')
+ax_r.text(75.5, 52, '個別ショック', color=WHITE, fontsize=20, ha='center', va='center')
+ax_r.text(75.5, 42, '検出器', color=WHITE, fontsize=20, ha='center', va='center')
+ax_r.text(75.5, 32, '✓  実用化', color=GREEN, fontsize=24,
+          ha='center', va='center', fontweight='bold')
 
-# ラベル
-ax_r.text(predicted + 1, 20, f'r=-0.03', color=BLUE_L, fontsize=11, ha='left', va='center', fontweight='bold')
-ax_r.text(actual + 1, 8, f'+20% (ベンチマーク)', color=GREEN, fontsize=11, ha='left', va='center', fontweight='bold')
-ax_r.text(shock - 1, -4, f'{shock}% 検出', color='#ff6b6b', fontsize=11, ha='right', va='center', fontweight='bold')
-
-ax_r.axvline(0, color=SOFT, linewidth=1, linestyle='-', alpha=0.5)
-
-# 説明
-ax_r.text(50, -15, '全16連載完結', color=GREEN, fontsize=13, ha='center', va='top', fontweight='bold')
-ax_r.text(50, -22, 'AIは「予測」でなく「発見」のツール', color=WHITE, fontsize=11, ha='center', va='top', fontweight='bold')
+# フッター
+ax_r.text(50, 15, 'AIは「予測」でなく「発見」のツール', color=WHITE, fontsize=20,
+          ha='center', va='center', fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '16_prediction', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
