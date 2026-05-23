@@ -34,35 +34,40 @@ ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, l
 ax_l.text(0.07, 0.48, '3ソース統合で', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.text(0.07, 0.37, '信頼度向上', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
+ax_r = fig.add_axes([0.46, 0.08, 0.50, 0.84], facecolor=BG)
 ax_r.set_xlim(0, 100)
 ax_r.set_ylim(0, 100)
 ax_r.axis('off')
 
-# 三角形（3ソース）
 import math
-cx, cy = 50, 60
-radius = 25
+cx, cy, radius = 50, 53, 32
 
-# 頂点
-p1 = (cx, cy + radius)  # 実績
-p2 = (cx - radius * math.cos(math.pi/6), cy - radius * math.sin(math.pi/6))  # ガイダンス
-p3 = (cx + radius * math.cos(math.pi/6), cy - radius * math.sin(math.pi/6))  # コンセンサス
+p1 = (cx, cy + radius)
+p2 = (cx - radius * math.cos(math.pi/6), cy - radius * math.sin(math.pi/6))
+p3 = (cx + radius * math.cos(math.pi/6), cy - radius * math.sin(math.pi/6))
 
-# 三角形
-triangle = patches.Polygon([p1, p2, p3], facecolor=BLUE_L, edgecolor=GREEN, linewidth=3, alpha=0.2)
+# 三角形（塗り＋枠線）
+triangle = patches.Polygon([p1, p2, p3], facecolor=BLUE_L, edgecolor='none', alpha=0.10)
 ax_r.add_patch(triangle)
+for (ax_, bx_), color in [((p1, p2), BLUE_L), ((p2, p3), SOFT), ((p3, p1), GREEN)]:
+    ax_r.plot([ax_[0], bx_[0]], [ax_[1], bx_[1]], color=color, linewidth=2.5, alpha=0.7)
 
-# ラベル
-ax_r.text(p1[0], p1[1] + 5, '実績\n(EDINET)', color=GREEN, fontsize=12, ha='center', va='bottom', fontweight='bold')
-ax_r.text(p2[0] - 8, p2[1], 'ガイダンス\n(決算短信)', color=BLUE_L, fontsize=11, ha='right', va='center', fontweight='bold')
-ax_r.text(p3[0] + 8, p3[1], 'コンセンサス\n(アナリスト)', color='#22d4a8', fontsize=11, ha='left', va='center', fontweight='bold')
+# 頂点ラベル
+ax_r.text(p1[0], p1[1]+5, '実績', color=GREEN, fontsize=24,
+          ha='center', va='bottom', fontweight='bold')
+ax_r.text(p1[0], p1[1]-4, 'EDINET', color=GREEN, fontsize=18, ha='center', va='top')
+
+ax_r.text(p2[0]-4, p2[1]+2, 'ガイダンス', color=BLUE_L, fontsize=24,
+          ha='right', va='center', fontweight='bold')
+ax_r.text(p2[0]-4, p2[1]-8, '決算短信', color=BLUE_L, fontsize=18, ha='right', va='center')
+
+ax_r.text(p3[0]+4, p3[1]+2, 'コンセンサス', color='#22d4a8', fontsize=24,
+          ha='left', va='center', fontweight='bold')
+ax_r.text(p3[0]+4, p3[1]-8, 'アナリスト', color='#22d4a8', fontsize=18, ha='left', va='center')
 
 # 中央
-ax_r.text(cx, cy, '検証点', color=WHITE, fontsize=13, ha='center', va='center', fontweight='bold')
-
-ax_r.text(50, 20, '211銘柄で4象限分類', color=SOFT, fontsize=12, ha='center', va='center', style='italic')
-ax_r.text(50, 10, '総合商社8社 クロス分析完了', color=SOFT, fontsize=11, ha='center', va='center', style='italic')
+ax_r.scatter([cx], [cy], s=180, color=WHITE, zorder=5, edgecolors=BLUE_L, linewidths=2)
+ax_r.text(cx, cy-9, '検証点', color=WHITE, fontsize=22, ha='center', va='center', fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '11_triangulation', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

@@ -229,8 +229,8 @@ def make_garp_map(df: pd.DataFrame, out_path: Path):
 
     ax.set_xlim(0, 3.0)
     ax.set_ylim(-5, 60)
-    ax.set_xlabel("PEG（予）  ← 割安   割高 →", fontsize=16.8, color=C_TEXT_SUB)
-    ax.set_ylabel("ROE（%）  ← 低収益   高収益 →", fontsize=16.8, color=C_TEXT_SUB)
+    ax.set_xlabel("PEG（予）  ← 割安   割高 →", fontsize=20.4, color=C_TEXT_SUB)
+    ax.set_ylabel("ROE（%）  ← 低収益   高収益 →", fontsize=20.4, color=C_TEXT_SUB)
     ax.set_title("PEG × ROE GARP マップ — 主要銘柄の位置",
                  fontsize=21, color=C_TEXT, fontweight="bold", pad=18)
     ax.grid(True, color=C_GRID, linewidth=0.8)
@@ -370,8 +370,8 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
 
     ax.set_xlim(0, 1.5)
     ax.set_ylim(0, 20)
-    ax.set_xlabel("PEG（予）", fontsize=15.4, color=C_TEXT_SUB)
-    ax.set_ylabel("ROE（%）", fontsize=15.4, color=C_TEXT_SUB)
+    ax.set_xlabel("PEG（予）", fontsize=19.6, color=C_TEXT_SUB)
+    ax.set_ylabel("ROE（%）", fontsize=19.6, color=C_TEXT_SUB)
     ax.set_title("石油元売3社のGARP位置", fontsize=18.2, color=C_TEXT, fontweight="bold", pad=6)
     ax.grid(True, color=C_GRID, linewidth=0.8)
     ax.spines["top"].set_visible(False)

@@ -89,23 +89,18 @@ ax_r.plot([1, 1], [0, 2], color=SOFT, linewidth=0.8, alpha=0.3)
 ax_r.plot([0, 2], [1, 1], color=SOFT, linewidth=0.8, alpha=0.3)
 
 # ---- GARP ゾーンのラベル ----
-ax_r.text(0.50, 1.78, '★', color=GREEN,
+ax_r.text(0.50, 1.72, '★', color=GREEN,
           fontsize=32, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.55, 'GARP', color=GREEN,
-          fontsize=28, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.35, '理想ゾーン', color=WHITE,
-          fontsize=20, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.15, 'PEG 低 × ROE 高', color=GREEN,
-          fontsize=15, ha='center', va='center', alpha=0.95)
+ax_r.text(0.50, 1.48, 'GARP', color=GREEN,
+          fontsize=32, ha='center', va='center', fontweight='bold')
+ax_r.text(0.50, 1.24, '理想ゾーン', color=WHITE,
+          fontsize=24, ha='center', va='center', fontweight='bold')
 
 # ---- 他象限ラベル ----
 other_zones = [
-    (1.50, 1.55, '過熱グロース',    MUTED_TX, 20),
-    (1.50, 1.38, 'PEG 高 × ROE 高', MUTED_TX, 15),
-    (0.50, 0.55, 'バリュートラップ', MUTED_TX, 20),
-    (0.50, 0.38, 'PEG 低 × ROE 低', MUTED_TX, 15),
-    (1.50, 0.55, '投資不適格',      MUTED_TX, 20),
-    (1.50, 0.38, 'PEG 高 × ROE 低', MUTED_TX, 15),
+    (1.50, 1.55, '過熱グロース',    MUTED_TX, 24),
+    (0.50, 0.55, 'バリュートラップ', MUTED_TX, 24),
+    (1.50, 0.55, '投資不適格',      MUTED_TX, 24),
 ]
 for (x, y, txt, color, fs) in other_zones:
     ax_r.text(x, y, txt, color=color, fontsize=fs,
@@ -121,7 +116,7 @@ ax_r.text(0.50, -0.14, '割安', color=SOFT, fontsize=19,
 ax_r.text(1.50, -0.14, '割高', color=SOFT, fontsize=19,
           ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.3', facecolor=BG, edgecolor='none'))
-ax_r.text(1.00, -0.28, 'PEG 比率', color=SOFT, fontsize=20,
+ax_r.text(1.00, -0.36, 'PEG 比率', color=SOFT, fontsize=24,
           ha='center', va='center', alpha=0.9, fontweight='bold')
 
 # Y軸（ROE）
@@ -133,7 +128,7 @@ ax_r.text(-0.15, 0.50, '低', color=SOFT, fontsize=19,
 ax_r.text(-0.15, 1.50, '高', color=SOFT, fontsize=19,
           ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
-ax_r.text(-0.15, 2.18, 'ROE', color=SOFT, fontsize=20,
+ax_r.text(-0.15, 2.24, 'ROE', color=SOFT, fontsize=24,
           ha='center', va='center', alpha=0.9, fontweight='bold')
 
 # 出力

@@ -24,7 +24,7 @@ DPI = 100
 fig = plt.figure(figsize=(12.80, 6.70), dpi=DPI, facecolor=BG)
 
 # ===== 左エリア（タイトル）画面幅の 44% =====
-ax_l = fig.add_axes([0.0, 0.0, 0.40, 1.0], facecolor=BG)
+ax_l = fig.add_axes([0.0, 0.0, 0.44, 1.0], facecolor=BG)
 ax_l.axis('off')
 ax_l.set_xlim(0, 1)
 ax_l.set_ylim(0, 1)
@@ -39,13 +39,13 @@ ax_l.text(0.110, 0.902, '連載 02', color=BLUE_L,
 # タイトル
 ax_l.text(0.07, 0.69, 'マルチ', color=WHITE,
           fontsize=72, va='center', ha='left', fontweight='bold')
-ax_l.text(0.65, 0.69, 'ファクター', color=WHITE,
+ax_l.text(0.60, 0.69, 'ファクタ', color=WHITE,
           fontsize=36, va='center', ha='left', fontweight='bold')
 
 # 区切り線
 ax_l.set_xlim(0, 1)
 ax_l.set_ylim(0, 1)
-ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, linewidth=0, alpha=0.6))
+ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.90, 0.004, facecolor=BLUE_L, linewidth=0, alpha=0.6))
 
 # キャッチコピー
 ax_l.text(0.07, 0.48, '複数指標を', color=BLUE_L,
@@ -64,7 +64,7 @@ angles = np.linspace(0, 2 * np.pi, N, endpoint=False).tolist()
 angles_closed = angles + [angles[0]]
 scores_closed = scores + [scores[0]]
 
-ax_r = fig.add_axes([0.50, 0.05, 0.48, 0.90], projection='polar', facecolor=BG)
+ax_r = fig.add_axes([0.53, 0.19, 0.36, 0.60], projection='polar', facecolor=BG)
 
 # ROE 成長を頂点（12時）→時計回り
 ax_r.set_theta_offset(np.pi / 2)
@@ -89,26 +89,26 @@ for angle, score in zip(angles, scores):
     # スコア数値（点の外側）
     offset = 14
     ax_r.text(angle, score + offset, str(score),
-              color=GREEN, fontsize=13, fontweight='bold',
+              color=GREEN, fontsize=18, fontweight='bold',
               ha='center', va='center')
 
 # 因子ラベル（外周）
 ax_r.set_xticks(angles)
-ax_r.set_xticklabels(factors, color=WHITE, fontsize=14, fontweight='bold')
-ax_r.tick_params(axis='x', pad=16)
+ax_r.set_xticklabels(factors, color=WHITE, fontsize=24, fontweight='bold')
+ax_r.tick_params(axis='x', pad=17)
 
 # 内側の数値ラベルを非表示
 ax_r.set_yticks([])
-ax_r.set_ylim(0, 115)
+ax_r.set_ylim(0, 125)
 
 # 外枠・背景を透明に
 ax_r.spines['polar'].set_visible(False)
 ax_r.set_facecolor(BG)
 
 # 総合スコアを中心に表示
-ax_r.text(0, 0, '71', color=WHITE, fontsize=38, fontweight='bold',
+ax_r.text(0, 0, '71', color=WHITE, fontsize=32, fontweight='bold',
           ha='center', va='center')
-ax_r.text(0, -22, 'Total Score', color=SOFT, fontsize=12,
+ax_r.text(0, -24, 'Total Score', color=SOFT, fontsize=15,
           ha='center', va='center')
 
 # 出力

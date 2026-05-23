@@ -34,46 +34,54 @@ ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, l
 ax_l.text(0.07, 0.48, '10次元特徴で', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.text(0.07, 0.37, 'ベンチマーク発見', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
-ax_r.set_xlim(-3, 3)
-ax_r.set_ylim(-3, 3)
+ax_r = fig.add_axes([0.46, 0.08, 0.50, 0.84], facecolor=BG)
+ax_r.set_xlim(-3.5, 3.5)
+ax_r.set_ylim(-3.5, 3.5)
 ax_r.axis('off')
 
-# 散布図（ベクトル空間）
 import numpy as np
 np.random.seed(42)
 
-# 丸紅と類似企業（商社クラスタ）
-marubeni = [0.5, 0.3]
-colors_point = [GREEN, GREEN, GREEN, GREEN, BLUE_L, BLUE_L, '#c55e22']
-labels = ['丸紅', '三井物産', '三菱商事', '住友商事', '豊田通商', '日本郵政', '雪国まいたけ']
-positions = [
-    [0.5, 0.3],
-    [0.7, 0.2],
-    [0.4, 0.5],
-    [0.8, 0.4],
-    [1.8, 1.5],
-    [2.5, 2.0],
-    [-2.0, -2.0],
-]
+# 類似企業クラスタ（商社）
+cluster = [[0.5, 0.3], [0.75, 0.1], [0.35, 0.55], [0.9, 0.45], [0.2, 0.2]]
+for pos in cluster:
+    ax_r.plot(pos[0], pos[1], 'o', color=GREEN, markersize=11, alpha=0.55)
 
-for pos, color, label in zip(positions, colors_point, labels):
-    if label == '丸紅':
-        ax_r.plot(pos[0], pos[1], 'o', color=GREEN, markersize=12, markeredgecolor='white', markeredgewidth=2)
-    else:
-        ax_r.plot(pos[0], pos[1], 'o', color=color, markersize=8, alpha=0.6)
-
-    # ラベル
-    offset = 0.25
-    ax_r.text(pos[0] + offset, pos[1] + offset, label, color=color if label != '丸紅' else WHITE,
-              fontsize=9, ha='left', va='bottom', fontweight='bold')
-
-# 距離円
-circle = patches.Circle((marubeni[0], marubeni[1]), 1.0, fill=False, edgecolor=GREEN, linewidth=2, linestyle='--', alpha=0.5)
+# 類似範囲の円
+circle = patches.Circle((0.54, 0.32), 0.75, fill=False,
+                         edgecolor=GREEN, linewidth=2, linestyle='--', alpha=0.6)
 ax_r.add_patch(circle)
+ax_r.text(0.54, 1.15, '類似企業群', color=GREEN, fontsize=20,
+          ha='center', va='bottom')
 
-ax_r.text(0, -2.5, '丸紅 2026/3期 類似Top-15 平均 +2.39% (勝率60%)', color=GREEN, fontsize=10, ha='center', va='top', fontweight='bold', style='italic')
-ax_r.text(0, -2.8, 'vs 丸紅自身 -9.39% で個別ショック発見', color='#ff6b6b', fontsize=10, ha='center', va='top', fontweight='bold', style='italic')
+# 丸紅（クエリ）
+ax_r.plot(0.5, 0.3, 'o', color=WHITE, markersize=18,
+          markeredgecolor=GREEN, markeredgewidth=3, zorder=5)
+ax_r.text(0.5, 0.75, '丸紅', color=WHITE, fontsize=24,
+          ha='center', va='bottom', fontweight='bold')
+
+# 外れ点（実績）
+ax_r.plot(-2.2, -2.0, 'o', color='#ff6b6b', markersize=14, alpha=0.85, zorder=5)
+ax_r.text(-2.2, -1.5, '丸紅実績', color='#ff6b6b', fontsize=20,
+          ha='center', va='bottom', fontweight='bold')
+
+# 結果ボックス
+ax_r.add_patch(patches.FancyBboxPatch((-3.3, -3.4), 6.6, 0.95,
+                                      boxstyle='round,pad=0.1',
+                                      facecolor=MUTED_BG, edgecolor=SOFT, linewidth=1.5))
+ax_r.text(-0.8, -2.98, '類似平均', color=GREEN, fontsize=24,
+          ha='right', va='center', fontweight='bold')
+ax_r.text(0.2, -2.98, '+2.39%', color=GREEN, fontsize=24,
+          ha='left', va='center', fontweight='bold')
+ax_r.add_patch(patches.FancyBboxPatch((-3.3, -3.42), 6.6, 0.95,
+                                      boxstyle='round,pad=0.1',
+                                      facecolor=MUTED_BG, edgecolor=SOFT, linewidth=1.5,
+                                      transform=ax_r.transData))
+# 2行目
+ax_r.text(-0.8, -3.25, '自身実績', color='#ff6b6b', fontsize=24,
+          ha='right', va='center', fontweight='bold')
+ax_r.text(0.2, -3.25, '−9.39%', color='#ff6b6b', fontsize=24,
+          ha='left', va='center', fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '15_similarity', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

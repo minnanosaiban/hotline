@@ -27,7 +27,8 @@ ax_l.set_ylim(0, 1)
 
 ax_l.add_patch(patches.Rectangle((0.07, 0.875), 0.018, 0.055, facecolor=BLUE_L, linewidth=0))
 ax_l.text(0.110, 0.902, '連載 08', color=BLUE_L, fontsize=24, va='center', ha='left', fontweight='bold')
-ax_l.text(0.07, 0.69, 'JSONスキーマ', color=WHITE, fontsize=72, va='center', ha='left', fontweight='bold')
+ax_l.text(0.07, 0.69, 'JSON', color=WHITE, fontsize=72, va='center', ha='left', fontweight='bold')
+ax_l.text(0.50, 0.69, 'スキーマ', color=SOFT, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.set_xlim(0, 1)
 ax_l.set_ylim(0, 1)
 ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, linewidth=0, alpha=0.6))
@@ -41,24 +42,18 @@ ax_r.axis('off')
 
 # 5つの原則
 principles = [
-    (50, 85, '1. 単一責任', GREEN, 14),
-    (50, 75, '2. 拡張性', BLUE_L, 14),
-    (50, 65, '3. 検証可能性', '#22d4a8', 14),
-    (50, 55, '4. 遡及性', '#d4a822', 14),
-    (50, 45, '5. 再利用性', '#a822d4', 14),
+    (84, '1. 単一責任',  GREEN),
+    (71, '2. 拡張性',    BLUE_L),
+    (58, '3. 検証可能性','#22d4a8'),
+    (45, '4. 遡及性',    '#d4a822'),
+    (32, '5. 再利用性',  '#a822d4'),
 ]
 
-for x, y, label, color, size in principles:
-    ax_r.add_patch(patches.FancyBboxPatch((x-20, y-3.5), 40, 7,
-                                          boxstyle='round,pad=0.3',
+for y, label, color in principles:
+    ax_r.add_patch(patches.FancyBboxPatch((6, y-6), 88, 12,
+                                          boxstyle='round,pad=0.5',
                                           facecolor=MUTED_BG, edgecolor=color, linewidth=2))
-    ax_r.text(x, y, label, color=color, fontsize=size, ha='center', va='center', fontweight='bold')
-
-# 統計情報
-ax_r.text(50, 30, 'kessan_mapping', color=SOFT, fontsize=13, ha='center', va='center', fontweight='bold')
-ax_r.text(50, 24, '263ルール', color=GREEN, fontsize=12, ha='center', va='center')
-ax_r.text(50, 18, 'performance 70% 集中', color=WHITE, fontsize=11, ha='center', va='center')
-ax_r.text(50, 10, '1 json_path : N xbrl_tag', color=SOFT, fontsize=10, ha='center', va='center', style='italic')
+    ax_r.text(50, y, label, color=color, fontsize=24, ha='center', va='center', fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '08_schema', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

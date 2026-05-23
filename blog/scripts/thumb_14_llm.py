@@ -39,40 +39,36 @@ ax_r.set_xlim(0, 100)
 ax_r.set_ylim(0, 100)
 ax_r.axis('off')
 
-# パイプラインフロー
-stages = [
-    (15, 75, 'JSON', BLUE_L, 14),
-    (30, 75, '→', WHITE, 14),
-    (40, 75, 'プロンプト', BLUE_L, 14),
-    (60, 75, '→', WHITE, 14),
-    (70, 75, 'LLM', GREEN, 14),
-    (85, 75, '→', WHITE, 14),
+# 3ボックスフロー
+boxes = [
+    (16, 68, '決算\nJSON', BLUE_L),
+    (50, 68, 'LLM\n(Claude)', GREEN),
+    (84, 68, '1文\n要約', '#22d4a8'),
 ]
 
-for x, y, label, color, size in stages:
-    ax_r.text(x, y, label, color=color, fontsize=size, ha='center', va='center', fontweight='bold')
+for x, y, label, color in boxes:
+    ax_r.add_patch(patches.FancyBboxPatch((x-13, y-13), 26, 26,
+                                          boxstyle='round,pad=1',
+                                          facecolor=color, edgecolor='none', alpha=0.18))
+    ax_r.add_patch(patches.FancyBboxPatch((x-13, y-13), 26, 26,
+                                          boxstyle='round,pad=1',
+                                          facecolor='none', edgecolor=color, alpha=0.75, linewidth=2))
+    ax_r.text(x, y, label, color=WHITE, fontsize=24,
+              ha='center', va='center', fontweight='bold')
 
-# 4要素
-elements = [
-    (25, 55, '数値特徴', BLUE_L),
-    (50, 55, 'CAR値', GREEN),
-    (75, 55, 'トーン', '#22d4a8'),
-]
+# 矢印
+for x0, x1 in [(29, 37), (63, 71)]:
+    ax_r.annotate('', xy=(x1, 68), xytext=(x0, 68),
+                  arrowprops=dict(arrowstyle='->', color=SOFT, lw=2.5, alpha=0.7))
 
-for x, y, label, color in elements:
-    ax_r.add_patch(patches.FancyBboxPatch((x-8, y-4), 16, 8,
-                                          boxstyle='round,pad=0.3',
-                                          facecolor=MUTED_BG, edgecolor=color, linewidth=1.5))
-    ax_r.text(x, y, label, color=color, fontsize=12, ha='center', va='center', fontweight='bold')
-
-ax_r.text(50, 42, '出力: 1文要約', color=WHITE, fontsize=13, ha='center', va='center', fontweight='bold')
-
-# 実績例
-ax_r.text(50, 30, '丸紅: CAR +8.94% / トーン好気', color=GREEN, fontsize=11, ha='center', va='center', style='italic')
-ax_r.text(50, 22, '双日: CAR +0.92% / トーン好気', color=BLUE_L, fontsize=11, ha='center', va='center', style='italic')
-ax_r.text(50, 14, '一致率: 超過リターン方向と要約トーン', color=SOFT, fontsize=10, ha='center', va='center', style='italic')
-
-ax_r.text(50, 5, 'Haiku 1銘柄 ¥0.4', color=SOFT, fontsize=9, ha='center', va='center', style='italic')
+# 出力例ボックス
+ax_r.add_patch(patches.FancyBboxPatch((4, 18), 92, 28,
+                                      boxstyle='round,pad=1',
+                                      facecolor=MUTED_BG, edgecolor=SOFT, alpha=0.5, linewidth=1.5))
+ax_r.text(50, 38, '丸紅: 増収増益・上方修正', color=GREEN, fontsize=20,
+          ha='center', va='center', fontweight='bold')
+ax_r.text(50, 28, '→ CAR +8.94% と方向一致', color=WHITE, fontsize=20,
+          ha='center', va='center')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '14_llm', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

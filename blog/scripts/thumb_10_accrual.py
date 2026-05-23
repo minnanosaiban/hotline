@@ -34,29 +34,42 @@ ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, l
 ax_l.text(0.07, 0.48, '利益の', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.text(0.07, 0.37, '現金化率を検証', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
+ax_r = fig.add_axes([0.46, 0.12, 0.50, 0.78], facecolor=BG)
 ax_r.set_xlim(0, 100)
 ax_r.set_ylim(0, 120)
 ax_r.axis('off')
 
-# 利益 vs キャッシュフロー
-categories = ['純利益', 'CF', 'アクルーアル']
-y_base = [100, 39, 61]
-colors_bar = [GREEN, BLUE_L, '#c55e22']
+# ベースライン
+ax_r.plot([5, 95], [0, 0], color=SOFT, linewidth=1.2, alpha=0.4)
 
-for i, (cat, val, color) in enumerate(zip(categories, y_base, colors_bar)):
-    x_pos = 20 + i * 25
-    # バー
-    ax_r.add_patch(patches.Rectangle((x_pos-5, 0), 10, val, facecolor=color, edgecolor='none', alpha=0.7))
-    # ラベル
-    ax_r.text(x_pos, val + 3, f'{val}%', color=color, fontsize=13, ha='center', va='bottom', fontweight='bold')
-    ax_r.text(x_pos, -8, cat, color=WHITE, fontsize=12, ha='center', va='top', fontweight='bold')
+# 棒グラフ（色を落とす：alpha低め＋枠線で輪郭）
+bars = [
+    (18, 90,  '純利益',     BLUE_L, '100%'),
+    (50, 35,  'CF',        GREEN,  ' 39%'),
+    (82, 55,  'アクルーアル', SOFT,   ' 61%'),
+]
 
-ax_r.text(50, 60, 'ピーク利益の品質', color=SOFT, fontsize=13, ha='center', va='center', style='italic')
-ax_r.text(50, 50, 'CF 39% (CF-based)', color=WHITE, fontsize=11, ha='center', va='center')
+for x, h, cat, color, pct in bars:
+    ax_r.add_patch(patches.Rectangle(
+        (x-13, 0), 26, h,
+        facecolor=color, edgecolor=color,
+        alpha=0.18, linewidth=2
+    ))
+    ax_r.add_patch(patches.Rectangle(
+        (x-13, 0), 26, h,
+        facecolor='none', edgecolor=color,
+        alpha=0.7, linewidth=2
+    ))
+    ax_r.text(x, h + 5, pct, color=color, fontsize=24,
+              ha='center', va='bottom', fontweight='bold')
+    ax_r.text(x, -7, cat, color=WHITE, fontsize=20,
+              ha='center', va='top', fontweight='bold')
 
-ax_r.text(50, 30, '91サンプル実装完了', color=SOFT, fontsize=12, ha='center', va='center')
-ax_r.text(50, 20, 'ENEOS 2022: CF 2095億 / 純利 5371億', color='#c55e22', fontsize=10, ha='center', va='center', style='italic')
+# ENEOS の実数を下部に
+ax_r.text(50, 15, 'ENEOS 2022  純利5,371億', color=SOFT, fontsize=20,
+          ha='center', va='center')
+ax_r.text(50, 4,  'CF 2,095億（39%）', color=GREEN, fontsize=20,
+          ha='center', va='center', fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '10_accrual', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
