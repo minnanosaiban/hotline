@@ -140,14 +140,14 @@ def make_market_revision(df: pd.DataFrame) -> None:
     ax_l.bar(x + w/2, sdf["下方修正"], width=w, color=C_DOWN, label="下方修正")
     for i, row in sdf.iterrows():
         ax_l.text(i - w/2, row["上方修正"] + 4, f"{int(row['上方修正'])}",
-                  ha="center", va="bottom", fontsize=9, color=C_UP, fontweight="bold")
+                  ha="center", va="bottom", fontsize=12.6, color=C_UP, fontweight="bold")
         ax_l.text(i + w/2, row["下方修正"] + 4, f"{int(row['下方修正'])}",
-                  ha="center", va="bottom", fontsize=9, color=C_DOWN, fontweight="bold")
+                  ha="center", va="bottom", fontsize=12.6, color=C_DOWN, fontweight="bold")
     ax_l.set_xticks(x)
-    ax_l.set_xticklabels(sdf["市場"], fontsize=11, color=C_TEXT)
+    ax_l.set_xticklabels(sdf["市場"], fontsize=15.4, color=C_TEXT)
     ax_l.set_title("市場別 上方/下方修正 銘柄数",
-                   fontsize=12, fontweight="bold", color=C_TEXT, pad=10, loc="left")
-    ax_l.legend(loc="upper right", fontsize=9, frameon=False)
+                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_l.legend(loc="upper right", fontsize=12.6, frameon=False)
     ax_l.grid(axis="y", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
@@ -157,7 +157,7 @@ def make_market_revision(df: pd.DataFrame) -> None:
     ax_r.axis("off")
     ax_r.set_xlim(0, 1)
     ax_r.set_ylim(0, 1)
-    ax_r.text(0.0, 0.95, "修正比率（上方 ÷ 下方）", fontsize=12,
+    ax_r.text(0.0, 0.95, "修正比率（上方 ÷ 下方）", fontsize=16.8,
               fontweight="bold", color=C_TEXT, va="top")
 
     rows = [("全市場", total_u, total_d, total_ratio)] + [
@@ -169,17 +169,18 @@ def make_market_revision(df: pd.DataFrame) -> None:
         y = y0 - i * 0.16
         color = C_UP if ratio >= 1.5 else (C_DOWN if ratio < 0.8 else "#888888")
         label = "強気" if ratio >= 1.5 else "中立" if ratio >= 0.8 else "弱気"
-        ax_r.text(0.0, y, mk, fontsize=11, fontweight="bold", color=C_TEXT)
-        ax_r.text(0.32, y, f"{u}/{d}", fontsize=10, color=C_TEXT_SUB)
-        ax_r.text(0.62, y, f"{ratio:.2f}", fontsize=14, fontweight="bold", color=color)
-        ax_r.text(0.84, y, label, fontsize=10, color=color)
+        ax_r.text(0.0, y, mk, fontsize=15.4, fontweight="bold", color=C_TEXT)
+        ax_r.text(0.32, y, f"{u}/{d}", fontsize=14, color=C_TEXT_SUB)
+        ax_r.text(0.62, y, f"{ratio:.2f}", fontsize=19.6, fontweight="bold", color=color)
+        ax_r.text(0.84, y, label, fontsize=14, color=color)
 
     ax_r.text(0.0, 0.02,
               "判定: ≥1.5 強気 / 0.8〜1.5 中立 / <0.8 弱気",
-              fontsize=8.5, color=C_TEXT_SUB, va="bottom")
+              fontsize=11.9, color=C_TEXT_SUB, va="bottom")
 
     fig.suptitle(f"市場全体のリビジョン地合い  ―  対象 {len(df):,} 銘柄",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "01_market_revision.png")
     plt.close(fig)
 
@@ -220,28 +221,29 @@ def make_oil_refining_revision(df: pd.DataFrame) -> None:
         ax.text(rv + (0.15 if rv >= 0 else -0.15), i - h/2,
                 f"{rv:+.2f}%", va="center",
                 ha="left" if rv >= 0 else "right",
-                fontsize=10, fontweight="bold",
+                fontsize=14, fontweight="bold",
                 color=C_DOWN if rv < 0 else C_UP)
         ax.text(rs + (0.15 if rs >= 0 else -0.15), i + h/2,
                 f"{rs:+.2f}%", va="center",
                 ha="left" if rs >= 0 else "right",
-                fontsize=10, color="#3358aa")
+                fontsize=14, color="#3358aa")
 
     ax.axvline(0, color="#999999", linewidth=0.8)
     ax.set_yticks(y)
     ax.set_yticklabels([
         f"{lab}\n(PER予 {p:.1f})" for lab, p in zip(labels, per_vals)
-    ], fontsize=11, color=C_TEXT)
+    ], fontsize=15.4, color=C_TEXT)
     ax.invert_yaxis()
     ax.set_xlim(-5.5, 5.5)
     ax.set_xlabel("%（左:下方修正/下落, 右:上方修正/上昇）",
-                  fontsize=10, color=C_TEXT_SUB)
-    ax.legend(loc="lower right", fontsize=9.5, frameon=False)
+                  fontsize=14, color=C_TEXT_SUB)
+    ax.legend(loc="lower right", fontsize=13.3, frameon=False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title("石油元売 3 社  ―  業績予想修正率 vs 値上り率",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "02_oil_refining_revision.png")
     plt.close(fig)
 
@@ -266,17 +268,17 @@ def make_revision_strength(df: pd.DataFrame) -> None:
     for i, (_, r) in enumerate(top_up.iterrows()):
         ax_l.text(r["業績予想修正率(予)"] + 0.4, i,
                   f"+{r['業績予想修正率(予)']:.1f}%",
-                  va="center", fontsize=8.5, color=C_UP, fontweight="bold")
+                  va="center", fontsize=11.9, color=C_UP, fontweight="bold")
     ax_l.set_yticks(y)
     ax_l.set_yticklabels([f"{r['コード']} {r['銘柄名']}"
                           for _, r in top_up.iterrows()],
-                         fontsize=9, color=C_TEXT)
-    ax_l.set_xlabel("業績予想修正率(予)（%）", fontsize=9.5, color=C_TEXT_SUB)
+                         fontsize=12.6, color=C_TEXT)
+    ax_l.set_xlabel("業績予想修正率(予)（%）", fontsize=13.3, color=C_TEXT_SUB)
     ax_l.set_xlim(0, top_up["業績予想修正率(予)"].max() * 1.15)
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
-    ax_l.set_title("大幅上方修正 Top10", fontsize=12, fontweight="bold",
+    ax_l.set_title("大幅上方修正 Top10", fontsize=16.8, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
 
     # 下方
@@ -287,21 +289,22 @@ def make_revision_strength(df: pd.DataFrame) -> None:
         ax_r.text(r["業績予想修正率(予)"] - 0.4, i,
                   f"{r['業績予想修正率(予)']:.1f}%",
                   va="center", ha="right",
-                  fontsize=8.5, color=C_DOWN, fontweight="bold")
+                  fontsize=11.9, color=C_DOWN, fontweight="bold")
     ax_r.set_yticks(y)
     ax_r.set_yticklabels([f"{r['コード']} {r['銘柄名']}"
                           for _, r in top_dn.iterrows()],
-                         fontsize=9, color=C_TEXT)
-    ax_r.set_xlabel("業績予想修正率(予)（%）", fontsize=9.5, color=C_TEXT_SUB)
+                         fontsize=12.6, color=C_TEXT)
+    ax_r.set_xlabel("業績予想修正率(予)（%）", fontsize=13.3, color=C_TEXT_SUB)
     ax_r.set_xlim(top_dn["業績予想修正率(予)"].min() * 1.15, 0)
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
-    ax_r.set_title("大幅下方修正 Top10", fontsize=12, fontweight="bold",
+    ax_r.set_title("大幅下方修正 Top10", fontsize=16.8, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
 
     fig.suptitle("リビジョン強度ランキング  ―  時価総額 100 億円以上",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.00)
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=1.00)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "03_revision_strength.png")
     plt.close(fig)
 
@@ -351,7 +354,7 @@ def make_revision_vs_momentum(df: pd.DataFrame) -> None:
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=10.5, fontweight="bold", color="#1F4E8C",
+                    fontsize=14.7, fontweight="bold", color="#1F4E8C",
                     bbox=dict(facecolor="white", alpha=0.92,
                               edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
                     zorder=9)
@@ -366,27 +369,28 @@ def make_revision_vs_momentum(df: pd.DataFrame) -> None:
 
     # ゾーンラベル
     ax.text(20, -10, "★出遅れ買い候補★\n上方修正 × 株価未反応",
-            fontsize=10.5, fontweight="bold", color=C_DOWN, ha="center", va="center")
+            fontsize=14.7, fontweight="bold", color=C_DOWN, ha="center", va="center")
     ax.text(-20, 10, "逆行注意\n下方修正 × 株価上昇",
-            fontsize=10.5, color=C_WARN, ha="center", va="center")
-    ax.text(20, 10, "既反応 / 利食い検討", fontsize=9, color=C_TEXT_SUB,
+            fontsize=14.7, color=C_WARN, ha="center", va="center")
+    ax.text(20, 10, "既反応 / 利食い検討", fontsize=12.6, color=C_TEXT_SUB,
             ha="center", va="center")
-    ax.text(-20, -10, "底入れ待ち\n下方修正 × 株価下落", fontsize=9,
+    ax.text(-20, -10, "底入れ待ち\n下方修正 × 株価下落", fontsize=12.6,
             color=C_TEXT_SUB, ha="center", va="center")
 
     ax.set_xlim(-30, 30)
     ax.set_ylim(-15, 15)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 下方修正    上方修正 →",
-                  fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
     ax.set_ylabel("値上り率（%）  ← 株価下落    株価上昇 →",
-                  fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
     ax.set_title("リビジョン × 株価モメンタム  ―  4 象限の戦略マップ",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="lower right", fontsize=10, frameon=True,
+    ax.legend(loc="lower right", fontsize=14, frameon=True,
               facecolor="white", edgecolor="#dddddd")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "04_revision_vs_momentum.png")
     plt.close(fig)
 
@@ -429,7 +433,7 @@ def make_revision_vs_valuation(df: pd.DataFrame) -> None:
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, -10),
                     textcoords="offset points",
-                    fontsize=10.5, fontweight="bold", color="#1F4E8C",
+                    fontsize=14.7, fontweight="bold", color="#1F4E8C",
                     bbox=dict(facecolor="white", alpha=0.92,
                               edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
                     zorder=9)
@@ -440,24 +444,25 @@ def make_revision_vs_valuation(df: pd.DataFrame) -> None:
     ax.axvline(0, color="#999999", linewidth=0.8)
 
     ax.text(20, 7, "★修正済み割安★\n上方修正 × 低PER",
-            fontsize=11, fontweight="bold", color=C_VAL, ha="center", va="center")
-    ax.text(-20, 25, "下方修正 × 割高", fontsize=9, color=C_TEXT_SUB,
+            fontsize=15.4, fontweight="bold", color=C_VAL, ha="center", va="center")
+    ax.text(-20, 25, "下方修正 × 割高", fontsize=12.6, color=C_TEXT_SUB,
             ha="center", va="center")
-    ax.text(20, 25, "上方修正だが割高グロース", fontsize=9, color=C_TEXT_SUB,
+    ax.text(20, 25, "上方修正だが割高グロース", fontsize=12.6, color=C_TEXT_SUB,
             ha="center", va="center")
 
     ax.set_xlim(-30, 30)
     ax.set_ylim(0, 40)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 下方修正    上方修正 →",
-                  fontsize=11, color=C_TEXT)
-    ax.set_ylabel("PER（予）  ← 割安    割高 →", fontsize=11, color=C_TEXT)
+                  fontsize=15.4, color=C_TEXT)
+    ax.set_ylabel("PER（予）  ← 割安    割高 →", fontsize=15.4, color=C_TEXT)
     ax.set_title("リビジョン × バリュエーション  ―  修正済み割安銘柄の発掘",
-                 fontsize=13, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="upper right", fontsize=10, frameon=True,
+    ax.legend(loc="upper right", fontsize=14, frameon=True,
               facecolor="white", edgecolor="#dddddd")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "05_revision_vs_valuation.png")
     plt.close(fig)
 

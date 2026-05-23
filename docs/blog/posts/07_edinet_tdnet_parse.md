@@ -13,6 +13,8 @@ tags:
 
 # EDINET / TDnet から XBRL を取得してパースする ― 自前の決算データ基盤を作る
 
+![EDINET/TDnetパイプライン](img/07_pipeline/00_thumbnail.png){width="1280"}
+
 連載06 では ＥＮＥＯＳ の **2022 純利益 5,371 億円ピーク → 2025 純利 2,261 億円** という 7 年時系列を、有報 XBRL で可視化しました（2022 は ウクライナ侵攻による特殊年、2025 にも のれん減損などの一時要因 ― 詳細は連載06 の構造要因解説と連載01 の 4 基準試算を参照）。あの 7 行のデータは **「EDINET から XBRL ZIP を 1 つダウンロードして JSON にパースする」** という単純なステップから生まれます。
 
 本記事ではその実装を解説します。EDINET API の使い方、TDnet スクレイピング、ZIP の解凍、XBRL → JSON 変換のマッピング辞書、そして 8,907 個の決算短信 ZIP と 47 個の有報 ZIP からどう 1,368 + 91 個の JSON が生成されるのか ― **自前パイプラインの全体像** を実装ベースで示します。
@@ -40,7 +42,7 @@ data/yuho/E24050/E24050_2025-03-31.json   ← 1 ファイル
 
 ### パイプライン全体像 ― 2 経路 × 3 ステップ
 
-![パイプライン全体像](img/07_pipeline/01_pipeline_diagram.png){width="950"}
+![パイプライン全体像](img/07_pipeline/01_pipeline_diagram.png){width="1200"}
 
 XBRL は **2 つの経路** で入手し、いずれも **3 ステップで JSON 化** します。
 
@@ -89,7 +91,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 
 ### ストレージ統計 ― ZIP 9 GB、JSON 22 MB
 
-![ストレージ統計](img/07_pipeline/02_storage_stats.png){width="950"}
+![ストレージ統計](img/07_pipeline/02_storage_stats.png){width="1200"}
 
 | 種類 | ファイル数 | サイズ |
 |---|---|---|
@@ -106,7 +108,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 
 ### 決算短信のカバレッジ ― 3 月期と FY が中心
 
-![決算短信の決算期末月 + 種別分布](img/07_pipeline/03_kessan_distribution.png){width="950"}
+![決算短信の決算期末月 + 種別分布](img/07_pipeline/03_kessan_distribution.png){width="1200"}
 
 決算短信 JSON 1,368 ファイルの内訳：
 
@@ -124,7 +126,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 
 ### マッピング辞書の構成 ― 98 + 263 ルール
 
-![マッピング辞書の構成](img/07_pipeline/04_mapping_dict.png){width="950"}
+![マッピング辞書の構成](img/07_pipeline/04_mapping_dict.png){width="1200"}
 
 **yuho_mapping.csv（98 ルール）** の内訳：
 
@@ -153,7 +155,7 @@ IFRS SummaryOfBusinessResults,  jpcrp_cor:RevenuesSummaryOfBusinessResults,     
 
 ### ＥＮＥＯＳ 7 期の取得カタログ実例
 
-![ENEOS 7 期取得カタログ](img/07_pipeline/05_eneos_catalog.png){width="950"}
+![ENEOS 7 期取得カタログ](img/07_pipeline/05_eneos_catalog.png){width="1200"}
 
 連載06 で見せた ＥＮＥＯＳ 7 期データは、実は **3 つの doc_id** から構成されています。
 

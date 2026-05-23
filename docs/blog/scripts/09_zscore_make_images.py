@@ -134,9 +134,9 @@ def make_progress_distribution(prog: pd.DataFrame) -> None:
             ax.axvline(med, color="#202124", linestyle="-",
                        linewidth=1.2, alpha=0.9, label=f"中央 {med:.0f}%")
         ax.set_title(f"{q} 売上進捗率 (n={len(s)})",
-                     fontsize=10.5, color=C_NS, fontweight="bold")
+                     fontsize=14.7, color=C_NS, fontweight="bold")
         ax.set_xlim(0, 150)
-        ax.legend(loc="upper right", fontsize=8, frameon=False)
+        ax.legend(loc="upper right", fontsize=11.2, frameon=False)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
         ax.grid(axis="y", color=C_GRID, linewidth=0.5)
@@ -155,15 +155,16 @@ def make_progress_distribution(prog: pd.DataFrame) -> None:
                        linewidth=1.2, alpha=0.9, label=f"中央 {med:.0f}%")
             ax.axvline(0, color=C_WARN, linewidth=0.8, alpha=0.6)
         ax.set_title(f"{q} 営業利益進捗率 (n={len(s)})",
-                     fontsize=10.5, color=C_OP, fontweight="bold")
+                     fontsize=14.7, color=C_OP, fontweight="bold")
         ax.set_xlim(-30, 200)
-        ax.legend(loc="upper right", fontsize=8, frameon=False)
+        ax.legend(loc="upper right", fontsize=11.2, frameon=False)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
         ax.grid(axis="y", color=C_GRID, linewidth=0.5)
 
     fig.suptitle("四半期別 進捗率の分布  ―  売上は理論線付近、営業利益は左右に分散",
-                 fontsize=13, fontweight="bold", color=C_TEXT, y=1.00)
+                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=1.00)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "01_progress_distribution.png")
     plt.close(fig)
 
@@ -188,24 +189,25 @@ def make_early_warning(prog: pd.DataFrame) -> None:
         label = f"{r['z_prog_op_income']:.2f}  |  営利進捗 {r['prog_op_income']:.1f}%  /  売上進捗 {r['prog_net_sales']:.1f}%"
         ax.text(r["z_prog_op_income"] - 0.1, i, label,
                 va="center", ha="right",
-                fontsize=8.5, color=C_TEXT, fontweight="bold")
+                fontsize=11.9, color=C_TEXT, fontweight="bold")
 
     ax.set_yticks(y)
     ax.set_yticklabels([f"{r['code']} {r['name'][:14]} ({r['period_type']})"
-                        for _, r in top.iterrows()], fontsize=9.5)
+                        for _, r in top.iterrows()], fontsize=13.3)
     ax.axvline(-2.5, color=C_WARN, linestyle=":", linewidth=0.8,
                label="重大警報 (Z ≤ -2.5)")
     ax.axvline(-1.5, color="#e67e22", linestyle=":", linewidth=0.8,
                label="明確警報 (Z ≤ -1.5)")
     ax.axvline(0, color="#999999", linewidth=0.7)
     ax.set_xlim(top["z_prog_op_income"].min() * 1.05, 0.5)
-    ax.set_xlabel("営業利益進捗率 Z-score", fontsize=10, color=C_TEXT)
-    ax.legend(loc="lower left", fontsize=9, frameon=False)
+    ax.set_xlabel("営業利益進捗率 Z-score", fontsize=14, color=C_TEXT)
+    ax.legend(loc="lower left", fontsize=12.6, frameon=False)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     ax.set_title("🚨 早期警報 Top 15  ―  営業利益進捗率 Z-score 下位（下方修正リスク）",
-                 fontsize=12.5, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=17.5, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "02_early_warning_top15.png")
     plt.close(fig)
 
@@ -229,24 +231,25 @@ def make_surprise(prog: pd.DataFrame) -> None:
         label = f"{r['z_prog_op_income']:.2f}  |  営利進捗 {r['prog_op_income']:.1f}%  /  売上進捗 {r['prog_net_sales']:.1f}%"
         ax.text(r["z_prog_op_income"] + 0.1, i, label,
                 va="center", ha="left",
-                fontsize=8.5, color=C_TEXT, fontweight="bold")
+                fontsize=11.9, color=C_TEXT, fontweight="bold")
 
     ax.set_yticks(y)
     ax.set_yticklabels([f"{r['code']} {r['name'][:14]} ({r['period_type']})"
-                        for _, r in top.iterrows()], fontsize=9.5)
+                        for _, r in top.iterrows()], fontsize=13.3)
     ax.axvline(2.5, color=C_UP, linestyle=":", linewidth=0.8,
                label="重大上振れ (Z ≥ +2.5)")
     ax.axvline(1.5, color="#3498db", linestyle=":", linewidth=0.8,
                label="明確上振れ (Z ≥ +1.5)")
     ax.axvline(0, color="#999999", linewidth=0.7)
     ax.set_xlim(-0.5, top["z_prog_op_income"].max() * 1.45)
-    ax.set_xlabel("営業利益進捗率 Z-score", fontsize=10, color=C_TEXT)
-    ax.legend(loc="lower right", fontsize=9, frameon=False)
+    ax.set_xlabel("営業利益進捗率 Z-score", fontsize=14, color=C_TEXT)
+    ax.legend(loc="lower right", fontsize=12.6, frameon=False)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     ax.set_title("🚀 業績超過 Top 15  ―  営業利益進捗率 Z-score 上位（上方修正期待）",
-                 fontsize=12.5, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=17.5, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "03_surprise_top15.png")
     plt.close(fig)
 
@@ -290,19 +293,20 @@ def make_sales_vs_op_scatter(prog: pd.DataFrame) -> None:
 
         ax.set_xlim(0, max(sub["prog_net_sales"].max() * 1.05, 100))
         ax.set_ylim(-30, max(sub["prog_op_income"].max() * 1.05, 100))
-        ax.set_xlabel("売上進捗率（%）", fontsize=9.5, color=C_TEXT)
+        ax.set_xlabel("売上進捗率（%）", fontsize=13.3, color=C_TEXT)
         if ax is axes[0]:
-            ax.set_ylabel("営業利益進捗率（%）", fontsize=9.5, color=C_TEXT)
+            ax.set_ylabel("営業利益進捗率（%）", fontsize=13.3, color=C_TEXT)
         ax.set_title(f"{q}（想定 {e}%、n={len(sub)}）",
-                     fontsize=11, fontweight="bold", color=C_TEXT, pad=8)
+                     fontsize=15.4, fontweight="bold", color=C_TEXT, pad=8)
         ax.grid(color=C_GRID, linewidth=0.5)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
-        ax.legend(loc="lower right", fontsize=8, frameon=False)
+        ax.legend(loc="lower right", fontsize=11.2, frameon=False)
 
     fig.suptitle("売上 × 営業利益 進捗率の散布図  ―  45° 線下が "
                  "「売上順調なのに利益遅れ＝マージン悪化」ゾーン",
-                 fontsize=12.5, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=17.5, fontweight="bold", color=C_TEXT, y=0.99)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "04_sales_vs_op_scatter.png")
     plt.close(fig)
 
@@ -342,7 +346,7 @@ def make_quarterly_pattern(prog: pd.DataFrame) -> None:
                edgecolor="white", linewidth=0.8, label=metric)
         for xi, v in zip(x + (i - 1.5) * bw, sub["median"]):
             ax.text(xi, v + 1.5, f"{v:.0f}",
-                    ha="center", va="bottom", fontsize=8.5,
+                    ha="center", va="bottom", fontsize=11.9,
                     fontweight="bold", color=colors[metric])
 
     # 理論進捗率ライン
@@ -351,20 +355,21 @@ def make_quarterly_pattern(prog: pd.DataFrame) -> None:
         ax.hlines(e, xi - 0.5, xi + 0.5, color="#444444",
                   linestyle="--", linewidth=1.4)
         ax.text(xi + 0.45, e + 1.5, f"理論 {e}%",
-                fontsize=8.5, color="#444444", ha="right", va="bottom",
+                fontsize=11.9, color="#444444", ha="right", va="bottom",
                 style="italic")
 
     ax.set_xticks(x)
-    ax.set_xticklabels(quarters, fontsize=11, fontweight="bold")
-    ax.set_ylabel("進捗率の中央値（%）", fontsize=10.5, color=C_TEXT)
-    ax.legend(loc="upper left", fontsize=9.5, frameon=False)
+    ax.set_xticklabels(quarters, fontsize=15.4, fontweight="bold")
+    ax.set_ylabel("進捗率の中央値（%）", fontsize=14.7, color=C_TEXT)
+    ax.legend(loc="upper left", fontsize=13.3, frameon=False)
     ax.grid(axis="y", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "四半期別の進捗率パターン  ―  営業利益が売上より進捗率高い（上期偏重の利益構造）",
-        fontsize=12.5, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=17.5, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(OUT_DIR / "05_quarterly_pattern.png")
     plt.close(fig)
 
