@@ -181,7 +181,7 @@ markdown_extensions:
   - nl2br # スペース2つ付けなくても改行
   - sane_lists # リストの誤動作を防ぐ
   - toc: # tocを自動的に生成
-      toc_depth: 3 # tocの深さ（H3まで生成、表示制御はCSSで行う）
+      toc_depth: 4 # tocの深さ（表示制御はoverrides/main.htmlで行う）
   - pymdownx.emoji: # 絵文字を使う
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
