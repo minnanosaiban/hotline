@@ -31,8 +31,8 @@ ax_l.text(0.07, 0.69, '信用需給', color=WHITE, fontsize=72, va='center', ha=
 ax_l.set_xlim(0, 1)
 ax_l.set_ylim(0, 1)
 ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, linewidth=0, alpha=0.6))
-ax_l.text(0.07, 0.48, '信用倍率と', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
-ax_l.text(0.07, 0.37, '出来高で仕掛けを検出', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
+ax_l.text(0.07, 0.48, '信用倍率と出来高で', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
+ax_l.text(0.07, 0.37, '仕掛けを検出', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
 ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
 ax_r.set_xlim(-0.25, 2.05)
@@ -52,27 +52,24 @@ ax_r.add_patch(patches.Rectangle((0, 1), 1, 1, fill=False, edgecolor=GREEN, line
 ax_r.plot([1, 1], [0, 2], color=SOFT, linewidth=0.8, alpha=0.3)
 ax_r.plot([0, 2], [1, 1], color=SOFT, linewidth=0.8, alpha=0.3)
 
-ax_r.text(0.50, 1.78, '✓', color=GREEN, fontsize=40, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.55, '整理中', color=GREEN, fontsize=28, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.35, '需給好転', color=WHITE, fontsize=20, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.15, '信用倍率 高 × 出来高 正', color=GREEN, fontsize=15, ha='center', va='center', alpha=0.95)
+ax_r.text(0.50, 1.72, '✓', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
+ax_r.text(0.50, 1.48, '整理中', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
+ax_r.text(0.50, 1.24, '需給好転', color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
 
 other_zones = [
-    (1.50, 1.55, '踏み上げ罠', MUTED_BG, 20),
-    (1.50, 1.38, '信用倍率 高 × 出来高 負', '#a5b8cc', 12),
-    (0.50, 0.55, '弱気ムード', MUTED_BG, 20),
-    (0.50, 0.38, '信用倍率 低 × 出来高 負', '#a5b8cc', 12),
+    (1.50, 1.55, '踏み上げ罠', '#a5b8cc', 24),
+    (0.50, 0.55, '弱気ムード', '#a5b8cc', 24),
 ]
 for (x, y, txt, color, fs) in other_zones:
     ax_r.text(x, y, txt, color=color, fontsize=fs, ha='center', va='center')
 
 ax_r.annotate('', xy=(2.05, -0.14), xytext=(-0.05, -0.14),
               arrowprops=dict(arrowstyle='->', color=SOFT, lw=1.4, alpha=0.7))
-ax_r.text(1.00, -0.28, '信用倍率', color=SOFT, fontsize=20, ha='center', va='center', alpha=0.9, fontweight='bold')
+ax_r.text(1.00, -0.36, '信用倍率', color=SOFT, fontsize=24, ha='center', va='center', alpha=0.9, fontweight='bold')
 
 ax_r.annotate('', xy=(-0.15, 2.05), xytext=(-0.15, -0.05),
               arrowprops=dict(arrowstyle='->', color=SOFT, lw=1.4, alpha=0.7))
-ax_r.text(-0.15, 2.18, '出来高', color=SOFT, fontsize=20, ha='center', va='center', alpha=0.9, fontweight='bold')
+ax_r.text(-0.15, 2.24, '出来高', color=SOFT, fontsize=24, ha='center', va='center', alpha=0.9, fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '05_credit', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

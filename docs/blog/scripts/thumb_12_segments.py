@@ -34,39 +34,38 @@ ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, l
 ax_l.text(0.07, 0.48, '事業別成長で', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
 ax_l.text(0.07, 0.37, '転換期を検知', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
+ax_r = fig.add_axes([0.46, 0.08, 0.50, 0.84], facecolor=BG)
 ax_r.set_xlim(0, 100)
 ax_r.set_ylim(0, 100)
 ax_r.axis('off')
 
-# セグメント成長率
+# 横棒グラフ（輪郭スタイル）
+zero_x = 40
+scale  = 0.28
+
 segments = [
-    ('テストシステム', 50.9, '#ff6b6b'),
-    ('宇宙・防衛', 28.3, '#4ecdc4'),
-    ('ハンドラー', 12.5, '#45b7d1'),
-    ('プローバー', 8.2, '#96ceb4'),
-    ('部品', -5.3, '#dda15e'),
+    (76, 'テストシステム', +50.9, GREEN),
+    (52, '次世代事業',    +127,  BLUE_L),
+    (28, '金融',         -55,   '#ff6b6b'),
 ]
 
-y_base = 75
-for i, (name, growth, color) in enumerate(segments):
-    y_pos = y_base - i * 14
+for y, name, growth, color in segments:
+    w = growth * scale
+    x0 = zero_x if growth > 0 else zero_x + w
+    ax_r.add_patch(patches.Rectangle((x0, y-8), abs(w), 16,
+                                     facecolor=color, edgecolor='none', alpha=0.18))
+    ax_r.add_patch(patches.Rectangle((x0, y-8), abs(w), 16,
+                                     facecolor='none', edgecolor=color, alpha=0.75, linewidth=2))
+    ax_r.text(zero_x-2, y, name, color=WHITE, fontsize=20,
+              ha='right', va='center', fontweight='bold')
+    end_x = zero_x + w
+    sign = '+' if growth > 0 else ''
+    offset = 3 if growth > 0 else -3
+    ha = 'left' if growth > 0 else 'right'
+    ax_r.text(end_x + offset, y, f'{sign}{growth:.0f}%', color=color, fontsize=24,
+              ha=ha, va='center', fontweight='bold')
 
-    # バー（成長率表示）
-    bar_width = growth / 2  # Scale down
-    if bar_width > 0:
-        ax_r.add_patch(patches.Rectangle((0, y_pos - 3), bar_width, 6, facecolor=color, edgecolor='none'))
-    else:
-        ax_r.add_patch(patches.Rectangle((bar_width, y_pos - 3), -bar_width, 6, facecolor=color, edgecolor='none'))
-
-    # ラベル
-    ax_r.text(-2, y_pos, name, color=WHITE, fontsize=12, ha='right', va='center', fontweight='bold')
-    ax_r.text(bar_width + 2, y_pos, f'{growth:+.1f}%', color=color, fontsize=11, ha='left', va='center', fontweight='bold')
-
-ax_r.axvline(0, color=SOFT, linewidth=1, linestyle='-', alpha=0.5)
-
-ax_r.text(50, 15, '233銘柄 × 787セグメント', color=SOFT, fontsize=11, ha='center', va='center', style='italic')
-ax_r.text(50, 5, 'アドバンテスト テストシステム 1兆円/+50%', color='#ff6b6b', fontsize=10, ha='center', va='center', style='italic')
+ax_r.plot([zero_x, zero_x], [10, 92], color=SOFT, linewidth=1.5, alpha=0.5)
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '12_segments', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

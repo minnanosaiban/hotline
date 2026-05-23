@@ -380,9 +380,9 @@ def make_revision_vs_momentum(df: pd.DataFrame) -> None:
     ax.set_xlim(-30, 30)
     ax.set_ylim(-15, 15)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 下方修正    上方修正 →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=19.6, color=C_TEXT)
     ax.set_ylabel("値上り率（%）  ← 株価下落    株価上昇 →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=19.6, color=C_TEXT)
     ax.set_title("リビジョン × 株価モメンタム  ―  4 象限の戦略マップ",
                  fontsize=18.2, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
@@ -453,8 +453,8 @@ def make_revision_vs_valuation(df: pd.DataFrame) -> None:
     ax.set_xlim(-30, 30)
     ax.set_ylim(0, 40)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 下方修正    上方修正 →",
-                  fontsize=15.4, color=C_TEXT)
-    ax.set_ylabel("PER（予）  ← 割安    割高 →", fontsize=15.4, color=C_TEXT)
+                  fontsize=19.6, color=C_TEXT)
+    ax.set_ylabel("PER（予）  ← 割安    割高 →", fontsize=19.6, color=C_TEXT)
     ax.set_title("リビジョン × バリュエーション  ―  修正済み割安銘柄の発掘",
                  fontsize=18.2, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)

@@ -68,19 +68,15 @@ ax_r.plot([1, 1], [0, 2], color=SOFT, linewidth=0.8, alpha=0.3)
 ax_r.plot([0, 2], [1, 1], color=SOFT, linewidth=0.8, alpha=0.3)
 
 # 理想ゾーン
-ax_r.text(0.50, 1.78, '★', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.55, '連続サプライズ', color=GREEN, fontsize=22, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.35, '本物のモメンタム', color=WHITE, fontsize=18, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.15, '修正率 高 × モメンタム 高', color=GREEN, fontsize=14, ha='center', va='center', alpha=0.95)
+ax_r.text(0.50, 1.72, '★', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
+ax_r.text(0.50, 1.48, 'サプライズ', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
+ax_r.text(0.50, 1.24, '本物モメンタム', color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
 
 # 他象限
 other_zones = [
-    (1.50, 1.55, '需給先行',               MUTED_TX, 18),
-    (1.50, 1.38, '修正率 低 × モメンタム 高', MUTED_TX, 13),
-    (0.50, 0.55, '出遅れ割安',             MUTED_TX, 18),
-    (0.50, 0.38, '修正率 高 × モメンタム 低', MUTED_TX, 13),
-    (1.50, 0.55, '投資不適格',             MUTED_TX, 18),
-    (1.50, 0.38, '修正率 低 × モメンタム 低', MUTED_TX, 13),
+    (1.50, 1.55, '需給先行',   MUTED_TX, 24),
+    (0.50, 0.55, '出遅れ割安', MUTED_TX, 24),
+    (1.50, 0.55, '投資不適格', MUTED_TX, 24),
 ]
 for (x, y, txt, color, fs) in other_zones:
     ax_r.text(x, y, txt, color=color, fontsize=fs, ha='center', va='center')
@@ -92,7 +88,7 @@ ax_r.text(0.50, -0.14, '低', color=SOFT, fontsize=19, ha='center', va='center',
           bbox=dict(boxstyle='round,pad=0.3', facecolor=BG, edgecolor='none'))
 ax_r.text(1.50, -0.14, '高', color=SOFT, fontsize=19, ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.3', facecolor=BG, edgecolor='none'))
-ax_r.text(1.00, -0.28, '業績予想修正率', color=SOFT, fontsize=20, ha='center', va='center', alpha=0.9, fontweight='bold')
+ax_r.text(1.00, -0.36, '業績予想修正率', color=SOFT, fontsize=24, ha='center', va='center', alpha=0.9, fontweight='bold')
 
 # 軸ラベル（Y: 直近株価モメンタム）
 ax_r.annotate('', xy=(-0.15, 2.05), xytext=(-0.15, -0.05),
@@ -101,7 +97,7 @@ ax_r.text(-0.15, 0.50, '低', color=SOFT, fontsize=19, ha='center', va='center',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
 ax_r.text(-0.15, 1.50, '高', color=SOFT, fontsize=19, ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
-ax_r.text(-0.15, 2.18, '株価モメンタム', color=SOFT, fontsize=20, ha='center', va='center', alpha=0.9, fontweight='bold')
+ax_r.text(-0.15, 2.24, '株価モメンタム', color=SOFT, fontsize=24, ha='center', va='center', alpha=0.9, fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '04_surprise', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

@@ -299,9 +299,9 @@ def make_revision_vs_ordprofit(df: pd.DataFrame) -> None:
     ax.set_xlim(-30, 40)
     ax.set_ylim(-50, 100)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 下方修正    上方修正 →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=19.6, color=C_TEXT)
     ax.set_ylabel("経常利益変化率(予)（%）  ← 来期減益    来期成長 →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=19.6, color=C_TEXT)
     ax.set_title("リビジョン × 来期成長予想  ―  業績モメンタムの 4 象限",
                  fontsize=18.2, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
