@@ -20,7 +20,7 @@
   }
   }
 .card-bule {
-  border: 1px solid #c5d1e0;
+  border: 1px solid var(--md-link-color-faint);
   border-radius: 0;
   padding: 1.6rem 3.2rem;
   box-shadow: none;

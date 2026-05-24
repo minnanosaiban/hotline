@@ -126,7 +126,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body class="blog-post-page" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -1942,7 +1942,7 @@
 </code></pre>
 <h3 id="_3">本記事の実装スコープ</h3>
 <pre><code>本記事で扱うこと:
-  ・決算短信 JSON 1,368 ファイルから進捗率データを構築
+  ・決算短信 JSON 1,624 ファイルから進捗率データを構築
   ・四半期 (Q1/Q2/Q3) × 4 指標（売上/営利/経常/純利益）の Z-score
   ・早期警報（下振れ）と業績超過（上振れ）の極端銘柄抽出
   ・マージン悪化分析（売上順調 × 利益遅れ）
@@ -1954,7 +1954,7 @@
 </code></pre>
 <hr>
 <h2 id="_4">分析で分かったこと</h2>
-<p>決算短信 JSON 1,368 ファイルから、<strong>Q1-Q3 累積実績 262 件と通期予想 466 件をマッチさせた 139 件</strong> で分析しました。</p>
+<p>決算短信 JSON 1,624 ファイルから、<strong>Q1-Q3 累積実績 262 件と通期予想 466 件をマッチさせた 139 件</strong> で分析しました。</p>
 <h3 id="_5">四半期別の進捗率パターン ― 「営業利益は売上より進捗が早い」</h3>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/05_quarterly_pattern.png" data-desc-position="bottom"><img alt="四半期別の進捗率パターン" src="../img/09_zscore/05_quarterly_pattern.png" width="1200"></a></p>
 <table>
@@ -1972,7 +1972,7 @@
 <tr>
 <td>Q1</td>
 <td>25%</td>
-<td><strong>27%</strong></td>
+<td><strong>26%</strong></td>
 <td>28%</td>
 <td>28%</td>
 <td>25%</td>
@@ -1980,7 +1980,7 @@
 <tr>
 <td>Q2</td>
 <td>48%</td>
-<td><strong>50%</strong></td>
+<td><strong>49%</strong></td>
 <td>52%</td>
 <td>53%</td>
 <td>50%</td>
@@ -1988,9 +1988,9 @@
 <tr>
 <td>Q3</td>
 <td>73%</td>
-<td><strong>81%</strong></td>
-<td>83%</td>
-<td>83%</td>
+<td><strong>79%</strong></td>
+<td>81%</td>
+<td>82%</td>
 <td>75%</td>
 </tr>
 </tbody>
@@ -1999,7 +1999,7 @@
 <p><strong>1. 売上は理論進捗率にほぼ一致</strong><br>
 売上の中央値は Q1 25% / Q2 48% / Q3 73% で、理論線（単純按分）に近い。日本企業全体としては、季節性は「平均すると」緩やかです。</p>
 <p><strong>2. 営業利益は売上より進捗率が高い（上期偏重の利益構造）</strong><br>
-特に <strong>Q3 の営業利益 81% は売上 73% より 8 ポイント高い</strong>。これは多くの企業で「<strong>上期は利益が出やすく、下期にコスト計上が重なる</strong>」構造があることを示唆します。設備修繕費・賞与・年末商戦のための販促費などの下期偏重コストが原因と推察されます。</p>
+特に <strong>Q3 の営業利益 79% は売上 73% より 6 ポイント高い</strong>。これは多くの企業で「<strong>上期は利益が出やすく、下期にコスト計上が重なる</strong>」構造があることを示唆します。設備修繕費・賞与・年末商戦のための販促費などの下期偏重コストが原因と推察されます。</p>
 <p>この <strong>「営業利益のほうが進捗率が高い」事実</strong> が、Z-score で正規化する重要性を裏付けます。理論線（25/50/75）だけで判定すると、Q3 営業利益 75% の銘柄は「想定通り」と見えますが、市場平均 81% から見れば <strong>下振れ気味</strong> と判定すべきです。</p>
 <h3 id="_6">進捗率の分布 ― 売上は集中、営業利益はバラつき</h3>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/09_zscore/01_progress_distribution.png" data-desc-position="bottom"><img alt="進捗率分布" src="../img/09_zscore/01_progress_distribution.png" width="1200"></a></p>
@@ -2145,7 +2145,7 @@
   ↓
   (code, fy_end) で結合 → 進捗率データセット
 </code></pre>
-<p>連載07 のパイプラインで生成された <strong>1,368 個の JSON</strong> から、actual の Q1-Q3 を 262 件、forecast の FY を 466 件取り出し、<code>(code, fy_end)</code> でマージすると 139 件のサンプルが得られます。</p>
+<p>連載07 のパイプラインで生成された <strong>1,624 個の JSON</strong> から、actual の Q1-Q3 を 262 件、forecast の FY を 466 件取り出し、<code>(code, fy_end)</code> でマージすると 139 件のサンプルが得られます。</p>
 <h3 id="2">2. 進捗率の計算</h3>
 <pre><code class="language-python">for m in ["net_sales", "op_income", "ord_income", "net_income"]:
     df[f"prog_{m}"] = df[m] / df[f"fc_{m}"] * 100
@@ -2341,8 +2341,8 @@ def load_progress(stmts_dir: Path = Path("data/statements")) -&gt; pd.DataFrame:
 <h2 id="_9">まとめ</h2>
 <ul>
 <li>連載01〜05 の "遅行" シグナル（リビジョン・サプライズ）を補う、<strong>事前</strong> の業績シグナルとして進捗率 Z-score を実装</li>
-<li>連載06〜08 で構築した独自スキーマ JSON 1,368 ファイルから、Q1-Q3 累積実績 262 + 通期予想 466 をマッチさせ、<strong>139 件のサンプル</strong> で分析</li>
-<li><strong>Q3 営業利益進捗率の中央値 81%、標準偏差 19.6%</strong> ― 営業利益のほうが売上より分散が広く、SNR が高い</li>
+<li>連載06〜08 で構築した独自スキーマ JSON 1,624 ファイルから、Q1-Q3 累積実績 262 + 通期予想 466 をマッチさせ、<strong>139 件のサンプル</strong> で分析</li>
+<li><strong>Q3 営業利益進捗率の中央値 79%（Z-score 算出の全銘柄平均 81%）、標準偏差 19.6%</strong> ― 営業利益のほうが売上より分散が広く、SNR が高い</li>
 <li>早期警報 Top1 <strong>Ｅ・Ｊ HD（2153）Q3 営業利益進捗 −28%（Z-score −5.56）</strong> は重大警報、<strong>三協立山（5932）Q3 売上 74% × 営利 9.5%</strong> はマージン崩壊の典型</li>
 <li>業績超過 Top1 <strong>京葉瓦斯（9539）Q1 営業利益進捗 127%（Z-score +4.71）</strong> は上方修正必至</li>
 <li>営業利益進捗率は売上より進捗率が高い（<strong>上期偏重の利益構造</strong>） ― 理論線でなく Z-score で判定する必要性</li>
@@ -2351,7 +2351,7 @@ def load_progress(stmts_dir: Path = Path("data/statements")) -&gt; pd.DataFrame:
 <p>連載01〜05 で追ってきた ＥＮＥＯＳ / 出光 / コスモエネＨＤ の決算短信 XBRL は現在未取得（466 銘柄カバレッジ外）。次回連載10 でアクルーアル分析を行う前に、これら 3 社の決算短信 XBRL 取得が次のステップです。連載10 では <strong>ENEOS の「実質営業利益 4,400 億円維持」主張をキャッシュベースで検証</strong> し、連載01 の 4 基準試算と接続します。</p>
 <p>次回連載10 は <strong>アクルーアル分析</strong> に進みます。本記事の早期警報で見つけた銘柄に対し、<strong>「利益の質」を貸借対照表の動きから判定</strong> し、見かけ上の好決算に潜む利益操作リスクを検出します。営業 CF と純利益の乖離を XBRL の <code>data/statements/</code> JSON から取り出して可視化します。</p>
 <hr>
-<p><em>データ出典: 連載07 で構築した自前パイプラインの <code>data/statements/*.json</code> 1,368 ファイル（Q1-Q3 actual + FY forecast を結合した 139 件で集計）</em></p>
+<p><em>データ出典: 連載07 で構築した自前パイプラインの <code>data/statements/*.json</code> 1,624 ファイル（Q1-Q3 actual + FY forecast を結合した 139 件で集計）</em></p>
 
 
 

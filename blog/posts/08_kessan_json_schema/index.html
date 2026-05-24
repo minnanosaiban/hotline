@@ -126,7 +126,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body class="blog-post-page" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -2084,31 +2084,31 @@ performance.forecast_change_pct.{...}            ← 予想前期比
 </tr>
 <tr>
 <td>performance.current.net_income</td>
-<td>93.8%</td>
-</tr>
-<tr>
-<td>performance.current.eps</td>
-<td>93.4%</td>
-</tr>
-<tr>
-<td>performance.current.net_sales</td>
 <td>93.0%</td>
 </tr>
 <tr>
+<td>performance.current.eps</td>
+<td>92.8%</td>
+</tr>
+<tr>
+<td>performance.current.net_sales</td>
+<td>91.6%</td>
+</tr>
+<tr>
 <td>performance.current.operating_income</td>
-<td>90.8%</td>
+<td>89.6%</td>
 </tr>
 <tr>
 <td>performance.current.ordinary_income</td>
-<td>68.0%</td>
+<td>73.8%</td>
 </tr>
 <tr>
 <td>performance.current.comprehensive_income</td>
-<td>62.8%</td>
+<td>68.8%</td>
 </tr>
 </tbody>
 </table>
-<p>metadata は <strong>100% カバレッジ</strong>。これはスキーマ設計が正しく機能している証です。逆に <code>ordinary_income</code>（経常利益）が 68% に留まるのは、IFRS 採用企業が「経常利益」概念を使わない（営業利益 → 税引前利益 の構造）ためです。これは欠陥ではなく <strong>会計基準の正直な反映</strong> です。</p>
+<p>metadata は <strong>100% カバレッジ</strong>。これはスキーマ設計が正しく機能している証です。逆に <code>ordinary_income</code>（経常利益）が 74% に留まるのは、IFRS 採用企業が「経常利益」概念を使わない（営業利益 → 税引前利益 の構造）ためです。これは欠陥ではなく <strong>会計基準の正直な反映</strong> です。</p>
 <p><strong>低カバレッジの代表例</strong>（該当時のみ存在するフィールド）：</p>
 <table>
 <thead>
@@ -2362,10 +2362,10 @@ print(df.nlargest(10, "op_margin"))
 
 print(audit_mapping())
 # → total_rules: 263
-# → unique_json_paths: ~90
-# → avg_tags_per_path: 2.9（1 パスあたり平均 2.9 個の XBRL タグが紐づく）
+# → unique_json_paths: ~120
+# → avg_tags_per_path: 2.1（1 パスあたり平均 2 個の XBRL タグが紐づく）
 </code></pre>
-<p>「1 json_path あたり平均 3 タグ」という数字は、<strong>会計基準と業種別タクソノミの差分吸収にどれだけ投資しているか</strong> の指標になります。</p>
+<p>「1 json_path あたり平均 2 タグ」という数字は、<strong>会計基準と業種別タクソノミの差分吸収にどれだけ投資しているか</strong> の指標になります。</p>
 <hr>
 <h2 id="vs-xbrl">既存スキーマ vs 公式 XBRL の比較</h2>
 <table>
@@ -2428,7 +2428,7 @@ print(audit_mapping())
 <hr>
 <h2 id="2_1">まとめ ― フェーズ 2 の総括</h2>
 <ul>
-<li>XBRL の混沌を独自 JSON スキーマで整理。マッピング辞書 <code>kessan_mapping.csv</code> の <strong>263 ルール / 約 90 個の json_path</strong> が本体</li>
+<li>XBRL の混沌を独自 JSON スキーマで整理。マッピング辞書 <code>kessan_mapping.csv</code> の <strong>263 ルール / 約 120 個の json_path</strong> が本体</li>
 <li>セクション別では <strong>performance に 70% 集中</strong>（186 ルール）。投資家が最も使う業績データへの集中投資</li>
 <li><strong>「1 json_path : N xbrl_tag」設計</strong> で会計基準（IFRS 121 / JP 98 / any 44）と業種別タクソノミの差分を吸収。net_sales 系だけで 55 ルール</li>
 <li>実データ 500 ファイルでのカバレッジは <strong>metadata 100% / 業績核項目（net_sales/net_income/eps/operating_income）90% 以上</strong> と高水準</li>

@@ -126,7 +126,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body class="blog-post-page" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -1986,7 +1986,7 @@
 
 <h1 id="k-nn-car">K-NN 回帰で「類似決算群の CAR から値動き予測」を試して失敗した話 ― 失敗が浮かび上がらせた個別ショック検出器</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/16_prediction/00_thumbnail.png" width="1280"></a></p>
-<p>連載15 では「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.39% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました。本記事の連載16 ではこのアプローチを <strong>232 銘柄全体に展開</strong> し、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
+<p>連載15 では「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.43% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました。本記事の連載16 ではこのアプローチを <strong>232 銘柄全体に展開</strong> し、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
 <p>結論を先に書くと：<strong>K-NN 予測は失敗</strong> しました。相関係数 r = -0.03、RMSE は全銘柄平均で予測したベースライン（10.48%）より悪い 10.89%。しかしこの失敗の中に <strong>本連載全体の最も重要な洞察</strong> が含まれています ― 「<strong>機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用</strong>」。本記事はその実証と、<strong>全16連載の到達点としてのハイブリッド投資ワークフロー</strong> を提示します。</p>
 <!-- more -->
 
@@ -2025,7 +2025,7 @@
 </tr>
 <tr>
 <td><strong>16 K-NN 予測</strong></td>
-<td><strong>全 232 銘柄予測 vs 実績</strong></td>
+<td><strong>全 287 銘柄予測 vs 実績</strong></td>
 <td><strong>全体検証</strong></td>
 </tr>
 </tbody>
@@ -2050,19 +2050,19 @@
 <tbody>
 <tr>
 <td>連載15 features.parquet（10 次元特徴量）</td>
-<td>286 銘柄（特徴量 ≥7 個揃う）</td>
+<td>287 銘柄（特徴量 ≥7 個揃う）</td>
 </tr>
 <tr>
 <td>2026/3 期 announcement の実績 CAR</td>
-<td>同 286 銘柄</td>
+<td>同 287 銘柄</td>
 </tr>
 <tr>
 <td>ペアワイズ cosine 類似度</td>
-<td>286 × 286 = 81,796 ペア</td>
+<td>287 × 287 = 82,369 ペア</td>
 </tr>
 <tr>
 <td>予測 vs 実績 ペア（評価サンプル）</td>
-<td>286</td>
+<td>287</td>
 </tr>
 </tbody>
 </table>
@@ -2098,19 +2098,19 @@
 </tr>
 <tr>
 <td>RMSE</td>
-<td><strong>10.89%</strong></td>
+<td><strong>10.88%</strong></td>
 </tr>
 <tr>
 <td>MAE</td>
-<td>7.97%</td>
+<td>7.93%</td>
 </tr>
 <tr>
 <td>方向一致率（± 符号一致）</td>
-<td><strong>53.1%</strong></td>
+<td><strong>50.9%</strong></td>
 </tr>
 <tr>
 <td>ベースライン（全銘柄平均で予測） RMSE</td>
-<td>10.48%</td>
+<td>10.46%</td>
 </tr>
 </tbody>
 </table>
@@ -2118,9 +2118,9 @@
 <ul>
 <li>相関係数 r = -0.03 ― <strong>完璧予測 y=x の線とほぼ無関係に分布</strong></li>
 <li>RMSE 10.89% は <strong>ベースライン（10.48%）より悪い</strong> ― K-NN による予測価値はマイナス</li>
-<li>方向一致率 53.1% ― ランダム（50%）を僅かに上回るが統計的有意性なし</li>
+<li>方向一致率 50.9% ― ランダム（50%）とほぼ同等で統計的有意性なし</li>
 </ul>
-<p>つまり「<strong>類似決算群の平均 CAR は、自身の CAR の予測値として使えない</strong>」。連載15 で見た「丸紅 -9.39% vs 類似群 +2.39%」は <strong>特殊事例ではなく一般的な構図</strong> だったわけです。</p>
+<p>つまり「<strong>類似決算群の平均 CAR は、自身の CAR の予測値として使えない</strong>」。連載15 で見た「丸紅 -9.39% vs 類似群 +2.43%」は <strong>特殊事例ではなく一般的な構図</strong> だったわけです。</p>
 <h3 id="2-k">結論その2: K を変えても改善しない</h3>
 <p>K=5/15/30 で精度を比較：</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/04_K_sensitivity.png" data-desc-position="bottom"><img alt="K の感度分析" src="../img/16_prediction/04_K_sensitivity.png" width="1200"></a></p>
@@ -2136,25 +2136,25 @@
 <tbody>
 <tr>
 <td>5</td>
-<td>12.13</td>
-<td>-0.089</td>
-<td>48.3%</td>
+<td>12.12</td>
+<td>-0.091</td>
+<td>49.8%</td>
 </tr>
 <tr>
 <td><strong>15</strong></td>
-<td>10.89</td>
+<td>10.88</td>
 <td>-0.031</td>
-<td><strong>53.1%</strong></td>
+<td><strong>50.9%</strong></td>
 </tr>
 <tr>
 <td>30</td>
-<td>10.71</td>
-<td>-0.028</td>
-<td>49.3%</td>
+<td>10.67</td>
+<td>-0.015</td>
+<td>50.2%</td>
 </tr>
 </tbody>
 </table>
-<p>K=15 が方向一致率では最高（53.1%）、K=30 が RMSE では最低（10.71）だが、<strong>いずれもベースライン（RMSE 10.48）に届かない</strong>。<strong>K を増やすほど予測は全銘柄平均に近づく</strong> ため、根本的に「数値特徴量だけでは予測不可」という事実が変わりません。</p>
+<p>K=15 が方向一致率では最高（50.9%）、K=30 が RMSE では最低（10.67）だが、<strong>いずれもベースライン（RMSE 10.46）に届かない</strong>。<strong>K を増やすほど予測は全銘柄平均に近づく</strong> ため、根本的に「数値特徴量だけでは予測不可」という事実が変わりません。</p>
 <h3 id="4">なぜ予測できないのか ― 4 つの理由</h3>
 <table>
 <thead>
@@ -2315,23 +2315,22 @@
 <td>双日（2768）</td>
 <td>−4.25%</td>
 <td>[−1, +5]</td>
-<td>+1.76%</td>
-<td>−6.01pp</td>
+<td>+2.54%</td>
+<td>−6.79pp</td>
 <td><strong>軽いネガショック</strong></td>
 </tr>
 <tr>
 <td><strong>ＥＮＥＯＳ（5020）</strong></td>
-<td><strong>+1.36%</strong></td>
-<td>[−1, +1] ※</td>
-<td>−1.58%</td>
-<td><strong>+2.93pp</strong></td>
-<td><strong>中庸（数字パターン通り）</strong></td>
+<td><strong>−4.68%</strong></td>
+<td>[−1, +5]</td>
+<td>−2.30%</td>
+<td><strong>−2.37pp</strong></td>
+<td><strong>軽いネガ（初動 +1.36% 後 5 日で反転）</strong></td>
 </tr>
 </tbody>
 </table>
-<p>※ ＥＮＥＯＳ は本記事時点（2026-05-21）で発表から 5 営業日未経過のため、[−1, +5] CAR は未計算。[−1, +1] のみで評価。</p>
 <p>丸紅・双日は <strong>数字パターンより市場の評価がネガティブ</strong> ― 連載10-12 で「健全な質の高い決算」と評価した銘柄が、2026/3 期では市場で売られた事実。丸紅については、連載12 で観察された <strong>「次世代事業 +127% × 金融・リース・不動産 −54.7% の二極化」</strong> や <strong>次世代事業の利益化までの時間軸</strong> を市場が決算説明会で再評価した可能性が示唆されます（連載13 のピークアウト議論は ENEOS の 2025-03-28 業績予想修正発表に対する反応であり、丸紅とは別）。</p>
-<p>一方、<strong>ＥＮＥＯＳの誤差 +2.93pp は丸紅・双日の ¼ 程度</strong> で、shocks.csv の Top-30（誤差 ±10pp 以上）にも入りません。これは AI 予測フレームから見ると <strong>「数値特徴量で概ね説明できる範囲」</strong> に収まる決算で、<strong>ある意味「AI 予測が機能した事例」</strong> にあたります。</p>
+<p>一方、<strong>ＥＮＥＯＳの誤差 −2.37pp は丸紅・双日より小さく</strong>、shocks.csv の Top-30（誤差 ±10pp 以上）にも入りません。初動 [-1,+1] の +1.36% はポジティブだったものの、<strong>5 営業日で −4.68% に反転</strong>。これは連載12 で観察した「高 OPM セグメントの正常化局面」が後追いで市場に認識されたとも読めます。AI 予測フレームからは <strong>「数値特徴量で概ね説明できる範囲」</strong> ― ある意味「予測がほぼ機能した事例」にあたります。</p>
 <table>
 <thead>
 <tr>
@@ -2349,12 +2348,12 @@
 <tr>
 <td>ＥＮＥＯＳ</td>
 <td>予測がほぼ的中（誤差 小）</td>
-<td>営業利益急回復という数字パターンが市場反応とほぼ一致 → <strong>数字だけで読める</strong></td>
+<td>営業利益急回復という数字パターンが概ね市場反応と一致、ただし初動↑→5日で反転 → <strong>数字で読めるが継続観察必要</strong></td>
 </tr>
 </tbody>
 </table>
 <p>これは連載16 のメッセージをさらに精緻化します。<strong>AI 予測の "精度そのもの" ではなく、"予測との乖離の大きさ" が情報</strong> であり、乖離が小さい銘柄では「AI に追加情報は無い」、乖離が大きい銘柄では「数字外の判断材料を急いで集めるべき」という、<strong>二分された投資ワークフロー</strong> が見えてきます。</p>
-<p>なお ＥＮＥＯＳ の [−1, +5] / [−1, +20] が確定する 2026 年 6 月以降に再評価すれば、<strong>連載12 で観察した「主力 2 事業の OPM 低下（正常化局面か構造的劣化かは継続観察必要）」が後追いで市場に認識されるか</strong> を検証できます。短期で予測通り（在庫影響除き 4,744 億で「実質 4,400 億維持」主張を上回って着地）だったとしても、中期で乖離が広がれば、それは「セグメント情報を読まないと見えない、後追いネガショック」という新しいシグナルになります。</p>
+<p>ＥＮＥＯＳ の [−1, +5] は確定し <strong>−4.68%</strong> ― 初動 +1.36% が 5 日で反転した事実は、連載12 で観察した「高 OPM セグメントの正常化局面」と整合します。[−1, +20] が確定する 2026 年 6 月以降に再評価すれば、「セグメント情報を読まないと見えない、後追いネガショック」のシグナルとして更に評価できます。</p>
 <h3 id="4_1">結論その4: 予測としてではなく「検出器」として使う</h3>
 <p>機械学習の常識：<strong>「予測精度の低いモデルでも、極端ケースの検出には使える」</strong>。</p>
 <table>
@@ -2371,7 +2370,7 @@
 </tr>
 <tr>
 <td>「銘柄 X の方向（+ or -）は？」</td>
-<td>△ 53.1% で僅かに有意</td>
+<td>△ 50.9% でほぼランダム</td>
 </tr>
 <tr>
 <td>「<strong>類似群と大きく乖離する銘柄を検出</strong>」</td>
@@ -2399,7 +2398,7 @@ for i in range(n):
         sim_matrix[i, j] = s
         sim_matrix[j, i] = s
 </code></pre>
-<p>286 × 286 で 81,796 ペア。Python ループでも 1〜2 秒。本格運用するなら <code>sklearn.metrics.pairwise.cosine_similarity</code> で行列演算化すれば 0.05 秒。</p>
+<p>287 × 287 で 82,369 ペア。Python ループでも 1〜2 秒。本格運用するなら <code>sklearn.metrics.pairwise.cosine_similarity</code> で行列演算化すれば 0.05 秒。</p>
 <h3 id="2-k-nn">2. K-NN 予測</h3>
 <pre><code class="language-python">for i in range(n):
     sims = sim_matrix[i].copy()
@@ -2437,7 +2436,7 @@ shocks_neg = df.nsmallest(10, "err_K15_p5") # ネガショック
 <h3 id="car">CAR 計算の窓未完了問題</h3>
 <p>本記事執筆時点（2026-05-21）では 2026/3 期 announce から <strong>20 営業日経過していない</strong> 銘柄が大半。<code>car_m1_p20</code> は使えないため <code>car_m1_p5</code> のみで議論を統一。2026 年 6 月以降に [-1,+20] を含めた再評価を予定。</p>
 <h3 id="286">286 銘柄のサンプル数の限界</h3>
-<p>K-NN の統計的有意性には <strong>本来 1,000 サンプル以上</strong> ほしい。286 銘柄は連載07 でカバーしている範囲の制約。連載15 で見た「業種クラスタリング」は出るが、予測精度として有意な数値は出にくい。</p>
+<p>K-NN の統計的有意性には <strong>本来 1,000 サンプル以上</strong> ほしい。287 銘柄は連載07 でカバーしている範囲の制約。連載15 で見た「業種クラスタリング」は出るが、予測精度として有意な数値は出にくい。</p>
 <h3 id="_6">「自分自身を除外」忘れによる偽精度</h3>
 <p>K-NN で頻発するバグ。</p>
 <pre><code class="language-python">sims[i] = -np.inf  # 必ず入れる
@@ -2545,15 +2544,15 @@ shocks_neg = df.nsmallest(10, "err_K15_p5") # ネガショック
 <hr>
 <h2 id="_9">まとめ</h2>
 <ul>
-<li>K-NN 回帰（K=5/15/30）で <strong>類似決算群の平均 CAR から自身の CAR を予測</strong> を 286 銘柄で実証</li>
-<li><strong>予測精度: 相関 r=-0.03、RMSE 10.89%、方向一致率 53.1% ― 全銘柄平均ベースライン (RMSE 10.48%) に負けた</strong></li>
+<li>K-NN 回帰（K=5/15/30）で <strong>類似決算群の平均 CAR から自身の CAR を予測</strong> を 287 銘柄で実証</li>
+<li><strong>予測精度: 相関 r=-0.03、RMSE 10.88%、方向一致率 50.9% ― 全銘柄平均ベースライン (RMSE 10.46%) に負けた</strong></li>
 <li>K を変えても改善せず ― <strong>数値特徴量だけでは決算 CAR の予測は構造的に不可能</strong></li>
 <li><strong>失敗の中に発見</strong>：予測との乖離（|err| 大きい銘柄）は <strong>個別ショック検出器</strong> として極めて有用</li>
 <li>ポジショック Top: 7236 ティラド（+63pp）/ 2371 カカクコム（+34pp）/ 6516 サンデン（+33pp）など、<strong>プロンプト化されていない物語</strong> で市場が動いた銘柄</li>
 <li>ネガショック Top: 5906 エンケイ（-28pp）/ 9629 PCA（-25pp）/ 6469 放電精密（-21pp）など、<strong>資料熟読で見える警戒材料</strong> で売られた銘柄</li>
 <li>narrative 主要銘柄の最終結論:<ul>
-<li>丸紅 −9.39% / 双日 −4.25%（誤差 −11.82pp / −6.01pp）= 連載10-12 で「健全」評価でも 2026/3 期は市場で売られた <strong>ネガショック</strong></li>
-<li><strong>ＥＮＥＯＳ +1.36% (誤差 +2.93pp) = AI 予測ほぼ的中の「中庸」事例</strong>。営業利益急回復（4,666 億、公表 +25.5% / 継続事業ベース +339.8%）+ 在庫影響除き 4,744 億で 2025/3 期主張「実質 4,400 億維持」を上回って着地、という数字パターンが短期市場反応とほぼ一致（連載01 4 基準試算と整合）</li>
+<li>丸紅 −9.39% / 双日 −4.25%（誤差 −11.82pp / −6.79pp）= 連載10-12 で「健全」評価でも 2026/3 期は市場で売られた <strong>ネガショック</strong></li>
+<li><strong>ＥＮＥＯＳ [−1,+5]=−4.68%（誤差 −2.37pp）= AI 予測ほぼ的中の「軽いネガ」事例</strong>。初動 [-1,+1] +1.36% の後 5 日で反転。営業利益急回復（4,666 億、公表 +25.5% / 継続事業ベース +339.8%）+ 在庫影響除き 4,744 億で 2025/3 期主張「実質 4,400 億維持」を上回って着地という数字パターンは市場に概ね織り込まれたが、高 OPM セグメント正常化局面の再認識が 5 日で後追い（連載01 4 基準試算・連載12 と整合）</li>
 </ul>
 </li>
 <li>AI 予測の "精度" ではなく <strong>"予測との乖離の大きさ" こそが情報</strong>：乖離が大きい銘柄＝要 IR 確認、乖離が小さい銘柄＝数字で読める、という二分されたワークフロー</li>
@@ -2583,7 +2582,7 @@ shocks_neg = df.nsmallest(10, "err_K15_p5") # ネガショック
 <td><strong>2. XBRL 基礎</strong></td>
 <td>取得・パース・スキーマ設計</td>
 <td>06-08</td>
-<td>13 銘柄有報 / 1,368 短信 JSON / 263 マッピング</td>
+<td>13 銘柄有報 / 1,624 短信 JSON / 263 マッピング</td>
 </tr>
 <tr>
 <td><strong>3. XBRL 活用分析</strong></td>

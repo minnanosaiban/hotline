@@ -1,4 +1,5 @@
-/* blog セクション専用リセット — 03-typeset.css のグローバル上書きを打ち消す */
+/* blog/posts/ 専用スタイル — body.blog-post-page のみに適用 */
+/* クラスは MkDocs フック（overrides/hooks/add_blog_class.py）がビルド時に付与する */
 
 /* 旧 <p class="blog-main-title"> スタイル（使用箇所が残っている場合の互換） */
 .md-content p.blog-main-title {
@@ -8,8 +9,7 @@
   color: var(--md-typeset-color) !important;
   font-weight: 300 !important;
 }
-/* blog-page クラス付与後も .blog-page .md-content p (0,2,1) に勝つ */
-.blog-page .md-content p.blog-main-title {
+body.blog-post-page .md-content p.blog-main-title {
   font-size: 3.2em !important;
   line-height: 1.4 !important;
   margin: 0 0 0.2rem 0 !important;
@@ -18,15 +18,23 @@
 }
 @media only screen and (max-width: 767px) {
   .md-content p.blog-main-title,
-  .blog-page .md-content p.blog-main-title {
+  body.blog-post-page .md-content p.blog-main-title {
     font-size: 2.8em !important;
   }
 }
 
-/* JS が body に .blog-page クラスを付与した場合にのみ適用 */
+/* h1 */
+body.blog-post-page .md-content h1 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.3;
+  color: var(--md-default-fg-color--light);
+  letter-spacing: -0.01em;
+  margin: 0 0 1.25em 0;
+}
 
 /* p タグ: MkDocs Material 標準の行間・フォントサイズに戻す */
-.blog-page .md-content p {
+body.blog-post-page .md-content p {
   font-size: inherit !important;
   line-height: 1.7 !important;
   margin-top: 0.75em !important;
@@ -35,70 +43,60 @@
   font-weight: 400 !important;
 }
 
+
 /* h2: 行頭マーカー ┃（リンク色）＋ 罫線・太字なし */
-.blog-page .md-content h2 {
-  font-size: 1.55em !important;
-  line-height: 1.5 !important;
-  font-weight: 500 !important;
-  margin: 3em 0 1em 0 !important;
-  padding: 0 !important;
+body.blog-post-page .md-content h2 {
+  font-size: 2em !important;
+  line-height: 1.3 !important;
+  font-weight: 300 !important;
+  margin: 8em 0 1em 0 !important;
+  padding: 0 0 0.0.4em 0 !important;
   border: none !important;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter) !important;
   color: var(--md-typeset-color) !important;
   letter-spacing: 0 !important;
 }
-.blog-page .md-content h2::before {
-  content: "\2503"; /* ┃ BOX DRAWINGS HEAVY VERTICAL */
-  color: var(--md-link-color);
-  margin-right: 0.45em;
-  font-weight: 400;
-  display: inline-block;
-}
 
 /* h3: 行頭マーカー │（リンク色 50% 透過）＋ 太字なし */
-.blog-page .md-content h3 {
-  font-size: 1.2em !important;
+body.blog-post-page .md-content h3 {
+  font-size: 1.6em !important;
   line-height: 1.6 !important;
-  font-weight: 500 !important;
-  margin: 2em 0 0.7em 0 !important;
+  font-weight: 300 !important;
+  margin: 8em 0 0.7em 0 !important;
   padding: 0 !important;
   border: none !important;
   color: var(--md-typeset-color) !important;
 }
-.blog-page .md-content h3::before {
+body.blog-post-page .md-content h3::before {
   content: "\2502"; /* │ BOX DRAWINGS LIGHT VERTICAL */
   color: var(--md-link-color);
-  opacity: 0.5;
   margin-right: 0.5em;
   font-weight: 400;
   display: inline-block;
 }
+/* H2 直後の H3 は上の余白を詰める */
+body.blog-post-page .md-content h2 + h3 {
+  margin-top: 0.5em !important;
+}
+/* H3 直後の H4 は上の余白を詰める */
+body.blog-post-page .md-content h3 + h4 {
+  margin-top: 0.3em !important;
+}
 
 /* h4: 行頭マーカー ·（リンク色 50% 透過）＋ 控えめサイズ */
-.blog-page .md-content h4 {
+body.blog-post-page .md-content h4 {
   font-size: 1.05em !important;
   line-height: 1.7 !important;
   font-weight: 500 !important;
-  margin: 1.5em 0 0.5em 0 !important;
+  margin: 4em 0 0.5em 0 !important;
   padding: 0 !important;
   border: none !important;
   color: var(--md-typeset-color) !important;
 }
-.blog-page .md-content h4::before {
-  content: "\00B7"; /* · MIDDLE DOT */
-  color: var(--md-link-color);
-  opacity: 0.5;
-  margin-right: 0.6em;
-  font-weight: 700;
-  display: inline-block;
-}
 
-/* hr: ブログでは罫線を非表示（マークダウンの `---` は隠す） */
-.blog-page .md-content hr {
-  display: none !important;
-}
 
 /* TOC: ブログページは h2 までに制限（h3 のネストを非表示） */
-.blog-page .md-nav--secondary .md-nav__item > .md-nav {
+body.blog-post-page .md-nav--secondary .md-nav__item > .md-nav {
   display: none !important;
 }
 

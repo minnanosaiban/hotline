@@ -3,35 +3,31 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。">
+        <meta name="description" content="ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、公平にＥＮＥＯＳ側の主張も公表し、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査対応を検証しています。">
       
       
       
-        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/blog/">
+        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/blog/scripts/CLAUDE/">
       
       
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="posts/01_garp_peg_roe/">
       
       
         
       
       
-      <link rel="icon" href="../img/favicon.png">
+      <link rel="icon" href="../../../img/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>株 × Python × AI - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>blog 画像生成スクリプト 設計基準 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -50,27 +46,27 @@
       
     
     
-      <link rel="stylesheet" href="../css/01-color.css">
+      <link rel="stylesheet" href="../../../css/01-color.css">
     
-      <link rel="stylesheet" href="../css/02-layout.css">
+      <link rel="stylesheet" href="../../../css/02-layout.css">
     
-      <link rel="stylesheet" href="../css/03-typeset.css">
+      <link rel="stylesheet" href="../../../css/03-typeset.css">
     
-      <link rel="stylesheet" href="../css/04-button.css">
+      <link rel="stylesheet" href="../../../css/04-button.css">
     
-      <link rel="stylesheet" href="../css/05-card.css">
+      <link rel="stylesheet" href="../../../css/05-card.css">
     
-      <link rel="stylesheet" href="../css/06-link-text.css">
+      <link rel="stylesheet" href="../../../css/06-link-text.css">
     
-      <link rel="stylesheet" href="../css/07-link-button.css">
+      <link rel="stylesheet" href="../../../css/07-link-button.css">
     
-      <link rel="stylesheet" href="../css/08-link-card.css">
+      <link rel="stylesheet" href="../../../css/08-link-card.css">
     
-      <link rel="stylesheet" href="../css/09-mobile-menu.css">
+      <link rel="stylesheet" href="../../../css/09-mobile-menu.css">
     
-      <link rel="stylesheet" href="../css/10-blog-reset.css">
+      <link rel="stylesheet" href="../../../css/10-blog-reset.css">
     
-      <link rel="stylesheet" href="../css/11-toc.css">
+      <link rel="stylesheet" href="../../../css/11-toc.css">
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap">
     
@@ -78,7 +74,7 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -88,21 +84,10 @@
   
     
     
-      <style>.md-typeset h1 { display: none !important; }</style>
-    
   
-  
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:title" content="株 × Python × AI">
-    <meta property="twitter:description" content="ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。">
-    <meta property="twitter:image" content="..">
-    <meta property="og:title" content="株 × Python × AI">
-    <meta property="og:description" content="ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。">
-    <meta property="og:image" content="..">
-    <meta property="og:url" content="https://example.com">
   
 
-  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -122,13 +107,18 @@
     
     
     
-    <body class="blog-post-page" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#blog" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -150,7 +140,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            <a href=".." onmouseover="this.style.color='#1a5fb4'" onmouseout="this.style.color='#003682'">
+            <a href="../../.." onmouseover="this.style.color='#1a5fb4'" onmouseout="this.style.color='#003682'">
               ＥＮＥＯＳの内部通報制度をめぐる訴訟について
             </a>
           </span>
@@ -158,7 +148,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              株 × Python × AI
+              blog 画像生成スクリプト 設計基準
             
           </span>
         </div>
@@ -213,7 +203,7 @@
     
     
       <li class="md-tabs__item">
-        <a href=".." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   
@@ -231,13 +221,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -259,7 +247,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../trial/" class="md-tabs__link">
+        <a href="../../../trial/" class="md-tabs__link">
           
   
   
@@ -290,8 +278,6 @@
           
             
               
-                
-              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -303,9 +289,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="ＥＮＥＯＳの内部通報制度に関する訴訟について" class="md-nav__button md-logo" aria-label="ＥＮＥＯＳの内部通報制度に関する訴訟について" data-md-component="logo">
+    <a href="../../.." title="ＥＮＥＯＳの内部通報制度に関する訴訟について" class="md-nav__button md-logo" aria-label="ＥＮＥＯＳの内部通報制度に関する訴訟について" data-md-component="logo">
       
-  <img src="../img/card1.png" alt="logo">
+  <img src="../../../img/card1.png" alt="logo">
 
     </a>
     ＥＮＥＯＳの内部通報制度に関する訴訟について
@@ -345,7 +331,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href=".." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -388,8 +374,6 @@
       
   
   
-    
-  
   
   
     
@@ -435,23 +419,22 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -469,13 +452,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -495,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/01_garp_peg_roe/" class="md-nav__link">
+      <a href="../../posts/01_garp_peg_roe/" class="md-nav__link">
         
   
   
@@ -523,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/02_multifactor_scoreboard/" class="md-nav__link">
+      <a href="../../posts/02_multifactor_scoreboard/" class="md-nav__link">
         
   
   
@@ -551,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/03_eps_revision_momentum/" class="md-nav__link">
+      <a href="../../posts/03_eps_revision_momentum/" class="md-nav__link">
         
   
   
@@ -579,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/04_surprise_scoreboard/" class="md-nav__link">
+      <a href="../../posts/04_surprise_scoreboard/" class="md-nav__link">
         
   
   
@@ -607,7 +590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/05_credit_supply_dashboard/" class="md-nav__link">
+      <a href="../../posts/05_credit_supply_dashboard/" class="md-nav__link">
         
   
   
@@ -635,7 +618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/06_what_is_xbrl/" class="md-nav__link">
+      <a href="../../posts/06_what_is_xbrl/" class="md-nav__link">
         
   
   
@@ -663,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/07_edinet_tdnet_parse/" class="md-nav__link">
+      <a href="../../posts/07_edinet_tdnet_parse/" class="md-nav__link">
         
   
   
@@ -691,7 +674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/08_kessan_json_schema/" class="md-nav__link">
+      <a href="../../posts/08_kessan_json_schema/" class="md-nav__link">
         
   
   
@@ -719,7 +702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/09_progress_zscore/" class="md-nav__link">
+      <a href="../../posts/09_progress_zscore/" class="md-nav__link">
         
   
   
@@ -747,7 +730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/10_accrual_analysis/" class="md-nav__link">
+      <a href="../../posts/10_accrual_analysis/" class="md-nav__link">
         
   
   
@@ -775,7 +758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/11_triangulation/" class="md-nav__link">
+      <a href="../../posts/11_triangulation/" class="md-nav__link">
         
   
   
@@ -803,7 +786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/12_segment_analysis/" class="md-nav__link">
+      <a href="../../posts/12_segment_analysis/" class="md-nav__link">
         
   
   
@@ -831,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/13_car_event_study/" class="md-nav__link">
+      <a href="../../posts/13_car_event_study/" class="md-nav__link">
         
   
   
@@ -859,7 +842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/14_llm_summary/" class="md-nav__link">
+      <a href="../../posts/14_llm_summary/" class="md-nav__link">
         
   
   
@@ -887,7 +870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/15_similar_earnings_search/" class="md-nav__link">
+      <a href="../../posts/15_similar_earnings_search/" class="md-nav__link">
         
   
   
@@ -915,7 +898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="posts/16_knn_prediction/" class="md-nav__link">
+      <a href="../../posts/16_knn_prediction/" class="md-nav__link">
         
   
   
@@ -987,7 +970,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../trial/" class="md-nav__link ">
+            <a href="../../../trial/" class="md-nav__link ">
               
   
   
@@ -1031,7 +1014,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fact/" class="md-nav__link">
+      <a href="../../../fact/" class="md-nav__link">
         
   
   
@@ -1059,7 +1042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trial/eneos/" class="md-nav__link">
+      <a href="../../../trial/eneos/" class="md-nav__link">
         
   
   
@@ -1087,7 +1070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trial/whistleblower/" class="md-nav__link">
+      <a href="../../../trial/whistleblower/" class="md-nav__link">
         
   
   
@@ -1115,7 +1098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trial/judgement_2025/" class="md-nav__link">
+      <a href="../../../trial/judgement_2025/" class="md-nav__link">
         
   
   
@@ -1171,7 +1154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../summary/" class="md-nav__link">
+      <a href="../../../summary/" class="md-nav__link">
         
   
   
@@ -1207,8 +1190,6 @@
             
             
               
-                
-              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -1218,6 +1199,82 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        縮小率の統一
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        余白（下のみ・上と左右は不要）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        フォントサイズ下限
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        タイトルとグラフの間隔
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        タイトル重複の禁止
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ズームヒント（Markdown 側）
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1231,126 +1288,76 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
 
 
 
+<h1 id="blog">blog 画像生成スクリプト 設計基準</h1>
+<h2 id="_1">縮小率の統一</h2>
+<ul>
+<li><strong>単体チャート</strong>: <code>figsize</code> 幅 <strong>13 インチ</strong> / 144 DPI → 約 1872px（ブログ 800px カラムで約 43% 縮小）</li>
+<li><strong>グリッドチャート</strong>: <code>cols × col_w</code> の可変幅を維持する（13 インチに固定しない）</li>
+</ul>
+<h2 id="_2">余白（下のみ・上と左右は不要）</h2>
+<p>上部は Markdown の「クリックで拡大できます」テキストが余白を兼ねる。</p>
+<pre><code class="language-python">mpl.rcParams["savefig.bbox"] = "tight"
+mpl.rcParams["savefig.pad_inches"] = 0  # 左右・上余白なし
 
-  <h1>株 × Python × AI</h1>
+# 下のみ 0.5 インチ余白を追加するヘルパーで保存する
+# ※ spacer 方式はコンテンツ下端位置によって余白が変わるため、
+#   PNG にピクセル行を直接追加する方式を採用する。
+def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -&gt; None:
+    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+    import io
+    import numpy as np
+    buf = io.BytesIO()
+    fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
+    buf.seek(0)
+    img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
+    pad_rows = max(1, round(bpad * fig.dpi))
+    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
+</code></pre>
+<p><code>fig.savefig(path)</code> の代わりに必ず <code>_savefig_vpad(fig, path)</code> を使う。</p>
+<p>また、<code>subplots_adjust(bottom=X)</code> や <code>gridspec(bottom=X)</code> で独自の下余白を設けると<br>
+<code>_savefig_vpad</code> と二重に積み上がるため、これらの <code>bottom=</code> は <strong>0 または省略</strong> にする。</p>
+<h2 id="_3">フォントサイズ下限</h2>
+<table>
+<thead>
+<tr>
+<th>用途</th>
+<th>最小サイズ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>本文テキスト（軸ラベル・凡例・注釈）</td>
+<td><strong>16</strong></td>
+</tr>
+<tr>
+<td>小ラベル（コード番号・補足・PEG/ROE 表示）</td>
+<td><strong>16</strong></td>
+</tr>
+<tr>
+<td>タイトル</td>
+<td><strong>20</strong></td>
+</tr>
+<tr>
+<td>サブタイトル（suptitle）</td>
+<td><strong>21</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">タイトルとグラフの間隔</h2>
+<pre><code class="language-python">mpl.rcParams["axes.titlepad"] = 30  # タイトルとグラフ上端の余白（pt）
+</code></pre>
+<h2 id="_5">タイトル重複の禁止</h2>
+<p><code>fig.suptitle</code> を使う場合、<code>ax.set_title</code> は削除する（両方置くと重なる）。</p>
+<h2 id="markdown">ズームヒント（Markdown 側）</h2>
+<p>各画像 <code>![]()</code> の<strong>直前の行</strong>に必ず配置する:</p>
+<pre><code class="language-markdown">&lt;small style="color: var(--md-link-color);"&gt;&lt;i class="fa-solid fa-expand"&gt;&lt;/i&gt; クリックで拡大できます&lt;/small&gt;
 
-<style>.md-typeset h1 { display: none !important; }</style>
-
-<p>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &amp;text=株主総会意見 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について" target="_blank" class="x-share" style="color: #FFFFFF;">
-    <i class="fa-brands fa-x-twitter"></i> でシェア
-  </a>
-</p>
-
-<p class="blog-main-title">株 × Python × AI</p>
-
-<p>
-Python と AI を使って、株価・決算短信・有報を分析してみました。
-</p>
-
-<div>
-<p class="large" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
-おすすめの読み順
-</p>
-<p class="margin02">
-ＥＮＥＯＳの "ピークアウト構図" という単一の物語。<b>「ＥＮＥＯＳの 2022 ピーク利益 5,371 億円が、なぜ、どこで、いつ剥落したのか」</b> を多角的に解剖していきます。
-</p>
-<div class="margin01">
-<div class="card-bule">
-<p class=" small">
-<b>１．連載06: XBRL とは何か</b>
-</p>
-<p class="small pad2">
-ＥＮＥＯＳ 2022年 純利 5,371 億 → 2025年 2,261 億の半減を見る
-</p>
-<p class="small">
-<b>２．連載09: 進捗率 Z-score 早期警報</b> 
-</p>
-<p class="small pad2">
-3 ヶ月先の下方修正を Z-score で検出
-</p>
-<p class="small">
-<b>３．連載10: アクルーアル分析</b>
-</p>
-<p class="small pad2">
-2022 ピーク利益はキャッシュで裏付けられていなかった
-</p>
-<p class="small">
-<b>４．連載02: マルチファクタースコアボード</b>
-</p>
-<p class="small pad2">
-業種代表 51 銘柄の中での ＥＮＥＯＳの相対評価
-</p>
-<p class="small">
-<b>５．連載13: CAR イベントスタディ</b>
-</p>
-<p class="small pad2">
-2025/3 期通期 CAR [-1, +20] = −13.89%、市場がピークアウトを公式に織り込んだ瞬間
-</p>
-</div>
-</div>
-<div>
-<p class="large" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
-全 16 連載　目次
-</p>
-<div class="margin01">
-<div class="card-bule">
-<p class=" small hg-idt4">
-連載01．PEG × ROE で「成長と割安の両立銘柄」を発掘する ― GARP の理論と実践
-</p>
-<p class=" small hg-idt4">
-連載02．マルチファクターで銘柄を採点する ― マルチファクタースコアボードで「全方位優等生」を発見
-</p>
-<p class=" small hg-idt4">
-連載03．EPS リビジョン・モメンタムで「出遅れ買い候補」を発掘する
-</p>
-<p class=" small hg-idt4">
-連載04．連続サプライズ・スコアボードで「業績モメンタム本物の銘柄」を発掘する
-</p>
-<p class=" small hg-idt4">
-連載05．信用需給ダッシュボードで「踏み上げ候補」を発見する ― 業績軸に需給軸を合流
-</p>
-<p class=" small hg-idt4">
-連載06．XBRL とは何か ― 決算データの中身に手を伸ばす
-</p>
-<p class=" small hg-idt4">
-連載07．EDINET / TDnet から XBRL を取得してパースする
-</p>
-<p class=" small hg-idt4">
-連載08．決算短信 JSON のスキーマ設計 ― XBRL の混沌を整理する
-</p>
-<p class=" small hg-idt4">
-連載09．進捗率 Z-score 早期警報 ― 決算下方修正を 1〜3 ヶ月先取りする
-</p>
-<p class=" small hg-idt4">
-連載10．アクルーアル分析で「利益の質」を見抜く ― ＥＮＥＯＳ 2022 ピーク利益はキャッシュで裏付けられていなかった
-</p>
-<p class=" small hg-idt4">
-連載11．三角検証 ― コンセンサス × 企業ガイダンス × 実績で予想の信頼性を見抜く
-</p>
-<p class=" small hg-idt4">
-連載12．セグメント発進力スコア ― ＥＮＥＯＳ主力 2 事業の OPM ピークアウトを内訳分解
-</p>
-<p class=" small hg-idt4">
-連載13．CAR イベントスタディで「決算後ドリフト」を実証する ― 8,049 イベント × narrative 銘柄で PEAD を検証
-</p>
-<p class=" small hg-idt4">
-連載14．構造化 JSON × LLM で決算短信を 1 文要約 ― 要約と CAR の答え合わせ
-</p>
-<p class=" small hg-idt4">
-連載15．数値特徴量ベクトルで類似決算を検索する ― 「個別ショック」を類似群との乖離で発見
-</p>
-<p class=" small hg-idt4">
-連載16．K-NN で「値動き予測」を試して失敗した話 ― 失敗が浮かび上がらせた個別ショック検出器（全16連載完結）
-</p>
-</div>
-</div>
-</div>
-</div>
+![alt](img/path.png){width="1200"}
+</code></pre>
 
 
 
@@ -1358,13 +1365,8 @@ Python と AI を使って、株価・決算短信・有報を分析してみま
 
 
 
-  
-  
 
 
-
-
-  
 
 
 
@@ -1450,12 +1452,12 @@ Python と AI を使って、株価・決算短信・有報を分析してみま
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../js/custom.js"></script>
+        <script src="../../../js/custom.js"></script>
       
     
   

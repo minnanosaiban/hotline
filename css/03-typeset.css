@@ -146,9 +146,6 @@ h4 {
   color: var(--md-typeset-color) !important;
   font-weight: 400 !important;
 }
-/* h2 + h3 {
-  margin-top: 2.4rem !important;
-} */
 /* デフォルトの h2:after スタイル */
 /* h2:after { */
 /*   content: ""; */
