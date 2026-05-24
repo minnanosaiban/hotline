@@ -171,14 +171,14 @@ net_sales 系 JSON パスだけで **55 ルール** が存在します。
 | metadata.filing_date | 100.0% |
 | metadata.accounting_standard | 100.0% |
 | metadata.fiscal_year_end | 99.8% |
-| performance.current.net_income | 93.8% |
-| performance.current.eps | 93.4% |
-| performance.current.net_sales | 93.0% |
-| performance.current.operating_income | 90.8% |
-| performance.current.ordinary_income | 68.0% |
-| performance.current.comprehensive_income | 62.8% |
+| performance.current.net_income | 93.0% |
+| performance.current.eps | 92.8% |
+| performance.current.net_sales | 91.6% |
+| performance.current.operating_income | 89.6% |
+| performance.current.ordinary_income | 73.8% |
+| performance.current.comprehensive_income | 68.8% |
 
-metadata は **100% カバレッジ**。これはスキーマ設計が正しく機能している証です。逆に `ordinary_income`（経常利益）が 68% に留まるのは、IFRS 採用企業が「経常利益」概念を使わない（営業利益 → 税引前利益 の構造）ためです。これは欠陥ではなく **会計基準の正直な反映** です。
+metadata は **100% カバレッジ**。これはスキーマ設計が正しく機能している証です。逆に `ordinary_income`（経常利益）が 74% に留まるのは、IFRS 採用企業が「経常利益」概念を使わない（営業利益 → 税引前利益 の構造）ためです。これは欠陥ではなく **会計基準の正直な反映** です。
 
 **低カバレッジの代表例**（該当時のみ存在するフィールド）：
 
@@ -423,11 +423,11 @@ def audit_mapping(csv_path: str = "collectors/kessan_mapping.csv") -> dict:
 
 print(audit_mapping())
 # → total_rules: 263
-# → unique_json_paths: ~90
-# → avg_tags_per_path: 2.9（1 パスあたり平均 2.9 個の XBRL タグが紐づく）
+# → unique_json_paths: ~120
+# → avg_tags_per_path: 2.1（1 パスあたり平均 2 個の XBRL タグが紐づく）
 ```
 
-「1 json_path あたり平均 3 タグ」という数字は、**会計基準と業種別タクソノミの差分吸収にどれだけ投資しているか** の指標になります。
+「1 json_path あたり平均 2 タグ」という数字は、**会計基準と業種別タクソノミの差分吸収にどれだけ投資しているか** の指標になります。
 
 ---
 
@@ -460,7 +460,7 @@ print(audit_mapping())
 
 ## まとめ ― フェーズ 2 の総括
 
-- XBRL の混沌を独自 JSON スキーマで整理。マッピング辞書 `kessan_mapping.csv` の **263 ルール / 約 90 個の json_path** が本体
+- XBRL の混沌を独自 JSON スキーマで整理。マッピング辞書 `kessan_mapping.csv` の **263 ルール / 約 120 個の json_path** が本体
 - セクション別では **performance に 70% 集中**（186 ルール）。投資家が最も使う業績データへの集中投資
 - **「1 json_path : N xbrl_tag」設計** で会計基準（IFRS 121 / JP 98 / any 44）と業種別タクソノミの差分を吸収。net_sales 系だけで 55 ルール
 - 実データ 500 ファイルでのカバレッジは **metadata 100% / 業績核項目（net_sales/net_income/eps/operating_income）90% 以上** と高水準

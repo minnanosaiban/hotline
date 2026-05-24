@@ -160,7 +160,8 @@ plugins:
   # status:  # フロントマターに記載すると「New!」と表示
     # new: "New!"
 
-# hooks: # マクロのように定型処理を自動化
+hooks:
+  - overrides/hooks/add_blog_class.py
   # - overrides/hooks/shortcodes.py
   # - overrides/hooks/translations.py
 

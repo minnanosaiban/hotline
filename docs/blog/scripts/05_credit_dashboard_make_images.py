@@ -15,7 +15,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+sys.path.insert(0, r"C:\stock_analysis")
 
 import numpy as np
 import pandas as pd
@@ -35,6 +35,14 @@ mpl.rcParams["axes.facecolor"] = "white"
 mpl.rcParams["savefig.facecolor"] = "white"
 mpl.rcParams["savefig.bbox"] = "tight"
 mpl.rcParams["savefig.dpi"] = 144
+mpl.rcParams["savefig.pad_inches"] = 0        # left/right/top: no padding
+mpl.rcParams["axes.titlepad"] = 30
+mpl.rcParams["font.size"] = 16
+mpl.rcParams["axes.titlesize"] = 20
+mpl.rcParams["axes.labelsize"] = 16
+mpl.rcParams["xtick.labelsize"] = 16
+mpl.rcParams["ytick.labelsize"] = 16
+mpl.rcParams["legend.fontsize"] = 16
 
 C_UP   = "#27ae60"
 C_DOWN = "#e74c3c"
@@ -50,6 +58,19 @@ C_GRID = "#eaeaea"
 
 OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/05_credit")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
+    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+    import io
+    import numpy as np
+    buf = io.BytesIO()
+    fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
+    buf.seek(0)
+    img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
+    pad_rows = max(1, round(bpad * fig.dpi))
+    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
 
 
 # ── データ準備 ─────────────────────────────────────────────────────────────
@@ -127,11 +148,11 @@ def make_credit_distribution(df: pd.DataFrame) -> None:
                  linestyle=":", label="5倍（踏み上げ警戒）")
     ax_l.set_xticks([-1, 0, 1, 2, 3])
     ax_l.set_xticklabels(["0.1", "1", "10", "100", "1000"])
-    ax_l.set_xlabel("信用倍率（倍、対数スケール）", fontsize=14, color=C_TEXT)
-    ax_l.set_ylabel("銘柄数", fontsize=14, color=C_TEXT_SUB)
+    ax_l.set_xlabel("信用倍率（倍、対数スケール）", fontsize=16, color=C_TEXT)
+    ax_l.set_ylabel("銘柄数", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_title(f"信用倍率の分布  ―  {len(s_kr):,} 銘柄",
-                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
-    ax_l.legend(loc="upper right", fontsize=12.6, frameon=False)
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_l.legend(loc="upper right", fontsize=16, frameon=False)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.grid(axis="y", color=C_GRID, linewidth=0.5)
@@ -146,19 +167,18 @@ def make_credit_distribution(df: pd.DataFrame) -> None:
                  label=f"中央値 {med:.1f}日")
     ax_r.axvline(10, color=C_DOWN, linewidth=0.7, linestyle=":",
                  label="10日（需給重）")
-    ax_r.set_xlabel("信用残 / 売買高レシオ（日）", fontsize=14, color=C_TEXT)
-    ax_r.set_ylabel("銘柄数", fontsize=14, color=C_TEXT_SUB)
+    ax_r.set_xlabel("信用残 / 売買高レシオ（日）", fontsize=16, color=C_TEXT)
+    ax_r.set_ylabel("銘柄数", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_title(f"信用残/売買高レシオの分布  ―  {len(s_ra):,} 銘柄",
-                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
-    ax_r.legend(loc="upper right", fontsize=12.6, frameon=False)
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_r.legend(loc="upper right", fontsize=16, frameon=False)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.grid(axis="y", color=C_GRID, linewidth=0.5)
 
     fig.suptitle("信用需給の市場全体像（時価総額 100 億円以上）",
-                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "01_credit_distribution.png")
+                 fontsize=16, fontweight="bold", color=C_TEXT, y=1.02)
+    _savefig_vpad(fig, OUT_DIR / "01_credit_distribution.png")
     plt.close(fig)
 
 
@@ -191,12 +211,12 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
     ax_a.axvline(5, color=C_OK, linewidth=0.7, linestyle=":")
     for i, v in enumerate(rdf["信用倍率"]):
         ax_a.text(v + 0.3, i, f"{v:.2f}倍", va="center",
-                  fontsize=14, fontweight="bold", color=C_TEXT)
+                  fontsize=16, fontweight="bold", color=C_TEXT)
     ax_a.set_yticks(y)
-    ax_a.set_yticklabels(rdf["銘柄名"], fontsize=15.4)
+    ax_a.set_yticklabels(rdf["銘柄名"], fontsize=16)
     ax_a.invert_yaxis()
     ax_a.set_xlim(0, max(rdf["信用倍率"]) * 1.25)
-    ax_a.set_title("信用倍率（買 ÷ 売）", fontsize=15.4, fontweight="bold",
+    ax_a.set_title("信用倍率（買 ÷ 売）", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
     for sp in ("top", "right"):
         ax_a.spines[sp].set_visible(False)
@@ -213,16 +233,16 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
               label="信用残(売)（千株）")
     for i, (b, s) in enumerate(zip(rdf["信用残(買)"], rdf["信用残(売)"])):
         ax_b.text(b / 1000 + 30, i - h/2, f"{b/1000:,.0f}",
-                  va="center", fontsize=12.6, color=C_BUY)
+                  va="center", fontsize=16, color=C_BUY)
         ax_b.text(s / 1000 + 30, i + h/2, f"{s/1000:,.0f}",
-                  va="center", fontsize=12.6, color=C_SELL)
+                  va="center", fontsize=16, color=C_SELL)
     ax_b.set_yticks(y)
     ax_b.set_yticklabels([""] * len(rdf))
     ax_b.invert_yaxis()
     ax_b.set_xlim(0, max(rdf["信用残(買)"]) / 1000 * 1.25)
-    ax_b.set_title("信用残（千株）", fontsize=15.4, fontweight="bold",
+    ax_b.set_title("信用残（千株）", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
-    ax_b.legend(loc="lower right", fontsize=11.9, frameon=False)
+    ax_b.legend(loc="lower right", fontsize=16, frameon=False)
     for sp in ("top", "right"):
         ax_b.spines[sp].set_visible(False)
     ax_b.grid(axis="x", color=C_GRID, linewidth=0.5)
@@ -237,12 +257,12 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
         ax_c.text(v / 1000 + (5 if v >= 0 else -5), i,
                   f"{v/1000:+.0f}千株",
                   va="center", ha="left" if v >= 0 else "right",
-                  fontsize=13.3, fontweight="bold",
+                  fontsize=16, fontweight="bold",
                   color=C_UP if v >= 0 else C_DOWN)
     ax_c.set_yticks(y)
     ax_c.set_yticklabels([""] * len(rdf))
     ax_c.invert_yaxis()
-    ax_c.set_title("信用残(買) 前週比（千株）", fontsize=15.4, fontweight="bold",
+    ax_c.set_title("信用残(買) 前週比（千株）", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
     for sp in ("top", "right"):
         ax_c.spines[sp].set_visible(False)
@@ -251,9 +271,8 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
     ax_c.set_xlim(-xmax, xmax)
 
     fig.suptitle("石油元売 3 社  ―  信用需給スナップショット",
-                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=0.99)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "02_oil_refining_credit.png")
+                 fontsize=16, fontweight="bold", color=C_TEXT, y=1.02)
+    _savefig_vpad(fig, OUT_DIR / "02_oil_refining_credit.png")
     plt.close(fig)
 
 
@@ -273,16 +292,16 @@ def make_credit_changes(df: pd.DataFrame) -> None:
     for i, (_, r) in enumerate(top_up.iterrows()):
         v = r["前週比(買)"] / 1_000_000
         ax_l.text(v + 0.2, i, f"+{v:.2f}M株 (倍率{r['信用倍率']:.1f})",
-                  va="center", fontsize=11.9, color=C_BUY, fontweight="bold")
+                  va="center", fontsize=16, color=C_BUY, fontweight="bold")
     ax_l.set_yticks(y)
     ax_l.set_yticklabels([f"{r['コード']} {r['銘柄名']}"
-                          for _, r in top_up.iterrows()], fontsize=12.6)
-    ax_l.set_xlabel("前週比(買)（百万株）", fontsize=13.3, color=C_TEXT_SUB)
+                          for _, r in top_up.iterrows()], fontsize=16)
+    ax_l.set_xlabel("前週比(買)（百万株）", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_xlim(0, top_up["前週比(買)"].max() / 1_000_000 * 1.4)
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
-    ax_l.set_title("信用残(買) 前週比 急増 Top10", fontsize=16.8, fontweight="bold",
+    ax_l.set_title("信用残(買) 前週比 急増 Top10", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
 
     # 急減
@@ -293,22 +312,21 @@ def make_credit_changes(df: pd.DataFrame) -> None:
         v = r["前週比(買)"] / 1_000_000
         ax_r.text(v - 0.2, i, f"{v:.2f}M株 (倍率{r['信用倍率']:.1f})",
                   va="center", ha="right",
-                  fontsize=11.9, color=C_DOWN, fontweight="bold")
+                  fontsize=16, color=C_DOWN, fontweight="bold")
     ax_r.set_yticks(y)
     ax_r.set_yticklabels([f"{r['コード']} {r['銘柄名']}"
-                          for _, r in top_dn.iterrows()], fontsize=12.6)
-    ax_r.set_xlabel("前週比(買)（百万株）", fontsize=13.3, color=C_TEXT_SUB)
+                          for _, r in top_dn.iterrows()], fontsize=16)
+    ax_r.set_xlabel("前週比(買)（百万株）", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(top_dn["前週比(買)"].min() / 1_000_000 * 1.4, 0)
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
-    ax_r.set_title("信用残(買) 前週比 急減 Top10", fontsize=16.8, fontweight="bold",
+    ax_r.set_title("信用残(買) 前週比 急減 Top10", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
 
     fig.suptitle("信用残(買) の週次変化  ―  時価総額 100 億円以上",
-                 fontsize=18.2, fontweight="bold", color=C_TEXT, y=1.00)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "03_credit_changes.png")
+                 fontsize=16, fontweight="bold", color=C_TEXT, y=1.00)
+    _savefig_vpad(fig, OUT_DIR / "03_credit_changes.png")
     plt.close(fig)
 
 
@@ -322,7 +340,7 @@ def make_credit_vs_volume(df: pd.DataFrame) -> None:
     med_kr  = f["信用倍率"].median()
     med_vol = f["出来高増加率"].median()
 
-    fig, ax = plt.subplots(figsize=(12, 7.5))
+    fig, ax = plt.subplots(figsize=(13, 7.5))
 
     # 右上ゾーン
     ax.axhspan(med_vol, 10, xmin=(med_kr - 0) / 200, xmax=1.0,
@@ -352,7 +370,7 @@ def make_credit_vs_volume(df: pd.DataFrame) -> None:
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=14.7, fontweight="bold", color="#1F4E8C",
+                    fontsize=16, fontweight="bold", color="#1F4E8C",
                     bbox=dict(facecolor="white", alpha=0.92,
                               edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
                     zorder=9)
@@ -364,28 +382,27 @@ def make_credit_vs_volume(df: pd.DataFrame) -> None:
 
     # ゾーンラベル
     ax.text(100, 5.5, "★踏み上げ候補★\n信用倍率高 × 出来高急増",
-            fontsize=15.4, fontweight="bold", color=C_HOT,
+            fontsize=16, fontweight="bold", color=C_HOT,
             ha="center", va="center")
     ax.text(1, 5.5, "出来高急増\n空売り優位",
-            fontsize=12.6, color=C_TEXT_SUB, ha="center", va="center")
+            fontsize=16, color=C_TEXT_SUB, ha="center", va="center")
     ax.text(100, 0.3, "信用倍率高\n出来高小（注目薄）",
-            fontsize=12.6, color=C_TEXT_SUB, ha="center", va="center")
+            fontsize=16, color=C_TEXT_SUB, ha="center", va="center")
 
     ax.set_xlim(0, 200)
     ax.set_ylim(0, 7)
     ax.set_xlabel("信用倍率（倍）  ← 空売り優位    踏み上げリスク →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=16, color=C_TEXT)
     ax.set_ylabel("出来高増加率（倍、yfinance 自前計算）  ← 閑散    急増 →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=16, color=C_TEXT)
     ax.set_title(f"信用倍率 × 出来高増加率  ―  踏み上げスクリーナー（中央値: {med_kr:.1f}倍 / {med_vol:.2f}倍）",
-                 fontsize=17.5, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                 fontsize=16, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="upper right", fontsize=14, frameon=True,
+    ax.legend(loc="upper right", fontsize=16, frameon=True,
               facecolor="white", edgecolor="#dddddd")
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "04_credit_vs_volume.png")
+    _savefig_vpad(fig, OUT_DIR / "04_credit_vs_volume.png")
     plt.close(fig)
 
 
@@ -396,7 +413,7 @@ def make_fund_vs_credit(df: pd.DataFrame) -> None:
     f = f[f["信用倍率"] > 0]
     f = f[f["業績予想修正率(予)"].between(-30, 30) & f["信用倍率"].between(0.05, 100)]
 
-    fig, ax = plt.subplots(figsize=(12, 8))
+    fig, ax = plt.subplots(figsize=(13, 8))
 
     # ゾーン分類
     f["zone"] = "中立"
@@ -446,7 +463,7 @@ def make_fund_vs_credit(df: pd.DataFrame) -> None:
                    linewidth=2.0, zorder=10, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=14.7, fontweight="bold", color="#1F4E8C",
+                    fontsize=16, fontweight="bold", color="#1F4E8C",
                     bbox=dict(facecolor="white", alpha=0.92,
                               edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
                     zorder=11)
@@ -462,18 +479,17 @@ def make_fund_vs_credit(df: pd.DataFrame) -> None:
     ax.set_xlim(-30, 30)
     ax.set_ylim(0.05, 100)
     ax.set_xlabel("業績予想修正率(予)（%）  ← 業績NG    業績OK →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=16, color=C_TEXT)
     ax.set_ylabel("信用倍率（倍、対数）  ← 空売り優位    踏み上げ →",
-                  fontsize=15.4, color=C_TEXT)
+                  fontsize=16, color=C_TEXT)
     ax.set_title("業績 × 需給 4 象限マトリクス  ―  連載01〜04 の業績軸と連載05 の需給軸の合流",
-                 fontsize=17.5, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                 fontsize=16, fontweight="bold", color=C_TEXT, pad=12, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5, which="both")
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="upper left", fontsize=13.3, frameon=True,
+    ax.legend(loc="upper left", fontsize=16, frameon=True,
               facecolor="white", edgecolor="#dddddd")
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "05_fund_vs_credit.png")
+    _savefig_vpad(fig, OUT_DIR / "05_fund_vs_credit.png")
     plt.close(fig)
 
 
