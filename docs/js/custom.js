@@ -1,10 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  if (window.location.pathname.includes("/blog/")) {
-    document.body.classList.add("blog-page");
-  } else {
-    document.body.classList.remove("blog-page");
-  }
-
   document.querySelectorAll('nav a[href^="http"]').forEach(function (link) {
     link.setAttribute("target", "_blank");
     link.setAttribute("rel", "noopener noreferrer");
@@ -16,11 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
-function toggleMenu() {
-  const menu = document.getElementById("mobileMenu");
-  menu.style.display = (menu.style.display === "block") ? "none" : "block";
-}
 
 function toggleindex() {
   const menu = document.getElementById("mobilemokuji");

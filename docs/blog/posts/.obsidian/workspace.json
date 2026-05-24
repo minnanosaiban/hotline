@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_PEG_ROE銘柄分析.md",
+                "file": "12_segment_analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_PEG_ROE銘柄分析"
+              "title": "12_segment_analysis"
             }
           }
         ]
@@ -185,18 +185,26 @@
   },
   "active": "4fea150f2d7f98e7",
   "lastOpenFiles": [
+    "12_segment_analysis.md.tmp.2308.9aac93d2513d",
+    "12_segment_analysis.md.tmp.2308.91d725b50a4f",
+    "12_segment_analysis.md.tmp.2308.3bc01c517396",
+    "15_similar_earnings_search.md.tmp.2308.2db6eef0e7c5",
+    "15_similar_earnings_search.md.tmp.2308.b72b133a2a27",
+    "15_similar_earnings_search.md.tmp.2308.f41e6bd35d1f",
+    "16_knn_prediction.md.tmp.2308.b8d2b9c948de",
+    "16_knn_prediction.md.tmp.2308.4fb73f950109",
+    "16_knn_prediction.md.tmp.2308.cae438a995cd",
+    "16_knn_prediction.md.tmp.2308.0d11cb681bac",
+    "16_knn_prediction.md.tmp.2308.2ad8cf037568",
+    "08_kessan_json_schema.md",
+    "05_credit_supply_dashboard.md",
+    "02_multifactor_scoreboard.md",
+    "01_garp_peg_roe.md",
+    "03_eps_revision_momentum.md",
+    "16_knn_prediction.md",
+    "15_similar_earnings_search.md",
     "02_マルチファクタースコアボード.md",
     "01_PEG_ROE銘柄分析.md",
-    "16_類似決算値動き予測.md.tmp.2248.f1fbc2ecc759",
-    "15_類似決算検索.md.tmp.2248.a381c94ac3f6",
-    "15_類似決算検索.md.tmp.2248.6633a6ae70ed",
-    "14_LLM要約.md.tmp.2248.b06041079aa0",
-    "14_LLM要約.md.tmp.2248.b40bc73bd74b",
-    "14_LLM要約.md.tmp.2248.884bf1b76ce3",
-    "13_CARイベントスタディ.md.tmp.2248.5a08e83c1b33",
-    "12_セグメント発進力.md.tmp.2248.3ba7ba4b8b0f",
-    "12_セグメント発進力.md.tmp.2248.6abe15b221cd",
-    "12_セグメント発進力.md.tmp.2248.85727b25b19d",
     "07_EDINET_TDnet取得とパース.md",
     "06_XBRLとは何か.md",
     "03_EPSリビジョンモメンタム.md",

@@ -16,7 +16,7 @@ import sys
 import json
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+sys.path.insert(0, r"C:\stock_analysis")
 
 import numpy as np
 import pandas as pd
@@ -33,6 +33,14 @@ mpl.rcParams["axes.facecolor"] = "white"
 mpl.rcParams["savefig.facecolor"] = "white"
 mpl.rcParams["savefig.bbox"] = "tight"
 mpl.rcParams["savefig.dpi"] = 144
+mpl.rcParams["savefig.pad_inches"] = 0        # left/right/top: no padding
+mpl.rcParams["axes.titlepad"] = 30
+mpl.rcParams["font.size"] = 16
+mpl.rcParams["axes.titlesize"] = 20
+mpl.rcParams["axes.labelsize"] = 16
+mpl.rcParams["xtick.labelsize"] = 16
+mpl.rcParams["ytick.labelsize"] = 16
+mpl.rcParams["legend.fontsize"] = 16
 
 C_EDI  = "#1F4E8C"
 C_TDN  = "#E67E22"
@@ -44,6 +52,20 @@ C_GRID = "#eaeaea"
 
 OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/07_pipeline")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
+    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+    import io
+    import numpy as np
+    buf = io.BytesIO()
+    fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
+    buf.seek(0)
+    img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
+    pad_rows = max(1, round(bpad * fig.dpi))
+    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
+
 
 STOCK = Path(r"C:/stock_analysis")
 
@@ -60,7 +82,7 @@ def make_pipeline_diagram() -> None:
                               linewidth=1.5, edgecolor=color, facecolor=fc)
         ax.add_patch(rect)
         ax.text(x + w / 2, y + h / 2, label, ha="center", va="center",
-                fontsize=14, fontweight="bold", color=color)
+                fontsize=16, fontweight="bold", color=color)
 
     def arrow(x1, y1, x2, y2, label=None, color="#666666"):
         a = FancyArrowPatch((x1, y1), (x2, y2),
@@ -69,7 +91,7 @@ def make_pipeline_diagram() -> None:
         ax.add_patch(a)
         if label:
             ax.text((x1 + x2) / 2, (y1 + y2) / 2 + 0.18, label,
-                    fontsize=11.9, ha="center", va="bottom",
+                    fontsize=16, ha="center", va="bottom",
                     color=color, style="italic")
 
     # EDINET 経路（上段）
@@ -103,17 +125,16 @@ def make_pipeline_diagram() -> None:
 
     # 凡例的なタイトル
     ax.text(0.3, 6.4, "EDINET 経路（有価証券報告書／四半期報告書）",
-            fontsize=16.1, fontweight="bold", color=C_EDI)
+            fontsize=16, fontweight="bold", color=C_EDI)
     ax.text(0.3, 2.9, "TDnet 経路（決算短信／適時開示）",
-            fontsize=16.1, fontweight="bold", color=C_TDN)
+            fontsize=16, fontweight="bold", color=C_TDN)
 
     ax.set_title(
         "自前 XBRL パイプラインの全体像  ―  2 経路 × 3 ステップ × マッピング辞書",
-        fontsize=18.9, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
     )
 
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "01_pipeline_diagram.png")
+    _savefig_vpad(fig, OUT_DIR / "01_pipeline_diagram.png")
     plt.close(fig)
 
 
@@ -147,16 +168,16 @@ def make_storage_stats() -> None:
               edgecolor="white", linewidth=0.8)
     for i, v in enumerate(df["count"]):
         ax_l.text(v + max(df["count"]) * 0.01, i, f"{v:,}",
-                  va="center", fontsize=14, fontweight="bold", color=C_TEXT)
+                  va="center", fontsize=16, fontweight="bold", color=C_TEXT)
     ax_l.set_yticks(y)
-    ax_l.set_yticklabels(df["label"], fontsize=14.7)
+    ax_l.set_yticklabels(df["label"], fontsize=16)
     ax_l.invert_yaxis()
-    ax_l.set_xlabel("ファイル数", fontsize=14, color=C_TEXT_SUB)
+    ax_l.set_xlabel("ファイル数", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_xlim(0, max(df["count"]) * 1.15)
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
-    ax_l.set_title("ファイル数", fontsize=16.8, fontweight="bold",
+    ax_l.set_title("ファイル数", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
 
     # サイズ
@@ -164,22 +185,21 @@ def make_storage_stats() -> None:
               edgecolor="white", linewidth=0.8)
     for i, v in enumerate(df["size_mb"]):
         ax_r.text(v + max(df["size_mb"]) * 0.01, i, f"{v:,.0f} MB",
-                  va="center", fontsize=14, fontweight="bold", color=C_TEXT)
+                  va="center", fontsize=16, fontweight="bold", color=C_TEXT)
     ax_r.set_yticks(y)
-    ax_r.set_yticklabels(df["label"], fontsize=14.7)
+    ax_r.set_yticklabels(df["label"], fontsize=16)
     ax_r.invert_yaxis()
-    ax_r.set_xlabel("サイズ（MB）", fontsize=14, color=C_TEXT_SUB)
+    ax_r.set_xlabel("サイズ（MB）", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(0, max(df["size_mb"]) * 1.18)
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
-    ax_r.set_title("ストレージサイズ", fontsize=16.8, fontweight="bold",
+    ax_r.set_title("ストレージサイズ", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=10, loc="left")
 
     fig.suptitle("自前 XBRL パイプラインのストレージ状況",
-                 fontsize=18.9, fontweight="bold", color=C_TEXT, y=0.99)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "02_storage_stats.png")
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+    _savefig_vpad(fig, OUT_DIR / "02_storage_stats.png")
     plt.close(fig)
 
 
@@ -209,12 +229,12 @@ def make_kessan_distribution() -> None:
     for b, c in zip(bars, counts):
         if c > 0:
             ax_l.text(b.get_x() + b.get_width() / 2, b.get_height() + 8,
-                      str(c), ha="center", va="bottom", fontsize=12.6,
+                      str(c), ha="center", va="bottom", fontsize=16,
                       color=C_TEXT, fontweight="bold")
-    ax_l.set_xlabel("決算期末月", fontsize=14, color=C_TEXT)
-    ax_l.set_ylabel("ファイル数", fontsize=14, color=C_TEXT_SUB)
+    ax_l.set_xlabel("決算期末月", fontsize=16, color=C_TEXT)
+    ax_l.set_ylabel("ファイル数", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_title(f"決算期末月の分布  ―  3 月期が圧倒（全 {len(df):,} ファイル）",
-                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
     ax_l.grid(axis="y", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
@@ -229,23 +249,22 @@ def make_kessan_distribution() -> None:
     ax_r.barh(y, kind_counts, color=colors_k, alpha=0.85,
               edgecolor="white", linewidth=0.8)
     for i, c in enumerate(kind_counts):
-        ax_r.text(c + 8, i, str(c), va="center", fontsize=13.3,
+        ax_r.text(c + 8, i, str(c), va="center", fontsize=16,
                   fontweight="bold", color=C_TEXT)
     ax_r.set_yticks(y)
-    ax_r.set_yticklabels(kind_order, fontsize=14)
+    ax_r.set_yticklabels(kind_order, fontsize=16)
     ax_r.invert_yaxis()
-    ax_r.set_xlabel("ファイル数", fontsize=14, color=C_TEXT_SUB)
+    ax_r.set_xlabel("ファイル数", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(0, max(kind_counts) * 1.15)
     ax_r.set_title("書類種別の分布  ―  FY（本決算）+ forecast（予想）が中心",
-                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
 
     fig.suptitle("決算短信 JSON  ―  カバレッジの内訳",
-                 fontsize=18.9, fontweight="bold", color=C_TEXT, y=0.99)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "03_kessan_distribution.png")
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+    _savefig_vpad(fig, OUT_DIR / "03_kessan_distribution.png")
     plt.close(fig)
 
 
@@ -263,14 +282,14 @@ def make_mapping_dict() -> None:
     ax_l.barh(y, cat_y.values, color="#3498db", alpha=0.85,
               edgecolor="white", linewidth=0.8)
     for i, v in enumerate(cat_y.values):
-        ax_l.text(v + 0.3, i, str(v), va="center", fontsize=13.3,
+        ax_l.text(v + 0.3, i, str(v), va="center", fontsize=16,
                   fontweight="bold", color=C_TEXT)
     ax_l.set_yticks(y)
-    ax_l.set_yticklabels(cat_y.index, fontsize=13.3)
-    ax_l.set_xlabel("ルール数", fontsize=14, color=C_TEXT_SUB)
+    ax_l.set_yticklabels(cat_y.index, fontsize=16)
+    ax_l.set_xlabel("ルール数", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_xlim(0, max(cat_y.values) * 1.18)
     ax_l.set_title(f"yuho_mapping.csv  ―  全 {len(mp)} ルール / カテゴリ Top 10",
-                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
@@ -281,14 +300,14 @@ def make_mapping_dict() -> None:
     ax_r.barh(y, cat_k.values, color="#9b59b6", alpha=0.85,
               edgecolor="white", linewidth=0.8)
     for i, v in enumerate(cat_k.values):
-        ax_r.text(v + 1.5, i, str(v), va="center", fontsize=13.3,
+        ax_r.text(v + 1.5, i, str(v), va="center", fontsize=16,
                   fontweight="bold", color=C_TEXT)
     ax_r.set_yticks(y)
-    ax_r.set_yticklabels(cat_k.index, fontsize=14)
-    ax_r.set_xlabel("ルール数", fontsize=14, color=C_TEXT_SUB)
+    ax_r.set_yticklabels(cat_k.index, fontsize=16)
+    ax_r.set_xlabel("ルール数", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(0, max(cat_k.values) * 1.15)
     ax_r.set_title(f"kessan_mapping.csv  ―  全 {len(km)} ルール / カテゴリ",
-                   fontsize=16.8, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
@@ -297,12 +316,11 @@ def make_mapping_dict() -> None:
     std_k = km["accounting_standard"].value_counts()
     note = "  +  ".join(f"{k}: {v}" for k, v in std_k.items())
     fig.text(0.55, -0.02, f"会計基準別: {note}",
-             fontsize=13.3, color=C_TEXT_SUB, ha="left", style="italic")
+             fontsize=16, color=C_TEXT_SUB, ha="left", style="italic")
 
     fig.suptitle("マッピング辞書の構成  ―  XBRL 要素 ID → JSON キーの対応",
-                 fontsize=18.9, fontweight="bold", color=C_TEXT, y=0.99)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "04_mapping_dict.png")
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+    _savefig_vpad(fig, OUT_DIR / "04_mapping_dict.png")
     plt.close(fig)
 
 
@@ -337,42 +355,41 @@ def make_eneos_catalog() -> None:
                ("連/単", 5.9, "center"), ("売上高", 7.5, "right"),
                ("純利益", 9.5, "right"), ("ファイル", 11.5, "left")]
     for lab, x, ha in headers:
-        ax.text(x, -0.5, lab, fontsize=14, fontweight="bold",
+        ax.text(x, -0.5, lab, fontsize=16, fontweight="bold",
                 ha=ha, va="center", color=C_TEXT)
 
     for r, row in enumerate(rows):
-        ax.text(0.5, r + 0.5, row["fy_end"], fontsize=14,
+        ax.text(0.5, r + 0.5, row["fy_end"], fontsize=16,
                 ha="center", va="center", color=C_TEXT, fontweight="bold")
-        ax.text(2.0, r + 0.5, row["doc_id"], fontsize=14,
+        ax.text(2.0, r + 0.5, row["doc_id"], fontsize=16,
                 ha="center", va="center", color="#666666", family="monospace")
-        ax.text(3.6, r + 0.5, row["filing"], fontsize=14,
+        ax.text(3.6, r + 0.5, row["filing"], fontsize=16,
                 ha="center", va="center", color=C_TEXT_SUB)
-        ax.text(5.0, r + 0.5, row["std"], fontsize=14,
+        ax.text(5.0, r + 0.5, row["std"], fontsize=16,
                 ha="center", va="center", color="#3498db", fontweight="bold")
-        ax.text(5.9, r + 0.5, row["consol"], fontsize=13.3,
+        ax.text(5.9, r + 0.5, row["consol"], fontsize=16,
                 ha="center", va="center", color=C_TEXT_SUB)
         ns = row["net_sales"]
         ni = row["ni"]
         ns_t = f"{ns/1e12:.2f}兆" if ns else "—"
         ni_t = f"{ni/1e11:+.1f}千億" if ni else "—"
         ni_c = "#27ae60" if ni and ni > 0 else "#e74c3c"
-        ax.text(7.5, r + 0.5, ns_t, fontsize=14,
+        ax.text(7.5, r + 0.5, ns_t, fontsize=16,
                 ha="right", va="center", color=C_TEXT)
-        ax.text(9.5, r + 0.5, ni_t, fontsize=14, fontweight="bold",
+        ax.text(9.5, r + 0.5, ni_t, fontsize=16, fontweight="bold",
                 ha="right", va="center", color=ni_c)
         ax.text(11.5, r + 0.5, f"E24050_{row['fy_end']}.json",
-                fontsize=11.9, ha="left", va="center", color=C_TEXT_SUB,
+                fontsize=16, ha="left", va="center", color=C_TEXT_SUB,
                 family="monospace")
 
     # 注釈
     ax.text(0.5, len(df) + 0.7,
             "doc_id S100W1E2 = 2025-06-24 提出の最新有報（SummaryOfBusinessResults に 5 期分の要約データを内包）",
-            fontsize=12.6, color=C_TEXT_SUB, style="italic", va="top")
+            fontsize=16, color=C_TEXT_SUB, style="italic", va="top")
 
     ax.set_title("ＥＮＥＯＳ（E24050）  ―  有報 7 期分の取得カタログ実例",
-                 fontsize=18.2, fontweight="bold", color=C_TEXT, pad=14, loc="left")
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.savefig(OUT_DIR / "05_eneos_catalog.png")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+    _savefig_vpad(fig, OUT_DIR / "05_eneos_catalog.png")
     plt.close(fig)
 
 
