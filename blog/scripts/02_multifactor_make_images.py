@@ -26,7 +26,7 @@ from matplotlib.patches import Rectangle
 from config.paths import rakunav_file, PRICES_STOCKS_DAILY
 from utils.universe_topix500 import filter_to_topix500, topix_large100_codes
 from utils.price_metrics import compute_price_metrics
-from utils.master_names import apply_master_names
+from utils.master_names import apply_master_names, load_price_targets_names
 
 
 # ── デザイン設定 ────────────────────────────────────────────────────────────
@@ -64,17 +64,20 @@ OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotlin
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
-    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+def _savefig_vpad(fig: plt.Figure, path: Path,
+                  tpad: float = 0.4, bpad: float = 0.5) -> None:
+    """上 tpad / 下 bpad インチの余白を追加して保存する（左右は余白なし）。"""
     import io
     import numpy as np
     buf = io.BytesIO()
     fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
     buf.seek(0)
     img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
-    pad_rows = max(1, round(bpad * fig.dpi))
-    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
-    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
+    top_rows = max(1, round(tpad * fig.dpi))
+    bot_rows = max(1, round(bpad * fig.dpi))
+    white_top = np.ones((top_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    white_bot = np.ones((bot_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([white_top, img, white_bot]), dpi=fig.dpi)
 
 
 # ── データ準備 ─────────────────────────────────────────────────────────────
@@ -186,20 +189,16 @@ def add_factor_scores(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # 主要銘柄（連載01 と同じ 6 社で揃える）
-MAJORS = [
-    ("7203", "トヨタ"),
-    ("9984", "ソフトバンクG"),
-    ("6758", "ソニーG"),
-    ("8306", "三菱UFJ"),
-    ("6861", "キーエンス"),
-    ("9433", "KDDI"),
-]
+# 銘柄名は price_targets.csv の短縮形を使う（記事本文の表記と統一）
+_MAJOR_CODES_02 = ["7203", "9984", "6758", "8306", "6861", "9433"]
+_name_map_02 = load_price_targets_names()
+MAJORS = [(code, _name_map_02.get(code, code)) for code in _MAJOR_CODES_02]
 
 # 連載01 と同じ石油元売 3 社（セクター内比較）
 OIL_REFINERS = [
-    ("5021", "コスモエネルギーHLDG", "#27ae60"),  # 緑: 最も Value 高
-    ("5020", "ENEOS HLDG",          "#3498db"),  # 青
-    ("5019", "出光興産",             "#e67e22"),  # オレンジ
+    ("5021", _name_map_02.get("5021", "コスモエネＨＤ"), "#27ae60"),  # 緑: 最も Value 高
+    ("5020", _name_map_02.get("5020", "ＥＮＥＯＳ"),     "#3498db"),  # 青
+    ("5019", _name_map_02.get("5019", "出光興産"),       "#e67e22"),  # オレンジ
 ]
 
 
@@ -260,11 +259,27 @@ def make_scoreboard_top20(df: pd.DataFrame) -> None:
 def make_factor_distribution(df: pd.DataFrame) -> None:
     fig, axes = plt.subplots(2, 4, figsize=(13, 5.8))
     axes = axes.flatten()
+    # 低/中/高スコア帯ごとの色（落ち着いたトーン）
+    ZONE_LOW    = "#c98686"  # 0-30   ダスティローズ（不調）
+    ZONE_MID    = "#d8d8d8"  # 30-70  ライトグレー（中立）
+    ZONE_HIGH   = "#8ab09a"  # 70-100 セージグリーン（好調）
+    bins = np.linspace(0, 100, 21)  # 20 ビン、幅 5
     for i, f in enumerate(FACTORS):
         ax = axes[i]
         s = df[f"score_{f}"].dropna()
-        ax.hist(s, bins=20, range=(0, 100),
-                color=FACTOR_COLORS[f], alpha=0.75, edgecolor="white", linewidth=0.5)
+        counts, _ = np.histogram(s, bins=bins)
+        colors = []
+        for left, right in zip(bins[:-1], bins[1:]):
+            mid = (left + right) / 2
+            if mid < 30:
+                colors.append(ZONE_LOW)
+            elif mid < 70:
+                colors.append(ZONE_MID)
+            else:
+                colors.append(ZONE_HIGH)
+        ax.bar(bins[:-1], counts, width=np.diff(bins),
+               color=colors, align="edge", alpha=0.75,
+               edgecolor="white", linewidth=0.5)
         med = float(s.median())
         ax.axvline(med, color="#202124", linestyle="--", linewidth=1.0, alpha=0.5)
         ax.text(med + 1.5, ax.get_ylim()[1] * 0.92, f"中央{med:.0f}",
@@ -354,7 +369,7 @@ def make_majors_radar(df: pd.DataFrame) -> None:
     n_majors = len(MAJORS)
     n_cols = 3
     n_rows = (n_majors + n_cols - 1) // n_cols
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(13, 4.2 * n_rows),
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(13, 4.8 * n_rows),
                              subplot_kw=dict(projection="polar"))
     axes = axes.flatten() if n_majors > 1 else [axes]
 
@@ -397,6 +412,7 @@ def make_majors_radar(df: pd.DataFrame) -> None:
     fig.suptitle("主要 6 社の 7 ファクターレーダー",
                  fontsize=18, fontweight="bold", color=C_TEXT, y=0.98)
     plt.tight_layout(rect=[0, 0, 1, 0.94])
+    plt.subplots_adjust(hspace=0.55)
 
     _savefig_vpad(fig, OUT_DIR / "04_majors_radar.png")
     plt.close(fig)

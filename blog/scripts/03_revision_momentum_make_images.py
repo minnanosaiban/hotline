@@ -44,10 +44,10 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_UP    = "#27ae60"  # 緑: 上方修正
-C_DOWN  = "#e74c3c"  # 赤: 下方修正
-C_WARN  = "#f39c12"  # オレンジ: 逆行注意
-C_VAL   = "#2ECC71"  # 明緑: 修正済み割安
+C_UP    = "#8ab09a"  # セージグリーン: 上方修正（落ち着いたトーン）
+C_DOWN  = "#c98686"  # ダスティローズ: 下方修正（落ち着いたトーン）
+C_WARN  = "#d4a463"  # マスタード: 逆行注意（落ち着いたトーン）
+C_VAL   = "#7fa088"  # 深セージ: 修正済み割安（落ち着いたトーン）
 C_BG    = "#cccccc"
 C_TEXT  = "#202124"
 C_TEXT_SUB = "#70757a"
@@ -57,17 +57,20 @@ OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotlin
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
-    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+def _savefig_vpad(fig: plt.Figure, path: Path,
+                  tpad: float = 0.4, bpad: float = 0.5) -> None:
+    """上 tpad / 下 bpad インチの余白を追加して保存する（左右は余白なし）。"""
     import io
     import numpy as np
     buf = io.BytesIO()
     fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
     buf.seek(0)
     img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
-    pad_rows = max(1, round(bpad * fig.dpi))
-    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
-    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
+    top_rows = max(1, round(tpad * fig.dpi))
+    bot_rows = max(1, round(bpad * fig.dpi))
+    white_top = np.ones((top_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    white_bot = np.ones((bot_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([white_top, img, white_bot]), dpi=fig.dpi)
 
 
 # ── データ準備 ─────────────────────────────────────────────────────────────
