@@ -27,7 +27,7 @@ from matplotlib.lines import Line2D
 
 from config.paths import rakunav_file, PRICES_STOCKS_DAILY
 from utils.price_refresh import refresh_with_yfinance
-from utils.master_names import apply_master_names
+from utils.master_names import apply_master_names, load_price_targets_names
 from utils.universe_topix500 import filter_to_topix500, topix_large100_codes
 
 
@@ -63,17 +63,20 @@ OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotlin
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
-    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+def _savefig_vpad(fig: plt.Figure, path: Path,
+                  tpad: float = 0.4, bpad: float = 0.5) -> None:
+    """上 tpad / 下 bpad インチの余白を追加して保存する（左右は余白なし）。"""
     import io
     import numpy as np
     buf = io.BytesIO()
     fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
     buf.seek(0)
     img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
-    pad_rows = max(1, round(bpad * fig.dpi))
-    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
-    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
+    top_rows = max(1, round(tpad * fig.dpi))
+    bot_rows = max(1, round(bpad * fig.dpi))
+    white_top = np.ones((top_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    white_bot = np.ones((bot_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([white_top, img, white_bot]), dpi=fig.dpi)
 
 
 # ── データ準備 ─────────────────────────────────────────────────────────────
@@ -125,28 +128,18 @@ def load_universe() -> pd.DataFrame:
 
 
 # 主要銘柄リスト（日経225 Core30 中心）
-MAJORS = [
-    ("7203", "トヨタ自動車"),
-    ("7974", "任天堂"),
-    ("6861", "キーエンス"),
-    ("8035", "東京エレクトロン"),
-    ("9983", "ファーストリテ"),
-    ("6098", "リクルート"),
-    ("4063", "信越化学"),
-    ("8306", "三菱UFJ"),
-    ("8316", "三井住友"),
-    ("9433", "KDDI"),
-    ("9432", "NTT"),
-    ("6981", "村田製作所"),
-    ("6501", "日立"),
-    ("4519", "中外製薬"),
-    ("6902", "デンソー"),
+_MAJOR_CODES = [
+    "7203", "7974", "6861", "8035", "9983",
+    "6098", "4063", "8306", "8316", "9433",
+    "9432", "6981", "6501", "4519", "6902",
 ]
+# 銘柄名は price_targets.csv の短縮形を使う（記事本文の表記と統一）
+_name_map = load_price_targets_names()
+MAJORS = [(code, _name_map.get(code, code)) for code in _MAJOR_CODES]
 
 OIL_REFINING = [
-    ("5020", "ENEOS"),
-    ("5019", "出光興産"),
-    ("5021", "コスモエネルギーHLDG"),
+    (code, _name_map.get(code, code))
+    for code in ("5020", "5019", "5021")
 ]
 
 
@@ -169,23 +162,23 @@ def quadrant_color(peg, roe, peg_th=1.0, roe_th=10.0) -> str:
 # キーは銘柄名、値は (dx, dy) ピクセル。引き出し線をつけて散らす銘柄も指定する。
 _LABEL_OFFSETS = {
     # ROE=10 ライン上の密集帯
-    "三井住友":     (-60, 22),    # 左上
-    "信越化学":     (-50, -32),   # 左下
-    "トヨタ自動車": (-30, -45),   # 下に長く引き出し
+    "三井住友":   (-60, 22),    # 左上
+    "信越化":     (-50, -32),   # 左下
+    "トヨタ":     (-30, -45),   # 下に長く引き出し
     # ROE=8-9 帯
-    "村田製作所":   (-10, 55),    # 真上に長く引き出し
-    "デンソー":     (35,  -25),   # 右下
+    "村田製":     (-10, 55),    # 真上に長く引き出し
+    "デンソー":   (35,  -25),   # 右下
     # ROE 13-14 帯
-    "日立":         (30,  30),    # 右上に少し離して
-    "KDDI":         (-55, 12),    # 左
+    "日 立":      (30,  30),    # 右上に少し離して
+    "ＫＤＤＩ":   (-55, 12),    # 左
     # 右上の比較的離れた銘柄
-    "リクルート":   (12,  6),
-    "中外製薬":     (14,  6),
-    "東京エレクトロン": (-12, 18),
+    "リクルートＨＤ": (12,  6),
+    "中外薬":     (14,  6),
+    "東エレク":   (-12, 18),
 }
 # 引き出し線を付ける銘柄
 _LABEL_WITH_LINE = {
-    "三井住友", "信越化学", "トヨタ自動車", "村田製作所", "デンソー", "KDDI", "日立",
+    "三井住友", "信越化", "トヨタ", "村田製", "デンソー", "ＫＤＤＩ", "日 立",
 }
 
 
@@ -531,8 +524,16 @@ def _draw_minichart(ax, s: pd.Series, name: str, code: str,
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
     ax.spines["left"].set_visible(False)
+
+    # X軸: 月初を主要目盛とし「m月」ラベルを表示（プラットフォーム非依存）
+    import matplotlib.dates as mdates
+    from matplotlib.ticker import FuncFormatter
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.xaxis.set_major_formatter(
+        FuncFormatter(lambda x, _: f"{mdates.num2date(x).month}月"))
     ax.tick_params(left=False, labelleft=False,
-                   labelbottom=False, bottom=False)
+                   labelbottom=True, bottom=False,
+                   labelsize=16, colors=C_TEXT_SUB, pad=2)
 
     # 銘柄ラベル
     ax.text(0.02, 0.95, name, fontsize=16, color=C_TEXT,

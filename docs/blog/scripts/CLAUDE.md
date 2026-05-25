@@ -5,34 +5,37 @@
 - **単体チャート**: `figsize` 幅 **13 インチ** / 144 DPI → 約 1872px（ブログ 800px カラムで約 43% 縮小）
 - **グリッドチャート**: `cols × col_w` の可変幅を維持する（13 インチに固定しない）
 
-## 余白（下のみ・上と左右は不要）
+## 余白（上下に確保・左右は不要）
 
-上部は Markdown の「クリックで拡大できます」テキストが余白を兼ねる。
+拡大時にタイトルが詰まらないよう、上下両方に余白を持たせる。
 
 ```python
 mpl.rcParams["savefig.bbox"] = "tight"
-mpl.rcParams["savefig.pad_inches"] = 0  # 左右・上余白なし
+mpl.rcParams["savefig.pad_inches"] = 0  # 左右余白なし（上下は _savefig_vpad で制御）
 
-# 下のみ 0.5 インチ余白を追加するヘルパーで保存する
-# ※ spacer 方式はコンテンツ下端位置によって余白が変わるため、
+# 上 tpad / 下 bpad インチの余白を追加するヘルパーで保存する
+# ※ spacer 方式はコンテンツ位置によって余白が変わるため、
 #   PNG にピクセル行を直接追加する方式を採用する。
-def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
-    """下のみ bpad インチの余白を追加して保存する（上・左右は余白なし）。"""
+def _savefig_vpad(fig: plt.Figure, path: Path,
+                  tpad: float = 0.4, bpad: float = 0.5) -> None:
+    """上 tpad / 下 bpad インチの余白を追加して保存する（左右は余白なし）。"""
     import io
     import numpy as np
     buf = io.BytesIO()
     fig.savefig(buf, bbox_inches="tight", pad_inches=0, format="png")
     buf.seek(0)
     img = plt.imread(buf)                            # RGBA float32 (H, W, 4)
-    pad_rows = max(1, round(bpad * fig.dpi))
-    white = np.ones((pad_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
-    plt.imsave(str(path), np.vstack([img, white]), dpi=fig.dpi)
+    top_rows = max(1, round(tpad * fig.dpi))
+    bot_rows = max(1, round(bpad * fig.dpi))
+    white_top = np.ones((top_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    white_bot = np.ones((bot_rows, img.shape[1], img.shape[2]), dtype=img.dtype)
+    plt.imsave(str(path), np.vstack([white_top, img, white_bot]), dpi=fig.dpi)
 ```
 
 `fig.savefig(path)` の代わりに必ず `_savefig_vpad(fig, path)` を使う。
 
-また、`subplots_adjust(bottom=X)` や `gridspec(bottom=X)` で独自の下余白を設けると
-`_savefig_vpad` と二重に積み上がるため、これらの `bottom=` は **0 または省略** にする。
+また、`subplots_adjust(top=X, bottom=Y)` や `gridspec(top=X, bottom=Y)` で独自の余白を設けると
+`_savefig_vpad` と二重に積み上がるため、これらの `top=` / `bottom=` は **0 または省略** にする。
 
 ## フォントサイズ下限
 
