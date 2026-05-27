@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/09_進捗率Zscore.md 用の画像生成スクリプト。
 
 生成画像:
@@ -44,15 +44,15 @@ mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
 C_OP   = "#3498db"  # 営業利益
-C_NS   = "#27ae60"  # 売上
-C_WARN = "#e74c3c"  # 警報
-C_UP   = "#2ECC71"  # 業績超過
+C_NS   = "#5a9a72"  # 売上
+C_WARN = "#c87878"  # 警報
+C_UP   = "#5a9a72"  # 業績超過
 C_BG   = "#cccccc"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/09_zscore")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/09_zscore")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -201,7 +201,7 @@ def make_early_warning(prog: pd.DataFrame) -> None:
     y = np.arange(len(top))
 
     # 警報レベルで色分け
-    colors = [C_WARN if z <= -2.5 else "#e67e22" if z <= -1.5 else "#f1c40f"
+    colors = [C_WARN if z <= -2.5 else "#aaaaaa" if z <= -1.5 else "#f1c40f"
               for z in top["z_prog_op_income"]]
     ax.barh(y, top["z_prog_op_income"], color=colors, alpha=0.85,
             edgecolor="white", linewidth=0.8)
@@ -217,7 +217,7 @@ def make_early_warning(prog: pd.DataFrame) -> None:
                         for _, r in top.iterrows()], fontsize=16)
     ax.axvline(-2.5, color=C_WARN, linestyle=":", linewidth=0.8,
                label="重大警報 (Z ≤ -2.5)")
-    ax.axvline(-1.5, color="#e67e22", linestyle=":", linewidth=0.8,
+    ax.axvline(-1.5, color="#aaaaaa", linestyle=":", linewidth=0.8,
                label="明確警報 (Z ≤ -1.5)")
     ax.axvline(0, color="#999999", linewidth=0.7)
     ax.set_xlim(top["z_prog_op_income"].min() * 1.05, 0.5)
@@ -227,7 +227,7 @@ def make_early_warning(prog: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     ax.set_title("🚨 早期警報 Top 15  ―  営業利益進捗率 Z-score 下位（下方修正リスク）",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     _savefig_vpad(fig, OUT_DIR / "02_early_warning_top15.png")
     plt.close(fig)
 
@@ -268,15 +268,16 @@ def make_surprise(prog: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     ax.set_title("🚀 業績超過 Top 15  ―  営業利益進捗率 Z-score 上位（上方修正期待）",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     _savefig_vpad(fig, OUT_DIR / "03_surprise_top15.png")
     plt.close(fig)
 
 
 # ── 4) 売上 × 営業利益 進捗率 散布図（マージン分析） ──────────────────────────
 def make_sales_vs_op_scatter(prog: pd.DataFrame) -> None:
-    fig, axes = plt.subplots(1, 3, figsize=(15, 5.2),
+    fig, axes = plt.subplots(1, 3, figsize=(15, 5.5),
                              gridspec_kw=dict(wspace=0.25))
+    fig.subplots_adjust(top=0.78)
 
     expected = {"Q1": 25, "Q2": 50, "Q3": 75}
 
@@ -316,15 +317,14 @@ def make_sales_vs_op_scatter(prog: pd.DataFrame) -> None:
         if ax is axes[0]:
             ax.set_ylabel("営業利益進捗率（%）", fontsize=16, color=C_TEXT)
         ax.set_title(f"{q}（想定 {e}%、n={len(sub)}）",
-                     fontsize=16, fontweight="bold", color=C_TEXT, pad=8)
+                     fontsize=16, fontweight="bold", color=C_TEXT, pad=24)
         ax.grid(color=C_GRID, linewidth=0.5)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
         ax.legend(loc="lower right", fontsize=16, frameon=False)
 
-    fig.suptitle("売上 × 営業利益 進捗率の散布図  ―  45° 線下が "
-                 "「売上順調なのに利益遅れ＝マージン悪化」ゾーン",
-                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+    fig.suptitle("売上 × 営業利益 進捗率の散布図  ―  45° 線下が「売上順調なのに利益遅れ＝マージン悪化」ゾーン",
+                 fontsize=16, fontweight="bold", color=C_TEXT, y=0.97)
     _savefig_vpad(fig, OUT_DIR / "04_sales_vs_op_scatter.png")
     plt.close(fig)
 
@@ -352,7 +352,7 @@ def make_quarterly_pattern(prog: pd.DataFrame) -> None:
 
     metrics = ["売上", "営業利益", "経常利益", "純利益"]
     colors = {"売上": C_NS, "営業利益": C_OP,
-              "経常利益": "#9b59b6", "純利益": "#e67e22"}
+              "経常利益": "#888888", "純利益": "#aaaaaa"}
     quarters = ["Q1", "Q2", "Q3"]
     x = np.arange(len(quarters))
     bw = 0.18
@@ -385,7 +385,7 @@ def make_quarterly_pattern(prog: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "四半期別の進捗率パターン  ―  営業利益が売上より進捗率高い（上期偏重の利益構造）",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "05_quarterly_pattern.png")
     plt.close(fig)

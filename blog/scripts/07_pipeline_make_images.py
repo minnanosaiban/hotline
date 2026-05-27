@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/07_EDINET_TDnet取得とパース.md 用の画像生成スクリプト。
 
 生成画像:
@@ -42,15 +42,15 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_EDI  = "#1F4E8C"
-C_TDN  = "#E67E22"
-C_ZIP  = "#9b59b6"
-C_JSON = "#27AE60"
+C_EDI  = "#444444"
+C_TDN  = "#666666"
+C_ZIP  = "#888888"
+C_JSON = "#aaaaaa"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/07_pipeline")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/07_pipeline")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -131,7 +131,7 @@ def make_pipeline_diagram() -> None:
 
     ax.set_title(
         "自前 XBRL パイプラインの全体像  ―  2 経路 × 3 ステップ × マッピング辞書",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
 
     _savefig_vpad(fig, OUT_DIR / "01_pipeline_diagram.png")
@@ -178,7 +178,7 @@ def make_storage_stats() -> None:
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title("ファイル数", fontsize=16, fontweight="bold",
-                   color=C_TEXT, pad=10, loc="left")
+                   color=C_TEXT, pad=24, loc="left")
 
     # サイズ
     ax_r.barh(y, df["size_mb"], color=colors, alpha=0.85,
@@ -195,7 +195,7 @@ def make_storage_stats() -> None:
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("ストレージサイズ", fontsize=16, fontweight="bold",
-                   color=C_TEXT, pad=10, loc="left")
+                   color=C_TEXT, pad=24, loc="left")
 
     fig.suptitle("自前 XBRL パイプラインのストレージ状況",
                  fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
@@ -216,14 +216,15 @@ def make_kessan_distribution() -> None:
         rows.append({"code": code, "fy_end": fy_end, "kind": kind, "fy_month": fy_month})
     df = pd.DataFrame(rows)
 
-    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(13, 5),
+    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(13, 5.5),
                                      gridspec_kw=dict(wspace=0.32))
+    fig.subplots_adjust(top=0.75)
 
     # 決算期末月分布
     months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
     counts = [(df["fy_month"] == m).sum() for m in months]
 
-    colors_m = ["#27AE60" if c > 300 else "#F39C12" if c > 100 else "#cccccc" for c in counts]
+    colors_m = ["#5a9a72" if c > 300 else "#F39C12" if c > 100 else "#cccccc" for c in counts]
     bars = ax_l.bar(months, counts, color=colors_m, alpha=0.85,
                     edgecolor="white", linewidth=0.8)
     for b, c in zip(bars, counts):
@@ -233,8 +234,8 @@ def make_kessan_distribution() -> None:
                       color=C_TEXT, fontweight="bold")
     ax_l.set_xlabel("決算期末月", fontsize=16, color=C_TEXT)
     ax_l.set_ylabel("ファイル数", fontsize=16, color=C_TEXT_SUB)
-    ax_l.set_title(f"決算期末月の分布  ―  3 月期が圧倒（全 {len(df):,} ファイル）",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_l.set_title(f"決算期末月の分布（全 {len(df):,} ファイル）",
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax_l.grid(axis="y", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
@@ -256,14 +257,14 @@ def make_kessan_distribution() -> None:
     ax_r.invert_yaxis()
     ax_r.set_xlabel("ファイル数", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(0, max(kind_counts) * 1.15)
-    ax_r.set_title("書類種別の分布  ―  FY（本決算）+ forecast（予想）が中心",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_r.set_title("書類種別の分布",
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
 
     fig.suptitle("決算短信 JSON  ―  カバレッジの内訳",
-                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=0.98)
     _savefig_vpad(fig, OUT_DIR / "03_kessan_distribution.png")
     plt.close(fig)
 
@@ -273,8 +274,9 @@ def make_mapping_dict() -> None:
     mp = pd.read_csv(STOCK / "collectors/yuho_mapping.csv")
     km = pd.read_csv(STOCK / "collectors/kessan_mapping.csv")
 
-    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(13, 6),
+    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(13, 6.5),
                                      gridspec_kw=dict(wspace=0.5))
+    fig.subplots_adjust(top=0.82)
 
     # yuho_mapping
     cat_y = mp["category"].value_counts().head(10).iloc[::-1]
@@ -288,8 +290,8 @@ def make_mapping_dict() -> None:
     ax_l.set_yticklabels(cat_y.index, fontsize=16)
     ax_l.set_xlabel("ルール数", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_xlim(0, max(cat_y.values) * 1.18)
-    ax_l.set_title(f"yuho_mapping.csv  ―  全 {len(mp)} ルール / カテゴリ Top 10",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_l.set_title(f"yuho_mapping.csv（全 {len(mp)} ルール）",
+                   fontsize=15, fontweight="bold", color=C_TEXT, pad=24, loc="center")
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
@@ -297,7 +299,7 @@ def make_mapping_dict() -> None:
     # kessan_mapping（category）
     cat_k = km["category"].value_counts().iloc[::-1]
     y = np.arange(len(cat_k))
-    ax_r.barh(y, cat_k.values, color="#9b59b6", alpha=0.85,
+    ax_r.barh(y, cat_k.values, color="#888888", alpha=0.85,
               edgecolor="white", linewidth=0.8)
     for i, v in enumerate(cat_k.values):
         ax_r.text(v + 1.5, i, str(v), va="center", fontsize=16,
@@ -306,8 +308,8 @@ def make_mapping_dict() -> None:
     ax_r.set_yticklabels(cat_k.index, fontsize=16)
     ax_r.set_xlabel("ルール数", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(0, max(cat_k.values) * 1.15)
-    ax_r.set_title(f"kessan_mapping.csv  ―  全 {len(km)} ルール / カテゴリ",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_r.set_title(f"kessan_mapping.csv（全 {len(km)} ルール）",
+                   fontsize=15, fontweight="bold", color=C_TEXT, pad=24, loc="center")
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
@@ -319,7 +321,7 @@ def make_mapping_dict() -> None:
              fontsize=16, color=C_TEXT_SUB, ha="left", style="italic")
 
     fig.suptitle("マッピング辞書の構成  ―  XBRL 要素 ID → JSON キーの対応",
-                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=0.98)
     _savefig_vpad(fig, OUT_DIR / "04_mapping_dict.png")
     plt.close(fig)
 
@@ -373,7 +375,7 @@ def make_eneos_catalog() -> None:
         ni = row["ni"]
         ns_t = f"{ns/1e12:.2f}兆" if ns else "—"
         ni_t = f"{ni/1e11:+.1f}千億" if ni else "—"
-        ni_c = "#27ae60" if ni and ni > 0 else "#e74c3c"
+        ni_c = "#5a9a72" if ni and ni > 0 else "#c87878"
         ax.text(7.5, r + 0.5, ns_t, fontsize=16,
                 ha="right", va="center", color=C_TEXT)
         ax.text(9.5, r + 0.5, ni_t, fontsize=16, fontweight="bold",
@@ -388,7 +390,7 @@ def make_eneos_catalog() -> None:
             fontsize=16, color=C_TEXT_SUB, style="italic", va="top")
 
     ax.set_title("ＥＮＥＯＳ（E24050）  ―  有報 7 期分の取得カタログ実例",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     _savefig_vpad(fig, OUT_DIR / "05_eneos_catalog.png")
     plt.close(fig)
 

@@ -116,7 +116,7 @@ ax_r.text(0.50, -0.14, '割安', color=SOFT, fontsize=19,
 ax_r.text(1.50, -0.14, '割高', color=SOFT, fontsize=19,
           ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.3', facecolor=BG, edgecolor='none'))
-ax_r.text(1.00, -0.36, 'PEG 比率', color=SOFT, fontsize=24,
+ax_r.text(1.00, -0.36, 'PEG', color=SOFT, fontsize=24,
           ha='center', va='center', alpha=0.9, fontweight='bold')
 
 # Y軸（ROE）

@@ -436,8 +436,6 @@
       
         
       
-        
-      
     
     
     
@@ -592,21 +590,38 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#streamlit" class="md-nav__link">
+    <nav class="md-nav" aria-label="石油元売 3 社比較">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#garp_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Streamlit アプリ紹介
+        GARP では理想ゾーンのコスモ
       
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        なぜ株価は逆行するのか
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -624,6 +639,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Appendix ― Python コード">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Streamlit アプリ ― 「自分専用の銘柄分析ツール」を週末で
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#png" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        チャート画像 ― ダブルクリック一発で PNG を作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -707,34 +750,6 @@
     
   
     連載04 連続サプライズ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../05_credit_supply_dashboard/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載05 信用需給
   
 
     
@@ -1376,21 +1391,38 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#streamlit" class="md-nav__link">
+    <nav class="md-nav" aria-label="石油元売 3 社比較">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#garp_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Streamlit アプリ紹介
+        GARP では理想ゾーンのコスモ
       
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        なぜ株価は逆行するのか
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1408,6 +1440,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Appendix ― Python コード">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Streamlit アプリ ― 「自分専用の銘柄分析ツール」を週末で
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#png" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        チャート画像 ― ダブルクリック一発で PNG を作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1435,9 +1495,9 @@
 <!-- more -->
 
 <h2 id="garp">GARP の概要</h2>
-<p>🔹<strong>PEG ― 成長率に対する割安度</strong></p>
-<p>PER を成長率で割って「成長性に見合った株価か」を測ります。PER 30 倍でも年率 60% 成長なら PEG = 0.5 で超割安、PER 10 倍でも減益予想なら PEG = ∞ で罠。</p>
-<p><code>PEG（予） = PER（予） ÷ EPS成長率(%)</code></p>
+<p><strong>GARP（Growth At a Reasonable Price）</strong> は、<strong>割安（低 PEG）かつ高品質（高 ROE）</strong> の銘柄を選ぶ戦略です。グロース投資の「成長鈍化で PER 再評価による株価急落」、バリュー投資の「構造的低収益のバリュートラップ」 ― この 2 つの失敗パターンの <strong>中間</strong> に位置し、<strong>「成長性を確認しつつ妥当な価格で買う」</strong> スタンスです。</p>
+<p>🔹 <strong>PEG（予想） = PER（予想） ÷ EPS成長率(%)</strong> ― 成長率に対する割安度</p>
+<p>PER 30 倍でも年率 60% 成長なら PEG = 0.5 で超割安、PER 10 倍でも減益予想なら PEG = ∞ で罠。</p>
 <table>
 <thead>
 <tr>
@@ -1460,8 +1520,7 @@
 </tr>
 </tbody>
 </table>
-<p>🔹<strong>ROE ― 自己資本の利益効率</strong></p>
-<p><code>ROE = 当期純利益 ÷ 自己資本 × 100</code></p>
+<p>🔹 <strong>ROE = 当期純利益 ÷ 自己資本 × 100</strong> ― 自己資本の利益効率</p>
 <table>
 <thead>
 <tr>
@@ -1472,7 +1531,7 @@
 <tbody>
 <tr>
 <td>≥ 15%</td>
-<td>超優良（堀の可能性）</td>
+<td>超優良(堀の可能性)</td>
 </tr>
 <tr>
 <td>≥ 10%</td>
@@ -1484,57 +1543,31 @@
 </tr>
 </tbody>
 </table>
-<p>🔹<strong>GARP ― 低 PEG × 高 ROE</strong></p>
-<p><strong>割安（低 PEG）かつ高品質（高 ROE）</strong> の銘柄を選ぶ戦略です。PEG 単独だと借入で売上を膨らませた低 ROE 企業も拾ってしまうため、ROE 併用で品質を担保します。</p>
-<table>
-<thead>
-<tr>
-<th>戦略</th>
-<th>失敗パターン</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>グロース投資</td>
-<td>成長鈍化で PER が再評価され株価急落</td>
-</tr>
-<tr>
-<td>バリュー投資</td>
-<td>構造的低収益のバリュートラップ</td>
-</tr>
-</tbody>
-</table>
-<p>GARP はこの中間で <strong>「成長性を確認しつつ妥当な価格で買う」</strong> スタンスです。</p>
+<blockquote>
+<p><small>※ PER（予想）・EPS（予想）は <strong>証券会社が無料で提供している予想値（アナリストコンセンサスベース）</strong> を使用。企業公式の業績予想とは異なります。本記事の「予想」表記はすべて同様。</small></p>
+</blockquote>
 <h2 id="_1">プロットで確認</h2>
-<p>GARP は、PEG（横軸）× ROE（縦軸）でプロットすることにより、 「割安 × 高 ROE の理想ゾーン」が一目で分かります。</p>
-<p>母集団は <strong>TOPIX 500（JPX 規模区分 Core30 + Large70 + Mid400 = 496 銘柄）</strong>。3 層構造でプロットします：</p>
-<ul>
-<li><strong>背景のグレーの小ドット</strong> ― TOPIX 500 全銘柄（PEG ≤ 3.0 / ROE 範囲内のみ表示）</li>
-<li><strong>水色の中ドット</strong> ― <strong>TOPIX 大型 100 銘柄</strong>（Core30 + Large70）</li>
-<li><strong>ラベル付きの大ドット</strong> ― 日経 225 主要 15 社</li>
-</ul>
-<p>緑が <strong>GARP 理想ゾーン</strong>（PEG ≤ 1.0 かつ ROE ≥ 10%）です。</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.22作成</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/01_PEG_ROE/01_garp_map.png" data-desc-position="bottom"><img alt="GARP マップ 主要銘柄" src="../img/01_PEG_ROE/01_garp_map.png" width="1200"></a></p>
+<p>GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安 × 高 ROE の理想ゾーン」が一目で分かります。<strong>緑が GARP 理想ゾーン</strong>（PEG ≤ 1.0 かつ ROE ≥ 10%）です。</p>
 <ul>
 <li><strong>理想ゾーンに入っている主要銘柄は三井住友だけ</strong> ― <strong>割安 × 高 ROE の両立は、大型株では稀</strong>であることが一目で分かる</li>
 <li>大型株（水色）は ROE 帯にばらつきがあるが、PEG ≤ 1.0 の領域には少ない ―「妥当な価格」を厳格に求めると候補が限られる</li>
 <li>中小型株（背景グレー）には PEG が極端に低い銘柄が散在 ―「割安だが流動性・知名度が低い」候補は中小型に多い</li>
 </ul>
-<blockquote>
-<p>💡 GARP マップは個別銘柄の買い時判定ではなく、<strong>多数銘柄の初期スクリーニング</strong>のフィルタとして使うのが現実的。大型株中心なら PEG 上限を 1.3 まで緩める、中小型まで広げるなら PEG ≤ 1.0 を厳守 ― この二択を意識すると条件設定がぶれない。</p>
-</blockquote>
+<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
+<small style="color: var(--md-link-color);">2026.05.22作成</small></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/01_PEG_ROE/01_garp_map.png" data-desc-position="bottom"><img alt="GARP マップ 主要銘柄" src="../img/01_PEG_ROE/01_garp_map.png" width="1200"></a></p>
 <h2 id="3">石油元売 3 社比較</h2>
+<h4 id="garp_1">GARP では理想ゾーンのコスモ</h4>
 <p>ここで、石油元売 3 社の銘柄比較を見てみましょう。市況・精製マージン・在庫評価など共通の事業構造を持ちながら、GARP マップ上の位置はまったく異なります。</p>
 <ul>
-<li><strong>コスモエネＨＤ</strong>: PEG 0.12 / ROE 12.4% → ★GARP 理想ゾーン</li>
+<li><strong>コスモエネＨＤ</strong>: PEG 0.12 / ROE 12.4% → 🌟GARP 理想ゾーン</li>
 <li><strong>出光興産</strong>: PEG 0.46 / ROE 9.4% → 惜しい位置（ROE があと一歩）</li>
 <li><strong>ＥＮＥＯＳ</strong>: PEG 0.22 / ROE 8.0% → バリュー候補だが低収益</li>
 </ul>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
 <small style="color: var(--md-link-color);">2026.05.22作成</small></p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/01_PEG_ROE/03_oil_refining.png" data-desc-position="bottom"><img alt="石油元売3社 GARP" src="../img/01_PEG_ROE/03_oil_refining.png" width="1200"></a></p>
+<h4 id="_2">なぜ株価は逆行するのか</h4>
 <p>数字だけ見ればコスモが圧倒的に魅力的ですが、<strong>直近 6 ヶ月</strong>の株価動向で印象が逆転します。</p>
 <p><strong>GARP 理想ゾーンのコスモは −5.2% で唯一の下落</strong>、ROE が劣る ＥＮＥＯＳ は +29.7%、出光は +17.6% と上昇しています。一見矛盾するこの結果は、いくつかの解釈ができます。</p>
 <ol>
@@ -1545,113 +1578,42 @@
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
 <small style="color: var(--md-link-color);">2026.05.22作成</small></p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/01_PEG_ROE/05_oil_charts.png" data-desc-position="bottom"><img alt="石油元売3社 チャート" src="../img/01_PEG_ROE/05_oil_charts.png" width="1200"></a></p>
+<blockquote>
+<p>💡 「GARP マップで光る銘柄」と「直近で上がる銘柄」は必ずしも一致せず。GARP は中長期スタンスであり、短期株価とは別次元の話。</p>
+</blockquote>
 <div class="margin01">
 <div class="card-bule">
 <p class="small"><b>➡️ PEG・ROE が捉えきれない構造要因</b></p>
 <p class="small pad2">石油元売は売上の約 8 割が石油製品。<b>原油価格（在庫影響）・市況・金利環境が会計利益を強く揺さぶります</b>。</p>
 <p class="small pad2">ＥＮＥＯＳ は 2025 年 3 月 28 日に 2025/3 期営業利益を 2024 年 11 月公表比 ▲3,950 億円下方修正しました。主因は <b>のれん減損 ▲1,600 億円</b>（2017 年 JX HD・東燃ゼネラル石油の経営統合に伴うのれんを、金利上昇等を受けて減損）と <b>在庫影響 ▲1,500 億円</b>。同時期に <b>JX金属 IPO</b>（57.6% 売却）も進行し、当期利益を +1,300 億円押し上げました。</p>
-<p class="small pad2">ＥＮＥＯＳ自身は <b>「実質営業利益（在庫影響除き・非継続含む）4,400 億円水準を維持」「一過性要因も除いた本業利益 4,250 億円（ROE 7.9%）」</b> と説明しています（<a href="https://www.hd.eneos.co.jp/news/release_information/upload/20250328_03_01_0960492.pdf" target="_blank">出典: 2025/3/28 業績予想修正</a>）。</p>
+<p class="small pad2">当時ＥＮＥＯＳ自身は <b>「実質営業利益（在庫影響除き・非継続含む）4,400 億円水準を維持」「一過性要因も除いた本業利益 4,250 億円（ROE 7.9%）」</b> と説明していました（<a href="https://www.hd.eneos.co.jp/news/release_information/upload/20250328_03_01_0960492.pdf" target="_blank">出典: 2025/3/28 業績予想修正</a>）。</p>
+<p class="small pad2"><b>1 年後の答え合わせ</b>: 2026 年 5 月 14 日公表の 2026/3 期実績は <b>営業利益 4,666 億円・在庫影響除き 4,744 億円</b> で着地し、「4,400 億維持」の主張を上回って実現しました。<b>PBR も 1 倍超（1.1）を達成</b>、2026 年度見通しは営業利益 6,100 億円（+31%）、中計は ROE 12% を掲げています（出典: ENEOS 2025年度 決算説明資料）。</p>
 <p class="small pad2">PEG・ROE は <b>会計利益ベース</b> の指標。石油元売はこうした一時／構造要因まで読まないと実態を見誤ります。</p>
 </div>
 </div>
 
-<div class="margin01">
-<div class="card-bule">
-<p class="small"><b>➡️ 執筆者試算: 4 つの修正率基準</b></p>
-<p class="small pad2">ＥＮＥＯＳ の「修正率」は基準次第で大きく変わります。下記の証券会社が無料で提供している値 ▲3.74%（連載03 で扱うコンセンサス予想経常利益の最新スナップショット）と、2025/3/28 公式 PDF（2024/11 公表比）から計算した 4 基準を並べると：</p>
-<table class="table-set" style="font-size: 0.85em; margin: 0.5em 0;">
-<thead><tr><th>基準</th><th>修正率</th><th>解釈</th></tr></thead>
-<tbody>
-<tr><td>コンセンサス予想経常利益</td><td><b>▲3.74%</b></td><td>コンセンサス基準（連載03）</td></tr>
-<tr><td>営業利益（公表）</td><td><b>▲94%</b></td><td>のれん減損・在庫影響含む</td></tr>
-<tr><td>当期利益（純利益）</td><td><b>▲2.27%</b></td><td>JX金属 IPO 益で相殺</td></tr>
-<tr><td>実質営業利益（在庫除き・非継続含む）</td><td><b>+4.76%</b></td><td>ENEOS 本業主張</td></tr>
-<tr><td>一過性除き本業利益</td><td><b>+1.19%</b></td><td>ROE 7.9%</td></tr>
-</tbody>
-</table>
-<p class="small pad2"><b>同じ「修正」でも ▲94% から +4.76% まで分散</b>。連載03 のリビジョン値・連載04 のサプライズ・連載05 の需給判断を読むときは、この <b>4 基準のどれを採用するか</b> が投資判断の分かれ目になります。なお、コンセンサス値 ▲3.74% は本稿執筆時点のスナップショット、他 4 行は 2024/11 公表 → 2025/3 修正時点の差分であり、参照期間が完全には一致しない点には注意が必要です。</p>
-</div>
-</div>
-
-<p>つまり <strong>「GARP マップで光る銘柄」と「直近で上がる銘柄」は必ずしも一致しません</strong>。GARP は中長期スタンスであり、短期株価とは別次元の話です。</p>
-<h2 id="streamlit">Streamlit アプリ紹介</h2>
-<p>本記事と同じ GARP マップを <strong>Streamlit + Plotly</strong> で操作可能にしたアプリを公開しています。コードを差し替えるだけで自分の保有銘柄を散布図にプロットしたり、PEG / ROE の閾値を動かして "理想ゾーン" を再定義したりできます。</p>
-<blockquote>
-<p>📝 <strong>アプリ公開予定</strong>: GitHub リポジトリ（準備中）。<code>app_chart.py</code> と同じく Streamlit ベースで、<code>requirements.txt</code> だけ揃えればローカルで動きます。</p>
-</blockquote>
-<pre><code class="language-python"># Plotly 版 GARP マップ（最小実装の抜粋）
-import plotly.express as px
-
-def garp_scatter(df, peg_th=1.0, roe_th=10.0):
-    fig = px.scatter(df, x="PEG", y="ROE",
-                     hover_data=["コード", "銘柄名", "PER", "成長率%"],
-                     color_discrete_sequence=["#7eaee0"])
-    # GARP 理想ゾーン
-    fig.add_shape(type="rect", x0=0, x1=peg_th, y0=roe_th, y1=60,
-                  fillcolor="#27ae60", opacity=0.08, line_width=0)
-    fig.add_vline(x=peg_th, line_dash="dash", line_color="#e74c3c")
-    fig.add_hline(y=roe_th, line_dash="dash", line_color="#27ae60")
-    fig.update_layout(xaxis_title="PEG（予） ← 割安  割高 →",
-                      yaxis_title="ROE（%） ← 低収益  高収益 →")
-    return fig
-</code></pre>
-<p>データ取得は連載中の <code>compute_peg()</code> を流用、株価は <code>yfinance</code> で最新化。手元の保有銘柄 CSV を読み込めば、自分専用の GARP マップが描けます。</p>
-<h2 id="_2">まとめ</h2>
+<h2 id="_3">まとめ</h2>
 <ul>
 <li><strong>GARP = 低 PEG × 高 ROE</strong> で、バリュートラップを避けつつ高品質な割安成長株を選ぶ戦略</li>
 <li><strong>散布図が GARP の標準的な可視化</strong>。PEG × ROE の 2 軸でファンダの位置と市場全体の分布を同時に見られる</li>
 <li>主要 15 社のうち <strong>GARP 理想ゾーン入りは三井住友のみ</strong> ― 大型株での両立は稀</li>
 <li>石油元売 3 社では <strong>コスモ（GARP 理想）が −5%、ＥＮＥＯＳ が +30%</strong> と GARP と株価が逆転 ― PEG / ROE は会計利益ベースで、原油市況・一時要因（のれん減損等）の影響が大きい</li>
-<li>ＥＮＥＯＳ の業績予想修正率は <strong>基準次第で ▲94% から +4.76% まで分散</strong>（編集部試算）。"中身" を見ないと判断を誤る</li>
 </ul>
 <p>次回は <strong>マルチファクター・スコアボード</strong> を実装します。GARP の考え方を、Value / Quality / Growth / Sentiment / Momentum / Risk の 7 ファクターに拡張します。</p>
 <h2 id="appendix-python">Appendix ― Python コード</h2>
-<p>画像生成の全コードは <a href="../../scripts/01_PEG_ROE_make_images.py"><code>01_PEG_ROE_make_images.py</code></a> を参照。執筆者ローカルのモジュール・データに依存するため、そのままでは動きません。</p>
-<pre><code class="language-python">import pandas as pd
-
-def compute_peg(price: float, eps_actual: float, eps_forecast: float) -&gt; dict:
-    """株価・前期EPS・予想EPSから PER/成長率/PEG を計算する。
-
-    前期EPS ≤ 0（赤字脱却中）または成長率 ≤ 0（減益予想）の銘柄は
-    PEG=NaN として GARP 対象から除外する。
-    """
-    if eps_forecast is None or eps_forecast &lt;= 0:
-        return {"PER": None, "成長率%": None, "PEG": None}
-    per = price / eps_forecast
-    if eps_actual is None or eps_actual &lt;= 0:
-        return {"PER": per, "成長率%": None, "PEG": None}
-    growth_pct = (eps_forecast - eps_actual) / abs(eps_actual) * 100
-    if growth_pct &lt;= 0:
-        return {"PER": per, "成長率%": growth_pct, "PEG": None}
-    return {"PER": per, "成長率%": growth_pct, "PEG": per / growth_pct}
-</code></pre>
-<pre><code class="language-python">import matplotlib.pyplot as plt
-
-def plot_garp_map(df, majors, peg_th=1.0, roe_th=10.0):
-    fig, ax = plt.subplots(figsize=(13, 8))
-    bg = df.dropna(subset=["PEG", "ROE"])
-    bg = bg[(bg["PEG"] &gt; 0) &amp; (bg["PEG"] &lt;= 3.0)]
-    ax.scatter(bg["PEG"], bg["ROE"],
-               s=18, color="#cccccc", alpha=0.35, edgecolors="none")
-    ax.axhspan(roe_th, 60, xmin=0, xmax=peg_th/3.0,
-               facecolor="#27ae60", alpha=0.07)
-    ax.axvline(peg_th, color="#e74c3c", linestyle="--", alpha=0.6)
-    ax.axhline(roe_th, color="#27ae60", linestyle="--", alpha=0.6)
-    for code, name in majors:
-        row = df.loc[df["コード"] == code].iloc[0]
-        peg, roe = row["PEG"], row["ROE"]
-        color = _quadrant_color(peg, roe, peg_th, roe_th)
-        ax.scatter(peg, roe, s=200, color=color,
-                   edgecolor="white", linewidth=2.0, zorder=5)
-        ax.annotate(name, xy=(peg, roe), xytext=(10, 8),
-                    textcoords="offset points",
-                    fontsize=10.5, fontweight="bold",
-                    bbox=dict(facecolor="white", alpha=0.85,
-                              edgecolor="none", boxstyle="round,pad=0.25"))
-    ax.set_xlabel("PEG（予）  ← 割安   割高 →")
-    ax.set_ylabel("ROE（%）  ← 低収益   高収益 →")
-    return fig
-</code></pre>
+<h4 id="streamlit">Streamlit アプリ ― 「自分専用の銘柄分析ツール」を週末で</h4>
+<p>「自社銘柄が GARP 上どこにいるか、毎週月曜にブラウザで確認したい」 ― Excel と Web アプリ開発の <strong>ちょうど中間</strong> に位置するのが <strong>Streamlit + Plotly</strong>。<strong>Python ファイル 1 つ・100 行台のコード</strong> で、ホバー表示・凡例クリック・ズーム・パンが揃ったダッシュボードが完成します。<strong>「自分の watch list だけ表示」「閾値を自分の投資スタンスに合わせる」「自社・取引先・競合を並べて比較」</strong> といったカスタマイズも、コードを数行書き換えるだけ。</p>
+<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/01_PEG_ROE/app.png" data-desc-position="bottom"><img alt="GARP スクリーナー アプリ画面" src="../img/01_PEG_ROE/app.png" width="1200"></a></p>
+<blockquote>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/01_PEG_ROE"><code>github.com/minnanosaiban/blog/01_PEG_ROE</code></a> ― <code>pip install -r requirements.txt</code> → <code>streamlit run app.py</code> で起動。</p>
+</blockquote>
+<h4 id="png">チャート画像 ― ダブルクリック一発で PNG を作成</h4>
+<p>本記事の図はすべて <strong>Matplotlib</strong> で生成しています。<strong>スクリプトへのショートカットをデスクトップに置けばダブルクリック一発で最新データのチャート画像が再生成される</strong> ― 高解像度 PNG / PDF で書き出せ、データを差し替えれば毎週・毎月の定点観測に。Windows タスクスケジューラ / cron に登録すれば、判断材料が手を動かさずに揃う仕組みも作れます。</p>
+<blockquote>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/01_PEG_ROE/01_PEG_ROE_make_images.py"><code>github.com/minnanosaiban/blog/01_PEG_ROE/01_PEG_ROE_make_images.py</code></a></p>
+</blockquote>
+<p>株価や指標などのデータは提供元の利用規約により再配布できませんが、<strong>yfinance</strong> や <strong>証券会社が無料で提供しているデータ</strong> を組み合わせれば、ご自身の銘柄リストで同じ構図のアプリや PNG が生成できます。</p>
 <hr>
 <p><em>データ出典: 証券会社が無料で提供する ROE / 前期 EPS / 予想 EPS + yfinance 日足 Close</em></p>
 

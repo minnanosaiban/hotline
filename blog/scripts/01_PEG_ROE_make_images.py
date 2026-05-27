@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/01_PEG_ROE銘柄分析.md 用の画像生成スクリプト。
 
 生成画像:
@@ -50,16 +50,16 @@ mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
 # カラーパレット
-C_GARP_IDEAL = "#27ae60"  # 緑: GARP理想ゾーン
+C_GARP_IDEAL = "#5a9a72"  # 緑: GARP理想ゾーン
 C_GROWTH     = "#f39c12"  # オレンジ: 割高グロース
 C_VALUE      = "#3498db"  # 青: バリュー候補
-C_INVALID    = "#e74c3c"  # 赤: 投資不適格
+C_INVALID    = "#c87878"  # 赤: 投資不適格
 C_NEUTRAL    = "#cccccc"  # グレー: その他
 C_TEXT       = "#202124"
 C_TEXT_SUB   = "#70757a"
 C_GRID       = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/01_PEG_ROE")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/01_PEG_ROE")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -204,8 +204,8 @@ def make_garp_map(df: pd.DataFrame, out_path: Path):
                facecolor=C_GARP_IDEAL, alpha=0.07, zorder=0)
 
     # 基準線
-    ax.axvline(1.0, color=C_INVALID, linestyle="--", linewidth=1.2, alpha=0.6, zorder=2)
-    ax.axhline(10.0, color=C_GARP_IDEAL, linestyle="--", linewidth=1.2, alpha=0.6, zorder=2)
+    ax.axvline(1.0, color="#999999", linestyle="--", linewidth=1.2, alpha=0.6, zorder=2)
+    ax.axhline(10.0, color="#999999", linestyle="--", linewidth=1.2, alpha=0.6, zorder=2)
 
     # 主要銘柄を強調プロット
     df_idx = df.set_index("コード")
@@ -394,8 +394,8 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
     bg = bg[(bg["PEG"] > 0) & (bg["PEG"] <= 2.0) & (bg["ROE"] > -5) & (bg["ROE"] <= 30)]
     ax.scatter(bg["PEG"], bg["ROE"], s=14, color=C_NEUTRAL, alpha=0.30, edgecolors="none")
 
-    ax.axvline(1.0, color=C_INVALID, linestyle="--", linewidth=1.2, alpha=0.6)
-    ax.axhline(10.0, color=C_GARP_IDEAL, linestyle="--", linewidth=1.2, alpha=0.6)
+    ax.axvline(1.0, color="#999999", linestyle="--", linewidth=1.2, alpha=0.6)
+    ax.axhline(10.0, color="#999999", linestyle="--", linewidth=1.2, alpha=0.6)
 
     for code, name in OIL_REFINING:
         if code not in df_idx.index:
@@ -447,13 +447,8 @@ def make_oil_card(df: pd.DataFrame, out_path: Path):
         ax2.add_patch(FancyBboxPatch(
             (0.02, y0), 0.96, card_h,
             boxstyle="round,pad=0.01,rounding_size=0.018",
-            facecolor="white", edgecolor=c, linewidth=2.0,
+            facecolor="white", edgecolor="none", linewidth=0,
             transform=ax2.transAxes,
-        ))
-        # サイドバー
-        ax2.add_patch(plt.Rectangle(
-            (0.02, y0), 0.025, card_h,
-            facecolor=c, edgecolor="none", transform=ax2.transAxes,
         ))
         # 銘柄名
         ax2.text(0.08, y0 + card_h * 0.80, name,

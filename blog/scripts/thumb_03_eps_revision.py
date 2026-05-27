@@ -5,8 +5,8 @@
 実行: python docs/blog/scripts/thumb_03_eps_revision.py
 
 設計方針:
-  - 修正率 × EPS超過率の象限図
-  - 4つの投資パターンを視覚化
+  - 修正率 × 株価モメンタムの象限図（記事の散布図と同じ軸）
+  - ★ = 右下「出遅れ買い候補」（上方修正済みだが市場が未追随）
 """
 import os
 import matplotlib.pyplot as plt
@@ -61,10 +61,10 @@ ax_r.set_ylim(-0.32, 2.25)
 ax_r.axis('off')
 
 zones = [
-    (0, 1, 1, 1, GREEN_BG),
-    (1, 1, 1, 1, MUTED_BG),
-    (0, 0, 1, 1, MUTED_BG),
-    (1, 0, 1, 1, MUTED_BG),
+    (0, 1, 1, 1, MUTED_BG),   # 左上：逆行注意
+    (1, 1, 1, 1, MUTED_BG),   # 右上：既反応済
+    (0, 0, 1, 1, MUTED_BG),   # 左下：底入れ待ち
+    (1, 0, 1, 1, GREEN_BG),   # 右下：★ 出遅れ買い候補
 ]
 for (x, y, w, h, fc) in zones:
     ax_r.add_patch(patches.Rectangle(
@@ -72,23 +72,24 @@ for (x, y, w, h, fc) in zones:
     ))
 
 ax_r.add_patch(patches.Rectangle(
-    (0, 1), 1, 1, fill=False, edgecolor=GREEN, linewidth=3
+    (1, 0), 1, 1, fill=False, edgecolor=GREEN, linewidth=3
 ))
 
 ax_r.plot([1, 1], [0, 2], color=SOFT, linewidth=0.8, alpha=0.3)
 ax_r.plot([0, 2], [1, 1], color=SOFT, linewidth=0.8, alpha=0.3)
 
-ax_r.text(0.50, 1.72, '★', color=GREEN,
+# ★ 右下: 出遅れ買い候補
+ax_r.text(1.50, 0.72, '★', color=GREEN,
           fontsize=32, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.48, '上方修正', color=GREEN,
+ax_r.text(1.50, 0.48, '出遅れ', color=GREEN,
           fontsize=32, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.24, 'リビジョン', color=WHITE,
+ax_r.text(1.50, 0.24, '買い候補', color=WHITE,
           fontsize=24, ha='center', va='center', fontweight='bold')
 
 other_zones = [
-    (1.50, 1.55, '過度な上方',   MUTED_TX, 24),
-    (0.50, 0.55, '下方修正',     MUTED_TX, 24),
-    (1.50, 0.55, '悪いニュース', MUTED_TX, 24),
+    (0.50, 1.55, '逆行注意',   MUTED_TX, 24),
+    (1.50, 1.55, '既反応済',   MUTED_TX, 24),
+    (0.50, 0.55, '底入れ待ち', MUTED_TX, 24),
 ]
 for (x, y, txt, color, fs) in other_zones:
     ax_r.text(x, y, txt, color=color, fontsize=fs,
@@ -113,7 +114,7 @@ ax_r.text(-0.15, 0.50, '低', color=SOFT, fontsize=19,
 ax_r.text(-0.15, 1.50, '高', color=SOFT, fontsize=19,
           ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
-ax_r.text(-0.15, 2.24, 'EPS超過率', color=SOFT, fontsize=24,
+ax_r.text(-0.15, 2.24, '株価モメンタム', color=SOFT, fontsize=24,
           ha='center', va='center', alpha=0.9, fontweight='bold')
 
 OUT = os.path.join(

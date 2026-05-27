@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/13_CARイベントスタディ.md 用の画像生成スクリプト。
 
 生成画像:
@@ -44,8 +44,8 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_GOOD = "#27ae60"
-C_BAD  = "#e74c3c"
+C_GOOD = "#5a9a72"
+C_BAD  = "#c87878"
 C_NEU  = "#7f8c8d"
 C_STOCK = "#3498db"
 C_BENCH = "#888888"
@@ -53,7 +53,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/13_car")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/13_car")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -185,16 +185,16 @@ def make_concept(rdf: pd.DataFrame) -> None:
     # タイムライン
     ax.plot([1, 11], [4, 4], color="#666666", linewidth=2, zorder=1)
     # 決算発表日
-    ax.scatter([4], [4], s=300, color="#e67e22", edgecolor="white",
+    ax.scatter([4], [4], s=300, color="#aaaaaa", edgecolor="white",
                linewidth=2, zorder=5)
     ax.text(4, 5.0, "決算発表日\n(filing_date)", ha="center", va="center",
-            fontsize=16, fontweight="bold", color="#e67e22")
+            fontsize=16, fontweight="bold", color="#aaaaaa")
 
     # 観測期間
     for x, label, color in [(5.5, "5 営業日", "#3498db"),
                              (7.0, "10 営業日", "#3498db"),
                              (8.5, "20 営業日", "#3498db"),
-                             (10.0, "30 営業日", "#9b59b6")]:
+                             (10.0, "30 営業日", "#888888")]:
         ax.axvline(x, color=color, linestyle=":", linewidth=1.2, alpha=0.6,
                    ymin=0.42, ymax=0.65)
         ax.text(x, 4.35, label, fontsize=16, ha="center", color=color,
@@ -209,10 +209,10 @@ def make_concept(rdf: pd.DataFrame) -> None:
     # CAR 計算式
     ax.add_patch(FancyBboxPatch((0.5, 1.0), 11, 1.5,
                                  boxstyle="round,pad=0.08",
-                                 linewidth=1.5, edgecolor="#1F4E8C",
+                                 linewidth=1.5, edgecolor="#aaaaaa",
                                  facecolor="#f8fafd"))
     ax.text(6, 2.1, "CAR (Cumulative Abnormal Return)",
-            fontsize=16, fontweight="bold", color="#1F4E8C",
+            fontsize=16, fontweight="bold", color=C_TEXT,
             ha="center", va="center")
     ax.text(6, 1.5, "= 銘柄リターン − ベンチマーク(N225)リターン",
             fontsize=16, color=C_TEXT, ha="center", va="center")
@@ -282,7 +282,7 @@ def make_category_car(rdf: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "決算カテゴリ別 CAR の分布  ―  ◆ が平均値",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
 
     fig.text(0.5, -0.02,
@@ -321,7 +321,7 @@ def make_scatter(rdf: pd.DataFrame) -> None:
         z = np.polyfit(valid["ni_change_pct"], valid["car_20"], 1)
         xx = np.linspace(valid["ni_change_pct"].min(),
                          valid["ni_change_pct"].max(), 100)
-        ax.plot(xx, np.polyval(z, xx), color="#1F4E8C",
+        ax.plot(xx, np.polyval(z, xx), color=C_TEXT,
                 linewidth=2.0, linestyle="--",
                 label=f"回帰直線 (傾き {z[0]:.3f})")
 
@@ -336,7 +336,7 @@ def make_scatter(rdf: pd.DataFrame) -> None:
     ax.set_ylim(-40, 40)
     ax.set_title(
         f"純利益変化率 × CAR 散布図  ―  相関 {corr:+.3f}（n={len(sub)}）",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     ax.legend(loc="upper right", fontsize=16, frameon=False)
     ax.grid(color=C_GRID, linewidth=0.5)
@@ -401,7 +401,7 @@ def make_periods(rdf: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "集計期間別 平均 CAR  ―  全カテゴリで平均マイナス（PEAD 弱、事前織り込みの強さ）",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "04_periods_comparison.png")
     plt.close(fig)
@@ -434,7 +434,7 @@ def make_top_bottom(rdf: pd.DataFrame, names: dict[str, str]) -> None:
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title("★ CAR Top5  ―  N225 を大きくアウトパフォーム",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # Bottom
     y = np.arange(len(bot))[::-1]
@@ -455,7 +455,7 @@ def make_top_bottom(rdf: pd.DataFrame, names: dict[str, str]) -> None:
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("⚠ CAR Bottom5  ―  N225 を大きくアンダーパフォーム",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     fig.suptitle("極端事例のケーススタディ  ―  CAR の振れ幅は大きい",
                  fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)

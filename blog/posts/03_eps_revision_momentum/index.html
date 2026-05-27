@@ -436,8 +436,6 @@
       
         
       
-        
-      
     
     
     
@@ -651,17 +649,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#streamlit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Streamlit アプリ紹介
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -680,6 +667,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Appendix ― Python コード">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Streamlit アプリ ― 業績修正と株価の "ズレ" をブラウザで追跡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#png" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        チャート画像 ― ダブルクリック一発で PNG を作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -707,34 +722,6 @@
     
   
     連載04 連続サプライズ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../05_credit_supply_dashboard/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載05 信用需給
   
 
     
@@ -1379,17 +1366,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#streamlit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Streamlit アプリ紹介
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1408,6 +1384,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Appendix ― Python コード">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Streamlit アプリ ― 業績修正と株価の "ズレ" をブラウザで追跡
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#png" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        チャート画像 ― ダブルクリック一発で PNG を作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1441,32 +1445,32 @@
 <table>
 <thead>
 <tr>
-<th></th>
-<th><strong>下方修正</strong>（修正率 −）</th>
-<th><strong>上方修正</strong>（修正率 +）</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><strong>下方修正</strong><br>（修正率 −）</th>
+<th style="text-align: center;"><strong>上方修正</strong><br>（修正率 +）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>株価上昇</strong>（値上り率 +）</td>
-<td>⚠️ 逆行注意</td>
-<td>既に反応済み</td>
+<td style="text-align: center;"><strong>株価上昇<br>（値上り率 +）</strong></td>
+<td style="text-align: center;">🚨 <br>逆行注意</td>
+<td style="text-align: center;">💨<br>既に反応済み</td>
 </tr>
 <tr>
-<td><strong>株価下落</strong>（値上り率 −）</td>
-<td>底入れ待ち</td>
-<td>★ <strong>出遅れ買い候補</strong></td>
+<td style="text-align: center;"><strong>株価下落<br>（値上り率 −）</strong></td>
+<td style="text-align: center;">⏳<br>底入れ待ち</td>
+<td style="text-align: center;">🎯 <br>出遅れ買い候補</td>
 </tr>
 </tbody>
 </table>
 <p>注目すべきは右下の <strong>「出遅れ買い候補」</strong>（上方修正済みだが市場の注目がまだ向いていない情報の織り込み遅れ）と、左上の <strong>「逆行注意」</strong>（業績下方修正に株価が追従していない、次の決算で楽観が崩れるリスク）の 2 象限です。</p>
-<p>しきい値は <strong>修正率 ±3%・値上り率 ±2%</strong>（ノイズと信号を分ける経験則）、修正済み割安候補は追加で <strong>PER（予）≤ 15</strong>。実装詳細は Appendix の Python コードを参照。</p>
+<p>しきい値は <strong>修正率 ±3%・値上り率 ±2%</strong>（ノイズと信号を分ける経験則）、修正済み割安候補は追加で <strong>PER（予想）≤ 15</strong>。</p>
 <h2 id="_1">プロットで確認</h2>
 <p>リビジョン × モメンタムは、<strong>業績予想修正率（横軸）× 値上り率（縦軸）の散布図</strong>でプロットします。先ほどの 4 象限がそのまま 2 軸として再現され、銘柄の位置が一目で分かります。</p>
 <p>時価総額 100 億円以上・ROE 5% 以上にフィルタした 1,965 銘柄について、4 象限分類すると（散布図の表示範囲内で）<strong>出遅れ買い候補が 90 銘柄、逆行注意が 28 銘柄</strong>。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
 <small style="color: var(--md-link-color);">2026.05.22作成</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_revision/04_revision_vs_momentum.png" data-desc-position="bottom"><img alt="リビジョン×モメンタム散布図" src="../img/03_revision/04_revision_vs_momentum.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_eps_revision/04_revision_vs_momentum.png" data-desc-position="bottom"><img alt="リビジョン×モメンタム散布図" src="../img/03_eps_revision/04_revision_vs_momentum.png" width="1200"></a></p>
 <p>出遅れ買い候補 Top の銘柄（修正率上位、散布図表示範囲 ±30% 以内）:</p>
 <table>
 <thead>
@@ -1474,7 +1478,7 @@
 <th>銘柄</th>
 <th>修正率</th>
 <th>値上り率</th>
-<th>PER予</th>
+<th>PER予想</th>
 <th>ROE</th>
 </tr>
 </thead>
@@ -1540,35 +1544,35 @@
 </thead>
 <tbody>
 <tr>
-<td>01 (PEG×ROE)</td>
-<td>理想ゾーン / −5.2%</td>
-<td>バリュー候補 / +29.7%</td>
-<td>惜しい位置 / +17.6%</td>
+<td>連載01<br>PEG×ROE</td>
+<td>理想ゾーン<br>値上り率 −5.2%</td>
+<td>バリュー候補<br>値上り率 +29.7%</td>
+<td>惜しい位置<br>値上り率 +17.6%</td>
 </tr>
 <tr>
-<td>02 (マルチファクター)</td>
-<td>Consensus 68 × Sentiment 22（乖離）</td>
-<td>Value 70 × Quality 32</td>
+<td>連載02<br>マルチファクター</td>
+<td>Consensus 68<br>Sentiment 22（乖離）</td>
+<td>Value 70<br>Quality 32</td>
 <td>中庸</td>
 </tr>
 <tr>
-<td>03 (リビジョン)</td>
-<td><strong>+1.11%</strong> 上振れ</td>
-<td><strong>−3.71%</strong> 下振れ</td>
-<td><strong>−3.48%</strong> 下振れ</td>
+<td>連載03<br>リビジョン</td>
+<td>修正率 <strong>+1.11%</strong>（上振れ）</td>
+<td>修正率 <strong>−3.71%</strong>（下振れ）</td>
+<td>修正率 <strong>−3.48%</strong>（下振れ）</td>
 </tr>
 </tbody>
 </table>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
 <small style="color: var(--md-link-color);">2026.05.22作成</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_revision/02_oil_refining_revision.png" data-desc-position="bottom"><img alt="石油元売3社 リビジョン" src="../img/03_revision/02_oil_refining_revision.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_eps_revision/02_oil_refining_revision.png" data-desc-position="bottom"><img alt="石油元売3社 リビジョン" src="../img/03_eps_revision/02_oil_refining_revision.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
 <th>銘柄</th>
 <th>業績予想修正率</th>
 <th>値上り率</th>
-<th>PER予</th>
+<th>PER予想</th>
 <th>解釈</th>
 </tr>
 </thead>
@@ -1612,28 +1616,6 @@
 </div>
 
 <p>これがリビジョン・モメンタムを使う本質的な価値です。<strong>水準（連載02 のスコア）と変化（連載03 のリビジョン）が同じ方向を指したとき、シグナルの信頼性は最高</strong> になります。</p>
-<h2 id="streamlit">Streamlit アプリ紹介</h2>
-<p>本記事と同じリビジョン × モメンタム散布図を <strong>Streamlit + Plotly</strong> で操作可能にしたアプリを公開しています。修正率の閾値や時価総額フィルタを動かしながら、自分の興味のある銘柄群を絞り込めます。</p>
-<blockquote>
-<p>📝 <strong>アプリ公開予定</strong>: GitHub リポジトリ（準備中）。<code>app_chart.py</code> と同じく Streamlit ベースで、<code>requirements.txt</code> だけ揃えればローカルで動きます。</p>
-</blockquote>
-<pre><code class="language-python"># Plotly 版 リビジョン × モメンタム散布図（最小実装の抜粋）
-import plotly.express as px
-
-def revision_scatter(df, rev_th=3.0, rise_th=2.0):
-    fig = px.scatter(df, x="業績予想修正率(予)", y="値上り率",
-                     hover_data=["コード", "銘柄名", "PER予", "ROE"],
-                     color_discrete_sequence=["#7eaee0"])
-    # 4 象限の境界線
-    fig.add_vline(x=0, line_color="#888")
-    fig.add_hline(y=0, line_color="#888")
-    fig.add_vline(x=rev_th, line_dash="dash", line_color="#8ab09a")
-    fig.add_hline(y=rise_th, line_dash="dash", line_color="#8ab09a")
-    fig.update_layout(xaxis_title="業績予想修正率(%) ← 下振れ  上振れ →",
-                      yaxis_title="値上り率(%) ← 下落  上昇 →")
-    return fig
-</code></pre>
-<p>データは連載中の <code>classify_revision()</code> を流用、4 象限ごとに色分けして表示することも可能。</p>
 <h2 id="_2">まとめ</h2>
 <ul>
 <li>業績予想修正率は <strong>アナリストの見立ての "変化"</strong> を最も早く伝える指標で、PER / ROE 等の "水準" 指標を補完する</li>
@@ -1644,29 +1626,21 @@ def revision_scatter(df, rev_th=3.0, rise_th=2.0):
 </ul>
 <p>次回は <strong>連続サプライズ・スコアボード</strong> を実装します。本記事の「データ蓄積戦略」を発展させ、業績予想修正率・EPS 予想超過率・経常利益成長予想を時系列で合成し、業績モメンタムが本物の銘柄を発掘します。</p>
 <h2 id="appendix-python">Appendix ― Python コード</h2>
-<p>画像生成の全コードは <a href="../../scripts/03_revision_momentum_make_images.py"><code>03_revision_momentum_make_images.py</code></a> を参照。執筆者ローカルのモジュール・データに依存するため、そのままでは動きません。</p>
-<pre><code class="language-python">import pandas as pd
-
-# 業績予想修正率(%) = (現在の予想経常利益 − 前回の予想経常利益) ÷ 前回の予想経常利益 × 100
-# PER（予） = Close_yf ÷ EPS予想(213_EPS(予))
-# しきい値: 修正率 ±3% / 値上り率 ±2% / 修正済み割安候補は PER(予) ≤ 15
-
-def classify_revision(df: pd.DataFrame,
-                      rev_col: str = "業績予想修正率(予)",
-                      rise_col: str = "値上り率",
-                      per_col: str = "PER予") -&gt; pd.DataFrame:
-    out = df.copy()
-    out["分類"] = "対象外"
-    laggard = (out[rev_col] &gt;= 3) &amp; (out[rise_col] &lt;= 2)
-    out.loc[laggard, "分類"] = "出遅れ買い候補"
-    warn = (out[rev_col] &lt;= -3) &amp; (out[rise_col] &gt;= 2)
-    out.loc[warn, "分類"] = "逆行注意"
-    val = (out[rev_col] &gt;= 3) &amp; (out[per_col].between(0, 15))
-    out.loc[val, "分類"] = "修正済み割安候補"
-    return out
-</code></pre>
+<h4 id="streamlit">Streamlit アプリ ― 業績修正と株価の "ズレ" をブラウザで追跡</h4>
+<p>「上方修正された銘柄に注目したいが、すでに株価が反応していたら出遅れだ」 ― そのズレを 4 象限マップで一目で判定できるのが <strong>Streamlit + Plotly</strong>。<strong>Python ファイル 1 つ・100 行台のコード</strong> で、ホバー表示・ズーム・パンが揃った散布図ダッシュボードが完成します。<strong>「自分の watch list だけ表示」「業種ごとに絞り込む」「経常変化率も重ねる」</strong> といったカスタマイズも、コードを数行書き換えるだけ。</p>
+<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_eps_revision/app.png" data-desc-position="bottom"><img alt="EPSリビジョン・モメンタム アプリ画面" src="../img/03_eps_revision/app.png" width="1200"></a></p>
+<blockquote>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/03_eps_revision"><code>github.com/minnanosaiban/blog/03_eps_revision</code></a> ― <code>pip install -r requirements.txt</code> → <code>streamlit run app.py</code> で起動。</p>
+</blockquote>
+<h4 id="png">チャート画像 ― ダブルクリック一発で PNG を作成</h4>
+<p>本記事の図はすべて <strong>Matplotlib</strong> で生成しています。<strong>スクリプトへのショートカットをデスクトップに置けばダブルクリック一発で最新データのチャート画像が再生成される</strong> ― 高解像度 PNG / PDF で書き出せ、データを差し替えれば毎週・毎月の定点観測に。Windows タスクスケジューラ / cron に登録すれば、判断材料が手を動かさずに揃う仕組みも作れます。</p>
+<blockquote>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/03_eps_revision/03_revision_momentum_make_images.py"><code>github.com/minnanosaiban/blog/03_eps_revision/03_revision_momentum_make_images.py</code></a></p>
+</blockquote>
+<p>株価や指標などのデータは提供元の利用規約により再配布できませんが、<strong>yfinance</strong> や <strong>証券会社が無料で提供しているデータ</strong> を組み合わせれば、ご自身の銘柄リストで同じ構図のアプリや PNG が生成できます。</p>
 <hr>
-<p><em>データ出典: 証券会社が無料で提供する銘柄情報サービスから取得した CSV 4 指標（業績予想修正率(予) / EPS(予) / ROE / 時価総額） + yfinance 日足 Close / Volume</em></p>
+<p><em>データ出典: 証券会社が無料で提供する銘柄情報サービスから取得した CSV 4 指標（業績予想修正率(予想) / EPS(予想) / ROE / 時価総額） + yfinance 日足 Close / Volume</em></p>
 
 
 

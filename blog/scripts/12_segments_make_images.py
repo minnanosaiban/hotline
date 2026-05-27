@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/12_セグメント発進力.md 用の画像生成スクリプト。
 
 生成画像:
@@ -44,15 +44,15 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_UP    = "#27ae60"
-C_DOWN  = "#e74c3c"
+C_UP    = "#5a9a72"
+C_DOWN  = "#c87878"
 C_OI    = "#f39c12"
 C_NS    = "#3498db"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/12_segments")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/12_segments")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -159,9 +159,9 @@ def make_segment_coverage(by_code: dict) -> None:
 
     # 有報 (yuho)
     ax.add_patch(Rectangle((0.3, 2.5), 5.0, 1.2, facecolor="#FFE5E5",
-                            edgecolor="#E74C3C", linewidth=1.5))
+                            edgecolor="#c87878", linewidth=1.5))
     ax.text(0.5, 3.4, "有報 XBRL（連載06-08 で構築）",
-            fontsize=16, fontweight="bold", color="#E74C3C", va="center")
+            fontsize=16, fontweight="bold", color="#c87878", va="center")
     ax.text(0.5, 2.95, "13 銘柄 × 7 期 = 91 ファイル / セグメント取得済み 0 件",
             fontsize=16, color=C_TEXT, va="center")
     ax.text(0.5, 2.65, "★ parser_version 0.2.0 で yuho セグメント未対応",
@@ -192,13 +192,13 @@ def make_segment_coverage(by_code: dict) -> None:
     x = 0.6
     for label, code, note in samples:
         ax.text(x, 1.2, f"{label} ({code})",
-                fontsize=16, fontweight="bold", color="#1F4E8C")
+                fontsize=16, fontweight="bold", color=C_TEXT)
         ax.text(x, 0.85, note, fontsize=16, color=C_TEXT_SUB)
         x += 2.7
 
     ax.set_title(
         "セグメント情報のデータカバレッジ  ―  決算短信 XBRL からの 2 年時系列で実施",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "01_segment_coverage.png")
     plt.close(fig)
@@ -226,8 +226,9 @@ def make_sony_portfolio(by_code: dict) -> None:
         })
     df = pd.DataFrame(seg_data).sort_values("sales_oku", ascending=True)
 
-    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(14, 6),
+    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(14, 6.5),
                                      gridspec_kw=dict(wspace=0.35))
+    fig.subplots_adjust(top=0.82)
 
     # 左: 売上構成
     y = np.arange(len(df))
@@ -249,7 +250,7 @@ def make_sony_portfolio(by_code: dict) -> None:
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title(f"ソニーＧ  ―  6 セグメントの売上 × 営業利益（{yrs[-1][:4]} 年度）",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 右: 営業利益率
     df_m = df.dropna(subset=["margin"]).sort_values("margin", ascending=True)
@@ -268,10 +269,10 @@ def make_sony_portfolio(by_code: dict) -> None:
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("セグメント別 営業利益率  ―  音楽セグメントが突出",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     fig.suptitle("ソニーグループの事業ポートフォリオ  ―  6 セグメントの収益構造",
-                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=0.97)
     _savefig_vpad(fig, OUT_DIR / "02_sony_segment_portfolio.png")
     plt.close(fig)
 
@@ -307,7 +308,7 @@ def make_yoy_acceleration(dfg: pd.DataFrame, names: dict[str, str]) -> None:
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title("★ 加速 Top10  ―  売上 100 億以上のセグメント",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 減速 Worst10
     y = np.arange(len(worst))
@@ -326,7 +327,7 @@ def make_yoy_acceleration(dfg: pd.DataFrame, names: dict[str, str]) -> None:
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("⚠ 減速 Worst10  ―  売上 100 億以上のセグメント",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     fig.suptitle(
         f"セグメント別 前期比成長率  ―  決算短信 2 年分から抽出（対象 {len(sub)} セグメント）",
@@ -364,7 +365,7 @@ def make_high_margin_segments(dfg: pd.DataFrame, names: dict[str, str]) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "高営業利益率セグメント Top15  ―  売上 200 億以上 × 利益率 > 0%",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "04_high_margin_segments.png")
     plt.close(fig)
@@ -434,7 +435,7 @@ def make_major_companies_2yr(by_code: dict, names: dict[str, str]) -> None:
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
         ax.set_title(f"{name} ({code})", fontsize=16,
-                     fontweight="bold", color=C_TEXT, pad=8, loc="left")
+                     fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 余ったセルを消す
     for ax in axes[len(avail):]:
@@ -501,8 +502,9 @@ def make_eneos_peakout(by_code: dict) -> None:
     # 売上の大きい順
     df = pd.DataFrame(rows).sort_values("cur_rev", ascending=True).reset_index(drop=True)
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5.6),
+    fig, axes = plt.subplots(1, 2, figsize=(14, 6),
                              gridspec_kw=dict(wspace=0.35))
+    fig.subplots_adjust(top=0.82)
 
     # 左: 営業利益（億円）
     ax = axes[0]
@@ -528,7 +530,7 @@ def make_eneos_peakout(by_code: dict) -> None:
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title("セグメント別 営業利益", fontsize=16,
-                 fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                 fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 右: 営業利益率（%）
     ax = axes[1]
@@ -553,12 +555,12 @@ def make_eneos_peakout(by_code: dict) -> None:
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title("セグメント別 営業利益率（OPM）",
-                 fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                 fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     fig.suptitle(
         f"ＥＮＥＯＳ ({code}) のピークアウト内訳  ―  "
         f"{prev_yr[:4]}/3 期 vs {cur_yr[:4]}/3 期 セグメント比較",
-        fontsize=20, fontweight="bold", color=C_TEXT, y=1.00)
+        fontsize=20, fontweight="bold", color=C_TEXT, y=0.97)
     _savefig_vpad(fig, OUT_DIR / "06_eneos_segments.png")
     plt.close(fig)
 
