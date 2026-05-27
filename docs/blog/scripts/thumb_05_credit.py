@@ -43,7 +43,7 @@ zones = [
     (0, 1, 1, 1, '#1a4d2e'),
     (1, 1, 1, 1, MUTED_BG),
     (0, 0, 1, 1, MUTED_BG),
-    (1, 0, 1, 1, '#4d1a1a'),
+    (1, 0, 1, 1, MUTED_BG),
 ]
 for (x, y, w, h, fc) in zones:
     ax_r.add_patch(patches.Rectangle((x, y), w, h, facecolor=fc, edgecolor='none'))
@@ -59,6 +59,7 @@ ax_r.text(0.50, 1.24, '需給好転', color=WHITE, fontsize=24, ha='center', va=
 other_zones = [
     (1.50, 1.55, '踏み上げ罠', '#a5b8cc', 24),
     (0.50, 0.55, '弱気ムード', '#a5b8cc', 24),
+    (1.50, 0.55, '注目薄',     '#a5b8cc', 24),
 ]
 for (x, y, txt, color, fs) in other_zones:
     ax_r.text(x, y, txt, color=color, fontsize=fs, ha='center', va='center')

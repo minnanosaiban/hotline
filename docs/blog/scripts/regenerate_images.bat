@@ -74,5 +74,15 @@ echo ===== sync to docs =====
 python "%SCRIPTS%\sync_to_docs.py"
 echo.
 
+echo ===== thumbnails =====
+set THUMBS=C:\minnanosaiban\hotline\docs\blog\scripts
+
+for %%n in (01_garp 02_multifactor 03_eps_revision 04_surprise 05_credit 06_xbrl 07_pipeline 08_schema 09_zscore 10_accrual 11_triangulation 12_segments 13_car 14_llm 15_similarity 16_prediction) do (
+    echo [thumb_%%n]
+    python "%THUMBS%\thumb_%%n.py"
+    if errorlevel 1 echo [ERROR] thumb_%%n.py
+)
+echo.
+
 echo ===== done =====
 pause

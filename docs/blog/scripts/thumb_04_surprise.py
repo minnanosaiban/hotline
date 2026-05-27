@@ -54,29 +54,29 @@ ax_r.set_ylim(-0.32, 2.25)
 ax_r.axis('off')
 
 zones = [
-    (0, 1, 1, 1, GREEN_BG),   # 右上：連続サプライズ
-    (1, 1, 1, 1, MUTED_BG),   # 左上
-    (0, 0, 1, 1, MUTED_BG),   # 右下
-    (1, 0, 1, 1, MUTED_BG),   # 左下
+    (0, 1, 1, 1, MUTED_BG),   # 左上：回復期待
+    (1, 1, 1, 1, GREEN_BG),   # 右上：★ 上方修正 × 来期成長
+    (0, 0, 1, 1, MUTED_BG),   # 左下：回避ゾーン
+    (1, 0, 1, 1, MUTED_BG),   # 右下：ピークアウト警戒
 ]
 for (x, y, w, h, fc) in zones:
     ax_r.add_patch(patches.Rectangle((x, y), w, h, facecolor=fc, edgecolor='none'))
 
-ax_r.add_patch(patches.Rectangle((0, 1), 1, 1, fill=False, edgecolor=GREEN, linewidth=3))
+ax_r.add_patch(patches.Rectangle((1, 1), 1, 1, fill=False, edgecolor=GREEN, linewidth=3))
 
 ax_r.plot([1, 1], [0, 2], color=SOFT, linewidth=0.8, alpha=0.3)
 ax_r.plot([0, 2], [1, 1], color=SOFT, linewidth=0.8, alpha=0.3)
 
-# 理想ゾーン
-ax_r.text(0.50, 1.72, '★', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.48, 'サプライズ', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
-ax_r.text(0.50, 1.24, '本物モメンタム', color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
+# ★ 右上: 上方修正 × 来期成長（本命）
+ax_r.text(1.50, 1.72, '★', color=GREEN, fontsize=32, ha='center', va='center', fontweight='bold')
+ax_r.text(1.50, 1.48, '上方修正×', color=GREEN, fontsize=28, ha='center', va='center', fontweight='bold')
+ax_r.text(1.50, 1.24, '来期成長', color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
 
 # 他象限
 other_zones = [
-    (1.50, 1.55, '需給先行',   MUTED_TX, 24),
-    (0.50, 0.55, '出遅れ割安', MUTED_TX, 24),
-    (1.50, 0.55, '投資不適格', MUTED_TX, 24),
+    (0.50, 1.55, '回復期待',         MUTED_TX, 24),
+    (0.50, 0.55, '回避ゾーン',       MUTED_TX, 24),
+    (1.50, 0.55, 'ピークアウト警戒', MUTED_TX, 22),
 ]
 for (x, y, txt, color, fs) in other_zones:
     ax_r.text(x, y, txt, color=color, fontsize=fs, ha='center', va='center')
@@ -97,7 +97,7 @@ ax_r.text(-0.15, 0.50, '低', color=SOFT, fontsize=19, ha='center', va='center',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
 ax_r.text(-0.15, 1.50, '高', color=SOFT, fontsize=19, ha='center', va='center', fontweight='bold',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
-ax_r.text(-0.15, 2.24, '株価モメンタム', color=SOFT, fontsize=24, ha='center', va='center', alpha=0.9, fontweight='bold')
+ax_r.text(-0.15, 2.24, '経常利益変化率(予)', color=SOFT, fontsize=22, ha='center', va='center', alpha=0.9, fontweight='bold')
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '04_surprise', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)

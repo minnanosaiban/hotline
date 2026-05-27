@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/08_決算短信JSONスキーマ設計.md 用の画像生成スクリプト。
 
 生成画像:
@@ -42,15 +42,15 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_PERF = "#3498db"
-C_BS   = "#27ae60"
-C_DIV  = "#9b59b6"
-C_META = "#7f8c8d"
+C_PERF = "#444444"
+C_BS   = "#666666"
+C_DIV  = "#888888"
+C_META = "#aaaaaa"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/08_schema")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/08_schema")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -113,7 +113,7 @@ def make_section_distribution() -> None:
         ax.spines[sp].set_visible(False)
 
     ax.set_title(f"kessan_mapping.csv  ―  セクション別ルール分布（全 {len(km)} ルール）",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 注釈
     fig.text(0.95, -0.02,
@@ -158,7 +158,7 @@ def make_standard_category_heatmap() -> None:
         ax.spines[sp].set_visible(False)
 
     ax.set_title("会計基準 × カテゴリ クロス  ―  対応の網羅性",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # サイドの合計
     for i, total in enumerate(cross.sum(axis=1).values):
@@ -209,7 +209,7 @@ def make_net_sales_multi_tags() -> None:
     total = grouped["n_tags"].sum()
     ax.set_title(
         f"net_sales 系  ―  1 つの JSON パスに複数 XBRL タグ（全 {total} ルール）",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
 
     fig.text(0.05, -0.02,
@@ -266,12 +266,13 @@ def make_field_coverage() -> None:
                    "shares.outstanding_with_treasury"]
     low_subset = cov[cov["field"].isin(low_targets)].sort_values("coverage")
 
-    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(14, 6),
+    fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(14, 6.5),
                                      gridspec_kw=dict(wspace=0.55))
+    fig.subplots_adjust(top=0.82)
 
     # Top 高カバレッジ
     y = np.arange(len(top))
-    colors = ["#27AE60" if c >= 90 else "#3498DB" if c >= 70 else "#F39C12"
+    colors = ["#5a9a72" if c >= 90 else "#3498DB" if c >= 70 else "#F39C12"
               for c in top["coverage"]]
     ax_l.barh(y, top["coverage"], color=colors, alpha=0.85,
               edgecolor="white", linewidth=0.8)
@@ -283,8 +284,8 @@ def make_field_coverage() -> None:
     ax_l.invert_yaxis()
     ax_l.set_xlabel("カバレッジ（%）", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_xlim(0, 110)
-    ax_l.set_title(f"高カバレッジ Top 15  ―  全銘柄で安定取得可能",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_l.set_title("高カバレッジ Top 15  ―  全銘柄で安定取得可能",
+                   fontsize=14, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax_l.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
@@ -301,14 +302,14 @@ def make_field_coverage() -> None:
     ax_r.invert_yaxis()
     ax_r.set_xlabel("カバレッジ（%）", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_xlim(0, max(low_subset["coverage"].max() * 1.4, 5))
-    ax_r.set_title("低カバレッジ代表例  ―  該当時のみ存在するフィールド",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+    ax_r.set_title("低カバレッジ代表例  ―  該当時のみ存在",
+                   fontsize=14, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax_r.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
 
-    fig.suptitle(f"実データでのフィールドカバレッジ  ―  決算短信 FY 500 ファイルでの集計",
-                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+    fig.suptitle("実データでのフィールドカバレッジ  ―  決算短信 FY 500 ファイルでの集計",
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=0.98)
     _savefig_vpad(fig, OUT_DIR / "04_field_coverage.png")
     plt.close(fig)
 
@@ -338,7 +339,7 @@ def make_schema_principles() -> None:
     ax.set_ylim(0, len(principles) + 1.2)
     ax.axis("off")
 
-    colors_box = ["#3498db", "#27ae60", "#9b59b6", "#e67e22", "#1abc9c"]
+    colors_box = ["#3498db", "#5a9a72", "#888888", "#aaaaaa", "#999999"]
 
     for i, ((num, title, desc, example), color) in enumerate(zip(principles, colors_box)):
         y_top = len(principles) - i + 0.1

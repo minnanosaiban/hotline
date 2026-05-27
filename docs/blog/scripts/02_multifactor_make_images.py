@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/02_マルチファクタースコアボード.md 用の画像生成スクリプト。
 
 生成画像:
@@ -50,9 +50,9 @@ FACTOR_COLORS = {
     "Value":     "#4C8BF5",
     "Quality":   "#50C878",
     "Growth":    "#F5A623",
-    "Consensus": "#9B59B6",
+    "Consensus": "#888888",
     "Sentiment": "#E05C5C",
-    "Momentum":  "#1ABC9C",
+    "Momentum":  "#999999",
     "Risk":      "#8C8C8C",
 }
 FACTORS = list(FACTOR_COLORS)
@@ -60,7 +60,7 @@ C_TEXT     = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID     = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/02_multifactor")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/02_multifactor")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -196,9 +196,9 @@ MAJORS = [(code, _name_map_02.get(code, code)) for code in _MAJOR_CODES_02]
 
 # 連載01 と同じ石油元売 3 社（セクター内比較）
 OIL_REFINERS = [
-    ("5021", _name_map_02.get("5021", "コスモエネＨＤ"), "#27ae60"),  # 緑: 最も Value 高
-    ("5020", _name_map_02.get("5020", "ＥＮＥＯＳ"),     "#3498db"),  # 青
-    ("5019", _name_map_02.get("5019", "出光興産"),       "#e67e22"),  # オレンジ
+    ("5021", _name_map_02.get("5021", "コスモエネＨＤ"), "#888888"),
+    ("5020", _name_map_02.get("5020", "ＥＮＥＯＳ"),     "#444444"),
+    ("5019", _name_map_02.get("5019", "出光興産"),       "#aaaaaa"),
 ]
 
 
@@ -308,9 +308,9 @@ def make_value_quality_scatter(df: pd.DataFrame) -> None:
     fig, ax = plt.subplots(figsize=(13, 9.0))
 
     # 4 象限の薄塗り
-    ax.axhspan(70, 100, xmin=0.7, xmax=1.0, facecolor="#27ae60", alpha=0.08)  # 右上 ★Buffett
+    ax.axhspan(70, 100, xmin=0.7, xmax=1.0, facecolor="#5a9a72", alpha=0.08)  # 右上 ★Buffett
     ax.axhspan(70, 100, xmin=0.0, xmax=0.3, facecolor="#3498db", alpha=0.05)  # 左上 高品質グロース
-    ax.axhspan(0,  30,  xmin=0.7, xmax=1.0, facecolor="#e74c3c", alpha=0.05)  # 右下 バリュー罠
+    ax.axhspan(0,  30,  xmin=0.7, xmax=1.0, facecolor="#c87878", alpha=0.05)  # 右下 バリュー罠
 
     # 全銘柄背景
     base = df.dropna(subset=["score_Value", "score_Quality"])
@@ -325,7 +325,7 @@ def make_value_quality_scatter(df: pd.DataFrame) -> None:
         r = row.iloc[0]
         label = r["銘柄名"]
         ax.scatter(r["score_Value"], r["score_Quality"],
-                   s=180, color="#1ABC9C", edgecolor="white", linewidth=2.0, zorder=5)
+                   s=180, color="#999999", edgecolor="white", linewidth=2.0, zorder=5)
         ax.annotate(label, xy=(r["score_Value"], r["score_Quality"]),
                     xytext=(10, 8), textcoords="offset points",
                     fontsize=16, fontweight="bold", color=C_TEXT,
@@ -333,18 +333,18 @@ def make_value_quality_scatter(df: pd.DataFrame) -> None:
                               edgecolor="none", boxstyle="round,pad=0.25"))
 
     # 基準線
-    ax.axhline(70, color="#27ae60", linestyle="--", alpha=0.5, linewidth=1.0)
-    ax.axvline(70, color="#27ae60", linestyle="--", alpha=0.5, linewidth=1.0)
+    ax.axhline(70, color="#5a9a72", linestyle="--", alpha=0.5, linewidth=1.0)
+    ax.axvline(70, color="#5a9a72", linestyle="--", alpha=0.5, linewidth=1.0)
     ax.axhline(50, color="#cccccc", linestyle=":",  alpha=0.6, linewidth=0.8)
     ax.axvline(50, color="#cccccc", linestyle=":",  alpha=0.6, linewidth=0.8)
 
     # ゾーンラベル
     ax.text(85, 92, "★クオリティ・バリュー\n（バフェット流）",
-            fontsize=16, fontweight="bold", color="#27ae60",
+            fontsize=16, fontweight="bold", color="#5a9a72",
             ha="center", va="center")
     ax.text(15, 92, "高品質グロース\n（割高優良）", fontsize=16, color="#3498db",
             ha="center", va="center")
-    ax.text(85, 12, "バリュー・トラップ警戒", fontsize=16, color="#e74c3c",
+    ax.text(85, 12, "バリュー・トラップ警戒", fontsize=16, color="#c87878",
             ha="center", va="center")
     ax.text(15, 12, "低品質×割高\n（投資不適格）", fontsize=16, color="#888888",
             ha="center", va="center")
@@ -386,8 +386,8 @@ def make_majors_radar(df: pd.DataFrame) -> None:
         vals = [r[f"score_{f}"] for f in FACTORS]
         vals_closed = vals + [vals[0]]
 
-        ax.fill(angles_closed, vals_closed, color="#1ABC9C", alpha=0.20)
-        ax.plot(angles_closed, vals_closed, color="#1ABC9C", linewidth=2.0, marker="o", markersize=4)
+        ax.fill(angles_closed, vals_closed, color="#666666", alpha=0.20)
+        ax.plot(angles_closed, vals_closed, color="#666666", linewidth=2.0, marker="o", markersize=4)
 
         # 50 ライン
         ax.plot(angles_closed, [50] * len(angles_closed), color="#cccccc",

@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/10_アクルーアル.md 用の画像生成スクリプト。
 
 生成画像:
@@ -41,16 +41,16 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_HEALTHY = "#27ae60"
-C_WARN    = "#e74c3c"
+C_HEALTHY = "#5a9a72"
+C_WARN    = "#c87878"
 C_NEUTRAL = "#999999"
 C_NI      = "#3498db"
-C_CF      = "#27ae60"
+C_CF      = "#5a9a72"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/10_accrual")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/10_accrual")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -70,9 +70,9 @@ def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
 YUHO = Path(r"C:/stock_analysis/data/yuho")
 
 OIL_3 = [
-    ("E31632", "コスモエネＨＤ", "#27ae60"),
-    ("E24050", "ＥＮＥＯＳ",      "#3498db"),
-    ("E01084", "出光興産",       "#e67e22"),
+    ("E31632", "コスモエネＨＤ", "#888888"),
+    ("E24050", "ＥＮＥＯＳ",      "#444444"),
+    ("E01084", "出光興産",       "#aaaaaa"),
 ]
 
 
@@ -136,14 +136,14 @@ def make_oil_accrual_timeline(df: pd.DataFrame) -> None:
     # ゾーンラベル
     ax.text(6.3, -0.08, "★低アクルーアル\n（健全）", fontsize=16, color=C_HEALTHY,
             ha="left", va="center", fontweight="bold")
-    ax.text(6.3, 0.07, "警戒", fontsize=16, color="#E67E22",
+    ax.text(6.3, 0.07, "警戒", fontsize=16, color="#aaaaaa",
             ha="left", va="center", fontweight="bold")
     ax.text(6.3, 0.0, "普通", fontsize=16, color="#888888",
             ha="left", va="center")
 
     ax.axhline(0, color="#999999", linewidth=0.7)
     ax.axhline(-0.05, color=C_HEALTHY, linewidth=0.6, linestyle="--", alpha=0.5)
-    ax.axhline(0.05, color="#E67E22", linewidth=0.6, linestyle="--", alpha=0.5)
+    ax.axhline(0.05, color="#aaaaaa", linewidth=0.6, linestyle="--", alpha=0.5)
 
     # ENEOS 2022 を強調
     eneos = df[df["edinet"] == "E24050"]
@@ -154,9 +154,9 @@ def make_oil_accrual_timeline(df: pd.DataFrame) -> None:
             "ＥＮＥＯＳ 2022\nピーク純利益 5,371 億円\nだが CF/純利 0.39",
             xy=("2022", r["accrual"]),
             xytext=(0.5, 0.18), textcoords="data",
-            fontsize=16, color="#1F4E8C", fontweight="bold",
-            arrowprops=dict(arrowstyle="->", color="#1F4E8C", lw=1.5),
-            bbox=dict(facecolor="white", edgecolor="#1F4E8C",
+            fontsize=16, color=C_TEXT, fontweight="bold",
+            arrowprops=dict(arrowstyle="->", color=C_TEXT, lw=1.5),
+            bbox=dict(facecolor="white", edgecolor="#aaaaaa",
                       boxstyle="round,pad=0.3"),
         )
 
@@ -165,7 +165,7 @@ def make_oil_accrual_timeline(df: pd.DataFrame) -> None:
     ax.set_ylabel("アクルーアル比率（純利益 − 営業CF）÷ 総資産",
                   fontsize=16, color=C_TEXT)
     ax.set_title("石油元売 3 社  ―  アクルーアル比率 7 年推移",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax.legend(loc="lower left", fontsize=16, frameon=False)
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
@@ -178,6 +178,7 @@ def make_oil_accrual_timeline(df: pd.DataFrame) -> None:
 def make_oil_ni_vs_cf(df: pd.DataFrame) -> None:
     fig, axes = plt.subplots(1, 3, figsize=(15, 5.2),
                              gridspec_kw=dict(wspace=0.32))
+    fig.subplots_adjust(top=0.88)
 
     for ax, (ed, name, color) in zip(axes, OIL_3):
         sub = df[df["edinet"] == ed].sort_values("fy")
@@ -204,23 +205,26 @@ def make_oil_ni_vs_cf(df: pd.DataFrame) -> None:
         # 2022 ピーク年を強調枠
         if "2022" in sub["fy"].values:
             i22 = list(sub["fy"]).index("2022")
-            ax.axvspan(i22 - 0.5, i22 + 0.5, facecolor="#E74C3C", alpha=0.06)
+            ax.axvspan(i22 - 0.5, i22 + 0.5, facecolor="#c87878", alpha=0.06)
 
         ax.axhline(0, color="#444444", linewidth=0.8)
         ax.set_xticks(x)
         ax.set_xticklabels(sub["fy"].values, fontsize=16)
         ax.set_ylabel("（千億円）" if ax is axes[0] else "",
                       fontsize=16, color=C_TEXT_SUB)
-        ax.set_title(name, fontsize=16, fontweight="bold",
-                     color=color, pad=10)
-        if ax is axes[0]:
-            ax.legend(loc="best", fontsize=16, frameon=False)
+        ylo, yhi = ax.get_ylim()
+        ax.set_ylim(ylo, yhi * 1.28)
+        ax.text(0.5, 0.97, name, fontsize=16, fontweight="bold",
+                color=color, transform=ax.transAxes, ha="center", va="top")
         ax.grid(axis="y", color=C_GRID, linewidth=0.5)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
 
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", ncol=2,
+               fontsize=14, frameon=False, bbox_to_anchor=(0.5, 1.04))
     fig.suptitle("純利益 vs 営業CF の 7 年対比  ―  2022 ピーク年は赤帯",
-                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.02)
+                 fontsize=20, fontweight="bold", color=C_TEXT, y=1.12)
     _savefig_vpad(fig, OUT_DIR / "02_oil_3_ni_vs_cf.png")
     plt.close(fig)
 
@@ -294,7 +298,7 @@ def make_13_companies_rank(df: pd.DataFrame) -> None:
     ax.set_xlabel("平均アクルーアル比率（誤差バー = 標準偏差）",
                   fontsize=16, color=C_TEXT)
     ax.set_title("13 社の 7 年平均アクルーアル ランキング  ―  全社が健全圏",
-                 fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax.grid(axis="x", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
@@ -347,14 +351,14 @@ def make_ni_cf_scatter(df: pd.DataFrame) -> None:
     if not e22.empty:
         r = e22.iloc[0]
         ax.scatter(r["ni_normalized"], r["cf_normalized"], s=400,
-                   marker="*", color="#1F4E8C", edgecolors="white",
+                   marker="*", color=C_TEXT, edgecolors="white",
                    linewidth=2.0, zorder=10)
         ax.annotate("ＥＮＥＯＳ 2022\n（CF が純利益の 39%）",
                     xy=(r["ni_normalized"], r["cf_normalized"]),
                     xytext=(20, -30), textcoords="offset points",
-                    fontsize=16, fontweight="bold", color="#1F4E8C",
-                    arrowprops=dict(arrowstyle="->", color="#1F4E8C", lw=1.5),
-                    bbox=dict(facecolor="white", edgecolor="#1F4E8C",
+                    fontsize=16, fontweight="bold", color=C_TEXT,
+                    arrowprops=dict(arrowstyle="->", color=C_TEXT, lw=1.5),
+                    bbox=dict(facecolor="white", edgecolor="#aaaaaa",
                               boxstyle="round,pad=0.3"))
 
     # ゾーンラベル
@@ -375,7 +379,7 @@ def make_ni_cf_scatter(df: pd.DataFrame) -> None:
                   fontsize=16, color=C_TEXT)
     ax.set_title(
         "純利益 × 営業CF 散布図  ―  13 社 × 7 期 = 91 サンプル",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     ax.legend(loc="upper left", fontsize=16, frameon=True,
               facecolor="white", edgecolor="#dddddd")
@@ -415,14 +419,14 @@ def make_eneos_quality(df: pd.DataFrame) -> None:
 
     # 2022 ピーク年を強調
     i22 = list(sub["fy"]).index("2022")
-    ax_top.axvspan(i22 - 0.55, i22 + 0.55, facecolor="#E74C3C", alpha=0.08)
+    ax_top.axvspan(i22 - 0.55, i22 + 0.55, facecolor="#c87878", alpha=0.08)
     ax_top.annotate(
         "2022 ピーク年\n純利益 5,371 億円のうち\nCF 化は 2,095 億円 (39%)",
         xy=(i22, ni.iloc[i22]),
         xytext=(i22 - 1.8, 7.0), textcoords="data",
-        fontsize=16, fontweight="bold", color="#E74C3C", ha="center",
-        arrowprops=dict(arrowstyle="->", color="#E74C3C", lw=1.5),
-        bbox=dict(facecolor="white", edgecolor="#E74C3C", boxstyle="round,pad=0.3"),
+        fontsize=16, fontweight="bold", color="#c87878", ha="center",
+        arrowprops=dict(arrowstyle="->", color="#c87878", lw=1.5),
+        bbox=dict(facecolor="white", edgecolor="#c87878", boxstyle="round,pad=0.3"),
     )
 
     ax_top.axhline(0, color="#444444", linewidth=0.8)
@@ -431,7 +435,7 @@ def make_eneos_quality(df: pd.DataFrame) -> None:
     ax_top.set_ylabel("純利益・営業CF（千億円）",
                       fontsize=16, color=C_TEXT)
     ax_top.set_title("ＥＮＥＯＳ  ―  2022 ピーク利益はキャッシュで裏付けられていなかった",
-                     fontsize=20, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                     fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax_top.legend(loc="upper left", fontsize=16, frameon=False)
     ax_top.grid(axis="y", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
@@ -461,7 +465,7 @@ def make_eneos_quality(df: pd.DataFrame) -> None:
     ax_bot.set_xticklabels(sub["fy"].values, fontsize=16)
     ax_bot.set_ylabel("アクルーアル比率", fontsize=16, color=C_TEXT)
     ax_bot.set_title("同年のアクルーアル比率（プラス = 純利益が CF を超過 = 警戒寄り）",
-                     fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                     fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax_bot.grid(axis="y", color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_bot.spines[sp].set_visible(False)
