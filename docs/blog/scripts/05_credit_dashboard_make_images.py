@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/05_信用需給ダッシュボード.md 用の画像生成スクリプト。
 
 生成画像:
@@ -44,19 +44,19 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_UP   = "#27ae60"
-C_DOWN = "#e74c3c"
+C_UP   = "#5a9a72"
+C_DOWN = "#c87878"
 C_BUY  = "#4C8BF5"
 C_SELL = "#8C8C8C"
-C_HOT  = "#E74C3C"
-C_OK   = "#27AE60"
+C_HOT  = "#c87878"
+C_OK   = "#5a9a72"
 C_WARN = "#F39C12"
 C_BG   = "#cccccc"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/05_credit")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/05_credit")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -121,9 +121,9 @@ def load_universe() -> pd.DataFrame:
 
 
 OIL_REFINERS = [
-    ("5021", "コスモエネＨＤ", "#27ae60"),
-    ("5020", "ＥＮＥＯＳ",      "#3498db"),
-    ("5019", "出光興産",       "#e67e22"),
+    ("5021", "コスモエネＨＤ", "#888888"),
+    ("5020", "ＥＮＥＯＳ",      "#444444"),
+    ("5019", "出光興産",       "#aaaaaa"),
 ]
 
 
@@ -187,14 +187,24 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
     fig = plt.figure(figsize=(13, 5.6))
     gs = fig.add_gridspec(1, 3, width_ratios=[1.1, 1.2, 1.0], wspace=0.34)
 
+    # 本図ローカルの色設計
+    #   パネルA(信用倍率)  : 3社識別だけで意味なし → 青系グラデーション
+    #   パネルB(信用残買/売): 買vs売は意味あり → 落ち着いた青/グレー
+    #   パネルC(前週比)    : +/- は意味あり → 落ち着いた緑/赤
+    GRAD_BLUES = ["#8fb4d9", "#5a8fc4", "#2c5f9b"]  # 薄→濃 (コスモ/ＥＮＥＯＳ/出光)
+    C_BUY_LOCAL  = "#5a8fc4"
+    C_SELL_LOCAL = "#9aa0a6"
+    C_UP_LOCAL   = "#5a9a72"
+    C_DOWN_LOCAL = "#c87878"
+
     rows = []
-    for code, label, color in OIL_REFINERS:
+    for (code, label, _color), grad in zip(OIL_REFINERS, GRAD_BLUES):
         r = df.loc[df["コード"] == code]
         if r.empty:
             continue
         r = r.iloc[0]
         rows.append({
-            "コード": code, "銘柄名": label, "color": color,
+            "コード": code, "銘柄名": label, "color": grad,
             "信用倍率": r["信用倍率"], "信用残(買)": r["信用残(買)"],
             "信用残(売)": r["信用残(売)"], "前週比(買)": r["前週比(買)"],
             "信用残/売買高レシオ": r["信用残/売買高レシオ"],
@@ -226,16 +236,16 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
     ax_b = fig.add_subplot(gs[0, 1])
     h = 0.35
     ax_b.barh(y - h/2, rdf["信用残(買)"] / 1000, height=h,
-              color=C_BUY, alpha=0.85, edgecolor="white", linewidth=0.8,
+              color=C_BUY_LOCAL, alpha=0.85, edgecolor="white", linewidth=0.8,
               label="信用残(買)（千株）")
     ax_b.barh(y + h/2, rdf["信用残(売)"] / 1000, height=h,
-              color=C_SELL, alpha=0.85, edgecolor="white", linewidth=0.8,
+              color=C_SELL_LOCAL, alpha=0.85, edgecolor="white", linewidth=0.8,
               label="信用残(売)（千株）")
     for i, (b, s) in enumerate(zip(rdf["信用残(買)"], rdf["信用残(売)"])):
         ax_b.text(b / 1000 + 30, i - h/2, f"{b/1000:,.0f}",
-                  va="center", fontsize=16, color=C_BUY)
+                  va="center", fontsize=16, color=C_BUY_LOCAL)
         ax_b.text(s / 1000 + 30, i + h/2, f"{s/1000:,.0f}",
-                  va="center", fontsize=16, color=C_SELL)
+                  va="center", fontsize=16, color=C_SELL_LOCAL)
     ax_b.set_yticks(y)
     ax_b.set_yticklabels([""] * len(rdf))
     ax_b.invert_yaxis()
@@ -249,7 +259,7 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
 
     # パネル C: 前週比(買)
     ax_c = fig.add_subplot(gs[0, 2])
-    colors = [C_UP if v >= 0 else C_DOWN for v in rdf["前週比(買)"]]
+    colors = [C_UP_LOCAL if v >= 0 else C_DOWN_LOCAL for v in rdf["前週比(買)"]]
     ax_c.barh(y, rdf["前週比(買)"] / 1000, color=colors, alpha=0.85,
               edgecolor="white", linewidth=0.8)
     ax_c.axvline(0, color="#999999", linewidth=0.8)
@@ -258,7 +268,7 @@ def make_oil_refining_credit(df: pd.DataFrame) -> None:
                   f"{v/1000:+.0f}千株",
                   va="center", ha="left" if v >= 0 else "right",
                   fontsize=16, fontweight="bold",
-                  color=C_UP if v >= 0 else C_DOWN)
+                  color=C_UP_LOCAL if v >= 0 else C_DOWN_LOCAL)
     ax_c.set_yticks(y)
     ax_c.set_yticklabels([""] * len(rdf))
     ax_c.invert_yaxis()
@@ -366,13 +376,13 @@ def make_credit_vs_volume(df: pd.DataFrame) -> None:
         x, y = r["信用倍率"], r["出来高増加率"]
         if pd.isna(x) or pd.isna(y):
             continue
-        ax.scatter(x, y, s=200, color="#1F4E8C", edgecolor="white",
+        ax.scatter(x, y, s=200, color=C_TEXT, edgecolor="white",
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=16, fontweight="bold", color="#1F4E8C",
+                    fontsize=16, fontweight="bold", color=C_TEXT,
                     bbox=dict(facecolor="white", alpha=0.92,
-                              edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
+                              edgecolor="#aaaaaa", boxstyle="round,pad=0.3"),
                     zorder=9)
 
     # 中央値ライン
@@ -408,49 +418,70 @@ def make_credit_vs_volume(df: pd.DataFrame) -> None:
 
 # ── 5) 業績 × 需給 4 象限マトリクス ───────────────────────────────────────────
 def make_fund_vs_credit(df: pd.DataFrame) -> None:
-    f = df[df["時価総額"].fillna(0) >= 10_000].copy()
+    from matplotlib.patches import Rectangle
+    from matplotlib.ticker import FixedLocator, FuncFormatter, NullLocator
+    from utils.universe_topix500 import load_topix500
+
+    topix500_codes = set(load_topix500()["コード"].astype(str))
+    f = df[df["コード"].astype(str).isin(topix500_codes)].copy()
     f = f.dropna(subset=["業績予想修正率(予)", "信用倍率"])
     f = f[f["信用倍率"] > 0]
-    f = f[f["業績予想修正率(予)"].between(-30, 30) & f["信用倍率"].between(0.05, 100)]
+    f = f[f["業績予想修正率(予)"].between(-30, 30) & f["信用倍率"].between(0.1, 100)]
 
     fig, ax = plt.subplots(figsize=(13, 8))
+    ax.set_yscale("log")
+    ax.set_xlim(-30, 30)
+    ax.set_ylim(0.1, 100)
 
-    # ゾーン分類
+    # ── 4 象限を薄い背景色で塗り分け ────────────────────────────────
+    # (x0, x1, y0, y1, facecolor, label, label_xy)
+    ZONES = [
+        (-30, -3, 5, 100,  "#c87878",  "踏み上げ罠",   (-15, 30)),
+        (  3, 30, 5, 100,  "#5a9a72",  "踏み上げ候補",  ( 15, 30)),
+        (-30, -3, 0.1, 1,  "#aaaaaa",  "空売り正解",   (-15, 0.3)),
+        (  3, 30, 0.1, 1,  "#3498db",  "空売り優位",   ( 15, 0.3)),
+    ]
+    for x0, x1, y0, y1, color, label, (lx, ly) in ZONES:
+        rect = Rectangle((x0, y0), x1 - x0, y1 - y0,
+                         facecolor=color, alpha=0.10, edgecolor="none", zorder=0)
+        ax.add_patch(rect)
+        ax.text(lx, ly, label, ha="center", va="center",
+                fontsize=15, color="#666666", alpha=0.9, zorder=1)
+
+    # ── ゾーン分類して銘柄をプロット ─────────────────────────────────
     f["zone"] = "中立"
     f.loc[(f["業績予想修正率(予)"] >= 3) & (f["信用倍率"] > 5), "zone"] = "OK_hot"
     f.loc[(f["業績予想修正率(予)"] >= 3) & (f["信用倍率"] <= 1), "zone"] = "OK_short"
     f.loc[(f["業績予想修正率(予)"] <= -3) & (f["信用倍率"] > 5), "zone"] = "NG_trap"
     f.loc[(f["業績予想修正率(予)"] <= -3) & (f["信用倍率"] <= 1), "zone"] = "NG_correct"
 
-    zone_colors = {
-        "中立":        (C_BG, 0.25, 12),
-        "OK_hot":      (C_OK, 0.85, 50),
-        "OK_short":    ("#3498DB", 0.85, 50),
-        "NG_trap":     (C_DOWN, 0.85, 50),
-        "NG_correct": (C_WARN, 0.85, 50),
+    zone_styles = {
+        "中立":       ("#999999", 0.25, 10),
+        "OK_hot":     ("#5a9a72", 0.80, 38),
+        "OK_short":   ("#3498db", 0.80, 38),
+        "NG_trap":    ("#c87878", 0.80, 38),
+        "NG_correct": ("#aaaaaa", 0.80, 38),
     }
-
     zone_label = {
-        "中立":        "中立",
-        "OK_hot":      f"業績OK × 踏み上げ候補 ({(f['zone']=='OK_hot').sum()})",
-        "OK_short":    f"業績OK × 空売り優位 ({(f['zone']=='OK_short').sum()})",
-        "NG_trap":     f"業績NG × 踏み上げ罠 ({(f['zone']=='NG_trap').sum()})",
+        "中立":       "中立",
+        "OK_hot":     f"業績OK × 踏み上げ候補 ({(f['zone']=='OK_hot').sum()})",
+        "OK_short":   f"業績OK × 空売り優位 ({(f['zone']=='OK_short').sum()})",
+        "NG_trap":    f"業績NG × 踏み上げ罠 ({(f['zone']=='NG_trap').sum()})",
         "NG_correct": f"業績NG × 空売り正解 ({(f['zone']=='NG_correct').sum()})",
     }
-
     for z in ["中立", "OK_short", "NG_correct", "OK_hot", "NG_trap"]:
         sub = f[f["zone"] == z]
         if sub.empty:
             continue
-        color, alpha, size = zone_colors[z]
+        color, alpha, size = zone_styles[z]
         ax.scatter(sub["業績予想修正率(予)"], sub["信用倍率"],
                    s=size, color=color, alpha=alpha,
                    edgecolors="white" if z != "中立" else "none",
                    linewidth=0.5 if z != "中立" else 0,
-                   zorder=3 if z != "中立" else 1,
+                   zorder=3 if z != "中立" else 2,
                    label=zone_label[z])
 
-    # 石油元売
+    # ── 石油元売ハイライト ─────────────────────────────────────────
     for code, label, _ in OIL_REFINERS:
         r = df.loc[df["コード"] == code]
         if r.empty:
@@ -459,35 +490,35 @@ def make_fund_vs_credit(df: pd.DataFrame) -> None:
         x, y = r["業績予想修正率(予)"], r["信用倍率"]
         if pd.isna(x) or pd.isna(y):
             continue
-        ax.scatter(x, y, s=220, color="#1F4E8C", edgecolor="white",
+        ax.scatter(x, y, s=220, color=C_TEXT, edgecolor="white",
                    linewidth=2.0, zorder=10, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=16, fontweight="bold", color="#1F4E8C",
+                    fontsize=16, fontweight="bold", color=C_TEXT,
                     bbox=dict(facecolor="white", alpha=0.92,
-                              edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
+                              edgecolor="#aaaaaa", boxstyle="round,pad=0.3"),
                     zorder=11)
 
-    # 基準線
-    ax.axhline(5, color=C_OK, linestyle="--", linewidth=0.7, alpha=0.6)
-    ax.axhline(1, color="#999999", linestyle="--", linewidth=0.7, alpha=0.6)
-    ax.axvline(3, color=C_OK, linestyle="--", linewidth=0.7, alpha=0.6)
-    ax.axvline(-3, color=C_DOWN, linestyle="--", linewidth=0.7, alpha=0.6)
-    ax.axvline(0, color="#999999", linewidth=0.7)
+    # ── 軸目盛り（カスタム）─────────────────────────────────────────
+    y_ticks = [0.1, 0.5, 1, 2, 5, 10, 20, 50, 100]
+    ax.yaxis.set_major_locator(FixedLocator(y_ticks))
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{v:g}倍"))
+    ax.yaxis.set_minor_locator(NullLocator())
 
-    ax.set_yscale("log")
-    ax.set_xlim(-30, 30)
-    ax.set_ylim(0.05, 100)
-    ax.set_xlabel("業績予想修正率(予)（%）  ← 業績NG    業績OK →",
+    x_ticks = [-30, -20, -10, -3, 0, 3, 10, 20, 30]
+    ax.xaxis.set_major_locator(FixedLocator(x_ticks))
+    ax.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f"{int(v):+d}%" if v != 0 else "0"))
+
+    ax.set_xlabel("業績予想修正率(予)  ← 業績NG    業績OK →",
                   fontsize=16, color=C_TEXT)
-    ax.set_ylabel("信用倍率（倍、対数）  ← 空売り優位    踏み上げ →",
+    ax.set_ylabel("信用倍率（対数）  ← 空売り優位    踏み上げ →",
                   fontsize=16, color=C_TEXT)
     ax.set_title("業績 × 需給 4 象限マトリクス  ―  連載01〜04 の業績軸と連載05 の需給軸の合流",
                  fontsize=16, fontweight="bold", color=C_TEXT, pad=12, loc="left")
-    ax.grid(color=C_GRID, linewidth=0.5, which="both")
+    ax.grid(color=C_GRID, linewidth=0.4, which="major", zorder=0)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="upper left", fontsize=16, frameon=True,
+    ax.legend(loc="upper left", fontsize=14, frameon=True,
               facecolor="white", edgecolor="#dddddd")
     _savefig_vpad(fig, OUT_DIR / "05_fund_vs_credit.png")
     plt.close(fig)

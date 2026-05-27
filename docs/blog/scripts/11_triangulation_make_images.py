@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/11_三角検証.md 用の画像生成スクリプト。
 
 生成画像:
@@ -45,16 +45,16 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_ACT  = "#3498db"  # 実績
-C_GUI  = "#27ae60"  # ガイダンス
-C_CONS = "#e67e22"  # コンセンサス
-C_UP   = "#27ae60"  # 上方修正期待
-C_WARN = "#e74c3c"  # 達成困難
+C_ACT  = "#444444"  # 実績
+C_GUI  = "#777777"  # ガイダンス
+C_CONS = "#aaaaaa"  # コンセンサス
+C_UP   = "#5a9a72"  # 上方修正期待
+C_WARN = "#c87878"  # 達成困難
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/11_triangulation")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/11_triangulation")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -242,12 +242,12 @@ def make_quadrant_scatter(m: pd.DataFrame) -> None:
         x, y = r["guide_vs_actual_pct"], r["consensus_vs_guide_pct"]
         if not (-100 <= x <= 100 and -50 <= y <= 100):
             continue
-        ax.scatter(x, y, s=180, color="#1F4E8C", edgecolor="white",
+        ax.scatter(x, y, s=180, color=C_TEXT, edgecolor="white",
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(8, 8),
                     textcoords="offset points",
-                    fontsize=16, fontweight="bold", color="#1F4E8C",
-                    bbox=dict(facecolor="white", edgecolor="#1F4E8C",
+                    fontsize=16, fontweight="bold", color=C_TEXT,
+                    bbox=dict(facecolor="white", edgecolor="#aaaaaa",
                               boxstyle="round,pad=0.25"),
                     zorder=9)
 
@@ -326,7 +326,7 @@ def make_upside_top10(m: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "★ 上方修正期待 Top 10  ―  保守ガイダンス × アナリスト強気",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "03_upside_top10.png")
     plt.close(fig)
@@ -371,7 +371,7 @@ def make_downside_top10(m: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         "⚠ 達成困難 Top 10  ―  強気ガイダンス × アナリスト懐疑",
-        fontsize=20, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=20, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "04_downside_top10.png")
     plt.close(fig)
@@ -439,11 +439,11 @@ def make_trading_companies(m: pd.DataFrame) -> None:
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
     ax_l.set_title("三角検証（連載11）",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 右: 連載10 のアクルーアル比率
     ax_r = axes[1]
-    colors = ["#27AE60" if a < -0.01 else "#85c1e9" if a < 0 else "#F39C12"
+    colors = ["#5a9a72" if a < -0.01 else "#85c1e9" if a < 0 else "#F39C12"
               for a in rdf["accrual"]]
     ax_r.barh(y, rdf["accrual"], color=colors, alpha=0.85,
               edgecolor="white", linewidth=0.8)
@@ -451,7 +451,7 @@ def make_trading_companies(m: pd.DataFrame) -> None:
         ax_r.text(r["accrual"] - 0.001, i, f"{r['accrual']:+.4f}",
                   va="center", ha="right",
                   fontsize=16, color=C_TEXT, fontweight="bold")
-    ax_r.axvline(-0.05, color="#27AE60", linestyle="--", linewidth=0.7, alpha=0.6)
+    ax_r.axvline(-0.05, color="#5a9a72", linestyle="--", linewidth=0.7, alpha=0.6)
     ax_r.axvline(0, color="#999999", linewidth=0.7)
     ax_r.set_yticks(y)
     ax_r.set_yticklabels([""] * len(rdf))
@@ -461,7 +461,7 @@ def make_trading_companies(m: pd.DataFrame) -> None:
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
     ax_r.set_title("アクルーアル（連載10）",
-                   fontsize=16, fontweight="bold", color=C_TEXT, pad=10, loc="left")
+                   fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     fig.suptitle(
         "総合商社 8 社  ―  三角検証 × アクルーアル の合流  ―  健全な利益の質 × 保守ガイダンス × アナリスト強気",

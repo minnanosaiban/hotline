@@ -48,6 +48,68 @@
   border: 1px solid #e5e7ea; 
   vertical-align: top;
   }
+/* 目次 2列グリッドカード */
+.toc-phase-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--md-link-color);
+  margin: 2rem 0 0.5rem 0;
+  letter-spacing: 0.04em;
+}
+.toc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin: 0 0 0.4rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .toc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.toc-card {
+  display: block;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--md-link-color-faint);
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: var(--md-typeset-color) !important;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.toc-card:hover {
+  border-color: var(--md-link-color);
+  background-color: rgba(0, 54, 130, 0.03);
+  text-decoration: none !important;
+}
+.toc-card-num {
+  display: block;
+  font-size: 11px;
+  color: var(--md-link-color);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.25rem;
+}
+.toc-card-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--md-typeset-color);
+  line-height: 1.4;
+  margin-bottom: 0.2rem;
+}
+.toc-card-desc {
+  display: block;
+  font-size: 12px;
+  color: #70757a;
+  line-height: 1.5;
+}
+[data-md-color-scheme="slate"] .toc-card:hover {
+  background-color: rgba(77, 139, 204, 0.06);
+}
+[data-md-color-scheme="slate"] .toc-card-desc {
+  color: #aaaaaa;
+}
+
 /* 音声カード */
 .audio-content audio {
   width: 100% !important;

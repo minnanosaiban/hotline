@@ -83,15 +83,22 @@ body.blog-post-page .md-content h3 + h4 {
   margin-top: 0.3em !important;
 }
 
-/* h4: 行頭マーカー ·（リンク色 50% 透過）＋ 控えめサイズ */
+/* h4: 行頭マーカー │（リンク色 40% 透過＝ブルーカード枠と同色）＋ 控えめサイズ */
 body.blog-post-page .md-content h4 {
-  font-size: 1.05em !important;
+  font-size: 1.2em !important;
   line-height: 1.7 !important;
   font-weight: 500 !important;
-  margin: 4em 0 0.5em 0 !important;
+  margin: 1.5em 0 0.5em 0 !important;
   padding: 0 !important;
   border: none !important;
   color: var(--md-typeset-color) !important;
+}
+body.blog-post-page .md-content h4::before {
+  content: "\2502"; /* │ BOX DRAWINGS LIGHT VERTICAL */
+  color: var(--md-link-color-faint);
+  margin-right: 0.5em;
+  font-weight: 400;
+  display: inline-block;
 }
 
 
@@ -127,4 +134,92 @@ body.blog-post-page .md-nav--secondary .md-nav__item > .md-nav {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+}
+
+/* テーブル: 一番上の行と最左列を薄グレーに（素のMarkdownテーブルのみ対象） */
+body.blog-post-page .md-typeset table:not([class]) thead th,
+body.blog-post-page .md-typeset table:not([class]) tbody tr td:first-child,
+body.blog-post-page .md-typeset table:not([class]) tbody tr th:first-child {
+  background-color: var(--md-typeset-table-color--light);
+}
+
+/* テーブル: 縦の罫線も行の罫線と同じ濃さで表示 */
+body.blog-post-page .md-typeset table:not([class]) th,
+body.blog-post-page .md-typeset table:not([class]) td {
+  border-right: .05rem solid var(--md-typeset-table-color);
+}
+body.blog-post-page .md-typeset table:not([class]) th:last-child,
+body.blog-post-page .md-typeset table:not([class]) td:last-child {
+  border-right: none;
+}
+
+/* blog index 目次: フェーズ見出し */
+.toc-phase {
+  margin-top: 1.4em !important;
+  margin-bottom: 0.4em !important;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-link-color);
+  letter-spacing: 0.02em;
+}
+.toc-phase:first-child {
+  margin-top: 0 !important;
+}
+.toc-phase b {
+  margin-right: 0.6em;
+}
+
+/* details アコーディオン: 非エンジニアにも開閉できると分かるデザイン */
+body.blog-post-page .md-typeset details {
+  margin: 1.2em 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+body.blog-post-page .md-typeset details > summary {
+  display: block;
+  list-style: none;
+  cursor: pointer;
+  padding: 0.75em 3.2em 0.75em 1em !important;
+  background: #f3f6fb;
+  color: var(--md-link-color);
+  font-weight: 500;
+  position: relative;
+  user-select: none;
+  transition: background-color 0.15s ease;
+}
+body.blog-post-page .md-typeset details > summary::before {
+  display: none !important;
+  content: none !important;
+}
+/* FontAwesome chevron 矢印（右端） */
+body.blog-post-page .md-typeset details > summary::after {
+  content: "\f078";       /* fa-chevron-down */
+  font-family: "Font Awesome 6 Free", "Font Awesome 5 Free", "FontAwesome";
+  font-weight: 900;
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--md-link-color);
+  font-size: 0.95em;
+  transition: transform 0.2s ease;
+}
+body.blog-post-page .md-typeset details[open] > summary::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+body.blog-post-page .md-typeset details > summary:hover {
+  background: #e7eef9;
+}
+body.blog-post-page .md-typeset details > summary:focus-visible {
+  outline: 2px solid var(--md-link-color);
+  outline-offset: -2px;
+}
+body.blog-post-page .md-typeset details > *:not(summary) {
+  padding: 0 1em;
+}
+body.blog-post-page .md-typeset details[open] > summary {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }

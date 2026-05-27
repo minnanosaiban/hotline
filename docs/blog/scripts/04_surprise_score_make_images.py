@@ -1,4 +1,4 @@
-"""
+﻿"""
 blog/04_連続サプライズスコアボード.md 用の画像生成スクリプト。
 
 生成画像:
@@ -44,16 +44,16 @@ mpl.rcParams["xtick.labelsize"] = 16
 mpl.rcParams["ytick.labelsize"] = 16
 mpl.rcParams["legend.fontsize"] = 16
 
-C_REV  = "#27ae60"  # 緑: 修正率
+C_REV  = "#5a9a72"  # 緑: 修正率
 C_EPS  = "#3498db"  # 青: EPS 予想超過率
-C_ORD  = "#9b59b6"  # 紫: 経常変化率
-C_HOT  = "#E74C3C"  # 赤: 注目ゾーン
+C_ORD  = "#888888"  # 紫: 経常変化率
+C_HOT  = "#c87878"  # 赤: 注目ゾーン
 C_BG   = "#cccccc"
 C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/Users/mukai/OneDrive/デスクトップ/minnanosaiban/hotline/docs/blog/posts/img/04_surprise")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/04_surprise")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -130,9 +130,9 @@ def add_surprise_score(df: pd.DataFrame) -> pd.DataFrame:
 
 
 OIL_REFINERS = [
-    ("5021", "コスモエネＨＤ", "#27ae60"),
-    ("5020", "ＥＮＥＯＳ",      "#3498db"),
-    ("5019", "出光興産",       "#e67e22"),
+    ("5021", "コスモエネＨＤ", "#888888"),
+    ("5020", "ＥＮＥＯＳ",      "#444444"),
+    ("5019", "出光興産",       "#aaaaaa"),
 ]
 
 
@@ -160,7 +160,7 @@ def make_surprise_top20(df: pd.DataFrame) -> None:
         ax.text(x, -0.5, label, fontsize=16, fontweight="bold",
                 ha=ha, va="center", color=C_TEXT)
 
-    cmap_score = plt.get_cmap("RdYlGn")
+    cmap_score = plt.get_cmap("Blues")
     for r, (_, row) in enumerate(top.iterrows()):
         ax.text(0.0, r + 0.5, f"{r+1}", fontsize=16, ha="center", va="center")
         ax.text(1.0, r + 0.5, row["コード"], fontsize=16, ha="center", va="center")
@@ -168,23 +168,23 @@ def make_surprise_top20(df: pd.DataFrame) -> None:
 
         # サプライズスコア（背景塗り）
         score = row["サプライズスコア"]
-        color = cmap_score(np.clip(score / 100, 0.05, 0.95))
+        color = cmap_score(np.clip(score / 100, 0.3, 0.9))
         rect = Rectangle((5.0 - 0.55, r + 0.05), 1.1, 0.9,
                          facecolor=color, edgecolor="white", linewidth=1.0)
         ax.add_patch(rect)
-        txt_color = "white" if score < 35 or score > 70 else "#202124"
+        txt_color = "white" if score > 60 else C_TEXT
         ax.text(5.0, r + 0.5, f"{score:.1f}", fontsize=16, fontweight="bold",
                 ha="center", va="center", color=txt_color)
 
         # 個別指標
         ax.text(6.7, r + 0.5, f"{row['業績予想修正率(予)']:+.2f}",
-                fontsize=16, ha="center", va="center", color=C_REV)
+                fontsize=16, ha="center", va="center", color=C_TEXT_SUB)
         ax.text(8.2, r + 0.5,
                 f"{row['EPS予想超過率']:+.1f}" if pd.notna(row['EPS予想超過率']) else "—",
-                fontsize=16, ha="center", va="center", color=C_EPS)
+                fontsize=16, ha="center", va="center", color=C_TEXT_SUB)
         ax.text(9.9, r + 0.5,
                 f"{row['経常利益変化率(予)']:+.2f}" if pd.notna(row['経常利益変化率(予)']) else "—",
-                fontsize=16, ha="center", va="center", color=C_ORD)
+                fontsize=16, ha="center", va="center", color=C_TEXT_SUB)
         ax.text(11.2, r + 0.5,
                 f"{row['ROE']:.1f}" if pd.notna(row['ROE']) else "—",
                 fontsize=16, ha="center", va="center", color=C_TEXT_SUB)
@@ -195,7 +195,7 @@ def make_surprise_top20(df: pd.DataFrame) -> None:
         ax.spines[sp].set_visible(False)
     ax.set_title(
         f"サプライズスコア Top 20  ―  3 指標合成 × 時価総額 100 億円・ROE 5% 以上 (対象 {len(f):,} 銘柄)",
-        fontsize=16, fontweight="bold", color=C_TEXT, pad=14, loc="left",
+        fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left",
     )
     _savefig_vpad(fig, OUT_DIR / "01_surprise_top20.png")
     plt.close(fig)
@@ -251,7 +251,7 @@ def make_oil_refining_surprise(df: pd.DataFrame) -> None:
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     ax.set_title("石油元売 3 社  ―  3 シグナル比較（修正率 / EPS超過率 / 経常変化率(予)）",
-                 fontsize=16, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     _savefig_vpad(fig, OUT_DIR / "02_oil_refining_surprise.png")
     plt.close(fig)
 
@@ -267,9 +267,17 @@ def make_revision_vs_ordprofit(df: pd.DataFrame) -> None:
 
     fig, ax = plt.subplots(figsize=(13, 7.5))
 
-    # ゾーン背景
-    ax.axhspan(0, 100, xmin=(3 - (-30)) / 70, xmax=1.0,
-               facecolor=C_HOT, alpha=0.06)  # 右上 = 上方修正 × 成長予想
+    # ── 4 象限を薄い背景色で塗り分け ────────────────────────────────
+    ZONES = [
+        (  0,   0,  40, 100, C_HOT,      0.08),  # 右上: 最強ゾーン
+        (-30,   0,  30, 100, "#888888",  0.04),  # 左上: 下方修正×成長
+        (-30, -50,  30,  50, "#888888",  0.04),  # 左下: 下方修正×減益
+        (  0, -50,  40,  50, C_HOT,      0.05),  # 右下: 上方修正×減益（警戒）
+    ]
+    for x0, y0, w, h, color, alpha in ZONES:
+        ax.add_patch(Rectangle((x0, y0), w, h,
+                               facecolor=color, alpha=alpha,
+                               edgecolor="none", zorder=0))
 
     # 背景銘柄
     cand = f[(f["業績予想修正率(予)"] >= 3) & (f["経常利益変化率(予)"] > 0)]
@@ -291,19 +299,18 @@ def make_revision_vs_ordprofit(df: pd.DataFrame) -> None:
         x, y = r["業績予想修正率(予)"], r["経常利益変化率(予)"]
         if pd.isna(y):
             continue
-        ax.scatter(x, y, s=200, color="#1F4E8C", edgecolor="white",
+        ax.scatter(x, y, s=200, color=C_TEXT, edgecolor="white",
                    linewidth=2.0, zorder=8, marker="*")
         ax.annotate(label, xy=(x, y), xytext=(10, 8),
                     textcoords="offset points",
-                    fontsize=16, fontweight="bold", color="#1F4E8C",
+                    fontsize=16, fontweight="bold", color=C_TEXT,
                     bbox=dict(facecolor="white", alpha=0.92,
-                              edgecolor="#1F4E8C", boxstyle="round,pad=0.3"),
+                              edgecolor="#aaaaaa", boxstyle="round,pad=0.3"),
                     zorder=9)
 
     # 基準線
     ax.axhline(0, color="#999999", linewidth=0.8)
     ax.axvline(0, color="#999999", linewidth=0.8)
-    ax.axvline(3, color=C_HOT, linestyle="--", linewidth=0.7, alpha=0.6)
 
     # ゾーンラベル
     ax.text(25, 50, "★最強ゾーン★\n上方修正 × 来期成長",
@@ -322,11 +329,11 @@ def make_revision_vs_ordprofit(df: pd.DataFrame) -> None:
     ax.set_ylabel("経常利益変化率(予)（%）  ← 来期減益    来期成長 →",
                   fontsize=16, color=C_TEXT)
     ax.set_title("リビジョン × 来期成長予想  ―  業績モメンタムの 4 象限",
-                 fontsize=16, fontweight="bold", color=C_TEXT, pad=12, loc="left")
+                 fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
     ax.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
-    ax.legend(loc="lower right", fontsize=16, frameon=True,
+    ax.legend(loc="upper left", fontsize=16, frameon=True,
               facecolor="white", edgecolor="#dddddd")
     _savefig_vpad(fig, OUT_DIR / "03_revision_vs_ordprofit.png")
     plt.close(fig)
@@ -376,7 +383,7 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
         ax.text(1.0, r + 0.5, code, fontsize=16, ha="center", va="center")
         ax.text(2.5, r + 0.5, str(row["銘柄名"])[:14], fontsize=16, ha="left", va="center")
         ax.text(5.0, r + 0.5, f"{row['サプライズスコア']:.1f}",
-                fontsize=16, fontweight="bold", ha="center", va="center", color="#27AE60")
+                fontsize=16, fontweight="bold", ha="center", va="center", color="#5a9a72")
 
         for x, in_set, c in [(6.5, in_rev, C_REV), (7.7, in_eps, C_EPS), (8.9, in_ord, C_ORD)]:
             if in_set:
@@ -388,7 +395,7 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
                 ax.text(x, r + 0.5, "—", fontsize=16, color="#cccccc",
                         ha="center", va="center")
 
-        col_n = "#27AE60" if n_in >= 2 else ("#F39C12" if n_in == 1 else "#cccccc")
+        col_n = "#5a9a72" if n_in >= 2 else ("#F39C12" if n_in == 1 else "#cccccc")
         ax.text(10.0, r + 0.5, f"{n_in}/3", fontsize=16, fontweight="bold",
                 ha="center", va="center", color=col_n)
 
@@ -397,7 +404,7 @@ def make_signal_overlap(df: pd.DataFrame) -> None:
     for sp in ("top", "right", "left", "bottom"):
         ax.spines[sp].set_visible(False)
     ax.set_title("合成スコア Top10 と単一シグナル Top10 の重なり  ―  合成の効用",
-                 fontsize=16, fontweight="bold", color=C_TEXT, pad=14, loc="left")
+                 fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
 
     # 注釈
     n_all3 = sum(1 for _, row in sc10.iterrows()
