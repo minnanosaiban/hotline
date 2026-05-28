@@ -7,13 +7,9 @@
       
       
       
-        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/blog/posts/04_surprise_scoreboard/">
+        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/blog/posts/05_streamlit_charts/">
       
       
-        <link rel="prev" href="../03_eps_revision_momentum/">
-      
-      
-        <link rel="next" href="../06_what_is_xbrl/">
       
       
         
@@ -24,7 +20,7 @@
     
     
       
-        <title>連載04 連続サプライズ - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>Streamlit で作るチャート3種 ― 無料データをブラウザに表示する - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -135,7 +131,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#3" class="md-skip">
+        <a href="#streamlit-3" class="md-skip">
           Skip to content
         </a>
       
@@ -167,7 +163,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              連載04 連続サプライズ
+              Streamlit で作るチャート3種 ― 無料データをブラウザに表示する
             
           </span>
         </div>
@@ -240,12 +236,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../../" class="md-tabs__link">
           
   
@@ -395,8 +389,6 @@
       
   
   
-    
-  
   
   
     
@@ -440,19 +432,18 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <div class="md-nav__link md-nav__container">
@@ -474,13 +465,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -581,37 +572,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載04 連続サプライズ
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../04_surprise_scoreboard/" class="md-nav__link">
         
   
   
@@ -627,120 +591,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        連続サプライズの概要
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        プロットで確認
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ヒートマップで確認
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        石油元売 3 社比較
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        まとめ
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#appendix-python" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Appendix ― Python コード
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Appendix ― Python コード">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#streamlit-3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Streamlit アプリ ― 「3 シグナルが揃った本命銘柄」をブラウザで判定
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#png" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        チャート画像 ― ダブルクリック一発で PNG を作成
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1347,7 +1197,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        連続サプライズの概要
+        このおまけ回について
       
     </span>
   </a>
@@ -1358,7 +1208,79 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        プロットで確認
+        データの取り方
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="データの取り方">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yfinance-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        yfinance ― 株価（日足・5分足）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        証券会社の無料ツール ― 13指標 CSV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tdnet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TDnet ― 決算発表日時
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chart-1-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chart 1: 5分足ローソク + 日足ライン
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chart-2-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chart 2: 複数銘柄チャート比較（4列カードグリッド）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chart-3-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chart 3: 決算パターングリッド（5分足）
       
     </span>
   </a>
@@ -1367,28 +1289,6 @@
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ヒートマップで確認
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        石油元売 3 社比較
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1411,10 +1311,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#streamlit-3" class="md-nav__link">
+  <a href="#chart-1-5app1py" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Streamlit アプリ ― 「3 シグナルが揃った本命銘柄」をブラウザで判定
+        Chart 1 ― 5分足チャート（app1.py）
       
     </span>
   </a>
@@ -1422,10 +1322,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#png" class="md-nav__link">
+  <a href="#chart-2-app2py" class="md-nav__link">
     <span class="md-ellipsis">
       
-        チャート画像 ― ダブルクリック一発で PNG を作成
+        Chart 2 ― 複数銘柄チャート比較（app2.py）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart-3-app3py-earningscsv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chart 3 ― 決算パターングリッド（app3.py + earnings.csv）
       
     </span>
   </a>
@@ -1454,284 +1365,158 @@
 
 
 
-<h1 id="3">連続サプライズ・スコアボードで「業績モメンタムが本物の銘柄」を発掘する ― 修正率・予想超過・成長予想の 3 シグナル合成</h1>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_surprise/00_thumbnail.png" data-desc-position="bottom"><img alt="連続サプライズ・スコアボード" src="../img/04_surprise/00_thumbnail.png" width="1280"></a></p>
-<p>連載03 の <a href="../03_eps_revision_momentum/">EPS リビジョン・モメンタム</a> では業績予想修正率という <strong>1 つのシグナル</strong> から「出遅れ買い候補」を抽出しました。ただし単一シグナルでは、<strong>修正の精度・持続性・コンセンサス全体での合意度</strong> までは測れません。</p>
-<p>本記事では修正率に <strong>EPS 予想超過率・経常利益変化率（予想）</strong> を加えた <strong>3 シグナルを合成</strong>してサプライズスコアを作り、業績モメンタムが本物の銘柄を発掘します。</p>
+<h1 id="streamlit-3">Streamlit で作るチャート3種 ― 無料データをブラウザに表示する</h1>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/05_charts/chat2.png" data-desc-position="bottom"><img alt="Streamlit チャート3種" src="../img/05_charts/chat2.png" width="1280"></a></p>
+<p>連載01〜04 では「コンセンサスデータ」「株価」「決算発表日時」を使って銘柄を分析してきました。本記事はおまけ回として、これらのデータをどこから取得し、どうやって Streamlit でブラウザに表示するか ― 連載01-04 の付録 Streamlit アプリより一歩踏み込んだ <strong>3つの最小構成サンプル</strong> を紹介します。</p>
 <!-- more -->
 
-<h2 id="_1">連続サプライズの概要</h2>
-<p>連載03 で業績予想修正率を見たとき、こんな疑問が残りませんでしたか。</p>
+<h2 id="_1">このおまけ回について</h2>
+<p>連載01-04 を読み進めるうえで、読者の皆さんから次のような声をいただきました。</p>
 <ul>
-<li>「+5% の修正」と「+50% の修正」は、同じ "上方修正" として扱っていいのか？</li>
-<li>上方修正の銘柄が来期増益と限らないなら、修正率だけで買うのは早計では？</li>
+<li>「証券会社が無料で提供している CSV ってどうやって取得するの？」</li>
+<li>「TDnet の決算発表日時はどこから？」</li>
+<li>「Streamlit のアプリは紹介されているけど、もう一歩自分で改造する取っ掛かりが欲しい」</li>
 </ul>
-<p><strong>単一シグナルは強力だが、その精度・持続性・コンセンサス全体での合意度を測れない</strong> ― これが連載03 の課題です。機関投資家のクオンツモデルが使う標準的な解決策は <strong>複数シグナルの合成</strong> です。</p>
+<p>本記事ではフェーズ1（連載01-04）で使ってきたデータの <strong>取り方</strong> をまとめ、それを使った <strong>3つのチャートアプリ</strong> をサンプル提示します。</p>
 <table>
 <thead>
 <tr>
-<th>シグナル</th>
-<th>何を測っているか</th>
-<th>単独の弱点</th>
+<th>アプリ</th>
+<th>用途</th>
+<th>主要技術</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1. 業績予想修正率(予想)</td>
-<td>アナリスト予想の <strong>変化</strong></td>
-<td>1 人の修正でも上方修正に分類される</td>
+<td><strong>Chart 1</strong></td>
+<td>5分足ローソク + 日足ライン（複数銘柄）</td>
+<td>Altair / yfinance</td>
 </tr>
 <tr>
-<td>2. EPS 予想超過率</td>
-<td>コンセンサス予想 vs 実績の <strong>乖離幅</strong></td>
-<td>EPS 実績が極小の銘柄で発散しやすい</td>
+<td><strong>Chart 2</strong></td>
+<td>複数銘柄の指標 + 90日トレンド比較</td>
+<td>Plotly / yfinance + 無料コンセンサスデータ</td>
 </tr>
 <tr>
-<td>3. 経常利益変化率(予想)</td>
-<td>来期予想の <strong>水準（成長率）</strong></td>
-<td>修正の方向を反映していない</td>
+<td><strong>Chart 3</strong></td>
+<td>決算発表後の値動きをパターン分類</td>
+<td>Plotly / ローカル 5分足 + TDnet</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_2">プロットで確認</h2>
-<p>3 シグナルのうち <strong>X 軸：業績予想修正率(予想)× Y 軸：経常利益変化率(予想)</strong> で 4 象限分類すると、業績モメンタムの位置が一目で分かります。</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.22作成</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_surprise/03_revision_vs_ordprofit.png" data-desc-position="bottom"><img alt="リビジョン×成長予想 散布図" src="../img/04_surprise/03_revision_vs_ordprofit.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>象限</th>
-<th>意味</th>
-<th>銘柄数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>右上</strong>: 上方修正 × 来期成長</td>
-<td>★最強ゾーン</td>
-<td><strong>32</strong></td>
-</tr>
-<tr>
-<td>左上: 下方修正 × 来期成長</td>
-<td>回復期待・限定的</td>
-<td>1</td>
-</tr>
-<tr>
-<td>左下: 下方修正 × 来期減益</td>
-<td>回避ゾーン</td>
-<td>28</td>
-</tr>
-<tr>
-<td>右下: 上方修正 × 来期減益</td>
-<td>ピークアウト警戒</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-<p>特徴的なのは <strong>左上（回復期待）と右下（ピークアウト警戒）がほぼ空白</strong> という点。アナリストは「修正の方向」と「来期成長見通し」を <strong>同じ方向に動かす</strong> 傾向が強いため、銘柄の大半が右上 or 左下に振り分けられます。</p>
-<p>石油元売 3 社（青い星マーク）は 4 象限のちょうど中央付近に位置。コスモエネＨＤ がわずかに右上、ＥＮＥＯＳ が左下にやや傾いています。</p>
+<p>3アプリ共通で、サイドバーに <strong>「Wide 表示」チェックボックス</strong> を置いて、画面幅をブラウザサイズに応じて切り替えられるようにしています（デフォルトは Narrow、CSS 注入方式なので再読み込み不要）。</p>
+<h2 id="_2">データの取り方</h2>
+<h3 id="yfinance-5">yfinance ― 株価（日足・5分足）</h3>
+<p><code>pip install yfinance</code> で誰でも使える Yahoo! Finance ラッパーです。<code>{コード}.T</code> で東証銘柄を指定。</p>
+<pre><code class="language-python">import yfinance as yf
+df = yf.download("5020.T", period="3mo", interval="1d", auto_adjust=True)
+</code></pre>
+<ul>
+<li><strong>日足</strong>: 長期データ可（10年以上）</li>
+<li><strong>5分足</strong>: 直近 <strong>約60日</strong> が上限（古いデータは取れない）</li>
+<li><code>auto_adjust=True</code> で株式分割を遡及調整（<a href="../../../">連載でも既定方針</a>）</li>
+<li>最新値だけ欲しい場合は <code>yf.Ticker("5020.T").fast_info.get("lastPrice")</code> が高速</li>
+</ul>
+<h3 id="13-csv">証券会社の無料ツール ― 13指標 CSV</h3>
+<p>連載01-04 で「コンセンサスデータ」として使った13指標（EPS / BPS / 配当金 / ROE / ROA / EV/EBITDA / 業績予想修正率(予) / 経常利益変化率(予) など）は、証券会社が無料で提供する取引ツールの「銘柄情報シート」から CSV エクスポートできます。</p>
+<ul>
+<li>例（楽天証券）: <a href="https://www.rakuten-sec.co.jp/ITS/qaJ010102-001.html">https://www.rakuten-sec.co.jp/ITS/qaJ010102-001.html</a></li>
+<li>操作: 銘柄情報シート → 指標を選択 → 「CSV保存」</li>
+<li>出力: <code>113_EPS実績.csv</code>、<code>213_EPS予想.csv</code> のように指標番号付きで保存される（連載01-02 の <code>RAKUNAV_SPECS</code> 参照）</li>
+</ul>
 <blockquote>
-<p>💡 修正率と経常変化率(予想) は相関が強い。<strong>両方が高い右上ゾーンに加えて、3 つ目のシグナル（EPS 予想超過率）まで揃った銘柄が "本物"</strong>。</p>
+<p>💡 マネックス証券の「銘柄スカウター」、SBI証券、会社四季報なども、似た指標を CSV / 一覧で提供しています。本連載では楽天MS2 を採用していますが、同等指標が揃えば代替可能。</p>
 </blockquote>
-<h2 id="_3">ヒートマップで確認</h2>
-<p>散布図が「銘柄の位置」を見るのに対し、<strong>ヒートマップは「全体序列と 3 シグナルの内訳」を同時に見るツール</strong>です。3 シグナルを合成した総合スコアの Top 20 を、シグナル別に色分けして並べました。</p>
+<h3 id="tdnet">TDnet ― 決算発表日時</h3>
+<p>東京証券取引所が運営する <strong>適時開示情報</strong> の公式サービスです。決算短信を含むすべての適時開示が日次で公開されます。</p>
+<ul>
+<li>公式: <a href="https://www.release.tdnet.info/">https://www.release.tdnet.info/</a></li>
+<li>取得: HTML スクレイピング（決算短信 PDF へのリンク + 発表日時）</li>
+</ul>
+<p>本記事の Chart 3 で使うのは <strong>発表日時だけ</strong> なので、サンプル <code>earnings.csv</code>（<code>date, time, code</code> の3列）を同梱しました。本格的なスクレイピング実装と XBRL の取得・パースは <strong>連載07 <a href="../07_edinet_tdnet_parse/">EDINET/TDnet 取得とパース</a></strong> で詳説します。</p>
+<h2 id="chart-1-5">Chart 1: 5分足ローソク + 日足ライン</h2>
+<p>複数銘柄の <strong>直近N営業日の5分足</strong> をローソク足で並べ、右上に日足ラインを小さく添える ― 寄付・引け・場中の動きを <strong>「窓開け」も含めて</strong> 視覚的に確認するためのアプリです。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.22作成</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_surprise/01_surprise_top20.png" data-desc-position="bottom"><img alt="サプライズスコア Top20" src="../img/04_surprise/01_surprise_top20.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>順位</th>
-<th>銘柄</th>
-<th>サプライズ</th>
-<th>修正率</th>
-<th>EPS超過</th>
-<th>経常変化(予想)</th>
-<th>ROE</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>日清紡ＨＤ（3105）</td>
-<td><strong>92.7</strong></td>
-<td>+16.0%</td>
-<td>+38.5%</td>
-<td>+28.9%</td>
-<td>5.0%</td>
-</tr>
-<tr>
-<td>2</td>
-<td>ＴＥＮＴＩＡＬ（325A）</td>
-<td>92.6</td>
-<td>+2.5%</td>
-<td>+195.2%</td>
-<td>+10.3%</td>
-<td>23.5%</td>
-</tr>
-<tr>
-<td>3</td>
-<td>アサヒインテック（7747）</td>
-<td>92.5</td>
-<td>+5.9%</td>
-<td>+140.4%</td>
-<td>+5.9%</td>
-<td>8.4%</td>
-</tr>
-<tr>
-<td>4</td>
-<td>ＦＵＪＩ（6134）</td>
-<td>90.7</td>
-<td>+4.0%</td>
-<td>+85.6%</td>
-<td>+8.2%</td>
-<td>7.0%</td>
-</tr>
-<tr>
-<td>5</td>
-<td>精工技研（6834）</td>
-<td>89.3</td>
-<td>+10.0%</td>
-<td>+28.6%</td>
-<td>+10.0%</td>
-<td>20.1%</td>
-</tr>
-</tbody>
-</table>
-<p>Top1 の <strong>日清紡ＨＤ</strong> は修正率 +16.0% / EPS 超過率 +38.5% / 経常変化率(予想) +28.9% と、3 シグナルすべてが市場上位に並ぶ <strong>業績モメンタム全方位タイプ</strong>。</p>
+<small style="color: var(--md-link-color);">2026.05.29作成</small></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/05_charts/chat1.png" data-desc-position="bottom"><img alt="Chart 1 5分足チャート" src="../img/05_charts/chat1.png" width="1200"></a></p>
+<ul>
+<li><strong>縦の境界線</strong>（朝寄り＝濃いめ、午後寄り＝薄め）でギャップアップ・ギャップダウンを視覚化</li>
+<li>銘柄コードはカンマ・スペース・改行で区切って <strong>複数銘柄入力</strong></li>
+<li>当日の終値は <code>yf.Ticker.fast_info.lastPrice</code> で上書き（5分足の末尾と公式引け値のズレを補正）</li>
+</ul>
 <blockquote>
-<p>💡 修正率と経常変化率(予想) はしばしば一致するため、<strong>サプライズスコアを差別化する役割は EPS 予想超過率</strong> にある。</p>
+<p>💡 5分足は <strong>直近60日</strong> しか取得できない制約があるので、長期の振り返りには向かない。あくまで「最近の動き」を細かく見る用途。</p>
 </blockquote>
-<h2 id="3_1">石油元売 3 社比較</h2>
-<p>連載01〜03 で追ってきた 3 社を、3 シグナルで再評価します。</p>
+<h2 id="chart-2-4">Chart 2: 複数銘柄チャート比較（4列カードグリッド）</h2>
+<p>連載02 の「マルチファクター・スコアボード」の <strong>チャート版</strong> とも言える比較アプリ。各銘柄をカード化して4列グリッドに並べ、ファンダ指標（PER/PBR/配当）とテクニカル（RSI）、そして90日チャートを <strong>1画面で俯瞰</strong> します。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.22作成</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_surprise/02_oil_refining_surprise.png" data-desc-position="bottom"><img alt="石油元売3社 サプライズ" src="../img/04_surprise/02_oil_refining_surprise.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>銘柄</th>
-<th>修正率</th>
-<th>EPS 超過率</th>
-<th>経常変化率(予想)</th>
-<th>ROE</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>コスモエネＨＤ</strong></td>
-<td><strong>+1.1%</strong></td>
-<td><strong>+47.7%</strong></td>
-<td>—</td>
-<td>12.4%</td>
-</tr>
-<tr>
-<td><strong>ＥＮＥＯＳ</strong></td>
-<td>−3.7%</td>
-<td>+43.8%</td>
-<td><strong>−0.6%</strong></td>
-<td>8.0%</td>
-</tr>
-<tr>
-<td>出光興産</td>
-<td>−3.5%</td>
-<td>+17.5%</td>
-<td>—</td>
-<td>9.4%</td>
-</tr>
-</tbody>
-</table>
-<p><strong>コスモエネＨＤ</strong> は利用可能な 2 シグナルがプラス：</p>
+<small style="color: var(--md-link-color);">2026.05.29作成</small></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/05_charts/chat2.png" data-desc-position="bottom"><img alt="Chart 2 複数銘柄比較" src="../img/05_charts/chat2.png" width="1200"></a></p>
 <ul>
-<li>修正率 +1.1%（連載03 で確認）</li>
-<li>EPS 超過率 <strong>+47.7%</strong>（コンセンサスが今期から大きく伸びると予想）</li>
-<li>経常変化率(予想) ― データ欠損</li>
+<li>各カード: <strong>銘柄名 / 価格 / 90日期間騰落率 / エリア塗りチャート / RSI・PER・PBR・配当 1行</strong></li>
+<li>線・塗りの色は <strong>90日期間騰落率</strong> で統一（上昇=緑、下落=赤）</li>
+<li>PER / PBR / 配当は無料コンセンサスデータ CSV から、RSI は yfinance 日足から自前計算（Wilder RSI(14)）</li>
 </ul>
-<p>連載01 の "GARP 理想ゾーン"、連載02 の Value 92 / Consensus 68 と、一貫して高評価です。</p>
-<p><strong>ＥＮＥＯＳ</strong> は構図が複雑です：</p>
-<ul>
-<li>修正率 −3.7%（連載03 で確認、コンセンサス下振れ）</li>
-<li>EPS 超過率 +43.8%（来期予想自体は高水準）</li>
-<li>経常変化率(予想) <strong>−0.6%</strong>（来期 <strong>わずかに減益</strong> 予想）</li>
-</ul>
-<p>EPS 超過率が +44% と高いのに、経常変化率(予想) は <strong>マイナス</strong>。<strong>「EPS は今期実績比で大きく増えるが、経常利益は前期比で減る」</strong> という、一見矛盾する組み合わせです。理由として考えられるのは:</p>
-<ol>
-<li>今期に <strong>特別損失</strong> があり、来期は剥落 → EPS は伸びるが経常は減</li>
-<li>来期は <strong>金融費用増・投資コスト計上</strong> で経常レベルでは減益、ただし税効果や非継続事業の整理で純利益（=EPS）は維持</li>
-<li>アナリスト予想の細部に <strong>不確実性が大きい</strong> ― 数字の整合性が取れていない</li>
-</ol>
-<p><strong>3 シグナルの方向がバラついている</strong> こと自体が「業績モメンタムが揃っていない」サインです。連載02 の Consensus 22（下位）、連載03 の修正率 −3.7%（下振れ）と合わせると、機械的には <strong>ＥＮＥＯＳ は短期的には注意が必要なフェーズ</strong> と読めます（ただし、バラつきの主因は本業悪化ではなく <strong>のれん減損・在庫影響・JX金属IPO の同時進行という構造要因</strong>。詳細は<a href="../01_garp_peg_roe/">連載01</a>参照）。</p>
-<p><strong>出光興産</strong> も経常変化率(予想) のデータが欠損し、修正率 −3.5% / EPS 超過率 +17.5% と方向バラつき構造は ＥＮＥＯＳ と同様。</p>
 <blockquote>
-<p>💡 3 シグナルが同じ方向を指していないときはエントリーを保留 ― これがマルチシグナル戦略の基本ルール。</p>
+<p>💡 連載02 はファクター採点に <strong>数値の高低</strong> を出すのに対し、Chart 2 は <strong>チャート形状の比較</strong> を1画面で見るための補助ツール。総合商社など同セクター複数銘柄を並べると、トレンドの揃い具合が一目で分かる。</p>
 </blockquote>
-<h2 id="_4">まとめ</h2>
+<h2 id="chart-3-5">Chart 3: 決算パターングリッド（5分足）</h2>
+<p>決算発表後の値動きを <strong>5パターン</strong>（🟢上げ📈 / 逆V字 / 無風 / V字 / 🔴下げ💀）に自動分類し、各銘柄の5分足エリアチャートを並べるアプリです。</p>
 <ul>
-<li>連載03 の単一シグナル（修正率）の限界 ― <strong>ノイズと本物のサプライズを区別できない</strong> を、<strong>3 シグナル合成</strong> で乗り越える</li>
-<li><strong>散布図が標準的な可視化</strong>。修正率 × 経常変化率(予想) の 4 象限で、業績モメンタムの位置が一目で分かる</li>
-<li>修正率 + EPS 予想超過率 + 経常利益変化率(予想) のパーセンタイル平均でサプライズスコアを構築。フィルタ後 783 銘柄中、<strong>スコア 75 以上 61 銘柄 / 90 以上 4 銘柄</strong></li>
-<li>4 象限散布図では <strong>右上「上方修正 × 来期成長予想」32 銘柄</strong> が業績モメンタムの本命ゾーン</li>
-<li><strong>石油元売 3 社の構図</strong>: コスモエネＨＤ は修正率・EPS超過がプラス（経常データ欠損）/ ＥＮＥＯＳ は修正率 -3.7% × EPS 超過 +43.8% × 経常変化率(予想) <strong>-0.6%</strong> で <strong>方向がバラつく状態</strong></li>
+<li><strong>初日リターン</strong>: 発表前 Close → 発表後初日 Close<ul>
+<li>引け後発表（≥15:00）: 発表当日 Close → 翌営業日 Close</li>
+<li>場中・寄り前発表: 前営業日 Close → 発表当日 Close</li>
 </ul>
-<p>連載01〜04 で追ってきた <strong>ＥＮＥＯＳ / 出光興産 / コスモエネＨＤ の構図</strong> ：</p>
-<table>
-<thead>
-<tr>
-<th>連載</th>
-<th>コスモエネＨＤ</th>
-<th>ＥＮＥＯＳ</th>
-<th>出光興産</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01 (PEG×ROE)</td>
-<td>理想 / -5.2%</td>
-<td>バリュー候補 / +29.7%</td>
-<td>惜しい / +17.6%</td>
-</tr>
-<tr>
-<td>02 (マルチファクター)</td>
-<td>Cons 68 / Sen 22 → 乖離</td>
-<td>Cons 22 / Mom 51</td>
-<td>中庸型</td>
-</tr>
-<tr>
-<td>03 (リビジョン)</td>
-<td>+1.11% 横ばい</td>
-<td>-3.71% 底入れ待ち</td>
-<td>-3.48% 底入れ待ち</td>
-</tr>
-<tr>
-<td><strong>04 (サプライズ)</strong></td>
-<td><strong>修正率・EPS超過プラス（経常欠損）</strong></td>
-<td><strong>方向バラつき（経常 −0.6%）</strong></td>
-<td><strong>方向バラつき</strong></td>
-</tr>
-</tbody>
-</table>
-<p>ＥＮＥＯＳ の "方向バラつき" は、<strong>のれん減損・在庫影響・JX金属IPO の同時進行という構造要因が主因</strong>。4 基準試算（▲94% 〜 +4.76%）と公式説明は連載01 参照。</p>
-<p>これでフェーズ 1（証券会社が無料で提供するデータだけで作れる分析）の 4 本が完成しました。次回からはフェーズ 2 として <strong>XBRL とは何か</strong> から入り、決算短信そのものを扱えるようになることで、本連載のリビジョン・サプライズシグナルの裏側で何が起きているかまでを定量的に追えるようになります。</p>
+</li>
+<li><strong>最終リターン</strong>: 発表後初日 Close → +5営業日後の Close</li>
+<li>閾値: <code>|初日| ≤ 2%</code> / <code>|最終| ≤ 3%</code> を「横ばい(flat)」、外れたら方向に応じて(up/down)</li>
+</ul>
+<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
+<small style="color: var(--md-link-color);">2026.05.29作成</small></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/05_charts/chat3.png" data-desc-position="bottom"><img alt="Chart 3 決算パターングリッド" src="../img/05_charts/chat3.png" width="1200"></a></p>
+<ul>
+<li>各カード: <strong>銘柄名 / パターンラベル / 発表日時 / 5分足エリアチャート + 発表時刻に縦点線</strong></li>
+<li>チャート色は <strong>グレー固定</strong>（線の方向はラベルで示すため、視覚的混乱を回避）</li>
+<li>下部 expander に全銘柄一覧テーブル（初日%・最終%・パターン）</li>
+</ul>
+<blockquote>
+<p>💡 5分足のローカル保存は前提だが、それさえあれば「<strong>発表時刻直前の最後の足</strong> → <strong>発表直後の最初の足</strong>」が綺麗に見え、寄付ギャップや場中発表の瞬間が体感できる。連載13 <a href="../13_car_event_study/">CARイベントスタディ</a> は同じ素材を <strong>大量に集計</strong> したもの、こちらは <strong>1銘柄ずつ目で見る</strong> アプローチ。</p>
+</blockquote>
+<h2 id="_3">まとめ</h2>
+<ul>
+<li>連載01-04 で使った <strong>yfinance / 無料コンセンサスデータ / TDnet</strong> の出所と入手方法を1か所にまとめた</li>
+<li>Streamlit + Altair / Plotly で <strong>3つの最小構成チャートアプリ</strong> を実装：<ul>
+<li>Chart 1: 5分足ローソク + 日足ライン（複数銘柄）</li>
+<li>Chart 2: 複数銘柄カードグリッド（指標 + 90日トレンド）</li>
+<li>Chart 3: 決算後5パターン分類グリッド</li>
+</ul>
+</li>
+<li>3アプリ共通で <strong>Wide / Narrow 切替</strong>、CSS 注入方式で再読み込み不要</li>
+</ul>
+<p>これでフェーズ1（コンセンサスデータ分析）の <strong>データ取り方</strong> とそれを <strong>ブラウザで見るテンプレ</strong> が揃いました。次回 <a href="../06_what_is_xbrl/">連載06 XBRL とは何か</a> から、決算短信そのものを <strong>読み解く側</strong> に踏み込みます。</p>
 <h2 id="appendix-python">Appendix ― Python コード <i class="fa-brands fa-github"></i></h2>
-<p>本記事のアプリ・チャート画像生成スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、<strong>yfinance</strong> や <strong>無料コンセンサスデータ</strong> を組み合わせれば、ご自身の銘柄リストで同じ構図のアプリや PNG が生成できます。</p>
+<p>本記事のチャート3アプリは、すべて <strong>GitHub に公開</strong>しています。yfinance のみで完結する Chart 1 はそのまま動きますが、Chart 2 は無料コンセンサスデータ CSV、Chart 3 はローカル 5分足 parquet が前提です。</p>
 <blockquote>
-<p><i class="fa-brands fa-github"></i> <strong>リポジトリ</strong> <a href="https://github.com/minnanosaiban/blog/tree/main/04_surprise"><code>github.com/minnanosaiban/blog/04_surprise</code></a></p>
+<p><i class="fa-brands fa-github"></i> <strong>リポジトリ</strong> <a href="https://github.com/minnanosaiban/blog/tree/main/05_charts"><code>github.com/minnanosaiban/blog/05_charts</code></a></p>
 </blockquote>
-<h4 id="streamlit-3">Streamlit アプリ ― 「3 シグナルが揃った本命銘柄」をブラウザで判定</h4>
-<p>「上方修正があった銘柄でも、本当に業績モメンタムが本物か区別したい」 ― <strong>修正率 × EPS超過率 × 経常変化率(予)</strong> の 3 シグナルを合成した <strong>サプライズスコア</strong> を、4 象限マップとあわせて一画面に出すアプリです。<strong>Python 1 ファイル・100 行台</strong> で、ホバー・ズーム・パンが揃ったダッシュボードが完成。watch list 表示・業種絞り込み・サプライズスコア順ソートも、コードを数行書き換えるだけです。</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small></p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_surprise/app.png" data-desc-position="bottom"><img alt="連続サプライズ・スコアボード アプリ画面" src="../img/04_surprise/app.png" width="1200"></a></p>
+<h4 id="chart-1-5app1py">Chart 1 ― 5分足チャート（app1.py）</h4>
+<p><code>yfinance</code> だけで動く最も依存の少ないアプリ。<strong>Python 1 ファイル・約 250 行</strong>。複数銘柄入力、縦境界線でギャップ表示、当日値補正まで含めて Altair で実装。</p>
 <blockquote>
-<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/04_surprise"><code>github.com/minnanosaiban/blog/04_surprise</code></a> ― <code>pip install -r requirements.txt</code> → <code>streamlit run app.py</code> で起動。</p>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/05_charts/app1.py"><code>github.com/minnanosaiban/blog/05_charts/app1.py</code></a></p>
 </blockquote>
-<h4 id="png">チャート画像 ― ダブルクリック一発で PNG を作成</h4>
-<p>本記事の図はすべて <strong>Matplotlib</strong> で生成しています。<strong>デスクトップショートカットからダブルクリック一発で最新データの高解像度 PNG / PDF を再生成</strong>。Windows タスクスケジューラ / cron に登録すれば、毎週・毎月の定点観測を手を動かさず回せます。</p>
+<h4 id="chart-2-app2py">Chart 2 ― 複数銘柄チャート比較（app2.py）</h4>
+<p>無料コンセンサスデータ CSV を読み、4列カードグリッドで指標+チャートを並列表示。<strong>Python 1 ファイル・約 250 行</strong>。エリア塗りグラデーションは Plotly の <code>fill="tonexty"</code> を多段重ねで実装、RSI は Wilder 方式（EWMA）。</p>
 <blockquote>
-<p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/04_surprise/04_surprise_score_make_images.py"><code>github.com/minnanosaiban/blog/04_surprise/04_surprise_score_make_images.py</code></a></p>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/05_charts/app2.py"><code>github.com/minnanosaiban/blog/05_charts/app2.py</code></a></p>
 </blockquote>
+<h4 id="chart-3-app3py-earningscsv">Chart 3 ― 決算パターングリッド（app3.py + earnings.csv）</h4>
+<p>ローカル保存の 5分足 parquet と同梱 <code>earnings.csv</code> を組み合わせて、発表後の値動きを5パターン分類。<strong>Python 1 ファイル・約 270 行</strong>。パターン分類ロジックはインラインで完結。</p>
+<blockquote>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/05_charts/app3.py"><code>github.com/minnanosaiban/blog/05_charts/app3.py</code></a></p>
+</blockquote>
+<p>株価や指標は提供元の利用規約により再配布できませんが、<strong>yfinance</strong> や <strong>証券会社が無料で提供する銘柄情報シート CSV</strong> を組み合わせれば、ご自身の銘柄リストで同じ画面を再現できます。</p>
 <hr>
-<p><em>データ出典: 証券会社が無料で提供する銘柄情報サービスから取得した CSV 6 指標（業績予想修正率(予想) / EPS(予想) / EPS実績 / 経常利益変化率(予想) / ROE / 時価総額）</em></p>
+<p><em>データ出典: yfinance 日足・5分足 / 証券会社が無料で提供する銘柄情報シート CSV / TDnet 適時開示（決算発表日時のみ）</em></p>
 
 
 

@@ -1457,7 +1457,7 @@
 <h1 id="_1">マルチファクターで銘柄を採点する ― スコアボードで「全方位優等生」を発見する</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/02_multifactor/00_thumbnail.png" data-desc-position="bottom"><img alt="マルチファクタースコアボード" src="../img/02_multifactor/00_thumbnail.png" width="1280"></a></p>
 <p>「PER が低いから買い」「ROE が高いから買い」 ― 単一指標スクリーニングには、落とし穴があります。</p>
-<p>連載01 の <a href="../01_garp_peg_roe/">PEG × ROE 銘柄分析</a> の 2 軸を、本記事では <strong>Value / Quality / Growth / Consensus / Sentiment / Momentum / Risk</strong> の 7 ファクターに拡張。連載01 で観察した「GARP 圏外なのに上昇」「GARP 理想なのに下落」という逆転現象を、7 ファクターで定量的に再検証します。</p>
+<p>連載01 の <a href="../01_garp_peg_roe/">PEG × ROE 銘柄分析</a> の 2 軸を、本記事では <strong>Value / Quality / Growth / Consensus / Sentiment / Momentum / Risk</strong> の 7 ファクターに拡張。連載01 で観察した「GARP 圏外なのに上昇」「GARP 理想なのに下落」という逆転現象を、ファンダ・需給・モメンタムを横並びにして定量的に再検証します。</p>
 <!-- more -->
 
 <h2 id="_2">マルチファクターモデルの概要</h2>
@@ -1638,15 +1638,7 @@
 </tbody>
 </table>
 <p>連載01 で「コスモは GARP 理想ゾーンなのに下落」した謎は、<strong>ファンダ（Value 92 + Consensus 68）と需給（Sentiment 22 + Momentum 35）のスコアが乖離している</strong> ことで定量的に説明できます。</p>
-<div class="margin01">
-<div class="card-bule">
-<p class="small"><b>📝 ＥＮＥＯＳ Growth 54 と Consensus 22 の断層</b></p>
-<p class="small pad2">ＥＮＥＯＳ の Growth 54 を支える経常利益変化率 +408% は、原油急騰局面を含む <b>過去実績</b>。一方 Consensus 22 は、コンセンサス予想経常利益が前回値から下振れていることを示し、その背景には 2025/3 の会社発表（のれん減損・在庫影響）が影響している可能性があります ― マルチファクター採点は時系列の異なるシグナル（過去実績 と 将来予想の改定）を 1 枚で扱うため、Growth と Consensus が逆方向を指す現象が起きます。</p>
-<p class="small pad2">下方修正の中身、ENEOS 公式の「実質営業利益 4,400 億円維持」スタンス、<b>4 つの修正率基準（▲94% から +4.76% まで分散）</b> の試算は <a href="01_garp_peg_roe.md">連載01</a> 参照。</p>
-</div>
-</div>
-
-<p>これがマルチファクター採点の本質的な価値です。<strong>ファンダだけ、需給だけでは見えない「乖離」が一目で分かる</strong>。次回連載03 で扱う EPS リビジョン・モメンタムは、まさにこの「ファンダと需給の乖離が縮まる瞬間」を時系列で捉えます。</p>
+<p>これがマルチファクター採点の価値です。<strong>ファンダだけ・需給だけでは見えない「乖離」が一目で分かる</strong>。次回 連載03 の EPS リビジョン・モメンタムは、この乖離が縮まる瞬間を時系列で捉えます。</p>
 <h2 id="_5">まとめ</h2>
 <ul>
 <li>単一指標スクリーニングの落とし穴（バリュー・トラップ / 成長停止 / 過熱）を <strong>7 ファクター統合採点</strong> で自動回避できる</li>
@@ -1655,20 +1647,23 @@
 <li>ＥＮＥＯＳ は Growth 54 / Consensus 22 で <strong>過去実績と先行き予想がズレる構造</strong>（詳細・4基準試算は連載01参照）</li>
 </ul>
 <p>次回は <strong>EPS リビジョン・モメンタム</strong> を実装します。本ダッシュボードの Consensus / Momentum ファクターを時系列で深掘りし、アナリスト予想の修正動向と株価のズレから「出遅れ買い候補」を発掘します。</p>
-<h2 id="appendix-python">Appendix ― Python コード</h2>
+<h2 id="appendix-python">Appendix ― Python コード <i class="fa-brands fa-github"></i></h2>
+<p>本記事のアプリ・チャート画像生成スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、<strong>yfinance</strong> や <strong>無料コンセンサスデータ</strong> を組み合わせれば、ご自身の銘柄リストで同じ構図のアプリや PNG が生成できます。</p>
+<blockquote>
+<p><i class="fa-brands fa-github"></i> <strong>リポジトリ</strong> <a href="https://github.com/minnanosaiban/blog/tree/main/02_multifactor"><code>github.com/minnanosaiban/blog/02_multifactor</code></a></p>
+</blockquote>
 <h4 id="streamlit-7">Streamlit アプリ ― 7 ファクターレーダーをブラウザで並べて見る</h4>
-<p>「自社・取引先・競合の銘柄を 7 ファクターで並べて、攻め型・守り型・バランス型を視覚比較したい」 ― そのために本記事のレーダーチャートを、<strong>3 列カードグリッド</strong>で複数銘柄を俯瞰できる Streamlit アプリにまとめました。<strong>Python ファイル 1 つ・200 行台のコード</strong> で、TOPIX 500 内パーセンタイル採点（相対評価）と銘柄カードグリッドが完成します。<strong>「watch list だけ表示」「universe を変える」「ファクター定義をカスタマイズ」</strong> といった改造も、コードを数行書き換えるだけ。</p>
+<p>「自社・取引先・競合の銘柄を 7 ファクターで並べて、攻め型・守り型・バランス型を視覚比較したい」 ― 本記事のレーダーチャートを、<strong>3 列カードグリッド</strong>で複数銘柄を俯瞰できる Streamlit アプリにまとめました。<strong>Python 1 ファイル・200 行台</strong> で、TOPIX 500 内パーセンタイル採点（相対評価）と銘柄カードグリッドが完成。watch list 表示・universe 変更・ファクター定義のカスタマイズも、コードを数行書き換えるだけです。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small></p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/02_multifactor/app.png" data-desc-position="bottom"><img alt="マルチファクター・スコアボード アプリ画面" src="../img/02_multifactor/app.png" width="1200"></a></p>
 <blockquote>
-<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/02_multifactor"><code>github.com/minnanosaiban/blog/02_multifactor</code></a> ― <code>pip install -r requirements.txt</code> → <code>streamlit run app.py</code> で起動（初回は TOPIX 500 の価格メトリクス計算に 30 秒程度かかります）。</p>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/02_multifactor"><code>github.com/minnanosaiban/blog/02_multifactor</code></a> ― <code>pip install -r requirements.txt</code> → <code>streamlit run app.py</code> で起動（初回は TOPIX 500 の価格メトリクス計算に 30 秒程度）。</p>
 </blockquote>
 <h4 id="png">チャート画像 ― ダブルクリック一発で PNG を作成</h4>
-<p>本記事の図はすべて <strong>Matplotlib</strong> で生成しています。<strong>スクリプトへのショートカットをデスクトップに置けばダブルクリック一発で最新データのチャート画像が再生成される</strong> ― 高解像度 PNG / PDF で書き出せ、データを差し替えれば毎週・毎月の定点観測に。Windows タスクスケジューラ / cron に登録すれば、判断材料が手を動かさずに揃う仕組みも作れます。</p>
+<p>本記事の図はすべて <strong>Matplotlib</strong> で生成しています。<strong>デスクトップショートカットからダブルクリック一発で最新データの高解像度 PNG / PDF を再生成</strong>。Windows タスクスケジューラ / cron に登録すれば、毎週・毎月の定点観測を手を動かさず回せます。</p>
 <blockquote>
 <p>🔗 <a href="https://github.com/minnanosaiban/blog/blob/main/02_multifactor/02_multifactor_make_images.py"><code>github.com/minnanosaiban/blog/02_multifactor/02_multifactor_make_images.py</code></a></p>
 </blockquote>
-<p>株価や指標などのデータは提供元の利用規約により再配布できませんが、<strong>yfinance</strong> や <strong>証券会社が無料で提供しているデータ</strong> を組み合わせれば、ご自身の銘柄リストで同じ構図のアプリや PNG が生成できます。</p>
 <hr>
 <p><em>データ出典: 証券会社が無料で提供する 13 指標（EPS / BPS / 配当金 / EV/EBITDA / ROE / ROA / 営業利益率 / 自己資本比率 / 売上高変化率 / 経常利益変化率 / 業績予想修正率(予想) / 経常利益変化率(予想) / 過去3年平均売上高成長率(予想)） + yfinance 日足 Close / Volume</em></p>
 
