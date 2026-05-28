@@ -76,11 +76,12 @@ body.blog-post-page .md-content h3::before {
 }
 /* H2 直後の H3 は上の余白を詰める */
 body.blog-post-page .md-content h2 + h3 {
-  margin-top: 0.5em !important;
+  margin-top: 0.4em !important;
 }
-/* H3 直後の H4 は上の余白を詰める */
+/* H2 / H3 直後の H4 は上の余白を詰める */
+body.blog-post-page .md-content h2 + h4,
 body.blog-post-page .md-content h3 + h4 {
-  margin-top: 0.3em !important;
+  margin-top: 0.4em !important;
 }
 
 /* h4: 行頭マーカー │（リンク色 40% 透過＝ブルーカード枠と同色）＋ 控えめサイズ */
@@ -88,7 +89,7 @@ body.blog-post-page .md-content h4 {
   font-size: 1.2em !important;
   line-height: 1.7 !important;
   font-weight: 500 !important;
-  margin: 1.5em 0 0.5em 0 !important;
+  margin: 4em 0 0.5em 0 !important;
   padding: 0 !important;
   border: none !important;
   color: var(--md-typeset-color) !important;
