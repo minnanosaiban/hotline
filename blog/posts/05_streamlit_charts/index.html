@@ -1197,17 +1197,6 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        このおまけ回について
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
         データの取り方
       
     </span>
@@ -1288,7 +1277,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1367,45 +1356,32 @@
 
 <h1 id="streamlit-3">Streamlit で作るチャート3種 ― 無料データをブラウザに表示する</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/05_charts/chat2.png" data-desc-position="bottom"><img alt="Streamlit チャート3種" src="../img/05_charts/chat2.png" width="1280"></a></p>
-<p>連載01〜04 では「コンセンサスデータ」「株価」「決算発表日時」を使って銘柄を分析してきました。本記事はおまけ回として、これらのデータをどこから取得し、どうやって Streamlit でブラウザに表示するか ― 連載01-04 の付録 Streamlit アプリより一歩踏み込んだ <strong>3つの最小構成サンプル</strong> を紹介します。</p>
-<!-- more -->
-
-<h2 id="_1">このおまけ回について</h2>
-<p>連載01-04 を読み進めるうえで、読者の皆さんから次のような声をいただきました。</p>
-<ul>
-<li>「証券会社が無料で提供している CSV ってどうやって取得するの？」</li>
-<li>「TDnet の決算発表日時はどこから？」</li>
-<li>「Streamlit のアプリは紹介されているけど、もう一歩自分で改造する取っ掛かりが欲しい」</li>
-</ul>
-<p>本記事ではフェーズ1（連載01-04）で使ってきたデータの <strong>取り方</strong> をまとめ、それを使った <strong>3つのチャートアプリ</strong> をサンプル提示します。</p>
+<p>連載01〜04 では「コンセンサスデータ」「株価」「決算発表日時」を使って銘柄を分析してきました。本記事はおまけ回として、これらのデータをどこから取得し、どうやって Streamlit でブラウザに表示するか ― データのとり方とアプリファイルの連携方法を説明します。また、ちょっと役立ちそうな  <strong>3つのチャートアプリ</strong>  を紹介します。</p>
 <table>
 <thead>
 <tr>
 <th>アプリ</th>
 <th>用途</th>
-<th>主要技術</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Chart 1</strong></td>
-<td>5分足ローソク + 日足ライン（複数銘柄）</td>
-<td>Altair / yfinance</td>
+<td>GU/GDを分けりやすく！縦線入り5分足ローソクチャート</td>
 </tr>
 <tr>
 <td><strong>Chart 2</strong></td>
-<td>複数銘柄の指標 + 90日トレンド比較</td>
-<td>Plotly / yfinance + 無料コンセンサスデータ</td>
+<td>複数銘柄のトレンドと指標を比較！4列に並べたラインチャート</td>
 </tr>
 <tr>
 <td><strong>Chart 3</strong></td>
-<td>決算発表後の値動きをパターン分類</td>
-<td>Plotly / ローカル 5分足 + TDnet</td>
+<td>見てびっくり！決算発表後の値動きをパターンが分かりやすく並べたチャート</td>
 </tr>
 </tbody>
 </table>
-<p>3アプリ共通で、サイドバーに <strong>「Wide 表示」チェックボックス</strong> を置いて、画面幅をブラウザサイズに応じて切り替えられるようにしています（デフォルトは Narrow、CSS 注入方式なので再読み込み不要）。</p>
-<h2 id="_2">データの取り方</h2>
+<!-- more -->
+
+<h2 id="_1">データの取り方</h2>
 <h3 id="yfinance-5">yfinance ― 株価（日足・5分足）</h3>
 <p><code>pip install yfinance</code> で誰でも使える Yahoo! Finance ラッパーです。<code>{コード}.T</code> で東証銘柄を指定。</p>
 <pre><code class="language-python">import yfinance as yf
@@ -1444,9 +1420,6 @@ df = yf.download("5020.T", period="3mo", interval="1d", auto_adjust=True)
 <li>銘柄コードはカンマ・スペース・改行で区切って <strong>複数銘柄入力</strong></li>
 <li>当日の終値は <code>yf.Ticker.fast_info.lastPrice</code> で上書き（5分足の末尾と公式引け値のズレを補正）</li>
 </ul>
-<blockquote>
-<p>💡 5分足は <strong>直近60日</strong> しか取得できない制約があるので、長期の振り返りには向かない。あくまで「最近の動き」を細かく見る用途。</p>
-</blockquote>
 <h2 id="chart-2-4">Chart 2: 複数銘柄チャート比較（4列カードグリッド）</h2>
 <p>連載02 の「マルチファクター・スコアボード」の <strong>チャート版</strong> とも言える比較アプリ。各銘柄をカード化して4列グリッドに並べ、ファンダ指標（PER/PBR/配当）とテクニカル（RSI）、そして90日チャートを <strong>1画面で俯瞰</strong> します。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
@@ -1457,9 +1430,6 @@ df = yf.download("5020.T", period="3mo", interval="1d", auto_adjust=True)
 <li>線・塗りの色は <strong>90日期間騰落率</strong> で統一（上昇=緑、下落=赤）</li>
 <li>PER / PBR / 配当は無料コンセンサスデータ CSV から、RSI は yfinance 日足から自前計算（Wilder RSI(14)）</li>
 </ul>
-<blockquote>
-<p>💡 連載02 はファクター採点に <strong>数値の高低</strong> を出すのに対し、Chart 2 は <strong>チャート形状の比較</strong> を1画面で見るための補助ツール。総合商社など同セクター複数銘柄を並べると、トレンドの揃い具合が一目で分かる。</p>
-</blockquote>
 <h2 id="chart-3-5">Chart 3: 決算パターングリッド（5分足）</h2>
 <p>決算発表後の値動きを <strong>5パターン</strong>（🟢上げ📈 / 逆V字 / 無風 / V字 / 🔴下げ💀）に自動分類し、各銘柄の5分足エリアチャートを並べるアプリです。</p>
 <ul>
@@ -1479,10 +1449,7 @@ df = yf.download("5020.T", period="3mo", interval="1d", auto_adjust=True)
 <li>チャート色は <strong>グレー固定</strong>（線の方向はラベルで示すため、視覚的混乱を回避）</li>
 <li>下部 expander に全銘柄一覧テーブル（初日%・最終%・パターン）</li>
 </ul>
-<blockquote>
-<p>💡 5分足のローカル保存は前提だが、それさえあれば「<strong>発表時刻直前の最後の足</strong> → <strong>発表直後の最初の足</strong>」が綺麗に見え、寄付ギャップや場中発表の瞬間が体感できる。連載13 <a href="../13_car_event_study/">CARイベントスタディ</a> は同じ素材を <strong>大量に集計</strong> したもの、こちらは <strong>1銘柄ずつ目で見る</strong> アプローチ。</p>
-</blockquote>
-<h2 id="_3">まとめ</h2>
+<h2 id="_2">まとめ</h2>
 <ul>
 <li>連載01-04 で使った <strong>yfinance / 無料コンセンサスデータ / TDnet</strong> の出所と入手方法を1か所にまとめた</li>
 <li>Streamlit + Altair / Plotly で <strong>3つの最小構成チャートアプリ</strong> を実装：<ul>
