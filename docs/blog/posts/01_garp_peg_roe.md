@@ -115,13 +115,13 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 
 #### Streamlit アプリ ― 「自分専用の銘柄分析ツール」を週末で
 
-「自社銘柄が GARP 上どこにいるか、毎週月曜にブラウザで確認したい」 ― Excel と Web アプリ開発の **ちょうど中間** に位置するのが **Streamlit + Plotly**。**Python 1 ファイル・100 行台** で、ホバー・ズーム・パンが揃ったインタラクティブなダッシュボードが完成。watch list 表示・閾値カスタマイズ・自社/取引先/競合の並列比較も、コードを数行書き換えるだけです。
+「自社銘柄が GARP 上どこにいるか、毎週月曜にブラウザで確認したい」 ― Excel と Web アプリ開発の **ちょうど中間** に位置するのが **Streamlit + Plotly**。ホバー・ズーム・パンが揃ったインタラクティブなダッシュボードを体験できます。
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
 ![GARP スクリーナー アプリ画面](img/01_PEG_ROE/app.png){width="1200"}
 
-> 🔗 [`github.com/minnanosaiban/blog/01_PEG_ROE`](https://github.com/minnanosaiban/blog/tree/main/01_PEG_ROE) ― `pip install -r requirements.txt` → `streamlit run app.py` で起動。
+> 🔗 [`github.com/minnanosaiban/blog/01_PEG_ROE`](https://github.com/minnanosaiban/blog/tree/main/01_PEG_ROE) 
 
 
 
