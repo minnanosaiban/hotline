@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-05-21
 categories:
   - XBRL活用分析
