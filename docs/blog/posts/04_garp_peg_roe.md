@@ -113,7 +113,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 
 > <i class="fa-brands fa-github"></i> **リポジトリ** [`github.com/minnanosaiban/blog/01_PEG_ROE`](https://github.com/minnanosaiban/blog/tree/main/01_PEG_ROE)
 
-#### Streamlit アプリ ― 「自分専用の銘柄分析ツール」を週末で
+#### Streamlit アプリ ― 「自分専用の銘柄分析ツール」を体験
 
 「自社銘柄が GARP 上どこにいるか、毎週月曜にブラウザで確認したい」 ― Excel と Web アプリ開発の **ちょうど中間** に位置するのが **Streamlit + Plotly**。ホバー・ズーム・パンが揃ったインタラクティブなダッシュボードを体験できます。
 
