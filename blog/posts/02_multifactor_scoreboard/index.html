@@ -1509,7 +1509,7 @@
 </tbody>
 </table>
 <p><strong>全ファクターが平均以上</strong>の銘柄はオールラウンダー（コア候補）、<strong>一つだけ突出して低い</strong>銘柄はその要因で敬遠する判断材料になる ― これがマルチファクター採点の利点です。</p>
-<p>各指標は <strong>パーセンタイルランク化（0–100）</strong> してから単純平均し、総合スコアを合成します（<strong>スコア 70 以上が上位 30% の注目候補</strong>）。実装詳細は Appendix の Python コードを参照。</p>
+<p>各指標は <strong>パーセンタイルランク化（0–100）</strong> してから単純平均し、総合スコアを合成します（<strong>スコア 70 以上が上位 30% の注目候補</strong>）。</p>
 <h2 id="_3">チャートで確認</h2>
 <p>7 ファクターを並列で見るには <strong>レーダーチャート</strong> が標準です。7 軸の <strong>形のいびつさ</strong> で、銘柄の性格（攻め型・守り型・バランス型）が一目で分かります。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
@@ -1653,11 +1653,11 @@
 <p><i class="fa-brands fa-github"></i> <strong>リポジトリ</strong> <a href="https://github.com/minnanosaiban/blog/tree/main/02_multifactor"><code>github.com/minnanosaiban/blog/02_multifactor</code></a></p>
 </blockquote>
 <h4 id="streamlit-7">Streamlit アプリ ― 7 ファクターレーダーをブラウザで並べて見る</h4>
-<p>「自社・取引先・競合の銘柄を 7 ファクターで並べて、攻め型・守り型・バランス型を視覚比較したい」 ― 本記事のレーダーチャートを、<strong>3 列カードグリッド</strong>で複数銘柄を俯瞰できる Streamlit アプリにまとめました。<strong>Python 1 ファイル・200 行台</strong> で、TOPIX 500 内パーセンタイル採点（相対評価）と銘柄カードグリッドが完成。watch list 表示・universe 変更・ファクター定義のカスタマイズも、コードを数行書き換えるだけです。</p>
+<p>「自社・取引先・競合の銘柄を 7 ファクターで並べて、攻め型・守り型・バランス型を視覚比較したい」 ― 本記事のレーダーチャートは Streamlit アプリで表現できます。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small></p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/02_multifactor/app.png" data-desc-position="bottom"><img alt="マルチファクター・スコアボード アプリ画面" src="../img/02_multifactor/app.png" width="1200"></a></p>
 <blockquote>
-<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/02_multifactor"><code>github.com/minnanosaiban/blog/02_multifactor</code></a> ― <code>pip install -r requirements.txt</code> → <code>streamlit run app.py</code> で起動（初回は TOPIX 500 の価格メトリクス計算に 30 秒程度）。</p>
+<p>🔗 <a href="https://github.com/minnanosaiban/blog/tree/main/02_multifactor"><code>github.com/minnanosaiban/blog/02_multifactor</code></a> </p>
 </blockquote>
 <h4 id="png">チャート画像 ― ダブルクリック一発で PNG を作成</h4>
 <p>本記事の図はすべて <strong>Matplotlib</strong> で生成しています。<strong>デスクトップショートカットからダブルクリック一発で最新データの高解像度 PNG / PDF を再生成</strong>。Windows タスクスケジューラ / cron に登録すれば、毎週・毎月の定点観測を手を動かさず回せます。</p>
