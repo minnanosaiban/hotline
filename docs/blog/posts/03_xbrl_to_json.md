@@ -1,11 +1,3 @@
-<!--
-========================================================================
-【再構成ドラフト】新・連載03（フェーズ1 データ取得編の締め）
-  旧06/07/08 を「XBRL→JSON変換して分析」の1メッセージに圧縮
-  最終ファイル名（番号振り直し後）: 03_xbrl_to_json.md
-  画像の最終置き場: img/03_xbrl_json/（暫定で img/06_xbrl, img/08_schema を参照）
-========================================================================
--->
 ---
 date: 2026-05-20
 categories:
@@ -30,7 +22,7 @@ tags:
 
 
 
-## 概要 ― XBRL は生では使えない
+## XBRL は生では使えない
 
 XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
@@ -55,13 +47,9 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 肝は「**1 つの JSON キーに、複数の XBRL タグを対応させる**」設計です。
 
-![1 つの JSON パスに複数の XBRL タグ](img/08_schema/03_net_sales_multi_tags.png){width="1200"}
-
 例えば `performance.current.net_sales` には日本基準の `NetSales`、IFRS の `RevenueIFRS` など複数タグが紐づき、**最優先（priority）のタグの値が採用**されます。使う側は会計基準をいっさい意識しません。
 
 この設計を支える 5 原則です。
-
-![スキーマ設計 5 原則](img/08_schema/05_schema_principles.png){width="1200"}
 
 1. **意味的なセクション分け** ― performance / balance_sheet / dividend など会計的に意味のある単位で切る
 2. **時間軸の対称性** ― current / prior / forecast を同じ構造で持つ（前期比が 1 行で書ける）
@@ -92,11 +80,7 @@ df["op_margin"] = df["op_income"] / df["net_sales"] * 100   # 会計基準を問
 
 無料で取れる集計データは **スナップショット止まり**ですが、自前 JSON なら **過去 7 年・セグメント・CF 詳細**まで届きます。
 
-![既存サービスと自前 XBRL のデータ深度](img/06_xbrl/04_data_depth_comparison.png){width="1200"}
-
-その代表例が、ＥＮＥＯＳ の 7 年純利益・ROE です。
-
-![ＥＮＥＯＳ ピークアウト](img/06_xbrl/05_eneos_peakout.png){width="1200"}
+その代表例が、ＥＮＥＯＳ の 7 年純利益・ROE です（チャートは Appendix のアプリで対話的に確認できます）。
 
 | 年度 | 純利益（億円） | ROE | 解釈 |
 | --- | --- | --- | --- |
@@ -136,15 +120,26 @@ df["op_margin"] = df["op_income"] / df["net_sales"] * 100   # 会計基準を問
 
 ## Appendix ― Python コード <i class="fa-brands fa-github"></i>
 
-XBRL → JSON 変換のパーサーとマッピング辞書を **GitHub に公開**しています。決算データは提供元の規約により再配布できませんが、EDINET / TDnet から取得すれば同じ JSON を再現できます。
+XBRL → JSON 変換のパーサーとマッピング辞書を **GitHub に公開**しています。決算データは再配布できませんが、EDINET / TDnet から取得すれば同じ JSON を再現できます（手順はリポジトリの README 参照）。
 
 > <i class="fa-brands fa-github"></i> **リポジトリ** [`github.com/minnanosaiban/blog`](https://github.com/minnanosaiban/blog)
 
 #### XBRL → JSON パーサー
 
-マッピング辞書（CSV）を読み込み、priority で衝突解決しながら XBRL を統一 JSON に正規化します。スキーマ拡張は CSV を 1 行足すだけ。
+マッピング辞書（CSV）を読み込み、priority で衝突解決しながら XBRL を統一 JSON に正規化。スキーマ拡張は CSV を 1 行足すだけ。
 
-> 🔗 <!-- TODO: parse_yuho_xbrl.py / xbrl_to_json.py の公開パスを確定して差し替え -->
+> 🔗 公開準備中 ― `parse_yuho_xbrl.py` ほかをリポジトリに追加予定
+
+#### 7年業績チャート ― 純利益と ROE の推移
+
+有報 JSON を読み込み、純利益（棒・黒字緑/赤字赤）と ROE（線・右軸）を 7 年並べる Streamlit アプリ。銘柄を選ぶとピーク年に注釈が付きます（既定 ＥＮＥＯＳ）。
+
+<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+
+![7年業績チャート](img/06_xbrl/app.png){width="1200"}
+
+> 🔗 [`06_xbrl_json/app.py`](https://github.com/minnanosaiban/blog/blob/main/06_xbrl_json/app.py)
+
 
 ---
 
