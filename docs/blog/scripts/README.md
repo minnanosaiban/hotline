@@ -31,7 +31,7 @@
 | `03_revision_momentum_make_images.py` | [連載06 EPSリビジョン・モメンタム](../posts/06_eps_revision_momentum.md) | 市場別リビジョン・石油元売3社リビジョン・強度ランキング・リビジョン×モメンタム/バリュエーション散布図 計5枚の画像生成 |
 | `04_surprise_score_make_images.py` | [連載07 連続サプライズ・スコアボード](../posts/07_surprise_scoreboard.md) | サプライズスコア Top20・石油元売3社サプライズ・修正率×経常変化率 4象限散布図・単一vs合成シグナル重なり・3シグナル分布 計5枚の画像生成 |
 | `05_credit_dashboard_make_images.py` | 信用需給ダッシュボード（記事は未公開） | 信用倍率分布・石油元売3社信用需給・前週比急増/急減 Top10・信用倍率×出来高散布図・業績×需給 4象限マトリクス 計5枚の画像生成 |
-| `06_xbrl_intro_make_images.py` | [連載03 XBRL を JSON に変換して分析](../posts/03_xbrl_to_json.md) | 石油元売3社 7年売上/営業利益・純利益/ROE・CF 3 種・データ深度比較・ENEOS ピークアウト 計5枚の画像生成 |
+| `06_xbrl_intro_make_images.py` | [連載03 XBRL を JSON に変換して分析](../posts/03_xbrl_to_json.md) | 石油元売3社 7年 売上高/自己資本比率・純利益/ROE・CF 3 種 計3枚の画像生成（有報 JSON `data/yuho/{EDINETコード}/*.json` を参照） |
 | `07_pipeline_make_images.py` | [連載03 XBRL を JSON に変換して分析](../posts/03_xbrl_to_json.md) | パイプライン全体像・ストレージ統計・決算短信分布・マッピング辞書構成・ENEOS 7 期取得カタログ 計5枚の画像生成 |
 | `08_schema_make_images.py` | [連載03 XBRL を JSON に変換して分析](../posts/03_xbrl_to_json.md) | セクション別ルール分布・会計基準×カテゴリ ヒートマップ・net_sales 1対N 構造・実データカバレッジ・5 原則 計5枚の画像生成 |
 | `09_zscore_make_images.py` | [連載08 進捗率 Z-score 早期警報](../posts/08_progress_zscore.md) | 進捗率分布・早期警報 Top15・業績超過 Top15・売上×営利散布図・四半期パターン 計5枚の画像生成 |

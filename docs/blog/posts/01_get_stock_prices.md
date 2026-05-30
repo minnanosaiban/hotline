@@ -24,7 +24,7 @@ tags:
 
 ## なぜ parquet に貯めるのか
 
-yfinance（Yahoo! Finance ラッパー）で取れる株価は、足の種類で取得できる期間が大きく違います。
+yfinance で取れる株価は、足の種類で取得できる期間が大きく違います。
 
 | 足   | 取得できる期間       | 主な用途         |
 | --- | ------------- | ------------ |
@@ -105,13 +105,7 @@ merged.to_parquet(path)
 
 本記事のチャートアプリと取得・保存スクリプトは、すべて **GitHub に公開**しています。株価は提供元の利用規約により再配布できませんが、**yfinance** さえあれば、ご自身の銘柄リストで同じ画面を再現できます（動かし方はリポジトリの README 参照）。
 
-> <i class="fa-brands fa-github"></i> **リポジトリ** [`github.com/minnanosaiban/blog/05_charts`](https://github.com/minnanosaiban/blog/tree/main/05_charts)
-
-#### 取得・保存 ― 5分足 / 日足を parquet に貯める
-
-yfinance で取得した株価を parquet に保存・追記。5分足は約 60 日が上限なので、定期実行で貯めていきます。
-
-> 🔗 [`fetch_prices.py`](https://github.com/minnanosaiban/blog/blob/main/05_charts/fetch_prices.py)
+> <i class="fa-brands fa-github"></i> **リポジトリ** [`github.com/minnanosaiban/blog/01_chart_5min`](https://github.com/minnanosaiban/blog/tree/main/01_chart_5min)
 
 #### Streamlit アプリ ― 寄付・引け・**窓開け**を一目で確認できるチャート
 
@@ -121,11 +115,12 @@ yfinance で取得した株価を parquet に保存・追記。5分足は約 60 
 - **縦の境界線**でギャップアップ・ギャップダウンを視覚的に把握しやすく
 - 銘柄コードを **カンマ・スペース・改行**で区切って **複数銘柄を入力**できる
 
+株価は、yfinance で取得し、parquet で保存しています。
+
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
-![5分足ローソク + 騰落率テーブル](img/05_charts/chat1.png){width="1200"}
+![5分足ローソク + 騰落率テーブル](https://github.com/minnanosaiban/blog/raw/main/01_chart_5min/app.png){width="1200"}
 
-> 🔗 [`app1.py`](https://github.com/minnanosaiban/blog/blob/main/05_charts/app1.py)
 
 
 ---
