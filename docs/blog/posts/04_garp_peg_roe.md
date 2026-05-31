@@ -119,7 +119,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
-![GARP スクリーナー アプリ画面](img/01_PEG_ROE/app.png){width="1200"}
+![GARP スクリーナー アプリ画面](https://github.com/minnanosaiban/blog/blob/main/04_PEG_ROE/app.png?raw=true){width="1200"}
 
 > 🔗 [`github.com/minnanosaiban/blog/01_PEG_ROE`](https://github.com/minnanosaiban/blog/tree/main/01_PEG_ROE) 
 

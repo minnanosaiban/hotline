@@ -125,7 +125,7 @@ tags:
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
-![EPSリビジョン・モメンタム アプリ画面](img/03_eps_revision/app.png){width="1200"}
+![EPSリビジョン・モメンタム アプリ画面](https://github.com/minnanosaiban/blog/blob/main/06_eps_revision/app.png?raw=true){width="1200"}
 
 > 🔗 [`github.com/minnanosaiban/blog/03_eps_revision`](https://github.com/minnanosaiban/blog/tree/main/03_eps_revision) 
 
