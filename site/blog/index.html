@@ -1,12 +1,9 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
+<!DOCTYPE html><html lang="en" class="no-js"><head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、公平にＥＮＥＯＳ側の主張も公表し、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査対応を検証しています。">
+        <meta name="description" content="ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。">
       
       
       
@@ -16,7 +13,7 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="../trial/">
+        <link rel="next" href="posts/01_get_stock_prices/">
       
       
         
@@ -27,7 +24,7 @@
     
     
       
-        <title>Blog - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>株 × Python × AI - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -48,7 +45,7 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
@@ -71,6 +68,12 @@
     
       <link rel="stylesheet" href="../css/09-mobile-menu.css">
     
+      <link rel="stylesheet" href="../css/10-blog-reset.css">
+    
+      <link rel="stylesheet" href="../css/11-toc.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap">
+    
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -83,17 +86,33 @@
     
   <link rel="icon" href="/favicon.png" type="image/png">
   
+    
+    
+      <style>.md-typeset h1 { display: none !important; }</style>
+    
+  
+  
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:title" content="">
-    <meta property="twitter:description" content="">
+    <meta property="twitter:title" content="株 × Python × AI">
+    <meta property="twitter:description" content="ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。">
     <meta property="twitter:image" content="..">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="株 × Python × AI">
+    <meta property="og:description" content="ＥＮＥＯＳは、元社長のセクハラ不祥事を受け、宮田社長らがコンプライアンス徹底を表明しましたが、通報者に対する「法改正があった」との虚偽通知の疑いについて正面から向き合っていません。この問題について株主総会で問題提起をします。">
     <meta property="og:image" content="..">
     <meta property="og:url" content="https://example.com">
   
 
-  </head>
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
   
   
     
@@ -103,18 +122,13 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body class="blog-post-page" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#blog" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -130,15 +144,13 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <label class="md-header__button md-icon" for="__drawer">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            <a href=".." 
-              onmouseover="this.style.color='#0056b3'" 
-              onmouseout="this.style.color='#003682'">
+            <a href=".." onmouseover="this.style.color='#1a5fb4'" onmouseout="this.style.color='#003682'">
               ＥＮＥＯＳの内部通報制度をめぐる訴訟について
             </a>
           </span>
@@ -146,7 +158,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Blog
+              株 × Python × AI
             
           </span>
         </div>
@@ -159,20 +171,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="ダークモードに切り替えます"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo" aria-label="ダークモードに切り替えます" type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="ダークモードに切り替えます" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="ライトモードに切り替えます"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo" aria-label="ライトモードに切り替えます" type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="ライトモードに切り替えます" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
       </label>
     
   
@@ -253,7 +265,7 @@
   
     
   
-  裁判文書
+  株主総会意見
 
         </a>
       </li>
@@ -278,7 +290,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -327,7 +341,7 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1">
         
           
           <div class="md-nav__link md-nav__container">
@@ -383,6 +397,32 @@
       
         
           
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -451,14 +491,378 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="posts/01_get_stock_prices/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Archive
+    連載01 株価取得
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/02_collect_other_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載02 株価以外の取得
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/03_xbrl_to_json/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載03 XBRL→JSON
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/04_garp_peg_roe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載04 PEG×ROE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/05_multifactor_scoreboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載05 マルチファクター
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/06_eps_revision_momentum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載06 EPSリビジョン
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/07_surprise_scoreboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載07 連続サプライズ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/08_accrual_analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載08 アクルーアル
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/10_triangulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載10 三角検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/11_segment_analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載11 セグメント
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/12_car_event_study/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載12 CAR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/13_llm_summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載13 LLM要約
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/14_similar_earnings_search/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載14 類似検索
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/15_knn_prediction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載15 K-NN予測
   
 
     
@@ -519,7 +923,7 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
         
           
           <div class="md-nav__link md-nav__container">
@@ -530,7 +934,7 @@
   <span class="md-ellipsis">
     
   
-    裁判文書
+    株主総会意見
   
 
     
@@ -552,7 +956,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    裁判文書
+    株主総会意見
   
 
           </label>
@@ -743,7 +1147,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -751,8 +1157,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
 </nav>
@@ -762,34 +1166,174 @@
             
           
           
-  <div class="md-content" data-md-component="content">
-    <div class="md-content__inner">
-      <header class="md-typeset">
-        <h1 id="blog">Blog</h1>
-<p class="smallest" style="margin-top: 16rem !important;">
-<b>サイトマップ</b></p>
-<p class="smallest">
-<i class="fa-solid fa-house"></i>　<a href="https://minnanosaiban.github.io/hotline/" class="arrow-link">Home</a></p>
-<p class="smallest">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/" class="arrow-link">裁判</a></p>
-<p class="smallest pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/fact/" class="arrow-link">背景と事実</a></p>
-<p class="smallest pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link">ＥＮＥＯＳ側の主張書面</a></p>
-<p class="smallest pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link">通報者側の主張書面</a></p>
-<p class="smallest pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link">判決書（水野有子裁判長）</a></p>
-<p class="smallest pad1">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link">主張書面全文と認否</a></p>
-<p class="smallest pad1" style="margin-bottom: 0.8rem !important;">
-<i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/summary/" class="arrow-link">法制度の問題</a></p>
-      </header>
-      
-      
-    </div>
-  </div>
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
 
+
+
+
+  <h1>株 × Python × AI</h1>
+
+<style>.md-typeset h1 { display: none !important; }</style>
+
+<p>
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &amp;text=株主総会意見 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について" target="_blank" class="x-share" style="color: #FFFFFF;">
+    <i class="fa-brands fa-x-twitter"></i> でシェア
+  </a>
+</p>
+
+<p class="blog-main-title">株 × Python × AI</p>
+
+<p>
+Python と AI を使って、株価・決算短信・有報を分析してみました。
+</p>
+
+<p class="large" style="margin-top: 12rem !important; margin-bottom: 1rem !important;">おすすめの読み順</p>
+
+<p class="margin02">ＥＮＥＯＳの "ピークアウト構図" という単一の物語。<b>「ＥＮＥＯＳの 2022 ピーク利益 5,371 億円が、なぜ、どこで、いつ剥落したのか」</b> を多角的に解剖していきます。</p>
+
+
+<div class="toc-grid" style="margin-top: 0.8rem;">
+<a href="posts/03_xbrl_to_json/" class="toc-card">
+<span class="toc-card-num">読む順 1</span>
+<span class="toc-card-title">連載03 XBRL を JSON に変換して分析</span>
+<span class="toc-card-desc">ＥＮＥＯＳ純利 5,371→2,261 億の半減を見る</span>
+</a>
+<a href="posts/08_progress_zscore/" class="toc-card">
+<span class="toc-card-num">読む順 2</span>
+<span class="toc-card-title">連載08 進捗率 Z-score 早期警報</span>
+<span class="toc-card-desc">3 ヶ月先の下方修正を Z-score で検出</span>
+</a>
+<a href="posts/09_accrual_analysis/" class="toc-card">
+<span class="toc-card-num">読む順 3</span>
+<span class="toc-card-title">連載09 アクルーアル分析</span>
+<span class="toc-card-desc">2022 ピーク利益はキャッシュで裏付けられていなかった</span>
+</a>
+<a href="posts/05_multifactor_scoreboard/" class="toc-card">
+<span class="toc-card-num">読む順 4</span>
+<span class="toc-card-title">連載05 マルチファクタースコアボード</span>
+<span class="toc-card-desc">業種代表 51 銘柄の中での ＥＮＥＯＳ の相対評価</span>
+</a>
+<a href="posts/12_car_event_study/" class="toc-card">
+<span class="toc-card-num">読む順 5</span>
+<span class="toc-card-title">連載12 CAR イベントスタディ</span>
+<span class="toc-card-desc">CAR [-1,+20] = −13.89%、市場がピークアウトを織り込んだ瞬間</span>
+</a>
+</div>
+
+<p class="toc-phase-label" style="margin-top: 4rem;">株価分析　全記事</p>
+
+<p class="toc-phase-label">フェーズ1　データを取得する</p>
+<div class="toc-grid">
+<a href="posts/01_get_stock_prices/" class="toc-card">
+<span class="toc-card-num">連載 01</span>
+<span class="toc-card-title">株価を取得しよう</span>
+<span class="toc-card-desc">yfinance → parquet → チャート</span>
+</a>
+<a href="posts/02_collect_other_data/" class="toc-card">
+<span class="toc-card-num">連載 02</span>
+<span class="toc-card-title">株価以外も取得しよう</span>
+<span class="toc-card-desc">EDINET・TDnet・証券会社のアプリを活用</span>
+</a>
+<a href="posts/03_xbrl_to_json/" class="toc-card">
+<span class="toc-card-num">連載 03</span>
+<span class="toc-card-title">XBRL を JSON に変換して分析</span>
+<span class="toc-card-desc">決算書そのものを分析に使う</span>
+</a>
+</div>
+
+<p class="toc-phase-label">フェーズ2　無料データで業績を評価する</p>
+<div class="toc-grid">
+<a href="posts/04_garp_peg_roe/" class="toc-card">
+<span class="toc-card-num">連載 04</span>
+<span class="toc-card-title">PEG × ROE</span>
+<span class="toc-card-desc">GARP の理論と実践</span>
+</a>
+<a href="posts/05_multifactor_scoreboard/" class="toc-card">
+<span class="toc-card-num">連載 05</span>
+<span class="toc-card-title">マルチファクタースコアボード</span>
+<span class="toc-card-desc">7 軸で全方位優等生を探す</span>
+</a>
+<a href="posts/06_eps_revision_momentum/" class="toc-card">
+<span class="toc-card-num">連載 06</span>
+<span class="toc-card-title">EPS リビジョン・モメンタム</span>
+<span class="toc-card-desc">出遅れ買い候補を発掘する</span>
+</a>
+<a href="posts/07_surprise_scoreboard/" class="toc-card">
+<span class="toc-card-num">連載 07</span>
+<span class="toc-card-title">連続サプライズ・スコアボード</span>
+<span class="toc-card-desc">業績モメンタムが本物の銘柄</span>
+</a>
+</div>
+
+<p class="toc-phase-label">フェーズ3　XBRL を投資シグナルに変換する</p>
+<div class="toc-grid">
+<a href="posts/08_progress_zscore/" class="toc-card">
+<span class="toc-card-num">連載 08</span>
+<span class="toc-card-title">進捗率 Z-score 早期警報</span>
+<span class="toc-card-desc">下方修正を 1〜3 ヶ月先取りする</span>
+</a>
+<a href="posts/09_accrual_analysis/" class="toc-card">
+<span class="toc-card-num">連載 09</span>
+<span class="toc-card-title">アクルーアル分析</span>
+<span class="toc-card-desc">利益の質を CF で見抜く</span>
+</a>
+<a href="posts/10_triangulation/" class="toc-card">
+<span class="toc-card-num">連載 10</span>
+<span class="toc-card-title">三角検証</span>
+<span class="toc-card-desc">コンセンサス × ガイダンス × 実績</span>
+</a>
+<a href="posts/11_segment_analysis/" class="toc-card">
+<span class="toc-card-num">連載 11</span>
+<span class="toc-card-title">セグメント発進力スコア</span>
+<span class="toc-card-desc">OPM ピークアウトを内訳分解</span>
+</a>
+<a href="posts/12_car_event_study/" class="toc-card">
+<span class="toc-card-num">連載 12</span>
+<span class="toc-card-title">CAR イベントスタディ</span>
+<span class="toc-card-desc">8,049 イベントで PEAD を検証</span>
+</a>
+<a href="posts/13_llm_summary/" class="toc-card">
+<span class="toc-card-num">連載 13</span>
+<span class="toc-card-title">構造化 JSON × LLM 要約</span>
+<span class="toc-card-desc">要約トーンと CAR の答え合わせ</span>
+</a>
+<a href="posts/14_similar_earnings_search/" class="toc-card">
+<span class="toc-card-num">連載 14</span>
+<span class="toc-card-title">類似決算検索</span>
+<span class="toc-card-desc">個別ショックを類似群との乖離で発見</span>
+</a>
+<a href="posts/15_knn_prediction/" class="toc-card">
+<span class="toc-card-num">連載 15</span>
+<span class="toc-card-title">K-NN で値動き予測を試して失敗した話</span>
+<span class="toc-card-desc">予測より発見のツールとして実用化（完結）</span>
+</a>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
           
   <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 
@@ -798,7 +1342,7 @@
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
   Back to top
 </button>
         
@@ -815,6 +1359,44 @@
      <p style="margin-top: 0.1rem !important; margin-bottom: 0.1rem !important;">※掲載している主張書面の内容は、「訂正申立書」の内容を反映させた内容です。</p>
      <p style="margin-top: 0.1rem !important; margin-bottom: 0.1rem !important;">※本ウェブサイトに関するご意見は、<a href="https://x.com/minnanosaiban"> <i class="fa-brands fa-x-twitter"></i>（ <u>@minnanosaiban</u> ）</a>までお願いいたします。</p>
     
+</div>
+
+<div class="md-footer-note">
+  <div class="md-footer-note__section">
+    <p class="md-footer-note__heading">データの取り扱いについて</p>
+    <ul>
+      <li>本アプリは個人利用および学習を目的としたツールであり、投資勧誘を目的としたものではありません。</li>
+      <li>yfinance ライブラリを使用しています。利用にあたっては、Yahoo! 規約を遵守してください。</li>
+      <li>短時間での大量取得はサーバーに負担がかかります。API のレート制限を守り、過度なリクエストは避けてください。</li>
+    </ul>
+  </div>
+
+  <div class="md-footer-note__section">
+    <p class="md-footer-note__heading">Yahoo! 規約類</p>
+    <ul>
+      <li><a href="https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html" target="_blank" rel="noopener">Yahoo! Finance Terms of Service</a></li>
+      <li><a href="https://policies.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.htm" target="_blank" rel="noopener">Yahoo! Developer API Terms of Use</a></li>
+      <li><a href="https://legal.yahoo.com/us/en/yahoo/permissions/requests/index.html" target="_blank" rel="noopener">Yahoo! 権利関係ページ</a></li>
+    </ul>
+  </div>
+
+  <div class="md-footer-note__section">
+    <p class="md-footer-note__heading">⚠️ 免責事項</p>
+    <ul>
+      <li><strong>データの正確性</strong>: 取得データは正確性や即時性を保証しません。</li>
+      <li><strong>損害への責任</strong>: 本ツールの利用により生じたいかなる損害についても、制作者は一切の責任を負いません。</li>
+    </ul>
+  </div>
+
+  <div class="md-footer-note__section">
+    <p class="md-footer-note__heading">⚠️ 注意事項</p>
+    <ul>
+      <li>yfinance は非公式 API です。利用規約の変更により予告なく動作しなくなる場合があります。</li>
+      <li>大量銘柄の連続取得はサーバー負荷になります。<code>SLEEP_TIME</code> を適切に設定してください。</li>
+      <li>取得データのタイムゾーンは UTC です。日本時間は <code>Datetime_JST</code> 列に変換済みです。</li>
+      <li>本ツールは情報収集を目的としており、投資判断の根拠として使用する場合は自己責任でお願いします。</li>
+    </ul>
+  </div>
 </div>
       
     </div>
@@ -838,5 +1420,7 @@
         <script src="../js/custom.js"></script>
       
     
-  </body>
-</html>
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

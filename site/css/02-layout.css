@@ -27,6 +27,20 @@
 .md-content__inner {
   padding-top: 0rem; 
 }
+/* ヘッダーのサイト名を固定（スクロールしてもページタイトルへ切り替えない） */
+/* 1つ目のtopic(サイト名)を常時表示。Material の .md-header__title--active 状態に勝つ */
+.md-header__title .md-header__topic:first-child,
+.md-header__title--active .md-header__topic:first-child {
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+  z-index: 0 !important;
+}
+/* 2つ目のtopic(ページタイトル)は常時非表示 */
+.md-header__title .md-header__topic + .md-header__topic,
+.md-header__title--active .md-header__topic + .md-header__topic {
+  display: none !important;
+}
 /* タブ */
 /* タブのホバーはメインカラーの下線 */
 /* タブのアクティブはメインカラーの下線 */
@@ -41,6 +55,32 @@
   text-decoration: underline;
   text-underline-offset: 12px;
   text-decoration-color: var(--md-main-color);
+}
+/* モバイルでもタブを常時表示（隠さない） */
+@media screen and (max-width: 76.234375em) {
+  .md-tabs {
+    display: block;
+    background-color: var(--md-primary-fg-color);
+  }
+  .md-tabs__list {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .md-tabs__list::-webkit-scrollbar {
+    display: none;
+  }
+  .md-tabs__item {
+    flex-shrink: 0;
+    height: 2.4rem;
+  }
+  .md-tabs__link {
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+  }
+  .md-tabs__link--active {
+    text-underline-offset: 8px !important;
+  }
 }
 /* 縦スクロールバー */
 .md-sidebar__inner {
@@ -77,6 +117,45 @@
     display: block;
   }
 }
+/* フッター余白 */
+.md-footer {
+  margin-top: 8rem;
+}
+/* フッター注記 */
+.md-footer-note {
+  padding: 1rem 1.2rem 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  opacity: 0.75;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+}
+.md-footer-note__section {
+  min-width: 220px;
+  flex: 1;
+}
+.md-footer-note__heading {
+  font-weight: 600;
+  margin: 0.4rem 0 0.2rem !important;
+}
+.md-footer-note ul {
+  margin: 0 !important;
+  padding-left: 1.2em;
+}
+.md-footer-note li {
+  margin: 0.1rem 0 !important;
+}
+.md-footer-note a {
+  opacity: 0.85;
+}
+@media screen and (max-width: 768px) {
+  .md-footer-note {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
 /* センタリング */
 .center-container {
   display: flex;

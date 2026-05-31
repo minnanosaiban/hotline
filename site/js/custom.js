@@ -11,11 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function toggleMenu() {
-  const menu = document.getElementById("mobileMenu");
-  menu.style.display = (menu.style.display === "block") ? "none" : "block";
-}
-
 function toggleindex() {
   const menu = document.getElementById("mobilemokuji");
   const icon = document.getElementById("mokuji-icon");

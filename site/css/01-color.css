@@ -38,6 +38,8 @@
   --md-main-color: var(--typeset-color-2); /* メインカラー */
   --md-strong-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
+  --md-link-color-faint: rgba(0, 54, 130, 0.4); /* リンクカラー透過版 */
+  --md-link-hover-color: #1a5fb4; /* リンクホバー — #003682 より明るい青 */
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
   --md-bg-blue-color: #F2f2f2; /* バックグラウンド　ブルー*/
 }
@@ -52,6 +54,8 @@
   --md-main-color: var(--typeset-color-2-d); /* メインカラー */
   --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
+  --md-link-color-faint: rgba(77, 139, 204, 0.4); /* リンクカラー透過版 */
+  --md-link-hover-color: #7eb8e8; /* リンクホバー — #4D8BCC より明るい青 */
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
   --md-bg-blue-color: hsla(var(--md-hue), 15%, 10%, 0.87); /* バックグラウンド　ブルー*/ 
 }
@@ -62,7 +66,13 @@
 
 .bg-blue{
   background-color: var(--md-bg-blue-color);
-  }
+}
+
+/* ダークモード: ヘッダー・ナビゲーションタブ背景をサムネイル背景色と統一 */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #0d1b2a !important;
+}
 
 
 /* 
