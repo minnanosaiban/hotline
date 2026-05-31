@@ -12,7 +12,7 @@ tags:
 
 # まずは株価を取得しよう ― yfinance から parquet 保存、そしてチャートへ
 
-![株価を取得する](img/05_charts/00_thumbnail.png){width="1280"}
+![株価を取得する](img/01_get_stock_prices/00_thumbnail.png){width="1280"}
 
 銘柄分析は、まず株価データを手元に持つことから始まります。取得元はyfinance で、データ形式は parquet です。本記事では、
 

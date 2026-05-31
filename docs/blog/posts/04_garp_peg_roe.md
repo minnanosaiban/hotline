@@ -11,7 +11,7 @@ tags:
 
 # PEG × ROE で「成長と割安の両立銘柄」を発掘する ― GARP の理論と実践
 
-![GARP とは何か](img/01_PEG_ROE/00_thumbnail.png){width="1280"}
+![GARP とは何か](img/04_garp_peg_roe/00_thumbnail.png){width="1280"}
 
 「PER が低いから割安」 ― この判断には、**成長率を見ていない**という落とし穴があります。
 
@@ -58,7 +58,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![GARP マップ 主要銘柄](img/01_PEG_ROE/01_garp_map.png){width="1200"}
+![GARP マップ 主要銘柄](img/04_garp_peg_roe/01_garp_map.png){width="1200"}
 
 
 
@@ -77,7 +77,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![石油元売3社 GARP](img/01_PEG_ROE/03_oil_refining.png){width="1200"}
+![石油元売3社 GARP](img/04_garp_peg_roe/03_oil_refining.png){width="1200"}
 
 #### なぜ株価は逆行するのか
 
@@ -92,7 +92,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![石油元売3社 チャート](img/01_PEG_ROE/05_oil_charts.png){width="1200"}
+![石油元売3社 チャート](img/04_garp_peg_roe/05_oil_charts.png){width="1200"}
 
  > 💡 「GARP マップで光る銘柄」と「直近で上がる銘柄」は必ずしも一致せず。GARP は中長期スタンスであり、短期株価とは別次元の話。
 
