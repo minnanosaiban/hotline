@@ -95,11 +95,13 @@ body.blog-post-page .md-content h4 {
   color: var(--md-typeset-color) !important;
 }
 body.blog-post-page .md-content h4::before {
-  content: "\2502"; /* │ BOX DRAWINGS LIGHT VERTICAL */
-  color: var(--md-link-color-faint);
-  margin-right: 0.5em;
-  font-weight: 400;
+  content: ""; /* │ 相当の縦棒を実体ボックスで描画（太さを rem で制御） */
   display: inline-block;
+  width: .2rem;
+  height: 1em;
+  background-color: var(--md-link-color-faint);
+  margin-right: 0.5em;
+  vertical-align: -0.15em;
 }
 
 
@@ -152,6 +154,20 @@ body.blog-post-page .md-typeset table:not([class]) td {
 body.blog-post-page .md-typeset table:not([class]) th:last-child,
 body.blog-post-page .md-typeset table:not([class]) td:last-child {
   border-right: none;
+}
+
+/* blockquote(引用): 左の縦罫線を細く（Material 既定 .2rem の半分）＋上下に少し余白＋罫線と文字の間にパディング */
+body.blog-post-page .md-typeset blockquote {
+  border-left-width: .1rem !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+  padding-left: 1rem !important;
+}
+
+/* blockquote 内のリポジトリ案内: <small> のテキスト・アイコン・リンク文字をすべて青に */
+body.blog-post-page .md-typeset blockquote small,
+body.blog-post-page .md-typeset blockquote small * {
+  color: var(--md-link-color) !important;
 }
 
 /* blog index 目次: フェーズ見出し */
