@@ -1,6 +1,6 @@
 """
 連載02 マルチファクタースコアボード サムネイル生成
-出力: docs/blog/posts/img/02_multifactor/00_thumbnail.png
+出力: docs/blog/posts/img/05_multifactor_scoreboard/00_thumbnail.png
 サイズ: 1280x670 px（Note 推奨 16:9）
 実行: python docs/blog/scripts/thumb_02_multifactor.py
 """
@@ -114,7 +114,7 @@ ax_r.text(0, -24, 'Total Score', color=SOFT, fontsize=15,
 # 出力
 OUT = os.path.join(
     os.path.dirname(__file__),
-    '..', 'posts', 'img', '02_multifactor', '00_thumbnail.png'
+    '..', 'posts', 'img', '05_multifactor_scoreboard', '00_thumbnail.png'
 )
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)

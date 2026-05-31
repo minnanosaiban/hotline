@@ -1,6 +1,6 @@
 """
 連載01 Note サムネイル生成
-出力: docs/blog/posts/img/01_PEG_ROE/00_thumbnail.png
+出力: docs/blog/posts/img/04_garp_peg_roe/00_thumbnail.png
 サイズ: 1280x670 px（Note 推奨 16:9）
 実行: python docs/blog/scripts/thumb_01_garp.py
 
@@ -134,7 +134,7 @@ ax_r.text(-0.15, 2.24, 'ROE', color=SOFT, fontsize=24,
 # 出力
 OUT = os.path.join(
     os.path.dirname(__file__),
-    '..', 'posts', 'img', '01_PEG_ROE', '00_thumbnail.png'
+    '..', 'posts', 'img', '04_garp_peg_roe', '00_thumbnail.png'
 )
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)

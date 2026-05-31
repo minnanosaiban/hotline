@@ -1,6 +1,6 @@
 """
 連載04 連続サプライズ・スコアボード サムネイル生成
-出力: docs/blog/posts/img/04_surprise/00_thumbnail.png
+出力: docs/blog/posts/img/07_surprise_scoreboard/00_thumbnail.png
 サイズ: 1280x670 px（Note 推奨 16:9）
 実行: python docs/blog/scripts/thumb_04_surprise.py
 """
@@ -99,7 +99,7 @@ ax_r.text(-0.15, 1.50, '高', color=SOFT, fontsize=19, ha='center', va='center',
           bbox=dict(boxstyle='round,pad=0.25', facecolor=BG, edgecolor='none'))
 ax_r.text(-0.15, 2.24, '経常利益変化率(予)', color=SOFT, fontsize=22, ha='center', va='center', alpha=0.9, fontweight='bold')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '04_surprise', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '07_surprise_scoreboard', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

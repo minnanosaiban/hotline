@@ -8,7 +8,7 @@ blog/06_XBRLとは何か.md 用の画像生成スクリプト。
   04_data_depth_comparison.png      — 既存スクリーナー vs XBRL データ深度比較
   05_eneos_peakout.png              — ＥＮＥＯＳ 単独の 2022 ピークアウト構図
 
-実行: python scripts/blog/06_xbrl_intro_make_images.py
+実行: python scripts/blog/03_xbrl_to_json_make_images.py
 """
 from __future__ import annotations
 
@@ -46,7 +46,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/06_xbrl")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/03_xbrl_to_json")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

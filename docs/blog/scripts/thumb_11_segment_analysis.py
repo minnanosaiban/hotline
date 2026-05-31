@@ -1,6 +1,6 @@
 """
 連載12 セグメント発進力 サムネイル生成
-出力: docs/blog/posts/img/12_segments/00_thumbnail.png
+出力: docs/blog/posts/img/11_segment_analysis/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -67,7 +67,7 @@ for y, name, growth, color in segments:
 
 ax_r.plot([zero_x, zero_x], [10, 92], color=SOFT, linewidth=1.5, alpha=0.5)
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '12_segments', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '11_segment_analysis', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

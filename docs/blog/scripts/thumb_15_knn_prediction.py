@@ -1,6 +1,6 @@
 """
 連載16 K-NN予測 サムネイル生成
-出力: docs/blog/posts/img/16_prediction/00_thumbnail.png
+出力: docs/blog/posts/img/15_knn_prediction/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ ax_r.text(75.5, 32, '✓  実用化', color=GREEN, fontsize=24,
 ax_r.text(50, 15, 'AIは「予測」でなく「発見」のツール', color=WHITE, fontsize=20,
           ha='center', va='center', fontweight='bold')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '16_prediction', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '15_knn_prediction', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)
