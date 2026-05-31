@@ -1,6 +1,6 @@
 """
 連載14 LLM要約 サムネイル生成
-出力: docs/blog/posts/img/14_llm/00_thumbnail.png
+出力: docs/blog/posts/img/13_llm_summary/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ ax_r.text(50, 38, '丸紅: 増収増益・上方修正', color=GREEN, fontsize=2
 ax_r.text(50, 28, '→ CAR +8.94% と方向一致', color=WHITE, fontsize=20,
           ha='center', va='center')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '14_llm', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '13_llm_summary', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

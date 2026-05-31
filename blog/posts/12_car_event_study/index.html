@@ -1865,7 +1865,7 @@
 
 
 <h1 id="car-8049-narrative-5-pead">CAR イベントスタディで「決算後ドリフト」を実証する ― 8,049 決算イベント × narrative 5社で PEAD を検証</h1>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_car/00_thumbnail.png" data-desc-position="bottom"><img alt="CARイベントスタディ" src="../img/13_car/00_thumbnail.png" width="1280"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_car_event_study/00_thumbnail.png" data-desc-position="bottom"><img alt="CARイベントスタディ" src="../img/12_car_event_study/00_thumbnail.png" width="1280"></a></p>
 <p>連載01〜12 ではすべて <strong>決算データの中身</strong> を分析してきました。PEG/ROE、リビジョン、サプライズ、信用、XBRL スキーマ、進捗率、アクルーアル、三角検証、セグメント発進力 ― どれも「<strong>良い決算とは何か</strong>」を定義する作業でした。</p>
 <p>本記事では視点を逆転させて、<strong>「決算発表後に市場はどう反応したか」</strong> を株価データで実証します。学術的に <strong>PEAD（Post-Earnings-Announcement Drift）</strong> と呼ばれる現象 ― 決算発表後にサプライズの方向に株価がドリフトし続けるアノマリー ― を、<strong>自前パイプラインで集めた 8,049 決算イベント</strong> で測定し、連載01〜12 で評価した銘柄が <strong>実際に市場でどう反応したか</strong> を答え合わせします。</p>
 <p>特に narrative 5社（ＥＮＥＯＳ／出光／コスモエネＨＤ／丸紅／双日）については <strong>TOPIX 超過 + セクター ETF 超過</strong> の二重 CAR で、業界全体のショックを除いてもなお個別決算が効いたかを切り分けます。</p>
@@ -1976,7 +1976,7 @@ CAR[a, b]         = Σ abnormal_return_t  (t = a..b)
 <h2 id="_3">分析で分かったこと</h2>
 <h3 id="8049-car-pead">全 8,049 イベントの CAR 分布 ― PEAD は「平均で見えるが個別では散る」</h3>
 <p>まず母集団全体の CAR 分布を見ます。</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_car/01_car_distribution.png" data-desc-position="bottom"><img alt="全イベント CAR 分布" src="../img/13_car/01_car_distribution.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_car_event_study/01_car_distribution.png" data-desc-position="bottom"><img alt="全イベント CAR 分布" src="../img/12_car_event_study/01_car_distribution.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -2024,11 +2024,11 @@ CAR[a, b]         = Σ abnormal_return_t  (t = a..b)
 </ul>
 <p>これが PEAD の現実。学術論文では「平均で有意」と書かれますが、<strong>個別の決算で勝つには「サプライズの方向と大きさを事前に判定」する必要がある</strong> ことが裏付けられます。連載01〜12 で扱ってきた指標（修正率・進捗率 Z-score・アクルーアル・三角検証・セグメント）がそのフィルターになります。</p>
 <h3 id="_4">ウィンドウ別の平均/中央値/勝率</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_car/02_window_summary.png" data-desc-position="bottom"><img alt="ウィンドウ別サマリ" src="../img/13_car/02_window_summary.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_car_event_study/02_window_summary.png" data-desc-position="bottom"><img alt="ウィンドウ別サマリ" src="../img/12_car_event_study/02_window_summary.png" width="1200"></a></p>
 <p>中央値は [-1,+5] で <strong>-0.25%</strong> に沈み、[-1,+20] で <strong>+0.20%</strong> に持ち直しています。これは「<strong>発表直後 1 週間で投資家の利食いが入り、その後ドリフト本体が出る</strong>」というクラシックな PEAD パターンに合致します。勝率も同じく [-1,+5] で 48.7% と一時的に 50% を割ります。</p>
 <h3 id="car-car">短期 CAR × 長期 CAR の散布図 ― ドリフトは「初動の方向に続く」</h3>
 <p>PEAD の核心は <strong>「初動の方向に株価が続く」</strong> こと。これを散布図で可視化します。</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_car/05_short_vs_long.png" data-desc-position="bottom"><img alt="短期 vs 長期 CAR 散布図" src="../img/13_car/05_short_vs_long.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_car_event_study/05_short_vs_long.png" data-desc-position="bottom"><img alt="短期 vs 長期 CAR 散布図" src="../img/12_car_event_study/05_short_vs_long.png" width="1200"></a></p>
 <ul>
 <li><strong>相関係数 r = +0.694</strong> ― 短期 CAR と長期 CAR は明確に正の相関</li>
 <li>右上象限（初動↑×ドリフト↑）と左下象限（初動↓×ドリフト↓）が <strong>支配的</strong></li>
@@ -2038,7 +2038,7 @@ CAR[a, b]         = Σ abnormal_return_t  (t = a..b)
 <p>ただし相関は 0.694 で、残差は 0.3 程度。<strong>3 割は逆行する</strong> ことも事実で、連載10-11 のような利益の質チェックを併用しないと「初動買い→失望売り」に巻き込まれます。</p>
 <h3 id="narrative-5-car-topix-vs">narrative 5社の平均 CAR ― TOPIX 超過 vs セクター超過</h3>
 <p>ENEOS/出光/コスモエネ HD（エネルギー業種）と丸紅/双日（卸売業種）について、TOPIX 超過とセクター ETF 超過の二重 CAR を比較します。</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_car/03_narrative5_summary.png" data-desc-position="bottom"><img alt="narrative 5社サマリ" src="../img/13_car/03_narrative5_summary.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_car_event_study/03_narrative5_summary.png" data-desc-position="bottom"><img alt="narrative 5社サマリ" src="../img/12_car_event_study/03_narrative5_summary.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -2100,7 +2100,7 @@ CAR[a, b]         = Σ abnormal_return_t  (t = a..b)
 </ul>
 <p>セクター超過の併記で <strong>「業界全体が好調だから上がっただけ」と「個別決算が本当に効いた」</strong> が分離できる ― これがハイブリッドベンチマークの威力です。</p>
 <h3 id="narrative-5-120-car">narrative 5社の決算ごと [-1,+20] CAR 推移</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_car/04_narrative5_timeline.png" data-desc-position="bottom"><img alt="narrative 5社の時系列" src="../img/13_car/04_narrative5_timeline.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_car_event_study/04_narrative5_timeline.png" data-desc-position="bottom"><img alt="narrative 5社の時系列" src="../img/12_car_event_study/04_narrative5_timeline.png" width="1200"></a></p>
 <p>イベントごとに見ると <strong>連載 narrative との接続が一気に鮮明</strong> になります。</p>
 <p><strong>ＥＮＥＯＳ（5020）の 5 回</strong>：</p>
 <table>

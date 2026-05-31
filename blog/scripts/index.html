@@ -1204,6 +1204,17 @@
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
+        命名規則
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         含まれるスクリプト
       
     </span>
@@ -1251,11 +1262,11 @@
 </tr>
 <tr>
 <td><code>utils.price_refresh</code></td>
-<td>yfinance 日足から株価を最新化する共通ユーティリティ（01 で使用）</td>
+<td>yfinance 日足から株価を最新化する共通ユーティリティ（連載04 で使用）</td>
 </tr>
 <tr>
 <td><code>utils.price_metrics</code></td>
-<td>yfinance 日足から Sentiment/Momentum/Risk 指標を計算する共通ユーティリティ（02 で使用）</td>
+<td>yfinance 日足から Sentiment/Momentum/Risk 指標を計算する共通ユーティリティ（連載05 で使用）</td>
 </tr>
 <tr>
 <td><code>data/rakunav/*.csv</code></td>
@@ -1272,7 +1283,9 @@
 </tbody>
 </table>
 <p>自前で動かす場合は、これらに相当する関数・データを自分の環境で用意した上で、<code>import</code> 文や <code>OUT_DIR</code> などを書き換えてください。</p>
-<h2 id="_4">含まれるスクリプト</h2>
+<h2 id="_4">命名規則</h2>
+<p>ファイル名は <strong>記事スラッグに統一</strong>しています（<code>&lt;記事番号&gt;_&lt;スラッグ&gt;_make_images.py</code> / <code>thumb_&lt;記事番号&gt;_&lt;スラッグ&gt;.py</code>）。画像フォルダ <code>posts/img/&lt;記事番号&gt;_&lt;スラッグ&gt;/</code> と 1 対 1 で対応します。</p>
+<h2 id="_5">含まれるスクリプト</h2>
 <table>
 <thead>
 <tr>
@@ -1283,67 +1296,70 @@
 </thead>
 <tbody>
 <tr>
-<td><code>01_PEG_ROE_make_images.py</code></td>
-<td><a href="../posts/04_garp_peg_roe/">連載04 PEG × ROE 銘柄分析</a></td>
-<td>GARP マップ・ランキングテーブル・株価チャート計5枚の画像生成</td>
+<td><code>02_collect_other_data_make_images.py</code></td>
+<td><a href="../posts/02_collect_other_data/">連載02</a></td>
+<td>XBRL パイプライン全体像・ストレージ統計ほか計5枚</td>
 </tr>
 <tr>
-<td><code>02_multifactor_make_images.py</code></td>
-<td><a href="../posts/05_multifactor_scoreboard/">連載05 マルチファクタースコアボード</a></td>
-<td>スコアボード・ファクター分布・Value×Quality 散布図・主要銘柄レーダー・石油元売3社比較計5枚の画像生成</td>
+<td><code>03_xbrl_to_json_make_images.py</code></td>
+<td><a href="../posts/03_xbrl_to_json/">連載03</a></td>
+<td>石油元売3社 7年 売上/自己資本比率・純利益/ROE・CF</td>
 </tr>
 <tr>
-<td><code>03_revision_momentum_make_images.py</code></td>
-<td><a href="../posts/06_eps_revision_momentum/">連載06 EPSリビジョン・モメンタム</a></td>
-<td>市場別リビジョン・石油元売3社リビジョン・強度ランキング・リビジョン×モメンタム/バリュエーション散布図 計5枚の画像生成</td>
+<td><code>04_garp_peg_roe_make_images.py</code></td>
+<td><a href="../posts/04_garp_peg_roe/">連載04</a></td>
+<td>GARP マップ・ランキングテーブル・株価チャート</td>
 </tr>
 <tr>
-<td><code>04_surprise_score_make_images.py</code></td>
-<td><a href="../posts/07_surprise_scoreboard/">連載07 連続サプライズ・スコアボード</a></td>
-<td>サプライズスコア Top20・石油元売3社サプライズ・修正率×経常変化率 4象限散布図・単一vs合成シグナル重なり・3シグナル分布 計5枚の画像生成</td>
+<td><code>05_multifactor_scoreboard_make_images.py</code></td>
+<td><a href="../posts/05_multifactor_scoreboard/">連載05</a></td>
+<td>スコアボード・ファクター分布・レーダー・3社比較</td>
 </tr>
 <tr>
-<td><code>05_credit_dashboard_make_images.py</code></td>
-<td>信用需給ダッシュボード（記事は未公開）</td>
-<td>信用倍率分布・石油元売3社信用需給・前週比急増/急減 Top10・信用倍率×出来高散布図・業績×需給 4象限マトリクス 計5枚の画像生成</td>
+<td><code>06_eps_revision_momentum_make_images.py</code></td>
+<td><a href="../posts/06_eps_revision_momentum/">連載06</a></td>
+<td>リビジョン各種・モメンタム/バリュエーション散布図</td>
 </tr>
 <tr>
-<td><code>06_xbrl_intro_make_images.py</code></td>
-<td><a href="../posts/03_xbrl_to_json/">連載03 XBRL を JSON に変換して分析</a></td>
-<td>石油元売3社 7年 売上高/自己資本比率・純利益/ROE・CF 3 種 計3枚の画像生成（有報 JSON <code>data/yuho/{EDINETコード}/*.json</code> を参照）</td>
+<td><code>07_surprise_scoreboard_make_images.py</code></td>
+<td><a href="../posts/07_surprise_scoreboard/">連載07</a></td>
+<td>サプライズスコア Top20・修正率×経常変化率 4象限ほか</td>
 </tr>
 <tr>
-<td><code>07_pipeline_make_images.py</code></td>
-<td><a href="../posts/03_xbrl_to_json/">連載03 XBRL を JSON に変換して分析</a></td>
-<td>パイプライン全体像・ストレージ統計・決算短信分布・マッピング辞書構成・ENEOS 7 期取得カタログ 計5枚の画像生成</td>
+<td><code>08_progress_zscore_make_images.py</code></td>
+<td><a href="../posts/08_progress_zscore/">連載08</a></td>
+<td>進捗率分布・早期警報 Top15・四半期パターン</td>
 </tr>
 <tr>
-<td><code>08_schema_make_images.py</code></td>
-<td><a href="../posts/03_xbrl_to_json/">連載03 XBRL を JSON に変換して分析</a></td>
-<td>セクション別ルール分布・会計基準×カテゴリ ヒートマップ・net_sales 1対N 構造・実データカバレッジ・5 原則 計5枚の画像生成</td>
+<td><code>09_accrual_analysis_make_images.py</code></td>
+<td><a href="../posts/09_accrual_analysis/">連載09</a></td>
+<td>アクルーアル7年・純利益vs営業CF・散布図</td>
 </tr>
 <tr>
-<td><code>09_zscore_make_images.py</code></td>
-<td><a href="../posts/08_progress_zscore/">連載08 進捗率 Z-score 早期警報</a></td>
-<td>進捗率分布・早期警報 Top15・業績超過 Top15・売上×営利散布図・四半期パターン 計5枚の画像生成</td>
+<td><code>10_triangulation_make_images.py</code></td>
+<td><a href="../posts/10_triangulation/">連載10</a></td>
+<td>三角検証概念図・4象限散布図・総合商社8社接続</td>
 </tr>
 <tr>
-<td><code>10_accrual_make_images.py</code></td>
-<td><a href="../posts/09_accrual_analysis/">連載09 アクルーアル分析</a></td>
-<td>石油元売3社アクルーアル7年・純利益vs営業CF対比・13社ランキング・純利益×CF散布図・ENEOS 2022 利益の質 計5枚の画像生成</td>
+<td><code>11_segment_analysis_make_images.py</code></td>
+<td><a href="../posts/11_segment_analysis/">連載11</a></td>
+<td>セグメントカバレッジ・加速/減速・主要4銘柄2年推移</td>
 </tr>
 <tr>
-<td><code>11_triangulation_make_images.py</code></td>
-<td><a href="../posts/10_triangulation/">連載10 三角検証</a></td>
-<td>三角検証概念図・4象限散布図 211 銘柄・上方修正期待 Top10・達成困難 Top10・総合商社8社の連載09×10 接続 計5枚の画像生成</td>
+<td><code>12_car_event_study_make_images.py</code></td>
+<td><a href="../posts/12_car_event_study/">連載12</a></td>
+<td>CAR 分布・ウィンドウ別サマリ・短期vs長期散布図</td>
 </tr>
 <tr>
-<td><code>12_segments_make_images.py</code></td>
-<td><a href="../posts/11_segment_analysis/">連載11 セグメント発進力</a></td>
-<td>セグメントカバレッジ・ソニーG6セグメント構成・加速/減速 Top10・高利益率 Top15・主要4銘柄2年推移 計5枚の画像生成</td>
+<td><code>thumb_01_get_stock_prices.py</code> 〜 <code>thumb_15_knn_prediction.py</code></td>
+<td>連載01–15</td>
+<td>各記事のサムネイル <code>00_thumbnail.png</code> を生成</td>
 </tr>
 </tbody>
 </table>
+<blockquote>
+<p><code>_archive/</code> には未公開記事用（信用需給）・旧連載の名残（スキーマ）・開発用の一回限りパッチを退避しています。</p>
+</blockquote>
 
 
 

@@ -8,7 +8,7 @@ blog/09_進捗率Zscore.md 用の画像生成スクリプト。
   04_sales_vs_op_scatter.png   — 売上 × 営業利益 進捗率 散布図（マージン分析）
   05_quarterly_pattern.png     — 四半期別 理論進捗率 vs 実測中央値
 
-実行: python scripts/blog/09_zscore_make_images.py
+実行: python scripts/blog/08_progress_zscore_make_images.py
 """
 from __future__ import annotations
 
@@ -52,7 +52,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/09_zscore")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/08_progress_zscore")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

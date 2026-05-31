@@ -1,6 +1,6 @@
 """
 連載15 類似決算検索 サムネイル生成
-出力: docs/blog/posts/img/15_similarity/00_thumbnail.png
+出力: docs/blog/posts/img/14_similar_earnings_search/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ ax_r.text(-0.8, -3.25, '自身実績', color='#ff6b6b', fontsize=24,
 ax_r.text(0.2, -3.25, '−9.39%', color='#ff6b6b', fontsize=24,
           ha='left', va='center', fontweight='bold')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '15_similarity', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '14_similar_earnings_search', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

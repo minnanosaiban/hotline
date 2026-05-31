@@ -1,6 +1,6 @@
 """
 連載07 EDINET/TDnet取得とパース サムネイル生成
-出力: docs/blog/posts/img/07_pipeline/00_thumbnail.png
+出力: docs/blog/posts/img/02_collect_other_data/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -103,7 +103,7 @@ ax_r.text(79.5, 15, '横断比較が容易に', color=GREEN, fontsize=20,
           ha='center', va='center', fontweight='bold')
 
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '07_pipeline', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '02_collect_other_data', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

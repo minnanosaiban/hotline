@@ -8,7 +8,7 @@ blog/12_セグメント発進力.md 用の画像生成スクリプト。
   04_high_margin_segments.png   — 営業利益率 30%超 セグメント発掘
   05_major_companies_2yr.png    — トヨタ / ソニーG / 信越化 / 任天堂 の 2 年セグメント推移
 
-実行: python scripts/blog/12_segments_make_images.py
+実行: python scripts/blog/11_segment_analysis_make_images.py
 """
 from __future__ import annotations
 
@@ -52,7 +52,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/12_segments")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/11_segment_analysis")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

@@ -1955,7 +1955,7 @@
 
 
 <h1 id="k-nn-car">K-NN 回帰で「類似決算群の CAR から値動き予測」を試して失敗した話 ― 失敗が浮かび上がらせた個別ショック検出器</h1>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/16_prediction/00_thumbnail.png" width="1280"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/15_knn_prediction/00_thumbnail.png" width="1280"></a></p>
 <p>連載14 では「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.43% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました。本記事の連載15 ではこのアプローチを <strong>232 銘柄全体に展開</strong> し、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
 <p>結論を先に書くと：<strong>K-NN 予測は失敗</strong> しました。相関係数 r = -0.03、RMSE は全銘柄平均で予測したベースライン（10.48%）より悪い 10.89%。しかしこの失敗の中に <strong>本連載全体の最も重要な洞察</strong> が含まれています ― 「<strong>機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用</strong>」。本記事はその実証と、<strong>全16連載の到達点としてのハイブリッド投資ワークフロー</strong> を提示します。</p>
 <!-- more -->
@@ -2001,7 +2001,7 @@
 </tbody>
 </table>
 <h3 id="_1">パイプライン全体図</h3>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/01_pipeline.png" data-desc-position="bottom"><img alt="パイプライン全体" src="../img/16_prediction/01_pipeline.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_knn_prediction/01_pipeline.png" data-desc-position="bottom"><img alt="パイプライン全体" src="../img/15_knn_prediction/01_pipeline.png" width="1200"></a></p>
 <pre><code>1. 連載14 の類似 Top-K（K=5/15/30）
 2. → 各類似銘柄の CAR を取得
 3. → 平均値 = 予測 CAR（K-NN 回帰）
@@ -2053,7 +2053,7 @@
 <h2 id="_4">分析で分かったこと</h2>
 <h3 id="1-k-nn">結論その1: K-NN 予測は失敗した</h3>
 <p>予測 CAR（K=15、類似 Top-15 の平均）と実績 CAR の散布図：</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/02_pred_vs_actual.png" data-desc-position="bottom"><img alt="予測 vs 実績" src="../img/16_prediction/02_pred_vs_actual.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_knn_prediction/02_pred_vs_actual.png" data-desc-position="bottom"><img alt="予測 vs 実績" src="../img/15_knn_prediction/02_pred_vs_actual.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -2093,7 +2093,7 @@
 <p>つまり「<strong>類似決算群の平均 CAR は、自身の CAR の予測値として使えない</strong>」。連載14 で見た「丸紅 -9.39% vs 類似群 +2.43%」は <strong>特殊事例ではなく一般的な構図</strong> だったわけです。</p>
 <h3 id="2-k">結論その2: K を変えても改善しない</h3>
 <p>K=5/15/30 で精度を比較：</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/04_K_sensitivity.png" data-desc-position="bottom"><img alt="K の感度分析" src="../img/16_prediction/04_K_sensitivity.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_knn_prediction/04_K_sensitivity.png" data-desc-position="bottom"><img alt="K の感度分析" src="../img/15_knn_prediction/04_K_sensitivity.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -2159,7 +2159,7 @@
 </table>
 <h3 id="3">結論その3: しかし失敗の中に個別ショック検出器がある</h3>
 <p>予測との乖離 |err| が大きい銘柄は、<strong>「数字パターン上は同業並みなのに、市場が予期せぬ評価をした銘柄」</strong>。これは投資判断で <strong>真っ先に IR・説明会を確認すべき銘柄群</strong> です。</p>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/03_shocks_top10.png" data-desc-position="bottom"><img alt="個別ショック Top-10" src="../img/16_prediction/03_shocks_top10.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_knn_prediction/03_shocks_top10.png" data-desc-position="bottom"><img alt="個別ショック Top-10" src="../img/15_knn_prediction/03_shocks_top10.png" width="1200"></a></p>
 <p><strong>ポジティブショック Top-5（市場が想定より大幅好評価）</strong>：</p>
 <table>
 <thead>
@@ -2416,7 +2416,7 @@ shocks_neg = df.nsmallest(10, "err_K15_p5") # ネガショック
 <p>機械学習の鉄則：<strong>「自分のモデルが単純ベースラインに勝てるか」を最初に確認</strong>。今回は K-NN がベースラインに <strong>負けている</strong> ことで、初めて「予測ツールとしては失敗」と結論できます。これを確認せずに「相関は 0 だが何となく使えそう」と語るのは無意味。</p>
 <hr>
 <h2 id="16">全16連載の到達点 ― ハイブリッド投資ワークフロー</h2>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/16_prediction/05_strategy_flow.png" data-desc-position="bottom"><img alt="戦略フロー" src="../img/16_prediction/05_strategy_flow.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_knn_prediction/05_strategy_flow.png" data-desc-position="bottom"><img alt="戦略フロー" src="../img/15_knn_prediction/05_strategy_flow.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>

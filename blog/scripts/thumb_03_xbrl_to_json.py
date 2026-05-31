@@ -1,6 +1,6 @@
 """
 連載06 XBRLとは何か サムネイル生成
-出力: docs/blog/posts/img/06_xbrl/00_thumbnail.png
+出力: docs/blog/posts/img/03_xbrl_to_json/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -73,7 +73,7 @@ ax_r.annotate('', xy=(42, 50), xytext=(33, 43),
 ax_r.annotate('', xy=(73, 54), xytext=(64, 54),
               arrowprops=dict(arrowstyle='->', color=SOFT, lw=2, alpha=0.7))
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '06_xbrl', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '03_xbrl_to_json', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

@@ -1,6 +1,6 @@
 """
 連載03 EPSリビジョン・モメンタム サムネイル生成
-出力: docs/blog/posts/img/03_eps_revision/00_thumbnail.png
+出力: docs/blog/posts/img/06_eps_revision_momentum/00_thumbnail.png
 サイズ: 1280x670 px（Note 推奨 16:9）
 実行: python docs/blog/scripts/thumb_03_eps_revision.py
 
@@ -119,7 +119,7 @@ ax_r.text(-0.15, 2.24, '株価モメンタム', color=SOFT, fontsize=24,
 
 OUT = os.path.join(
     os.path.dirname(__file__),
-    '..', 'posts', 'img', '03_eps_revision', '00_thumbnail.png'
+    '..', 'posts', 'img', '06_eps_revision_momentum', '00_thumbnail.png'
 )
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)

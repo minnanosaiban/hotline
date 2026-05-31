@@ -1,6 +1,6 @@
 """
 連載11 三角検証 サムネイル生成
-出力: docs/blog/posts/img/11_triangulation/00_thumbnail.png
+出力: docs/blog/posts/img/10_triangulation/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ ax_r.text(p3[0]+4, p3[1]-8, 'アナリスト', color='#22d4a8', fontsize=18, ha=
 ax_r.scatter([cx], [cy], s=180, color=WHITE, zorder=5, edgecolors=BLUE_L, linewidths=2)
 ax_r.text(cx, cy-9, '検証点', color=WHITE, fontsize=22, ha='center', va='center', fontweight='bold')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '11_triangulation', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '10_triangulation', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)
