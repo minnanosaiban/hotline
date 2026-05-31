@@ -12,7 +12,7 @@ tags:
 
 # XBRL を JSON に変換 ― 有報・決算短信を分析に使えるかたちに
 
-![XBRL を JSON に変換する](img/06_xbrl/00_thumbnail.png){width="1280"}
+![XBRL を JSON に変換する](img/03_xbrl_to_json/00_thumbnail.png){width="1280"}
 
 前回、有報や決算短信を XBRL 形式で取得しました。この XBRL を分析に使うには、**JSON 形式に変換** する必要があります。本記事では、 XBRL を JSON 化し、代表的な財務指標の時系列を可視化します。そこで見えてくるのが、ＥＮＥＯＳ のピークアウトです。
 
@@ -42,7 +42,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 #### 規模は回復、財務体質はむしろ改善
 
-![石油元売3社の売上高・自己資本比率7年推移](img/06_xbrl/01_oil_3companies_revenue.png){width="1200"}
+![石油元売3社の売上高・自己資本比率7年推移](img/03_xbrl_to_json/01_oil_3companies_revenue.png){width="1200"}
 
 売上高は 3 社とも 2021 年を底に回復し、規模では ＥＮＥＯＳ が突出します。あわせて自己資本比率を並べると、**3 社とも財務体質をむしろ強めて**きたことがわかります。とくにコスモエネＨＤは 2020 年の 15% から 2025 年は 27% へ大きく改善し、ＥＮＥＯＳ・出光興産も 30% 台へ。**「規模（売上）」と「体質（自己資本比率）」を同じ 7 年で重ねる**と、1 期の損益だけでは見えない安定度まで読めます。
 
@@ -50,7 +50,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
-![石油元売3社の純利益・ROE7年推移](img/06_xbrl/02_oil_3companies_ni_roe.png){width="1200"}
+![石油元売3社の純利益・ROE7年推移](img/03_xbrl_to_json/02_oil_3companies_ni_roe.png){width="1200"}
 
 <small>※ コスモエネＨＤ・出光興産の 2020 年 ROE は赤字で報告値が非開示のため、純利益÷自己資本で簡易補完しています。</small>
 
@@ -60,7 +60,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
-![石油元売3社のキャッシュフロー7年推移](img/06_xbrl/03_oil_3companies_cf.png){width="1200"}
+![石油元売3社のキャッシュフロー7年推移](img/03_xbrl_to_json/03_oil_3companies_cf.png){width="1200"}
 
 純利益が落ちても、**営業 CF（緑）は 3 社ともプラスを維持**。本業の現金創出力は健在です。投資 CF（赤）・財務 CF（青）と並べれば、稼いだ現金を「投資に回したか／株主に返したか」の経営判断まで読めます。**利益は会計処理で動きますが、現金の出入りは動かしにくい** ― この視点は連載10「アクルーアル分析」で深掘りします。
 

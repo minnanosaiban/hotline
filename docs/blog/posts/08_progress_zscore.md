@@ -12,7 +12,7 @@ tags:
 
 # 進捗率 Z-score 早期警報 ― 決算下方修正を 1〜3 ヶ月先取りする
 
-![Z-score早期警報](img/09_zscore/00_thumbnail.png){width="1280"}
+![Z-score早期警報](img/08_progress_zscore/00_thumbnail.png){width="1280"}
 
 連載06〜07 で見た **業績予想修正率** や **EPS リビジョン** は、「アナリストが修正した**後**」の遅行シグナルでした。本記事はフェーズ3 の入口として、「修正される**前**」に業績の異常を察知する **進捗率 Z-score** を、連載03 で作った統一 JSON から実装します。
 
@@ -53,7 +53,7 @@ Z-score   = (個別の進捗率 − 同四半期の全銘柄平均) ÷ 同四半
 
 ### 四半期別の進捗率 ― 「営業利益は売上より進捗が早い」
 
-![四半期別の進捗率パターン](img/09_zscore/05_quarterly_pattern.png){width="1200"}
+![四半期別の進捗率パターン](img/08_progress_zscore/05_quarterly_pattern.png){width="1200"}
 
 | 四半期 | 売上 中央値 | 営利 中央値 | 経常 中央値 | 純利 中央値 | 理論進捗 |
 |---|---|---|---|---|---|
@@ -68,7 +68,7 @@ Z-score   = (個別の進捗率 − 同四半期の全銘柄平均) ÷ 同四半
 
 ### 進捗率の分布 ― 営業利益はバラつきが売上の3倍
 
-![進捗率分布](img/09_zscore/01_progress_distribution.png){width="1200"}
+![進捗率分布](img/08_progress_zscore/01_progress_distribution.png){width="1200"}
 
 - 売上の標準偏差: Q1 5.9% / Q2 9.1% / Q3 10.6%
 - 営業利益の標準偏差: Q1 **20.3%** / Q2 **21.3%** / Q3 **19.6%**
@@ -77,7 +77,7 @@ Z-score   = (個別の進捗率 − 同四半期の全銘柄平均) ÷ 同四半
 
 ### 🚨 早期警報 Top5 ― 営業利益進捗率 Z-score 下位
 
-![早期警報 Top 15](img/09_zscore/02_early_warning_top15.png){width="1200"}
+![早期警報 Top 15](img/08_progress_zscore/02_early_warning_top15.png){width="1200"}
 
 | 銘柄 | 四半期 | 売上進捗 | 営利進捗 | **Z-score** | 解釈 |
 |---|---|---|---|---|---|
@@ -91,7 +91,7 @@ Z-score   = (個別の進捗率 − 同四半期の全銘柄平均) ÷ 同四半
 
 ### 🚀 業績超過 Top5 ― 営業利益進捗率 Z-score 上位
 
-![業績超過 Top 15](img/09_zscore/03_surprise_top15.png){width="1200"}
+![業績超過 Top 15](img/08_progress_zscore/03_surprise_top15.png){width="1200"}
 
 | 銘柄 | 四半期 | 売上進捗 | 営利進捗 | **Z-score** | 解釈 |
 |---|---|---|---|---|---|
@@ -105,7 +105,7 @@ Z-score   = (個別の進捗率 − 同四半期の全銘柄平均) ÷ 同四半
 
 ### 売上 × 営業利益 散布図 ― マージン分析
 
-![売上×営利 進捗率散布図](img/09_zscore/04_sales_vs_op_scatter.png){width="1200"}
+![売上×営利 進捗率散布図](img/08_progress_zscore/04_sales_vs_op_scatter.png){width="1200"}
 
 45° 線（売上進捗 = 営利進捗）の下が「マージン悪化」ゾーン。Q1 では多くの銘柄が線の**上**（上期偏重）に並びますが、Ｅ・Ｊ HD や三協立山のようなマージン崩壊銘柄は Q2/Q3 で**大きく線下に落ちて**識別できます。
 

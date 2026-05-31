@@ -12,7 +12,7 @@ tags:
 
 # K-NN 回帰で「類似決算群の CAR から値動き予測」を試して失敗した話 ― 失敗が浮かび上がらせた個別ショック検出器
 
-![K-NN予測](img/16_prediction/00_thumbnail.png){width="1280"}
+![K-NN予測](img/15_knn_prediction/00_thumbnail.png){width="1280"}
 
 連載14 では「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.43% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました。本記事の連載15 ではこのアプローチを **232 銘柄全体に展開** し、機械学習の **K-Nearest Neighbors（K-NN）回帰** で「**類似決算群の CAR から自身の CAR を予測**」する実装を回します。
 
@@ -38,7 +38,7 @@ tags:
 
 ### パイプライン全体図
 
-![パイプライン全体](img/16_prediction/01_pipeline.png){width="1200"}
+![パイプライン全体](img/15_knn_prediction/01_pipeline.png){width="1200"}
 
 ```
 1. 連載14 の類似 Top-K（K=5/15/30）
@@ -83,7 +83,7 @@ tags:
 
 予測 CAR（K=15、類似 Top-15 の平均）と実績 CAR の散布図：
 
-![予測 vs 実績](img/16_prediction/02_pred_vs_actual.png){width="1200"}
+![予測 vs 実績](img/15_knn_prediction/02_pred_vs_actual.png){width="1200"}
 
 | 指標 | 値 |
 |---|---|
@@ -105,7 +105,7 @@ tags:
 
 K=5/15/30 で精度を比較：
 
-![K の感度分析](img/16_prediction/04_K_sensitivity.png){width="1200"}
+![K の感度分析](img/15_knn_prediction/04_K_sensitivity.png){width="1200"}
 
 | K | RMSE [-1,+5] | 相関 r | 方向一致率 |
 |---|---|---|---|
@@ -128,7 +128,7 @@ K=15 が方向一致率では最高（50.9%）、K=30 が RMSE では最低（10
 
 予測との乖離 |err| が大きい銘柄は、**「数字パターン上は同業並みなのに、市場が予期せぬ評価をした銘柄」**。これは投資判断で **真っ先に IR・説明会を確認すべき銘柄群** です。
 
-![個別ショック Top-10](img/16_prediction/03_shocks_top10.png){width="1200"}
+![個別ショック Top-10](img/15_knn_prediction/03_shocks_top10.png){width="1200"}
 
 **ポジティブショック Top-5（市場が想定より大幅好評価）**：
 
@@ -288,7 +288,7 @@ sims[i] = -np.inf  # 必ず入れる
 
 ## 全16連載の到達点 ― ハイブリッド投資ワークフロー
 
-![戦略フロー](img/16_prediction/05_strategy_flow.png){width="1200"}
+![戦略フロー](img/15_knn_prediction/05_strategy_flow.png){width="1200"}
 
 | フェーズ | 連載 | 役割 |
 |---|---|---|

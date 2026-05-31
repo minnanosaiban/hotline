@@ -12,7 +12,7 @@ tags:
 
 # 三角検証 ― コンセンサス × 企業ガイダンス × 実績から業績予想の信頼性を見抜く
 
-![三角検証](img/11_triangulation/00_thumbnail.png){width="1280"}
+![三角検証](img/10_triangulation/00_thumbnail.png){width="1280"}
 
 業績予想は **常に 3 つの数値が並んでいます**。
 
@@ -54,7 +54,7 @@ tags:
   ・コンセンサス − 実績   → アナリストの来期成長期待
 ```
 
-![三角検証 概念図](img/11_triangulation/01_triangulation_concept.png){width="1200"}
+![三角検証 概念図](img/10_triangulation/01_triangulation_concept.png){width="1200"}
 
 ### 4 象限の戦略マップ
 
@@ -116,7 +116,7 @@ tags:
 
 ### 4 象限分布
 
-![三角検証 4 象限マップ](img/11_triangulation/02_quadrant_scatter.png){width="1200"}
+![三角検証 4 象限マップ](img/10_triangulation/02_quadrant_scatter.png){width="1200"}
 
 | 象限 | 銘柄数 | 解釈 |
 |---|---|---|
@@ -139,7 +139,7 @@ tags:
 
 ### ★上方修正期待 Top 10（左上ゾーン）
 
-![上方修正期待 Top10](img/11_triangulation/03_upside_top10.png){width="1200"}
+![上方修正期待 Top10](img/10_triangulation/03_upside_top10.png){width="1200"}
 
 | 銘柄 | 実績EPS | ガイダンス | コンセンサス | G − A | C − G |
 |---|---|---|---|---|---|
@@ -160,7 +160,7 @@ tags:
 
 ### ⚠ 達成困難 Top 10（右下ゾーン）
 
-![達成困難 Top10](img/11_triangulation/04_downside_top10.png){width="1200"}
+![達成困難 Top10](img/10_triangulation/04_downside_top10.png){width="1200"}
 
 | 銘柄 | 実績EPS | ガイダンス | コンセンサス | G − A | C − G |
 |---|---|---|---|---|---|
@@ -181,7 +181,7 @@ tags:
 
 連載09 のアクルーアル分析で扱った 13 社のうち、**総合商社 8 社（伊藤忠 / 丸紅 / 豊田通商 / 兼松 / 三井物産 / 三菱商事 / 住友商事 / 双日）** は本記事の三角検証可能 211 銘柄にも全社含まれます。**連載09 と連載10 が同じ銘柄群でクロス分析できる初の機会** です。
 
-![総合商社 8 社 三角検証 × アクルーアル](img/11_triangulation/05_trading_companies.png){width="1200"}
+![総合商社 8 社 三角検証 × アクルーアル](img/10_triangulation/05_trading_companies.png){width="1200"}
 
 | 銘柄 | G − A | C − G | アクルーアル | 統合解釈 |
 |---|---|---|---|---|

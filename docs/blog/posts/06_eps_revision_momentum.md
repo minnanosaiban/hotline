@@ -12,7 +12,7 @@ tags:
 
 # EPS リビジョン・モメンタムで「出遅れ買い候補」を発掘する ― アナリスト予想と株価のズレを読む
 
-![EPS リビジョン・モメンタム](img/03_eps_revision/00_thumbnail.png){width="1280"}
+![EPS リビジョン・モメンタム](img/06_eps_revision_momentum/00_thumbnail.png){width="1280"}
 
 「業績が上方修正されたのに株価がまだ動いていない」 ― これは個人投資家にとって最も明快な **情報の織り込み遅れによるエッジ** です。
 
@@ -50,7 +50,7 @@ tags:
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![リビジョン×モメンタム散布図](img/03_eps_revision/04_revision_vs_momentum.png){width="1200"}
+![リビジョン×モメンタム散布図](img/06_eps_revision_momentum/04_revision_vs_momentum.png){width="1200"}
 
 出遅れ買い候補 Top の銘柄（修正率上位、散布図表示範囲 ±30% 以内）:
 
@@ -82,7 +82,7 @@ tags:
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![石油元売3社 リビジョン](img/03_eps_revision/02_oil_refining_revision.png){width="1200"}
+![石油元売3社 リビジョン](img/06_eps_revision_momentum/02_oil_refining_revision.png){width="1200"}
 
 | 銘柄 | 業績予想修正率 | 値上り率 | PER予想 | 解釈 |
 | ----------- | ---------- | ------ | ----- | -------------------- |

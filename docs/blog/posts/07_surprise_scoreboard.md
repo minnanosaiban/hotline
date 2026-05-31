@@ -12,7 +12,7 @@ tags:
 
 # 連続サプライズ・スコアボードで「業績モメンタムが本物の銘柄」を発掘する ― 修正率・予想超過・成長予想の 3 シグナル合成
 
-![連続サプライズ・スコアボード](img/04_surprise/00_thumbnail.png){width="1280"}
+![連続サプライズ・スコアボード](img/07_surprise_scoreboard/00_thumbnail.png){width="1280"}
 
 連載06 の [EPS リビジョン・モメンタム](06_eps_revision_momentum.md) では業績予想修正率という **1 つのシグナル** から「出遅れ買い候補」を抽出しました。ただし単一シグナルでは、**修正の精度・持続性・コンセンサス全体での合意度** までは測れません。
 
@@ -48,7 +48,7 @@ tags:
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![リビジョン×成長予想 散布図](img/04_surprise/03_revision_vs_ordprofit.png){width="1200"}
+![リビジョン×成長予想 散布図](img/07_surprise_scoreboard/03_revision_vs_ordprofit.png){width="1200"}
 
 | 象限 | 意味 | 銘柄数 |
 |---|---|---|
@@ -72,7 +72,7 @@ tags:
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![サプライズスコア Top20](img/04_surprise/01_surprise_top20.png){width="1200"}
+![サプライズスコア Top20](img/07_surprise_scoreboard/01_surprise_top20.png){width="1200"}
 
 | 順位 | 銘柄 | サプライズ | 修正率 | EPS超過 | 経常変化(予想) | ROE |
 |---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ Top1 の **日清紡ＨＤ** は修正率 +16.0% / EPS 超過率 +38.5% / 経常
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 <small style="color: var(--md-link-color);">2026.05.22作成</small>
 
-![石油元売3社 サプライズ](img/04_surprise/02_oil_refining_surprise.png){width="1200"}
+![石油元売3社 サプライズ](img/07_surprise_scoreboard/02_oil_refining_surprise.png){width="1200"}
 
 | 銘柄 | 修正率 | EPS 超過率 | 経常変化率(予想) | ROE |
 |---|---|---|---|---|
