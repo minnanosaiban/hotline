@@ -36,7 +36,9 @@ tags:
 
 ## 金融庁 EDINET
 
-実は、決算短信・有報には、人間用の PDF と並んで **必ず XBRL**（タグ付きデータ）が同時提出されています。これが「決算書そのもの」です。この XBRL は EDINET 公式 API で ZIP ファイルで取得できます。
+有報は、**PDF と XBRL**（タグ付きデータ）の二つの形式で入手することができます。この XBRL は EDINET 公式 API で 取得できます。
+
+業績推移はヤフーファイナンスや株探などのサービスで確認できますが、期間は3～5年です。有報を遡って足せば **10 年超**の業績時系列も組めます。また、データを取得することで、銘柄の業績を比較した可視化が可能です。
 
 ```python
 res = requests.get(f"https://disclosure.edinet-fsa.go.jp/api/v2/documents/{doc_id}",
@@ -44,13 +46,12 @@ res = requests.get(f"https://disclosure.edinet-fsa.go.jp/api/v2/documents/{doc_i
 # type=5 で XBRL を取得
 ```
 
-業績推移はヤフーファイナンスや株探などのサービスで確認できますが、期間は3～5年です。有報を遡って足せば **10 年超**の業績時系列も組めます。また、データを取得することで、銘柄の業績を比較した可視化が可能です。
 
 
 
 ## 東証 TDnet 
 
-**決算短信 XBRL** は、有報 XBRL と違い、公式 API がないため、PDF の URL を ZIP の URL に変換するという方法をとります。
+**決算短信 XBRL や決算発表日時** は、有報 XBRL と違い、公式 API がないため、PDF の URL から ZIP の URL に変換し、そのURLでスクレイピングするという方法をとります。
 
 ```python
 import re, requests
