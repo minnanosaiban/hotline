@@ -428,14 +428,6 @@
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     
@@ -770,14 +762,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_eps_revision_momentum/" class="md-nav__link">
+      <a href="../06_accrual_analysis/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載06 EPSリビジョン
+    連載06 アクルーアル
   
 
     
@@ -798,14 +790,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../07_surprise_scoreboard/" class="md-nav__link">
+      <a href="../07_triangulation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載07 連続サプライズ
+    連載07 三角検証
   
 
     
@@ -826,14 +818,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../08_progress_zscore/" class="md-nav__link">
+      <a href="../08_segment_analysis/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載08 Zscore警報
+    連載08 セグメント
   
 
     
@@ -854,14 +846,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_accrual_analysis/" class="md-nav__link">
+      <a href="../09_car_event_study/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載09 アクルーアル
+    連載09 CAR
   
 
     
@@ -882,14 +874,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../10_triangulation/" class="md-nav__link">
+      <a href="../10_similar_earnings_search/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載10 三角検証
+    連載10 類似検索
   
 
     
@@ -910,126 +902,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../11_segment_analysis/" class="md-nav__link">
+      <a href="../11_knn_prediction/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載11 セグメント
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../12_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載12 CAR
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../13_llm_summary/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載13 LLM要約
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../14_similar_earnings_search/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載14 類似検索
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../15_knn_prediction/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載15 K-NN予測
+    連載11 K-NN予測
   
 
     
@@ -1499,16 +1379,8 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。</p>
 <blockquote>
-<p><a href="https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py"><small><i class="fa-brands fa-github"></i> データ取得・成形 ― 金融庁 EDINET から有報 XBRL を取得して JSON に変換（連載03）</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py"><small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py"><small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算短信 XBRL を取得</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py"><small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py"><small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算発表日時を取得</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py"><small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi"><small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 複数銘柄を俯瞰するチャート</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi"><small>github.com/minnanosaiban/blog/02_1_chart_multi</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern"><small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 決算発表直後の動きを確認するチャート</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern"><small>github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</small></a></p>
+<p><a href="https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi"><span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_1_chart_multi</span></a><br>
+<a href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern"><span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span></a></p>
 </blockquote>
 <h4 id="streamlit">📈 Streamlit アプリ ― 複数銘柄を俯瞰するチャート</h4>
 <p>連載01 の株価だけでは「チャートを並べる」までですが、ここで取得した <strong>業績指標（PER / PBR / 配当）</strong> を重ねると、銘柄比較が一気に厚くなります。複数銘柄のファンダ指標とチャートを 4 列カードグリッドで <strong>1 画面で俯瞰</strong> する Streamlit アプリです。</p>

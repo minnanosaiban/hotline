@@ -428,14 +428,6 @@
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     
@@ -748,14 +740,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_eps_revision_momentum/" class="md-nav__link">
+      <a href="../06_accrual_analysis/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載06 EPSリビジョン
+    連載06 アクルーアル
   
 
     
@@ -776,14 +768,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../07_surprise_scoreboard/" class="md-nav__link">
+      <a href="../07_triangulation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載07 連続サプライズ
+    連載07 三角検証
   
 
     
@@ -804,14 +796,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../08_progress_zscore/" class="md-nav__link">
+      <a href="../08_segment_analysis/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載08 Zscore警報
+    連載08 セグメント
   
 
     
@@ -832,14 +824,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_accrual_analysis/" class="md-nav__link">
+      <a href="../09_car_event_study/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載09 アクルーアル
+    連載09 CAR
   
 
     
@@ -860,14 +852,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../10_triangulation/" class="md-nav__link">
+      <a href="../10_similar_earnings_search/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載10 三角検証
+    連載10 類似検索
   
 
     
@@ -888,126 +880,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../11_segment_analysis/" class="md-nav__link">
+      <a href="../11_knn_prediction/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    連載11 セグメント
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../12_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載12 CAR
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../13_llm_summary/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載13 LLM要約
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../14_similar_earnings_search/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載14 類似検索
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../15_knn_prediction/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    連載15 K-NN予測
+    連載11 K-NN予測
   
 
     
@@ -1461,10 +1341,7 @@ merged.to_parquet(path)
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。</p>
 <blockquote>
-<p><a href="https://github.com/minnanosaiban/blog/blob/main/01_chart_5min/fetch_prices.py"><small><i class="fa-brands fa-github"></i> データ取得・成形 ― Yfinance から5分足・日足の株価を取得し、 parquet 形式で保存</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/blob/main/01_chart_5min/fetch_prices.py"><small>github.com/minnanosaiban/blog/blob/main/01_chart_5min/fetch_prices.py</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min"><small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 寄付・引け・窓開けを一目で確認できる5分足チャート</small></a><br>
-<a href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min"><small>github.com/minnanosaiban/blog/01_chart_5min</small></a></p>
+<p><a href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min"><span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/01_chart_5min</span></a></p>
 </blockquote>
 <h4 id="streamlit-5">📈 Streamlit アプリ ― 寄付・引け・窓開けを一目で確認できる5分足チャート</h4>
 <p>貯めた 5分足を複数銘柄まとめてローソク足で表示し、右上に日足ライン、下に日次の騰落率テーブルを添える Streamlit アプリ（Plotly）。寄付・引け・<strong>窓開け</strong>を一目で確認できます。</p>
