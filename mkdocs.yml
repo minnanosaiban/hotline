@@ -21,8 +21,7 @@ nav:
       - 連載06 EPSリビジョン: blog/posts/06_eps_revision_momentum.md
       - 連載07 連続サプライズ: blog/posts/07_surprise_scoreboard.md
       # ── フェーズ3 XBRL活用編 ──
-      - 連載08 Zscore警報: blog/posts/08_progress_zscore.md
-      - 連載09 アクルーアル: blog/posts/09_accrual_analysis.md
+      - 連載08 アクルーアル: blog/posts/08_accrual_analysis.md
       - 連載10 三角検証: blog/posts/10_triangulation.md
       - 連載11 セグメント: blog/posts/11_segment_analysis.md
       - 連載12 CAR: blog/posts/12_car_event_study.md

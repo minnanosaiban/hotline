@@ -2,46 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://minnanosaiban.github.io/hotline/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/01_get_stock_prices/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/02_collect_other_data/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/03_xbrl_to_json/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/04_garp_peg_roe/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/05_multifactor_scoreboard/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/06_eps_revision_momentum/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/07_surprise_scoreboard/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/08_accrual_analysis/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/10_triangulation/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/11_segment_analysis/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/12_car_event_study/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/13_llm_summary/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/14_similar_earnings_search/</loc>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/blog/posts/15_knn_prediction/</loc>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/fact/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
+    </url>
+    <url>
+         <loc>https://minnanosaiban.github.io/hotline/includes/sitemap/</loc>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/summary/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/appeal/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/docu/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/eneos/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/generativeai/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/judgement_2022/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/judgement_2025/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
     <url>
          <loc>https://minnanosaiban.github.io/hotline/trial/whistleblower/</loc>
-         <lastmod>2025-12-31</lastmod>
+         <lastmod>2026-05-31</lastmod>
     </url>
 </urlset>
