@@ -36,7 +36,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 ## JSON 化で実現、時系列分析
 
-有報 XBRL は過去年度分も無料で取得でき、業績指標の時系列を表現できます。ここでは、3 年分の有報を重ね、7 期分の代表的な業績指標を使って石油元売 3 社のチャートを作成しました。後の連載では、JSON 化したデータを使い、●や●など、さらに深い分析を行っていきます。
+有報 XBRL は過去年度分も無料で取得でき、業績指標の時系列を表現できます。ここでは、3 年分の有報を重ね、7 期分の代表的な業績指標を使って石油元売 3 社のチャートを作成しました。後の連載では、JSON 化したデータを使い、アクルーアル分析やセグメント発進力など、さらに深い分析を行っていきます。
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
@@ -92,17 +92,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
-
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 金融庁 EDINET から有報 XBRL を取得して JSON に変換（連載03）</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py)
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算短信 XBRL を取得</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py)
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算発表日時を取得</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py)
-> [<small><i class="fa-brands fa-github"></i> Matplotlib チャート ― 本記事に掲載しているチャート</small>](https://github.com/minnanosaiban/hotline/blob/main/docs/blog/scripts/03_xbrl_to_json_make_images.py)
-> [<small>github.com/minnanosaiban/hotline/blob/main/docs/blog/scripts/03_xbrl_to_json_make_images.py</small>](https://github.com/minnanosaiban/hotline/blob/main/docs/blog/scripts/03_xbrl_to_json_make_images.py)
-> [<small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 決算 Note 記事プロンプト生成アプリ</small>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
-> [<small>github.com/minnanosaiban/blog/tree/main/03_xbrl_json</small>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
+> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/03_xbrl_json</span>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
 
 #### 📈 Streamlit アプリ ― 決算 Note 記事プロンプト生成アプリ
 

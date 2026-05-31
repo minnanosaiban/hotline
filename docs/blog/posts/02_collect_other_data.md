@@ -78,16 +78,8 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 金融庁 EDINET から有報 XBRL を取得して JSON に変換（連載03）</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_yuho.py)
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算短信 XBRL を取得</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py)
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算発表日時を取得</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py)
-> [<small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 複数銘柄を俯瞰するチャート</small>](https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi)
-> [<small>github.com/minnanosaiban/blog/02_1_chart_multi</small>](https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi)
-> [<small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 決算発表直後の動きを確認するチャート</small>](https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern)
-> [<small>github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</small>](https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern)
+> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_1_chart_multi</span>](https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi)
+> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span>](https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern)
 
 #### 📈 Streamlit アプリ ― 複数銘柄を俯瞰するチャート
 
