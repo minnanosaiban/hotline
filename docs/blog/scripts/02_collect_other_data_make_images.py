@@ -8,7 +8,7 @@ blog/07_EDINET_TDnet取得とパース.md 用の画像生成スクリプト。
   04_mapping_dict.png       — マッピング辞書 yuho/kessan のカテゴリ別構成
   05_eneos_catalog.png      — ENEOS 7 期分の有報取得カタログ実例
 
-実行: python scripts/blog/07_pipeline_make_images.py
+実行: python scripts/blog/02_collect_other_data_make_images.py
 """
 from __future__ import annotations
 
@@ -50,7 +50,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/07_pipeline")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/02_collect_other_data")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

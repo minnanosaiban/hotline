@@ -1,6 +1,6 @@
 """
 連載01 株価取得 サムネイル生成
-出力: docs/blog/posts/img/05_charts/00_thumbnail.png
+出力: docs/blog/posts/img/01_get_stock_prices/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -60,7 +60,7 @@ for i, (o, h, l, c) in enumerate(candles):
         facecolor=col, edgecolor=col, linewidth=0,
     ))
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '05_charts', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '01_get_stock_prices', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

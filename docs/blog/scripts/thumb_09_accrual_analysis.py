@@ -1,6 +1,6 @@
 """
 連載10 アクルーアル分析 サムネイル生成
-出力: docs/blog/posts/img/10_accrual/00_thumbnail.png
+出力: docs/blog/posts/img/09_accrual_analysis/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -71,7 +71,7 @@ ax_r.text(50, 15, 'ENEOS 2022  純利5,371億', color=SOFT, fontsize=20,
 ax_r.text(50, 4,  'CF 2,095億（39%）', color=GREEN, fontsize=20,
           ha='center', va='center', fontweight='bold')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '10_accrual', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '09_accrual_analysis', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

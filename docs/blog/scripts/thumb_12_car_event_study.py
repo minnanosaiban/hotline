@@ -1,6 +1,6 @@
 """
 連載13 CARイベントスタディ サムネイル生成
-出力: docs/blog/posts/img/13_car/00_thumbnail.png
+出力: docs/blog/posts/img/12_car_event_study/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ ax_r.text(22.5, car_after[-1]/2, 'CAR\n−13.89%', color='#ff6b6b', fontsize=24,
 ax_r.text(-4, 8, 'ENEOS 2025/3期', color=SOFT, fontsize=20,
           ha='center', va='center')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '13_car', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '12_car_event_study', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)

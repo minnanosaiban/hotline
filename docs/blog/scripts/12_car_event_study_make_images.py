@@ -8,7 +8,7 @@ blog/13_CARイベントスタディ.md 用の画像生成スクリプト。
   04_periods_comparison.png  — 集計期間別（5/10/20/30 日）CAR 比較
   05_top_bottom_cases.png    — CAR Top5 / Bottom5 のケーススタディ
 
-実行: python scripts/blog/13_car_make_images.py
+実行: python scripts/blog/12_car_event_study_make_images.py
 """
 from __future__ import annotations
 
@@ -53,7 +53,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/13_car")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/12_car_event_study")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

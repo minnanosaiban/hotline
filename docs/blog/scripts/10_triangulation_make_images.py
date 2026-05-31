@@ -8,7 +8,7 @@ blog/11_三角検証.md 用の画像生成スクリプト。
   04_downside_top10.png        — 達成困難 Top10（強気ガイダンス×アナリスト懐疑）
   05_trading_companies.png     — 総合商社 8 社の三角検証 × アクルーアル接続
 
-実行: python scripts/blog/11_triangulation_make_images.py
+実行: python scripts/blog/10_triangulation_make_images.py
 """
 from __future__ import annotations
 
@@ -54,7 +54,7 @@ C_TEXT = "#202124"
 C_TEXT_SUB = "#70757a"
 C_GRID = "#eaeaea"
 
-OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/11_triangulation")
+OUT_DIR = Path(r"C:/minnanosaiban/hotline/docs/blog/posts/img/10_triangulation")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

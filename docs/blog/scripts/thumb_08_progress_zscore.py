@@ -1,6 +1,6 @@
 """
 連載09 Z-score早期警報 サムネイル生成
-出力: docs/blog/posts/img/09_zscore/00_thumbnail.png
+出力: docs/blog/posts/img/08_progress_zscore/00_thumbnail.png
 """
 import os
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ ax_r.text(-3.5, 14, 'E・J HD  Z=−5.56', color='#ff6b6b', fontsize=20, ha='cen
 ax_r.scatter([4.71], [4], color=GREEN, s=120, zorder=5)
 ax_r.text(3.4, 14, '京葉瓦斯  Z=+4.71', color=GREEN, fontsize=20, ha='center', va='center', fontweight='bold')
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '09_zscore', '00_thumbnail.png')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '08_progress_zscore', '00_thumbnail.png')
 OUT = os.path.normpath(OUT)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 plt.savefig(OUT, dpi=DPI, bbox_inches='tight', facecolor=BG, pad_inches=0.15)
