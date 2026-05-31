@@ -129,7 +129,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 
 本記事の図はすべて **Matplotlib** で生成しています。**デスクトップショートカットからダブルクリック一発で最新データの高解像度 PNG / PDF を再生成**。Windows タスクスケジューラ / cron に登録すれば、毎週・毎月の定点観測を手を動かさず回せます。
 
-> 🔗 [`github.com/minnanosaiban/blog/01_PEG_ROE/01_PEG_ROE_make_images.py`](https://github.com/minnanosaiban/blog/blob/main/01_PEG_ROE/01_PEG_ROE_make_images.py)
+> 🔗 [`github.com/minnanosaiban/blog/04_PEG_ROE/04_PEG_ROE_make_images.py`](https://github.com/minnanosaiban/blog/blob/main/04_PEG_ROE/04_PEG_ROE_make_images.py)
 
 
 ---

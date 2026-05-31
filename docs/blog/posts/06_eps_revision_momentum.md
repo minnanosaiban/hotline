@@ -135,7 +135,7 @@ tags:
 
 本記事の図はすべて **Matplotlib** で生成しています。**デスクトップショートカットからダブルクリック一発で最新データの高解像度 PNG / PDF を再生成**。Windows タスクスケジューラ / cron に登録すれば、毎週・毎月の定点観測を手を動かさず回せます。
 
-> 🔗 [`github.com/minnanosaiban/blog/03_eps_revision/03_revision_momentum_make_images.py`](https://github.com/minnanosaiban/blog/blob/main/03_eps_revision/03_revision_momentum_make_images.py)
+> 🔗 [`github.com/minnanosaiban/blog/06_eps_revision/06_revision_momentum_make_images.py`](https://github.com/minnanosaiban/blog/blob/main/06_eps_revision/06_revision_momentum_make_images.py)
 
 ---
 
