@@ -65,9 +65,9 @@ def _savefig_vpad(fig: plt.Figure, path: Path, bpad: float = 0.5) -> None:
 YUHO = Path(r"C:/stock_analysis/data/yuho")
 
 OIL_3 = [
-    ("E31632", "コスモエネＨＤ", "#888888"),
-    ("E24050", "ＥＮＥＯＳ",      "#444444"),
-    ("E01084", "出光興産",       "#aaaaaa"),
+    ("E31632", "コスモエネＨＤ", "#5a9a72"),  # 緑（CFチャートと共通）
+    ("E24050", "ＥＮＥＯＳ",      "#3498db"),  # 青
+    ("E01084", "出光興産",       "#c87878"),  # 赤
 ]
 
 
@@ -83,10 +83,10 @@ def load_oil_series() -> pd.DataFrame:
                 "name": name, "color": color,
                 "fy": fy[:4],
                 "net_sales": fin.get("net_sales"),
-                "operating_income": fin.get("operating_income"),
                 "net_income": fin.get("net_income"),
                 "roe": fin.get("roe"),
-                "eps": fin.get("eps"),
+                "equity_ratio": fin.get("equity_ratio"),
+                "total_assets": fin.get("total_assets"),
                 "op_cf": fin.get("operating_cf"),
                 "inv_cf": fin.get("investing_cf"),
                 "fin_cf": fin.get("financing_cf"),
@@ -94,60 +94,51 @@ def load_oil_series() -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-# ── 1) 売上 / 営業利益 7 年 ────────────────────────────────────────────────
-def make_revenue_oi(df: pd.DataFrame) -> None:
+# ── 1) 売上高 / 自己資本比率 7 年 ─────────────────────────────────────────
+def make_revenue(df: pd.DataFrame) -> None:
     fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(13, 5.5),
                                      gridspec_kw=dict(wspace=0.28))
     fig.subplots_adjust(top=0.80)
 
-    for name, color in [(n, c) for _, n, c in OIL_3]:
+    # 左: 売上高（規模）
+    for _, name, color in OIL_3:
         sub = df[df["name"] == name].sort_values("fy")
         ax_l.plot(sub["fy"], sub["net_sales"] / 1e12,
-                  marker="o", markersize=7, linewidth=2.2,
-                  color=color, label=name)
-
+                  marker="o", markersize=7, linewidth=2.4, color=color, label=name)
     ax_l.set_xlabel("会計年度", fontsize=16, color=C_TEXT_SUB)
     ax_l.set_ylabel("売上高（兆円）", fontsize=16, color=C_TEXT)
     ax_l.set_title("売上高 7 年推移", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=24, loc="left")
-    ax_l.legend(loc="best", fontsize=16, frameon=False)
+    ax_l.legend(loc="best", fontsize=15, frameon=False)
     ax_l.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
 
-    # 営業利益: 2024-2025 のみ有効データ
-    sub_op = df[df["operating_income"].notna()].copy()
-    for name, color in [(n, c) for _, n, c in OIL_3]:
-        s = sub_op[sub_op["name"] == name].sort_values("fy")
-        if s.empty:
-            continue
-        ax_r.plot(s["fy"], s["operating_income"] / 1e11,
-                  marker="s", markersize=8, linewidth=2.2,
-                  color=color, label=name)
-
+    # 右: 自己資本比率（財務体質）
+    for _, name, color in OIL_3:
+        sub = df[df["name"] == name].sort_values("fy")
+        ax_r.plot(sub["fy"], sub["equity_ratio"] * 100,
+                  marker="o", markersize=7, linewidth=2.4, color=color, label=name)
     ax_r.set_xlabel("会計年度", fontsize=16, color=C_TEXT_SUB)
-    ax_r.set_ylabel("営業利益（千億円）", fontsize=16, color=C_TEXT)
-    ax_r.set_title("営業利益 (パース対応分)", fontsize=16, fontweight="bold",
+    ax_r.set_ylabel("自己資本比率（%）", fontsize=16, color=C_TEXT)
+    ax_r.set_title("自己資本比率 7 年推移", fontsize=16, fontweight="bold",
                    color=C_TEXT, pad=24, loc="left")
-    ax_r.legend(loc="best", fontsize=16, frameon=False)
+    ax_r.legend(loc="best", fontsize=15, frameon=False)
     ax_r.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
-    ax_r.text(0.02, 0.04, "※ 2019-2023 は本パーサが営業利益を抽出できなかった範囲",
-              transform=ax_r.transAxes, fontsize=16, color=C_TEXT_SUB,
-              ha="left", va="bottom", style="italic")
 
     fig.suptitle("石油元売 3 社  ―  有報 XBRL からの 7 年時系列",
                  fontsize=16, fontweight="bold", color=C_TEXT, y=0.98)
-    _savefig_vpad(fig, OUT_DIR / "01_oil_3companies_revenue_oi.png")
+    _savefig_vpad(fig, OUT_DIR / "01_oil_3companies_revenue.png")
     plt.close(fig)
 
 
 # ── 2) 純利益 / ROE 7 年 ──────────────────────────────────────────────────
 def make_ni_roe(df: pd.DataFrame) -> None:
     fig, (ax_l, ax_r) = plt.subplots(1, 2, figsize=(13, 6),
-                                     gridspec_kw=dict(wspace=0.28),
-                                     constrained_layout=True)
+                                     gridspec_kw=dict(wspace=0.28))
+    fig.subplots_adjust(top=0.80)
 
     for _, name, color in OIL_3:
         sub = df[df["name"] == name].sort_values("fy")
@@ -160,57 +151,53 @@ def make_ni_roe(df: pd.DataFrame) -> None:
     ax_l.set_ylabel("純利益（千億円）", fontsize=16, color=C_TEXT)
     ax_l.set_title("純利益 7 年推移",
                    fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
-    ax_l.legend(loc="best", fontsize=16, frameon=False)
     ax_l.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_l.spines[sp].set_visible(False)
+    ax_l.set_ylim(-2.6, 6.0)
 
-    # ピークの注釈（社別に位置を変えて重なり回避）
-    annotate_offsets = {
-        "ＥＮＥＯＳ":      (-0.7,  1.2, "right"),
-        "出光興産":        (0.7,  -1.0, "left"),
-        "コスモエネＨＤ":  (0.6,   0.6, "left"),
-    }
+    # 3 社とも 2022 がピーク。各ピークに白丸を打ち、右上にまとめて表示
+    peaks = []
     for _, name, color in OIL_3:
         sub = df[df["name"] == name].sort_values("fy")
         if sub.empty:
             continue
-        peak_idx = sub["net_income"].idxmax()
-        peak_row = sub.loc[peak_idx]
-        x_pos = peak_row["fy"]
-        y_pos = peak_row["net_income"] / 1e11
-        ax_l.scatter(x_pos, y_pos, s=120, edgecolor=color, facecolor="white",
+        peak_row = sub.loc[sub["net_income"].idxmax()]
+        ax_l.scatter(peak_row["fy"], peak_row["net_income"] / 1e11,
+                     s=120, edgecolor=color, facecolor="white",
                      linewidth=2.5, zorder=5)
-        dx, dy, ha = annotate_offsets.get(name, (0, 0.5, "center"))
-        ax_l.annotate(
-            f"{name} ピーク\n{peak_row['net_income']/1e11:.1f}千億",
-            xy=(x_pos, y_pos), xytext=(dx, dy), textcoords="offset fontsize",
-            fontsize=16, color=color, ha=ha, va="center", fontweight="bold",
-            arrowprops=dict(arrowstyle="-", color=color, lw=0.8, alpha=0.6),
-        )
+        peaks.append((name, peak_row["net_income"] / 1e11, color))
 
-    # ROE
+    ax_l.text(0.96, 0.97, "2022 がピーク", transform=ax_l.transAxes,
+              ha="right", va="top", fontsize=15, fontweight="bold", color=C_TEXT_SUB)
+    for i, (name, val, color) in enumerate(sorted(peaks, key=lambda t: -t[1])):
+        ax_l.text(0.96, 0.88 - i * 0.085, f"{name}  {val:.1f}千億",
+                  transform=ax_l.transAxes, ha="right", va="top",
+                  fontsize=15, fontweight="bold", color=color)
+
+    # ROE（赤字の 2020 など報告 ROE 欠損年は 純利益÷自己資本 で補完し線を連続させる）
     for _, name, color in OIL_3:
         sub = df[df["name"] == name].sort_values("fy")
-        roe_pct = sub["roe"] * 100
+        equity = sub["total_assets"] * sub["equity_ratio"]
+        roe_pct = sub["roe"].fillna(sub["net_income"] / equity) * 100
         ax_r.plot(sub["fy"], roe_pct,
                   marker="o", markersize=7, linewidth=2.2,
                   color=color, label=name)
 
     ax_r.axhline(0, color="#999999", linewidth=0.8)
-    ax_r.axhline(10, color="#5a9a72", linestyle=":", linewidth=0.7, alpha=0.6,
+    ax_r.axhline(10, color="#999999", linestyle=":", linewidth=0.9, alpha=0.8,
                  label="ROE 10% (優良ライン)")
     ax_r.set_xlabel("会計年度", fontsize=16, color=C_TEXT_SUB)
     ax_r.set_ylabel("ROE（%）", fontsize=16, color=C_TEXT)
     ax_r.set_title("ROE 7 年推移",
                    fontsize=16, fontweight="bold", color=C_TEXT, pad=24, loc="left")
-    ax_r.legend(loc="best", fontsize=16, frameon=False)
+    ax_r.legend(loc="lower right", fontsize=14, frameon=False)
     ax_r.grid(color=C_GRID, linewidth=0.5)
     for sp in ("top", "right"):
         ax_r.spines[sp].set_visible(False)
 
     fig.suptitle("石油元売 3 社  ―  2022 利益ピークと直近のピークアウト構図",
-                 fontsize=16, fontweight="bold", color=C_TEXT)
+                 fontsize=16, fontweight="bold", color=C_TEXT, y=0.98)
     _savefig_vpad(fig, OUT_DIR / "02_oil_3companies_ni_roe.png")
     plt.close(fig)
 
@@ -242,7 +229,7 @@ def make_cf(df: pd.DataFrame) -> None:
         ax.set_ylabel("CF（千億円）" if ax is axes[0] else "",
                       fontsize=16, color=C_TEXT_SUB)
         ax.text(0.5, 0.97, f"{name}", fontsize=16, fontweight="bold",
-                color=color, transform=ax.transAxes, ha="center", va="top")
+                color=C_TEXT, transform=ax.transAxes, ha="center", va="top")
         ax.grid(axis="y", color=C_GRID, linewidth=0.5)
         for sp in ("top", "right"):
             ax.spines[sp].set_visible(False)
@@ -395,8 +382,8 @@ if __name__ == "__main__":
     df = load_oil_series()
     print(f"[load] {len(df)} 行（{df['name'].nunique()} 社 × 7 期）")
 
-    make_revenue_oi(df)
-    print("[ok] 01_oil_3companies_revenue_oi.png")
+    make_revenue(df)
+    print("[ok] 01_oil_3companies_revenue.png")
     make_ni_roe(df)
     print("[ok] 02_oil_3companies_ni_roe.png")
     make_cf(df)

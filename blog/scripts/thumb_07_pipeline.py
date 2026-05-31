@@ -32,48 +32,75 @@ ax_l.text(0.66, 0.69, '/TDnet', color=SOFT, fontsize=36, va='center', ha='left',
 ax_l.set_xlim(0, 1)
 ax_l.set_ylim(0, 1)
 ax_l.add_patch(patches.Rectangle((0.07, 0.578), 0.85, 0.004, facecolor=BLUE_L, linewidth=0, alpha=0.6))
-ax_l.text(0.07, 0.48, '金融庁データの', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
-ax_l.text(0.07, 0.37, 'パイプライン解説', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
+ax_l.text(0.07, 0.48, '有報・決算短信を', color=BLUE_L, fontsize=36, va='center', ha='left', fontweight='bold')
+ax_l.text(0.07, 0.37, 'XBRLで取得する', color=WHITE, fontsize=36, va='center', ha='left', fontweight='bold')
 
-ax_r = fig.add_axes([0.46, 0.10, 0.50, 0.80], facecolor=BG)
+ax_r = fig.add_axes([0.46, 0.06, 0.50, 0.80], facecolor=BG)
 ax_r.set_xlim(0, 100)
 ax_r.set_ylim(0, 100)
 ax_r.axis('off')
 
-# ===== 左: EDINET / TDnet（2ソース） =====
-for x, y, label, color, sub in [
-    (18, 70, 'EDINET', BLUE_L, 'ZIP 8,907件'),
-    (18, 38, 'TDnet',  GREEN,  '決算短信'),
-]:
-    ax_r.add_patch(patches.FancyBboxPatch((x-15, y-12), 30, 24,
-                                          boxstyle='round,pad=1',
-                                          facecolor=color, edgecolor='none', alpha=0.25))
-    ax_r.text(x, y+3, label, color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
-    ax_r.text(x, y-6, sub,   color=SOFT,  fontsize=16, ha='center', va='center')
+# ===== XBRLを利用 タイトル =====
+ax_r.text(50, 92, 'XBRLを利用', color=BLUE_L, fontsize=36,
+          ha='center', va='center', fontweight='bold', style='italic')
 
-# ===== 中央: XBRLパース =====
-ax_r.add_patch(patches.FancyBboxPatch((42, 42), 22, 24,
-                                      boxstyle='round,pad=1',
-                                      facecolor=BLUE_L, edgecolor='none', alpha=0.25))
-ax_r.text(53, 57, 'XBRL', color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
-ax_r.text(53, 48, 'パース', color=SOFT, fontsize=20, ha='center', va='center')
+# ===== 左ボックス: 有報PDF（非構造） =====
+ax_r.add_patch(patches.FancyBboxPatch(
+    (4, 32), 33, 47,
+    boxstyle='round,pad=1.5',
+    facecolor=MUTED_BG, edgecolor=SOFT, linewidth=2
+))
 
-# ===== 右: 構造化データ =====
-ax_r.add_patch(patches.FancyBboxPatch((73, 42), 24, 24,
-                                      boxstyle='round,pad=1',
-                                      facecolor=GREEN, edgecolor='none', alpha=0.25))
-ax_r.text(85, 57, '構造化', color=WHITE, fontsize=24, ha='center', va='center', fontweight='bold')
-ax_r.text(85, 48, 'データ', color=SOFT, fontsize=20, ha='center', va='center')
+# 内側タイトル
+ax_r.text(20.5, 72, '有報PDF', color=WHITE, fontsize=24,
+          ha='center', va='center', fontweight='bold')
 
-# ===== 扇形矢印（EDINET/TDnet → パース） =====
-ax_r.annotate('', xy=(42, 61), xytext=(33, 70),
-              arrowprops=dict(arrowstyle='->', color=SOFT, lw=2, alpha=0.7))
-ax_r.annotate('', xy=(42, 50), xytext=(33, 43),
-              arrowprops=dict(arrowstyle='->', color=SOFT, lw=2, alpha=0.7))
+# 非構造テキストを表すグレーの帯
+line_widths = [22, 19, 24, 17, 23, 20]
+for i, w in enumerate(line_widths):
+    y = 62 - i * 4.5
+    ax_r.add_patch(patches.Rectangle(
+        (10, y), w, 1.6,
+        facecolor=SOFT, alpha=0.45, edgecolor='none'
+    ))
 
-# ===== 矢印（パース → 構造化） =====
-ax_r.annotate('', xy=(73, 54), xytext=(64, 54),
-              arrowprops=dict(arrowstyle='->', color=SOFT, lw=2, alpha=0.7))
+# ボックス下ラベル
+ax_r.text(20.5, 24, '非構造', color=SOFT, fontsize=24,
+          ha='center', va='center', fontweight='bold')
+
+# ===== vs =====
+ax_r.text(50, 55, 'vs', color=BLUE_L, fontsize=28,
+          ha='center', va='center', fontweight='bold', style='italic')
+
+# ===== 右ボックス: XBRL（構造化） =====
+ax_r.add_patch(patches.FancyBboxPatch(
+    (63, 32), 33, 47,
+    boxstyle='round,pad=1.5',
+    facecolor=MUTED_BG, edgecolor=GREEN, linewidth=2.5
+))
+
+# 内側タイトル
+ax_r.text(79.5, 72, 'XBRL', color=GREEN, fontsize=24,
+          ha='center', va='center', fontweight='bold')
+
+# タグ:値ペア（XBRL の構造を象徴）
+tags = [
+    (64, 'NetSales',  '150,000億'),
+    (56, 'NetIncome',   '2,261億'),
+    (48, 'Assets',    '85,000億'),
+    (40, 'Cash',       '9,400億'),
+]
+for y, tag, val in tags:
+    ax_r.text(66, y, f'{tag}:', color=BLUE_L, fontsize=13,
+              ha='left', va='center', fontweight='bold')
+    ax_r.text(94, y, val, color=WHITE, fontsize=13,
+              ha='right', va='center', fontweight='bold')
+
+# ボックス下ラベル
+ax_r.text(79.5, 24, '機械可読', color=GREEN, fontsize=24,
+          ha='center', va='center', fontweight='bold')
+ax_r.text(79.5, 15, '横断比較が容易に', color=GREEN, fontsize=20,
+          ha='center', va='center', fontweight='bold')
 
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'posts', 'img', '07_pipeline', '00_thumbnail.png')
