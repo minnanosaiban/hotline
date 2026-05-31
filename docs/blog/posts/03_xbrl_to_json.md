@@ -99,8 +99,8 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 > [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_kessan.py)
 > [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― 東証 TDnet から決算発表日時を取得</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py)
 > [<small>github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py</small>](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/fetch_tdnet.py)
-> [<small><i class="fa-brands fa-github"></i> Matplotlib チャート ― 本記事に掲載しているチャート</small>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
-> [<small>●</small>](●)
+> [<small><i class="fa-brands fa-github"></i> Matplotlib チャート ― 本記事に掲載しているチャート</small>](https://github.com/minnanosaiban/hotline/blob/main/docs/blog/scripts/03_xbrl_to_json_make_images.py)
+> [<small>github.com/minnanosaiban/hotline/blob/main/docs/blog/scripts/03_xbrl_to_json_make_images.py</small>](https://github.com/minnanosaiban/hotline/blob/main/docs/blog/scripts/03_xbrl_to_json_make_images.py)
 > [<small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 決算 Note 記事プロンプト生成アプリ</small>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
 > [<small>github.com/minnanosaiban/blog/tree/main/03_xbrl_json</small>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
 
@@ -108,7 +108,10 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 決算短信・有報の JSON を所定フォルダに保存し、銘柄コードを入力するだけで **Note 記事の下書きプロンプト**を生成する Streamlit アプリです。連載01・02 でチャートの作り方は学んだので、ここでは「JSON から文章へ」のステップを体験します。
 
-① 決算 XBRL を取得・パースして JSON を保存　② 銘柄コードを入力・期を選択　③ 着目点を一言メモ　④ プロンプトをコピーして Claude などに貼り付ける
+1. 決算 XBRL を取得・パースして JSON を保存
+2. 銘柄コードを入力・期を選択
+3. 着目点を一言メモ
+4. プロンプトをコピーして Claude などに貼り付ける
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 

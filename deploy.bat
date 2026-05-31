@@ -32,12 +32,21 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
-echo === Commit ^& Push to main ===
+echo === Commit ^& Push to main (hotline) ===
 git add .
 rem ビルド成果物(site/)をmainブランチのコミット対象から外す
 git reset site/ >nul 2>&1
 git commit -m "Update main source" || echo No changes to commit
 git push origin main --force
+
+echo === Push to repos/blog ===
+cd /d "C:\repos\blog"
+git push origin main --force
+if %errorlevel% neq 0 (
+    echo repos/blog push failed.
+    pause
+    exit /b
+)
 
 echo === Done ===
 pause
