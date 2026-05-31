@@ -48,7 +48,7 @@ tags:
 時価総額 100 億円以上・ROE 5% 以上にフィルタした 1,965 銘柄について、4 象限分類すると（散布図の表示範囲内で）**出遅れ買い候補が 90 銘柄、逆行注意が 28 銘柄**。
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
-<small style="color: var(--md-link-color);">2026.05.22作成</small>
+<small style="color: var(--md-link-color);">2026.05.31作成</small>
 
 ![リビジョン×モメンタム散布図](img/06_eps_revision_momentum/04_revision_vs_momentum.png){width="1200"}
 
@@ -80,7 +80,7 @@ tags:
 | 連載06<br>リビジョン     | 修正率 **+1.11%**（上振れ）                            | 修正率 **−3.71%**（下振れ）                | 修正率 **−3.48%**（下振れ）             |
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
-<small style="color: var(--md-link-color);">2026.05.22作成</small>
+<small style="color: var(--md-link-color);">2026.05.31作成</small>
 
 ![石油元売3社 リビジョン](img/06_eps_revision_momentum/02_oil_refining_revision.png){width="1200"}
 
@@ -113,29 +113,23 @@ tags:
 
 
 
-## Appendix ― Python コード <i class="fa-brands fa-github"></i>
 
-本記事のアプリ・チャート画像生成スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、**yfinance** や **無料コンセンサスデータ** を組み合わせれば、ご自身の銘柄リストで同じ構図のアプリや PNG が生成できます。
+## <i class="fa-brands fa-github"></i> Python コード
 
-> <i class="fa-brands fa-github"></i> **リポジトリ** [`github.com/minnanosaiban/blog/03_eps_revision`](https://github.com/minnanosaiban/blog/tree/main/03_eps_revision)
+本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
-#### Streamlit アプリ ― 業績修正と株価の "ズレ" をブラウザで追跡
+> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/06_eps_revision</span>](https://github.com/minnanosaiban/blog/tree/main/06_eps_revision)
 
-「上方修正された銘柄に注目したいが、すでに株価が反応していたら出遅れだ」 ― Excel と Web アプリ開発の **ちょうど中間** に位置するのが **Streamlit + Plotly**。ホバー・ズーム・パンが揃ったインタラクティブなダッシュボードを体験できます。
+#### 📈 Streamlit アプリ ― 業績修正と株価の "ズレ" をブラウザで追跡
+
+業績予想修正率 × 値上り率 の 4 象限マトリクスをブラウザで確認できます。「修正はポジティブなのに株価が動いていない」出遅れ買い候補を対話的に絞り込めます。
+
+
 
 <small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
 
 ![EPSリビジョン・モメンタム アプリ画面](https://github.com/minnanosaiban/blog/blob/main/06_eps_revision/app.png?raw=true){width="1200"}
 
-> 🔗 [`github.com/minnanosaiban/blog/03_eps_revision`](https://github.com/minnanosaiban/blog/tree/main/03_eps_revision) 
-
-
-
-#### チャート画像 ― ダブルクリック一発で PNG を作成
-
-本記事の図はすべて **Matplotlib** で生成しています。**デスクトップショートカットからダブルクリック一発で最新データの高解像度 PNG / PDF を再生成**。Windows タスクスケジューラ / cron に登録すれば、毎週・毎月の定点観測を手を動かさず回せます。
-
-> 🔗 [`github.com/minnanosaiban/blog/06_eps_revision/06_revision_momentum_make_images.py`](https://github.com/minnanosaiban/blog/blob/main/06_eps_revision/06_revision_momentum_make_images.py)
 
 ---
 

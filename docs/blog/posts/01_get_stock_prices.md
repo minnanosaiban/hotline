@@ -92,10 +92,8 @@ merged.to_parquet(path)
 
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
-> [<small><i class="fa-brands fa-github"></i> データ取得・成形 ― Yfinance から5分足・日足の株価を取得し、 parquet 形式で保存</small>](https://github.com/minnanosaiban/blog/blob/main/01_chart_5min/fetch_prices.py)
-> [<small>github.com/minnanosaiban/blog/blob/main/01_chart_5min/fetch_prices.py</small>](https://github.com/minnanosaiban/blog/blob/main/01_chart_5min/fetch_prices.py)
-> [<small><i class="fa-brands fa-github"></i> Streamlit アプリ ― 寄付・引け・窓開けを一目で確認できる5分足チャート</small>](https://github.com/minnanosaiban/blog/tree/main/01_chart_5min)
-> [<small>github.com/minnanosaiban/blog/01_chart_5min</small>](https://github.com/minnanosaiban/blog/tree/main/01_chart_5min)
+
+> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/01_chart_5min</span>](https://github.com/minnanosaiban/blog/tree/main/01_chart_5min)
 
 #### 📈 Streamlit アプリ ― 寄付・引け・窓開けを一目で確認できる5分足チャート
 
