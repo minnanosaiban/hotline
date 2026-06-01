@@ -428,6 +428,8 @@
       
         
       
+        
+      
     
     
     
@@ -583,7 +585,7 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3 つのデータソース
+        3 つのデータソースの概要
       
     </span>
   </a>
@@ -594,7 +596,7 @@
   <a href="#edinet" class="md-nav__link">
     <span class="md-ellipsis">
       
-        金融庁 EDINET
+        金融庁 EDINET から有報を取得する
       
     </span>
   </a>
@@ -605,7 +607,7 @@
   <a href="#tdnet" class="md-nav__link">
     <span class="md-ellipsis">
       
-        東証 TDnet
+        東証 TDnet から決算短信を取得する
       
     </span>
   </a>
@@ -616,7 +618,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        証券会社のアプリ
+        証券会社のアプリから業績指標を取得する
       
     </span>
   </a>
@@ -713,7 +715,7 @@
   <span class="md-ellipsis">
     
   
-    連載04 PEG×ROE
+    連載04 GARP
   
 
     
@@ -854,6 +856,34 @@
     
   
     連載09 CAR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09b_narrative_car/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    連載09b 二重CAR
   
 
     
@@ -1216,7 +1246,7 @@
   <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3 つのデータソース
+        3 つのデータソースの概要
       
     </span>
   </a>
@@ -1227,7 +1257,7 @@
   <a href="#edinet" class="md-nav__link">
     <span class="md-ellipsis">
       
-        金融庁 EDINET
+        金融庁 EDINET から有報を取得する
       
     </span>
   </a>
@@ -1238,7 +1268,7 @@
   <a href="#tdnet" class="md-nav__link">
     <span class="md-ellipsis">
       
-        東証 TDnet
+        東証 TDnet から決算短信を取得する
       
     </span>
   </a>
@@ -1249,7 +1279,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        証券会社のアプリ
+        証券会社のアプリから業績指標を取得する
       
     </span>
   </a>
@@ -1314,11 +1344,11 @@
 
 <h1 id="edinettdnet">株価以外も取得しよう ― EDINET・TDnet・証券会社のアプリを活用</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/02_collect_other_data/00_thumbnail.png" data-desc-position="bottom"><img alt="株価以外のデータを集める" src="../img/02_collect_other_data/00_thumbnail.png" width="1280"></a></p>
-<p>株価だけ、チャートだけを見て株を買う。これだとギャンブルとそう変わりません。ギャンブルから一歩先へ。決算を分析することで銘柄の業績について多角的な分析が行えます。</p>
-<p>本記事では決算に関するデータの取り方を一通り押さえ、連載01で紹介したチャートからもう一歩目的をもったチャート作成に進めていきます。</p>
+<p>株価チャートだけで売買するのは、業績という土台を見ない <strong>ギャンブルに近い</strong> もの。決算データを足せば、銘柄を多角的に評価できます。本記事では、金融庁 EDINET ・ 東証 TDnet ・ 証券会社のアプリから決算書や業績指標を取得します。</p>
+<p>取得した業績指標を株価と合わせ、複数銘柄で比較してみましょう。複数銘柄を比較するチャートを作成し、 Python コードを GitHub に公開しています。株価チャートからもう一歩、目的をもったチャート作成に進めていきます。</p>
 <!-- more -->
 
-<h2 id="3">3 つのデータソース</h2>
+<h2 id="3">3 つのデータソースの概要</h2>
 <table>
 <thead>
 <tr>
@@ -1346,29 +1376,29 @@
 </tbody>
 </table>
 <ul>
-<li>金融庁 EDINET と 東証 TDnet で取得するデータは、 <strong>XBRL</strong> というファイル形式です。XBRL の使い方は次回連載03 で扱います。本記事では <strong>データの取り方</strong> を解説します。</li>
+<li>金融庁 EDINET と 東証 TDnet で取得するデータは、 <strong>XBRL</strong> というファイル形式です。XBRL の使い方は次回扱います。本記事では <strong>データの取り方</strong> を解説します。</li>
 </ul>
 <blockquote>
 <p>⚠️これらのデータは商用利用・データ転売が禁止です。個人の投資判断目的に限る。アクセス間隔を 1 秒以上空けるなどマナーを守って使用してください。</p>
 </blockquote>
-<h2 id="edinet">金融庁 EDINET</h2>
+<h2 id="edinet">金融庁 EDINET から有報を取得する</h2>
 <p>有報は、<strong>PDF と XBRL</strong>（タグ付きデータ）の二つの形式で入手することができます。この XBRL は EDINET 公式 API で 取得できます。</p>
 <p>業績推移はヤフーファイナンスや株探などのサービスで確認できますが、期間は3～5年です。有報を遡って足せば <strong>10 年超</strong>の業績時系列も組めます。また、データを取得することで、銘柄の業績を比較した可視化が可能です。</p>
-<pre><code class="language-python">res = requests.get(f"https://disclosure.edinet-fsa.go.jp/api/v2/documents/{doc_id}",
-    params={"type": 5, "Subscription-Key": API_KEY}) 
-# type=5 で XBRL を取得
-</code></pre>
-<h2 id="tdnet">東証 TDnet</h2>
+<div class="highlight"><pre><span></span><code><span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">"https://disclosure.edinet-fsa.go.jp/api/v2/documents/</span><span class="si">{</span><span class="n">doc_id</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+    <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">"Subscription-Key"</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">})</span> 
+<span class="c1"># type=5 で XBRL を取得</span>
+</code></pre></div>
+<h2 id="tdnet">東証 TDnet から決算短信を取得する</h2>
 <p><strong>決算短信 XBRL や決算発表日時</strong> は、有報 XBRL と違い、公式 API がないため、PDF の URL から ZIP の URL に変換し、そのURLでスクレイピングするという方法をとります。</p>
-<pre><code class="language-python">import re, requests
-from bs4 import BeautifulSoup
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">re</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">bs4</span><span class="w"> </span><span class="kn">import</span> <span class="n">BeautifulSoup</span>
 
-url = f"https://www.release.tdnet.info/inbs/I_list_001_{target_date}.html"
-soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).text, "html.parser")
-# 決算短信のリンクと発表時刻を抽出し、date, time, code の3列で earnings.csv に保存
-</code></pre>
-<h2 id="_1">証券会社のアプリ</h2>
-<p>連載04〜05（PEG × ROE・マルチファクターなど）で「予想」「コンセンサス」として使う指標は、証券会社のアプリ から CSV でエクスポートできます。</p>
+<span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"https://www.release.tdnet.info/inbs/I_list_001_</span><span class="si">{</span><span class="n">target_date</span><span class="si">}</span><span class="s2">.html"</span>
+<span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">"User-Agent"</span><span class="p">:</span> <span class="s2">"Mozilla/5.0"</span><span class="p">})</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s2">"html.parser"</span><span class="p">)</span>
+<span class="c1"># 決算短信のリンクと発表時刻を抽出し、date, time, code の3列で earnings.csv に保存</span>
+</code></pre></div>
+<h2 id="_1">証券会社のアプリから業績指標を取得する</h2>
+<p>後の記事（PEG × ROE・マルチファクター分析など）で「予想」「コンセンサス」として使う指標は、証券会社のアプリ から CSV でエクスポートできます。</p>
 <ul>
 <li>EPS / BPS / 配当 / ROE / ROA / EV/EBITDA / 業績予想修正率(予想) / 経常利益変化率(予想) など様々な指標がそろっています。</li>
 <li>楽天証券・マネックス証券・SBI 証券・会社四季報などが同等の指標を提供しています。</li>
@@ -1383,7 +1413,7 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 <a href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern"><span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span></a></p>
 </blockquote>
 <h4 id="streamlit">📈 Streamlit アプリ ― 複数銘柄を俯瞰するチャート</h4>
-<p>連載01 の株価だけでは「チャートを並べる」までですが、ここで取得した <strong>業績指標（PER / PBR / 配当）</strong> を重ねると、銘柄比較が一気に厚くなります。複数銘柄のファンダ指標とチャートを 4 列カードグリッドで <strong>1 画面で俯瞰</strong> する Streamlit アプリです。</p>
+<p>株価だけでは「チャートを並べる」までですが、ここで取得した <strong>業績指標（PER / PBR / 配当）</strong> を重ねると、銘柄比較が一気に厚くなります。複数銘柄のファンダ指標とチャートを 4 列カードグリッドで <strong>1 画面で俯瞰</strong> する Streamlit アプリです。</p>
 <p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small></p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="https://github.com/minnanosaiban/blog/blob/main/02_1_chart_multi/app.png?raw=true" data-desc-position="bottom"><img alt="複数銘柄カードグリッド" src="https://github.com/minnanosaiban/blog/blob/main/02_1_chart_multi/app.png?raw=true" width="1200"></a></p>
 <h4 id="streamlit_1">📈 Streamlit アプリ ― 決算発表直後の動きを確認するチャート</h4>
