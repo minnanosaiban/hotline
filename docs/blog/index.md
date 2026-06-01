@@ -97,8 +97,8 @@ Python と AI を使って、株価・決算短信・有報を分析してみま
 <div class="toc-grid">
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">連載 04</span>
-<span class="toc-card-title">PEG × ROE</span>
-<span class="toc-card-desc">GARP の理論と実践</span>
+<span class="toc-card-title">GARP</span>
+<span class="toc-card-desc">PEG × ROE の理論と実践</span>
 </a>
 <a href="posts/05_multifactor_scoreboard/" class="toc-card">
 <span class="toc-card-num">連載 05</span>
