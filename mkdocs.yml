@@ -16,13 +16,14 @@ nav:
       - 連載02 株価以外の取得: blog/posts/02_collect_other_data.md
       - 連載03 XBRL→JSON: blog/posts/03_xbrl_to_json.md
       # ── フェーズ2 無料データ分析編 ──
-      - 連載04 PEG×ROE: blog/posts/04_garp_peg_roe.md
+      - 連載04 GARP: blog/posts/04_garp_peg_roe.md
       - 連載05 マルチファクター: blog/posts/05_multifactor_scoreboard.md
       # ── フェーズ3 XBRL活用編 ──
       - 連載06 アクルーアル: blog/posts/06_accrual_analysis.md
       - 連載07 三角検証: blog/posts/07_triangulation.md
       - 連載08 セグメント: blog/posts/08_segment_analysis.md
       - 連載09 CAR: blog/posts/09_car_event_study.md
+      - 連載09b 二重CAR: blog/posts/09b_narrative_car.md
       # ── フェーズ4 AI統合編 ──
       - 連載10 類似検索: blog/posts/10_similar_earnings_search.md
       - 連載11 K-NN予測: blog/posts/11_knn_prediction.md
@@ -191,6 +192,11 @@ markdown_extensions:
   - pymdownx.mark # markタグ（ハイライト）
   - pymdownx.betterem: # emタグやstrongタグ（強調）を区別する
   - pymdownx.snippets
+  - pymdownx.superfences: # コードブロック + Mermaid 図
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
   # - meta # フロントマターを使えるようにする
   # - md_in_html # マークダウンとhtmlを一緒に使う
