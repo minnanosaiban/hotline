@@ -240,3 +240,201 @@ body.blog-post-page .md-typeset details > *:not(summary) {
 body.blog-post-page .md-typeset details[open] > summary {
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
+
+
+/* ============================================================ */
+/* 以下、旧 11-toc.css / 12-ref-card.css / 13-refine.css を集約     */
+/* いずれも blog/posts 専用スタイル（他ページでは未使用）          */
+/* ============================================================ */
+
+
+/* ===== [旧 11-toc.css] ===== */
+/* ToC depth control is handled per-page in overrides/main.html */
+
+
+/* ===== [旧 12-ref-card.css] 用語リンクカード（細枠・外部参照用） ===== */
+.ref-cards-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 0.4rem 0;
+}
+.ref-cards-label i {
+  color: var(--md-link-color);
+  margin-right: 0.35rem;
+}
+.ref-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+  margin: 0.6rem 0 1.2rem 0;
+}
+@media only screen and (min-width: 768px) {
+  .ref-cards.cols-2 { grid-template-columns: repeat(2, 1fr); }
+  .ref-cards.cols-3 { grid-template-columns: repeat(3, 1fr); }
+}
+/* カード本体（細枠） */
+.ref-card {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  text-decoration: none !important;
+  color: var(--md-typeset-color) !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.ref-card:hover {
+  border-color: var(--md-link-hover-color);
+  background-color: var(--md-default-fg-color--lightest);
+}
+.ref-card-icon {
+  flex: 0 0 auto;
+  font-size: 1.15rem;
+  width: 1.4rem;
+  text-align: center;
+  color: var(--md-link-color);
+}
+.ref-card-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.ref-card-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.ref-card-desc {
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.1rem;
+}
+.ref-card-arrow {
+  flex: 0 0 auto;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.ref-card:hover .ref-card-arrow {
+  transform: translateX(3px);
+  color: var(--md-link-hover-color);
+}
+.ref-card:hover .ref-card-title {
+  color: var(--md-link-hover-color) !important;
+}
+
+/* 控えめ版（アイコン・色なし・全幅）― 添付ファイル風の控えめカード */
+.ref-card--quiet {
+  display: flex;
+  width: 100%;
+  margin: 0.8rem 0 1.4rem 0;
+  padding: 1.15rem 1.15rem;
+  border-color: var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+}
+.ref-card--quiet:hover {
+  border-color: var(--md-default-fg-color--lighter);
+  background-color: transparent;
+}
+.ref-card--quiet .ref-card-title {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--md-typeset-color) !important;
+}
+.ref-card--quiet .ref-card-desc {
+  font-size: 0.7rem;
+}
+.ref-card--quiet:hover .ref-card-title {
+  color: var(--md-typeset-color) !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+
+/* ===== [旧 13-refine.css] ブログ装飾の洗練：fig-meta / repo-link / keypoint / table ===== */
+
+/* ① 図のキャプション（1 行・無彩色・小さめ） */
+.fig-meta {
+  display: block;
+  font-size: 9px !important;
+  line-height: 1.6 !important;
+  color: var(--md-default-fg-color--light) !important;
+  margin: 0 0 0.4rem 0 !important;
+  letter-spacing: 0.02em;
+}
+.fig-meta i {
+  margin-right: 0.3rem;
+  opacity: 0.85;
+}
+
+/* ② GitHub リポジトリリンク（ブロック引用 → カード） */
+.repo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 0.95rem;
+  margin: 0.6rem 0 1.2rem 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  text-decoration: none !important;
+  color: var(--md-typeset-color) !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.repo-link:hover {
+  border-color: var(--md-link-hover-color);
+  background-color: var(--md-default-fg-color--lightest);
+}
+.repo-link .repo-link-icon {
+  flex: 0 0 auto;
+  font-size: 1.4rem;
+}
+.repo-link .repo-link-path {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: monospace;
+  font-size: 0.84rem;
+  color: var(--md-link-color);
+  word-break: break-all;
+}
+.repo-link .repo-link-arrow {
+  flex: 0 0 auto;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.repo-link:hover .repo-link-arrow {
+  transform: translateX(3px);
+  color: var(--md-link-hover-color);
+}
+
+/* ③ キーポイント（⬛ の置き換え：左アクセント罫＋淡い背景） */
+.keypoint {
+  border-left: 3px solid var(--md-link-color);
+  background: var(--md-default-fg-color--lightest);
+  padding: 0.65rem 1rem;
+  margin: 1rem 0 1.4rem 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.95em;
+  line-height: 1.9;
+}
+
+/* ④ テーブルの精緻化（クラス無しの素のテーブルのみ） */
+.md-typeset table:not([class]) {
+  font-size: 0.9em;
+}
+.md-typeset table:not([class]) th {
+  background: var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 0.4rem 0.7rem !important;
+  font-variant-numeric: tabular-nums;
+}
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--md-default-fg-color--lightest);
+}
