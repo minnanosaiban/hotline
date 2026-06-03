@@ -10,13 +10,22 @@ tags:
   - コンセンサス
 ---
 
-# 株価以外も取得しよう ― EDINET・TDnet・証券会社のアプリを活用
+# EDINET・TDnet で「株価以外のデータ」を集める ― 決算・適時開示・証券会社アプリ
 
 ![株価以外のデータを集める](img/02_collect_other_data/00_thumbnail.png){width="1280"}
 
 株価チャートだけで売買するのは、業績という土台を見ない **ギャンブルに近い** もの。決算データを足せば、銘柄を多角的に評価できます。本記事では、金融庁 EDINET ・ 東証 TDnet ・ 証券会社のアプリから決算書や業績指標を取得します。
 
 取得した業績指標を株価と合わせ、複数銘柄で比較してみましょう。複数銘柄を比較するチャートを作成し、 Python コードを GitHub に公開しています。株価チャートからもう一歩、目的をもったチャート作成に進めていきます。
+
+<div class="ref-quiet">
+<a class="ref-card ref-card--quiet" href="https://www.fsa.go.jp/search/20130917.html" target="_blank" rel="noopener">
+<span class="ref-card-body">
+<span class="ref-card-title">EDINET とは</span>
+<span class="ref-card-desc">有価証券報告書などの開示書類を閲覧できる電子開示システム ― 金融庁</span>
+</span>
+</a>
+</div>
 
 <!-- more -->
 
@@ -78,14 +87,26 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
-> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_1_chart_multi</span>](https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi)
-> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span>](https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern)
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi" target="_blank" rel="noopener">
+<i class="repo-link-icon fa-brands fa-github"></i>
+<span class="repo-link-path">github.com/minnanosaiban/blog/02_1_chart_multi</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern" target="_blank" rel="noopener">
+<i class="repo-link-icon fa-brands fa-github"></i>
+<span class="repo-link-path">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
 
 #### 📈 Streamlit アプリ ― 複数銘柄を俯瞰するチャート
 
 株価だけでは「チャートを並べる」までですが、ここで取得した **業績指標（PER / PBR / 配当）** を重ねると、銘柄比較が一気に厚くなります。複数銘柄のファンダ指標とチャートを 4 列カードグリッドで **1 画面で俯瞰** する Streamlit アプリです。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![複数銘柄カードグリッド](https://github.com/minnanosaiban/blog/blob/main/02_1_chart_multi/app.png?raw=true){width="1200"}
 
@@ -93,10 +114,10 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 5分足 parquet と発表日時 `earnings.csv` で、決算発表後の値動きを 5 パターン（🟢上げ / 逆 V 字 / 無風 / V 字 / 🔴下げ）に自動分類する Streamlit アプリです。各銘柄の5分足チャートに、発表時刻の **縦点線**を入れていますので、決算発表直後の激しい株価の動きが確認できます。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![決算パターングリッド](https://github.com/minnanosaiban/blog/blob/main/02_2_chart_earnings_pattern/app.png?raw=true){width="1200"}
 
 ---
 
-*データ出典: TDnet 適時開示（発表日時）/ 証券会社が無料で提供する銘柄情報シート CSV / EDINET API（金融庁）の有報 XBRL / TDnet の決算短信 XBRL*
+*データ出典: TDnet 適時開示（発表日時）/ 証券会社のアプリの銘柄情報シート CSV / EDINET API（金融庁）の有報 XBRL / TDnet の決算短信 XBRL*

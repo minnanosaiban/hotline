@@ -10,7 +10,7 @@ tags:
   - 超過リターン
 ---
 
-# CAR イベントスタディで「決算後ドリフト(PEAD)」を実証する ― 市場全体の決算でみる分布と相関
+# CAR イベントスタディで「決算後ドリフト(PEAD)」を実証する ― 市場全体の分布と相関
 
 ![CARイベントスタディ](img/09_car_event_study/00_thumbnail.png){width="1280"}
 
@@ -20,11 +20,20 @@ tags:
 
 まず本記事で全市場の PEAD を統計的に確認し、続く[個別銘柄編](09b_narrative_car.md)で「ファンダが良い銘柄は本当に市場で報われたか」を切り分けます。
 
+<div class="ref-quiet">
+<a class="ref-card ref-card--quiet" href="https://glossary.hub.hit-u.ac.jp/faq/show/171/" target="_blank" rel="noopener">
+<span class="ref-card-body">
+<span class="ref-card-title">CAR（累積異常リターン）とは</span>
+<span class="ref-card-desc">イベント前後の異常リターンを累積した指標（イベントスタディ）― 一橋大学 ファイナンス用語集</span>
+</span>
+</a>
+</div>
+
 <!-- more -->
 
 ## CAR イベントスタディの概要
 
-⬛ **CAR（累積超過リターン）= Σ（個別リターン − ベンチマークリターン）** ― 市場全体の動きを除いた「個別決算が生んだ余分なリターン」
+<div class="keypoint" markdown="span">**CAR（累積超過リターン）= Σ（個別リターン − ベンチマークリターン）** ― 市場全体の動きを除いた「個別決算が生んだ余分なリターン」</div>
 
 ベンチマークは **TOPIX（1306.T）**、集計ウィンドウは **[-1,+1] / [-1,+5] / [-1,+20]** の 3 本。対象は、決算開示ログ（2024-03〜2026-05）から CAR を計算できた **8,049 件の決算発表（＝イベント、約 1,500 社）** です。
 
@@ -40,8 +49,7 @@ tags:
 | [-1, +5] | 8,044 | +0.47% | -0.25% | 9.23% | 48.7% |
 | [-1, +20] | 8,044 | **+0.88%** | +0.20% | 11.94% | 50.8% |
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
-<small style="color: var(--md-link-color);">2026.05.31作成</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![全イベント CAR 分布](img/09_car_event_study/01_car_distribution.png){width="1200"}
 
@@ -49,14 +57,13 @@ tags:
 - 勝率はほぼ 50%。**ランダムに買って勝てる戦略ではない**
 - 中央値は [-1,+5] で −0.25% に沈み [-1,+20] で +0.20% に戻る ―「**発表直後 1 週間で利食い → その後ドリフト本体**」というクラシックな PEAD パターン。std も 7.97 → 11.94 と時間とともに拡大
 
-学術論文の「平均で有意」は裏付けられますが、**個別で勝つにはサプライズの方向と大きさを事前に判定する必要がある**。利益の質や予想の信頼性をチェックする指標（アクルーアル分析・三角検証など）がそのフィルターになります。
+学術論文の「平均で有意」は裏付けられますが、**個別で勝つにはサプライズの方向と大きさを事前に判定する必要がある**。利益の質や予想の信頼性をチェックする指標（アクルーアル分析・予想検証など）がそのフィルターになります。
 
 ## 短期 × 長期 CAR で「ドリフトの継続」を確認
 
-短期 CAR [-1,+1] と長期 CAR [-1,+20] の **相関係数は r = +0.694**。決算直後 2 日の初動↑はその後↑へ、初動↓は↓へと続き、PEAD の核心 **「初動の方向に株価が続く」** が散布図ではっきり出ます。
+短期 CAR [-1,+1] と長期 CAR [-1,+20] の **相関係数は r = +0.706**。決算直後 2 日の初動↑はその後↑へ、初動↓は↓へと続き、PEAD の核心 **「初動の方向に株価が続く」** が散布図ではっきり出ます。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
-<small style="color: var(--md-link-color);">2026.05.31作成</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![短期 vs 長期 CAR 散布図](img/09_car_event_study/05_short_vs_long.png){width="1200"}
 
@@ -66,7 +73,7 @@ tags:
 
 - 決算分析の多くが **「決算データの中身」** を見るのに対し、本記事は **「市場での反応」** を測定。自前で構築したデータパイプラインで **8,049 決算イベントの CAR を実証**
 - 全体統計：[-1,+1] 平均 +0.62%、[-1,+20] 平均 +0.88%、勝率 50.8% ― **PEAD は平均で見えるが個別では散る**
-- 短期 × 長期 CAR の **相関 r = +0.694** ― 初動の方向にドリフトが続く PEAD の核心を可視化
+- 短期 × 長期 CAR の **相関 r = +0.706** ― 初動の方向にドリフトが続く PEAD の核心を可視化
 - **開示時刻で t=0 を場中/引け後判定** ― 一律「当日 = t=0」では半数で起点が 1 日ズレる
 
 続く[個別銘柄編](09b_narrative_car.md)では、この CAR をエネルギー・商社の主要 5社（ＥＮＥＯＳ／出光／コスモエネＨＤ／丸紅／双日）に当て、**TOPIX 超過 ＋ セクター ETF 超過の二重 CAR** で「業界全体の動きを除いても個別決算が効いたか」を切り分けます。
@@ -75,7 +82,13 @@ tags:
 
 本記事のチャート画像・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。**CAR 計算の実装**（開示時刻からの t=0 判定・TOPIX/セクター ETF の二重ベンチマーク・連続株式分割の補正）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。
 
-> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/09_car</span>](https://github.com/minnanosaiban/blog/tree/main/09_car)
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/09_car" target="_blank" rel="noopener">
+<i class="repo-link-icon fa-brands fa-github"></i>
+<span class="repo-link-path">github.com/minnanosaiban/blog/09_car</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
 
 ---
 
