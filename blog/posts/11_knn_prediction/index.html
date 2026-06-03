@@ -13,7 +13,7 @@
         <link rel="prev" href="../10_similar_earnings_search/">
       
       
-        <link rel="next" href="../../../trial/">
+        <link rel="next" href="../12_earnings_clustering/">
       
       
         
@@ -24,7 +24,7 @@
     
     
       
-        <title>連載11 K-NN予測 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>3-2 K-NN予測 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -71,6 +71,10 @@
       <link rel="stylesheet" href="../../../css/10-blog-reset.css">
     
       <link rel="stylesheet" href="../../../css/11-toc.css">
+    
+      <link rel="stylesheet" href="../../../css/12-ref-card.css">
+    
+      <link rel="stylesheet" href="../../../css/13-refine.css">
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap">
     
@@ -135,7 +139,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#k-nn-car" class="md-skip">
+        <a href="#k-nn" class="md-skip">
           Skip to content
         </a>
       
@@ -167,7 +171,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              連載11 K-NN予測
+              3-2 K-NN予測
             
           </span>
         </div>
@@ -252,7 +256,7 @@
   
     
   
-  株 × Python × AI
+  株 × Python × ML
 
         </a>
       </li>
@@ -412,24 +416,6 @@
       
         
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     
@@ -457,7 +443,7 @@
   <span class="md-ellipsis">
     
   
-    株 × Python × AI
+    株 × Python × ML
   
 
     
@@ -479,13 +465,78 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    株 × Python × AI
+    株 × Python × ML
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    フェーズ1 データ取得編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    フェーズ1 データ取得編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -501,7 +552,7 @@
   <span class="md-ellipsis">
     
   
-    連載01 株価取得
+    1-1 株価取得
   
 
     
@@ -529,7 +580,7 @@
   <span class="md-ellipsis">
     
   
-    連載02 株価以外の取得
+    1-2 株価以外の取得
   
 
     
@@ -557,7 +608,7 @@
   <span class="md-ellipsis">
     
   
-    連載03 XBRL→JSON
+    1-3 XBRL→JSON
   
 
     
@@ -570,6 +621,89 @@
   
 
               
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3">
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    フェーズ2 銘柄分析編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    フェーズ2 銘柄分析編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -585,7 +719,7 @@
   <span class="md-ellipsis">
     
   
-    連載04 GARP
+    2-1 GARP
   
 
     
@@ -613,7 +747,7 @@
   <span class="md-ellipsis">
     
   
-    連載05 マルチファクター
+    2-2 マルチファクター
   
 
     
@@ -641,7 +775,7 @@
   <span class="md-ellipsis">
     
   
-    連載06 アクルーアル
+    2-3 アクルーアル
   
 
     
@@ -669,7 +803,7 @@
   <span class="md-ellipsis">
     
   
-    連載07 三角検証
+    2-4 予想 × 業績
   
 
     
@@ -697,7 +831,35 @@
   <span class="md-ellipsis">
     
   
-    連載08 セグメント
+    2-5 セグメント
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08b_segment_core_stocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2-6 コングロマリット
   
 
     
@@ -725,7 +887,7 @@
   <span class="md-ellipsis">
     
   
-    連載09 CAR
+    2-7 CAR
   
 
     
@@ -753,7 +915,7 @@
   <span class="md-ellipsis">
     
   
-    連載09b 二重CAR
+    2-8 ベンチマーク
   
 
     
@@ -766,6 +928,81 @@
   
 
               
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    フェーズ3 機械学習分析編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    フェーズ3 機械学習分析編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -781,7 +1018,7 @@
   <span class="md-ellipsis">
     
   
-    連載10 類似検索
+    3-1 類似検索
   
 
     
@@ -818,7 +1055,7 @@
   <span class="md-ellipsis">
     
   
-    連載11 K-NN予測
+    3-2 K-NN予測
   
 
     
@@ -836,7 +1073,7 @@
   <span class="md-ellipsis">
     
   
-    連載11 K-NN予測
+    3-2 K-NN予測
   
 
     
@@ -862,7 +1099,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#k-nn" class="md-nav__link">
+  <a href="#k-nn_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         K-NN 回帰の概要
@@ -1006,140 +1243,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#k-nn_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K-NN 回帰の実装
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="K-NN 回帰の実装">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-cosine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. ペアワイズ cosine 類似度行列
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-k-nn" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. K-NN 予測
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. 予測精度メトリクス
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. ベースライン（全銘柄平均で予測）との比較
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. 個別ショック銘柄の抽出
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        実装上のハマりどころ
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="実装上のハマりどころ">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#car" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CAR 計算の窓未完了問題
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#286" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        286 銘柄のサンプル数の限界
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        「自分自身を除外」忘れによる偽精度
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ベースラインを必ず計算
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         本連載の到達点 ― ハイブリッド投資ワークフロー
@@ -1151,7 +1255,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         個別投資家のための運用コスト
@@ -1178,7 +1282,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1190,7 +1294,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         連載の全体像
@@ -1205,9 +1309,84 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python コード
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12_earnings_clustering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3-3 クラスタリング
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13_random_forest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3-4 ランダムフォレスト
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -1504,7 +1683,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#k-nn" class="md-nav__link">
+  <a href="#k-nn_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         K-NN 回帰の概要
@@ -1648,140 +1827,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#k-nn_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        K-NN 回帰の実装
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="K-NN 回帰の実装">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-cosine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. ペアワイズ cosine 類似度行列
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-k-nn" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. K-NN 予測
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. 予測精度メトリクス
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. ベースライン（全銘柄平均で予測）との比較
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. 個別ショック銘柄の抽出
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        実装上のハマりどころ
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="実装上のハマりどころ">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#car" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CAR 計算の窓未完了問題
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#286" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        286 銘柄のサンプル数の限界
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        「自分自身を除外」忘れによる偽精度
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ベースラインを必ず計算
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         本連載の到達点 ― ハイブリッド投資ワークフロー
@@ -1793,7 +1839,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_10" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         個別投資家のための運用コスト
@@ -1820,7 +1866,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_11" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1832,7 +1878,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_12" class="md-nav__link">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
         連載の全体像
@@ -1844,6 +1890,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python コード
+      
+    </span>
+  </a>
   
 </li>
       
@@ -1864,14 +1921,22 @@
 
 
 
-<h1 id="k-nn-car">K-NN 回帰で「類似決算群の CAR から値動き予測」を試して失敗した話 ― 失敗が浮かび上がらせた個別ショック検出器</h1>
+<h1 id="k-nn">K-NN 回帰で「類似群からの値動き」を予測する ― 失敗が生んだ個別ショック検出器</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/11_knn_prediction/00_thumbnail.png" width="1280"></a></p>
 <p>前回の類似決算検索で「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.43% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました（CAR ＝ 決算発表前後の超過リターン）。本記事ではこのアプローチを <strong>232 銘柄全体に展開</strong> し、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
 <p>結論を先に書くと：<strong>K-NN 予測は失敗</strong> しました（全銘柄平均で予測する単純なベースラインにも勝てません）。しかしこの失敗の中に <strong>本連載全体の最も重要な洞察</strong> が含まれています ― 「<strong>機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用</strong>」。本記事はその実証と、<strong>本連載の到達点としてのハイブリッド投資ワークフロー</strong> を提示します。</p>
+<div class="ref-quiet">
+<a class="ref-card ref-card--quiet" href="https://www.elastic.co/jp/what-is/knn" target="_blank" rel="noopener">
+<span class="ref-card-body">
+<span class="ref-card-title">K近傍法（K-NN）とは</span>
+<span class="ref-card-desc">近くにある既知データの多数決で予測する機械学習手法 ― Elastic</span>
+</span>
+</a>
+</div>
+
 <!-- more -->
 
-<hr>
-<h2 id="k-nn">K-NN 回帰の概要</h2>
+<h2 id="k-nn_1">K-NN 回帰の概要</h2>
 <h3 id="_1">これまでの分析では届かなかった視点</h3>
 <p>ここまでは「<strong>1 銘柄を深く分析する</strong>」アプローチでした。本記事は <strong>「機械学習で値動きを予測できるか」</strong> を 232 銘柄全体で検証します。</p>
 <table>
@@ -1907,8 +1972,8 @@
 </table>
 <h3 id="_2">パイプライン全体図</h3>
 <p>類似 Top-K の CAR を平均して自身の CAR を予測し、予測と実績の誤差が大きい銘柄を「個別ショック」として抽出する ― という流れです。</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.31作成</small></p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/01_pipeline.png" data-desc-position="bottom"><img alt="パイプライン全体" src="../img/11_knn_prediction/01_pipeline.png" width="1200"></a></p>
 <div class="highlight"><pre><span></span><code>1. 類似 Top-K（K=5/15/30）
 2. → 各類似銘柄の CAR を取得
@@ -1961,8 +2026,8 @@
 <h2 id="_5">分析で分かったこと</h2>
 <h3 id="1-k-nn">結論その1: K-NN 予測は失敗した</h3>
 <p>予測 CAR（K=15、類似 Top-15 の平均）と実績 CAR の散布図：</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.31作成</small></p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/02_pred_vs_actual.png" data-desc-position="bottom"><img alt="予測 vs 実績" src="../img/11_knn_prediction/02_pred_vs_actual.png" width="1200"></a></p>
 <table>
 <thead>
@@ -1997,14 +2062,14 @@
 <p><strong>読み解き</strong>：</p>
 <ul>
 <li>相関係数 r = -0.03 ― <strong>完璧予測 y=x の線とほぼ無関係に分布</strong></li>
-<li>RMSE 10.89% は <strong>ベースライン（10.48%）より悪い</strong> ― K-NN による予測価値はマイナス</li>
+<li>RMSE 10.88% は <strong>ベースライン（10.46%）より悪い</strong> ― K-NN による予測価値はマイナス</li>
 <li>方向一致率 50.9% ― ランダム（50%）とほぼ同等で統計的有意性なし</li>
 </ul>
 <p>つまり「<strong>類似決算群の平均 CAR は、自身の CAR の予測値として使えない</strong>」。前回見た「丸紅 -9.39% vs 類似群 +2.43%」は <strong>特殊事例ではなく一般的な構図</strong> だったわけです。</p>
 <h3 id="2-k">結論その2: K を変えても改善しない</h3>
 <p>K=5/15/30 で精度を比較：</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.31作成</small></p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/04_K_sensitivity.png" data-desc-position="bottom"><img alt="K の感度分析" src="../img/11_knn_prediction/04_K_sensitivity.png" width="1200"></a></p>
 <table>
 <thead>
@@ -2071,8 +2136,8 @@
 </table>
 <h3 id="3">結論その3: しかし失敗の中に個別ショック検出器がある</h3>
 <p>予測との乖離 |err| が大きい銘柄は、<strong>「数字パターン上は同業並みなのに、市場が予期せぬ評価をした銘柄」</strong>。これは投資判断で <strong>真っ先に IR・説明会を確認すべき銘柄群</strong> です。</p>
-<p><small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small><br>
-<small style="color: var(--md-link-color);">2026.05.31作成</small></p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/03_shocks_top10.png" data-desc-position="bottom"><img alt="個別ショック Top-10" src="../img/11_knn_prediction/03_shocks_top10.png" width="1200"></a></p>
 <p><strong>ポジティブショック Top-5（市場が想定より大幅好評価）</strong>：</p>
 <table>
@@ -2110,16 +2175,16 @@
 <tr>
 <td>6516</td>
 <td>サンデン</td>
-<td>+1.9%</td>
+<td>+2.3%</td>
 <td>+35.1%</td>
-<td>+33.1pp</td>
+<td>+32.8pp</td>
 </tr>
 <tr>
 <td>6882</td>
 <td>三電機</td>
-<td>-0.9%</td>
+<td>-1.6%</td>
 <td>+29.7%</td>
-<td>+30.5pp</td>
+<td>+31.3pp</td>
 </tr>
 </tbody>
 </table>
@@ -2146,16 +2211,16 @@
 <tr>
 <td>9629</td>
 <td>PCA</td>
-<td>+1.3%</td>
+<td>-0.5%</td>
 <td>-23.5%</td>
-<td>-24.9pp</td>
+<td>-23.0pp</td>
 </tr>
 <tr>
 <td>6469</td>
 <td>放電精密加工研究所</td>
 <td>+6.4%</td>
 <td>-14.9%</td>
-<td>-21.3pp</td>
+<td>-21.1pp</td>
 </tr>
 <tr>
 <td>6702</td>
@@ -2169,7 +2234,7 @@
 <td>東急建設</td>
 <td>+2.1%</td>
 <td>-18.7%</td>
-<td>-20.8pp</td>
+<td>-20.6pp</td>
 </tr>
 </tbody>
 </table>
@@ -2268,68 +2333,7 @@
 </table>
 <p>本記事のスクリプトを毎日決算シーズンに回せば、<strong>「数値だけ見ると同業並みだが市場が大きく動かした銘柄」をその日のうちに自動抽出</strong> できます。これは個別投資家の <strong>時間配分の最適化</strong> に直結します。</p>
 <hr>
-<h2 id="k-nn_1">K-NN 回帰の実装</h2>
-<h3 id="1-cosine">1. ペアワイズ cosine 類似度行列</h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">cosine</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-    <span class="n">na</span><span class="p">,</span> <span class="n">nb</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-    <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">na</span> <span class="o">*</span> <span class="n">nb</span><span class="p">))</span> <span class="k">if</span> <span class="n">na</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">nb</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mf">0.0</span>
-
-<span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfz</span><span class="p">)</span>
-<span class="n">sim_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
-        <span class="n">s</span> <span class="o">=</span> <span class="n">cosine</span><span class="p">(</span><span class="n">feats</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">feats</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
-        <span class="n">sim_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span>
-        <span class="n">sim_matrix</span><span class="p">[</span><span class="n">j</span><span class="p">,</span> <span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span>
-</code></pre></div>
-<p>287 × 287 で 82,369 ペア。Python ループでも 1〜2 秒。本格運用するなら <code>sklearn.metrics.pairwise.cosine_similarity</code> で行列演算化すれば 0.05 秒。</p>
-<h3 id="2-k-nn">2. K-NN 予測</h3>
-<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="n">sims</span> <span class="o">=</span> <span class="n">sim_matrix</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-    <span class="n">sims</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span>  <span class="c1"># 自分自身を除外</span>
-    <span class="n">order</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="o">-</span><span class="n">sims</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">30</span><span class="p">]:</span>
-        <span class="n">top_idx</span> <span class="o">=</span> <span class="n">order</span><span class="p">[:</span><span class="n">k</span><span class="p">]</span>
-        <span class="n">df</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"pred_K</span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s2">_p5"</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nanmean</span><span class="p">(</span><span class="n">car_p5</span><span class="p">[</span><span class="n">top_idx</span><span class="p">])</span>
-</code></pre></div>
-<p>「自分自身を除外」は致命的に重要。これを忘れると相関 0.5+ が出て <strong>自己ベンチマーク</strong> で偽の予測精度になります。</p>
-<h3 id="3_1">3. 予測精度メトリクス</h3>
-<div class="highlight"><pre><span></span><code><span class="n">actual</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"car_m1_p5"</span><span class="p">]</span>
-<span class="n">pred</span>   <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"pred_K15_p5"</span><span class="p">]</span>
-
-<span class="n">rmse</span>      <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(((</span><span class="n">actual</span> <span class="o">-</span> <span class="n">pred</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>  <span class="c1"># 二乗平均平方根誤差</span>
-<span class="n">mae</span>       <span class="o">=</span> <span class="p">(</span><span class="n">actual</span> <span class="o">-</span> <span class="n">pred</span><span class="p">)</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>             <span class="c1"># 平均絶対誤差</span>
-<span class="n">corr</span>      <span class="o">=</span> <span class="n">actual</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">pred</span><span class="p">)</span>                        <span class="c1"># ピアソン相関</span>
-<span class="n">dir_match</span> <span class="o">=</span> <span class="p">((</span><span class="n">actual</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="n">pred</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">))</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>  <span class="c1"># 方向一致率</span>
-</code></pre></div>
-<p>「相関と方向一致率を両方見る」のが鉄則。相関は弱いが方向一致率が高ければ「<strong>符号予測には使える</strong>」となる ― 今回はそれも 53.1% で実用厳しい。</p>
-<h3 id="4_2">4. ベースライン（全銘柄平均で予測）との比較</h3>
-<div class="highlight"><pre><span></span><code><span class="n">baseline_pred</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"car_m1_p5"</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-<span class="n">baseline_rmse</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(((</span><span class="n">df</span><span class="p">[</span><span class="s2">"car_m1_p5"</span><span class="p">]</span> <span class="o">-</span> <span class="n">baseline_pred</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
-<span class="c1"># 10.48 &lt; 10.89 ← K-NN が負ける</span>
-</code></pre></div>
-<p>機械学習で <strong>「最も単純なベースラインに負ける」</strong> モデルは利用価値なし。ただし <code>|err|</code> の大きさで個別ショック抽出には使える（「予測との乖離 = 説明できない動き」）。</p>
-<h3 id="5">5. 個別ショック銘柄の抽出</h3>
-<div class="highlight"><pre><span></span><code><span class="n">df</span><span class="p">[</span><span class="s2">"err_K15_p5"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"car_m1_p5"</span><span class="p">]</span> <span class="o">-</span> <span class="n">df</span><span class="p">[</span><span class="s2">"pred_K15_p5"</span><span class="p">]</span>
-<span class="n">shocks_pos</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s2">"err_K15_p5"</span><span class="p">)</span>  <span class="c1"># ポジショック</span>
-<span class="n">shocks_neg</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">nsmallest</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="s2">"err_K15_p5"</span><span class="p">)</span> <span class="c1"># ネガショック</span>
-</code></pre></div>
-<p>このシンプルなロジックが、本記事の <strong>実用的な貢献</strong> です。決算シーズン中に毎日回せば「<strong>今日要チェックの 20 銘柄</strong>」が自動で出ます。</p>
-<hr>
-<h2 id="_6">実装上のハマりどころ</h2>
-<h3 id="car">CAR 計算の窓未完了問題</h3>
-<p>本記事執筆時点（2026-05-21）では 2026/3 期 announce から <strong>20 営業日経過していない</strong> 銘柄が大半。<code>car_m1_p20</code> は使えないため <code>car_m1_p5</code> のみで議論を統一。2026 年 6 月以降に [-1,+20] を含めた再評価を予定。</p>
-<h3 id="286">286 銘柄のサンプル数の限界</h3>
-<p>K-NN の統計的有意性には <strong>本来 1,000 サンプル以上</strong> ほしい。287 銘柄はデータパイプラインでカバーしている範囲の制約。前回見た「業種クラスタリング」は出るが、予測精度として有意な数値は出にくい。</p>
-<h3 id="_7">「自分自身を除外」忘れによる偽精度</h3>
-<p>K-NN で頻発するバグ。</p>
-<div class="highlight"><pre><span></span><code><span class="n">sims</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span>  <span class="c1"># 必ず入れる</span>
-</code></pre></div>
-<p>を忘れると、<strong>自分自身（類似度 1.0、CAR は実績そのもの）</strong> を Top-1 として平均に含めるため、Top-15 の平均は 1/15 = 6.7% が「答え（正解）」になり、相関係数が水増しされます。</p>
-<h3 id="_8">ベースラインを必ず計算</h3>
-<p>機械学習の鉄則：<strong>「自分のモデルが単純ベースラインに勝てるか」を最初に確認</strong>。今回は K-NN がベースラインに <strong>負けている</strong> ことで、初めて「予測ツールとしては失敗」と結論できます。これを確認せずに「相関は 0 だが何となく使えそう」と語るのは無意味。</p>
-<hr>
-<h2 id="_9">本連載の到達点 ― ハイブリッド投資ワークフロー</h2>
+<h2 id="_6">本連載の到達点 ― ハイブリッド投資ワークフロー</h2>
 <p>データ取得 → XBRL 活用 → CAR 実測 → 類似検索 → 個別ショック検出、という各分析を、買い候補・要警戒・売り検討の判断につなぐ全体像が次の図です。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/05_strategy_flow.png" data-desc-position="bottom"><img alt="戦略フロー" src="../img/11_knn_prediction/05_strategy_flow.png" width="1200"></a></p>
 <table>
@@ -2344,12 +2348,12 @@
 <tr>
 <td><strong>データ層</strong></td>
 <td>無料データ分析</td>
-<td>証券会社の無料指標で第 1 次絞り込み</td>
+<td>証券会社のアプリで第 1 次絞り込み</td>
 </tr>
 <tr>
 <td></td>
 <td>XBRL 活用</td>
-<td>XBRL → JSON 化（独自スキーマ）・アクルーアル / 三角検証 / セグメント</td>
+<td>XBRL → JSON 化（独自スキーマ）・アクルーアル / 予想検証 / セグメント</td>
 </tr>
 <tr>
 <td><strong>分析層</strong></td>
@@ -2374,9 +2378,9 @@
 </tbody>
 </table>
 <p><strong>買い候補</strong>：類似群健全（類似決算検索）× CAR 上昇（市場反応の実測）× 個別ポジショック（本記事）の三拍子。</p>
-<p><strong>要警戒</strong>：類似群と乖離（類似決算検索）× 個別ショック発生（本記事）。<strong>説明会・追加 IR を優先確認</strong>。アクルーアル・三角検証・セグメント情報で質を再評価。</p>
+<p><strong>要警戒</strong>：類似群と乖離（類似決算検索）× 個別ショック発生（本記事）。<strong>説明会・追加 IR を優先確認</strong>。アクルーアル・予想検証・セグメント情報で質を再評価。</p>
 <p><strong>売り検討</strong>：質低下シグナル（利益の質・予想・セグメント）× CAR 下落（市場反応）× 個別ネガショック（本記事）。</p>
-<h3 id="_10">個別投資家のための運用コスト</h3>
+<h3 id="_7">個別投資家のための運用コスト</h3>
 <table>
 <thead>
 <tr>
@@ -2407,7 +2411,7 @@
 </tr>
 </tbody>
 </table>
-<p>「証券会社スクリーナーで完結」していた個人投資家分析が、この連載を通じて <strong>AI と機械学習を組み合わせた本格クオンツ並みのワークフロー</strong> に発展しました。それでも年間数千円〜数万円。</p>
+<p>「証券会社アプリで完結」していた個人投資家分析が、この連載を通じて <strong>AI と機械学習を組み合わせた本格クオンツ並みのワークフロー</strong> に発展しました。それでも年間数千円〜数万円。</p>
 <h3 id="ai">AI は予測ではなく「発見」のツール</h3>
 <p>本記事の最も重要なメッセージ。</p>
 <ul>
@@ -2416,14 +2420,14 @@
 </ul>
 <p>つまり <strong>AI と機械学習は「決算データを整理・発見する道具」であり、「価格予測の魔法」ではない</strong>。この限界を理解した上で活用すれば、<strong>投資家の時間配分が劇的に最適化</strong> されます。本連載の到達点は、この「<strong>AI は時間の節約装置</strong>」という理解です。</p>
 <hr>
-<h2 id="_11">まとめ</h2>
+<h2 id="_8">まとめ</h2>
 <ul>
 <li>K-NN 回帰（K=5/15/30）で <strong>類似決算群の平均 CAR から自身の CAR を予測</strong> を 287 銘柄で実証</li>
 <li><strong>予測精度: 相関 r=-0.03、RMSE 10.88%、方向一致率 50.9% ― 全銘柄平均ベースライン (RMSE 10.46%) に負けた</strong></li>
 <li>K を変えても改善せず ― <strong>数値特徴量だけでは決算 CAR の予測は構造的に不可能</strong></li>
 <li><strong>失敗の中に発見</strong>：予測との乖離（|err| 大きい銘柄）は <strong>個別ショック検出器</strong> として極めて有用</li>
 <li>ポジショック Top: 7236 ティラド（+63pp）/ 2371 カカクコム（+34pp）/ 6516 サンデン（+33pp）など、<strong>プロンプト化されていない物語</strong> で市場が動いた銘柄</li>
-<li>ネガショック Top: 5906 エンケイ（-28pp）/ 9629 PCA（-25pp）/ 6469 放電精密（-21pp）など、<strong>資料熟読で見える警戒材料</strong> で売られた銘柄</li>
+<li>ネガショック Top: 5906 エンケイ（-28pp）/ 9629 PCA（-23pp）/ 6469 放電精密（-21pp）など、<strong>資料熟読で見える警戒材料</strong> で売られた銘柄</li>
 <li>主要銘柄の最終結論:<ul>
 <li>丸紅 −9.39% / 双日 −4.25%（誤差 −11.82pp / −6.79pp）= 利益の質・予想・セグメントで「健全」評価でも 2026/3 期は市場で売られた <strong>ネガショック</strong></li>
 <li><strong>ＥＮＥＯＳ [−1,+5]=−4.68%（誤差 −2.37pp）= AI 予測ほぼ的中の「軽いネガ」事例</strong>。初動 [-1,+1] +1.36% の後 5 日で反転。営業利益急回復（4,666 億、公表 +25.5% / 継続事業ベース +339.8%）+ 在庫影響除き 4,744 億で 2025/3 期主張「実質 4,400 億維持」を上回って着地という数字パターンは市場に概ね織り込まれたが、高 OPM セグメント正常化局面の再認識が 5 日で後追い（4 基準試算・セグメント分析と整合）</li>
@@ -2432,46 +2436,50 @@
 <li>AI 予測の "精度" ではなく <strong>"予測との乖離の大きさ" こそが情報</strong>：乖離が大きい銘柄＝要 IR 確認、乖離が小さい銘柄＝数字で読める、という二分されたワークフロー</li>
 <li><strong>AI は予測ではなく「発見」のツール</strong> ― 類似決算検索・K-NN 予測は「業種クラスタ」「個別ショック検出」に強いが、価格予言には弱い</li>
 </ul>
-<p>これで <strong>全 11 連載が完結</strong> しました。証券会社スクリーナーから始まり、XBRL 取得・パース・スキーマ設計を経て、最終的に <strong>類似検索 × K-NN × CAR の三位一体ワークフロー</strong> が個人投資家の手元で年間数千円〜数万円で運用可能になりました。</p>
+<p>ここまでで、データ取得から機械学習までの一連のワークフローが形になりました。証券会社アプリから始まり、XBRL 取得・パース・スキーマ設計を経て、最終的に <strong>類似検索 × K-NN × CAR の三位一体ワークフロー</strong> が個人投資家の手元で年間数千円〜数万円で運用可能になりました。<strong>機械学習分析編には、今後も新しい手法を試して追加していく予定です。</strong></p>
 <p>データ駆動投資の時代、投資家の差別化要素は「<strong>データを使う</strong>」から「<strong>データを持つ・整理する・AI と組み合わせる</strong>」に移っています。本連載がそのスタート地点になれば幸いです。</p>
 <hr>
-<h3 id="_12">連載の全体像</h3>
+<h3 id="_9">連載の全体像</h3>
 <table>
 <thead>
 <tr>
 <th>フェーズ</th>
 <th>内容</th>
-<th>連載番号</th>
+<th>連載</th>
 <th>キー指標</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>1. 証券会社の無料データ分析</strong></td>
-<td>無料指標で投資判断</td>
-<td>01-05</td>
-<td>PEG / ROE / マルチファクター</td>
+<td><strong>1. データ取得編</strong></td>
+<td>取得・整形・XBRL→JSON 化</td>
+<td>1-1〜1-3</td>
+<td>yfinance / EDINET・TDnet / XBRL</td>
 </tr>
 <tr>
-<td><strong>2. XBRL 基礎・活用</strong></td>
-<td>取得・パース・スキーマ + 深掘り</td>
-<td>06-08</td>
-<td>アクルーアル / 三角検証 / セグメント</td>
+<td><strong>2. 銘柄分析編</strong></td>
+<td>スクリーニング・利益の質・予想・セグメント・市場反応</td>
+<td>2-1〜2-8</td>
+<td>GARP・マルチファクター / アクルーアル・予想検証・セグメント / CAR</td>
 </tr>
 <tr>
-<td><strong>3. 市場反応の実測</strong></td>
-<td>CAR で答え合わせ</td>
-<td>09</td>
-<td>CAR 8,049 イベント × 3 ウィンドウ</td>
-</tr>
-<tr>
-<td><strong>4. AI 統合</strong></td>
-<td>類似検索 × 予測</td>
-<td>10-11</td>
-<td>cosine 類似度 / K-NN 個別ショック検出</td>
+<td><strong>3. 機械学習分析編</strong></td>
+<td>類似検索・予測・分類（実験的トライ）</td>
+<td>3-1〜3-4</td>
+<td>cosine 類似度 / K-NN / クラスタリング / ランダムフォレスト</td>
 </tr>
 </tbody>
 </table>
+<h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
+<p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>K-NN 予測の実装（K=5/15/30 の交差検証・精度評価・個別ショック抽出・ベースライン比較）</strong>は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/11_knn" target="_blank" rel="noopener">
+<i class="repo-link-icon fa-brands fa-github"></i>
+<span class="repo-link-path">github.com/minnanosaiban/blog/11_knn</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+
 <hr>
 <p><em>データ出典: 前回生成した <code>data/blog15/features.parquet</code>（286 銘柄）と <code>events_2026.parquet</code>（2026/3 期 CAR）。実装は <code>scripts/blog16_prediction.py</code>（K-NN 計算 + 個別ショック抽出）と <code>scripts/blog16_generate_images.py</code>。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</em></p>
 
