@@ -10,7 +10,7 @@ tags:
   - コンセンサス
 ---
 
-# EDINET・TDnet で「株価以外のデータ」を集める ― 決算・適時開示・証券会社アプリ
+# EDINET・TDnet 等を活用する ― 企業が金融庁に提出している決算 XBRL は使える
 
 ![株価以外のデータを集める](img/02_collect_other_data/00_thumbnail.png){width="1280"}
 
@@ -102,7 +102,7 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 </a>
 </div>
 
-#### 📈 Streamlit アプリ ― 複数銘柄を俯瞰するチャート
+#### 📈 アプリ紹介 ― 複数銘柄を俯瞰するチャート
 
 株価だけでは「チャートを並べる」までですが、ここで取得した **業績指標（PER / PBR / 配当）** を重ねると、銘柄比較が一気に厚くなります。複数銘柄のファンダ指標とチャートを 4 列カードグリッドで **1 画面で俯瞰** する Streamlit アプリです。
 
@@ -110,7 +110,7 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 ![複数銘柄カードグリッド](https://github.com/minnanosaiban/blog/blob/main/02_1_chart_multi/app.png?raw=true){width="1200"}
 
-#### 📈 Streamlit アプリ ― 決算発表直後の動きを確認するチャート
+#### 📈 アプリ紹介 ― 決算発表直後の動きを確認するチャート
 
 5分足 parquet と発表日時 `earnings.csv` で、決算発表後の値動きを 5 パターン（🟢上げ / 逆 V 字 / 無風 / V 字 / 🔴下げ）に自動分類する Streamlit アプリです。各銘柄の5分足チャートに、発表時刻の **縦点線**を入れていますので、決算発表直後の激しい株価の動きが確認できます。
 

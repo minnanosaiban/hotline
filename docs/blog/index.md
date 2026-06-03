@@ -40,90 +40,88 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 
 <p class="large" style="margin-top: 12rem !important; margin-bottom: 1rem !important;">おすすめの読み順</p>
 
-<p class="margin02">ＥＮＥＯＳの "ピークアウト構図" という単一の物語。<b>「ＥＮＥＯＳの 2022 ピーク利益 5,371 億円が、なぜ、どこで、いつ剥落したのか」</b> を多角的に解剖していきます。</p>
 
 </div>
 
 <div class="toc-grid" style="margin-top: 0.8rem;">
 <a href="posts/03_xbrl_to_json/" class="toc-card">
 <span class="toc-card-num">読む順 1</span>
-<span class="toc-card-title">1-3 XBRL を JSON に変換して分析</span>
-<span class="toc-card-desc">ＥＮＥＯＳ を時系列で見る</span>
+<span class="toc-card-title">1-3 決算 XBRL を JSON に変換</span>
+<span class="toc-card-desc">決算そのものを分析、元売3社業績比較</span>
 </a>
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">読む順 2</span>
-<span class="toc-card-title">2-1 GARP</span>
-<span class="toc-card-desc">4 基準試算で「構造劣化かサイクル正常化か」を判定</span>
+<span class="toc-card-title">2-1 4象限で GARP を見る</span>
+<span class="toc-card-desc">「成長と割安の両立銘柄」を発掘</span>
 </a>
 <a href="posts/06_accrual_analysis/" class="toc-card">
 <span class="toc-card-num">読む順 3</span>
 <span class="toc-card-title">2-3 アクルーアル分析</span>
-<span class="toc-card-desc">ピーク利益はキャッシュで裏付けられていたか（利益の質）</span>
+<span class="toc-card-desc">ＥＮＥＯＳ「ピークの裏付けは？」、キャッシュ実態</span>
 </a>
 <a href="posts/08b_segment_core_stocks/" class="toc-card">
 <span class="toc-card-num">読む順 4</span>
 <span class="toc-card-title">2-6 コングロマリット・ディスカウント</span>
-<span class="toc-card-desc">どのセグメントで剥落したか（OPM 内訳）</span>
+<span class="toc-card-desc">総合商社・ＥＮＥＯＳ をセグメントで読み解く</span>
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">読む順 5</span>
 <span class="toc-card-title">2-8 ベンチマーク</span>
-<span class="toc-card-desc">市場が織り込んだ瞬間</span>
+<span class="toc-card-desc">業界の動きを除いた個別決算の効きを検証</span>
 </a>
 </div>
 
 <p class="toc-phase-label" style="margin-top: 4rem;">株価分析　全記事</p>
 
-<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 無料データ取得</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 無料データを取得編</p>
 <div class="toc-grid">
 <a href="posts/01_get_stock_prices/" class="toc-card">
 <span class="toc-card-num">1-1</span>
-<span class="toc-card-title">株価を取得しよう</span>
-<span class="toc-card-desc">yfinance → parquet → チャート</span>
+<span class="toc-card-title">yfinance で「株価」を取得</span>
+<span class="toc-card-desc">parquet 保存からチャートまで、自作アプリも</span>
 </a>
 <a href="posts/02_collect_other_data/" class="toc-card">
 <span class="toc-card-num">1-2</span>
-<span class="toc-card-title">株価以外も取得しよう</span>
-<span class="toc-card-desc">EDINET・TDnet・証券会社のアプリを活用</span>
+<span class="toc-card-title">EDINET・TDnet 等を活用</span>
+<span class="toc-card-desc">企業が金融庁に提出している決算 XBRL は使える</span>
 </a>
 <a href="posts/03_xbrl_to_json/" class="toc-card">
 <span class="toc-card-num">1-3</span>
-<span class="toc-card-title">XBRL を JSON に変換して分析</span>
-<span class="toc-card-desc">決算書そのものを分析に使う</span>
+<span class="toc-card-title"> 決算 XBRL を JSON に変換</span>
+<span class="toc-card-desc">決算そのものを分析、元売3社業績比較</span>
 </a>
 </div>
-
-<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> データで銘柄分析</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> データで銘柄分析編</p>
 <div class="toc-grid">
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">2-1</span>
-<span class="toc-card-title">GARP</span>
-<span class="toc-card-desc">PEG × ROE の理論と実践</span>
+<span class="toc-card-title">4象限で GARP を見る</span>
+<span class="toc-card-desc">「成長と割安の両立銘柄」を発掘</span>
 </a>
 <a href="posts/05_multifactor_scoreboard/" class="toc-card">
 <span class="toc-card-num">2-2</span>
-<span class="toc-card-title">マルチファクタースコアボード</span>
+<span class="toc-card-title">マルチファクタースコア</span>
 <span class="toc-card-desc">7 軸で全方位優等生を探す</span>
 </a>
 <a href="posts/06_accrual_analysis/" class="toc-card">
 <span class="toc-card-num">2-3</span>
 <span class="toc-card-title">アクルーアル分析</span>
-<span class="toc-card-desc">利益の質を CF で見抜く</span>
+<span class="toc-card-desc">ＥＮＥＯＳ「ピークの裏付けは？」、キャッシュ実態</span>
 </a>
 <a href="posts/07_triangulation/" class="toc-card">
 <span class="toc-card-num">2-4</span>
-<span class="toc-card-title">予想 × 業績</span>
-<span class="toc-card-desc">コンセンサス × ガイダンス × 業績でズレを見抜く</span>
+<span class="toc-card-title">コンセンサス予想を検証</span>
+<span class="toc-card-desc"> 「予想のズレ」で業績修正の向きを先回り</span>
 </a>
 <a href="posts/08_segment_analysis/" class="toc-card">
 <span class="toc-card-num">2-5</span>
-<span class="toc-card-title">セグメント発進力スコア</span>
-<span class="toc-card-desc">次の主力事業・隠れた高収益事業を発掘</span>
+<span class="toc-card-title">セグメント分析</span>
+<span class="toc-card-desc">発進力スコアリングで隠れた高収益事業を発掘</span>
 </a>
 <a href="posts/08b_segment_core_stocks/" class="toc-card">
 <span class="toc-card-num">2-6</span>
 <span class="toc-card-title">コングロマリット・ディスカウント</span>
-<span class="toc-card-desc">総合商社・ＥＮＥＯＳ をセグメントで読み解く</span>
+<span class="toc-card-desc">総合商社・ＥＮＥＯＳをセグメントで読み解く</span>
 </a>
 <a href="posts/09_car_event_study/" class="toc-card">
 <span class="toc-card-num">2-7</span>
@@ -132,12 +130,12 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">2-8</span>
-<span class="toc-card-title">二重CAR（ベンチマーク）</span>
-<span class="toc-card-desc">業界の動きを除いた個別決算の効き</span>
+<span class="toc-card-title">ベンチマーク</span>
+<span class="toc-card-desc">業界の動きを除いた個別決算の効きを検証</span>
 </a>
 </div>
 
-<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 機械学習に挑戦</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 機械学習チャレンジ編</p>
 <div class="toc-grid">
 <a href="posts/10_similar_earnings_search/" class="toc-card">
 <span class="toc-card-num">3-1</span>
@@ -158,5 +156,15 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <span class="toc-card-num">3-4</span>
 <span class="toc-card-title">ランダムフォレスト</span>
 <span class="toc-card-desc">予測は失敗、特徴量重要度の落とし穴を学ぶ</span>
+</a>
+<a href="posts/14_price_clustering/" class="toc-card">
+<span class="toc-card-num">3-5</span>
+<span class="toc-card-title">値動きクラスタリング</span>
+<span class="toc-card-desc">業種コードなしに業界が再現された相関クラスタ</span>
+</a>
+<a href="posts/15_price_anomaly/" class="toc-card">
+<span class="toc-card-num">3-6</span>
+<span class="toc-card-title">突発材料の異常検知</span>
+<span class="toc-card-desc">共動の崩れで「その銘柄だけ動いた日」を検出</span>
 </a>
 </div>
