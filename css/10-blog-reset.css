@@ -359,6 +359,9 @@ body.blog-post-page .md-typeset details[open] > summary {
 /* ===== [旧 13-refine.css] ブログ装飾の洗練：fig-meta / repo-link / keypoint / table ===== */
 
 /* ① 図のキャプション（1 行・無彩色・小さめ） */
+/* body.blog-post-page .md-content p の font-size:inherit に詳細度で勝つため
+   .fig-meta もブログ用セレクタ（p.fig-meta）に格上げしている */
+body.blog-post-page .md-content p.fig-meta,
 .fig-meta {
   display: block;
   font-size: 9px !important;
