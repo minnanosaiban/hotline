@@ -10,13 +10,22 @@ tags:
   - 決算短信
 ---
 
-# XBRL を JSON に変換 ― 有報・決算短信を分析に使えるかたちに
+# XBRL を JSON 化して「決算データ」を分析可能にする ― 有報・決算短信
 
 ![XBRL を JSON に変換する](img/03_xbrl_to_json/00_thumbnail.png){width="1280"}
 
 企業が有価証券報告書を金融庁（EDINET）に提出するときは、決算データを **XBRL** という形式で出します ― 数値に一つずつタグを付けた、機械で読み取れる標準フォーマットだからです。ただし XBRL は会計基準ごとにタグが違い、文脈（当期 / 前期 / 連結…）も分かれる複雑な構造で、**そのまま分析に使うのは現実的ではありません**。
 
 本記事では、 取得した XBRL を JSON 化し、代表的な財務指標の時系列推移を可視化します。そこで見えてきたのが、ＥＮＥＯＳ のピークアウトです。
+
+<div class="ref-quiet">
+<a class="ref-card ref-card--quiet" href="https://developer.mozilla.org/ja/docs/Learn/JavaScript/Objects/JSON" target="_blank" rel="noopener">
+<span class="ref-card-body">
+<span class="ref-card-title">JSON とは</span>
+<span class="ref-card-desc">構造化データを表す標準のテキスト形式 ― MDN Web Docs</span>
+</span>
+</a>
+</div>
 
 <!-- more -->
 
@@ -44,7 +53,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 売上高は 3 社とも 2021 年を底に回復し、規模では 🟥ＥＮＥＯＳ が突出します。あわせて自己資本比率を並べると、**3 社とも財務体質をむしろ強めて**きたことがわかります。とくに🟩コスモエネＨＤは 2020 年の 15% から 2025 年は 27% へ大きく改善し、🟥ＥＮＥＯＳ・🟦出光興産も 30% 台へ。**「規模（売上）」と「体質（自己資本比率）」を同じ 7 年で重ねる**と、1 期の損益だけでは見えない安定度まで読めます。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![石油元売3社の売上高・自己資本比率7年推移](img/03_xbrl_to_json/01_oil_3companies_revenue.png){width="1200"}
 
@@ -52,7 +61,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 純利益は 3 社そろって **2022 年がピーク**（🟥ＥＮＥＯＳ 5.4 千億円）。原油高で在庫評価益が膨らんだ特殊年です。ROE も一時 20〜35% まで跳ね上がりました。しかし直近は優良ライン（ROE 10%）前後まで低下し、**「2022 の記憶」と「足元の実力」のギャップ**が見えてきます（2025 はのれん減損などの一時要因も含む）。1 期だけ見ると見誤りますが、**7 年スパンで並べると構造が一目**です。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![石油元売3社の純利益・ROE7年推移](img/03_xbrl_to_json/02_oil_3companies_ni_roe.png){width="1200"}
 
@@ -62,7 +71,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 純利益が落ちても、**🟩営業 CFは 3 社ともプラスを維持**。本業の現金創出力は健在です。🟥投資 CF・🟦財務 CFと並べれば、稼いだ現金を「投資に回したか／株主に返したか」の経営判断まで読めます。**利益は会計処理で動きますが、現金の出入りは動かしにくい** ― この視点は後の「アクルーアル分析」の記事で深掘りします。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![石油元売3社のキャッシュフロー7年推移](img/03_xbrl_to_json/03_oil_3companies_cf.png){width="1200"}
 
@@ -86,7 +95,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 - 石油元売 3 社では、**2022 ピーク → 直近ピークアウト**の構造が、売上・自己資本比率・純利益・ROE・CF を 7 年並べて裏づけられた
 
 
-次回からは **フェーズ2「銘柄を評価する編」**。そろえたデータで実際に銘柄を採点・比較していきます。
+次回からは **フェーズ2「銘柄分析編」**。そろえたデータで実際に銘柄を採点・比較していきます。
 
 
 
@@ -94,7 +103,13 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
-> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/03_xbrl_json</span>](https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json)
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json" target="_blank" rel="noopener">
+<i class="repo-link-icon fa-brands fa-github"></i>
+<span class="repo-link-path">github.com/minnanosaiban/blog/03_xbrl_json</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
 
 #### 📈 Streamlit アプリ ― 決算 Note 記事プロンプト生成アプリ
 
@@ -105,7 +120,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 3. 着目点を一言メモ
 4. プロンプトをコピーして Claude などに貼り付ける
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![決算 Note プロンプト生成](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/app.png?raw=true){width="1200"}
 

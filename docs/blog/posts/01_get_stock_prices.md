@@ -10,7 +10,7 @@ tags:
   - 株価
 ---
 
-# まずは株価を取得しよう ― yfinance から parquet 保存、そしてチャートへ
+# yfinance で「日次株価」を取得する ― parquet 保存からチャートまで
 
 ![株価を取得する](img/01_get_stock_prices/00_thumbnail.png){width="1280"}
 
@@ -22,6 +22,15 @@ tags:
 
 までを通します。5分足チャートは Python コードを GitHub に公開しています。それでは、フェーズ1「データ取得編」の出発点です。
 
+<div class="ref-quiet">
+<a class="ref-card ref-card--quiet" href="https://github.com/ranaroussi/yfinance" target="_blank" rel="noopener">
+<span class="ref-card-body">
+<span class="ref-card-title">yfinance とは</span>
+<span class="ref-card-desc">Yahoo!ファイナンスの株価データを取得する Python ライブラリ ― GitHub</span>
+</span>
+</a>
+</div>
+
 <!-- more -->
 
 
@@ -30,10 +39,10 @@ tags:
 
 yfinance で取れる株価は、足の種類で取得できる期間が大きく違います。
 
-| 足   | 取得できる期間       | 主な用途         |
-| --- | ------------- | ------------ |
-| 日足  | 10 年以上        | 長期トレンド・テクニカル |
-| 5分足 | **約 60 日が上限** | 寄付・引け・場中の動き  |
+| 足       | 取得できる期間   | 主な用途         |
+| ------- | --------- | ------------ |
+| **日足**  | 10 年以上    | 長期トレンド・テクニカル |
+| **5分足** | 約 60 日が上限 | 寄付・引け・場中の動き  |
 
 - 5分足は「**今貯めないと将来取れない**」ので、定期取得して parquet に追記する価値が高い
 - parquet は列指向・型保持・高圧縮。CSV より読み書きが速く、ファイルも小さい
@@ -93,7 +102,13 @@ merged.to_parquet(path)
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
 
-> [<span style="color: var(--md-link-color);">github.com/minnanosaiban/blog/01_chart_5min</span>](https://github.com/minnanosaiban/blog/tree/main/01_chart_5min)
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min" target="_blank" rel="noopener">
+<i class="repo-link-icon fa-brands fa-github"></i>
+<span class="repo-link-path">github.com/minnanosaiban/blog/01_chart_5min</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
 
 #### 📈 Streamlit アプリ ― 寄付・引け・窓開けを一目で確認できる5分足チャート
 
@@ -105,7 +120,7 @@ merged.to_parquet(path)
 
 株価は、yfinance で取得し、parquet で保存しています。
 
-<small style="color: var(--md-link-color);"><i class="fa-solid fa-expand"></i> クリックで拡大できます</small>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![5分足ローソク + 騰落率テーブル](https://github.com/minnanosaiban/blog/raw/main/01_chart_5min/app.png){width="1200"}
 
