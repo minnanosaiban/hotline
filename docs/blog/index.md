@@ -48,7 +48,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/03_xbrl_to_json/" class="toc-card">
 <span class="toc-card-num">読む順 1</span>
 <span class="toc-card-title">1-3 XBRL を JSON に変換して分析</span>
-<span class="toc-card-desc">ＥＮＥＯＳ 純利 5,371→2,261 億の半減を時系列で見る</span>
+<span class="toc-card-desc">ＥＮＥＯＳ を時系列で見る</span>
 </a>
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">読む順 2</span>
@@ -67,14 +67,14 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">読む順 5</span>
-<span class="toc-card-title">2-8 二重CAR（ベンチマーク）</span>
-<span class="toc-card-desc">市場が織り込んだ瞬間 ― 二重CAR −13.89%</span>
+<span class="toc-card-title">2-8 ベンチマーク</span>
+<span class="toc-card-desc">市場が織り込んだ瞬間</span>
 </a>
 </div>
 
 <p class="toc-phase-label" style="margin-top: 4rem;">株価分析　全記事</p>
 
-<p class="toc-phase-label">フェーズ1　データ取得編</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 無料データ取得</p>
 <div class="toc-grid">
 <a href="posts/01_get_stock_prices/" class="toc-card">
 <span class="toc-card-num">1-1</span>
@@ -93,7 +93,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 </div>
 
-<p class="toc-phase-label">フェーズ2　銘柄分析編</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> データで銘柄分析</p>
 <div class="toc-grid">
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">2-1</span>
@@ -128,7 +128,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/09_car_event_study/" class="toc-card">
 <span class="toc-card-num">2-7</span>
 <span class="toc-card-title">CAR イベントスタディ</span>
-<span class="toc-card-desc">8,049 イベントで PEAD を検証</span>
+<span class="toc-card-desc">PEAD を検証</span>
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">2-8</span>
@@ -137,7 +137,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 </div>
 
-<p class="toc-phase-label">フェーズ3　機械学習分析編</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 機械学習に挑戦</p>
 <div class="toc-grid">
 <a href="posts/10_similar_earnings_search/" class="toc-card">
 <span class="toc-card-num">3-1</span>

@@ -364,7 +364,7 @@ body.blog-post-page .md-typeset details[open] > summary {
 body.blog-post-page .md-content p.fig-meta,
 .fig-meta {
   display: block;
-  font-size: 9px !important;
+  font-size: 12px !important;
   line-height: 1.6 !important;
   color: var(--md-default-fg-color--light) !important;
   margin: 0 0 0.4rem 0 !important;
