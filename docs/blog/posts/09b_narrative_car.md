@@ -10,7 +10,7 @@ tags:
   - 決算後ドリフト
 ---
 
-# ベンチマークと合わせて見る「個別決算の効き」 ― TOPIX × セクターの二重 CAR
+# ベンチマークと決算 ― TOPIX × セクターで 「個別決算の効き」 を見る
 
 ![二重CAR](img/09b_narrative_car/00_thumbnail.png){width="1280"}
 

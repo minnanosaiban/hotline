@@ -22,8 +22,8 @@ nav:
           - 2-4 コンセンサス予想を検証: blog/posts/07_triangulation.md
           - 2-5 セグメント分析 : blog/posts/08_segment_analysis.md
           - 2-6 コングロマリット: blog/posts/08b_segment_core_stocks.md
-          - 2-7 CAR: blog/posts/09_car_event_study.md
-          - 2-8 ベンチマーク: blog/posts/09b_narrative_car.md
+          - 2-7 CAR イベントスタディ: blog/posts/09_car_event_study.md
+          - 2-8 ベンチマークと決算: blog/posts/09b_narrative_car.md
       - <i class="fa-solid fa-layer-group"></i> 機械学習チャレンジ編:
           - 3-1 類似検索: blog/posts/10_similar_earnings_search.md
           - 3-2 K-NN予測: blog/posts/11_knn_prediction.md
