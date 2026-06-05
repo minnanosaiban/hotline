@@ -46,10 +46,10 @@ body.blog-post-page .md-content p {
 
 /* h2: 行頭マーカー ┃（リンク色）＋ 罫線・太字なし */
 body.blog-post-page .md-content h2 {
-  font-size: 2em !important;
+  font-size: 2.0em !important;
   line-height: 1.3 !important;
   font-weight: 300 !important;
-  margin: 4em 0 1em 0 !important;
+  margin: 4em 0 0.8em 0 !important;
   padding: 0 0 0.0.4em 0 !important;
   border: none !important;
   border-bottom: 1px solid var(--md-default-fg-color--lighter) !important;
@@ -57,22 +57,16 @@ body.blog-post-page .md-content h2 {
   letter-spacing: 0 !important;
 }
 
-/* h3: 行頭マーカー │（リンク色 50% 透過）＋ 太字なし */
+/* h3: サブ見出し（文字色をリンク色に・マーカー／罫線／下線なし） */
 body.blog-post-page .md-content h3 {
-  font-size: 1.6em !important;
+  margin: 4rem 0 0.8rem 0 !important;
+  font-size: 1.2rem !important;
   line-height: 1.6 !important;
-  font-weight: 300 !important;
-  margin: 4em 0 0.7em 0 !important;
+  font-weight: 400 !important;
   padding: 0 !important;
   border: none !important;
-  color: var(--md-typeset-color) !important;
-}
-body.blog-post-page .md-content h3::before {
-  content: "\2502"; /* │ BOX DRAWINGS LIGHT VERTICAL */
-  color: var(--md-link-color);
-  margin-right: 0.5em;
-  font-weight: 400;
-  display: inline-block;
+  color: var(--md-link-color) !important;
+  letter-spacing: 0 !important;
 }
 /* H2 直後の H3 は上の余白を詰める */
 body.blog-post-page .md-content h2 + h3 {
@@ -364,7 +358,7 @@ body.blog-post-page .md-typeset details[open] > summary {
 body.blog-post-page .md-content p.fig-meta,
 .fig-meta {
   display: block;
-  font-size: 12px !important;
+  font-size: 14px !important;
   line-height: 1.6 !important;
   color: var(--md-default-fg-color--light) !important;
   margin: 0 0 0.4rem 0 !important;

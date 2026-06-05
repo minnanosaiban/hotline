@@ -654,8 +654,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -858,7 +856,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        予想検証の概要
+        将来の業績修正の向きを読む
       
     </span>
   </a>
@@ -1020,34 +1018,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../09b_narrative_car/" class="md-nav__link">
         
   
@@ -1055,7 +1025,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1162,7 +1132,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1617,7 +1587,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        予想検証の概要
+        将来の業績修正の向きを読む
       
     </span>
   </a>
@@ -1724,16 +1694,18 @@
 
 
 
-<h1 id="_1">コンセンサス予想を検証 ― 「予想のズレ」で業績修正の向きを先回り</h1>
+<h1 id="_1">コンセンサス予想を検証 ― 「予想のズレ」で将来の業績修正の向きを先回り</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_triangulation/00_thumbnail.png" data-desc-position="bottom"><img alt="予想検証" src="../img/07_triangulation/00_thumbnail.png" width="1280"></a></p>
-<p>「アナリストが強気だから買い」「会社が増益予想だから安心」。実は、<strong>業績・会社予想・アナリスト予想の 3 つの食い違い</strong> を見ないと、その「安心」は揺らぎます。</p>
+<p>「アナリストが強気だから買い」「会社が増益予想だから安心」。実は、<strong>業績・会社予想・アナリスト予想の 3 つの食い違い</strong>で、その「安心」は揺らぎます。</p>
 <p>業績予想には、常に <strong>3 つの数値</strong> が並んでいます。</p>
 <ol>
 <li><strong>業績</strong>（決算で確定した数値）</li>
 <li><strong>企業ガイダンス</strong>（企業自身が出す来期予想）</li>
 <li><strong>アナリストコンセンサス</strong>（複数アナリストの平均予想）</li>
 </ol>
-<p>本記事は、この <strong>3 つの予想を並べて照合</strong>（予想検証）し、「次に上方修正が出そうな銘柄」と「ガイダンス未達リスクの銘柄」を炙り出します。</p>
+<p>本記事では、この <strong>3 つの予想を並べて照合</strong>し、「次に上方修正が出そうな銘柄」と「ガイダンス未達リスクの銘柄」を炙り出します。</p>
+<p class="fig-meta">データ出典: 自前で構築したパイプラインの `data/statements/*_FY.json` 841 件（actual） + 327 件（forecast）から (code) マッチ 327 ペアを構築し、`data/rakunav/213_EPS.csv` を結合した 211 銘柄サンプル</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.nomura.co.jp/terms/japan/ko/con_chosa.html" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -1745,8 +1717,8 @@
 
 <!-- more -->
 
-<h2 id="_2">予想検証の概要</h2>
-<p>業績・企業ガイダンス・アナリストコンセンサスの 3 つを <strong>同一銘柄 × 同一会計年度</strong> で並べると、コツは <strong>「3 つのうち、どれか 1 つだけが浮いていないか」</strong> を探すこと。その浮いた 1 つが、次の決算で出る修正の向きを教えてくれます。</p>
+<h2 id="_2">将来の業績修正の向きを読む</h2>
+<p>業績・企業ガイダンス・アナリストコンセンサスの 3 つを <strong>同一銘柄 × 同一会計年度</strong> で並べると、コツは <strong>「3 つのうち、どれか 1 つだけが浮いていないか」</strong> を探すこと。その浮いた 1 つから、将来の業績修正の向きを読みます。</p>
 <ul>
 <li><strong>ガイダンスだけ低い</strong>（コンセンサス ≒ 業績）→ 会社の <strong>出し惜しみ</strong> → 後で上方修正 ＝ <strong>買い</strong></li>
 <li><strong>コンセンサスだけ高い</strong>（業績・ガイダンスより突出）→ アナリストの <strong>楽観バイアス</strong> → <strong>当てにせず見送り</strong></li>
@@ -1757,7 +1729,7 @@
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_triangulation/01_triangulation_concept.png" data-desc-position="bottom"><img alt="予想検証 概念図" src="../img/07_triangulation/01_triangulation_concept.png" width="1200"></a></p>
 <h2 id="4">4 象限マップで「予想のズレ」を確認</h2>
-<p>予想検証は、同じ銘柄について、次の 3 つを突き合わせます。</p>
+<p>同じ銘柄について、次の 3 つを突き合わせます。</p>
 <ol>
 <li>業績 EPS（決算短信）</li>
 <li>会社予想 EPS（決算短信）</li>
@@ -1802,11 +1774,13 @@
 </table>
 <p>トヨタは業績 295.2 円 → ガイダンス 251.2 円（−14.9%）に対しコンセンサス 318.5 円（+26.8%）。<strong>「企業は固く出す、アナリストは強気で見る」日本市場の伝統的構図</strong> がそのまま出ています。</p>
 <h2 id="_3">ズレが大きい銘柄ランキング</h2>
-<p><i class="fa-solid fa-star"></i> 上方修正期待と <i class="fa-solid fa-triangle-exclamation"></i> 達成困難予想を、それぞれ <strong>ズレの大きい順に 10 銘柄ずつ</strong> 並べます。並べ替えの軸は <strong>CG（コンセンサスとガイダンスの差）</strong>。コンセンサスが本物か楽観かは、<strong>CA（コンセンサスと業績の差）</strong> で分けます。</p>
-<p>なお両表とも、<br>
-<strong>GA = ガイダンスと業績の差</strong>（マイナスほど保守的ガイダンス）<br>
-<strong>CG = コンセンサスとガイダンスの差</strong>（プラスほどアナリスト強気）<br>
-と表記します。</p>
+<p>3 つの数値を頭文字で <strong>C＝コンセンサス</strong>・<strong>G＝ガイダンス</strong>・<strong>A＝業績（Actual）</strong> と呼びます。2 文字の指標はいずれも <strong>「（前の数値 − 後の数値）÷ 後の数値」</strong> の % で、後ろの文字が基準です。</p>
+<ul>
+<li><strong>GA＝（ガイダンス − 業績）÷ 業績</strong>：マイナスほど会社が<strong>保守的</strong></li>
+<li><strong>CG＝（コンセンサス − ガイダンス）÷ ガイダンス</strong>：プラスほどアナリストが<strong>強気</strong></li>
+<li><strong>CA＝（コンセンサス − 業績）÷ 業績</strong>：小さいほどコンセンサスは<strong>業績どおり（本物）</strong>、大きいほど<strong>上振れ（楽観）</strong></li>
+</ul>
+<p><i class="fa-solid fa-star"></i> 上方修正期待と <i class="fa-solid fa-triangle-exclamation"></i> 達成困難予想を、<strong>CG の大きい順</strong>に 10 銘柄ずつ並べます。そのうえで、その強気・懐疑が <strong>本物か楽観かは CA で見分けます</strong>（下表の「業績EPS」と「コンセンサス」を見比べてください。両表に列として載せるのは <strong>GA・CG</strong> です）。</p>
 <h3 id="top-10">アナリスト強気が大きい順 Top 10</h3>
 <p>口火を切るのは <strong>業績の半値以下という極端な保守ガイダンス × アナリスト強気</strong> の銘柄群。象徴的なのが <strong>住友商事</strong> ― 業績 EPS 499 円に対し会社ガイダンスは 132 円（業績比 <strong>−74%</strong>）、アナリストコンセンサスは 543 円（ガイダンス比 <strong>+312%</strong>）と強気です。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
@@ -2106,14 +2080,12 @@
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>予想検証の計算方法</strong>（3 ソースの統合・3 ペアの乖離率・4 象限分類・アクルーアルとのクロス）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/07_triangulation" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/07_triangulation</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 <hr>
-<p><em>データ出典: 自前で構築したパイプラインの <code>data/statements/*_FY.json</code> 841 件（actual） + 327 件（forecast）から (code) マッチ 327 ペアを構築し、<code>data/rakunav/213_EPS.csv</code> を結合した 211 銘柄サンプル</em></p>
 
 
 

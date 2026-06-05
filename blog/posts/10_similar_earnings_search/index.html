@@ -24,7 +24,7 @@
     
     
       
-        <title>3-1 類似検索 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>3-1 コサイン類似度 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -165,7 +165,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3-1 類似検索
+              3-1 コサイン類似度
             
           </span>
         </div>
@@ -652,8 +652,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -879,34 +877,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../09b_narrative_car/" class="md-nav__link">
         
   
@@ -914,7 +884,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1030,7 +1000,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1048,7 +1018,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1890,10 +1860,11 @@
 
 
 
-<h1 id="_1">数値特徴量で「類似決算」を検索する ― 丸紅の個別ショックを類似群との乖離で発見</h1>
+<h1 id="_1">コサイン類似度 ― 数値特徴量で「類似決算」を発見</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/10_similar_earnings_search/00_thumbnail.png" data-desc-position="bottom"><img alt="類似決算検索" src="../img/10_similar_earnings_search/00_thumbnail.png" width="1280"></a></p>
-<p>XBRL を JSON 化した <strong>構造化データ</strong> から、本記事では <strong>10 次元の数値特徴量ベクトル</strong> を抽出し、<strong>コサイン類似度</strong> で「似た決算」を発見します。</p>
-<p>「類似決算検索」の真価は <strong>発見した類似群の CAR と、クエリ銘柄自身の CAR を比較すること</strong> にあります。CAR（累積超過リターン ＝ 個別リターン − ベンチマーク）を 2026/3 期 announcement にも拡張し、<strong>丸紅（8002）の類似 Top-15 が平均 CAR +2.43%・勝率 60% だったのに対し、丸紅自身は -9.39%</strong> という強い乖離を発見します。これは「数字パターン上は同業並みの好決算なのに、市場は個別要因で売った」という <strong>数値類似だけでは捉えきれない市場の個別反応</strong> です。</p>
+<p>「類似決算検索」の真価は <strong>発見した類似群の CAR と、クエリ銘柄自身の CAR を比較すること</strong> にあります。本記事では、XBRL を JSON 化した <strong>構造化データ</strong> から<strong>10 次元の数値特徴量ベクトル</strong> を抽出し、<strong>コサイン類似度</strong> で「似た決算」を発見します。</p>
+<p class="fig-meta">データ出典: 自前パイプラインの `data/statements/*_2026-03-31_FY.json`（kind="actual" 232 銘柄）、`data/news/tdnet/2026-04~05-*.csv`（決算短信 3,549 件）。実装は `scripts/blog15_similarity.py`（特徴量抽出 + 類似度 + ad-hoc CAR）と `scripts/blog15_generate_images.py`。実 embedding API は呼んでいません（数値特徴量のみで完結）</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://atmarkit.itmedia.co.jp/ait/articles/2112/08/news020.html" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -1994,6 +1965,7 @@
 <p>10 次元特徴量の z-score 正規化と cosine 類似度、丸紅・双日・ＥＮＥＯＳ を query にした類似 Top-15、2026/3 期 announcement の ad-hoc CAR、「類似群 vs 自身」の乖離による個別ショック発見、PCA 2D 投影、数値特徴量 vs LLM embedding の使い分け ― までを扱います（実 embedding API・ベクトル DB は使わず、ローカル計算で完結）。</p>
 <h2 id="_6">分析で分かったこと</h2>
 <h3 id="20263-top-15">丸紅 2026/3 期通期の類似 Top-15</h3>
+<p>CAR（累積超過リターン ＝ 個別リターン − ベンチマーク）を 2026/3 期 announcement にも拡張し、<strong>丸紅（8002）の類似 Top-15 が平均 CAR +2.43%・勝率 60% だったのに対し、丸紅自身は -9.39%</strong> という強い乖離を発見します。これは「数字パターン上は同業並みの好決算なのに、市場は個別要因で売った」という <strong>数値類似だけでは捉えきれない市場の個別反応</strong> です。</p>
 <p>丸紅 2026/3 期通期（売上 8.27 兆円 +6.1%、純利益 5,439 億円 +8.1%、配当 95→107.5 円）を query に類似 Top-15 を抽出した結果：</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
@@ -2188,7 +2160,7 @@
 </tr>
 </tbody>
 </table>
-<p>初動 [−1,+1] は類似群を上回る「ポジショック」でしたが、5 日で逆転しました。在庫影響を除けば「実質 4,400 億維持」を上回る着地が初動で好感され、その後に高 OPM セグメントの正常化懸念が後追いした、と読めます。短期サプライズの裏で構造変化が同時進行する複層銘柄で、構造面の詳細は連載 1-3／2-6／2-8 に譲ります。</p>
+<p>初動 [−1,+1] は類似群を上回る「ポジショック」でしたが、5 日で逆転しました。在庫影響を除けば「実質 4,400 億維持」を上回る着地が初動で好感され、その後に高 OPM セグメントの正常化懸念が後追いした、と読めます。短期サプライズの裏で構造変化が同時進行する複層銘柄で、構造面の詳細は連載 1-3／2-6／2-7 に譲ります。</p>
 <h3 id="vs-car">「類似 vs 自身」の CAR 分布比較</h3>
 <p>クエリ銘柄自身の CAR（赤）を、類似 Top-15 の CAR 分布（緑）に重ねると、両者の乖離 ＝ 個別ショックの有無が一目で分かります。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
@@ -2266,21 +2238,19 @@
 <li>丸紅 query の <strong>類似 Top-15 に総合商社 5 社が自動クラスタリング</strong>（業種コード不使用）。平均 CAR[-1,+5] = <strong>+2.43%・勝率 60%</strong> の健全プロファイル群</li>
 <li>しかし <strong>丸紅自身は -9.39%（-11.82pp の乖離）</strong> ― 数字では捕捉できない <strong>個別ショック</strong>。<strong>説明会・追加 IR の重要性を逆説的に証明</strong></li>
 <li>数値特徴量 vs LLM embedding は <strong>ハイブリッド</strong>（数値で高速 Top-50 → embedding で精密 Top-10）。PCA 2D 投影でも Top-5 は近接</li>
-<li><strong>ＥＮＥＯＳ</strong>：初動 [-1,+1]=<strong>+1.36%（ポジ）</strong> が 5 日で <strong>−4.68%</strong> に反転した複層銘柄（構造面の詳細は 1-3／2-6／2-8）</li>
+<li><strong>ＥＮＥＯＳ</strong>：初動 [-1,+1]=<strong>+1.36%（ポジ）</strong> が 5 日で <strong>−4.68%</strong> に反転した複層銘柄（構造面の詳細は 1-3／2-6／2-7）</li>
 </ul>
 <p>次回は <strong>過去類似決算の値動き分布から未来予測を構築</strong> します。本記事の Top-15 の CAR を「予測分布」として扱い、「類似群と自身の乖離」の検出も組み込んで、<strong>「典型パターン or 個別ショック」を事前判定</strong> する枠組みに発展させます。</p>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>類似決算検索の計算方法（10 次元特徴量・z-score 正規化・コサイン類似度・2026/3 期 ad-hoc CAR）</strong>は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/10_similarity" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/10_similarity</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 <hr>
-<p><em>データ出典: 自前パイプラインの <code>data/statements/*_2026-03-31_FY.json</code>（kind="actual" 232 銘柄）、<code>data/news/tdnet/2026-04~05-*.csv</code>（決算短信 3,549 件）。実装は <code>scripts/blog15_similarity.py</code>（特徴量抽出 + 類似度 + ad-hoc CAR）と <code>scripts/blog15_generate_images.py</code>。実 embedding API は呼んでいません（数値特徴量のみで完結）</em></p>
 
 
 

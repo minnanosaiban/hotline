@@ -652,8 +652,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -879,34 +877,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../09b_narrative_car/" class="md-nav__link">
         
   
@@ -914,7 +884,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1021,7 +991,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1672,6 +1642,8 @@
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_random_forest/00_thumbnail.png" data-desc-position="bottom"><img alt="ランダムフォレスト" src="../img/13_random_forest/00_thumbnail.png" width="1280"></a></p>
 <p>「機械学習を使えば、決算の良し悪しから株価の反応を予測できるはず」。そう期待したくなります。前回（3-2）は K-NN 回帰でそれを試し、見事に失敗しました。本記事は <strong>ランダムフォレスト</strong> という別の手法で、もう一度「決算 10 指標から CAR（決算前後の超過リターン）の上下を当てられるか」を検証します。</p>
 <p>結論を先に書くと <strong>当てられません</strong>。しかもその過程で、<strong>「特徴量重要度」という指標そのものの落とし穴</strong> が見えてきます。</p>
+<p class="fig-meta">データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量）と `events_2026.parquet`（2026/3 期 CAR、287 銘柄でマッチ）。実装は `scripts/blog18_random_forest.py`（RF + 交差検証 + permutation 重要度）と `scripts/blog18_generate_images.py`。乱数シードは 42 固定</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/random-forest/" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -1705,7 +1677,7 @@
 </ul>
 <h2 id="eneos">ＥＮＥＯＳ ― モデルの予測はコイン投げ</h2>
 <p>本連載の中核 ＥＮＥＯＳ について、ランダムフォレストが出した上昇確率は <strong>0.53</strong>（ほぼ五分五分）。一方、実際の CAR[-1,+5] は <strong>−4.68%（下落）</strong> でした。</p>
-<p>つまりモデルは「分からない」と言ったに等しく、結果も外しています。ＥＮＥＯＳ を動かしたのは決算の数値ではなく、連載 2-8（二重 CAR）で見た <strong>業績予想修正への市場反応</strong> や、のれん減損・在庫影響といった <strong>数値外の構造要因</strong> でした。数字のパターンからは、やはり読めません。</p>
+<p>つまりモデルは「分からない」と言ったに等しく、結果も外しています。ＥＮＥＯＳ を動かしたのは決算の数値ではなく、連載 2-7（CAR）で見た <strong>業績予想修正への市場反応</strong> や、のれん減損・在庫影響といった <strong>数値外の構造要因</strong> でした。数字のパターンからは、やはり読めません。</p>
 <h2 id="_5">まとめ</h2>
 <ul>
 <li>ランダムフォレストでも CAR の方向は当てられない（<strong>CV 正解率 0.589 &lt; ベースライン 0.599</strong>、AUC 0.55）。K-NN（3-2）と独立に同じ結論</li>
@@ -1717,14 +1689,12 @@
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>ランダムフォレストの実装</strong>（交差検証・ホールドアウト・permutation importance・impurity との比較）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/13_random_forest" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/13_random_forest</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 <hr>
-<p><em>データ出典: 自前パイプラインの <code>data/blog15/features.parquet</code>（決算 10 次元特徴量）と <code>events_2026.parquet</code>（2026/3 期 CAR、287 銘柄でマッチ）。実装は <code>scripts/blog18_random_forest.py</code>（RF + 交差検証 + permutation 重要度）と <code>scripts/blog18_generate_images.py</code>。乱数シードは 42 固定</em></p>
 
 
 

@@ -652,8 +652,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -879,34 +877,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../09b_narrative_car/" class="md-nav__link">
         
   
@@ -914,7 +884,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1021,7 +991,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1716,6 +1686,8 @@
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/00_thumbnail.png" data-desc-position="bottom"><img alt="突発材料の異常検知" src="../img/15_price_anomaly/00_thumbnail.png" width="1280"></a></p>
 <p>前回（3-5）、値動きの相関で「いつも一緒に動く仲間（クラスタ）」が見えました。ここで自然な問いが生まれます ―「<strong>その仲間から、ある銘柄だけが突然はずれる日はあるのか？</strong>」。</p>
 <p>買収提案、TOB、業績修正、事故 ― 個別の材料は、<strong>その 1 社だけ</strong> を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、<strong>突発材料が出た銘柄をその日のうちに拾える</strong> はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 で作った「個別ショック検出器」の、<strong>決算発表に依らない常時監視版</strong> です。</p>
+<p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 281 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://ja.wikipedia.org/wiki/異常検知" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -1799,7 +1771,7 @@
 <li>上段：いつもの石油ピアとの連動が、ENEOS 固有の材料が出た局面でだけ切れている</li>
 <li>下段：ピアで説明できない累積リターン（ENEOS 固有分）は 2025 年央から拡大</li>
 </ul>
-<p>これは連載 <strong>2-8（二重 CAR）</strong> で業界の動きを除いて測った市場反応を、<strong>イベント窓ではなく毎日・教師なしで監視する常時版</strong> にあたります。</p>
+<p>これは連載 <strong>2-7（CAR）</strong> で業界の動きを除いて測った市場反応を、<strong>イベント窓ではなく毎日・教師なしで監視する常時版</strong> にあたります。</p>
 <h2 id="_4">毎日の見張り ― いつ点灯するか</h2>
 <p>日ごとに「いつもと違う動き」をした銘柄数を数えると、検出器の使い方が見えます。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/05_daily_monitor.png" data-desc-position="bottom"><img alt="毎日の見張り" src="../img/15_price_anomaly/05_daily_monitor.png" width="1200"></a></p>
@@ -1818,7 +1790,7 @@
 <ul>
 <li>入力を「値動きそのもの」にして、<strong>予測ではなく検出</strong> に徹した。PCA の <strong>残差（実際 − 共通成分）</strong> が大きい日＝個別材料が出た日</li>
 <li>検出器は <strong>セブン＆アイ +23.8%（買収提案）／豊田自動織機 +21.7%（TOB）／日本航空電子 −18.3%</strong> など、<strong>市場が動かないのにその銘柄だけ動いた日</strong> を上げ下げ両方向で的中</li>
-<li><strong>ＥＮＥＯＳ は石油ピアとの相関が 0.47 まで急落</strong>（2025-03-28 業績予想修正の前後）。連載 2-8 の二重 CAR を毎日・教師なしで監視する常時版</li>
+<li><strong>ＥＮＥＯＳ は石油ピアとの相関が 0.47 まで急落</strong>（2025-03-28 業績予想修正の前後）。連載 2-7 の CAR を毎日・教師なしで監視する常時版</li>
 <li>毎日の銘柄数は <strong>決算シーズンにスパイク</strong> ― 個別材料の集中を自動で可視化する「見張り」になる</li>
 <li>限界も明確：検出できるのは「個別材料が出た日」で、不正の判定でも未来予言でもない。<strong>“発見・トリアージ”の道具</strong></li>
 </ul>
@@ -1827,14 +1799,12 @@
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>異常検知の計算方法</strong>（PCA 再構成・残差による異常度・ピア残差・突発材料抽出・毎日の銘柄数）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/15_price_anomaly" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/15_price_anomaly</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 <hr>
-<p><em>データ出典: yfinance 日次 Close（<code>auto_adjust=True</code>）<code>data/prices/stocks/daily/*.parquet</code>、直近 499 営業日 281 銘柄。実装は <code>scripts/blog/15_price_anomaly_make_images.py</code>（PCA 残差 + ピア残差 + 突発材料抽出）。出力は <code>data/blog19/anomaly_events.csv</code> / <code>eneos_decoupling.csv</code>。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</em></p>
 
 
 

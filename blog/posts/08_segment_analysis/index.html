@@ -654,8 +654,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -1020,34 +1018,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../09b_narrative_car/" class="md-nav__link">
         
   
@@ -1055,7 +1025,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1162,7 +1132,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1727,7 +1697,9 @@
 <h1 id="_1">セグメント分析 ― 発進力スコアリングで隠れた高収益事業を発掘</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/08_segment_analysis/00_thumbnail.png" data-desc-position="bottom"><img alt="セグメント発進力" src="../img/08_segment_analysis/00_thumbnail.png" width="1280"></a></p>
 <p>「PER 20 倍、ROE 10% ― この会社は割高で高収益」。こうした全社平均では、<strong>裏でどの事業が伸び、どの事業が縮んでいるか</strong> までは見えません。</p>
-<p>本記事は <strong>XBRL を JSON 化した自前パイプライン</strong> で決算を <strong>事業セグメント別</strong> に分解し、「次の主力事業」と「隠れた高収益事業」を発掘します。</p>
+<p>本記事では、<strong>XBRL を JSON 化した自前パイプライン</strong> で決算を <strong>事業セグメント別</strong> に分解し、「次の主力事業」と「隠れた高収益事業」を発掘します。</p>
+<p class="fig-meta">データ出典: 自前で構築したパイプラインの `data/statements/*_FY.json` 1,624 ファイル中、セグメント情報を持つ 634 件（400 銘柄）。前期比成長率は 2 年分時系列を持つ 233 銘柄 × 787 セグメントで計算</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://biz.moneyforward.com/accounting/basic/74240/" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -2077,19 +2049,16 @@
 <li><strong>減速 Worst</strong>：セブン&amp;アイ スーパーストア −47.4% ― 企業合算では見えない再編影響をセグメントで初可視化</li>
 <li><strong>高営業利益率</strong>：マキタ アジア 88.4% / アドバンテスト 50.9% / 東海旅客鉄道 運輸 46.7% / ソニーG 音楽 21.4% ― 寡占・軽資産の高収益事業を発掘</li>
 </ul>
-<p>後編（<a href="../08b_segment_core_stocks/">2-6 コングロマリット</a>）では、この発掘ツールを連載の中核銘柄に接続し、<strong>総合商社（丸紅・双日）の事業転換</strong> と <strong>ＥＮＥＯＳ のピークアウト内訳</strong> を深掘りします。アクルーアル（利益の質）・予想検証（予想の信頼性）・セグメントの 3 分析が同じ方向を指すかを確認します。</p>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>セグメント分析の計算方法</strong>（JSON スキーマからの抽出・前期比成長率・加速判定・アクルーアルとのクロス）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/08_segments" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/08_segments</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 <hr>
-<p><em>データ出典: 自前で構築したパイプラインの <code>data/statements/*_FY.json</code> 1,624 ファイル中、セグメント情報を持つ 634 件（400 銘柄）。前期比成長率は 2 年分時系列を持つ 233 銘柄 × 787 セグメントで計算</em></p>
 
 
 

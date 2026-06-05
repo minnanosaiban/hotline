@@ -652,8 +652,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -879,34 +877,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../09b_narrative_car/" class="md-nav__link">
         
   
@@ -914,7 +884,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1021,7 +991,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1982,8 +1952,10 @@
 
 <h1 id="k-nn">K-NN 回帰で「類似群からの値動き」を予測する ― 失敗が生んだ個別ショック検出器</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/11_knn_prediction/00_thumbnail.png" width="1280"></a></p>
-<p>前回の類似決算検索で「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.43% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました（CAR ＝ 決算発表前後の超過リターン）。本記事ではこのアプローチを <strong>232 銘柄全体に展開</strong> し、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
+<p>本記事では、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
 <p>結論を先に書くと：<strong>K-NN 予測は失敗</strong> しました（全銘柄平均で予測する単純なベースラインにも勝てません）。しかしこの失敗の中に <strong>本連載全体の最も重要な洞察</strong> が含まれています ― 「<strong>機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用</strong>」。本記事はその実証と、<strong>本連載の到達点としてのハイブリッド投資ワークフロー</strong> を提示します。</p>
+<p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（286 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.elastic.co/jp/what-is/knn" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -2518,7 +2490,7 @@
 <tr>
 <td><strong>2. 銘柄分析編</strong></td>
 <td>スクリーニング・利益の質・予想・セグメント・市場反応</td>
-<td>2-1〜2-8</td>
+<td>2-1〜2-7</td>
 <td>GARP・マルチファクター / アクルーアル・予想検証・セグメント / CAR</td>
 </tr>
 <tr>
@@ -2533,14 +2505,12 @@
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>K-NN 予測の実装（K=5/15/30 の交差検証・精度評価・個別ショック抽出・ベースライン比較）</strong>は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/11_knn" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/11_knn</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 <hr>
-<p><em>データ出典: 前回生成した <code>data/blog15/features.parquet</code>（286 銘柄）と <code>events_2026.parquet</code>（2026/3 期 CAR）。実装は <code>scripts/blog16_prediction.py</code>（K-NN 計算 + 個別ショック抽出）と <code>scripts/blog16_generate_images.py</code>。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</em></p>
 
 
 

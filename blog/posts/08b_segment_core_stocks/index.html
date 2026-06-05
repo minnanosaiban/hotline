@@ -13,7 +13,7 @@
         <link rel="prev" href="../08_segment_analysis/">
       
       
-        <link rel="next" href="../09_car_event_study/">
+        <link rel="next" href="../09b_narrative_car/">
       
       
         
@@ -654,8 +654,6 @@
       
         
       
-        
-      
     
     
     
@@ -682,7 +680,7 @@
   <span class="md-ellipsis">
     
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
     
@@ -698,7 +696,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    <i class="fa-solid fa-layer-group"></i> データで銘柄分析編
+    <i class="fa-solid fa-layer-group"></i> 決算データで分析編
   
 
           </label>
@@ -943,38 +941,21 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python コード
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../09_car_event_study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2-7 CAR イベントスタディ
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -994,7 +975,7 @@
   <span class="md-ellipsis">
     
   
-    2-8 ベンチマークと決算
+    2-7 CARで「決算の効き」を測る
   
 
     
@@ -1101,7 +1082,7 @@
   <span class="md-ellipsis">
     
   
-    3-1 類似検索
+    3-1 コサイン類似度
   
 
     
@@ -1585,6 +1566,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python コード
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1611,6 +1603,8 @@
 <li>本連載の中核 <strong>ＥＮＥＯＳ</strong> のピークアウトは、どのセグメントで起きているか</li>
 </ol>
 <p>どちらも同じ <strong>決算短信 XBRL</strong> で読み解きます。</p>
+<p class="fig-meta">データ出典: 自前で構築したパイプラインの `data/statements/*_FY.json`。総合商社 2 社のクロス分析は アクルーアル（利益の質）・予想検証（予想の信頼性）の結果と接続。ＥＮＥＯＳ は 2026/3 期決算短信 XBRL を本記事用に追加取得し 5 セグメントを分析（出光 / コスモエネＨＤ は同期未取得のため対象外）</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.glossary.jp/sec/management/conglomerate-discount.php" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -1658,77 +1652,61 @@
 <thead>
 <tr>
 <th>セグメント</th>
-<th>当期売上</th>
-<th>当期営利</th>
-<th>当期OPM</th>
-<th>前期OPM</th>
-<th>OPM 変化</th>
-<th>営利 YoY</th>
+<th style="text-align: right;">当期売上</th>
+<th style="text-align: right;">営業利益</th>
+<th style="text-align: center;">OPM 前期→当期</th>
+<th style="text-align: left;">状態</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>石油製品ほか</strong>（売上の 92%）</td>
-<td>103,953 億</td>
-<td>2,924 億</td>
-<td>2.81%</td>
-<td>−0.46%</td>
-<td><strong>+3.27pt</strong></td>
-<td>赤字脱却</td>
-</tr>
-<tr>
-<td>電気</td>
-<td>3,492 億</td>
-<td>220 億</td>
-<td>6.30%</td>
-<td>6.56%</td>
-<td>−0.26pt</td>
-<td>+4.9%</td>
-</tr>
-<tr>
-<td><strong>機能材</strong></td>
-<td>3,390 億</td>
-<td>111 億</td>
-<td>3.27%</td>
-<td>5.09%</td>
-<td><strong>−1.82pt</strong></td>
-<td><strong>−37.3%</strong></td>
+<td><strong>石油製品ほか</strong>（売上92%）</td>
+<td style="text-align: right;">103,953 億</td>
+<td style="text-align: right;">2,924 億</td>
+<td style="text-align: center;">−0.5% → 2.8%</td>
+<td style="text-align: left;">🟢 赤字脱却</td>
 </tr>
 <tr>
 <td><strong>石油・天然ガス開発</strong></td>
-<td>2,167 億</td>
-<td>508 億</td>
-<td>23.45%</td>
-<td>36.00%</td>
-<td><strong>−12.54pt</strong></td>
-<td><strong>−41.8%</strong></td>
+<td style="text-align: right;">2,167 億</td>
+<td style="text-align: right;">508 億</td>
+<td style="text-align: center;">36.0% → 23.5%</td>
+<td style="text-align: left;">🔻 正常化（営利 −42%）</td>
+</tr>
+<tr>
+<td><strong>機能材</strong></td>
+<td style="text-align: right;">3,390 億</td>
+<td style="text-align: right;">111 億</td>
+<td style="text-align: center;">5.1% → 3.3%</td>
+<td style="text-align: left;">🔻 −37%（市況悪化）</td>
+</tr>
+<tr>
+<td>電気</td>
+<td style="text-align: right;">3,492 億</td>
+<td style="text-align: right;">220 億</td>
+<td style="text-align: center;">6.6% → 6.3%</td>
+<td style="text-align: left;">▬ 横ばい</td>
 </tr>
 <tr>
 <td>再生可能エネルギー</td>
-<td>487 億</td>
-<td>−9 億</td>
-<td>−1.91%</td>
-<td>−38.39%</td>
-<td>+36.48pt</td>
-<td>赤字縮小</td>
+<td style="text-align: right;">487 億</td>
+<td style="text-align: right;">−9 億</td>
+<td style="text-align: center;">−38.4% → −1.9%</td>
+<td style="text-align: left;">🟢 赤字縮小</td>
 </tr>
 <tr>
 <td><strong>その他</strong></td>
-<td>—</td>
-<td><strong>912 億</strong></td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td><strong>金属 442 億 + NIPPO・連結調整ほか 470 億</strong>（PDF p30）</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;"><strong>912 億</strong></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: left;">金属442 + NIPPO等470</td>
 </tr>
 <tr>
 <td><strong>連結合計</strong></td>
-<td>—</td>
-<td><strong>4,666 億</strong></td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td><strong>公表ベース +25.5%（+949 億）/ 継続事業ベース +339.8%</strong></td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;"><strong>4,666 億</strong></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: left;"><strong>公表 +25.5% / 継続 +339.8%</strong></td>
 </tr>
 </tbody>
 </table>
@@ -1739,13 +1717,40 @@
 <li><strong>機能材</strong>: 「高付加価値素材で利益を安定化」と説明される事業だが、<strong>OPM 5.09% → 3.27%（−1.82pt）、営業利益 −37.3%</strong>。化学市況の悪化が利益率を圧迫している点は注意が必要</li>
 </ul>
 <p>この <strong>「連結回復 vs 高 OPM セグメントの正常化」の二層構造</strong> は、ＥＮＥＯＳ という銘柄の複層性を裏付けます。分析の角度を変えるごとに、別の面が見えてきます。</p>
-<div class="highlight"><pre><span></span><code>割安度（PEG×ROE）      : GARP マップで割安・低 ROE。GARP 圏外でも +29.7% 上昇
-XBRL 業績推移           : 2022 純利 5,371 億（ウクライナ侵攻特殊年）→ 2025 2,261 億 縮小
-アクルーアル（利益の質）: 2022 単年 CF/純利 39% vs 3 年累積 114%（回収済み）
-予想検証（予想の信頼性）: EPS +72.9% vs 経常 ▲0.6% の併存は構造要因（のれん減損・JX金属IPO・自社株買い）で説明可能
-CAR（市場反応）         : 2025-03-28 業績予想修正発表 CAR [-1,+20]=-13.89%（主因は のれん減損・在庫影響 = 構造要因）
-セグメント（本記事）    : 「開発 OPM 36→23%、機能材 OPM 5→3%」と高 OPM セグメントの正常化局面を可視化、連結 +25.5%（公表）/ +339.8%（継続事業ベース）/ 4,666 億、在庫除き 4,744 億 で主張通り着地
-</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>分析の角度</th>
+<th>ＥＮＥＯＳ から見えたこと</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>割安度（PEG×ROE）</td>
+<td>GARP マップで割安・低 ROE。圏外でも +29.7% 上昇</td>
+</tr>
+<tr>
+<td>業績推移（XBRL）</td>
+<td>2022 純利 5,371 億（侵攻特殊年）→ 2025 2,261 億へ縮小</td>
+</tr>
+<tr>
+<td>利益の質（アクルーアル）</td>
+<td>単年 CF/純利 39% vs 3 年累積 114%（回収済み）</td>
+</tr>
+<tr>
+<td>予想の信頼性（予想検証）</td>
+<td>EPS +72.9% と経常 ▲0.6% の併存は構造要因（のれん減損 / JX金属IPO / 自社株買い）</td>
+</tr>
+<tr>
+<td>市場反応（CAR）</td>
+<td>修正発表で CAR[-1,+20] = −13.89%（主因は構造要因）</td>
+</tr>
+<tr>
+<td><strong>セグメント（本記事）</strong></td>
+<td>開発 OPM 36→23% / 機能材 5→3% の正常化を可視化。連結 4,666 億（公表 +25.5% / 継続 +339.8%）</td>
+</tr>
+</tbody>
+</table>
 <p>連結の急回復に騙されず、<strong>石油製品の在庫差益が連結を押し上げた裏で、高 OPM セグメントは正常化局面</strong> ― これが「全体ピークアウト」の内訳です。「ピークアウトか正常化か」は <strong>CF 累積（114%）</strong> とセグメント時系列の継続観察で判断します（<a href="../04_garp_peg_roe/">GARP の記事</a> の 4 基準試算参照）。</p>
 <p>なお出光興産 / コスモエネＨＤ は本記事執筆時点で同期 (2026/3 期) の決算短信 XBRL を未取得です。3 社揃えれば「石油元売 3 社の事業構成比較」が可能になり、割安度・マルチファクター分析で観察された 3 社の株価動向の差をセグメントレベルで説明できる見込みです。</p>
 <h2 id="_2">まとめ</h2>
@@ -1753,8 +1758,16 @@ CAR（市場反応）         : 2025-03-28 業績予想修正発表 CAR [-1,+20]
 <li><strong>丸紅・双日 がセグメントレベルでも「事業転換に成功」している</strong> 確認 ― 3 つの分析で整合したシグナル</li>
 <li><strong>ＥＮＥＯＳ 2026/3 期</strong> は連結営業利益 <strong>4,666 億（公表 +25.5% / 継続事業ベース +339.8%）</strong> の急回復 ― 主因は <strong>石油製品（売上 92%）の赤字脱却</strong>。一方 <strong>主力 2 事業は正常化</strong>（開発 OPM 36→23% / 機能材 5→3%）で、「ピークアウトか正常化か」は継続観察が必要</li>
 </ul>
+<h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
+<p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>セグメント分解の計算方法</strong>（決算短信 XBRL からのセグメント抽出・前期比・OPM 算出・利益の質／予想検証とのクロス）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/08_segments" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/08_segments</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+
 <hr>
-<p><em>データ出典: 自前で構築したパイプラインの <code>data/statements/*_FY.json</code>。総合商社 2 社のクロス分析は アクルーアル（利益の質）・予想検証（予想の信頼性）の結果と接続。ＥＮＥＯＳ は 2026/3 期決算短信 XBRL を本記事用に追加取得し 5 セグメントを分析（出光 / コスモエネＨＤ は同期未取得のため対象外）</em></p>
 
 
 
