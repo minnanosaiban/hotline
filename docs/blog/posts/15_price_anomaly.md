@@ -18,6 +18,8 @@ tags:
 
 買収提案、TOB、業績修正、事故 ― 個別の材料は、**その 1 社だけ** を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、**突発材料が出た銘柄をその日のうちに拾える** はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 で作った「個別ショック検出器」の、**決算発表に依らない常時監視版** です。
 
+<p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 281 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://ja.wikipedia.org/wiki/異常検知" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -81,7 +83,7 @@ tags:
 - 上段：いつもの石油ピアとの連動が、ENEOS 固有の材料が出た局面でだけ切れている
 - 下段：ピアで説明できない累積リターン（ENEOS 固有分）は 2025 年央から拡大
 
-これは連載 **2-8（二重 CAR）** で業界の動きを除いて測った市場反応を、**イベント窓ではなく毎日・教師なしで監視する常時版** にあたります。
+これは連載 **2-7（CAR）** で業界の動きを除いて測った市場反応を、**イベント窓ではなく毎日・教師なしで監視する常時版** にあたります。
 
 ## 毎日の見張り ― いつ点灯するか
 
@@ -104,7 +106,7 @@ tags:
 
 - 入力を「値動きそのもの」にして、**予測ではなく検出** に徹した。PCA の **残差（実際 − 共通成分）** が大きい日＝個別材料が出た日
 - 検出器は **セブン＆アイ +23.8%（買収提案）／豊田自動織機 +21.7%（TOB）／日本航空電子 −18.3%** など、**市場が動かないのにその銘柄だけ動いた日** を上げ下げ両方向で的中
-- **ＥＮＥＯＳ は石油ピアとの相関が 0.47 まで急落**（2025-03-28 業績予想修正の前後）。連載 2-8 の二重 CAR を毎日・教師なしで監視する常時版
+- **ＥＮＥＯＳ は石油ピアとの相関が 0.47 まで急落**（2025-03-28 業績予想修正の前後）。連載 2-7 の CAR を毎日・教師なしで監視する常時版
 - 毎日の銘柄数は **決算シーズンにスパイク** ― 個別材料の集中を自動で可視化する「見張り」になる
 - 限界も明確：検出できるのは「個別材料が出た日」で、不正の判定でも未来予言でもない。**“発見・トリアージ”の道具**
 
@@ -116,12 +118,9 @@ tags:
 
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/15_price_anomaly" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/15_price_anomaly</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 ---
-
-*データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 281 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器*

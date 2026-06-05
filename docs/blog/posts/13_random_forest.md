@@ -18,6 +18,8 @@ tags:
 
 結論を先に書くと **当てられません**。しかもその過程で、**「特徴量重要度」という指標そのものの落とし穴** が見えてきます。
 
+<p class="fig-meta">データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量）と `events_2026.parquet`（2026/3 期 CAR、287 銘柄でマッチ）。実装は `scripts/blog18_random_forest.py`（RF + 交差検証 + permutation 重要度）と `scripts/blog18_generate_images.py`。乱数シードは 42 固定</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/random-forest/" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -61,7 +63,7 @@ tags:
 
 本連載の中核 ＥＮＥＯＳ について、ランダムフォレストが出した上昇確率は **0.53**（ほぼ五分五分）。一方、実際の CAR[-1,+5] は **−4.68%（下落）** でした。
 
-つまりモデルは「分からない」と言ったに等しく、結果も外しています。ＥＮＥＯＳ を動かしたのは決算の数値ではなく、連載 2-8（二重 CAR）で見た **業績予想修正への市場反応** や、のれん減損・在庫影響といった **数値外の構造要因** でした。数字のパターンからは、やはり読めません。
+つまりモデルは「分からない」と言ったに等しく、結果も外しています。ＥＮＥＯＳ を動かしたのは決算の数値ではなく、連載 2-7（CAR）で見た **業績予想修正への市場反応** や、のれん減損・在庫影響といった **数値外の構造要因** でした。数字のパターンからは、やはり読めません。
 
 ## まとめ
 
@@ -76,12 +78,9 @@ tags:
 
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/13_random_forest" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/13_random_forest</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 ---
-
-*データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量）と `events_2026.parquet`（2026/3 期 CAR、287 銘柄でマッチ）。実装は `scripts/blog18_random_forest.py`（RF + 交差検証 + permutation 重要度）と `scripts/blog18_generate_images.py`。乱数シードは 42 固定*
