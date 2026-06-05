@@ -38,7 +38,7 @@ hide:
 Python と 機械学習を使って、株価・決算短信・有報を分析してみました。
 </p>
 
-<p class="large" style="margin-top: 12rem !important; margin-bottom: 1rem !important;">おすすめの読み順</p>
+## おすすめの読み順
 
 
 </div>
@@ -66,12 +66,12 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">読む順 5</span>
-<span class="toc-card-title">2-8 ベンチマーク</span>
-<span class="toc-card-desc">業界の動きを除いた個別決算の効きを検証</span>
+<span class="toc-card-title">2-7 CARで「決算の効き」を測る</span>
+<span class="toc-card-desc">主要5社の個別決算の効きをCARで検証</span>
 </a>
 </div>
 
-<p class="toc-phase-label" style="margin-top: 4rem;">株価分析　全記事</p>
+## 株価分析　全記事
 
 <p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 無料データを取得編</p>
 <div class="toc-grid">
@@ -91,7 +91,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <span class="toc-card-desc">決算そのものを分析、元売3社業績比較</span>
 </a>
 </div>
-<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> データで銘柄分析編</p>
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 決算データで分析編</p>
 <div class="toc-grid">
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">2-1</span>
@@ -111,7 +111,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/07_triangulation/" class="toc-card">
 <span class="toc-card-num">2-4</span>
 <span class="toc-card-title">コンセンサス予想を検証</span>
-<span class="toc-card-desc"> 「予想のズレ」で業績修正の向きを先回り</span>
+<span class="toc-card-desc"> 「予想のズレ」で将来の業績修正の向きを先回り</span>
 </a>
 <a href="posts/08_segment_analysis/" class="toc-card">
 <span class="toc-card-num">2-5</span>
@@ -123,16 +123,10 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <span class="toc-card-title">コングロマリット・ディスカウント</span>
 <span class="toc-card-desc">総合商社・ＥＮＥＯＳをセグメントで読み解く</span>
 </a>
-<a href="posts/09_car_event_study/" class="toc-card">
-<span class="toc-card-num">2-7</span>
-<span class="toc-card-title">CAR イベントスタディ</span>
-<span class="toc-card-desc">「決算後ドリフト(PEAD)」を実証</span>
-</a>
 <a href="posts/09b_narrative_car/" class="toc-card">
-<span class="toc-card-num">2-8</span>
-<span class="toc-card-title">ベンチマークと決算</span>
-<span class="toc-card-desc">TOPIX × セクターで 「個別決算の効き」 を見る</span>
-
+<span class="toc-card-num">2-7</span>
+<span class="toc-card-title">CARで「決算の効き」を測る</span>
+<span class="toc-card-desc">元売・商社 主要5社の市場反応を検証</span>
 </a>
 </div>
 
@@ -140,8 +134,8 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <div class="toc-grid">
 <a href="posts/10_similar_earnings_search/" class="toc-card">
 <span class="toc-card-num">3-1</span>
-<span class="toc-card-title">類似決算検索</span>
-<span class="toc-card-desc">コサイン類似度で似た決算を発見</span>
+<span class="toc-card-title">コサイン類似度</span>
+<span class="toc-card-desc">数値特徴量で「類似決算」を発見</span>
 </a>
 <a href="posts/11_knn_prediction/" class="toc-card">
 <span class="toc-card-num">3-2</span>

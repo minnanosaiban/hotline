@@ -13,9 +13,11 @@ tags:
 
 ![K-NN予測](img/11_knn_prediction/00_thumbnail.png){width="1280"}
 
-前回の類似決算検索で「丸紅 2026/3 期の類似 Top-15 が平均 CAR +2.43% だったのに、丸紅自身は -9.39% だった」という強い乖離を発見しました（CAR ＝ 決算発表前後の超過リターン）。本記事ではこのアプローチを **232 銘柄全体に展開** し、機械学習の **K-Nearest Neighbors（K-NN）回帰** で「**類似決算群の CAR から自身の CAR を予測**」する実装を回します。
+本記事では、機械学習の **K-Nearest Neighbors（K-NN）回帰** で「**類似決算群の CAR から自身の CAR を予測**」する実装を回します。
 
 結論を先に書くと：**K-NN 予測は失敗** しました（全銘柄平均で予測する単純なベースラインにも勝てません）。しかしこの失敗の中に **本連載全体の最も重要な洞察** が含まれています ― 「**機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用**」。本記事はその実証と、**本連載の到達点としてのハイブリッド投資ワークフロー** を提示します。
+
+<p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（286 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.elastic.co/jp/what-is/knn" target="_blank" rel="noopener">
@@ -276,7 +278,7 @@ K=15 が方向一致率では最高（50.9%）、K=30 が RMSE では最低（10
 | フェーズ | 内容 | 連載 | キー指標 |
 |---|---|---|---|
 | **1. データ取得編** | 取得・整形・XBRL→JSON 化 | 1-1〜1-3 | yfinance / EDINET・TDnet / XBRL |
-| **2. 銘柄分析編** | スクリーニング・利益の質・予想・セグメント・市場反応 | 2-1〜2-8 | GARP・マルチファクター / アクルーアル・予想検証・セグメント / CAR |
+| **2. 銘柄分析編** | スクリーニング・利益の質・予想・セグメント・市場反応 | 2-1〜2-7 | GARP・マルチファクター / アクルーアル・予想検証・セグメント / CAR |
 | **3. 機械学習分析編** | 類似検索・予測・分類（実験的トライ） | 3-1〜3-4 | cosine 類似度 / K-NN / クラスタリング / ランダムフォレスト |
 
 ## <i class="fa-brands fa-github"></i> Python コード
@@ -285,12 +287,9 @@ K=15 が方向一致率では最高（50.9%）、K=30 が RMSE では最低（10
 
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/11_knn" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/11_knn</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 ---
-
-*データ出典: 前回生成した `data/blog15/features.parquet`（286 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）*

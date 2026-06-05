@@ -18,6 +18,8 @@ tags:
 
 本記事は **k-means クラスタリング（教師なし学習）** で 287 銘柄の決算を分類し、データだけが描く「決算プロファイルの型」を発見します。そして本連載の中核 **ＥＮＥＯＳ** が、どの型に落ちるのかを見ます。
 
+<p class="fig-meta">データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量、特徴量 7 個以上揃う 287 銘柄）。実装は `scripts/blog17_clustering.py`（k-means + シルエット + PCA）と `scripts/blog17_generate_images.py`。クラスタ番号は乱数依存のため、純利益 YoY 最大の群を型A、営業利益率最大の群を型B と意味で固定</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/k-means-method/" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -93,12 +95,9 @@ tags:
 
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/12_clustering" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/12_clustering</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 ---
-
-*データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量、特徴量 7 個以上揃う 287 銘柄）。実装は `scripts/blog17_clustering.py`（k-means + シルエット + PCA）と `scripts/blog17_generate_images.py`。クラスタ番号は乱数依存のため、純利益 YoY 最大の群を型A、営業利益率最大の群を型B と意味で固定*

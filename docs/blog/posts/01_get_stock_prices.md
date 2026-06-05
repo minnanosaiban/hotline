@@ -20,7 +20,9 @@ tags:
 - parquet 形式で保存する
 - 5分足チャートを描画してみる
 
-までを通します。5分足チャートは Python コードを GitHub に公開しています。それでは、フェーズ1「データ取得編」の出発点です。
+までを通します。ここで作成する 5分足チャートの Python コードは GitHub に公開しています。それでは、フェーズ1「データ取得編」の出発点です。
+
+<p class="fig-meta">データ出典: yfinance 日足・5分足 Close（`auto_adjust=True`）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://github.com/ranaroussi/yfinance" target="_blank" rel="noopener">
@@ -71,7 +73,7 @@ yf.Ticker("5020.T").fast_info.get("lastPrice")
 ```
 
 
-## parquet で保存する
+## 株価は parquet で保存する
 
 取得した DataFrame は、そのまま parquet に書き出せます。
 
@@ -104,21 +106,29 @@ merged.to_parquet(path)
 
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/01_chart_5min</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
-#### 📈 アプリ紹介 ― 寄付・引け・窓開けを一目で確認できる5分足チャート
+## 📌 自作アプリ紹介
 
-貯めた 5分足を複数銘柄まとめてローソク足で表示し、右上に日足ライン、下に日次の騰落率テーブルを添える Streamlit アプリ（Plotly）。寄付・引け・**窓開け**を一目で確認できます。
+
+<div class="keypoint" markdown="span">**― 寄付・引け・窓開けを一目で確認できる5分足チャート ―**</div>
+
+
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01_chart_5min</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+
+Streamlit で作成したアプリです。チャートは、Plotly 。株価は、yfinance で取得し、parquet で保存しています。
 
 - **株価チャートと騰落率テーブルの日付を揃えて**表示し、値動きと前日比を対応づけて読める
 - **縦の境界線**でギャップアップ・ギャップダウンを視覚的に把握しやすく
 - 銘柄コードを **カンマ・スペース・改行**で区切って **複数銘柄を入力**できる
-
-株価は、yfinance で取得し、parquet で保存しています。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
@@ -129,5 +139,3 @@ merged.to_parquet(path)
 
 
 ---
-
-*データ出典: yfinance 日足・5分足 Close（`auto_adjust=True`）*

@@ -18,6 +18,8 @@ tags:
 
 本記事はその教訓に素直に従い、**入力を「決算の数字」から「値動きそのもの」へ替え**、予測ではなく **記述** に徹します。281 銘柄の日次リターンを相関でクラスタリングし、「ほとんど同じ動きの銘柄」と「似た仲間の銘柄」を、銘柄名も業種も伏せたまま機械に見つけさせます。
 
+<p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`。ユニバースは `data/blog15/features.parquet`（特徴量 ≥7 個揃う 281 銘柄）、直近 499 営業日。実装は `scripts/blog/14_price_clustering_make_images.py`（相関距離 + Ward 法 + MDS + ほぼ同一ペア）。出力は `data/blog19/clusters.csv` / `near_identical_pairs.csv`</p>
+
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://ja.wikipedia.org/wiki/クラスター分析" target="_blank" rel="noopener">
 <span class="ref-card-body">
@@ -111,12 +113,9 @@ tags:
 
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/14_price_clustering" target="_blank" rel="noopener">
-<i class="repo-link-icon fa-brands fa-github"></i>
 <span class="repo-link-path">github.com/minnanosaiban/blog/14_price_clustering</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 
 ---
-
-*データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`。ユニバースは `data/blog15/features.parquet`（特徴量 ≥7 個揃う 281 銘柄）、直近 499 営業日。実装は `scripts/blog/14_price_clustering_make_images.py`（相関距離 + Ward 法 + MDS + ほぼ同一ペア）。出力は `data/blog19/clusters.csv` / `near_identical_pairs.csv`*
