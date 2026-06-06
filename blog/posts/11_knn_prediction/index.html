@@ -277,7 +277,7 @@
   
     
   
-  株主総会意見
+  裁判文書公開
 
         </a>
       </li>
@@ -551,7 +551,7 @@
   <span class="md-ellipsis">
     
   
-    1-1 yfinance で「株価」を取得
+    1-1 まず、「株価」を取得する
   
 
     
@@ -1116,24 +1116,13 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        本記事の実装スコープ
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         分析で分かったこと
@@ -1216,7 +1205,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         本連載の到達点 ― ハイブリッド投資ワークフロー
@@ -1224,38 +1213,10 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="本連載の到達点 ― ハイブリッド投資ワークフロー">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        個別投資家のための運用コスト
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI は予測ではなく「発見」のツール
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1267,7 +1228,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         連載の全体像
@@ -1480,7 +1441,7 @@
   <span class="md-ellipsis">
     
   
-    株主総会意見
+    裁判文書公開
   
 
     
@@ -1502,7 +1463,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    株主総会意見
+    裁判文書公開
   
 
           </label>
@@ -1756,24 +1717,13 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        本記事の実装スコープ
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         分析で分かったこと
@@ -1856,7 +1806,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         本連載の到達点 ― ハイブリッド投資ワークフロー
@@ -1864,38 +1814,10 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="本連載の到達点 ― ハイブリッド投資ワークフロー">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        個別投資家のための運用コスト
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AI は予測ではなく「発見」のツール
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1907,7 +1829,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     <span class="md-ellipsis">
       
         連載の全体像
@@ -2006,12 +1928,6 @@
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/01_pipeline.png" data-desc-position="bottom"><img alt="パイプライン全体" src="../img/11_knn_prediction/01_pipeline.png" width="1200"></a></p>
-<div class="highlight"><pre><span></span><code>1. 類似 Top-K（K=5/15/30）
-2. → 各類似銘柄の CAR を取得
-3. → 平均値 = 予測 CAR（K-NN 回帰）
-4. → 自身の実績 CAR と比較
-5. → 誤差大 = 個別ショック銘柄として抽出
-</code></pre></div>
 <p>これは機械学習の <strong>K-Nearest Neighbors 回帰</strong> を決算データに応用したものです。「<strong>最近傍 K 件の目的変数の平均値で予測する</strong>」という最も古典的な手法。</p>
 <h3 id="_3">集計対象とイベント数</h3>
 <table>
@@ -2040,21 +1956,8 @@
 </tr>
 </tbody>
 </table>
-<h3 id="_4">本記事の実装スコープ</h3>
-<div class="highlight"><pre><span></span><code>本記事で扱うこと:
-  ・K=5/15/30 の K-NN 回帰で予測精度（RMSE / 相関 / 方向一致率）を比較
-  ・予測 vs 実績 散布図（個別ショック銘柄の可視化）
-  ・ポジ/ネガ ショック銘柄 Top-10 抽出
-  ・全銘柄平均ベースラインとの比較
-  ・本連載の到達点としてのハイブリッド投資ワークフロー
-
-本記事で扱わないこと:
-  ・時系列クロスバリデーション（過去データで学習 → 未来データで検証）
-  ・特徴量の自動選択（Lasso 等）
-  ・他モデル（Random Forest / XGBoost）との比較
-</code></pre></div>
 <hr>
-<h2 id="_5">分析で分かったこと</h2>
+<h2 id="_4">分析で分かったこと</h2>
 <h3 id="1-k-nn">結論その1: K-NN 予測は失敗した</h3>
 <p>予測 CAR（K=15、類似 Top-15 の平均）と実績 CAR の散布図：</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
@@ -2364,7 +2267,7 @@
 </table>
 <p>本記事のスクリプトを毎日決算シーズンに回せば、<strong>「数値だけ見ると同業並みだが市場が大きく動かした銘柄」をその日のうちに自動抽出</strong> できます。これは個別投資家の <strong>時間配分の最適化</strong> に直結します。</p>
 <hr>
-<h2 id="_6">本連載の到達点 ― ハイブリッド投資ワークフロー</h2>
+<h2 id="_5">本連載の到達点 ― ハイブリッド投資ワークフロー</h2>
 <p>データ取得 → XBRL 活用 → CAR 実測 → 類似検索 → 個別ショック検出、という各分析を、買い候補・要警戒・売り検討の判断につなぐ全体像が次の図です。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/05_strategy_flow.png" data-desc-position="bottom"><img alt="戦略フロー" src="../img/11_knn_prediction/05_strategy_flow.png" width="1200"></a></p>
 <table>
@@ -2411,66 +2314,19 @@
 <p><strong>買い候補</strong>：類似群健全（類似決算検索）× CAR 上昇（市場反応の実測）× 個別ポジショック（本記事）の三拍子。</p>
 <p><strong>要警戒</strong>：類似群と乖離（類似決算検索）× 個別ショック発生（本記事）。<strong>説明会・追加 IR を優先確認</strong>。アクルーアル・予想検証・セグメント情報で質を再評価。</p>
 <p><strong>売り検討</strong>：質低下シグナル（利益の質・予想・セグメント）× CAR 下落（市場反応）× 個別ネガショック（本記事）。</p>
-<h3 id="_7">個別投資家のための運用コスト</h3>
-<table>
-<thead>
-<tr>
-<th>項目</th>
-<th>コスト</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>データ取得（EDINET / TDnet / yfinance）</td>
-<td>0 円（API 公開）</td>
-</tr>
-<tr>
-<td>ストレージ（数 GB）</td>
-<td>0 円〜数百円</td>
-</tr>
-<tr>
-<td>LLM 要約（プライム市場 1,650 銘柄 × Haiku 4.5 / 月）</td>
-<td>数百円〜数千円</td>
-</tr>
-<tr>
-<td>Python 実行環境</td>
-<td>0 円（自前 PC）</td>
-</tr>
-<tr>
-<td><strong>合計（個別投資家の年間ランニング）</strong></td>
-<td><strong>数千円〜数万円</strong></td>
-</tr>
-</tbody>
-</table>
-<p>「証券会社アプリで完結」していた個人投資家分析が、この連載を通じて <strong>AI と機械学習を組み合わせた本格クオンツ並みのワークフロー</strong> に発展しました。それでも年間数千円〜数万円。</p>
-<h3 id="ai">AI は予測ではなく「発見」のツール</h3>
-<p>本記事の最も重要なメッセージ。</p>
-<ul>
-<li>類似決算検索: <strong>業種を自動発見する</strong> が、価格を予言しない</li>
-<li>K-NN 予測: <strong>予測ではなく個別ショック検出に役立つ</strong></li>
-</ul>
-<p>つまり <strong>AI と機械学習は「決算データを整理・発見する道具」であり、「価格予測の魔法」ではない</strong>。この限界を理解した上で活用すれば、<strong>投資家の時間配分が劇的に最適化</strong> されます。本連載の到達点は、この「<strong>AI は時間の節約装置</strong>」という理解です。</p>
+<p>運用コストは、データ取得（EDINET / TDnet / yfinance）・ストレージ・Python 実行がほぼ 0 円、LLM 要約を足しても <strong>年間数千円〜数万円</strong>。本格クオンツ並みの分析が個人の手元で回ります。</p>
+<p>最大の学びは、<strong>AI と機械学習は「価格予測の魔法」ではなく「決算データを整理・発見する道具」</strong> だということ。類似検索は業種を自動発見し、K-NN は予測ではなく個別ショック検出に効く ― 限界を理解して使えば、<strong>投資家の時間配分を最適化</strong> できます。</p>
 <hr>
-<h2 id="_8">まとめ</h2>
+<h2 id="_6">まとめ</h2>
 <ul>
-<li>K-NN 回帰（K=5/15/30）で <strong>類似決算群の平均 CAR から自身の CAR を予測</strong> を 287 銘柄で実証</li>
-<li><strong>予測精度: 相関 r=-0.03、RMSE 10.88%、方向一致率 50.9% ― 全銘柄平均ベースライン (RMSE 10.46%) に負けた</strong></li>
-<li>K を変えても改善せず ― <strong>数値特徴量だけでは決算 CAR の予測は構造的に不可能</strong></li>
-<li><strong>失敗の中に発見</strong>：予測との乖離（|err| 大きい銘柄）は <strong>個別ショック検出器</strong> として極めて有用</li>
-<li>ポジショック Top: 7236 ティラド（+63pp）/ 2371 カカクコム（+34pp）/ 6516 サンデン（+33pp）など、<strong>プロンプト化されていない物語</strong> で市場が動いた銘柄</li>
-<li>ネガショック Top: 5906 エンケイ（-28pp）/ 9629 PCA（-23pp）/ 6469 放電精密（-21pp）など、<strong>資料熟読で見える警戒材料</strong> で売られた銘柄</li>
-<li>主要銘柄の最終結論:<ul>
-<li>丸紅 −9.39% / 双日 −4.25%（誤差 −11.82pp / −6.79pp）= 利益の質・予想・セグメントで「健全」評価でも 2026/3 期は市場で売られた <strong>ネガショック</strong></li>
-<li><strong>ＥＮＥＯＳ [−1,+5]=−4.68%（誤差 −2.37pp）= AI 予測ほぼ的中の「軽いネガ」事例</strong>。初動 [-1,+1] +1.36% の後 5 日で反転。営業利益急回復（4,666 億、公表 +25.5% / 継続事業ベース +339.8%）+ 在庫影響除き 4,744 億で 2025/3 期主張「実質 4,400 億維持」を上回って着地という数字パターンは市場に概ね織り込まれたが、高 OPM セグメント正常化局面の再認識が 5 日で後追い（4 基準試算・セグメント分析と整合）</li>
+<li>K-NN 回帰（K=5/15/30）で類似群の平均 CAR から自身の CAR を予測 ― <strong>相関 r=-0.03 / RMSE 10.88% で全銘柄平均ベースライン（10.46%）に負け、K を変えても改善せず</strong>。数値特徴量だけでは決算 CAR の予測は構造的に不可能</li>
+<li><strong>失敗の中に発見</strong>：予測との乖離（|err| 大）は <strong>個別ショック検出器</strong> として有用 ― ポジ例 ティラド +63pp・カカクコム +34pp（物語で動いた）／ネガ例 エンケイ −28pp・PCA −23pp（資料で見える警戒材料）</li>
+<li>主要銘柄：<strong>丸紅 −9.39% / 双日 −4.25%</strong> は「健全」評価でも市場が売った <strong>ネガショック</strong>。<strong>ＥＮＥＯＳ −4.68%（誤差 −2.37pp）は予測ほぼ的中の「軽いネガ」</strong>（初動 +1.36% → 5 日で反転、高 OPM セグメント正常化の後追い）</li>
+<li>AI 予測は "精度" ではなく <strong>"予測との乖離の大きさ" が情報</strong> ― 乖離大＝要 IR 確認、乖離小＝数字で読める、の二分ワークフロー</li>
 </ul>
-</li>
-<li>AI 予測の "精度" ではなく <strong>"予測との乖離の大きさ" こそが情報</strong>：乖離が大きい銘柄＝要 IR 確認、乖離が小さい銘柄＝数字で読める、という二分されたワークフロー</li>
-<li><strong>AI は予測ではなく「発見」のツール</strong> ― 類似決算検索・K-NN 予測は「業種クラスタ」「個別ショック検出」に強いが、価格予言には弱い</li>
-</ul>
-<p>ここまでで、データ取得から機械学習までの一連のワークフローが形になりました。証券会社アプリから始まり、XBRL 取得・パース・スキーマ設計を経て、最終的に <strong>類似検索 × K-NN × CAR の三位一体ワークフロー</strong> が個人投資家の手元で年間数千円〜数万円で運用可能になりました。<strong>機械学習分析編には、今後も新しい手法を試して追加していく予定です。</strong></p>
-<p>データ駆動投資の時代、投資家の差別化要素は「<strong>データを使う</strong>」から「<strong>データを持つ・整理する・AI と組み合わせる</strong>」に移っています。本連載がそのスタート地点になれば幸いです。</p>
+<p>機械学習分析編は今後も手法を追加していく予定です。データ駆動投資の差別化要素は「データを使う」から「データを持つ・整理する・AI と組み合わせる」へ ― 本連載がそのスタート地点になれば幸いです。</p>
 <hr>
-<h3 id="_9">連載の全体像</h3>
+<h3 id="_7">連載の全体像</h3>
 <table>
 <thead>
 <tr>

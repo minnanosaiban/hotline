@@ -277,7 +277,7 @@
   
     
   
-  株主総会意見
+  裁判文書公開
 
         </a>
       </li>
@@ -551,7 +551,7 @@
   <span class="md-ellipsis">
     
   
-    1-1 yfinance で「株価」を取得
+    1-1 まず、「株価」を取得する
   
 
     
@@ -1341,7 +1341,7 @@
   <span class="md-ellipsis">
     
   
-    株主総会意見
+    裁判文書公開
   
 
     
@@ -1363,7 +1363,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    株主総会意見
+    裁判文書公開
   
 
           </label>
@@ -1687,8 +1687,6 @@
 </a>
 </div>
 
-<!-- more -->
-
 <h2 id="xbrl-json">XBRL は JSON に変換する</h2>
 <p>XBRL は、要素（タグ）と文脈（context）で値を表す XML です。ただし同じ「売上高」でも、会計基準や業種でタグが違います。</p>
 <table>
@@ -1721,21 +1719,38 @@
 <h2 id="json">JSON 化で実現、時系列分析</h2>
 <p>有報 XBRL は過去年度分も無料で取得でき、業績指標の時系列を表現できます。ここでは、3 年分の有報を重ね、7 期分の代表的な業績指標を使って石油元売 3 社のチャートを作成しました。後の連載では、JSON 化したデータを使い、アクルーアル分析やセグメント発進力など、さらに深い分析を行っていきます。</p>
 <h3 id="_1">規模は回復、財務体質はむしろ改善</h3>
-<p>売上高は 3 社とも 2021 年を底に回復し、規模では 🟥ＥＮＥＯＳ が突出します。あわせて自己資本比率を並べると、<strong>3 社とも財務体質をむしろ強めて</strong>きたことがわかります。とくに🟩コスモエネＨＤは 2020 年の 15% から 2025 年は 27% へ大きく改善し、🟥ＥＮＥＯＳ・🟦出光興産も 30% 台へ。<strong>「規模（売上）」と「体質（自己資本比率）」を同じ 7 年で重ねる</strong>と、1 期の損益だけでは見えない安定度まで読めます。</p>
+<p>売上高（左）と自己資本比率（右）を、同じ 7 年で重ねたチャートです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_xbrl_to_json/01_oil_3companies_revenue.png" data-desc-position="bottom"><img alt="石油元売3社の売上高・自己資本比率7年推移" src="../img/03_xbrl_to_json/01_oil_3companies_revenue.png" width="1200"></a></p>
+<ul>
+<li>売上高は 3 社とも 2021 年を底に回復し、規模では <span style="color:#3498db">━</span> <strong>ＥＮＥＯＳ</strong> が突出</li>
+<li>自己資本比率は <strong>3 社とも上昇</strong> ― 規模を取り戻しながら財務体質はむしろ強化</li>
+<li>とくに <span style="color:#5a9a72">━</span> <strong>コスモエネＨＤ</strong> は 2020 年 15% → 2025 年 27% へ大幅改善、ＥＮＥＯＳ・出光も 30% 台へ</li>
+<li>「規模（売上）」と「体質（自己資本比率）」を重ねると、1 期の損益では見えない安定度まで読める</li>
+</ul>
 <h3 id="3-2022">3 社とも 2022 がピーク ― そして直近ピークアウト</h3>
-<p>純利益は 3 社そろって <strong>2022 年がピーク</strong>（🟥ＥＮＥＯＳ 5.4 千億円）。原油高で在庫評価益が膨らんだ特殊年です。ROE も一時 20〜35% まで跳ね上がりました。しかし直近は優良ライン（ROE 10%）前後まで低下し、<strong>「2022 の記憶」と「足元の実力」のギャップ</strong>が見えてきます（2025 はのれん減損などの一時要因も含む）。1 期だけ見ると見誤りますが、<strong>7 年スパンで並べると構造が一目</strong>です。</p>
+<p>純利益（左）と ROE（右）の 7 年推移です。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_xbrl_to_json/02_oil_3companies_ni_roe.png" data-desc-position="bottom"><img alt="石油元売3社の純利益・ROE7年推移" src="../img/03_xbrl_to_json/02_oil_3companies_ni_roe.png" width="1200"></a></p>
 <p><small>※ コスモエネＨＤ・出光興産の 2020 年 ROE は赤字で報告値が非開示のため、純利益÷自己資本で簡易補完しています。</small></p>
+<ul>
+<li>純利益は 3 社そろって <strong>2022 年がピーク</strong>（<span style="color:#3498db">━</span> <strong>ＥＮＥＯＳ</strong> 5.4 千億円）― 原油高で在庫評価益が膨らんだ特殊年</li>
+<li>ROE も一時 <strong>20〜35%</strong> まで急騰、しかし直近は優良ライン（ROE 10%）前後まで低下</li>
+<li><strong>「2022 の記憶」と「足元の実力」のギャップ</strong>が鮮明（2025 はのれん減損などの一時要因も含む）</li>
+<li>1 期だけ見ると見誤るが、<strong>7 年スパンで並べると構造が一目</strong></li>
+</ul>
 <h3 id="cf">営業 CF は健在 ― 利益より「嘘をつきにくい」</h3>
-<p>純利益が落ちても、🟩営業 CFは 3 社ともプラスを維持。本業の現金創出力は健在です。🟥投資 CF・🟦財務 CFと並べれば、稼いだ現金を「投資に回したか／株主に返したか」の経営判断まで読めます。<strong>利益は会計処理で動きますが、現金の出入りは動かしにくい</strong> ― この視点は後の「アクルーアル分析」の記事で深掘りします。</p>
+<p>営業・投資・財務の 3 つのキャッシュフローを、3 社分並べたチャートです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03_xbrl_to_json/03_oil_3companies_cf.png" data-desc-position="bottom"><img alt="石油元売3社のキャッシュフロー7年推移" src="../img/03_xbrl_to_json/03_oil_3companies_cf.png" width="1200"></a></p>
+<ul>
+<li>純利益が落ちても <span style="color:#5a9a72">━</span> <strong>営業 CF</strong> は 3 社ともプラス維持 ― 本業の現金創出力は健在</li>
+<li><span style="color:#c87878">━</span> 投資 CF・<span style="color:#3498db">━</span> 財務 CF と並べると、稼いだ現金を「投資に回したか／株主に返したか」まで読める</li>
+<li><strong>利益は会計処理で動くが、現金の出入りは動かしにくい</strong> ― この視点は後の「アクルーアル分析」で深掘り</li>
+</ul>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。</p>
 <div class="repo-link-wrap">

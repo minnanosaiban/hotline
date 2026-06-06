@@ -20,7 +20,7 @@
   }
   }
 .card-bule {
-  border: 1px solid var(--md-link-color-faint);
+  border: 1px solid var(--md-card-border);
   border-radius: 0;
   padding: 1.6rem 3.2rem;
   box-shadow: none;
@@ -33,6 +33,78 @@
   }
 .card-bule, .card-bule * {
   box-sizing: border-box;
+}
+/* ボックス内アコーディオン（material の details 既定スタイルを打ち消して箱に馴染ませる） */
+.md-typeset details.card-accordion {
+  background: none;
+  border: none;
+  border-top: 1px solid var(--md-card-border);
+  border-radius: 0;
+  box-shadow: none !important;
+  color: inherit;
+  font-size: inherit;
+  margin: 1.4rem 0 0 !important;
+  padding: 0.9rem 0 0 !important;
+  overflow: visible;
+  scroll-margin-top: 4.5rem; /* 固定ヘッダーに隠れないようスクロール位置を調整 */
+}
+/* サマリーをボタン風バーに（一般の人にも「押せる」と分かるように） */
+.md-typeset .card-accordion > summary {
+  display: block;
+  background: #eef0f2 !important;
+  border: 1px solid var(--md-card-border) !important;
+  border-radius: 6px;
+  margin: 0 !important;
+  padding: 0.6rem 1rem 0.6rem 2.2rem !important; /* 左は＋アイコン分のスペース */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--md-typeset-color);
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.md-typeset .card-accordion > summary:hover {
+  background: #e3e6e9 !important;
+  border-color: var(--md-link-color-faint) !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .card-accordion > summary {
+  background: rgba(255, 255, 255, 0.07) !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .card-accordion > summary:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+/* material のノートアイコン（::before）を ＋／－ トグルに置換 */
+.md-typeset .card-accordion > summary::before {
+  content: "＋";
+  background: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  width: auto !important;
+  height: auto !important;
+  top: 50% !important;
+  left: 0.8rem !important;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--md-typeset-color);
+}
+.md-typeset .card-accordion[open] > summary::before {
+  content: "－";
+}
+/* ラベル末尾の動詞を開閉で切り替え（読む／閉じる） */
+.md-typeset .card-accordion > summary .acc-verb::after {
+  content: "読む";
+}
+.md-typeset .card-accordion[open] > summary .acc-verb::after {
+  content: "閉じる";
+}
+/* material の右側トグルシェブロン（::after）を消す */
+.md-typeset .card-accordion > summary::after {
+  display: none !important;
+}
+.md-typeset .card-accordion .accordion-body {
+  margin-top: 0.8rem;
 }
 /* テーブル */
 .table-set{

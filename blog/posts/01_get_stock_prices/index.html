@@ -24,7 +24,7 @@
     
     
       
-        <title>1-1 yfinance で「株価」を取得 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>1-1 まず、「株価」を取得する - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -165,7 +165,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1-1 yfinance で「株価」を取得
+              1-1 まず、「株価」を取得する
             
           </span>
         </div>
@@ -277,7 +277,7 @@
   
     
   
-  株主総会意見
+  裁判文書公開
 
         </a>
       </li>
@@ -560,7 +560,7 @@
   <span class="md-ellipsis">
     
   
-    1-1 yfinance で「株価」を取得
+    1-1 まず、「株価」を取得する
   
 
     
@@ -578,7 +578,7 @@
   <span class="md-ellipsis">
     
   
-    1-1 yfinance で「株価」を取得
+    1-1 まず、「株価」を取得する
   
 
     
@@ -1313,7 +1313,7 @@
   <span class="md-ellipsis">
     
   
-    株主総会意見
+    裁判文書公開
   
 
     
@@ -1335,7 +1335,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    株主総会意見
+    裁判文書公開
   
 
           </label>
@@ -1618,7 +1618,7 @@
 
 <h1 id="yfinance-parquet">まず、「株価」を取得する ― yfinance で取得、parquet 保存からチャートまで</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/01_get_stock_prices/00_thumbnail.png" data-desc-position="bottom"><img alt="株価を取得する" src="../img/01_get_stock_prices/00_thumbnail.png" width="1280"></a></p>
-<p>株価は yfinance から都度ロードして表示することもできますが、<strong>取得制限やパフォーマンスを考えると、取得した株価データは parquet で保存しておくのがベストプラクティス</strong>です（とくに 5 分足は約 60 日で消えるため、貯める価値が高い）。本記事では、</p>
+<p>株価は yfinance から都度ロードして表示することもできますが、取得制限やパフォーマンスを考えると、<strong>取得した株価データは parquet で保存しておくのがベストプラクティス</strong>です（とくに 5 分足は約 60 日で消えるため、貯める価値が高い）。本記事では、</p>
 <ul>
 <li>yfinanceから株価を取得する</li>
 <li>parquet 形式で保存する</li>
@@ -1635,8 +1635,6 @@
 </span>
 </a>
 </div>
-
-<!-- more -->
 
 <h2 id="_1">なぜ、ローカルに株価を貯めるのか</h2>
 <p>yfinance で取れる株価は、足の種類で取得できる期間が大きく違います。</p>
