@@ -12,7 +12,7 @@ nav:
   - 株 × Python × ML:
       - blog/index.md
       - <i class="fa-solid fa-layer-group"></i> 無料データを取得編:
-          - 1-1 yfinance で「株価」を取得: blog/posts/01_get_stock_prices.md
+          - 1-1 まず、「株価」を取得する: blog/posts/01_get_stock_prices.md
           - 1-2 EDINET・TDnet 等を活用: blog/posts/02_collect_other_data.md
           - 1-3 決算 XBRL を JSON に変換: blog/posts/03_xbrl_to_json.md
       - <i class="fa-solid fa-layer-group"></i> 決算データで分析編:
@@ -30,7 +30,7 @@ nav:
           - 3-4 ランダムフォレスト: blog/posts/13_random_forest.md
           - 3-5 値動きクラスタリング: blog/posts/14_price_clustering.md
           - 3-6 突発材料の異常検知: blog/posts/15_price_anomaly.md
-  - 株主総会意見:
+  - 裁判文書公開:
       - trial/index.md
       - <i class="bi bi-chevron-compact-right"></i> 背景と事実 : fact/index.md          
       - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : trial/eneos.md     

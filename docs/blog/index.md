@@ -26,7 +26,7 @@ hide:
 <style>.md-typeset h1 { display: none !important; }</style>
 
 <p>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=株主総会意見 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -77,7 +77,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <div class="toc-grid">
 <a href="posts/01_get_stock_prices/" class="toc-card">
 <span class="toc-card-num">1-1</span>
-<span class="toc-card-title">yfinance で「株価」を取得</span>
+<span class="toc-card-title">まず、「株価」を取得する</span>
 <span class="toc-card-desc">parquet 保存からチャートまで、自作アプリも</span>
 </a>
 <a href="posts/02_collect_other_data/" class="toc-card">
