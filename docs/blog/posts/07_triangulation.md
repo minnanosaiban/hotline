@@ -65,8 +65,8 @@ tags:
 
 今回は、データがそろっている 211 銘柄を使って分析します。
 
-🟩左上　<i class="fa-solid fa-star"></i> 上方修正期待　「保守ガイダンス × アナリスト強気」　
-🟥右下　<i class="fa-solid fa-triangle-exclamation"></i> 達成困難予想　「強気ガイダンス × アナリスト懐疑」　
+<span style="color:#5a9a72">■</span> 左上　<i class="fa-solid fa-star"></i> 上方修正期待　「保守ガイダンス × アナリスト強気」　
+<span style="color:#c87878">■</span> 右下　<i class="fa-solid fa-triangle-exclamation"></i> 達成困難予想　「強気ガイダンス × アナリスト懐疑」　
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
