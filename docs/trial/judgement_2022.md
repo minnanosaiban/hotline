@@ -36,10 +36,13 @@ hide:
 ## 東京地裁　判決文
 
 <div class="width-40" markdown>
-<p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos_judgment_2022.12.22.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos_judgment_2022.12.22.pdf" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-filetype-pdf"></i>
+<span class="repo-link-path">ＰＤＦの用意があります</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
-</p>
+</div>
 <p class="doc">
 令和４年１２月２２日判決言渡　同日原本領収　裁判所書記官
 </p>

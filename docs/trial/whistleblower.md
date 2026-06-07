@@ -56,10 +56,13 @@ hide:
 <div class="width-40" markdown>
 <a name="hoju2"></a>
 ## 控訴理由補充書（２）
-<p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-filetype-pdf"></i>
+<span class="repo-link-path">ＰＤＦの用意があります</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
-</p>
+</div>
 <p  class="doc">
 <b>控訴理由補充書（２）</b>
 </p>
@@ -181,10 +184,13 @@ hide:
 
 <a name="hoju1"></a>
 ## 控訴理由補充書（１）
-<p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-filetype-pdf"></i>
+<span class="repo-link-path">ＰＤＦの用意があります</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
-</p>
+</div>
 <p  class="doc">
 <b>控訴理由補充書（１）</b>
 </p>
@@ -518,10 +524,13 @@ hide:
 
 <a name="kouso"></a>
 ## 控訴理由書
-<p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-filetype-pdf"></i>
+<span class="repo-link-path">ＰＤＦの用意があります</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
-</p>
+</div>
 <p  class="doc">
 <b>控訴理由書</b>
 </p>
@@ -1100,10 +1109,13 @@ hide:
 
 <a name="dai5"></a>
 ## 原告第５準備書面
-<p  class="doc">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" class="arrow-link" ><span class="arrow2"><i class="bi bi-filetype-pdf" style="font-size: 2em;"></i>　</span>ＰＤＦの用意があります
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-filetype-pdf"></i>
+<span class="repo-link-path">ＰＤＦの用意があります</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
-</p>
+</div>
 <p  class="doc">
 <b>原告第５準備書面</b>
 </p>

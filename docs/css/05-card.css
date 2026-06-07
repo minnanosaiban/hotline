@@ -20,7 +20,7 @@
   }
   }
 .card-bule {
-  border: 1px solid var(--md-card-border);
+  border: 1px solid var(--md-card-border-soft);
   border-radius: 0;
   padding: 1.6rem 3.2rem;
   box-shadow: none;
@@ -38,7 +38,6 @@
 .md-typeset details.card-accordion {
   background: none;
   border: none;
-  border-top: 1px solid var(--md-card-border);
   border-radius: 0;
   box-shadow: none !important;
   color: inherit;
@@ -182,16 +181,40 @@
   color: #aaaaaa;
 }
 
-/* 音声カード */
+/* =========================================================
+   音声解説カード（コンパクト）
+   .card-bule の中に .audio-content を持つボックスだけを対象。
+   index（.trial-page）・各サブページ共通で効かせるため :has() で指定。
+   ========================================================= */
+.card-bule:has(.audio-content) {
+  max-width: 26rem !important;        /* 40rem → 26rem */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 1rem 1.25rem !important;   /* 1.6rem 3.2rem → 圧縮 */
+  border-radius: 6px;
+}
+/* タイトル（🎙️行）：1.8em → 1.15em・余白詰め */
+.card-bule:has(.audio-content) .larger {
+  font-size: 1.15em !important;
+  line-height: 1.45 !important;
+  margin: 0 0 0.55rem !important;
+}
+/* 音声プレーヤー枠：margin02(2rem) を打ち消して詰める */
+.card-bule:has(.audio-content) .audio-content {
+  margin: 0 0 0.5rem !important;
+}
+/* 注記（NotebookLM・ソース・日付）：控えめ・余白なし */
+.card-bule:has(.audio-content) .smallest {
+  margin: 0 !important;
+  line-height: 1.7 !important;
+  color: var(--md-default-fg-color--light) !important;
+}
+
+/* 音声プレーヤー本体：コンパクト箱の幅いっぱいに */
 .audio-content audio {
   width: 100% !important;
-  max-width: 16rem;  /* PCでは最大幅を制限 */
+  max-width: 100%;
   display: block;
   height: 40px;
   margin: 0 auto;
-}
-@media only screen and (max-width: 767px) {
-  .audio-content audio {
-    max-width: 100%;
-  }
 }
