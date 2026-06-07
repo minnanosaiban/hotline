@@ -24,7 +24,7 @@
     
     
       
-        <title>3-3 クラスタリング - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>3-3 K-means クラスタリング - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -70,7 +70,9 @@
     
       <link rel="stylesheet" href="../../../css/10-blog-reset.css">
     
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap">
+      <link rel="stylesheet" href="../../../css/11-trial.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;family=Noto+Serif+JP:wght@400;700&amp;display=swap">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     
@@ -133,7 +135,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#3" class="md-skip">
+        <a href="#k-means" class="md-skip">
           Skip to content
         </a>
       
@@ -165,7 +167,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3-3 クラスタリング
+              3-3 K-means クラスタリング
             
           </span>
         </div>
@@ -884,7 +886,7 @@
   <span class="md-ellipsis">
     
   
-    2-7 CARで「決算の効き」を測る
+    2-7 CARで見る「決算の効き」
   
 
     
@@ -1019,7 +1021,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN予測
+    3-2 K-NN 回帰
   
 
     
@@ -1056,7 +1058,7 @@
   <span class="md-ellipsis">
     
   
-    3-3 クラスタリング
+    3-3 K-means クラスタリング
   
 
     
@@ -1074,7 +1076,7 @@
   <span class="md-ellipsis">
     
   
-    3-3 クラスタリング
+    3-3 K-means クラスタリング
   
 
     
@@ -1111,7 +1113,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3_1" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
         型マップで「3 つの決算プロファイル」を観測
@@ -1216,7 +1218,7 @@
   <span class="md-ellipsis">
     
   
-    3-5 値動きクラスタリング
+    3-5 階層型クラスタリング
   
 
     
@@ -1244,7 +1246,7 @@
   <span class="md-ellipsis">
     
   
-    3-6 突発材料の異常検知
+    3-6 PCA 異常検知
   
 
     
@@ -1284,8 +1286,6 @@
       
         
           
-        
-      
         
       
         
@@ -1361,14 +1361,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../fact/" class="md-nav__link">
+      <a href="../../../trial/eneos_claims/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    <i class="bi bi-chevron-compact-right"></i> 背景と事実
+    <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳはこう主張！
   
 
     
@@ -1494,34 +1494,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../summary/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    <i class="bi bi-chevron-compact-right"></i> 法制度の不備
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -1567,7 +1539,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3_1" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
         型マップで「3 つの決算プロファイル」を観測
@@ -1638,7 +1610,7 @@
 
 
 
-<h1 id="3">クラスタリングで「決算の型」を発見する ― 教師なし学習が分けた 3 プロファイル</h1>
+<h1 id="k-means">K-means クラスタリング ― 教師なし学習が分けた「決算の型」</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/00_thumbnail.png" data-desc-position="bottom"><img alt="決算クラスタリング" src="../img/12_earnings_clustering/00_thumbnail.png" width="1280"></a></p>
 <p>「商社っぽい決算」「いかにも成長株らしい数字」。決算の "型" は、つい主観で語ってしまいます。では、銘柄名も業種も伏せて <strong>10 個の数値だけ</strong> を機械に渡し、「似た者どうし」に勝手に分類させたら、どんな型が出てくるでしょうか。</p>
 <p>本記事は <strong>k-means クラスタリング（教師なし学習）</strong> で 287 銘柄の決算を分類し、データだけが描く「決算プロファイルの型」を発見します。そして本連載の中核 <strong>ＥＮＥＯＳ</strong> が、どの型に落ちるのかを見ます。</p>
@@ -1665,7 +1637,7 @@
 <li>シルエットは <strong>K=2〜3 が高く（0.30 前後）、K≧4 で 0.19 以下に低下</strong>。決算は本質的に「少数の型」に分かれることを示します</li>
 <li>本記事は <strong>解釈しやすい K=3</strong> を採用。2 つだと「高収益 vs その他」で終わり、4 つ以上は分離が弱まるため</li>
 </ul>
-<h2 id="3_1">型マップで「3 つの決算プロファイル」を観測</h2>
+<h2 id="3">型マップで「3 つの決算プロファイル」を観測</h2>
 <p>10 次元を PCA で 2 次元に落として可視化すると、<strong>3 つの型がはっきり分かれます</strong>。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/02_cluster_map.png" data-desc-position="bottom"><img alt="決算プロファイルの型マップ" src="../img/12_earnings_clustering/02_cluster_map.png" width="1200"></a></p>
 <table>

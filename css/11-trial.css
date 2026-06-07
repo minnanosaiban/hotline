@@ -1,0 +1,76 @@
+/* =========================================================
+   trial/index.md 専用レイアウト（.trial-page でスコープ）
+   方針:
+   ・罫線で区切らず、一定リズムの余白でセクションを分ける
+   ・タイトルは「太字」ではなく「大きさ」で見せる（Home は太字のまま）
+   ・余白などの数値はこのファイルに集約（HTML 側はクラス名のみ）
+   ========================================================= */
+.trial-page {
+  --t-section-gap: 6rem;   /* セクション間の余白 */
+  --t-item-gap: 2.5rem;    /* カード・項目間の余白 */
+  --t-card-width: 40rem;   /* カードの共通幅 */
+}
+
+/* --- セクション見出し（中央・アクセント色・太字なし／大きさで見せる） --- */
+.trial-page .t-head {
+  text-align: center;
+  margin: var(--t-section-gap) auto var(--t-item-gap);
+}
+.trial-page .t-head p {
+  margin: 0 !important;
+  color: var(--md-accent-color) !important;
+}
+.trial-page .t-head p + p {
+  margin-top: 0.6rem !important; /* タイトルとサブの間 */
+}
+
+/* --- 目次の見出し（blog の h2 と同じデザイン：┃マーカー・下線なし・2.0em・細字） --- */
+.trial-page .t-toc-head {
+  text-align: left;
+  margin: var(--t-section-gap) 0 1.2rem !important;
+  font-size: 2.0em;
+  line-height: 1.3;
+  font-weight: 300;
+  color: var(--md-typeset-color);
+}
+.trial-page .t-toc-head::before {
+  content: "";
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.92em;
+  background-color: var(--md-link-color);
+  margin-right: 0.5em;
+  vertical-align: -0.08em;
+  border-radius: 1px;
+}
+/* t-toc-head 直後のリード段落は見出しとの間隔を詰める */
+.trial-page .t-toc-head + p {
+  margin-top: -0.8rem !important;
+}
+
+/* --- カード（音声・Q&A）を共通幅で中央寄せに統一 --- */
+.trial-page .card-bule {
+  max-width: var(--t-card-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* カード間の余白を一元管理 */
+.trial-page .t-card {
+  margin-top: var(--t-item-gap);
+}
+/* 補足（※）テキスト：カード幅に合わせて中央寄せ・控えめ */
+.trial-page .t-note {
+  max-width: var(--t-card-width);
+  margin: 0.8rem auto 0 !important;
+  font-size: 12px !important;
+  line-height: 1.85 !important;
+  color: var(--md-default-fg-color--light) !important;
+}
+
+/* --- スマホ：余白をやや詰める --- */
+@media only screen and (max-width: 767px) {
+  .trial-page {
+    --t-section-gap: 4rem;
+    --t-item-gap: 2rem;
+  }
+}

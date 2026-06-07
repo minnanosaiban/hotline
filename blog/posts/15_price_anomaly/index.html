@@ -24,7 +24,7 @@
     
     
       
-        <title>3-6 突発材料の異常検知 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>3-6 PCA 異常検知 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -70,7 +70,9 @@
     
       <link rel="stylesheet" href="../../../css/10-blog-reset.css">
     
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap">
+      <link rel="stylesheet" href="../../../css/11-trial.css">
+    
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;family=Noto+Serif+JP:wght@400;700&amp;display=swap">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     
@@ -133,7 +135,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#pca" class="md-skip">
           Skip to content
         </a>
       
@@ -165,7 +167,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3-6 突発材料の異常検知
+              3-6 PCA 異常検知
             
           </span>
         </div>
@@ -884,7 +886,7 @@
   <span class="md-ellipsis">
     
   
-    2-7 CARで「決算の効き」を測る
+    2-7 CARで見る「決算の効き」
   
 
     
@@ -1019,7 +1021,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN予測
+    3-2 K-NN 回帰
   
 
     
@@ -1047,7 +1049,7 @@
   <span class="md-ellipsis">
     
   
-    3-3 クラスタリング
+    3-3 K-means クラスタリング
   
 
     
@@ -1103,7 +1105,7 @@
   <span class="md-ellipsis">
     
   
-    3-5 値動きクラスタリング
+    3-5 階層型クラスタリング
   
 
     
@@ -1140,7 +1142,7 @@
   <span class="md-ellipsis">
     
   
-    3-6 突発材料の異常検知
+    3-6 PCA 異常検知
   
 
     
@@ -1158,7 +1160,7 @@
   <span class="md-ellipsis">
     
   
-    3-6 突発材料の異常検知
+    3-6 PCA 異常検知
   
 
     
@@ -1184,7 +1186,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         仕組み ― 実際 − 共通成分 ＝ 残差（個別分）
@@ -1195,7 +1197,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         ケーススタディ ― 仲間は平ら、その銘柄だけ動いた
@@ -1228,7 +1230,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         毎日の見張り ― いつ点灯するか
@@ -1239,7 +1241,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         正直な限界
@@ -1250,7 +1252,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1306,8 +1308,6 @@
       
         
           
-        
-      
         
       
         
@@ -1383,14 +1383,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../fact/" class="md-nav__link">
+      <a href="../../../trial/eneos_claims/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    <i class="bi bi-chevron-compact-right"></i> 背景と事実
+    <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳはこう主張！
   
 
     
@@ -1516,34 +1516,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../summary/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    <i class="bi bi-chevron-compact-right"></i> 法制度の不備
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -1578,7 +1550,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         仕組み ― 実際 − 共通成分 ＝ 残差（個別分）
@@ -1589,7 +1561,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         ケーススタディ ― 仲間は平ら、その銘柄だけ動いた
@@ -1622,7 +1594,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         毎日の見張り ― いつ点灯するか
@@ -1633,7 +1605,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         正直な限界
@@ -1644,7 +1616,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1682,7 +1654,7 @@
 
 
 
-<h1 id="_1">値動きの「共動の崩れ」で突発材料を検出する ― 市場が動かないのに、その銘柄だけ動いた日</h1>
+<h1 id="pca">PCA 異常検知― 値動きの「共動の崩れ」で突発材料を検出</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/00_thumbnail.png" data-desc-position="bottom"><img alt="突発材料の異常検知" src="../img/15_price_anomaly/00_thumbnail.png" width="1280"></a></p>
 <p>前回（3-5）、値動きの相関で「いつも一緒に動く仲間（クラスタ）」が見えました。ここで自然な問いが生まれます ―「<strong>その仲間から、ある銘柄だけが突然はずれる日はあるのか？</strong>」。</p>
 <p>買収提案、TOB、業績修正、事故 ― 個別の材料は、<strong>その 1 社だけ</strong> を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、<strong>突発材料が出た銘柄をその日のうちに拾える</strong> はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 で作った「個別ショック検出器」の、<strong>決算発表に依らない常時監視版</strong> です。</p>
@@ -1699,7 +1671,7 @@
 
 <!-- more -->
 
-<h2 id="_2">仕組み ― 実際 − 共通成分 ＝ 残差（個別分）</h2>
+<h2 id="_1">仕組み ― 実際 − 共通成分 ＝ 残差（個別分）</h2>
 <p>どの銘柄も「市場全体の波」と「業種の波」に乗っています。そこで <strong>PCA（主成分分析）</strong> で全銘柄に共通する波（上位 10 本で分散の 51%、うち PC1=36% が市場全体）を取り出し、各銘柄の動きを <strong>その共通成分でどれだけ再現できるか</strong> を見ます。</p>
 <div class="keypoint"><strong>実際の値動き − 共通成分（再構成） ＝ 残差</strong>。この残差が大きい日＝市場・業種で説明できない動き＝<strong>個別材料が出た日</strong>。</div>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
@@ -1709,7 +1681,7 @@
 <li>上段：セブン＆アイの 2024-08-19、<strong>実際の動きは約 9σ</strong> 跳ねたのに、共通成分（青線）はほぼ 0 ― 市場・業種では説明できない</li>
 <li>下段：その差＝<strong>残差が 10σ</strong> に突出。これが「異常度」で、大きい日ほど強い個別材料</li>
 </ul>
-<h2 id="_3">ケーススタディ ― 仲間は平ら、その銘柄だけ動いた</h2>
+<h2 id="_2">ケーススタディ ― 仲間は平ら、その銘柄だけ動いた</h2>
 <p>3-5 のクラスタを「いつもの仲間」の基準線にして、代表 4 銘柄を重ねます。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/02_event_casestudy.png" data-desc-position="bottom"><img alt="ケーススタディ" src="../img/15_price_anomaly/02_event_casestudy.png" width="1200"></a></p>
 <p>灰色（クラスタ平均＝いつもの仲間）は平らなのに、赤（対象銘柄）だけが縦線の日に跳ねる／落ちる ― <strong>個別材料の瞬間が一目で分かります</strong>。</p>
@@ -1772,21 +1744,21 @@
 <li>下段：ピアで説明できない累積リターン（ENEOS 固有分）は 2025 年央から拡大</li>
 </ul>
 <p>これは連載 <strong>2-7（CAR）</strong> で業界の動きを除いて測った市場反応を、<strong>イベント窓ではなく毎日・教師なしで監視する常時版</strong> にあたります。</p>
-<h2 id="_4">毎日の見張り ― いつ点灯するか</h2>
+<h2 id="_3">毎日の見張り ― いつ点灯するか</h2>
 <p>日ごとに「いつもと違う動き」をした銘柄数を数えると、検出器の使い方が見えます。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/05_daily_monitor.png" data-desc-position="bottom"><img alt="毎日の見張り" src="../img/15_price_anomaly/05_daily_monitor.png" width="1200"></a></p>
 <ul>
 <li>平常日は 0〜2 銘柄。ところが <strong>決算シーズン（2・5・8・11 月）に 10〜15 銘柄へスパイク</strong></li>
 <li>個別材料が集中する時期に自動で点灯する ― <strong>その日のうちに「確認すべき銘柄」を絞れる</strong></li>
 </ul>
-<h2 id="_5">正直な限界</h2>
+<h2 id="_4">正直な限界</h2>
 <p>3-4 で重要度の罠を直視したのと同じトーンで、ここも正直に書きます。</p>
 <ul>
 <li>検出できるのは <strong>「個別材料が出た日」であって「不正」そのものではない</strong>。大半は買収・業績修正・需給。<strong>不正"判定器"ではなく、確認すべき銘柄を絞る"トリアージ装置"</strong></li>
 <li>タイミングは基本 <strong>ニュースと同時</strong>。発覚前に分かるのは情報が先行して漏れた場合だけで、<strong>予言ではない</strong></li>
 <li>それでも価値は大きい ― 個人投資家の <strong>時間配分の最適化</strong>（どの IR・適時開示を先に読むか）に直結します</li>
 </ul>
-<h2 id="_6">まとめ</h2>
+<h2 id="_5">まとめ</h2>
 <ul>
 <li>入力を「値動きそのもの」にして、<strong>予測ではなく検出</strong> に徹した。PCA の <strong>残差（実際 − 共通成分）</strong> が大きい日＝個別材料が出た日</li>
 <li>検出器は <strong>セブン＆アイ +23.8%（買収提案）／豊田自動織機 +21.7%（TOB）／日本航空電子 −18.3%</strong> など、<strong>市場が動かないのにその銘柄だけ動いた日</strong> を上げ下げ両方向で的中</li>

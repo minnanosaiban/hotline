@@ -17,3 +17,7 @@
   color: var(--md-primary-fg-color) !important;
   background-color: var(--md-default-fg-color--lighter);
 }
+/* シェアボタンを囲む段落：既定の上下 1em を詰め、H1 のすぐ上に均等な余白で乗せる */
+.md-typeset p:has(.x-share) {
+  margin: 0 0 0.4rem 0;
+}
