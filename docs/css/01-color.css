@@ -40,6 +40,7 @@
   --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-link-color-faint: rgba(0, 54, 130, 0.4); /* リンクカラー透過版 */
   --md-card-border: #aab0b8; /* カード枠線（ヘッダー同系の無彩色グレー） */
+  --md-card-border-soft: rgba(0, 0, 0, 0.16); /* カード枠線（少し濃いめ・repo-link / ref-card 共通） */
   --md-warn-red: #C70025; /* 警告レッド（通報者への措置など） */
   --md-link-hover-color: #1a5fb4; /* リンクホバー — #003682 より明るい青 */
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
@@ -58,6 +59,7 @@
   --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color-faint: rgba(77, 139, 204, 0.4); /* リンクカラー透過版 */
   --md-card-border: rgba(255, 255, 255, 0.22); /* カード枠線（無彩色グレー） */
+  --md-card-border-soft: rgba(255, 255, 255, 0.20); /* カード枠線（少し濃いめ・repo-link / ref-card 共通） */
   --md-warn-red: #f2545b; /* 警告レッド（暗背景でも読める明るめ臙脂） */
   --md-link-hover-color: #7eb8e8; /* リンクホバー — #4D8BCC より明るい青 */
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */

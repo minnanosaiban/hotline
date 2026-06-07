@@ -1,6 +1,6 @@
 ---
-title: 株 × Python × ML
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・報復的な業務限定など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+title: 株 × Python × ML - ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 （エネオス）-
+description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正を重ねての隠蔽など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -66,12 +66,12 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">読む順 5</span>
-<span class="toc-card-title">2-7 CARで「決算の効き」を測る</span>
+<span class="toc-card-title">2-7 CARで見る「決算の効き」</span>
 <span class="toc-card-desc">主要5社の個別決算の効きをCARで検証</span>
 </a>
 </div>
 
-## 株価分析　全記事
+## 株価分析　目次
 
 <p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 無料データを取得編</p>
 <div class="toc-grid">
@@ -125,7 +125,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
 <span class="toc-card-num">2-7</span>
-<span class="toc-card-title">CARで「決算の効き」を測る</span>
+<span class="toc-card-title">CARで見る「決算の効き」</span>
 <span class="toc-card-desc">元売・商社 主要5社の市場反応を検証</span>
 </a>
 </div>
@@ -139,13 +139,13 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/11_knn_prediction/" class="toc-card">
 <span class="toc-card-num">3-2</span>
-<span class="toc-card-title">K-NN で値動き予測を試した話</span>
-<span class="toc-card-desc">予測より発見のツールとして実用化</span>
+<span class="toc-card-title">K-NN 回帰</span>
+<span class="toc-card-desc">失敗が生んだ個別ショック検出器</span>
 </a>
 <a href="posts/12_earnings_clustering/" class="toc-card">
 <span class="toc-card-num">3-3</span>
-<span class="toc-card-title">決算クラスタリング</span>
-<span class="toc-card-desc">k-means で「決算の型」を3つ発見</span>
+<span class="toc-card-title">K-means クラスタリング</span>
+<span class="toc-card-desc">教師なし学習が分けた「決算の型」</span>
 </a>
 <a href="posts/13_random_forest/" class="toc-card">
 <span class="toc-card-num">3-4</span>
@@ -154,12 +154,12 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/14_price_clustering/" class="toc-card">
 <span class="toc-card-num">3-5</span>
-<span class="toc-card-title">値動きクラスタリング</span>
-<span class="toc-card-desc">業種コードなしに業界が再現された相関クラスタ</span>
+<span class="toc-card-title">階層型クラスタリング</span>
+<span class="toc-card-desc">動きの相関で再現する業界地図</span>
 </a>
 <a href="posts/15_price_anomaly/" class="toc-card">
 <span class="toc-card-num">3-6</span>
-<span class="toc-card-title">突発材料の異常検知</span>
-<span class="toc-card-desc">共動の崩れで「その銘柄だけ動いた日」を検出</span>
+<span class="toc-card-title">PCA 異常検知</span>
+<span class="toc-card-desc">値動きの「共動の崩れ」で突発材料を検出</span>
 </a>
 </div>

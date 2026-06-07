@@ -73,7 +73,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2.0;
   color: var(--md-typeset-color) !important;
   font-weight: 400;
 }
@@ -113,7 +113,7 @@ h2 {
   margin: 8rem 0 1.2rem 0 !important;
   line-height: 1.4 !important;
   color: var(--md-main-color) !important;
-  font-weight: 500 !important;
+  font-weight: 300 !important;
 }
 @media only screen and (max-width: 767px) {
   h2 {
@@ -206,12 +206,19 @@ strong {
   }
 }
 .small {
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
 .smaller {
   font-size: 14px !important;
 }
 .smallest {
+  font-size: 12px !important;
+}
+/* .doc に small/smallest を併用したら、その文字サイズを優先（箱内の引用を本文と同じ大きさにする等） */
+.doc.small {
+  font-size: 14px !important;
+}
+.doc.smallest {
   font-size: 12px !important;
 }
 /* センタリング・右寄せ */
@@ -290,6 +297,14 @@ strong {
   padding-left:6em;
   text-indent:-6em;
   }
+/* 裁判文書本文は明朝体（公式文書らしさ／サイト解説文と書体で差別化）。サイズ・行間・インデントは現状維持 */
+.doc, .idt, .hg-idt, .hg-idt2, .hg-idt3, .hg-idt4, .hg-idt6 {
+  font-family: "Noto Serif JP", serif !important;
+}
+/* 文書内のリンク（「ＰＤＦの用意があります」等の案内）はゴシックに戻す（本文ではないため） */
+.doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a, .hg-idt4 a, .hg-idt6 a {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
 .pad1 {
   padding-left:1em;
   }

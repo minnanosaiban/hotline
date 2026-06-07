@@ -1,6 +1,6 @@
 ---
-title: ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 -
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・報復的な業務限定など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+title: 裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 （エネオス）-
+description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正を重ねての隠蔽など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -32,56 +32,60 @@ hide:
 
 # 裁判文書公開
 
+<div class="trial-page" markdown>
+
 <p>
-判決文、および、実際に裁判所に提出された裁判文書の全文です。
+判決文、および、裁判文書を公開します。ＰＤＦやＡＩによる音声解説もあります。
 </p>
 
-<div class="smaller" markdown>
-<p  class="larger width-40" style="margin-top: 12rem  !important; margin-bottom: 1rem  !important;">
-<b>裁判文書全文を掲載（目次）</b>
+<p class="t-toc-head">ＥＮＥＯＳはこう主張！</p>
+
+<div class="toc-grid">
+<a href="https://minnanosaiban.github.io/hotline/trial/eneos_claims/" class="toc-card">
+<span class="toc-card-num">本音と建前</span>
+<span class="toc-card-title">ＥＮＥＯＳはこう主張！</span>
+<span class="toc-card-desc">各争点でのＥＮＥＯＳの主張と問題点を一覧</span>
+</a>
+</div>
+<p>
+📌ＥＮＥＯＳ側主張について、音声解説あります。
 </p>
-<p><i class="bi bi-chevron-compact-right"></i> 
-<a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="arrow-link" >
-ＥＮＥＯＳ側の主張書面</a></p>
-<p><i class="bi bi-chevron-compact-right"></i> 
-<a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="arrow-link" >
-通報者側の主張書面</a></p>
-<p><i class="bi bi-chevron-compact-right"></i> 
-<a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="arrow-link" >
-判決書（水野有子裁判長）</a></p>
-<p><i class="bi bi-chevron-compact-right"></i> 
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >
-主張書面全文と認否</a></p>
+
+
+<p class="t-toc-head">裁判文書公開　目次</p>
+<div class="toc-grid">
+<a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="toc-card">
+<span class="toc-card-num">被告</span>
+<span class="toc-card-title">ＥＮＥＯＳ側の主張書面</span>
+<span class="toc-card-desc">被告（ＥＮＥＯＳ）の準備書面・答弁書</span>
+</a>
+<a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/" class="toc-card">
+<span class="toc-card-num">原告</span>
+<span class="toc-card-title">通報者側の主張書面</span>
+<span class="toc-card-desc">原告（通報者）の準備書面</span>
+</a>
+<a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/" class="toc-card">
+<span class="toc-card-num">判決</span>
+<span class="toc-card-title">判決書（水野有子裁判長）</span>
+<span class="toc-card-desc">東京地裁 2025年判決</span>
+</a>
+<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="toc-card">
+<span class="toc-card-num">全文</span>
+<span class="toc-card-title">主張書面全文と認否</span>
+<span class="toc-card-desc">双方の主張と認否の一覧</span>
+</a>
+</div>
+<p>
+📌判決文について、音声解説あります。
+</p>
+
+
+<div class="t-head">
+<p class="largest">ＡＩで分かる！<br>裁判記録</p>
+<p class="larger">準備書面や判決文をＡＩで音声解説します</p>
 </div>
 
-<div class="center-container" markdown>
-<p class="center largest" style="margin-top: 8rem  !important; margin-bottom: 0rem  !important;">
-<span style="color: #e94709;"><b>ＡＩで分かる！</b></span>
-</p>
-<p class="center largest" style="margin-top: 0rem  !important; margin-bottom: 0rem  !important;">
-<span style="color: #e94709;"><b>裁判記録</b></span>
-</p>
-<p class="center" style="margin-top: 0rem  !important; margin-bottom: 4rem  !important;">
-<span style="color: #e94709;"><b>準備書面や判決文をＡＩで音声解説します</b></span>
-</p>
-</div>
-
-<div class="margin04">
-<div class="card-bule">
-<p  class="larger center margin01">
-ＥＮＥＯＳ側の主張を音声解説🎙️</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
-</div>
-</div>
-
-<div class="margin04">
+<div class="t-card">
 <div class="card-bule">
 <p  class="larger center margin01">
 東京地裁判決を音声解説🎙️</p>
@@ -92,21 +96,10 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a><br>カスタム指示無し<br>2025年8月作成</p>
+NotebookLM（指示なし）・ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a>・2025年8月</p>
 </div>
 </div>
 
-<div class="margin04">
-<div class="card-bule">
-<p  class="larger center margin01">
-控訴審を音声解説🎙️</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/kouso_202508.wav" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月作成</p>
-</div>
+
+
 </div>
