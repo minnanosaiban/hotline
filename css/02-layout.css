@@ -171,3 +171,46 @@
     justify-content: flex-start;
   }
 }
+
+/* ホーム「株主総会意見」セクション：罫線でなく、淡い無彩色の背景帯＋余白で区切る */
+.agm-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* 中の width-40 を中央寄せに保つ */
+  gap: 10px;                 /* center-container と同じ段落リズム */
+  box-sizing: border-box;
+  margin-top: 4rem;          /* 前半（通報者への措置）との間 */
+  padding: 4.5rem 1.25rem 5rem;
+  background: var(--md-primary-fg-color);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
+}
+/* ダークモード：ヘッダーの上書き色（#0d1b2a）に背景を合わせる */
+[data-md-color-scheme="slate"] .agm-section {
+  background-color: #0d1b2a;
+}
+@media only screen and (max-width: 767px) {
+  .agm-section {
+    margin-top: 2.5rem;
+    padding: 3rem 0.8rem 3.5rem;
+  }
+}
+/* AGM内は flex の gap(10px) で段落リズムを作る前提。flex ではマージンが相殺されないため、
+   各 p の margin02(2rem) や既定マージンが gap に加算され、要素ごとに余白がちぐはぐになる。
+   いったん上下マージンを 0 に揃え、節の始まり（margin02 段落）の前だけ広めに空ける */
+.agm-section > p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.agm-section > p.margin02 {
+  margin-top: 1.6rem !important;
+}
+/* 青い節見出し（largest）の上下を広めに空ける */
+.agm-section > p.largest {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+/* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする */
+.agm-section > .card-accordion {
+  width: 100%;
+  max-width: 32rem;
+}

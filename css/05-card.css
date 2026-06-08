@@ -104,6 +104,8 @@
 }
 .md-typeset .card-accordion .accordion-body {
   margin-top: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 /* テーブル */
 .table-set{
@@ -217,4 +219,30 @@
   display: block;
   height: 40px;
   margin: 0 auto;
+}
+
+/* 音声カードの 2 カラム表示（目次より広めの余白で窮屈さを回避） */
+.audio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem;
+  margin: 0.5rem 0 0.4rem;
+}
+@media only screen and (max-width: 767px) {
+  .audio-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+/* 2 カラム内：幅上限を外して列いっぱいに使い、余白とタイトルを微調整 */
+.audio-grid .card-bule:has(.audio-content) {
+  max-width: none !important;
+  padding: 1.5rem 1.3rem !important;   /* 上下に余白を足して窮屈さを解消 */
+}
+.audio-grid .card-bule:has(.audio-content) .larger {
+  font-size: 1.05em !important;
+  margin: 0 0 0.85rem !important;      /* タイトル→プレーヤーの間隔を広げる */
+}
+.audio-grid .card-bule:has(.audio-content) .audio-content {
+  margin: 0 0 0.85rem !important;      /* プレーヤー→注記の間隔を広げる */
 }
