@@ -1,6 +1,6 @@
 ---
 title: 裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 （エネオス）-
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正を重ねての隠蔽など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -78,28 +78,6 @@ hide:
 <p>
 📌判決文について、音声解説あります。
 </p>
-
-
-<div class="t-head">
-<p class="largest">ＡＩで分かる！<br>裁判記録</p>
-<p class="larger">準備書面や判決文をＡＩで音声解説します</p>
-</div>
-
-<div class="t-card">
-<div class="card-bule">
-<p  class="larger center margin01">
-東京地裁判決を音声解説🎙️</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-NotebookLM（指示なし）・ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a>・2025年8月</p>
-</div>
-</div>
-
 
 
 </div>

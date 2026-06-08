@@ -1,6 +1,6 @@
 ---
 title: 株 × Python × ML - ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 （エネオス）-
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正を重ねての隠蔽など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -155,7 +155,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/14_price_clustering/" class="toc-card">
 <span class="toc-card-num">3-5</span>
 <span class="toc-card-title">階層型クラスタリング</span>
-<span class="toc-card-desc">動きの相関で再現する業界地図</span>
+<span class="toc-card-desc">値動きの相関で再現する業界地図</span>
 </a>
 <a href="posts/15_price_anomaly/" class="toc-card">
 <span class="toc-card-num">3-6</span>

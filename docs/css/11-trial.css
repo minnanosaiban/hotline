@@ -74,3 +74,54 @@
     --t-item-gap: 2rem;
   }
 }
+
+/* =========================================================
+   争点（問い → ＥＮＥＯＳの回答）：枠なし・引用型
+   ・争点間は罫線でなく余白で区切る
+   ・問い＝主役（濃色・やや大）／回答＝左罫の引用（ＥＮＥＯＳの言い分）
+   ・※注記はカード内に内包（浮かせない）
+   ========================================================= */
+.claim {
+  max-width: var(--t-card-width);   /* 既存カードと同幅（40rem） */
+  margin: 3.2rem auto 0;            /* 争点間の余白 */
+}
+.claim-num {
+  font-size: 12px !important;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--md-link-color);
+  margin: 0 0 0.4rem !important;
+}
+.claim-q {
+  font-size: 1.3em !important;
+  line-height: 1.55 !important;
+  font-weight: 500;
+  color: var(--md-typeset-color);
+  margin: 0 0 1rem !important;
+}
+.claim-a {
+  border-left: 2px solid var(--md-card-border-soft);
+  padding-left: 1.1rem;
+  margin: 0;
+}
+.claim-a-label {
+  font-size: 11px !important;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 0.35rem !important;
+}
+.claim-a-text {
+  line-height: 1.95 !important;
+  color: var(--md-typeset-color);
+  margin: 0 !important;
+}
+.claim-note {
+  font-size: 12px !important;
+  line-height: 1.85 !important;
+  color: var(--md-default-fg-color--light);
+  margin: 0.85rem 0 0 1.1rem !important;   /* 回答に揃えて内包 */
+}
+@media only screen and (max-width: 767px) {
+  .claim { margin-top: 2.4rem; }
+}
