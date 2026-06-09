@@ -209,6 +209,11 @@
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
 }
+/* largest 見出しでも margin ユーティリティ（margin04）を効かせる（詳細度で上の固定値に勝たせる） */
+.agm-section > p.largest.margin04 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
 /* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする */
 .agm-section > .card-accordion {
   width: 100%;
