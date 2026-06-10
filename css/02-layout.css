@@ -161,7 +161,7 @@
   display: flex;
   flex-direction: column; /* ← 横並びではなく縦並びにする */
   align-items: center;    /* 横方向の中央揃え */
-  gap: 10px;              /* 子要素間の余白 */
+  gap: 0;                 /* セクション間は各要素の margin-top（.gap-6 等）で持たせる。gap は使わない */
   max-width: 100%;
   overflow: hidden;
   margin: 0;
@@ -172,6 +172,14 @@
   }
 }
 
+/* セクション前の余白（シンプル化）：上 6rem だけで決める。下は 0。
+   gap やマージン相殺に頼らず、この1クラスで「この要素の上に6rem空ける」を表す。
+   使用：裁判所の判断／通報者への措置の枠（グレー枠は .agm-section 側で同じ6rem）。 */
+.gap-6 {
+  margin-top: 6rem !important;
+  margin-bottom: 0 !important;
+}
+
 /* ホーム「株主総会意見」セクション：罫線でなく、淡い無彩色の背景帯＋余白で区切る */
 .agm-section {
   width: 100%;
@@ -180,7 +188,7 @@
   align-items: center;       /* 中の width-40 を中央寄せに保つ */
   gap: 10px;                 /* center-container と同じ段落リズム */
   box-sizing: border-box;
-  margin-top: 4rem;          /* 前半（通報者への措置）との間 */
+  margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
   padding: 3.2rem 1.2rem 3.2rem;
   background: var(--md-primary-fg-color);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
 }
@@ -190,8 +198,7 @@
 }
 @media only screen and (max-width: 767px) {
   .agm-section {
-    margin-top: 2.5rem;
-    padding: 1.8rem 0.8rem 1.8rem;
+    padding: 1.8rem 0.8rem 1.8rem;   /* margin-top は PC と同じ 6rem を維持（.gap-6 と統一） */
   }
 }
 /* AGM内は flex の gap(10px) で段落リズムを作る前提。flex ではマージンが相殺されないため、
