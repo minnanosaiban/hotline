@@ -9,6 +9,13 @@ site_dir: site
 nav:
   - Home:
       - index.md
+  - 裁判文書公開:
+      - trial/index.md
+      - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳはこう主張！ : trial/eneos_claims.md
+      - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : trial/eneos.md
+      - <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面 : trial/whistleblower.md
+      - <i class="bi bi-chevron-compact-right"></i> 判決書（水野有子裁判長） : trial/judgement_2025.md
+      - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i> : https://minnanosaiban.github.io/eneos-saiban/argument.html
   - 株 × Python × ML:
       - blog/index.md
       - <i class="fa-solid fa-layer-group"></i> 無料データを取得編:
@@ -30,13 +37,6 @@ nav:
           - 3-4 ランダムフォレスト: blog/posts/13_random_forest.md
           - 3-5 階層型クラスタリング: blog/posts/14_price_clustering.md
           - 3-6 PCA 異常検知: blog/posts/15_price_anomaly.md
-  - 裁判文書公開:
-      - trial/index.md
-      - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳはこう主張！ : trial/eneos_claims.md
-      - <i class="bi bi-chevron-compact-right"></i> ＥＮＥＯＳの主張書面 : trial/eneos.md
-      - <i class="bi bi-chevron-compact-right"></i> 通報者側の主張書面 : trial/whistleblower.md
-      - <i class="bi bi-chevron-compact-right"></i> 判決書（水野有子裁判長） : trial/judgement_2025.md
-      - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i> : https://minnanosaiban.github.io/eneos-saiban/argument.html
 
 extra_css:
   - css/01-color.css

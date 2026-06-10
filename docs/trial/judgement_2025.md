@@ -1,6 +1,6 @@
 ---
-title: 判決書（水野有子裁判長） - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+title: 判決書（水野有子裁判長） - ENEOSの内部通報制度をめぐる訴訟について
+description: ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金が疑われる解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -34,10 +34,12 @@ hide:
   判決書<br>水野有子裁判長
 </h1>
 
-<div class="margin08">
-<div class="card-bule width-40">
+
+<p class="t-toc-head">控訴審判決を音声解説🎙️</p>
+
+<div class="card-bule audio-wide">
 <p  class="larger center margin01">
-東京地裁判決を音声解説🎙️</p>
+東京地裁判決を音声解説</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
@@ -45,9 +47,10 @@ hide:
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a><br>カスタム指示無し<br>2025年8月作成</p>
+NotebookLM（指示なし）・2025年8月<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a></p>
 </div>
-</div>
+
+
 
 ## 東京地裁　判決文
 

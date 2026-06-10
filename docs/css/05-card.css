@@ -235,6 +235,56 @@
   padding: 1rem 1.25rem !important;   /* 1.6rem 3.2rem → 圧縮 */
   border-radius: 6px;
 }
+/* audio-wide 指定（judgement_2025 等）：外部サイトカード(repo-link)と同じ幅・角丸に揃える。
+   26rem 制限を外して内容幅いっぱいにし、角丸は repo-link と同じ 8px。枠色は元から共通。
+   さらに中身を「タイトル＝左／プレーヤー＝右」の横並びに（注記は下の行へ回す）。 */
+.card-bule.audio-wide:has(.audio-content) {
+  max-width: none !important;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 18rem;   /* 左＝タイトル＋注記 ／ 右＝プレーヤー */
+  grid-template-areas:
+    "title   player"
+    "caption player";                  /* プレーヤーは2行にまたがる→上下中央に置ける */
+  column-gap: 1.5rem;
+  align-items: center;
+}
+/* 左上：タイトル（左寄せ） */
+.card-bule.audio-wide:has(.audio-content) .larger {
+  grid-area: title;
+  align-self: end;
+  text-align: left !important;
+  margin: 0 !important;
+}
+/* 右：プレーヤー（タイトル＋注記の高さに対して上下中央） */
+.card-bule.audio-wide:has(.audio-content) .audio-content {
+  grid-area: player;
+  align-self: center;
+  width: 18rem;
+  max-width: 100%;
+  margin: 0 !important;
+}
+/* 左下：注記（左寄せ） */
+.card-bule.audio-wide:has(.audio-content) .smallest {
+  grid-area: caption;
+  align-self: start;
+  text-align: left !important;
+  margin: 0.4rem 0 0 !important;
+}
+/* スマホ：1列に縦並び（タイトル→プレーヤー→注記） */
+@media only screen and (max-width: 767px) {
+  .card-bule.audio-wide:has(.audio-content) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "player"
+      "caption";
+  }
+  .card-bule.audio-wide:has(.audio-content) .audio-content {
+    width: 100%;
+    margin: 0.6rem 0 0 !important;
+  }
+}
 /* タイトル（🎙️行）：1.8em → 1.15em・余白詰め */
 .card-bule:has(.audio-content) .larger {
   font-size: 1.15em !important;
@@ -285,4 +335,10 @@
 }
 .audio-grid .card-bule:has(.audio-content) .audio-content {
   margin: 0 0 0.85rem !important;      /* プレーヤー→注記の間隔を広げる */
+}
+/* audio-stack：音声カード（audio-wide）を全幅で縦に積むコンテナ。eneos_claims 等。 */
+.audio-stack {
+  display: grid;
+  gap: 1.5rem;
+  margin: 0.5rem 0 0.4rem;
 }
