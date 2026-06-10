@@ -123,13 +123,16 @@
 }
 /* フッター注記 */
 .md-footer-note {
-  padding: 1rem 1.2rem 0.5rem;
+  padding: 1rem 1.2rem 2rem;
   font-size: 0.7rem;
   line-height: 1.6;
   opacity: 0.75;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 2rem;
+  max-width: 64rem;          /* 広い画面で横に広がりすぎないよう中央にまとめる */
+  margin-left: auto;
+  margin-right: auto;
 }
 .md-footer-note__section {
   min-width: 220px;
@@ -138,6 +141,10 @@
 .md-footer-note__heading {
   font-weight: 600;
   margin: 0.4rem 0 0.2rem !important;
+}
+.md-footer-note__sub {
+  font-weight: 500;
+  margin: 0.7rem 0 0.1rem !important;
 }
 .md-footer-note ul {
   margin: 0 !important;
@@ -199,6 +206,17 @@
 @media only screen and (max-width: 767px) {
   .agm-section {
     padding: 1.8rem 0.8rem 1.8rem;   /* margin-top は PC と同じ 6rem を維持（.gap-6 と統一） */
+  }
+  /* スマホ：番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
+     節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。 */
+  .agm-section > p:has(.larger) {
+    align-self: flex-start;
+    text-align: left;
+  }
+  /* 節見出し（.center larger）はスマホでも中央寄せ。.center の既定（スマホ＝左寄せ）を上書き。
+     2行は先頭ぞろえでなく各行センターでよい。 */
+  .agm-section > p.center.larger {
+    text-align: center;
   }
 }
 /* AGM内は flex の gap(10px) で段落リズムを作る前提。flex ではマージンが相殺されないため、
