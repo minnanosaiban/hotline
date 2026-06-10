@@ -35,12 +35,32 @@
   box-sizing: border-box;
 }
 /* 通報者への措置（index）：PC は通常の card-bule 枠を表示。スマホ（≤767px）だけ
-   枠・区切り線を外し、本文（width-40）と同じ左右幅に揃える（とりあえず区切り線も無し）。 */
+   枠・区切り線を外し、本文（width-40）と同じ左右幅に揃える。
+   パディングも 0 にして、枠が無い分の余白は前後の margin に任せる
+   （枠上パディングが「裁判所の判断」の下に上乗せされて上下非対称になるのを防ぐ）。 */
 @media only screen and (max-width: 767px) {
   .card-bule.card-divider {
     border: none;
-    padding: 1.6rem 0 !important;
+    padding: 0 !important;
   }
+}
+/* card-divider 枠の先頭要素（タイトル）の上マージンを 0 に。
+   「タイトル上の余白＝padding-top」と「アコーディオン下の余白＝padding-bottom」を
+   同じ 1.6rem に揃える（タイトルの margin01 上1rem が padding に上乗せされるのを防ぐ）。 */
+.card-bule.card-divider > p:first-child {
+  margin-top: 0 !important;
+}
+/* card-divider 枠内：アコーディオン上の余白（既定 margin1.4rem＋padding0.9rem＝約2.3rem）を
+   段落間（margin01＝1rem）と揃える（少し広かったため）。 */
+.card-bule.card-divider .card-accordion {
+  margin-top: 1rem !important;
+  padding-top: 0 !important;
+}
+/* グレー枠内のアコーディオン：上の余白を下（次段落の margin02＝1.6rem）と揃える。
+   .md-typeset を足して既定ルール(.md-typeset details.card-accordion)に詳細度で勝たせる。 */
+.md-typeset .agm-section .card-accordion {
+  margin-top: 1.6rem !important;
+  padding-top: 0 !important;
 }
 /* ボックス内アコーディオン（material の details 既定スタイルを打ち消して箱に馴染ませる） */
 .md-typeset details.card-accordion {
