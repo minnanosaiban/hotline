@@ -70,8 +70,8 @@ hide:
 <span class="toc-card-desc">東京地裁 2025年判決</span>
 </a>
 <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="toc-card">
-<span class="toc-card-num">全文</span>
-<span class="toc-card-title">主張書面全文と認否</span>
+<span class="toc-card-num">外部リンク</span>
+<span class="toc-card-title">主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i></span>
 <span class="toc-card-desc">双方の主張と認否の一覧</span>
 </a>
 </div>

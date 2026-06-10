@@ -51,7 +51,7 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
 <div class="card-bule width-40">
 <p  class="larger center margin01">
 主張書面 ＰＤＦ</p>
-<p class="small center margin01">
+<p class="center margin01">
 <a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link">控訴理由補充書（２）</a>　
 <a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link">控訴理由補充書（１）</a>　
 <a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link">控訴理由書</a>　
