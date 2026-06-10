@@ -107,6 +107,11 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+/* カード（card-bule）内アコーディオンの本文（.doc＝明朝）は、カード本文（.small＝16px ゴシック）と
+   font-size は同じ 16px だが、明朝は線が細く一回り小さく見える。わずかに大きくして見た目を揃える。 */
+.card-bule .accordion-body .doc {
+  font-size: 14px !important;
+}
 /* テーブル */
 .table-set{
   border-collapse: collapse; 
