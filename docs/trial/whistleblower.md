@@ -1,6 +1,6 @@
 ---
-title: 通報者側の主張書面 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+title: 通報者側の主張書面 - ENEOSの内部通報制度をめぐる訴訟について
+description: ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金が疑われる解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -31,27 +31,6 @@ hide:
 </p>
 
 # 通報者側の主張書面
-
-<div class="margin08">
-<div class="card-bule width-40">
-<p  class="larger center margin01">
-主張書面 ＰＤＦ</p>
-<p class="center margin01">
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/24_控訴理由補充書（２）_ENEOS_公開.pdf" class="arrow-link">控訴理由補充書（２）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/23_控訴理由補充書（１）_ENEOS_公開.pdf" class="arrow-link">控訴理由補充書（１）</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/21_控訴理由書_ENEOS_公開.pdf" class="arrow-link">控訴理由書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/18_原告第５準備書面_ENEOS_公開.pdf" class="arrow-link">原告第５準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/15_文書送付嘱託申立書_ENEOS_公開.pdf" class="arrow-link">文書送付嘱託申立書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/14_求釈明申立書_ENEOS_公開.pdf" class="arrow-link">求釈明申立書</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/13_原告第４準備書面_ENEOS_公開" class="arrow-link">原告第４準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/10_原告第３準備書面_ENEOS_公開" class="arrow-link">原告第３準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/08_原告第２準備書面_ENEOS_公開" class="arrow-link">原告第２準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/05_原告第１準備書面_ENEOS_公開" class="arrow-link">原告第１準備書面</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/_static/01_訴状_ENEOS_公開.pdf" class="arrow-link">訴状</a>　
-<a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" class="arrow-link" >主張書面全文と認否</a>
-</p>
-</div>
-</div>
 
 <div class="width-40" markdown>
 <a name="hoju2"></a>
@@ -1350,7 +1329,7 @@ hide:
 <p class="pad3 doc" style="margin-top: 1.6em !important;">
 <b>表９．被告において原告に共有した内容（時系列順）</b>
 </p>
-<div class="base pad3" style="margin-bottom: 1.6em;">
+<div class="pad2" style="margin-bottom: 1.6em;">
 <table class="table-set">
   <tr>
     <td class="table-text" style="width: 2em;">➀</td>
@@ -2468,4 +2447,16 @@ hide:
 <p class="pad1 hg-idt smaller">
 34　甲１６の４、甲１６の５、甲１６の７、甲１７、平成２９年７月２４日から同月２８日、原告と調査補助者とのやり取り
 </p>
+
+
+<a name="dai4"></a>
+## 原告第４準備書面以下
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/argument.html" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-file-earmark-text"></i>
+<span class="repo-link-path">外部サイトに認否と合わせてまとめています</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+
 </div>

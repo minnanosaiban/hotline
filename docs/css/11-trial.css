@@ -5,7 +5,8 @@
    ・タイトルは「太字」ではなく「大きさ」で見せる（Home は太字のまま）
    ・余白などの数値はこのファイルに集約（HTML 側はクラス名のみ）
    ========================================================= */
-.trial-page {
+.trial-page,
+body.trial-doc {
   --t-section-gap: 6rem;   /* セクション間の余白 */
   --t-item-gap: 2.5rem;    /* カード・項目間の余白 */
   --t-card-width: 40rem;   /* カードの共通幅 */
@@ -25,7 +26,8 @@
 }
 
 /* --- 目次の見出し（blog の h2 と同じデザイン：┃マーカー・下線なし・2.0em・細字） --- */
-.trial-page .t-toc-head {
+.trial-page .t-toc-head,
+body.trial-doc .t-toc-head {
   text-align: left;
   margin: var(--t-section-gap) 0 1.2rem !important;
   font-size: 2.0em;
@@ -33,7 +35,8 @@
   font-weight: 300;
   color: var(--md-typeset-color);
 }
-.trial-page .t-toc-head::before {
+.trial-page .t-toc-head::before,
+body.trial-doc .t-toc-head::before {
   content: "";
   display: inline-block;
   width: 0.24rem;
@@ -44,7 +47,8 @@
   border-radius: 1px;
 }
 /* t-toc-head 直後のリード段落は見出しとの間隔を詰める */
-.trial-page .t-toc-head + p {
+.trial-page .t-toc-head + p,
+body.trial-doc .t-toc-head + p {
   margin-top: -0.8rem !important;
 }
 
@@ -83,7 +87,13 @@
    ========================================================= */
 .claim {
   max-width: var(--t-card-width);   /* 既存カードと同幅（40rem） */
-  margin: 3.2rem auto 0;            /* 争点間の余白 */
+  margin: 3.2rem auto 0;            /* 争点間の余白（②以降の上マージン） */
+}
+/* 見出し直後の最初の争点（①）の上余白。見出し下マージン(1.2rem)と加算されるため、
+   合計がブログ目次の見出し→項目（約2rem）と同じになるよう 0.8rem に（1.2+0.8=2rem）。
+   ②以降は上の .claim の 3.2rem。 */
+.t-toc-head + .claim {
+  margin-top: 0.8rem;
 }
 .claim-num {
   font-size: 12px !important;
@@ -96,8 +106,11 @@
   font-size: 1.3em !important;
   line-height: 1.55 !important;
   font-weight: 500;
-  color: var(--md-typeset-color);
   margin: 0 0 1rem !important;
+}
+/* 色は .md-content p の color !important（詳細度0,1,1）に勝つよう、詳細度を上げて確定 */
+.md-content p.claim-q {
+  color: var(--md-link-color) !important;
 }
 .claim-a {
   border-left: 2px solid var(--md-card-border-soft);

@@ -1,6 +1,6 @@
 ---
-title: 株 × Python × ML - ＥＮＥＯＳの内部通報制度をめぐる訴訟について - ＥＮＥＯＳ裁判 （エネオス）-
-description: ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+title: 株 × Python × ML - ENEOSの内部通報制度をめぐる訴訟について - ENEOS裁判 （エネオス）-
+description: ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
 # date: 2023-03-06
 # categories:
   # - NTTデータにおけるセクハラに関する紛争
@@ -162,4 +162,22 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <span class="toc-card-title">PCA 異常検知</span>
 <span class="toc-card-desc">値動きの「共動の崩れ」で突発材料を検出</span>
 </a>
+</div>
+
+<div class="md-footer-note" style="margin-top: 3rem;">
+  <div class="md-footer-note__section">
+    <p class="md-footer-note__heading">データの取り扱いについて</p>
+    <ul>
+      <li>本アプリは個人利用および学習を目的としたツールであり、投資勧誘を目的としたものではありません。</li>
+      <li>yfinance ライブラリを使用しています。利用にあたっては、Yahoo! 規約を遵守してください。</li>
+      <li>短時間での大量取得はサーバーに負担がかかります。API のレート制限を守り、過度なリクエストは避けてください。</li>
+    </ul>
+  </div>
+  <div class="md-footer-note__section">
+    <p class="md-footer-note__heading">⚠️ 免責事項</p>
+    <ul>
+      <li><strong>データの正確性</strong>: 取得データは正確性や即時性を保証しません。</li>
+      <li><strong>損害への責任</strong>: 本ツールの利用により生じたいかなる損害についても、制作者は一切の責任を負いません。</li>
+    </ul>
+  </div>
 </div>
