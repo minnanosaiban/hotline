@@ -214,6 +214,17 @@
   margin-top: 4rem !important;
   margin-bottom: 4rem !important;
 }
+/* グレー枠内の見出しサイズを枠外のタイトル（1.44rem）に揃える。
+   ・larger（数字見出し）… <p>(=.md-content p の 18px) 内の <span> に付くため
+     1.8em＝32.4px と算出され、枠外の larger（<p>直付け＝0.8rem 基準の 1.8em＝1.44rem）
+     より約12.5%大きくなる。
+   ・largest（「裁判所が前提とした３つの事実」「再通報と新たな提訴」）… <p> 直付けで
+     3.2em＝2.56rem とページ内最大になる。
+   枠内のタイトルは larger・largest とも 1.44rem に固定して、ページの他タイトルと揃える。 */
+.agm-section .larger,
+.agm-section .largest {
+  font-size: 1.44rem !important;
+}
 /* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする */
 .agm-section > .card-accordion {
   width: 100%;
