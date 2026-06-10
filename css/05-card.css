@@ -34,6 +34,14 @@
 .card-bule, .card-bule * {
   box-sizing: border-box;
 }
+/* 通報者への措置（index）：PC は通常の card-bule 枠を表示。スマホ（≤767px）だけ
+   枠・区切り線を外し、本文（width-40）と同じ左右幅に揃える（とりあえず区切り線も無し）。 */
+@media only screen and (max-width: 767px) {
+  .card-bule.card-divider {
+    border: none;
+    padding: 1.6rem 0 !important;
+  }
+}
 /* ボックス内アコーディオン（material の details 既定スタイルを打ち消して箱に馴染ませる） */
 .md-typeset details.card-accordion {
   background: none;
@@ -107,9 +115,16 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-/* カード（card-bule）内アコーディオンの本文（.doc＝明朝）は、カード本文（.small＝16px ゴシック）と
-   font-size は同じ 16px だが、明朝は線が細く一回り小さく見える。わずかに大きくして見た目を揃える。 */
-.card-bule .accordion-body .doc {
+/* スマホ（≤767px）はアコーディオン本文の左右パディングを無くす */
+@media only screen and (max-width: 767px) {
+  .md-typeset .card-accordion .accordion-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* ホームの「通報者への措置」枠（card-divider）内アコーディオンの本文（.doc＝明朝）だけ 14px。
+   他ページの card-bule アコーディオンは .doc 既定の 16px のまま（このルールを枠に限定して誤適用を防ぐ）。 */
+.card-bule.card-divider .accordion-body .doc {
   font-size: 14px !important;
 }
 /* テーブル */
