@@ -17,7 +17,7 @@ tags:
 
 結論を先に書くと：**K-NN 予測は失敗** しました（全銘柄平均で予測する単純なベースラインにも勝てません）。しかしこの失敗の中に **本連載全体の最も重要な洞察** が含まれています ― 「**機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用**」。本記事はその実証と、**本連載の到達点としてのハイブリッド投資ワークフロー** を提示します。
 
-<p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（286 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
+<p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（287 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.elastic.co/jp/what-is/knn" target="_blank" rel="noopener">
@@ -36,7 +36,7 @@ tags:
 
 ### これまでの分析では届かなかった視点
 
-ここまでは「**1 銘柄を深く分析する**」アプローチでした。本記事は **「機械学習で値動きを予測できるか」** を 232 銘柄全体で検証します。
+ここまでは「**1 銘柄を深く分析する**」アプローチでした。本記事は **「機械学習で値動きを予測できるか」** を 287 銘柄全体で検証します。
 
 | アプローチ | 視点 | 銘柄数 |
 |---|---|---|

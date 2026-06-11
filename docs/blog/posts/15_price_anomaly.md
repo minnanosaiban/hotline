@@ -19,7 +19,7 @@ tags:
 
 買収提案、TOB、業績修正、事故 ― 個別の材料は、**その 1 社だけ** を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、**突発材料が出た銘柄をその日のうちに拾える** はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 で作った「個別ショック検出器」の、**決算発表に依らない常時監視版** です。
 
-<p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 281 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</p>
+<p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 287 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://ja.wikipedia.org/wiki/異常検知" target="_blank" rel="noopener">
