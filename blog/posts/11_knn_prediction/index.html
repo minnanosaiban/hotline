@@ -1848,7 +1848,7 @@
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/11_knn_prediction/00_thumbnail.png" width="1280"></a></p>
 <p>本記事では、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
 <p>結論を先に書くと：<strong>K-NN 予測は失敗</strong> しました（全銘柄平均で予測する単純なベースラインにも勝てません）。しかしこの失敗の中に <strong>本連載全体の最も重要な洞察</strong> が含まれています ― 「<strong>機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用</strong>」。本記事はその実証と、<strong>本連載の到達点としてのハイブリッド投資ワークフロー</strong> を提示します。</p>
-<p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（286 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
+<p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（287 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.elastic.co/jp/what-is/knn" target="_blank" rel="noopener">
@@ -1863,7 +1863,7 @@
 
 <h2 id="k-nn_1">K-NN 回帰の概要</h2>
 <h3 id="_1">これまでの分析では届かなかった視点</h3>
-<p>ここまでは「<strong>1 銘柄を深く分析する</strong>」アプローチでした。本記事は <strong>「機械学習で値動きを予測できるか」</strong> を 232 銘柄全体で検証します。</p>
+<p>ここまでは「<strong>1 銘柄を深く分析する</strong>」アプローチでした。本記事は <strong>「機械学習で値動きを予測できるか」</strong> を 287 銘柄全体で検証します。</p>
 <table>
 <thead>
 <tr>

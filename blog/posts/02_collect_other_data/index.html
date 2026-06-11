@@ -1610,7 +1610,7 @@
 
 
 
-<h1 id="edinettdnet-xbrl">EDINET・TDnet 等を活用する ― 企業が金融庁に提出している決算 XBRL は使える</h1>
+<h1 id="edinettdnet-xbrl">EDINET・TDnet 等を活用する ― 企業が開示している決算 XBRL は使える</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/02_collect_other_data/00_thumbnail.png" data-desc-position="bottom"><img alt="株価以外のデータを集める" src="../img/02_collect_other_data/00_thumbnail.png" width="1280"></a></p>
 <p>株価チャートだけで売買するのは、業績という土台を見ない <strong>ギャンブルに近い</strong> もの。決算データを足せば、銘柄を多角的に評価できます。本記事では、金融庁 EDINET ・ 東証 TDnet ・ 証券会社のアプリから決算書や業績指標を取得します。</p>
 <p>そして、複数銘柄を指標と合わせて比較するチャートを作成し、 Python コードを GitHub に公開しています。株価チャートからもう一歩、目的をもったチャート作成に進めていきます。</p>
@@ -1656,18 +1656,18 @@
 <li>金融庁 EDINET と 東証 TDnet で取得するデータは、 <strong>XBRL</strong> というファイル形式です。XBRL の使い方は次回扱います。本記事では <strong>データの取り方</strong> を解説します。</li>
 </ul>
 <blockquote>
-<p>⚠️これらのデータは商用利用・データ転売が禁止です。個人の投資判断目的に限る。アクセス間隔を 1 秒以上空けるなどマナーを守って使用してください。</p>
+<p>⚠️利用条件はデータソースごとに異なるため、各提供元の規約を確認してください。とくに証券会社のアプリの CSV は再配布できません。アクセス間隔を 1 秒以上空けるなどマナーを守って使用してください。</p>
 </blockquote>
 <h2 id="edinet">金融庁 EDINET から有報を取得する</h2>
-<p>有報は、<strong>PDF と XBRL</strong>（タグ付きデータ）の二つの形式で入手することができます。この XBRL は EDINET 公式 API で 取得できます。</p>
+<p>有報は、<strong>PDF と XBRL</strong>（タグ付きデータ）の二つの形式で入手することができます。XBRL は EDINET 公式 API で取得できます。<code>type=1</code> で XBRL 書類一式、<code>type=5</code> で XBRL を CSV 化したデータ一式が取得でき、本連載では <code>type=5</code> を使用します。</p>
 <p>業績推移はヤフーファイナンスや株探などのサービスで確認できますが、期間は3～5年です。有報を遡って足せば <strong>10 年超</strong>の業績時系列も組めます。また、データを取得することで、銘柄の業績を比較した可視化が可能です。</p>
 <div class="highlight"><pre><span></span><code><span class="n">res</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">"https://disclosure.edinet-fsa.go.jp/api/v2/documents/</span><span class="si">{</span><span class="n">doc_id</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
     <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">"type"</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">"Subscription-Key"</span><span class="p">:</span> <span class="n">API_KEY</span><span class="p">})</span> 
-<span class="c1"># type=5 で XBRL を取得</span>
+<span class="c1"># type=5 で XBRL の CSV 化データ一式を取得（XBRL 書類一式は type=1）</span>
 </code></pre></div>
 <h2 id="tdnet">東証 TDnet から決算短信を取得する</h2>
-<p><strong>決算短信 XBRL や決算発表日時</strong> は、有報 XBRL と違い、公式 API がないため、PDF の URL から ZIP の URL に変換し、そのURLでスクレイピングするという方法をとります。</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">re</span><span class="o">,</span><span class="w"> </span><span class="nn">requests</span>
+<p><strong>決算短信 XBRL や決算発表日時</strong> は、有報 XBRL と違い、TDnet には書類取得の公式 API がありません（JPX の有料 API は別枠）。そこで、一覧ページをスクレイピングして短信 PDF のリンクと発表時刻を取得し、PDF の URL を ZIP の URL に書き換えてダウンロードします。この ZIP に短信 XBRL 一式が入っています。</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">bs4</span><span class="w"> </span><span class="kn">import</span> <span class="n">BeautifulSoup</span>
 
 <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"https://www.release.tdnet.info/inbs/I_list_001_</span><span class="si">{</span><span class="n">target_date</span><span class="si">}</span><span class="s2">.html"</span>

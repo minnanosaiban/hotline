@@ -1636,7 +1636,7 @@
 <li>parquet は列指向・型保持・高圧縮。CSV より読み書きが速く、ファイルも小さい</li>
 </ul>
 <blockquote>
-<p>⚠️ 貯めたデータは定期的に棚卸しを。上場廃止・超低流動性の銘柄が混ざると、騰落率や統計がゆがみます。また、株式分割についての調整として、<code>auto_adjust=True</code> を既定にします。</p>
+<p>⚠️ 貯めたデータは定期的に棚卸しを。上場廃止・超低流動性の銘柄が混ざると、騰落率や統計がゆがみます。また、株式分割・配当の調整として、<code>auto_adjust=True</code> を既定にします。</p>
 </blockquote>
 <h2 id="yfinance">yfinanceで株価を取得する</h2>
 <p>東証銘柄は <code>{コード}.T</code> で指定します（ＥＮＥＯＳ ＝ <code>5020.T</code>）。</p>
@@ -1655,7 +1655,7 @@
 <p>取得した DataFrame は、そのまま parquet に書き出せます。</p>
 <div class="highlight"><pre><span></span><code><span class="n">df_5</span><span class="o">.</span><span class="n">to_parquet</span><span class="p">(</span><span class="s2">"data/prices/stocks/5min/5020.parquet"</span><span class="p">)</span>
 </code></pre></div>
-<p>5分足は <strong>日々追記</strong> して貯めます。既存ファイルに連結し、重複行（同じ時刻）を落とすだけ。</p>
+<p>5分足は <strong>週次で追記</strong> して貯めます（5分足は約 60 日分残るので、週 1 回の取得で十分です）。既存ファイルに連結し、重複行（同じ時刻）を落とすだけ。</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
 <span class="n">path</span> <span class="o">=</span> <span class="s2">"data/prices/stocks/5min/5020.parquet"</span>
@@ -1685,7 +1685,7 @@
 </a>
 </div>
 
-<p>Streamlit で作成したアプリです。チャートは、Plotly 。株価は、yfinance で取得し、parquet で保存しています。</p>
+<p>Streamlit で作成したアプリです。チャート描画は Plotly、株価は yfinance で取得して parquet に保存しています。</p>
 <ul>
 <li><strong>株価チャートと騰落率テーブルの日付を揃えて</strong>表示し、値動きと前日比を対応づけて読める</li>
 <li><strong>縦の境界線</strong>でギャップアップ・ギャップダウンを視覚的に把握しやすく</li>

@@ -1669,8 +1669,8 @@
 <h1 id="4-garp">4象限で GARP を見る ― 「成長と割安の両立銘柄」を発掘</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_garp_peg_roe/00_thumbnail.png" data-desc-position="bottom"><img alt="GARP とは何か" src="../img/04_garp_peg_roe/00_thumbnail.png" width="1280"></a></p>
 <p>「PER が低いから割安」 ― この判断には、<strong>成長率という視点</strong>が抜けています。</p>
-<p>ピーター・リンチが伝説的ファンドを年率 29% で運用した <strong>GARP（Growth At a Reasonable Price）</strong> 戦略では、PEG と ROE の組み合わせで「成長性（グロース）と割安度（バリュー）を両立した銘柄」を見つけ出します。</p>
-<p class="fig-meta">データ出典: 証券会社のアプリの ROE / 前期 EPS / 予想 EPS + yfinance 日足 Close</p>
+<p>ピーター・リンチが伝説的ファンドを年率 29% で運用しながら広めた <strong>GARP（Growth At a Reasonable Price）</strong> の考え方を、本連載では PEG × ROE の 2 軸で実装し、「成長性（グロース）と割安度（バリュー）を両立した銘柄」を見つけ出します。</p>
+<p class="fig-meta">データ出典: 証券会社のアプリの ROE / 前期 EPS / 予想 EPS + yfinance 日足 Close（前期＝2026年3月期実績／予想＝2027年3月期コンセンサス）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.ifinance.ne.jp/glossary/stock/sto379.html" target="_blank" rel="noopener">
@@ -1684,7 +1684,8 @@
 <h2 id="garp">GARP の概要</h2>
 <p><strong>GARP（Growth At a Reasonable Price）</strong> は、<strong>割安（低 PEG）かつ高品質（高 ROE）</strong> の銘柄を選ぶ戦略です。グロース投資が陥る「成長鈍化での PER 再評価による株価急落」、バリュー投資が陥る「構造的低収益のバリュートラップ」 ― この 2 つの失敗の <strong>中間</strong> に位置し、<strong>「成長性を確認しつつ妥当な価格で買う」</strong> スタンスです。</p>
 <div class="keypoint"><strong>PEG（予想） = PER（予想） ÷ EPS成長率(%)</strong> ― 成長率に対する割安度</div>
-<p>PER 30 倍でも年率 60% 成長なら PEG = 0.5 で超割安、PER 10 倍でも減益予想なら PEG = ∞ で罠。</p>
+<p>成長率は <strong>前期実績 → 今期予想の 1 期増益率</strong> です。業績回復局面では成長率が大きく出て PEG が低くなりやすい点に注意（後述のコスモ +47.66% がその例）。</p>
+<p>PER 30 倍でも年率 60% 成長なら PEG = 0.5 で超割安、PER 10 倍でも減益予想なら PEG は定義できず対象外（＝罠の可能性）。</p>
 <table>
 <thead>
 <tr>
@@ -1741,7 +1742,7 @@
 <ul>
 <li><strong>理想ゾーンに入っている主要銘柄は三井住友だけ</strong> ― <strong>割安 × 高 ROE の両立は、大型株では稀</strong>であることが一目で分かる</li>
 <li>大型株（水色）は ROE 帯にばらつきがあるが、PEG ≤ 1.0 の領域には少ない ―「妥当な価格」を厳格に求めると候補が限られる</li>
-<li>中小型株（背景グレー）には PEG が極端に低い銘柄が散在 ―「割安だが流動性・知名度が低い」候補は中小型に多い</li>
+<li>中型株（TOPIX Mid400、背景グレー）には PEG が極端に低い銘柄が散在 ―「割安だが相対的に注目されにくい」候補は中型株に多い</li>
 </ul>
 <h2 id="3garp">元売3社「GARPと株価の逆行」を観測</h2>
 <h3 id="garp_1">GARP では理想ゾーンのコスモ</h3>
@@ -1750,9 +1751,9 @@
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/04_garp_peg_roe/03_oil_refining.png" data-desc-position="bottom"><img alt="石油元売3社 GARP" src="../img/04_garp_peg_roe/03_oil_refining.png" width="1200"></a></p>
 <ul>
-<li><strong>コスモエネＨＤ</strong>: PEG 0.12 / ROE 12.4% → 🌟GARP 理想ゾーン</li>
-<li><strong>出光興産</strong>: PEG 0.48 / ROE 9.4% → 惜しい位置（ROE があと一歩）</li>
 <li><strong>ＥＮＥＯＳ</strong>: PEG 0.22 / ROE 8.0% → バリュー候補だが低収益</li>
+<li><strong>出光興産</strong>: PEG 0.48 / ROE 9.4% → 惜しい位置（ROE があと一歩）</li>
+<li><strong>コスモエネＨＤ</strong>: PEG 0.12 / ROE 12.4% → 🌟GARP 理想ゾーン</li>
 </ul>
 <h3 id="garp_2">なぜコスモの株価は GARP と逆行し、下落したか</h3>
 <p>GARP だけ見ればコスモが魅力的です。しかし、<strong>直近 6 ヶ月の株価</strong>は、−6.5% で下落しているのです。一方、ROE が劣る ＥＮＥＯＳ は +28.3%、出光は +23.2% と上昇しています。</p>
@@ -1762,7 +1763,7 @@
 <p>一見矛盾するこの結果は、いくつかの解釈ができます。</p>
 <ol>
 <li><strong>市況連動セクター特有の罠</strong>: 石油元売の業績は原油価格・精製マージンに大きく左右される。コスモの予想 EPS 成長率 +47.66% はコンセンサスが楽観的すぎる可能性があり、<strong>次回下方修正で PEG が一気に跳ね上がる懸念</strong></li>
-<li><strong>次の業績改善期待を先取り</strong>: ＥＮＥＯＳ / 出光は GARP 的にはイマイチでも、市場が先回りして買いに動いている可能性。GARP が「過去の予想ベース」を見るのに対し、株価は「次の予想変化」を読みに行く</li>
+<li><strong>次の業績改善期待を先取り</strong>: ＥＮＥＯＳ / 出光は GARP 的にはイマイチでも、市場が先回りして買いに動いている可能性。GARP が現時点のコンセンサス予想（静的な値）を見るのに対し、株価は予想の変化を先取りする</li>
 <li><strong>流動性プレミアム</strong>: ＥＮＥＯＳ は時価総額が大きく機関投資家の資金が入りやすい一方、コスモは相対的に小型で見落とされやすい</li>
 </ol>
 <blockquote>
@@ -1773,7 +1774,7 @@
 <li><strong>GARP = 低 PEG × 高 ROE</strong> で、バリュートラップを避けつつ高品質な割安成長株を選ぶ戦略</li>
 <li><strong>散布図が GARP の標準的な可視化</strong>。PEG × ROE の 2 軸でファンダの位置と市場全体の分布を同時に見られる</li>
 <li>主要 15 社のうち <strong>GARP 理想ゾーン入りは三井住友のみ</strong> ― 大型株での両立は稀</li>
-<li>石油元売 3 社では <strong>GARP 理想値のコスモが直近 6 ヶ月で下落</strong>、ＥＮＥＯＳ と GARP と株価が逆転</li>
+<li>石油元売 3 社では <strong>GARP 理想値のコスモが直近 6 ヶ月で下落</strong>、ＥＮＥＯＳ・出光は GARP 評価と株価騰落の順位が逆転</li>
 </ul>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。</p>
