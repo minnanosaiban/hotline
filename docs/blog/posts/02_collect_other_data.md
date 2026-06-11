@@ -10,7 +10,7 @@ tags:
   - コンセンサス
 ---
 
-# EDINET・TDnet 等を活用する ― 企業が金融庁に提出している決算 XBRL は使える
+# EDINET・TDnet 等を活用する ― 企業が開示している決算 XBRL は使える
 
 ![株価以外のデータを集める](img/02_collect_other_data/00_thumbnail.png){width="1280"}
 
@@ -42,18 +42,18 @@ tags:
 
 - 金融庁 EDINET と 東証 TDnet で取得するデータは、 **XBRL** というファイル形式です。XBRL の使い方は次回扱います。本記事では **データの取り方** を解説します。
 
-> ⚠️これらのデータは商用利用・データ転売が禁止です。個人の投資判断目的に限る。アクセス間隔を 1 秒以上空けるなどマナーを守って使用してください。
+> ⚠️利用条件はデータソースごとに異なるため、各提供元の規約を確認してください。とくに証券会社のアプリの CSV は再配布できません。アクセス間隔を 1 秒以上空けるなどマナーを守って使用してください。
 
 ## 金融庁 EDINET から有報を取得する
 
-有報は、**PDF と XBRL**（タグ付きデータ）の二つの形式で入手することができます。この XBRL は EDINET 公式 API で 取得できます。
+有報は、**PDF と XBRL**（タグ付きデータ）の二つの形式で入手することができます。XBRL は EDINET 公式 API で取得できます。`type=1` で XBRL 書類一式、`type=5` で XBRL を CSV 化したデータ一式が取得でき、本連載では `type=5` を使用します。
 
 業績推移はヤフーファイナンスや株探などのサービスで確認できますが、期間は3～5年です。有報を遡って足せば **10 年超**の業績時系列も組めます。また、データを取得することで、銘柄の業績を比較した可視化が可能です。
 
 ```python
 res = requests.get(f"https://disclosure.edinet-fsa.go.jp/api/v2/documents/{doc_id}",
     params={"type": 5, "Subscription-Key": API_KEY}) 
-# type=5 で XBRL を取得
+# type=5 で XBRL の CSV 化データ一式を取得（XBRL 書類一式は type=1）
 ```
 
 
@@ -61,10 +61,10 @@ res = requests.get(f"https://disclosure.edinet-fsa.go.jp/api/v2/documents/{doc_i
 
 ## 東証 TDnet から決算短信を取得する
 
-**決算短信 XBRL や決算発表日時** は、有報 XBRL と違い、公式 API がないため、PDF の URL から ZIP の URL に変換し、そのURLでスクレイピングするという方法をとります。
+**決算短信 XBRL や決算発表日時** は、有報 XBRL と違い、TDnet には書類取得の公式 API がありません（JPX の有料 API は別枠）。そこで、一覧ページをスクレイピングして短信 PDF のリンクと発表時刻を取得し、PDF の URL を ZIP の URL に書き換えてダウンロードします。この ZIP に短信 XBRL 一式が入っています。
 
 ```python
-import re, requests
+import requests
 from bs4 import BeautifulSoup
 
 url = f"https://www.release.tdnet.info/inbs/I_list_001_{target_date}.html"

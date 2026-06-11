@@ -83,7 +83,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/02_collect_other_data/" class="toc-card">
 <span class="toc-card-num">1-2</span>
 <span class="toc-card-title">EDINET・TDnet 等を活用</span>
-<span class="toc-card-desc">企業が金融庁に提出している決算 XBRL は使える</span>
+<span class="toc-card-desc">企業が開示している決算 XBRL は使える</span>
 </a>
 <a href="posts/03_xbrl_to_json/" class="toc-card">
 <span class="toc-card-num">1-3</span>
