@@ -32,7 +32,7 @@ nav:
           - 2-7 CARで見る「決算の効き」 : blog/posts/09b_narrative_car.md
       - <i class="fa-solid fa-layer-group"></i> 機械学習チャレンジ編:
           - 3-1 コサイン類似度: blog/posts/10_similar_earnings_search.md
-          - 3-2 K-NN 回帰: blog/posts/11_knn_prediction.md
+          - 3-2 K-NN 分類: blog/posts/11_knn_prediction.md
           - 3-3 K-means クラスタリング: blog/posts/12_earnings_clustering.md
           - 3-4 ランダムフォレスト: blog/posts/13_random_forest.md
           - 3-5 階層型クラスタリング: blog/posts/14_price_clustering.md

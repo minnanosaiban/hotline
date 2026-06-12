@@ -139,8 +139,8 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 </a>
 <a href="posts/11_knn_prediction/" class="toc-card">
 <span class="toc-card-num">3-2</span>
-<span class="toc-card-title">K-NN 回帰</span>
-<span class="toc-card-desc">失敗が生んだ個別ショック検出器</span>
+<span class="toc-card-title">K-NN 分類</span>
+<span class="toc-card-desc">似た決算群から外れた個別ショックを抽出</span>
 </a>
 <a href="posts/12_earnings_clustering/" class="toc-card">
 <span class="toc-card-num">3-3</span>
