@@ -443,8 +443,9 @@ body.blog-post-page .md-content p.fig-meta,
 }
 
 /* ④ テーブルの精緻化（クラス無しの素のテーブルのみ） */
+/* 文字は固定 12px（スケールの .smallest）。このファイルはブログ限定 */
 .md-typeset table:not([class]) {
-  font-size: 0.9em;
+  font-size: 12px;
 }
 .md-typeset table:not([class]) th {
   background: var(--md-default-fg-color--lightest);
