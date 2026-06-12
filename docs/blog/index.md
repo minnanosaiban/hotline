@@ -40,9 +40,6 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 
 ## おすすめの読み順
 
-
-</div>
-
 <div class="toc-grid" style="margin-top: 0.8rem;">
 <a href="posts/03_xbrl_to_json/" class="toc-card">
 <span class="toc-card-num">読む順 1</span>
@@ -161,6 +158,20 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <span class="toc-card-num">3-6</span>
 <span class="toc-card-title">PCA 異常検知</span>
 <span class="toc-card-desc">値動きの「共動の崩れ」で突発材料を検出</span>
+</a>
+</div>
+
+<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 番外編</p>
+<div class="toc-grid">
+<a href="posts/16_intraday_stats/" class="toc-card">
+<span class="toc-card-num">EX-1</span>
+<span class="toc-card-title">超短期のエッジ検証</span>
+<span class="toc-card-desc">5分足×コスト控除後、残ったのは場中開示だけ</span>
+</a>
+<a href="posts/17_intraday_ml/" class="toc-card">
+<span class="toc-card-num">EX-2</span>
+<span class="toc-card-title">LightGBM で次の5分</span>
+<span class="toc-card-desc">並べ替えはできる、でもコストに勝てない</span>
 </a>
 </div>
 
