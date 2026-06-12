@@ -3,31 +3,33 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。">
+        <meta name="description" content="ＥＮＥＯＳ（エネオス）の内部通報制度とコンプライアンス対応をめぐる訴訟について、公平にＥＮＥＯＳ側の主張も公表し、山田悠一郎裁判官・坂巻陽士裁判官の判決文を通じて、日本の通報窓口における透明性や調査対応を検証しています。">
       
       
       
-        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/trial/generativeai/">
+        <link rel="canonical" href="https://minnanosaiban.github.io/hotline/blog/posts/17_intraday_ml/">
       
+      
+        <link rel="prev" href="../16_intraday_stats/">
       
       
       
         
       
       
-      <link rel="icon" href="../../img/favicon.png">
+      <link rel="icon" href="../../../img/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>ＡＩ ✕ 裁判分析 - ENEOSの内部通報制度をめぐる訴訟について - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>EX-2 超短期の ML 検証 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -46,27 +48,27 @@
       
     
     
-      <link rel="stylesheet" href="../../css/01-color.css">
+      <link rel="stylesheet" href="../../../css/01-color.css">
     
-      <link rel="stylesheet" href="../../css/02-layout.css">
+      <link rel="stylesheet" href="../../../css/02-layout.css">
     
-      <link rel="stylesheet" href="../../css/03-typeset.css">
+      <link rel="stylesheet" href="../../../css/03-typeset.css">
     
-      <link rel="stylesheet" href="../../css/04-button.css">
+      <link rel="stylesheet" href="../../../css/04-button.css">
     
-      <link rel="stylesheet" href="../../css/05-card.css">
+      <link rel="stylesheet" href="../../../css/05-card.css">
     
-      <link rel="stylesheet" href="../../css/06-link-text.css">
+      <link rel="stylesheet" href="../../../css/06-link-text.css">
     
-      <link rel="stylesheet" href="../../css/07-link-button.css">
+      <link rel="stylesheet" href="../../../css/07-link-button.css">
     
-      <link rel="stylesheet" href="../../css/08-link-card.css">
+      <link rel="stylesheet" href="../../../css/08-link-card.css">
     
-      <link rel="stylesheet" href="../../css/09-mobile-menu.css">
+      <link rel="stylesheet" href="../../../css/09-mobile-menu.css">
     
-      <link rel="stylesheet" href="../../css/10-blog-reset.css">
+      <link rel="stylesheet" href="../../../css/10-blog-reset.css">
     
-      <link rel="stylesheet" href="../../css/11-trial.css">
+      <link rel="stylesheet" href="../../../css/11-trial.css">
     
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&amp;family=Noto+Serif+JP:wght@400;700&amp;display=swap">
     
@@ -74,7 +76,7 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,19 +86,25 @@
   
     
     
+      <style>
+        .md-typeset h1 { font-size: 2em !important; font-weight: 300 !important; line-height: 1.3 !important; margin: 0 0 1.25em 0 !important; }
+        .md-nav--secondary .md-nav__item > .md-nav,
+        .md-nav--secondary .md-nav__item > .md-nav .md-nav__item > .md-nav { display: none !important; }
+      </style>
+    
   
   
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:title" content="ＡＩ ✕ 裁判分析 - ENEOSの内部通報制度をめぐる訴訟について">
-    <meta property="twitter:description" content="ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。">
-    <meta property="twitter:image" content="https://minnanosaiban.github.io/hotline/img/card1.png">
-    <meta property="og:title" content="ＡＩ ✕ 裁判分析 - ENEOSの内部通報制度をめぐる訴訟について">
-    <meta property="og:description" content="ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。">
-    <meta property="og:image" content="https://minnanosaiban.github.io/hotline/img/card1.png">
-    <meta property="og:url" content="https://minnanosaiban.github.io/hotline/trial/generativeai/">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="../../..">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="../../..">
+    <meta property="og:url" content="https://example.com">
   
 
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -116,7 +124,7 @@
     
     
     
-    <body class="trial-doc" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+    <body class="blog-post-page blog-article-page" dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -125,7 +133,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ai" class="md-skip">
+        <a href="#lightgbm-5-111" class="md-skip">
           Skip to content
         </a>
       
@@ -149,7 +157,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            <a href="../.." onmouseover="this.style.color='#1a5fb4'" onmouseout="this.style.color='#003682'">
+            <a href="../../.." onmouseover="this.style.color='#1a5fb4'" onmouseout="this.style.color='#003682'">
               ＥＮＥＯＳの内部通報制度をめぐる訴訟について
             </a>
           </span>
@@ -157,7 +165,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ＡＩ ✕ 裁判分析 - ENEOSの内部通報制度をめぐる訴訟について
+              EX-2 超短期の ML 検証
             
           </span>
         </div>
@@ -217,7 +225,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../.." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   
@@ -239,7 +247,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../" class="md-tabs__link">
+        <a href="../../../trial/" class="md-tabs__link">
           
   
   
@@ -257,11 +265,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../blog/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -292,8 +302,6 @@
           
             
               
-                
-              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -305,9 +313,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="ＥＮＥＯＳの内部通報制度に関する訴訟について" class="md-nav__button md-logo" aria-label="ＥＮＥＯＳの内部通報制度に関する訴訟について" data-md-component="logo">
+    <a href="../../.." title="ＥＮＥＯＳの内部通報制度に関する訴訟について" class="md-nav__button md-logo" aria-label="ＥＮＥＯＳの内部通報制度に関する訴訟について" data-md-component="logo">
       
-  <img src="../../img/card1.png" alt="logo">
+  <img src="../../../img/card1.png" alt="logo">
 
     </a>
     ＥＮＥＯＳの内部通報制度に関する訴訟について
@@ -347,7 +355,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../.." class="md-nav__link ">
+            <a href="../../.." class="md-nav__link ">
               
   
   
@@ -428,7 +436,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../trial/" class="md-nav__link ">
               
   
   
@@ -472,7 +480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../eneos_claims/" class="md-nav__link">
+      <a href="../../../trial/eneos_claims/" class="md-nav__link">
         
   
   
@@ -500,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../eneos/" class="md-nav__link">
+      <a href="../../../trial/eneos/" class="md-nav__link">
         
   
   
@@ -528,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../whistleblower/" class="md-nav__link">
+      <a href="../../../trial/whistleblower/" class="md-nav__link">
         
   
   
@@ -556,7 +564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../judgement_2025/" class="md-nav__link">
+      <a href="../../../trial/judgement_2025/" class="md-nav__link">
         
   
   
@@ -616,6 +624,8 @@
       
   
   
+    
+  
   
   
     
@@ -637,22 +647,23 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../blog/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -670,13 +681,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -710,10 +721,13 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
@@ -722,7 +736,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2">
         
           
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
             
   
   
@@ -758,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/01_get_stock_prices/" class="md-nav__link">
+      <a href="../01_get_stock_prices/" class="md-nav__link">
         
   
   
@@ -786,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/02_collect_other_data/" class="md-nav__link">
+      <a href="../02_collect_other_data/" class="md-nav__link">
         
   
   
@@ -814,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/03_xbrl_to_json/" class="md-nav__link">
+      <a href="../03_xbrl_to_json/" class="md-nav__link">
         
   
   
@@ -872,10 +886,13 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
@@ -884,7 +901,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3">
         
           
-          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
             
   
   
@@ -920,7 +937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/04_garp_peg_roe/" class="md-nav__link">
+      <a href="../04_garp_peg_roe/" class="md-nav__link">
         
   
   
@@ -948,7 +965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/05_multifactor_scoreboard/" class="md-nav__link">
+      <a href="../05_multifactor_scoreboard/" class="md-nav__link">
         
   
   
@@ -976,7 +993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/06_accrual_analysis/" class="md-nav__link">
+      <a href="../06_accrual_analysis/" class="md-nav__link">
         
   
   
@@ -1004,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/07_triangulation/" class="md-nav__link">
+      <a href="../07_triangulation/" class="md-nav__link">
         
   
   
@@ -1032,7 +1049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/08_segment_analysis/" class="md-nav__link">
+      <a href="../08_segment_analysis/" class="md-nav__link">
         
   
   
@@ -1060,7 +1077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/08b_segment_core_stocks/" class="md-nav__link">
+      <a href="../08b_segment_core_stocks/" class="md-nav__link">
         
   
   
@@ -1088,7 +1105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/09b_narrative_car/" class="md-nav__link">
+      <a href="../09b_narrative_car/" class="md-nav__link">
         
   
   
@@ -1144,10 +1161,13 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
@@ -1156,7 +1176,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4">
         
           
-          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
             
   
   
@@ -1192,7 +1212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/10_similar_earnings_search/" class="md-nav__link">
+      <a href="../10_similar_earnings_search/" class="md-nav__link">
         
   
   
@@ -1220,7 +1240,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/11_knn_prediction/" class="md-nav__link">
+      <a href="../11_knn_prediction/" class="md-nav__link">
         
   
   
@@ -1248,7 +1268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/12_earnings_clustering/" class="md-nav__link">
+      <a href="../12_earnings_clustering/" class="md-nav__link">
         
   
   
@@ -1276,7 +1296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/13_random_forest/" class="md-nav__link">
+      <a href="../13_random_forest/" class="md-nav__link">
         
   
   
@@ -1304,7 +1324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/14_price_clustering/" class="md-nav__link">
+      <a href="../14_price_clustering/" class="md-nav__link">
         
   
   
@@ -1332,7 +1352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/15_price_anomaly/" class="md-nav__link">
+      <a href="../15_price_anomaly/" class="md-nav__link">
         
   
   
@@ -1365,8 +1385,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1379,20 +1401,21 @@
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
         
           
+          
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5">
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
             
   
   
@@ -1410,7 +1433,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1428,7 +1451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../blog/posts/16_intraday_stats/" class="md-nav__link">
+      <a href="../16_intraday_stats/" class="md-nav__link">
         
   
   
@@ -1453,10 +1476,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../blog/posts/17_intraday_ml/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-2 超短期の ML 検証
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1472,6 +1522,103 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lightgbm-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LightGBM で「次の 5 分の上下」を分類する
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        結果 ― 並べ替えはできる、的中はコイン並み
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        それでも獲れない ― エッジはコストの 1/11
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        連載 3-4 と同じ構図
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正直な限界
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python コード
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1500,8 +1647,6 @@
             
             
               
-                
-              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -1513,6 +1658,91 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lightgbm-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LightGBM で「次の 5 分の上下」を分類する
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        結果 ― 並べ替えはできる、的中はコイン並み
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        それでも獲れない ― エッジはコストの 1/11
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        連載 3-4 と同じ構図
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正直な限界
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python コード
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1526,80 +1756,94 @@
               <article class="md-content__inner md-typeset">
                 
                   
+
+
+
+<h1 id="lightgbm-5-111">LightGBM で「次の 5 分」を当てられるか試す ― 111 万バーで検証</h1>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/17_intraday_ml/00_thumbnail.png" data-desc-position="bottom"><img alt="次の5分をMLで" src="../img/17_intraday_ml/00_thumbnail.png" width="1280"></a></p>
+<p>前回（番外編A）、超短期の定番シグナルを 1 本ずつ検証すると、コスト控除後に残ったのは場中開示のドリフトだけでした。では「<strong>個別ルールで弱いなら、機械学習に全部まとめて学習させればいいのでは？</strong>」― 実務でも定番の発想です。本記事は LightGBM（勾配ブースティングの定番ライブラリ）にその仕事をさせ、<strong>何ができて、何ができないか</strong> を数字で確かめます。</p>
+<p class="fig-meta">データ出典: 番外編A と同じ 5 分足・流動性上位 300 銘柄（2025-11-21〜2026-05-29）。学習 111 万バー（〜2026-03-31）→ 検証 51 万バー（2026-04-01〜、境界 1 日はパージ）。実装は `blog21_scalping_ml.py`</p>
+
+<div class="ref-quiet">
+<a class="ref-card ref-card--quiet" href="https://lightgbm.readthedocs.io/en/stable/" target="_blank" rel="noopener">
+<span class="ref-card-body">
+<span class="ref-card-title">LightGBM とは</span>
+<span class="ref-card-desc">決定木ベースの高速な勾配ブースティング・フレームワーク ― 公式ドキュメント</span>
+</span>
+</a>
+</div>
+
+<!-- more -->
+
+<h2 id="lightgbm-5">LightGBM で「次の 5 分の上下」を分類する</h2>
+<p>問題設定は素直な 2 値分類です ― <strong>「次の 5 分バーは上がるか、下がるか」</strong>。</p>
+<ul>
+<li><strong>特徴量は 8 個</strong>：直近リターン 4 本（5 分・15 分・30 分・1 時間）、直近 1 時間のボラ、出来高の偏り、時間帯（バー位置）、当日の寄りギャップ</li>
+<li>学習は前半 4 ヶ月の <strong>111 万バー</strong>、答え合わせは後半 2 ヶ月の <strong>51 万バー</strong>（学習に未来は混ぜない）</li>
+<li>評価は AUC・的中率に加え、<strong>確信度上位だけ取引した場合のコスト控除後損益</strong> を主役に</li>
+</ul>
+<h2 id="_1">結果 ― 並べ替えはできる、的中はコイン並み</h2>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/17_intraday_ml/01_decile_returns.png" data-desc-position="bottom"><img alt="確信度十分位と次バーリターン" src="../img/17_intraday_ml/01_decile_returns.png" width="1200"></a></p>
+<ul>
+<li><strong>AUC 0.512・的中率 50.9%</strong> ― 多数派に張るだけ（50.5%）とほぼ同じ、実質コイン投げ</li>
+<li>ところが、モデルの確信度で 51 万バーを 10 グループに割ると、次バーの平均リターンは <strong>−0.66bps → +0.22bps へきれいに単調</strong></li>
+<li>つまり LightGBM は <strong>「どちらに転びやすいか」の並べ替えには成功している</strong>。ランダムなら十分位はフラットになるはず</li>
+</ul>
+<p>「当てられないのに並べ替えはできる」― 矛盾ではありません。1 バーごとの上下はほぼノイズでも、<strong>ごくわずかな傾きを 51 万バー集めれば形になる</strong>。それが上の階段です。</p>
+<h2 id="111">それでも獲れない ― エッジはコストの 1/11</h2>
+<p>では、その階段の両端だけ取引したら勝てるのか。</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/17_intraday_ml/02_edge_vs_cost.png" data-desc-position="bottom"><img alt="エッジとコストの比較" src="../img/17_intraday_ml/02_edge_vs_cost.png" width="1200"></a></p>
+<ul>
+<li>確信度トップ 10% を買い・ボトム 10% を売り ― 1 回あたり <strong>+0.44bps</strong></li>
+<li>往復コスト 5bps を払うと <strong>−4.6bps</strong>。エッジは <strong>コストの 1/11</strong> しかない</li>
+<li>モデルが最重要視した特徴量は <strong>時間帯（重要度 19%）</strong> ― 番外編A で「再現しない」と確認した時間帯の癖を、機械学習も主要な手がかりに選び、同じ薄さに行き着いた</li>
+</ul>
+<h2 id="3-4">連載 3-4 と同じ構図</h2>
+<p>実はこの結末、見覚えがあります。連載 3-4（ランダムフォレスト × 日次 CAR）の結論は「方向の的中はコイン並み、ただし並べ替え（ランキング）には情報がある」でした。<strong>日次でも 5 分足でも、機械学習が返す答えは同じ</strong>です。</p>
+<ul>
+<li>価格の方向を「当てる」道具としては機能しない ― ノイズが支配的</li>
+<li>一方で <strong>構造の発見</strong>（どこに傾きがあるか・どの特徴が効くか）には機能する ― 今回は「時間帯」と「直近リターンの逆張り」を自力で見つけてきた</li>
+<li>番外編A の結論と合わせると、超短期で残るのは <strong>モデルの賢さではなく、イベント（場中開示）という構造</strong></li>
+</ul>
+<h2 id="_2">正直な限界</h2>
+<ul>
+<li><strong>約定の仮定が甘い</strong>：バー終値で売買できた前提。確信度上位のバーは値動きが激しく、実際のスリッページはエッジをさらに削る</li>
+<li><strong>期間は 6 ヶ月・1 分割のみ</strong>：ウォークフォワードの繰り返し検証はデータが溜まってから</li>
+<li><strong>特徴量は価格・出来高だけ</strong>：板の偏り（OBI）や歩み値は 5 分足に写らない。秒スケールの検証は板データ取得後の課題</li>
+</ul>
+<h2 id="_3">まとめ</h2>
+<ul>
+<li>LightGBM に 111 万バー学習させても、次の 5 分の的中は <strong>50.9%（コイン並み）</strong></li>
+<li>ただし確信度十分位は <strong>−0.66 → +0.22bps と単調</strong> ― 並べ替え（構造の発見）はできている</li>
+<li>その両端を取引しても <strong>+0.44bps/回でコスト 5bps の 1/11</strong> ― 経済的には獲れない</li>
+<li>結論は連載 3-4 と同じ：<strong>機械学習は「当てる魔法」ではなく「構造を見つける道具」</strong>。超短期で実際に残る構造は、番外編A の場中開示ドリフトだった</li>
+</ul>
+<h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
+<p>本記事の検証スクリプト（特徴量生成・パージ付き IN/OUT 分割・十分位分析）は、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本記事と同じものが再現できます。</p>
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/17_intraday_ml" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/17_intraday_ml</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
+
+<hr>
+
+
+
+
+
+
+
+  
   
 
 
 
-
-<p class="base64">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/generativeai/ &amp;text=ＡＩ ✕ 裁判分析 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について" target="_blank" class="x-share" style="color: #FFFFFF;">
-    <i class="fa-brands fa-x-twitter"></i> でシェア
-  </a>
-</p>
-
-<h1 id="ai">ＡＩ ✕ 裁判分析</h1>
-<h2 class="largest">
-NotebookLM で分析
-</h2>
-
-<div class="margin04">
-<div class="card-bule">
-<p class="larger center margin01">
-ＥＮＥＯＳ側の主張を音声解説🎙️</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a><br>カスタム指示：無し<br>2025年8月作成</p>
-</div>
-</div>
-
-<div class="margin04">
-<div class="card-bule">
-<p class="larger center margin01">
-東京地裁判決を音声解説🎙️</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a><br>カスタム指示無し<br>2025年8月作成</p>
-</div>
-</div>
-
-<div class="margin04">
-<div class="card-bule">
-<p class="larger center margin01">
-控訴審を音声解説🎙️</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/kouso_202508.wav" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁2025年判決、控訴理由書、控訴答弁書</a><br>カスタム指示無し<br>2025年8月作成</p>
-</div>
-</div>
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-  
 
 
 
@@ -1695,12 +1939,12 @@ NotebookLM<br>ソース：<a class="arrow-link" href="https://minnanosaiban.gith
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../js/custom.js"></script>
+        <script src="../../../js/custom.js"></script>
       
     
   

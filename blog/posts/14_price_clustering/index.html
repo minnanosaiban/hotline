@@ -643,6 +643,8 @@
       
         
       
+        
+      
     
     
     
@@ -1387,7 +1389,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        クラスタリングの概要
+        階層型クラスタリングで「似た値動き」をまとめる
       
     </span>
   </a>
@@ -1505,6 +1507,133 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_intraday_stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-1 超短期の統計検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_intraday_ml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-2 超短期の ML 検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1542,7 +1671,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        クラスタリングの概要
+        階層型クラスタリングで「似た値動き」をまとめる
       
     </span>
   </a>
@@ -1649,7 +1778,7 @@
 
 <!-- more -->
 
-<h2 id="_2">クラスタリングの概要</h2>
+<h2 id="_2">階層型クラスタリングで「似た値動き」をまとめる</h2>
 <p>決算特徴量は使いません。使うのは <strong>日次リターンの「形」だけ</strong> です。</p>
 <div class="keypoint">生の株価ではなく、<strong>日次リターン（毎日の上げ下げ）の相関</strong> で測るのが肝。相関 ρ が高いほど距離が小さくなる <strong>相関距離 <code>√(2(1−ρ))</code></strong> を使い、「似た動き＝近い」を表します。</div>
 <ul>

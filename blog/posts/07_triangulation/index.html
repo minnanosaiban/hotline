@@ -643,6 +643,8 @@
       
         
       
+        
+      
     
     
     
@@ -1095,7 +1097,7 @@
   <a href="#4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4 象限マップで「予想のズレ」を確認
+        4 象限マップで「予想のズレ」を見る
       
     </span>
   </a>
@@ -1145,7 +1147,7 @@
   <a href="#8" class="md-nav__link">
     <span class="md-ellipsis">
       
-        総合商社 8 社で「利益の質 × 予想」を確認
+        総合商社 8 社の「利益の質 × 予想」を見る
       
     </span>
   </a>
@@ -1522,6 +1524,133 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_intraday_stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-1 超短期の統計検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_intraday_ml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-2 超短期の ML 検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1570,7 +1699,7 @@
   <a href="#4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4 象限マップで「予想のズレ」を確認
+        4 象限マップで「予想のズレ」を見る
       
     </span>
   </a>
@@ -1620,7 +1749,7 @@
   <a href="#8" class="md-nav__link">
     <span class="md-ellipsis">
       
-        総合商社 8 社で「利益の質 × 予想」を確認
+        総合商社 8 社の「利益の質 × 予想」を見る
       
     </span>
   </a>
@@ -1676,7 +1805,7 @@
 <li><strong>アナリストコンセンサス</strong>（複数アナリストの平均予想）</li>
 </ol>
 <p>本記事では、この <strong>3 つの予想を並べて照合</strong>し、「次に上方修正が出そうな銘柄」と「ガイダンス未達リスクの銘柄」を炙り出します。</p>
-<p class="fig-meta">データ出典: 自前で構築したパイプラインの `data/statements/*_FY.json` 841 件（actual） + 327 件（forecast）から (code) マッチ 327 ペアを構築し、`data/rakunav/213_EPS.csv` を結合した 211 銘柄サンプル</p>
+<p class="fig-meta">データ出典: 自前で構築したパイプラインの `data/statements/*_FY.json` 841 件（actual） + 327 件（forecast）から (code) マッチ 327 ペアを構築し、証券会社のアプリの EPS を結合した 211 銘柄サンプル</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.nomura.co.jp/terms/japan/ko/con_chosa.html" target="_blank" rel="noopener">
@@ -1700,7 +1829,7 @@
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_triangulation/01_triangulation_concept.png" data-desc-position="bottom"><img alt="予想検証 概念図" src="../img/07_triangulation/01_triangulation_concept.png" width="1200"></a></p>
-<h2 id="4">4 象限マップで「予想のズレ」を確認</h2>
+<h2 id="4">4 象限マップで「予想のズレ」を見る</h2>
 <p>同じ銘柄について、次の 3 つを突き合わせます。</p>
 <ol>
 <li>業績 EPS（決算短信）</li>
@@ -1960,7 +2089,7 @@
 </tbody>
 </table>
 <p>ジェイテクト（6473）やエプソン（6724）は業績比 +200% を超える極端な強気ガイダンス（特殊要因の可能性）に対し、アナリストはより冷静な見方。いずれも <strong>次の決算で下方修正が出るリスクが高い</strong> 警戒銘柄群です。</p>
-<h2 id="8">総合商社 8 社で「利益の質 × 予想」を確認</h2>
+<h2 id="8">総合商社 8 社の「利益の質 × 予想」を見る</h2>
 <p>前回の <strong>アクルーアル分析</strong>（純利益と営業 CF の差で利益の質を測る手法）で健全だった <strong>総合商社 8 社</strong>（伊藤忠 / 丸紅 / 豊田通商 / 兼松 / 三井物産 / 三菱商事 / 住友商事 / 双日）は、本記事の 211 銘柄にも全社入っています。そこで「利益の質」と「予想の信頼性」を、同じ 8 社で重ねて見てみます。</p>
 <p>FY2025 本決算を経た 8 社を、予想検証（GA・CG）とアクルーアルで並べたのが下の表です。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>

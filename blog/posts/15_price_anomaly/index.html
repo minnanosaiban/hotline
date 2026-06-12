@@ -13,6 +13,8 @@
         <link rel="prev" href="../14_price_clustering/">
       
       
+        <link rel="next" href="../16_intraday_stats/">
+      
       
         
       
@@ -633,6 +635,8 @@
       
         
           
+        
+      
         
       
         
@@ -1410,10 +1414,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#pca_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        仕組み ― 「みんなと違う動き」を残差で測る
+        PCA で「みんなと違う動き」を検出する
       
     </span>
   </a>
@@ -1421,7 +1425,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         ケーススタディ ― 仲間は平ら、その銘柄だけ動いた
@@ -1454,7 +1458,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         毎日の見張り ― いつ点灯するか
@@ -1465,7 +1469,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         正直な限界
@@ -1476,7 +1480,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1501,6 +1505,133 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_intraday_stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-1 超短期の統計検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_intraday_ml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-2 超短期の ML 検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1548,10 +1679,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#pca_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        仕組み ― 「みんなと違う動き」を残差で測る
+        PCA で「みんなと違う動き」を検出する
       
     </span>
   </a>
@@ -1559,7 +1690,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         ケーススタディ ― 仲間は平ら、その銘柄だけ動いた
@@ -1592,7 +1723,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         毎日の見張り ― いつ点灯するか
@@ -1603,7 +1734,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         正直な限界
@@ -1614,7 +1745,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1652,7 +1783,7 @@
 
 
 
-<h1 id="pca">PCA 異常検知― 値動きの「共動の崩れ」で突発材料を検出</h1>
+<h1 id="pca">PCA 異常検知 ― 値動きの「共動の崩れ」で突発材料を検出</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/00_thumbnail.png" data-desc-position="bottom"><img alt="突発材料の異常検知" src="../img/15_price_anomaly/00_thumbnail.png" width="1280"></a></p>
 <p>前回（3-5）、値動きの相関で「いつも一緒に動く仲間（クラスタ）」が見えました。ここで自然な問いが生まれます ―「<strong>その仲間から、ある銘柄だけが突然はずれる日はあるのか？</strong>」。</p>
 <p>買収提案、TOB、業績修正、事故 ― 個別の材料は、<strong>その 1 社だけ</strong> を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、<strong>突発材料が出た銘柄をその日のうちに拾える</strong> はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 の「個別ショック抽出」の、<strong>決算発表に依らない常時監視版</strong> です。</p>
@@ -1669,7 +1800,7 @@
 
 <!-- more -->
 
-<h2 id="_1">仕組み ― 「みんなと違う動き」を残差で測る</h2>
+<h2 id="pca_1">PCA で「みんなと違う動き」を検出する</h2>
 <p>どの銘柄も「市場全体の波」と「業種の波」に乗っています。そこで <strong>PCA（主成分分析＝多くの銘柄に共通する動きを抜き出す手法）</strong> で、その "みんなに共通する波" を取り出し（最も大きい波が市場全体の動きで、全体の約 36% を占める）、各銘柄の動きを <strong>その共通の波でどれだけ説明できるか</strong> を見ます。</p>
 <div class="keypoint"><strong>実際の値動き − 共通成分（再構成） ＝ 残差</strong>。この残差が大きい日＝市場・業種で説明できない動き＝<strong>個別材料が出た日</strong>。</div>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
@@ -1679,7 +1810,7 @@
 <li>上段：セブン＆アイの 2024-08-19、<strong>実際の動きは約 9σ</strong>（σ＝普段の値動きの幅。9σ は "普段の 9 倍" 級）跳ねたのに、共通成分（青線）はほぼ 0 ― 市場・業種では説明できない</li>
 <li>下段：その差＝<strong>残差が 10σ</strong> に突出。これが「異常度」で、大きい日ほど強い個別材料</li>
 </ul>
-<h2 id="_2">ケーススタディ ― 仲間は平ら、その銘柄だけ動いた</h2>
+<h2 id="_1">ケーススタディ ― 仲間は平ら、その銘柄だけ動いた</h2>
 <p>3-5 のクラスタを「いつもの仲間」の基準線にして、代表 4 銘柄を重ねます。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
 
@@ -1746,7 +1877,7 @@
 <li>下段：ピアで説明できない累積リターン（ENEOS 固有分）は 2025 年央から拡大</li>
 </ul>
 <p>これは連載 <strong>2-7（CAR）</strong> で業界の動きを除いて測った市場反応を、<strong>イベント窓ではなく毎日・教師なしで監視する常時版</strong> にあたります。</p>
-<h2 id="_3">毎日の見張り ― いつ点灯するか</h2>
+<h2 id="_2">毎日の見張り ― いつ点灯するか</h2>
 <p>日ごとに「いつもと違う動き」をした銘柄数を数えると、検出器の使い方が見えます。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
 
@@ -1755,14 +1886,14 @@
 <li>平常日は 0〜2 銘柄。ところが <strong>決算シーズン（2・5・8・11 月）に 10〜15 銘柄へスパイク</strong></li>
 <li>個別材料が集中する時期に自動で点灯する ― <strong>その日のうちに「確認すべき銘柄」を絞れる</strong></li>
 </ul>
-<h2 id="_4">正直な限界</h2>
+<h2 id="_3">正直な限界</h2>
 <p>3-4 で重要度の罠を直視したのと同じトーンで、ここも正直に書きます。</p>
 <ul>
 <li>検出できるのは <strong>「個別材料が出た日」であって「不正」そのものではない</strong>。大半は買収・業績修正・需給。<strong>不正"判定器"ではなく、確認すべき銘柄を絞る"トリアージ装置"</strong></li>
 <li>タイミングは基本 <strong>ニュースと同時</strong>。発覚前に分かるのは情報が先行して漏れた場合だけで、<strong>予言ではない</strong></li>
 <li>それでも価値は大きい ― 個人投資家の <strong>時間配分の最適化</strong>（どの IR・適時開示を先に読むか）に直結します</li>
 </ul>
-<h2 id="_5">まとめ</h2>
+<h2 id="_4">まとめ</h2>
 <ul>
 <li>入力を「値動きそのもの」にして、<strong>予測ではなく検出</strong> に徹した。PCA の <strong>残差（実際 − 共通成分）</strong> が大きい日＝個別材料が出た日</li>
 <li>検出器は <strong>セブン＆アイ +23.8%（買収提案）／豊田自動織機 +21.7%（TOB）／日本航空電子 −18.3%</strong> など、<strong>市場が動かないのにその銘柄だけ動いた日</strong> を上げ下げ両方向で的中</li>

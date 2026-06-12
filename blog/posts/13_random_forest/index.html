@@ -643,6 +643,8 @@
       
         
       
+        
+      
     
     
     
@@ -1359,7 +1361,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ランダムフォレストの概要
+        ランダムフォレストで「上 / 下」を当てられるか試す
       
     </span>
   </a>
@@ -1494,6 +1496,133 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_intraday_stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-1 超短期の統計検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_intraday_ml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-2 超短期の ML 検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1531,7 +1660,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ランダムフォレストの概要
+        ランダムフォレストで「上 / 下」を当てられるか試す
       
     </span>
   </a>
@@ -1627,7 +1756,7 @@
 
 <!-- more -->
 
-<h2 id="_1">ランダムフォレストの概要</h2>
+<h2 id="_1">ランダムフォレストで「上 / 下」を当てられるか試す</h2>
 <p>ランダムフォレストは、多数の決定木の多数決で予測する定番の機械学習手法です。連載 3-1／3-2 と同じ <strong>決算 10 指標</strong>（YoY 各種・利益率・配当成長・セグメント情報）を入力に、<strong>CAR[-1,+5] の符号（上 / 下）を分類</strong> させます。</p>
 <div class="keypoint">対象 287 銘柄のうち <strong>上昇 40%・下落 60%</strong>。つまり <strong>「全部 "下" と答えるだけで 59.9% 当たる</strong>」（＝多数派ベースライン）。モデルはこれを超えて初めて「予測できた」と言えます。評価は、データを 5 分割して順に検証する <strong>交差検証</strong> と、一部を取り置いて試す <strong>ホールドアウト</strong> で行います。</div>
 <h2 id="_2">予測精度で「当たらないこと」を確認</h2>

@@ -643,6 +643,8 @@
       
         
       
+        
+      
     
     
     
@@ -846,7 +848,7 @@
   <a href="#yfinance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        yfinanceで株価を取得する
+        yfinance で株価を取得する
       
     </span>
   </a>
@@ -865,6 +867,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -876,7 +889,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         📌 自作アプリ紹介
@@ -1483,6 +1496,133 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5">
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class="fa-solid fa-layer-group"></i> 番外編
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16_intraday_stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-1 超短期の統計検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../17_intraday_ml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EX-2 超短期の ML 検証
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1531,7 +1671,7 @@
   <a href="#yfinance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        yfinanceで株価を取得する
+        yfinance で株価を取得する
       
     </span>
   </a>
@@ -1550,6 +1690,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1561,7 +1712,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         📌 自作アプリ紹介
@@ -1593,12 +1744,11 @@
 <p>株価は yfinance から都度ロードして表示することもできますが、取得制限やパフォーマンスを考えると、<strong>取得した株価データは parquet で保存しておくのがベストプラクティス</strong>です（とくに 5 分足は約 60 日で消えるため、貯める価値が高い）。</p>
 <p>本記事では、</p>
 <ul>
-<li>yfinanceから株価を取得する</li>
+<li>yfinance から株価を取得する</li>
 <li>parquet 形式で保存する</li>
 <li>5分足チャートを描画してみる</li>
 </ul>
-<p>までを通します。</p>
-<p>ここで作成する 5分足チャートの Python コードは GitHub に公開しています。それでは、フェーズ1「データ取得編」の出発点です。</p>
+<p>までを通します。それでは、データ取得編の出発点です。</p>
 <p class="fig-meta">データ出典: yfinance 日足・5分足 Close（`auto_adjust=True`）</p>
 
 <div class="ref-quiet">
@@ -1640,7 +1790,7 @@
 <blockquote>
 <p>⚠️ 貯めたデータは定期的に棚卸しを。上場廃止・超低流動性の銘柄が混ざると、騰落率や統計がゆがみます。また、株式分割・配当の調整として、<code>auto_adjust=True</code> を既定にします。</p>
 </blockquote>
-<h2 id="yfinance">yfinanceで株価を取得する</h2>
+<h2 id="yfinance">yfinance で株価を取得する</h2>
 <p>東証銘柄は <code>{コード}.T</code> で指定します（ＥＮＥＯＳ ＝ <code>5020.T</code>）。</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">yfinance</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">yf</span>
 
@@ -1668,7 +1818,14 @@
 <span class="n">merged</span> <span class="o">=</span> <span class="n">merged</span><span class="p">[</span><span class="o">~</span><span class="n">merged</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">duplicated</span><span class="p">(</span><span class="n">keep</span><span class="o">=</span><span class="s2">"last"</span><span class="p">)]</span><span class="o">.</span><span class="n">sort_index</span><span class="p">()</span>
 <span class="n">merged</span><span class="o">.</span><span class="n">to_parquet</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 </code></pre></div>
-<p>これを週末バッチで回せば、5分足が途切れず積み上がっていきます。保存・追記の全体像は Appendix の GitHub を参照してください。</p>
+<p>これを週末バッチで回せば、5分足が途切れず積み上がっていきます。保存・追記の全体像は文末の Python コード（GitHub）を参照してください。</p>
+<h2 id="_2">まとめ</h2>
+<ul>
+<li>日足は 10 年以上取れるが、<strong>5分足は約 60 日で消える</strong> ― 今貯めないと将来手に入らない</li>
+<li>保存は <strong>parquet</strong> 一択 ― 型を保ったまま、CSV より速く・小さく</li>
+<li>週次バッチで <strong>追記</strong>（連結 → 重複落とし）すれば、5分足が途切れず積み上がる</li>
+<li>ここで貯めた 5分足が、後の連載（決算発表直後の値動き・超短期検証）の土台になる</li>
+</ul>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。</p>
 <div class="repo-link-wrap">
@@ -1678,7 +1835,7 @@
 </a>
 </div>
 
-<h2 id="_2">📌 自作アプリ紹介</h2>
+<h2 id="_3">📌 自作アプリ紹介</h2>
 <div class="keypoint"><strong>― 寄付・引け・窓開けを一目で確認できる5分足チャート ―</strong></div>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min" target="_blank" rel="noopener">
