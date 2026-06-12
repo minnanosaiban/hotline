@@ -1388,7 +1388,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN 回帰
+    3-2 K-NN 分類
   
 
     
@@ -1692,9 +1692,9 @@
 <h2 id="_2">将来の業績修正の向きを読む</h2>
 <p>業績・企業ガイダンス・アナリストコンセンサスの 3 つを <strong>同一銘柄 × 同一会計年度</strong> で並べると、コツは <strong>「3 つのうち、どれか 1 つだけが浮いていないか」</strong> を探すこと。その浮いた 1 つから、将来の業績修正の向きを読みます。</p>
 <ul>
-<li><strong>ガイダンスだけ低い</strong>（コンセンサス ≒ 業績）→ 会社の <strong>出し惜しみ</strong> → 後で上方修正 ＝ <strong>買い</strong></li>
-<li><strong>コンセンサスだけ高い</strong>（業績・ガイダンスより突出）→ アナリストの <strong>楽観バイアス</strong> → <strong>当てにせず見送り</strong></li>
-<li><strong>ガイダンスだけ高い</strong>（コンセンサスが下）→ 会社の <strong>背伸び</strong> → 下方修正リスク ＝ <strong>警戒</strong></li>
+<li><strong>ガイダンスだけ低い</strong>（コンセンサス ≒ 業績）→ 会社の出し惜しみ → 後で上方修正で <strong>買い</strong></li>
+<li><strong>コンセンサスだけ高い</strong>（業績・ガイダンスより突出）→ アナリストの楽観 → 当てにせず <strong>見送り</strong></li>
+<li><strong>ガイダンスだけ高い</strong>（コンセンサスが下）→ 会社の背伸び → 下方修正リスクで <strong>警戒</strong></li>
 </ul>
 <p>つまりコンセンサスは「正解」でも「ノイズ」でもなく、<strong>ガイダンスの出し惜しみ／背伸びを炙り出す“第三者の物差し”</strong>。信じるかどうかではなく、<strong>3 点のどれが浮いているか</strong> を読みます。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
@@ -1746,15 +1746,15 @@
 </table>
 <p>トヨタは業績 295.2 円 → ガイダンス 251.2 円（−14.9%）に対しコンセンサス 318.5 円（+26.8%）。<strong>「企業は固く出す、アナリストは強気で見る」日本市場の伝統的構図</strong> がそのまま出ています。</p>
 <h2 id="_3">ズレが大きい銘柄ランキング</h2>
-<p>3 つの数値を頭文字で <strong>C＝コンセンサス</strong>・<strong>G＝ガイダンス</strong>・<strong>A＝業績（Actual）</strong> と呼びます。2 文字の指標はいずれも <strong>「（前の数値 − 後の数値）÷ 後の数値」</strong> の % で、後ろの文字が基準です。</p>
+<p>3 つの数値を頭文字で <strong>C＝コンセンサス</strong>・<strong>G＝ガイダンス</strong>・<strong>A＝業績（Actual）</strong> と呼び、2 つの差を % で表します（いずれも「（前 − 後）÷ 後」で、後ろの文字が基準）。</p>
 <ul>
-<li><strong>GA＝（ガイダンス − 業績）÷ 業績</strong>：マイナスほど会社が<strong>保守的</strong></li>
-<li><strong>CG＝（コンセンサス − ガイダンス）÷ ガイダンス</strong>：プラスほどアナリストが<strong>強気</strong></li>
-<li><strong>CA＝（コンセンサス − 業績）÷ 業績</strong>：小さいほどコンセンサスは<strong>業績どおり（本物）</strong>、大きいほど<strong>上振れ（楽観）</strong></li>
+<li><strong>GA＝（ガイダンス − 業績）÷ 業績</strong> ― マイナスほど会社が保守的</li>
+<li><strong>CG＝（コンセンサス − ガイダンス）÷ ガイダンス</strong> ― プラスほどアナリストが強気</li>
+<li><strong>CA＝（コンセンサス − 業績）÷ 業績</strong> ― 小さいほどコンセンサスは業績どおり（本物）、大きいほど上振れ（楽観）</li>
 </ul>
-<p><i class="fa-solid fa-star"></i> 上方修正期待と <i class="fa-solid fa-triangle-exclamation"></i> 達成困難予想を、<strong>CG の大きい順</strong>に 10 銘柄ずつ並べます。そのうえで、その強気・懐疑が <strong>本物か楽観かは CA で見分けます</strong>（下表の「業績EPS」と「コンセンサス」を見比べてください。両表に列として載せるのは <strong>GA・CG</strong> です）。</p>
+<p>以下、<i class="fa-solid fa-star"></i> 上方修正期待（<strong>CG の大きい順</strong>）と <i class="fa-solid fa-triangle-exclamation"></i> 達成困難予想（懐疑が強い順）を、10 銘柄ずつ並べます。表に載せる列は GA と CG。<strong>その強気が「本物（＝会社の出し惜しみ）」か「楽観」かは、業績 EPS とコンセンサスを見比べる（＝ CA）と分かります。</strong></p>
 <h3 id="top-10">アナリスト強気が大きい順 Top 10</h3>
-<p>口火を切るのは <strong>業績の半値以下という極端な保守ガイダンス × アナリスト強気</strong> の銘柄群。象徴的なのが <strong>住友商事</strong> ― 業績 EPS 499 円に対し会社ガイダンスは 132 円（業績比 <strong>−74%</strong>）、アナリストコンセンサスは 543 円（ガイダンス比 <strong>+312%</strong>）と強気です。</p>
+<p>口火を切るのは、<strong>業績の半値以下という極端な保守ガイダンス × アナリスト強気</strong> の銘柄群。象徴的なのが住友商事 ― 業績 EPS 499 円に対し会社ガイダンスは 132 円（業績比 −74%）、アナリストコンセンサスは 543 円（ガイダンス比 +312%）と強気です。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_triangulation/03_upside_top10.png" data-desc-position="bottom"><img alt="上方修正期待 Top10" src="../img/07_triangulation/03_upside_top10.png" width="1200"></a></p>
@@ -1852,16 +1852,16 @@
 </tr>
 </tbody>
 </table>
-<p>チャート最上位の <strong>豊田合成（7282）</strong> ― 業績比 −80% / ガイダンス比 +361% ― のように、上位は「会社が在庫評価益などの一時的要因を除いて低めに置いたガイダンスを、アナリストが実態ベースで上に見ている」という構図です。</p>
-<p>ここで大事な見分け。同じ「上方修正期待」でも、<strong>コンセンサスを業績と並べる</strong> と中身が 2 つに分かれます。</p>
+<p>チャート最上位の豊田合成（7282）― 業績比 −80% / ガイダンス比 +361% ― のように、上位は「会社が在庫評価益などの一時的要因を除いて低めに置いたガイダンスを、アナリストが実態ベースで上に見ている」という構図です。</p>
+<p>ここで大事な見分け。同じ「上方修正期待」でも、コンセンサスを業績と並べると中身は 2 つに分かれます。</p>
 <ul>
-<li><strong>住友商事（出し惜しみ＝本物）</strong>：コンセンサス 543 ≒ 業績 499 で、浮いているのは <strong>ガイダンス 132</strong>。会社が低めに出しているだけなので上方修正の蓋然性が高い ＝ <strong>買い候補</strong></li>
-<li><strong>リコーリース（楽観バイアス＝注意）</strong>：ガイダンス 386 ≒ 業績 416 と正直なのに <strong>コンセンサス 550 だけ突出</strong>。浮いているのはアナリスト予想で、楽観に乗ると外しやすい</li>
+<li><strong>住友商事（出し惜しみ＝本物）</strong>：コンセンサス 543 ≒ 業績 499 で、浮いているのはガイダンス 132 だけ。会社が低めに出しているだけなので、上方修正の可能性が高い ＝ <strong>買い候補</strong></li>
+<li><strong>リコーリース（楽観＝注意）</strong>：ガイダンス 386 ≒ 業績 416 と正直なのに、コンセンサス 550 だけ突出。浮いているのはアナリスト予想のほうで、楽観に乗ると外しやすい</li>
 </ul>
-<p>CG（+311% と +42%）だけ見れば両者とも「強気」ですが、<strong>意味は逆</strong>。コンセンサスを業績とも突き合わせて初めて区別できます。</p>
-<p>ただし <strong>テラドローン（278A）</strong> はガイダンス・コンセンサスが赤字（マイナス EPS）で、％が負値基準で発散・符号反転するため解釈に注意。本来は |EPS|&gt;1 のフィルタに加え、<strong>符号が反転するケースは別扱い</strong> が望ましい一例です。</p>
+<p>CG（+311% と +42%）だけ見れば両者とも「強気」ですが、<strong>意味は正反対</strong>。コンセンサスを業績とも突き合わせて初めて区別できます。</p>
+<p>ただしテラドローン（278A）はガイダンス・コンセンサスが赤字（マイナス EPS）のため、% が大きく振れて素直に読めません ― 本来は |EPS|&gt;1 のフィルタに加え、符号が反転するケースは別扱いにするのが望ましい一例です。</p>
 <h3 id="top-10_1">アナリスト懐疑が大きい順 Top 10</h3>
-<p>アナリスト懐疑が大きい順に 10 銘柄。筆頭の <strong>東光高岳（6617）</strong> はガイダンスが業績比 <strong>+51% 強気</strong> なのに、アナリストはガイダンス比 <strong>−48% 懐疑</strong> と見ています。</p>
+<p>アナリスト懐疑が大きい順に 10 銘柄。筆頭の東光高岳（6617）は、ガイダンスが業績比 <strong>+51% と強気</strong> なのに、アナリストはガイダンス比 <strong>−48% と懐疑的</strong> に見ています。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_triangulation/04_downside_top10.png" data-desc-position="bottom"><img alt="達成困難 Top10" src="../img/07_triangulation/04_downside_top10.png" width="1200"></a></p>
@@ -1959,10 +1959,10 @@
 </tr>
 </tbody>
 </table>
-<p><strong>6473（ジェイテクト）</strong> や <strong>6724（エプソン）</strong> は業績比 +200% を超える極端な強気ガイダンス（特殊要因の可能性）に対し、アナリストはより冷静な見方。いずれも <strong>次の決算で下方修正が出るリスクが高い</strong> 警戒銘柄群です。</p>
+<p>ジェイテクト（6473）やエプソン（6724）は業績比 +200% を超える極端な強気ガイダンス（特殊要因の可能性）に対し、アナリストはより冷静な見方。いずれも <strong>次の決算で下方修正が出るリスクが高い</strong> 警戒銘柄群です。</p>
 <h2 id="8">総合商社 8 社で「利益の質 × 予想」を確認</h2>
-<p>利益の質を測る <strong>アクルーアル分析</strong>（純利益と営業 CF の乖離）で健全と確認された <strong>総合商社 8 社（伊藤忠 / 丸紅 / 豊田通商 / 兼松 / 三井物産 / 三菱商事 / 住友商事 / 双日）</strong> は、本記事の予想検証可能 211 銘柄にも全社含まれます。<strong>「利益の質」と「予想の信頼性」を同じ銘柄群でクロス分析できる初の機会</strong> です。</p>
-<p>FY2025 本決算を経て、<strong>8 社とも利益の質（アクルーアル &lt; 0）は健全なまま、予想検証では住友商事だけが「保守ガイダンス × アナリスト強気」を維持</strong>。他 7 社は FY2026 を強気ガイダンスで設定し、アナリストは中立〜懐疑に転じました。</p>
+<p>前回の <strong>アクルーアル分析</strong>（純利益と営業 CF の差で利益の質を測る手法）で健全だった <strong>総合商社 8 社</strong>（伊藤忠 / 丸紅 / 豊田通商 / 兼松 / 三井物産 / 三菱商事 / 住友商事 / 双日）は、本記事の 211 銘柄にも全社入っています。そこで「利益の質」と「予想の信頼性」を、同じ 8 社で重ねて見てみます。</p>
+<p>FY2025 本決算を経た 8 社を、予想検証（GA・CG）とアクルーアルで並べたのが下の表です。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/07_triangulation/05_trading_companies.png" data-desc-position="bottom"><img alt="総合商社 8 社 予想検証 × アクルーアル" src="../img/07_triangulation/05_trading_companies.png" width="1200"></a></p>
@@ -2035,18 +2035,17 @@
 </tr>
 </tbody>
 </table>
-<p>この変化を個別銘柄の判定に落とし込むと：</p>
-<ol>
-<li><strong>アクルーアル（利益の質）</strong>: 利益の質が高いか？ → 全社 OK</li>
-<li><strong>予想検証（予想の信頼性）</strong>: 上方修正期待があるか？ → 住友商事のみ明確。他社は強気ガイダンス × アナリスト中立〜懐疑に転換</li>
-</ol>
-<p>この <strong>「利益の質 × 予想の信頼性 のクロス検証」</strong> は、機関投資家のファンダメンタル・スコアリングの基本構造そのものです。</p>
+<ul>
+<li><strong>利益の質（アクルーアル &lt; 0）は 8 社とも健全</strong> ― FY2025 を経ても崩れていない</li>
+<li><strong>上方修正期待（保守ガイダンス × アナリスト強気）を保つのは住友商事だけ</strong> ― 他 7 社は FY2026 を強気ガイダンスで置き、アナリストは中立〜懐疑に転じた</li>
+<li>この「<strong>利益の質 × 予想の信頼性</strong>」のクロスは、機関投資家がファンダメンタルを評価する基本構造そのもの</li>
+</ul>
 <h2 id="_4">まとめ</h2>
 <ul>
 <li>業績・ガイダンス・コンセンサスを並べ、<strong>「浮いた 1 つ」で次の修正の向きを読む</strong>（対象 211 銘柄）</li>
 <li><i class="fa-solid fa-star"></i> <strong>上方修正期待</strong>（保守ガイダンス × アナリスト強気）の筆頭は <strong>住友商事</strong> ― 本物か楽観かは <strong>CA</strong> で判別</li>
 <li><i class="fa-solid fa-triangle-exclamation"></i> <strong>達成困難</strong>（強気ガイダンス × アナリスト懐疑）は <strong>ジェイテクト・エプソン</strong> など要警戒</li>
-<li><strong>総合商社 8 社で「利益の質 × 予想の信頼性」を初クロス</strong> ― 上方修正期待を保つのは <strong>住友商事のみ</strong></li>
+<li><strong>総合商社 8 社で「利益の質 × 予想の信頼性」を重ねると</strong> ― 上方修正期待を保つのは <strong>住友商事のみ</strong></li>
 </ul>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>予想検証の計算方法</strong>（3 ソースの統合・3 ペアの乖離率・4 象限分類・アクルーアルとのクロス）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>

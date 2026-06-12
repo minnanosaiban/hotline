@@ -1245,7 +1245,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN 回帰
+    3-2 K-NN 分類
   
 
     
@@ -1413,7 +1413,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        仕組み ― 実際 − 共通成分 ＝ 残差（個別分）
+        仕組み ― 「みんなと違う動き」を残差で測る
       
     </span>
   </a>
@@ -1446,7 +1446,7 @@
   <a href="#eneos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ＥＮＥＯＳ ― いつもの石油ピアから外れた日
+        ＥＮＥＯＳ ― いつもの石油同業から外れた日
       
     </span>
   </a>
@@ -1551,7 +1551,7 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        仕組み ― 実際 − 共通成分 ＝ 残差（個別分）
+        仕組み ― 「みんなと違う動き」を残差で測る
       
     </span>
   </a>
@@ -1584,7 +1584,7 @@
   <a href="#eneos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ＥＮＥＯＳ ― いつもの石油ピアから外れた日
+        ＥＮＥＯＳ ― いつもの石油同業から外れた日
       
     </span>
   </a>
@@ -1655,7 +1655,7 @@
 <h1 id="pca">PCA 異常検知― 値動きの「共動の崩れ」で突発材料を検出</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/00_thumbnail.png" data-desc-position="bottom"><img alt="突発材料の異常検知" src="../img/15_price_anomaly/00_thumbnail.png" width="1280"></a></p>
 <p>前回（3-5）、値動きの相関で「いつも一緒に動く仲間（クラスタ）」が見えました。ここで自然な問いが生まれます ―「<strong>その仲間から、ある銘柄だけが突然はずれる日はあるのか？</strong>」。</p>
-<p>買収提案、TOB、業績修正、事故 ― 個別の材料は、<strong>その 1 社だけ</strong> を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、<strong>突発材料が出た銘柄をその日のうちに拾える</strong> はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 で作った「個別ショック検出器」の、<strong>決算発表に依らない常時監視版</strong> です。</p>
+<p>買収提案、TOB、業績修正、事故 ― 個別の材料は、<strong>その 1 社だけ</strong> を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、<strong>突発材料が出た銘柄をその日のうちに拾える</strong> はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 の「個別ショック抽出」の、<strong>決算発表に依らない常時監視版</strong> です。</p>
 <p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 287 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</p>
 
 <div class="ref-quiet">
@@ -1669,18 +1669,20 @@
 
 <!-- more -->
 
-<h2 id="_1">仕組み ― 実際 − 共通成分 ＝ 残差（個別分）</h2>
-<p>どの銘柄も「市場全体の波」と「業種の波」に乗っています。そこで <strong>PCA（主成分分析）</strong> で全銘柄に共通する波（上位 10 本で分散の 51%、うち PC1=36% が市場全体）を取り出し、各銘柄の動きを <strong>その共通成分でどれだけ再現できるか</strong> を見ます。</p>
+<h2 id="_1">仕組み ― 「みんなと違う動き」を残差で測る</h2>
+<p>どの銘柄も「市場全体の波」と「業種の波」に乗っています。そこで <strong>PCA（主成分分析＝多くの銘柄に共通する動きを抜き出す手法）</strong> で、その "みんなに共通する波" を取り出し（最も大きい波が市場全体の動きで、全体の約 36% を占める）、各銘柄の動きを <strong>その共通の波でどれだけ説明できるか</strong> を見ます。</p>
 <div class="keypoint"><strong>実際の値動き − 共通成分（再構成） ＝ 残差</strong>。この残差が大きい日＝市場・業種で説明できない動き＝<strong>個別材料が出た日</strong>。</div>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/01_mechanism.png" data-desc-position="bottom"><img alt="仕組み" src="../img/15_price_anomaly/01_mechanism.png" width="1200"></a></p>
 <ul>
-<li>上段：セブン＆アイの 2024-08-19、<strong>実際の動きは約 9σ</strong> 跳ねたのに、共通成分（青線）はほぼ 0 ― 市場・業種では説明できない</li>
+<li>上段：セブン＆アイの 2024-08-19、<strong>実際の動きは約 9σ</strong>（σ＝普段の値動きの幅。9σ は "普段の 9 倍" 級）跳ねたのに、共通成分（青線）はほぼ 0 ― 市場・業種では説明できない</li>
 <li>下段：その差＝<strong>残差が 10σ</strong> に突出。これが「異常度」で、大きい日ほど強い個別材料</li>
 </ul>
 <h2 id="_2">ケーススタディ ― 仲間は平ら、その銘柄だけ動いた</h2>
 <p>3-5 のクラスタを「いつもの仲間」の基準線にして、代表 4 銘柄を重ねます。</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/02_event_casestudy.png" data-desc-position="bottom"><img alt="ケーススタディ" src="../img/15_price_anomaly/02_event_casestudy.png" width="1200"></a></p>
 <p>灰色（クラスタ平均＝いつもの仲間）は平らなのに、赤（対象銘柄）だけが縦線の日に跳ねる／落ちる ― <strong>個別材料の瞬間が一目で分かります</strong>。</p>
 <ul>
@@ -1688,7 +1690,7 @@
 <li><strong>牧野フライス −18%</strong>／<strong>日本航空電子 −18%</strong> ― 急落</li>
 </ul>
 <h2 id="top15">突発材料 Top15 ― 検出器の出力</h2>
-<p>異常度（残差 σ）の上位を、<strong>その日の「個別超過リターン（銘柄 − 市場平均）」</strong> で並べます。</p>
+<p>異常度（PCA の残差 σ）が大きい順に選び、見やすいように <strong>その日の「個別の動き＝銘柄 − 市場平均」</strong> で大きさを示します（並べる基準は残差、表示はその個別の動き）。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/03_sudden_events.png" data-desc-position="bottom"><img alt="突発材料 Top15" src="../img/15_price_anomaly/03_sudden_events.png" width="1200"></a></p>
@@ -1734,16 +1736,20 @@
 </tbody>
 </table>
 <p>緑＝急騰・赤＝急落。どれも <strong>市場はほぼ動いていないのに、その銘柄だけ大きく動いた日</strong> です。上げも下げも、両方向の突発材料を拾えています。</p>
-<h2 id="eneos">ＥＮＥＯＳ ― いつもの石油ピアから外れた日</h2>
-<p>本連載の中核 <strong>ＥＮＥＯＳ</strong> で試します。通常は石油ピア（出光・コスモ）と <strong>相関 0.79</strong> で連動しますが、ローリング相関は <strong>0.47 まで急落</strong> しました ― その日は <strong>2025-03-28 の業績予想修正の前後</strong>。</p>
+<h2 id="eneos">ＥＮＥＯＳ ― いつもの石油同業から外れた日</h2>
+<p>本連載の中核 <strong>ＥＮＥＯＳ</strong> で試します。通常は石油の同業（出光・コスモ）と <strong>相関 0.79</strong> で連動しますが、その連動の強さ（ローリング相関＝直近どうしの相関）が <strong>0.47 まで急落</strong> した日があります ― それが <strong>2025-03-28 の業績予想修正の前後</strong> でした。</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/04_eneos_decoupling.png" data-desc-position="bottom"><img alt="ENEOS デカップリング" src="../img/15_price_anomaly/04_eneos_decoupling.png" width="1200"></a></p>
 <ul>
-<li>上段：いつもの石油ピアとの連動が、ENEOS 固有の材料が出た局面でだけ切れている</li>
+<li>上段：いつもの石油同業との連動が、ＥＮＥＯＳ 固有の材料が出た局面でだけ切れている</li>
 <li>下段：ピアで説明できない累積リターン（ENEOS 固有分）は 2025 年央から拡大</li>
 </ul>
 <p>これは連載 <strong>2-7（CAR）</strong> で業界の動きを除いて測った市場反応を、<strong>イベント窓ではなく毎日・教師なしで監視する常時版</strong> にあたります。</p>
 <h2 id="_3">毎日の見張り ― いつ点灯するか</h2>
 <p>日ごとに「いつもと違う動き」をした銘柄数を数えると、検出器の使い方が見えます。</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/15_price_anomaly/05_daily_monitor.png" data-desc-position="bottom"><img alt="毎日の見張り" src="../img/15_price_anomaly/05_daily_monitor.png" width="1200"></a></p>
 <ul>
 <li>平常日は 0〜2 銘柄。ところが <strong>決算シーズン（2・5・8・11 月）に 10〜15 銘柄へスパイク</strong></li>
@@ -1764,7 +1770,7 @@
 <li>毎日の銘柄数は <strong>決算シーズンにスパイク</strong> ― 個別材料の集中を自動で可視化する「見張り」になる</li>
 <li>限界も明確：検出できるのは「個別材料が出た日」で、不正の判定でも未来予言でもない。<strong>“発見・トリアージ”の道具</strong></li>
 </ul>
-<p>これで機械学習編（3-1〜3-6）が一区切りです。<strong>予測（3-2 K-NN／3-4 RF）は構造的に難しい一方、発見（3-1 類似検索／3-3・3-5 クラスタリング／3-6 異常検知）は教師なしでよく効く</strong> ― 「AI は予言の魔法ではなく、整理・発見・時間節約の道具」という本連載の結論を、値動きデータが最も鮮やかに示しました。</p>
+<p>これで機械学習編（3-1〜3-6）が一区切りです。<strong>値や方向そのものの予測（3-4 RF／3-2 でも r≈0）は構造的に難しい一方、発見（3-1 類似検索／3-2 個別ショックの仕分け／3-3・3-5 クラスタリング／3-6 異常検知）は教師なしでよく効く</strong> ― 「AI は予言の魔法ではなく、整理・発見・時間節約の道具」という本連載の結論を、値動きデータが最も鮮やかに示しました。</p>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
 <p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>異常検知の計算方法</strong>（PCA 再構成・残差による異常度・ピア残差・突発材料抽出・毎日の銘柄数）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">

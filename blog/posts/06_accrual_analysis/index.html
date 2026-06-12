@@ -1145,7 +1145,7 @@
   <a href="#eneos_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ＥＮＥＯＳ、ピーク利益とキャッシュ
+        ＥＮＥＯＳで「ピーク利益の裏付け」を確認
       
     </span>
   </a>
@@ -1416,7 +1416,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN 回帰
+    3-2 K-NN 分類
   
 
     
@@ -1676,7 +1676,7 @@
   <a href="#eneos_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ＥＮＥＯＳ、ピーク利益とキャッシュ
+        ＥＮＥＯＳで「ピーク利益の裏付け」を確認
       
     </span>
   </a>
@@ -1725,7 +1725,7 @@
 <h1 id="eneos">アクルーアル分析 ― ＥＮＥＯＳ「ピークの裏付けは？」、キャッシュ実態</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/06_accrual_analysis/00_thumbnail.png" data-desc-position="bottom"><img alt="アクルーアル分析" src="../img/06_accrual_analysis/00_thumbnail.png" width="1280"></a></p>
 <p>「純利益が過去最高 ― だから優良決算」。でも、<strong>その利益はキャッシュを伴っていますか</strong>。</p>
-<p>PEG・ROE やマルチファクター採点は、銘柄を「量」と「水準」で評価します。本記事では、<strong>純利益と営業キャッシュフローの乖離（アクルーアル）</strong> で、利益の "質" を見抜きます。</p>
+<p>PEG・ROE やマルチファクター採点は、銘柄を「量」と「水準」で評価します。本記事では、<strong>純利益と営業キャッシュフローの差（アクルーアル）</strong> で、利益の "質" を見抜きます。</p>
 <p class="fig-meta">データ出典: 自前で構築したパイプラインの `data/yuho/{EDINETコード}/*.json` 91 ファイル（13 社 × 7 期）。アクルーアル比率は Sloan (1996) の定義に従う</p>
 
 <div class="ref-quiet">
@@ -1770,14 +1770,14 @@
 </tr>
 </tbody>
 </table>
-<div class="keypoint"><strong>補助指標 CF/純利益 = 営業 CF ÷ 純利益</strong> ― 1.0 に近いほど健全、0.5 未満は要注意</div>
-<p>純利益が営業 CF を大きく上回る主因は、売掛金・棚卸資産の増加や <strong>在庫評価益</strong>（時価評価上の利益）。これらは <strong>将来反転するリスク</strong> を抱えた利益で、正常化の過程で剥落し、ネガティブサプライズになりやすい ― 「アクルーアル比率が低い銘柄は高い銘柄を年率約 10% アウトパフォーム」という Sloan の発見は、30 年経っても有効です。</p>
+<div class="keypoint"><strong>補助指標 CF/純利益 = 営業 CF ÷ 純利益</strong> ― 1.0 なら利益がほぼ現金になっている、0.5 未満は要注意</div>
+<p>純利益が営業 CF を大きく上回る主因は、まだ現金として入っていない売掛金や在庫の増加、そして <strong>在庫評価益</strong>（在庫を高値で評価し直しただけの利益）です。これらは <strong>あとで反転しやすい利益</strong> で、業績が正常化する過程ではがれ落ち、業績の下振れ（ネガティブサプライズ）につながりやすい ― 「アクルーアル比率が低い銘柄は、高い銘柄を年率約 10% も上回って値上がりした」という Sloan の発見は、30 年経っても有効です。</p>
 <blockquote>
 <p>⚠️ 純利益が極端に小さい・マイナスの年は CF/純利益が発散・反転するため、補助指標として使います。</p>
 </blockquote>
 <h2 id="13">商社＋元売 13 社で「業界の健全性」を見る</h2>
 <h3 id="xbrl13">有報 XBRLで分析、13 社の健全だった年の回数</h3>
-<p>各社の 7 年を「営業CF ≧ 純利益（アクルーアル ≦ 0）だった年数」で数え直すと、構造的な質が見えます。<strong>毎年健全なのは 石油資源開発・INPEX・三菱商事 の 3 社</strong>。石油元売 3 社は 2022・2023 の特需局面だけ崩れます。</p>
+<p>各社の 7 年を「営業 CF ≧ 純利益（＝アクルーアル ≦ 0）だった年数」で数えると、どの会社が構造的に健全かが見えてきます。</p>
 <table>
 <thead>
 <tr>
@@ -1809,12 +1809,13 @@
 </tbody>
 </table>
 <ul>
-<li>元売より <strong>上流（資源開発）の方が安定して健全</strong> ― 本記事の元売 3 社よりさらに堅い比較対象が存在する</li>
-<li>最も振れるのは <strong>三井物産 3/7・双日 4/7（最新 +0.041 で警戒）</strong> ― 同じ商社でも構造の差がある</li>
-<li>健全さの背景: 設備投資・在庫の運転資本サイクルが定常的にプラス CF を生み、配当政策で利益を着実に CF 認識、IFRS 採用が多く（13 社中 12 社）会計が保守的</li>
+<li><strong>毎年健全なのは 石油資源開発・INPEX・三菱商事 の 3 社</strong> ― 元売 3 社は 2022・2023 の特需局面だけ崩れる</li>
+<li>元売より <strong>上流（資源開発）の方が安定して健全</strong> ― 元売 3 社よりさらに堅い比較対象が存在する</li>
+<li>最も振れるのは三井物産 3/7・双日 4/7（最新 +0.041 で警戒）― 同じ商社でも構造の差がある</li>
+<li>健全さの背景: 在庫・設備投資の運転資本サイクルが定常的にプラス CF を生み、配当で利益を着実に現金化、IFRS 採用が多く（13 社中 12 社）会計が保守的</li>
 </ul>
 <h3 id="eneos-2022">ＥＮＥＯＳの 2022 年度は警戒ゾーン</h3>
-<p>91 サンプルを 45° 線（純利益 = 営業 CF）で 2 ゾーンに分けると、<strong>ＥＮＥＯＳの 2022 年度は、警戒ゾーンの奥に位置（★マーク）</strong> しています。</p>
+<p>91 サンプル（13 社 × 7 期）を、45° 線（純利益 = 営業 CF）を境に「健全」と「警戒」の 2 ゾーンに分けてみます。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/06_accrual_analysis/04_ni_cf_scatter.png" data-desc-position="bottom"><img alt="純利益×営業CF 散布図 91 サンプル" src="../img/06_accrual_analysis/04_ni_cf_scatter.png" width="1200"></a></p>
@@ -1837,54 +1838,34 @@
 </tbody>
 </table>
 <ul>
-<li><strong>2020 年（コロナ・原油急落）は赤字でも CF はプラス</strong> の銘柄が多い ― 「会計利益 &lt; キャッシュ実態」で健全に分類</li>
-<li>逆に <strong>2022 年の特需で全 3 社が警戒ゾーンに集中</strong> ― 原油急騰による在庫評価益が共通発生した結果</li>
+<li><strong>ＥＮＥＯＳの 2022 年度は警戒ゾーンの最も奥（★）</strong> ― 純利益が営業 CF を最も大きく上回った 1 点</li>
+<li>2020 年（コロナ・原油急落）は赤字でも CF はプラスの銘柄が多い ― 「会計の利益 &lt; 実際の現金」で健全に分類</li>
+<li>逆に <strong>2022 年の特需では元売 3 社がそろって警戒ゾーンに集中</strong> ― 原油急騰による在庫評価益が共通して出た結果</li>
 </ul>
 <h2 id="3">元売3社「特需の共通パターン」を観測</h2>
 <h3 id="7">アクルーアル比率の 7 年推移</h3>
-<p>3 社のアクルーアル比率を 7 年並べると、<strong>どの社も大半の年は健全（営業CF ≧ 純利益）なのに、2022・2023 の 2 年だけ全社プラス（純利益 &gt; CF）に振れる</strong> 共通パターンが見えます。原油価格高騰局面で <strong>「在庫を高値で評価し直した利益」</strong> が 3 社そろって発生したためです。</p>
+<p>3 社のアクルーアル比率を、同じ 7 年で重ねたチャートです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/06_accrual_analysis/01_oil_3_accrual_timeline.png" data-desc-position="bottom"><img alt="石油元売3社 アクルーアル 7 年推移" src="../img/06_accrual_analysis/01_oil_3_accrual_timeline.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>銘柄</th>
-<th>健全な年（7 年中）</th>
-<th>解釈</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>ＥＮＥＯＳ</strong></td>
-<td><strong>5 / 7 年</strong></td>
-<td>2022・2023 以外は CF が純利益を上回る</td>
-</tr>
-<tr>
-<td>コスモエネＨＤ</td>
-<td>5 / 7 年</td>
-<td>同じく 2022・2023 の 2 年だけ純利益 &gt; CF に振れる</td>
-</tr>
-<tr>
-<td>出光興産</td>
-<td>4 / 7 年</td>
-<td>3 社で最も崩れた年が多い（最新 2025 は健全に回復）</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>どの社も <strong>大半の年は健全</strong>（営業 CF ≧ 純利益）なのに、<strong>2022・2023 の 2 年だけ全社がプラス（純利益 &gt; CF）に振れる</strong> 共通パターン</li>
+<li>原油価格の高騰局面で <strong>「在庫を高値で評価し直しただけの利益」</strong> が 3 社そろって出たため</li>
+<li>健全な年数は ＥＮＥＯＳ・コスモエネＨＤが 5/7 年、出光興産が 4/7 年（出光が最も崩れたが、最新 2025 は健全に回復）</li>
+</ul>
 <h3 id="vs-cf">純利益 vs 営業 CF の年次対比</h3>
-<p>3 社の純利益と営業 CF を並べると、<strong>ＥＮＥＯＳ 2022 だけ営業 CF が純利益を大きく下回る</strong> 異常パターンが目立ちます。</p>
+<p>3 社それぞれの純利益と営業 CF を、年ごとに並べたチャートです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/06_accrual_analysis/02_oil_3_ni_vs_cf.png" data-desc-position="bottom"><img alt="純利益 vs 営業CF 3 社対比" src="../img/06_accrual_analysis/02_oil_3_ni_vs_cf.png" width="1200"></a></p>
 <ul>
-<li><strong>コスモエネＨＤ 2022</strong>: 純利益 1,389 億 / 営業CF 1,084 億（CF/純利 0.78）</li>
-<li><strong>ＥＮＥＯＳ 2022</strong>: 純利益 5,371 億 / 営業CF <strong>2,095 億</strong>（CF/純利 <strong>0.39</strong>）</li>
-<li><strong>出光興産 2022</strong>: 純利益 2,795 億 / 営業CF 1,461 億（CF/純利 0.52）</li>
-<li><strong>ＥＮＥＯＳ 2022 はギャップ最大の 3,276 億円</strong>（利益の絶対額が大きい分「会計利益のうち実現しなかった額」も最大）― 翌 2023 の CF マイナス転落の伏線に</li>
+<li>コスモエネＨＤ 2022: 純利益 1,389 億 / 営業 CF 1,084 億（CF/純利 0.78）</li>
+<li>ＥＮＥＯＳ 2022: 純利益 5,371 億 / 営業 CF 2,095 億（CF/純利 0.39）</li>
+<li>出光興産 2022: 純利益 2,795 億 / 営業 CF 1,461 億（CF/純利 0.52）</li>
+<li><strong>ＥＮＥＯＳ 2022 だけ営業 CF が純利益を大きく下回り、ギャップは最大の 3,276 億円</strong> ― 利益の額が大きいぶん「会計上は利益でも現金になっていない額」も最大で、翌 2023 年に営業 CF がマイナスへ転落する伏線に</li>
 </ul>
-<h2 id="eneos_1">ＥＮＥＯＳ、ピーク利益とキャッシュ</h2>
-<p>ここまで見てきた <strong>ＥＮＥＯＳ の 2022 ピーク純利益 5,371 億円</strong> を、7 年の純利益と営業 CF に分解すると、根本的に違う景色 ―― <strong>ピーク利益はキャッシュで裏付けられていなかった</strong> 実態が年度ベースではっきり出ます。</p>
+<h2 id="eneos_1">ＥＮＥＯＳで「ピーク利益の裏付け」を確認</h2>
+<p>ＥＮＥＯＳ の 2022 年ピーク純利益 5,371 億円を、7 年分の純利益・営業 CF・CF 化率（CF/純利）に並べたのが下の表です。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/06_accrual_analysis/05_eneos_quality.png" data-desc-position="bottom"><img alt="ＥＮＥＯＳ 利益の質ハイライト" src="../img/06_accrual_analysis/05_eneos_quality.png" width="1200"></a></p>
@@ -1958,13 +1939,12 @@
 </tr>
 </tbody>
 </table>
-<p><strong>核心となる発見</strong> :</p>
 <ul>
-<li><strong>2022 年純利益 5,371 億円のうち、営業 CF として実際に流入したのは 2,095 億円</strong>。残りの 3,276 億円は「在庫評価益」「運転資本拡大による売掛・在庫の増加」など、<strong>キャッシュを伴わない利益</strong>だった可能性が高い</li>
-<li><strong>2023 年は CF がマイナス（−1,102 億円）なのに純利益はプラス（+1,438 億円）</strong>。アクルーアル比率 +0.026 と "普通圏" にギリギリ留まったが、CF/純利 比率はマイナスで質は最低</li>
-<li><strong>2024-2025 年は CF が純利益の 2.5〜3.5 倍</strong>。在庫の現金化が進み、過去の "キャッシュを伴わなかった利益" の回収局面に入った可能性</li>
+<li><strong>2022 年の純利益 5,371 億円のうち、実際に現金として入ったのは 2,095 億円（CF 化 39%）</strong> ― 残り 3,276 億円は在庫評価益や売掛・在庫の増加など、現金を伴わない利益だった可能性が高い</li>
+<li><strong>翌 2023 年は営業 CF がマイナス（−1,102 億円）なのに、純利益はプラス（+1,438 億円）</strong> ― アクルーアル比率は "普通圏" ぎりぎりだが、現金で見た質は最も低い</li>
+<li><strong>2024〜2025 年は営業 CF が純利益の 2.5〜3.5 倍</strong> ― 過去の "現金を伴わなかった利益" を回収する局面に入った</li>
 </ul>
-<p>つまり、<strong>2022 年の「特需」は CF として現実化していなかった</strong>（CF 化 39% → 翌 2023 年 CF マイナス → 2024-25 で現金化）。これが有報 XBRL のキャッシュフロー計算書から定量的に示せる「利益の質」の実態です。</p>
+<p>つまり 2022 年の特需は <strong>その年には現金になっておらず</strong>、CF 化 39% → 2023 年マイナス → 2024〜25 年で回収、という流れでした。これが有報 XBRL のキャッシュフロー計算書から数字で示せる「利益の質」の実態です。</p>
 <h2 id="_2">まとめ</h2>
 <ul>
 <li><strong>アクルーアル比率 =（純利益 − 営業 CF）÷ 総資産</strong> ― スコアでは見えない「利益の質」を測る（Sloan 1996）。有報 XBRL 91 サンプル（13 社 × 7 期）</li>

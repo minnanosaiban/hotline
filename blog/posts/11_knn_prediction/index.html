@@ -24,7 +24,7 @@
     
     
       
-        <title>3-2 K-NN 回帰 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
+        <title>3-2 K-NN 分類 - ＥＮＥＯＳの内部通報制度に関する訴訟について</title>
       
     
     
@@ -167,7 +167,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              3-2 K-NN 回帰
+              3-2 K-NN 分類
             
           </span>
         </div>
@@ -1256,7 +1256,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN 回帰
+    3-2 K-NN 分類
   
 
     
@@ -1274,7 +1274,7 @@
   <span class="md-ellipsis">
     
   
-    3-2 K-NN 回帰
+    3-2 K-NN 分類
   
 
     
@@ -1303,137 +1303,59 @@
   <a href="#k-nn_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        K-NN 回帰の概要
+        K-NN で「典型 / 個別ショック」を仕分ける
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="K-NN 回帰の概要">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        これまでの分析では届かなかった視点
+        なぜ似た決算でも反応が割れるのか
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        パイプライン全体図
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        集計対象とイベント数
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#top-10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        分析で分かったこと
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="分析で分かったこと">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-k-nn" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        結論その1: K-NN 予測は失敗した
+        抽出された「個別ショック」 ― ポジ / ネガ Top-10
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2-k" class="md-nav__link">
-    <span class="md-ellipsis">
       
-        結論その2: K を変えても改善しない
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        なぜ予測できないのか ― 4 つの理由
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        結論その3: しかし失敗の中に個別ショック検出器がある
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
+        <li class="md-nav__item">
   <a href="#eneos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        主要銘柄の最終確認 ― 丸紅・双日・ＥＮＥＯＳ
+        主要銘柄の仕分け ― 丸紅・双日・ＥＮＥＯＳ
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        結論その4: 予測としてではなく「検出器」として使う
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「予測」ではなく「仕分け」として使う
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         本連載の到達点 ― ハイブリッド投資ワークフロー
@@ -1444,7 +1366,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1456,7 +1378,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         連載の全体像
@@ -1648,137 +1570,59 @@
   <a href="#k-nn_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        K-NN 回帰の概要
+        K-NN で「典型 / 個別ショック」を仕分ける
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="K-NN 回帰の概要">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        これまでの分析では届かなかった視点
+        なぜ似た決算でも反応が割れるのか
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        パイプライン全体図
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        集計対象とイベント数
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#top-10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        分析で分かったこと
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="分析で分かったこと">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-k-nn" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        結論その1: K-NN 予測は失敗した
+        抽出された「個別ショック」 ― ポジ / ネガ Top-10
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2-k" class="md-nav__link">
-    <span class="md-ellipsis">
       
-        結論その2: K を変えても改善しない
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        なぜ予測できないのか ― 4 つの理由
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        結論その3: しかし失敗の中に個別ショック検出器がある
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
+        <li class="md-nav__item">
   <a href="#eneos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        主要銘柄の最終確認 ― 丸紅・双日・ＥＮＥＯＳ
+        主要銘柄の仕分け ― 丸紅・双日・ＥＮＥＯＳ
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        結論その4: 予測としてではなく「検出器」として使う
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        「予測」ではなく「仕分け」として使う
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         本連載の到達点 ― ハイブリッド投資ワークフロー
@@ -1789,7 +1633,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1801,7 +1645,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         連載の全体像
@@ -1844,10 +1688,10 @@
 
 
 
-<h1 id="k-nn">K-NN 回帰 ― 失敗が生んだ個別ショック検出器</h1>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN予測" src="../img/11_knn_prediction/00_thumbnail.png" width="1280"></a></p>
-<p>本記事では、機械学習の <strong>K-Nearest Neighbors（K-NN）回帰</strong> で「<strong>類似決算群の CAR から自身の CAR を予測</strong>」する実装を回します。</p>
-<p>結論を先に書くと：<strong>K-NN 予測は失敗</strong> しました（全銘柄平均で予測する単純なベースラインにも勝てません）。しかしこの失敗の中に <strong>本連載全体の最も重要な洞察</strong> が含まれています ― 「<strong>機械学習による事前予測は本質的に困難だが、予測との乖離は『個別ショック検出器』として極めて有用</strong>」。本記事はその実証と、<strong>本連載の到達点としてのハイブリッド投資ワークフロー</strong> を提示します。</p>
+<h1 id="k-nn">K-NN 分類 ― 似た決算群から外れた「個別ショック」を抽出</h1>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN分類" src="../img/11_knn_prediction/00_thumbnail.png" width="1280"></a></p>
+<p>前回（3-1）見つけた「似た決算」を、こんどは <strong>物差し</strong> に使います。ある銘柄の決算後の株価反応（CAR）が、<strong>似た者たちと同じ（典型）か、大きく外れたか（個別ショック）</strong> を、<strong>K-NN</strong>（近くにある似たデータで判断する手法）で仕分けます。</p>
+<p>先に断っておくと、<strong>株価の反応そのもの（値も方向も）は、数字からは予測できません</strong>。だから本記事は「当てる」ことを狙わず、<strong>「似た決算の群れから外れた銘柄」を抜き出して、真っ先に IR・説明会を確認すべきリストにする</strong> ― そういう使い方をします。</p>
 <p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（287 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
 
 <div class="ref-quiet">
@@ -1861,154 +1705,20 @@
 
 <!-- more -->
 
-<h2 id="k-nn_1">K-NN 回帰の概要</h2>
-<h3 id="_1">これまでの分析では届かなかった視点</h3>
-<p>ここまでは「<strong>1 銘柄を深く分析する</strong>」アプローチでした。本記事は <strong>「機械学習で値動きを予測できるか」</strong> を 287 銘柄全体で検証します。</p>
-<table>
-<thead>
-<tr>
-<th>アプローチ</th>
-<th>視点</th>
-<th>銘柄数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>スコア化</td>
-<td>全銘柄ランキング</td>
-<td>スクリーニング</td>
-</tr>
-<tr>
-<td>CAR 集計</td>
-<td>8,049 イベント CAR 集計</td>
-<td>統計</td>
-</tr>
-<tr>
-<td>類似決算検索</td>
-<td>1 銘柄 vs 類似 Top-K</td>
-<td>個別 + 比較</td>
-</tr>
-<tr>
-<td><strong>K-NN 予測（本記事）</strong></td>
-<td><strong>全 287 銘柄予測 vs 実績</strong></td>
-<td><strong>全体検証</strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="_2">パイプライン全体図</h3>
-<p>類似 Top-K の CAR を平均して自身の CAR を予測し、予測と実績の誤差が大きい銘柄を「個別ショック」として抽出する ― という流れです。</p>
+<h2 id="k-nn_1">K-NN で「典型 / 個別ショック」を仕分ける</h2>
+<p>これまでは「<strong>1 銘柄を深く分析する</strong>」アプローチでした。本記事は <strong>287 銘柄をまとめて</strong>、ひとつの問いに答えます ― <strong>「この銘柄の反応は、似た決算の群れの中で典型的か、それとも外れ値か」</strong>。</p>
+<p>仕組みはシンプルです。ある銘柄の「似た決算 Top-K」を集め、<strong>その群れの反応（CAR）を "ふつうの目安"</strong> とする。自身がその目安に <strong>近ければ「典型」、大きく外れれば「個別ショック」</strong> と仕分けます。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/01_pipeline.png" data-desc-position="bottom"><img alt="パイプライン全体" src="../img/11_knn_prediction/01_pipeline.png" width="1200"></a></p>
-<p>これは機械学習の <strong>K-Nearest Neighbors 回帰</strong> を決算データに応用したものです。「<strong>最近傍 K 件の目的変数の平均値で予測する</strong>」という最も古典的な手法。</p>
-<h3 id="_3">集計対象とイベント数</h3>
-<table>
-<thead>
-<tr>
-<th>データ</th>
-<th>件数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>特徴量データ features.parquet（10 次元）</td>
-<td>287 銘柄（特徴量 ≥7 個揃う）</td>
-</tr>
-<tr>
-<td>2026/3 期 announcement の実績 CAR</td>
-<td>同 287 銘柄</td>
-</tr>
-<tr>
-<td>ペアワイズ cosine 類似度</td>
-<td>287 × 287 = 82,369 ペア</td>
-</tr>
-<tr>
-<td>予測 vs 実績 ペア（評価サンプル）</td>
-<td>287</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h2 id="_4">分析で分かったこと</h2>
-<h3 id="1-k-nn">結論その1: K-NN 予測は失敗した</h3>
-<p>予測 CAR（K=15、類似 Top-15 の平均）と実績 CAR の散布図：</p>
+<p>対象は特徴量が 7 個以上そろう <strong>287 銘柄</strong>で、2026/3 期の実績 CAR と突き合わせます（287 × 287 = 82,369 ペアの類似度を計算）。</p>
+<p><strong>なぜ "当てにいかない" のか</strong> ― 似た決算 Top-15 の平均 CAR を「予測値」とみなして自身の CAR を当てにいくと、<strong>相関 r ≈ −0.03</strong>、<strong>方向一致率 50.9%（コイン投げ）</strong>、しかも全銘柄の平均で答えるだけの単純な方法より誤差が大きい。K を 5/15/30 と変えても同じです。<strong>値も方向も予測できない</strong> ― だから「当てる」のは捨て、<strong>「外れの大小」だけ</strong>を使います。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/02_pred_vs_actual.png" data-desc-position="bottom"><img alt="予測 vs 実績" src="../img/11_knn_prediction/02_pred_vs_actual.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>指標</th>
-<th>値</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>相関係数 r</td>
-<td><strong>-0.03</strong>（事実上ゼロ）</td>
-</tr>
-<tr>
-<td>RMSE</td>
-<td><strong>10.88%</strong></td>
-</tr>
-<tr>
-<td>MAE</td>
-<td>7.93%</td>
-</tr>
-<tr>
-<td>方向一致率（± 符号一致）</td>
-<td><strong>50.9%</strong></td>
-</tr>
-<tr>
-<td>ベースライン（全銘柄平均で予測） RMSE</td>
-<td>10.46%</td>
-</tr>
-</tbody>
-</table>
-<p><strong>読み解き</strong>：</p>
-<ul>
-<li>相関係数 r = -0.03 ― <strong>完璧予測 y=x の線とほぼ無関係に分布</strong></li>
-<li>RMSE 10.88% は <strong>ベースライン（10.46%）より悪い</strong> ― K-NN による予測価値はマイナス</li>
-<li>方向一致率 50.9% ― ランダム（50%）とほぼ同等で統計的有意性なし</li>
-</ul>
-<p>つまり「<strong>類似決算群の平均 CAR は、自身の CAR の予測値として使えない</strong>」。前回見た「丸紅 -9.39% vs 類似群 +2.43%」は <strong>特殊事例ではなく一般的な構図</strong> だったわけです。</p>
-<h3 id="2-k">結論その2: K を変えても改善しない</h3>
-<p>K=5/15/30 で精度を比較：</p>
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
-
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/04_K_sensitivity.png" data-desc-position="bottom"><img alt="K の感度分析" src="../img/11_knn_prediction/04_K_sensitivity.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>K</th>
-<th>RMSE [-1,+5]</th>
-<th>相関 r</th>
-<th>方向一致率</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>5</td>
-<td>12.12</td>
-<td>-0.091</td>
-<td>49.8%</td>
-</tr>
-<tr>
-<td><strong>15</strong></td>
-<td>10.88</td>
-<td>-0.031</td>
-<td><strong>50.9%</strong></td>
-</tr>
-<tr>
-<td>30</td>
-<td>10.67</td>
-<td>-0.015</td>
-<td>50.2%</td>
-</tr>
-</tbody>
-</table>
-<p>K=15 が方向一致率では最高（50.9%）、K=30 が RMSE では最低（10.67）だが、<strong>いずれもベースライン（RMSE 10.46）に届かない</strong>。<strong>K を増やすほど予測は全銘柄平均に近づく</strong> ため、根本的に「数値特徴量だけでは予測不可」という事実が変わりません。</p>
-<h3 id="4">なぜ予測できないのか ― 4 つの理由</h3>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/02_pred_vs_actual.png" data-desc-position="bottom"><img alt="群れの平均 vs 実績" src="../img/11_knn_prediction/02_pred_vs_actual.png" width="1200"></a></p>
+<p>散布図でも、群れの平均（横軸）と実績（縦軸）に関係は見えません。完璧予測線 y=x とは似ても似つかない散らばり ― <strong>だからこそ、線から大きく外れた点＝個別ショックが意味を持ちます</strong>。</p>
+<h2 id="_1">なぜ似た決算でも反応が割れるのか</h2>
+<p>「数字が似ていれば反応も似る」とは限りません。むしろ <strong>外れる方が当たり前</strong> で、理由は 4 つあります。</p>
 <table>
 <thead>
 <tr>
@@ -2021,12 +1731,12 @@
 <tr>
 <td>1</td>
 <td><strong>数字に表れない個別事象</strong>（M&amp;A、減損、ガイダンス、説明会IR）</td>
-<td>丸紅 -9.39% を特徴量からは予知できなかった</td>
+<td>丸紅 −9.39% を特徴量からは予知できなかった</td>
 </tr>
 <tr>
 <td>2</td>
-<td><strong>市場の織り込みタイミングのずれ</strong>（全市場ではクラシック PEAD はあるが個別差大）</td>
-<td>CAR 全体相関 r=+0.69 でも短期と長期の符号が逆転する銘柄が 30%</td>
+<td><strong>織り込むタイミングが銘柄ごとにバラバラ</strong>（全体では "決算後にじわじわ動く" 傾向＝PEAD があるが、個別差が大きい）</td>
+<td>CAR 全体相関 r=+0.69 でも、短期と長期で符号が逆転する銘柄が 30%</td>
 </tr>
 <tr>
 <td>3</td>
@@ -2040,8 +1750,9 @@
 </tr>
 </tbody>
 </table>
-<h3 id="3">結論その3: しかし失敗の中に個別ショック検出器がある</h3>
-<p>予測との乖離 |err| が大きい銘柄は、<strong>「数字パターン上は同業並みなのに、市場が予期せぬ評価をした銘柄」</strong>。これは投資判断で <strong>真っ先に IR・説明会を確認すべき銘柄群</strong> です。</p>
+<p>裏を返せば、<strong>「数字は同業並みなのに、群れから大きく外れた銘柄」には、数字に表れない事情がある</strong>。それを拾うのが、この仕分けの狙いです。</p>
+<h2 id="top-10">抽出された「個別ショック」 ― ポジ / ネガ Top-10</h2>
+<p>群れ（近傍 Top-15）の反応から大きく外れた銘柄を、上下それぞれ並べます。<strong>数字の上では同業並みなのに、市場が予想外の評価をした銘柄</strong> ― 投資判断で <strong>真っ先に IR・説明会を確認すべき</strong> 群れです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/03_shocks_top10.png" data-desc-position="bottom"><img alt="個別ショック Top-10" src="../img/11_knn_prediction/03_shocks_top10.png" width="1200"></a></p>
@@ -2051,9 +1762,9 @@
 <tr>
 <th>コード</th>
 <th>会社名</th>
-<th>予測</th>
+<th>近傍平均</th>
 <th>実績</th>
-<th>誤差</th>
+<th>外れ</th>
 </tr>
 </thead>
 <tbody>
@@ -2094,16 +1805,16 @@
 </tr>
 </tbody>
 </table>
-<p>これらは <strong>数値特徴量が中庸（YoY +5〜+20%）にも関わらず、市場が +30〜60% で歓迎した</strong> 銘柄。M&amp;A 期待、新製品リリース、業界転換期の本命視 など、<strong>プロンプト化されていない物語</strong> が背後にある可能性が高い。類似検索だけでは見つけられない、<strong>「説明会・追加 IR で初めて見える買い材料」</strong> が反映された可能性。</p>
+<p>いずれも <strong>数字は平凡（YoY +5〜+20%）なのに、市場は +30〜60% で歓迎</strong> した銘柄。M&amp;A 期待・新製品・業界転換の本命視など、<strong>数字に表れない "物語"</strong> が背後にある可能性が高い ― 類似検索だけでは見つからない「<strong>説明会・追加 IR で初めて見える買い材料</strong>」です。</p>
 <p><strong>ネガティブショック Top-5（市場が想定より大幅悪評価）</strong>：</p>
 <table>
 <thead>
 <tr>
 <th>コード</th>
 <th>会社名</th>
-<th>予測</th>
+<th>近傍平均</th>
 <th>実績</th>
-<th>誤差</th>
+<th>外れ</th>
 </tr>
 </thead>
 <tbody>
@@ -2144,17 +1855,17 @@
 </tr>
 </tbody>
 </table>
-<p>これらは <strong>数値特徴量が中庸〜やや良いにも関わらず、市場が大きく売った</strong> 銘柄。ガイダンス下方修正、減損計上、説明会での慎重コメント、市場予想を大きく下回るコンセンサス との乖離など、<strong>「資料を熟読しないと見えない警戒材料」</strong> が反映された可能性が高い。</p>
-<h3 id="eneos">主要銘柄の最終確認 ― 丸紅・双日・ＥＮＥＯＳ</h3>
+<p>逆に、<strong>数字は平凡〜やや良いのに、市場が大きく売った</strong> 銘柄。ガイダンス下方修正・減損・説明会での慎重コメント・コンセンサス割れなど、<strong>「資料を読み込まないと見えない警戒材料」</strong> が反映された可能性が高い。</p>
+<h2 id="eneos">主要銘柄の仕分け ― 丸紅・双日・ＥＮＥＯＳ</h2>
 <table>
 <thead>
 <tr>
 <th>銘柄</th>
 <th>実績 CAR</th>
 <th>窓</th>
-<th>予測 CAR</th>
-<th>誤差</th>
-<th>個別ショック判定</th>
+<th>近傍平均</th>
+<th>外れ</th>
+<th>仕分け</th>
 </tr>
 </thead>
 <tbody>
@@ -2164,7 +1875,7 @@
 <td>[−1, +5]</td>
 <td>+2.43%</td>
 <td><strong>−11.82pp</strong></td>
-<td><strong>ネガティブショック</strong></td>
+<td><strong>個別ショック（ネガ）</strong></td>
 </tr>
 <tr>
 <td>双日（2768）</td>
@@ -2180,37 +1891,17 @@
 <td>[−1, +5]</td>
 <td>−2.30%</td>
 <td><strong>−2.37pp</strong></td>
-<td><strong>軽いネガ（初動 +1.36% 後 5 日で反転）</strong></td>
+<td><strong>典型に近い（初動 +1.36% 後 5 日で反転）</strong></td>
 </tr>
 </tbody>
 </table>
-<p>丸紅・双日は <strong>数字パターンより市場の評価がネガティブ</strong> ― 利益の質・予想・セグメントの分析で「健全な質の高い決算」と評価した銘柄が、2026/3 期では市場で売られた事実。丸紅については、セグメント分析で観察された <strong>「次世代事業 +127% × 金融・リース・不動産 −54.7% の二極化」</strong> や <strong>次世代事業の利益化までの時間軸</strong> を市場が決算説明会で再評価した可能性が示唆されます（ＥＮＥＯＳ のピークアウト議論は 2025-03-28 業績予想修正発表への反応であり、丸紅とは別）。</p>
-<p>一方、<strong>ＥＮＥＯＳの誤差 −2.37pp は丸紅・双日より小さく</strong>、shocks.csv の Top-30（誤差 ±10pp 以上）にも入りません。初動 [-1,+1] の +1.36% はポジティブだったものの、<strong>5 営業日で −4.68% に反転</strong>。これはセグメント分析で観察した「高 OPM セグメントの正常化局面」が後追いで市場に認識されたとも読めます。AI 予測フレームからは <strong>「数値特徴量で概ね説明できる範囲」</strong> ― ある意味「予測がほぼ機能した事例」にあたります。</p>
-<table>
-<thead>
-<tr>
-<th>銘柄群</th>
-<th>予測の状態</th>
-<th>含意</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>丸紅・双日</td>
-<td>予測が失敗（誤差 大）</td>
-<td>数値外の個別事象（説明会・追加 IR）が市場を動かした → <strong>要 IR 確認</strong></td>
-</tr>
-<tr>
-<td>ＥＮＥＯＳ</td>
-<td>予測がほぼ的中（誤差 小）</td>
-<td>営業利益急回復という数字パターンが概ね市場反応と一致、ただし初動↑→5日で反転 → <strong>数字で読めるが継続観察必要</strong></td>
-</tr>
-</tbody>
-</table>
-<p>これは本記事のメッセージをさらに精緻化します。<strong>AI 予測の "精度そのもの" ではなく、"予測との乖離の大きさ" が情報</strong> であり、乖離が小さい銘柄では「AI に追加情報は無い」、乖離が大きい銘柄では「数字外の判断材料を急いで集めるべき」という、<strong>二分された投資ワークフロー</strong> が見えてきます。</p>
-<p>ＥＮＥＯＳ の [−1, +5] は確定し <strong>−4.68%</strong> ― 初動 +1.36% が 5 日で反転した事実は、セグメント分析で観察した「高 OPM セグメントの正常化局面」と整合します。[−1, +20] が確定する 2026 年 6 月以降に再評価すれば、「セグメント情報を読まないと見えない、後追いネガショック」のシグナルとして更に評価できます。</p>
-<h3 id="4_1">結論その4: 予測としてではなく「検出器」として使う</h3>
-<p>機械学習の常識：<strong>「予測精度の低いモデルでも、極端ケースの検出には使える」</strong>。</p>
+<ul>
+<li><strong>丸紅・双日は「数字より市場の評価がネガティブ」</strong> ― 利益の質・予想・セグメントで「健全」と評価した銘柄が、2026/3 期は市場で売られた。丸紅は 2-6 で見た「次世代事業 +127% × 金融 −54.7% の二極化」や、その利益化までの時間を、市場が説明会で問い直した可能性</li>
+<li><strong>ＥＮＥＯＳの外れ −2.37pp は小さく</strong>、個別ショック上位（外れ ±10pp 以上）にも入らない＝<strong>典型寄り</strong>。初動 +1.36% が 5 日で −4.68% に反転したのは、2-6 で見た「高収益セグメントの正常化」が後追いで認識されたため。<strong>数字でおおむね説明がつく事例</strong></li>
+</ul>
+<p>ここに本記事の芯があります ― 大事なのは値を当てることではなく、<strong>群れからどれだけ外れたか</strong>。外れが小さければ「数字で読める＝AI に足す情報は薄い」、大きければ「数字の外の材料を急いで集めよ」。この <strong>2 つに振り分ける</strong> のが、次の到達点につながります。</p>
+<h2 id="_2">「予測」ではなく「仕分け」として使う</h2>
+<p>機械学習の常識 ―<strong>「予測精度が低いモデルでも、極端なケースの検出には使える」</strong>。</p>
 <table>
 <thead>
 <tr>
@@ -2228,8 +1919,8 @@
 <td>△ 50.9% でほぼランダム</td>
 </tr>
 <tr>
-<td>「<strong>類似群と大きく乖離する銘柄を検出</strong>」</td>
-<td>◎ 個別ショック銘柄を即座に抽出</td>
+<td>「<strong>似た決算群から大きく外れた銘柄を抽出</strong>」</td>
+<td>◎ 個別ショック銘柄を即座に仕分け</td>
 </tr>
 <tr>
 <td>「説明会 IR を優先確認すべき銘柄リスト」</td>
@@ -2237,10 +1928,10 @@
 </tr>
 </tbody>
 </table>
-<p>本記事のスクリプトを毎日決算シーズンに回せば、<strong>「数値だけ見ると同業並みだが市場が大きく動かした銘柄」をその日のうちに自動抽出</strong> できます。これは個別投資家の <strong>時間配分の最適化</strong> に直結します。</p>
+<p>本記事のスクリプトを毎日決算シーズンに回せば、<strong>「数値だけ見ると同業並みだが市場が大きく動かした銘柄」をその日のうちに自動で仕分け</strong> できます。これは個別投資家の <strong>時間配分の最適化</strong> に直結します。</p>
 <hr>
-<h2 id="_5">本連載の到達点 ― ハイブリッド投資ワークフロー</h2>
-<p>データ取得 → XBRL 活用 → CAR 実測 → 類似検索 → 個別ショック検出、という各分析を、買い候補・要警戒・売り検討の判断につなぐ全体像が次の図です。</p>
+<h2 id="_3">本連載の到達点 ― ハイブリッド投資ワークフロー</h2>
+<p>データ取得 → XBRL 活用 → CAR 実測 → 類似検索 → 個別ショックの仕分け、という各分析を、買い候補・要警戒・売り検討の判断につなぐ全体像が次の図です。</p>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/05_strategy_flow.png" data-desc-position="bottom"><img alt="戦略フロー" src="../img/11_knn_prediction/05_strategy_flow.png" width="1200"></a></p>
 <table>
 <thead>
@@ -2273,8 +1964,8 @@
 </tr>
 <tr>
 <td></td>
-<td>K-NN 予測（本記事）</td>
-<td>K-NN 予測（<strong>失敗</strong>） + <strong>個別ショック検出（成功）</strong></td>
+<td>K-NN 分類（本記事）</td>
+<td>似た決算群から外れた <strong>個別ショックを仕分け</strong></td>
 </tr>
 <tr>
 <td><strong>判断層</strong></td>
@@ -2286,19 +1977,19 @@
 <p><strong>買い候補</strong>：類似群健全（類似決算検索）× CAR 上昇（市場反応の実測）× 個別ポジショック（本記事）の三拍子。</p>
 <p><strong>要警戒</strong>：類似群と乖離（類似決算検索）× 個別ショック発生（本記事）。<strong>説明会・追加 IR を優先確認</strong>。アクルーアル・予想検証・セグメント情報で質を再評価。</p>
 <p><strong>売り検討</strong>：質低下シグナル（利益の質・予想・セグメント）× CAR 下落（市場反応）× 個別ネガショック（本記事）。</p>
-<p>運用コストは、データ取得（EDINET / TDnet / yfinance）・ストレージ・Python 実行がほぼ 0 円、LLM 要約を足しても <strong>年間数千円〜数万円</strong>。本格クオンツ並みの分析が個人の手元で回ります。</p>
-<p>最大の学びは、<strong>AI と機械学習は「価格予測の魔法」ではなく「決算データを整理・発見する道具」</strong> だということ。類似検索は業種を自動発見し、K-NN は予測ではなく個別ショック検出に効く ― 限界を理解して使えば、<strong>投資家の時間配分を最適化</strong> できます。</p>
+<p>運用コストは、データ取得（EDINET / TDnet / yfinance）も Python 実行もほぼ 0 円、LLM 要約を足しても年間数千円〜数万円。<strong>本格クオンツ並みの分析が、個人の手元で回ります。</strong></p>
+<p>最大の学びは、<strong>AI と機械学習は「価格を当てる魔法」ではなく「決算データを整理し、異変を見つける道具」</strong> だということ。限界を理解して使えば、投資家の時間配分を最適化できます。</p>
 <hr>
-<h2 id="_6">まとめ</h2>
+<h2 id="_4">まとめ</h2>
 <ul>
-<li>K-NN 回帰（K=5/15/30）で類似群の平均 CAR から自身の CAR を予測 ― <strong>相関 r=-0.03 / RMSE 10.88% で全銘柄平均ベースライン（10.46%）に負け、K を変えても改善せず</strong>。数値特徴量だけでは決算 CAR の予測は構造的に不可能</li>
-<li><strong>失敗の中に発見</strong>：予測との乖離（|err| 大）は <strong>個別ショック検出器</strong> として有用 ― ポジ例 ティラド +63pp・カカクコム +34pp（物語で動いた）／ネガ例 エンケイ −28pp・PCA −23pp（資料で見える警戒材料）</li>
-<li>主要銘柄：<strong>丸紅 −9.39% / 双日 −4.25%</strong> は「健全」評価でも市場が売った <strong>ネガショック</strong>。<strong>ＥＮＥＯＳ −4.68%（誤差 −2.37pp）は予測ほぼ的中の「軽いネガ」</strong>（初動 +1.36% → 5 日で反転、高 OPM セグメント正常化の後追い）</li>
-<li>AI 予測は "精度" ではなく <strong>"予測との乖離の大きさ" が情報</strong> ― 乖離大＝要 IR 確認、乖離小＝数字で読める、の二分ワークフロー</li>
+<li><strong>K-NN で銘柄を「典型 / 個別ショック」に仕分ける</strong> ― 似た決算 Top-K の反応を "ふつうの目安" にして、そこから大きく外れた銘柄を抽出する</li>
+<li><strong>値や方向そのものは当てない</strong> ― 近傍平均を予測値にしても 相関 r=−0.03・方向 50.9%・単純平均にも負ける。数字の特徴だけで CAR を予測するのは構造的に無理。だから「当てる」のではなく「外れを拾う」</li>
+<li>ポジ例 ティラド +63pp・カカクコム +34pp（物語で動いた）／ネガ例 エンケイ −28pp・PCA −23pp（資料で見える警戒材料）。主要銘柄では 丸紅 −9.39% / 双日 −4.25% が <strong>個別ショック</strong>、ＥＮＥＯＳ −4.68%（外れ −2.37pp）は <strong>典型寄り</strong></li>
+<li>使い方は <strong>外れ大＝要 IR 確認、外れ小＝数字で読める</strong> の二分。AI は予言の魔法ではなく、<strong>異変を見つける仕分け器</strong></li>
 </ul>
 <p>機械学習分析編は今後も手法を追加していく予定です。データ駆動投資の差別化要素は「データを使う」から「データを持つ・整理する・AI と組み合わせる」へ ― 本連載がそのスタート地点になれば幸いです。</p>
 <hr>
-<h3 id="_7">連載の全体像</h3>
+<h3 id="_5">連載の全体像</h3>
 <table>
 <thead>
 <tr>
@@ -2323,14 +2014,14 @@
 </tr>
 <tr>
 <td><strong>3. 機械学習分析編</strong></td>
-<td>類似検索・予測・分類（実験的トライ）</td>
+<td>類似検索・分類・クラスタリング（実験的トライ）</td>
 <td>3-1〜3-4</td>
 <td>cosine 類似度 / K-NN / クラスタリング / ランダムフォレスト</td>
 </tr>
 </tbody>
 </table>
 <h2 id="python"><i class="fa-brands fa-github"></i> Python コード</h2>
-<p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>K-NN 予測の実装（K=5/15/30 の交差検証・精度評価・個別ショック抽出・ベースライン比較）</strong>は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
+<p>本記事のチャート画像・データ取得・成形スクリプトは、すべて <strong>GitHub に公開</strong>しています。<strong>K-NN 分類の実装（似た決算 Top-K・近傍平均からの外れ量・個別ショック抽出・K=5/15/30 比較）</strong>は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。</p>
 <div class="repo-link-wrap">
 <a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/11_knn" target="_blank" rel="noopener">
 <span class="repo-link-path">github.com/minnanosaiban/blog/11_knn</span>
