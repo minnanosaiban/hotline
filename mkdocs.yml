@@ -37,6 +37,9 @@ nav:
           - 3-4 ランダムフォレスト: blog/posts/13_random_forest.md
           - 3-5 階層型クラスタリング: blog/posts/14_price_clustering.md
           - 3-6 PCA 異常検知: blog/posts/15_price_anomaly.md
+      - <i class="fa-solid fa-layer-group"></i> 番外編:
+          - EX-1 超短期の統計検証: blog/posts/16_intraday_stats.md
+          - EX-2 超短期の ML 検証: blog/posts/17_intraday_ml.md
 
 extra_css:
   - css/01-color.css
