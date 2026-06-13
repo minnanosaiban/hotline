@@ -43,7 +43,7 @@ tags:
 
 時間帯の癖・寄りギャップ・連れ高（リードラグ）。よく聞く 3 本を IN で測り、OUT で答え合わせした結果です。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![定番シグナルの IN/OUT 比較](img/16_intraday_stats/01_signal_inout.png){width="1200"}
 
@@ -62,7 +62,7 @@ tags:
 
 唯一、統計として頑健だったのが **平均回帰**（直前 5 分の逆を張る）です。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![平均回帰のエッジとコスト](img/16_intraday_stats/02_meanrev_vs_cost.png){width="1200"}
 
@@ -77,7 +77,7 @@ tags:
 
 最後に、テクニカルではなく **イベント** を物差しにします。TDnet の開示時刻を使い、**場中（9:00〜15:00）に決算系の開示が出た 317 件** について、直後 30 分の値動きを測りました。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![場中開示後 30 分のドリフト](img/16_intraday_stats/03_event_drift.png){width="1200"}
 

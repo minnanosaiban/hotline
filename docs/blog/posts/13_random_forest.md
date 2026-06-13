@@ -41,7 +41,7 @@ tags:
 
 ## 予測精度で「当たらないこと」を確認
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![予測精度とAUC](img/13_random_forest/01_accuracy.png){width="1200"}
 

@@ -27,7 +27,7 @@ tags:
 
 時価総額が同じ2社でも、借金が多い会社は「高い買い物」、現金を貯め込んだ会社は「実質値引き」です。有利子負債は決算短信のサマリーには載っていないため、**有価証券報告書の XBRL から借入金・社債・CP を抽出**しました（手順はコード）。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![13社のEV構成](img/18_enterprise_value/01_ev_composition.png){width="1200"}
 
@@ -43,7 +43,7 @@ tags:
 
 定番は EV/EBITDA ですが、**総合商社は損益計算書に営業利益を表示しない**（売上総利益から税前利益へ直行する）ため、EBITDA の定義が13社で揃いません。そこで全社で同じ定義になる **営業CF** で割ります。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![EV/営業CF倍率](img/18_enterprise_value/02_ev_ocf.png){width="1200"}
 
@@ -57,7 +57,7 @@ tags:
 
 FCF（フリーキャッシュフロー）は**営業CF＋投資CF**で計算し、直近5期それぞれの FCF を永続価値に換算して、市場の EV を1とした比率で並べます。「どの年の自分を信じるか」で評価が何倍も変わることが見どころです。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![簡易DCFと市場EVの比較](img/18_enterprise_value/03_dcf_vs_ev.png){width="1200"}
 

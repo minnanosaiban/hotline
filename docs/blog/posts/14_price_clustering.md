@@ -47,7 +47,7 @@ tags:
 
 287 × 287 の相関行列を、クラスタ順に並べ替えて描きます。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![相関ヒートマップ](img/14_price_clustering/01_corr_heatmap.png){width="1200"}
 
@@ -59,7 +59,7 @@ tags:
 
 相関距離を MDS（距離の近さを保ったまま 2 次元に並べる手法）で平面に落とし、色は自動クラスタで塗ります。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![値動き銘柄マップ](img/14_price_clustering/02_stock_map.png){width="1200"}
 
@@ -79,7 +79,7 @@ tags:
 
 完全な双子（ρ≥0.90）は **0 ペア**。「完全に同じ動きの銘柄はいない」こと自体が発見です。最も連動するのは、いずれも教科書どおりの同業ペアでした。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![最も連動するペア](img/14_price_clustering/03_near_identical.png){width="1200"}
 
