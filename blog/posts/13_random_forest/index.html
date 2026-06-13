@@ -135,7 +135,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#car" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -809,7 +809,7 @@
   <span class="md-ellipsis">
     
   
-    1-2 EDINET・TDnet 等を活用
+    1-2 決算データを無料で集める
   
 
     
@@ -867,6 +867,8 @@
   
     
     
+      
+        
       
         
       
@@ -1086,7 +1088,7 @@
   <span class="md-ellipsis">
     
   
-    2-6 コングロマリット
+    2-6 コングロマリット・ディスカウント
   
 
     
@@ -1115,6 +1117,34 @@
     
   
     2-7 CARで見る「決算の効き」
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_enterprise_value/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2-8 EVで見る「会社の値段」
   
 
     
@@ -1358,7 +1388,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         ランダムフォレストで「上 / 下」を当てられるか試す
@@ -1369,7 +1399,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         予測精度で「当たらないこと」を確認
@@ -1380,7 +1410,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         特徴量重要度で「効く指標の罠」を観測
@@ -1402,7 +1432,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1657,7 +1687,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         ランダムフォレストで「上 / 下」を当てられるか試す
@@ -1668,7 +1698,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         予測精度で「当たらないこと」を確認
@@ -1679,7 +1709,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         特徴量重要度で「効く指標の罠」を観測
@@ -1701,7 +1731,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         まとめ
@@ -1739,7 +1769,7 @@
 
 
 
-<h1 id="car">ランダムフォレスト ― 予測は失敗！決算から CAR は当てられない</h1>
+<h1 id="_1">ランダムフォレスト ― 予測は失敗、「特徴量重要度」の落とし穴を学ぶ</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_random_forest/00_thumbnail.png" data-desc-position="bottom"><img alt="ランダムフォレスト" src="../img/13_random_forest/00_thumbnail.png" width="1280"></a></p>
 <p>「機械学習を使えば、決算の良し悪しから株価の反応を予測できるはず」。そう期待したくなります。前回（3-2）も K-NN で似た決算と比べ、値や方向そのものは当てられないと確かめました（だから "外れ" を個別ショックの抽出に使いました）。本記事は <strong>ランダムフォレスト</strong> という別の手法で、もう一度「決算 10 指標から CAR（決算前後の超過リターン）の上下を当てられるか」を検証します。</p>
 <p>結論を先に書くと <strong>当てられません</strong>。しかもその過程で、<strong>「特徴量重要度」という指標そのものの落とし穴</strong> が見えてきます。</p>
@@ -1756,10 +1786,10 @@
 
 <!-- more -->
 
-<h2 id="_1">ランダムフォレストで「上 / 下」を当てられるか試す</h2>
+<h2 id="_2">ランダムフォレストで「上 / 下」を当てられるか試す</h2>
 <p>ランダムフォレストは、多数の決定木の多数決で予測する定番の機械学習手法です。連載 3-1／3-2 と同じ <strong>決算 10 指標</strong>（YoY 各種・利益率・配当成長・セグメント情報）を入力に、<strong>CAR[-1,+5] の符号（上 / 下）を分類</strong> させます。</p>
 <div class="keypoint">対象 287 銘柄のうち <strong>上昇 40%・下落 60%</strong>。つまり <strong>「全部 "下" と答えるだけで 59.9% 当たる</strong>」（＝多数派ベースライン）。モデルはこれを超えて初めて「予測できた」と言えます。評価は、データを 5 分割して順に検証する <strong>交差検証</strong> と、一部を取り置いて試す <strong>ホールドアウト</strong> で行います。</div>
-<h2 id="_2">予測精度で「当たらないこと」を確認</h2>
+<h2 id="_3">予測精度で「当たらないこと」を確認</h2>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_random_forest/01_accuracy.png" data-desc-position="bottom"><img alt="予測精度とAUC" src="../img/13_random_forest/01_accuracy.png" width="1200"></a></p>
@@ -1768,7 +1798,7 @@
 <li>ホールドアウト（test）では <strong>0.540</strong> とさらに低下。<strong>AUC</strong>（1 に近いほど精度が高く 0.5 はデタラメ）<strong>も 0.55 前後</strong> で、ほぼ当てずっぽう</li>
 <li><strong>別手法でも予測は失敗</strong> ― 3-2 の K-NN（相関 r ≈ 0）と独立に、「数値特徴量だけで市場反応は当てられない」が裏付けられました</li>
 </ul>
-<h2 id="_3">特徴量重要度で「効く指標の罠」を観測</h2>
+<h2 id="_4">特徴量重要度で「効く指標の罠」を観測</h2>
 <p>「当たらない」のは分かった。では <strong>どの決算指標が効いているのか</strong>？ ここに落とし穴があります。重要度には測り方が 2 つあり、<strong>①分岐に使われた回数を数える方式（impurity）</strong> と <strong>②その指標の値をわざとシャッフルして精度がどれだけ落ちるか試す方式（permutation）</strong> で、結果が食い違うのです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
 
@@ -1781,7 +1811,7 @@
 <h2 id="eneos">ＥＮＥＯＳ ― モデルの予測はコイン投げ</h2>
 <p>本連載の中核 ＥＮＥＯＳ について、ランダムフォレストが出した上昇確率は <strong>0.53</strong>（ほぼ五分五分）。一方、実際の CAR[-1,+5] は <strong>−4.68%（下落）</strong> でした。</p>
 <p>つまりモデルは「分からない」と言ったに等しく、結果も外しています。ＥＮＥＯＳ を動かしたのは決算の数値ではなく、連載 2-7（CAR）で見た <strong>業績予想修正への市場反応</strong> や、のれん減損・在庫影響といった <strong>数値外の構造要因</strong> でした。数字のパターンからは、やはり読めません。</p>
-<h2 id="_4">まとめ</h2>
+<h2 id="_5">まとめ</h2>
 <ul>
 <li>ランダムフォレストでも CAR の方向は当てられない（<strong>CV 正解率 0.589 &lt; ベースライン 0.599</strong>、AUC 0.55）。K-NN（3-2）と独立に同じ結論</li>
 <li><strong>impurity 重要度は「効く」ように見せるが、permutation で測るとほぼ 0</strong> ― 重要度指標そのものの過大評価バイアスという発見</li>

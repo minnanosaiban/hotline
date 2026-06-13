@@ -807,7 +807,7 @@
   <span class="md-ellipsis">
     
   
-    1-2 EDINET・TDnet 等を活用
+    1-2 決算データを無料で集める
   
 
     
@@ -865,6 +865,8 @@
   
     
     
+      
+        
       
         
       
@@ -1084,7 +1086,7 @@
   <span class="md-ellipsis">
     
   
-    2-6 コングロマリット
+    2-6 コングロマリット・ディスカウント
   
 
     
@@ -1113,6 +1115,34 @@
     
   
     2-7 CARで見る「決算の効き」
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_enterprise_value/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2-8 EVで見る「会社の値段」
   
 
     
@@ -1759,7 +1789,7 @@
 
 
 
-<h1 id="lightgbm-5-111">LightGBM で「次の 5 分」を当てられるか試す ― 111 万バーで検証</h1>
+<h1 id="lightgbm-5-111">LightGBM で「次の5分」を当てられるか ― 111万バーで検証</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/17_intraday_ml/00_thumbnail.png" data-desc-position="bottom"><img alt="次の5分をMLで" src="../img/17_intraday_ml/00_thumbnail.png" width="1280"></a></p>
 <p>前回（番外編A）、超短期の定番シグナルを 1 本ずつ検証すると、コスト控除後に残ったのは場中開示のドリフトだけでした。では「<strong>個別ルールで弱いなら、機械学習に全部まとめて学習させればいいのでは？</strong>」― 実務でも定番の発想です。本記事は LightGBM（勾配ブースティングの定番ライブラリ）にその仕事をさせ、<strong>何ができて、何ができないか</strong> を数字で確かめます。</p>
 <p class="fig-meta">データ出典: 番外編A と同じ 5 分足・流動性上位 300 銘柄（2025-11-21〜2026-05-29）。学習 111 万バー（〜2026-03-31）→ 検証 51 万バー（2026-04-01〜、境界 1 日はパージ）。実装は `blog21_scalping_ml.py`</p>
@@ -1788,7 +1818,7 @@
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/17_intraday_ml/01_decile_returns.png" data-desc-position="bottom"><img alt="確信度十分位と次バーリターン" src="../img/17_intraday_ml/01_decile_returns.png" width="1200"></a></p>
 <ul>
 <li><strong>AUC 0.512・的中率 50.9%</strong> ― 多数派に張るだけ（50.5%）とほぼ同じ、実質コイン投げ</li>
-<li>ところが、モデルの確信度で 51 万バーを 10 グループに割ると、次バーの平均リターンは <strong>−0.66bps → +0.22bps へきれいに単調</strong></li>
+<li>ところが、モデルの確信度で 51 万バーを 10 グループに割ると、次バーの平均リターンは <strong>−0.66bps → +0.22bps へおおむね右上がり</strong>（凸凹はあるが両端の差は明瞭）</li>
 <li>つまり LightGBM は <strong>「どちらに転びやすいか」の並べ替えには成功している</strong>。ランダムなら十分位はフラットになるはず</li>
 </ul>
 <p>「当てられないのに並べ替えはできる」― 矛盾ではありません。1 バーごとの上下はほぼノイズでも、<strong>ごくわずかな傾きを 51 万バー集めれば形になる</strong>。それが上の階段です。</p>
@@ -1818,7 +1848,7 @@
 <h2 id="_3">まとめ</h2>
 <ul>
 <li>LightGBM に 111 万バー学習させても、次の 5 分の的中は <strong>50.9%（コイン並み）</strong></li>
-<li>ただし確信度十分位は <strong>−0.66 → +0.22bps と単調</strong> ― 並べ替え（構造の発見）はできている</li>
+<li>ただし確信度十分位は <strong>−0.66 → +0.22bps とおおむね右上がり</strong> ― 並べ替え（構造の発見）はできている</li>
 <li>その両端を取引しても <strong>+0.44bps/回でコスト 5bps の 1/11</strong> ― 経済的には獲れない</li>
 <li>結論は連載 3-4 と同じ：<strong>機械学習は「当てる魔法」ではなく「構造を見つける道具」</strong>。超短期で実際に残る構造は、番外編A の場中開示ドリフトだった</li>
 </ul>

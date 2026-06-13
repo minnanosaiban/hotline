@@ -809,7 +809,7 @@
   <span class="md-ellipsis">
     
   
-    1-2 EDINET・TDnet 等を活用
+    1-2 決算データを無料で集める
   
 
     
@@ -867,6 +867,8 @@
   
     
     
+      
+        
       
         
       
@@ -1086,7 +1088,7 @@
   <span class="md-ellipsis">
     
   
-    2-6 コングロマリット
+    2-6 コングロマリット・ディスカウント
   
 
     
@@ -1115,6 +1117,34 @@
     
   
     2-7 CARで見る「決算の効き」
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18_enterprise_value/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2-8 EVで見る「会社の値段」
   
 
     
@@ -1717,7 +1747,7 @@
 
 
 
-<h1 id="k-nn">K-NN 分類 ― 似た決算群から外れた「個別ショック」を抽出</h1>
+<h1 id="k-nn">K-NN 分類 ― 似た決算群から外れた「個別ショック」を検出</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/11_knn_prediction/00_thumbnail.png" data-desc-position="bottom"><img alt="K-NN分類" src="../img/11_knn_prediction/00_thumbnail.png" width="1280"></a></p>
 <p>前回（3-1）の「似た決算」を物差しに、各銘柄の決算後の株価反応（CAR）を <strong>K-NN で分類</strong>します ― 似た者と同じ「典型」か、群れから大きく外れた「個別ショック」か。狙いは当てることではなく、<strong>外れた銘柄＝真っ先に IR を確認すべき銘柄を洗い出す</strong>ことです。</p>
 <p class="fig-meta">データ出典: 前回生成した `data/blog15/features.parquet`（287 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
@@ -1783,14 +1813,14 @@
 </tr>
 <tr>
 <td>6516</td>
-<td>サンデン</td>
+<td>山洋電気</td>
 <td>+2.3%</td>
 <td>+35.1%</td>
 <td>+32.8pp</td>
 </tr>
 <tr>
 <td>6882</td>
-<td>三電機</td>
+<td>三社電機製作所</td>
 <td>-1.6%</td>
 <td>+29.7%</td>
 <td>+31.3pp</td>
@@ -1812,24 +1842,17 @@
 <tbody>
 <tr>
 <td>5906</td>
-<td>エンケイ</td>
+<td>エムケー精工</td>
 <td>+5.0%</td>
 <td><strong>-23.2%</strong></td>
 <td>-28.2pp</td>
 </tr>
 <tr>
 <td>9629</td>
-<td>PCA</td>
+<td>ピー・シー・エー</td>
 <td>-0.5%</td>
 <td>-23.5%</td>
 <td>-23.0pp</td>
-</tr>
-<tr>
-<td>6469</td>
-<td>放電精密加工研究所</td>
-<td>+6.4%</td>
-<td>-14.9%</td>
-<td>-21.1pp</td>
 </tr>
 <tr>
 <td>6702</td>
@@ -1837,6 +1860,13 @@
 <td>+4.4%</td>
 <td>-16.8%</td>
 <td>-21.2pp</td>
+</tr>
+<tr>
+<td>6469</td>
+<td>放電精密加工研究所</td>
+<td>+6.4%</td>
+<td>-14.9%</td>
+<td>-21.1pp</td>
 </tr>
 <tr>
 <td>1720</td>
@@ -1897,7 +1927,7 @@
 <ul>
 <li><strong>K-NN で銘柄を「典型 / 個別ショック」に仕分ける</strong> ― 似た決算 Top-K の反応を "ふつうの目安" にして、そこから大きく外れた銘柄を抽出する</li>
 <li><strong>値や方向そのものは当てない</strong> ― 数字の特徴だけで CAR を予測するのは構造的に無理（r≈−0.03）。だから「当てる」のではなく「外れを拾う」</li>
-<li>ポジ例 ティラド +63pp・カカクコム +34pp（物語で動いた）／ネガ例 エンケイ −28pp・PCA −23pp（資料で見える警戒材料）。主要銘柄では 丸紅 −9.39% / 双日 −4.25% が <strong>個別ショック</strong>、ＥＮＥＯＳ −4.68%（外れ −2.37pp）は <strong>典型寄り</strong></li>
+<li>ポジ例 ティラド +63pp・カカクコム +34pp（物語で動いた）／ネガ例 エムケー精工 −28pp・ピー・シー・エー −23pp（資料で見える警戒材料）。主要銘柄では 丸紅 −9.39% / 双日 −4.25% が <strong>個別ショック</strong>、ＥＮＥＯＳ −4.68%（外れ −2.37pp）は <strong>典型寄り</strong></li>
 <li>使い方は <strong>外れ大＝要 IR 確認、外れ小＝数字で読める</strong> の二分。AI は予言の魔法ではなく、<strong>異変を見つける仕分け器</strong></li>
 </ul>
 <p>機械学習分析編は今後も手法を追加していく予定です。データ駆動投資の差別化要素は「データを使う」から「データを持つ・整理する・AI と組み合わせる」へ ― 本連載がそのスタート地点になれば幸いです。</p>

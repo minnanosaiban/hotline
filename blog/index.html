@@ -807,7 +807,7 @@
   <span class="md-ellipsis">
     
   
-    1-2 EDINET・TDnet 等を活用
+    1-2 決算データを無料で集める
   
 
     
@@ -865,6 +865,8 @@
   
     
     
+      
+        
       
         
       
@@ -1084,7 +1086,7 @@
   <span class="md-ellipsis">
     
   
-    2-6 コングロマリット
+    2-6 コングロマリット・ディスカウント
   
 
     
@@ -1113,6 +1115,34 @@
     
   
     2-7 CARで見る「決算の効き」
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="posts/18_enterprise_value/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2-8 EVで見る「会社の値段」
   
 
     
@@ -1556,7 +1586,7 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        株価分析 目次
+        連載目次
       
     </span>
   </a>
@@ -1595,55 +1625,55 @@
 <p class="blog-main-title">株 × Python × ML</p>
 
 <p>
-Python と 機械学習を使って、株価・決算短信・有報を分析してみました。
+Python と機械学習で、株価・決算短信・有価証券報告書を読み解きます。無料で手に入るデータとコードだけで、データ取得から企業価値分析・機械学習まで再現できます。
 </p>
 
 <h2 id="_1">おすすめの読み順</h2>
 <div class="toc-grid" style="margin-top: 0.8rem;">
-<a href="posts/03_xbrl_to_json/" class="toc-card">
+<a href="posts/18_enterprise_value/" class="toc-card">
 <span class="toc-card-num">読む順 1</span>
-<span class="toc-card-title">1-3 決算 XBRL を JSON に変換</span>
-<span class="toc-card-desc">決算そのものを分析、元売3社業績比較</span>
-</a>
-<a href="posts/04_garp_peg_roe/" class="toc-card">
-<span class="toc-card-num">読む順 2</span>
-<span class="toc-card-title">2-1 4象限で GARP を見る</span>
-<span class="toc-card-desc">「成長と割安の両立銘柄」を発掘</span>
+<span class="toc-card-title">2-8 EVで見る「会社の値段」</span>
+<span class="toc-card-desc">時価総額に借金を足し、13社を簡易DCFで検証</span>
 </a>
 <a href="posts/06_accrual_analysis/" class="toc-card">
-<span class="toc-card-num">読む順 3</span>
+<span class="toc-card-num">読む順 2</span>
 <span class="toc-card-title">2-3 アクルーアル分析</span>
-<span class="toc-card-desc">ＥＮＥＯＳ「ピークの裏付けは？」、キャッシュ実態</span>
+<span class="toc-card-desc">ＥＮＥＯＳの最高益に「現金の裏付け」はあるか</span>
 </a>
 <a href="posts/08b_segment_core_stocks/" class="toc-card">
-<span class="toc-card-num">読む順 4</span>
+<span class="toc-card-num">読む順 3</span>
 <span class="toc-card-title">2-6 コングロマリット・ディスカウント</span>
 <span class="toc-card-desc">総合商社・ＥＮＥＯＳ をセグメントで読み解く</span>
 </a>
 <a href="posts/09b_narrative_car/" class="toc-card">
-<span class="toc-card-num">読む順 5</span>
+<span class="toc-card-num">読む順 4</span>
 <span class="toc-card-title">2-7 CARで見る「決算の効き」</span>
 <span class="toc-card-desc">主要5社の個別決算の効きをCARで検証</span>
 </a>
+<a href="posts/03_xbrl_to_json/" class="toc-card">
+<span class="toc-card-num">読む順 5</span>
+<span class="toc-card-title">1-3 決算 XBRL を JSON に変換</span>
+<span class="toc-card-desc">自分で再現するなら ― データの作り方から</span>
+</a>
 </div>
 
-<h2 id="_2">株価分析　目次</h2>
+<h2 id="_2">連載目次</h2>
 <p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 無料データを取得編</p>
 <div class="toc-grid">
 <a href="posts/01_get_stock_prices/" class="toc-card">
 <span class="toc-card-num">1-1</span>
 <span class="toc-card-title">まず、「株価」を取得する</span>
-<span class="toc-card-desc">parquet 保存からチャートまで、自作アプリも</span>
+<span class="toc-card-desc">yfinance から parquet 保存、チャート、自作アプリまで</span>
 </a>
 <a href="posts/02_collect_other_data/" class="toc-card">
 <span class="toc-card-num">1-2</span>
-<span class="toc-card-title">EDINET・TDnet 等を活用</span>
-<span class="toc-card-desc">企業が開示している決算 XBRL は使える</span>
+<span class="toc-card-title">決算データを無料で集める</span>
+<span class="toc-card-desc">EDINET・TDnet の公式 XBRL を活用</span>
 </a>
 <a href="posts/03_xbrl_to_json/" class="toc-card">
 <span class="toc-card-num">1-3</span>
-<span class="toc-card-title"> 決算 XBRL を JSON に変換</span>
-<span class="toc-card-desc">決算そのものを分析、元売3社業績比較</span>
+<span class="toc-card-title">決算 XBRL を JSON に変換</span>
+<span class="toc-card-desc">「決算そのもの」を分析、元売3社を比較</span>
 </a>
 </div>
 <p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 決算データで分析編</p>
@@ -1651,27 +1681,27 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/04_garp_peg_roe/" class="toc-card">
 <span class="toc-card-num">2-1</span>
 <span class="toc-card-title">4象限で GARP を見る</span>
-<span class="toc-card-desc">「成長と割安の両立銘柄」を発掘</span>
+<span class="toc-card-desc">「成長と割安の両立」銘柄を探す</span>
 </a>
 <a href="posts/05_multifactor_scoreboard/" class="toc-card">
 <span class="toc-card-num">2-2</span>
 <span class="toc-card-title">マルチファクタースコア</span>
-<span class="toc-card-desc">7 軸で全方位優等生を探す</span>
+<span class="toc-card-desc">7軸で「全方位の優等生」を探す</span>
 </a>
 <a href="posts/06_accrual_analysis/" class="toc-card">
 <span class="toc-card-num">2-3</span>
 <span class="toc-card-title">アクルーアル分析</span>
-<span class="toc-card-desc">ＥＮＥＯＳ「ピークの裏付けは？」、キャッシュ実態</span>
+<span class="toc-card-desc">ＥＮＥＯＳの最高益に「現金の裏付け」はあるか</span>
 </a>
 <a href="posts/07_triangulation/" class="toc-card">
 <span class="toc-card-num">2-4</span>
 <span class="toc-card-title">コンセンサス予想を検証</span>
-<span class="toc-card-desc"> 「予想のズレ」で将来の業績修正の向きを先回り</span>
+<span class="toc-card-desc">会社予想とのズレから「修正の向き」を読む</span>
 </a>
 <a href="posts/08_segment_analysis/" class="toc-card">
 <span class="toc-card-num">2-5</span>
 <span class="toc-card-title">セグメント分析</span>
-<span class="toc-card-desc">発進力スコアリングで隠れた高収益事業を発掘</span>
+<span class="toc-card-desc">連結に埋もれた「強い事業」を発進力スコアで探す</span>
 </a>
 <a href="posts/08b_segment_core_stocks/" class="toc-card">
 <span class="toc-card-num">2-6</span>
@@ -1683,6 +1713,11 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <span class="toc-card-title">CARで見る「決算の効き」</span>
 <span class="toc-card-desc">元売・商社 主要5社の市場反応を検証</span>
 </a>
+<a href="posts/18_enterprise_value/" class="toc-card">
+<span class="toc-card-num">2-8</span>
+<span class="toc-card-title">EVで見る「会社の値段」</span>
+<span class="toc-card-desc">時価総額に借金を足し、13社を簡易DCFで検証</span>
+</a>
 </div>
 
 <p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 機械学習チャレンジ編</p>
@@ -1690,12 +1725,12 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/10_similar_earnings_search/" class="toc-card">
 <span class="toc-card-num">3-1</span>
 <span class="toc-card-title">コサイン類似度</span>
-<span class="toc-card-desc">数値特徴量で「類似決算」を発見</span>
+<span class="toc-card-desc">「似ている決算」を数値で検索する</span>
 </a>
 <a href="posts/11_knn_prediction/" class="toc-card">
 <span class="toc-card-num">3-2</span>
 <span class="toc-card-title">K-NN 分類</span>
-<span class="toc-card-desc">似た決算群から外れた個別ショックを抽出</span>
+<span class="toc-card-desc">似た決算群から外れた「個別ショック」を検出</span>
 </a>
 <a href="posts/12_earnings_clustering/" class="toc-card">
 <span class="toc-card-num">3-3</span>
@@ -1705,7 +1740,7 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <a href="posts/13_random_forest/" class="toc-card">
 <span class="toc-card-num">3-4</span>
 <span class="toc-card-title">ランダムフォレスト</span>
-<span class="toc-card-desc">予測は失敗、特徴量重要度の落とし穴を学ぶ</span>
+<span class="toc-card-desc">予測は失敗、「特徴量重要度」の落とし穴を学ぶ</span>
 </a>
 <a href="posts/14_price_clustering/" class="toc-card">
 <span class="toc-card-num">3-5</span>
@@ -1723,12 +1758,12 @@ Python と 機械学習を使って、株価・決算短信・有報を分析し
 <div class="toc-grid">
 <a href="posts/16_intraday_stats/" class="toc-card">
 <span class="toc-card-num">EX-1</span>
-<span class="toc-card-title">超短期のエッジ検証</span>
+<span class="toc-card-title">超短期のエッジを統計で探す</span>
 <span class="toc-card-desc">5分足×コスト控除後、残ったのは場中開示だけ</span>
 </a>
 <a href="posts/17_intraday_ml/" class="toc-card">
 <span class="toc-card-num">EX-2</span>
-<span class="toc-card-title">LightGBM で次の5分</span>
+<span class="toc-card-title">LightGBM で「次の5分」を当てられるか</span>
 <span class="toc-card-desc">並べ替えはできる、でもコストに勝てない</span>
 </a>
 </div>
