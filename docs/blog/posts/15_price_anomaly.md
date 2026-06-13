@@ -40,7 +40,7 @@ tags:
 
 <div class="keypoint" markdown="span">**実際の値動き − 共通成分（再構成） ＝ 残差**。この残差が大きい日＝市場・業種で説明できない動き＝**個別材料が出た日**。</div>
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![仕組み](img/15_price_anomaly/01_mechanism.png){width="1200"}
 
@@ -51,7 +51,7 @@ tags:
 
 3-5 のクラスタを「いつもの仲間」の基準線にして、代表 4 銘柄を重ねます。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![ケーススタディ](img/15_price_anomaly/02_event_casestudy.png){width="1200"}
 
@@ -64,7 +64,7 @@ tags:
 
 異常度（PCA の残差 σ）が大きい順に選び、見やすいように **その日の「個別の動き＝銘柄 − 市場平均」** で大きさを示します（並べる基準は残差、表示はその個別の動き）。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![突発材料 Top15](img/15_price_anomaly/03_sudden_events.png){width="1200"}
 
@@ -81,7 +81,7 @@ tags:
 
 本連載の中核 **ＥＮＥＯＳ** で試します。通常は石油の同業（出光・コスモ）と **相関 0.79** で連動しますが、その連動の強さ（ローリング相関＝直近どうしの相関）が **0.47 まで急落** した日があります ― それが **2025-03-28 の業績予想修正の前後** でした。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![ENEOS デカップリング](img/15_price_anomaly/04_eneos_decoupling.png){width="1200"}
 
@@ -94,7 +94,7 @@ tags:
 
 日ごとに「いつもと違う動き」をした銘柄数を数えると、検出器の使い方が見えます。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![毎日の見張り](img/15_price_anomaly/05_daily_monitor.png){width="1200"}
 

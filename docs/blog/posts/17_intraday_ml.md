@@ -39,7 +39,7 @@ tags:
 
 ## 結果 ― 並べ替えはできる、的中はコイン並み
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![確信度十分位と次バーリターン](img/17_intraday_ml/01_decile_returns.png){width="1200"}
 
@@ -53,7 +53,7 @@ tags:
 
 では、その階段の両端だけ取引したら勝てるのか。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.13作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 ![エッジとコストの比較](img/17_intraday_ml/02_edge_vs_cost.png){width="1200"}
 
