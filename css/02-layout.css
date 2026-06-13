@@ -41,6 +41,13 @@
 .md-header__title--active .md-header__topic + .md-header__topic {
   display: none !important;
 }
+/* ヘッダーサイト名リンク：ホバー有無に関わらずリンク色で表示。CSS 変数でダーク対応 */
+.header-site-link,
+.header-site-link:hover {
+  color: var(--md-link-color) !important;
+  font-weight: 400 !important;
+}
+
 /* タブ */
 /* タブのホバーはメインカラーの下線 */
 /* タブのアクティブはメインカラーの下線 */
@@ -196,6 +203,7 @@
   gap: 10px;                 /* center-container と同じ段落リズム */
   box-sizing: border-box;
   margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
+  margin-bottom: 4rem;       /* flex では折り畳まれないため、直後の .margin02（2rem）と合計 6rem になるよう調整 */
   padding: 3.2rem 1.2rem 3.2rem;
   background: var(--md-primary-fg-color);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
 }
@@ -260,7 +268,8 @@
   }
 }
 /* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする */
-.agm-section > .card-accordion {
+.agm-section > .card-accordion,
+.center-container > .card-accordion {
   width: 100%;
   max-width: 32rem;
 }
