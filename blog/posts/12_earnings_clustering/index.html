@@ -1789,7 +1789,7 @@
 <h2 id="k-means_1">K-means で「決算の型」を見つける</h2>
 <p>連載 3-1 で設計した <strong>10 次元の数値特徴量</strong>（売上・営利・税引前・純利・包括の YoY、配当成長、営業利益率、純利益率、セグメント数、主力依存度）をそのまま使います。z-score で正規化し、<strong>k-means</strong> で似た決算どうしを自動でグループ分けします（正解ラベルは与えません）。</p>
 <div class="keypoint"><strong>クラスタ数 K</strong>（いくつの型に分けるか）は、<strong>シルエット係数</strong>（型の分かれ具合の良さを 0〜1 で測る指標）で決めます。</div>
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/01_silhouette.png" data-desc-position="bottom"><img alt="シルエット係数による K の決定" src="../img/12_earnings_clustering/01_silhouette.png" width="1200"></a></p>
 <ul>
@@ -1798,7 +1798,7 @@
 </ul>
 <h2 id="3">型マップで「3 つの決算プロファイル」を観測</h2>
 <p>10 次元の特徴量を、PCA（多くの次元を 2 次元に圧縮して見る手法）で平面に映します。軸そのものに決まった意味はありませんが、<strong>近い決算ほど近くに置かれる</strong> ので、型のまとまりが見えます。</p>
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/02_cluster_map.png" data-desc-position="bottom"><img alt="決算プロファイルの型マップ" src="../img/12_earnings_clustering/02_cluster_map.png" width="1200"></a></p>
 <table>
@@ -1834,7 +1834,7 @@
 </ul>
 <h2 id="_1">型プロファイルで「各型の正体」を確認</h2>
 <p>各型が 10 指標で <strong>母集団平均からどれだけ離れているか</strong>（標準偏差）を見ると、型の正体がくっきりします。</p>
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/03_profiles.png" data-desc-position="bottom"><img alt="型ごとの決算プロファイル" src="../img/12_earnings_clustering/03_profiles.png" width="1200"></a></p>
 <ul>
@@ -1913,11 +1913,11 @@
     <p class="md-footer-note__heading"><a href="https://minnanosaiban.github.io/hotline/">Home</a></p>
     <p class="md-footer-note__heading" style="margin-top: 1rem !important;"><a href="https://minnanosaiban.github.io/hotline/trial/">裁判文書公開</a></p>
     <ul>
-      <li><i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos_claims/">ＥＮＥＯＳはこう主張！</a></li>
-      <li><i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳの主張書面</a></li>
-      <li><i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/">通報者側の主張書面</a></li>
-      <li><i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">判決書（水野有子裁判長）</a></li>
-      <li><i class="bi bi-chevron-compact-right"></i> <a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" target="_blank" rel="noopener">主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i></a></li>
+      <li><a href="https://minnanosaiban.github.io/hotline/trial/eneos_claims/">ＥＮＥＯＳはこう主張！</a></li>
+      <li><a href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳの主張書面</a></li>
+      <li><a href="https://minnanosaiban.github.io/hotline/trial/whistleblower/">通報者側の主張書面</a></li>
+      <li><a href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">判決書（水野有子裁判長）</a></li>
+      <li><a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" target="_blank" rel="noopener">主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i></a></li>
     </ul>
   </div>
 
@@ -1941,6 +1941,7 @@
       <li><a href="https://minnanosaiban.github.io/hotline/blog/posts/08_segment_analysis/">2-5 セグメント分析</a></li>
       <li><a href="https://minnanosaiban.github.io/hotline/blog/posts/08b_segment_core_stocks/">2-6 コングロマリット</a></li>
       <li><a href="https://minnanosaiban.github.io/hotline/blog/posts/09b_narrative_car/">2-7 CARで見る「決算の効き」</a></li>
+      <li><a href="https://minnanosaiban.github.io/hotline/blog/posts/18_enterprise_value/">2-8 EVで見る「会社の値段」</a></li>
     </ul>
   </div>
 
