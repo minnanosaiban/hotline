@@ -10,7 +10,7 @@ tags:
   - 株価
 ---
 
-# まず、「株価」を取得する ― yfinance で取得、parquet 保存からチャートまで
+# まず、「株価」を取得する ― yfinance から parquet 保存、チャート、自作アプリまで
 
 ![株価を取得する](img/01_get_stock_prices/00_thumbnail.png){width="1280"}
 

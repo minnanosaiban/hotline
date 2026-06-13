@@ -9,7 +9,7 @@ tags:
   - ピーター・リンチ
 ---
 
-# 4象限で GARP を見る ― 「成長と割安の両立銘柄」を発掘
+# 4象限で GARP を見る ― 「成長と割安の両立」銘柄を探す
 
 ![GARP とは何か](img/04_garp_peg_roe/00_thumbnail.png){width="1280"}
 
