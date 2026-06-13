@@ -10,7 +10,7 @@ tags:
   - 決算短信
 ---
 
-# 決算 XBRL を JSON に変換 ― 決算そのものを分析、元売3社業績比較
+# 決算 XBRL を JSON に変換 ― 「決算そのもの」を分析、元売3社を比較
 
 ![XBRL を JSON に変換する](img/03_xbrl_to_json/00_thumbnail.png){width="1280"}
 

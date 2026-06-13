@@ -10,7 +10,7 @@ tags:
   - コンセンサス
 ---
 
-# EDINET・TDnet 等を活用する ― 企業が開示している決算 XBRL は使える
+# 決算データを無料で集める ― EDINET・TDnet の公式 XBRL を活用
 
 ![株価以外のデータを集める](img/02_collect_other_data/00_thumbnail.png){width="1280"}
 
