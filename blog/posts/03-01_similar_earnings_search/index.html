@@ -1337,17 +1337,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#vs-llm-embedding" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        数値特徴量 vs LLM embedding ― 使い分け
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1720,17 +1709,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#vs-llm-embedding" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        数値特徴量 vs LLM embedding ― 使い分け
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1772,7 +1750,7 @@
 <h1 id="_1">コサイン類似度 ― 「似ている決算」を数値で検索する</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/10_similar_earnings_search/00_thumbnail.png" data-desc-position="bottom"><img alt="類似決算検索" src="../img/10_similar_earnings_search/00_thumbnail.png" width="1280"></a></p>
 <p>「この決算、どこかで見た形だな」― そんな直感を、機械にやらせてみます。決算の数字から <strong>10 個の特徴量</strong> を取り出し、<strong>コサイン類似度</strong>（数字の並びの "似ている度"）で、決算短信 JSON のうち特徴量が 7 個以上そろう <strong>287 銘柄</strong>から「似た決算」を自動で探します。業種コードを一切使っていないのに、<strong>商社・電機といった "業界の型" が数字だけから自然に立ち上がる</strong> ― そこが本記事の見どころです。</p>
-<p class="fig-meta">データ出典: 自前パイプラインの `data/statements/*_2026-03-31_FY.json`（kind="actual" 287 銘柄）、`data/news/tdnet/2026-04~05-*.csv`（決算短信 3,549 件）。実装は `scripts/blog15_similarity.py`（特徴量抽出 + 類似度）と `scripts/blog15_generate_images.py`。実 embedding API は呼んでいません（数値特徴量のみで完結）</p>
+<p class="fig-meta">データ出典: 自前パイプラインの `data/statements/*_2026-03-31_FY.json`（kind="actual" 287 銘柄）、`data/news/tdnet/2026-04~05-*.csv`（決算短信 3,549 件）。実装は `scripts/blog15_similarity.py`（特徴量抽出 + 類似度）と `scripts/blog15_generate_images.py`。</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://atmarkit.itmedia.co.jp/ait/articles/2112/08/news020.html" target="_blank" rel="noopener">
@@ -1945,52 +1923,10 @@
 <li>2 次元では全体の約半分の情報しか映せないのに、<strong>Top-5 が近いことははっきり見える</strong></li>
 </ul>
 <p>10 次元で「似ている」と判定したものが、2 次元の図でもちゃんと近くに来る ― 高次元での近さが、平面に映しても保たれていると確認できます。</p>
-<h2 id="vs-llm-embedding">数値特徴量 vs LLM embedding ― 使い分け</h2>
-<p>数値特徴量と LLM embedding（文章を AI が数値ベクトルに変換したもの）は、コスト・速度・分かりやすさ・捉えられる対象が違い、得意分野が分かれます。</p>
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
-
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/10_similar_earnings_search/05_numeric_vs_embedding.png" data-desc-position="bottom"><img alt="特徴量比較" src="../img/10_similar_earnings_search/05_numeric_vs_embedding.png" width="1200"></a></p>
-<table>
-<thead>
-<tr>
-<th>項目</th>
-<th>数値特徴量（本記事）</th>
-<th>LLM embedding（発展）</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>次元数</td>
-<td>10</td>
-<td>1,536〜3,072</td>
-</tr>
-<tr>
-<td>API コスト</td>
-<td>0 円</td>
-<td>1 銘柄 ¥0.02〜0.10（OpenAI text-embedding-3）</td>
-</tr>
-<tr>
-<td>計算速度</td>
-<td>1,000 銘柄 0.1 秒</td>
-<td>同 数秒</td>
-</tr>
-<tr>
-<td>解釈性</td>
-<td><strong>高</strong>（次元名で説明可）</td>
-<td>低（次元の意味不明）</td>
-</tr>
-<tr>
-<td>捕捉できる対象</td>
-<td>数字パターンのみ</td>
-<td><strong>質的トピック・経営課題も</strong></td>
-</tr>
-</tbody>
-</table>
-<p><strong>おすすめは両者の合わせ技です</strong> ― まず数値特徴量で高速に Top-50 まで絞り（コスト 0）、次に LLM の要約・embedding で Top-10 に精密化する（コスト数円）。こうすれば、<strong>「数字は似ていても経営の中身が違う」銘柄を 2 段目で外せます</strong>。次回は、この類似検索を未来予測へ発展させます。</p>
 <hr>
 <h2 id="_3">まとめ</h2>
 <ul>
-<li><strong>検索エンジン的アプローチ</strong> ― 10 個の数値特徴量 + コサイン類似度で「最も似た決算」を発見（embedding API 不要・1,000 銘柄 0.1 秒・コスト 0 円）。LLM embedding と併用すれば「数字は似ても中身が違う」銘柄も外せる</li>
+<li><strong>検索エンジン的アプローチ</strong> ― 10 個の数値特徴量 + コサイン類似度で「最も似た決算」を発見（外部API不要・1,000 銘柄 0.1 秒・コスト 0 円）</li>
 <li>丸紅を基準にすると <strong>類似 Top-15 に総合商社 5 社が自動で集まる</strong>（業種コード不使用）― <strong>業種コードなしで「業界の型」が数字だけから再現できた</strong>のが本記事の芯</li>
 <li>見つかった「似た決算」を “物差し” にすれば、<strong>その銘柄自身の値動きまで読めるのか</strong> ― それが次回への問い</li>
 </ul>
