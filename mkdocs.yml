@@ -63,6 +63,7 @@ extra_javascript:
 
 theme:
   name: "material"
+  language: ja # サイトの言語（<html lang="ja">・UIラベル・読み上げ）
   custom_dir: overrides # カスタマイズ用のディレクトリ
   logo: img/card1.png # サイト左上のアイコン
   favicon: img/favicon.png
