@@ -43,7 +43,8 @@ tags:
 
 同業の動きも除いた **セクター超過 CAR**（業界の追い風を引いた純粋な個別反応）で、5 社の決算を 1 回ずつ並べます。事前のファンダ評価が、市場の反応にそのまま表れるかを見ます。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 株価＝yfinance 日足／ベンチマーク＝TOPIX＋セクターETF（エネルギー・卸売）／決算発表日＝TDnet 決算短信の開示ログ（2025年3月期・2026年3月期）。各図は発表日を t=0 とする [-1,+20] CAR</p>
 
 ![5社の決算ごとCAR推移](img/09_car_event_study/04_narrative5_timeline.png){width="1200"}
 
@@ -65,8 +66,8 @@ tags:
 本記事のチャート画像・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。**CAR 計算の実装**（開示時刻からの t=0 判定・TOPIX/セクター ETF 超過の併記・連続株式分割の補正）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/09_car" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/09_car</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02-07_car" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/02-07_car</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>

@@ -41,7 +41,8 @@ tags:
 
 ## 予測精度で「当たらないこと」を確認
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）から CAR[-1,+5] の符号（上 / 下）をランダムフォレストで予測。CAR は決算後株価反応（yfinance 日足、TOPIX 超過）。正解率は交差検証（5分割）とホールドアウト（test 30%）、AUC を併記</p>
 
 ![予測精度とAUC](img/13_random_forest/01_accuracy.png){width="1200"}
 
@@ -53,7 +54,8 @@ tags:
 
 「当たらない」のは分かった。では **どの決算指標が効いているのか**？ ここに落とし穴があります。重要度には測り方が 2 つあり、**①分岐に使われた回数を数える方式（impurity）** と **②その指標の値をわざとシャッフルして精度がどれだけ落ちるか試す方式（permutation）** で、結果が食い違うのです。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.06.03作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）で学習したランダムフォレストの特徴量重要度。impurity（不純度ベース）と permutation（test 30% で値をシャッフルし精度低下を測定、30回平均）を併記</p>
 
 ![特徴量重要度の2つの測り方](img/13_random_forest/02_importance.png){width="1200"}
 
@@ -79,8 +81,8 @@ tags:
 本記事のチャート画像・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。**ランダムフォレストの実装**（交差検証・ホールドアウト・permutation importance・impurity との比較）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/13_random_forest" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/13_random_forest</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/03-04_random_forest" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/03-04_random_forest</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>

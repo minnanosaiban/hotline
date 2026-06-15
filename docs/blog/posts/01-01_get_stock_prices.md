@@ -111,8 +111,8 @@ merged.to_parquet(path)
 
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/01_chart_5min</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-01_chart_5min" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-01_chart_5min</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -124,8 +124,8 @@ merged.to_parquet(path)
 
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01_chart_5min" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/01_chart_5min</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-01_chart_5min" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-01_chart_5min</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -138,7 +138,7 @@ Streamlit で作成したアプリです。チャート描画は Plotly、株価
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![5分足ローソク + 騰落率テーブル](https://github.com/minnanosaiban/blog/raw/main/01_chart_5min/app.png){width="1200"}
+![5分足ローソク + 騰落率テーブル](https://github.com/minnanosaiban/blog/raw/main/01-01_chart_5min/app.png){width="1200"}
 
 なお、**株価をあらかじめ貯めなくても、チャートは表示できます**。yfinance から直接取得して描く簡易版（`app_simple.py`）もおまけ で同梱しています。
 

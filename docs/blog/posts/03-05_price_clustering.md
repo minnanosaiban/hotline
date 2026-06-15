@@ -47,7 +47,8 @@ tags:
 
 287 × 287 の相関行列を、クラスタ順に並べ替えて描きます。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
 
 ![相関ヒートマップ](img/14_price_clustering/01_corr_heatmap.png){width="1200"}
 
@@ -59,7 +60,8 @@ tags:
 
 相関距離を MDS（距離の近さを保ったまま 2 次元に並べる手法）で平面に落とし、色は自動クラスタで塗ります。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
 
 ![値動き銘柄マップ](img/14_price_clustering/02_stock_map.png){width="1200"}
 
@@ -79,7 +81,8 @@ tags:
 
 完全な双子（ρ≥0.90）は **0 ペア**。「完全に同じ動きの銘柄はいない」こと自体が発見です。最も連動するのは、いずれも教科書どおりの同業ペアでした。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
 
 ![最も連動するペア](img/14_price_clustering/03_near_identical.png){width="1200"}
 
@@ -114,8 +117,8 @@ tags:
 本記事のチャート画像・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。**クラスタリングの計算方法**（日次リターン・相関距離・Ward 法・MDS 可視化・ほぼ同一ペア抽出）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/14_price_clustering" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/14_price_clustering</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/03-05_price_clustering" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/03-05_price_clustering</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>

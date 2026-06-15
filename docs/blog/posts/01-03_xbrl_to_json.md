@@ -56,6 +56,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 売上高（左）と自己資本比率（右）を、同じ 7 年で重ねたチャートです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 売上高・自己資本比率＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社の売上高・自己資本比率7年推移](img/03_xbrl_to_json/01_oil_3companies_revenue.png){width="1200"}
 
@@ -69,6 +70,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 純利益（左）と ROE（右）の 7 年推移です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 純利益・ROE＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社の純利益・ROE7年推移](img/03_xbrl_to_json/02_oil_3companies_ni_roe.png){width="1200"}
 
@@ -84,6 +86,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 営業・投資・財務の 3 つのキャッシュフローを、3 社分並べたチャートです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 営業・投資・財務CF＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社のキャッシュフロー7年推移](img/03_xbrl_to_json/03_oil_3companies_cf.png){width="1200"}
 
@@ -104,8 +107,8 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/03_xbrl_json</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-03_xbrl_json" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-03_xbrl_json</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -117,8 +120,8 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/03_xbrl_json" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/03_xbrl_json</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-03_xbrl_json" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-03_xbrl_json</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -133,7 +136,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![決算 Note プロンプト生成](https://github.com/minnanosaiban/blog/blob/main/03_xbrl_json/app.png?raw=true){width="1200"}
+![決算 Note プロンプト生成](https://github.com/minnanosaiban/blog/blob/main/01-03_xbrl_json/app.png?raw=true){width="1200"}
 
 
 

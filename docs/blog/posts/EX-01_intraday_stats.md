@@ -43,7 +43,8 @@ tags:
 
 時間帯の癖・寄りギャップ・連れ高（リードラグ）。よく聞く 3 本を IN で測り、OUT で答え合わせした結果です。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 5分足（流動性上位300銘柄、2025年11月〜2026年5月）</p>
 
 ![定番シグナルの IN/OUT 比較](img/16_intraday_stats/01_signal_inout.png){width="1200"}
 
@@ -62,7 +63,8 @@ tags:
 
 唯一、統計として頑健だったのが **平均回帰**（直前 5 分の逆を張る）です。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 5分足（流動性上位300銘柄、2025年11月〜2026年5月）</p>
 
 ![平均回帰のエッジとコスト](img/16_intraday_stats/02_meanrev_vs_cost.png){width="1200"}
 
@@ -77,7 +79,8 @@ tags:
 
 最後に、テクニカルではなく **イベント** を物差しにします。TDnet の開示時刻を使い、**場中（9:00〜15:00）に決算系の開示が出た 317 件** について、直後 30 分の値動きを測りました。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 5分足＋TDnet開示ログ（流動性上位300銘柄、2025年11月〜2026年5月）</p>
 
 ![場中開示後 30 分のドリフト](img/16_intraday_stats/03_event_drift.png){width="1200"}
 
@@ -108,8 +111,8 @@ tags:
 本記事の検証スクリプト（5 分足キャッシュ・IN/OUT 分割・コスト控除の枠組みと 5 実験＋条件付きパターン検証）は、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本記事と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/16_intraday_stats" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/16_intraday_stats</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/EX-01_intraday_stats" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/EX-01_intraday_stats</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>

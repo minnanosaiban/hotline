@@ -39,7 +39,8 @@ tags:
 
 ## 結果 ― 並べ替えはできる、的中はコイン並み
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 5分足（流動性上位300銘柄、2025-11-21〜2026-05-29、検証51万バー）</p>
 
 ![確信度十分位と次バーリターン](img/17_intraday_ml/01_decile_returns.png){width="1200"}
 
@@ -53,7 +54,8 @@ tags:
 
 では、その階段の両端だけ取引したら勝てるのか。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 5分足（流動性上位300銘柄、2025-11-21〜2026-05-29、検証51万バー）</p>
 
 ![エッジとコストの比較](img/17_intraday_ml/02_edge_vs_cost.png){width="1200"}
 
@@ -87,8 +89,8 @@ tags:
 本記事の検証スクリプト（特徴量生成・パージ付き IN/OUT 分割・十分位分析）は、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本記事と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/17_intraday_ml" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/17_intraday_ml</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/EX-02_intraday_ml" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/EX-02_intraday_ml</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>

@@ -34,7 +34,7 @@ tags:
 
 ある銘柄の「似た決算 Top-K」を集め、**その群れの反応（CAR）を "ふつうの目安"** とします。自身がその目安に **近ければ「典型」、大きく外れれば「個別ショック」** ― これを **287 銘柄まとめて** 仕分けます。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
 ![パイプライン全体](img/11_knn_prediction/01_pipeline.png){width="1200"}
 
@@ -46,7 +46,8 @@ tags:
 
 群れ（近傍 Top-15）の反応から大きく外れた銘柄を、上下それぞれ並べます。**数字の上では同業並みなのに、市場が予想外の評価をした銘柄** ― 投資判断で **真っ先に IR・説明会を確認すべき** 群れです。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: 287 銘柄の決算短信（2026年3月期、10次元の決算特徴量で類似群を選定）と、決算後株価反応 CAR[-1,+5]（yfinance 日足）</p>
 
 ![個別ショック Top-10](img/11_knn_prediction/03_shocks_top10.png){width="1200"}
 
@@ -105,8 +106,8 @@ tags:
 本記事のチャート画像・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。**K-NN 分類の実装（似た決算 Top-K・近傍平均からの外れ量・個別ショック抽出・K=5/15/30 比較）**は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/11_knn" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/11_knn</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/03-02_knn" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/03-02_knn</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>

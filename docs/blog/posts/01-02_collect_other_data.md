@@ -93,14 +93,14 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 本記事のチャート画像・アプリ・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます（動かし方はリポジトリの README 参照）。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/02_1_chart_multi</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-02_1_chart_multi" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-02_1_chart_multi</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-02_2_chart_earnings_pattern" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-02_2_chart_earnings_pattern</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -112,8 +112,8 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02_1_chart_multi" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/02_1_chart_multi</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-02_1_chart_multi" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-02_1_chart_multi</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -123,7 +123,7 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![複数銘柄カードグリッド](https://github.com/minnanosaiban/blog/blob/main/02_1_chart_multi/app.png?raw=true){width="1200"}
+![複数銘柄カードグリッド](https://github.com/minnanosaiban/blog/blob/main/01-02_1_chart_multi/app.png?raw=true){width="1200"}
 
 
 
@@ -131,8 +131,8 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02_2_chart_earnings_pattern" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/02_2_chart_earnings_pattern</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/01-02_2_chart_earnings_pattern" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/01-02_2_chart_earnings_pattern</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
@@ -142,6 +142,6 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![決算パターングリッド](https://github.com/minnanosaiban/blog/blob/main/02_2_chart_earnings_pattern/app.png?raw=true){width="1200"}
+![決算パターングリッド](https://github.com/minnanosaiban/blog/blob/main/01-02_2_chart_earnings_pattern/app.png?raw=true){width="1200"}
 
 ---

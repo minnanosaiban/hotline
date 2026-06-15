@@ -53,7 +53,8 @@ tags:
 
 ＥＮＥＯＳ の 2026/3 期決算短信 XBRL から、セグメント別に当期 vs 前期を比べました（図は売上の開示がない「その他」を除く 5 セグメント、下の表は「その他」も含む）。連結営業利益は **公表 +25.5%（4,666 億円）**、JX金属を除いた継続事業ベースでは **+339.8%** の急回復。同社開示の「在庫影響除き 4,744 億円」も、修正発表時の主張（実質営業利益 4,400 億維持）を上回って着地しています。ただしセグメントに分けて見ると、この急回復は 1 つの理由ではなく、いくつもの層が重なっていると分かります。
 
-<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大 ・ 2026.05.31作成</p>
+<p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
+<p class="fig-meta">使用データ: ＥＮＥＯＳ（5020）2026年3月期 決算短信 XBRL のセグメント情報。当期（2026年3月期）と前期（2025年3月期、同短信内の prior データ）を比較</p>
 
 ![ＥＮＥＯＳ ピークアウト内訳](img/08_segment_analysis/06_eneos_segments.png){width="1200"}
 
@@ -108,8 +109,8 @@ tags:
 本記事のチャート画像・データ取得・成形スクリプトは、すべて **GitHub に公開**しています。**セグメント分解の計算方法**（決算短信 XBRL からのセグメント抽出・前期比・OPM 算出・利益の質／予想検証とのクロス）は、リポジトリの README にまとめています。データは提供元の利用規約により再配布できませんが、データを各自取得すれば、本連載と同じものが再現できます。
 
 <div class="repo-link-wrap">
-<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/08_segments" target="_blank" rel="noopener">
-<span class="repo-link-path">github.com/minnanosaiban/blog/08_segments</span>
+<a class="repo-link" href="https://github.com/minnanosaiban/blog/tree/main/02-05_segments" target="_blank" rel="noopener">
+<span class="repo-link-path">github.com/minnanosaiban/blog/02-05_segments</span>
 <i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
 </a>
 </div>
