@@ -32,6 +32,10 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
+echo === Notify IndexNow ===
+powershell -ExecutionPolicy Bypass -File "%~dp0scripts\indexnow_ping.ps1"
+if %errorlevel% neq 0 echo IndexNow ping failed (non-blocking, continuing).
+
 echo === Commit ^& Push to main (hotline) ===
 git add .
 rem ビルド成果物(site/)をmainブランチのコミット対象から外す
