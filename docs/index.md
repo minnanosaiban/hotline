@@ -18,14 +18,14 @@ hide:
 # icon: material/home
 ---
 
-<p class="base00">
+<p class="base00" style="text-align:right;">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
-<p style="text-align:right; font-size:0.75rem; margin:0.2rem 0 0;">
+<p class="lang-switch" style="text-align:right; font-size:10px; margin:0.2rem 0 0;">
   <b>日本語</b> ｜ <a href="en/">English</a>
 </p>
 
