@@ -48,7 +48,7 @@ NotebookLM（指示なし）・2025年8月<br><a class="arrow-link" href="https:
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM（指示なし）・2025年8月<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/appeal/">東京地裁判決、控訴理由書、控訴答弁書</a></p>
+NotebookLM（指示なし）・2025年8月<br>東京地裁判決、控訴理由書、控訴答弁書</p>
 </div>
 </div>
 
