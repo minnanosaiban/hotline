@@ -22,6 +22,12 @@
         .md-nav--secondary .md-nav__item > .md-nav .md-nav__item > .md-nav { display: block !important; }
       </style>
     {% endif %}
+    {# Home（日本語／英語）相互の言語alternate（hreflang） #}
+    {% if src == 'index.md' or src == 'en/index.md' %}
+      <link rel="alternate" hreflang="ja" href="https://minnanosaiban.github.io/hotline/">
+      <link rel="alternate" hreflang="en" href="https://minnanosaiban.github.io/hotline/en/">
+      <link rel="alternate" hreflang="x-default" href="https://minnanosaiban.github.io/hotline/">
+    {% endif %}
   {% endif %}
   {% if page and page.meta %}
     <meta property="twitter:card" content="{{ page.meta.twitter_card | default('summary') }}">

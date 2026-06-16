@@ -25,6 +25,10 @@ hide:
   </a>
 </p>
 
+<p style="text-align:right; font-size:0.75rem; margin:0.2rem 0 0;">
+  <b>日本語</b> ｜ <a href="en/">English</a>
+</p>
+
 <div class="center-container" markdown>
 <h1 class="top-title-13">
   <b><span style="color: var(--md-accent-color);">ＥＮＥＯＳ</span>の内部通報制度をめぐる訴訟について</b>
