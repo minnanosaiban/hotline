@@ -222,8 +222,11 @@
     text-align: left;
   }
   /* 節見出し（.center larger）はスマホでも中央寄せ。.center の既定（スマホ＝左寄せ）を上書き。
-     2行は先頭ぞろえでなく各行センターでよい。 */
-  .agm-section > p.center.larger {
+     2行は先頭ぞろえでなく各行センターでよい。
+     .agm-section 内（裁判所が示した３つの事実）に加え、枠の外にある節見出し
+     （center-container 直下の「再通報と新たな提訴」）も同様に中央寄せにする。 */
+  .agm-section > p.center.larger,
+  .center-container > p.center.larger {
     text-align: center;
   }
 }
