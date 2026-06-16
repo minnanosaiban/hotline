@@ -186,6 +186,20 @@
   }
 }
 
+/* スマホ：Home 上部ユーティリティ（シェア／言語切替／注記）が右端に詰まらないよう右余白。
+   行間は「シェア→切替」は詰め、ゆとりは「切替（英語版は注記）→タイトル」側に持たせる
+   （タイトルを少し下げる）。PC は対象外。 */
+@media only screen and (max-width: 767px) {
+  .md-typeset p.base00,
+  .md-typeset p.lang-switch,
+  .md-typeset p.lang-note {
+    padding-right: 0.6rem;
+  }
+  .center-container {
+    padding-top: 0.9rem;
+  }
+}
+
 /* セクション前の余白（シンプル化）：上 6rem だけで決める。下は 0。
    gap やマージン相殺に頼らず、この1クラスで「この要素の上に6rem空ける」を表す。
    使用：裁判所の判断／通報者への措置の枠（グレー枠は .agm-section 側で同じ6rem）。 */
