@@ -41,6 +41,7 @@ nav:
       - <i class="fa-solid fa-layer-group"></i> 番外編:
           - EX-1 超短期の統計検証: blog/posts/EX-01_intraday_stats.md
           - EX-2 超短期の ML 検証: blog/posts/EX-02_intraday_ml.md
+      - <i class="fa-solid fa-layer-group"></i> 用語集: blog/glossary.md
 
 extra_css:
   - css/01-color.css
