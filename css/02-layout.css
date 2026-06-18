@@ -279,6 +279,14 @@
   margin-top: 4rem !important;
   margin-bottom: 4rem !important;
 }
+/* 枠内の通常段落でも margin04 を効かせる（詳細度 0,2,1 で .agm-section>p に勝つ）。
+   flex はマージン相殺なし＝下マージンは gap・次段落のマージンと加算され過剰になるので、上だけにする。 */
+.agm-section > p.margin03 {
+  margin-top: 3rem !important;
+}
+.agm-section > p.margin04 {
+  margin-top: 4rem !important;
+}
 /* グレー枠内の節見出し（.largest「裁判所が示した３つの事実」「再通報と新たな提訴」）を、
    数字見出し（.larger＝1.6rem）と同じ大きさに揃える。.largest だけ下げれば足りる。
    モバイルも .larger と同じ 1.2rem。 */
