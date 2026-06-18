@@ -115,7 +115,7 @@ h1 {
 }
 @media only screen and (max-width: 767px) {
   .md-typeset h1 {
-    font-size: 2.24rem !important;
+    font-size: 1.9rem !important;   /* スマホ：長いタイトルの画面占有を抑える（2.24→1.9rem）。戻すなら2.24rem、2行に詰めるなら1.6rem */
   }
 }
 /*

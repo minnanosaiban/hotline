@@ -1,6 +1,6 @@
 ---
-title: ENEOSはこう主張！ - ENEOSの内部通報制度をめぐる訴訟について
-description: ENEOS（エネオス）の内部通報制度をめぐる訴訟について、裁判文書をもとに当事者双方の主張を公開しています。調査事項のすり替え・通報者への誤認誘導・不正送金となり得る解決策など、具体的な問題を記録しています。株主総会や記者会見で問題提起しています。
+title: ENEOSの内部通報制度をめぐる訴訟について - ENEOS（エネオス）裁判 -
+description: ENEOS（エネオス）の内部通報制度をめぐる訴訟の裁判文書を公開しています。通報を受けた後、通報者を情報から排除したうえ、裏づけのない情報だけを知らせるという企業の対応について問題提起をしています。
 url: https://minnanosaiban.github.io/hotline/trial/eneos_claims/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
