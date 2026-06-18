@@ -183,6 +183,7 @@
 @media only screen and (max-width: 767px) {
   .center-container {
     justify-content: flex-start;
+    overflow: visible;   /* スマホ：.agm-section の側面box-shadowを切らないため（box-shadowはレイアウト非関与なので横スクロールは出ない） */
   }
 }
 
@@ -211,6 +212,7 @@
 /* ホーム「株主総会意見」セクション：罫線でなく、淡い無彩色の背景帯＋余白で区切る */
 .agm-section {
   width: 100%;
+  max-width: 32rem;          /* グレー帯を本文(width-40=32rem)と同じ列幅に。横の張り出し(バルジ)を無くす */
   display: flex;
   flex-direction: column;
   align-items: center;       /* 中の width-40 を中央寄せに保つ */
@@ -218,16 +220,20 @@
   box-sizing: border-box;
   margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
   margin-bottom: 4rem;       /* flex では折り畳まれないため、直後の .margin02（2rem）と合計 6rem になるよう調整 */
-  padding: 3.2rem 1.2rem 3.2rem;
-  background: var(--md-primary-fg-color);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
+  padding: 3.2rem 1.2rem 3.2rem;   /* 左右1.2remパディング。枠の外幅は32remのまま（本文・タイトルと同列幅）／中のテキストはその分内側に入る */
+  --agm-bg: var(--md-primary-fg-color);    /* 枠の背景色。スマホの側面box-shadowと共有する */
+  background: var(--agm-bg);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
 }
 /* ダークモード：ヘッダーの上書き色（#0d1b2a）に背景を合わせる */
 [data-md-color-scheme="slate"] .agm-section {
-  background-color: #0d1b2a;
+  --agm-bg: #0d1b2a;   /* ダーク時：背景＋側面box-shadowを同色に */
 }
 @media only screen and (max-width: 767px) {
   .agm-section {
-    padding: 1.8rem 0.8rem 1.8rem;   /* margin-top は PC と同じ 6rem を維持（.gap-6 と統一） */
+    /* スマホ：枠内テキストを白い本文と同じ左右位置に揃える（横padding 0）。
+       左右の余白(白)は box-shadow で枠と同色に塗る＝レイアウト非関与なので横スクロールは出ない（100vwの張り出し問題を回避）。 */
+    padding: 1.8rem 0 1.8rem;
+    box-shadow: -50vw 0 0 0 var(--agm-bg), 50vw 0 0 0 var(--agm-bg);
   }
   /* スマホ：番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
      節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。 */
@@ -240,7 +246,7 @@
      .agm-section 内（裁判所が示した３つの事実）に加え、枠の外にある節見出し
      （center-container 直下の「再通報と新たな提訴」）も同様に中央寄せにする。 */
   .agm-section > p.center.larger,
-  .center-container > p.center.larger {
+  .center-container p.center.larger {
     text-align: center;
   }
 }

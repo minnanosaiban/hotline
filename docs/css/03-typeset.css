@@ -365,7 +365,7 @@ strong {
   }
 /* １行の文字数（トップタイトル） */
 .top-title-13 {
-  max-width: 13em;
+  max-width: 32rem;  /* 本文・グレー帯と同じ列幅に揃える（旧 13em） */
   overflow-wrap: break-word;
   white-space: normal;
 }
