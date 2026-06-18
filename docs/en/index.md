@@ -32,12 +32,12 @@ hide:
 
 
 <div markdown>
-<p  class="issue-point width-40" style="margin-top: 8rem  !important; margin-bottom: 2rem  !important;">
+<p class="issue-point width-40 issue-lead">
 I am an employee who used the company's internal whistleblower hotline.
 </p>
 
 <p class="width-40 margin02">
-What this website calls into question is the company's conduct after the report was filed. <b>The company excluded the whistleblower from information, and disclosed nothing but information that could not be substantiated.</b> In the text below, I also refer to myself — the person who filed the report — as "the whistleblower."
+What this website calls into question is the company's conduct after the report was filed. <span style="color: var(--md-warn-red);">The company excluded the whistleblower from information, and disclosed nothing but information that could not be substantiated.</span> In the text below, I also refer to myself — the person who filed the report — as "the whistleblower."
 </p>
 
 <p  class="issue-point width-40 margin02">
@@ -98,7 +98,7 @@ The company presented to the whistleblower, as the solution, that "the overseas 
 </p>
 <p class="width-40 margin02">
 Regarding the payment of an overseas consumption tax that need not be paid, the court presumed it to be a "payment based on an agreement."<br>
-— Yet the contract contains no provision to pay overseas consumption tax, and no record showing an agreement is presented at all. Even if an agreement had truly existed, paying an unnecessary overseas consumption tax on the basis of an unrecorded agreement is itself a <span style="color: var(--md-warn-red);">problem of internal control</span>.
+— Yet the contract contains no provision to pay overseas consumption tax, and no record showing an agreement is presented at all. Even if an agreement had truly existed, paying an unnecessary overseas consumption tax on the basis of an unrecorded agreement is itself a <span style="color: var(--md-link-color);">problem of internal control</span>.
 </p>
 
 </div>
