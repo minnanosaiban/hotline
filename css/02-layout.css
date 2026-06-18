@@ -323,9 +323,13 @@
     font-size: 1.2rem !important;
   }
 }
-/* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする */
-.agm-section > .card-accordion,
-.center-container > .card-accordion {
+/* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする。
+   直下(>)だと中間の <div markdown> ラッパー越しのアコーディオンに効かず、開いたとき
+   本文(.doc 長文)が flex(align-items:center) の幅を押し広げて開閉で幅が変動する。
+   子孫セレクタにしてラッパー越しでも 32rem に固定する。 */
+.agm-section .card-accordion,
+.center-container .card-accordion {
   width: 100%;
   max-width: 32rem;
+  box-sizing: border-box;
 }
