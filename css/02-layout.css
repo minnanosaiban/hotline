@@ -128,6 +128,11 @@
 .md-footer {
   margin-top: 8rem;
 }
+@media only screen and (max-width: 767px) {
+  .md-footer {
+    margin-top: 4rem;   /* スマホ：本文末〜フッターの空白を圧縮 */
+  }
+}
 /* フッター注記 */
 .md-footer-note {
   padding: 1rem 1.2rem 2rem;
@@ -208,6 +213,23 @@
   margin-top: 6rem !important;
   margin-bottom: 0 !important;
 }
+@media only screen and (max-width: 767px) {
+  /* スマホ：大きな縦の区切りは h2(8rem→3rem)と同じ思想で圧縮し、空白で間延びさせない */
+  .gap-6 {
+    margin-top: 3rem !important;
+  }
+}
+/* ホーム導入リード（最初の問題提起見出し）の上の大余白。
+   PC は 8rem のまま、スマホは過剰な空白を圧縮（旧：index.md のインライン 8rem を移設） */
+.issue-lead {
+  margin-top: 8rem !important;
+  margin-bottom: 2rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .issue-lead {
+    margin-top: 3.5rem !important;
+  }
+}
 
 /* ホーム「株主総会意見」セクション：罫線でなく、淡い無彩色の背景帯＋余白で区切る */
 .agm-section {
@@ -234,6 +256,9 @@
        左右の余白(白)は box-shadow で枠と同色に塗る＝レイアウト非関与なので横スクロールは出ない（100vwの張り出し問題を回避）。 */
     padding: 1.8rem 0 1.8rem;
     box-shadow: -50vw 0 0 0 var(--agm-bg), 50vw 0 0 0 var(--agm-bg);
+    /* スマホ：枠の前後の大余白も h2(8rem→3rem)に合わせて圧縮（PCは6rem/4remのまま） */
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
   }
   /* スマホ：番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
      節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。 */
