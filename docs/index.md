@@ -34,31 +34,29 @@ hide:
   <b><span style="color: var(--md-accent-color);">ＥＮＥＯＳ</span>の内部通報制度をめぐる訴訟について</b>
 </h1>
 
-
-
 <div markdown>
-<p class="issue-point width-40 issue-lead">
-社内通報窓口を利用した従業員です。
+<p class="center larger width-40 issue-lead">
+本サイトの<br>問題提起
 </p>
 
 <p class="width-40 margin02">
-本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<span style="color: var(--md-warn-red);">会社は、通報者を情報から排除したうえ、裏づけのない情報を知らせました。</span>なお、通報をした私自身を、本文では「通報者」とも記します。
+本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<span style="color: var(--md-warn-red);">会社は、通報者を情報から排除したうえ、裏づけのない情報を知らせました。</span>なお、私は社内通報窓口を利用した従業員で、本文では「通報者」とも記します。
 </p>
 
-<p  class="issue-point width-40 margin02">
-１. 調査事項を曖昧にして回答
+<p class="larger width-40 margin02">
+<i class="fa-solid fa-1"></i>　調査事項を曖昧にして回答
 </p>
 <p class="width-40">
-通報したのは「支払う必要のない海外消費税を払っている」という問題でした。ところが、調査事項が曖昧で、調査結果の対象も判然としませんでした。肝心の海外消費税を支払う必要があるか否かは、調査結果として示されませんでした。
+通報したのは「支払う必要のない海外消費税を払っている」という問題でした。ところが、回答の際の調査事項は曖昧で、調査結果の対象も判然としませんでした。肝心の海外消費税を支払う必要があるか否かは、調査結果として示されませんでした。
 </p>
-<p  class="issue-point width-40 margin02">
-２. 裏づけが確認できない情報
+<p class="larger width-40 margin02">
+<i class="fa-solid fa-2"></i>　裏づけが確認できない情報
 </p>
 <p class="width-40">
 その後、「法改正があったため」と通報者に知らせ、海外子会社が「本社の代わりに返金を受けた」として本社に送金しました。しかし、その「法改正」は未だに特定できず、海外子会社が返金を受けた事実も確認できません。
 </p>
-<p  class="issue-point width-40 margin02">
-３. 海外消費税の支払を契約化
+<p class="larger width-40 margin02">
+<i class="fa-solid fa-3"></i>　海外消費税の支払を契約化
 </p>
 <p class="width-40">
 海外消費税を支払っている旨の通報を受けた後、日本企業に海外消費税を支払う義務がないにもかかわらず、「海外企業がＥＮＥＯＳへ海外消費税を請求できる」形へ契約変更しました。この措置は通報者に知らされませんでした。
@@ -67,7 +65,6 @@ hide:
 <p class="width-40 gap-6">
 <b><span style="color: var(--md-link-color);">裁判所の判断 <i class="fa-solid fa-hand-point-right"></i> </span></b>　通報を受けた後の契約変更について、<b>「通報を受けて講じた是正措置を通報者に通知しなかったこと」が裁判の争点</b>です。裁判所は、契約書に海外消費税の定めはなかったものの、ＥＮＥＯＳは取引先と「海外消費税を支払う合意」をしていたと推認し、合意がある以上海外消費税の支払は契約違反ではない、と判断しました。違反そのものがなければ、通報者に伝えるべき「違反への是正措置」もない ── そう判断し、通知しなかったことを問題にする主張を退けました。
 </p>
-
 
 <div class="agm-section" markdown>
 
@@ -80,7 +77,7 @@ hide:
 </p>
 
 <p class="width-40 margin04">
-<span class="larger" style="color: var(--md-link-color);">１. 「法改正があったため」</span><br>
+<span class="larger" style="color: var(--md-link-color);"><i class="fa-solid fa-1"></i>　法改正があったため</span><br>
 <span style="color: var(--md-link-color);">ただし、その法改正は未だに特定されていません</span>
 </p>
 <p class="width-40 margin02">
@@ -89,8 +86,8 @@ hide:
 </p>
 
 <p class="width-40 margin04">
-<span class="larger" style="color: var(--md-link-color);">２. 「海外消費税の返金を受けた」</span><br>
-<span style="color: var(--md-link-color);">ただし、記録は「子会社 <i class="fa-solid fa-arrow-right"></i> 本社」の送金だけです</span>
+<span class="larger" style="color: var(--md-link-color);"><i class="fa-solid fa-2"></i>　子会社が返金を受けた</span><br>
+<span style="color: var(--md-link-color);">ただし、記録は「子会社 <i class="fa-solid fa-arrow-right"></i> 本社」の送金だけ</span>
 </p>
 <p class="width-40 margin02">
 会社は通報者に、「海外子会社が本社の代わりに海外消費税の返金を受けた」ことを解決策として示しました。<br>
@@ -98,36 +95,41 @@ hide:
 </p>
 
 <p class="width-40 margin04">
-<span class="larger" style="color: var(--md-link-color);">３. 「合意による支払い」</span><br>
+<span class="larger" style="color: var(--md-link-color);"><i class="fa-solid fa-3"></i>　合意による支払いだった</span><br>
 <span style="color: var(--md-link-color);">ただし、合意に関する記録が全く示されません</span>
 </p>
 <p class="width-40 margin02">
-支払う必要のない海外消費税の支払いについて、裁判所は「合意による支払い」と推認しました。<br>
-── しかし、契約書に海外消費税を支払う旨の定めはなく、合意を示す記録も全く示されていません。</p>
-<p class="width-40 margin02">
-仮に裁判所が推認したとおり、「合意」が実際に行われていた場合、<br>
-「支払う必要のない海外消費税を記録されない合意で支払う」 ── このこと自体が、<span style="color: var(--md-link-color);">企業の内部統制として問題</span>です。
+海外消費税の支払いについて、裁判所は「合意による支払い」と推認しました。<br>
+── しかし、契約書に海外消費税を支払う旨の定めはなく、合意を示す記録も全く示されていません。<br><br>
+仮に裁判所が推認したとおりであれば…<br>
+「支払う必要のない海外消費税を合意で支払った」 となり、<br>
+<span style="color: var(--md-warn-red);">── 記録のない合意で支払うこと自体が、企業の内部統制として問題です。</span>
 </p>
 
 </div>
 
 <p class="center larger margin02">
-<span style="color: var(--md-warn-red);">再通報と<br>新たな問題</span>
+再通報と<br>新たな問題
 </p>
 <p class="width-40">
-解決策とされた海外子会社から本社への送金について、私は改めて通報しました。不正な送金が疑われるからです。しかし会社は、調査結果を示さないまま、『解決済み』とだけ伝えました。最初の通報と同じく、再通報でも、不正の有無は判然としないまま残されました。このような対応は、公益通報者保護法の指針に明らかに反します。
+解決策とされた海外子会社から本社への送金について、私は改めて通報しました。不正な送金が疑われるからです。しかし会社は、調査結果を示さないまま、『解決済み』とだけ伝えました。最初の通報と同じく、<span style="color: var(--md-warn-red);">再通報でも、不正の有無は判然としないまま</span>残されました。
 </p>
+<p class="width-40 margin02">
+宮田社長は、元社長のセクハラ不祥事を引き合いに、「コンプライアンスの再徹底」を掲げて、社員に内部通報制度の利用を促していました。本件の再通報は、その呼びかけに応じたものです。制度の利用を促しながら、回答は『解決済み』だけだったのです。
+</p>
+<p class="width-40 margin02">
+── さらに、法令に照らすと、<span style="color: var(--md-warn-red);">『解決済み』だけの回答は、公益通報者保護法の指針に反する行為</span>といえます。
+</p>
+
 <details class="card-accordion" id="acc-shishin">
 <summary>公益通報者保護法 指針の解説（原文）を<span class="acc-verb"></span></summary>
 <div class="accordion-body">
 <p class="doc">調査を実施しない「正当な理由」がある場合の例として、例えば、解決済みの案件に関する情報が寄せられた場合、公益通報者と連絡がとれず事実確認が困難である場合等が考えられる。解決済みの案件か否かについては、解決に関する公益通報者の認識と事業者の認識が一致しないことがあるが、解決しているか否かの判断は可能な限り客観的に行われることが求められる。</p>
 </div>
 </details>
-<p class="width-40 margin02">
-しかも、宮田社長は、元社長のセクハラ不祥事を引き合いに、「コンプライアンスの再徹底」を掲げて、社員に内部通報制度の利用を促していました。本件の再通報は、その呼びかけに応じたものです。<b>制度の利用を促しながら、利用すれば『解決済み』とだけ返す ── これは、公益通報者保護法の指針に反する行為です。</b></p>
-<p class="width-40 margin02">そして仮に、こうした回答が問題なしとされるのなら ── それは、誰が通報しても、「解決済み」の一言で済まされるということ。公益通報者保護法そのものの不備といえます。
+
+<p class="width-40 margin02">そして仮に、こうした回答が問題なしとされるのなら ── それは、誰が通報しても、『解決済み』の一言で済まされるということ。公益通報者保護法そのものの不備といえます。
 </p>
 
 </div>
-
-
+</div>
