@@ -38,21 +38,8 @@ hide:
 判決文、および、裁判文書を公開します。ＰＤＦやＡＩによる音声解説もあります。
 </p>
 
-<p class="t-toc-head">ＥＮＥＯＳはこう主張！</p>
 
-<div class="toc-grid">
-<a href="https://minnanosaiban.github.io/hotline/trial/eneos_claims/" class="toc-card">
-<span class="toc-card-num">本音と建前</span>
-<span class="toc-card-title">ＥＮＥＯＳはこう主張！</span>
-<span class="toc-card-desc">各争点でのＥＮＥＯＳの主張と問題点を一覧</span>
-</a>
-</div>
-<p>
-📌ＥＮＥＯＳ側主張について、音声解説あります。
-</p>
-
-
-<p class="t-toc-head">裁判文書公開　目次</p>
+<p class="t-toc-head">目次</p>
 <div class="toc-grid">
 <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="toc-card">
 <span class="toc-card-num">被告</span>
@@ -76,7 +63,7 @@ hide:
 </a>
 </div>
 <p>
-📌判決文について、音声解説あります。
+📌音声解説あります。
 </p>
 
 
