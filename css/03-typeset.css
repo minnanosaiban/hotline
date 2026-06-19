@@ -256,7 +256,8 @@ strong {
 }
 @media only screen and (max-width: 767px) {
   .sec-title {
-    font-size: 1.6rem !important;
+    font-size: 1.35rem !important;   /* スマホ：メイン題(1.6rem)より一段下げ、階層を保つ */
+    font-weight: 500 !important;     /* スマホは大きくできないぶん、太字で見出し感を出す（デスクトップは細字のまま） */
   }
 }
 .small {
@@ -395,9 +396,65 @@ strong {
   overflow-wrap: break-word;
   white-space: normal;
 }
+/* タイトルの句単位改行：句のまとまりを inline-block にし、まとまりの“間”でだけ折る。
+   固定改行(<br>)でなくレスポンシブ。「内部通報制度」など語の途中では折れない。 */
+.top-title-13 .tl-line {
+  display: inline-block;
+}
+/* タイトルは細字(300)で上品に。<b>の太字を解除し、大きさ＋アクセント色で“題”として立たせる */
+.top-title-13 b {
+  font-weight: 300 !important;
+}
+@media only screen and (max-width: 767px) {
+  .top-title-13 b {
+    font-weight: 500 !important;   /* スマホだけ少し太く */
+  }
+}
+
+/* タイトルの全幅グレー帯：ヘッダー(#e5e7ea)より一段薄い #f2f2f2 を ::before で画面端まで敷く。
+   ※ center-container は overflow:visible が前提（はみ出しをクリップしない） */
+.top-title-13 {
+  position: relative;
+  z-index: 0;
+  padding: 2rem 0;
+}
+.top-title-13::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50vw;
+  width: 100vw;
+  background: var(--surface-gray);   /* 共通変数（ライト#eef1f5／ダーク#16263c） */
+}
+/* 上部ユーティリティ（シェア／言語切替）も同じグレー帯に含め、ヘッダー直下まで連続させる。
+   ::before の top を大きめの負値にして、上にはみ出した分はヘッダー背景の裏に隠す */
+.hero-utils {
+  position: relative;
+  z-index: 0;
+}
+.hero-utils::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10rem;
+  bottom: -2rem;   /* スマホの center-container 上パディング分の白い隙間を、タイトル帯と重ねて埋める */
+  left: 50%;
+  margin-left: -50vw;
+  width: 100vw;
+  background: var(--surface-gray);
+}
 @media only screen and (max-width: 767px) {
   .top-title-13 {
     max-width: 100%;
+    padding-top: 0.5rem;     /* スマホ：タイトル上の余白を詰める（既定 2rem を上書き） */
+    padding-bottom: 1.2rem;
+  }
+  /* 長い題がスマホで語の途中折れ＋4行にならないよう、ホーム題のみ少し縮小し、各句（最長「めぐる訴訟について」）が1行に収まるようにする */
+  .md-typeset h1.top-title-13 {
+    font-size: 1.6rem !important;
   }
   }
 .top-title-11 {

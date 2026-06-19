@@ -182,7 +182,7 @@
   align-items: center;    /* 横方向の中央揃え */
   gap: 0;                 /* セクション間は各要素の margin-top（.gap-6 等）で持たせる。gap は使わない */
   max-width: 100%;
-  overflow: hidden;
+  overflow: visible;  /* タイトルの全幅グレー帯(::before 100vw)を画面端まで出すためクリップしない（旧 hidden） */
   margin: 0;
 }
 @media only screen and (max-width: 767px) {
@@ -222,7 +222,7 @@
 /* ホーム導入リード（最初の問題提起見出し）の上の大余白。
    PC は 8rem のまま、スマホは過剰な空白を圧縮（旧：index.md のインライン 8rem を移設） */
 .issue-lead {
-  margin-top: 8rem !important;
+  margin-top: 6rem !important;
   margin-bottom: 2rem !important;
 }
 @media only screen and (max-width: 767px) {
@@ -243,12 +243,12 @@
   margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
   margin-bottom: 6rem;       /* 枠の上(6rem)と対称に。直後の見出しとはマージン相殺するため max(6rem, 2rem)=6rem で確実に効く */
   padding: 3.2rem 1.2rem 3.2rem;   /* 左右1.2remパディング。枠の外幅は32remのまま（本文・タイトルと同列幅）／中のテキストはその分内側に入る */
-  --agm-bg: var(--md-primary-fg-color);    /* 枠の背景色。スマホの側面box-shadowと共有する */
+  --agm-bg: var(--surface-gray);    /* 枠の背景色（共通変数で統一）。スマホの側面box-shadowと共有する */
   background: var(--agm-bg);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
 }
 /* ダークモード：ヘッダーの上書き色（#0d1b2a）に背景を合わせる */
 [data-md-color-scheme="slate"] .agm-section {
-  --agm-bg: #0d1b2a;   /* ダーク時：背景＋側面box-shadowを同色に */
+  --agm-bg: var(--surface-gray);   /* ダーク時も共通変数で統一（#16263c） */
 }
 @media only screen and (max-width: 767px) {
   .agm-section {
