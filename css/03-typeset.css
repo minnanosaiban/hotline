@@ -219,6 +219,10 @@ strong {
 .agm-section .width-40 .larger {
   font-size: 1.2rem !important;
 }
+/* ホーム導入の問題提起見出し（１・２・３）：枠内(agm-section)の説明見出しと同じ 1.2rem に揃える（太さ400・黒のまま／枠がないので左寄せ） */
+.larger.width-40.margin02 {
+  font-size: 1.2rem !important;
+}
 .largest {
   font-size: 2.56rem !important;
   line-height: 1.4 !important;
