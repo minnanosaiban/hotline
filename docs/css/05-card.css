@@ -78,7 +78,7 @@
 /* サマリーをボタン風バーに（一般の人にも「押せる」と分かるように） */
 .md-typeset .card-accordion > summary {
   display: block;
-  background: #eef0f2 !important;
+  background: var(--surface-gray) !important;   /* 共通変数で統一 */
   border: 1px solid var(--md-card-border) !important;
   border-radius: 6px;
   margin: 0 !important;
@@ -96,7 +96,7 @@
   border-color: var(--md-link-color-faint) !important;
 }
 [data-md-color-scheme="slate"] .md-typeset .card-accordion > summary {
-  background: rgba(255, 255, 255, 0.07) !important;
+  background: var(--surface-gray) !important;
 }
 [data-md-color-scheme="slate"] .md-typeset .card-accordion > summary:hover {
   background: rgba(255, 255, 255, 0.12) !important;

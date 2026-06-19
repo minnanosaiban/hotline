@@ -32,6 +32,7 @@
   --md-typeset-color: #08131a !important; /* テキストカラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
+  --surface-gray: #eef1f5; /* タイトル帯・agm枠・アコーディオン共通の薄い青みグレー（ヘッダーより一段薄い） */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1);; /* フッター デフォルトの色を薄めに*/
@@ -51,6 +52,7 @@
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
   --md-primary-fg-color: hsla(var(--md-hue), 15%, 8%, 1); /* ヘッダーの背景色 */
+  --surface-gray: #16263c; /* ダーク：タイトル帯・agm枠・アコーディオン共通（ヘッダー#0d1b2aより一段薄い紺） */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1); /* フッター デフォルトの色を薄めに*/
