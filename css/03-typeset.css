@@ -245,6 +245,20 @@ strong {
   font-weight: 700 !important;
   line-height: 1.4 !important;
 }
+/* ホームの節見出し（本サイトの問題提起／確認できない３つの情報／再通報と新たな問題）：
+   サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。 */
+.sec-title {
+  font-size: 2.0rem !important;
+  font-weight: 300 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.06em;
+  text-align: center !important;
+}
+@media only screen and (max-width: 767px) {
+  .sec-title {
+    font-size: 1.6rem !important;
+  }
+}
 .small {
   font-size: 16px !important;
 }
