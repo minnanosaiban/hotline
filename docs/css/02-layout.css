@@ -241,7 +241,7 @@
   gap: 10px;                 /* center-container と同じ段落リズム */
   box-sizing: border-box;
   margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
-  margin-bottom: 4rem;       /* flex では折り畳まれないため、直後の .margin02（2rem）と合計 6rem になるよう調整 */
+  margin-bottom: 6rem;       /* 枠の上(6rem)と対称に。直後の見出しとはマージン相殺するため max(6rem, 2rem)=6rem で確実に効く */
   padding: 3.2rem 1.2rem 3.2rem;   /* 左右1.2remパディング。枠の外幅は32remのまま（本文・タイトルと同列幅）／中のテキストはその分内側に入る */
   --agm-bg: var(--md-primary-fg-color);    /* 枠の背景色。スマホの側面box-shadowと共有する */
   background: var(--agm-bg);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
@@ -256,9 +256,9 @@
        左右の余白(白)は box-shadow で枠と同色に塗る＝レイアウト非関与なので横スクロールは出ない（100vwの張り出し問題を回避）。 */
     padding: 1.8rem 0 1.8rem;
     box-shadow: -50vw 0 0 0 var(--agm-bg), 50vw 0 0 0 var(--agm-bg);
-    /* スマホ：枠の前後の大余白も h2(8rem→3rem)に合わせて圧縮（PCは6rem/4remのまま） */
+    /* スマホ：枠の前後の大余白も h2(8rem→3rem)に合わせて圧縮。上下対称（上3rem/下3rem）にする */
     margin-top: 3rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
   }
   /* スマホ：番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
      節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。 */
