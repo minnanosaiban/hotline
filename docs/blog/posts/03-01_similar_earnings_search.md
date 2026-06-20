@@ -53,7 +53,7 @@ tags:
 まず丸紅 2026/3 期通期（売上 8.27 兆円 +6.1%、純利益 5,439 億円 +8.1%、配当 95→107.5 円）を基準（クエリ）に、コサイン類似度で「似た決算」Top-15 を引きます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 決算短信XBRLの10次元特徴量（287銘柄、2026年3月期）。丸紅2026/3期をクエリにコサイン類似度でTop-15を抽出</p>
+<p class="fig-meta">使用データ: 決算短信XBRLの10次元特徴量（287銘柄、2026年3月期）。丸紅2026/3期をクエリにコサイン類似度でTop-15を抽出※在庫評価損益調整なし</p>
 
 ![丸紅 Top-15](img/10_similar_earnings_search/03_top15_marubeni.png){width="1200"}
 
@@ -82,7 +82,7 @@ tags:
 10 次元の特徴量を、PCA（多くの次元を 2 次元に圧縮して見る手法）で平面に映してみます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 決算短信XBRLの10次元特徴量（287銘柄、2026年3月期）をPCAで2次元に投影</p>
+<p class="fig-meta">使用データ: 決算短信XBRLの10次元特徴量（287銘柄、2026年3月期）をPCAで2次元に投影※在庫評価損益調整なし</p>
 
 ![PCA 投影](img/10_similar_earnings_search/02_feature_space_pca.png){width="1200"}
 

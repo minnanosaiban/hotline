@@ -85,7 +85,7 @@ GARP は、PEG（横軸）× ROE（縦軸）でプロットすると、「割安
 ここで、石油元売 3 社の銘柄比較を見てみましょう。市況・精製マージン・在庫評価など共通の事業構造を持ちながら、GARP マップ上の位置はまったく異なります。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: PEG・ROE・PER＝証券会社アプリのアナリストコンセンサス（前期EPS=2026年3月期実績→予想EPS=2027年3月期コンセンサス）／株価＝yfinance（2026年5月末時点）</p>
+<p class="fig-meta">使用データ: PEG・ROE・PER＝証券会社アプリのアナリストコンセンサス（前期EPS=2026年3月期実績→予想EPS=2027年3月期コンセンサス）／株価＝yfinance（2026年5月末時点）※在庫評価損益調整なし</p>
 
 ![石油元売3社 GARP](img/04_garp_peg_roe/03_oil_refining.png){width="1200"}
 
