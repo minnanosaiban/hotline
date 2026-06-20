@@ -18,7 +18,7 @@ tags:
 
 本記事では、 取得した XBRL を JSON 化し、代表的な財務指標の時系列推移を可視化します。そこで見えてきたのが、ＥＮＥＯＳ のピークアウトです。
 
-<p class="fig-meta">データ出典: EDINET API（金融庁）の有報 XBRL（2023〜2025 年提出の 3 本、主要経営指標 5 年表から 2019/3〜2025/3 の 7 期分を構成） / TDnet の決算短信 XBRL。自前パーサで JSON 正規化</p>
+<p class="fig-meta">データ出典<br>EDINET API（金融庁）の有報 XBRL（2023〜2025 年提出の 3 本、主要経営指標 5 年表から 2019/3〜2025/3 の 7 期分を構成） / TDnet の決算短信 XBRL。自前パーサで JSON 正規化</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://developer.mozilla.org/ja/docs/Learn/JavaScript/Objects/JSON" target="_blank" rel="noopener">
@@ -56,7 +56,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 売上高（左）と自己資本比率（右）を、同じ 7 年で重ねたチャートです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 売上高・自己資本比率＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
+<p class="fig-meta">使用データ<br>売上高・自己資本比率＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社の売上高・自己資本比率7年推移](img/03_xbrl_to_json/01_oil_3companies_revenue.png){width="1200"}
 
@@ -70,7 +70,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 純利益（左）と ROE（右）の 7 年推移です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 純利益・ROE＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）※在庫評価損益調整なし</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>純利益・ROE＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社の純利益・ROE7年推移](img/03_xbrl_to_json/02_oil_3companies_ni_roe.png){width="1200"}
 
@@ -88,7 +88,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 営業・投資・財務の 3 つのキャッシュフローを、3 社分並べたチャートです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 営業・投資・財務CF＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
+<p class="fig-meta">使用データ<br>営業・投資・財務CF＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社のキャッシュフロー7年推移](img/03_xbrl_to_json/03_oil_3companies_cf.png){width="1200"}
 
@@ -102,7 +102,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 営業CFを横軸・投資CFを縦軸に取り、年ごとの点を結ぶと、会社が「**稼いで投資する**」局面にいるか、それとも「**稼げていない**」局面かが地図のように読めます。これを **CFマトリクス** と呼びます。横軸の右ほど本業で稼ぎ、縦軸の下ほど投資にお金を回している状態です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 営業CF・投資CF・現金＝有価証券報告書の XBRL（元売 3 社 × 7 期、2019〜2025 年 3 月期）</p>
+<p class="fig-meta">使用データ<br>営業CF・投資CF・現金＝有価証券報告書の XBRL（元売 3 社 × 7 期、2019〜2025 年 3 月期）</p>
 
 ![元売3社のCFマトリクス 7 年軌跡](img/03_xbrl_to_json/06_oil_3companies_cf_matrix.png){width="1200"}
 
@@ -131,7 +131,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 ## 📌 自作アプリ紹介
 
 
-<div class="keypoint" markdown="span">**― CFマトリクス：複数社を並べて比較する無料アプリ ―**</div>
+<div class="keypoint" markdown="span">**― キャッシュフローマトリクス ―**</div>
 
 
 <div class="repo-link-wrap">
@@ -142,7 +142,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 </div>
 
 
-証券コードを入力するだけで、本記事の **CFマトリクス（営業CF × 投資CF）を会社ごとにブラウザで並べて**表示する Streamlit アプリ（`app_cf_matrix.py`）です。有報 XBRL（EDINET 公開データ）を読むので、**無料で何社でも比較**できます。
+証券コードを入力するだけで、本記事の **キャッシュフローマトリクス（営業CF × 投資CF）を会社ごとにブラウザで並べて**表示する Streamlit アプリ（`app_cf_matrix.py`）です。有報 XBRL（EDINET 公開データ）を読むので、**無料で何社でも比較**できます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 

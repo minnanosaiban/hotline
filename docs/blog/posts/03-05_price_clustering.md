@@ -18,7 +18,7 @@ tags:
 
 本記事はその教訓に素直に従い、**入力を「決算の数字」から「値動きそのもの」へ替え**、予測ではなく **記述** に徹します。287 銘柄の日次リターンを相関でクラスタリングし、「ほとんど同じ動きの銘柄」と「似た仲間の銘柄」を、銘柄名も業種も伏せたまま機械に見つけさせます。
 
-<p class="fig-meta">データ出典: yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`。ユニバースは `data/blog15/features.parquet` の特徴量ユニバースに比較用のスポットライト銘柄（出光・コスモ・トヨタ・三菱UFJ・東電・SBG）を加え、価格カバレッジ 95% 以上で絞った 287 銘柄、直近 499 営業日。実装は `scripts/blog/14_price_clustering_make_images.py`（相関距離 + Ward 法 + MDS + ほぼ同一ペア）。出力は `data/blog19/clusters.csv` / `near_identical_pairs.csv`</p>
+<p class="fig-meta">データ出典<br>yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`。ユニバースは `data/blog15/features.parquet` の特徴量ユニバースに比較用のスポットライト銘柄（出光・コスモ・トヨタ・三菱UFJ・東電・SBG）を加え、価格カバレッジ 95% 以上で絞った 287 銘柄、直近 499 営業日。実装は `scripts/blog/14_price_clustering_make_images.py`（相関距離 + Ward 法 + MDS + ほぼ同一ペア）。出力は `data/blog19/clusters.csv` / `near_identical_pairs.csv`</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://ja.wikipedia.org/wiki/クラスター分析" target="_blank" rel="noopener">
@@ -48,7 +48,7 @@ tags:
 287 × 287 の相関行列を、クラスタ順に並べ替えて描きます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
+<p class="fig-meta">使用データ<br>株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
 
 ![相関ヒートマップ](img/14_price_clustering/01_corr_heatmap.png){width="1200"}
 
@@ -61,7 +61,7 @@ tags:
 相関距離を MDS（距離の近さを保ったまま 2 次元に並べる手法）で平面に落とし、色は自動クラスタで塗ります。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
+<p class="fig-meta">使用データ<br>株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
 
 ![値動き銘柄マップ](img/14_price_clustering/02_stock_map.png){width="1200"}
 
@@ -82,7 +82,7 @@ tags:
 完全な双子（ρ≥0.90）は **0 ペア**。「完全に同じ動きの銘柄はいない」こと自体が発見です。最も連動するのは、いずれも教科書どおりの同業ペアでした。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
+<p class="fig-meta">使用データ<br>株価＝yfinance 日足の日次対数リターン相関（287 銘柄、直近 499 営業日）</p>
 
 ![最も連動するペア](img/14_price_clustering/03_near_identical.png){width="1200"}
 

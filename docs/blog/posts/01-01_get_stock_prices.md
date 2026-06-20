@@ -24,7 +24,7 @@ tags:
 
 までを通します。それでは、データ取得編の出発点です。
 
-<p class="fig-meta">データ出典: yfinance 日足・5分足 Close（`auto_adjust=True`）</p>
+<p class="fig-meta">データ出典<br>yfinance 日足・5分足 Close（`auto_adjust=True`）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://github.com/ranaroussi/yfinance" target="_blank" rel="noopener">
