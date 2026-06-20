@@ -1806,7 +1806,7 @@
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/00_thumbnail.png" data-desc-position="bottom"><img alt="決算クラスタリング" src="../img/12_earnings_clustering/00_thumbnail.png" width="1280"></a></p>
 <p>「商社っぽい決算」「いかにも成長株らしい数字」。決算の "型" は、つい主観で語ってしまいます。では、銘柄名も業種も伏せて <strong>10 個の数値だけ</strong> を機械に渡し、「似た者どうし」に勝手に分類させたら、どんな型が出てくるでしょうか。</p>
 <p>本記事は <strong>k-means クラスタリング</strong>（正解を教えずに、似たものを機械が勝手にまとめる＝<strong>教師なし学習</strong>）で 287 銘柄の決算を分類し、データだけが描く「決算の型」を発見します。そして本連載の中核 <strong>ＥＮＥＯＳ</strong> が、どの型に入るのかを見ます。</p>
-<p class="fig-meta">データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量、特徴量 7 個以上揃う 287 銘柄）。実装は `scripts/blog17_clustering.py`（k-means + シルエット + PCA）と `scripts/blog17_generate_images.py`。クラスタ番号は乱数依存のため、純利益 YoY 最大の群を型A、営業利益率最大の群を型B と意味で固定</p>
+<p class="fig-meta">データ出典<br>自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量、特徴量 7 個以上揃う 287 銘柄）。実装は `scripts/blog17_clustering.py`（k-means + シルエット + PCA）と `scripts/blog17_generate_images.py`。クラスタ番号は乱数依存のため、純利益 YoY 最大の群を型A、営業利益率最大の群を型B と意味で固定</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/k-means-method/" target="_blank" rel="noopener">
@@ -1823,7 +1823,7 @@
 <p>連載 3-1 で設計した <strong>10 次元の数値特徴量</strong>（売上・営利・税引前・純利・包括の YoY、配当成長、営業利益率、純利益率、セグメント数、主力依存度）をそのまま使います。z-score で正規化し、<strong>k-means</strong> で似た決算どうしを自動でグループ分けします（正解ラベルは与えません）。</p>
 <div class="keypoint"><strong>クラスタ数 K</strong>（いくつの型に分けるか）は、<strong>シルエット係数</strong>（型の分かれ具合の良さを 0〜1 で測る指標）で決めます。</div>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄※在庫評価損益調整なし</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/01_silhouette.png" data-desc-position="bottom"><img alt="シルエット係数による K の決定" src="../img/12_earnings_clustering/01_silhouette.png" width="1200"></a></p>
 <ul>
@@ -1833,7 +1833,7 @@
 <h2 id="3">型マップで「3 つの決算プロファイル」を観測</h2>
 <p>10 次元の特徴量を、PCA（多くの次元を 2 次元に圧縮して見る手法）で平面に映します。軸そのものに決まった意味はありませんが、<strong>近い決算ほど近くに置かれる</strong> ので、型のまとまりが見えます。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄※在庫評価損益調整なし</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/02_cluster_map.png" data-desc-position="bottom"><img alt="決算プロファイルの型マップ" src="../img/12_earnings_clustering/02_cluster_map.png" width="1200"></a></p>
 <table>
@@ -1870,7 +1870,7 @@
 <h2 id="_1">型プロファイルで「各型の正体」を確認</h2>
 <p>各型が 10 指標で <strong>母集団平均からどれだけ離れているか</strong>（標準偏差）を見ると、型の正体がくっきりします。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄※在庫評価損益調整なし</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/03_profiles.png" data-desc-position="bottom"><img alt="型ごとの決算プロファイル" src="../img/12_earnings_clustering/03_profiles.png" width="1200"></a></p>
 <ul>
@@ -1879,9 +1879,9 @@
 <li><strong>型C 平均</strong>：全指標がほぼ 0σ。市場の大多数を占める "ふつうの決算"</li>
 </ul>
 <h2 id="eneos">ＥＮＥＯＳ ― 機械学習が下した「急回復型」の判定</h2>
-<p>ＥＮＥＯＳ は型A（急回復）、しかも <strong>右端の極端な位置</strong> に置かれました。背景は 2026/3 期の <strong>継続事業ベース営業利益 +339.8%</strong> という急回復です。</p>
+<p>ＥＮＥＯＳ は型A（急回復）、しかも <strong>右端の極端な位置</strong> に置かれました。背景は 2026/3 期の <strong>継続事業ベース営業利益 +339.8%</strong> という急回復です。ただし k-means が捉えたのは <strong>「伸び率の型」</strong> であって利益の実力の大きさではなく、この伸び率には <strong>前期の落ち込みからの反動</strong> が含まれます。</p>
 <p>連載 1-3 で見た「純利益 <strong>5,371 → 2,261 億の半減</strong>（ピークアウト）」の、ちょうど <strong>反転局面</strong> を、k-means が <strong>教師なしで「急回復型」と分類</strong> した形です。「ピーク → 反落 → 急回復」という市況循環（シクリカル）の波が、銘柄名を伏せた数値だけから "型" として浮かび上がります。</p>
-<p>ただし <strong>型A = 次も安泰、ではありません</strong>。急回復は在庫評価差益や特需など <strong>一過性要因</strong> で起きることも多く、ＥＮＥＯＳ も利益の質（連載 2-3 アクルーアル）やセグメント（連載 2-6 で見た高 OPM 事業の正常化）と併せて読む必要があります。クラスタリングは「型を当てる」道具であって、「未来を当てる」道具ではありません。</p>
+<p>ただし <strong>型A = 次も安泰、ではありません</strong>。急回復は在庫評価差益や特需など <strong>一過性要因</strong> で起きることも多く、ＥＮＥＯＳ の +339.8% も、<strong>当期の利益水準自体は実力ベースでも堅調</strong>（同社開示の在庫影響除き 4,744 億）な一方、<strong>「急回復」の振れ幅は前期の在庫評価損が反転した分だけ大きく見えています</strong>。利益の質（連載 2-3 アクルーアル）やセグメント（連載 2-6 で見た高 OPM 事業の正常化）と併せて、<strong>割り引いて読む</strong> 必要があります。クラスタリングは「型を当てる」道具であって、「未来を当てる」道具ではありません。</p>
 <h2 id="_2">まとめ</h2>
 <ul>
 <li>10 次元の決算特徴量を <strong>k-means（教師なし学習）</strong> で分類。シルエット係数から <strong>K=3</strong> を採用</li>

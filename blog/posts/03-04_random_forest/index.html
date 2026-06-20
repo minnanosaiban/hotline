@@ -1806,7 +1806,7 @@
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_random_forest/00_thumbnail.png" data-desc-position="bottom"><img alt="ランダムフォレスト" src="../img/13_random_forest/00_thumbnail.png" width="1280"></a></p>
 <p>「機械学習を使えば、決算の良し悪しから株価の反応を予測できるはず」。そう期待したくなります。前回（3-2）も K-NN で似た決算と比べ、値や方向そのものは当てられないと確かめました（だから "外れ" を個別ショックの抽出に使いました）。本記事は <strong>ランダムフォレスト</strong> という別の手法で、もう一度「決算 10 指標から CAR（決算前後の超過リターン）の上下を当てられるか」を検証します。</p>
 <p>結論を先に書くと <strong>当てられません</strong>。しかもその過程で、<strong>「特徴量重要度」という指標そのものの落とし穴</strong> が見えてきます。</p>
-<p class="fig-meta">データ出典: 自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量）と `events_2026.parquet`（2026/3 期 CAR、287 銘柄でマッチ）。実装は `scripts/blog18_random_forest.py`（RF + 交差検証 + permutation 重要度）と `scripts/blog18_generate_images.py`。乱数シードは 42 固定</p>
+<p class="fig-meta">データ出典<br>自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量）と `events_2026.parquet`（2026/3 期 CAR、287 銘柄でマッチ）。実装は `scripts/blog18_random_forest.py`（RF + 交差検証 + permutation 重要度）と `scripts/blog18_generate_images.py`。乱数シードは 42 固定</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/random-forest/" target="_blank" rel="noopener">
@@ -1824,7 +1824,7 @@
 <div class="keypoint">対象 287 銘柄のうち <strong>上昇 40%・下落 60%</strong>。つまり <strong>「全部 "下" と答えるだけで 59.9% 当たる</strong>」（＝多数派ベースライン）。モデルはこれを超えて初めて「予測できた」と言えます。評価は、データを 5 分割して順に検証する <strong>交差検証</strong> と、一部を取り置いて試す <strong>ホールドアウト</strong> で行います。</div>
 <h2 id="_3">予測精度で「当たらないこと」を確認</h2>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）から CAR[-1,+5] の符号（上 / 下）をランダムフォレストで予測。CAR は決算後株価反応（yfinance 日足、TOPIX 超過）。正解率は交差検証（5分割）とホールドアウト（test 30%）、AUC を併記</p>
+<p class="fig-meta">使用データ<br>287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）から CAR[-1,+5] の符号（上 / 下）をランダムフォレストで予測。CAR は決算後株価反応（yfinance 日足、TOPIX 超過）。正解率は交差検証（5分割）とホールドアウト（test 30%）、AUC を併記</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_random_forest/01_accuracy.png" data-desc-position="bottom"><img alt="予測精度とAUC" src="../img/13_random_forest/01_accuracy.png" width="1200"></a></p>
 <ul>
@@ -1835,7 +1835,7 @@
 <h2 id="_4">特徴量重要度で「効く指標の罠」を観測</h2>
 <p>「当たらない」のは分かった。では <strong>どの決算指標が効いているのか</strong>？ ここに落とし穴があります。重要度には測り方が 2 つあり、<strong>①分岐に使われた回数を数える方式（impurity）</strong> と <strong>②その指標の値をわざとシャッフルして精度がどれだけ落ちるか試す方式（permutation）</strong> で、結果が食い違うのです。</p>
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ: 287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）で学習したランダムフォレストの特徴量重要度。impurity（不純度ベース）と permutation（test 30% で値をシャッフルし精度低下を測定、30回平均）を併記</p>
+<p class="fig-meta">使用データ<br>287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）で学習したランダムフォレストの特徴量重要度。impurity（不純度ベース）と permutation（test 30% で値をシャッフルし精度低下を測定、30回平均）を併記</p>
 
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/13_random_forest/02_importance.png" data-desc-position="bottom"><img alt="特徴量重要度の2つの測り方" src="../img/13_random_forest/02_importance.png" width="1200"></a></p>
 <ul>
