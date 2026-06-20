@@ -29,8 +29,6 @@ tags:
 </div>
 
 
-
-
 ## GARP とは ― 割安（低 PEG）と稼ぐ力（高 ROE）を両取りする
 
 **GARP（Growth At a Reasonable Price）** は、**割安（低 PEG）でありながら、稼ぐ力も高い（高 ROE）** 銘柄を選ぶ戦略です。

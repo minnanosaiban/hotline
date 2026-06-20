@@ -35,7 +35,7 @@ hide:
 <div class="trial-page" markdown>
 
 <p>
-判決文、および、裁判文書を公開します。ＰＤＦや NotebookLM（ＡＩ）による音声解説もあります。
+判決文、および、裁判文書を公開します。NotebookLM（ＡＩ）による音声解説もあります。
 </p>
 
 
