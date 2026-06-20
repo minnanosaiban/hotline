@@ -1826,8 +1826,7 @@
 
 <h1 id="_1">階層型クラスタリング ― 値動きの相関で再現する業界地図</h1>
 <p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/14_price_clustering/00_thumbnail.png" data-desc-position="bottom"><img alt="値動きクラスタリング" src="../img/14_price_clustering/00_thumbnail.png" width="1280"></a></p>
-<p>ここまでの機械学習編（3-1〜3-4）は、決算の数字から <strong>値動きを「予測」</strong> しようとして、K-NN もランダムフォレストも失敗しました。教訓は一つ ―「機械学習は予言の魔法ではなく、整理・発見の道具」。</p>
-<p>本記事はその教訓に素直に従い、<strong>入力を「決算の数字」から「値動きそのもの」へ替え</strong>、予測ではなく <strong>記述</strong> に徹します。287 銘柄の日次リターンを相関でクラスタリングし、「ほとんど同じ動きの銘柄」と「似た仲間の銘柄」を、銘柄名も業種も伏せたまま機械に見つけさせます。</p>
+<p>本記事では、287 銘柄の日次リターンを相関でクラスタリングし、「ほとんど同じ動きの銘柄」と「似た仲間の銘柄」を、銘柄名も業種も伏せたまま機械に見つけさせます。</p>
 <p class="fig-meta">データ出典<br>yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`。ユニバースは `data/blog15/features.parquet` の特徴量ユニバースに比較用のスポットライト銘柄（出光・コスモ・トヨタ・三菱UFJ・東電・SBG）を加え、価格カバレッジ 95% 以上で絞った 287 銘柄、直近 499 営業日。実装は `scripts/blog/14_price_clustering_make_images.py`（相関距離 + Ward 法 + MDS + ほぼ同一ペア）。出力は `data/blog19/clusters.csv` / `near_identical_pairs.csv`</p>
 
 <div class="ref-quiet">
