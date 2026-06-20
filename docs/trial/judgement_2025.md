@@ -35,11 +35,11 @@ hide:
 </h1>
 
 
-<p class="t-toc-head">控訴審判決を音声解説🎙️</p>
+<p class="t-toc-head">NotebookLM 音声解説🎙️</p>
 
 <div class="card-bule audio-wide">
 <p  class="larger center margin01">
-東京地裁判決を音声解説</p>
+東京地裁判決解説</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
@@ -47,7 +47,7 @@ hide:
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM（指示なし）・2025年8月<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a></p>
+プロンプトなし・2025年8月作成<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a></p>
 </div>
 
 

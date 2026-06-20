@@ -36,12 +36,12 @@ hide:
 <div class="width-40" markdown>
 
 
-<p class="t-toc-head">ＥＮＥＯＳ側の主張を音声解説🎙️</p>
+<p class="t-toc-head">NotebookLM 音声解説🎙️</p>
 
 <div class="audio-stack">
 <div class="card-bule audio-wide">
 <p  class="larger center margin01">
-主張書面を音声解説</p>
+ＥＮＥＯＳ主張解説</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/eneos_202508.m4a" type="audio/wav">
@@ -49,11 +49,11 @@ hide:
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM（指示なし）・2025年8月<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a></p>
+プロンプトなし・2025年8月作成<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a></p>
 </div>
 <div class="card-bule audio-wide">
 <p  class="larger center margin01">
-控訴審主張を音声解説</p>
+控訴審主張解説</p>
 <div class="audio-content center margin02">
   <audio controls preload="none">
     <source src="https://minnanosaiban.github.io/hotline/img/kouso_202508.wav" type="audio/wav">
@@ -61,7 +61,7 @@ NotebookLM（指示なし）・2025年8月<br><a class="arrow-link" href="https:
   </audio>
 </div>
 <p class="smallest center margin01">
-NotebookLM（指示なし）・2025年8月<br>東京地裁判決、控訴理由書、控訴答弁書</p>
+プロンプトなし・2025年8月作成<br>東京地裁判決、控訴理由書、控訴答弁書</p>
 </div>
 </div>
 
