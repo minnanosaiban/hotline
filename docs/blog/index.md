@@ -171,20 +171,6 @@ hide:
 </a>
 </div>
 
-<p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 番外編</p>
-<div class="toc-grid">
-<a href="posts/EX-01_intraday_stats/" class="toc-card">
-<span class="toc-card-num">番外編</span>
-<span class="toc-card-title">超短期のエッジを統計で探す</span>
-<span class="toc-card-desc">5分足×コスト控除後、残ったのは場中開示だけ</span>
-</a>
-<a href="posts/EX-02_intraday_ml/" class="toc-card">
-<span class="toc-card-num">番外編</span>
-<span class="toc-card-title">LightGBM で「次の5分」を当てられるか</span>
-<span class="toc-card-desc">並べ替えはできる、でもコストに勝てない</span>
-</a>
-</div>
-
 <p class="toc-phase-label"><i class="fa-solid fa-layer-group"></i> 用語集</p>
 <div class="toc-grid">
 <a href="glossary/" class="toc-card">
