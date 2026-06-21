@@ -17,7 +17,7 @@ tags:
 
 そこで本記事では、**元売3社（ＥＮＥＯＳ／出光／コスモエネＨＤ）に総合商社2社（丸紅／双日）を加えた主要5社**を対象に、TOPIX 超過に加えてセクター ETF 超過も併記する **CAR** で、業界の追い風を除いた **個別決算の効き** を検証します。
 
-<p class="fig-meta">データ出典<br>決算短信の開示ログ、株価日足 1,580 銘柄。TOPIX / セクター ETF は yfinance（1306.T / 1618.T / 1629.T）で取得・分割補正済み。主要5社の CAR は自前のデータパイプラインで算出</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信の開示ログ（発表日時）<br><i class="fa-solid fa-caret-right"></i>yfinance：株価 日足 1,580銘柄（分割補正済み）、TOPIX / セクター ETF（1306.T / 1618.T / 1629.T）。いずれも 2026年5月31日取得</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://glossary.hub.hit-u.ac.jp/faq/show/171/" target="_blank" rel="noopener">
@@ -28,7 +28,6 @@ tags:
 </a>
 </div>
 
-<!-- more -->
 
 ## CAR とは ― 「業界の追い風」を引いて、個別決算の実力だけを残す
 
@@ -44,7 +43,7 @@ tags:
 同業の動きも除いた **セクター超過 CAR**（業界の追い風を引いた純粋な個別反応）で、5 社の決算を 1 回ずつ並べます。事前のファンダ評価が、市場の反応にそのまま表れるかを見ます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>株価＝yfinance 日足／ベンチマーク＝TOPIX＋セクターETF（エネルギー・卸売）／決算発表日＝TDnet 決算短信の開示ログ（2025年3月期・2026年3月期）。各図は発表日を t=0 とする [-1,+20] CAR</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：株価 日足、ベンチマーク TOPIX＋セクターETF（エネルギー・卸売、2026年5月31日取得）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信）：開示ログ＝決算発表日（2025年3月期・2026年3月期）</p>
 
 ![5社の決算ごとCAR推移](img/09_car_event_study/04_narrative5_timeline.png){width="1200"}
 

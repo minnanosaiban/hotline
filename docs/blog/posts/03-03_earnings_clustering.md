@@ -18,7 +18,7 @@ tags:
 
 本記事は **k-means クラスタリング**（正解を教えずに、似たものを機械が勝手にまとめる＝**教師なし学習**）で 287 銘柄の決算を分類し、データだけが描く「決算の型」を発見します。そして本連載の中核 **ＥＮＥＯＳ** が、どの型に入るのかを見ます。
 
-<p class="fig-meta">データ出典<br>自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量、特徴量 7 個以上揃う 287 銘柄）。実装は `scripts/blog17_clustering.py`（k-means + シルエット + PCA）と `scripts/blog17_generate_images.py`。クラスタ番号は乱数依存のため、純利益 YoY 最大の群を型A、営業利益率最大の群を型B と意味で固定</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL から作成した決算10次元特徴量（3-1で生成、287銘柄）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/k-means-method/" target="_blank" rel="noopener">
@@ -40,7 +40,7 @@ tags:
 <div class="keypoint" markdown="span">**クラスタ数 K**（いくつの型に分けるか）は、**シルエット係数**（型の分かれ具合の良さを 0〜1 で測る指標）で決めます。</div>
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
 ![シルエット係数による K の決定](img/12_earnings_clustering/01_silhouette.png){width="1200"}
 
@@ -52,7 +52,7 @@ tags:
 10 次元の特徴量を、PCA（多くの次元を 2 次元に圧縮して見る手法）で平面に映します。軸そのものに決まった意味はありませんが、**近い決算ほど近くに置かれる** ので、型のまとまりが見えます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
 ![決算プロファイルの型マップ](img/12_earnings_clustering/02_cluster_map.png){width="1200"}
 
@@ -71,7 +71,7 @@ tags:
 各型が 10 指標で **母集団平均からどれだけ離れているか**（標準偏差）を見ると、型の正体がくっきりします。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>決算短信（2026年3月期 通期）から作成した決算10次元特徴量、287銘柄</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
 ![型ごとの決算プロファイル](img/12_earnings_clustering/03_profiles.png){width="1200"}
 

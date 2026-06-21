@@ -23,7 +23,7 @@ tags:
 
 どちらも同じ **決算短信 XBRL** で読み解きます。
 
-<p class="fig-meta">データ出典<br>自前で構築したパイプラインの `data/statements/*_FY.json`。総合商社 2 社のクロス分析は アクルーアル（利益の質）・予想検証（予想の信頼性）の結果と接続。ＥＮＥＯＳ は 2026/3 期決算短信 XBRL を本記事用に追加取得し 5 セグメントを分析（出光 / コスモエネＨＤ は同期未取得のため対象外）</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL<br><i class="fa-solid fa-caret-right"></i>ＥＮＥＯＳ：2026/3期決算短信 XBRL を本記事用に追加取得（5セグメント。出光 / コスモエネＨＤ は同期未取得のため対象外）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.glossary.jp/sec/management/conglomerate-discount.php" target="_blank" rel="noopener">
@@ -34,7 +34,7 @@ tags:
 </a>
 </div>
 
-<!-- more -->
+
 
 
 
@@ -54,7 +54,7 @@ tags:
 ＥＮＥＯＳ の 2026/3 期決算短信 XBRL から、セグメント別に当期 vs 前期を比べました（図は売上の開示がない「その他」を除く 5 セグメント、下の表は「その他」も含む）。連結営業利益は **公表 +25.5%（4,666 億円）**、JX金属を除いた継続事業ベースでは **+339.8%** の急回復。同社開示の「在庫影響除き 4,744 億円」も、修正発表時の主張（実質営業利益 4,400 億維持）を上回って着地しています。ただしセグメントに分けて見ると、この急回復は 1 つの理由ではなく、いくつもの層が重なっていると分かります。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>ＥＮＥＯＳ（5020）2026年3月期 決算短信 XBRL のセグメント情報。当期（2026年3月期）と前期（2025年3月期、同短信内の prior データ）を比較（前期赤字→当期黒字の"振れ幅"は前期の在庫評価損の反転を含む。当期水準は在庫影響除き 4,744 億で実力ベースでも堅調）</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：セグメント情報（ＥＮＥＯＳ 5020、当期2026年3月期 vs 前期2025年3月期＝同短信内 prior）</p>
 
 ![ＥＮＥＯＳ ピークアウト内訳](img/08_segment_analysis/06_eneos_segments.png){width="1200"}
 

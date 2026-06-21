@@ -18,7 +18,7 @@ tags:
 
 結論を先に書くと **当てられません**。しかもその過程で、**「特徴量重要度」という指標そのものの落とし穴** が見えてきます。
 
-<p class="fig-meta">データ出典<br>自前パイプラインの `data/blog15/features.parquet`（決算 10 次元特徴量）と `events_2026.parquet`（2026/3 期 CAR、287 銘柄でマッチ）。実装は `scripts/blog18_random_forest.py`（RF + 交差検証 + permutation 重要度）と `scripts/blog18_generate_images.py`。乱数シードは 42 固定</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL から作成した決算10次元特徴量（3-1で生成、287銘柄）<br><i class="fa-solid fa-caret-right"></i>2026/3期 CAR（events_2026、287銘柄でマッチ）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://zero2one.jp/ai-word/random-forest/" target="_blank" rel="noopener">
@@ -42,7 +42,7 @@ tags:
 ## 予測精度で「当たらないこと」を確認
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）から CAR[-1,+5] の符号（上 / 下）をランダムフォレストで予測。CAR は決算後株価反応（yfinance 日足、TOPIX 超過）。正解率は交差検証（5分割）とホールドアウト（test 30%）、AUC を併記</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足、CAR[-1,+5]（TOPIX超過）</p>
 
 ![予測精度とAUC](img/13_random_forest/01_accuracy.png){width="1200"}
 
@@ -55,7 +55,7 @@ tags:
 「当たらない」のは分かった。では **どの決算指標が効いているのか**？ ここに落とし穴があります。重要度には測り方が 2 つあり、**①分岐に使われた回数を数える方式（impurity）** と **②その指標の値をわざとシャッフルして精度がどれだけ落ちるか試す方式（permutation）** で、結果が食い違うのです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>287 銘柄の決算短信（2026年3月期、10次元の決算特徴量）で学習したランダムフォレストの特徴量重要度。impurity（不純度ベース）と permutation（test 30% で値をシャッフルし精度低下を測定、30回平均）を併記</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期）</p>
 
 ![特徴量重要度の2つの測り方](img/13_random_forest/02_importance.png){width="1200"}
 

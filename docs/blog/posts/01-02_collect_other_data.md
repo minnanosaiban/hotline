@@ -18,7 +18,7 @@ tags:
 
 これらのデータを使って、複数銘柄を指標と合わせて比較するチャートを作成し、株価チャートからもう一歩、目的をもったチャート作成に進めていきます。
 
-<p class="fig-meta">データ出典<br>TDnet 適時開示（発表日時）/ 証券会社のアプリの銘柄情報シート CSV / EDINET API（金融庁）の有報 XBRL / TDnet の決算短信 XBRL</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>EDINET：有報 XBRL<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL、適時開示（発表日時）<br><i class="fa-solid fa-caret-right"></i>証券会社のアプリ：銘柄情報シート CSV</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.fsa.go.jp/search/20130917.html" target="_blank" rel="noopener">

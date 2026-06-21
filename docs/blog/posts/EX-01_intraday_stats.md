@@ -16,7 +16,7 @@ tags:
 
 「中長期が予測できないなら、数分先なら読めるはず」― 値動きの癖（時間帯・ギャップ・連れ高）は誰もが感じるところです。ただ、超短期の勝負では **予測が当たることと、コストを払って勝てることは別問題** です。本記事は、定番シグナル 5 本を同じ物差しに載せ、**往復コスト控除後に何が残るか** だけを見ます。
 
-<p class="fig-meta">データ出典<br>自前パイプラインの 5 分足 1,525 銘柄（2025-11-21〜2026-05-29、65 本/日）から流動性上位 300 銘柄、TDnet 開示ログ（時刻付き）。検証期間は前半（〜2026-03-31）でルールを決め、後半（2026-04-01〜）で答え合わせ。実装は `blog20_scalping_stats.py` ほか</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（自前パイプライン、1,525銘柄から抽出、2025-11-21〜2026-05-29、65本/日）<br><i class="fa-solid fa-caret-right"></i>TDnet：開示ログ（時刻付き）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.asymmetrysignal.com/finance/archives/490" target="_blank" rel="noopener">
@@ -44,7 +44,7 @@ tags:
 時間帯の癖・寄りギャップ・連れ高（リードラグ）。よく聞く 3 本を IN で測り、OUT で答え合わせした結果です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>5分足（流動性上位300銘柄、2025年11月〜2026年5月）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025年11月〜2026年5月）</p>
 
 ![定番シグナルの IN/OUT 比較](img/16_intraday_stats/01_signal_inout.png){width="1200"}
 
@@ -64,7 +64,7 @@ tags:
 唯一、統計として頑健だったのが **平均回帰**（直前 5 分の逆を張る）です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>5分足（流動性上位300銘柄、2025年11月〜2026年5月）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025年11月〜2026年5月）</p>
 
 ![平均回帰のエッジとコスト](img/16_intraday_stats/02_meanrev_vs_cost.png){width="1200"}
 
@@ -80,7 +80,7 @@ tags:
 最後に、テクニカルではなく **イベント** を物差しにします。TDnet の開示時刻を使い、**場中（9:00〜15:00）に決算系の開示が出た 317 件** について、直後 30 分の値動きを測りました。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>5分足＋TDnet開示ログ（流動性上位300銘柄、2025年11月〜2026年5月）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025年11月〜2026年5月）<br><i class="fa-solid fa-caret-right"></i>TDnet：開示ログ</p>
 
 ![場中開示後 30 分のドリフト](img/16_intraday_stats/03_event_drift.png){width="1200"}
 

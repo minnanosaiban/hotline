@@ -18,7 +18,7 @@ tags:
 
 本記事では、 取得した XBRL を JSON 化し、代表的な財務指標の時系列推移を可視化します。そこで見えてきたのが、ＥＮＥＯＳ のピークアウトです。
 
-<p class="fig-meta">データ出典<br>EDINET API（金融庁）の有報 XBRL（2023〜2025 年提出の 3 本、主要経営指標 5 年表から 2019/3〜2025/3 の 7 期分を構成） / TDnet の決算短信 XBRL。自前パーサで JSON 正規化</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>EDINET：有報 XBRL<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://developer.mozilla.org/ja/docs/Learn/JavaScript/Objects/JSON" target="_blank" rel="noopener">
@@ -56,7 +56,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 売上高（左）と自己資本比率（右）を、同じ 7 年で重ねたチャートです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>売上高・自己資本比率＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：売上高 / 自己資本比率（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社の売上高・自己資本比率7年推移](img/03_xbrl_to_json/01_oil_3companies_revenue.png){width="1200"}
 
@@ -70,13 +70,11 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 純利益（左）と ROE（右）の 7 年推移です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ（在庫評価損益調整なし）<br>純利益・ROE＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
+<p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：純利益 / ROE（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社の純利益・ROE7年推移](img/03_xbrl_to_json/02_oil_3companies_ni_roe.png){width="1200"}
 
-<small>※ コスモエネＨＤ・出光興産の 2020 年 ROE は赤字で報告値が非開示のため、純利益÷自己資本で簡易補完しています。</small>
-
-<p class="fig-meta">※ 本記事のチャートは有報 XBRL の<strong>報告値そのまま</strong>で、石油元売の利益・ROE に含まれる<strong>在庫評価損益</strong>（原油価格の変動で在庫の評価額が膨らむ／縮む会計上の差）は調整していません。2022 年の純利益・ROE の山は在庫評価益で水増しされた見かけの数値で、各社が決算説明資料で別途開示する「在庫影響除き」の実力利益とは別物です。利益が現金を伴っているかは、後の「アクルーアル分析」で営業 CF と突き合わせて検証します。</p>
+<p class="fig-meta">※ コスモエネＨＤ・出光興産の 2020 年 ROE は赤字で報告値が非開示のため、純利益÷自己資本で簡易補完しています。<br>※ 本記事のチャートは有報 XBRL の<strong>報告値そのまま</strong>で、石油元売の利益・ROE に含まれる<strong>在庫評価損益</strong>（原油価格の変動で在庫の評価額が膨らむ／縮む会計上の差）は調整していません。2022 年の純利益・ROE の山は在庫評価益で水増しされた見かけの数値で、各社が決算説明資料で別途開示する「在庫影響除き」の実力利益とは別物です。利益が現金を伴っているかは、後の「アクルーアル分析」で営業 CF と突き合わせて検証します。</p>
 
 - 純利益は 3 社そろって **2022 年がピーク**（<span style="color:#3498db">━</span> **ＥＮＥＯＳ** 5.4 千億円）― 原油高で在庫評価益が膨らんだ特殊年
 - ROE も一時 **20〜35%** まで急騰、しかし直近は優良ライン（ROE 10%）前後まで低下
@@ -88,7 +86,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 営業・投資・財務の 3 つのキャッシュフローを、3 社分並べたチャートです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>営業・投資・財務CF＝有価証券報告書の XBRL（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：営業 / 投資 / 財務CF（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![石油元売3社のキャッシュフロー7年推移](img/03_xbrl_to_json/03_oil_3companies_cf.png){width="1200"}
 
@@ -102,7 +100,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 営業CFを横軸・投資CFを縦軸に取り、年ごとの点を結ぶと、会社が「**稼いで投資する**」局面にいるか、それとも「**稼げていない**」局面かが地図のように読めます。これを **CFマトリクス** と呼びます。横軸の右ほど本業で稼ぎ、縦軸の下ほど投資にお金を回している状態です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>営業CF・投資CF・現金＝有価証券報告書の XBRL（元売 3 社 × 7 期、2019〜2025 年 3 月期）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：営業CF / 投資CF / 現金（2019〜2025年3月期の7期分、主要経営指標の時系列で構成）</p>
 
 ![元売3社のCFマトリクス 7 年軌跡](img/03_xbrl_to_json/06_oil_3companies_cf_matrix.png){width="1200"}
 

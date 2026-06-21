@@ -17,7 +17,7 @@ tags:
 
 買収提案、TOB、業績修正、事故 ― 個別の材料は、**その 1 社だけ** を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、**突発材料が出た銘柄をその日のうちに拾える** はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 の「個別ショック抽出」の、**決算発表に依らない常時監視版** です。
 
-<p class="fig-meta">データ出典<br>yfinance 日次 Close（`auto_adjust=True`）`data/prices/stocks/daily/*.parquet`、直近 499 営業日 287 銘柄。実装は `scripts/blog/15_price_anomaly_make_images.py`（PCA 残差 + ピア残差 + 突発材料抽出）。出力は `data/blog19/anomaly_events.csv` / `eneos_decoupling.csv`。異常度は標準化残差の絶対値（σ）。市場・同業が動いていないのに個別だけ動いた日を抽出する、教師なしの検出器</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close（2026年5月31日取得）<br><i class="fa-solid fa-caret-right"></i>対象：287銘柄、直近499営業日</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://ja.wikipedia.org/wiki/異常検知" target="_blank" rel="noopener">
@@ -50,7 +50,7 @@ tags:
 3-5 のクラスタを「いつもの仲間」の基準線にして、代表 4 銘柄を重ねます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>yfinance 日次 Close（auto_adjust=True）の日次リターン、287 銘柄 × 499 営業日（2024-05-14〜2026-05-29）。各銘柄を PCA 共通成分とクラスタ平均で重ねて表示</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（287銘柄 × 499営業日、2024-05-14〜2026-05-29）</p>
 
 ![ケーススタディ](img/15_price_anomaly/02_event_casestudy.png){width="1200"}
 
@@ -64,7 +64,7 @@ tags:
 異常度（PCA の残差 σ）が大きい順に選び、見やすいように **その日の「個別の動き＝銘柄 − 市場平均」** で大きさを示します（並べる基準は残差、表示はその個別の動き）。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>yfinance 日次 Close（auto_adjust=True）の日次リターン、287 銘柄 × 499 営業日（2024-05-14〜2026-05-29）。PCA 残差（異常度）の大きい順に上位 15 件を抽出</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（287銘柄 × 499営業日、2024-05-14〜2026-05-29）</p>
 
 ![突発材料 Top15](img/15_price_anomaly/03_sudden_events.png){width="1200"}
 
@@ -82,7 +82,7 @@ tags:
 本連載の中核 **ＥＮＥＯＳ** で試します。通常は石油の同業（出光・コスモ）と **相関 0.79** で連動しますが、その連動の強さ（ローリング相関＝直近どうしの相関）が **0.47 まで急落** した日があります ― それが **2025-03-28 の業績予想修正の前後** でした。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>yfinance 日次 Close（auto_adjust=True）の日次リターン、ＥＮＥＯＳ と石油同業（出光・コスモ）、2024-05-14〜2026-05-29。ローリング相関（60 営業日）とピア残差の累積</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（ＥＮＥＯＳ と石油同業＝出光・コスモ、2024-05-14〜2026-05-29）</p>
 
 ![ENEOS デカップリング](img/15_price_anomaly/04_eneos_decoupling.png){width="1200"}
 
@@ -96,7 +96,7 @@ tags:
 日ごとに「いつもと違う動き」をした銘柄数を数えると、検出器の使い方が見えます。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br>yfinance 日次 Close（auto_adjust=True）の日次リターン、287 銘柄 × 499 営業日（2024-05-14〜2026-05-29）。日ごとに |PCA 残差|≥3σ・≥5σ の銘柄数を集計</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（287銘柄 × 499営業日、2024-05-14〜2026-05-29）</p>
 
 ![毎日の見張り](img/15_price_anomaly/05_daily_monitor.png){width="1200"}
 

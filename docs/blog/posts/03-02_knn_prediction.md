@@ -15,7 +15,7 @@ tags:
 
 前回（3-1）の「似た決算」を物差しに、各銘柄の決算後の株価反応（CAR）を **K-NN で分類**します ― 似た者と同じ「典型」か、群れから大きく外れた「個別ショック」か。狙いは当てることではなく、**外れた銘柄＝真っ先に IR を確認すべき銘柄を洗い出す**ことです。
 
-<p class="fig-meta">データ出典<br>前回生成した `data/blog15/features.parquet`（287 銘柄）と `events_2026.parquet`（2026/3 期 CAR）。実装は `scripts/blog16_prediction.py`（K-NN 計算 + 個別ショック抽出）と `scripts/blog16_generate_images.py`。実 embedding API・LLM API は本連載全体を通して呼んでいません（要約・embedding は Claude が代理出力）。実 API での 8,049 イベント全要約 + embedding 化は番外編で追加実行可能（Haiku 4.5 で約 3,100 円見積もり）</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL から作成した決算10次元特徴量（3-1で生成、287銘柄）<br><i class="fa-solid fa-caret-right"></i>yfinance＋TDnet：2026/3期 CAR（events_2026）</p>
 
 <div class="ref-quiet">
 <a class="ref-card ref-card--quiet" href="https://www.elastic.co/jp/what-is/knn" target="_blank" rel="noopener">
@@ -45,7 +45,7 @@ tags:
 群れ（近傍 Top-15）の反応から大きく外れた銘柄を、上下それぞれ並べます。**数字の上では同業並みなのに、市場が予想外の評価をした銘柄** ― 投資判断で **真っ先に IR・説明会を確認すべき** 群れです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ（決算特徴量は在庫評価損益調整なし）<br>287 銘柄の決算短信（2026年3月期、10次元の決算特徴量で類似群を選定）と、決算後株価反応 CAR[-1,+5]（yfinance 日足）</p>
+<p class="fig-meta">使用データ（決算特徴量は在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期、類似群の選定に使用）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足、決算後株価反応 CAR[-1,+5]</p>
 
 ![個別ショック Top-10](img/11_knn_prediction/03_shocks_top10.png){width="1200"}
 
@@ -86,6 +86,8 @@ tags:
     - ※ ただし「似た決算」の近傍選定に使う決算特徴量は、ＥＮＥＯＳでは **前期の在庫評価損が反転した急回復** を含む。"典型" に収まること自体が在庫込みプロファイル前提である点は割り引いて読む
 
 ここに本記事の芯があります ― 大事なのは値を当てることではなく、**群れからどれだけ外れたか**。外れが小さければ「数字で読める＝AI に足す情報は薄い」、大きければ「数字の外の材料を急いで集めよ」。この **2 つに振り分ける** のが、K-NN の使いどころです。
+
+> 💡 **API とコストについて**：本連載は、実際の embedding API・LLM API を一度も呼んでいません（要約・embedding は Claude が代理で出力しています）。仮に実 API で全 8,049 イベントを要約・embedding 化しても、Haiku 4.5 なら **約 3,100 円** の見積もりで収まります。
 
 ---
 
