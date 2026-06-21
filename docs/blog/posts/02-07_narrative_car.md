@@ -40,10 +40,10 @@ tags:
 
 ## 例で見る ― 主要 5 社の決算の効き
 
-同業の動きも除いた **セクター超過 CAR**（業界の追い風を引いた純粋な個別反応）で、5 社の決算を 1 回ずつ並べます。事前のファンダ評価が、市場の反応にそのまま表れるかを見ます。
+ここでは 5 社それぞれの **前期（2025/3 期）サイクルの決算ごと**（24/3 期通期〜25/3 期通期）に、決算後の超過リターン（CAR[-1,+20]）を時系列で並べます。棒は 2 本 ― <span style="color:#2E86AB">━</span> TOPIX 超過（市場全体を差し引いた分）と <span style="color:#E26A2C">━</span> セクター超過（同業の動きも差し引いた、純粋な個別反応）です。**上に伸びれば決算後に買われ、下なら売られた** ことを表します。縦軸の目盛りは社ごとに異なる点に注意しつつ、事前のファンダ評価が市場の反応に表れるかを見ます（**最新の 2026/3 期サイクルの反応は連載 3-2** で扱います）。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
-<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：株価 日足、ベンチマーク TOPIX＋セクターETF（エネルギー・卸売、2026年5月31日取得）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信）：開示ログ＝決算発表日（2025年3月期・2026年3月期）</p>
+<p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：株価 日足、ベンチマーク TOPIX＋セクターETF（エネルギー・卸売、2026年5月31日取得）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信）：開示ログ＝決算発表日（24/3期通期〜25/3期通期、2024-05〜2025-05）</p>
 
 ![5社の決算ごとCAR推移](img/09_car_event_study/04_narrative5_timeline.png){width="1200"}
 
