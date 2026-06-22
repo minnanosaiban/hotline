@@ -123,7 +123,7 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![複数銘柄カードグリッド](https://github.com/minnanosaiban/blog/blob/main/01-02_1_chart_multi/app.png?raw=true){width="1200"}
+![複数銘柄カードグリッド](img/02_collect_other_data/app_chart_multi.png){width="1200"}
 
 
 
@@ -142,6 +142,6 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![決算パターングリッド](https://github.com/minnanosaiban/blog/blob/main/01-02_2_chart_earnings_pattern/app.png?raw=true){width="1200"}
+![決算パターングリッド](img/02_collect_other_data/app_earnings_pattern.png){width="1200"}
 
 ---

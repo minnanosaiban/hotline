@@ -27,7 +27,7 @@ tags:
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![決算 Note プロンプト生成](https://github.com/minnanosaiban/blog/blob/main/EX-03_kessan_note_app/app.png?raw=true){width="1200"}
+![決算 Note プロンプト生成](img/EX-03_kessan_note_app/app.png){width="1200"}
 
 ## PDF を AI に渡す方法との違い
 

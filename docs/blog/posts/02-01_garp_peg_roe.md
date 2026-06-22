@@ -155,7 +155,7 @@ PEG × ROE の GARP マップを Streamlit でリアルタイムに操作しな�
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![GARP スクリーナー アプリ画面](https://github.com/minnanosaiban/blog/blob/main/02-01_PEG_ROE/app.png?raw=true){width="1200"}
+![GARP スクリーナー アプリ画面](img/04_garp_peg_roe/app.png){width="1200"}
 
 
 

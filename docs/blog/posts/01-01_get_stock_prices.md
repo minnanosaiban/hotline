@@ -138,7 +138,7 @@ Streamlit で作成したアプリです。チャート描画は Plotly、株価
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![5分足ローソク + 騰落率テーブル](https://github.com/minnanosaiban/blog/raw/main/01-01_chart_5min/app.png){width="1200"}
+![5分足ローソク + 騰落率テーブル](img/01_get_stock_prices/app.png){width="1200"}
 
 なお、**株価をあらかじめ貯めなくても、チャートは表示できます**。yfinance から直接取得して描く簡易版（`app_simple.py`）もおまけ で同梱しています。
 
