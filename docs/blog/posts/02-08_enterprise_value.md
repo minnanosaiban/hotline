@@ -15,16 +15,16 @@ tags:
 
 株価×株式数（時価総額）は「株主の取り分」の値段であって、会社まるごとの値段ではありません。会社を丸ごと買うなら、借金も引き受けることになるからです。
 
-そこで本記事では、有価証券報告書から抽出した**有利子負債と現金を時価総額に足し引きした EV（企業価値）**を、**元売3社・総合商社8社・資源2社の計13社**で算出します。さらに「会社の値段は稼ぎの何年分か」（EV/営業CF）と、「いまのFCFが続くならいくらか」（簡易DCF）を市場の値付けと突き合わせます。
+そこで本記事では、有価証券報告書から抽出した**有利子負債と現金を時価総額に足し引きした EV（企業価値）**を、**元売3社・総合商社8社・資源2社の計13社**（資源はＩＮＰＥＸと石油資源開発）で算出します。さらに「会社の値段は稼ぎの何年分か」（EV/営業CF）と、「いまのFCFが続くならいくらか」（簡易DCF）を市場の値付けと突き合わせます。
 
-<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>EDINET：有報 XBRL（2025年3月期末、ＩＮＰＥＸのみ2025年12月期末）<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL（2026年3月期）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
+<p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>EDINET：有報 XBRL（有利子負債・現金・営業/投資CF）<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL（2026年3月期、有報との独立突合による検証）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
 
 
 ## EV とは ― 株価に「借金」を足すと会社の値段になる
 
 <div class="keypoint" markdown="span">**EV（企業価値）= 時価総額 ＋ ネットデット（有利子負債 − 現金）** ― 会社を丸ごと買うときの実質的な値段</div>
 
-時価総額が同じ2社でも、借金が多い会社は「高い買い物」、現金を貯め込んだ会社は「実質値引き」です。有利子負債は決算短信のサマリーには載っていないため、**有価証券報告書の XBRL から借入金・社債・CP を抽出**しました。
+時価総額が同じ2社でも、借金が多い会社は「高い買い物」、現金を貯め込んだ会社は「実質値引き」です。有利子負債は決算短信のサマリーには載っていないため、**有価証券報告書の XBRL から借入金・社債・CP（コマーシャル・ペーパー）を抽出**しました。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：有利子負債 / 現金（2025年3月期末、ＩＮＰＥＸのみ2025年12月期末）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
@@ -54,9 +54,9 @@ tags:
 
 ## 簡易DCF ― 「いまのFCFが続くなら」を市場と突き合わせる
 
-<div class="keypoint" markdown="span">**DCF（割引キャッシュフロー）= FCF ÷ 割引率** ― 毎年のFCFが永遠に続くと仮定した価値（割引率7%・成長0%）</div>
+<div class="keypoint" markdown="span">**DCF（割引キャッシュフロー）= FCF ÷ 割引率** ― 毎年のFCFが永遠に続くと仮定した「永続価値」（割引率7%・成長0%）<br>**図の横軸 = この永続価値 ÷ 市場のEV** ― 1なら市場と一致、1を超えれば割安、1を下回れば市場は成長を織り込む</div>
 
-FCF（フリーキャッシュフロー）は**営業CF＋投資CF**で計算し、直近5期それぞれの FCF を永続価値に換算して、市場の EV を1とした比率で並べます。「どの年の自分を信じるか」で評価が何倍も変わることが見どころです。
+FCFは**営業CF＋投資CF**で計算し、直近5期それぞれの FCF を上の式に当てはめて並べます。同じ会社でも、どの年の FCF を「実力」とみなすかで評価が何倍も変わるのが見どころです。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：営業CF / 投資CF（直近5期 2021〜2025年3月期、ＩＮＰＥＸのみ2021〜2025年12月期）、有利子負債 / 現金（2025年3月期末）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
