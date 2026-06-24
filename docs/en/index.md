@@ -1,6 +1,6 @@
 ---
 title: On the Litigation over ENEOS's Internal Whistleblower System - ENEOS Whistleblower Case -
-description: An English overview of the litigation over ENEOS's internal whistleblower system. The focus is the company's conduct after the report was filed — leaving the subject of the investigation vague, disclosing only unsubstantiated explanations, and amending the contract without notifying the whistleblower.
+description: This site publishes the court documents of the litigation over ENEOS's internal whistleblower system. It raises concerns about the company's conduct after the report was filed — excluding the whistleblower from the information and then conveying unsubstantiated information. These concerns will be raised at the shareholders' meeting.
 url: https://minnanosaiban.github.io/hotline/en/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
