@@ -144,7 +144,7 @@ XBRL は、要素（タグ）と文脈（context）で値を表す XML です。
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![CFマトリクス アプリ画面](https://github.com/minnanosaiban/blog/blob/main/01-03_xbrl_json/app_cf_matrix.png?raw=true){width="1200"}
+![CFマトリクス アプリ画面](img/03_xbrl_to_json/app_cf_matrix.png){width="1200"}
 
 
 
