@@ -1674,7 +1674,7 @@
 
 
 <h1 id="k-means">K-means クラスタリング ― 教師なし学習が分けた「決算の型」</h1>
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/00_thumbnail.png" data-desc-position="bottom"><img alt="決算クラスタリング" src="../img/12_earnings_clustering/00_thumbnail.png" width="1280"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03-03_earnings_clustering/00_thumbnail.png" data-desc-position="bottom"><img alt="決算クラスタリング" src="../img/03-03_earnings_clustering/00_thumbnail.png" width="1280"></a></p>
 <p>「商社っぽい決算」「いかにも成長株らしい数字」。決算の "型" は、つい主観で語ってしまいます。では、銘柄名も業種も伏せて <strong>10 個の数値だけ</strong> を機械に渡し、「似た者どうし」に勝手に分類させたら、どんな型が出てくるでしょうか。</p>
 <p>本記事は <strong>k-means クラスタリング</strong>（正解を教えずに、似たものを機械が勝手にまとめる＝<strong>教師なし学習</strong>）で 287 銘柄の決算を分類し、データだけが描く「決算の型」を発見します。そして本連載の中核 <strong>ＥＮＥＯＳ</strong> が、どの型に入るのかを見ます。</p>
 <p class="fig-meta">データ出典<br><i class="fa-solid fa-caret-right"></i>TDnet：決算短信 XBRL から作成した決算10次元特徴量（3-1で生成、287銘柄）</p>
@@ -1696,7 +1696,7 @@
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/01_silhouette.png" data-desc-position="bottom"><img alt="シルエット係数による K の決定" src="../img/12_earnings_clustering/01_silhouette.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03-03_earnings_clustering/01_silhouette.png" data-desc-position="bottom"><img alt="シルエット係数による K の決定" src="../img/03-03_earnings_clustering/01_silhouette.png" width="1200"></a></p>
 <ul>
 <li>シルエットは <strong>K=2 と K=3 がほぼ同じくらい良く（0.30 前後）、K≧4 で 0.19 以下に低下</strong> ― 決算は本質的に「少数の型」に分かれる</li>
 <li>ほぼ互角の 2 と 3 のうち、本記事は <strong>K=3 を採用</strong>。2 つだと「高収益 vs その他」で終わるが、3 つにすると型がもう一段見えるため</li>
@@ -1706,7 +1706,7 @@
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/02_cluster_map.png" data-desc-position="bottom"><img alt="決算プロファイルの型マップ" src="../img/12_earnings_clustering/02_cluster_map.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03-03_earnings_clustering/02_cluster_map.png" data-desc-position="bottom"><img alt="決算プロファイルの型マップ" src="../img/03-03_earnings_clustering/02_cluster_map.png" width="1200"></a></p>
 <table>
 <thead>
 <tr>
@@ -1743,7 +1743,7 @@
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
-<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/12_earnings_clustering/03_profiles.png" data-desc-position="bottom"><img alt="型ごとの決算プロファイル" src="../img/12_earnings_clustering/03_profiles.png" width="1200"></a></p>
+<p><a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="../img/03-03_earnings_clustering/03_profiles.png" data-desc-position="bottom"><img alt="型ごとの決算プロファイル" src="../img/03-03_earnings_clustering/03_profiles.png" width="1200"></a></p>
 <ul>
 <li><strong>型A 急回復</strong>：YoY 系がすべて赤（純利 +1.9σ・営利 +1.7σ…）。利益率は平均並み ― 「水準は普通だが伸び率が突出」</li>
 <li><strong>型B 高収益</strong>：<strong>営業利益率 +2.3σ・純利益率 +2.2σ</strong> が突出し、セグメント数 −0.9σ（単一事業）。「専業で稼ぐ高マージン型」</li>
