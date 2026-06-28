@@ -41,6 +41,13 @@
 .md-header__title--active .md-header__topic + .md-header__topic {
   display: none !important;
 }
+/* ヘッダーサイト名リンク：ホバー有無に関わらずリンク色で表示。CSS 変数でダーク対応 */
+.header-site-link,
+.header-site-link:hover {
+  color: var(--md-link-color) !important;
+  font-weight: 400 !important;
+}
+
 /* タブ */
 /* タブのホバーはメインカラーの下線 */
 /* タブのアクティブはメインカラーの下線 */
@@ -121,15 +128,23 @@
 .md-footer {
   margin-top: 8rem;
 }
+@media only screen and (max-width: 767px) {
+  .md-footer {
+    margin-top: 4rem;   /* スマホ：本文末〜フッターの空白を圧縮 */
+  }
+}
 /* フッター注記 */
 .md-footer-note {
-  padding: 1rem 1.2rem 0.5rem;
+  padding: 1rem 1.2rem 2rem;
   font-size: 0.7rem;
   line-height: 1.6;
   opacity: 0.75;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 2rem;
+  max-width: 64rem;          /* 広い画面で横に広がりすぎないよう中央にまとめる */
+  margin-left: auto;
+  margin-right: auto;
 }
 .md-footer-note__section {
   min-width: 220px;
@@ -138,6 +153,10 @@
 .md-footer-note__heading {
   font-weight: 600;
   margin: 0.4rem 0 0.2rem !important;
+}
+.md-footer-note__sub {
+  font-weight: 500;
+  margin: 0.7rem 0 0.1rem !important;
 }
 .md-footer-note ul {
   margin: 0 !important;
@@ -161,13 +180,156 @@
   display: flex;
   flex-direction: column; /* ← 横並びではなく縦並びにする */
   align-items: center;    /* 横方向の中央揃え */
-  gap: 10px;              /* 子要素間の余白 */
+  gap: 0;                 /* セクション間は各要素の margin-top（.gap-6 等）で持たせる。gap は使わない */
   max-width: 100%;
-  overflow: hidden;
+  overflow: visible;  /* タイトルの全幅グレー帯(::before 100vw)を画面端まで出すためクリップしない（旧 hidden） */
   margin: 0;
 }
 @media only screen and (max-width: 767px) {
   .center-container {
     justify-content: flex-start;
+    overflow: visible;   /* スマホ：.agm-section の側面box-shadowを切らないため（box-shadowはレイアウト非関与なので横スクロールは出ない） */
   }
+}
+
+/* スマホ：Home 上部ユーティリティ（シェア／言語切替／注記）が右端に詰まらないよう右余白。
+   行間は「シェア→切替」は詰め、ゆとりは「切替（英語版は注記）→タイトル」側に持たせる
+   （タイトルを少し下げる）。PC は対象外。 */
+@media only screen and (max-width: 767px) {
+  .md-typeset p.base00,
+  .md-typeset p.lang-switch,
+  .md-typeset p.lang-note {
+    padding-right: 0.6rem;
+  }
+  .center-container {
+    padding-top: 0.9rem;
+  }
+}
+
+/* セクション前の余白（シンプル化）：上 6rem だけで決める。下は 0。
+   gap やマージン相殺に頼らず、この1クラスで「この要素の上に6rem空ける」を表す。
+   使用：裁判所の判断／通報者への措置の枠（グレー枠は .agm-section 側で同じ6rem）。 */
+.gap-6 {
+  margin-top: 6rem !important;
+  margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 767px) {
+  /* スマホ：大きな縦の区切りは h2(8rem→3rem)と同じ思想で圧縮し、空白で間延びさせない */
+  .gap-6 {
+    margin-top: 3rem !important;
+  }
+}
+/* ホーム導入リード（最初の問題提起見出し）の上の大余白。
+   PC は 8rem のまま、スマホは過剰な空白を圧縮（旧：index.md のインライン 8rem を移設） */
+.issue-lead {
+  margin-top: 6rem !important;
+  margin-bottom: 2rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .issue-lead {
+    margin-top: 3.5rem !important;
+  }
+}
+
+/* ホーム「株主総会意見」セクション：罫線でなく、淡い無彩色の背景帯＋余白で区切る */
+.agm-section {
+  width: 100%;
+  max-width: 32rem;          /* グレー帯を本文(width-40=32rem)と同じ列幅に。横の張り出し(バルジ)を無くす */
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* 中の width-40 を中央寄せに保つ */
+  gap: 10px;                 /* center-container と同じ段落リズム */
+  box-sizing: border-box;
+  margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
+  margin-bottom: 6rem;       /* 枠の上(6rem)と対称に。直後の見出しとはマージン相殺するため max(6rem, 2rem)=6rem で確実に効く */
+  padding: 3.2rem 1.2rem 3.2rem;   /* 左右1.2remパディング。枠の外幅は32remのまま（本文・タイトルと同列幅）／中のテキストはその分内側に入る */
+  --agm-bg: var(--surface-gray);    /* 枠の背景色（共通変数で統一）。スマホの側面box-shadowと共有する */
+  background: var(--agm-bg);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
+}
+/* ダークモード：ヘッダーの上書き色（#0d1b2a）に背景を合わせる */
+[data-md-color-scheme="slate"] .agm-section {
+  --agm-bg: var(--surface-gray);   /* ダーク時も共通変数で統一（#16263c） */
+}
+@media only screen and (max-width: 767px) {
+  .agm-section {
+    /* スマホ：枠内テキストを白い本文と同じ左右位置に揃える（横padding 0）。
+       左右の余白(白)は box-shadow で枠と同色に塗る＝レイアウト非関与なので横スクロールは出ない（100vwの張り出し問題を回避）。 */
+    padding: 1.8rem 0 1.8rem;
+    box-shadow: -50vw 0 0 0 var(--agm-bg), 50vw 0 0 0 var(--agm-bg);
+    /* スマホ：枠の前後の大余白も h2(8rem→3rem)に合わせて圧縮。上下対称（上3rem/下3rem）にする */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  /* スマホ：番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
+     節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。 */
+  .agm-section > p:has(.larger) {
+    align-self: flex-start;
+    text-align: left;
+  }
+  /* 節見出し（.center larger）はスマホでも中央寄せ。.center の既定（スマホ＝左寄せ）を上書き。
+     2行は先頭ぞろえでなく各行センターでよい。
+     .agm-section 内（裁判所が示した３つの事実）に加え、枠の外にある節見出し
+     （center-container 直下の「再通報と新たな提訴」）も同様に中央寄せにする。 */
+  .agm-section > p.center.larger,
+  .center-container p.center.larger {
+    text-align: center;
+  }
+}
+/* AGM内は flex の gap(10px) で段落リズムを作る前提。flex ではマージンが相殺されないため、
+   各 p の margin02(2rem) や既定マージンが gap に加算され、要素ごとに余白がちぐはぐになる。
+   いったん上下マージンを 0 に揃え、節の始まり（margin02 段落）の前だけ広めに空ける */
+.agm-section > p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.agm-section > p.margin02 {
+  margin-top: 1.6rem !important;
+}
+/* 青い節見出し（larger）の上下マージンを左右対称に揃える（.margin02 の上だけ余白＝非対称を打ち消す） */
+.agm-section > p.larger {
+  margin-top: 1.6rem !important;
+  margin-bottom: 1.6rem !important;
+}
+/* 枠の先頭要素は上マージンを 0 に（padding-top と二重で余白が乗るのを防ぎ、上下を均等にする） */
+.agm-section > p:first-child {
+  margin-top: 0 !important;
+}
+/* 青見出し直後の段落は上マージンを 0 に（見出しの下マージン1.6remと二重に乗るのを防ぎ、
+   どの見出しでも「見出し下の余白」を均一にする） */
+.agm-section > p.larger + p {
+  margin-top: 0 !important;
+}
+/* largest 見出しでも margin ユーティリティ（margin04）を効かせる（詳細度で上の固定値に勝たせる） */
+.agm-section > p.largest.margin04 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+/* 枠内の通常段落でも margin04 を効かせる（詳細度 0,2,1 で .agm-section>p に勝つ）。
+   flex はマージン相殺なし＝下マージンは gap・次段落のマージンと加算され過剰になるので、上だけにする。 */
+.agm-section > p.margin03 {
+  margin-top: 3rem !important;
+}
+.agm-section > p.margin04 {
+  margin-top: 4rem !important;
+}
+/* グレー枠内の節見出し（.largest「裁判所が示した３つの事実」「再通報と新たな提訴」）を、
+   数字見出し（.larger＝1.6rem）と同じ大きさに揃える。.largest だけ下げれば足りる。
+   モバイルも .larger と同じ 1.2rem。 */
+.agm-section .largest {
+  font-size: 1.6rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .agm-section .largest {
+    font-size: 1.2rem !important;
+  }
+}
+/* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする。
+   直下(>)だと中間の <div markdown> ラッパー越しのアコーディオンに効かず、開いたとき
+   本文(.doc 長文)が flex(align-items:center) の幅を押し広げて開閉で幅が変動する。
+   子孫セレクタにしてラッパー越しでも 32rem に固定する。 */
+.agm-section .card-accordion,
+.center-container .card-accordion {
+  width: 100%;
+  max-width: 32rem;
+  box-sizing: border-box;
 }

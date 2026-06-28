@@ -20,7 +20,7 @@
   }
   }
 .card-bule {
-  border: 1px solid var(--md-link-color-faint);
+  border: 1px solid var(--md-card-border-soft);
   border-radius: 0;
   padding: 1.6rem 3.2rem;
   box-shadow: none;
@@ -33,6 +33,119 @@
   }
 .card-bule, .card-bule * {
   box-sizing: border-box;
+}
+/* 通報者への措置（index）：PC は通常の card-bule 枠を表示。スマホ（≤767px）だけ
+   枠・区切り線を外し、本文（width-40）と同じ左右幅に揃える。
+   パディングも 0 にして、枠が無い分の余白は前後の margin に任せる
+   （枠上パディングが「裁判所の判断」の下に上乗せされて上下非対称になるのを防ぐ）。 */
+@media only screen and (max-width: 767px) {
+  .card-bule.card-divider {
+    border: none;
+    padding: 0 !important;
+  }
+}
+/* card-divider 枠の先頭要素（タイトル）の上マージンを 0 に。
+   「タイトル上の余白＝padding-top」と「アコーディオン下の余白＝padding-bottom」を
+   同じ 1.6rem に揃える（タイトルの margin01 上1rem が padding に上乗せされるのを防ぐ）。 */
+.card-bule.card-divider > p:first-child {
+  margin-top: 0 !important;
+}
+/* card-divider 枠内：アコーディオン上の余白（既定 margin1.4rem＋padding0.9rem＝約2.3rem）を
+   段落間（margin01＝1rem）と揃える（少し広かったため）。 */
+.card-bule.card-divider .card-accordion {
+  margin-top: 1rem !important;
+  padding-top: 0 !important;
+}
+/* グレー枠内のアコーディオン：上の余白を下（次段落の margin02＝1.6rem）と揃える。
+   .md-typeset を足して既定ルール(.md-typeset details.card-accordion)に詳細度で勝たせる。 */
+.md-typeset .agm-section .card-accordion {
+  margin-top: 1.6rem !important;
+  padding-top: 0 !important;
+}
+/* ボックス内アコーディオン（material の details 既定スタイルを打ち消して箱に馴染ませる） */
+.md-typeset details.card-accordion {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  color: inherit;
+  font-size: inherit;
+  margin: 1.4rem 0 0 !important;
+  padding: 0.9rem 0 0 !important;
+  overflow: visible;
+  scroll-margin-top: 4.5rem; /* 固定ヘッダーに隠れないようスクロール位置を調整 */
+}
+/* サマリーをボタン風バーに（一般の人にも「押せる」と分かるように） */
+.md-typeset .card-accordion > summary {
+  display: block;
+  background: var(--surface-gray) !important;   /* 共通変数で統一 */
+  border: 1px solid var(--md-card-border) !important;
+  border-radius: 6px;
+  margin: 0 !important;
+  padding: 0.6rem 1rem 0.6rem 2.2rem !important; /* 左は＋アイコン分のスペース */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--md-typeset-color);
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.md-typeset .card-accordion > summary:hover {
+  background: #e3e6e9 !important;
+  border-color: var(--md-link-color-faint) !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .card-accordion > summary {
+  background: var(--surface-gray) !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .card-accordion > summary:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+/* material のノートアイコン（::before）を ＋／－ トグルに置換 */
+.md-typeset .card-accordion > summary::before {
+  content: "＋";
+  background: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  width: auto !important;
+  height: auto !important;
+  top: 50% !important;
+  left: 0.8rem !important;
+  transform: translateY(-50%);
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--md-typeset-color);
+}
+.md-typeset .card-accordion[open] > summary::before {
+  content: "－";
+}
+/* ラベル末尾の動詞を開閉で切り替え（読む／閉じる） */
+.md-typeset .card-accordion > summary .acc-verb::after {
+  content: "読む";
+}
+.md-typeset .card-accordion[open] > summary .acc-verb::after {
+  content: "閉じる";
+}
+/* material の右側トグルシェブロン（::after）を消す */
+.md-typeset .card-accordion > summary::after {
+  display: none !important;
+}
+.md-typeset .card-accordion .accordion-body {
+  margin-top: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* スマホ（≤767px）はアコーディオン本文の左右パディングを無くす */
+@media only screen and (max-width: 767px) {
+  .md-typeset .card-accordion .accordion-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* ホームの「通報者への措置」枠（card-divider）内アコーディオンの本文（.doc＝明朝）だけ 14px。
+   他ページの card-bule アコーディオンは .doc 既定の 16px のまま（このルールを枠に限定して誤適用を防ぐ）。 */
+.card-bule.card-divider .accordion-body .doc {
+  font-size: 14px !important;
 }
 /* テーブル */
 .table-set{
@@ -110,16 +223,122 @@
   color: #aaaaaa;
 }
 
-/* 音声カード */
+/* =========================================================
+   音声解説カード（コンパクト）
+   .card-bule の中に .audio-content を持つボックスだけを対象。
+   index（.trial-page）・各サブページ共通で効かせるため :has() で指定。
+   ========================================================= */
+.card-bule:has(.audio-content) {
+  max-width: 26rem !important;        /* 40rem → 26rem */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 1rem 1.25rem !important;   /* 1.6rem 3.2rem → 圧縮 */
+  border-radius: 6px;
+}
+/* audio-wide 指定（judgement_2025 等）：外部サイトカード(repo-link)と同じ幅・角丸に揃える。
+   26rem 制限を外して内容幅いっぱいにし、角丸は repo-link と同じ 8px。枠色は元から共通。
+   さらに中身を「タイトル＝左／プレーヤー＝右」の横並びに（注記は下の行へ回す）。 */
+.card-bule.audio-wide:has(.audio-content) {
+  max-width: none !important;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 18rem;   /* 左＝タイトル＋注記 ／ 右＝プレーヤー */
+  grid-template-areas:
+    "title   player"
+    "caption player";                  /* プレーヤーは2行にまたがる→上下中央に置ける */
+  column-gap: 1.5rem;
+  align-items: center;
+}
+/* 左上：タイトル（左寄せ） */
+.card-bule.audio-wide:has(.audio-content) .larger {
+  grid-area: title;
+  align-self: end;
+  text-align: left !important;
+  margin: 0 !important;
+}
+/* 右：プレーヤー（タイトル＋注記の高さに対して上下中央） */
+.card-bule.audio-wide:has(.audio-content) .audio-content {
+  grid-area: player;
+  align-self: center;
+  width: 18rem;
+  max-width: 100%;
+  margin: 0 !important;
+}
+/* 左下：注記（左寄せ） */
+.card-bule.audio-wide:has(.audio-content) .smallest {
+  grid-area: caption;
+  align-self: start;
+  text-align: left !important;
+  margin: 0.4rem 0 0 !important;
+}
+/* スマホ：1列に縦並び（タイトル→プレーヤー→注記） */
+@media only screen and (max-width: 767px) {
+  .card-bule.audio-wide:has(.audio-content) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "player"
+      "caption";
+  }
+  .card-bule.audio-wide:has(.audio-content) .audio-content {
+    width: 100%;
+    margin: 0.6rem 0 0 !important;
+  }
+}
+/* タイトル（🎙️行）：1.8em → 1.15em・余白詰め */
+.card-bule:has(.audio-content) .larger {
+  font-size: 1.15em !important;
+  line-height: 1.45 !important;
+  margin: 0 0 0.55rem !important;
+}
+/* 音声プレーヤー枠：margin02(2rem) を打ち消して詰める */
+.card-bule:has(.audio-content) .audio-content {
+  margin: 0 0 0.5rem !important;
+}
+/* 注記（NotebookLM・ソース・日付）：控えめ・余白なし */
+.card-bule:has(.audio-content) .smallest {
+  margin: 0 !important;
+  line-height: 1.7 !important;
+  color: var(--md-default-fg-color--light) !important;
+}
+
+/* 音声プレーヤー本体：コンパクト箱の幅いっぱいに */
 .audio-content audio {
   width: 100% !important;
-  max-width: 16rem;  /* PCでは最大幅を制限 */
+  max-width: 100%;
   display: block;
   height: 40px;
   margin: 0 auto;
 }
+
+/* 音声カードの 2 カラム表示（目次より広めの余白で窮屈さを回避） */
+.audio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem;
+  margin: 0.5rem 0 0.4rem;
+}
 @media only screen and (max-width: 767px) {
-  .audio-content audio {
-    max-width: 100%;
+  .audio-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
+}
+/* 2 カラム内：幅上限を外して列いっぱいに使い、余白とタイトルを微調整 */
+.audio-grid .card-bule:has(.audio-content) {
+  max-width: none !important;
+  padding: 1.5rem 1.3rem !important;   /* 上下に余白を足して窮屈さを解消 */
+}
+.audio-grid .card-bule:has(.audio-content) .larger {
+  font-size: 1.05em !important;
+  margin: 0 0 0.85rem !important;      /* タイトル→プレーヤーの間隔を広げる */
+}
+.audio-grid .card-bule:has(.audio-content) .audio-content {
+  margin: 0 0 0.85rem !important;      /* プレーヤー→注記の間隔を広げる */
+}
+/* audio-stack：音声カード（audio-wide）を全幅で縦に積むコンテナ。eneos_claims 等。 */
+.audio-stack {
+  display: grid;
+  gap: 1.5rem;
+  margin: 0.5rem 0 0.4rem;
 }

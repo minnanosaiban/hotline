@@ -32,6 +32,7 @@
   --md-typeset-color: #08131a !important; /* テキストカラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
   --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
+  --surface-gray: #eef1f5; /* タイトル帯・agm枠・アコーディオン共通の薄い青みグレー（ヘッダーより一段薄い） */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1);; /* フッター デフォルトの色を薄めに*/
@@ -39,6 +40,9 @@
   --md-strong-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
   --md-link-color-faint: rgba(0, 54, 130, 0.4); /* リンクカラー透過版 */
+  --md-card-border: #aab0b8; /* カード枠線（ヘッダー同系の無彩色グレー） */
+  --md-card-border-soft: rgba(0, 0, 0, 0.16); /* カード枠線（少し濃いめ・repo-link / ref-card 共通） */
+  --md-warn-red: #C70025; /* 警告レッド（通報者への措置など） */
   --md-link-hover-color: #1a5fb4; /* リンクホバー — #003682 より明るい青 */
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
   --md-bg-blue-color: #F2f2f2; /* バックグラウンド　ブルー*/
@@ -48,6 +52,7 @@
   --md-typeset-color: #E0E0E0; /* テキストカラー*/
   --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
   --md-primary-fg-color: hsla(var(--md-hue), 15%, 8%, 1); /* ヘッダーの背景色 */
+  --surface-gray: #16263c; /* ダーク：タイトル帯・agm枠・アコーディオン共通（ヘッダー#0d1b2aより一段薄い紺） */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
   --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
   --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1); /* フッター デフォルトの色を薄めに*/
@@ -55,6 +60,9 @@
   --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
   --md-link-color-faint: rgba(77, 139, 204, 0.4); /* リンクカラー透過版 */
+  --md-card-border: rgba(255, 255, 255, 0.22); /* カード枠線（無彩色グレー） */
+  --md-card-border-soft: rgba(255, 255, 255, 0.20); /* カード枠線（少し濃いめ・repo-link / ref-card 共通） */
+  --md-warn-red: #f2545b; /* 警告レッド（暗背景でも読める明るめ臙脂） */
   --md-link-hover-color: #7eb8e8; /* リンクホバー — #4D8BCC より明るい青 */
   --md-accent-color: var(--orange-color-1); /* アクセントカラー */
   --md-bg-blue-color: hsla(var(--md-hue), 15%, 10%, 0.87); /* バックグラウンド　ブルー*/ 
