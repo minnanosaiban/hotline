@@ -11,7 +11,7 @@ tags:
 
 # コサイン類似度 ― 「似ている決算」を数値で検索する
 
-![類似決算検索](img/10_similar_earnings_search/00_thumbnail.png){width="1280"}
+![類似決算検索](img/03-01_similar_earnings_search/00_thumbnail.png){width="1280"}
 
 「この決算、どこかで見た形だな」― そんな直感を、機械にやらせてみます。決算の数字から **10 個の特徴量** を取り出し、**コサイン類似度**（数字の並びの "似ている度"）で、決算短信 JSON のうち特徴量が 7 個以上そろう **287 銘柄**から「似た決算」を自動で探します。業種コードを一切使っていないのに、**商社・電機といった "業界の型" が数字だけから自然に立ち上がる** ― そこが本記事の見どころです。
 
@@ -43,7 +43,7 @@ tags:
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![パイプライン全体](img/10_similar_earnings_search/01_pipeline.png){width="1200"}
+![パイプライン全体](img/03-01_similar_earnings_search/01_pipeline.png){width="1200"}
 
 
 
@@ -55,7 +55,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期）</p>
 
-![丸紅 Top-15](img/10_similar_earnings_search/03_top15_marubeni.png){width="1200"}
+![丸紅 Top-15](img/03-01_similar_earnings_search/03_top15_marubeni.png){width="1200"}
 
 | 順位 | コード | 会社名 | 類似度 | 売上YoY | 純利YoY | 配当成長 |
 |---|---|---|---|---|---|---|
@@ -84,7 +84,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期）</p>
 
-![PCA 投影](img/10_similar_earnings_search/02_feature_space_pca.png){width="1200"}
+![PCA 投影](img/03-01_similar_earnings_search/02_feature_space_pca.png){width="1200"}
 
 - **★ 丸紅・双日 が中央近くに固まる**
 - 丸紅 Top-5（青丸）と双日 Top-5（橙四角）も、それぞれの基準銘柄の周りに集中

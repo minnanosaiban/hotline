@@ -11,7 +11,7 @@ tags:
 
 # EVで見る「会社の値段」 ― 元売・商社・資源 13社を簡易DCFで検証
 
-![EVで会社の値段を測る](img/18_enterprise_value/00_thumbnail.png){width="1280"}
+![EVで会社の値段を測る](img/02-08_enterprise_value/00_thumbnail.png){width="1280"}
 
 株価×株式数（時価総額）は「株主の取り分」の値段であって、会社まるごとの値段ではありません。会社を丸ごと買うなら、借金も引き受けることになるからです。
 
@@ -29,7 +29,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：有利子負債 / 現金（2025年3月期末、ＩＮＰＥＸのみ2025年12月期末）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
 
-![13社のEV構成](img/18_enterprise_value/01_ev_composition.png){width="1200"}
+![13社のEV構成](img/02-08_enterprise_value/01_ev_composition.png){width="1200"}
 
 - **<span style="color:#c87878">━</span> ネットデット**の上乗せは社によって全く違う ― **ＥＮＥＯＳは時価総額3.5兆円に対して＋1.5兆円**（EV 5.0兆円）、時価総額の4割超が「見えない値札」
 - **<span style="color:#7f8c8d">━</span> 商社**は時価総額の巨大さに対して上乗せは1〜2割台 ― 三菱商事は時価総額18.6兆円＋3.1兆円で **EV 21.6兆円**
@@ -46,7 +46,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：営業CF（直近3期 2023〜2025年3月期、ＩＮＰＥＸのみ2023〜2025年12月期）、有利子負債 / 現金（2025年3月期末）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
 
-![EV/営業CF倍率](img/18_enterprise_value/02_ev_ocf.png){width="1200"}
+![EV/営業CF倍率](img/02-08_enterprise_value/02_ev_ocf.png){width="1200"}
 
 - **<span style="color:#7f8c8d">━</span> 商社は13〜18.5倍**、**<span style="color:#3498db">━</span> 元売は6〜9倍**、**<span style="color:#b08968">━</span> 資源は2〜8倍** ― 市場は「同じ1円の営業CF」に2倍以上違う値段を付けている
 - 石油資源開発は**2.4倍** ― 約2年半の営業CFで EV を回収できる計算。市場が「この稼ぎは続かない」と見ている裏返し
@@ -61,7 +61,7 @@ FCFは**営業CF＋投資CF**で計算し、直近5期それぞれの FCF を上
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>EDINET（有報 XBRL）：営業CF / 投資CF（直近5期 2021〜2025年3月期、ＩＮＰＥＸのみ2021〜2025年12月期）、有利子負債 / 現金（2025年3月期末）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足 Close（2026年5月31日取得）</p>
 
-![簡易DCFと市場EVの比較](img/18_enterprise_value/03_dcf_vs_ev.png){width="1200"}
+![簡易DCFと市場EVの比較](img/02-08_enterprise_value/03_dcf_vs_ev.png){width="1200"}
 
 - **<span style="color:#7f8c8d">━</span> 大手商社は5期とも1.0未満に密集**（伊藤忠0.4〜0.8、三井物産0.3〜0.7、住友商事0.2〜0.5） ― いまのFCFの永続価値だけでは市場の EV に届かない。市場は**投資が将来のFCFに化ける前提**（成長）を織り込んでいる
 - **<span style="color:#3498db">━</span> ＥＮＥＯＳはレンジが−0.7〜2.2倍と最大級**にブレる ― 直近期の2.0倍は **JX金属の売却収入で投資CFがプラスに振れた**一時要因。単年DCFの危うさの見本

@@ -12,7 +12,7 @@ tags:
 
 # 階層型クラスタリング ― 値動きの相関で再現する業界地図
 
-![値動きクラスタリング](img/14_price_clustering/00_thumbnail.png){width="1280"}
+![値動きクラスタリング](img/03-05_price_clustering/00_thumbnail.png){width="1280"}
 
 本記事では、287 銘柄の日次リターンを相関でクラスタリングし、「ほとんど同じ動きの銘柄」と「似た仲間の銘柄」を、銘柄名も業種も伏せたまま機械に見つけさせます。
 
@@ -48,7 +48,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日足の日次対数リターン相関（287銘柄、直近499営業日）</p>
 
-![相関ヒートマップ](img/14_price_clustering/01_corr_heatmap.png){width="1200"}
+![相関ヒートマップ](img/03-05_price_clustering/01_corr_heatmap.png){width="1200"}
 
 - 全体がうっすら赤い ＝ どの銘柄も **市場全体という共通の波** に乗っているため（この波は次回 3-6 で取り出します）
 - その上で、対角線上に **濃い赤の四角（ブロック）** が浮かびます。これが「いつも一緒に動く仲間」＝クラスタ
@@ -61,7 +61,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日足の日次対数リターン相関（287銘柄、直近499営業日）</p>
 
-![値動き銘柄マップ](img/14_price_clustering/02_stock_map.png){width="1200"}
+![値動き銘柄マップ](img/03-05_price_clustering/02_stock_map.png){width="1200"}
 
 業種コードを **一切渡していない** のに、値動きだけで業種がきれいに分かれました。
 
@@ -82,7 +82,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日足の日次対数リターン相関（287銘柄、直近499営業日）</p>
 
-![最も連動するペア](img/14_price_clustering/03_near_identical.png){width="1200"}
+![最も連動するペア](img/03-05_price_clustering/03_near_identical.png){width="1200"}
 
 | ρ | ペア | 業種 |
 |---|---|---|

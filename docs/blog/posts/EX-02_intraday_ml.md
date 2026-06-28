@@ -12,7 +12,7 @@ tags:
 
 # LightGBM で「次の5分」を当てられるか ― 111万バーで検証
 
-![次の5分をMLで](img/17_intraday_ml/00_thumbnail.png){width="1280"}
+![次の5分をMLで](img/EX-02_intraday_ml/00_thumbnail.png){width="1280"}
 
 前回（番外編A）、超短期の定番シグナルを 1 本ずつ検証すると、コスト控除後に残ったのは場中開示のドリフトだけでした。では「**個別ルールで弱いなら、機械学習に全部まとめて学習させればいいのでは？**」― 実務でも定番の発想です。本記事は LightGBM（勾配ブースティングの定番ライブラリ）にその仕事をさせ、**何ができて、何ができないか** を数字で確かめます。
 
@@ -42,7 +42,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025-11-21〜2026-05-29、検証51万バー）</p>
 
-![確信度十分位と次バーリターン](img/17_intraday_ml/01_decile_returns.png){width="1200"}
+![確信度十分位と次バーリターン](img/EX-02_intraday_ml/01_decile_returns.png){width="1200"}
 
 - **AUC 0.512・的中率 50.9%** ― 多数派に張るだけ（50.5%）とほぼ同じ、実質コイン投げ
 - ところが、モデルの確信度で 51 万バーを 10 グループに割ると、次バーの平均リターンは **−0.66bps → +0.22bps へおおむね右上がり**（凸凹はあるが両端の差は明瞭）
@@ -57,7 +57,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025-11-21〜2026-05-29、検証51万バー）</p>
 
-![エッジとコストの比較](img/17_intraday_ml/02_edge_vs_cost.png){width="1200"}
+![エッジとコストの比較](img/EX-02_intraday_ml/02_edge_vs_cost.png){width="1200"}
 
 - 確信度トップ 10% を買い・ボトム 10% を売り ― 1 回あたり **+0.44bps**
 - 往復コスト 5bps を払うと **−4.6bps**。エッジは **コストの 1/11** しかない

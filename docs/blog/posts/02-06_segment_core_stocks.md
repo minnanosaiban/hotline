@@ -12,7 +12,7 @@ tags:
 
 # コングロマリット・ディスカウント ― 総合商社・ＥＮＥＯＳをセグメントで読み解く
 
-![コングロマリット・ディスカウント](img/08b_segment_core_stocks/00_thumbnail.png){width="1280"}
+![コングロマリット・ディスカウント](img/02-06_segment_core_stocks/00_thumbnail.png){width="1280"}
 
 総合商社のような複合企業は、事業の全体像が見えにくく **実態より低く評価されがち** です（**コングロマリット・ディスカウント**）。セグメントに分解すれば、その割引の“中身”が定量的に見えてきます。
 
@@ -56,7 +56,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：セグメント情報（ＥＮＥＯＳ 5020、当期2026年3月期 vs 前期2025年3月期＝同短信内 prior）</p>
 
-![ＥＮＥＯＳ ピークアウト内訳](img/08_segment_analysis/06_eneos_segments.png){width="1200"}
+![ＥＮＥＯＳ ピークアウト内訳](img/02-05_segment_analysis/06_eneos_segments.png){width="1200"}
 
 | セグメント | 当期売上 | 営業利益 | OPM 前期→当期 | 状態 |
 |---|--:|--:|:--:|:--|

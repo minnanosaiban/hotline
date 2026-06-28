@@ -13,7 +13,7 @@ tags:
 # PCA 異常検知 ― 値動きの「共動の崩れ」で突発材料を検出
 
 
-![突発材料の異常検知](img/15_price_anomaly/00_thumbnail.png){width="1280"}
+![突発材料の異常検知](img/03-06_price_anomaly/00_thumbnail.png){width="1280"}
 
 買収提案、TOB、業績修正、事故 ― 個別の材料は、**その 1 社だけ** を襲います。だから「市場も同業も動いていないのに、この銘柄だけ急に動いた」を見つければ、**突発材料が出た銘柄をその日のうちに拾える** はずです。本記事は、これを教師なしで毎日・全銘柄から検出します。3-2 の「個別ショック抽出」の、**決算発表に依らない常時監視版** です。
 
@@ -40,7 +40,7 @@ tags:
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![仕組み](img/15_price_anomaly/01_mechanism.png){width="1200"}
+![仕組み](img/03-06_price_anomaly/01_mechanism.png){width="1200"}
 
 - 上段：セブン＆アイの 2024-08-19、**実際の動きは約 9σ**（σ＝普段の値動きの幅。9σ は "普段の 9 倍" 級）跳ねたのに、共通成分（青線）はほぼ 0 ― 市場・業種では説明できない
 - 下段：その差＝**残差が 10σ** に突出。これが「異常度」で、大きい日ほど強い個別材料
@@ -52,7 +52,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（287銘柄 × 499営業日、2024-05-14〜2026-05-29）</p>
 
-![ケーススタディ](img/15_price_anomaly/02_event_casestudy.png){width="1200"}
+![ケーススタディ](img/03-06_price_anomaly/02_event_casestudy.png){width="1200"}
 
 灰色（クラスタ平均＝いつもの仲間）は平らなのに、赤（対象銘柄）だけが縦線の日に跳ねる／落ちる ― **個別材料の瞬間が一目で分かります**。
 
@@ -66,7 +66,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（287銘柄 × 499営業日、2024-05-14〜2026-05-29）</p>
 
-![突発材料 Top15](img/15_price_anomaly/03_sudden_events.png){width="1200"}
+![突発材料 Top15](img/03-06_price_anomaly/03_sudden_events.png){width="1200"}
 
 | 日付 | 銘柄 | その日 | 市場 | 個別 |
 |---|---|---|---|---|
@@ -84,7 +84,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（ＥＮＥＯＳ と石油同業＝出光・コスモ、2024-05-14〜2026-05-29）</p>
 
-![ENEOS デカップリング](img/15_price_anomaly/04_eneos_decoupling.png){width="1200"}
+![ENEOS デカップリング](img/03-06_price_anomaly/04_eneos_decoupling.png){width="1200"}
 
 - 上段：いつもの石油同業との連動が、ＥＮＥＯＳ 固有の材料が出た局面でだけ切れている
 - 下段：ピアで説明できない累積リターン（ENEOS 固有分）は 2025 年央から拡大
@@ -98,7 +98,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：日次 Close の日次リターン（287銘柄 × 499営業日、2024-05-14〜2026-05-29）</p>
 
-![毎日の見張り](img/15_price_anomaly/05_daily_monitor.png){width="1200"}
+![毎日の見張り](img/03-06_price_anomaly/05_daily_monitor.png){width="1200"}
 
 - 平常日は 0〜2 銘柄。ところが **決算シーズン（2・5・8・11 月）に 10〜15 銘柄へスパイク**
 - 個別材料が集中する時期に自動で点灯する ― **その日のうちに「確認すべき銘柄」を絞れる**

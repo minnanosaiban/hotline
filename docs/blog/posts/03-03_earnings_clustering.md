@@ -12,7 +12,7 @@ tags:
 
 # K-means クラスタリング ― 教師なし学習が分けた「決算の型」
 
-![決算クラスタリング](img/12_earnings_clustering/00_thumbnail.png){width="1280"}
+![決算クラスタリング](img/03-03_earnings_clustering/00_thumbnail.png){width="1280"}
 
 「商社っぽい決算」「いかにも成長株らしい数字」。決算の "型" は、つい主観で語ってしまいます。では、銘柄名も業種も伏せて **10 個の数値だけ** を機械に渡し、「似た者どうし」に勝手に分類させたら、どんな型が出てくるでしょうか。
 
@@ -42,7 +42,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
-![シルエット係数による K の決定](img/12_earnings_clustering/01_silhouette.png){width="1200"}
+![シルエット係数による K の決定](img/03-03_earnings_clustering/01_silhouette.png){width="1200"}
 
 - シルエットは **K=2 と K=3 がほぼ同じくらい良く（0.30 前後）、K≧4 で 0.19 以下に低下** ― 決算は本質的に「少数の型」に分かれる
 - ほぼ互角の 2 と 3 のうち、本記事は **K=3 を採用**。2 つだと「高収益 vs その他」で終わるが、3 つにすると型がもう一段見えるため
@@ -54,7 +54,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
-![決算プロファイルの型マップ](img/12_earnings_clustering/02_cluster_map.png){width="1200"}
+![決算プロファイルの型マップ](img/03-03_earnings_clustering/02_cluster_map.png){width="1200"}
 
 | 型 | 社数 | 性格（実数値の平均） |
 |---|---|---|
@@ -73,7 +73,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：決算10次元特徴量（287銘柄、2026年3月期 通期）</p>
 
-![型ごとの決算プロファイル](img/12_earnings_clustering/03_profiles.png){width="1200"}
+![型ごとの決算プロファイル](img/03-03_earnings_clustering/03_profiles.png){width="1200"}
 
 - **型A 急回復**：YoY 系がすべて赤（純利 +1.9σ・営利 +1.7σ…）。利益率は平均並み ― 「水準は普通だが伸び率が突出」
 - **型B 高収益**：**営業利益率 +2.3σ・純利益率 +2.2σ** が突出し、セグメント数 −0.9σ（単一事業）。「専業で稼ぐ高マージン型」

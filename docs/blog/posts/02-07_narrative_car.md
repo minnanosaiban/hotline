@@ -11,7 +11,7 @@ tags:
 
 # CARで見る「決算の効き」 ― 元売・商社 主要5社の市場反応を検証
 
-![CARで決算の効きを測る](img/09b_narrative_car/00_thumbnail.png){width="1280"}
+![CARで決算の効きを測る](img/02-07_narrative_car/00_thumbnail.png){width="1280"}
 
 決算の評価について視点を逆転し、決算発表後に市場がどう反応したか ― 超過リターン（CAR）― を測ります。決算サプライズの方向へ株価がじわじわ動き続ける傾向はありますが、その効き方は決算ごとに大きく異なります。
 
@@ -45,7 +45,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>yfinance：株価 日足、ベンチマーク TOPIX＋セクターETF（エネルギー・卸売、2026年5月31日取得）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信）：開示ログ＝決算発表日（24/3期通期〜25/3期通期、2024-05〜2025-05）</p>
 
-![5社の決算ごとCAR推移](img/09_car_event_study/04_narrative5_timeline.png){width="1200"}
+![5社の決算ごとCAR推移](img/02-07_narrative_car/04_narrative5_timeline.png){width="1200"}
 
 <p class="fig-meta">※ この時系列は、現時点で連続して揃っている開示ログ＝前期（2025/3 期）サイクルで作成しています。最新 2026/3 期の断面は 3-2 で扱い、決算を日々積み上げてチャートを継続更新していくことは本連載の今後の課題です。</p>
 

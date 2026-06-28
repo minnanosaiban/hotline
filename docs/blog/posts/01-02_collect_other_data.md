@@ -12,7 +12,7 @@ tags:
 
 # 決算データを無料で集める ― EDINET・TDnet の公式 XBRL を活用
 
-![株価以外のデータを集める](img/02_collect_other_data/00_thumbnail.png){width="1280"}
+![株価以外のデータを集める](img/01-02_collect_other_data/00_thumbnail.png){width="1280"}
 
 株価チャートだけで売買するのは、業績という土台を見ない **ギャンブルに近い** もの。決算データを足せば、銘柄を多角的に評価できます。本記事では、金融庁 EDINET ・ 東証 TDnet ・ 証券会社のアプリから決算書や業績指標を取得します。
 
@@ -123,7 +123,7 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![複数銘柄カードグリッド](img/02_collect_other_data/app_chart_multi.png){width="1200"}
+![複数銘柄カードグリッド](img/01-02_collect_other_data/app_chart_multi.png){width="1200"}
 
 
 
@@ -142,6 +142,6 @@ soup = BeautifulSoup(requests.get(url, headers={"User-Agent": "Mozilla/5.0"}).te
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![決算パターングリッド](img/02_collect_other_data/app_earnings_pattern.png){width="1200"}
+![決算パターングリッド](img/01-02_collect_other_data/app_earnings_pattern.png){width="1200"}
 
 ---

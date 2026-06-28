@@ -12,7 +12,7 @@ tags:
 
 # まず、「株価」を取得する ― yfinance から parquet 保存、自作アプリまで
 
-![株価を取得する](img/01_get_stock_prices/00_thumbnail.png){width="1280"}
+![株価を取得する](img/01-01_get_stock_prices/00_thumbnail.png){width="1280"}
 
 株価は yfinance から都度ロードして表示することもできますが、取得制限やパフォーマンスを考えると、**取得した株価データは parquet で保存しておくのがベストプラクティス**です（とくに 5 分足は約 60 日で消えるため、貯める価値が高い）。
 
@@ -138,7 +138,7 @@ Streamlit で作成したアプリです。チャート描画は Plotly、株価
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![5分足ローソク + 騰落率テーブル](img/01_get_stock_prices/app.png){width="1200"}
+![5分足ローソク + 騰落率テーブル](img/01-01_get_stock_prices/app.png){width="1200"}
 
 なお、**株価をあらかじめ貯めなくても、チャートは表示できます**。yfinance から直接取得して描く簡易版（`app_simple.py`）もおまけ で同梱しています。
 

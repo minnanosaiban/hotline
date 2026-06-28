@@ -12,7 +12,7 @@ tags:
 
 # 超短期のエッジを統計で探す ― 5分足、コスト控除後に何が残るか
 
-![超短期のエッジ検証](img/16_intraday_stats/00_thumbnail.png){width="1280"}
+![超短期のエッジ検証](img/EX-01_intraday_stats/00_thumbnail.png){width="1280"}
 
 「中長期が予測できないなら、数分先なら読めるはず」― 値動きの癖（時間帯・ギャップ・連れ高）は誰もが感じるところです。ただ、超短期の勝負では **予測が当たることと、コストを払って勝てることは別問題** です。本記事は、定番シグナル 5 本を同じ物差しに載せ、**往復コスト控除後に何が残るか** だけを見ます。
 
@@ -46,7 +46,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025年11月〜2026年5月）</p>
 
-![定番シグナルの IN/OUT 比較](img/16_intraday_stats/01_signal_inout.png){width="1200"}
+![定番シグナルの IN/OUT 比較](img/EX-01_intraday_stats/01_signal_inout.png){width="1200"}
 
 | シグナル | IN（前半）で見えたもの | OUT（後半）の答え合わせ |
 |---|---|---|
@@ -66,7 +66,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025年11月〜2026年5月）</p>
 
-![平均回帰のエッジとコスト](img/16_intraday_stats/02_meanrev_vs_cost.png){width="1200"}
+![平均回帰のエッジとコスト](img/EX-01_intraday_stats/02_meanrev_vs_cost.png){width="1200"}
 
 - 7 割の銘柄で「上がった次のバーは下がりやすい」（自己相関がマイナス）
 - OUT でも逆張りの的中率 **55%**、64 万回の取引で安定 ― **シグナルとしては本物**
@@ -82,7 +82,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>5分足：流動性上位300銘柄（2025年11月〜2026年5月）<br><i class="fa-solid fa-caret-right"></i>TDnet：開示ログ</p>
 
-![場中開示後 30 分のドリフト](img/16_intraday_stats/03_event_drift.png){width="1200"}
+![場中開示後 30 分のドリフト](img/EX-01_intraday_stats/03_event_drift.png){width="1200"}
 
 - 開示後 30 分の変動（絶対値の中央値）は **142bps ― 通常時（23bps）の約 6 倍**。場中開示は 5 分足ではっきり見える
 - 方向は開示内容しだいでまちまち。しかし **最初の 5 分の方向に乗って残り 25 分保有** すると平均 **+23bps/回**

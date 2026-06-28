@@ -11,7 +11,7 @@ tags:
 
 # K-NN 分類 ― 似た決算群から外れた「個別ショック」を検出
 
-![K-NN分類](img/11_knn_prediction/00_thumbnail.png){width="1280"}
+![K-NN分類](img/03-02_knn_prediction/00_thumbnail.png){width="1280"}
 
 前回（3-1）の「似た決算」を物差しに、各銘柄の決算後の株価反応（CAR）を **K-NN で分類**します ― 似た者と同じ「典型」か、群れから大きく外れた「個別ショック」か。狙いは当てることではなく、**外れた銘柄＝真っ先に IR を確認すべき銘柄を洗い出す**ことです。
 
@@ -34,7 +34,7 @@ tags:
 
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 
-![パイプライン全体](img/11_knn_prediction/01_pipeline.png){width="1200"}
+![パイプライン全体](img/03-02_knn_prediction/01_pipeline.png){width="1200"}
 
 - 対象は特徴量が 7 個以上そろう **287 銘柄**、2026/3 期の実績 CAR と突き合わせ
 - **そもそも値や方向は当てられません** ― 群れの平均を予測値にしても 相関 r≈−0.03・方向一致率 50.9%（コイン投げ）で、全銘柄の単純平均にも負ける。だから「当てる」のは捨て、**「外れの大小」だけ**を使います
@@ -47,7 +47,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ（決算特徴量は在庫評価損益調整なし）<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期、類似群の選定に使用）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足、決算後株価反応 CAR[-1,+5]</p>
 
-![個別ショック Top-10](img/11_knn_prediction/03_shocks_top10.png){width="1200"}
+![個別ショック Top-10](img/03-02_knn_prediction/03_shocks_top10.png){width="1200"}
 
 **ポジティブショック Top-5（市場が想定より大幅好評価）**：
 

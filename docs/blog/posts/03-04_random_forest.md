@@ -12,7 +12,7 @@ tags:
 
 # ランダムフォレスト ― 予測は失敗、「特徴量重要度」の落とし穴を学ぶ
 
-![ランダムフォレスト](img/13_random_forest/00_thumbnail.png){width="1280"}
+![ランダムフォレスト](img/03-04_random_forest/00_thumbnail.png){width="1280"}
 
 「機械学習を使えば、決算の良し悪しから株価の反応を予測できるはず」。そう期待したくなります。本記事は **ランダムフォレスト** という別の手法で、もう一度「決算 10 指標から CAR（決算前後の超過リターン）の上下を当てられるか」を検証します。
 
@@ -44,7 +44,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期）<br><i class="fa-solid fa-caret-right"></i>yfinance：日足、CAR[-1,+5]（TOPIX超過）</p>
 
-![予測精度とAUC](img/13_random_forest/01_accuracy.png){width="1200"}
+![予測精度とAUC](img/03-04_random_forest/01_accuracy.png){width="1200"}
 
 - **交差検証の正解率 0.589 < ベースライン 0.599** ― ランダムフォレストは「常に下」と言うだけのルールにすら勝てません
 - ホールドアウト（test）では **0.540** とさらに低下。**AUC**（1 に近いほど精度が高く 0.5 はデタラメ）**も 0.55 前後** で、ほぼ当てずっぽう
@@ -57,7 +57,7 @@ tags:
 <p class="fig-meta"><i class="fa-solid fa-expand"></i> クリックで拡大</p>
 <p class="fig-meta">使用データ<br><i class="fa-solid fa-caret-right"></i>TDnet（決算短信 XBRL）：10次元特徴量（287銘柄、2026年3月期）</p>
 
-![特徴量重要度の2つの測り方](img/13_random_forest/02_importance.png){width="1200"}
+![特徴量重要度の2つの測り方](img/03-04_random_forest/02_importance.png){width="1200"}
 
 - **左（①impurity）** では、営利 YoY・包括 YoY・純利 YoY が上位に並び、いかにも「効いている」ように見えます
 - しかし **右（②permutation＝実際に試す方式）** で測ると **どれもほぼ 0**。それどころか営利 YoY・売上 YoY は **マイナス**（シャッフルした方が精度が上がる＝ただのノイズだった）
