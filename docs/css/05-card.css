@@ -342,3 +342,77 @@
   gap: 1.5rem;
   margin: 0.5rem 0 0.4rem;
 }
+
+/* =========================================================
+   フッターの4カードグリッド（全ページ共通）
+   カード自体は上の .toc-card をそのまま流用。ここでは
+   4列グリッドのラッパーと、内容未定カード（.provisional）だけ追加。
+   ========================================================= */
+.md-footer-cards {
+  /* 親の .md-footer-meta__inner が display:flex; justify-content:space-between のため、
+     幅指定が無いと .md-copyright と横並びのflexアイテムとして扱われ、中央寄せがズレる。
+     常に行全体を占有させて、コピーライト文はその下の行に折り返させる。 */
+  width: 100%;
+  padding: 1.2rem 1.2rem 0;
+}
+@media only screen and (max-width: 767px) {
+  .md-footer-cards {
+    padding: 1rem 1rem 0;
+  }
+}
+.footer-toc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 900px) {
+  .footer-toc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 560px) {
+  .footer-toc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* フッターは trial/index.md の目次より文字を大きめに（.toc-card 本体は変更せずフッター限定で上書き） */
+.footer-toc-grid .toc-card {
+  padding: 1rem 1.1rem;
+}
+.footer-toc-grid .toc-card-num {
+  font-size: 12px;
+  margin-bottom: 0.2rem;
+}
+.footer-toc-grid .toc-card-title {
+  font-size: 17px;
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
+.footer-toc-grid .toc-card-desc {
+  font-size: 13px;
+  line-height: 1.4;
+}
+/* 内容未定のカード：ラベル・説明なしのプレースホルダー（リンクなし）。
+   高さは指定しない＝グリッドの既定(stretch)で株価分析カードと同じ高さに揃う。 */
+.toc-card.provisional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-style: dashed;
+  cursor: default;
+}
+.toc-card.provisional:hover {
+  border-color: var(--md-link-color-faint);
+  background-color: transparent;
+}
+.toc-card.provisional .toc-card-title {
+  margin-bottom: 0;
+  color: #70757a;
+  font-weight: 400;
+}
+[data-md-color-scheme="slate"] .toc-card.provisional .toc-card-title {
+  color: #aaaaaa;
+}

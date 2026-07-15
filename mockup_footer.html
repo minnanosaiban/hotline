@@ -1,0 +1,179 @@
+<title>hotline フッター4カード案（toc-card流用）</title>
+<style>
+  :root{
+    --bg:#ffffff;
+    --page-bg:#f3f4f2;
+    --ink:#08131a;
+    --ink-soft:#5b6570;
+    --ink-faint:#8b939c;
+    --link:#003682;
+    --link-faint:rgba(0,54,130,0.35);
+    --link-hover-bg:rgba(0,54,130,0.03);
+    --card-border-soft:rgba(0,0,0,0.16);
+    --label-bg:#e5e7ea;
+    --label-ink:#3a4450;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:hsla(225,15%,14%,1);
+      --page-bg:#101317;
+      --ink:#E0E0E0;
+      --ink-soft:#aaaaaa;
+      --ink-faint:#6b7480;
+      --link:#4D8BCC;
+      --link-faint:rgba(77,139,204,0.35);
+      --link-hover-bg:rgba(77,139,204,0.06);
+      --card-border-soft:rgba(255,255,255,0.20);
+      --label-bg:#1e2733;
+      --label-ink:#b7c0c9;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:hsla(225,15%,14%,1); --page-bg:#101317; --ink:#E0E0E0; --ink-soft:#aaaaaa;
+    --ink-faint:#6b7480; --link:#4D8BCC; --link-faint:rgba(77,139,204,0.35);
+    --link-hover-bg:rgba(77,139,204,0.06); --card-border-soft:rgba(255,255,255,0.20);
+    --label-bg:#1e2733; --label-ink:#b7c0c9;
+  }
+  :root[data-theme="light"]{
+    --bg:#ffffff; --page-bg:#f3f4f2; --ink:#08131a; --ink-soft:#5b6570; --ink-faint:#8b939c;
+    --link:#003682; --link-faint:rgba(0,54,130,0.35); --link-hover-bg:rgba(0,54,130,0.03);
+    --card-border-soft:rgba(0,0,0,0.16); --label-bg:#e5e7ea; --label-ink:#3a4450;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--page-bg); color:var(--ink);
+    font-family:"Hiragino Sans","Yu Gothic","Yu Gothic UI","Meiryo",system-ui,sans-serif;
+    padding:2.5rem 1rem 5rem;
+  }
+  .wrap{ max-width:64rem; margin:0 auto; }
+  .intro{ margin-bottom:2.2rem; max-width:42rem; }
+  .intro h1{ font-size:1.5rem; font-weight:700; margin:0 0 0.6rem; text-wrap:balance; }
+  .intro p{ margin:0; color:var(--ink-soft); font-size:0.92rem; line-height:1.8; }
+
+  .page-sim{ background:var(--bg); border:1px solid var(--card-border-soft); border-radius:6px; overflow:hidden; }
+  .page-sim__body{ padding:2.4rem 2rem 0; color:var(--ink-soft); font-size:0.82rem; line-height:2; }
+  .page-sim__body .fade{ opacity:0.5; }
+  .page-sim__footer{ margin-top:2.6rem; padding:1.6rem 2rem 1.8rem; }
+
+  /* --- trial/index.md の .toc-grid / .toc-card をそのまま流用し、4列版だけ追加 --- */
+  .footer-toc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+  }
+  @media only screen and (max-width: 900px) {
+    .footer-toc-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media only screen and (max-width: 560px) {
+    .footer-toc-grid { grid-template-columns: 1fr; }
+  }
+  .toc-card {
+    display: block;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--link-faint);
+    border-radius: 4px;
+    text-decoration: none !important;
+    color: var(--ink) !important;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+  .toc-card:hover {
+    border-color: var(--link);
+    background-color: var(--link-hover-bg);
+  }
+  .toc-card-num {
+    display: block; font-size: 11px; color: var(--link); font-weight: 700;
+    letter-spacing: 0.06em; margin-bottom: 0.25rem;
+  }
+  .toc-card-title {
+    display: block; font-size: 14px; font-weight: 700; color: var(--ink);
+    line-height: 1.4; margin-bottom: 0.2rem;
+  }
+  .toc-card-desc {
+    display: block; font-size: 12px; color: var(--ink-faint); line-height: 1.5;
+  }
+  /* 未定の3枚：ラベル・説明なしの、ただの正方形の枠にする。リンク先が無いので non-link 表示 */
+  .toc-card.provisional {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: dashed;
+    cursor: default;
+  }
+  .toc-card.provisional:hover {
+    border-color: var(--link-faint);
+    background-color: transparent;
+  }
+  .toc-card.provisional .toc-card-title {
+    margin-bottom: 0;
+    color: var(--ink-faint);
+    font-weight: 400;
+  }
+
+  .copyright-sim{
+    padding-top:1.4rem; margin-top:1.8rem; border-top:1px solid var(--card-border-soft);
+    font-size:0.68rem; line-height:1.7; color:var(--ink-soft); opacity:0.8;
+  }
+  .note{
+    margin-top:2.2rem; padding-top:1.4rem; border-top:1px dashed var(--card-border-soft);
+    color:var(--ink-soft); font-size:0.82rem; line-height:1.9; max-width:42rem;
+  }
+  .compare{
+    margin-top:3rem;
+  }
+  .compare h2{ font-size:1rem; font-weight:700; margin:0 0 0.8rem; }
+</style>
+
+<div class="wrap">
+
+  <div class="intro">
+    <h1>フッター4カード（trial/index.md の目次カードを流用）</h1>
+    <p>新しく作らず、trial/index.mdで既に使っている <code>.toc-card</code>（枠線＋ラベル＋タイトル＋説明）を流用しています。「株価分析」は確定なので枠線・ラベル・説明つき、他3枚は内容未定なので破線の正方形に「Coming Soon」とだけ表示しています。</p>
+  </div>
+
+  <div class="page-sim">
+    <div class="page-sim__body"><span class="fade">…本文の末尾…</span></div>
+    <div class="page-sim__footer">
+      <div class="footer-toc-grid">
+        <div class="toc-card provisional">
+          <span class="toc-card-title">Coming Soon</span>
+        </div>
+        <a href="#" class="toc-card">
+          <span class="toc-card-num">連載</span>
+          <span class="toc-card-title">株価分析</span>
+          <span class="toc-card-desc">決算データと機械学習で株を読む</span>
+        </a>
+        <div class="toc-card provisional">
+          <span class="toc-card-title">Coming Soon</span>
+        </div>
+        <div class="toc-card provisional">
+          <span class="toc-card-title">Coming Soon</span>
+        </div>
+      </div>
+      <div class="copyright-sim">© minnanosaiban ／ 本ウェブサイトは、通報者本人が作成しました。</div>
+    </div>
+  </div>
+
+  <div class="compare">
+    <h2>参考：trial/index.md の現状（2列）</h2>
+    <div class="footer-toc-grid" style="grid-template-columns:repeat(2,1fr); max-width:36rem;">
+      <a href="#" class="toc-card">
+        <span class="toc-card-num">被告</span>
+        <span class="toc-card-title">ＥＮＥＯＳ側の主張書面</span>
+        <span class="toc-card-desc">被告（ＥＮＥＯＳ）の準備書面・答弁書</span>
+      </a>
+      <a href="#" class="toc-card">
+        <span class="toc-card-num">判決</span>
+        <span class="toc-card-title">判決書（水野有子裁判長）</span>
+        <span class="toc-card-desc">東京地裁・東京高裁 2025年判決</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="note">
+    900px以下で2列、560px以下で1列に折り返します。CSSの追加は「4列グリッド」のラッパー1つだけで、カード自体（枠線・ラベル・ホバー）は既存の <code>.toc-card</code> をそのまま使っています。「Coming Soon」の3枚はリンクなし（クリックできない表示）にしています。内容が決まり次第、株価分析と同じ見た目に差し替えます。
+  </div>
+
+</div>
