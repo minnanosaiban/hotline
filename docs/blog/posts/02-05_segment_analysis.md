@@ -1,13 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - XBRL活用分析
-tags:
-  - セグメント
-  - 事業ポートフォリオ
-  - 成長率
-  - 利益率
-  - 決算短信
+title: セグメント分析 ― 連結に埋もれた「強い事業」を発進力スコアで探す
+description: XBRLをJSON化した自前パイプラインで決算を事業セグメント別に分解し、次の主力事業と隠れた高収益事業を発掘します。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/02-05_segment_analysis/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/02-05_segment_analysis/
+twitter_card: summary_large_image
 ---
 
 # セグメント分析 ― 連結に埋もれた「強い事業」を発進力スコアで探す

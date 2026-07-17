@@ -5,7 +5,6 @@ url: https://minnanosaiban.github.io/hotline/en/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
-  - date
   - navigation
   - toc
 ---

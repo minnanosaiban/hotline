@@ -1,13 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - AI統合
-tags:
-  - クラスタリング
-  - k-means
-  - 教師なし学習
-  - 決算プロファイル
-  - PCA
+title: K-means クラスタリング ― 教師なし学習が分けた「決算の型」
+description: 銘柄名も業種も伏せた10個の数値だけをk-meansで分類し、データだけが描く「決算の型」とＥＮＥＯＳの位置づけを見ます。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/03-03_earnings_clustering/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/03-03_earnings_clustering/
+twitter_card: summary_large_image
 ---
 
 # K-means クラスタリング ― 教師なし学習が分けた「決算の型」

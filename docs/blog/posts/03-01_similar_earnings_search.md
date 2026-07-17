@@ -1,12 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - AI統合
-tags:
-  - 類似決算
-  - コサイン類似度
-  - ベクトル検索
-  - PCA
+title: コサイン類似度 ― 「似ている決算」を数値で検索する
+description: 決算短信の数字から特徴量を抽出し、コサイン類似度で「似た決算」を自動検索。業種コードなしで業界の型が数字だけから立ち上がります。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/03-01_similar_earnings_search/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/03-01_similar_earnings_search/
+twitter_card: summary_large_image
 ---
 
 # コサイン類似度 ― 「似ている決算」を数値で検索する

@@ -1,12 +1,9 @@
 ---
-date: 2026-05-20
-categories:
-  - 銘柄分析
-tags:
-  - GARP
-  - PEG
-  - ROE
-  - ピーター・リンチ
+title: 4象限で GARP を見る ― 「成長と割安の両立」銘柄を探す
+description: ピーター・リンチのGARP（Growth At a Reasonable Price）をPEG×ROEの2軸で実装し、成長性と割安度を両立した銘柄を探します。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/02-01_garp_peg_roe/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/02-01_garp_peg_roe/
+twitter_card: summary_large_image
 ---
 
 # 4象限で GARP を見る ― 「成長と割安の両立」銘柄を探す

@@ -1,13 +1,9 @@
 ---
-date: 2026-06-13
-categories:
-  - 番外編
-tags:
-  - 超短期
-  - 5分足
-  - 平均回帰
-  - イベントドリブン
-  - 取引コスト
+title: 超短期のエッジを統計で探す ― 5分足、コスト控除後に何が残るか
+description: 定番シグナル5本を5分足で検証し、往復コスト控除後に何が残るかだけを見ます。生き残ったのは場中開示のドリフトのみでした。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/EX-01_intraday_stats/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/EX-01_intraday_stats/
+twitter_card: summary_large_image
 ---
 
 # 超短期のエッジを統計で探す ― 5分足、コスト控除後に何が残るか

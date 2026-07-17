@@ -1,8 +1,9 @@
 ---
 title: 用語集 ― 株価分析
 description: 連載「株価分析」に登場する財務・会計・機械学習・データの専門用語を50音順でまとめた用語集です。GARP・アクルーアル・CAR・コサイン類似度・PCA など約90語を、初めての方にも分かるよう平易に解説しています。
-hide:
-  - date
+url: https://minnanosaiban.github.io/hotline/blog/glossary/
+image: https://minnanosaiban.github.io/hotline/img/card1.png
+twitter_card: summary
 ---
 
 # 用語集

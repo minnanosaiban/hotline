@@ -1,13 +1,9 @@
 ---
-date: 2026-05-18
-categories:
-  - データ取得
-tags:
-  - yfinance
-  - parquet
-  - Streamlit
-  - Plotly
-  - 株価
+title: まず、「株価」を取得する ― yfinance から parquet 保存、自作アプリまで
+description: yfinanceで株価を取得し、parquet形式で保存、5分足チャートを描画するまでを解説。データ取得編の出発点です。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/01-01_get_stock_prices/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/01-01_get_stock_prices/
+twitter_card: summary_large_image
 ---
 
 # まず、「株価」を取得する ― yfinance から parquet 保存、自作アプリまで

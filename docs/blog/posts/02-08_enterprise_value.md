@@ -1,12 +1,9 @@
 ---
-date: 2026-06-13
-categories:
-  - XBRL活用分析
-tags:
-  - 企業価値
-  - EV
-  - ネットデット
-  - DCF
+title: EVで見る「会社の値段」 ― 元売・商社・資源 13社を簡易DCFで検証
+description: 有利子負債と現金を時価総額に足し引きしたEV（企業価値）を元売・商社・資源13社で算出し、EV/営業CFと簡易DCFで市場の値付けと突き合わせます。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/02-08_enterprise_value/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/02-08_enterprise_value/
+twitter_card: summary_large_image
 ---
 
 # EVで見る「会社の値段」 ― 元売・商社・資源 13社を簡易DCFで検証

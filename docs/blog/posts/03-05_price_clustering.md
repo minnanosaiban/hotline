@@ -1,13 +1,9 @@
 ---
-date: 2026-06-03
-categories:
-  - AI統合
-tags:
-  - クラスタリング
-  - 相関
-  - 階層クラスタリング
-  - MDS
-  - 教師なし学習
+title: 階層型クラスタリング ― 値動きの相関で再現する業界地図
+description: 287銘柄の日次リターンを相関でクラスタリングし、銘柄名も業種も伏せたまま「似た動きの銘柄」を機械に見つけさせます。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/03-05_price_clustering/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/03-05_price_clustering/
+twitter_card: summary_large_image
 ---
 
 # 階層型クラスタリング ― 値動きの相関で再現する業界地図

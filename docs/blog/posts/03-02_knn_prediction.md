@@ -1,12 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - AI統合
-tags:
-  - K-NN
-  - 分類
-  - 個別ショック
-  - データ駆動投資
+title: K-NN 分類 ― 似た決算群から外れた「個別ショック」を検出
+description: 似た決算を物差しに株価反応（CAR）をK-NNで分類し、群れから外れた「個別ショック」＝IRを確認すべき銘柄を洗い出します。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/03-02_knn_prediction/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/03-02_knn_prediction/
+twitter_card: summary_large_image
 ---
 
 # K-NN 分類 ― 似た決算群から外れた「個別ショック」を検出

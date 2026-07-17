@@ -1,21 +1,12 @@
 ---
 title: ENEOSの内部通報制度をめぐる訴訟について - ENEOS（エネオス）裁判 -
 description: ENEOS（エネオス）の内部通報制度をめぐる訴訟の裁判文書を公開しています。通報を受けた後、通報者を情報から排除したうえ、裏づけのない情報を知らせて、不正の有無を伏せるという企業の対応について問題提起をしています。株主総会で問題提起します。
-# date: 2023-03-06
-# categories:
-  # - 内部通報制度
-# tags:
-  # - 内部通報制度
-# links:
-  # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
 url: https://minnanosaiban.github.io/hotline/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
-  - date
   - navigation
   - toc
-# icon: material/home
 ---
 
 <div class="hero-utils">

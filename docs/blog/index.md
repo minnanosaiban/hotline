@@ -1,26 +1,9 @@
 ---
-title: ENEOSの内部通報制度をめぐる訴訟について - ENEOS（エネオス）裁判 -
-description: ENEOS（エネオス）の内部通報制度をめぐる訴訟の裁判文書を公開しています。通報を受けた後、通報者を情報から排除したうえ、裏づけのない情報を知らせるという企業の対応について問題提起をしています。株主総会で問題提起します。
-# date: 2023-03-06
-# categories:
-  # - NTTデータにおけるセクハラに関する紛争
-  # - 労働委員会
-# tags:
-  # - NTTデータ
-  # - パーソルテンプスタッフ
-  # - セクハラ
-  # - 雇止め
-# links:
-  # - [東京労働委員会命令書](https://www.metro.tokyo.lg.jp/information/press/2024/03/2024030701)
-  # - [命令書別紙](https://www.metro.tokyo.lg.jp/documents/d/tosei/01_01b_02)
-# url: https://minnanosaiban.github.io/hotline/trial/
-# image: https://minnanosaiban.github.io/hotline/img/card1.png
+title: 株価分析 ― ENEOS株主が無料データで読み解く決算・XBRL・機械学習
+description: ENEOS株主が、無料で手に入る株価・決算短信・有価証券報告書をもとに元売株・資源株を分析する連載です。チャートとアプリのPythonコードはGitHubで公開しています。
+url: https://minnanosaiban.github.io/hotline/blog/
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
-hide:
-    - date
-    # - navigation
-    # - toc
-# icon: material/home
 ---
 
 <style>.md-typeset h1 { display: none !important; }</style>

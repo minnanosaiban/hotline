@@ -1,13 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - XBRL活用分析
-tags:
-  - アクルーアル
-  - 利益の質
-  - Sloan
-  - 会計クオリティ
-  - キャッシュフロー
+title: アクルーアル分析 ― ＥＮＥＯＳの最高益に「現金の裏付け」はあるか
+description: 純利益と営業キャッシュフローの差（アクルーアル）から、最高益の"質"がキャッシュを伴っているかを見抜きます。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/02-03_accrual_analysis/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/02-03_accrual_analysis/
+twitter_card: summary_large_image
 ---
 
 # アクルーアル分析 ― ＥＮＥＯＳの最高益に「現金の裏付け」はあるか

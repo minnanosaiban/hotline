@@ -1,13 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - AI統合
-tags:
-  - ランダムフォレスト
-  - 特徴量重要度
-  - permutation importance
-  - 過学習
-  - 予測の限界
+title: ランダムフォレスト ― 予測は失敗、「特徴量重要度」の落とし穴を学ぶ
+description: ランダムフォレストで決算指標からCARの上下を予測するも失敗。その過程で見えた「特徴量重要度」という指標の落とし穴を解説します。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/03-04_random_forest/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/03-04_random_forest/
+twitter_card: summary_large_image
 ---
 
 # ランダムフォレスト ― 予測は失敗、「特徴量重要度」の落とし穴を学ぶ

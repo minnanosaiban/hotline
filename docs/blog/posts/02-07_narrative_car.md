@@ -1,12 +1,9 @@
 ---
-date: 2026-05-21
-categories:
-  - XBRL活用分析
-tags:
-  - CAR
-  - イベントスタディ
-  - ベンチマーク
-  - セクターETF
+title: CARで見る「決算の効き」 ― 元売・商社 主要5社の市場反応を検証
+description: 元売3社と総合商社2社を対象に、TOPIX超過とセクターETF超過を併記するCAR（累積超過リターン）で個別決算の効きを検証します。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/02-07_narrative_car/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/02-07_narrative_car/
+twitter_card: summary_large_image
 ---
 
 # CARで見る「決算の効き」 ― 元売・商社 主要5社の市場反応を検証

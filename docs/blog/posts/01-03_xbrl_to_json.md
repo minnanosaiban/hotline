@@ -1,13 +1,9 @@
 ---
-date: 2026-05-20
-categories:
-  - データ取得
-tags:
-  - XBRL
-  - JSON
-  - スキーマ
-  - EDINET
-  - 決算短信
+title: 決算 XBRL を JSON に変換 ― 「決算そのもの」を分析、元売3社を比較
+description: XBRLをJSON化して代表的な財務指標の時系列推移を可視化。そこから見えてきたのはＥＮＥＯＳのピークアウトです。
+image: https://minnanosaiban.github.io/hotline/blog/posts/img/01-03_xbrl_to_json/00_thumbnail.png
+url: https://minnanosaiban.github.io/hotline/blog/posts/01-03_xbrl_to_json/
+twitter_card: summary_large_image
 ---
 
 # 決算 XBRL を JSON に変換 ― 「決算そのもの」を分析、元売3社を比較
