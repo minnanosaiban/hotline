@@ -389,6 +389,7 @@
   font-size: 17px;
   line-height: 1.3;
   margin-bottom: 0.15rem;
+  color: var(--md-footer-fg-color); /* フッターは背景がほぼ黒（Material既定）。本文用の --md-typeset-color（ほぼ黒）だと文字が見えなくなるため、フッター文字色を明示 */
 }
 .footer-toc-grid .toc-card-desc {
   font-size: 13px;
