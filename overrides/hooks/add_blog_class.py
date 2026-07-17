@@ -16,4 +16,6 @@ def on_post_page(output, page, **kwargs):
         return re.sub(r"(<body\b)", r'\1 class="blog-post-page"', output, count=1)
     if src.startswith("trial/") and src not in ("trial/index.md", "trial/eneos_claims.md"):
         return re.sub(r"(<body\b)", r'\1 class="trial-doc"', output, count=1)
+    if src.startswith("agm/"):
+        return re.sub(r"(<body\b)", r'\1 class="trial-doc"', output, count=1)
     return output
