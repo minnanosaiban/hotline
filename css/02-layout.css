@@ -63,6 +63,11 @@
   text-underline-offset: 12px;
   text-decoration-color: var(--md-main-color);
 }
+/* 株価分析（blog/）はタブバーには出さない。nav 自体には残すことで、
+   記事ページのサイドバーツリー・前へ/次へ・パンくずは維持する（フッターのカードから導線）。 */
+.md-tabs__item:has(> .md-tabs__link[href*="blog"]) {
+  display: none;
+}
 /* モバイルでもタブを常時表示（隠さない） */
 @media screen and (max-width: 76.234375em) {
   .md-tabs {
