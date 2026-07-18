@@ -22,7 +22,11 @@ twitter_card: summary
 </p>
 
 
-<p class="t-toc-head">目次</p>
+<div markdown>
+<p class="center larger width-40 issue-lead sec-title">
+目次
+</p>
+
 <div class="toc-grid">
 <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="toc-card">
 <span class="toc-card-num">被告</span>
