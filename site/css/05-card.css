@@ -360,6 +360,20 @@
     padding: 1rem 1rem 0;
   }
 }
+/* カード群の上に置く紹介文。.footer-toc-grid と幅・中央寄せを揃える。
+   本文用の色（ほぼ黒）だとフッターの暗い背景で見えなくなるため、フッター用の色を明示。 */
+.footer-intro {
+  max-width: 64rem;
+  margin: 0 auto 0.8rem;
+  color: var(--md-footer-fg-color--light);
+  font-size: 13px;
+  line-height: 1.7;
+}
+.footer-intro a {
+  color: var(--md-footer-fg-color) !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .footer-toc-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
