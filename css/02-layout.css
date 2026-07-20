@@ -304,6 +304,11 @@
 .agm-section > p.larger + p {
   margin-top: 0 !important;
 }
+/* ただし、青見出し（.sec-title等）の直後が本文でなく次の小見出し（.margin04）の場合は、
+   ゼロ打ち消しの対象外にする。他の小見出しと同じ上余白（4rem）を保つため。 */
+.agm-section > p.larger + p.margin04 {
+  margin-top: 4rem !important;
+}
 /* largest 見出しでも margin ユーティリティ（margin04）を効かせる（詳細度で上の固定値に勝たせる） */
 .agm-section > p.largest.margin04 {
   margin-top: 4rem !important;
@@ -316,6 +321,9 @@
 }
 .agm-section > p.margin04 {
   margin-top: 4rem !important;
+}
+.agm-section > p.margin08 {
+  margin-top: 8rem !important;
 }
 /* グレー枠内の節見出し（.largest「裁判所が示した３つの事実」「再通報と新たな提訴」）を、
    数字見出し（.larger＝1.6rem）と同じ大きさに揃える。.largest だけ下げれば足りる。
