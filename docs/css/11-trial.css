@@ -12,6 +12,23 @@ body.trial-doc {
   --t-card-width: 40rem;   /* カードの共通幅 */
 }
 
+/* グレー枠（.agm-section）の幅を、上の目次カード（.toc-grid）や本文全体の幅に揃える。
+   共通CSS側の既定（32rem固定）は本文(width-40)向けの指定で、このページでは
+   枠だけが目次カードより狭く見えてしまうため、trial ページに限り幅の制限を外す。
+   枠内の本文（width-40）は自身のmax-widthで読みやすい幅のまま中央寄せされる。 */
+.trial-page .agm-section {
+  max-width: none;
+}
+
+/* グレー枠内の縦の余白を margin-top だけで決める方式に統一する。
+   共通CSS側は要素ごとに margin-top / margin-bottom を個別に打ち消しており、
+   直前の要素の margin-bottom が積み重なって見出しごとに合計がずれていた
+   （例：「裁判の争点」と「裁判所の判断」で上余白の実測値が異なる）。
+   margin-bottom を一律0にし、次要素の margin-top だけで間隔が決まるようにする。 */
+.trial-page .agm-section > p {
+  margin-bottom: 0 !important;
+}
+
 /* --- セクション見出し（中央・アクセント色・太字なし／大きさで見せる） --- */
 .trial-page .t-head {
   text-align: center;
