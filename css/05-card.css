@@ -78,6 +78,8 @@
 /* サマリーをボタン風バーに（一般の人にも「押せる」と分かるように） */
 .md-typeset .card-accordion > summary {
   display: block;
+  width: 100%;               /* 親(.card-accordion＝width-40と同幅)いっぱいに固定。auto任せで幅がずれるのを防ぐ */
+  box-sizing: border-box;    /* 左右padding分を幅の内側に収め、外形が親からはみ出さないようにする */
   background: var(--surface-gray) !important;   /* 共通変数で統一 */
   border: 1px solid var(--md-card-border) !important;
   border-radius: 6px;
