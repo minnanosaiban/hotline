@@ -9,46 +9,40 @@ hide:
   - toc
 ---
 
-<div class="hero-utils">
-<p class="base00" style="text-align:right;">
+<div class="center-container" markdown>
+<h1 class="top-title-13">
+  <b><span class="tl-line"><span style="color: var(--md-accent-color);">ＥＮＥＯＳ</span>の</span><span class="tl-line">内部通報制度を</span><span class="tl-line">めぐる訴訟について</span></b>
+</h1>
+
+<p class="base00 hero-share width-40">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
-<p class="lang-switch" style="text-align:right; font-size:10px; margin:0.2rem 0 0;">
-  <b>日本語</b> ｜ <a href="en/">English</a>
-</p>
-</div>
-
-<div class="center-container" markdown>
-<h1 class="top-title-13">
-  <b><span class="tl-line"><span style="color: var(--md-accent-color);">ＥＮＥＯＳ</span>の</span><span class="tl-line">内部通報制度を</span><span class="tl-line">めぐる訴訟について</span></b>
-</h1>
-
 <div markdown>
 <p class="center larger width-40 issue-lead sec-title">
 本サイトの<br>問題提起
 </p>
 
-<p class="width-40 margin02">
+<p class="width-40 margin02 agree-gap">
 本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<span style="color: var(--md-warn-red);">会社は、通報者を情報から排除したうえ、裏づけのない情報を知らせました。</span>なお、私は社内通報窓口を利用した従業員で、本文では「通報者」とも記します。
 </p>
 
-<p class="larger width-40 margin02">
+<p class="larger width-40 margin02 agree-gap">
 <i class="fa-solid fa-1"></i>　調査事項を曖昧にして回答
 </p>
 <p class="width-40">
 通報したのは「支払う必要のない海外消費税を払っている」という問題でした。ところが、回答の際の調査事項は曖昧で、調査結果の対象も判然としませんでした。肝心の海外消費税を支払う必要があるか否かは、調査結果として示されませんでした。
 </p>
-<p class="larger width-40 margin02">
+<p class="larger width-40 margin02 agree-gap">
 <i class="fa-solid fa-2"></i>　裏づけが確認できない情報
 </p>
 <p class="width-40">
 その後、「法改正があったため」と通報者に知らせ、海外子会社が「本社の代わりに返金を受けた」として本社に送金しました。しかし、その「法改正」は未だに特定できず、海外子会社が返金を受けた事実も確認できません。
 </p>
-<p class="larger width-40 margin02">
+<p class="larger width-40 margin02 agree-gap">
 <i class="fa-solid fa-3"></i>　海外消費税の支払を契約化
 </p>
 <p class="width-40">
@@ -65,11 +59,11 @@ hide:
 <span style="color: var(--md-link-color);">裏づけが<br>確認できない<br>３つの情報</span>
 </p>
 
-<p class="width-40 margin02">
+<p class="width-40 margin02 verdict-lead">
 裁判で敗訴はしました。けれども、裁判を通じて、ＥＮＥＯＳが、海外消費税の支払いについて「法改正があったため」としたこと、および、「海外子会社が本社の代わりに海外消費税の返金を受けた」と通報者に知らせていた事実が、明確になりました。
 </p>
 
-<p class="width-40 margin04">
+<p class="width-40 margin04 agree-gap-agm">
 <span class="larger" style="color: var(--md-link-color);"><i class="fa-solid fa-1"></i>　法改正があったため</span><br>
 <span style="color: var(--md-link-color);">ただし、その法改正は未だに特定されていません</span>
 </p>
@@ -102,7 +96,7 @@ hide:
 <p class="center larger margin02 sec-title">
 再通報と<br>新たな問題
 </p>
-<p class="width-40">
+<p class="width-40 retort-lead agree-gap">
 解決策とされた海外子会社から本社への送金について、私は改めて通報しました。不正な送金が疑われるからです。しかし、<span style="color: var(--md-warn-red);">会社は通報者に『解決済み』と伝えるだけで、不正の有無がどちらなのかすら、判然としないままでした。</span>
 </p>
 <p class="width-40 margin02">
@@ -118,5 +112,4 @@ hide:
 
 </div>
 </div>
-
 

@@ -6,26 +6,30 @@ image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 ---
 
+<div class="agm-hero-band" markdown>
+# 株主総会質疑応答
 <p>
+YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されています。しかし、そこでの質問要旨は、実際の株主が質問した趣旨とは異なっています。
+</p>
+</div>
+
+<p class="base00 agm-hero-share">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/agm/ &text=株主総会質疑応答 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
-# 株主総会質疑応答
-
-YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されています。しかし、そこでの質問要旨は、実際の株主が質問した趣旨とは異なっています。
-
-
 <div markdown>
+
+
 <p class="center larger width-40 issue-lead sec-title">
-株主質問の趣旨<br>と異なる表記
+ENEOS TVの問題
 </p>
 
 
-<p class="width-40 margin02">
-ENEOS TV における質問要旨（パネル）と実際の質問の対照表です。14問中10問で、質問の性質そのものがすり替えられていました。</b>
+<p class="width-40 margin02 agree-gap">
+ENEOS TV における質問要旨（パネル）と実際の質問の対照表です。14問中10問で、質問の性質そのものがすり替えられていました。要するに、<span style="color: var(--md-warn-red);">株主質問をねじ曲げて公開しています。</span>
 </p>
 
 

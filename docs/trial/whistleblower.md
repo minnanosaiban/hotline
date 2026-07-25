@@ -143,6 +143,21 @@ twitter_card: summary
 <p  class="doc">
 以上
 </p>
+<p class="doc" style="margin-top: 1.6em;">
+<b>文末脚注</b>
+</p>
+<p class="pad1 hg-idt smaller">
+1　一審判決１０頁２２行目「被告社内の」以下、及び同１１頁１４行目「被告社内の」以下
+</p>
+<p class="pad1 hg-idt smaller">
+2　一審判決１１頁８行目「原告は、要するに、」以下
+</p>
+<p class="pad1 hg-idt smaller">
+3　一審判決１２頁４行目「被告がＧＳＴを支払ったことが」以下
+</p>
+<p class="pad1 hg-idt smaller">
+4　控訴答弁書１３頁７行目「原審においては、」以下
+</p>
 
 <a name="hoju1"></a>
 ## 控訴理由補充書（１）

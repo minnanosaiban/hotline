@@ -29,19 +29,6 @@ body.trial-doc {
   margin-bottom: 0 !important;
 }
 
-/* --- セクション見出し（中央・アクセント色・太字なし／大きさで見せる） --- */
-.trial-page .t-head {
-  text-align: center;
-  margin: var(--t-section-gap) auto var(--t-item-gap);
-}
-.trial-page .t-head p {
-  margin: 0 !important;
-  color: var(--md-accent-color) !important;
-}
-.trial-page .t-head p + p {
-  margin-top: 0.6rem !important; /* タイトルとサブの間 */
-}
-
 /* --- 目次の見出し（blog の h2 と同じデザイン：┃マーカー・下線なし・2.0em・細字） --- */
 .trial-page .t-toc-head,
 body.trial-doc .t-toc-head {
@@ -75,19 +62,6 @@ body.trial-doc .t-toc-head + p {
   margin-left: auto;
   margin-right: auto;
 }
-/* カード間の余白を一元管理 */
-.trial-page .t-card {
-  margin-top: var(--t-item-gap);
-}
-/* 補足（※）テキスト：カード幅に合わせて中央寄せ・控えめ */
-.trial-page .t-note {
-  max-width: var(--t-card-width);
-  margin: 0.8rem auto 0 !important;
-  font-size: 12px !important;
-  line-height: 1.85 !important;
-  color: var(--md-default-fg-color--light) !important;
-}
-
 /* --- スマホ：余白をやや詰める --- */
 @media only screen and (max-width: 767px) {
   .trial-page {
@@ -96,62 +70,44 @@ body.trial-doc .t-toc-head + p {
   }
 }
 
-/* =========================================================
-   争点（問い → ＥＮＥＯＳの回答）：枠なし・引用型
-   ・争点間は罫線でなく余白で区切る
-   ・問い＝主役（濃色・やや大）／回答＝左罫の引用（ＥＮＥＯＳの言い分）
-   ・※注記はカード内に内包（浮かせない）
-   ========================================================= */
-.claim {
-  max-width: var(--t-card-width);   /* 既存カードと同幅（40rem） */
-  margin: 3.2rem auto 0;            /* 争点間の余白（②以降の上マージン） */
+/* agm/index.md 冒頭のタイトル（H1のみ）の灰色ボックス。Home の .top-title-13 と同じ余白（6rem 0）。
+   幅は本文＝表と同じ幅（画面端までは伸ばさない）。
+   上端は -10rem はみ出させ、ヘッダーの裏に隠すことで、ヘッダー直下からグレーが始まるようにする
+   （Home の .top-title-13::before と同じ手法）。
+   シェアボタンは Home 同様、枠の外（タイトル下の余白部分）に出す。 */
+.agm-hero-band {
+  position: relative;
+  z-index: 0;
+  padding: 6rem 1.2rem;   /* 左右1.2rem（.agm-section と同じ）。Home は文字が32remに収まり枠端に触れないため
+                             左右0でよいが、このページは枠が本文幅いっぱいでテキストに幅の制限もないため必要 */
+  margin: -0.9rem 0 0.2rem 0;   /* 上だけ -0.9rem。Home の .center-container と同じ、.md-main__inner 由来の
+                                   構造上の余白（実測0.9rem）を打ち消し、ヘッダー→タイトルの余白を揃える */
 }
-/* 見出し直後の最初の争点（①）の上余白。見出し下マージン(1.2rem)と加算されるため、
-   合計がブログ目次の見出し→項目（約2rem）と同じになるよう 0.8rem に（1.2+0.8=2rem）。
-   ②以降は上の .claim の 3.2rem。 */
-.t-toc-head + .claim {
-  margin-top: 0.8rem;
+.agm-hero-band::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--surface-gray);
 }
-.claim-num {
-  font-size: 12px !important;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: var(--md-link-color);
-  margin: 0 0 0.4rem !important;
-}
-.claim-q {
-  font-size: 1.3em !important;
-  line-height: 1.55 !important;
-  font-weight: 500;
-  margin: 0 0 1rem !important;
-}
-/* 色は .md-content p の color !important（詳細度0,1,1）に勝つよう、詳細度を上げて確定 */
-.md-content p.claim-q {
-  color: var(--md-link-color) !important;
-}
-.claim-a {
-  border-left: 2px solid var(--md-card-border-soft);
-  padding-left: 1.1rem;
-  margin: 0;
-}
-.claim-a-label {
-  font-size: 11px !important;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: var(--md-default-fg-color--light);
-  margin: 0 0 0.35rem !important;
-}
-.claim-a-text {
-  line-height: 1.95 !important;
-  color: var(--md-typeset-color);
-  margin: 0 !important;
-}
-.claim-note {
-  font-size: 12px !important;
-  line-height: 1.85 !important;
-  color: var(--md-default-fg-color--light);
-  margin: 0.85rem 0 0 1.1rem !important;   /* 回答に揃えて内包 */
+/* シェアボタンは Home の .hero-share と同じ余白（margin-top 0.4rem）・右寄せ。
+   ただしこのページは本文が本文列(32rem)に狭められていない（表が全幅）ため、
+   Home のように width-40 に収めず、全幅の段落のまま右寄せする（表の右端と揃う）。 */
+.agm-hero-share {
+  text-align: right;
+  margin: 0.4rem 0 0 !important;
 }
 @media only screen and (max-width: 767px) {
-  .claim { margin-top: 2.4rem; }
+  .agm-hero-band {
+    /* .agm-section のスマホと同じく、左右パディングは0にして本文と同じ位置に揃え、
+       はみ出す左右の白はbox-shadowで枠と同色に塗る（レイアウト非関与なので横スクロールは出ない）。 */
+    padding-top: 0.5rem;
+    padding-bottom: 1.2rem;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: -50vw 0 0 0 var(--surface-gray), 50vw 0 0 0 var(--surface-gray);
+  }
 }
