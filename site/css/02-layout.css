@@ -1,4 +1,4 @@
-/* 画面余白・タブ・縦スクロールバー・サイドバーのテキスト・スマホで表示・トップとボトムのナビゲーション・センタリング */
+/* 画面余白・タブ・縦スクロールバー・サイドバーのテキスト・センタリング */
 /* 画面余白 */
 /*
 .md-main__inner {
@@ -120,15 +120,6 @@
   overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
   white-space: nowrap;    /* テキストの改行を抑える */
 }
-/* スマホで表示 */
-.mobile {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  .mobile {
-    display: block;
-  }
-}
 /* フッター余白 */
 .md-footer {
   margin-top: 8rem;
@@ -196,14 +187,18 @@
     overflow: visible;   /* スマホ：.agm-section の側面box-shadowを切らないため（box-shadowはレイアウト非関与なので横スクロールは出ない） */
   }
 }
+/* PC：.md-main__inner の margin-top（0.5rem）などに由来する構造上の余白ぶんを打ち消し、
+   ヘッダー→タイトルの間が .top-title-13 の padding-top だけで決まるようにする
+   （実測でヘッダー側だけ0.9rem分余分だったための調整）。 */
+@media only screen and (min-width: 768px) {
+  .center-container {
+    margin-top: -0.9rem;
+  }
+}
 
-/* スマホ：Home 上部ユーティリティ（シェア／言語切替／注記）が右端に詰まらないよう右余白。
-   行間は「シェア→切替」は詰め、ゆとりは「切替（英語版は注記）→タイトル」側に持たせる
-   （タイトルを少し下げる）。PC は対象外。 */
+/* スマホ：Home 上部ユーティリティ（シェア）が右端に詰まらないよう右余白。PC は対象外。 */
 @media only screen and (max-width: 767px) {
-  .md-typeset p.base00,
-  .md-typeset p.lang-switch,
-  .md-typeset p.lang-note {
+  .md-typeset p.base00 {
     padding-right: 0.6rem;
   }
   .center-container {
@@ -309,31 +304,38 @@
 .agm-section > p.larger + p.margin04 {
   margin-top: 4rem !important;
 }
-/* largest 見出しでも margin ユーティリティ（margin04）を効かせる（詳細度で上の固定値に勝たせる） */
-.agm-section > p.largest.margin04 {
-  margin-top: 4rem !important;
-  margin-bottom: 4rem !important;
+/* 「裁判で敗訴はしました…」の上余白を、「合意による支払いだった」と同じ実質98px（4rem+gap10px）に揃える。
+   .agm-section は flex(gap:10px) で、直前の見出しにも margin-bottom（1.6rem）があるため、
+   目標98pxからそれらを差し引いた分だけ、この段落自身に持たせる：
+   calc(4rem + 10px - 1.6rem - 10px) = 2.4rem（+10pxと-10pxが相殺されるので端数なし）。
+   .margin04 側の次見出し「法改正があったため」との間隔（下側）は従来のまま維持。 */
+.agm-section > p.larger + p.verdict-lead {
+  margin-top: 2.4rem !important;
+  margin-bottom: calc(6rem - 4rem - 10px) !important;
+}
+@media only screen and (max-width: 767px) {
+  /* 目標(4rem+10px)はスマホでも縮まらないため、上側は同じ2.4remのまま。
+     下側はこの段落の分をゼロにしてこれ以上広がらないようにする。 */
+  .agm-section > p.larger + p.verdict-lead {
+    margin-bottom: 0 !important;
+  }
 }
 /* 枠内の通常段落でも margin04 を効かせる（詳細度 0,2,1 で .agm-section>p に勝つ）。
    flex はマージン相殺なし＝下マージンは gap・次段落のマージンと加算され過剰になるので、上だけにする。 */
-.agm-section > p.margin03 {
-  margin-top: 3rem !important;
-}
 .agm-section > p.margin04 {
   margin-top: 4rem !important;
 }
-.agm-section > p.margin08 {
-  margin-top: 8rem !important;
-}
-/* グレー枠内の節見出し（.largest「裁判所が示した３つの事実」「再通報と新たな提訴」）を、
-   数字見出し（.larger＝1.6rem）と同じ大きさに揃える。.largest だけ下げれば足りる。
-   モバイルも .larger と同じ 1.2rem。 */
-.agm-section .largest {
-  font-size: 1.6rem !important;
+/* 「法改正があったため」の上余白を「合意による支払いだった」と同じ実質98px（4rem+gap10px）に揃える。
+   直前は verdict-lead（PC: margin-bottom = calc(6rem-4rem-10px) = calc(2rem-10px) ／ スマホ: 0）。
+   flexは加算されるので、目標98px から「直前のmargin-bottom」と「gap 10px」を引いた分をここに持たせる。
+   PC: calc(4rem+10px) − calc(2rem-10px) − 10px = calc(2rem+10px)
+   スマホ: calc(4rem+10px) − 0 − 10px = 4rem */
+.agm-section > p.margin04.agree-gap-agm {
+  margin-top: calc(2rem + 10px) !important;
 }
 @media only screen and (max-width: 767px) {
-  .agm-section .largest {
-    font-size: 1.2rem !important;
+  .agm-section > p.margin04.agree-gap-agm {
+    margin-top: 4rem !important;
   }
 }
 /* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする。
@@ -345,4 +347,20 @@
   width: 100%;
   max-width: 32rem;
   box-sizing: border-box;
+}
+
+/* ビデオ（YouTube埋め込み 16:9。agm ページで使用） */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 アスペクト比 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
