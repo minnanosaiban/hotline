@@ -72,9 +72,6 @@
   background-color: var(--md-bg-blue-color);
 }*/
 
-.bg-blue{
-  background-color: var(--md-bg-blue-color);
-}
 
 /* ダークモード: ヘッダー・ナビゲーションタブ背景をサムネイル背景色と統一 */
 [data-md-color-scheme="slate"] .md-header,

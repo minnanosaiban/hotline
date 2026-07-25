@@ -35,18 +35,3 @@ document.addEventListener("DOMContentLoaded", function () {
   openDetailsFromHash();
   window.addEventListener("hashchange", openDetailsFromHash);
 });
-
-function toggleindex() {
-  const menu = document.getElementById("mobilemokuji");
-  const icon = document.getElementById("mokuji-icon");
-  const isVisible = window.getComputedStyle(menu).display !== "none";
-  if (isVisible) {
-    menu.style.display = "none";
-    icon.classList.remove("fa-sort-down");
-    icon.classList.add("fa-caret-right");
-  } else {
-    menu.style.display = "block";
-    icon.classList.remove("fa-caret-right");
-    icon.classList.add("fa-sort-down");
-  }
-}

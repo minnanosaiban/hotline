@@ -1,4 +1,4 @@
-/* フォント・pタグ・hタグ・強調・下線・文字の大きさ・センタリング・右寄せ・インデント */
+/* フォント・pタグ・hタグ・強調・下線・文字の大きさ・センタリング・インデント */
 /* ============================================================
    文字サイズの正準スケール（単一の基準）  1rem = 20px（Material ルート）
    大きい文字＝rem（入れ子の親に依存せず一定）／本文・小・裁判文書＝px（固定）
@@ -30,33 +30,7 @@
     margin: 0 !important;
   }
 }
-.base64 {
-  margin: 0 6.4rem !important;
-}
-@media screen and (max-width: 768px) {
-  .base64 {
-    margin: 0 !important;
-  }
-}
-.base {
-  margin: 0 3.2rem !important;
-}
-@media screen and (max-width: 768px) {
-  .base {
-    margin: 0 !important;
-  }
-}
-/* 狭い行間 */
-.list {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  line-height: 1.6 !important;
-}
 /* 広い行間 */
-.margin00 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
 .margin01 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
@@ -65,17 +39,18 @@
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
 }
-.margin03 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
-}
 .margin04 {
   margin-top: 4rem !important;
   margin-bottom: 4rem !important;
 }
-.margin08 {
-  margin-top: 8rem !important;
-  margin-bottom: 8rem !important;
+/* 「合意による支払いだった」の上余白（.agm-section内、4rem＋flexのgap 10px＝実質98px）に揃える対象。
+   ここは通常のブロック要素（.agm-section の外）なので、直前要素とはマージン相殺（大きい方が勝つ）。
+   相殺相手（見出しのmargin-bottom等）より確実に大きい calc(4rem + 10px) を指定すれば、
+   そのままこの値が実際の余白になる（このページ内では常にこちらが大きいので、ブレイクポイント毎の調整は不要）。
+   対象：本サイトで問題提起をするのは／調査事項を曖昧にして回答／裏づけが確認できない情報／
+        海外消費税の支払を契約化／解決策とされた海外子会社から本社への送金について */
+.agree-gap {
+  margin-top: calc(4rem + 10px) !important;
 }
 /* タイプセット */
 /*
@@ -195,21 +170,7 @@ strong em {
 strong {
   font-style: 700;
 }
-.kasen {
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  text-decoration-color: var(--md-main-color);
-  text-decoration-thickness: 1px;
-}
-.blue {
-  color: var(--md-main-color) !important;
-}
 /* 文字の大きさ */
-.large {
-  font-size: 1.28rem !important;
-  line-height: 1.4 !important;
-  font-weight: 700 !important;
-}
 .larger {
   font-size: 1.6rem !important;
   line-height: 1.4 !important;
@@ -223,20 +184,9 @@ strong {
 .larger.width-40.margin02 {
   font-size: 1.2rem !important;
 }
-.largest {
-  font-size: 2.56rem !important;
-  line-height: 1.4 !important;
-  font-weight: 300 !important;
-}
 @media only screen and (max-width: 767px) {
-  .large {
-    font-size: 1.1rem !important;
-  }
   .larger {
     font-size: 1.2rem !important;
-  }
-  .largest {
-    font-size: 1.92rem !important;
   }
 }
 /* ホーム導入の問題提起見出し（１・２・３）：1.2rem 太字（.larger とは別スケール） */
@@ -246,9 +196,10 @@ strong {
   line-height: 1.4 !important;
 }
 /* ホームの節見出し（本サイトの問題提起／確認できない３つの情報／再通報と新たな問題）：
-   サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。 */
+   サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。
+   フォントサイズはメインタイトル（h1.top-title-13）と同じに揃える（PC 2.4rem／スマホ 1.6rem）。 */
 .sec-title {
-  font-size: 2.0rem !important;
+  font-size: 2.4rem !important;
   font-weight: 300 !important;
   line-height: 1.25 !important;
   letter-spacing: 0.06em;
@@ -256,12 +207,9 @@ strong {
 }
 @media only screen and (max-width: 767px) {
   .sec-title {
-    font-size: 1.35rem !important;   /* スマホ：メイン題(1.6rem)より一段下げ、階層を保つ */
+    font-size: 1.6rem !important;
     font-weight: 500 !important;     /* スマホは大きくできないぶん、太字で見出し感を出す（デスクトップは細字のまま） */
   }
-}
-.small {
-  font-size: 16px !important;
 }
 .smaller {
   font-size: 14px !important;
@@ -270,9 +218,6 @@ strong {
   font-size: 12px !important;
 }
 /* .doc に small/smallest を併用したら、その文字サイズを優先（箱内の引用を本文と同じ大きさにする等） */
-.doc.small {
-  font-size: 14px !important;
-}
 .doc.smallest {
   font-size: 12px !important;
 }
@@ -282,14 +227,6 @@ strong {
 }
 @media only screen and (max-width: 767px) {
   .center {
-    text-align: left;
-  }
-}
-.right {
-  text-align: right;
-}
-@media only screen and (max-width: 767px) {
-  .right {
     text-align: left;
   }
 }
@@ -336,28 +273,12 @@ strong {
   padding-left:3em;
   text-indent:-3em;
   }
-.hg-idt4 {
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
-  line-height: 2.4 !important;
-  font-size: 16px !important;
-  margin: 0;
-  padding-left:4em;
-  text-indent:-4em;
-  }
-.hg-idt6 {
-  line-height: 2.4 !important;
-  font-size: 16px !important;
-  margin: 0;
-  padding-left:6em;
-  text-indent:-6em;
-  }
-/* 裁判文書本文は明朝体（公式文書らしさ／サイト解説文と書体で差別化）。サイズ・行間・インデントは現状維持 */
-.doc, .idt, .hg-idt, .hg-idt2, .hg-idt3, .hg-idt4, .hg-idt6 {
+                                                         
+.doc, .idt, .hg-idt, .hg-idt2, .hg-idt3 {
   font-family: "Noto Serif JP", serif !important;
 }
-/* 文書内のリンク（「ＰＤＦの用意があります」等の案内）はゴシックに戻す（本文ではないため） */
-.doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a, .hg-idt4 a, .hg-idt6 a {
+                                                  
+.doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a {
   font-family: "Noto Sans JP", sans-serif !important;
 }
 .pad1 {
@@ -387,9 +308,6 @@ strong {
 .pad9 {
   padding-left:9em;
   }
-.pad10 {
-  padding-left:10em;
-  }
 /* １行の文字数（トップタイトル） */
 .top-title-13 {
   max-width: 32rem;  /* 本文・グレー帯と同じ列幅に揃える（旧 13em） */
@@ -412,39 +330,34 @@ strong {
 }
 
 /* タイトルの全幅グレー帯：ヘッダー(#e5e7ea)より一段薄い #f2f2f2 を ::before で画面端まで敷く。
+   top を大きめの負値にして、はみ出した分はヘッダーの裏に隠すことで、ヘッダー直下から
+   グレーが途切れなく続くようにする（シェアボタンの有無に関係なく安定する一本化した方式）。
    ※ center-container は overflow:visible が前提（はみ出しをクリップしない） */
 .top-title-13 {
   position: relative;
   z-index: 0;
-  padding: 2rem 0;
+  padding: 6rem 0;   /* サイト全体の余白リズム（6rem＝.issue-lead等と同じ）に揃える */
 }
 .top-title-13::before {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: -10rem;
   bottom: 0;
   left: 50%;
   margin-left: -50vw;
   width: 100vw;
   background: var(--surface-gray);   /* 共通変数（ライト#eef1f5／ダーク#16263c） */
 }
-/* 上部ユーティリティ（シェア／言語切替）も同じグレー帯に含め、ヘッダー直下まで連続させる。
-   ::before の top を大きめの負値にして、上にはみ出した分はヘッダー背景の裏に隠す */
-.hero-utils {
-  position: relative;
-  z-index: 0;
-}
-.hero-utils::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -10rem;
-  bottom: -2rem;   /* スマホの center-container 上パディング分の白い隙間を、タイトル帯と重ねて埋める */
-  left: 50%;
-  margin-left: -50vw;
-  width: 100vw;
-  background: var(--surface-gray);
+/* シェアボタンはグレー帯の外（タイトルの下の余白部分）に置く、ふつうの1行。
+   width-40 で本文と同じ32rem列に揃え、その中で text-align:right。
+   center-container は align-items:center（内容量に応じて縮む）なので、
+   width:100% で列幅いっぱいに広げてから右寄せしないと、中身が短い行は中央に来てしまう。
+   本文（width-40 の段落）の右端とシェアボタンの右端が揃う。 */
+.hero-share {
+  width: 100%;
+  text-align: right;
+  margin: 0.4rem 0 0 !important;
 }
 @media only screen and (max-width: 767px) {
   .top-title-13 {
@@ -455,36 +368,6 @@ strong {
   /* 長い題がスマホで語の途中折れ＋4行にならないよう、ホーム題のみ少し縮小し、各句（最長「めぐる訴訟について」）が1行に収まるようにする */
   .md-typeset h1.top-title-13 {
     font-size: 1.6rem !important;
-  }
-  }
-.top-title-11 {
-  max-width: 11em;
-  overflow-wrap: break-word;
-  white-space: normal;
-}
-@media only screen and (max-width: 767px) {
-  .top-title-11 {
-    max-width: 100%;
-  }
-  }
-.top-title-9 {
-  max-width: 9em;
-  overflow-wrap: break-word;
-  white-space: normal;
-  }
-@media only screen and (max-width: 767px) {
-  .top-title-9 {
-    max-width: 100%;
-  }
-  }
-.top-title-7 {
-  max-width: 100%;
-}
-@media only screen and (max-width: 767px) {
-  .top-title-7 {
-    max-width: 7em;
-    overflow-wrap: break-word;
-    white-space: normal;
   }
   }
 /* １行の文字数（４０文字） */

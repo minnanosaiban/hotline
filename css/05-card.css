@@ -1,10 +1,3 @@
-/* カード内のテキスト（ホバー未対応） */
-.card-text {
-  font-size: 1em !important;
-  line-height: 2 !important;
-  padding: 0;
-  margin: 1.6rem 0 !important;
-  }
 /* カード */
 .card {
   border: 1px solid #ddd;
@@ -33,28 +26,6 @@
   }
 .card-bule, .card-bule * {
   box-sizing: border-box;
-}
-/* 通報者への措置（index）：PC は通常の card-bule 枠を表示。スマホ（≤767px）だけ
-   枠・区切り線を外し、本文（width-40）と同じ左右幅に揃える。
-   パディングも 0 にして、枠が無い分の余白は前後の margin に任せる
-   （枠上パディングが「裁判所の判断」の下に上乗せされて上下非対称になるのを防ぐ）。 */
-@media only screen and (max-width: 767px) {
-  .card-bule.card-divider {
-    border: none;
-    padding: 0 !important;
-  }
-}
-/* card-divider 枠の先頭要素（タイトル）の上マージンを 0 に。
-   「タイトル上の余白＝padding-top」と「アコーディオン下の余白＝padding-bottom」を
-   同じ 1.6rem に揃える（タイトルの margin01 上1rem が padding に上乗せされるのを防ぐ）。 */
-.card-bule.card-divider > p:first-child {
-  margin-top: 0 !important;
-}
-/* card-divider 枠内：アコーディオン上の余白（既定 margin1.4rem＋padding0.9rem＝約2.3rem）を
-   段落間（margin01＝1rem）と揃える（少し広かったため）。 */
-.card-bule.card-divider .card-accordion {
-  margin-top: 1rem !important;
-  padding-top: 0 !important;
 }
 /* グレー枠内のアコーディオン：上の余白を下（次段落の margin02＝1.6rem）と揃える。
    .md-typeset を足して既定ルール(.md-typeset details.card-accordion)に詳細度で勝たせる。 */
@@ -121,13 +92,6 @@
 .md-typeset .card-accordion[open] > summary::before {
   content: "－";
 }
-/* ラベル末尾の動詞を開閉で切り替え（読む／閉じる） */
-.md-typeset .card-accordion > summary .acc-verb::after {
-  content: "読む";
-}
-.md-typeset .card-accordion[open] > summary .acc-verb::after {
-  content: "閉じる";
-}
 /* material の右側トグルシェブロン（::after）を消す */
 .md-typeset .card-accordion > summary::after {
   display: none !important;
@@ -143,11 +107,6 @@
     padding-left: 0;
     padding-right: 0;
   }
-}
-/* ホームの「通報者への措置」枠（card-divider）内アコーディオンの本文（.doc＝明朝）だけ 14px。
-   他ページの card-bule アコーディオンは .doc 既定の 16px のまま（このルールを枠に限定して誤適用を防ぐ）。 */
-.card-bule.card-divider .accordion-body .doc {
-  font-size: 14px !important;
 }
 /* テーブル */
 .table-set{
@@ -313,32 +272,7 @@
   margin: 0 auto;
 }
 
-/* 音声カードの 2 カラム表示（目次より広めの余白で窮屈さを回避） */
-.audio-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.75rem;
-  margin: 0.5rem 0 0.4rem;
-}
-@media only screen and (max-width: 767px) {
-  .audio-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-}
-/* 2 カラム内：幅上限を外して列いっぱいに使い、余白とタイトルを微調整 */
-.audio-grid .card-bule:has(.audio-content) {
-  max-width: none !important;
-  padding: 1.5rem 1.3rem !important;   /* 上下に余白を足して窮屈さを解消 */
-}
-.audio-grid .card-bule:has(.audio-content) .larger {
-  font-size: 1.05em !important;
-  margin: 0 0 0.85rem !important;      /* タイトル→プレーヤーの間隔を広げる */
-}
-.audio-grid .card-bule:has(.audio-content) .audio-content {
-  margin: 0 0 0.85rem !important;      /* プレーヤー→注記の間隔を広げる */
-}
-/* audio-stack：音声カード（audio-wide）を全幅で縦に積むコンテナ。eneos_claims 等。 */
+/* audio-stack：音声カード（audio-wide）を全幅で縦に積むコンテナ。 */
 .audio-stack {
   display: grid;
   gap: 1.5rem;

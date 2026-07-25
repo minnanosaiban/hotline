@@ -187,20 +187,6 @@ body.blog-post-page .md-typeset blockquote small * {
 }
 
 /* blog index 目次: フェーズ見出し */
-.toc-phase {
-  margin-top: 1.4em !important;
-  margin-bottom: 0.4em !important;
-  padding-bottom: 0.25em;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  color: var(--md-link-color);
-  letter-spacing: 0.02em;
-}
-.toc-phase:first-child {
-  margin-top: 0 !important;
-}
-.toc-phase b {
-  margin-right: 0.6em;
-}
 
 /* details アコーディオン: 非エンジニアにも開閉できると分かるデザイン */
 body.blog-post-page .md-typeset details {
@@ -269,26 +255,6 @@ body.blog-post-page .md-typeset details[open] > summary {
 
 
 /* ===== [旧 12-ref-card.css] 用語リンクカード（細枠・外部参照用） ===== */
-.ref-cards-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--md-default-fg-color--light);
-  margin: 0 0 0.4rem 0;
-}
-.ref-cards-label i {
-  color: var(--md-link-color);
-  margin-right: 0.35rem;
-}
-.ref-cards {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.6rem;
-  margin: 0.6rem 0 1.2rem 0;
-}
-@media only screen and (min-width: 768px) {
-  .ref-cards.cols-2 { grid-template-columns: repeat(2, 1fr); }
-  .ref-cards.cols-3 { grid-template-columns: repeat(3, 1fr); }
-}
 /* カード本体（細枠） */
 .ref-card {
   display: flex;
@@ -304,13 +270,6 @@ body.blog-post-page .md-typeset details[open] > summary {
 .ref-card:hover {
   border-color: var(--md-link-hover-color);
   background-color: var(--md-default-fg-color--lightest);
-}
-.ref-card-icon {
-  flex: 0 0 auto;
-  font-size: 1.15rem;
-  width: 1.4rem;
-  text-align: center;
-  color: var(--md-link-color);
 }
 .ref-card-body {
   flex: 1 1 auto;
@@ -328,16 +287,6 @@ body.blog-post-page .md-typeset details[open] > summary {
   line-height: 1.45;
   color: var(--md-default-fg-color--light);
   margin-top: 0.1rem;
-}
-.ref-card-arrow {
-  flex: 0 0 auto;
-  font-size: 0.8rem;
-  color: var(--md-default-fg-color--light);
-  transition: transform 0.2s ease, color 0.2s ease;
-}
-.ref-card:hover .ref-card-arrow {
-  transform: translateX(3px);
-  color: var(--md-link-hover-color);
 }
 .ref-card:hover .ref-card-title {
   color: var(--md-link-hover-color) !important;
