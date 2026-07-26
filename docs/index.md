@@ -10,11 +10,11 @@ hide:
 ---
 
 <div class="center-container" markdown>
-<h1 class="top-title-13">
+<h1 class="hero-band top-title-13">
   <b><span class="tl-line"><span style="color: var(--md-accent-color);">ＥＮＥＯＳ</span>の</span><span class="tl-line">内部通報制度を</span><span class="tl-line">めぐる訴訟について</span></b>
 </h1>
 
-<p class="base00 hero-share width-40">
+<p class="base00 hero-share">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア

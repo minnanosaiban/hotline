@@ -308,12 +308,40 @@ strong {
 .pad9 {
   padding-left:9em;
   }
-/* １行の文字数（トップタイトル） */
-.top-title-13 {
-  max-width: 32rem;  /* 本文・グレー帯と同じ列幅に揃える（旧 13em） */
+/* ページ冒頭タイトルの共通枠組み（Home の <h1 class="hero-band top-title-13"> と
+   agm/trial の <div class="hero-band"> で共用。旧 .agm-hero-band と統合）。
+   本文幅(32rem)・上下余白(6rem 0)・グレー帯の画面端張り出しは全ページ共通。
+   グレー帯は ::before を画面端(100vw)まで敷き、top を大きめの負値にしてヘッダーの裏に隠すことで、
+   ヘッダー直下からグレーが途切れなく続くようにする。
+   ※ center-container は overflow:visible が前提（はみ出しをクリップしない） */
+.hero-band {
+  position: relative;
+  z-index: 0;
+  max-width: 32rem;
+  padding: 6rem 0;   /* サイト全体の余白リズム（6rem＝.issue-lead等と同じ）に揃える */
   overflow-wrap: break-word;
   white-space: normal;
 }
+.hero-band::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50vw;
+  width: 100vw;
+  background: var(--surface-gray);   /* 共通変数（ライト#eef1f5／ダーク#16263c） */
+}
+@media only screen and (max-width: 767px) {
+  .hero-band {
+    max-width: 100%;
+    padding-top: 0.5rem;     /* スマホ：タイトル上の余白を詰める（既定 2rem を上書き） */
+    padding-bottom: 1.2rem;
+  }
+}
+
+/* Home 冒頭タイトル固有の文字組み（幅・余白・グレー帯は上の .hero-band 側で共通化済み） */
 /* タイトルの句単位改行：句のまとまりを inline-block にし、まとまりの“間”でだけ折る。
    固定改行(<br>)でなくレスポンシブ。「内部通報制度」など語の途中では折れない。 */
 .top-title-13 .tl-line {
@@ -327,49 +355,22 @@ strong {
   .top-title-13 b {
     font-weight: 500 !important;   /* スマホだけ少し太く */
   }
+  /* 長い題がスマホで語の途中折れ＋4行にならないよう、ホーム題のみ少し縮小し、各句（最長「めぐる訴訟について」）が1行に収まるようにする */
+  .md-typeset h1.top-title-13 {
+    font-size: 1.6rem !important;
+  }
 }
 
-/* タイトルの全幅グレー帯：ヘッダー(#e5e7ea)より一段薄い #f2f2f2 を ::before で画面端まで敷く。
-   top を大きめの負値にして、はみ出した分はヘッダーの裏に隠すことで、ヘッダー直下から
-   グレーが途切れなく続くようにする（シェアボタンの有無に関係なく安定する一本化した方式）。
-   ※ center-container は overflow:visible が前提（はみ出しをクリップしない） */
-.top-title-13 {
-  position: relative;
-  z-index: 0;
-  padding: 6rem 0;   /* サイト全体の余白リズム（6rem＝.issue-lead等と同じ）に揃える */
-}
-.top-title-13::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -10rem;
-  bottom: 0;
-  left: 50%;
-  margin-left: -50vw;
-  width: 100vw;
-  background: var(--surface-gray);   /* 共通変数（ライト#eef1f5／ダーク#16263c） */
-}
-/* シェアボタンはグレー帯の外（タイトルの下の余白部分）に置く、ふつうの1行。
-   width-40 で本文と同じ32rem列に揃え、その中で text-align:right。
+/* シェアボタン（タイトル帯の外、余白部分に右寄せで置く）。Home・agm・trial 共通（旧 .agm-hero-share と統合）。
    center-container は align-items:center（内容量に応じて縮む）なので、
    width:100% で列幅いっぱいに広げてから右寄せしないと、中身が短い行は中央に来てしまう。
    本文（width-40 の段落）の右端とシェアボタンの右端が揃う。 */
 .hero-share {
   width: 100%;
+  max-width: 32rem;
   text-align: right;
   margin: 0.4rem 0 0 !important;
 }
-@media only screen and (max-width: 767px) {
-  .top-title-13 {
-    max-width: 100%;
-    padding-top: 0.5rem;     /* スマホ：タイトル上の余白を詰める（既定 2rem を上書き） */
-    padding-bottom: 1.2rem;
-  }
-  /* 長い題がスマホで語の途中折れ＋4行にならないよう、ホーム題のみ少し縮小し、各句（最長「めぐる訴訟について」）が1行に収まるようにする */
-  .md-typeset h1.top-title-13 {
-    font-size: 1.6rem !important;
-  }
-  }
 /* １行の文字数（４０文字） */
 .width-40 {
   max-width: 32rem;

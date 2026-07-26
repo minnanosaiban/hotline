@@ -4,23 +4,26 @@ description: ENEOS内部通報制度訴訟の裁判文書一覧です。ＥＮ�
 url: https://minnanosaiban.github.io/hotline/trial/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
+hide:
+  - navigation
+  - toc
 ---
 
-<div class="agm-hero-band" markdown>
+<div class="trial-page center-container" markdown>
+
+<div class="hero-band" markdown>
 # 裁判文書公開
 <p>
 判決文、および、裁判文書を公開します。NotebookLM（ＡＩ）による音声解説もあります。
 </p>
 </div>
 
-<p class="base00 agm-hero-share">
+<p class="base00 hero-share">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
-
-<div class="trial-page" markdown>
 
 <div markdown>
 <p class="larger width-40 margin02 agree-gap">
@@ -77,4 +80,5 @@ twitter_card: summary
 高裁判決は、この「法的利益」をめぐる反論に応じることなく、地裁の判断を丸ごと入れ替え、争点を退ける理由を理由１・理由２に差し替えました。控訴人の主張は、判決の中で実質的に検討されていません。
 </p>
 
+</div>
 </div>
