@@ -250,6 +250,12 @@
 [data-md-color-scheme="slate"] .agm-section {
   --agm-bg: var(--surface-gray);   /* ダーク時も共通変数で統一（#16263c） */
 }
+/* 番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
+   節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。PC・スマホ共通。 */
+.agm-section > p:has(.larger) {
+  align-self: flex-start;
+  text-align: left;
+}
 @media only screen and (max-width: 767px) {
   .agm-section {
     /* スマホ：枠内テキストを白い本文と同じ左右位置に揃える（横padding 0）。
@@ -259,12 +265,6 @@
     /* スマホ：枠の前後の大余白も h2(8rem→3rem)に合わせて圧縮。上下対称（上3rem/下3rem）にする */
     margin-top: 3rem;
     margin-bottom: 3rem;
-  }
-  /* スマホ：番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
-     節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。 */
-  .agm-section > p:has(.larger) {
-    align-self: flex-start;
-    text-align: left;
   }
   /* 節見出し（.center larger）はスマホでも中央寄せ。.center の既定（スマホ＝左寄せ）を上書き。
      2行は先頭ぞろえでなく各行センターでよい。
