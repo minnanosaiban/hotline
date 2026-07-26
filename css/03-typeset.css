@@ -195,6 +195,23 @@ strong {
   font-weight: 700 !important;
   line-height: 1.4 !important;
 }
+/* 見出し感を太字ではなく行頭バーで出す（blog記事のh2・agm/index.mdの質問Nと共通）。
+   フォントサイズ・太さは併用するクラス（.larger 等）側に委ねる。
+   バーは絶対配置にして段落の高さ全体に伸ばす（タイトル＋「ただし…」の2行構成でも通しで届く）。 */
+.bar-title {
+  position: relative;
+  padding-left: 0.74rem;
+}
+.bar-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.24rem;
+  background-color: var(--md-link-color);
+  border-radius: 1px;
+}
 /* ホームの節見出し（本サイトの問題提起／確認できない３つの情報／再通報と新たな問題）：
    サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。
    フォントサイズはメインタイトル（h1.top-title-13）と同じに揃える（PC 2.4rem／スマホ 1.6rem）。 */

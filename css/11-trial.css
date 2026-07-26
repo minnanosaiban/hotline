@@ -76,31 +76,3 @@ body.trial-doc .t-toc-head + p {
    タイトル帯・シェアボタンは Home と共通の .hero-band / .hero-share（03-typeset.css）をそのまま使う
    （旧 .agm-hero-band / .agm-hero-share は統合済み）。 */
 
-/* agm/index.md：ENEOS TV の質問一覧（表ではなくカード）。
-   スマホでも横スクロールが出ないよう、罫線を使わず余白だけで項目を区切る（案B採用）。 */
-.qa-item {
-  width: 100%;
-  max-width: 32rem;
-  margin-top: 3rem;
-}
-.qa-item:first-of-type {
-  margin-top: 1.6rem;
-}
-.qa-num {
-  color: var(--md-link-color);
-  font-weight: 700;
-  font-size: 1.1rem;
-  margin: 0 0 0.3rem !important;
-}
-.qa-label {
-  color: var(--md-link-color);
-  font-weight: 700;
-  font-size: 0.92rem;
-  margin: 1rem 0 0.2rem !important;
-}
-.qa-item .qa-label:first-of-type {
-  margin-top: 0.2rem !important;
-}
-.qa-text {
-  margin: 0 !important;
-}
