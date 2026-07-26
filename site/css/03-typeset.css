@@ -90,7 +90,7 @@ h1 {
 }
 @media only screen and (max-width: 767px) {
   .md-typeset h1 {
-    font-size: 1.9rem !important;   /* スマホ：長いタイトルの画面占有を抑える（2.24→1.9rem）。戻すなら2.24rem、2行に詰めるなら1.6rem */
+    font-size: 1.7rem !important;   /* Home（h1.top-title-13）のスマホサイズと統一 */
   }
 }
 /*
@@ -214,7 +214,7 @@ strong {
 }
 /* ホームの節見出し（本サイトの問題提起／確認できない３つの情報／再通報と新たな問題）：
    サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。
-   フォントサイズはメインタイトル（h1.top-title-13）と同じに揃える（PC 2.4rem／スマホ 1.6rem）。 */
+   フォントサイズ・太さはメインタイトル（h1.top-title-13）と同じに揃える（PC 2.4rem／スマホ 1.7rem・太さは常に300）。 */
 .sec-title {
   font-size: 2.4rem !important;
   font-weight: 300 !important;
@@ -224,8 +224,7 @@ strong {
 }
 @media only screen and (max-width: 767px) {
   .sec-title {
-    font-size: 1.6rem !important;
-    font-weight: 500 !important;     /* スマホは大きくできないぶん、太字で見出し感を出す（デスクトップは細字のまま） */
+    font-size: 1.7rem !important;
   }
 }
 .smaller {
@@ -364,17 +363,15 @@ strong {
 .top-title-13 .tl-line {
   display: inline-block;
 }
-/* タイトルは細字(300)で上品に。<b>の太字を解除し、大きさ＋アクセント色で“題”として立たせる */
+/* タイトルは細字(300)で上品に。<b>の太字を解除し、大きさ＋アクセント色で“題”として立たせる（PC・スマホ共通） */
 .top-title-13 b {
   font-weight: 300 !important;
 }
 @media only screen and (max-width: 767px) {
-  .top-title-13 b {
-    font-weight: 500 !important;   /* スマホだけ少し太く */
-  }
-  /* 長い題がスマホで語の途中折れ＋4行にならないよう、ホーム題のみ少し縮小し、各句（最長「めぐる訴訟について」）が1行に収まるようにする */
+  /* 句のまとまり（ＥＮＥＯＳの／内部通報制度を／めぐる訴訟について）がそれぞれ1行に収まり、
+     かつ画面端で文字が欠けないサイズとして実測で選んだ値（2.24rem＝他ページのh1標準サイズだと右端が欠ける）。 */
   .md-typeset h1.top-title-13 {
-    font-size: 1.6rem !important;
+    font-size: 1.7rem !important;
   }
 }
 
