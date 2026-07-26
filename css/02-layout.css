@@ -352,6 +352,7 @@
 /* ビデオ（YouTube埋め込み 16:9。agm ページで使用） */
 .video-container {
   position: relative;
+  width: 100%;   /* .center-container（flex + align-items:center）内で幅0に縮まないよう明示 */
   padding-bottom: 56.25%; /* 16:9 アスペクト比 */
   height: 0;
   overflow: hidden;

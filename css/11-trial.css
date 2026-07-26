@@ -70,44 +70,37 @@ body.trial-doc .t-toc-head + p {
   }
 }
 
-/* agm/index.md 冒頭のタイトル（H1のみ）の灰色ボックス。Home の .top-title-13 と同じ余白（6rem 0）。
-   幅は本文＝表と同じ幅（画面端までは伸ばさない）。
-   上端は -10rem はみ出させ、ヘッダーの裏に隠すことで、ヘッダー直下からグレーが始まるようにする
-   （Home の .top-title-13::before と同じ手法）。
-   シェアボタンは Home 同様、枠の外（タイトル下の余白部分）に出す。 */
-.agm-hero-band {
-  position: relative;
-  z-index: 0;
-  padding: 6rem 1.2rem;   /* 左右1.2rem（.agm-section と同じ）。Home は文字が32remに収まり枠端に触れないため
-                             左右0でよいが、このページは枠が本文幅いっぱいでテキストに幅の制限もないため必要 */
-  margin: -0.9rem 0 0.2rem 0;   /* 上だけ -0.9rem。Home の .center-container と同じ、.md-main__inner 由来の
-                                   構造上の余白（実測0.9rem）を打ち消し、ヘッダー→タイトルの余白を揃える */
+/* agm/index.md・trial/index.md：ページ全体を Home と同じ .center-container（flex column + align-items:center）
+   で包む（HTML側で class="center-container" / "trial-page center-container" を付与）。
+   これにより本文（見出し・段落）も Home と同じ仕組みで中央寄せされる。
+   タイトル帯・シェアボタンは Home と共通の .hero-band / .hero-share（03-typeset.css）をそのまま使う
+   （旧 .agm-hero-band / .agm-hero-share は統合済み）。 */
+
+/* agm/index.md：ENEOS TV の質問一覧（表ではなくカード）。
+   スマホでも横スクロールが出ないよう、罫線を使わず余白だけで項目を区切る（案B採用）。 */
+.qa-item {
+  width: 100%;
+  max-width: 32rem;
+  margin-top: 3rem;
 }
-.agm-hero-band::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -10rem;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: var(--surface-gray);
+.qa-item:first-of-type {
+  margin-top: 1.6rem;
 }
-/* シェアボタンは Home の .hero-share と同じ余白（margin-top 0.4rem）・右寄せ。
-   ただしこのページは本文が本文列(32rem)に狭められていない（表が全幅）ため、
-   Home のように width-40 に収めず、全幅の段落のまま右寄せする（表の右端と揃う）。 */
-.agm-hero-share {
-  text-align: right;
-  margin: 0.4rem 0 0 !important;
+.qa-num {
+  color: var(--md-link-color);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem !important;
 }
-@media only screen and (max-width: 767px) {
-  .agm-hero-band {
-    /* .agm-section のスマホと同じく、左右パディングは0にして本文と同じ位置に揃え、
-       はみ出す左右の白はbox-shadowで枠と同色に塗る（レイアウト非関与なので横スクロールは出ない）。 */
-    padding-top: 0.5rem;
-    padding-bottom: 1.2rem;
-    padding-left: 0;
-    padding-right: 0;
-    box-shadow: -50vw 0 0 0 var(--surface-gray), 50vw 0 0 0 var(--surface-gray);
-  }
+.qa-label {
+  color: var(--md-link-color);
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin: 1rem 0 0.2rem !important;
+}
+.qa-item .qa-label:first-of-type {
+  margin-top: 0.2rem !important;
+}
+.qa-text {
+  margin: 0 !important;
 }

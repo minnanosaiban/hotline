@@ -132,6 +132,7 @@
 }
 .toc-grid {
   display: grid;
+  width: 100%;   /* .center-container（flex + align-items:center）内で幅が縮まないよう明示 */
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
   margin: 0 0 0.4rem 0;
