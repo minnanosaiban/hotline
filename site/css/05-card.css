@@ -101,6 +101,23 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+/* アコーディオン同士が連続するとき（理由１・理由２など）は margin02 相当の間隔より詰める */
+.md-typeset .card-accordion + .card-accordion {
+  margin-top: 0.8rem !important;
+}
+/* アコーディオン内は文字サイズを判決文の16pxより一段小さい14pxに（フォントはサイト共通のゴシックのまま） */
+.md-typeset .card-accordion .accordion-body {
+  font-size: 14px;
+}
+/* 判決文からの引用（blockquote）部分だけ、判決文（.doc等）と同じ書体にする */
+.md-typeset .card-accordion .accordion-body blockquote {
+  font-family: "Noto Serif JP", serif;
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
+}
+.md-typeset .card-accordion .accordion-body blockquote a {
+  font-family: "Noto Sans JP", sans-serif;
+}
 /* スマホ（≤767px）はアコーディオン本文の左右パディングを無くす */
 @media only screen and (max-width: 767px) {
   .md-typeset .card-accordion .accordion-body {
