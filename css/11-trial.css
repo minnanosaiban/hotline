@@ -55,6 +55,12 @@ body.trial-doc .t-toc-head::before {
 body.trial-doc .t-toc-head + p {
   margin-top: -0.8rem !important;
 }
+/* ただし .lead-normal-gap を付けた場合は詰めず、他の段落と同じ margin02 の間隔に揃える
+   （judgement_2025.md「判決の概要」冒頭のリード文：見出い直後だけ詰まって見えるのを防ぐ） */
+.trial-page .t-toc-head + p.lead-normal-gap,
+body.trial-doc .t-toc-head + p.lead-normal-gap {
+  margin-top: 2rem !important;
+}
 
 /* --- カード（音声・Q&A）を共通幅で中央寄せに統一 --- */
 .trial-page .card-bule {
