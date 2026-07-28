@@ -12,6 +12,20 @@ body.trial-doc {
   --t-card-width: 40rem;   /* カードの共通幅 */
 }
 
+/* trial/index.md：目次見出し＋目次カードを包む直接の子div。
+   .toc-grid の width:100% は「.center-container の直接の子」を前提にした指定のため、
+   間にこの無名divが挟まると基準の幅が定まらず縮んでしまう（2026-07-26の構造変更で発生）。
+   このdiv自身にも width:100% を明示し、直接の子の連鎖を保つ。
+   幅の上限は --t-card-width（40rem、カード単体向けの値）ではなく、
+   Home/agm ページの本文・見出し（.width-40 / .agm-section）と同じ 32rem に揃える。
+   これによりページごとに本文の列幅がばらつかず、trial だけ広く/狭く見える問題を防ぐ。 */
+.trial-page .toc-wrap {
+  width: 100%;
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* グレー枠（.agm-section）の幅を、上の目次カード（.toc-grid）や本文全体の幅に揃える。
    共通CSS側の既定（32rem固定）は本文(width-40)向けの指定で、このページでは
    枠だけが目次カードより狭く見えてしまうため、trial ページに限り幅の制限を外す。

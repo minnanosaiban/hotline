@@ -25,7 +25,7 @@ hide:
   </a>
 </p>
 
-<div markdown>
+<div class="toc-wrap" markdown>
 
 <p class="t-toc-head">2025年9月判決</p>
 
