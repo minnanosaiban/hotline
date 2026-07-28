@@ -112,8 +112,8 @@
 /* 判決文からの引用（blockquote）部分だけ、判決文（.doc等）と同じ書体にする */
 .md-typeset .card-accordion .accordion-body blockquote {
   font-family: "Noto Serif JP", serif;
-  margin-top: 2.4em;
-  margin-bottom: 2.4em;
+  margin-top: 3.2em;
+  margin-bottom: 3.2em;
 }
 .md-typeset .card-accordion .accordion-body blockquote a {
   font-family: "Noto Sans JP", sans-serif;
