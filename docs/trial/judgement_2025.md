@@ -104,29 +104,45 @@ twitter_card: summary
 </details>
 
 <details class="card-accordion width-40" markdown>
-<summary>判決文に基づく時系列</summary>
+<summary>判決文の認定事実に基づく時系列</summary>
 <div class="accordion-body" markdown>
 
 かかわった事実を判決文に基づいてタイムラインで示しました。判決文で採用されなった事実も証拠とともに２つ追加しています（<span class="tl-star"></span>で示しています）。
 
 <ul class="tl-c">
-<li class="tl-ev"><span class="tl-date">平成２８年１月７日</span><span class="tl-body">費用として計上されている付加価値税（ＧＳＴ）があることを上司（ＧＭ）に伝える　<a class="tl-src" href="#2025-kousai-judgment_nintei-a">認定事実ア <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成２８年９月１０日</span><span class="tl-body">付加価値税は豪州子会社（ＪＸＡ）に還付されたとの説明を受ける。振替処理などは未確認のまま　<a class="tl-src" href="#2025-kousai-judgment_nintei-a">認定事実ア <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成２８年９月１４日</span><span class="tl-body">コンプライアンスホットラインへ通報（本件通報）　<a class="tl-src" href="#2025-kousai-judgment_nintei-a">認定事実ア <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成２８年１２月２８日</span><span class="tl-body">経理部の回答が伝えられる。<span class="tl-quote">「還付処理をしているか自体が不明」</span>である場合は問い合わせを、という留保付き　<a class="tl-src" href="#2025-kousai-judgment_nintei-i">認定事実イ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成２９年１月４日</span><span class="tl-body">業務フローの理解として<span class="tl-quote">「外国企業との企業間の契約書作成」</span>に触れたメールを送る　<a class="tl-src" href="#2025-kousai-judgment_nintei-u">認定事実ウ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev tl-out"><span class="tl-date">平成２９年３月</span><span class="tl-body">実際には還付が受けられていなかったことが判明（前年９月の説明は誤りだった）　<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev tl-out"><span class="tl-date">平成２９年</span><span class="tl-body">ＧＳＴ業務の移管により、通報者は契約に関する情報から<span class="tl-quote">「遮断された状態」</span>になる（被告が訴訟の認否で認めた事実）　<a class="tl-src" href="/hotline/trial/eneos/#hikoku2_214">被告準備書面（２） <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成２９年８月１４日</span><span class="tl-body">本件調査報告。<span class="tl-quote">「コンプライアンス違反となる事項ではない」</span>、還付を含め<span class="tl-quote">「対応完了予定」</span>　<a class="tl-src" href="#2025-kousai-judgment_nintei-e">認定事実エ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲19_本件調査報告1_ENEOS_公開.pdf">甲１９ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成２９年１０月１６日</span><span class="tl-body">本件メール。<span class="tl-quote">「還付請求を実施」「戻入れも実施済み」</span>　<a class="tl-src" href="#2025-kousai-judgment_nintei-o">認定事実オ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲20_本件部長報告_ENEOS_公開.pdf">甲２０の１ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">平成３０年１１月２７日</span><span class="tl-body">一連の経緯についてコンプライアンス違反の有無の確認を求める（本件追加通報）　<a class="tl-src" href="#2025-kousai-judgment_nintei-ka">認定事実カ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和元年１０月２５日</span><span class="tl-body">本件追加調査報告。<span class="tl-quote">「還付を受けられる全ての金額について……還付を受け対応を完了している」</span>　<a class="tl-src" href="#2025-kousai-judgment_nintei-ku">認定事実ク <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和元年１２月２日・１０日</span><span class="tl-body"><span class="tl-quote">「論点のすり替えである」</span>と抗議し、契約書の内容確認を求める　<a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答　<a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲25_調査補助者とのメール_ENEOS_公開.pdf#page=5">甲２５の５ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和２年１月２３日</span><span class="tl-body"><span class="tl-quote">「これ以上調査する必要を認めない」</span>と調査打ち切り　<a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲25_調査補助者とのメール_ENEOS_公開.pdf#page=9">甲２５の８ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和２年３月２７日</span><span class="tl-body">社内ＳＮＳ「社長・太田さんの輪」に投稿し、<span class="tl-quote">「本質や論点がすり替わっていない調査」</span>を求める　<a class="tl-src" href="#2025-kousai-judgment_nintei-ko">認定事実コ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲26_本件SNS投稿_ENEOS_公開.pdf">甲２６ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-body">投稿への回答として、契約書の内容が初めて示される。<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span>　<a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲21_本件契約の説明_ENEOS_公開.pdf">甲２１の１ <i class="bi bi-arrow-up-right"></i></a></span></li>
-<li class="tl-ev"><span class="tl-date">令和２年７月９日</span><span class="tl-body">契約書の詳細を回答。平成２７年契約書にＧＳＴの定めなし。平成３０年契約書は課さないが<span class="tl-quote">「本件取引先がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する」</span>　<a class="tl-src" href="#2025-kousai-judgment_naogaki">認定事実サ（後段） <i class="bi bi-arrow-up-right"></i></a></span></li>
+<li class="tl-ev"><span class="tl-date">平成２８年１月７日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-a">認定事実ア <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">費用として計上されている付加価値税（ＧＳＴ）があることを上司（ＧＭ）に伝える</span></li>
+<li class="tl-gap">約８か月</li>
+<li class="tl-ev"><span class="tl-date">平成２８年９月１０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-a">認定事実ア <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">付加価値税は豪州子会社（ＪＸＡ）に還付されたとの説明を受ける。振替処理などは未確認のまま</span></li>
+<li class="tl-gap">約４日</li>
+<li class="tl-ev"><span class="tl-date">平成２８年９月１４日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-a">認定事実ア <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">コンプライアンスホットラインへ通報（本件通報）</span></li>
+<li class="tl-gap">約３か月</li>
+<li class="tl-ev"><span class="tl-date">平成２８年１２月２８日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-i">認定事実イ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">経理部の回答が伝えられる。<span class="tl-quote">「還付処理をしているか自体が不明」</span>である場合は問い合わせを、という留保付き</span></li>
+<li class="tl-gap">約１週間</li>
+<li class="tl-ev"><span class="tl-date">平成２９年１月４日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-u">認定事実ウ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">業務フローの理解として<span class="tl-quote">「外国企業との企業間の契約書作成」</span>に触れたメールを送る</span></li>
+<li class="tl-gap">約２か月</li>
+<li class="tl-ev tl-out"><span class="tl-date">平成２９年３月</span><span class="tl-srcs"><a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">実際には還付が受けられていなかったことが判明（前年９月の説明は誤りだった）</span></li>
+<li class="tl-gap"></li>
+<li class="tl-ev tl-out"><span class="tl-date">平成２９年</span><span class="tl-srcs"><a class="tl-src" href="/hotline/trial/eneos/#hikoku2_214">被告準備書面（２） <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">ＧＳＴ業務の移管により、通報者は契約に関する情報から<span class="tl-quote">「遮断された状態」</span>になる（被告が訴訟の認否で認めた事実）</span></li>
+<li class="tl-gap"></li>
+<li class="tl-ev"><span class="tl-date">平成２９年８月１４日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-e">認定事実エ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲19_本件調査報告1_ENEOS_公開.pdf">甲１９ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">本件調査報告。<span class="tl-quote">「コンプライアンス違反となる事項ではない」</span>、還付を含め<span class="tl-quote">「対応完了予定」</span></span></li>
+<li class="tl-gap">約２か月</li>
+<li class="tl-ev"><span class="tl-date">平成２９年１０月１６日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-o">認定事実オ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲20_本件部長報告_ENEOS_公開.pdf">甲２０の１ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">本件メール。<span class="tl-quote">「還付請求を実施」「戻入れも実施済み」</span></span></li>
+<li class="tl-gap">約１年１か月</li>
+<li class="tl-ev"><span class="tl-date">平成３０年１１月２７日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ka">認定事実カ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">一連の経緯についてコンプライアンス違反の有無の確認を求める（本件追加通報）</span></li>
+<li class="tl-gap">約１１か月</li>
+<li class="tl-ev"><span class="tl-date">令和元年１０月２５日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ku">認定事実ク <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">本件追加調査報告。<span class="tl-quote">「還付を受けられる全ての金額について……還付を受け対応を完了している」</span></span></li>
+<li class="tl-gap">約１か月</li>
+<li class="tl-ev"><span class="tl-date">令和元年１２月２日・１０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body"><span class="tl-quote">「論点のすり替えである」</span>と抗議し、契約書の内容確認を求める</span></li>
+<li class="tl-gap">約１０日</li>
+<li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲25_調査補助者とのメール_ENEOS_公開.pdf#page=5">甲２５の５ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答</span></li>
+<li class="tl-gap">約１か月</li>
+<li class="tl-ev"><span class="tl-date">令和２年１月２３日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲25_調査補助者とのメール_ENEOS_公開.pdf#page=9">甲２５の８ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body"><span class="tl-quote">「これ以上調査する必要を認めない」</span>と調査打ち切り</span></li>
+<li class="tl-gap">約２か月</li>
+<li class="tl-ev"><span class="tl-date">令和２年３月２７日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ko">認定事実コ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲26_本件SNS投稿_ENEOS_公開.pdf">甲２６ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">社内ＳＮＳ「社長・太田さんの輪」に投稿し、<span class="tl-quote">「本質や論点がすり替わっていない調査」</span>を求める</span></li>
+<li class="tl-gap">約３か月</li>
+<li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ <i class="bi bi-arrow-up-right"></i></a>・<a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲21_本件契約の説明_ENEOS_公開.pdf">甲２１の１ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">投稿への回答として、契約書の内容が初めて示される。<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span></span></li>
+<li class="tl-gap">約２週間</li>
+<li class="tl-ev"><span class="tl-date">令和２年７月９日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_naogaki">認定事実サ（後段） <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">契約書の詳細を回答。平成２７年契約書にＧＳＴの定めなし。平成３０年契約書は課さないが<span class="tl-quote">「本件取引先がＧＳＴを課すべきと判断すれば、ＧＳＴ込みで請求する権利を有する」</span></span></li>
 </ul>
 
 なお、会社が通報者に知らせた「還付を受けた」について、そのことを裏付ける資料はありません。証拠で示されているのは、海外子会社が「本社の代わりに還付を受けた」として送金した事実だけです。
@@ -140,43 +156,55 @@ twitter_card: summary
 <summary>判決文の言い回しが、読み手に与える影響</summary>
 <div class="accordion-body" markdown>
 
-この判決文には、判断の中身とは別に、言い回しにいくつかの特徴があります。そして、そのひとつひとつが、読み手の受け取り方を決まった方向へ動かします。判決文の実際の記述で、ひとつずつ確認します。
+この判決文には、判断の中身とは別に、言い回しにいくつかの特徴があります。そして、そのひとつひとつが、読み手の受け取り方を決まった方向へ動かします。判決文の実際の記述で、ひとつずつ確認します（引用中の太字は引用者による強調）。
 
-- 引用中の太字は引用者による強調
-
-**特徴１　会社の説明が、事実と同じ文体で並んでいる**
+<p class="f-label">特徴１</p>
+<p class="f-title">会社の説明が、事実と同じ文体で並んでいる</p>
+<p class="f-spine">認定されているのは「そう回答した」ことだけ——回答の中身は、記録のどこにもありません。</p>
 
 認定事実の中では、「〜と回答した」という発言の記録と、「〜であった」という事実の記録が、同じ調子で並びます。たとえば判決には、会社が「税務アドバイザーを起用して検討を行った」と回答した、という記述があります（[認定事実ケ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-ke)）。ここで認定されているのは「そう回答した」ことだけで、相談が実際にあったことではありません（相談先・時期・内容は、記録のどこにも出てきません）。それでも読み手は、「経理部と確認済み」「専門家に相談済み」という文から、書かれていない中身を「問題ないと確認されたのだろう」と自分で補って読み進めます。AIでの検証では、経理部の回答に付いていた「還付処理をしているか自体が不明」という留保（[認定事実イ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-i)）が、要約の過程で消えました。
 
 通報者の側から見ると、同じ文はまったく違って見えます。知りたいこと――契約書に何と書いてあるのか、還付は本当に受けたのか――が、書かれていないままだからです。だから尋ね直すしかありません。こうして、答えの入っていない回答が質問を繰り返させ、繰り返された質問が「説明を受けたのに納得しない人」という印象を作ります。
 
-**特徴２　経緯が、結論に必要な分だけに圧縮されている**
+<p class="f-label">特徴２</p>
+<p class="f-title">経緯が、結論に必要な分だけに圧縮されている</p>
+<p class="f-spine">「事実調査をし、結果を伝えている」の一文に、半年の経緯が畳み込まれています。</p>
 
 判決は「被控訴人は……令和２年６月までにその点の事実調査をし、その結果を控訴人に伝えている」と書きます。事実として誤りではありません。ただ、この一文に畳み込まれた半年の経緯は、判決自身の認定事実に記録されています。
 
 <ul class="tl-c">
-<li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答　<a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span></li>
+<li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答</span></li>
 <li class="tl-gap">約１か月</li>
-<li class="tl-ev"><span class="tl-date">令和２年１月２３日</span><span class="tl-body"><span class="tl-quote">「これ以上調査する必要を認めない」</span>と調査打ち切り　<a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span></li>
+<li class="tl-ev"><span class="tl-date">令和２年１月２３日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body"><span class="tl-quote">「これ以上調査する必要を認めない」</span>と調査打ち切り</span></li>
 <li class="tl-gap">約２か月</li>
-<li class="tl-ev"><span class="tl-date">令和２年３月２７日</span><span class="tl-body">通報者が社内ＳＮＳ「社長・太田さんの輪」に投稿　<a class="tl-src" href="#2025-kousai-judgment_nintei-ko">認定事実コ <i class="bi bi-arrow-up-right"></i></a></span></li>
+<li class="tl-ev"><span class="tl-date">令和２年３月２７日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ko">認定事実コ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">通報者が社内ＳＮＳ「社長・太田さんの輪」に投稿</span></li>
 <li class="tl-gap">約３か月</li>
-<li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-body">投稿への回答として<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span>　<a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ <i class="bi bi-arrow-up-right"></i></a></span></li>
+<li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">投稿への回答として<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span></span></li>
 </ul>
 
 この経緯を畳んだ一文だけを読むと、会社の対応は自然で速やかに見えます。
 
-**特徴３　通報者の行動が、量と負担の言葉で語られる**
+<p class="f-label">特徴３</p>
+<p class="f-title">通報者の行動が、量と負担の言葉で語られる</p>
+<p class="f-spine">「繰り返し」「３０項目」「自ら」——量だけが記録され、なぜ量を要したのかは書かれません。</p>
 
-認定事実の中で、通報者の行動はこう書かれています（[認定事実キ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_ninteiki)）。
+認定事実の中で、通報者の行動はこう書かれています。
 
-> ……メールを**繰り返し**送信するなどし、**最終的に、自ら**……など**３０項目**……に分けて整理したパワーポイント資料を作成し、これを法務２グループ調査補助者に**送付するなどした**。
+<div class="q-card" markdown>
+<span class="q-chip">[判決文｜認定事実キ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_ninteiki)</span>
+
+……メールを**繰り返し**送信するなどし、**最終的に、自ら**……など**３０項目**……に分けて整理したパワーポイント資料を作成し、これを法務２グループ調査補助者に**送付するなどした**。
+</div>
 
 動詞は、受け取る法務グループの側から、届いたもの・負担として書かれています。「繰り返し」「３０項目」という量の言葉がそこに重なり、「自ら」の一語が「頼まれてもいないのに」という響きを加えます。同じ認定事実の中で、会社側の行為が「やり取りを実施した」「調査をした」という手続の言葉で書かれているのと並べると、量で数えられた側だけが過剰に見えます。
 
 ただ、この「３０項目」が何だったのかは、判決自身が記録しています。判決はこの資料を「**『通報情報に関する事実』を……整理したパワーポイント資料**」と呼び（[認定事実キ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_ninteiki)）、会社もこの３０項目について「**いずれも不正行為等に該当しない**」という調査結果を示しました（[認定事実ク <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-ku)）——一つずつ調査して答えられる形に、事実が整理されていたということです。同じ行為を作り手の側から書けば、「調査を求める事実を、調査できる形に整理して渡した」——判決自身がこの資料に与えた説明と同じ内容です。実際、認定事実は資料の引用のすぐ後に「法務２グループは……関係者へのヒアリングを実施するなどの調査をした」と続けており、調査に対象を与えたのは、ほかならぬこの資料でした。
 
-**これらが積み重なると、何が起きるか**
+なぜ、説明は量を要したのか。それも記録から追えます。正式な通知にあたる本件調査報告は、過去の調査経緯等についての問合せに「**回答を差し控える**」としました（[認定事実エ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-e)）。一方、還付請求の実施・戻入れ・法改正といった詳しい情報が書かれていた本件メールは、部長を宛先とし、通報者をＣＣに入れる形で送られた社内メールでした（[認定事実オ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-o)）。そして後の訴訟で会社自身が、このメールは部署の担当者が部長に「**報告をしたものに過ぎず**」、通報者に対して「**本件通報に関して通知又は情報共有をしたわけではない**」と位置づけました（[被告準備書面（５） <i class="bi bi-arrow-up-right"></i>](/hotline/trial/eneos/#hikoku5_224u)）。正式な通知には中身がなく、中身のある文書は正式な通知ではない——通報者の手元に残るのは、曖昧なままの情報だけです。その状態で追加通報をするには、経緯を最初から自分で整理して説明するほかありません。「繰り返し」「３０項目」「自ら」は、その帰結を受け取る側から記録した姿です。
+
+<p class="f-label">検証</p>
+<p class="f-title">これらが積み重なると、何が起きるか</p>
+<p class="f-spine">複数のAIが独立に、判決文のどこにも書かれていない同じ物語にたどり着きました。</p>
 
 この判決文だけを、系統の異なる複数のAI（Claude・NotebookLM）に読ませて要約させる検証を繰り返しました。AIは、この事件への先入観も、どちらかに味方する事情も持っていません。その複数のAIが、互いに知らないまま毎回たどり着いたのは、**「執念深い通報者」対「合理的に対応した会社」という、判決文のどこにも書かれていない物語**でした。
 
@@ -186,7 +214,10 @@ twitter_card: summary
 
 なお、これは判決を書いた裁判官の意図の問題ではありません。判決文はもともと、記録の全体を手元に持つ当事者と上級審に向けて書かれる文書で、結論に必要な事実だけを選んで載せます。その同じ文書を、記録を持たない読み手——記者、一般の読者、AI——が単独で読むと、選ばれた事実が「話の全部」になります。このサイトが判決文に書証を添えているのは、判決への反論のためではなく、判決文が本来想定していた「記録を知っている読み手」の条件を、一般の読み手のために復元するためです。
 
-つまりこの検証は、AIの欠陥の記録ではなく、この判決文が初見の読み手をどこへ運ぶかの記録です。同じ材料を短時間で読めば、人間の読者にも同じことが起こり得ます。実際にお使いのAIにこの判決文を読ませて、次の点を確かめてみてください。
+つまりこの検証は、AIの欠陥の記録ではなく、この判決文が初見の読み手をどこへ運ぶかの記録です。同じ材料を短時間で読めば、人間の読者にも同じことが起こり得ます。
+
+<div class="test-part" markdown>
+実際にお使いのAIにこの判決文を読ませて、次の点を確かめてみてください。
 
 1. 「対象を特定した」と言える具体例を、判決文から一つでも挙げられるか
 2. 会社の調査が答えた話題と、通報者が問題にした論点を、区別できているか
@@ -194,6 +225,7 @@ twitter_card: summary
 4. 「還付を受けた」「専門家に相談した」を、裏付けのある確定事実として扱っていないか
 5. 高裁が地裁の理由を「補強した」のか「差し替えた」のか、正しく読めているか
 6. 通報者の人物像や心理を、判決文にない言葉で語り始めていないか
+</div>
 
 </div>
 </details>
