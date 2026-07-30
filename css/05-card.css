@@ -103,7 +103,7 @@
 }
 /* アコーディオン同士が連続するとき（理由１・理由２など）は margin02 相当の間隔より詰める */
 .md-typeset .card-accordion + .card-accordion {
-  margin-top: 0.8rem !important;
+  margin-top: 0.4rem !important;
 }
 /* アコーディオン内は文字サイズを判決文の16pxより一段小さい14pxに（フォントはサイト共通のゴシックのまま） */
 .md-typeset .card-accordion .accordion-body {

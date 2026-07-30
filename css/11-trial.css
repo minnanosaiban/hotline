@@ -96,3 +96,110 @@ body.trial-doc .t-toc-head + p.lead-normal-gap {
    タイトル帯・シェアボタンは Home と共通の .hero-band / .hero-share（03-typeset.css）をそのまま使う
    （旧 .agm-hero-band / .agm-hero-share は統合済み）。 */
 
+/* =========================================================
+   認定事実タイムライン（judgement_2025 アコーディオン内）
+   縦線＋ノード＋経過時間ラベル。装飾は無彩色、色はリンクのみ。
+   ノード間の「約○か月」で、一文に畳まれた経過時間を見せる。
+   ========================================================= */
+body.trial-doc .tl-c {
+  list-style: none;
+  margin: 1.2rem 0;
+  padding: 0;
+}
+body.trial-doc .tl-c li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0.4rem 1.7rem;
+  font-size: 14px;
+}
+body.trial-doc .tl-c li.tl-gap {
+  padding-top: 0.55rem;
+  padding-bottom: 0.95rem;
+  font-size: 11.5px;
+  color: var(--md-default-fg-color--lighter);
+  letter-spacing: 0.05em;
+}
+body.trial-doc .tl-c li::before { /* 縦線 */
+  content: "";
+  position: absolute;
+  left: 0.28rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #c9ced4;
+}
+body.trial-doc .tl-c li.tl-ev::before { top: 0.65rem; }
+body.trial-doc .tl-c li:last-child::before { display: none; }
+body.trial-doc .tl-c li.tl-ev::after { /* ノード（塗りつぶし＝判決の認定事実に記録あり） */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.42rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #8a929b;
+  border: 1.5px solid #8a929b;
+}
+body.trial-doc .tl-c li.tl-ev.tl-out::after { /* 白抜き＝判決に現れない出来事 */
+  background: var(--md-typeset-bg-color);
+}
+body.trial-doc .tl-c .tl-date {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  margin-bottom: 0.1rem;
+}
+body.trial-doc .tl-c .tl-body {
+  line-height: 1.75;
+}
+body.trial-doc .tl-c .tl-quote { /* 判決文からの引用は本文の引用と同じ明朝 */
+  font-family: "Noto Serif JP", serif;
+  font-size: 13.5px;
+}
+body.trial-doc .tl-c .tl-src { /* 認定事実・書証へのリンク */
+  font-size: 12.5px;
+  color: var(--md-link-color) !important;
+  text-decoration: none;
+  border-bottom: 1px solid var(--md-link-color-faint);
+  white-space: nowrap;
+}
+body.trial-doc .tl-legend { /* 凡例（●記録あり／○現れない） */
+  font-size: 12px;
+  color: var(--md-default-fg-color--light);
+  margin: 1rem 0 0.2rem;
+}
+body.trial-doc .tl-legend .tl-key {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid #8a929b;
+  background: #8a929b;
+  margin-right: 0.35em;
+  vertical-align: -0.05em;
+}
+body.trial-doc .tl-legend .tl-key-out {
+  background: var(--md-typeset-bg-color);
+}
+body[data-md-color-scheme="slate"] .tl-c li::before {
+  background: rgba(255, 255, 255, 0.25);
+}
+body[data-md-color-scheme="slate"] .tl-c li.tl-ev::after {
+  background: rgba(255, 255, 255, 0.45);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+body[data-md-color-scheme="slate"] .tl-c li.tl-ev.tl-out::after {
+  background: var(--md-typeset-bg-color);
+}
+body[data-md-color-scheme="slate"] .tl-legend .tl-key {
+  background: rgba(255, 255, 255, 0.45);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+body[data-md-color-scheme="slate"] .tl-legend .tl-key-out {
+  background: var(--md-typeset-bg-color);
+}
+
