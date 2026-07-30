@@ -18,7 +18,7 @@ twitter_card: summary
 </h1>
 
 
-<p class="t-toc-head">判決の概要</p>
+## 判決の概要
 
 <p class="width-40 margin02 lead-normal-gap">
 日本企業に海外消費税を支払う義務がないにもかかわらず、海外消費税を支払っている旨の通報を受けた後、ＥＮＥＯＳは、「海外企業がＥＮＥＯＳへ海外消費税を請求できる」形へ契約変更しました。この契約変更について、<b>「通報を受けて講じた是正措置を通報者に通知しなかったこと」が裁判の争点</b>です。
@@ -159,18 +159,22 @@ twitter_card: summary
 この判決文には、判断の中身とは別に、言い回しにいくつかの特徴があります。そして、そのひとつひとつが、読み手の受け取り方を決まった方向へ動かします。判決文の実際の記述で、ひとつずつ確認します（引用中の太字は引用者による強調）。
 
 <p class="f-label">特徴１</p>
+<div class="f-head" markdown>
 <p class="f-title">会社の説明が、事実と同じ文体で並んでいる</p>
 <p class="f-spine">認定されているのは「そう回答した」ことだけ——回答の中身は、記録のどこにもありません。</p>
+</div>
 
 認定事実の中では、「〜と回答した」という発言の記録と、「〜であった」という事実の記録が、同じ調子で並びます。たとえば判決には、会社が「税務アドバイザーを起用して検討を行った」と回答した、という記述があります（[認定事実ケ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-ke)）。ここで認定されているのは「そう回答した」ことだけで、相談が実際にあったことではありません（相談先・時期・内容は、記録のどこにも出てきません）。それでも読み手は、「経理部と確認済み」「専門家に相談済み」という文から、書かれていない中身を「問題ないと確認されたのだろう」と自分で補って読み進めます。AIでの検証では、経理部の回答に付いていた「還付処理をしているか自体が不明」という留保（[認定事実イ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-i)）が、要約の過程で消えました。
 
 通報者の側から見ると、同じ文はまったく違って見えます。知りたいこと――契約書に何と書いてあるのか、還付は本当に受けたのか――が、書かれていないままだからです。だから尋ね直すしかありません。こうして、答えの入っていない回答が質問を繰り返させ、繰り返された質問が「説明を受けたのに納得しない人」という印象を作ります。
 
 <p class="f-label">特徴２</p>
+<div class="f-head" markdown>
 <p class="f-title">経緯が、結論に必要な分だけに圧縮されている</p>
 <p class="f-spine">「事実調査をし、結果を伝えている」の一文に、半年の経緯が畳み込まれています。</p>
+</div>
 
-判決は「被控訴人は……令和２年６月までにその点の事実調査をし、その結果を控訴人に伝えている」と書きます。事実として誤りではありません。ただ、この一文に畳み込まれた半年の経緯は、判決自身の認定事実に記録されています。
+判決は「被控訴人は……令和２年６月までにその点の事実調査をし、その結果を控訴人に伝えている」と書きます。事実として誤りではありません。ただ、この一文に畳み込まれた半年の経緯は、判決自身の認定事実に記録されています。そして、経緯を畳んだ一文だけを読むことにより、会社の対応は自然で速やかに見えます。
 
 <ul class="tl-c">
 <li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答</span></li>
@@ -182,11 +186,12 @@ twitter_card: summary
 <li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">投稿への回答として<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span></span></li>
 </ul>
 
-この経緯を畳んだ一文だけを読むと、会社の対応は自然で速やかに見えます。
 
 <p class="f-label">特徴３</p>
+<div class="f-head" markdown>
 <p class="f-title">通報者の行動が、量と負担の言葉で語られる</p>
 <p class="f-spine">「繰り返し」「３０項目」「自ら」——量だけが記録され、なぜ量を要したのかは書かれません。</p>
+</div>
 
 認定事実の中で、通報者の行動はこう書かれています。
 
@@ -203,8 +208,10 @@ twitter_card: summary
 なぜ、説明は量を要したのか。それも記録から追えます。正式な通知にあたる本件調査報告は、過去の調査経緯等についての問合せに「**回答を差し控える**」としました（[認定事実エ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-e)）。一方、還付請求の実施・戻入れ・法改正といった詳しい情報が書かれていた本件メールは、部長を宛先とし、通報者をＣＣに入れる形で送られた社内メールでした（[認定事実オ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-o)）。そして後の訴訟で会社自身が、このメールは部署の担当者が部長に「**報告をしたものに過ぎず**」、通報者に対して「**本件通報に関して通知又は情報共有をしたわけではない**」と位置づけました（[被告準備書面（５） <i class="bi bi-arrow-up-right"></i>](/hotline/trial/eneos/#hikoku5_224u)）。正式な通知には中身がなく、中身のある文書は正式な通知ではない——通報者の手元に残るのは、曖昧なままの情報だけです。その状態で追加通報をするには、経緯を最初から自分で整理して説明するほかありません。「繰り返し」「３０項目」「自ら」は、その帰結を受け取る側から記録した姿です。
 
 <p class="f-label">検証</p>
+<div class="f-head" markdown>
 <p class="f-title">これらが積み重なると、何が起きるか</p>
 <p class="f-spine">複数のAIが独立に、判決文のどこにも書かれていない同じ物語にたどり着きました。</p>
+</div>
 
 この判決文だけを、系統の異なる複数のAI（Claude・NotebookLM）に読ませて要約させる検証を繰り返しました。AIは、この事件への先入観も、どちらかに味方する事情も持っていません。その複数のAIが、互いに知らないまま毎回たどり着いたのは、**「執念深い通報者」対「合理的に対応した会社」という、判決文のどこにも書かれていない物語**でした。
 
@@ -229,22 +236,6 @@ twitter_card: summary
 
 </div>
 </details>
-
-
-<p class="t-toc-head">NotebookLM 音声解説🎙️</p>
-
-<div class="card-bule audio-wide">
-<p  class="larger center margin01">
-東京地裁判決解説</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-プロンプトなし・2025年8月作成<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a></p>
-</div>
 
 
 
@@ -822,4 +813,21 @@ twitter_card: summary
 裁判官　鈴木和孝
 </p>
 
+
+</div>
+
+
+## NotebookLM 音声解説🎙️
+
+<div class="card-bule audio-wide">
+<p  class="larger center margin01">
+東京地裁判決解説</p>
+<div class="audio-content center margin02">
+  <audio controls preload="none">
+    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
+    お使いのブラウザは audio 要素をサポートしていません。
+  </audio>
+</div>
+<p class="smallest center margin01">
+プロンプトなし・2025年8月作成<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a></p>
 </div>
