@@ -103,7 +103,7 @@ body.trial-doc .t-toc-head + p.lead-normal-gap {
    ========================================================= */
 body.trial-doc .tl-c {
   list-style: none;
-  margin: 1.2rem 0;
+  margin: 4.0em 0;
   padding: 0;
 }
 body.trial-doc .tl-c li {
@@ -280,25 +280,39 @@ body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
 
 /* =========================================================
    特徴見出し（judgement_2025「言い回し」アコーディオン・案C）
-   番号ラベル＋大きさで見せるタイトル＋太字の背骨1文。
+   番号ラベル＋大きさで見せるタイトル（左に縦バー、Home の .bar-title と同じ思想）＋通常の文字の背骨1文。
    .test-part は末尾「6つの質問」の枠にも流用（ol の間隔のみ追加）。
    ========================================================= */
 body.trial-doc .accordion-body .f-label {
-  margin: 3.2em 0 0;
+  margin: 4.0em 0 0;
   font-size: 11.5px;
   letter-spacing: 0.14em;
   color: #8a929b;
 }
+body.trial-doc .accordion-body .f-head { /* タイトル＋背骨1文をまとめ、縦バーを2行分通しで届かせる（Home の .bar-title と同じ思想） */
+  position: relative;
+  padding-left: 0.74rem;
+}
+body.trial-doc .accordion-body .f-head::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.24rem;
+  background-color: var(--md-link-color);
+  border-radius: 1px;
+}
 body.trial-doc .accordion-body .f-title {
   margin: 0.15em 0 0.4em;
-  font-size: 22px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.6;
+  color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
 }
 body.trial-doc .accordion-body .f-spine {
-  margin: 0 0 1.1em;
-  font-weight: 700;
-  color: var(--md-link-color);
+  margin: 0 0 2.0em;
+  font-weight: 400 !important; /* .md-content p の !important 指定に対抗 */
+  color: var(--md-typeset-color) !important;
 }
 body.trial-doc .accordion-body .test-part ol {
   margin: 0.6em 0 0;
