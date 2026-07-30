@@ -130,7 +130,7 @@ body.trial-doc .tl-c li::before { /* 縦線 */
 }
 body.trial-doc .tl-c li.tl-ev::before { top: 0.65rem; }
 body.trial-doc .tl-c li:last-child::before { display: none; }
-body.trial-doc .tl-c li.tl-ev::after { /* ノード（塗りつぶし＝判決の認定事実に記録あり） */
+body.trial-doc .tl-c li.tl-ev::after { /* ノード（すべて白抜き◯で統一） */
   content: "";
   position: absolute;
   left: 0;
@@ -138,11 +138,8 @@ body.trial-doc .tl-c li.tl-ev::after { /* ノード（塗りつぶし＝判決�
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #8a929b;
-  border: 1.5px solid #8a929b;
-}
-body.trial-doc .tl-c li.tl-ev.tl-out::after { /* 白抜き＝判決に現れない出来事 */
   background: var(--md-typeset-bg-color);
+  border: 1.5px solid #8a929b;
 }
 body.trial-doc .tl-c .tl-date {
   display: block;
@@ -152,6 +149,11 @@ body.trial-doc .tl-c .tl-date {
   letter-spacing: 0.03em;
   line-height: 1.5;
   margin-bottom: 0.1rem;
+}
+body.trial-doc .tl-c li.tl-ev.tl-out .tl-date::before { /* ★＝判決に現れない出来事（日付の頭に付ける） */
+  content: "★ ";
+  font-weight: 400;
+  color: #8a929b;
 }
 body.trial-doc .tl-c .tl-body {
   line-height: 1.75;
@@ -167,39 +169,106 @@ body.trial-doc .tl-c .tl-src { /* 認定事実・書証へのリンク */
   border-bottom: 1px solid var(--md-link-color-faint);
   white-space: nowrap;
 }
-body.trial-doc .tl-legend { /* 凡例（●記録あり／○現れない） */
-  font-size: 12px;
-  color: var(--md-default-fg-color--light);
-  margin: 1rem 0 0.2rem;
-}
-body.trial-doc .tl-legend .tl-key {
-  display: inline-block;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  border: 1.5px solid #8a929b;
-  background: #8a929b;
-  margin-right: 0.35em;
-  vertical-align: -0.05em;
-}
-body.trial-doc .tl-legend .tl-key-out {
-  background: var(--md-typeset-bg-color);
+body.trial-doc .tl-star::before { /* 文中で★の意味を説明する用（タイムライン内の★と同じ記号） */
+  content: "★";
+  color: #8a929b;
 }
 body[data-md-color-scheme="slate"] .tl-c li::before {
   background: rgba(255, 255, 255, 0.25);
 }
 body[data-md-color-scheme="slate"] .tl-c li.tl-ev::after {
-  background: rgba(255, 255, 255, 0.45);
+  background: var(--md-typeset-bg-color);
   border-color: rgba(255, 255, 255, 0.45);
 }
-body[data-md-color-scheme="slate"] .tl-c li.tl-ev.tl-out::after {
-  background: var(--md-typeset-bg-color);
+body[data-md-color-scheme="slate"] .tl-c li.tl-ev.tl-out .tl-date::before {
+  color: rgba(255, 255, 255, 0.45);
 }
-body[data-md-color-scheme="slate"] .tl-legend .tl-key {
-  background: rgba(255, 255, 255, 0.45);
-  border-color: rgba(255, 255, 255, 0.45);
+body[data-md-color-scheme="slate"] .tl-star::before {
+  color: rgba(255, 255, 255, 0.45);
 }
-body[data-md-color-scheme="slate"] .tl-legend .tl-key-out {
+
+/* =========================================================
+   アコーディオン内の文書カード（judgement_2025）
+   グレーの箱＝会社の文書の引用／白地＝検証の地の文。
+   .test-part は末尾の「見分け方」を囲う枠。
+   ========================================================= */
+body.trial-doc .accordion-body .doc-lead {
+  margin-top: 3em;
+}
+body.trial-doc .accordion-body .q-card {
+  background: var(--surface-gray);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin: 1.4em 0;
+  font-family: "Noto Serif JP", serif;
+  font-size: 13.5px;
+}
+body.trial-doc .accordion-body .q-card > p {
+  margin: 0;
+}
+body.trial-doc .accordion-body .q-card > p + p {
+  margin-top: 0.7rem;
+}
+body.trial-doc .accordion-body .q-chip {
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: #70757a;
+  border: 1px solid #c9ced4;
+  border-radius: 3px;
   background: var(--md-typeset-bg-color);
+  padding: 0.05em 0.55em;
+}
+body.trial-doc .accordion-body .q-chip a {
+  color: inherit;
+  font-family: inherit;
+}
+body.trial-doc .accordion-body .test-part {
+  border: 1px solid var(--md-card-border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin-top: 2.6em;
+}
+body.trial-doc .accordion-body .test-part > p {
+  margin: 0;
+}
+body[data-md-color-scheme="slate"] .accordion-body .q-chip {
+  color: #aaaaaa;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+/* 問いの見出し（①〜④） */
+body.trial-doc .accordion-body .q-lead {
+  margin-top: 2.2em;
+}
+/* 例文カード（白地＋破線＝サイト作成の実在しない例文。実文カード(q-card)と対） */
+body.trial-doc .accordion-body .ex-card {
+  background: var(--md-typeset-bg-color);
+  border: 1px dashed var(--md-card-border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin: 1.4em 0;
+  font-family: "Noto Serif JP", serif;
+  font-size: 13.5px;
+}
+body.trial-doc .accordion-body .ex-card > p {
+  margin: 0;
+}
+body.trial-doc .accordion-body .ex-card > p + p {
+  margin-top: 0.7rem;
+}
+body.trial-doc .accordion-body .ex-chip {
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: #70757a;
+  border: 1px dashed #c9ced4;
+  border-radius: 3px;
+  padding: 0.05em 0.55em;
+}
+body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
+  color: #aaaaaa;
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
