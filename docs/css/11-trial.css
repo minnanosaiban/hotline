@@ -279,8 +279,10 @@ body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
 }
 
 /* =========================================================
-   特徴見出し（judgement_2025「言い回し」アコーディオン・案C）
-   番号ラベル＋大きさで見せるタイトル（左に縦バー、Home の .bar-title と同じ思想）＋通常の文字の背骨1文。
+   特徴・理由見出し（judgement_2025「理由１・２」「言い回し」アコーディオン）
+   番号ラベル＋タイトル＋一文（.f-spine）を .f-head にまとめ、
+   縦バー（Home の .bar-title と同じ思想、やや細め）を2行分届かせる。
+   「検証」（これらが積み重なると…）だけは例外でタイトル1行のみ、地の文が続く。
    .test-part は末尾「6つの質問」の枠にも流用（ol の間隔のみ追加）。
    ========================================================= */
 body.trial-doc .accordion-body .f-label {
@@ -289,7 +291,7 @@ body.trial-doc .accordion-body .f-label {
   letter-spacing: 0.14em;
   color: #8a929b;
 }
-body.trial-doc .accordion-body .f-head { /* タイトル＋背骨1文をまとめ、縦バーを2行分通しで届かせる（Home の .bar-title と同じ思想） */
+body.trial-doc .accordion-body .f-head { /* タイトル（＋f-spineがあれば2行分）を囲み、縦バーを高さぶん届かせる（Home の .bar-title と同じ思想） */
   position: relative;
   padding-left: 0.74rem;
 }
@@ -299,7 +301,7 @@ body.trial-doc .accordion-body .f-head::before {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 0.24rem;
+  width: 0.16rem;
   background-color: var(--md-link-color);
   border-radius: 1px;
 }
@@ -309,10 +311,8 @@ body.trial-doc .accordion-body .f-title {
   line-height: 1.6;
   color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
 }
-body.trial-doc .accordion-body .f-spine {
-  margin: 0 0 2.0em;
-  font-weight: 400 !important; /* .md-content p の !important 指定に対抗 */
-  color: var(--md-typeset-color) !important;
+body.trial-doc .accordion-body .f-spine { /* 特徴３のみ：直後の判決文カードとの間に余白を空ける */
+  margin-bottom: 4.0em;
 }
 body.trial-doc .accordion-body .test-part ol {
   margin: 0.6em 0 0;
