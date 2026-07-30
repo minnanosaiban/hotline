@@ -115,6 +115,7 @@ body.trial-doc .tl-c li {
 body.trial-doc .tl-c li.tl-gap {
   padding-top: 0.55rem;
   padding-bottom: 0.95rem;
+  min-height: 1em; /* ラベル有無にかかわらず余白の高さを揃える */
   font-size: 11.5px;
   color: var(--md-default-fg-color--lighter);
   letter-spacing: 0.05em;
@@ -161,6 +162,11 @@ body.trial-doc .tl-c .tl-body {
 body.trial-doc .tl-c .tl-quote { /* 判決文からの引用は本文の引用と同じ明朝 */
   font-family: "Noto Serif JP", serif;
   font-size: 13.5px;
+}
+body.trial-doc .tl-c .tl-srcs { /* 認定事実・書証へのリンクをまとめる行（日付の下・本文の上） */
+  display: block;
+  width: fit-content;
+  margin: 0 0 0.25rem;
 }
 body.trial-doc .tl-c .tl-src { /* 認定事実・書証へのリンク */
   font-size: 12.5px;
@@ -270,5 +276,37 @@ body.trial-doc .accordion-body .ex-chip {
 body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
   color: #aaaaaa;
   border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* =========================================================
+   特徴見出し（judgement_2025「言い回し」アコーディオン・案C）
+   番号ラベル＋大きさで見せるタイトル＋太字の背骨1文。
+   .test-part は末尾「6つの質問」の枠にも流用（ol の間隔のみ追加）。
+   ========================================================= */
+body.trial-doc .accordion-body .f-label {
+  margin: 3.2em 0 0;
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  color: #8a929b;
+}
+body.trial-doc .accordion-body .f-title {
+  margin: 0.15em 0 0.4em;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+body.trial-doc .accordion-body .f-spine {
+  margin: 0 0 1.1em;
+  font-weight: 700;
+  color: var(--md-link-color);
+}
+body.trial-doc .accordion-body .test-part ol {
+  margin: 0.6em 0 0;
+}
+body.trial-doc .accordion-body .test-part ol li {
+  margin: 0.35em 0;
+}
+body[data-md-color-scheme="slate"] .accordion-body .f-label {
+  color: rgba(255, 255, 255, 0.45);
 }
 
