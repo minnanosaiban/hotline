@@ -43,8 +43,13 @@ git reset site/ >nul 2>&1
 git commit -m "Update main source" || echo No changes to commit
 git push origin main --force
 
-echo === Commit ^& Push to repos/blog ===
-cd /d "C:\repos\blog"
+echo === Commit ^& Push to blog (C:\minnanosaiban\blog) ===
+cd /d "C:\minnanosaiban\blog"
+if %errorlevel% neq 0 (
+    echo cd to blog repo failed.
+    pause
+    exit /b
+)
 git add .
 git commit -m "Update blog scripts" || echo No changes to commit
 git push origin main --force
