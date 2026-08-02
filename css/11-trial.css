@@ -12,6 +12,27 @@ body.trial-doc {
   --t-card-width: 40rem;   /* カードの共通幅 */
 }
 
+/* 判決の概要：理由１・理由２行頭のアイコン。本文中なので黒だと強すぎる＝グレーに、
+   間隔はカード内ラベル（.f-label i）と同じ考え方で margin-right のみで詰める。 */
+body.trial-doc .riyu-lead-icon {
+  font-size: 0.85em;
+  margin-right: 0.3em;
+  color: var(--md-default-fg-color--light);
+  vertical-align: 0.05em;
+}
+
+/* 共通CSS側の h3 は margin:0（カード内の詰めた見出し用）のため、
+   trial-doc ページで###を単独の節タイトルとして使う場合はここで余白を足す
+   （現状は judgement_2025.md の「関係法令・規程」内の２見出しのみ該当）。 */
+body.trial-doc h3 {
+  margin: 3rem 0 1rem 0 !important;
+}
+@media only screen and (max-width: 767px) {
+  body.trial-doc h3 {
+    margin: 2rem 0 0.6rem 0 !important;
+  }
+}
+
 /* trial/index.md：目次見出し＋目次カードを包む直接の子div。
    .toc-grid の width:100% は「.center-container の直接の子」を前提にした指定のため、
    間にこの無名divが挟まると基準の幅が定まらず縮んでしまう（2026-07-26の構造変更で発生）。
@@ -233,11 +254,13 @@ body.trial-doc .accordion-body .q-chip a {
 body.trial-doc .accordion-body .test-part {
   border: 1px solid var(--md-card-border);
   border-radius: 6px;
-  padding: 1rem 1.2rem;
+  padding: 1.1rem 1.3rem 1.2rem;
   margin-top: 2.6em;
 }
 body.trial-doc .accordion-body .test-part > p {
   margin: 0;
+  line-height: 1.8; /* 「い。」のような1文字だけの孤立行を減らす（text-wrap:pretty と併用） */
+  text-wrap: pretty;
 }
 body[data-md-color-scheme="slate"] .accordion-body .q-chip {
   color: #aaaaaa;
@@ -263,6 +286,12 @@ body.trial-doc .accordion-body .ex-card > p {
 body.trial-doc .accordion-body .ex-card > p + p {
   margin-top: 0.7rem;
 }
+/* ex-card 直後の一言キャプション（例：「→ このように誤解されています」） */
+body.trial-doc .accordion-body .ex-caption {
+  margin: -1.0em 0 1.4em 0.3rem;
+  font-size: 12.5px;
+  color: var(--md-default-fg-color--light);
+}
 body.trial-doc .accordion-body .ex-chip {
   display: inline-block;
   font-family: "Noto Sans JP", sans-serif;
@@ -280,47 +309,81 @@ body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
 
 /* =========================================================
    特徴・理由見出し（judgement_2025「理由１・２」「言い回し」アコーディオン）
-   番号ラベル＋タイトル＋一文（.f-spine）を .f-head にまとめ、
-   縦バー（Home の .bar-title と同じ思想、やや細め）を2行分届かせる。
+   番号ラベル＋タイトル＋一文（.f-spine）を .f-head にまとめる。
    「検証」（これらが積み重なると…）だけは例外でタイトル1行のみ、地の文が続く。
    .test-part は末尾「6つの質問」の枠にも流用（ol の間隔のみ追加）。
    ========================================================= */
-body.trial-doc .accordion-body .f-label {
-  margin: 4.0em 0 0;
-  font-size: 11.5px;
-  letter-spacing: 0.14em;
-  color: #8a929b;
-}
-body.trial-doc .accordion-body .f-head { /* タイトル（＋f-spineがあれば2行分）を囲み、縦バーを高さぶん届かせる（Home の .bar-title と同じ思想） */
+/* 見出しカード（f-label＋f-title＋f-spineをひとつの箱にまとめる。
+   .q-card（引用＝グレー地の実線）と見分けやすいよう、薄い青系の色調にする。
+   ラベル（特徴１・理由１等）は青字＋左に fa-square-full の四角アイコン。 */
+body.trial-doc .accordion-body .f-head {
   position: relative;
-  padding-left: 0.74rem;
+  background: rgba(0, 54, 130, 0.055);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem 1rem;
+  margin: 4.0em 0 3.2em;
+  scroll-margin-top: 4.5rem; /* ミニ目次からのジャンプ時、固定ヘッダーに隠れないように */
 }
-body.trial-doc .accordion-body .f-head::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 0.16rem;
-  background-color: var(--md-link-color);
-  border-radius: 1px;
+body.trial-doc .accordion-body .f-label {
+  margin: 0 0 0.4em;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--md-link-color);
+}
+body.trial-doc .accordion-body .f-label i {
+  font-size: 0.9em;
+  margin-right: 0.25em;
+  vertical-align: 0.05em;
 }
 body.trial-doc .accordion-body .f-title {
-  margin: 0.15em 0 0.4em;
+  margin: 0 0 0.35em;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
 }
-body.trial-doc .accordion-body .f-spine { /* 特徴３のみ：直後の判決文カードとの間に余白を空ける */
-  margin-bottom: 4.0em;
+body.trial-doc .accordion-body .f-spine {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+}
+body[data-md-color-scheme="slate"] .accordion-body .f-head {
+  background: rgba(77, 139, 204, 0.1);
 }
 body.trial-doc .accordion-body .test-part ol {
-  margin: 0.6em 0 0;
+  margin: 0.8em 0 0;
+  padding-left: 1.3em;
 }
 body.trial-doc .accordion-body .test-part ol li {
-  margin: 0.35em 0;
+  margin: 0.6em 0;
+  line-height: 1.8;
+  text-wrap: pretty;
 }
-body[data-md-color-scheme="slate"] .accordion-body .f-label {
-  color: rgba(255, 255, 255, 0.45);
+body.trial-doc .accordion-body .test-part ol li::marker {
+  color: var(--md-link-color);
+  font-weight: 700;
+}
+
+/* =========================================================
+   ミニ目次（judgement_2025 の長いアコーディオン冒頭）
+   開いた直後にリード文の下へ置き、各 .f-head へジャンプできるようにする。
+   本文の段落と紛れないよう、罫線なし・小さめ文字・矢印記号で「ナビ」だと分かるようにする。
+   ========================================================= */
+body.trial-doc .accordion-body .f-jumpnav {
+  margin: 1.6em 0 3.4em;
+  padding: 0;
+  list-style: none;
+}
+body.trial-doc .accordion-body .f-jumpnav li {
+  margin: 0.5em 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+body.trial-doc .accordion-body .f-jumpnav a {
+  color: var(--md-link-color) !important;
+  text-decoration: none;
+  border-bottom: 1px solid var(--md-link-color-faint);
+}
+body.trial-doc .accordion-body .f-jumpnav a:hover {
+  border-bottom-color: var(--md-link-color);
 }
 
