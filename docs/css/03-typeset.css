@@ -297,6 +297,11 @@ strong {
 .doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a {
   font-family: "Noto Sans JP", sans-serif !important;
 }
+/* 裁判文書内の太字強調（<b>/<strong>）：明朝の太字は判別しづらいため、リンクと同様にゴシックへ切り替える */
+.doc b, .idt b, .hg-idt b, .hg-idt2 b, .hg-idt3 b,
+.doc strong, .idt strong, .hg-idt strong, .hg-idt2 strong, .hg-idt3 strong {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
 .pad1 {
   padding-left:1em;
   }

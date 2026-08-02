@@ -109,13 +109,20 @@
 .md-typeset .card-accordion .accordion-body {
   font-size: 14px;
 }
-/* 判決文からの引用（blockquote）部分だけ、判決文（.doc等）と同じ書体にする */
+/* 判決文からの引用（blockquote）部分だけ、判決文（.doc等）と同じ書体にする。
+   左右に1.6文字分（1.6em）内側に寄せる。左は margin で縦棒ごと内側へ、
+   右は対応する縦棒が無いため margin だけで同じ内側量にそろえる。 */
 .md-typeset .card-accordion .accordion-body blockquote {
   font-family: "Noto Serif JP", serif;
   margin-top: 4.0em;
   margin-bottom: 4.0em;
+  margin-left: 1.6em;
+  margin-right: 1.6em;
+  padding-left: 0.6em;
 }
-.md-typeset .card-accordion .accordion-body blockquote a {
+.md-typeset .card-accordion .accordion-body blockquote a,
+.md-typeset .card-accordion .accordion-body blockquote b,
+.md-typeset .card-accordion .accordion-body blockquote strong {
   font-family: "Noto Sans JP", sans-serif;
 }
 /* スマホ（≤767px）はアコーディオン本文の左右パディングを無くす */
