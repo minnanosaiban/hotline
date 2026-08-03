@@ -219,6 +219,17 @@
     margin-top: 3rem !important;
   }
 }
+/* 枠(.agm-section)の直後にある「裁判所の判断」は、.gap-6 の margin-bottom:0 のままだと
+   直後の見出し（margin02=2rem）としか相殺されず、上余白（枠の6remと相殺した6rem）より狭くなる。
+   上下を揃えるため、ここだけ下余白も6remにする（スマホは gap-6 の上余白と同じ3rem）。 */
+.agm-section + p.gap-6 {
+  margin-bottom: 6rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .agm-section + p.gap-6 {
+    margin-bottom: 3rem !important;
+  }
+}
 /* ホーム導入リード（最初の問題提起見出し）の上の大余白。
    PC は 8rem のまま、スマホは過剰な空白を圧縮（旧：index.md のインライン 8rem を移設） */
 .issue-lead {
