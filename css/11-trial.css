@@ -387,3 +387,105 @@ body.trial-doc .accordion-body .f-jumpnav a:hover {
   border-bottom-color: var(--md-link-color);
 }
 
+/* agm/index.md：対照表の直前に置く免責文（非公式メモである旨）。
+   本文（16px）より一段小さく・グレーにして、太字の背骨主張と競合しないようにする。 */
+body.trial-doc .disclaimer-note {
+  font-size: 14px !important;
+  line-height: 1.9 !important;
+  color: var(--md-default-fg-color--light) !important;
+}
+
+/* 「株主質問N」見出し：カード間の区切りをはっきりさせるため、上余白だけ広げる
+   （2rem→4rem。サイトの余白スケールの4rem＝.margin04 と同じ値）。
+   下（見出し→本文）は margin02 の2remのまま変えないので、margin-top だけ上書きする。 */
+body.trial-doc .q-num-gap {
+  margin-top: 4rem !important;
+}
+
+/* =========================================================
+   agm/index.md：対照表（質問Nカード）の発言者マーク
+   実際の株主質問＝🧑の丸アイコン／公式Youtube＝ENEOSの縁取りバッジ（オレンジ）／
+   公表内容の評価＝サイトの検証コメント（青の縁取りバッジ。リンク色＝md-link-colorと共通）。
+   カードの並びは「株主質問（趣旨）→公式Youtube（パネル）→公表内容の評価」の3段。
+   マークは装飾ではなく発言者・立場の区別のため、色は各役割の意味に合わせて使い分ける。
+   ========================================================= */
+body.trial-doc .qa-turn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+body.trial-doc .qa-turn + .qa-turn {
+  margin-top: 1.1rem;
+}
+body.trial-doc .qa-turn .qa-body {
+  flex: 1;
+  min-width: 0;
+}
+body.trial-doc .qa-mark {
+  flex: 0 0 auto;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.1rem;
+}
+body.trial-doc .qa-mark--student {
+  font-size: 1.15rem;
+  background: var(--surface-gray);
+  border: 1px solid var(--md-card-border);
+}
+/* ENEOSの公式Youtube要旨：グレー地のボックスで「会社の公式な記録」として引用扱いにする
+   （書体はサイト共通のゴシックのまま。甲19/20の引用ボックスと違い動画キャプションの要約なので明朝にはしない）。
+   カード内は「ENEOS（発言者バッジ）→パネルの引用文→公式Youtubeのタイムスタンプ（出典リンク）」の3段。
+   バッジとタイムスタンプリンクは、上下に離れていても同じ種類の要素だと分かるよう、高さ・形をそろえる。 */
+body.trial-doc .eneos-card {
+  background: var(--surface-gray);
+  border: 1px solid var(--md-card-border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin: 0 0 1.1rem;
+}
+body.trial-doc .eneos-card > p {
+  margin: 0.6rem 0 !important;
+}
+body.trial-doc .eneos-card .qa-mark--eneos,
+body.trial-doc .eneos-card .eneos-timestamp {
+  display: inline-flex;
+  align-items: center;
+  height: 1.7rem;
+  width: auto;
+  padding: 0;
+  border: none;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin-top: 0;
+}
+body.trial-doc .eneos-card .qa-mark--eneos {
+  color: var(--orange-color-1);
+}
+body.trial-doc .eneos-card .eneos-timestamp {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--md-link-color) !important;
+  text-decoration: none;
+}
+body.trial-doc .eneos-card .eneos-timestamp:hover {
+  text-decoration: underline;
+}
+body.trial-doc .eneos-card .eneos-timestamp i {
+  margin-left: 0.3em;
+}
+body.trial-doc .qa-mark--eval {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  color: var(--md-link-color);
+  border: 1.4px solid var(--md-link-color);
+  text-align: center;
+}
+
