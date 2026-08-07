@@ -1,4 +1,4 @@
----
+﻿---
 title: ENEOS（エネオス）株主総会質疑応答
 description: ENEOS（エネオス）株主総会に株主として出席した記録です。第16回定時株主総会の YouTube公式チャンネル（ENEOS TV）における質問要旨（パネル）と実際の株主質問の対照を掲載しています。
 url: https://minnanosaiban.github.io/hotline/agm/
@@ -58,7 +58,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 社外取締役が名指しで指名されたが、回答したのは社長だった。是正命令が20年以上未履行という事実も、パネルには表れていない。
 </p>
 </div>
@@ -81,7 +81,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 パネルは「個別案件への対応」という一般的な質問に置き換えられ、「いつ、どの法律の改正か」という核心の問いが消えている。
 </p>
 </div>
@@ -104,7 +104,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 質問者自身「内容や数字は分からない」と述べた、もともと一般的な質問。パネルと一致する。
 </p>
 </div>
@@ -127,7 +127,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 質問２と同じ置き換え。「どの法改正か」という問いが「制度の運用」一般になり、従業員本人による重ねての追及であることも表れていない。
 </p>
 </div>
@@ -150,7 +150,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 名指しで尋ねた3点のいずれにも、パネルは触れていない。
 </p>
 </div>
@@ -173,7 +173,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 2チーム保有の必要性という、もともと開いた質問。パネルと一致する。
 </p>
 </div>
@@ -196,7 +196,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 パネルは「配当性向の維持を前提に、増配できないか」だが、実際は配当性向という指標そのものからの転換を求める提案で、前提が逆になっている。
 </p>
 </div>
@@ -219,7 +219,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 もともと開いた質問。協業先の固有名詞（エヌビディア）がパネルで省かれている程度で、おおむね一致する。
 </p>
 </div>
@@ -242,7 +242,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 「170社は最終目標か通過点か」「ペーパーカンパニーの目的は何か」という具体的な問いに、パネルはいずれも触れていない。
 </p>
 </div>
@@ -265,7 +265,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 収益力低下への懸念を示す、もともと開いた質問。トーンはパネルでやや前向きに変わっているが、問いの性質は保たれている。
 </p>
 </div>
@@ -288,7 +288,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 パネルは一般的な遵守状況の質問になっており、現地証言の存在と「会社自らの現地確認」の要請が表れていない。
 </p>
 </div>
@@ -311,7 +311,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 パネルは「カルテル事案について伺いたい」で、批判の中心だった「冒頭で謝罪すべきだった」という点が表れていない。
 </p>
 </div>
@@ -334,7 +334,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 調達の多角化が価格に与える影響を尋ねていたが、パネルは冒頭説明にあった中東情勢を起点に書き換えられている。
 </p>
 </div>
@@ -357,7 +357,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 <div class="qa-turn qa-turn--eval width-40">
 <span class="qa-mark qa-mark--eval">検証</span>
 <p class="qa-body">
-<b>正しく公開されているか</b><br>
+<b>正しく公開されている？</b><br>
 パネルは一般的な「対応」についての質問になっており、「連絡します」と言われたまま1年間放置されたという具体的な事実が表れていない。
 </p>
 </div>
