@@ -33,7 +33,7 @@ YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されて�
 </p>
 
 <p class="width-40 margin02 agree-gap">
-ENEOS TV における質問要旨（パネル）と実際の株主質問の対照表です。14問中10問で、質問の性質そのものがすり替えられていました。要するに、<span style="color: var(--md-warn-red);">ENEOSは株主質問をねじ曲げたうえで公開しています。</span>
+ENEOS TV における質問要旨（パネル）と実際の株主質問の対照表です。14問中10問で、質問の性質そのものがすり替えられていました。要するに、<span style="color: var(--md-warn-red);">ENEOSは株主質問の内容を変えたうえで公開しています。</span>
 </p>
 
 <p class="width-40 margin02 disclaimer-note">
@@ -44,8 +44,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問１
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>個別案件を踏まえ、コンプライアンスと安全についてどのように考えているか伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>個別案件を踏まえ、コンプライアンスと安全についてどのように考えているか伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2455s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 40:55</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -67,8 +67,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問２
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>内部通報制度に関する、個別案件への対応について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>内部通報制度に関する、個別案件への対応について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2580s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 43:00</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -90,8 +90,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問３
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>人材配置やスキルアップ等の人材活用について、どのように考えているか伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>人材配置やスキルアップ等の人材活用について、どのように考えているか伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2672s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 44:32</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -113,8 +113,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問４
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>個別案件を踏まえ、内部通報制度をどのように運用しているか伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>個別案件を踏まえ、内部通報制度をどのように運用しているか伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2816s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 46:56</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -136,8 +136,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問５
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>気候変動対策の方針について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>気候変動対策の方針について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2962s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 49:22</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -159,8 +159,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問６
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>スポーツチーム（野球・バスケットボール）の保有方針について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>スポーツチーム（野球・バスケットボール）の保有方針について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3124s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 52:04</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -182,8 +182,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問７
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>配当性向の維持を前提に、増配できないか伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>配当性向の維持を前提に、増配できないか伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3229s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 53:49</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -205,8 +205,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問８
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>潤滑油を用いた液浸冷却製品について、見通しや今後の方向性を伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>潤滑油を用いた液浸冷却製品について、見通しや今後の方向性を伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3364s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 56:04</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -228,8 +228,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問９
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>グループ会社の組織・体制の再構築について、子会社の削減方針や目標に対する考え方を伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>グループ会社の組織・体制の再構築について、子会社の削減方針や目標に対する考え方を伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3498s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 58:18</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -251,8 +251,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問１０
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>カーボンニュートラル基本計画について、収益力の維持および強化を含めた、今後の長期的な方針を伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>カーボンニュートラル基本計画について、収益力の維持および強化を含めた、今後の長期的な方針を伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3618s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 1:00:18</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -274,8 +274,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問１１
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>Papua LNGプロジェクトにおける、人権ポリシー遵守状況について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>Papua LNGプロジェクトにおける、人権ポリシー遵守状況について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3718s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 1:01:58</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -297,8 +297,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問１２
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>ENEOSウイングにおけるカルテル事案について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>ENEOSウイングにおけるカルテル事案について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=3870s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 1:04:30</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -320,8 +320,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問１３
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>中東情勢を受けた、原油調達への影響について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>中東情勢を受けた、原油調達への影響について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=4045s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 1:07:25</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
@@ -343,8 +343,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 株主質問１４
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
-<p>株主総会のLIVE動画配信に関連する、株主への対応について伺いたい。</p>
+<span class="qa-mark qa-mark--eneos" style="color: var(--md-typeset-color);">ENEOSが公表する株主質問</span>
+<p><b>株主総会のLIVE動画配信に関連する、株主への対応について伺いたい。</b></p>
 <a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=4207s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 1:10:07</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
