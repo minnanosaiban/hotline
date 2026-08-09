@@ -7,7 +7,7 @@ twitter_card: summary
 ---
 
 <p>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/judgment_2025/ &text=令和６年判決 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/judgement_2025/ &text=判決書 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share" style="color: #FFFFFF;">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
