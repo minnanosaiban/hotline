@@ -471,10 +471,11 @@ body.trial-doc .eneos-card .eneos-timestamp {
   display: flex;
   justify-content: flex-end;
   color: var(--md-link-color) !important;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 body.trial-doc .eneos-card .eneos-timestamp:hover {
-  text-decoration: underline;
+  text-decoration-thickness: 1.4px;
 }
 body.trial-doc .eneos-card .eneos-timestamp i {
   margin-left: 0.3em;
