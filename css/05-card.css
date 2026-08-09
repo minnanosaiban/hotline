@@ -305,9 +305,9 @@
 }
 
 /* =========================================================
-   フッターの4カードグリッド（全ページ共通）
-   カード自体は上の .toc-card をそのまま流用。ここでは
-   4列グリッドのラッパーと、内容未定カード（.provisional）だけ追加。
+   フッターの紹介文＋一行リンク（全ページ共通）
+   2026-08-10：カードグリッド（株価チャート＆アプリ／PDF墨消しアプリ）を廃止し、
+   「作成者について」への一行リンクに縮小（旧ルールは git 履歴参照）。
    ========================================================= */
 .md-footer-cards {
   /* 親の .md-footer-meta__inner が display:flex; justify-content:space-between のため、
@@ -335,60 +335,15 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.footer-toc-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.6rem;
+/* 一行リンク：紹介文と同じ幅・中央寄せ。リンク色はフッター文字色を明示
+   （本文用の --md-link-color は暗背景で見えなくなるため） */
+.footer-links-row {
   max-width: 64rem;
   margin: 0 auto;
+  font-size: 14px;
 }
-@media only screen and (max-width: 900px) {
-  .footer-toc-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media only screen and (max-width: 560px) {
-  .footer-toc-grid {
-    grid-template-columns: 1fr;
-  }
-}
-/* フッターは trial/index.md の目次より文字を大きめに（.toc-card 本体は変更せずフッター限定で上書き） */
-.footer-toc-grid .toc-card {
-  padding: 1rem 1.1rem;
-}
-.footer-toc-grid .toc-card-num {
-  font-size: 12px;
-  margin-bottom: 0.2rem;
-}
-.footer-toc-grid .toc-card-title {
-  font-size: 17px;
-  line-height: 1.3;
-  margin-bottom: 0.15rem;
-  color: var(--md-footer-fg-color); /* フッターは背景がほぼ黒（Material既定）。本文用の --md-typeset-color（ほぼ黒）だと文字が見えなくなるため、フッター文字色を明示 */
-}
-.footer-toc-grid .toc-card-desc {
-  font-size: 13px;
-  line-height: 1.4;
-}
-/* 内容未定のカード：ラベル・説明なしのプレースホルダー（リンクなし）。
-   高さは指定しない＝グリッドの既定(stretch)で株価分析カードと同じ高さに揃う。 */
-.toc-card.provisional {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-style: dashed;
-  cursor: default;
-}
-.toc-card.provisional:hover {
-  border-color: var(--md-link-color-faint);
-  background-color: transparent;
-}
-.toc-card.provisional .toc-card-title {
-  margin-bottom: 0;
-  color: #70757a;
-  font-weight: 400;
-}
-[data-md-color-scheme="slate"] .toc-card.provisional .toc-card-title {
-  color: #aaaaaa;
+.footer-links-row a {
+  color: var(--md-footer-fg-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

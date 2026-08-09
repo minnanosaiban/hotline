@@ -1,0 +1,89 @@
+/* =========================================================
+   12-about.css — 「作成者について」(about/) 専用
+   2026-08-10 モック承認：案B（番号のエディトリアル）＋カード廃止。
+   青いバー・青いラベルを使わず、無彩色の番号＋文字の大きさで見出しを
+   立てる。青は本文リンクだけに残す（余白で区切る・無彩色寄りの方針）。
+   ========================================================= */
+
+/* 節見出し「制作物」：ページ題(h1 2.4rem)より一段小さく、字間で立てる */
+.about-sec-title {
+  font-size: 1.35rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.45em;
+  text-indent: 0.45em; /* 末尾字間ぶんの中心ズレ補正 */
+  text-align: center !important;
+  line-height: 1.4 !important;
+}
+@media only screen and (max-width: 767px) {
+  .about-sec-title {
+    font-size: 1.2rem !important;
+  }
+}
+
+/* 制作物の各項目：番号(無彩色)→タイトル(大きさで立てる)→本文→ボタン。
+   項目間は margin-top で区切る（見出し直後の1つ目も含め均等に4rem）。
+   項目内の余白は p をいったん 0 リセットして個別に付け直す */
+.md-typeset .about-work {
+  margin-top: 4rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .md-typeset .about-work {
+    margin-top: 3rem !important;
+  }
+}
+.md-typeset .about-work p {
+  margin: 0 !important;
+}
+.md-typeset .about-work .about-work-num {
+  font-size: 12px !important;
+  letter-spacing: 0.18em;
+  color: var(--md-default-fg-color--light) !important;
+  margin-bottom: 0.15rem !important;
+}
+.md-typeset .about-work .about-work-title {
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.55rem !important;
+}
+.md-typeset .about-work p:has(> .about-btn) {
+  margin-top: 0.7rem !important;
+}
+
+/* 控えめボタン（.x-share と同系の無彩色チップ。ライト/ダークは Material 変数が吸収） */
+.about-btn {
+  display: inline-block;
+  padding: 0.45em 1em;
+  font-size: 13px;
+  border-radius: 0.25rem;
+  color: var(--md-typeset-color) !important;
+  background-color: var(--md-default-fg-color--lightest);
+  text-decoration: none !important;
+}
+.about-btn:hover {
+  background-color: var(--md-default-fg-color--lighter);
+  text-decoration: none !important;
+}
+
+/* 代表記事のテキスト一覧（カード廃止・番号と説明は無彩色、リンクだけ青） */
+.md-typeset .about-art-list {
+  list-style: none !important;
+  margin: 0.7rem 0 0 !important;
+  padding: 0 !important;
+}
+.md-typeset .about-art-list li {
+  font-size: 14.5px;
+  line-height: 1.7;
+  margin: 0 0 0.4rem !important;
+}
+.md-typeset .about-art-list .n {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  margin-right: 0.5em;
+}
+.md-typeset .about-art-list .d {
+  font-size: 13px;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.5em;
+}
