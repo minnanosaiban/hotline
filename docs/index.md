@@ -1,6 +1,6 @@
 ---
 title: ENEOSの内部通報制度をめぐる訴訟について
-description: ENEOS（エネオス）の内部通報制度をめぐる訴訟の裁判文書を公開しています。通報を受けた後、通報者を情報から排除したうえ、裏づけのない情報を知らせて、不正の有無を伏せるという企業の対応について問題提起をしています。株主総会で問題提起します。
+description: ENEOS（エネオス）の内部通報制度をめぐる訴訟の裁判文書を公開しています。通報を受けた後、通報者を通報内容に関する情報から遮断したうえ、裏づけの確認できない情報を知らせて、不正の有無を伏せるという企業の対応について問題提起をしています。株主総会で問題提起します。
 url: https://minnanosaiban.github.io/hotline/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -27,7 +27,7 @@ hide:
 </p>
 
 <p class="width-40 margin02 agree-gap">
-本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<span style="color: var(--md-warn-red);">会社は、通報者を情報から排除したうえ、裏づけのない情報を知らせました。</span>なお、私は社内通報窓口を利用した従業員で、本文では「通報者」とも記します。
+本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<span style="color: var(--md-warn-red);">通報の後、通報者は通報内容に関する情報から遮断されました。そのうえで、裏づけの確認できない情報を知らされました。</span>なお、私は社内通報窓口を利用した従業員で、本文では「通報者」とも記します。
 </p>
 
 <p class="larger width-40 margin02 agree-gap bar-title">
