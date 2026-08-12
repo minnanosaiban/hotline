@@ -29,11 +29,11 @@ YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されて�
 
 
 <p class="center larger width-40 issue-lead sec-title">
-公開内容の検証<br>2026
+株主総会2026<br>公開内容の検証
 </p>
 
 <p class="width-40 margin02 agree-gap">
-ENEOS TV における質問要旨（パネル）と実際の株主質問の対照表です。14問中10問で、質問の性質そのものがすり替えられていました。要するに、<span style="color: var(--md-warn-red);">ENEOSは実際の質問の趣旨とは異なる内容を、株主質問として公開しています。</span>
+ENEOS TV における質問要旨（パネル）と実際の株主質問の対照表です。14問中10問で、質問の性質そのものがすり替わっていました。要するに、<span style="color: var(--md-warn-red);">ENEOSは実際の質問の趣旨とは異なる内容を、株主質問として公開しています。</span>
 </p>
 
 <p class="width-40 margin02 disclaimer-note">

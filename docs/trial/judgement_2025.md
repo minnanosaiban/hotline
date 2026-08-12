@@ -613,6 +613,13 @@ twitter_card: summary
 
 ## 東京高裁　判決文
 
+<div class="repo-link-wrap">
+<a class="repo-link" href="https://minnanosaiban.github.io/eneos-saiban/_static/eneos_judgment_2025.09.09.pdf" target="_blank" rel="noopener">
+<i class="repo-link-icon bi bi-filetype-pdf"></i>
+<span class="repo-link-path">ＰＤＦの用意があります</span>
+<i class="repo-link-arrow fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+</div>
 <p class="doc">
 令和７年９月９日判決言渡同日原本領収裁判所書記官
 </p>
