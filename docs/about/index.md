@@ -1,6 +1,6 @@
 ---
-title: 作成者について
-description: 本サイトの作成者（社内通報窓口を利用した従業員本人）の立場と経歴、本サイト・PDF墨消しアプリ・決算/株価データ分析連載の作成経緯をまとめています。
+title: 運営者について
+description: 本サイトの運営者（社内通報窓口を利用した従業員本人）の立場と経歴、本サイト・PDF墨消しアプリ・決算/株価データ分析連載の作成経緯をまとめています。
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -12,7 +12,7 @@ hide:
 <div class="center-container" markdown>
 
 <div class="hero-band" markdown>
-# 作成者について
+# 運営者について
 <p>
 本サイトは、ＥＮＥＯＳの社内通報窓口を利用した従業員本人が作成しています。株主として、株主総会にも出席しています。
 </p>

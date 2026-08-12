@@ -29,7 +29,7 @@ YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されて�
 
 
 <p class="center larger width-40 issue-lead sec-title">
-すり替えられた<br>株主質問
+公開内容の検証<br>2026
 </p>
 
 <p class="width-40 margin02 agree-gap">

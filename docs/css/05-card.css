@@ -307,7 +307,7 @@
 /* =========================================================
    フッターの紹介文＋一行リンク（全ページ共通）
    2026-08-10：カードグリッド（株価チャート＆アプリ／PDF墨消しアプリ）を廃止し、
-   「作成者について」への一行リンクに縮小（旧ルールは git 履歴参照）。
+   「運営者について」への一行リンクに縮小（旧ルールは git 履歴参照）。
    ========================================================= */
 .md-footer-cards {
   /* 親の .md-footer-meta__inner が display:flex; justify-content:space-between のため、
@@ -321,10 +321,10 @@
     padding: 1rem 1rem 0;
   }
 }
-/* カード群の上に置く紹介文。.footer-toc-grid と幅・中央寄せを揃える。
+/* カード群の上に置く紹介文。本文の列幅（width-40=32rem）に揃え、中央寄せにする。
    本文用の色（ほぼ黒）だとフッターの暗い背景で見えなくなるため、フッター用の色を明示。 */
 .footer-intro {
-  max-width: 64rem;
+  max-width: 32rem;   /* 旧64rem：本文列より広く、中央寄せでも本文と左端が揃わなかったため32remに統一 */
   margin: 0 auto 0.8rem;
   color: var(--md-footer-fg-color--light);
   font-size: 13px;
@@ -338,7 +338,7 @@
 /* 一行リンク：紹介文と同じ幅・中央寄せ。リンク色はフッター文字色を明示
    （本文用の --md-link-color は暗背景で見えなくなるため） */
 .footer-links-row {
-  max-width: 64rem;
+  max-width: 32rem;   /* footer-intro と同じ理由で64rem→32remに */
   margin: 0 auto;
   font-size: 14px;
 }
@@ -346,4 +346,34 @@
   color: var(--md-footer-fg-color);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+/* コピーライト行（※の3行など）も footer-intro / footer-links-row と左端を揃える。
+   .md-copyright は .md-footer-cards の兄弟要素（別のflexアイテム）で、左右パディングを
+   自前で持たない。max-width+margin中央寄せだけで揃えようとすると、32rem制限が効く広い画面では
+   たまたま一致するが、32remより狭い画面（スマホ含む）では制限が効かず中央寄せ計算自体が働かないため、
+   .md-footer-cards 側の左右パディング(1.2rem→スマホ1rem)との差がそのまま出てズレる。
+   そのため中央寄せの計算に頼らず、.md-footer-cards と全く同じ左右パディングをここでも与え、
+   中の要素（※の各行など）だけ本文と同じ32rem列に中央寄せする＝footer-intro/links-rowと同一構造にする。 */
+.md-copyright {
+  /* Materialは広い画面で .md-copyright{width:auto} に切り替える箇所があり、flexアイテムの
+     width:autoはshrink-to-fit（内容の一番短い行に幅が縮む）になるため width:100% を明示で固定。
+     margin/paddingの左右もMaterial既定(margin:auto .6rem)を打ち消し、footer-cardsと同じ値にする。 */
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+@media only screen and (max-width: 767px) {
+  .md-copyright {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.md-copyright > p,
+.md-copyright > .md-copyright__highlight {
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
 }
