@@ -1,6 +1,6 @@
 ---
 title: 運営者について
-description: 本サイトの運営者（社内通報窓口を利用した従業員本人）の立場と経歴、本サイト・PDF墨消しアプリ・決算/株価データ分析連載の作成経緯をまとめています。
+description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しアプリ・スクショＰＤＦ化アプリ・決算/株価データ分析連載など制作物の紹介です。
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -14,7 +14,7 @@ hide:
 <div class="hero-band" markdown>
 # 運営者について
 <p>
-これまでの実務経験（企業価値分析・Pythonデータ分析・機械学習）を活かして、「ちょっと面倒」を軽くするツールを作成しています（Ｅ資格ホルダー）。
+本ウェブサイトは通報者本人が作成しています。裁判に関する掲載以外に、実務経験（企業価値分析・Pythonデータ分析・機械学習）を活かして、「ちょっと面倒」を軽くするツールを作成しています（Ｅ資格ホルダー）。
 </p>
 </div>
 
