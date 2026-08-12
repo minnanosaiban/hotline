@@ -5,7 +5,9 @@
    立てる。青は本文リンクだけに残す（余白で区切る・無彩色寄りの方針）。
    ========================================================= */
 
-/* 節見出し「制作物」：ページ題(h1 2.4rem)より一段小さく、字間で立てる */
+/* 節見出し「制作物」：ページ題(h1 2.4rem)より一段小さく、字間で立てる。
+   直前の段落（JDLA資格・実務経験）とは margin-top 4rem で区切る
+   ＝ 直後の .about-work 間隔（4rem）と揃え、段落→見出し→各項目を均等リズムにする */
 .about-sec-title {
   font-size: 1.35rem !important;
   font-weight: 300 !important;
@@ -13,10 +15,12 @@
   text-indent: 0.45em; /* 末尾字間ぶんの中心ズレ補正 */
   text-align: center !important;
   line-height: 1.4 !important;
+  margin-top: 4rem !important;
 }
 @media only screen and (max-width: 767px) {
   .about-sec-title {
     font-size: 1.2rem !important;
+    margin-top: 3rem !important;
   }
 }
 

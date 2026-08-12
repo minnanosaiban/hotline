@@ -14,15 +14,11 @@ hide:
 <div class="hero-band" markdown>
 # 運営者について
 <p>
-本サイトは、ＥＮＥＯＳの社内通報窓口を利用した従業員本人が作成しています。株主として、株主総会にも出席しています。
+これまでの実務経験（企業価値分析・Pythonデータ分析・機械学習）を活かして、「ちょっと面倒」を軽くするツールを作成しています（Ｅ資格ホルダー）。
 </p>
 </div>
 
-<p class="width-40">
-JDLA Ｅ資格（ディープラーニング）を取得しており、企業価値分析の実務経験があります。本サイトに掲載している検証は、これらの技術を用いて行っています。
-</p>
-
-<p class="about-sec-title width-40">制　作　物</p>
+<p class="about-sec-title width-40">制作物</p>
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０１</p>
@@ -37,9 +33,12 @@ JDLA Ｅ資格（ディープラーニング）を取得しており、企業価
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０２</p>
-<p class="about-work-title">本サイト</p>
+<p class="about-work-title">スクショＰＤＦ化アプリ</p>
 <p>
-MkDocs（Python）で作成しています。判決書・主張書面は原文を掲載し、要約には原文へのアンカーを付けています。
+スマホのスクリーンショットを並べ替えて２×２でＡ４ＰＤＦにまとめ、メールやＬＩＮＥで共有できるツールです。処理はすべてブラウザ内で完結し、画像は外部に送信されません。コードは GitHub で公開しています。
+</p>
+<p>
+<a href="https://screenshot-pdf.pages.dev/" class="about-btn" target="_blank" rel="noopener">スクショＰＤＦ化アプリを開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
 </div>
 
@@ -55,7 +54,7 @@ MkDocs（Python）で作成しています。判決書・主張書面は原文�
 <li><span class="n">2-6</span><a href="../blog/posts/02-06_segment_core_stocks/">コングロマリット・ディスカウント</a><span class="d">総合商社・ＥＮＥＯＳをセグメントで読み解く</span></li>
 </ul>
 <p>
-<a href="../blog/">連載の全記事一覧はこちら</a>
+<a class="arrow-link" href="../blog/">連載の全記事一覧はこちら</a>
 </p>
 </div>
 
