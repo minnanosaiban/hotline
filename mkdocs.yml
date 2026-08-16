@@ -200,6 +200,7 @@ markdown_extensions:
   - attr_list # マークダウンでもhtml属性を設定することができる
   - nl2br # スペース2つ付けなくても改行
   - sane_lists # リストの誤動作を防ぐ
+  - footnotes # 文末脚注（content.footnote.tooltipsと合わせてツールチップ表示になる）
   - toc: # tocを自動的に生成
       toc_depth: 4 # tocの深さ（表示制御はoverrides/main.htmlで行う）
   - pymdownx.emoji: # 絵文字を使う
