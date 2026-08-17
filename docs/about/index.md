@@ -1,6 +1,6 @@
 ---
 title: 運営者について
-description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しアプリ・スクショＰＤＦ化アプリ・決算/株価データ分析連載など制作物の紹介です。
+description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しアプリ・スクショＰＤＦ化アプリ・サイドノート資料作成・決算/株価データ分析連載など制作物の紹介です。
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -44,6 +44,17 @@ hide:
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０３</p>
+<p class="about-work-title">サイドノート資料作成</p>
+<p>
+テキストやスクリーンショットの資料に、読みながら気づいた点をサイドノートとして書き込めるツールです。左に本文、右にサイドノートを並べて表示し、Markdownや印刷用のＡ４ＰＤＦにも書き出せます。処理はすべてブラウザ内で完結し、資料は外部に送信されません。コードは GitHub で公開しています。
+</p>
+<p>
+<a href="https://sidenote-pdf.pages.dev/" class="about-btn" target="_blank" rel="noopener">サイドノート資料作成を開く <i class="bi bi-box-arrow-up-right"></i></a>
+</p>
+</div>
+
+<div class="about-work width-40" markdown>
+<p class="about-work-num">０４</p>
 <p class="about-work-title">決算・株価データの分析連載</p>
 <p>
 無料で入手できる決算短信・有価証券報告書・株価データを用いた検証の実務例です。チャートとアプリの Python コードは GitHub で公開しています。
