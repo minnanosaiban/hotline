@@ -42,7 +42,7 @@
   box-shadow: none !important;
   color: inherit;
   font-size: inherit;
-  margin: 1.4rem 0 0 !important;
+  margin: 1.4rem auto 0 !important;  /* 横は自己センタリング（親が32remより広い場合でも中央。32rem親では従来どおりauto=0） */
   padding: 0.9rem 0 0 !important;
   overflow: visible;
   scroll-margin-top: 4.5rem; /* 固定ヘッダーに隠れないようスクロール位置を調整 */

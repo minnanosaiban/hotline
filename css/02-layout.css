@@ -264,6 +264,8 @@
   box-sizing: border-box;
   margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
   margin-bottom: 6rem;       /* 枠の上(6rem)と対称に。直後の見出しとはマージン相殺するため max(6rem, 2rem)=6rem で確実に効く */
+  margin-left: auto;         /* 自己センタリング（.width-40 と同じ考え方。親が 32rem より広い場合＝styleguide 等でも中央を保つ） */
+  margin-right: auto;
   padding: 3.2rem 1.2rem 3.2rem;   /* 左右1.2remパディング。枠の外幅は32remのまま（本文・タイトルと同列幅）／中のテキストはその分内側に入る */
   --agm-bg: var(--surface-gray);    /* 枠の背景色（共通変数で統一）。スマホの側面box-shadowと共有する */
   background: var(--agm-bg);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
@@ -329,4 +331,7 @@
   width: 100%;
   max-width: 32rem;
   box-sizing: border-box;
+  margin-left: auto !important;   /* 自己センタリング（親が 32rem より広い場合でも中央を保つ）。
+                                     Material の details 既定マージンに勝つため !important */
+  margin-right: auto !important;
 }
