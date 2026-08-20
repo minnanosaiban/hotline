@@ -12,6 +12,55 @@ body.trial-doc {
   --t-card-width: 40rem;   /* カードの共通幅 */
 }
 
+/* ── サイドノート（余白注釈、旧サイトeneos-saibanのmargin機能に相当） ──
+   trial系ページはMaterial標準の目次パネル（.md-sidebar--secondary）の代わりにこの余白へ
+   サイドノートを出す設計（doc_indent.pyフックが該当ページへhide:tocを自動付与し、
+   目次パネル自体の表示を止めている）。段落の直後に<aside class="sidenote">を置き、
+   eneos-saiban（sphinx-book-theme）と同じfloat＋負マージンのTufte CSS手法で
+   目次パネルと同じ余白へ追い出す。マージンの値は実機（.md-content__inner幅）で確認済み。
+   sidenote-pdf-docの「hotline向け書き出し」がこの構造（段落＋直後のaside）を直接出力するため、
+   手打ちの想定は例外の手直しのみ。 */
+body.trial-doc .sidenote {
+  float: right;
+  clear: right;
+  width: 13rem;
+  margin: 0.2em -16rem 0.8em 0;
+  font-size: 0.85em;
+  line-height: 1.8;
+  color: var(--md-default-fg-color);
+  font-family: "Noto Sans JP", sans-serif;
+}
+body.trial-doc .sidenote .num {
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+  margin-right: 0.2em;
+}
+/* eneos-saibanの.strong-rdを踏襲（赤強調）。.strong-rd-hoverはeneos.md移植時に生HTMLへ
+   混ざっていたが定義が無く死んでいたクラスで、ここで合わせて定義する（下線＋ホバーで色を強める）。 */
+body.trial-doc .sidenote .strong-rd {
+  font-weight: 700;
+  color: var(--red-color-3);
+}
+body.trial-doc .strong-rd-hover {
+  text-decoration: underline;
+  text-decoration-color: var(--red-color-3);
+  text-decoration-thickness: 1px;
+}
+body.trial-doc .strong-rd-hover:hover {
+  color: var(--red-color-3);
+  font-weight: 700;
+  text-decoration: none;
+}
+/* Material本体の3カラムレイアウト（目次パネルを含む）が有効になる幅に合わせる
+   （テーマの.md-sidebar--secondary関連ルールがmin-width:76.25emで切り替わることを確認済み）。
+   それより狭い画面では目次パネル分の余白自体が無くなるため、サイドノートも表示しない
+   （表記が難しいモバイルでは非表示にする、という方針のため）。 */
+@media screen and (max-width: 76.1875em) {
+  body.trial-doc .sidenote {
+    display: none;
+  }
+}
+
 /* 判決の概要：理由１・理由２行頭のアイコン。本文中なので黒だと強すぎる＝グレーに、
    間隔はカード内ラベル（.f-label i）と同じ考え方で margin-right のみで詰める。 */
 body.trial-doc .riyu-lead-icon {

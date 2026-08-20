@@ -181,6 +181,7 @@ plugins:
 
 hooks:
   - overrides/hooks/add_blog_class.py
+  - overrides/hooks/doc_indent.py
   # - overrides/hooks/shortcodes.py
   # - overrides/hooks/translations.py
 

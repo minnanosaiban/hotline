@@ -7,6 +7,7 @@
 - 罫線より余白・背景色差・box-shadowで区切る
 - 見出しは太字でなくサイズ／色バーで立てる（Homeのメインタイトルだけ太字の例外）
 - 装飾は無彩色寄り、青とオレンジ（ENEOSブランド色）以外の色はほぼ使わない
+- **縦余白の単一所有の原則**（2026-08-20導入）：セクション間の縦余白は「下の要素が margin-top で持つ」。margin-bottom・flexのgap・マージン相殺の組み合わせで余白を決めない（詳細は0.5章）
 
 ---
 
@@ -14,7 +15,7 @@
 
 | 種類 | 定義場所 | 内容 |
 |---|---|---|
-| 色 | `01-color.css` | `--md-link-color`(青/メイン), `--md-warn-red`(警告赤), `--surface-gray`(灰背景), `--md-card-border`/`--md-card-border-soft`(枠線グレー), `--orange-color-1`(ENEOSブランド橙) |
+| 色 | `01-color.css` | `--md-link-color`(青/メイン), `--md-warn-red`(警告赤), `--red-color-3`(サイドノート強調赤・ライト#dc3545/ダーク#f2545b), `--surface-gray`(灰背景), `--md-card-border`/`--md-card-border-soft`(枠線グレー), `--orange-color-1`(ENEOSブランド橙)。2026-08-20に未使用トークン23個を削除（値のメモは`hikae/color_memo.md`に退避）。定義するのは実際に使う色だけ |
 | 文字サイズ | `03-typeset.css`冒頭コメント | h1 2.4rem／h2・`.larger` 1.6rem／`.large` 1.28rem／`.largest` 2.56rem／本文 16px／`.doc`系(裁判文書) 16px固定／h3・h4 18px／blog記事h1 1.6rem。太さは常に300〜400、強調はサイズで出す |
 | 本文幅 | `03-typeset.css` `.width-40` | `max-width:32rem`（①の「40字幅」の実体。スマホは100%） |
 | 余白 | 詳細は次章 | 基本スケールは1/2/4/6/8rem。詳細は「0.5 余白システム」参照 |
@@ -30,7 +31,7 @@
 | 値 | 位置づけ | 主な使用箇所 |
 |---|---|---|
 | 1rem | 段落内の細かい区切り | `.margin01` |
-| 1.6rem | 見出し⇔本文（グレー枠内） | `.agm-section`内`.larger`の上下、accordionの`margin-top` |
+| 1.6rem | 見出し⇔本文（グレー枠内） | `.agm-section > p + p.margin02`（実余白は+10px）、accordionの`margin-top` |
 | 2rem | 標準的な段落間 | `.margin02`、h1直後の既定 |
 | 4rem | セクション内区切り（中） | `.margin04`、about `.about-work`間、trial `.q-num-gap`（株主質問N見出し） |
 | 6rem | セクション間区切り（大） | `.gap-6`、`.issue-lead`、`.hero-band`の上下padding、`.agm-section`の前後margin、trial `--t-section-gap` |
@@ -53,9 +54,15 @@
 
 judgement_2025のアコーディオン内（本文14px、サイト標準16pxと異なる）は、remでなくemで余白を取っている：`.q-card`/`.ex-card`は`1.4em`、`.f-head`は`4.0em 0 3.2em`、`.f-jumpnav`は`1.6em 0 3.4em`、`.tl-c`は`4.0em 0`。remだとアコーディオン内外でフォントサイズが違うため見た目の比率が崩れる＝**フォントサイズが変わる入れ子ではem、サイト全体の骨格はremという使い分け**になっている。
 
-### 要注意：flexギャップの補正
+### 縦余白の単一所有の原則（2026-08-17〜20で「flexギャップの補正」問題を解消）
 
-`.agm-section`はflexbox（`gap:10px`）で子要素を並べており、margin-topと10pxのgapが両方加算される。そのため「見た目で他と同じ6rem/4remを空けたい」箇所は、`calc(4rem + 10px - 直前要素のmargin-bottom - 10px)`のような補正が随所に入っている（`.verdict-lead`、`.margin04.agree-gap-agm`が代表例）。**このグレー枠の中に新しい要素を足すときは、`.margin04`等のクラスを機械的に付けるだけでは足りず、直前・直後の要素との組み合わせで実際の余白がズレていないか確認する必要がある**。サイト内で最も壊れやすい箇所。
+かつて`.agm-section`はflexの`gap:10px`とマージンが加算される構造で、「目標余白 − 直前のmargin-bottom − gap」というcalc補正が連鎖する、サイト内で最も壊れやすい箇所だった（旧`.agree-gap-agm`・旧`verdict-lead`補正）。2026-08-20に以下へ一本化し、補正ルール群・`.agree-gap-agm`クラス・モバイル専用の例外を全廃した：
+
+- **縦余白は「下の要素」が margin-top だけで持つ。margin-bottom は使わない**（`.gap-6`の設計思想を全体に拡張）
+- `.agm-section`は`gap:0`。枠内は`> p + p`の隣接ルールで基本リズム10pxを持ち、`p + p.margin02`＝`calc(1.6rem+10px)`、`p + p.margin04`／`p + p.verdict-lead`＝`calc(4rem+10px)`（実質98px、枠外`.agree-gap`と同値）。値は全て「見た目の実余白そのもの」で、引き算のcalc補正は存在しない
+- リファクタ前後でPC・モバイル両方の全セクション間隔をブラウザ実測し、ピクセル単位で同一であることを確認済み
+
+**枠内に新しい段落を足すときは`.margin02`／`.margin04`を付けるだけでよい**。直前・直後との組み合わせ確認は不要になった。
 
 ---
 
@@ -72,7 +79,7 @@ judgement_2025のアコーディオン内（本文14px、サイト標準16pxと�
 - 使用：Home本文見出し（複数）、about `.about-work-title`、trial `.t-toc-head`（いずれも今回統合）
 
 ### `.sec-title` / `.issue-point`
-`.sec-title`＝中央寄せの節見出し(2.4rem細字、Homeの大きな区切り)。`.issue-point`＝1.2rem太字の小見出し（Home冒頭の1/2/3）。
+`.sec-title`＝中央寄せの節見出し(2.4rem細字、Homeの大きな区切り)。タイポグラフィ（サイズ・太さ・中央寄せ）はこのクラスが単独で持つ——旧併記の`center`/`larger`/`margin02`は全て上書きされて死んでいたため2026-08-20にマークアップから削除（`<p class="sec-title">`だけでよい。上余白は文脈側：`.issue-lead`併用または`.gap-6 + p.sec-title`ルール）。`.issue-point`＝1.2rem太字の小見出し（Home冒頭の1/2/3）。
 
 ### 地の文の色つき強調 → `.text-warn` / `.text-main`（2026-08-17クラス化）
 - `.text-warn`（赤・`--md-warn-red`）＝告発性の核心事実（ページの「背骨」）・警告ラベル。太字にしたい時は`<b>`で囲む（太さはタグ、色はクラスで分離）
@@ -89,7 +96,7 @@ judgement_2025のアコーディオン内（本文14px、サイト標準16pxと�
 
 | 名前 | 見た目 | 罫線 | 定義 | 使用箇所 |
 |---|---|---|---|---|
-| `.agm-section` | 背景色(surface-gray)の枠 | なし（スマホはbox-shadowで側面を塗る） | `02-layout.css` | Home/agmの引用枠、裁判所の判断まわり |
+| `.agm-section` | 背景色(surface-gray)の枠 | なし（スマホはbox-shadowで側面を塗る） | `02-layout.css` | Homeの引用枠（Homeのみで使用。名前に反しagmページには無い） |
 | `.card-blue`（旧`.card-bule`） | 背景色(surface-gray)+パディング | なし（2026-08-18に罫線→背景へ変更・命名も修正） | `05-card.css` | 音声解説カード等 |
 | `.toc-card`/`.toc-grid` | 2列グリッドのリンクカード | なし（2026-08-18に罫線→背景へ変更、ホバーはbox-shadow） | `05-card.css` | trial indexの4枚、blog indexの読む順カード |
 | `.about-work` | カードでなく番号+見出し+本文 | なし | `12-about.css` | aboutの制作物一覧（2026-08-10にカード形式を廃止した経緯あり） |
@@ -160,6 +167,12 @@ judgement_2025のアコーディオン内（本文14px、サイト標準16pxと�
 8. ~~`qa-mark--eneos`のインラインstyle`color:var(--md-typeset-color)`がagmで14回重複~~ → **2026-08-17対応済み**、クラス本体の色を`var(--orange-color-1)`（常に上書きされ一度も表示されていなかった）から実際の値に変更し、インラインを全削除
 9. ~~whistleblower.md内`margin-top/bottom:1.6em`のインラインstyle（14箇所）と`!important`付け忘れによる不具合（7箇所）~~ → **2026-08-17対応済み**。`.doc-gap-top`/`.doc-gap-bottom`をクラス化し全置換（`.doc`/`.idt`/`.hg-idt*`と併用）。3段階フロー図内の2箇所（1704/1724行目）はすでに正しく動作しており、ユーザー指示により未クラス化のまま維持
 10. ~~whistleblower.md内`.table-text`の`style="width:10em"`が日付列で9回重複~~ → **2026-08-17対応済み**、`.table-text-date`をクラス化
+11. ~~`01-color.css`の未使用トークン23個（他訴訟の会社色等の名残・3世代の命名混在）~~ → **2026-08-20対応済み**、実使用トークンのみ残して削除。値のメモは`hikae/color_memo.md`へ退避。`--red-color-3`はスキーム別定義に移動しダーク変種（#f2545b）を追加（旧#dc3545はダーク背景でコントラスト約2.9:1と不足）
+12. ~~`.agm-section`のflexギャップ補正連鎖（サイト内で最も壊れやすい箇所）~~ → **2026-08-20対応済み**、縦余白の単一所有の原則へ一本化（0.5章参照）。前後でブラウザ実測しピクセル一致を確認
+13. ~~`.sec-title`併記の`center`/`larger`/`margin02`が全て上書きされ死んでいた~~ → **2026-08-20対応済み**、Home3箇所・agm1箇所のマークアップから削除（`.sec-title`単独で完結）。`verdict-lead`の`margin02`併記も同様に削除
+14. ~~`strong { font-style: 700; }`（03-typeset.css）が無効値で一度も効いていなかった~~ → **2026-08-20対応済み**、削除（font-weightの誤記。太字はブラウザ既定で十分）
+15. ~~ヘッダーのサイト名（`.md-header__title`）の左端がタブ行（Home等）と8pxズレていた~~ → **2026-08-20対応済み**、Material既定の`margin-left:1rem(20px)`を`12px`へ縮小し、画面幅≥76.234375em（ドロワーボタン非表示）で完全一致に。ドロワーボタンが出る幅では、ボタンの占有スペース分だけ残る（アイコンとの重なりを避けるため詳細度は保持。全ページ・ダークモードで実測確認済み）
+16. `.x-share`（Xでシェアボタン）を無彩色チップからサイトの青（`--md-link-color`／地色に白文字、ホバーは`--md-link-hover-color`）へ変更（2026-08-20）。リンク・タブ下線と同じ「アクションの色」に統一する意図。オレンジ案（`--orange-color-1`）も試作したが、ＥＮＥＯＳロゴ文字だけに使う特別色のため見送り。音声プレーヤーの`accent-color`案は、Chromeのネイティブ音声コントロールは再生ボタン自体が着色されない（進捗バー・音量つまみのみ）ため効果が薄く見送り。`about-btn`のコメント（旧: .x-shareと同系の無彩色と説明）も実態に合わせて修正済み
 
 ---
 

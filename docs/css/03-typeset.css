@@ -43,7 +43,7 @@
   margin-top: 4rem !important;
   margin-bottom: 4rem !important;
 }
-/* 「合意による支払いだった」の上余白（.agm-section内、4rem＋flexのgap 10px＝実質98px）に揃える対象。
+/* グレー枠内の番号付き小見出し（.agm-section > p + p.margin04 = calc(4rem+10px)＝実質98px）と同じ実余白に揃える対象。
    ここは通常のブロック要素（.agm-section の外）なので、直前要素とはマージン相殺（大きい方が勝つ）。
    相殺相手（見出しのmargin-bottom等）より確実に大きい calc(4rem + 10px) を指定すれば、
    そのままこの値が実際の余白になる（このページ内では常にこちらが大きいので、ブレイクポイント毎の調整は不要）。
@@ -167,9 +167,8 @@ strong em {
   color: var(--md-strong-color) !important;
   font-style: normal !important;
 }
-strong {
-  font-style: 700;
-}
+/* 旧: strong { font-style: 700; } — font-weight の誤記で無効値のため一度も効いておらず削除（2026-08-20）。
+   strong/b の太字はブラウザ既定に任せる。 */
 /* 文字の大きさ */
 .larger {
   font-size: 1.6rem !important;

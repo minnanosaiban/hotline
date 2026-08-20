@@ -1,4 +1,4 @@
-/* シェアボタン */
+/* シェアボタン：サイトの青（リンク・タブ下線と同じアクションの色）を地色に（2026-08-20、無彩色チップから変更） */
 .x-share {
   display: inline-block;
   margin: 0;
@@ -10,12 +10,12 @@
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  color: var(--md-typeset-color) !important;
-  background-color: var(--md-default-fg-color--lightest);
-} 
+  color: #FFFFFF !important;
+  background-color: var(--md-link-color);
+}
 .x-share:hover {
-  color: var(--md-primary-fg-color) !important;
-  background-color: var(--md-default-fg-color--lighter);
+  color: #FFFFFF !important;
+  background-color: var(--md-link-hover-color);
 }
 /* シェアボタンを囲む段落：既定の上下 1em を詰め、H1 のすぐ上に均等な余白で乗せる */
 .md-typeset p:has(.x-share) {

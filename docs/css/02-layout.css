@@ -47,6 +47,14 @@
   color: var(--md-link-color) !important;
   font-weight: 400 !important;
 }
+/* サイト名（ヘッダー）の左端を、直下のタブ行（Home等）の左端に揃える。
+   Material既定のmargin-left(1rem=20px)は、ドロワーボタン非表示時(画面幅≥76.234375em＝ボタン用の
+   予約スペースが無い状態)は単なる余分な空きになり、タブ側（グリッド基準+12px）と8pxだけズレていた。
+   12pxにするとその幅ではタブと厳密に一致する。ドロワーボタンが出る幅（＜76.234375em）ではボタンの
+   ぶんの余白が要るため完全一致はしないが、その分は残り、アイコンとの重なりも発生しない。 */
+.md-header__title {
+  margin-left: 12px !important;
+}
 
 /* タブ */
 /* タブのホバーはメインカラーの下線 */
@@ -219,22 +227,17 @@
     margin-top: 3rem !important;
   }
 }
-/* 枠(.agm-section)の直後にある「裁判所の判断」は、.gap-6 の margin-bottom:0 のままだと
-   直後の見出し（margin02=2rem）としか相殺されず、上余白（枠の6remと相殺した6rem）より狭くなる。
-   上下を揃えるため、ここだけ下余白も6remにする（スマホは gap-6 の上余白と同じ3rem）。 */
-.agm-section + p.gap-6 {
-  margin-bottom: 6rem !important;
+/* 本文フロー中の節見出し（「再通報と新たな問題」）：上の余白はこの要素自身が margin-top で持つ
+   （単一所有の原則＝下の要素が上の余白を持ち、margin-bottom は使わない。.gap-6 と同じ思想）。
+   PC はセクション基準の 6rem。スマホは、直下のリード（.agree-gap = 4rem+10px、スマホでも圧縮なし）
+   との上下対称を優先し、同じ 4rem+10px にする（3rem まで縮めると上だけ狭くなる）。 */
+.gap-6 + p.sec-title {
+  margin-top: 6rem !important;
 }
 @media only screen and (max-width: 767px) {
-  .agm-section + p.gap-6 {
-    margin-bottom: 3rem !important;
+  .gap-6 + p.sec-title {
+    margin-top: calc(4rem + 10px) !important;
   }
-}
-/* 「再通報と新たな問題」見出し：直前が .gap-6（margin-bottom:0）のため、
-   通常の margin02(2rem) のままだと上余白が、下（次段落の .agree-gap＝calc(4rem+10px)）
-   より狭くなる。下と同じ値に揃える（ブレイクポイント間で値が変わらないためメディアクエリ不要）。 */
-.gap-6 + p.sec-title {
-  margin-top: calc(4rem + 10px) !important;
 }
 
 /* ホーム導入リード（最初の問題提起見出し）の上の大余白。
@@ -257,7 +260,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;       /* 中の width-40 を中央寄せに保つ */
-  gap: 10px;                 /* center-container と同じ段落リズム */
+  gap: 0;                    /* 段落リズムは gap でなく各段落の margin-top で持つ（単一所有の原則。旧 gap:10px） */
   box-sizing: border-box;
   margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
   margin-bottom: 6rem;       /* 枠の上(6rem)と対称に。直後の見出しとはマージン相殺するため max(6rem, 2rem)=6rem で確実に効く */
@@ -294,68 +297,28 @@
     text-align: center;
   }
 }
-/* AGM内は flex の gap(10px) で段落リズムを作る前提。flex ではマージンが相殺されないため、
-   各 p の margin02(2rem) や既定マージンが gap に加算され、要素ごとに余白がちぐはぐになる。
-   いったん上下マージンを 0 に揃え、節の始まり（margin02 段落）の前だけ広めに空ける */
+/* AGM枠内の段落リズム（単一所有の原則）：
+   旧実装は flex の gap(10px) と各段落のマージンが加算され、「目標余白 − 直前のmargin-bottom − gap」
+   という calc 補正が連鎖して壊れやすかった（旧 .agree-gap-agm / verdict-lead の補正）。
+   gap は 0 にし、「各段落が自分の上余白だけを margin-top で持つ。margin-bottom は常に 0」に一本化。
+   値は「見た目の実余白」そのもの（旧実装と同じ実余白になるよう +10px を含む）。
+   flex はマージン相殺なし・先頭要素は p+p に該当しないため first-child の例外も不要。 */
 .agm-section > p {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
-.agm-section > p.margin02 {
-  margin-top: 1.6rem !important;
+.agm-section > p + p {
+  margin-top: 10px !important;                 /* 基本リズム（旧 gap:10px と同じ実余白） */
 }
-/* 青い節見出し（larger）の上下マージンを左右対称に揃える（.margin02 の上だけ余白＝非対称を打ち消す） */
-.agm-section > p.larger {
-  margin-top: 1.6rem !important;
-  margin-bottom: 1.6rem !important;
+.agm-section > p + p.margin02 {
+  margin-top: calc(1.6rem + 10px) !important;  /* 小見出し→本文の標準間隔 */
 }
-/* 枠の先頭要素は上マージンを 0 に（padding-top と二重で余白が乗るのを防ぎ、上下を均等にする） */
-.agm-section > p:first-child {
-  margin-top: 0 !important;
+.agm-section > p + p.margin04 {
+  margin-top: calc(4rem + 10px) !important;    /* 番号付き小見出しの上＝実質98px（枠外 .agree-gap と同値） */
 }
-/* 青見出し直後の段落は上マージンを 0 に（見出しの下マージン1.6remと二重に乗るのを防ぎ、
-   どの見出しでも「見出し下の余白」を均一にする） */
-.agm-section > p.larger + p {
-  margin-top: 0 !important;
-}
-/* ただし、青見出し（.sec-title等）の直後が本文でなく次の小見出し（.margin04）の場合は、
-   ゼロ打ち消しの対象外にする。他の小見出しと同じ上余白（4rem）を保つため。 */
-.agm-section > p.larger + p.margin04 {
-  margin-top: 4rem !important;
-}
-/* 「裁判で敗訴はしました…」の上余白を、「合意による支払いだった」と同じ実質98px（4rem+gap10px）に揃える。
-   .agm-section は flex(gap:10px) で、直前の見出しにも margin-bottom（1.6rem）があるため、
-   目標98pxからそれらを差し引いた分だけ、この段落自身に持たせる：
-   calc(4rem + 10px - 1.6rem - 10px) = 2.4rem（+10pxと-10pxが相殺されるので端数なし）。
-   .margin04 側の次見出し「法改正があったため」との間隔（下側）は従来のまま維持。 */
-.agm-section > p.larger + p.verdict-lead {
-  margin-top: 2.4rem !important;
-  margin-bottom: calc(6rem - 4rem - 10px) !important;
-}
-@media only screen and (max-width: 767px) {
-  /* 目標(4rem+10px)はスマホでも縮まらないため、上側は同じ2.4remのまま。
-     下側はこの段落の分をゼロにしてこれ以上広がらないようにする。 */
-  .agm-section > p.larger + p.verdict-lead {
-    margin-bottom: 0 !important;
-  }
-}
-/* 枠内の通常段落でも margin04 を効かせる（詳細度 0,2,1 で .agm-section>p に勝つ）。
-   flex はマージン相殺なし＝下マージンは gap・次段落のマージンと加算され過剰になるので、上だけにする。 */
-.agm-section > p.margin04 {
-  margin-top: 4rem !important;
-}
-/* 「法改正があったため」の上余白を「合意による支払いだった」と同じ実質98px（4rem+gap10px）に揃える。
-   直前は verdict-lead（PC: margin-bottom = calc(6rem-4rem-10px) = calc(2rem-10px) ／ スマホ: 0）。
-   flexは加算されるので、目標98px から「直前のmargin-bottom」と「gap 10px」を引いた分をここに持たせる。
-   PC: calc(4rem+10px) − calc(2rem-10px) − 10px = calc(2rem+10px)
-   スマホ: calc(4rem+10px) − 0 − 10px = 4rem */
-.agm-section > p.margin04.agree-gap-agm {
-  margin-top: calc(2rem + 10px) !important;
-}
-@media only screen and (max-width: 767px) {
-  .agm-section > p.margin04.agree-gap-agm {
-    margin-top: 4rem !important;
-  }
+/* 節見出し（sec-title）→リード段落（「裁判で敗訴はしました…」）も同じ実質98px。PC・スマホ共通 */
+.agm-section > p + p.verdict-lead {
+  margin-top: calc(4rem + 10px) !important;
 }
 /* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする。
    直下(>)だと中間の <div markdown> ラッパー越しのアコーディオンに効かず、開いたとき

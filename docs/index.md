@@ -22,7 +22,7 @@ hide:
 </p>
 
 <div markdown>
-<p class="center larger width-40 issue-lead sec-title">
+<p class="width-40 issue-lead sec-title">
 本サイトの<br>問題提起
 </p>
 
@@ -55,15 +55,15 @@ hide:
 
 <div class="agm-section" markdown>
 
-<p class="center larger margin02 sec-title">
+<p class="sec-title">
 <span class="text-main">裏づけが<br>確認できない<br>３つの情報</span>
 </p>
 
-<p class="width-40 margin02 verdict-lead">
+<p class="width-40 verdict-lead">
 裁判で敗訴はしました。けれども、裁判を通じて、ＥＮＥＯＳが、海外消費税の支払いについて「法改正があったため」としたこと、および、「海外子会社が本社の代わりに海外消費税の返金を受けた」と通報者に知らせていた事実が、明確になりました。
 </p>
 
-<p class="width-40 margin04 agree-gap-agm bar-title">
+<p class="width-40 margin04 bar-title">
 <span class="larger">法改正があったため</span><br>
 ただし、その法改正は未だに特定されていません
 </p>
@@ -96,7 +96,7 @@ hide:
 <b><span class="text-warn">こんなことも！？</span></b>　海外消費税の支払いについて、裁判所は「合意による支払い」と推認を示しました。なお、ＥＮＥＯＳ側からは、その「合意」の記録は示されておらず、「記録のない合意」となります。つまり、ＥＮＥＯＳは海外消費税を記録されない合意に基づいて支払っていたことになります。<span class="text-warn">── 「日本企業に支払義務のない海外消費税を、記録されない合意に基づいて支払う」　これ自体が、企業の内部統制として問題です。</span>
 </p>
 
-<p class="center larger margin02 sec-title">
+<p class="sec-title">
 再通報と<br>新たな問題
 </p>
 <p class="width-40 retort-lead agree-gap">
