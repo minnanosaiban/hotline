@@ -36,6 +36,29 @@ YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されて�
 ENEOS TV における質問要旨（パネル）と実際の株主質問の対照表です。14問中10問で、質問の性質そのものがすり替わっていました。要するに、<span class="text-warn">ENEOSは実際の質問の趣旨とは異なる内容を、株主質問として公開しています。</span>
 </p>
 
+<p class="width-40 margin02 qa-carousel-lead">
+ＥＮＥＯＳ公式チャンネルで実際に公開されている質問パネル、全１４枚です。
+</p>
+<div class="qa-carousel swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img class="qa-shot" src="img/q01.png" alt="質問①：コンプライアンス・安全について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q02.png" alt="質問②：内部通報制度に関する、個別案件への対応について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q03.png" alt="質問③：人材配置やスキルアップ等の人材活用について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q04.png" alt="質問④：個別案件を踏まえ、内部通報制度をどのように運用しているか" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q05.png" alt="質問⑤：気候変動対策の方針について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q06.png" alt="質問⑥：スポーツチーム（野球・バスケットボール）の保有方針について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q07.png" alt="質問⑦：配当性向の維持を前提に、増配できないか" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q08.png" alt="質問⑧：潤滑油を用いた液浸冷却製品について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q09.png" alt="質問⑨：グループ会社の組織・体制の再構築について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q10.png" alt="質問⑩：カーボンニュートラル基本計画について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q11.png" alt="質問⑪：Papua LNGプロジェクトにおける、人権ポリシー遵守状況について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q12.png" alt="質問⑫：ENEOSウイングにおけるカルテル事案について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q13.png" alt="質問⑬：中東情勢を受けた、原油調達への影響について" loading="lazy"></div>
+<div class="swiper-slide"><img class="qa-shot" src="img/q14.png" alt="質問⑭：株主総会のLIVE動画配信に関連する、株主への対応について" loading="lazy"></div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+
 <p class="width-40 margin02 disclaimer-note">
 本稿は、株主総会における質疑応答の趣旨を、筆者の理解に基づき要約・整理した非公式のメモです。内容の正確性・完全性を保証するものではなく、筆者の聞き取り違い、要約上の省略、主観的解釈が含まれる可能性があります。本投稿内容について不備や誤り等がございましたら、<a href="https://x.com/minnanosaiban">筆者（<i class="fa-brands fa-x-twitter"></i> @minnanosaiban）</a>までご連絡いただけますと幸いです。
 </p>

@@ -1,0 +1,49 @@
+/* 質問パネルのカルーセル（.qa-carousel）
+   call4.jp トップページの「中央＋左右チラ見え＋自動送り」演出をSwiper.js（CDN）で再現。
+   agm/index.md でのみ読み込む（overrides/hooks/add_blog_class.py がページ限定でCDN・本CSS・
+   js/qa-carousel.js を注入。他ページの読み込みには影響しない）。
+   同じクラス構造（.qa-carousel.swiper > .swiper-wrapper > .swiper-slide）を書けば、
+   他ページに増やしても qa-carousel.js が自動で拾って初期化する。 */
+.qa-carousel-lead {
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  font-size: 14px;
+}
+.qa-carousel {
+  width: 100%;
+  max-width: 56rem;      /* width-40(32rem)より広く。中央＋左右チラ見えの余地を持たせる */
+  margin: 0 auto;
+  padding: 0.5rem 0 2.5rem;
+}
+.qa-carousel .swiper-slide {
+  width: 26rem;
+  opacity: .45;
+  transform: scale(.92);
+  transition: opacity .4s ease, transform .4s ease;
+}
+.qa-carousel .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+.qa-carousel .qa-shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--surface-gray);  /* 画像の読み込み待ち・欠落時のプレースホルダ色 */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14);  /* .toc-card 等と同じ考え方：ダークでも同値のまま流用 */
+}
+.qa-carousel .swiper-pagination-bullet-active {
+  background: var(--md-link-color);
+}
+.qa-carousel .swiper-button-next,
+.qa-carousel .swiper-button-prev {
+  color: var(--md-link-color);
+}
+@media only screen and (max-width: 767px) {
+  .qa-carousel .swiper-slide {
+    width: 78vw;
+  }
+}
