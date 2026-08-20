@@ -70,7 +70,8 @@
   margin-top: 0.7rem !important;
 }
 
-/* 控えめボタン（.x-share と同系の無彩色チップ。ライト/ダークは Material 変数が吸収） */
+/* 控えめボタン（無彩色チップ。ライト/ダークは Material 変数が吸収。
+   旧: .x-share と同系だったが、.x-share は2026-08-20にサイトの青へ変更済み） */
 .about-btn {
   display: inline-block;
   padding: 0.45em 1em;
