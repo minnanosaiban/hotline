@@ -123,6 +123,9 @@ judgement_2025のアコーディオン内（本文14px、サイト標準16pxと�
 
 ---
 
+### `.width-40` の自己センタリング（2026-08-20、カルーセル追加で発覚したバグ修正）
+`.width-40`（本文40字幅、32rem）は元々`max-width`だけで、センタリングは「親要素の幅がたまたま32remだった」ことに暗黙に頼っていた。`.qa-carousel`（56rem、後述）のような幅の広い要素を同じ親（`center-container`直下の無名ラッパー等）に置くと、親が`width:auto`の通常ブロックのため幅が最も広い子（カルーセル）に引っ張られて広がり、`.width-40`側だけ親の左端に取り残されてページ全体が左寄りに見える不具合が起きた。`.width-40`に`margin-left/right: auto !important`を追加して自己センタリングさせ解消（`!important`が必要な理由：`.md-typeset p`の特異度(0,0,1,1)が`.width-40`単体(0,0,1,0)に勝ってしまうため）。**教訓：`max-width`だけで中央寄せに見えている要素は、兄弟に幅の広い要素を追加すると壊れる。新しい「本文より広い」コンポーネントを足すときは、既存の`width-40`系要素が自己センタリングを持っているか必ず確認する。**
+
 ## 2.5 カルーセル
 
 `.qa-carousel`（Swiper.js・CDN）：中央＋左右チラ見え＋自動送り（call4.jp参考）。agm/index.mdの質問パネル画像14枚専用（2026-08-20導入）。サイト全体のCSS/JSとは別系統で、`overrides/hooks/add_blog_class.py`が`agm/index.md`のときだけSwiper CDN・`docs/css/13-carousel.css`・`docs/js/qa-carousel.js`を注入する（他ページの読み込みには一切影響しない、という設計）。同じHTML構造（`.qa-carousel.swiper > .swiper-wrapper > .swiper-slide` + `.swiper-pagination`）を書けば`qa-carousel.js`のforEachが拾うので、別ページに増やす分には初期化コードの変更は不要（ただしSwiper CDN自体の注入は現状agm限定なので、他ページで使うならフックの条件分岐を広げる必要がある）。

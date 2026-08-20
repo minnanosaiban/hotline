@@ -410,9 +410,15 @@ strong em {
   text-align: right;
   margin: 0.4rem 0 0 !important;
 }
-/* １行の文字数（４０文字） */
+/* １行の文字数（４０文字）。
+   margin:auto で自己センタリングする（2026-08-20追加）：親div（center-container直下の
+   無名ラッパー等）は本来この32rem幅に暗黙に頼ってセンタリングされていたため、.qa-carousel
+   のような32remより広い要素を同じ親に置くと、親の幅がそちらに引っ張られて広がり、
+   .width-40側だけ親の左端に取り残される不具合があった。 */
 .width-40 {
   max-width: 32rem;
+  margin-left: auto !important;   /* .md-typeset p（特異度0,0,1,1）に勝つ必要があるため !important */
+  margin-right: auto !important;
   overflow-wrap: break-word;
   white-space: normal;
 }
