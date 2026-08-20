@@ -29,7 +29,10 @@ def on_post_page(output, page, **kwargs):
         output = re.sub(r"(<body\b)", r'\1 class="trial-doc"', output, count=1)
     elif src.startswith("agm/"):
         output = re.sub(r"(<body\b)", r'\1 class="trial-doc"', output, count=1)
-    if src == "agm/index.md":
+    elif src == "styleguide.md":
+        # 見本帳：trial-doc スコープの対照カード（.eneos-card/.qa-turn）も再現するため同じ body クラスを付与
+        output = re.sub(r"(<body\b)", r'\1 class="trial-doc"', output, count=1)
+    if src in ("agm/index.md", "styleguide.md"):
         output = re.sub(r"</head>", SWIPER_HEAD_TAGS, output, count=1)
         output = re.sub(r"</body>", SWIPER_BODY_TAGS, output, count=1)
     return output
