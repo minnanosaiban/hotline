@@ -195,6 +195,16 @@ strong {
   font-weight: 700 !important;
   line-height: 1.4 !important;
 }
+/* 地の文の色つき強調（クラス化前はインラインstyleで都度指定していた）。
+   .text-warn=告発性の核心事実・警告ラベル（赤）／.text-main=リンクと同じメイン色（青、
+   「裁判所の判断」ラベルや節見出しの色つき部分に使用）。
+   太字にしたい場合は <b> タグで囲む（サイト内の慣習どおり、太さはクラスでなくタグで指定）。 */
+.text-warn {
+  color: var(--md-warn-red);
+}
+.text-main {
+  color: var(--md-link-color);
+}
 /* 見出し感を太字ではなく行頭バーで出す（blog記事のh2・agm/index.mdの質問Nと共通）。
    フォントサイズ・太さは併用するクラス（.larger 等）側に委ねる。
    バーは絶対配置にして段落の高さ全体に伸ばす（タイトル＋「ただし…」の2行構成でも通しで届く）。 */
@@ -292,6 +302,17 @@ strong {
                                                          
 .doc, .idt, .hg-idt, .hg-idt2, .hg-idt3 {
   font-family: "Noto Serif JP", serif !important;
+}
+/* 裁判文書内で段落の前後にゆとりを持たせる修飾。.doc/.idt/.hg-idt*系のクラスと組み合わせて使う
+   （両方欲しい時は2つとも付ける）。1.6em は .doc 系の文字サイズ(16px)基準の値で、
+   サイト全体のrem尺度（.margin01/02/04）とは別スケール。
+   旧：インラインstyleで都度指定していたため、!important の付け忘れ（.doc側の!importantに
+   負けて余白が反映されない）が whistleblower.md 内で複数箇所発生していた（2026-08-17クラス化で解消）。 */
+.doc-gap-top {
+  margin-top: 1.6em !important;
+}
+.doc-gap-bottom {
+  margin-bottom: 1.6em !important;
 }
                                                   
 .doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a {

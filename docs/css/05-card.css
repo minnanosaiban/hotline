@@ -12,19 +12,20 @@
   padding: 1.6rem 0.8rem !important;
   }
   }
-.card-bule {
-  border: 1px solid var(--md-card-border-soft);
-  border-radius: 0;
+/* 罫線でなく背景色で区切る（2026-08-18、border→背景に変更。名称も card-blue→card-blue に修正） */
+.card-blue {
+  background: var(--surface-gray);
+  border-radius: 8px;
   padding: 1.6rem 3.2rem;
   box-shadow: none;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  .card-bule {
+  .card-blue {
   padding: 1.6rem 0.8rem !important;
   }
   }
-.card-bule, .card-bule * {
+.card-blue, .card-blue * {
   box-sizing: border-box;
 }
 /* グレー枠内のアコーディオン：上の余白を下（次段落の margin02＝1.6rem）と揃える。
@@ -143,9 +144,13 @@
   margin: 0;
   font-size: 0.85em;
   line-height: 2;
-  border: 1px solid #e5e7ea; 
+  border: 1px solid #e5e7ea;
   vertical-align: top;
   }
+/* 日付列（whistleblower.md の経緯表で9回使用、インラインstyleで都度指定していたのをクラス化） */
+.table-text-date {
+  width: 10em;
+}
 /* 目次 2列グリッドカード */
 .toc-phase-label {
   font-size: 13px;
@@ -166,18 +171,19 @@
     grid-template-columns: 1fr;
   }
 }
+/* 罫線でなく背景色＋ホバー時のbox-shadowで区切る（2026-08-18、borderから変更） */
 .toc-card {
   display: block;
   padding: 0.75rem 1rem;
-  border: 1px solid var(--md-link-color-faint);
+  background: var(--surface-gray);
   border-radius: 4px;
   text-decoration: none !important;
   color: var(--md-typeset-color) !important;
-  transition: border-color 0.15s ease, background-color 0.15s ease;
+  transition: box-shadow 0.15s ease, background-color 0.15s ease;
 }
 .toc-card:hover {
-  border-color: var(--md-link-color);
-  background-color: rgba(0, 54, 130, 0.03);
+  background-color: var(--md-default-fg-color--lightest);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   text-decoration: none !important;
 }
 .toc-card-num {
@@ -211,10 +217,10 @@
 
 /* =========================================================
    音声解説カード（コンパクト）
-   .card-bule の中に .audio-content を持つボックスだけを対象。
+   .card-blue の中に .audio-content を持つボックスだけを対象。
    index（.trial-page）・各サブページ共通で効かせるため :has() で指定。
    ========================================================= */
-.card-bule:has(.audio-content) {
+.card-blue:has(.audio-content) {
   max-width: 26rem !important;        /* 40rem → 26rem */
   margin-left: auto !important;
   margin-right: auto !important;
@@ -224,7 +230,7 @@
 /* audio-wide 指定（judgement_2025 等）：外部サイトカード(repo-link)と同じ幅・角丸に揃える。
    26rem 制限を外して内容幅いっぱいにし、角丸は repo-link と同じ 8px。枠色は元から共通。
    さらに中身を「タイトル＝左／プレーヤー＝右」の横並びに（注記は下の行へ回す）。 */
-.card-bule.audio-wide:has(.audio-content) {
+.card-blue.audio-wide:has(.audio-content) {
   max-width: none !important;
   border-radius: 8px;
   display: grid;
@@ -236,14 +242,14 @@
   align-items: center;
 }
 /* 左上：タイトル（左寄せ） */
-.card-bule.audio-wide:has(.audio-content) .larger {
+.card-blue.audio-wide:has(.audio-content) .larger {
   grid-area: title;
   align-self: end;
   text-align: left !important;
   margin: 0 !important;
 }
 /* 右：プレーヤー（タイトル＋注記の高さに対して上下中央） */
-.card-bule.audio-wide:has(.audio-content) .audio-content {
+.card-blue.audio-wide:has(.audio-content) .audio-content {
   grid-area: player;
   align-self: center;
   width: 18rem;
@@ -251,7 +257,7 @@
   margin: 0 !important;
 }
 /* 左下：注記（左寄せ） */
-.card-bule.audio-wide:has(.audio-content) .smallest {
+.card-blue.audio-wide:has(.audio-content) .smallest {
   grid-area: caption;
   align-self: start;
   text-align: left !important;
@@ -259,30 +265,30 @@
 }
 /* スマホ：1列に縦並び（タイトル→プレーヤー→注記） */
 @media only screen and (max-width: 767px) {
-  .card-bule.audio-wide:has(.audio-content) {
+  .card-blue.audio-wide:has(.audio-content) {
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "player"
       "caption";
   }
-  .card-bule.audio-wide:has(.audio-content) .audio-content {
+  .card-blue.audio-wide:has(.audio-content) .audio-content {
     width: 100%;
     margin: 0.6rem 0 0 !important;
   }
 }
 /* タイトル（🎙️行）：1.8em → 1.15em・余白詰め */
-.card-bule:has(.audio-content) .larger {
+.card-blue:has(.audio-content) .larger {
   font-size: 1.15em !important;
   line-height: 1.45 !important;
   margin: 0 0 0.55rem !important;
 }
 /* 音声プレーヤー枠：margin02(2rem) を打ち消して詰める */
-.card-bule:has(.audio-content) .audio-content {
+.card-blue:has(.audio-content) .audio-content {
   margin: 0 0 0.5rem !important;
 }
 /* 注記（NotebookLM・ソース・日付）：控えめ・余白なし */
-.card-bule:has(.audio-content) .smallest {
+.card-blue:has(.audio-content) .smallest {
   margin: 0 !important;
   line-height: 1.7 !important;
   color: var(--md-default-fg-color--light) !important;

@@ -10,7 +10,7 @@ twitter_card: summary
 
 <p>
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/blog/ &text=株価分析 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share" style="color: #FFFFFF;">
+     target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>

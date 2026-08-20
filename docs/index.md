@@ -16,7 +16,7 @@ hide:
 
 <p class="base00 hero-share">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share" style="color: #FFFFFF;">
+     target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
@@ -27,7 +27,7 @@ hide:
 </p>
 
 <p class="width-40 margin02 agree-gap">
-本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<span style="color: var(--md-warn-red);"><b>通報の後、通報者は通報内容に関する情報から遮断されました。そのうえで、裏づけの確認できない情報を知らされました。</b></span>なお、私は社内通報窓口を利用した従業員で、本文では「通報者」とも記します。
+本サイトで問題提起をするのは、通報を受けてからの会社の対応です。<b><span class="text-warn">通報の後、通報者は通報内容に関する情報から遮断されました。そのうえで、裏づけの確認できない情報を知らされました。</span></b>なお、私は社内通報窓口を利用した従業員で、本文では「通報者」とも記します。
 </p>
 
 <p class="larger width-40 margin02 agree-gap bar-title">
@@ -50,13 +50,13 @@ hide:
 </p>
 
 <p class="width-40 gap-6">
-<b><span style="color: var(--md-link-color);">裁判所の判断 <i class="fa-solid fa-hand-point-right"></i> </span></b>　通報を受けた後の契約変更について、<b>「通報を受けて講じた是正措置を通報者に通知しなかったこと」が裁判の争点</b>です。裁判所は、契約書に海外消費税の定めはなかったものの、ＥＮＥＯＳは取引先と「海外消費税を支払う合意」をしていたと推認し、合意がある以上海外消費税の支払は契約違反ではない、と判断しました。違反そのものがなければ、通報者に伝えるべき「違反への是正措置」もない ── そう判断し、通知しなかったことを問題にする主張を退けました。
+<b><span class="text-main">裁判所の判断 <i class="fa-solid fa-hand-point-right"></i> </span></b>　通報を受けた後の契約変更について、<b>「通報を受けて講じた是正措置を通報者に通知しなかったこと」が裁判の争点</b>です。裁判所は、契約書に海外消費税の定めはなかったものの、ＥＮＥＯＳは取引先と「海外消費税を支払う合意」をしていたと推認し、合意がある以上海外消費税の支払は契約違反ではない、と判断しました。違反そのものがなければ、通報者に伝えるべき「違反への是正措置」もない ── そう判断し、通知しなかったことを問題にする主張を退けました。
 </p>
 
 <div class="agm-section" markdown>
 
 <p class="center larger margin02 sec-title">
-<span style="color: var(--md-link-color);">裏づけが<br>確認できない<br>３つの情報</span>
+<span class="text-main">裏づけが<br>確認できない<br>３つの情報</span>
 </p>
 
 <p class="width-40 margin02 verdict-lead">
@@ -93,14 +93,14 @@ hide:
 </div>
 
 <p class="width-40 gap-6">
-<b><span style="color: var(--md-warn-red);">こんなことも！？</span></b>　海外消費税の支払いについて、裁判所は「合意による支払い」と推認を示しました。なお、ＥＮＥＯＳ側からは、その「合意」の記録は示されておらず、「記録のない合意」となります。つまり、ＥＮＥＯＳは海外消費税を記録されない合意に基づいて支払っていたことになります。<span style="color: var(--md-warn-red);">── 「日本企業に支払義務のない海外消費税を、記録されない合意に基づいて支払う」　これ自体が、企業の内部統制として問題です。</span>
+<b><span class="text-warn">こんなことも！？</span></b>　海外消費税の支払いについて、裁判所は「合意による支払い」と推認を示しました。なお、ＥＮＥＯＳ側からは、その「合意」の記録は示されておらず、「記録のない合意」となります。つまり、ＥＮＥＯＳは海外消費税を記録されない合意に基づいて支払っていたことになります。<span class="text-warn">── 「日本企業に支払義務のない海外消費税を、記録されない合意に基づいて支払う」　これ自体が、企業の内部統制として問題です。</span>
 </p>
 
 <p class="center larger margin02 sec-title">
 再通報と<br>新たな問題
 </p>
 <p class="width-40 retort-lead agree-gap">
-解決策とされた海外子会社から本社への送金について、私は改めて通報しました。不正な送金が疑われるからです。しかし、<span style="color: var(--md-warn-red);">会社は通報者に『解決済み』と伝えるだけで、不正の有無がどちらなのかすら、判然としないままでした。</span>
+解決策とされた海外子会社から本社への送金について、私は改めて通報しました。不正な送金が疑われるからです。しかし、<span class="text-warn">会社は通報者に『解決済み』と伝えるだけで、不正の有無がどちらなのかすら、判然としないままでした。</span>
 </p>
 <p class="width-40 margin02">
 公益通報者保護法の指針は、調査結果を通報者に通知することを求めていますが、『解決済み』として調査を省くなら、その判断は「可能な限り客観的に」行うこと、新たな疑いの再通報であれば本当に解決済みかを慎重に検討すること、とされています。

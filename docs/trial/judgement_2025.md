@@ -8,7 +8,7 @@ twitter_card: summary
 
 <p>
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/judgement_2025/ &text=判決書 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share" style="color: #FFFFFF;">
+     target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
@@ -991,7 +991,7 @@ twitter_card: summary
 
 ## NotebookLM 音声解説🎙️
 
-<div class="card-bule audio-wide">
+<div class="card-blue audio-wide">
 <p  class="larger center margin01">
 東京地裁判決解説</p>
 <div class="audio-content center margin02">

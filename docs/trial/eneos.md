@@ -8,7 +8,7 @@ twitter_card: summary
 
 <p>
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/eneos/ &text=ＥＮＥＯＳ側の主張書面 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share" style="color: #FFFFFF;">
+     target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
@@ -19,10 +19,10 @@ twitter_card: summary
 <div class="width-40" markdown>
 
 
-<p class="t-toc-head">NotebookLM 音声解説🎙️</p>
+<p class="t-toc-head bar-title">NotebookLM 音声解説🎙️</p>
 
 <div class="audio-stack">
-<div class="card-bule audio-wide">
+<div class="card-blue audio-wide">
 <p  class="larger center margin01">
 ＥＮＥＯＳ主張解説</p>
 <div class="audio-content center margin02">
@@ -34,7 +34,7 @@ twitter_card: summary
 <p class="smallest center margin01">
 プロンプトなし・2025年8月作成<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/eneos/">ＥＮＥＯＳ主張書面全文</a></p>
 </div>
-<div class="card-bule audio-wide">
+<div class="card-blue audio-wide">
 <p  class="larger center margin01">
 控訴審主張解説</p>
 <div class="audio-content center margin02">

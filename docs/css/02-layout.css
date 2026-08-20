@@ -230,15 +230,23 @@
     margin-bottom: 3rem !important;
   }
 }
+/* 「再通報と新たな問題」見出し：直前が .gap-6（margin-bottom:0）のため、
+   通常の margin02(2rem) のままだと上余白が、下（次段落の .agree-gap＝calc(4rem+10px)）
+   より狭くなる。下と同じ値に揃える（ブレイクポイント間で値が変わらないためメディアクエリ不要）。 */
+.gap-6 + p.sec-title {
+  margin-top: calc(4rem + 10px) !important;
+}
+
 /* ホーム導入リード（最初の問題提起見出し）の上の大余白。
-   PC は 8rem のまま、スマホは過剰な空白を圧縮（旧：index.md のインライン 8rem を移設） */
+   PC は 6rem（旧：index.md のインライン 8rem を移設）。
+   スマホは他の6rem系（.gap-6／.agm-section）と同じ基準値3remに統一（2026-08-17、3.5remから修正）。 */
 .issue-lead {
   margin-top: 6rem !important;
   margin-bottom: 2rem !important;
 }
 @media only screen and (max-width: 767px) {
   .issue-lead {
-    margin-top: 3.5rem !important;
+    margin-top: 3rem !important;
   }
 }
 

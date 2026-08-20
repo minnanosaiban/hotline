@@ -20,14 +20,14 @@ hide:
 
 <p class="base00 hero-share">
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share" style="color: #FFFFFF;">
+     target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
 </p>
 
 <div class="toc-wrap" markdown>
 
-<p class="t-toc-head">2025年9月判決</p>
+<p class="t-toc-head bar-title">2025年9月判決</p>
 
 <div class="toc-grid">
 <a href="https://minnanosaiban.github.io/hotline/trial/eneos/" class="toc-card">
