@@ -128,7 +128,7 @@ judgement_2025のアコーディオン内（本文14px、サイト標準16pxと�
 
 ## 2.5 カルーセル
 
-`.qa-carousel`（Swiper.js・CDN）：中央＋左右チラ見え＋自動送り（call4.jp参考）。agm/index.mdの質問パネル画像14枚専用（2026-08-20導入）。サイト全体のCSS/JSとは別系統で、`overrides/hooks/add_blog_class.py`が`agm/index.md`のときだけSwiper CDN・`docs/css/13-carousel.css`・`docs/js/qa-carousel.js`を注入する（他ページの読み込みには一切影響しない、という設計）。同じHTML構造（`.qa-carousel.swiper > .swiper-wrapper > .swiper-slide` + `.swiper-pagination`）を書けば`qa-carousel.js`のforEachが拾うので、別ページに増やす分には初期化コードの変更は不要（ただしSwiper CDN自体の注入は現状agm限定なので、他ページで使うならフックの条件分岐を広げる必要がある）。
+`.qa-carousel`（Swiper.js・CDN）：中央＋左右チラ見え＋自動送り（call4.jp参考）。agm/index.mdの質問パネル画像14枚専用（2026-08-20導入）。**配置上の制約：本文の無名`<div markdown>`ラッパーの中には置かない**。ラッパーはfit-content幅（＝最も広い子の固有幅）で決まるため、スライド列（固定幅×14枚）の固有幅に引っ張られてスマホで本文ごと画面外にはみ出す（2026-08-20に実際に発生・修正）。カルーセルはラッパーを一旦閉じて`center-container`直下（flex子）に置く——これで幅が「親の100%→上限56rem」と確定値で決まる。サイト全体のCSS/JSとは別系統で、`overrides/hooks/add_blog_class.py`が`agm/index.md`のときだけSwiper CDN・`docs/css/13-carousel.css`・`docs/js/qa-carousel.js`を注入する（他ページの読み込みには一切影響しない、という設計）。同じHTML構造（`.qa-carousel.swiper > .swiper-wrapper > .swiper-slide` + `.swiper-pagination`）を書けば`qa-carousel.js`のforEachが拾うので、別ページに増やす分には初期化コードの変更は不要（ただしSwiper CDN自体の注入は現状agm限定なので、他ページで使うならフックの条件分岐を広げる必要がある）。
 
 ## 3. アコーディオン
 
