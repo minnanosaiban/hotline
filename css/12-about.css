@@ -2,7 +2,9 @@
    12-about.css — 「運営者について」(about/) 専用
    2026-08-10 モック承認：案B（番号のエディトリアル）＋カード廃止。
    青いバー・青いラベルを使わず、無彩色の番号＋文字の大きさで見出しを
-   立てる。青は本文リンクだけに残す（余白で区切る・無彩色寄りの方針）。
+   立てる方針だったが、2026-08-17 見直し：タイトルが名前として弱く
+   見えたため、Home/agm/trial 見出しと同じ .bar-title（行頭の青バー）
+   に統一。番号は引き続き無彩色のまま（併用）。
    ========================================================= */
 
 /* 節見出し「制作物」：ページ題(h1 2.4rem)より一段小さく、字間で立てる。
@@ -31,8 +33,10 @@
   margin-top: 4rem !important;
 }
 @media only screen and (max-width: 767px) {
+  /* 同じ「番号つき項目の並び」であるHome(3つの情報)・agm(株主質問N)はスマホでも
+     4remのまま圧縮していないため、こちらも合わせて圧縮なしにする（2026-08-17、3remから修正） */
   .md-typeset .about-work {
-    margin-top: 3rem !important;
+    margin-top: 4rem !important;
   }
 }
 .md-typeset .about-work p {
@@ -45,10 +49,22 @@
   margin-bottom: 0.15rem !important;
 }
 .md-typeset .about-work .about-work-title {
+  position: relative;
+  padding-left: 0.74rem;
   font-size: 1.2rem !important;
   font-weight: 400 !important;
   line-height: 1.4 !important;
   margin-bottom: 0.55rem !important;
+}
+.md-typeset .about-work .about-work-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.24rem;
+  background-color: var(--md-link-color);
+  border-radius: 1px;
 }
 .md-typeset .about-work p:has(> .about-btn) {
   margin-top: 0.7rem !important;
