@@ -55,6 +55,7 @@ nav:
 exclude_docs: |
   blog/posts/EX-01_intraday_stats.md
   blog/posts/EX-02_intraday_ml.md
+  trial/parts/
 
 extra_css:
   - css/01-color.css
