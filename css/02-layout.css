@@ -275,10 +275,16 @@
   --agm-bg: var(--surface-gray);   /* ダーク時も共通変数で統一（#16263c） */
 }
 /* 番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
-   節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。PC・スマホ共通。 */
+   節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。PC・スマホ共通。
+   align-self だけでは効かない：.width-40 の margin-left/right:auto !important が
+   クロス軸で align-self より優先されてしまい、テキスト幅の箱が中央寄せされたまま残っていた
+   （下の本文段落は幅いっぱいに折り返すため、たまたま左端が揃って見えていただけ）。
+   margin-left を 0 で打ち消し、margin-right だけ auto に残して左詰めにする。 */
 .agm-section > p:has(.larger) {
   align-self: flex-start;
   text-align: left;
+  margin-left: 0 !important;
+  margin-right: auto !important;
 }
 @media only screen and (max-width: 767px) {
   .agm-section {
