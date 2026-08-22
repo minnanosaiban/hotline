@@ -70,6 +70,18 @@ body.trial-doc .riyu-lead-icon {
   vertical-align: 0.05em;
 }
 
+/* Markdownの##（h2）は本文（p.width-40／.card-accordion.width-40／div.width-40）と違い
+   幅を制約されていないため、.md-content__inner いっぱい（目次パネルをhide:tocで消した分、
+   32remよりかなり広い）に伸びてしまい、本文列の左端より左に飛び出して見た目がズレる
+   （2026-08-22、judgement_2025.mdの「判決の概要」「関係法令・規程」で発覚）。
+   本文列と同じ32rem・中央寄せにして左端を揃える。###（h3）は既存構造上つねに
+   .width-40 の子孫にあるため対象外（親の幅をそのまま継承していてズレない）。 */
+body.trial-doc .md-content h2 {
+  max-width: 32rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* 共通CSS側の h3 は margin:0（カード内の詰めた見出し用）のため、
    trial-doc ページで###を単独の節タイトルとして使う場合はここで余白を足す
    （現状は judgement_2025.md の「関係法令・規程」内の２見出しのみ該当）。 */
