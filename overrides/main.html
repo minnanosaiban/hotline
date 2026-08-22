@@ -5,7 +5,11 @@
 
 {% block extrahead %}
   <meta name="msvalidate.01" content="9593088485776550C2589B62968B9D78">
-  <link rel="icon" href="/favicon.png" type="image/png">
+  {#- favicon は theme.favicon（mkdocs.yml）で img/favicon.png を指定済み・正しく機能している。
+      ここに以前あった <link rel="icon" href="/favicon.png"> は絶対パスで
+      https://minnanosaiban.github.io/favicon.png（サブパス/hotline/の外・404）を指しており、
+      2つ目のicon linkとして後に並ぶぶんブラウザ・クローラに優先されて壊れたアイコンになっていた
+      （2026-08-22、Google検索結果でアイコンが出ない問題で発覚・削除）。 -#}
   {% if page %}
     {% set src = page.file.src_path | replace('\\', '/') %}
     {% if src == 'blog/index.md' %}
