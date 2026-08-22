@@ -89,13 +89,18 @@ body.trial-doc .md-content h2 {
    （2026-08-22、「他のページと同様、中央で揃うように」というご指摘で発覚）。
    h2と同じ32rem・中央寄せにして左端を揃える。シェアボタンはHome等の.hero-shareと同じく
    text-align:rightで列の右端に寄せる（中身の<a class="x-share">には触れず、
-   包む<p>だけを対象にする）。 */
-body.trial-doc .md-content h1 {
+   包む<p>だけを対象にする）。
+   注意：body.trial-docクラスは判決文・準備書面ページだけでなく agm/*・styleguide.md にも
+   付与される（add_blog_class.py）。agm・styleguideのh1／シェアボタンは.center-container
+   （flexで中央寄せ済み）の中に2階層ネストしていて構造が別物なので、`.md-content__inner`の
+   直下（>）だけに絞り込み、判決文・準備書面ページ（h1もシェアボタンも直下）だけに当てる
+   （2026-08-22、絞り込み漏れでagm/index.mdのタイトル中央寄せが崩れた事故の修正）。 */
+body.trial-doc .md-content__inner > h1 {
   max-width: 32rem;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-body.trial-doc .md-content p:has(> a.x-share) {
+body.trial-doc .md-content__inner > p:has(> a.x-share) {
   max-width: 32rem;
   margin-left: auto !important;
   margin-right: auto !important;
