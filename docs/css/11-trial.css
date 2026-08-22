@@ -82,6 +82,26 @@ body.trial-doc .md-content h2 {
   margin-right: auto !important;
 }
 
+/* ページ冒頭のタイトル（h1）とＸシェアボタンも同じ理由で本文列より左に飛び出していた。
+   Home/agm/trial一覧ページは .center-container（flex＋align-items:center）の中にあるため
+   最初から本文列に収まっているが、trial-doc（判決文・準備書面）ページのh1とシェアボタンは
+   center-containerの外にあり幅の制約もない、素の.md-content__inner直下の要素だった
+   （2026-08-22、「他のページと同様、中央で揃うように」というご指摘で発覚）。
+   h2と同じ32rem・中央寄せにして左端を揃える。シェアボタンはHome等の.hero-shareと同じく
+   text-align:rightで列の右端に寄せる（中身の<a class="x-share">には触れず、
+   包む<p>だけを対象にする）。 */
+body.trial-doc .md-content h1 {
+  max-width: 32rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+body.trial-doc .md-content p:has(> a.x-share) {
+  max-width: 32rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: right;
+}
+
 /* 共通CSS側の h3 は margin:0（カード内の詰めた見出し用）のため、
    trial-doc ページで###を単独の節タイトルとして使う場合はここで余白を足す
    （現状は judgement_2025.md の「関係法令・規程」内の２見出しのみ該当）。 */
