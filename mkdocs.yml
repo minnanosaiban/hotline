@@ -73,6 +73,7 @@ extra_css:
 
 extra_javascript:
   - js/custom.js
+  - js/toc-toggle.js # 判決文・準備書面ページの目次自動退避＋サイドノート（案5、2026-08-22採用）
 
 theme:
   name: "material"

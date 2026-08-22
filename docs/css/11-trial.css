@@ -30,6 +30,16 @@ body.trial-doc .sidenote {
   color: var(--md-default-fg-color);
   font-family: "Noto Sans JP", sans-serif;
 }
+/* 目次が復活した案5レイアウトでは、旧来の-16rem/13rem（目次パネルが無い前提の値）だと
+   目次カラムの右へはみ出す（実測：目次カラムは左端で本文列の右端から約12rem・幅約12.1rem）。
+   目次カラムの内側に収まるよう幅・押し出し量を縮める（下の @media 76.25em以上のブロックで
+   のみ上書き＝目次が実在する幅でだけ効く）。2026-08-22、案5採用時に調整。 */
+@media screen and (min-width: 76.25em) {
+  body.trial-doc .sidenote {
+    width: 11rem;
+    margin-right: -12rem;
+  }
+}
 body.trial-doc .sidenote .num {
   font-weight: 700;
   color: var(--md-default-fg-color--light);
@@ -58,6 +68,69 @@ body.trial-doc .strong-rd-hover:hover {
 @media screen and (max-width: 76.1875em) {
   body.trial-doc .sidenote {
     display: none;
+  }
+}
+
+/* ============================================================
+   目次の自動退避＋サイドノート同居（案5・JupyterBook方式、2026-08-22採用）
+   eneos-saiban（sphinx-book-theme）の挙動をMaterialで再現する：
+     ・初期状態では右カラムに目次が普通に表示されている
+     ・スクロールしてサイドノートが画面内に入っている間だけ、目次の一覧を自動で隠す
+       （見出し行「目次 ▾」だけ残る）。サイドノートが無い場所に来るとまた表示される
+     ・サイドノートがある場所でも、「目次 ▾」をクリックすれば一覧をサイドノートの上に
+       浮くカードとして出せる（外側クリック／Escで閉じる）
+   状態はJS（docs/js/toc-toggle.js）が .toc-hidden / .toc-overlay の2クラスで付け外しする。
+   デスクトップ幅限定（76.25em以上＝Material標準の.md-sidebar--secondary表示条件と同じ）。
+   スマホ幅ではサイドノート自体を非表示にしているため（上の@media max-width:76.1875em）、
+   このブロックの対象外。 */
+@media screen and (min-width: 76.25em) {
+  /* サイドノート（本文側のfloat）が目次カラムに重なって流れてくるので、目次カラム側を
+     手前に出す。見出し行はMaterial標準で背景色付きのstickyなので、通過するサイドノートを
+     下に隠せる。Materialは.md-sidebarにz-indexを持たせていない（position:stickyのみ）。 */
+  body.trial-doc .md-sidebar--secondary {
+    z-index: 2;
+  }
+  /* Material標準は一覧の下余白(.4rem)を相殺するため nav に margin-bottom:-.4rem を
+     持たせている。一覧を隠すと見出し行だけがその分（8px）短い箱に入ることになり、
+     .md-sidebar__inner の overflow:hidden で見出しの下側が切れる（試作1回目で発覚）。
+     このページでは相殺を外す（一覧表示時に下が8px余るだけで実害なし）。 */
+  body.trial-doc .md-sidebar--secondary .md-nav--secondary {
+    margin-bottom: 0;
+  }
+  body.trial-doc .md-sidebar--secondary .md-nav__title {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+  }
+  body.trial-doc .md-sidebar--secondary .md-nav__title::after {
+    content: "▴";
+    font-size: 0.7em;
+    color: var(--md-default-fg-color--light);
+  }
+  body.trial-doc .md-sidebar--secondary.toc-hidden .md-nav__title::after {
+    content: "▾";
+  }
+  /* トップレベルのul（目次本体）だけを隠す。入れ子のulはこのulの子孫なので一緒に消える。 */
+  body.trial-doc .md-sidebar--secondary.toc-hidden .md-nav--secondary > .md-nav__list {
+    display: none;
+  }
+  /* 手動で開いたとき（サイドノートが見えている最中）は、position:fixedの浮くカードにして
+     サイドノートの上に重ねる。座標（left/width/top）はJSが見出し行の位置から実測して指定する
+     （.md-sidebar__scrollwrap の overflow-y:auto によるクリップを受けないための fixed）。 */
+  body.trial-doc .md-sidebar--secondary.toc-overlay .md-nav--secondary > .md-nav__list {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    margin-top: 0.4em;
+    padding: 0.6rem 0.8rem;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   }
 }
 
