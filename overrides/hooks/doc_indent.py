@@ -15,10 +15,15 @@
    ブロックは空行区切り＝1段落として扱う（CommonMark同様、ブロック内の単一改行はソフト改行として
    半角スペースに畳む）。この規約はsidenote-pdf-doc側のMarkdown取り込み・書き出しと揃えてある。
 
-2. 目次パネルの自動非表示
+2. 目次パネルの自動非表示（2026-08-22時点で一時無効化）
    trial/agm系ページは、Material標準の目次パネル（右カラム）の代わりにサイドノートを
    同じ場所（.md-sidebar--secondary）に出す設計のため、front matterへhide:tocを手で書かなくても
-   自動で効くようにする（新しいtrialページを追加しても手打ち不要にするため）。
+   自動で効くようにする（新しいtrialページを追加しても手打ち不要にするため）――という設計だった。
+   ただし実際にはサイドノート（<aside class="sidenote">）はまだ本文中で1件も使われておらず、
+   目次パネルを消したぶん.md-content__innerが広がって右に空白が残るだけの状態になっていた。
+   結果、judgement_2025.md等は「右にTOCが無い・中央からズレている」と指摘され（2026-08-22）、
+   いったん元の目次パネル表示に戻すことにした。下のhide.append("toc")は無効化（コメントアウト）
+   している。サイドノートを実際に使う方針が決まったら、ここを復活させる。
 
 3. :include: ディレクティブ（書面1つ＝1ファイルの「部品」方式）
    「:include: parts/hoju2.md」という行を、そのページから見た相対パスのファイルの中身に
@@ -106,9 +111,10 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     if not _is_trial_page(src):
         return markdown
 
-    hide = page.meta.setdefault("hide", [])
-    if "toc" not in hide:
-        hide.append("toc")
+    # 目次パネルの自動非表示は一時無効化（2026-08-22、上のdocstring 2. 参照）。
+    # hide = page.meta.setdefault("hide", [])
+    # if "toc" not in hide:
+    #     hide.append("toc")
 
     markdown = _expand_includes(markdown, page, config["docs_dir"])
     blocks = re.split(r"\n{2,}", markdown.strip())
