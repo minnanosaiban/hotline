@@ -26,6 +26,7 @@ hide:
 <p>
 裁判文書を公開するにあたり、第三者の個人情報を保護するために自作したツールです。処理はすべてブラウザ内で完結し、ＰＤＦは外部に送信されません。コードは GitHub で公開しています。
 </p>
+<p class="fig-meta">使用技術：JavaScript・PDF.js・pdf-lib（Cloudflare Pages）</p>
 <p>
 <a href="https://pdf-redactor.pages.dev/" class="about-btn" target="_blank" rel="noopener">ＰＤＦ墨消しアプリを開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
@@ -37,6 +38,7 @@ hide:
 <p>
 スマホのスクリーンショットを並べ替えて２×２でＡ４ＰＤＦにまとめ、メールやＬＩＮＥで共有できるツールです。処理はすべてブラウザ内で完結し、画像は外部に送信されません。コードは GitHub で公開しています。
 </p>
+<p class="fig-meta">使用技術：JavaScript・pdf-lib（Cloudflare Pages）</p>
 <p>
 <a href="https://screenshot-pdf.pages.dev/" class="about-btn" target="_blank" rel="noopener">スクショＰＤＦ化アプリを開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
@@ -48,6 +50,7 @@ hide:
 <p>
 テキストやスクリーンショットの資料に、読みながら気づいた点をサイドノートとして書き込めるツールです。左に本文、右にサイドノートを並べて表示し、Markdownや印刷用のＡ４ＰＤＦにも書き出せます。処理はすべてブラウザ内で完結し、資料は外部に送信されません。コードは GitHub で公開しています。
 </p>
+<p class="fig-meta">使用技術：JavaScript・PDF.js（Cloudflare Pages）</p>
 <p>
 <a href="https://sidenote-pdf.pages.dev/" class="about-btn" target="_blank" rel="noopener">サイドノート資料作成を開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
@@ -59,6 +62,7 @@ hide:
 <p>
 無料で入手できる決算短信・有価証券報告書・株価データを用いた検証の実務例です。チャートとアプリの Python コードは GitHub で公開しています。
 </p>
+<p class="fig-meta">使用技術：Python・pandas・matplotlib・Streamlit</p>
 <ul class="about-art-list">
 <li><span class="n">2-3</span><a href="../blog/posts/02-03_accrual_analysis/">アクルーアル分析</a><span class="d">ＥＮＥＯＳの最高益に「現金の裏付け」はあるか</span></li>
 <li><span class="n">2-8</span><a href="../blog/posts/02-08_enterprise_value/">EVで見る「会社の値段」</a><span class="d">時価総額に借金を足し、13社を簡易DCFで検証</span></li>
