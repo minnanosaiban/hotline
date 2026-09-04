@@ -37,7 +37,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 </p>
 
 <p class="width-40 margin02 qa-carousel-lead">
-<img src="img/youtube-logo.png" alt="YouTube" class="qa-carousel-badge">
+<a href="https://www.youtube.com/watch?v=0kWavfBMS30&list=PLSSdTIoaGDQoA4QnrHe1TRIGg_yTTnRnQ" target="_blank" rel="noopener"><img src="img/youtube-logo.png" alt="YouTube" class="qa-carousel-badge"></a>
 </p>
 
 </div>
