@@ -37,7 +37,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 </p>
 
 <p class="width-40 margin02 qa-carousel-lead">
-ＥＮＥＯＳ公式チャンネルで実際に公開されている質問パネル、全１４枚です。
+冒頭のタイトル画面と、ＥＮＥＯＳ公式チャンネルで実際に公開されている質問パネル全１４枚です。
 </p>
 
 </div>
@@ -47,6 +47,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
      スマホで本文段落ごと画面外にはみ出すため（詳細は DESIGN_SYSTEM.md 2.5節） -->
 <div class="qa-carousel swiper">
 <div class="swiper-wrapper">
+<div class="swiper-slide"><img class="qa-shot" src="img/opening.png" alt="第16回定時株主総会（2026年6月25日）ENEOSホールディングス株式会社" loading="lazy"></div>
 <div class="swiper-slide"><img class="qa-shot" src="img/q01.png" alt="質問①：コンプライアンス・安全について" loading="lazy"></div>
 <div class="swiper-slide"><img class="qa-shot" src="img/q02.png" alt="質問②：内部通報制度に関する、個別案件への対応について" loading="lazy"></div>
 <div class="swiper-slide"><img class="qa-shot" src="img/q03.png" alt="質問③：人材配置やスキルアップ等の人材活用について" loading="lazy"></div>
