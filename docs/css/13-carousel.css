@@ -51,4 +51,7 @@
   .qa-carousel .swiper-slide {
     width: 78vw;
   }
+  .qa-carousel-badge {
+    height: 12px;
+  }
 }
