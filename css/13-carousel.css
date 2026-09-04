@@ -10,7 +10,7 @@
   font-size: 14px;
 }
 .qa-carousel-badge {
-  height: 20px;
+  height: 16px;
   width: auto;
   vertical-align: middle;
 }
@@ -52,6 +52,6 @@
     width: 78vw;
   }
   .qa-carousel-badge {
-    height: 12px;
+    height: 9px;
   }
 }
