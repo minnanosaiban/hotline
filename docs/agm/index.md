@@ -37,7 +37,7 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 </p>
 
 <p class="width-40 margin02 qa-carousel-lead">
-冒頭のタイトル画面と、ＥＮＥＯＳ公式チャンネルで実際に公開されている質問パネル全１４枚です。
+<img src="img/youtube-logo.png" alt="YouTube" class="qa-carousel-badge">
 </p>
 
 </div>

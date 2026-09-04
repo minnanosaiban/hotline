@@ -9,6 +9,11 @@
   color: var(--md-default-fg-color--light);
   font-size: 14px;
 }
+.qa-carousel-badge {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+}
 .qa-carousel {
   width: 100%;
   max-width: 56rem;      /* width-40(32rem)より広く。中央＋左右チラ見えの余地を持たせる */
