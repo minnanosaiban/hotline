@@ -10,7 +10,8 @@
   font-size: 14px;
 }
 .qa-carousel-badge {
-  height: 16px;
+  /* .md-typeset img { height: auto; } の方が詳細度が高く上書きされてしまうため !important で固定 */
+  height: 16px !important;
   width: auto;
   vertical-align: middle;
 }
@@ -52,6 +53,6 @@
     width: 78vw;
   }
   .qa-carousel-badge {
-    height: 9px;
+    height: 9px !important;
   }
 }
