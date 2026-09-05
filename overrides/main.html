@@ -5,6 +5,10 @@
 
 {% block extrahead %}
   <meta name="msvalidate.01" content="9593088485776550C2589B62968B9D78">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  {#- サイト名の明示（2026-09-05追加）。og:site_nameが無いと、Googleが検索結果の
+      サイト名欄をホスティング基盤由来の情報（「GitHub Pages documentation」等）で
+      代用してしまうことがあるため、明示的に指定して正しいサイト名を認識させる。 -#}
   {#- favicon は theme.favicon（mkdocs.yml）で img/favicon.png を指定済み・正しく機能している。
       ここに以前あった <link rel="icon" href="/favicon.png"> は絶対パスで
       https://minnanosaiban.github.io/favicon.png（サブパス/hotline/の外・404）を指しており、
