@@ -59,6 +59,6 @@
     width: 78vw;
   }
   .qa-carousel-badge {
-    height: 22px !important;
+    height: 26px !important;  /* 22pxだと小さすぎたため引き上げ(2026-09-07)。デスクトップ32pxとの相対感は保つ */
   }
 }
