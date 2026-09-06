@@ -1,6 +1,6 @@
 ---
 title: 運営者について
-description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しアプリ・スクショＰＤＦ化アプリ・サイドノート資料作成・公文書ウェブ掲載アプリ・決算/株価データ分析連載・応援傍聴ナビなど制作物の紹介です。
+description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しアプリ・スクショＰＤＦ化アプリ・サイドノート資料作成・公文書ウェブ掲載アプリ・決算/株価データ分析連載・応援傍聴ナビ・Ｘスクショ管理アプリなど制作物の紹介です。
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -14,7 +14,7 @@ hide:
 <div class="hero-band" markdown>
 # 運営者について
 <p>
-本ウェブサイトは通報者本人が作成しています。裁判に関する掲載以外に、実務経験（企業価値分析・Pythonデータ分析・機械学習）を活かして、「ちょっと面倒」を軽くするツールを作成しています（Ｅ資格ホルダー）。
+本ウェブサイトは持ち前の技術を活かして通報者本人が作成しています。裁判に関する掲載以外に、実務経験（企業価値分析・Pythonデータ分析・Ｅ資格ホルダー）を活かして、「ちょっと面倒」を軽くするツールを作成しています。
 </p>
 </div>
 
@@ -99,6 +99,18 @@ hide:
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０７</p>
+<p class="about-work-title">Ｘスクショ管理アプリ</p>
+<p>
+民事裁判の証拠として、Ｘ（旧Twitter）の投稿を後から確認できる形で保存・整理するためのデスクトップアプリです。投稿ページをブラウザウィンドウごとスクリーンショットとして貯め、重要度を採点したうえで、証拠提出用のＰＤＦやサイドノート資料作成アプリ用のファイルに書き出せます。処理はすべてローカルのＰＣ内で完結し、外部には送信されません。コードは GitHub で公開しています。
+</p>
+<p class="fig-meta">使用技術：Python・Playwright・Tkinter（PyInstallerでexe化・GitHub Releases配布）</p>
+<p>
+<a href="https://github.com/minnanosaiban/screenshot-x/releases/latest" class="about-btn" target="_blank" rel="noopener">Ｘスクショ管理アプリをダウンロード <i class="bi bi-box-arrow-up-right"></i></a>
+</p>
+</div>
+
+<div class="about-work width-40" markdown>
+<p class="about-work-num">０８</p>
 <p class="about-work-title">ＥＮＥＯＳの内部通報制度をめぐる訴訟について</p>
 <p>
 本サイト自体も自作しています。MkDocs Material をベースに、判決文などの資料に注釈を右余白へ表示するサイドノート機能（スクロール中は目次を自動で畳み、クリックで一覧を呼び出せます）や、株主総会の質問スクリーンショットなどを自動で流して見せる画像カルーセル機能を追加しました。コードは GitHub で公開しています。
