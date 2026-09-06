@@ -19,7 +19,7 @@
   width: 100%;
   max-width: 56rem;      /* width-40(32rem)より広く。中央＋左右チラ見えの余地を持たせる */
   margin: 0 auto;
-  padding: 0.5rem 0 2.5rem;
+  padding: 3rem 0 4rem;
 }
 .qa-carousel .swiper-slide {
   width: 26rem;
@@ -28,8 +28,11 @@
   transition: opacity .4s ease, transform .4s ease;
 }
 .qa-carousel .swiper-slide-active {
-  opacity: 1;
-  transform: scale(1);
+  /* !important が要る理由：同じ詳細度（2クラス）の.swiper-slideルールと綱引きになり、
+     素の宣言だとどちらが勝つか不安定だった（2026-09-07、実機で検証） */
+  opacity: 1 !important;
+  transform: scale(1.15) !important;
+  z-index: 2;
 }
 .qa-carousel .qa-shot {
   display: block;
