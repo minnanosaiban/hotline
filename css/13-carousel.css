@@ -9,6 +9,11 @@
   color: var(--md-default-fg-color--light);
   font-size: 14px;
 }
+/* margin02(上下2rem=40px !important)のうち下だけ0にし、その分は.qa-carouselのpadding-topへ
+   全部付け替える(下記参照)。ロゴ上と同じ40pxに揃えるため、.margin02より詳細度を上げて上書きする。 */
+.qa-carousel-lead.margin02 {
+  margin-bottom: 0 !important;
+}
 .qa-carousel-badge {
   /* .md-typeset img { height: auto; } の方が詳細度が高く上書きされてしまうため !important で固定 */
   height: 32px !important;
@@ -19,10 +24,12 @@
   width: 100%;
   max-width: 56rem;      /* width-40(32rem)より広く。中央＋左右チラ見えの余地を持たせる */
   margin: 0 auto;
-  /* padding-top: Youtubeロゴのバッジはこのdivのpadding(60px)に加えて自身のmargin-bottom(40px)も
-     持つため、素の3remのままだと下だけ計100pxになり上(40px)と揃わない。上とほぼ同じ高さに
-     見えるよう、ロゴ下の余白の合計がおよそ半分(50px)になる値に縮めた(2026-09-07)。 */
-  padding: 0.5rem 0 4rem;
+  /* padding-top: 単に詰めるとアクティブスライド(下のswiper-slide-activeでscale(1.15))が
+     このdiv自身のoverflow:hidden(Swiper既定)の上端にかかって上部が欠ける実害を確認した
+     (2026-09-07)。欠けない下限は縦の膨らみ分＝スライド高さの15%の半分(モバイル78vw幅の
+     ブレークポイント境界=767pxで最大、計算上約25px)。安全マージンを見て2rem(40px)を確保。
+     ロゴ側のmargin-bottomは上記の通り0にしたので、ロゴ上下の余白が計40pxで揃う。 */
+  padding: 2rem 0 4rem;
 }
 .qa-carousel .swiper-slide {
   width: 26rem;
