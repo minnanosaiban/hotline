@@ -19,7 +19,10 @@
   width: 100%;
   max-width: 56rem;      /* width-40(32rem)より広く。中央＋左右チラ見えの余地を持たせる */
   margin: 0 auto;
-  padding: 3rem 0 4rem;
+  /* padding-top: Youtubeロゴのバッジはこのdivのpadding(60px)に加えて自身のmargin-bottom(40px)も
+     持つため、素の3remのままだと下だけ計100pxになり上(40px)と揃わない。上とほぼ同じ高さに
+     見えるよう、ロゴ下の余白の合計がおよそ半分(50px)になる値に縮めた(2026-09-07)。 */
+  padding: 0.5rem 0 4rem;
 }
 .qa-carousel .swiper-slide {
   width: 26rem;
