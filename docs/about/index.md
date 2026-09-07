@@ -1,6 +1,6 @@
 ---
 title: 運営者について
-description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しアプリ・スクショＰＤＦ化アプリ・サイドノート資料作成・公文書ウェブ掲載アプリ・決算/株価データ分析連載・応援傍聴ナビ・Ｘスクショ管理アプリなど制作物の紹介です。
+description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しツール・スクショＰＤＦ化ツール・サイドノート資料作成・公文書ウェブ掲載ツール・決算/株価データ分析連載・応援傍聴ナビ・Ｘスクショ管理アプリなど制作物の紹介です。
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -22,25 +22,25 @@ hide:
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０１</p>
-<p class="about-work-title">ＰＤＦ墨消しアプリ</p>
+<p class="about-work-title">ＰＤＦ墨消しツール</p>
 <p>
 裁判文書を公開するにあたり、第三者の個人情報を保護するために自作したツールです。処理はすべてブラウザ内で完結し、ＰＤＦは外部に送信されません。コードは GitHub で公開しています。
 </p>
 <p class="fig-meta">使用技術：JavaScript・PDF.js・pdf-lib（Cloudflare Pages）</p>
 <p>
-<a href="https://pdf-redactor.pages.dev/" class="about-btn" target="_blank" rel="noopener">ＰＤＦ墨消しアプリを開く <i class="bi bi-box-arrow-up-right"></i></a>
+<a href="https://pdf-redactor.pages.dev/" class="about-btn" target="_blank" rel="noopener">ＰＤＦ墨消しツールを開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
 </div>
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０２</p>
-<p class="about-work-title">スクショＰＤＦ化アプリ</p>
+<p class="about-work-title">スクショＰＤＦ化ツール</p>
 <p>
 スマホのスクリーンショットを並べ替えて２×２でＡ４ＰＤＦにまとめ、メールやＬＩＮＥで共有できるツールです。処理はすべてブラウザ内で完結し、画像は外部に送信されません。コードは GitHub で公開しています。
 </p>
 <p class="fig-meta">使用技術：JavaScript・pdf-lib（Cloudflare Pages）</p>
 <p>
-<a href="https://screenshot-pdf.pages.dev/" class="about-btn" target="_blank" rel="noopener">スクショＰＤＦ化アプリを開く <i class="bi bi-box-arrow-up-right"></i></a>
+<a href="https://screenshot-pdf.pages.dev/" class="about-btn" target="_blank" rel="noopener">スクショＰＤＦ化ツールを開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
 </div>
 
@@ -58,13 +58,13 @@ hide:
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０４</p>
-<p class="about-work-title">公文書ウェブ掲載アプリ</p>
+<p class="about-work-title">公文書ウェブ掲載ツール</p>
 <p>
 準備書面等の公文書を、項番（第１／１／⑴／ア）の設定とサイドノートの検討メモを使いながら作成できるツールです。Markdown原稿の取り込みにも対応し、文末脚注・明朝体１２ｐｔの公文書仕様ＰＤＦや、本サイトへの直接書き出しにも対応しています。処理はすべてブラウザ内で完結し、資料は外部に送信されません。コードは GitHub で公開しています。
 </p>
 <p class="fig-meta">使用技術：JavaScript・PDF.js（Cloudflare Pages）</p>
 <p>
-<a href="https://sidenote-pdf-doc.pages.dev/" class="about-btn" target="_blank" rel="noopener">公文書ウェブ掲載アプリを開く <i class="bi bi-box-arrow-up-right"></i></a>
+<a href="https://sidenote-pdf-doc.pages.dev/" class="about-btn" target="_blank" rel="noopener">公文書ウェブ掲載ツールを開く <i class="bi bi-box-arrow-up-right"></i></a>
 </p>
 </div>
 
@@ -101,7 +101,7 @@ hide:
 <p class="about-work-num">０７</p>
 <p class="about-work-title">Ｘスクショ管理アプリ</p>
 <p>
-民事裁判の証拠として、Ｘ（旧Twitter）の投稿を後から確認できる形で保存・整理するためのデスクトップアプリです。投稿ページをブラウザウィンドウごとスクリーンショットとして貯め、重要度を採点したうえで、証拠提出用のＰＤＦやサイドノート資料作成アプリ用のファイルに書き出せます。処理はすべてローカルのＰＣ内で完結し、外部には送信されません。コードは GitHub で公開しています。
+民事裁判の証拠として、Ｘ（旧Twitter）の投稿を後から確認できる形で保存・整理するためのデスクトップアプリです。投稿ページをブラウザウィンドウごとスクリーンショットとして貯め、重要度を採点したうえで、証拠提出用のＰＤＦやサイドノート資料作成ツール用のファイルに書き出せます。処理はすべてローカルのＰＣ内で完結し、外部には送信されません。コードは GitHub で公開しています。
 </p>
 <p class="fig-meta">使用技術：Python・Playwright・Tkinter（PyInstallerでexe化・GitHub Releases配布）</p>
 <p>

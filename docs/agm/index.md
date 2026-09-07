@@ -1,6 +1,6 @@
 ﻿---
-title: ENEOS（エネオス）株主総会質疑応答
-description: ENEOS（エネオス）株主総会に株主として出席した記録です。第16回定時株主総会の YouTube公式チャンネル（ENEOS TV）における質問要旨（パネル）と実際の株主質問の対照を掲載しています。
+title: ENEOS（エネオス）株主総会2026 質疑応答
+description: ENEOS（エネオス）株主総会2026に株主として出席した記録です。第16回定時株主総会（2026年6月25日）の YouTube公式チャンネル（ENEOS TV）における質問要旨（パネル）と実際の株主質問の対照を掲載しています。
 url: https://minnanosaiban.github.io/hotline/agm/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
@@ -12,9 +12,9 @@ hide:
 <div class="center-container" markdown>
 
 <div class="hero-band" markdown>
-# 株主総会質疑応答
+# ENEOS（エネオス）株主総会2026 質疑応答
 <p>
-YouTube公式チャンネル（ENEOS TV）で総会の様子が公開されています。しかし、そこでの質問要旨は、実際の株主が質問した趣旨とは異なっています。
+ENEOS（エネオス）の株主総会2026の様子は、YouTube公式チャンネル（ENEOS TV）で公開されています。しかし、そこでの質問要旨は、実際の株主が質問した趣旨とは異なっています。
 </p>
 </div>
 
