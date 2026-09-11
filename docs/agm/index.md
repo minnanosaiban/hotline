@@ -12,9 +12,9 @@ hide:
 <div class="center-container" markdown>
 
 <div class="hero-band" markdown>
-# ENEOS（エネオス）株主総会2026 質疑応答
+# 株主総会質疑応答
 <p>
-ENEOS（エネオス）の株主総会2026の様子は、YouTube公式チャンネル（ENEOS TV）で公開されています。しかし、そこでの質問要旨は、実際の株主が質問した趣旨とは異なっています。
+ENEOSの株主総会2026の様子は、YouTube公式チャンネル（ENEOS TV）で公開されています。しかし、そこでの質問要旨は、実際の株主が質問した趣旨とは異なっています。
 </p>
 </div>
 
