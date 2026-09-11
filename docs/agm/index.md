@@ -394,7 +394,5 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 </p>
 </div>
 
-<p class="fig-meta">出典<br><i class="fa-solid fa-caret-right"></i>公式の要旨＝ENEOS TV（公式チャンネル）のパネル（テロップ）／実際の株主質問＝出席時の記録</p>
-
 </div>
 </div>
