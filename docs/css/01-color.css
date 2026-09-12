@@ -10,6 +10,7 @@
 [data-md-color-scheme="default"] {
   --md-typeset-color: #08131a !important; /* テキストカラー*/
   --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
+  --md-default-bg-color: #f7f8fa; /* ページ全体の背景。純白だと目が疲れるためうっすらグレーに */
   --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
   --surface-gray: #eef1f5; /* タイトル帯・agm枠・アコーディオン共通の薄い青みグレー（ヘッダーより一段薄い） */
   --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
