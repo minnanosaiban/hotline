@@ -10,7 +10,6 @@
      .small / .smaller / .smallest  : 16 / 14 / 12px
      .doc / .idt / .hg-idt*（裁判文書）: 16px
      h3 / h4                        : 18px
-     ブログ記事 h1（blog/posts）     : 1.6rem（10-blog-reset / body.blog-article-page）
    ※ ここを編集するときは上のスケールに合わせる。card/table/trial 等
      コンポーネント固有の相対 em は各 CSS ファイル側で管理。
    ============================================================ */
@@ -204,7 +203,7 @@ strong em {
 .text-main {
   color: var(--md-link-color);
 }
-/* 見出し感を太字ではなく行頭バーで出す（blog記事のh2・agm/index.mdの質問Nと共通）。
+/* 見出し感を太字ではなく行頭バーで出す（agm/index.mdの質問Nと共通）。
    フォントサイズ・太さは併用するクラス（.larger 等）側に委ねる。
    バーは絶対配置にして段落の高さ全体に伸ばす（タイトル＋「ただし…」の2行構成でも通しで届く）。 */
 .bar-title {

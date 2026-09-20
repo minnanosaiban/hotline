@@ -1,6 +1,6 @@
 /* 質問パネルのカルーセル（.qa-carousel）
    call4.jp トップページの「中央＋左右チラ見え＋自動送り」演出をSwiper.js（CDN）で再現。
-   agm/index.md でのみ読み込む（overrides/hooks/add_blog_class.py がページ限定でCDN・本CSS・
+   agm/index.md でのみ読み込む（overrides/hooks/add_body_class.py がページ限定でCDN・本CSS・
    js/qa-carousel.js を注入。他ページの読み込みには影響しない）。
    同じクラス構造（.qa-carousel.swiper > .swiper-wrapper > .swiper-slide）を書けば、
    他ページに増やしても qa-carousel.js が自動で拾って初期化する。 */
