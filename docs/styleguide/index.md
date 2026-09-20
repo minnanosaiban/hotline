@@ -1,6 +1,7 @@
 ---
 title: スタイルガイド（見本帳）
 description: hotlineサイトの全コンポーネントを1ページに並べた内部向け見本帳です。
+robots: noindex, nofollow
 hide:
   - navigation
   - toc

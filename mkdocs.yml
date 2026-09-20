@@ -1,6 +1,6 @@
 site_name: ＥＮＥＯＳの内部通報制度に関する訴訟について
-site_description: ENEOS（エネオス）の内部通報制度をめぐる訴訟の裁判文書を公開しています。通報を受けた後、通報者を通報内容に関する情報から遮断したうえ、裏づけの確認できない情報を知らせて、不正の有無を伏せるという企業の対応について問題提起をしています。株主総会で問題提起します。
-site_url: https://minnanosaiban.github.io/hotline/
+site_description: ENEOS（エネオス）の内部通報制度をめぐる裁判・訴訟の記録です。通報を受けた後、通報者を通報内容に関する情報から遮断したうえ、裏づけの確認できない情報を知らせた企業の対応について、判決文などの裁判文書とともに問題提起しています。
+site_url: https://minnanosaiban.github.io/eneos-hotline/
 site_dir: site
 
 # mkdocs serve --livereload 起動
@@ -19,7 +19,6 @@ nav:
           - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i> : https://minnanosaiban.github.io/eneos-saiban/argument.html
 
 # 書面（被告側・原告側）は trial/index.md の1ページにアコーディオンで集約した（本文は docs/trial/md/*.md.txt）。
-# 旧 trial/eneos.md・trial/whistleblower.md は、一覧へ転送するだけのページにしてある（nav には出さない）。
 
 extra_css:
   - css/01-color.css

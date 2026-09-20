@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://minnanosaiban.github.io/hotline/sitemap.xml
+Sitemap: https://minnanosaiban.github.io/eneos-hotline/sitemap.xml
