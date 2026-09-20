@@ -1,0 +1,110 @@
+/* =========================================================
+   12-about.css — 「運営者について」(about/) 専用
+   2026-08-10 モック承認：案B（番号のエディトリアル）＋カード廃止。
+   青いバー・青いラベルを使わず、無彩色の番号＋文字の大きさで見出しを
+   立てる方針だったが、2026-08-17 見直し：タイトルが名前として弱く
+   見えたため、Home/agm/trial 見出しと同じ .bar-title（行頭の青バー）
+   に統一。番号は引き続き無彩色のまま（併用）。
+   ========================================================= */
+
+/* 節見出し「制作物」：ページ題(h1 2.4rem)より一段小さく、字間で立てる。
+   直前の段落（JDLA資格・実務経験）とは margin-top 4rem で区切る
+   ＝ 直後の .about-work 間隔（4rem）と揃え、段落→見出し→各項目を均等リズムにする */
+.about-sec-title {
+  font-size: 1.35rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.45em;
+  text-indent: 0.45em; /* 末尾字間ぶんの中心ズレ補正 */
+  text-align: center !important;
+  line-height: 1.4 !important;
+  margin-top: 4rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .about-sec-title {
+    font-size: 1.2rem !important;
+    margin-top: 3rem !important;
+  }
+}
+
+/* 制作物の各項目：番号(無彩色)→タイトル(大きさで立てる)→本文→ボタン。
+   項目間は margin-top で区切る（見出し直後の1つ目も含め均等に4rem）。
+   項目内の余白は p をいったん 0 リセットして個別に付け直す */
+.md-typeset .about-work {
+  margin-top: 4rem !important;
+}
+@media only screen and (max-width: 767px) {
+  /* 同じ「番号つき項目の並び」であるHome(3つの情報)・agm(株主質問N)はスマホでも
+     4remのまま圧縮していないため、こちらも合わせて圧縮なしにする（2026-08-17、3remから修正） */
+  .md-typeset .about-work {
+    margin-top: 4rem !important;
+  }
+}
+.md-typeset .about-work p {
+  margin: 0 !important;
+}
+.md-typeset .about-work .about-work-num {
+  font-size: 12px !important;
+  letter-spacing: 0.18em;
+  color: var(--md-default-fg-color--light) !important;
+  margin-bottom: 0.15rem !important;
+}
+.md-typeset .about-work .about-work-title {
+  position: relative;
+  padding-left: 0.74rem;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.55rem !important;
+}
+.md-typeset .about-work .about-work-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.24rem;
+  background-color: var(--md-link-color);
+  border-radius: 1px;
+}
+.md-typeset .about-work p:has(> .about-btn) {
+  margin-top: 0.7rem !important;
+}
+
+/* 控えめボタン（無彩色チップ。ライト/ダークは Material 変数が吸収。
+   旧: .x-share と同系だったが、.x-share は2026-08-20にサイトの青へ変更済み） */
+.about-btn {
+  display: inline-block;
+  padding: 0.45em 1em;
+  font-size: 13px;
+  border-radius: 0.25rem;
+  color: var(--md-typeset-color) !important;
+  background-color: var(--md-default-fg-color--lightest);
+  text-decoration: none !important;
+}
+.about-btn:hover {
+  background-color: var(--md-default-fg-color--lighter);
+  text-decoration: none !important;
+}
+
+/* 代表記事のテキスト一覧（カード廃止・番号と説明は無彩色、リンクだけ青） */
+.md-typeset .about-art-list {
+  list-style: none !important;
+  margin: 0.7rem 0 0 !important;
+  padding: 0 !important;
+}
+.md-typeset .about-art-list li {
+  font-size: 14.5px;
+  line-height: 1.7;
+  margin: 0 0 0.4rem !important;
+}
+.md-typeset .about-art-list .n {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color--light);
+  margin-right: 0.5em;
+}
+.md-typeset .about-art-list .d {
+  font-size: 13px;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.5em;
+}

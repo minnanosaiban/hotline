@@ -1,0 +1,17 @@
+## 表示確認用のサンプル
+
+この書面は、サイドノート作成ツールの「ウェブ用」書き出しの表示を確かめるための見本です。実在の書面ではありません。<sup>1</sup>
+
+<aside class="sn-note"><span class="sn-note-num">1</span>サイドノートは、段落の直後に置かれ、右の余白に並びます。</aside>
+
+### 第１　見出しの例
+
+本文の段落です。<b>太字</b>や<u>下線</u>も使えます。長い段落でも、サイドノートは対応する段落の高さに寄り添って表示されます。<sup>2</sup>
+
+<aside class="sn-note sn-note-important"><span class="sn-note-num">2</span>「重要」の色を付けたサイドノートは、赤で表示されます。</aside>
+
+<p class="sn-p" style="padding-left:2em;text-indent:-1em">⑴　字下げ・ぶら下げを持つ段落は、インラインstyleの &lt;p&gt; で出力されます。この行は、2文字ぶんの左余白と、1文字ぶんのぶら下げを持っています。</p>
+
+<p class="sn-p sn-center">中央ぞろえの段落</p>
+
+最後の段落です。サイドノートのない段落は、そのまま続きます。

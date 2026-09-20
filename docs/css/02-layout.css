@@ -1,0 +1,343 @@
+/* 画面余白・タブ・縦スクロールバー・サイドバーのテキスト・センタリング */
+/* 画面余白 */
+/*
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 1.5rem;
+}
+*/
+.md-main__inner {
+  display: flex;
+  height: 100%;
+  margin-top: 0.5rem;  /* トップの余白を狭くする */
+}
+/*
+.md-content {
+  flex-grow: 1;
+  min-width: 0;
+}
+*/
+/*
+.md-content__inner {
+  margin: 0 .8rem 1.2rem;
+  padding-top: .6rem;
+}
+*/
+.md-content__inner {
+  padding-top: 0rem; 
+}
+/* ヘッダーのサイト名を固定（スクロールしてもページタイトルへ切り替えない） */
+/* 1つ目のtopic(サイト名)を常時表示。Material の .md-header__title--active 状態に勝つ */
+.md-header__title .md-header__topic:first-child,
+.md-header__title--active .md-header__topic:first-child {
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: auto !important;
+  z-index: 0 !important;
+}
+/* 2つ目のtopic(ページタイトル)は常時非表示 */
+.md-header__title .md-header__topic + .md-header__topic,
+.md-header__title--active .md-header__topic + .md-header__topic {
+  display: none !important;
+}
+/* ヘッダーサイト名リンク：ホバー有無に関わらずリンク色で表示。CSS 変数でダーク対応 */
+.header-site-link,
+.header-site-link:hover {
+  color: var(--md-link-color) !important;
+  font-weight: 400 !important;
+}
+/* サイト名（ヘッダー）の左端を、直下のタブ行（Home等）の左端に揃える。
+   Material既定のmargin-left(1rem=20px)は、ドロワーボタン非表示時(画面幅≥76.234375em＝ボタン用の
+   予約スペースが無い状態)は単なる余分な空きになり、タブ側（グリッド基準+12px）と8pxだけズレていた。
+   12pxにするとその幅ではタブと厳密に一致する。ドロワーボタンが出る幅（＜76.234375em）ではボタンの
+   ぶんの余白が要るため完全一致はしないが、その分は残り、アイコンとの重なりも発生しない。 */
+.md-header__title {
+  margin-left: 12px !important;
+}
+
+/* タブ */
+/* タブのホバーはメインカラーの下線 */
+/* タブのアクティブはメインカラーの下線 */
+.md-tabs__link:hover {
+  color: var(--md-main-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--md-main-color);
+}
+.md-tabs__item--active .md-tabs__link {
+  color: var(--md-main-color) ;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-color: var(--md-main-color);
+}
+/* 株価分析（blog/）はタブバーには出さない。nav 自体には残すことで、
+   記事ページのサイドバーツリー・前へ/次へ・パンくずは維持する（フッターのカードから導線）。 */
+.md-tabs__item:has(> .md-tabs__link[href*="blog"]) {
+  display: none;
+}
+/* モバイルでもタブを常時表示（隠さない） */
+@media screen and (max-width: 76.234375em) {
+  .md-tabs {
+    display: block;
+    background-color: var(--md-primary-fg-color);
+  }
+  .md-tabs__list {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .md-tabs__list::-webkit-scrollbar {
+    display: none;
+  }
+  .md-tabs__item {
+    flex-shrink: 0;
+    height: 2.4rem;
+  }
+  .md-tabs__link {
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+  }
+  .md-tabs__link--active {
+    text-underline-offset: 8px !important;
+  }
+}
+/* 縦スクロールバー */
+.md-sidebar__inner {
+  overflow: hidden;
+}
+.md-sidebar__scrollwrap {
+  scrollbar-color: #0000;
+  scrollbar-width: 1px;
+}
+/* サイドバーのテキスト */
+.md-nav__link { 
+  font-weight: 400 !important;
+  color: var(--md-typeset-color) !important;
+}
+.md-nav__link:hover {
+  color: var(--md-main-color) !important;
+  font-weight: 700 !important;
+}
+.md-nav__link--active, 
+.md-nav__link--active:hover {
+  color: var(--md-main-color) !important;
+  font-weight: 700 !important;
+}
+.md-sidebar--secondary {
+  overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
+  white-space: nowrap;    /* テキストの改行を抑える */
+}
+/* フッター余白 */
+.md-footer {
+  margin-top: 8rem;
+}
+@media only screen and (max-width: 767px) {
+  .md-footer {
+    margin-top: 4rem;   /* スマホ：本文末〜フッターの空白を圧縮 */
+  }
+}
+/* フッター注記 */
+.md-footer-note {
+  padding: 1rem 1.2rem 2rem;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  opacity: 0.75;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  max-width: 64rem;          /* 広い画面で横に広がりすぎないよう中央にまとめる */
+  margin-left: auto;
+  margin-right: auto;
+}
+.md-footer-note__section {
+  min-width: 220px;
+  flex: 1;
+}
+.md-footer-note__heading {
+  font-weight: 600;
+  margin: 0.4rem 0 0.2rem !important;
+}
+.md-footer-note__sub {
+  font-weight: 500;
+  margin: 0.7rem 0 0.1rem !important;
+}
+.md-footer-note ul {
+  margin: 0 !important;
+  padding-left: 1.2em;
+}
+.md-footer-note li {
+  margin: 0.1rem 0 !important;
+}
+.md-footer-note a {
+  opacity: 0.85;
+}
+@media screen and (max-width: 768px) {
+  .md-footer-note {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/* センタリング */
+.center-container {
+  display: flex;
+  flex-direction: column; /* ← 横並びではなく縦並びにする */
+  align-items: center;    /* 横方向の中央揃え */
+  gap: 0;                 /* セクション間は各要素の margin-top（.gap-6 等）で持たせる。gap は使わない */
+  max-width: 100%;
+  overflow: visible;  /* タイトルの全幅グレー帯(::before 100vw)を画面端まで出すためクリップしない（旧 hidden） */
+  margin: 0;
+}
+@media only screen and (max-width: 767px) {
+  .center-container {
+    justify-content: flex-start;
+    overflow: visible;   /* スマホ：.agm-section の側面box-shadowを切らないため（box-shadowはレイアウト非関与なので横スクロールは出ない） */
+  }
+}
+/* PC：.md-main__inner の margin-top（0.5rem）などに由来する構造上の余白ぶんを打ち消し、
+   ヘッダー→タイトルの間が .top-title-13 の padding-top だけで決まるようにする
+   （実測でヘッダー側だけ0.9rem分余分だったための調整）。 */
+@media only screen and (min-width: 768px) {
+  .center-container {
+    margin-top: -0.9rem;
+  }
+}
+
+/* スマホ：Home 上部ユーティリティ（シェア）が右端に詰まらないよう右余白。PC は対象外。 */
+@media only screen and (max-width: 767px) {
+  .md-typeset p.base00 {
+    padding-right: 0.6rem;
+  }
+  .center-container {
+    padding-top: 0.9rem;
+  }
+}
+
+/* セクション前の余白（シンプル化）：上 6rem だけで決める。下は 0。
+   gap やマージン相殺に頼らず、この1クラスで「この要素の上に6rem空ける」を表す。
+   使用：裁判所の判断／通報者への措置の枠（グレー枠は .agm-section 側で同じ6rem）。 */
+.gap-6 {
+  margin-top: 6rem !important;
+  margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 767px) {
+  /* スマホ：大きな縦の区切りは h2(8rem→3rem)と同じ思想で圧縮し、空白で間延びさせない */
+  .gap-6 {
+    margin-top: 3rem !important;
+  }
+}
+/* 本文フロー中の節見出し（「再通報と新たな問題」）：上の余白はこの要素自身が margin-top で持つ
+   （単一所有の原則＝下の要素が上の余白を持ち、margin-bottom は使わない。.gap-6 と同じ思想）。
+   PC はセクション基準の 6rem。スマホは、直下のリード（.agree-gap = 4rem+10px、スマホでも圧縮なし）
+   との上下対称を優先し、同じ 4rem+10px にする（3rem まで縮めると上だけ狭くなる）。 */
+.gap-6 + p.sec-title {
+  margin-top: 6rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .gap-6 + p.sec-title {
+    margin-top: calc(4rem + 10px) !important;
+  }
+}
+
+/* ホーム導入リード（最初の問題提起見出し）の上の大余白。
+   PC は 6rem（旧：index.md のインライン 8rem を移設）。
+   スマホは他の6rem系（.gap-6／.agm-section）と同じ基準値3remに統一（2026-08-17、3.5remから修正）。 */
+.issue-lead {
+  margin-top: 6rem !important;
+  margin-bottom: 2rem !important;
+}
+@media only screen and (max-width: 767px) {
+  .issue-lead {
+    margin-top: 3rem !important;
+  }
+}
+
+/* ホーム「株主総会意見」セクション：罫線でなく、淡い無彩色の背景帯＋余白で区切る */
+.agm-section {
+  width: 100%;
+  max-width: 32rem;          /* グレー帯を本文(width-40=32rem)と同じ列幅に。横の張り出し(バルジ)を無くす */
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* 中の width-40 を中央寄せに保つ */
+  gap: 0;                    /* 段落リズムは gap でなく各段落の margin-top で持つ（単一所有の原則。旧 gap:10px） */
+  box-sizing: border-box;
+  margin-top: 6rem;          /* 前半（通報者への措置）との間。.gap-6 と同じ 6rem に統一 */
+  margin-bottom: 6rem;       /* 枠の上(6rem)と対称に。直後の見出しとはマージン相殺するため max(6rem, 2rem)=6rem で確実に効く */
+  margin-left: auto;         /* 自己センタリング（.width-40 と同じ考え方。親が 32rem より広い場合＝styleguide 等でも中央を保つ） */
+  margin-right: auto;
+  padding: 3.2rem 1.2rem 3.2rem;   /* 左右1.2remパディング。枠の外幅は32remのまま（本文・タイトルと同列幅）／中のテキストはその分内側に入る */
+  --agm-bg: var(--surface-gray);    /* 枠の背景色（共通変数で統一）。スマホの側面box-shadowと共有する */
+  background: var(--agm-bg);  /* ヘッダーと同じ色（ライト=#e5e7ea） */
+}
+/* ダークモード：ヘッダーの上書き色（#0d1b2a）に背景を合わせる */
+[data-md-color-scheme="slate"] .agm-section {
+  --agm-bg: var(--surface-gray);   /* ダーク時も共通変数で統一（#16263c） */
+}
+/* 番号付き見出し（larger を含む段落）は枠の中央寄せ(align-items:center)を打ち消して左寄せに。
+   節見出し（.center larger＝larger を子に持たない）や本文段落は対象外。PC・スマホ共通。
+   align-self だけでは効かない：.width-40 の margin-left/right:auto !important が
+   クロス軸で align-self より優先されてしまい、テキスト幅の箱が中央寄せされたまま残っていた
+   （下の本文段落は幅いっぱいに折り返すため、たまたま左端が揃って見えていただけ）。
+   margin-left を 0 で打ち消し、margin-right だけ auto に残して左詰めにする。 */
+.agm-section > p:has(.larger) {
+  align-self: flex-start;
+  text-align: left;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+@media only screen and (max-width: 767px) {
+  .agm-section {
+    /* スマホ：枠内テキストを白い本文と同じ左右位置に揃える（横padding 0）。
+       左右の余白(白)は box-shadow で枠と同色に塗る＝レイアウト非関与なので横スクロールは出ない（100vwの張り出し問題を回避）。 */
+    padding: 1.8rem 0 1.8rem;
+    box-shadow: -50vw 0 0 0 var(--agm-bg), 50vw 0 0 0 var(--agm-bg);
+    /* スマホ：枠の前後の大余白も h2(8rem→3rem)に合わせて圧縮。上下対称（上3rem/下3rem）にする */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  /* 節見出し（.center larger）はスマホでも中央寄せ。.center の既定（スマホ＝左寄せ）を上書き。
+     2行は先頭ぞろえでなく各行センターでよい。
+     .agm-section 内（裁判所が示した３つの事実）に加え、枠の外にある節見出し
+     （center-container 直下の「再通報と新たな提訴」）も同様に中央寄せにする。 */
+  .agm-section > p.center.larger,
+  .center-container p.center.larger {
+    text-align: center;
+  }
+}
+/* AGM枠内の段落リズム（単一所有の原則）：
+   旧実装は flex の gap(10px) と各段落のマージンが加算され、「目標余白 − 直前のmargin-bottom − gap」
+   という calc 補正が連鎖して壊れやすかった（旧 .agree-gap-agm / verdict-lead の補正）。
+   gap は 0 にし、「各段落が自分の上余白だけを margin-top で持つ。margin-bottom は常に 0」に一本化。
+   値は「見た目の実余白」そのもの（旧実装と同じ実余白になるよう +10px を含む）。
+   flex はマージン相殺なし・先頭要素は p+p に該当しないため first-child の例外も不要。 */
+.agm-section > p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.agm-section > p + p {
+  margin-top: 10px !important;                 /* 基本リズム（旧 gap:10px と同じ実余白） */
+}
+.agm-section > p + p.margin02 {
+  margin-top: calc(1.6rem + 10px) !important;  /* 小見出し→本文の標準間隔 */
+}
+.agm-section > p + p.margin04 {
+  margin-top: calc(4rem + 10px) !important;    /* 番号付き小見出しの上＝実質98px（枠外 .agree-gap と同値） */
+}
+/* 節見出し（sec-title）→リード段落（「裁判で敗訴はしました…」）も同じ実質98px。PC・スマホ共通 */
+.agm-section > p + p.verdict-lead {
+  margin-top: calc(4rem + 10px) !important;
+}
+/* アコーディオンを本文（width-40＝32rem）と同じ幅に固定し、開閉で幅が変わらないようにする。
+   直下(>)だと中間の <div markdown> ラッパー越しのアコーディオンに効かず、開いたとき
+   本文(.doc 長文)が flex(align-items:center) の幅を押し広げて開閉で幅が変動する。
+   子孫セレクタにしてラッパー越しでも 32rem に固定する。 */
+.agm-section .card-accordion,
+.center-container .card-accordion {
+  width: 100%;
+  max-width: 32rem;
+  box-sizing: border-box;
+  margin-left: auto !important;   /* 自己センタリング（親が 32rem より広い場合でも中央を保つ）。
+                                     Material の details 既定マージンに勝つため !important */
+  margin-right: auto !important;
+}
