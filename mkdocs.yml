@@ -3,10 +3,6 @@ site_description: ENEOS（エネオス）の内部通報制度をめぐる訴訟
 site_url: https://minnanosaiban.github.io/hotline/
 site_dir: site
 
-# mkdocs serve でも overrides/（テンプレート）の変更を検知してリロードする
-watch:
-  - overrides
-
 # mkdocs serve --livereload 起動
 # site_author: Mokeya
 # copyright: Copyright &copy; 2025 ★★★
@@ -44,6 +40,7 @@ extra_javascript:
 
 theme:
   name: "material"
+  variant: classic # Zensical で Material 風の見た目にする指定（MkDocs では無視される）
   language: ja # サイトの言語（<html lang="ja">・UIラベル・読み上げ）
   custom_dir: overrides # カスタマイズ用のディレクトリ
   logo: img/card1.png # サイト左上のアイコン
@@ -106,41 +103,6 @@ theme:
     # - search.share # 検索結果の URL をコピーするボタン
     # - search.suggest # 検索時に、関連する検索候補を表示
 
-plugins:
-  # - minify:
-  #     minify_html: true
-  #     minify_js: true
-  #     minify_css: true
-      # js_files:
-        # - js/toc.js
-      # - css_files:
-        # - css/custom.css
-        # - css/card.css
-  # - blog
-  # - tags:
-      # tags_file: tags.md
-  # - blogging:
-      # locale: ja
-      # dirs:
-        # - Blogs/posts
-      # theme:
-        # name: card
-      # features:
-        # tags:
-          # index_page: tags/
-          # insert: top
-  # - search # 追加の際は「features」も設定する
-  # - callouts # admonitionと同様の機能
-  - glightbox: # 画像・動画のポップアップ表示
-      width: 90%
-      height: auto
-      shadow: true
-      touchNavigation: true
-  # - heti
-  # - include_dir_to_nav:
-  #     sort_file: true
-  #     sort_directory: true
-
 # extra:
   # not_in_nav:  # ナビゲーションから除外
     # - hidden_page.md
@@ -148,11 +110,7 @@ plugins:
   # status:  # フロントマターに記載すると「New!」と表示
     # new: "New!"
 
-hooks:
-  - overrides/hooks/add_body_class.py
-  - overrides/hooks/doc_indent.py
-  # - overrides/hooks/shortcodes.py
-  # - overrides/hooks/translations.py
+plugins: [] # プラグインは使わない。MkDocs は plugins を書かないと search が自動で有効になり検索窓が出るので、空を明示する（Zensical はプラグインを無視する）
 
 validation: # ナビゲーションやリンクが切れることが気になるときに設定
   nav:
@@ -181,7 +139,10 @@ markdown_extensions:
   - pymdownx.details # detailsタグによる折り畳み処理
   - pymdownx.mark # markタグ（ハイライト）
   - pymdownx.betterem: # emタグやstrongタグ（強調）を区別する
-  - pymdownx.snippets
+  - pymdownx.snippets: # --8<-- "パス" で別ファイルを取り込む（trial/index.md が書面の本文を取り込むのに使う）
+      # パスは「コマンドを実行したフォルダ」基準。必ず mkdocs.yml のあるフォルダで実行する（serve.bat / build.bat はそうしている）。
+      # （!relative $config_dir で基準を固定する手もあるが、Zensical 0.0.x はその書き方を読めない）
+      check_paths: true # 取り込み先が見つからないときは、黙って空にせずエラーにする
   - pymdownx.superfences: # コードブロック + Mermaid 図
       custom_fences:
         - name: mermaid

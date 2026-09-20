@@ -6,7 +6,8 @@
  *
  *  - .pdf … data-pdf があれば有効。無ければグレー（court-calendar の訴訟資料一覧と同じ）
  *  - .md  … 「コピーする／ダウンロード」の2択。元は data-md の生ファイル（docs/trial/md/x.md.txt が静的に公開される）を取得する。
- *           hotline 形式（:N X#id: マーカー）の本文は平文の Markdown に戻す。サイドノート作成ツールの「ウェブ用」書き出しはそのまま。
+ *           hotline 形式（:N X#id: マーカー、またはそれを焼き込んだ <p class="padN …"> 段落）の本文は平文の Markdown に戻す。
+ *           サイドノート作成ツールの「ウェブ用」書き出しはそのまま。
  *  - 要約 … data-summary があれば有効（ポップアップ）。無ければグレー
  *  - #アンカー（書面の中の <a name> や書面id）で開いたとき、閉じている書面を開いてその位置へ移動する
  *  - サイドノート（段落の直後の <aside>）を、注番号 <sup>N</sup> の直後へ移して、参照している行と揃える
@@ -22,8 +23,10 @@
   }
 
   // ---------------------------------------------------------------- 本文の md（.md ボタン）
+  // hotline 形式かどうか。元の :N X#id: マーカーのほか、マーカーを <p class="padN …"> の段落へ焼き込んだ形（今の11書面）も含む。
   function isLegacy(text) {
-    return /^[ \t]*:[0-9](?:h2|h3|h|i|d)(?:#[A-Za-z0-9_\-]+)?:/m.test(text);
+    return /^[ \t]*:[0-9](?:h2|h3|h|i|d)(?:#[A-Za-z0-9_\-]+)?:/m.test(text) ||
+      /^<p class="[^"]*\b(?:pad[0-9]|hg-idt|idt|doc)\b[^"]*"/m.test(text);
   }
   // hotline 形式を平文の Markdown へ。インデント・ぶら下げの体裁は落ち、1つ1つの段落になる。
   function toPlainMarkdown(text) {
