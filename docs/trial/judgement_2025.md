@@ -1,8 +1,9 @@
 ---
 title: 判決文 ― 東京地裁・東京高裁
-description: ENEOS内部通報制度訴訟の判決文（東京地方裁判所・東京高等裁判所）を公開しています。
-url: https://minnanosaiban.github.io/hotline/trial/judgement_2025/
-image: https://minnanosaiban.github.io/hotline/img/card1.png
+description: ENEOS（エネオス）の通報をめぐる裁判・訴訟について、東京地方裁判所・東京高等裁判所の判決文を公開しています。判決の概要と、争点となった通知義務・判決理由の該当箇所もまとめています。
+seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜判決文（東京地裁・東京高裁）
+url: https://minnanosaiban.github.io/eneos-hotline/trial/judgement_2025/
+image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
 twitter_card: summary
 hide:
   - toc
@@ -11,7 +12,7 @@ hide:
 <div class="trial-doc-marker" hidden></div>
 
 <p>
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/judgement_2025/ &text=判決書 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos-hotline/trial/judgement_2025/ &text=判決書 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
@@ -156,7 +157,7 @@ hide:
 <li class="tl-gap">約２か月</li>
 <li class="tl-ev tl-out"><span class="tl-date">平成２９年３月</span><span class="tl-srcs"><a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲17_税務処理の確認経緯_ENEOS_公開.pdf">甲１７ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">実際には還付が受けられていなかったことが判明（前年９月の説明は誤りだった）</span></li>
 <li class="tl-gap"></li>
-<li class="tl-ev tl-out"><span class="tl-date">平成２９年</span><span class="tl-srcs"><a class="tl-src" href="/hotline/trial/#hikoku2_214">被告準備書面（２） <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">ＧＳＴ業務の移管により、通報者は契約に関する情報から<span class="tl-quote">「遮断された状態」</span>になる（被告が訴訟の認否で認めた事実）</span></li>
+<li class="tl-ev tl-out"><span class="tl-date">平成２９年</span><span class="tl-srcs"><a class="tl-src" href="/eneos-hotline/trial/#hikoku2_214">被告準備書面（２） <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">ＧＳＴ業務の移管により、通報者は契約に関する情報から<span class="tl-quote">「遮断された状態」</span>になる（被告が訴訟の認否で認めた事実）</span></li>
 <li class="tl-gap"></li>
 <li class="tl-ev tl-out"><span class="tl-date">平成２９年７月２４日</span><span class="tl-srcs"><a class="tl-src" href="https://minnanosaiban.github.io/eneos-saiban/_static/甲08-16_調査補助者とのメール2016-2017_ENEOS_公開.pdf#page=17">甲１６の３ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">調査補助者に対し（法務部長ＣＣ）、確認したい事項として<span class="tl-quote">「支払先との契約書のＧＳＴに関する内容」</span>を挙げて開示を求める</span></li>
 <li class="tl-gap"></li>

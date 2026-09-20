@@ -1,7 +1,9 @@
 # eneos-hotline
 
-`https://minnanosaiban.github.io/hotline/`（MkDocs Material）から、「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」だけを切り出したサイト。
-株価分析（blog）と運営者ページは別サイト（株価サイト側）へ分離する前提なので、ここには持ち込んでいない。元の `hotline` リポジトリには一切触れていない。
+「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」のサイト。公開先は **https://minnanosaiban.github.io/eneos-hotline/**（GitHub Pages）。
+
+元は `https://minnanosaiban.github.io/hotline/`（MkDocs Material、`hotline` リポジトリ）にあったものから、株価分析（blog）と運営者ページを除いて切り出した。
+元の `hotline` リポジトリには一切触れていない（旧サイトは今もそのまま公開されている）。
 
 **ビルドは Zensical が主、MkDocs 1.6.1 は予備。** Python フックもプラグインも使わない作りなので、どちらでも同じ見た目になる（下の「検証」）。
 
@@ -22,6 +24,15 @@ python -m venv .venv
 `--8<--` での本文の取り込みは「コマンドを実行したフォルダ」基準なので、必ずこのフォルダで動かす（`.bat` は `cd` してから動かしている）。
 間違えたときは、本文が黙って抜けるのではなく `Snippet at path … could not be found` で止まる（`check_paths: true`）。
 
+## 公開（GitHub Pages）
+
+**`master` に push すると、GitHub Actions（`.github/workflows/pages.yml`）が Zensical でビルドして公開する。** 手元で `build.bat` を動かす必要はない。
+進み具合は、リポジトリの Actions タブで見られる（1〜2分）。公開後の確認は、上の URL を開く。
+
+- Actions は `requirements.txt` の固定版で入れる。手元と同じ結果になる（手元の `site/` と公開ページの HTML はバイト単位で一致することを確認した）
+- 設定は Settings > Pages > Source = 「GitHub Actions」。ブランチ（gh-pages）は使わない
+- 公開を止めたいときは、Settings > Pages でサイトを非公開にする（または Actions のワークフローを無効にする）
+
 ### 予備: MkDocs でビルドする
 
 ```
@@ -41,7 +52,7 @@ python -m mkdocs build
 - **目次（Toc）を完全に出さない**。右のサイドバーだけでなく、スマホのメニュー内の目次も。Material の `partials/toc.html` を空にして実現（右カラムは CSS でも `display: none`）
 - **検索窓を出さない**（`plugins: []` と、`overrides/partials/header.html`）
 - **裁判文書は `trial/index.md` の1ページに集約**（書面ごとのアコーディオン）。本文は `docs/trial/md/<id>.md.txt` に置いて `--8<--` で取り込む。生ファイルは静的に公開されるので、`.md` ボタン（コピー／ダウンロード）の元にもなる
-- 旧 `trial/eneos/`・`trial/whistleblower/` は、一覧ページへ転送するだけのページ（`#アンカー`も引き継ぐ）にした
+- 旧 `trial/eneos/`・`trial/whistleblower/` は持たない。旧サイト（`/hotline/`）の URL であって、新サイトには存在しなかったため
 - **Python フック（`doc_indent.py`・`add_blog_class.py`）とプラグイン（`mkdocs-glightbox`）を無くした**。やっていたことは、ソースへの焼き込みと、ページ内のスクリプト・CSS に置き換えた
   - 独自マーカー `:N X#id:` → 本文ファイルに `<p class="padN …">` として焼き込み済み
   - `:include:` → `--8<-- "パス"`（標準の拡張 `pymdownx.snippets`）
@@ -75,6 +86,31 @@ python -m mkdocs build
 今の11書面は、元の `eneos.md`・`whistleblower.md` を書面ごとに分割したもの。旧形式（hotline 用書き出し）のマーカーは HTML に焼き込み済みなので、
 そのままで表示できる（`.md` ボタンの「コピー／ダウンロード」では、旧形式は素の Markdown に変換して渡す）。今後の書面は「ウェブ用」のままでよい。
 
+## 検索エンジン向けの設定（「ENEOS 通報 裁判」などで見つかるように）
+
+狙う検索語: 「ENEOS／エネオス」×「通報」「通報 裁判」「通報 訴訟」。
+
+- **`<title>`**: 各ページ先頭の front matter `seo_title:` がそのまま `<title>` になる（`overrides/main.html`）。検索語を先頭に置く。
+  `title:` の方はヘッダーの表示や `og:title` に使われるので、別にしてある。`seo_title` が無いページは「ページ名 - サイト名」
+- **説明文**: front matter の `description:`（`<meta name="description">` と `og:description`）。ページごとに違う文にする
+- 全角の「ＥＮＥＯＳ」は、検索エンジンが半角と同じに扱う。それでも `<title>`・説明文・フッターでは、半角の「ENEOS」と「エネオス」を併記している
+- **フッターの1文**（`overrides/partials/copyright.html`）: 全ページの本文に「ENEOS（エネオス）」「通報」「裁判・訴訟」が入る
+- **検索結果に出したくないページ**: front matter に `robots: noindex, nofollow`（見本帳に付けてある）
+- **サイトマップ**: ビルドで `sitemap.xml` ができる（Zensical は nav にあるページだけ。MkDocs は全ページなので見本帳も入るが、noindex なので害はない）
+- `docs/robots.txt` は、**サブパス（`/eneos-hotline/`）に置いても検索エンジンは読まない**（読まれるのはホスト直下だけ）。害はないので残してある。
+  サイトマップは Search Console から送る
+- 効果が出るまでは、Search Console の登録と、サイトマップの送信が要る（下の「公開後にやること」）
+
+## 公開後にやること
+
+1. **Google Search Console**: 「URL プレフィックス」でプロパティ `https://minnanosaiban.github.io/eneos-hotline/` を追加して所有権を確認する。
+   HTML ファイル方式の確認用ファイル（`googlee01c….html`）はこの repo にも入れてあるが、通らなければ Search Console が出す新しいファイルを `docs/` に置いて push する。
+   その後、サイトマップ `sitemap.xml` を送り、各ページを「URL 検査 > インデックス登録をリクエスト」する
+2. **Bing Webmaster Tools**: サイトを追加する（`msvalidate.01` の meta は `overrides/main.html` に入っている）。Search Console からのインポートも使える
+3. **IndexNow**（Bing・Yandex などへの新規・更新の通知）: 公開後に `build.bat` でサイトマップを作り、`powershell -ExecutionPolicy Bypass -File scripts\indexnow_ping.ps1`
+4. 旧サイト（`/hotline/`）に同じ本文が残っている間は、検索エンジンがどちらを正とみなすか割れる。旧サイトから新サイトへ `rel="canonical"`
+   （または転送）を張れば確実（旧 `hotline` リポジトリの変更が要るので、この repo では行っていない）
+
 ## 設計ルール（Zensical と MkDocs の両方で動かすための落とし穴）
 
 - **フック・プラグインを足さない**。Zensical は Python フックも MkDocs プラグインも読まない。処理が要るなら、ソースへの焼き込みか、ページ内の JS/CSS で
@@ -96,7 +132,7 @@ python -m mkdocs build
   - サイドノートの幅が最大 7px 狭い（Zensical のクラシックテーマが `html { scrollbar-gutter: stable }` を付けるので、`100vw` からスクロールバー分が引かれる）
   - `<a href="">`（MkDocs は `href="."`）、`<link rel="next">` の追加、`search.json` の出力（検索窓は無いので使われない）
   - サイドバーの入れ子構造が違う（デスクトップでは非表示。スマホの引き出しの項目とリンク先は同じ）
-- 機能（両ビルドで同じ結果）: 12書面すべての `.md.txt` が取得できる／`.md` のコピー・ダウンロード／要約ダイアログ／色の切り替え／転送ページが `#アンカー` を保つ／
+- 機能（両ビルドで同じ結果）: 12書面すべての `.md.txt` が取得できる／`.md` のコピー・ダウンロード／要約ダイアログ／色の切り替え／
   引用リンク4本が該当書面を自動で開いて見出し直下（110px）に着地／agm のカルーセルと画像拡大／スマホ幅のメニュー／目次・検索が出ない／内部リンクの 404 なし
 - 本文テキストは、現行サイトの該当セクションと文字数まで一致（Home 1824・agm 3813・書面一覧 96875・判決 39656・見本帳 1773）
 
@@ -104,7 +140,8 @@ python -m mkdocs build
 
 - `mkdocs.yml`: `site_url`、`extra.about_url`
 - 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial/index.md`・`docs/trial/judgement_2025.md`
-- `docs/trial/judgement_2025.md` の年表の1リンク `/hotline/trial/#hikoku2_214`（raw HTML なので絶対パス）
+- `docs/trial/judgement_2025.md` の年表の1リンク `/eneos-hotline/trial/#hikoku2_214`（raw HTML なので絶対パス）
+- `scripts/indexnow_ping.ps1` の `$keyLocation`
 - `docs/robots.txt`（`Sitemap:`）、`docs/e482d7edf83b50b925f361e389d57812.txt`（IndexNow のキー。`scripts/indexnow_ping.ps1` が使う）、`docs/googlee01c6dd3b7b5851f.html`（Search Console の所有確認）
 - `docs/styleguide/index.md` の見本リンク
 
@@ -115,8 +152,7 @@ python -m mkdocs build
 
 ## 未対応・要判断
 
-- **ホスティング・URL**: `site_url` と各ページの `url:`／`image:`（OGP）は、現行の `https://minnanosaiban.github.io/hotline/` のまま。どちらのサイトが `/hotline/` を引き継ぐかも未定
-- **運営者ページのリンク先**: `extra.about_url` は仮（現行の `/hotline/about/`）。株価サイト側の URL が決まったら差し替える
+- **運営者ページのリンク先**: `extra.about_url` は仮（旧サイトの `https://minnanosaiban.github.io/hotline/about/`）。株価サイト側の URL が決まったら差し替える
+- **旧サイトとの重複**: 旧 `/hotline/` に同じ本文が残っている（上の「公開後にやること」4）
 - 見本帳（`styleguide/index.md`）は、音声カードや `.repo-link` などの部品例を含んだまま（音声用のCSSは `05-card.css` に残っている）
 - `mkdocs.yml` に、使っていない設定のコメントアウトが多く残っている（元のまま）
-- 旧 `trial/eneos/`・`trial/whistleblower/` の転送ページは、サイトマップにも載る（検索エンジンには転送として扱われるはず。気になるなら外す）

@@ -3,6 +3,21 @@
 -#}
 {% extends "base.html" %}
 
+{#- <title>。front matter の seo_title があればそれだけを使う（検索結果に出るタイトルなので、検索されたい語を先頭に置く）。
+    無いページは、テーマ標準と同じ「ページ名 - サイト名」。
+    title: の方は、ヘッダーの表示や og:title に使われるので、seo_title とは別にしてある。 -#}
+{% block htmltitle %}
+  {% if page and page.meta and page.meta.seo_title %}
+    <title>{{ page.meta.seo_title }}</title>
+  {% elif page and page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+  {% elif page and page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   <meta name="msvalidate.01" content="9593088485776550C2589B62968B9D78">
   <meta property="og:site_name" content="{{ config.site_name }}">
@@ -11,17 +26,16 @@
       代用してしまうことがあるため、明示的に指定して正しいサイト名を認識させる。 -#}
   {#- favicon は theme.favicon（mkdocs.yml）で img/favicon.png を指定済み・正しく機能している。
       ここに以前あった <link rel="icon" href="/favicon.png"> は絶対パスで
-      https://minnanosaiban.github.io/favicon.png（サブパス/hotline/の外・404）を指しており、
+      https://minnanosaiban.github.io/favicon.png（サブパスの外・404）を指しており、
       2つ目のicon linkとして後に並ぶぶんブラウザ・クローラに優先されて壊れたアイコンになっていた
       （2026-08-22、Google検索結果でアイコンが出ない問題で発覚・削除）。 -#}
-  {#- 転送だけのページ（旧 trial/eneos・trial/whistleblower）。移動先へ、#アンカーも引き継いで飛ばす。
-      GitHub Pages ではサーバー側の301が使えないため、meta refresh とJSで行う。 -#}
-  {% if page and page.meta and page.meta.redirect_to %}
-    <meta http-equiv="refresh" content="0; url={{ page.meta.redirect_to | url }}">
-    <script>location.replace({{ (page.meta.redirect_to | url) | tojson }} + location.hash)</script>
-    <meta name="robots" content="noindex">
+  {#- 検索結果に出したくないページ（見本帳など）は、front matter に robots: noindex, nofollow と書く。 -#}
+  {% if page and page.meta and page.meta.robots %}
+    <meta name="robots" content="{{ page.meta.robots }}">
   {% endif %}
   {% if page and page.meta %}
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
     <meta property="twitter:card" content="{{ page.meta.twitter_card | default('summary') }}">
     <meta property="twitter:title" content="{{ page.meta.title }}">
     <meta property="twitter:description" content="{{ page.meta.description }}">
