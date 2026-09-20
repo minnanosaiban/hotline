@@ -3,7 +3,7 @@
    無いものはグレー）に合わせ、行の並びは FAQ 型（細い罫線・右端に開閉マーク）にしてある。 */
 
 /* ---- 提出者側の見出し（原告側／被告側／裁判所）。目次見出し .t-toc-head は 2em 級で大きすぎるので小さくする ---- */
-body.trial-doc .doc-side.t-toc-head {
+body:has(.trial-doc-marker) .doc-side.t-toc-head {
   font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.5;
@@ -71,9 +71,9 @@ details.doc-acc[open] > summary .doc-chev { transform: rotate(180deg); }
 }
 .doc-loading, .doc-error { color: var(--md-default-fg-color--light); font-size: 14px; margin: 1rem 0 !important; }
 /* ウェブ用の書き出し（##〜####の見出し）が入っても、ページ本体の見出し（2rem級・┃付き）にならないように小さくする */
-body.trial-doc .doc-body h2,
-body.trial-doc .doc-body h3,
-body.trial-doc .doc-body h4 {
+body:has(.trial-doc-marker) .doc-body h2,
+body:has(.trial-doc-marker) .doc-body h3,
+body:has(.trial-doc-marker) .doc-body h4 {
   max-width: none;
   margin: 2rem 0 0.6rem !important;
   font-size: 1.05rem !important;
@@ -81,7 +81,7 @@ body.trial-doc .doc-body h4 {
   line-height: 1.6 !important;
   color: var(--md-typeset-color) !important;
 }
-body.trial-doc .doc-body h2::before { display: none; }
+body:has(.trial-doc-marker) .doc-body h2::before { display: none; }
 .doc-body > p:first-child { margin-top: 0; }
 
 /* ---- ボタン（.pdf / .md / 要約） ---- */
@@ -179,8 +179,8 @@ dialog.doc-sum form { text-align: right; margin: 0; }
    float:right＋負の右マージンで余白へ出す Tufte CSS 方式（既存の .sidenote と同じ）。
    幅は「本文列（32rem）の外側に残る余白」に収まるよう、画面幅から計算する（一覧ページは左右の目次・ナビを出さない）。
    最大 13rem、本文列との間に 2rem、右端に 1rem の余白を残す。 */
-body.trial-doc .doc-body .sn-note,
-body.trial-doc .doc-body .sidenote {
+body:has(.trial-doc-marker) .doc-body .sn-note,
+body:has(.trial-doc-marker) .doc-body .sidenote {
   --sn-w: clamp(9rem, calc((100vw - 32rem) / 2 - 3rem), 13rem);
   float: right;
   clear: right;
@@ -191,15 +191,15 @@ body.trial-doc .doc-body .sidenote {
   color: var(--md-default-fg-color);
   font-family: "Noto Sans JP", sans-serif;
 }
-body.trial-doc .doc-body .sn-note .sn-note-num,
-body.trial-doc .doc-body .sidenote .num { font-weight: 700; color: var(--md-default-fg-color--light); margin-right: 0.2em; }
-body.trial-doc .doc-body .sn-note.sn-note-important,
-body.trial-doc .doc-body .sn-note.sn-note-important .sn-note-num { color: var(--red-color-3); }
+body:has(.trial-doc-marker) .doc-body .sn-note .sn-note-num,
+body:has(.trial-doc-marker) .doc-body .sidenote .num { font-weight: 700; color: var(--md-default-fg-color--light); margin-right: 0.2em; }
+body:has(.trial-doc-marker) .doc-body .sn-note.sn-note-important,
+body:has(.trial-doc-marker) .doc-body .sn-note.sn-note-important .sn-note-num { color: var(--red-color-3); }
 /* 本文側の注番号（<sup>N</sup>） */
-body.trial-doc .doc-body sup { color: var(--md-warn-red); font-weight: 700; font-size: 0.7em; }
+body:has(.trial-doc-marker) .doc-body sup { color: var(--md-warn-red); font-weight: 700; font-size: 0.7em; }
 /* 余白が取れない幅では出さない（既存の .sidenote と同じ方針。11-trial.css の 76.1875em 以下と同じ境目） */
 @media screen and (max-width: 76.1875em) {
-  body.trial-doc .doc-body .sn-note { display: none; }
+  body:has(.trial-doc-marker) .doc-body .sn-note { display: none; }
 }
 
 /* ---- 一覧ページの補助 ---- */

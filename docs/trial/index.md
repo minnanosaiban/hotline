@@ -9,6 +9,8 @@ hide:
   - toc
 ---
 
+<div class="trial-doc-marker" hidden></div>
+
 <div class="trial-page center-container" markdown>
 
 <div class="hero-band" markdown>
@@ -40,7 +42,7 @@ hide:
 <summary>原告第５準備書面</summary>
 <div class="doc-body" markdown>
 
-:include: md/dai5.md.txt
+--8<-- "docs/trial/md/dai5.md.txt"
 
 </div>
 </details>
@@ -49,7 +51,7 @@ hide:
 <summary>控訴理由書</summary>
 <div class="doc-body" markdown>
 
-:include: md/kouso.md.txt
+--8<-- "docs/trial/md/kouso.md.txt"
 
 </div>
 </details>
@@ -58,7 +60,7 @@ hide:
 <summary>控訴理由補充書（１）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hoju1.md.txt
+--8<-- "docs/trial/md/hoju1.md.txt"
 
 </div>
 </details>
@@ -67,7 +69,7 @@ hide:
 <summary>控訴理由補充書（２）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hoju2.md.txt
+--8<-- "docs/trial/md/hoju2.md.txt"
 
 </div>
 </details>
@@ -82,7 +84,7 @@ hide:
 <summary>答弁書</summary>
 <div class="doc-body" markdown>
 
-:include: md/toben.md.txt
+--8<-- "docs/trial/md/toben.md.txt"
 
 </div>
 </details>
@@ -91,7 +93,7 @@ hide:
 <summary>被告準備書面（１）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hikoku1.md.txt
+--8<-- "docs/trial/md/hikoku1.md.txt"
 
 </div>
 </details>
@@ -100,7 +102,7 @@ hide:
 <summary>被告準備書面（２）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hikoku2.md.txt
+--8<-- "docs/trial/md/hikoku2.md.txt"
 
 </div>
 </details>
@@ -109,7 +111,7 @@ hide:
 <summary>被告準備書面（３）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hikoku3.md.txt
+--8<-- "docs/trial/md/hikoku3.md.txt"
 
 </div>
 </details>
@@ -118,7 +120,7 @@ hide:
 <summary>被告準備書面（４）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hikoku4.md.txt
+--8<-- "docs/trial/md/hikoku4.md.txt"
 
 </div>
 </details>
@@ -127,7 +129,7 @@ hide:
 <summary>被告準備書面（５）</summary>
 <div class="doc-body" markdown>
 
-:include: md/hikoku5.md.txt
+--8<-- "docs/trial/md/hikoku5.md.txt"
 
 </div>
 </details>
@@ -136,7 +138,7 @@ hide:
 <summary>控訴答弁書</summary>
 <div class="doc-body" markdown>
 
-:include: md/kousotoben.md.txt
+--8<-- "docs/trial/md/kousotoben.md.txt"
 
 </div>
 </details>
@@ -159,7 +161,7 @@ hide:
 <summary>サイドノート表示の見本（ウェブ用書き出し形式）</summary>
 <div class="doc-body" markdown>
 
-:include: md/sample-web.md.txt
+--8<-- "docs/trial/md/sample-web.md.txt"
 
 </div>
 </details>

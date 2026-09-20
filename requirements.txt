@@ -1,3 +1,2 @@
-mkdocs
-mkdocs-material
-mkdocs-glightbox
+# 主に使うビルドツール（バージョンは固定）
+zensical==0.0.63

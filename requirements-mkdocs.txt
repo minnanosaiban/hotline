@@ -1,0 +1,3 @@
+# 予備: MkDocs + Material でもビルドできる（Material は 2026-11-05 で更新終了。MkDocs 2.0 では動かないため <2 のまま固定）
+mkdocs==1.6.1
+mkdocs-material==9.7.1
