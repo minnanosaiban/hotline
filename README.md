@@ -29,7 +29,7 @@ python -m venv .venv
 **`master` に push すると、GitHub Actions（`.github/workflows/pages.yml`）が Zensical でビルドして公開する。** 手元で `build.bat` を動かす必要はない。
 進み具合は、リポジトリの Actions タブで見られる（1〜2分）。公開後の確認は、上の URL を開く。
 
-- Actions は `requirements.txt` の固定版で入れる。手元と同じ結果になる（手元の `site/` と公開ページの HTML はバイト単位で一致することを確認した）
+- Actions は `requirements.txt` の固定版で入れるので、手元と同じ結果になる（公開された66ファイルを手元の `site/` と比べて、Windows の手元ビルドが HTML の改行を CRLF で出す点（公開側は LF）を除き、すべて一致することを確認した）
 - 設定は Settings > Pages > Source = 「GitHub Actions」。ブランチ（gh-pages）は使わない
 - 公開を止めたいときは、Settings > Pages でサイトを非公開にする（または Actions のワークフローを無効にする）
 
@@ -37,7 +37,7 @@ python -m venv .venv
 
 ```
 pip install -r requirements-mkdocs.txt
-python -m mkdocs serve       # http://localhost:8000/hotline/
+python -m mkdocs serve       # http://localhost:8000/eneos-hotline/
 python -m mkdocs build
 ```
 
