@@ -4,13 +4,13 @@
 
 .DESCRIPTION
   Reads the freshly built sitemap (../site/sitemap.xml) and submits every <loc>
-  to the IndexNow API in one bulk request. Run it AFTER `mkdocs gh-deploy`
-  (the deploy regenerates site/sitemap.xml and pushes the live site).
+  to the IndexNow API in one bulk request. Run it AFTER the GitHub Actions deploy has finished
+  and after building locally (build.bat), so that site/sitemap.xml exists.
 
   Key file must stay live at:
-    https://minnanosaiban.github.io/hotline/<key>.txt
-  (committed at docs/<key>.txt). Because the key sits under /hotline/, the
-  keyLocation parameter is required and only /hotline/ URLs may be submitted.
+    https://minnanosaiban.github.io/eneos-hotline/<key>.txt
+  (committed at docs/<key>.txt). Because the key sits under /eneos-hotline/, the
+  keyLocation parameter is required and only /eneos-hotline/ URLs may be submitted.
 
 .EXAMPLE
   powershell -ExecutionPolicy Bypass -File scripts\indexnow_ping.ps1
@@ -21,14 +21,14 @@ $ErrorActionPreference = 'Stop'
 # --- config -------------------------------------------------------------
 $key         = 'e482d7edf83b50b925f361e389d57812'
 $siteHost    = 'minnanosaiban.github.io'
-$keyLocation = "https://$siteHost/hotline/$key.txt"
+$keyLocation = "https://$siteHost/eneos-hotline/$key.txt"
 $endpoint    = 'https://api.indexnow.org/indexnow'   # fans out to all IndexNow engines
-$exclude     = @('ai_studio_code', 'draft_scalping_prediction')  # drafts: don't submit
+$exclude     = @()  # URL fragments to skip (drafts etc.)
 # ------------------------------------------------------------------------
 
 $sitemap = Join-Path $PSScriptRoot '..\site\sitemap.xml'
 if (-not (Test-Path $sitemap)) {
-    throw "sitemap not found: $sitemap  (run `mkdocs gh-deploy` first so site/ is built)"
+    throw "sitemap not found: $sitemap  (run build.bat first so site/ is built)"
 }
 
 [xml]$xml = Get-Content -Raw -LiteralPath $sitemap

@@ -1,8 +1,9 @@
 ---
 title: 裁判文書公開 ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ＥＮＥＯＳ内部通報制度訴訟の裁判文書を公開しています。書面ごとに本文を開いて読めます。.md で保存することもできます。
-url: https://minnanosaiban.github.io/hotline/trial/
-image: https://minnanosaiban.github.io/hotline/img/card1.png
+description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の裁判文書を公開しています。原告・被告の準備書面、控訴理由書、答弁書、判決書を、書面ごとに開いて読めます。本文を .md でコピー・保存することもできます。
+seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜裁判文書を公開
+url: https://minnanosaiban.github.io/eneos-hotline/trial/
+image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
 twitter_card: summary
 hide:
   - navigation
@@ -21,7 +22,7 @@ hide:
 </div>
 
 <p class="base00 hero-share">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial/ &text=裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos-hotline/trial/ &text=裁判文書公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>
