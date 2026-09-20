@@ -849,19 +849,3 @@ hide:
 
 
 </div>
-
-
-## NotebookLM 音声解説🎙️
-
-<div class="card-blue audio-wide">
-<p  class="larger center margin01">
-東京地裁判決解説</p>
-<div class="audio-content center margin02">
-  <audio controls preload="none">
-    <source src="https://minnanosaiban.github.io/hotline/img/judgement_202508.m4a" type="audio/wav">
-    お使いのブラウザは audio 要素をサポートしていません。
-  </audio>
-</div>
-<p class="smallest center margin01">
-プロンプトなし・2025年8月作成<br><a class="arrow-link" href="https://minnanosaiban.github.io/hotline/trial/judgement_2025/">東京地裁判決</a></p>
-</div>

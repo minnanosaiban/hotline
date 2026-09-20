@@ -71,11 +71,6 @@
   text-underline-offset: 12px;
   text-decoration-color: var(--md-main-color);
 }
-/* 株価分析（blog/）はタブバーには出さない。nav 自体には残すことで、
-   記事ページのサイドバーツリー・前へ/次へ・パンくずは維持する（フッターのカードから導線）。 */
-.md-tabs__item:has(> .md-tabs__link[href*="blog"]) {
-  display: none;
-}
 /* モバイルでもタブを常時表示（隠さない） */
 @media screen and (max-width: 76.234375em) {
   .md-tabs {
@@ -124,9 +119,9 @@
   color: var(--md-main-color) !important;
   font-weight: 700 !important;
 }
+/* 目次（右カラム）は出さない。front matter に hide: toc を書き忘れたページでも、空の枠が幅を取らないようにする */
 .md-sidebar--secondary {
-  overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
-  white-space: nowrap;    /* テキストの改行を抑える */
+  display: none !important;
 }
 /* フッター余白 */
 .md-footer {
