@@ -1,5 +1,9 @@
 # hotline デザインシステム — コンポーネント一覧
 
+> **この repo（hotline-mkdocs）での注意**: この文書は元の hotline リポジトリのもの。ブログ（`blog/`・`about/`）、Python フック（`add_blog_class.py`・`doc_indent.py`）、
+> `mkdocs-glightbox`、`body.trial-doc` に関する記述は、そのままでは当てはまらない。フックは無くした（`body:has(.trial-doc-marker)` と各ページ先頭の目印 div、
+> ページ内の `<link>`／`<script>` に置き換え済み）。詳しくは `README.md` の「元の hotline との違い」を見る。CSS の部品の説明としては今も有効。
+
 作成: 2026-08-17。`docs/css/01〜12`（9ファイル）と実ページ（Home / agm / trial / about / blog）を突き合わせて棚卸しした。
 目的は2つ：①今後の手直しで一貫性を崩さないための正本、②「Markdownを知らなくてもMkDocs用mdが作れるアプリ」（sidenote-pdf応用）の部品パレット設計図。
 
@@ -185,10 +189,10 @@ judgement_2025のアコーディオン内（本文14px、サイト標準16pxと�
 
 ## 7. スタイルガイド見本帳ページ（2026-08-20作成）
 
-`docs/styleguide.md` → `/hotline/styleguide/`（**navには載せていない**。URL直打ちでアクセス）。本書の全コンポーネントを実物と同じマークアップで1ページに並べた見本帳。余白・CSSの変更後にこのページを目視すれば回帰を1画面で確認できる。友人HP構想のコンポーネントパレットとしても使う。
+`docs/styleguide/index.md` → `/hotline/styleguide/`（**navには載せていない**。URL直打ちでアクセス）。本書の全コンポーネントを実物と同じマークアップで1ページに並べた見本帳。余白・CSSの変更後にこのページを目視すれば回帰を1画面で確認できる。友人HP構想のコンポーネントパレットとしても使う。
 
 - 見本帳専用の最小スタイル（`.sg-label`見出し・`.sg-swatches`色見本）はページ内`<style>`ブロックに閉じ込め、サイト共通CSSには足していない
-- 対照カード（`body.trial-doc`スコープ）とカルーセル（Swiper CDN）を再現するため、`add_blog_class.py`のフックに`styleguide.md`を追加してある
+- 対照カード（`body.trial-doc`スコープ）とカルーセル（Swiper CDN）を再現するため、（旧構成では）`add_blog_class.py`のフックに`styleguide.md`を追加していた。今はページ内の`<link>`／`<script>`で同じことをしている
 - **見本帳作成で発見・修正した潜在バグ（2026-08-20）**：`.agm-section`と`.card-accordion`が「親=32rem」前提で自己センタリングを持っていなかった（`.width-40`と同型）。`.agm-section`にmargin-inline:auto追加、`.md-typeset details.card-accordion`のmargin shorthandを`1.4rem auto 0`に変更。**この修正前の状態がデプロイされていると、judgement_2025のアコーディオンが本文列より左にズレる**（width-40の自己センタリング追加により本文だけ中央へ動いたため）。修正後、styleguide/Home/judgementの全対象がセンター一致することを実測確認済み
 
 ## この一覧の使い道（sidenote-pdf応用アプリへの示唆）

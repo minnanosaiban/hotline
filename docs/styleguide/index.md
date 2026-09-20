@@ -6,6 +6,12 @@ hide:
   - toc
 ---
 
+<div class="trial-doc-marker" hidden>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="../vendor/glightbox/glightbox.min.css">
+<link rel="stylesheet" href="../css/13-carousel.css">
+</div>
+
 <style>
 /* この見本帳ページ専用の最小スタイル（サイト共通CSSには足さない） */
 .sg-label {
@@ -230,3 +236,8 @@ NotebookLM により生成（.smallest の注記行）
 </div>
 
 </div>
+
+<script src="../vendor/glightbox/glightbox.min.js"></script>
+<script src="../js/lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../js/qa-carousel.js"></script>

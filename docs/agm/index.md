@@ -1,4 +1,4 @@
-﻿---
+---
 title: ENEOS（エネオス）株主総会2026 質疑応答
 description: ENEOS（エネオス）株主総会2026に株主として出席した記録です。第16回定時株主総会（2026年6月25日）の YouTube公式チャンネル（ENEOS TV）における質問要旨（パネル）と実際の株主質問の対照を掲載しています。
 url: https://minnanosaiban.github.io/hotline/agm/
@@ -8,6 +8,12 @@ hide:
   - navigation
   - toc
 ---
+
+<div class="trial-doc-marker" hidden>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="../vendor/glightbox/glightbox.min.css">
+<link rel="stylesheet" href="../css/13-carousel.css">
+</div>
 
 <div class="center-container" markdown>
 
@@ -396,3 +402,8 @@ ENEOS TV における質問要旨（パネル）と実際の株主質問の対�
 
 </div>
 </div>
+
+<script src="../vendor/glightbox/glightbox.min.js"></script>
+<script src="../js/lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../js/qa-carousel.js"></script>

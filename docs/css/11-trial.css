@@ -6,8 +6,8 @@
    ・余白などの数値はこのファイルに集約（HTML 側はクラス名のみ）
    ========================================================= */
 /* --- 元は 10-blog-reset.css にあったもの（ブログ用ルールは除去し、残りをここへ統合。読み込み順は元のまま＝この位置） --- */
-/* h2: 行頭マーカー ┃（リンク色）＋ 罫線・太字なし。trial 文書ページ(body.trial-doc)の見出し */
-body.trial-doc .md-content h2 {
+/* h2: 行頭マーカー ┃（リンク色）＋ 罫線・太字なし。trial 文書ページ(body:has(.trial-doc-marker))の見出し */
+body:has(.trial-doc-marker) .md-content h2 {
   font-size: 1.6rem !important;
   line-height: 1.3 !important;
   font-weight: 300 !important;
@@ -18,7 +18,7 @@ body.trial-doc .md-content h2 {
   letter-spacing: 0 !important;
 }
 /* 下線の代わりに行頭の細い縦バー（罫線で区切らない） */
-body.trial-doc .md-content h2::before {
+body:has(.trial-doc-marker) .md-content h2::before {
   content: "";
   display: inline-block;
   width: 0.24rem;
@@ -70,7 +70,7 @@ body.trial-doc .md-content h2::before {
 }
 
 .trial-page,
-body.trial-doc {
+body:has(.trial-doc-marker) {
   --t-section-gap: 6rem;   /* セクション間の余白 */
   --t-item-gap: 2.5rem;    /* カード・項目間の余白 */
   --t-card-width: 40rem;   /* カードの共通幅 */
@@ -84,7 +84,7 @@ body.trial-doc {
    目次パネルと同じ余白へ追い出す。マージンの値は実機（.md-content__inner幅）で確認済み。
    sidenote-pdf-docの「hotline向け書き出し」がこの構造（段落＋直後のaside）を直接出力するため、
    手打ちの想定は例外の手直しのみ。 */
-body.trial-doc .sidenote {
+body:has(.trial-doc-marker) .sidenote {
   float: right;
   clear: right;
   width: 13rem;
@@ -95,23 +95,23 @@ body.trial-doc .sidenote {
   font-family: "Noto Sans JP", sans-serif;
 }
 /* （目次パネルを出さない構成なので、目次あり用の幅・押し出し量の上書きは置かない） */
-body.trial-doc .sidenote .num {
+body:has(.trial-doc-marker) .sidenote .num {
   font-weight: 700;
   color: var(--md-default-fg-color--light);
   margin-right: 0.2em;
 }
 /* eneos-saibanの.strong-rdを踏襲（赤強調）。.strong-rd-hoverはeneos.md移植時に生HTMLへ
    混ざっていたが定義が無く死んでいたクラスで、ここで合わせて定義する（下線＋ホバーで色を強める）。 */
-body.trial-doc .sidenote .strong-rd {
+body:has(.trial-doc-marker) .sidenote .strong-rd {
   font-weight: 700;
   color: var(--red-color-3);
 }
-body.trial-doc .strong-rd-hover {
+body:has(.trial-doc-marker) .strong-rd-hover {
   text-decoration: underline;
   text-decoration-color: var(--red-color-3);
   text-decoration-thickness: 1px;
 }
-body.trial-doc .strong-rd-hover:hover {
+body:has(.trial-doc-marker) .strong-rd-hover:hover {
   color: var(--red-color-3);
   font-weight: 700;
   text-decoration: none;
@@ -121,14 +121,14 @@ body.trial-doc .strong-rd-hover:hover {
    それより狭い画面では目次パネル分の余白自体が無くなるため、サイドノートも表示しない
    （表記が難しいモバイルでは非表示にする、という方針のため）。 */
 @media screen and (max-width: 76.1875em) {
-  body.trial-doc .sidenote {
+  body:has(.trial-doc-marker) .sidenote {
     display: none;
   }
 }
 
 /* 判決の概要：理由１・理由２行頭のアイコン。本文中なので黒だと強すぎる＝グレーに、
    間隔はカード内ラベル（.f-label i）と同じ考え方で margin-right のみで詰める。 */
-body.trial-doc .riyu-lead-icon {
+body:has(.trial-doc-marker) .riyu-lead-icon {
   font-size: 0.85em;
   margin-right: 0.3em;
   color: var(--md-default-fg-color--light);
@@ -141,7 +141,7 @@ body.trial-doc .riyu-lead-icon {
    （2026-08-22、judgement_2025.mdの「判決の概要」「関係法令・規程」で発覚）。
    本文列と同じ32rem・中央寄せにして左端を揃える。###（h3）は既存構造上つねに
    .width-40 の子孫にあるため対象外（親の幅をそのまま継承していてズレない）。 */
-body.trial-doc .md-content h2 {
+body:has(.trial-doc-marker) .md-content h2 {
   max-width: 32rem;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -160,12 +160,12 @@ body.trial-doc .md-content h2 {
    （flexで中央寄せ済み）の中に2階層ネストしていて構造が別物なので、`.md-content__inner`の
    直下（>）だけに絞り込み、判決文・準備書面ページ（h1もシェアボタンも直下）だけに当てる
    （2026-08-22、絞り込み漏れでagm/index.mdのタイトル中央寄せが崩れた事故の修正）。 */
-body.trial-doc .md-content__inner > h1 {
+body:has(.trial-doc-marker) .md-content__inner > h1 {
   max-width: 32rem;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-body.trial-doc .md-content__inner > p:has(> a.x-share) {
+body:has(.trial-doc-marker) .md-content__inner > p:has(> a.x-share) {
   max-width: 32rem;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -175,11 +175,11 @@ body.trial-doc .md-content__inner > p:has(> a.x-share) {
 /* 共通CSS側の h3 は margin:0（カード内の詰めた見出し用）のため、
    trial-doc ページで###を単独の節タイトルとして使う場合はここで余白を足す
    （現状は judgement_2025.md の「関係法令・規程」内の２見出しのみ該当）。 */
-body.trial-doc h3 {
+body:has(.trial-doc-marker) h3 {
   margin: 3rem 0 1rem 0 !important;
 }
 @media only screen and (max-width: 767px) {
-  body.trial-doc h3 {
+  body:has(.trial-doc-marker) h3 {
     margin: 2rem 0 0.6rem 0 !important;
   }
 }
@@ -220,7 +220,7 @@ body.trial-doc h3 {
    併用する方式に統一（2026-08-18、重複実装を解消）。マーク自体の見た目(幅0.24rem・色・角丸)は
    .bar-title側の定義がそのまま使われる。 */
 .trial-page .t-toc-head,
-body.trial-doc .t-toc-head {
+body:has(.trial-doc-marker) .t-toc-head {
   text-align: left;
   margin: var(--t-section-gap) 0 1.2rem !important;
   font-size: 2.0em;
@@ -230,13 +230,13 @@ body.trial-doc .t-toc-head {
 }
 /* t-toc-head 直後のリード段落は見出しとの間隔を詰める */
 .trial-page .t-toc-head + p,
-body.trial-doc .t-toc-head + p {
+body:has(.trial-doc-marker) .t-toc-head + p {
   margin-top: -0.8rem !important;
 }
 /* ただし .lead-normal-gap を付けた場合は詰めず、他の段落と同じ margin02 の間隔に揃える
    （judgement_2025.md「判決の概要」冒頭のリード文：見出い直後だけ詰まって見えるのを防ぐ） */
 .trial-page .t-toc-head + p.lead-normal-gap,
-body.trial-doc .t-toc-head + p.lead-normal-gap {
+body:has(.trial-doc-marker) .t-toc-head + p.lead-normal-gap {
   margin-top: 2rem !important;
 }
 
@@ -267,18 +267,18 @@ body.trial-doc .t-toc-head + p.lead-normal-gap {
    縦線＋ノード＋経過時間ラベル。装飾は無彩色、色はリンクのみ。
    ノード間の「約○か月」で、一文に畳まれた経過時間を見せる。
    ========================================================= */
-body.trial-doc .tl-c {
+body:has(.trial-doc-marker) .tl-c {
   list-style: none;
   margin: 4.0em 0;
   padding: 0;
 }
-body.trial-doc .tl-c li {
+body:has(.trial-doc-marker) .tl-c li {
   position: relative;
   margin: 0;
   padding: 0 0 0.4rem 1.7rem;
   font-size: 14px;
 }
-body.trial-doc .tl-c li.tl-gap {
+body:has(.trial-doc-marker) .tl-c li.tl-gap {
   padding-top: 0.55rem;
   padding-bottom: 0.95rem;
   min-height: 1em; /* ラベル有無にかかわらず余白の高さを揃える */
@@ -286,7 +286,7 @@ body.trial-doc .tl-c li.tl-gap {
   color: var(--md-default-fg-color--lighter);
   letter-spacing: 0.05em;
 }
-body.trial-doc .tl-c li::before { /* 縦線 */
+body:has(.trial-doc-marker) .tl-c li::before { /* 縦線 */
   content: "";
   position: absolute;
   left: 0.28rem;
@@ -295,9 +295,9 @@ body.trial-doc .tl-c li::before { /* 縦線 */
   width: 1px;
   background: #c9ced4;
 }
-body.trial-doc .tl-c li.tl-ev::before { top: 0.65rem; }
-body.trial-doc .tl-c li:last-child::before { display: none; }
-body.trial-doc .tl-c li.tl-ev::after { /* ノード（すべて白抜き◯で統一） */
+body:has(.trial-doc-marker) .tl-c li.tl-ev::before { top: 0.65rem; }
+body:has(.trial-doc-marker) .tl-c li:last-child::before { display: none; }
+body:has(.trial-doc-marker) .tl-c li.tl-ev::after { /* ノード（すべて白抜き◯で統一） */
   content: "";
   position: absolute;
   left: 0;
@@ -308,7 +308,7 @@ body.trial-doc .tl-c li.tl-ev::after { /* ノード（すべて白抜き◯で�
   background: var(--md-typeset-bg-color);
   border: 1.5px solid #8a929b;
 }
-body.trial-doc .tl-c .tl-date {
+body:has(.trial-doc-marker) .tl-c .tl-date {
   display: block;
   font-size: 12.5px;
   font-weight: 700;
@@ -317,31 +317,31 @@ body.trial-doc .tl-c .tl-date {
   line-height: 1.5;
   margin-bottom: 0.1rem;
 }
-body.trial-doc .tl-c li.tl-ev.tl-out .tl-date::before { /* ★＝判決に現れない出来事（日付の頭に付ける） */
+body:has(.trial-doc-marker) .tl-c li.tl-ev.tl-out .tl-date::before { /* ★＝判決に現れない出来事（日付の頭に付ける） */
   content: "★ ";
   font-weight: 400;
   color: #8a929b;
 }
-body.trial-doc .tl-c .tl-body {
+body:has(.trial-doc-marker) .tl-c .tl-body {
   line-height: 1.75;
 }
-body.trial-doc .tl-c .tl-quote { /* 判決文からの引用は本文の引用と同じ明朝 */
+body:has(.trial-doc-marker) .tl-c .tl-quote { /* 判決文からの引用は本文の引用と同じ明朝 */
   font-family: "Noto Serif JP", serif;
   font-size: 13.5px;
 }
-body.trial-doc .tl-c .tl-srcs { /* 認定事実・書証へのリンクをまとめる行（日付の下・本文の上） */
+body:has(.trial-doc-marker) .tl-c .tl-srcs { /* 認定事実・書証へのリンクをまとめる行（日付の下・本文の上） */
   display: block;
   width: fit-content;
   margin: 0 0 0.25rem;
 }
-body.trial-doc .tl-c .tl-src { /* 認定事実・書証へのリンク */
+body:has(.trial-doc-marker) .tl-c .tl-src { /* 認定事実・書証へのリンク */
   font-size: 12.5px;
   color: var(--md-link-color) !important;
   text-decoration: none;
   border-bottom: 1px solid var(--md-link-color-faint);
   white-space: nowrap;
 }
-body.trial-doc .tl-star::before { /* 文中で★の意味を説明する用（タイムライン内の★と同じ記号） */
+body:has(.trial-doc-marker) .tl-star::before { /* 文中で★の意味を説明する用（タイムライン内の★と同じ記号） */
   content: "★";
   color: #8a929b;
 }
@@ -364,10 +364,10 @@ body[data-md-color-scheme="slate"] .tl-star::before {
    グレーの箱＝会社の文書の引用／白地＝検証の地の文。
    .test-part は末尾の「見分け方」を囲う枠。
    ========================================================= */
-body.trial-doc .accordion-body .doc-lead {
+body:has(.trial-doc-marker) .accordion-body .doc-lead {
   margin-top: 3em;
 }
-body.trial-doc .accordion-body .q-card {
+body:has(.trial-doc-marker) .accordion-body .q-card {
   background: var(--surface-gray);
   border-radius: 6px;
   padding: 1rem 1.2rem;
@@ -375,13 +375,13 @@ body.trial-doc .accordion-body .q-card {
   font-family: "Noto Serif JP", serif;
   font-size: 13.5px;
 }
-body.trial-doc .accordion-body .q-card > p {
+body:has(.trial-doc-marker) .accordion-body .q-card > p {
   margin: 0;
 }
-body.trial-doc .accordion-body .q-card > p + p {
+body:has(.trial-doc-marker) .accordion-body .q-card > p + p {
   margin-top: 0.7rem;
 }
-body.trial-doc .accordion-body .q-chip {
+body:has(.trial-doc-marker) .accordion-body .q-chip {
   display: inline-block;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 11px;
@@ -392,7 +392,7 @@ body.trial-doc .accordion-body .q-chip {
   background: var(--md-typeset-bg-color);
   padding: 0.05em 0.55em;
 }
-body.trial-doc .accordion-body .q-chip a {
+body:has(.trial-doc-marker) .accordion-body .q-chip a {
   color: inherit;
   font-family: inherit;
 }
@@ -400,7 +400,7 @@ body.trial-doc .accordion-body .q-chip a {
    .q-card(surface-gray)・.f-head(薄い青)より一段薄い背景にして、同じアコーディオン内で
    意味が違う箱（実文/見出しでなく「まとめ」）として区別がつくようにする。
    box-shadowのみだと薄すぎて境界が見えなかったため、背景色を追加（2026-08-18、続き）。 */
-body.trial-doc .accordion-body .test-part {
+body:has(.trial-doc-marker) .accordion-body .test-part {
   background: var(--md-default-fg-color--lightest);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
@@ -410,7 +410,7 @@ body.trial-doc .accordion-body .test-part {
 [data-md-color-scheme="slate"] .accordion-body .test-part {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
 }
-body.trial-doc .accordion-body .test-part > p {
+body:has(.trial-doc-marker) .accordion-body .test-part > p {
   margin: 0;
   line-height: 1.8; /* 「い。」のような1文字だけの孤立行を減らす（text-wrap:pretty と併用） */
   text-wrap: pretty;
@@ -420,11 +420,11 @@ body[data-md-color-scheme="slate"] .accordion-body .q-chip {
   border-color: rgba(255, 255, 255, 0.3);
 }
 /* 問いの見出し（①〜④） */
-body.trial-doc .accordion-body .q-lead {
+body:has(.trial-doc-marker) .accordion-body .q-lead {
   margin-top: 2.2em;
 }
 /* 例文カード（白地＋破線＝サイト作成の実在しない例文。実文カード(q-card)と対） */
-body.trial-doc .accordion-body .ex-card {
+body:has(.trial-doc-marker) .accordion-body .ex-card {
   background: var(--md-typeset-bg-color);
   border: 1px dashed var(--md-card-border);
   border-radius: 6px;
@@ -433,19 +433,19 @@ body.trial-doc .accordion-body .ex-card {
   font-family: "Noto Serif JP", serif;
   font-size: 13.5px;
 }
-body.trial-doc .accordion-body .ex-card > p {
+body:has(.trial-doc-marker) .accordion-body .ex-card > p {
   margin: 0;
 }
-body.trial-doc .accordion-body .ex-card > p + p {
+body:has(.trial-doc-marker) .accordion-body .ex-card > p + p {
   margin-top: 0.7rem;
 }
 /* ex-card 直後の一言キャプション（例：「→ このように誤解されています」） */
-body.trial-doc .accordion-body .ex-caption {
+body:has(.trial-doc-marker) .accordion-body .ex-caption {
   margin: -1.0em 0 1.4em 0.3rem;
   font-size: 12.5px;
   color: var(--md-default-fg-color--light);
 }
-body.trial-doc .accordion-body .ex-chip {
+body:has(.trial-doc-marker) .accordion-body .ex-chip {
   display: inline-block;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 11px;
@@ -469,7 +469,7 @@ body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
 /* 見出しカード（f-label＋f-title＋f-spineをひとつの箱にまとめる。
    .q-card（引用＝グレー地の実線）と見分けやすいよう、薄い青系の色調にする。
    ラベル（特徴１・理由１等）は青字＋左に fa-square-full の四角アイコン。 */
-body.trial-doc .accordion-body .f-head {
+body:has(.trial-doc-marker) .accordion-body .f-head {
   position: relative;
   background: rgba(0, 54, 130, 0.055);
   border-radius: 6px;
@@ -477,41 +477,41 @@ body.trial-doc .accordion-body .f-head {
   margin: 4.0em 0 3.2em;
   scroll-margin-top: 4.5rem; /* ミニ目次からのジャンプ時、固定ヘッダーに隠れないように */
 }
-body.trial-doc .accordion-body .f-label {
+body:has(.trial-doc-marker) .accordion-body .f-label {
   margin: 0 0 0.4em;
   font-size: 11px;
   letter-spacing: 0.14em;
   color: var(--md-link-color);
 }
-body.trial-doc .accordion-body .f-label i {
+body:has(.trial-doc-marker) .accordion-body .f-label i {
   font-size: 0.9em;
   margin-right: 0.25em;
   vertical-align: 0.05em;
 }
-body.trial-doc .accordion-body .f-title {
+body:has(.trial-doc-marker) .accordion-body .f-title {
   margin: 0 0 0.35em;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
   color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
 }
-body.trial-doc .accordion-body .f-spine {
+body:has(.trial-doc-marker) .accordion-body .f-spine {
   margin: 0;
   color: var(--md-default-fg-color--light);
 }
 body[data-md-color-scheme="slate"] .accordion-body .f-head {
   background: rgba(77, 139, 204, 0.1);
 }
-body.trial-doc .accordion-body .test-part ol {
+body:has(.trial-doc-marker) .accordion-body .test-part ol {
   margin: 0.8em 0 0;
   padding-left: 1.3em;
 }
-body.trial-doc .accordion-body .test-part ol li {
+body:has(.trial-doc-marker) .accordion-body .test-part ol li {
   margin: 0.6em 0;
   line-height: 1.8;
   text-wrap: pretty;
 }
-body.trial-doc .accordion-body .test-part ol li::marker {
+body:has(.trial-doc-marker) .accordion-body .test-part ol li::marker {
   color: var(--md-link-color);
   font-weight: 700;
 }
@@ -521,28 +521,28 @@ body.trial-doc .accordion-body .test-part ol li::marker {
    開いた直後にリード文の下へ置き、各 .f-head へジャンプできるようにする。
    本文の段落と紛れないよう、罫線なし・小さめ文字・矢印記号で「ナビ」だと分かるようにする。
    ========================================================= */
-body.trial-doc .accordion-body .f-jumpnav {
+body:has(.trial-doc-marker) .accordion-body .f-jumpnav {
   margin: 1.6em 0 3.4em;
   padding: 0;
   list-style: none;
 }
-body.trial-doc .accordion-body .f-jumpnav li {
+body:has(.trial-doc-marker) .accordion-body .f-jumpnav li {
   margin: 0.5em 0;
   font-size: 13px;
   line-height: 1.6;
 }
-body.trial-doc .accordion-body .f-jumpnav a {
+body:has(.trial-doc-marker) .accordion-body .f-jumpnav a {
   color: var(--md-link-color) !important;
   text-decoration: none;
   border-bottom: 1px solid var(--md-link-color-faint);
 }
-body.trial-doc .accordion-body .f-jumpnav a:hover {
+body:has(.trial-doc-marker) .accordion-body .f-jumpnav a:hover {
   border-bottom-color: var(--md-link-color);
 }
 
 /* agm/index.md：対照表の直前に置く免責文（非公式メモである旨）。
    本文（16px）より一段小さく・グレーにして、太字の背骨主張と競合しないようにする。 */
-body.trial-doc .disclaimer-note {
+body:has(.trial-doc-marker) .disclaimer-note {
   font-size: 14px !important;
   line-height: 1.9 !important;
   color: var(--md-default-fg-color--light) !important;
@@ -551,7 +551,7 @@ body.trial-doc .disclaimer-note {
 /* 「株主質問N」見出し：カード間の区切りをはっきりさせるため、上余白だけ広げる
    （2rem→4rem。サイトの余白スケールの4rem＝.margin04 と同じ値）。
    下（見出し→本文）は margin02 の2remのまま変えないので、margin-top だけ上書きする。 */
-body.trial-doc .q-num-gap {
+body:has(.trial-doc-marker) .q-num-gap {
   margin-top: 4rem !important;
 }
 
@@ -562,19 +562,19 @@ body.trial-doc .q-num-gap {
    カードの並びは「株主質問（趣旨）→公式Youtube（パネル）→公表内容の評価」の3段。
    マークは装飾ではなく発言者・立場の区別のため、色は各役割の意味に合わせて使い分ける。
    ========================================================= */
-body.trial-doc .qa-turn {
+body:has(.trial-doc-marker) .qa-turn {
   display: flex;
   align-items: flex-start;
   gap: 0.7rem;
 }
-body.trial-doc .qa-turn + .qa-turn {
+body:has(.trial-doc-marker) .qa-turn + .qa-turn {
   margin-top: 1.1rem;
 }
-body.trial-doc .qa-turn .qa-body {
+body:has(.trial-doc-marker) .qa-turn .qa-body {
   flex: 1;
   min-width: 0;
 }
-body.trial-doc .qa-mark {
+body:has(.trial-doc-marker) .qa-mark {
   flex: 0 0 auto;
   width: 2.1rem;
   height: 2.1rem;
@@ -584,7 +584,7 @@ body.trial-doc .qa-mark {
   justify-content: center;
   margin-top: 0.1rem;
 }
-body.trial-doc .qa-mark--student {
+body:has(.trial-doc-marker) .qa-mark--student {
   font-size: 1.15rem;
   background: var(--surface-gray);
   border: 1px solid var(--md-card-border);
@@ -593,18 +593,18 @@ body.trial-doc .qa-mark--student {
    （書体はサイト共通のゴシックのまま。甲19/20の引用ボックスと違い動画キャプションの要約なので明朝にはしない）。
    カード内は「ENEOS（発言者バッジ）→パネルの引用文→公式Youtubeのタイムスタンプ（出典リンク）」の3段。
    バッジとタイムスタンプリンクは、上下に離れていても同じ種類の要素だと分かるよう、高さ・形をそろえる。 */
-body.trial-doc .eneos-card {
+body:has(.trial-doc-marker) .eneos-card {
   background: var(--surface-gray);
   border: 1px solid var(--md-card-border);
   border-radius: 6px;
   padding: 1rem 1.2rem;
   margin: 0 0 1.1rem;
 }
-body.trial-doc .eneos-card > p {
+body:has(.trial-doc-marker) .eneos-card > p {
   margin: 0.6rem 0 !important;
 }
-body.trial-doc .eneos-card .qa-mark--eneos,
-body.trial-doc .eneos-card .eneos-timestamp {
+body:has(.trial-doc-marker) .eneos-card .qa-mark--eneos,
+body:has(.trial-doc-marker) .eneos-card .eneos-timestamp {
   display: inline-flex;
   align-items: center;
   height: 1.7rem;
@@ -620,23 +620,23 @@ body.trial-doc .eneos-card .eneos-timestamp {
 /* 実際の値は常に本文色(--md-typeset-color)で使われていた（14箇所すべてインラインstyleで上書き）
    ため、無彩色寄りの方針にも合わせてこちらを正式な色に変更（2026-08-17クラス化）。
    オレンジ(--orange-color-1)は一度も表示されていなかった死んだ値だったため削除。 */
-body.trial-doc .eneos-card .qa-mark--eneos {
+body:has(.trial-doc-marker) .eneos-card .qa-mark--eneos {
   color: var(--md-typeset-color);
 }
-body.trial-doc .eneos-card .eneos-timestamp {
+body:has(.trial-doc-marker) .eneos-card .eneos-timestamp {
   display: flex;
   justify-content: flex-end;
   color: var(--md-link-color) !important;
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-body.trial-doc .eneos-card .eneos-timestamp:hover {
+body:has(.trial-doc-marker) .eneos-card .eneos-timestamp:hover {
   text-decoration-thickness: 1.4px;
 }
-body.trial-doc .eneos-card .eneos-timestamp i {
+body:has(.trial-doc-marker) .eneos-card .eneos-timestamp i {
   margin-left: 0.3em;
 }
-body.trial-doc .qa-mark--eval {
+body:has(.trial-doc-marker) .qa-mark--eval {
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.05em;
