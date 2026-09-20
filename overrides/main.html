@@ -1,0 +1,34 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta name="msvalidate.01" content="9593088485776550C2589B62968B9D78">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  {#- サイト名の明示（2026-09-05追加）。og:site_nameが無いと、Googleが検索結果の
+      サイト名欄をホスティング基盤由来の情報（「GitHub Pages documentation」等）で
+      代用してしまうことがあるため、明示的に指定して正しいサイト名を認識させる。 -#}
+  {#- favicon は theme.favicon（mkdocs.yml）で img/favicon.png を指定済み・正しく機能している。
+      ここに以前あった <link rel="icon" href="/favicon.png"> は絶対パスで
+      https://minnanosaiban.github.io/favicon.png（サブパス/hotline/の外・404）を指しており、
+      2つ目のicon linkとして後に並ぶぶんブラウザ・クローラに優先されて壊れたアイコンになっていた
+      （2026-08-22、Google検索結果でアイコンが出ない問題で発覚・削除）。 -#}
+  {#- 転送だけのページ（旧 trial/eneos・trial/whistleblower）。移動先へ、#アンカーも引き継いで飛ばす。
+      GitHub Pages ではサーバー側の301が使えないため、meta refresh とJSで行う。 -#}
+  {% if page and page.meta and page.meta.redirect_to %}
+    <meta http-equiv="refresh" content="0; url={{ page.meta.redirect_to | url }}">
+    <script>location.replace({{ (page.meta.redirect_to | url) | tojson }} + location.hash)</script>
+    <meta name="robots" content="noindex">
+  {% endif %}
+  {% if page and page.meta %}
+    <meta property="twitter:card" content="{{ page.meta.twitter_card | default('summary') }}">
+    <meta property="twitter:title" content="{{ page.meta.title }}">
+    <meta property="twitter:description" content="{{ page.meta.description }}">
+    <meta property="twitter:image" content="{{ page.meta.image | url | default('https://example.com/default.jpg') }}">
+    <meta property="og:title" content="{{ page.meta.title }}">
+    <meta property="og:description" content="{{ page.meta.description }}">
+    <meta property="og:image" content="{{ page.meta.image | url | default('https://example.com/default.jpg') }}">
+    <meta property="og:url" content="{{ page.meta.url | default(site_url | default('https://example.com')) }}">
+  {% endif %}
+{% endblock %}
