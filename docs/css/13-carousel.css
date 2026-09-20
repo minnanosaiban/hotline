@@ -1,0 +1,71 @@
+/* 質問パネルのカルーセル（.qa-carousel）
+   call4.jp トップページの「中央＋左右チラ見え＋自動送り」演出をSwiper.js（CDN）で再現。
+   agm/index.md でのみ読み込む（overrides/hooks/add_blog_class.py がページ限定でCDN・本CSS・
+   js/qa-carousel.js を注入。他ページの読み込みには影響しない）。
+   同じクラス構造（.qa-carousel.swiper > .swiper-wrapper > .swiper-slide）を書けば、
+   他ページに増やしても qa-carousel.js が自動で拾って初期化する。 */
+.qa-carousel-lead {
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  font-size: 14px;
+}
+/* margin02(上下2rem=40px !important)のうち下だけ0にし、その分は.qa-carouselのpadding-topへ
+   全部付け替える(下記参照)。ロゴ上と同じ40pxに揃えるため、.margin02より詳細度を上げて上書きする。 */
+.qa-carousel-lead.margin02 {
+  margin-bottom: 0 !important;
+}
+.qa-carousel-badge {
+  /* .md-typeset img { height: auto; } の方が詳細度が高く上書きされてしまうため !important で固定 */
+  height: 32px !important;
+  width: auto;
+  vertical-align: middle;
+}
+.qa-carousel {
+  width: 100%;
+  max-width: 56rem;      /* width-40(32rem)より広く。中央＋左右チラ見えの余地を持たせる */
+  margin: 0 auto;
+  /* padding-top: 単に詰めるとアクティブスライド(下のswiper-slide-activeでscale(1.15))が
+     このdiv自身のoverflow:hidden(Swiper既定)の上端にかかって上部が欠ける実害を確認した
+     (2026-09-07)。欠けない下限は縦の膨らみ分＝スライド高さの15%の半分(モバイル78vw幅の
+     ブレークポイント境界=767pxで最大、計算上約25px)。安全マージンを見て2rem(40px)を確保。
+     ロゴ側のmargin-bottomは上記の通り0にしたので、ロゴ上下の余白が計40pxで揃う。 */
+  padding: 2rem 0 4rem;
+}
+.qa-carousel .swiper-slide {
+  width: 26rem;
+  opacity: .45;
+  transform: scale(.92);
+  transition: opacity .4s ease, transform .4s ease;
+}
+.qa-carousel .swiper-slide-active {
+  /* !important が要る理由：同じ詳細度（2クラス）の.swiper-slideルールと綱引きになり、
+     素の宣言だとどちらが勝つか不安定だった（2026-09-07、実機で検証） */
+  opacity: 1 !important;
+  transform: scale(1.15) !important;
+  z-index: 2;
+}
+.qa-carousel .qa-shot {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--surface-gray);  /* 画像の読み込み待ち・欠落時のプレースホルダ色 */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14);  /* .toc-card 等と同じ考え方：ダークでも同値のまま流用 */
+}
+.qa-carousel .swiper-pagination-bullet-active {
+  background: var(--md-link-color);
+}
+.qa-carousel .swiper-button-next,
+.qa-carousel .swiper-button-prev {
+  color: var(--md-link-color);
+}
+@media only screen and (max-width: 767px) {
+  .qa-carousel .swiper-slide {
+    width: 78vw;
+  }
+  .qa-carousel-badge {
+    height: 26px !important;  /* 22pxだと小さすぎたため引き上げ(2026-09-07)。デスクトップ32pxとの相対感は保つ */
+  }
+}

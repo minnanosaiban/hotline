@@ -1,0 +1,55 @@
+/* カラー定義
+   ここに定義するのは実際に使われているトークンのみ。
+   未使用の色メモは hikae/color_memo.md に退避済み（2026-08-20）。 */
+:root {
+  --typeset-color-2: #003682; /* 濃い青＝サイトのメインカラー（ライト用） */
+  --typeset-color-2-d: #4D8BCC; /* 濃い青のダークモード版 */
+  --orange-color-1: #e94709; /* ENEOS ブランド橙（Homeタイトルの「ＥＮＥＯＳ」のみで使用） */
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-color: #08131a !important; /* テキストカラー*/
+  --md-typeset-bg-color: #FFFFFF; /* テキストカラー逆 */
+  --md-default-bg-color: #f7f8fa; /* ページ全体の背景。純白だと目が疲れるためうっすらグレーに */
+  --md-primary-fg-color: #e5e7ea; /* ヘッダーの背景色 */
+  --surface-gray: #eef1f5; /* タイトル帯・agm枠・アコーディオン共通の薄い青みグレー（ヘッダーより一段薄い） */
+  --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
+  --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
+  --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1); /* フッター デフォルトの色を薄めに*/
+  --md-main-color: var(--typeset-color-2); /* メインカラー */
+  --md-strong-color: var(--typeset-color-2);  /* 強調カラー*/
+  --md-link-color: var(--typeset-color-2);  /* 強調カラー*/
+  --md-link-color-faint: rgba(0, 54, 130, 0.4); /* リンクカラー透過版 */
+  --md-card-border: #aab0b8; /* カード枠線（ヘッダー同系の無彩色グレー） */
+  --md-card-border-soft: rgba(0, 0, 0, 0.16); /* カード枠線（少し濃いめ・repo-link / ref-card 共通） */
+  --md-warn-red: #C70025; /* 警告レッド（通報者への措置など） */
+  --red-color-3: #dc3545; /* サイドノート強調レッド（trial系 .strong-rd。TOMATO） */
+  --md-link-hover-color: #1a5fb4; /* リンクホバー — #003682 より明るい青 */
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー */
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-color: #E0E0E0; /* テキストカラー*/
+  --md-typeset-bg-color: hsla(225, 15%, 14%, 1); /* テキストカラー逆 */
+  --md-primary-fg-color: hsla(var(--md-hue), 15%, 8%, 1); /* ヘッダーの背景色 */
+  --surface-gray: #16263c; /* ダーク：タイトル帯・agm枠・アコーディオン共通（ヘッダー#0d1b2aより一段薄い紺） */
+  --md-typeset-a-color: var(--md-typeset-color); /* リンクカラー */
+  --md-accent-fg-color: #2E404d; /* リンクホバーカラー */
+  --md-footer-bg-color--dark: hsla(var(--md-hue), 15%, 8%, 1); /* フッター デフォルトの色を薄めに*/
+  --md-main-color: var(--typeset-color-2-d); /* メインカラー */
+  --md-strong-color: var(--typeset-color-2-d);  /* 強調カラー*/
+  --md-link-color: var(--typeset-color-2-d);  /* 強調カラー*/
+  --md-link-color-faint: rgba(77, 139, 204, 0.4); /* リンクカラー透過版 */
+  --md-card-border: rgba(255, 255, 255, 0.22); /* カード枠線（無彩色グレー） */
+  --md-card-border-soft: rgba(255, 255, 255, 0.20); /* カード枠線（少し濃いめ・repo-link / ref-card 共通） */
+  --md-warn-red: #f2545b; /* 警告レッド（暗背景でも読める明るめ臙脂） */
+  --red-color-3: #f2545b; /* サイドノート強調レッド：ダークでは --md-warn-red と同値に寄せる（#dc3545 は暗背景でコントラスト不足） */
+  --md-link-hover-color: #7eb8e8; /* リンクホバー — #4D8BCC より明るい青 */
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー */
+}
+
+/* ダークモード: ヘッダー・ナビゲーションタブ背景をサムネイル背景色と統一 */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #0d1b2a !important;
+}

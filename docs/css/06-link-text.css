@@ -1,0 +1,19 @@
+
+/* 下線付きリンク：ホバーで下線が少し太くなる */
+.arrow-link {
+  display: inline-block;
+  color: var(--md-link-color) !important; /* 前：黒の文字色 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: var(--md-link-color);
+  text-decoration-thickness: 1px;
+}
+.arrow-link:hover {
+  color: var(--md-link-color) !important;  /* 前：メインの文字色 */
+  text-decoration-thickness: 1.2px; /* 前：ラインを少し太く */
+  transition: color 0.3s ease;
+  text-decoration-color: var(--md-link-color);
+  }
+
