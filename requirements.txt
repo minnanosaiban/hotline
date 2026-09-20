@@ -1,2 +1,2 @@
-# 主に使うビルドツール（バージョンは固定）
+# Main build tool (version pinned).
 zensical==0.0.63

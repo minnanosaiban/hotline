@@ -1,3 +1,4 @@
-# 予備: MkDocs + Material でもビルドできる（Material は 2026-11-05 で更新終了。MkDocs 2.0 では動かないため <2 のまま固定）
+# Fallback: the site also builds with MkDocs + Material.
+# Material for MkDocs reaches end of life on 2026-11-05, and MkDocs 2.0 is not compatible, so stay below 2.
 mkdocs==1.6.1
 mkdocs-material==9.7.1
