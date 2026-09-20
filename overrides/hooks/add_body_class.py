@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 裁判文書系（trial/・agm/・見本帳）のページに body.trial-doc を付け、agm のカルーセル用に Swiper を注入する。
 import re
 
 # agm/index.md の質問パネル・カルーセル（.qa-carousel）専用。
