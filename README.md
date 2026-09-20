@@ -1,4 +1,4 @@
-# hotline-mkdocs
+# eneos-hotline
 
 `https://minnanosaiban.github.io/hotline/`（MkDocs Material）から、「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」だけを切り出したサイト。
 株価分析（blog）と運営者ページは別サイト（株価サイト側）へ分離する前提なので、ここには持ち込んでいない。元の `hotline` リポジトリには一切触れていない。
