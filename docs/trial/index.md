@@ -53,31 +53,31 @@ hide:
 </p>
 
 <p class="width-40 margin02">
-以下では、訴訟資料を掲載しています。その前に、<b>判決文に書かれていることと、同じ訴訟記録の中に残っている資料とを、一つずつ突き合わせた「答え合わせ」</b>を置いています。判決への反論ではなく、判決文がもともと想定していた「記録を知っている読み手」の条件を、一般の読み手のために復元する作業です。
+以下では、訴訟資料を掲載しています。その前に、<b>高裁が何を根拠に請求を退けたのかを、判決文に書かれていることと、同じ訴訟記録の中に残っている資料とを一つずつ突き合わせて確かめた「高裁判決の根拠」</b>を置いています。判決への反論ではなく、判決文がもともと想定していた「記録を知っている読み手」の条件を、一般の読み手のために復元する作業です。
 </p>
 
 <p class="width-40 margin02 smallest">
 ※裁判文書引用中の太字は引用者による強調です。
 </p>
 
-<p class="t-toc-head bar-title doc-side" id="bunseki">判決文の答え合わせ</p>
+<p class="t-toc-head bar-title doc-side" id="bunseki">高裁判決の根拠</p>
 
 <div class="doc-rows" markdown>
+
+<details class="doc-acc" id="bunseki-senryaku" data-plain markdown>
+<summary>被告ＥＮＥＯＳの主張は、功を奏したか</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-senryaku.md"
+
+</div>
+</details>
 
 <details class="doc-acc" id="bunseki-yomikata" data-plain markdown>
 <summary>この欄の読み方――何と何を照合しているか</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-yomikata.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-sashikae" data-plain markdown>
-<summary>照合０　高裁は、地裁の理由を「補強」したのか「差し替えた」のか</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-sashikae.md"
 
 </div>
 </details>
@@ -96,15 +96,6 @@ hide:
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-riyu-2.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-senryaku" data-plain markdown>
-<summary>被告（ＥＮＥＯＳ）の主張のしかたは、勝訴の決め手だったのか</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-senryaku.md"
 
 </div>
 </details>
