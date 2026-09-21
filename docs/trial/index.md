@@ -1,6 +1,6 @@
 ---
 title: 裁判文書公開 ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の裁判文書を公開しています。原告・被告の準備書面、控訴理由書、答弁書、判決書を、書面ごとに開いて読めます。本文を .md でコピー・保存することもできます。
+description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の裁判文書を公開しています。東京地裁・東京高裁の判決文と、判決の概要と分析、原告・被告の準備書面・控訴理由書・答弁書などを、書面ごとに開いて読めます。本文を .md でコピー・保存することもできます。
 seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜裁判文書を公開
 url: https://minnanosaiban.github.io/eneos-hotline/trial/
 image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
@@ -37,6 +37,15 @@ hide:
 
 <div class="doc-rows" markdown>
 
+<details class="doc-acc" id="bunseki" data-plain markdown>
+<summary>判決の概要と分析（東京地裁・東京高裁）</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki.md"
+
+</div>
+</details>
+
 <details class="doc-acc" id="tisai" data-md="md/tisai.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2025年03月31日_東京地裁判決文.pdf" data-summary="主文は「原告の請求をいずれも棄却する」です。地裁は、原告がＧＳＴの支払によって直接の被害を受けたわけではないことを理由に、会社の調査結果に不服を述べる法的な利益が原告にはないとして、請求を退けました。" markdown>
 <summary>東京地裁 判決文（2025年3月31日）</summary>
 <div class="doc-body" markdown>
@@ -54,8 +63,6 @@ hide:
 
 </div>
 </details>
-
-<div class="doc-linkrow"><a href="judgement_2025/"><span class="doc-title">判決の概要と分析</span><span class="doc-note">判決文からの抜粋、事実のタイムライン、関係法令・規程</span><i class="doc-chev bi bi-arrow-right" aria-hidden="true"></i></a></div>
 
 </div>
 

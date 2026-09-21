@@ -25,6 +25,8 @@ body:has(.trial-doc-marker) .doc-side.t-toc-head {
   scroll-margin-top: 5.5rem;          /* 固定ヘッダーに隠れない */
 }
 .doc-rows > :last-child { border-bottom: 1px solid var(--md-card-border-soft); }
+/* 上の details.doc-acc の border:none に負けないよう、詳細度を上げる（これが無いと、最後の行が details のグループは閉じの罫線が出ない） */
+.md-typeset .doc-rows > details.doc-acc:last-child { border-bottom: 1px solid var(--md-card-border-soft); }
 .md-typeset details.doc-acc > summary {
   display: flex;
   align-items: center;

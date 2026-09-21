@@ -15,7 +15,6 @@ nav:
   - 裁判文書公開:
       - trial/index.md
       - 2025年9月判決:
-          - <i class="bi bi-chevron-compact-right"></i> 判決書 : trial/judgement_2025.md
           - <i class="bi bi-chevron-compact-right"></i> 主張書面全文と認否 <i class="bi bi-box-arrow-up-right"></i> : https://minnanosaiban.github.io/eneos-saiban/argument.html
 
 # 書面（被告側・原告側）は trial/index.md の1ページにアコーディオンで集約した（本文は docs/trial/md/*.md.txt）。

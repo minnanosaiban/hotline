@@ -131,10 +131,11 @@
   }
   function enhanceRow(d) {
     var summary = d.querySelector(':scope > summary');
-    if (!summary || summary.querySelector('.doc-btns')) return;
+    if (!summary || summary.querySelector('.doc-title')) return;
     var title = summary.textContent.trim();
     d.setAttribute('data-title', title);
-    summary.innerHTML = '<span class="doc-title">' + esc(title) + '</span>' + btnHtml(d) +
+    // data-plain: 書面ではない行（判決の概要と分析など）。PDF・.md・要約のボタンは付けない
+    summary.innerHTML = '<span class="doc-title">' + esc(title) + '</span>' + (d.hasAttribute('data-plain') ? '' : btnHtml(d)) +
       '<i class="doc-chev bi bi-chevron-down" aria-hidden="true"></i>';
   }
 
