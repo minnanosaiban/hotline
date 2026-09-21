@@ -40,6 +40,7 @@ body:has(.trial-doc-marker) .doc-side.t-toc-head {
   color: var(--md-typeset-color);
   cursor: pointer;
   list-style: none;
+  overflow: visible;                  /* テーマの summary は overflow:hidden。これだと .md ボタンのメニューが行の高さで切れて、下の項目が見えない */
   transition: background-color 0.15s ease;
 }
 .md-typeset details.doc-acc > summary::-webkit-details-marker { display: none; }
