@@ -52,6 +52,8 @@ python -m mkdocs build
 - **目次（Toc）を完全に出さない**。右のサイドバーだけでなく、スマホのメニュー内の目次も。Material の `partials/toc.html` を空にして実現（右カラムは CSS でも `display: none`）
 - **検索窓を出さない**（`plugins: []` と、`overrides/partials/header.html`）
 - **裁判文書は `trial/index.md` の1ページに集約**（書面ごとのアコーディオン）。本文は `docs/trial/md/<id>.md.txt` に置いて `--8<--` で取り込む。生ファイルは静的に公開されるので、`.md` ボタン（コピー／ダウンロード）の元にもなる
+- **並びは「裁判所 → 被告（ＥＮＥＯＳ）側 → 原告（通報者）側」**。裁判所の欄に、東京地裁・東京高裁の**判決文の全文**（`tisai`・`kousai`）を書面と同じ形（PDF・`.md`・要約）で置き、
+  その下に、判決の概要と分析のページ（`judgement_2025.md`）へのリンク行を置いた。判決文はここにだけあり、判決ページ側には無い（判決ページからの「判決文の該当箇所」リンクは、ここへ飛ぶ）
 - 旧 `trial/eneos/`・`trial/whistleblower/` は持たない。旧サイト（`/hotline/`）の URL であって、新サイトには存在しなかったため
 - **Python フック（`doc_indent.py`・`add_blog_class.py`）とプラグイン（`mkdocs-glightbox`）を無くした**。やっていたことは、ソースへの焼き込みと、ページ内のスクリプト・CSS に置き換えた
   - 独自マーカー `:N X#id:` → 本文ファイルに `<p class="padN …">` として焼き込み済み
@@ -67,10 +69,11 @@ python -m mkdocs build
 
 1. アプリの「ウェブ用」書き出し（素の Markdown＋`<aside class="sn-note">`）をコピーして、`docs/trial/md/<id>.md.txt` に貼る（既にあるファイルなら上書き）
    - 拡張子を `.md.txt` にしているのは、ビルダーが独立したページにしてしまわないようにするため
-2. 書面を増やすときだけ、`docs/trial/index.md` の該当する側（原告側・被告側…）の `<div class="doc-rows" markdown>` に、次のブロックを1つ足す
+2. PDF があるときは、`python scripts/add_pdf.py …` で `docs/pdf/` に入れる（下の「PDF」）
+3. 書面を増やすときだけ、`docs/trial/index.md` の該当する欄（裁判所・被告（ＥＮＥＯＳ）側・原告（通報者）側）の `<div class="doc-rows" markdown>` に、次のブロックを1つ足す
 
 ```html
-<details class="doc-acc" id="<id>" data-md="md/<id>.md.txt" data-pdf="<PDFのURL>" data-summary="<要約>" markdown>
+<details class="doc-acc" id="<id>" data-md="md/<id>.md.txt" data-pdf="../pdf/<ファイル名>.pdf" data-summary="<要約>" markdown>
 <summary>書面名</summary>
 <div class="doc-body" markdown>
 
@@ -83,8 +86,21 @@ python -m mkdocs build
 `data-pdf`・`data-summary` は無ければ書かない（ボタンがグレーになる）。ボタン・開閉マーク・サイドノートの位置は `docs/js/doc-accordion.js` が付ける。
 目次を出さない構成なので、貼った本文の見出しが目次に混ざる心配はない。
 
-今の11書面は、元の `eneos.md`・`whistleblower.md` を書面ごとに分割したもの。旧形式（hotline 用書き出し）のマーカーは HTML に焼き込み済みなので、
+今の13行（書面11 + 判決文2）は、元の `eneos.md`・`whistleblower.md`・`judgement_2025.md` を分割したもの。旧形式（hotline 用書き出し）のマーカーは HTML に焼き込み済みなので、
 そのままで表示できる（`.md` ボタンの「コピー／ダウンロード」では、旧形式は素の Markdown に変換して渡す）。今後の書面は「ウェブ用」のままでよい。
+要約（`data-summary`）は、判決文2行にだけ入っている（主文は判決文から、理由は判決ページの「判決の概要」の文から。手で書いた要約なので「AI要約」の表示は付かない）。
+
+## PDF（`docs/pdf/`）
+
+書面と判決文の PDF は、この repo の `docs/pdf/` に置く（もとは `eneos-saiban` の `_static/` にあった。裁判文書ページの13行分をコピー済み）。
+
+- **ファイル名と PDF の「タイトル」（メタデータ）を、検索されやすい同じ名前にそろえる**:
+  `ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年04月15日_答弁書.pdf`（区分は `ENEOS側`・`通報者側`・`裁判所`）。
+  検索結果に出る PDF のタイトルは、このメタデータが使われる。区切りの「ーー」は `scripts/add_pdf.py` の `SEP` 1か所
+- **追加のしかた**: `python scripts/add_pdf.py <元のPDF> <ENEOS側|通報者側|裁判所> <YYYY-MM-DD> <書面名>`（要 `pip install pymupdf`。サイトのビルドには要らない）。
+  日付は、書面の冒頭にある日付（判決は言渡日）。最後に出る `../pdf/<ファイル名>` を `data-pdf` に書く
+- PDF は Git ではバイナリ扱い（`.gitattributes` の `*.pdf binary`）。今は合計 約142MB（判決文2本が 38MB と 92MB。画像だけの PDF で、文字情報は無い）
+- 13本とも、コピー前後でページ数と各ページの描画が一致することを確認してある
 
 ## 検索エンジン向けの設定（「ENEOS 通報 裁判」などで見つかるように）
 
@@ -122,6 +138,7 @@ python -m mkdocs build
 - **`**強調**` が全角の句読点・括弧に隣接するとき、Zensical では強調にならない**ことがある（`pymdownx.betterem` の挙動差）。そういう箇所は `<strong>…</strong>` と書く
 - 裁判文書系のページ（`trial/`・`agm/`・`styleguide/`・判決）は、先頭に `<div class="trial-doc-marker" hidden></div>` を置く。CSS が `body:has(.trial-doc-marker)` でページを見分けている
 - サイドノートは画面幅 76.1875em 以下では出さない（本文列の外側の余白に置くため）
+- アコーディオンの `summary` には `overflow: visible` が要る（`14-doc-accordion.css`）。テーマの `summary` は `overflow: hidden` で、`.md` ボタンのメニューが行の高さで切れてしまう
 
 ## 検証（Zensical 0.0.63 と MkDocs 1.6.1）
 
@@ -140,13 +157,14 @@ python -m mkdocs build
 
 - `mkdocs.yml`: `site_url`、`extra.about_url`
 - 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial/index.md`・`docs/trial/judgement_2025.md`
-- `docs/trial/judgement_2025.md` の年表の1リンク `/eneos-hotline/trial/#hikoku2_214`（raw HTML なので絶対パス）
+- `docs/trial/judgement_2025.md` の raw HTML のリンク 約20か所 `/eneos-hotline/trial/#…`（年表など。raw HTML なので絶対パス）。`sed -i 's#/eneos-hotline/trial/#/新しいパス/trial/#g' docs/trial/judgement_2025.md`
 - `scripts/indexnow_ping.ps1` の `$keyLocation`
 - `docs/robots.txt`（`Sitemap:`）、`docs/e482d7edf83b50b925f361e389d57812.txt`（IndexNow のキー。`scripts/indexnow_ping.ps1` が使う）、`docs/googlee01c6dd3b7b5851f.html`（Search Console の所有確認）
 - `docs/styleguide/index.md` の見本リンク
 
 ## その他のファイル
 
+- `scripts/add_pdf.py`: PDF を `docs/pdf/` に、検索されやすい名前とタイトルで入れる（上の「PDF」）
 - `scripts/extract_agm_panels.py`: agm のスライド画像の切り出し（元の hotline から）
 - `DESIGN_SYSTEM.md`: 元の hotline のデザイン仕様。フック・ブログ・プラグインに関する記述は、この repo には当てはまらない
 
@@ -154,5 +172,9 @@ python -m mkdocs build
 
 - **運営者ページのリンク先**: `extra.about_url` は仮（旧サイトの `https://minnanosaiban.github.io/hotline/about/`）。株価サイト側の URL が決まったら差し替える
 - **旧サイトとの重複**: 旧 `/hotline/` に同じ本文が残っている（上の「公開後にやること」4）
+- **`eneos-saiban` にまだ頼っているもの**: 「原告第４準備書面以下」の行と nav の「主張書面全文と認否」（`argument.html`）、`dai5` 本文中の ChatGPT ページへのリンク、
+  判決ページの甲号証 PDF へのリンク（甲8-16・甲17・甲19・甲20・甲25・甲26）。`eneos-saiban` を消す前に、これらを移す（PDF は `add_pdf.py`。甲号証の名前の付け方は未定）
+- 判決文2本を含め、多くの PDF は画像だけで文字情報が無い（文字情報があるのは 原告第５準備書面・控訴理由書・控訴理由補充書（１）（２）だけ）。検索エンジンが中身まで読めるよう、OCR で文字を付ける手もある
+- 裁判文書ページの最後に「表示確認用（見本・削除可）」の行が出ている。公開ページなので、消してよければ `sample-web` の行と `docs/trial/md/sample-web.md.txt` を削除する
 - 見本帳（`styleguide/index.md`）は、音声カードや `.repo-link` などの部品例を含んだまま（音声用のCSSは `05-card.css` に残っている）
 - `mkdocs.yml` に、使っていない設定のコメントアウトが多く残っている（元のまま）
