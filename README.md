@@ -20,15 +20,19 @@ python -m venv .venv
 |---|---|
 | ローカルで見る | `serve.bat`（`http://localhost:8000/`） |
 | 公開用ファイルを作る | `build.bat`（`site/` に出力） |
+| **公開する** | **`deploy.bat`**（ビルド確認 → コミット・push → 公開の完了を確認、まで） |
 
 `--8<--` での本文の取り込みは「コマンドを実行したフォルダ」基準なので、必ずこのフォルダで動かす（`.bat` は `cd` してから動かしている）。
 間違えたときは、本文が黙って抜けるのではなく `Snippet at path … could not be found` で止まる（`check_paths: true`）。
 
 ## 公開（GitHub Pages）
 
-**`master` に push すると、GitHub Actions（`.github/workflows/pages.yml`）が Zensical でビルドして公開する。** 手元で `build.bat` を動かす必要はない。
+**`master` に push すると、GitHub Actions（`.github/workflows/pages.yml`）が Zensical でビルドして公開する。** 普段は **`deploy.bat` をダブルクリック**すればよい（`git push` だけでも同じ）。
 進み具合は、リポジトリの Actions タブで見られる（1〜2分）。公開後の確認は、上の URL を開く。
 
+- **`deploy.bat` の流れ**: ① ビルド確認（失敗したら push しない）→ ② `git add .`・コミット・`git push -u origin master`（**強制 push はしない**。ほかのリポジトリの `deploy.bat` と違い、`gh-deploy` や `--force` は使わない）
+  → ③ `scripts/wait_deploy.ps1` が、GitHub Actions の実行（このコミットの分）を待って、成功か失敗かを表示する（GitHub CLI の `gh` が要る。無い・サインインしていないときは、待たずに Actions の URL を出すだけ）
+  → ④ `scripts/indexnow_ping.ps1` で IndexNow に通知（失敗しても止まらない）。`.venv` が無い PC では、作り方を表示して止まる
 - Actions は `requirements.txt` の固定版で入れるので、手元と同じ結果になる（公開された66ファイルを手元の `site/` と比べて、Windows の手元ビルドが HTML の改行を CRLF で出す点（公開側は LF）を除き、すべて一致することを確認した）
 - 設定は Settings > Pages > Source = 「GitHub Actions」。ブランチ（gh-pages）は使わない
 - 公開を止めたいときは、Settings > Pages でサイトを非公開にする（または Actions のワークフローを無効にする）
@@ -178,6 +182,7 @@ python -m mkdocs build
 
 ## その他のファイル
 
+- `deploy.bat`・`scripts/wait_deploy.ps1`: 公開（上の「公開（GitHub Pages）」）。`serve.bat`・`build.bat`: 見る・ビルドする
 - `scripts/add_pdf.py`・`scripts/pdf_tools.py`・`scripts/pdf_index.py`: PDF を `docs/pdf/` に、検索されやすい名前とタイトルで入れる。軽量化・OCR・一覧ページ（上の「PDF」）
 - `scripts/extract_agm_panels.py`: agm のスライド画像の切り出し（元の hotline から）
 - `DESIGN_SYSTEM.md`: 元の hotline のデザイン仕様。フック・ブログ・プラグインに関する記述は、この repo には当てはまらない
