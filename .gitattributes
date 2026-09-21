@@ -1,3 +1,4 @@
 # Same bytes on every machine (Windows autocrlf, CI): text is LF, batch files are CRLF.
 * text=auto eol=lf
 *.bat text eol=crlf
+*.pdf binary
