@@ -53,7 +53,7 @@ hide:
 </p>
 
 <p class="width-40 margin02">
-以下では、訴訟資料を掲載しています。また、実際の判決文と証拠をつき合わせて答え合わせをします。
+以下では、訴訟資料を掲載しています。その前に、<b>判決文に書かれていることと、同じ訴訟記録の中に残っている資料とを、一つずつ突き合わせた「答え合わせ」</b>を置いています。判決への反論ではなく、判決文がもともと想定していた「記録を知っている読み手」の条件を、一般の読み手のために復元する作業です。
 </p>
 
 <p class="width-40 margin02 smallest">
@@ -63,6 +63,24 @@ hide:
 <p class="t-toc-head bar-title doc-side" id="bunseki">判決文の答え合わせ</p>
 
 <div class="doc-rows" markdown>
+
+<details class="doc-acc" id="bunseki-yomikata" data-plain markdown>
+<summary>この欄の読み方――何と何を照合しているか</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-yomikata.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-sashikae" data-plain markdown>
+<summary>照合０　高裁は、地裁の理由を「補強」したのか「差し替えた」のか</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-sashikae.md"
+
+</div>
+</details>
 
 <details class="doc-acc" id="bunseki-riyu-1" data-plain markdown>
 <summary>理由１　契約書の問題を指摘する通報は、そもそも無かった</summary>
@@ -82,20 +100,29 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="bunseki-timeline" data-plain markdown>
-<summary>判決文の認定事実に基づく事実のタイムライン</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-timeline.md"
-
-</div>
-</details>
-
 <details class="doc-acc" id="bunseki-iimawashi" data-plain markdown>
 <summary>判決文の言い回しが、読み手に与える影響</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-iimawashi.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-seito" data-plain markdown>
+<summary>正当と評価できる部分</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-seito.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-timeline" data-plain markdown>
+<summary>判決文の認定事実に基づく事実のタイムライン</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-timeline.md"
 
 </div>
 </details>
