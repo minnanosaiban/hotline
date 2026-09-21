@@ -97,7 +97,9 @@
 .md-typeset .card-accordion > summary::after {
   display: none !important;
 }
-.md-typeset .card-accordion .accordion-body {
+/* 入れ子のアコーディオン（.card-accordion）の中だけでなく、裁判文書ページの行（.doc-acc）が包む .accordion-body にも効かせる
+   （「判決文の答え合わせ」の各行。もとは1つの行の中の入れ子だった） */
+.md-typeset :is(.card-accordion, .doc-acc) .accordion-body {
   margin-top: 0.8rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -107,13 +109,13 @@
   margin-top: 0.2rem !important;
 }
 /* アコーディオン内は文字サイズを判決文の16pxより一段小さい14pxに（フォントはサイト共通のゴシックのまま） */
-.md-typeset .card-accordion .accordion-body {
+.md-typeset :is(.card-accordion, .doc-acc) .accordion-body {
   font-size: 14px;
 }
 /* 判決文からの引用（blockquote）部分だけ、判決文（.doc等）と同じ書体にする。
    左右に1.6文字分（1.6em）内側に寄せる。左は margin で縦棒ごと内側へ、
    右は対応する縦棒が無いため margin だけで同じ内側量にそろえる。 */
-.md-typeset .card-accordion .accordion-body blockquote {
+.md-typeset :is(.card-accordion, .doc-acc) .accordion-body blockquote {
   font-family: "Noto Serif JP", serif;
   margin-top: 4.0em;
   margin-bottom: 4.0em;
@@ -121,14 +123,14 @@
   margin-right: 1.6em;
   padding-left: 0.6em;
 }
-.md-typeset .card-accordion .accordion-body blockquote a,
-.md-typeset .card-accordion .accordion-body blockquote b,
-.md-typeset .card-accordion .accordion-body blockquote strong {
+.md-typeset :is(.card-accordion, .doc-acc) .accordion-body blockquote a,
+.md-typeset :is(.card-accordion, .doc-acc) .accordion-body blockquote b,
+.md-typeset :is(.card-accordion, .doc-acc) .accordion-body blockquote strong {
   font-family: "Noto Sans JP", sans-serif;
 }
 /* スマホ（≤767px）はアコーディオン本文の左右パディングを無くす */
 @media only screen and (max-width: 767px) {
-  .md-typeset .card-accordion .accordion-body {
+  .md-typeset :is(.card-accordion, .doc-acc) .accordion-body {
     padding-left: 0;
     padding-right: 0;
   }
