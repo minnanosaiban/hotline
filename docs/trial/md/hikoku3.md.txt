@@ -218,6 +218,8 @@
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
+<aside class="sn-note"><b>原告第３準備書面第２の１</b><br><b>ア</b>、「本件規程３．６ ⑴ の」以下（５頁１０行目以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は<a href="#dai3_111"><u>上記第１の１ ⑴ </u></a>のとおりである。</aside>
+
 <p class="pad3 hg-idt">
 <a name="hikoku3_214"></a>
 <b>⑷　第２の１ ⑷（被告は、･･･実行する義務があること）（６頁）について</b>
@@ -264,6 +266,8 @@
 </p>
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
+<aside class="sn-note"><b>原告第３準備書面第２の１</b><br><b>イ</b>、「本件規程３．５の」以下（６頁６行目以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は<a href="#dai3_111"><u>上記第１の１ ⑴ </u></a>のとおりである。</aside>
 
 <p class="pad2 hg-idt">
 <a name="hikoku3_22"></a>
@@ -344,6 +348,8 @@
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
+<aside class="sn-note"><b>原告第３準備書面第２の２</b><br><b>ア</b>、「原告が原告のいう」以下（７頁９行目以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は<a href="#dai3_113"><u>上記第１の１ ⑶ </u></a>のとおりである。</aside>
+
 <p class="pad3 idt">
 よって、答弁書にも述べたとおり（注１）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、本件通報について、本件規程３．６ ⑴ イ及びウに基づく通知は必要でない。
 </p>
@@ -404,6 +410,8 @@
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
+<aside class="sn-note"><b>原告第３準備書面第２の２</b><br><b>イ</b>、「上司Ａが還付手続で」以下（８頁１１行目以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は<a href="#dai3_113"><u>上記第１の１ ⑶ </u></a>のとおりである。</aside>
+
 <p class="pad4 hg-idt">
 <a name="hikoku3_224ka"></a>
 カ　第１の２ ⑶ カ（「以上のとおり」以下）（１０頁以下）について
@@ -418,6 +426,8 @@
 </p>
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
+<aside class="sn-note"><b>原告第３準備書面第２の２</b><br><b>ウ</b>、「追加通報に関する」以下（８頁１６行目以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は<a href="#dai3_113"><u>上記第１の１ ⑶ </u></a>のとおりである。</aside>
 
 <p class="pad3 hg-idt">
 <a name="hikoku3_225"></a>
@@ -844,6 +854,8 @@
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
+<aside class="sn-note"><b>原告第３準備書面第２の１</b><br><b>ウ</b>、「本件規程３．６ ⑴ の文言」以下（１４頁１５行目以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は<a href="#dai3_111"><u>上記第１の１ ⑴ </u></a>のとおりである。</aside>
+
 <p class="pad6 idt">
 本件規程３．５の文言からも明らかなとおり、本件規程３．５も、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。
 </p>
@@ -1058,6 +1070,8 @@
 </p>
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
+<aside class="sn-note"><b>原告第３準備書面第２の３</b><br>「ただし、原告は」以下（１８頁１０行目以下）について、<span class="strong-rd">争う</span>。<br>被告は、原告第２準備書面において行動基準第１項 ⑴ 、同第１１項 ⑶ 、同第１２項 ⑶ 、同第１４項 ⑶ 及び本件規程３．５の違反を主張する部分が新たに請求原因事実を追加するものであるとして、時機に遅れた攻撃防御方法として却下されるべきであると主張している。<br>しかし、原告第２準備書面において主張した上記の部分は、それにつき、被告が直ちに認否できない性質のものではない。また、原告第２準備書面において主張した行動基準は、行動基準は、本件規程の前提であり、このことは、原告が既に述べ、被告も認めるとおりである。（注21）<br>本来なら、紛争の一回的解決を図ることが理想ではあるが、法律構成の主張の追加を理由に却下されることとなれば、原告は、却下される法律構成で、別途、訴訟を提起することを検討せざるを得ない。</aside>
 
 <p class="pad4 idt">
 これは、前回訴訟の訴訟物と本件訴訟の訴訟物が同一ではないという原告の立場からすると、訴えの追加的変更（民事訴訟法第１４３条）になるはずである。
