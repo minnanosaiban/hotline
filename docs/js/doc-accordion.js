@@ -28,9 +28,18 @@
     return /^[ \t]*:[0-9](?:h2|h3|h|i|d)(?:#[A-Za-z0-9_\-]+)?:/m.test(text) ||
       /^<p class="[^"]*\b(?:pad[0-9]|hg-idt|idt|doc)\b[^"]*"/m.test(text);
   }
+  // サイドノート（<aside>）は、「> 」で始まる引用にして、対応する段落の直後に残す。<br> は行の区切り。
+  function noteToMarkdown(inner) {
+    return inner.replace(/\n/g, ' ').split(/<br\s*\/?>/i).map(function (line) {
+      return line.replace(/<i class="[^"]*arrow-right[^"]*"><\/i>/gi, '→').replace(/<i class="[^"]*arrow-left[^"]*"><\/i>/gi, '←')
+        .replace(/<\/?(?:b|strong)>/gi, '**').replace(/<\/?[a-z][^>]*>/gi, '').replace(/[ \t]{2,}/g, ' ').trim();
+    }).filter(Boolean).map(function (line) { return '> ' + line; }).join('\n');
+  }
   // hotline 形式を平文の Markdown へ。インデント・ぶら下げの体裁は落ち、1つ1つの段落になる。
   function toPlainMarkdown(text) {
     return String(text).replace(/^﻿/, '').replace(/\r\n?/g, '\n').trim().split(/\n{2,}/).map(function (block) {
+      var note = /^\s*<aside\b[^>]*>([\s\S]*)<\/aside>\s*$/i.exec(block);
+      if (note) return noteToMarkdown(note[1]);
       var m = MARKER_RE.exec(block);
       var t = (m ? block.slice(m[0].length) : block).replace(/\n/g, ' ');
       return t
@@ -63,6 +72,7 @@
       var body = isLegacy(text) ? toPlainMarkdown(text) : String(text).replace(/\r\n?/g, '\n').trim();
       var head = '# ' + titleOf(d) + '\n\n' + [SITE_TITLE, sideOf(d), titleOf(d)].filter(Boolean).join('／') + '\n' +
         '掲載ページ: ' + location.origin + location.pathname + '#' + d.id;
+      if (isLegacy(text) && /<aside\b/i.test(text)) head +='\n注: 「> 」で始まる行は、右の余白に並べているサイドノート（相手方の書面での認否）です。';
       return head + '\n\n' + body + '\n';
     });
   }

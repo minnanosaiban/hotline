@@ -120,6 +120,10 @@
 仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。
 </p>
 
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
 <p class="pad3 hg-idt">
 <a name="hikoku4_212"></a>
 <b>⑵　第１の１ ⑵（被告が・・・債務があること）（３頁以下）について</b>
@@ -299,6 +303,8 @@
 <p class="pad1 idt">
 しかし、文書の送付を嘱託するためには、その文書につき証拠調べをする必要性があることを要するところ（民事訴訟法第１８１条第１項）、原告が原告第３準備書面第１の２以下において「明らかにすべき」と主張している「否認」又は「争う」の理由は、その理由の如何によって、本件訴訟の争点あるいは原告の主張に理由があるか否かの認定に影響を及ぼすものでない。
 </p>
+
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
 <p class="pad1 idt">
 よって、原告がいかなる文書について文書送付嘱託を申し立てるかにかかわらず、証拠調べをする必要性がない。
