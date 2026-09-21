@@ -193,11 +193,23 @@ body:has(.trial-doc-marker) .doc-body .sidenote {
   line-height: 1.8;
   color: var(--md-default-fg-color);
   font-family: "Noto Sans JP", sans-serif;
+  text-indent: 0;      /* ノートは段落の中へ移すので、字下げ・ぶら下げ（.idt / .hg-idt）と中央ぞろえを引き継がない */
+  text-align: left;
 }
 body:has(.trial-doc-marker) .doc-body .sn-note .sn-note-num,
 body:has(.trial-doc-marker) .doc-body .sidenote .num { font-weight: 700; color: var(--md-default-fg-color--light); margin-right: 0.2em; }
 body:has(.trial-doc-marker) .doc-body .sn-note.sn-note-important,
 body:has(.trial-doc-marker) .doc-body .sn-note.sn-note-important .sn-note-num { color: var(--red-color-3); }
+/* 認否のノート（eneos-saiban の argument.md から移した分）: 「争う」「否認」の赤強調と、「← ＥＮＥＯＳの主張」のバッジ */
+body:has(.trial-doc-marker) .doc-body .sn-note .strong-rd { font-weight: 700; color: var(--red-color-3); }
+body:has(.trial-doc-marker) .doc-body .sn-note .sn-badge {
+  display: inline-block;
+  padding: 0 0.6em;
+  border-radius: 0.4em;
+  background: var(--red-color-3);
+  color: #fff;
+  font-weight: 700;
+}
 /* 本文側の注番号（<sup>N</sup>） */
 body:has(.trial-doc-marker) .doc-body sup { color: var(--md-warn-red); font-weight: 700; font-size: 0.7em; }
 /* 余白が取れない幅では出さない（既存の .sidenote と同じ方針。11-trial.css の 76.1875em 以下と同じ境目） */

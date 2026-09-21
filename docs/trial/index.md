@@ -31,7 +31,7 @@ hide:
 <div class="toc-wrap doc-list" markdown>
 
 <p class="t-toc-head bar-title">2025年9月判決</p>
-<p class="doc-lead">各書面の <b>.md</b> ボタンで、本文をコピー、またはダウンロードできます。PDF は<a href="../pdf/">PDF 一覧</a>にもまとめています。</p>
+<p class="doc-lead">各書面の <b>.md</b> ボタンで、本文をコピー、またはダウンロードできます。PDF は<a href="../pdf/">PDF 一覧</a>にもまとめています。右の余白のサイドノートは、相手方の書面での認否です（原告の書面には被告の認否を、被告の書面には原告の認否を、対応する段落に添えています）。</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
@@ -139,7 +139,68 @@ hide:
 
 <div class="doc-rows" markdown>
 
-<div class="doc-linkrow"><a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" target="_blank" rel="noopener"><span class="doc-title">原告第４準備書面以下</span><span class="doc-note">外部サイトに認否と合わせてまとめています</span><i class="doc-chev bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div>
+<details class="doc-acc" id="sojou" data-md="md/sojou.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年02月19日_訴状.pdf" markdown>
+<summary>訴状</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/sojou.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="dai1" data-md="md/dai1.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年05月17日_原告第１準備書面.pdf" markdown>
+<summary>原告第１準備書面</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/dai1.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="dai2" data-md="md/dai2.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年07月19日_原告第２準備書面.pdf" markdown>
+<summary>原告第２準備書面</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/dai2.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="dai3" data-md="md/dai3.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年08月09日_原告第３準備書面.pdf" markdown>
+<summary>原告第３準備書面</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/dai3.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="dai4" data-md="md/dai4.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年11月25日_原告第４準備書面.pdf" markdown>
+<summary>原告第４準備書面</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/dai4.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="kyushakumei" data-md="md/kyushakumei.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年11月25日_求釈明申立書.pdf" markdown>
+<summary>求釈明申立書</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/kyushakumei.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="soufu" data-md="md/soufu.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2024年11月25日_文書送付嘱託申立書.pdf" markdown>
+<summary>文書送付嘱託申立書</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial/md/soufu.md.txt"
+
+</div>
+</details>
 
 <details class="doc-acc" id="dai5" data-md="md/dai5.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2025年01月30日_原告第５準備書面.pdf" markdown>
 <summary>原告第５準備書面</summary>
