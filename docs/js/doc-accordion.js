@@ -28,10 +28,13 @@
     return /^[ \t]*:[0-9](?:h2|h3|h|i|d)(?:#[A-Za-z0-9_\-]+)?:/m.test(text) ||
       /^<p class="[^"]*\b(?:pad[0-9]|hg-idt|idt|doc)\b[^"]*"/m.test(text);
   }
+  // 本文・ノートの「●」は、表示ではアイコン <i class="bi bi-dot"></i> にしてある。.md には元の文字「●」で渡す。
+  var DOT_ICON_RE = /<i class="bi bi-dot"><\/i>/g;
   // サイドノート（<aside>）は、「> 」で始まる引用にして、対応する段落の直後に残す。<br> は行の区切り。
   function noteToMarkdown(inner) {
     return inner.replace(/\n/g, ' ').split(/<br\s*\/?>/i).map(function (line) {
-      return line.replace(/<i class="[^"]*arrow-right[^"]*"><\/i>/gi, '→').replace(/<i class="[^"]*arrow-left[^"]*"><\/i>/gi, '←')
+      return line.replace(DOT_ICON_RE, '●')
+        .replace(/<i class="[^"]*arrow-right[^"]*"><\/i>/gi, '→').replace(/<i class="[^"]*arrow-left[^"]*"><\/i>/gi, '←')
         .replace(/<\/?(?:b|strong)>/gi, '**').replace(/<\/?[a-z][^>]*>/gi, '').replace(/[ \t]{2,}/g, ' ').trim();
     }).filter(Boolean).map(function (line) { return '> ' + line; }).join('\n');
   }
@@ -43,6 +46,7 @@
       var m = MARKER_RE.exec(block);
       var t = (m ? block.slice(m[0].length) : block).replace(/\n/g, ' ');
       return t
+        .replace(DOT_ICON_RE, '●')
         .replace(/<a name="[^"]*"><\/a>/g, '')
         .replace(/<br\s*\/?>/gi, '  \n')
         .replace(/<\/?(?:b|strong)>/gi, '**')
