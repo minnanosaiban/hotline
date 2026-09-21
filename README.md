@@ -56,8 +56,9 @@ python -m mkdocs build
 - **目次（Toc）を完全に出さない**。右のサイドバーだけでなく、スマホのメニュー内の目次も。Material の `partials/toc.html` を空にして実現（右カラムは CSS でも `display: none`）
 - **検索窓を出さない**（`plugins: []` と、`overrides/partials/header.html`）
 - **裁判文書は `trial/index.md` の1ページに集約**（書面ごとのアコーディオン）。本文は `docs/trial/md/<id>.md.txt` に置いて `--8<--` で取り込む。生ファイルは静的に公開されるので、`.md` ボタン（コピー／ダウンロード）の元にもなる
-- **並びは「裁判所 → 被告（ＥＮＥＯＳ）側 → 原告（通報者）側」**。裁判所の欄に、東京地裁・東京高裁の**判決文の全文**（`tisai`・`kousai`）を書面と同じ形（PDF・`.md`・要約）で置き、
-  その下に、判決の概要と分析のページ（`judgement_2025.md`）へのリンク行を置いた。判決文はここにだけあり、判決ページ側には無い（判決ページからの「判決文の該当箇所」リンクは、ここへ飛ぶ）
+- **並びは「裁判所 → 被告（ＥＮＥＯＳ）側 → 原告（通報者）側」**。裁判所の欄は、**概要を先、全文を後**にしてある。先頭に **「判決の概要と分析」の行**（`bunseki`。書面ではないので、PDF・`.md`・要約のボタンは付けない `data-plain` の行）、
+  その下に、東京地裁・東京高裁の**判決文の全文**（`tisai`・`kousai`）を、書面と同じ形（PDF・`.md`・要約）で置いた。本文は、公開しない取り込み用の `parts/bunseki.md`（`--8<--` で取り込む）。判決文の該当箇所へのリンクは、同じページの中の飛び先（`#…`）になっている。
+- 旧 `trial/judgement_2025/`（判決の概要と分析のページ）は、この行へ飛ばす転送ページ（`redirect_to: trial/#bunseki`、`overrides/main.html`）にした。ナビの「判決書」は外した。判決文はここ（裁判文書ページ）にだけある
 - 旧 `trial/eneos/`・`trial/whistleblower/` は持たない。旧サイト（`/hotline/`）の URL であって、新サイトには存在しなかったため
 - **Python フック（`doc_indent.py`・`add_blog_class.py`）とプラグイン（`mkdocs-glightbox`）を無くした**。やっていたことは、ソースへの焼き込みと、ページ内のスクリプト・CSS に置き換えた
   - 独自マーカー `:N X#id:` → 本文ファイルに `<p class="padN …">` として焼き込み済み
@@ -90,9 +91,9 @@ python -m mkdocs build
 `data-pdf`・`data-summary` は無ければ書かない（ボタンがグレーになる）。ボタン・開閉マーク・サイドノートの位置は `docs/js/doc-accordion.js` が付ける。
 目次を出さない構成なので、貼った本文の見出しが目次に混ざる心配はない。
 
-今の13行（書面11 + 判決文2）は、元の `eneos.md`・`whistleblower.md`・`judgement_2025.md` を分割したもの。旧形式（hotline 用書き出し）のマーカーは HTML に焼き込み済みなので、
+今の書面11行と判決文2行は、元の `eneos.md`・`whistleblower.md`・`judgement_2025.md` を分割したもの。旧形式（hotline 用書き出し）のマーカーは HTML に焼き込み済みなので、
 そのままで表示できる（`.md` ボタンの「コピー／ダウンロード」では、旧形式は素の Markdown に変換して渡す）。今後の書面は「ウェブ用」のままでよい。
-要約（`data-summary`）は、判決文2行にだけ入っている（主文は判決文から、理由は判決ページの「判決の概要」の文から。手で書いた要約なので「AI要約」の表示は付かない）。
+要約（`data-summary`）は、判決文2行にだけ入っている（主文は判決文から、理由は「判決の概要と分析」の中の「判決の概要」の文から。手で書いた要約なので「AI要約」の表示は付かない）。
 
 ## PDF（`docs/pdf/`）
 
@@ -150,11 +151,12 @@ python -m mkdocs build
 - **`mkdocs.yml` に `watch:` を書かない**。`custom_dir` と併用すると、Zensical は何も出力しない（エラーも出ない）
 - **raw HTML の相対パス（`<a href>`・`<img src>`・`<script src>`・`<link href>`）は、ビルダーで解釈が違う**。Zensical はソースファイルの位置基準、MkDocs は書き換えず URL 基準。
   両方で同じ意味になるのは `フォルダ/index.md` 形式のページ（`agm/`・`trial/`・`styleguide/`）だけ。`docs/xxx.md` 直下のページで `../` を使うと壊れる。
-  `trial/judgement_2025.md` のように `index.md` でないページでは、Markdown リンクは `index.md#id` 形式、raw HTML には絶対パスを使う
-  （判決ページを `judgement_2025/index.md` にすると、Material の `navigation.indexes` が節の見出しページ扱いにして、ナビから「判決書」の行が消える）
+  `index.md` でないページ（今は転送だけの `trial/judgement_2025.md`）では、Markdown リンクは `index.md#id` 形式、raw HTML には絶対パスを使う。取り込み用ファイル（`parts/`・`docs/trial/md/`）の中のリンクは、**取り込み先のページから見た**書き方にする（`trial/index.md` に取り込むなら、`#id` や `../pdf/…`）
+  （`judgement_2025.md` を `judgement_2025/index.md` にすると、Material の `navigation.indexes` が節の見出しページ扱いにして、ナビからその行が消える）
 - **`**強調**` が全角の句読点・括弧に隣接するとき、Zensical では強調にならない**ことがある（`pymdownx.betterem` の挙動差）。そういう箇所は `<strong>…</strong>` と書く
 - 裁判文書系のページ（`trial/`・`agm/`・`styleguide/`・判決）は、先頭に `<div class="trial-doc-marker" hidden></div>` を置く。CSS が `body:has(.trial-doc-marker)` でページを見分けている
 - サイドノートは画面幅 76.1875em 以下では出さない（本文列の外側の余白に置くため）
+- 各グループ（`.doc-rows`）の最後の行の下の罫線は、`details.doc-acc` の `border: none` に詳細度で負けるので、`14-doc-accordion.css` で詳細度を上げて出している（これが無いと、最後の行が `details` のグループには閉じの罫線が出ない）
 - アコーディオンの `summary` には `overflow: visible` が要る（`14-doc-accordion.css`）。テーマの `summary` は `overflow: hidden` で、`.md` ボタンのメニューが行の高さで切れてしまう
 
 ## 検証（Zensical 0.0.63 と MkDocs 1.6.1）
@@ -173,8 +175,7 @@ python -m mkdocs build
 ## URL・ドメインを変えるとき直す場所
 
 - `mkdocs.yml`: `site_url`、`extra.about_url`
-- 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial/index.md`・`docs/trial/judgement_2025.md`
-- `docs/trial/judgement_2025.md` の raw HTML のリンク 約20か所 `/eneos-hotline/trial/#…`（年表など。raw HTML なので絶対パス）。`sed -i 's#/eneos-hotline/#/新しいパス/#g' docs/trial/judgement_2025.md`（`/trial/#…` のほか、甲号証の PDF `/pdf/…` へのリンクもある）
+- 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial/index.md`
 - PDF 一覧ページの `url:`・シェアボタンの URL は `scripts/pdf_index.py` の `BASE` から作られる（変えたら `python scripts/pdf_index.py`）
 - `scripts/indexnow_ping.ps1` の `$keyLocation`
 - `docs/robots.txt`（`Sitemap:`）、`docs/e482d7edf83b50b925f361e389d57812.txt`（IndexNow のキー。`scripts/indexnow_ping.ps1` が使う）、`docs/googlee01c6dd3b7b5851f.html`（Search Console の所有確認）
@@ -182,6 +183,7 @@ python -m mkdocs build
 
 ## その他のファイル
 
+- `parts/bunseki.md`: 「判決の概要と分析」の本文。公開されない（`docs/` の外）取り込み用。`.md` ボタンの元にする書面の本文は `docs/trial/md/` に置く
 - `deploy.bat`・`scripts/wait_deploy.ps1`: 公開（上の「公開（GitHub Pages）」）。`serve.bat`・`build.bat`: 見る・ビルドする
 - `scripts/add_pdf.py`・`scripts/pdf_tools.py`・`scripts/pdf_index.py`: PDF を `docs/pdf/` に、検索されやすい名前とタイトルで入れる。軽量化・OCR・一覧ページ（上の「PDF」）
 - `scripts/extract_agm_panels.py`: agm のスライド画像の切り出し（元の hotline から）
@@ -191,8 +193,8 @@ python -m mkdocs build
 
 - **運営者ページのリンク先**: `extra.about_url` は仮（旧サイトの `https://minnanosaiban.github.io/hotline/about/`）。株価サイト側の URL が決まったら差し替える
 - **旧サイトとの重複**: 旧 `/hotline/` に同じ本文が残っている（上の「公開後にやること」4）
-- **`eneos-saiban` にまだ頼っているもの**: 「原告第４準備書面以下」の行と nav の「主張書面全文と認否」（`argument.html`。7書面の本文と、ENEOS 側の認否の欄外メモ）、`dai5` 本文中の ChatGPT ページへのリンク、判決ページの `argument.html#id21`（原告第１準備書面への参照）。PDF は移し終えた（原告側の7本と甲号証6本）。**甲8-16 の PDF は、`eneos-saiban` にも存在しない**（判決ページの2か所のリンク `…/甲08-16_調査補助者とのメール2016-2017_ENEOS_公開.pdf#page=17` は、以前からリンク切れ）
-  判決ページの甲号証 PDF へのリンク（甲8-16・甲17・甲19・甲20・甲25・甲26）。`eneos-saiban` を消す前に、これらを移す（PDF は `add_pdf.py`。甲号証の名前の付け方は未定）
+- **`eneos-saiban` にまだ頼っているもの**: 「原告第４準備書面以下」の行と nav の「主張書面全文と認否」（`argument.html`。7書面の本文と、ENEOS 側の認否の欄外メモ）、`dai5` 本文中の ChatGPT ページへのリンク、「判決の概要と分析」の `argument.html#id21`（原告第１準備書面への参照）。PDF は移し終えた（原告側の7本と甲号証6本）。**甲8-16 の PDF は、`eneos-saiban` にも存在しない**（判決ページの2か所のリンク `…/甲08-16_調査補助者とのメール2016-2017_ENEOS_公開.pdf#page=17` は、以前からリンク切れ）
+  **甲8-16 の PDF は、`eneos-saiban` にも存在しない**（「判決の概要と分析」の2か所のリンク `…/甲08-16_調査補助者とのメール2016-2017_ENEOS_公開.pdf#page=17` は、以前からリンク切れ）。元のファイルがあれば `add_pdf.py` で移す
 - 裁判文書ページの最後に「表示確認用（見本・削除可）」の行が出ている。公開ページなので、消してよければ `sample-web` の行と `docs/trial/md/sample-web.md.txt` を削除する
 - 見本帳（`styleguide/index.md`）は、音声カードや `.repo-link` などの部品例を含んだまま（音声用のCSSは `05-card.css` に残っている）
 - `mkdocs.yml` に、使っていない設定のコメントアウトが多く残っている（元のまま）
