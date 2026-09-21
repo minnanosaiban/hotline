@@ -122,7 +122,7 @@
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
-<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+<aside class="sn-note"><b>原告第５準備書面第３の１</b><br>被告準備書面（４）第２の１ ⑴ エ及び同 ⑵ イ（３頁以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は、<a href="#dai5_22"><u>前記第２の２</u></a>のとおりである。</aside>
 
 <p class="pad3 hg-idt">
 <a name="hikoku4_212"></a>
@@ -150,6 +150,10 @@
 <p class="pad4 idt">
 仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。
 </p>
+
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
+<aside class="sn-note"><b>原告第５準備書面第３の１</b><br>被告準備書面（４）第２の１ ⑴ エ及び同 ⑵ イ（３頁以下）について、<span class="strong-rd">争う</span>。<br>原告の主張は、<a href="#dai5_22"><u>前記第２の２</u></a>のとおりである。</aside>
 
 <p class="pad4 hg-idt">
 <a name="hikoku4_212u"></a>
@@ -295,6 +299,8 @@
 <a name="hikoku4_4"></a>
 <b>第４　文書送付嘱託申立てについて</b>
 </p>
+
+<aside class="sn-note"><b>原告第５準備書面第３の２</b><br>第４（６頁以下）について、<span class="strong-rd">争う</span>。</aside>
 
 <p class="pad1 idt">
 原告は、原告第２準備書面「はじめに」第３段落（３頁）において、甲第２７号証以降の書証については、原告の主張に対する適切な認否が行われた後に文書送付嘱託を申し立てると述べ（原告訂正申立書２ ⑴（２頁）、原告第３準備書面第１の２柱書第５段落（「引き続き」以下）（８頁）において、被告が準備書面において否認の理由を記載しない場合は、裁判所に対して文書送付嘱託を申し立てると述べている。

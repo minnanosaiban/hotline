@@ -100,6 +100,15 @@ hide:
 </div>
 </details>
 
+<details class="doc-acc" id="bunseki-senryaku" data-plain markdown>
+<summary>被告（ＥＮＥＯＳ）の主張のしかたは、勝訴の決め手だったのか</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-senryaku.md"
+
+</div>
+</details>
+
 <details class="doc-acc" id="bunseki-iimawashi" data-plain markdown>
 <summary>判決文の言い回しが、読み手に与える影響</summary>
 <div class="doc-body" markdown>

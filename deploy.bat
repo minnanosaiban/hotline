@@ -10,7 +10,9 @@ rem    1. Build check with Zensical. Stops here if the build fails.
 rem    2. Commit and push to GitHub (master). Skipped when nothing is new;
 rem       a failed push is retried up to 3 times.
 rem    3. GitHub Actions builds and publishes the site (about 30 seconds).
-rem       This script waits for it and reports success or failure.
+rem       This script waits for it and reports success or failure. If GitHub gets
+rem       stuck (no result after 4 minutes) the run is cancelled and re-run once
+rem       by itself; the previous version of the site stays online meanwhile.
 rem    4. Notify IndexNow (Bing etc.). A failure here is not fatal.
 rem
 rem  First-time setup (run once in this folder):
@@ -67,7 +69,7 @@ if %TRIES% gtr 1 git -c http.version=HTTP/1.1 push -u origin master
 if %errorlevel% equ 0 goto pushed
 if %TRIES% lss 3 (
     echo [WARN] Push failed on try %TRIES% of 3. Trying again in 5 seconds.
-    %SystemRoot%\System32	imeout.exe /t 5 /nobreak >nul
+    %SystemRoot%\System32\timeout.exe /t 5 /nobreak >nul
     goto do_push
 )
 echo [ERROR] Git push failed 3 times. Check the network, VPN, proxy and sign-in, then run this again.
@@ -79,6 +81,14 @@ exit /b 1
 
 echo === Wait for GitHub Actions to publish the site ===
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\wait_deploy.ps1"
+if %errorlevel% equ 2 (
+    echo [ERROR] GitHub did not finish publishing the site, even after one automatic re-run.
+    echo         The previous version of the site stays online. Your commit is already pushed.
+    echo         Wait a few minutes and run this again, or open:
+    echo         https://github.com/minnanosaiban/eneos-hotline/actions
+    pause
+    exit /b 1
+)
 if %errorlevel% neq 0 (
     echo [ERROR] The deploy on GitHub Actions failed. Open the log:
     echo         https://github.com/minnanosaiban/eneos-hotline/actions
