@@ -1,6 +1,6 @@
 ---
 title: 訴訟資料公開 ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
-description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の訴訟資料を公開しています。東京地裁・東京高裁の判決文と、判決の概要と分析、原告・被告の準備書面・控訴理由書・答弁書などを、書面ごとに開いて読めます。本文を .md でコピー・保存することもできます。
+description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の訴訟資料を公開しています。東京地裁・東京高裁の判決文と、原告・被告の準備書面・控訴理由書・答弁書などを、書面ごとに開いて読めます。本文を .md でコピー・保存することもできます。
 seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜訴訟資料・判決文公開
 url: https://minnanosaiban.github.io/eneos-hotline/trial/
 image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
@@ -31,21 +31,94 @@ hide:
 <div class="toc-wrap doc-list" markdown>
 
 <p class="width-40 issue-lead sec-title">
-2024年2月提訴
+判決の概要
 </p>
+
+<p class="width-40 margin02 lead-normal-gap">
+日本企業に海外消費税を支払う義務がないにもかかわらず、海外消費税を支払っている旨の通報を受けた後、ＥＮＥＯＳは、「海外企業がＥＮＥＯＳへ海外消費税を請求できる」形へ契約変更しました。この契約変更について、<b>「通報を受けて講じた是正措置を通報者に通知しなかったこと」が裁判の争点</b>です。
+</p>
+
+<p class="width-40 margin02">
+地裁は、この争点の中身に立ち入らず、原告がＧＳＴの支払によって直接の被害を受けたわけではないことを理由に、会社の調査結果に不服を述べる法的な利益が原告にはないとして退けました。これに対して控訴審で、通報者側は、調査の当否ではなく「会社が実行した是正措置を通知しなかったこと自体」に争点を絞り込み、通知を受ける法的利益があると反論しました。
+</p>
+
+<p class="width-40 margin02">
+高裁は、この反論には正面から応じないまま、地裁の理由を全面的に書き改め、次の２つの独立した理由で退けました。<br>
+<i class="fa-solid fa-square-full riyu-lead-icon"></i>理由１　契約書の問題を指摘する通報は、そもそも無かった<br>
+<i class="fa-solid fa-square-full riyu-lead-icon"></i>理由２　「海外消費税を支払う合意」をしていたと推認できる
+</p>
+
+<p class="width-40 margin02">
+理由１・理由２は、いずれも法令等に違反する事実自体がなかったという構成になっており、<b>控訴審で先鋭化された通知義務の要否という争点は、その前提を欠くとして実質的に検討されないまま終わりました</b>。
+</p>
+
+<p class="width-40 margin02">
+以下では、訴訟資料を掲載しています。また、実際の判決文と証拠をつき合わせて答え合わせをします。
+</p>
+
+<p class="t-toc-head bar-title doc-side" id="bunseki">判決文の答え合わせ</p>
+
+<div class="doc-rows" markdown>
+
+<details class="doc-acc" id="bunseki-riyu-1" data-plain markdown>
+<summary>理由１　契約書の問題を指摘する通報は、そもそも無かった</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-riyu-1.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-riyu-2" data-plain markdown>
+<summary>理由２　「海外消費税を支払う合意」をしていたと推認できる</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-riyu-2.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-timeline" data-plain markdown>
+<summary>判決文の認定事実に基づく事実のタイムライン</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-timeline.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-iimawashi" data-plain markdown>
+<summary>判決文の言い回しが、読み手に与える影響</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-iimawashi.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-horei" data-plain markdown>
+<summary>関係法令・規程</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-horei.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-zenbun" data-plain markdown>
+<summary>判決文の全文</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-zenbun.md"
+
+</div>
+</details>
+
+</div>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
 <div class="doc-rows" markdown>
-
-<details class="doc-acc" id="bunseki" data-plain markdown>
-<summary>判決の概要と分析（東京地裁・東京高裁）</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki.md"
-
-</div>
-</details>
 
 <details class="doc-acc" id="tisai" data-md="md/tisai.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2025年03月31日_東京地裁判決文.pdf" data-summary="主文は「原告の請求をいずれも棄却する」です。地裁は、原告がＧＳＴの支払によって直接の被害を受けたわけではないことを理由に、会社の調査結果に不服を述べる法的な利益が原告にはないとして、請求を退けました。" markdown>
 <summary>東京地裁 判決文（2025年3月31日）</summary>
