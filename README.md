@@ -69,7 +69,7 @@ python -m mkdocs build
 
 1. アプリの「ウェブ用」書き出し（素の Markdown＋`<aside class="sn-note">`）をコピーして、`docs/trial/md/<id>.md.txt` に貼る（既にあるファイルなら上書き）
    - 拡張子を `.md.txt` にしているのは、ビルダーが独立したページにしてしまわないようにするため
-2. PDF があるときは、`python scripts/add_pdf.py …` で `docs/pdf/` に入れる（下の「PDF」）
+2. PDF があるときは、`python scripts/add_pdf.py …` で `docs/pdf/` に入れる（下の「PDF」。PDF 一覧ページも自動で作り直される）
 3. 書面を増やすときだけ、`docs/trial/index.md` の該当する欄（裁判所・被告（ＥＮＥＯＳ）側・原告（通報者）側）の `<div class="doc-rows" markdown>` に、次のブロックを1つ足す
 
 ```html
@@ -92,11 +92,13 @@ python -m mkdocs build
 
 ## PDF（`docs/pdf/`）
 
-書面と判決文の PDF は、この repo の `docs/pdf/` に置く（もとは `eneos-saiban` の `_static/` にあった。裁判文書ページの13行分をコピー済みで、合計 約17MB。`eneos-saiban` の元ファイルには手を付けていない）。
+書面・判決文・証拠の PDF は、この repo の `docs/pdf/` に置く（もとは `eneos-saiban` の `_static/` にあった。26本、合計 約20MB。`eneos-saiban` の元ファイルには手を付けていない）。
+内訳は、裁判文書ページの13行分（書面11・判決文2）、原告側の書面7本（訴状・原告第１〜４準備書面・求釈明申立書・文書送付嘱託申立書。「原告第４準備書面以下」の行の分）、判決ページが引用する証拠（甲号証）6本（甲17・19・20・21・25・26）。
 
 - **ファイル名と PDF の「タイトル」（メタデータ）を、検索されやすい同じ名前にそろえる**:
   `ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年04月15日_答弁書.pdf`（区分は `ENEOS側`・`通報者側`・`裁判所`）。
-  検索結果に出る PDF のタイトルは、このメタデータが使われる。区切りのダッシュ「――」（U+2015 を2つ）は `scripts/add_pdf.py` の `SEP` 1か所。日付は書面の冒頭にある日付（判決は言渡日）
+  検索結果に出る PDF のタイトルは、このメタデータが使われる。区切りのダッシュ「――」（U+2015 を2つ）は `scripts/add_pdf.py` の `SEP` 1か所。日付は書面の冒頭にある日付（判決は言渡日）。
+  **証拠（甲号証）は、日付の代わりに証拠番号**を入れる: `ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_甲17_税務処理の確認経緯.pdf`（甲号証は原告＝通報者側の提出なので `通報者側`）
 - **軽量化（判決文2本）**: 元は 38MB と 92MB だった。1ページが 1653×2337pt（A4 の約2.8倍）の大きさで、4591×6491 画素のカラーPNG（約3000万画素、約550dpi 相当）
   だったため。**A4・200dpi・1bit に作り直して、地裁 1.5MB・高裁 1.7MB** にした（もとが白黒のスキャンなので、文字・印影・黒塗りは鮮明なまま。紙の質感のノイズだけ消える）。
   理由は、Googlebot が読む PDF は**先頭 64MB まで**（92MB では後半が検索の対象から外れる）、GitHub Pages の転送量の目安が**月 100GB**（92MB だと約1,000回のダウンロードで到達）、閲覧者のダウンロード時間
@@ -104,7 +106,9 @@ python -m mkdocs build
   画像は元のまま、その上に文字を重ねている（scan-ocr の「テキスト乗せPDF」は画像を JPEG で作り直して大きくなるので、認識結果だけを使った）。
   サイトの検証済み本文と比べた一致（5文字連続の再現率）は 92.8〜97.7%（判決文は 96.8%・97.7%）。MuPDF・PDFium（Chrome）・pypdf の3つで、同じ文字数が取り出せる。
   OCR なので読み違いは残る（例: 「ワ」→「八」）。文字層は検索とコピー用で、見た目には出ない。原告側の4本は、もともと文字情報があった
-- **追加のしかた**: `python scripts/add_pdf.py <元のPDF> <ENEOS側|通報者側|裁判所> <YYYY-MM-DD> <書面名> [--shrink] [--ocr]`（`pip install pymupdf`。`--shrink`・`--ocr` は `scripts/pdf_tools.py` を使い、Pillow と scan-ocr の環境が要る。サイトのビルドには要らない）。
+- **PDF 一覧ページ**（`docs/pdf/index.md`、URL は `/pdf/`。ヘッダーのタブには出さず、裁判文書ページの冒頭のリンクから行く）: PDF へのリンクが JavaScript を使わずに HTML に入るので、検索エンジンが PDF を見つけやすい。
+  区分ごと（裁判所・被告（ＥＮＥＯＳ）側・原告（通報者）側・その証拠）に、書面名・日付・ページ数・大きさを並べ、本文の行がある書面には「本文」のリンクが付く。**`scripts/pdf_index.py` が `docs/pdf/` の中身から作る**（手では直さない）。`add_pdf.py` が PDF を足すたびに作り直す。nav に入れていないので、Zensical のサイトマップには載らない（MkDocs は載せる）。検索エンジンは、裁判文書ページ（サイトマップにある）のリンクからたどる
+- **追加のしかた**: `python scripts/add_pdf.py <元のPDF> <ENEOS側|通報者側|裁判所> <YYYY-MM-DD|甲17> <書面名> [--shrink] [--ocr]`（`pip install pymupdf`。`--shrink`・`--ocr` は `scripts/pdf_tools.py` を使い、Pillow と scan-ocr の環境が要る。サイトのビルドには要らない）。
   `--shrink` は画像だけの白黒PDFを A4・200dpi・1bit に（色つきは断る）、`--ocr` は文字情報のないPDFに文字層を付ける（1ページ約20秒、CPUだけで動く）。最後に出る `../pdf/<ファイル名>` を `data-pdf` に書く
 - 元の PDF にページ回転（180°・270°）が付いている場合は、文字層を重ねる前に、見た目を変えずに取り除く（回転したままだと、文字の向きと位置がずれる）
 - PDF は Git ではバイナリ扱い（`.gitattributes` の `*.pdf binary`）
@@ -166,14 +170,15 @@ python -m mkdocs build
 
 - `mkdocs.yml`: `site_url`、`extra.about_url`
 - 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial/index.md`・`docs/trial/judgement_2025.md`
-- `docs/trial/judgement_2025.md` の raw HTML のリンク 約20か所 `/eneos-hotline/trial/#…`（年表など。raw HTML なので絶対パス）。`sed -i 's#/eneos-hotline/trial/#/新しいパス/trial/#g' docs/trial/judgement_2025.md`
+- `docs/trial/judgement_2025.md` の raw HTML のリンク 約20か所 `/eneos-hotline/trial/#…`（年表など。raw HTML なので絶対パス）。`sed -i 's#/eneos-hotline/#/新しいパス/#g' docs/trial/judgement_2025.md`（`/trial/#…` のほか、甲号証の PDF `/pdf/…` へのリンクもある）
+- PDF 一覧ページの `url:`・シェアボタンの URL は `scripts/pdf_index.py` の `BASE` から作られる（変えたら `python scripts/pdf_index.py`）
 - `scripts/indexnow_ping.ps1` の `$keyLocation`
 - `docs/robots.txt`（`Sitemap:`）、`docs/e482d7edf83b50b925f361e389d57812.txt`（IndexNow のキー。`scripts/indexnow_ping.ps1` が使う）、`docs/googlee01c6dd3b7b5851f.html`（Search Console の所有確認）
 - `docs/styleguide/index.md` の見本リンク
 
 ## その他のファイル
 
-- `scripts/add_pdf.py`: PDF を `docs/pdf/` に、検索されやすい名前とタイトルで入れる（上の「PDF」）
+- `scripts/add_pdf.py`・`scripts/pdf_tools.py`・`scripts/pdf_index.py`: PDF を `docs/pdf/` に、検索されやすい名前とタイトルで入れる。軽量化・OCR・一覧ページ（上の「PDF」）
 - `scripts/extract_agm_panels.py`: agm のスライド画像の切り出し（元の hotline から）
 - `DESIGN_SYSTEM.md`: 元の hotline のデザイン仕様。フック・ブログ・プラグインに関する記述は、この repo には当てはまらない
 
@@ -181,9 +186,8 @@ python -m mkdocs build
 
 - **運営者ページのリンク先**: `extra.about_url` は仮（旧サイトの `https://minnanosaiban.github.io/hotline/about/`）。株価サイト側の URL が決まったら差し替える
 - **旧サイトとの重複**: 旧 `/hotline/` に同じ本文が残っている（上の「公開後にやること」4）
-- **`eneos-saiban` にまだ頼っているもの**: 「原告第４準備書面以下」の行と nav の「主張書面全文と認否」（`argument.html`）、`dai5` 本文中の ChatGPT ページへのリンク、
+- **`eneos-saiban` にまだ頼っているもの**: 「原告第４準備書面以下」の行と nav の「主張書面全文と認否」（`argument.html`。7書面の本文と、ENEOS 側の認否の欄外メモ）、`dai5` 本文中の ChatGPT ページへのリンク、判決ページの `argument.html#id21`（原告第１準備書面への参照）。PDF は移し終えた（原告側の7本と甲号証6本）。**甲8-16 の PDF は、`eneos-saiban` にも存在しない**（判決ページの2か所のリンク `…/甲08-16_調査補助者とのメール2016-2017_ENEOS_公開.pdf#page=17` は、以前からリンク切れ）
   判決ページの甲号証 PDF へのリンク（甲8-16・甲17・甲19・甲20・甲25・甲26）。`eneos-saiban` を消す前に、これらを移す（PDF は `add_pdf.py`。甲号証の名前の付け方は未定）
-- PDF の中身（文字層）は検索エンジンにも読まれるが、PDF へのリンクは JavaScript が作るので、JavaScript を実行しない検索エンジンには見えない。PDF の一覧ページ（静的なリンク）を作る手がある（未着手）
 - 裁判文書ページの最後に「表示確認用（見本・削除可）」の行が出ている。公開ページなので、消してよければ `sample-web` の行と `docs/trial/md/sample-web.md.txt` を削除する
 - 見本帳（`styleguide/index.md`）は、音声カードや `.repo-link` などの部品例を含んだまま（音声用のCSSは `05-card.css` に残っている）
 - `mkdocs.yml` に、使っていない設定のコメントアウトが多く残っている（元のまま）

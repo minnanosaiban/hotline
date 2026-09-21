@@ -31,7 +31,7 @@ hide:
 <div class="toc-wrap doc-list" markdown>
 
 <p class="t-toc-head bar-title">2025年9月判決</p>
-<p class="doc-lead">各書面の <b>.md</b> ボタンで、本文をコピー、またはダウンロードできます。</p>
+<p class="doc-lead">各書面の <b>.md</b> ボタンで、本文をコピー、またはダウンロードできます。PDF は<a href="../pdf/">PDF 一覧</a>にもまとめています。</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 

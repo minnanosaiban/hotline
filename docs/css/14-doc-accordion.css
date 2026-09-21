@@ -207,3 +207,19 @@ body:has(.trial-doc-marker) .doc-body sup { color: var(--md-warn-red); font-weig
 .doc-lead { margin: 0.3rem 0 1rem !important; font-size: 14px; color: var(--md-default-fg-color--light); }
 /* 書面の中の #アンカー（<a name>）が固定ヘッダーに隠れないように */
 .doc-body [id], .doc-body a[name] { scroll-margin-top: 5.5rem; }
+
+/* ---- PDF 一覧ページ（docs/pdf/index.md。scripts/pdf_index.py が作る） ---- */
+.pdf-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  padding: 0.7rem 0.2rem;
+  border-top: 1px solid var(--md-card-border-soft);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.pdf-row .pdf-main { flex: 1 1 11rem; min-width: 0; font-weight: 500; color: var(--md-typeset-color); text-decoration: none; }
+.pdf-row .pdf-main .bi { color: var(--md-warn-red); }
+.pdf-row .pdf-main:hover .doc-title { color: var(--md-main-color); }
+.pdf-row .dbtn { text-decoration: none; }
