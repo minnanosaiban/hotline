@@ -37,7 +37,7 @@ hide:
 
 <div class="doc-rows" markdown>
 
-<details class="doc-acc" id="tisai" data-md="md/tisai.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーー裁判所_2025年03月31日_東京地裁判決文.pdf" data-summary="主文は「原告の請求をいずれも棄却する」です。地裁は、原告がＧＳＴの支払によって直接の被害を受けたわけではないことを理由に、会社の調査結果に不服を述べる法的な利益が原告にはないとして、請求を退けました。" markdown>
+<details class="doc-acc" id="tisai" data-md="md/tisai.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2025年03月31日_東京地裁判決文.pdf" data-summary="主文は「原告の請求をいずれも棄却する」です。地裁は、原告がＧＳＴの支払によって直接の被害を受けたわけではないことを理由に、会社の調査結果に不服を述べる法的な利益が原告にはないとして、請求を退けました。" markdown>
 <summary>東京地裁 判決文（2025年3月31日）</summary>
 <div class="doc-body" markdown>
 
@@ -46,7 +46,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="kousai" data-md="md/kousai.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーー裁判所_2025年09月09日_東京高裁判決文.pdf" data-summary="主文は「本件控訴を棄却する」です。高裁は、次の２つの独立した理由で、通報者側の控訴を退けました。理由１　契約書の問題を指摘する通報は、そもそも無かった。理由２　「海外消費税を支払う合意」をしていたと推認できる。" markdown>
+<details class="doc-acc" id="kousai" data-md="md/kousai.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2025年09月09日_東京高裁判決文.pdf" data-summary="主文は「本件控訴を棄却する」です。高裁は、次の２つの独立した理由で、通報者側の控訴を退けました。理由１　契約書の問題を指摘する通報は、そもそも無かった。理由２　「海外消費税を支払う合意」をしていたと推認できる。" markdown>
 <summary>東京高裁 判決文（2025年9月9日）</summary>
 <div class="doc-body" markdown>
 
@@ -63,7 +63,7 @@ hide:
 
 <div class="doc-rows" markdown>
 
-<details class="doc-acc" id="toben" data-md="md/toben.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年04月15日_答弁書.pdf" markdown>
+<details class="doc-acc" id="toben" data-md="md/toben.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年04月15日_答弁書.pdf" markdown>
 <summary>答弁書</summary>
 <div class="doc-body" markdown>
 
@@ -72,7 +72,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hikoku1" data-md="md/hikoku1.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年04月19日_被告準備書面（１）.pdf" markdown>
+<details class="doc-acc" id="hikoku1" data-md="md/hikoku1.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年04月19日_被告準備書面（１）.pdf" markdown>
 <summary>被告準備書面（１）</summary>
 <div class="doc-body" markdown>
 
@@ -81,7 +81,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hikoku2" data-md="md/hikoku2.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年05月23日_被告準備書面（２）.pdf" markdown>
+<details class="doc-acc" id="hikoku2" data-md="md/hikoku2.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年05月23日_被告準備書面（２）.pdf" markdown>
 <summary>被告準備書面（２）</summary>
 <div class="doc-body" markdown>
 
@@ -90,7 +90,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hikoku3" data-md="md/hikoku3.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年07月25日_被告準備書面（３）.pdf" markdown>
+<details class="doc-acc" id="hikoku3" data-md="md/hikoku3.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年07月25日_被告準備書面（３）.pdf" markdown>
 <summary>被告準備書面（３）</summary>
 <div class="doc-body" markdown>
 
@@ -99,7 +99,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hikoku4" data-md="md/hikoku4.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年08月09日_被告準備書面（４）.pdf" markdown>
+<details class="doc-acc" id="hikoku4" data-md="md/hikoku4.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年08月09日_被告準備書面（４）.pdf" markdown>
 <summary>被告準備書面（４）</summary>
 <div class="doc-body" markdown>
 
@@ -108,7 +108,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hikoku5" data-md="md/hikoku5.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2024年12月17日_被告準備書面（５）.pdf" markdown>
+<details class="doc-acc" id="hikoku5" data-md="md/hikoku5.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年12月17日_被告準備書面（５）.pdf" markdown>
 <summary>被告準備書面（５）</summary>
 <div class="doc-body" markdown>
 
@@ -117,7 +117,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="kousotoben" data-md="md/kousotoben.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーーENEOS側_2025年07月10日_控訴答弁書.pdf" markdown>
+<details class="doc-acc" id="kousotoben" data-md="md/kousotoben.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2025年07月10日_控訴答弁書.pdf" markdown>
 <summary>控訴答弁書</summary>
 <div class="doc-body" markdown>
 
@@ -134,7 +134,7 @@ hide:
 
 <div class="doc-linkrow"><a href="https://minnanosaiban.github.io/eneos-saiban/argument.html" target="_blank" rel="noopener"><span class="doc-title">原告第４準備書面以下</span><span class="doc-note">外部サイトに認否と合わせてまとめています</span><i class="doc-chev bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div>
 
-<details class="doc-acc" id="dai5" data-md="md/dai5.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーー通報者側_2025年01月30日_原告第５準備書面.pdf" markdown>
+<details class="doc-acc" id="dai5" data-md="md/dai5.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2025年01月30日_原告第５準備書面.pdf" markdown>
 <summary>原告第５準備書面</summary>
 <div class="doc-body" markdown>
 
@@ -143,7 +143,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="kouso" data-md="md/kouso.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーー通報者側_2025年06月06日_控訴理由書.pdf" markdown>
+<details class="doc-acc" id="kouso" data-md="md/kouso.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2025年06月06日_控訴理由書.pdf" markdown>
 <summary>控訴理由書</summary>
 <div class="doc-body" markdown>
 
@@ -152,7 +152,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hoju1" data-md="md/hoju1.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーー通報者側_2025年07月14日_控訴理由補充書（１）.pdf" markdown>
+<details class="doc-acc" id="hoju1" data-md="md/hoju1.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2025年07月14日_控訴理由補充書（１）.pdf" markdown>
 <summary>控訴理由補充書（１）</summary>
 <div class="doc-body" markdown>
 
@@ -161,7 +161,7 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="hoju2" data-md="md/hoju2.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟についてーー通報者側_2025年07月14日_控訴理由補充書（２）.pdf" markdown>
+<details class="doc-acc" id="hoju2" data-md="md/hoju2.md.txt" data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_2025年07月14日_控訴理由補充書（２）.pdf" markdown>
 <summary>控訴理由補充書（２）</summary>
 <div class="doc-body" markdown>
 
