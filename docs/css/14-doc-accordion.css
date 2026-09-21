@@ -200,6 +200,9 @@ body:has(.trial-doc-marker) .doc-body .sn-note .sn-note-num,
 body:has(.trial-doc-marker) .doc-body .sidenote .num { font-weight: 700; color: var(--md-default-fg-color--light); margin-right: 0.2em; }
 body:has(.trial-doc-marker) .doc-body .sn-note.sn-note-important,
 body:has(.trial-doc-marker) .doc-body .sn-note.sn-note-important .sn-note-num { color: var(--red-color-3); }
+/* 本文・ノートの「●」は <i class="bi bi-dot"></i>。ぶら下げ・字下げ（.hg-idt / .idt の text-indent）が、アイコン（inline-block）の幅を
+   打ち消して 0 にし、アイコンだけ 1em ずれて出るのを防ぐ */
+body:has(.trial-doc-marker) .doc-body i.bi { text-indent: 0; }
 /* 認否のノート（eneos-saiban の argument.md から移した分）: 「争う」「否認」の赤強調と、「← ＥＮＥＯＳの主張」のバッジ */
 body:has(.trial-doc-marker) .doc-body .sn-note .strong-rd { font-weight: 700; color: var(--red-color-3); }
 body:has(.trial-doc-marker) .doc-body .sn-note .sn-badge {
