@@ -216,6 +216,8 @@
 本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。
 </p>
 
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
 <p class="pad3 hg-idt">
 <a name="hikoku3_214"></a>
 <b>⑷　第２の１ ⑷（被告は、･･･実行する義務があること）（６頁）について</b>
@@ -260,6 +262,8 @@
 <p class="pad4 idt">
 本件規程３．５の文言からも明らかなとおり、本件規程３．５は、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。
 </p>
+
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
 <p class="pad2 hg-idt">
 <a name="hikoku3_22"></a>
@@ -338,6 +342,8 @@
 原告が原告のいう「本件支払手続」をした行為は、本件通報に係る調査の結果、コンプライアンス違反ではない（法令等に違反するものではない）と結論づけられたものである（乙第３号証・乙第１０号証・乙第１１号証）。
 </p>
 
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
 <p class="pad3 idt">
 よって、答弁書にも述べたとおり（注１）、本件通報に関する調査結果は、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、本件通報について、本件規程３．６ ⑴ イ及びウに基づく通知は必要でない。
 </p>
@@ -396,6 +402,8 @@
 上司Ａが還付手続で対応する旨を説明した行為は、追加通報に係る調査の結果、「不正行為等には該当しない」「対応に懈怠は認められなかった」と結論づけられたものである（乙第１２号証〔７頁〕）。
 </p>
 
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
 <p class="pad4 hg-idt">
 <a name="hikoku3_224ka"></a>
 カ　第１の２ ⑶ カ（「以上のとおり」以下）（１０頁以下）について
@@ -408,6 +416,8 @@
 <p class="pad4 idt">
 追加通報に関する調査結果も、「法令等に違反する事実が確認された場合」又は「法令等に違反するおそれのある事実が確認された場合」のいずれでもなかったのであるから、上司Ａが還付手続で対応する旨を説明した行為は、本件規程３．５又は行動基準第１４項（３）に定める是正措置及び再発防止策の実行は必要でない。
 </p>
+
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
 <p class="pad3 hg-idt">
 <a name="hikoku3_225"></a>
@@ -832,6 +842,8 @@
 本件規程３．６ ⑴ の文言からも明らかなとおり、本件規程３．６ ⑴ は、調査終了時の「法務部長」の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。
 </p>
 
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
+
 <p class="pad6 idt">
 本件規程３．５の文言からも明らかなとおり、本件規程３．５も、「対応者」、すなわち「法務部長およびコンプライアンス責任者」（本件規程３．４ ⑵ ）の職務を定めているのであって、法人たる「被告」の「義務」を定めているのではない。
 </p>
@@ -1044,6 +1056,8 @@
 <p class="pad4 idt">
 ただし、原告は、請求原因事実として、訴状においては「被告に本件規程３．６ ⑴ イ又は同ウの違反が存在する」（注２）と主張し、原告第１準備書面でも「被告に本件規程３．６ ⑴ イ又はウに定める事項を通知しなかったことについての本件規程違反が存在する」（注３）と主張していたのであるから、原告が原告第２準備書面において行動基準第１項 ⑴ 、同第１１項 ⑶ 、同第１２項 ⑶ 、同第１４項 ⑶ 及び本件規程３．５の違反を主張する部分は、新たに請求原因事実を追加するものである。
 </p>
+
+<aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
 
 <p class="pad4 idt">
 これは、前回訴訟の訴訟物と本件訴訟の訴訟物が同一ではないという原告の立場からすると、訴えの追加的変更（民事訴訟法第１４３条）になるはずである。
