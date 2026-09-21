@@ -17,7 +17,7 @@ hide:
 <div class="hero-band" markdown>
 # 訴訟資料公開
 <p>
-書面の名前をクリックすると、テキスト化した文書が表示されます。文書の右余白のサイドノートは、相手方の書面での認否です。 .mdボタンで、テキストをコピー、またはダウンロードできます。ＡＩ分析にご利用ください。
+書面の名前をクリックすると、テキスト化した文書が表示されます。文書の右余白のサイドノートは、相手方の書面での認否です。 .mdボタンで、テキストをコピー、またはダウンロードできます。ＡＩ分析にご活用ください。
 </p>
 </div>
 
@@ -30,7 +30,9 @@ hide:
 
 <div class="toc-wrap doc-list" markdown>
 
-<p class="t-toc-head bar-title">2024年2月提訴の訴訟</p>
+<p class="width-40 issue-lead sec-title">
+2024年2月提訴
+</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
