@@ -30,7 +30,7 @@ python -m venv .venv
 **`master` に push すると、GitHub Actions（`.github/workflows/pages.yml`）が Zensical でビルドして公開する。** 普段は **`deploy.bat` をダブルクリック**すればよい（`git push` だけでも同じ）。
 進み具合は、リポジトリの Actions タブで見られる（1〜2分）。公開後の確認は、上の URL を開く。
 
-- **`deploy.bat` の流れ**: ① ビルド確認（失敗したら push しない）→ ② `git add .`・コミット・`git push -u origin master`（**強制 push はしない**。ほかのリポジトリの `deploy.bat` と違い、`gh-deploy` や `--force` は使わない）
+- **`deploy.bat` の流れ**: ① ビルド確認（失敗したら push しない）→ ② `git add .`・コミット・`git push -u origin master`（**強制 push はしない**。ほかのリポジトリの `deploy.bat` と違い、`gh-deploy` や `--force` は使わない）。送るものが無い（GitHub にまだ無いコミットが無い）ときは push せず、次へ進む。push が通信エラー（`Empty reply from server` など）で失敗したときは、5秒おきに最大3回まで再試行する（2回目からは HTTP/1.1）。3回とも失敗したら、コミットは手元に残したまま止まる
   → ③ `scripts/wait_deploy.ps1` が、GitHub Actions の実行（このコミットの分）を待って、成功か失敗かを表示する（GitHub CLI の `gh` が要る。無い・サインインしていないときは、待たずに Actions の URL を出すだけ）
   → ④ `scripts/indexnow_ping.ps1` で IndexNow に通知（失敗しても止まらない）。`.venv` が無い PC では、作り方を表示して止まる
 - Actions は `requirements.txt` の固定版で入れるので、手元と同じ結果になる（公開された66ファイルを手元の `site/` と比べて、Windows の手元ビルドが HTML の改行を CRLF で出す点（公開側は LF）を除き、すべて一致することを確認した）
