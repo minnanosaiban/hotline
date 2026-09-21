@@ -1,14 +1,12 @@
 <div class="accordion-body" markdown>
 
-- 引用中の太字は引用者による強調
-
 <div class="f-head" id="jud-riyu-1" markdown>
 <p class="f-label"><i class="fa-solid fa-square-full"></i> 理由１</p>
 <p class="f-title">契約書の問題を指摘する通報は、そもそも無かった</p>
 <p class="f-spine">高裁は、①「通報」の意味をまず定義し、②契約書の問題を指摘する主張が明確になったのは令和元年１２月だとした上で、通知義務違反を否定しています。</p>
 </div>
 
-> - [判決全文の該当箇所 <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_tsuhou-igi)
+> - [高裁判決から引用 <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_tsuhou-igi)
 
 >通報の意義について検討するに、補正後前提事実（１０）のとおり、本件規程上、通報情報とは、通報窓口に対してなされた通報に係る情報をいうと定義され（１．２（６））、通報とは、**不正行為等として対象を特定した上でその内容を告げることを前提とするもの**と解される（１．２（５）参照）から、本件規程の解釈としても、本件フォーム上で事実経過の説明として記載されたにすぎない事項や、調査の過程で調査補助者に告げたにすぎない疑問事項等が、当然に通報又は通報情報として調査の対象になるとはいえない。
 
