@@ -646,3 +646,117 @@ body:has(.trial-doc-marker) .qa-mark--eval {
   text-align: center;
 }
 
+
+/* =========================================================
+   答え合わせカード（trial/index.md「判決文の答え合わせ」。2026-09-21）
+   1つの照合＝1枚の .ac-card。中は必ず同じ順の段でできている：
+     判決の記述 → そのまま読むと → 記録を当てると →
+     （必要なら 反対からの読み方）→ 言えること／ここから先は言えない
+   段のラベルは CSS の擬似要素ではなく本文のテキストで書くこと。
+   このページはＡＩに読ませる読者が多く、擬似要素の文字は読み取られないため。
+   実文の引用は既存の .q-card、ＡＩ出力などの例文は .ex-card を流用する。
+   ========================================================= */
+body:has(.trial-doc-marker) .accordion-body .ac-card {
+  margin: 3.6em 0 0;
+  padding-top: 0.2em;
+  scroll-margin-top: 4.5rem; /* ミニ目次からのジャンプ時、固定ヘッダーに隠れないように */
+}
+/* 段のラベル（「そのまま読むと」「記録を当てると」）。
+   .f-title（16px 太字の青）より一段小さく、本文の段落と紛れない大きさにする。 */
+body:has(.trial-doc-marker) .accordion-body .ac-step {
+  margin: 2.4em 0 0.9em;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
+}
+body:has(.trial-doc-marker) .accordion-body .ac-step::before {
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  border-top: 1px solid var(--md-link-color-faint);
+  vertical-align: 0.32em;
+  margin-right: 0.6em;
+}
+/* 「反対からの読み方」＝こちら側に不利な読みを自分で置く段。
+   他の段と役割が違うことが見て分かるよう、色を落として破線にする。 */
+body:has(.trial-doc-marker) .accordion-body .ac-step-alt {
+  color: var(--md-default-fg-color--light) !important;
+}
+body:has(.trial-doc-marker) .accordion-body .ac-step-alt::before {
+  border-top-style: dashed;
+  border-top-color: var(--md-card-border);
+}
+/* 結論の対（言えること／ここから先は言えない）。必ず2つセットで置く。 */
+body:has(.trial-doc-marker) .accordion-body .ac-verdict {
+  margin: 2.4em 0 0;
+  border-left: 3px solid var(--md-link-color);
+  border-radius: 0 6px 6px 0;
+  background: rgba(0, 54, 130, 0.055);
+  padding: 1rem 1.2rem;
+}
+body[data-md-color-scheme="slate"] .accordion-body .ac-verdict {
+  background: rgba(77, 139, 204, 0.1);
+}
+body:has(.trial-doc-marker) .accordion-body .ac-verdict > p {
+  margin: 0;
+  line-height: 1.85;
+  text-wrap: pretty;
+}
+/* 2つ目（言えない側）は、1つ目と地続きに見えないよう破線で仕切り、色を落とす */
+body:has(.trial-doc-marker) .accordion-body .ac-nosay {
+  margin-top: 0.9rem !important;
+  padding-top: 0.9rem;
+  border-top: 1px dashed var(--md-card-border);
+  color: var(--md-default-fg-color--light) !important; /* .md-content p の !important 指定に対抗 */
+}
+body:has(.trial-doc-marker) .accordion-body .ac-vlabel {
+  display: block;
+  margin-bottom: 0.3em;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--md-link-color);
+}
+body:has(.trial-doc-marker) .accordion-body .ac-nosay .ac-vlabel {
+  color: var(--md-default-fg-color--light);
+}
+/* 「この欄の読み方」の凡例。チップ＋説明の2段組みにはせず、
+   チップを行頭に置いた1行にして、狭い画面でも折り返しで読めるようにする。 */
+body:has(.trial-doc-marker) .accordion-body .ac-legend {
+  margin: 1.6em 0 0;
+  padding: 0;
+  list-style: none;
+}
+body:has(.trial-doc-marker) .accordion-body .ac-legend li {
+  margin: 0.8em 0;
+  font-size: 13.5px;
+  line-height: 1.8;
+  text-wrap: pretty;
+}
+body:has(.trial-doc-marker) .accordion-body .ac-legend .ac-chip {
+  display: inline-block;
+  margin-right: 0.6em;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--md-link-color);
+  border: 1px solid var(--md-link-color-faint);
+  border-radius: 3px;
+  background: var(--md-typeset-bg-color);
+  padding: 0.05em 0.55em;
+  white-space: nowrap;
+}
+body:has(.trial-doc-marker) .accordion-body .ac-legend .ac-chip-alt {
+  color: var(--md-default-fg-color--light);
+  border-style: dashed;
+  border-color: var(--md-card-border);
+}
+
+/* 「答え合わせ」の地の文：連続する段落のあいだを空ける（2026-09-21）。
+   サイト共通の .md-content p は margin 0（行間 2.0 で読ませる作り）なので、
+   段落が続くと一続きの塊に見える。照合カードは1枚の中で話が何度も切り替わるため、
+   ここだけ段落の区切りを入れる。p + p なので、見出し・カードの直後の段落は動かない。
+   .q-card > p + p、.ac-verdict > p、.f-spine など、明示的に margin を持つものは
+   セレクタの詳細度が上なので影響を受けない。 */
+body:has(.trial-doc-marker) .accordion-body p + p {
+  margin-top: 1.1em;
+}
