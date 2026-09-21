@@ -148,7 +148,7 @@
     if (!summary || summary.querySelector('.doc-title')) return;
     var title = summary.textContent.trim();
     d.setAttribute('data-title', title);
-    // data-plain: 書面ではない行（「判決文の答え合わせ」の各行など）。PDF・.md・要約のボタンは付けない
+    // data-plain: 書面ではない行（「高裁判決の根拠」の各行など）。PDF・.md・要約のボタンは付けない
     summary.innerHTML = '<span class="doc-title">' + esc(title) + '</span>' + (d.hasAttribute('data-plain') ? '' : btnHtml(d)) +
       '<i class="doc-chev bi bi-chevron-down" aria-hidden="true"></i>';
   }

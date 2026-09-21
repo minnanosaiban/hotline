@@ -98,7 +98,7 @@
   display: none !important;
 }
 /* 入れ子のアコーディオン（.card-accordion）の中だけでなく、裁判文書ページの行（.doc-acc）が包む .accordion-body にも効かせる
-   （「判決文の答え合わせ」の各行。もとは1つの行の中の入れ子だった） */
+   （「高裁判決の根拠」の各行。もとは1つの行の中の入れ子だった） */
 .md-typeset :is(.card-accordion, .doc-acc) .accordion-body {
   margin-top: 0.8rem;
   padding-left: 1rem;

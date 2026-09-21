@@ -224,7 +224,7 @@ body:has(.trial-doc-marker) .doc-body sup { color: var(--md-warn-red); font-weig
 .doc-lead { margin: 0.3rem 0 1rem !important; font-size: 14px; color: var(--md-default-fg-color--light); }
 /* 書面の中の #アンカー（<a name>）が固定ヘッダーに隠れないように */
 .doc-body [id], .doc-body a[name] { scroll-margin-top: 5.5rem; }
-/* 旧「判決の概要と分析」の行の #bunseki は、今は「判決文の答え合わせ」の見出し（転送ページ trial/judgement_2025/ の飛び先）。見出しでも同じく */
+/* 旧「判決の概要と分析」の行の #bunseki は、今は「高裁判決の根拠」の見出し（転送ページ trial/judgement_2025/ の飛び先）。見出しでも同じく */
 .doc-side[id] { scroll-margin-top: 5.5rem; }
 
 /* 判決文などの引用（blockquote。見出しは「高裁判決から引用」）は、地の文より小さくする（small＝13px）。
