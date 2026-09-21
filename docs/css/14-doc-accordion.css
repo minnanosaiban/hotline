@@ -227,6 +227,12 @@ body:has(.trial-doc-marker) .doc-body sup { color: var(--md-warn-red); font-weig
 /* 旧「判決の概要と分析」の行の #bunseki は、今は「判決文の答え合わせ」の見出し（転送ページ trial/judgement_2025/ の飛び先）。見出しでも同じく */
 .doc-side[id] { scroll-margin-top: 5.5rem; }
 
+/* 判決文などの引用（blockquote。見出しは「高裁判決から引用」）は、地の文より小さくする（small＝13px）。
+   サイト共通の .md-content p が 16px を指定しているので、枠だけでなく中の段落・リストにも指定する */
+body:has(.trial-doc-marker) .doc-acc .accordion-body blockquote,
+body:has(.trial-doc-marker) .doc-acc .accordion-body blockquote p,
+body:has(.trial-doc-marker) .doc-acc .accordion-body blockquote li { font-size: small; }
+
 /* ---- PDF 一覧ページ（docs/pdf/index.md。scripts/pdf_index.py が作る） ---- */
 .pdf-row {
   display: flex;
