@@ -56,6 +56,10 @@ hide:
 以下では、訴訟資料を掲載しています。また、実際の判決文と証拠をつき合わせて答え合わせをします。
 </p>
 
+<p class="width-40 margin02 smallest">
+※裁判文書引用中の太字は引用者による強調です。
+</p>
+
 <p class="t-toc-head bar-title doc-side" id="bunseki">判決文の答え合わせ</p>
 
 <div class="doc-rows" markdown>
