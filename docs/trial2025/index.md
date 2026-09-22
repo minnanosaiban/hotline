@@ -9,7 +9,7 @@ hide:
 
 <div class="trial-doc-marker" hidden></div>
 
-<div class="center-container" markdown>
+<div class="trial-page center-container" markdown>
 
 <div class="hero-band" markdown>
 # 2025年提訴
