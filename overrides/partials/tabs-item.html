@@ -6,6 +6,12 @@
   子が2件以上あるときだけ Bootstrap 風のドロップダウン（.md-tabs__item--dropdown）を描く分岐を追加した
   （CSS は docs/css/02-layout.css「タブのドロップダウン」）。子が1件だけの既存タブ（Home／株主総会質疑応答）は
   従来どおり子なしと同じ見た目になる（このファイルを上書きする前の挙動のまま）。
+  2026-09-22（その2）: ホバーだけで開く方式は、タップ操作やホバーせずクリックした場合に
+  「ドロップダウンが無い」ように見えてしまう（ユーザー指摘）ため、クリックで開閉する方式に変更。
+  トリガーの <a> には .md-tabs__link--dropdown を付け、開閉は docs/js/custom.js が
+  クリックで .md-tabs__item--dropdown に is-open クラスを付け外しして行う（詳細は custom.js のコメント）。
+  トリガーのリンク先（先頭の子ページ）は、JS が効かないとき用の後退手段として残す。
+  への字（bi-chevron-down。他のアコーディオンの開閉マークと同じアイコン）でドロップダウンだと分かるようにする。
 -#}
 {% macro render_content(nav_item, ref) %}
   {% set ref = ref or nav_item %}
@@ -32,8 +38,9 @@
       {{ render(first, ref) }}
     {% elif nav_item.children | length > 1 %}
       <li class="{{ class }} md-tabs__item--dropdown">
-        <a href="{{ first.url | url }}" class="md-tabs__link">
+        <a href="{{ first.url | url }}" class="md-tabs__link md-tabs__link--dropdown" aria-haspopup="true" aria-expanded="false">
           {{ render_content(first, ref) }}
+          <i class="bi bi-chevron-down md-tabs__caret" aria-hidden="true"></i>
         </a>
         <ul class="md-tabs__dropdown">
           {% for child in nav_item.children %}

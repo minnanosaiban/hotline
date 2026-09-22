@@ -1,6 +1,10 @@
 ---
 title: 2021年提訴 ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
 description: 東京地裁・東京高裁の判決文を掲載しています。事案の概要・分析は作成中です。
+seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜2021年提訴の判決文公開
+url: https://minnanosaiban.github.io/eneos-hotline/trial2021/
+image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
+twitter_card: summary
 robots: noindex, nofollow
 hide:
   - navigation
@@ -12,17 +16,32 @@ hide:
 <div class="trial-page center-container" markdown>
 
 <div class="hero-band" markdown>
-# 2021年提訴
+# 訴訟資料公開
 <p>
-東京地裁・東京高裁の判決文を、下の「裁判所」に掲載しています。事案の概要・分析は作成中です。
+書面の名前をクリックすると、テキスト化した文書が表示されます。文書の右余白のサイドノートは、相手方の書面での認否です。 .mdボタンで、テキストをコピー、またはダウンロードできます。ＡＩ分析にご活用ください。
 </p>
 </div>
+
+<p class="base00 hero-share">
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos-hotline/trial2021/ &text=訴訟資料公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+     target="_blank" class="x-share">
+    <i class="fa-brands fa-x-twitter"></i> でシェア
+  </a>
+</p>
 
 <p class="trial-year-nav width-40" markdown>
 <b>2021年提訴</b>　<a href="../trial/">2024年提訴</a>　<a href="../trial2025/">2025年提訴</a>
 </p>
 
 <div class="toc-wrap doc-list" markdown>
+
+<p class="width-40 issue-lead sec-title">
+2021年提訴
+</p>
+
+<p class="width-40 margin02 lead-normal-gap">
+東京地裁・東京高裁の判決文を、下の「裁判所」に掲載しています。事案の概要・分析は作成中です。
+</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
