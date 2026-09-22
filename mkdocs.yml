@@ -13,9 +13,9 @@ nav:
   - 株主総会質疑応答:
       - agm/index.md
   - 裁判文書公開:
-      - 2021年提訴: trial2021/index.md
+      - 2026年提訴: trial2026/index.md
       - 2024年提訴: trial/index.md
-      - 2025年提訴: trial2025/index.md
+      - 2021年提訴: trial2021/index.md
 
 # 書面（被告側・原告側）は trial/index.md の1ページにアコーディオンで集約した（本文は docs/trial/md/*.md.txt）。
 
