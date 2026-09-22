@@ -60,12 +60,12 @@ hide:
 ※裁判文書引用中の太字は引用者による強調です。
 </p>
 
-<p class="t-toc-head bar-title doc-side" id="bunseki">高裁の判断根拠</p>
+<p class="t-toc-head bar-title doc-side" id="bunseki">高裁判決の根拠</p>
 
 <div class="doc-rows" markdown>
 
 <details class="doc-acc" id="bunseki-senryaku" data-plain markdown>
-<summary>ＥＮＥＯＳの主張のなかで、判決に採用されたのはどれか</summary>
+<summary>ＥＮＥＯＳの主張は、どこまで判決に採用されたか</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-senryaku.md"
@@ -73,8 +73,17 @@ hide:
 </div>
 </details>
 
+<details class="doc-acc" id="bunseki-yomikata" data-plain markdown>
+<summary>この欄の読み方――何と何を照合しているか</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-yomikata.md"
+
+</div>
+</details>
+
 <details class="doc-acc" id="bunseki-riyu-1" data-plain markdown>
-<summary>なぜ、契約書の問題を指摘する通報は、そもそも無かったとされたか</summary>
+<summary>理由１　契約書の問題を指摘する通報は、そもそも無かった</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-riyu-1.md"
@@ -83,10 +92,55 @@ hide:
 </details>
 
 <details class="doc-acc" id="bunseki-riyu-2" data-plain markdown>
-<summary>なぜ、「海外消費税を支払う合意」をしていたと推認することとなったか</summary>
+<summary>理由２　「海外消費税を支払う合意」をしていたと推認できる</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-riyu-2.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-iimawashi" data-plain markdown>
+<summary>判決文の言い回しが、読み手に与える影響</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-iimawashi.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-seito" data-plain markdown>
+<summary>正当と評価できる部分</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-seito.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-timeline" data-plain markdown>
+<summary>判決文の認定事実に基づく事実のタイムライン</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-timeline.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-horei" data-plain markdown>
+<summary>関係法令・規程</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-horei.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="bunseki-zenbun" data-plain markdown>
+<summary>判決文の全文</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/bunseki-zenbun.md"
 
 </div>
 </details>
