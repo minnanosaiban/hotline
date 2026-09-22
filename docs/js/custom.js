@@ -35,3 +35,39 @@ document.addEventListener("DOMContentLoaded", function () {
   openDetailsFromHash();
   window.addEventListener("hashchange", openDetailsFromHash);
 });
+
+// タブのドロップダウン（「裁判文書公開」等）。ホバーではなくクリックで開閉する
+// （ホバーだけだと、タップ操作やホバーせずクリックした場合に「ドロップダウンが無い」ように見えるため）。
+// 開いた状態は is-open クラスで表す。トリガーの <a href> はそのまま残してあるので、
+// このスクリプトが読み込まれない場合は先頭の子ページへの通常のリンクとして動く。
+document.addEventListener("DOMContentLoaded", function () {
+  var items = document.querySelectorAll(".md-tabs__item--dropdown");
+  if (!items.length) return;
+
+  function closeAll(except) {
+    items.forEach(function (item) {
+      if (item === except) return;
+      item.classList.remove("is-open");
+      var a = item.querySelector(".md-tabs__link--dropdown");
+      if (a) a.setAttribute("aria-expanded", "false");
+    });
+  }
+
+  items.forEach(function (item) {
+    var trigger = item.querySelector(".md-tabs__link--dropdown");
+    if (!trigger) return;
+    trigger.addEventListener("click", function (e) {
+      e.preventDefault();
+      var open = item.classList.toggle("is-open");
+      trigger.setAttribute("aria-expanded", String(open));
+      closeAll(item);
+    });
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".md-tabs__item--dropdown")) closeAll();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeAll();
+  });
+});
