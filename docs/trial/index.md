@@ -69,7 +69,7 @@ hide:
 <div class="doc-rows" markdown>
 
 <details class="doc-acc" id="bunseki-saiyo" data-plain markdown>
-<summary>ＥＮＥＯＳの主張のなかで、高裁の判断に影響したと思われる主張はどれか</summary>
+<summary>ＥＮＥＯＳ側はどのような主張をして、何が高裁に認められたのか</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-saiyo.md"
