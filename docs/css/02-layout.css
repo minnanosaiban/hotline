@@ -100,15 +100,44 @@
 /* タブのドロップダウン（「裁判文書公開」等、子ページが複数あるタブ）。
    Zensical の既定テンプレートは子が複数あっても最初の1件しかタブバーに出さないため、
    overrides/partials/tabs-item.html で子が2件以上のときだけ描く分岐を追加した。
-   見た目は .dmdmenu（14-doc-accordion.css。書面の .md/.pdf ボタンのメニュー）と同じ部品を流用し、
-   サイト内で「小さな浮き出るメニュー」の見た目を統一する。 */
+   開閉はホバーではなくクリック（docs/js/custom.js が .md-tabs__item--dropdown に
+   is-open クラスを付け外しする）。ホバーだけだと、タップしたときや、ホバーせずクリックした
+   ときに「ドロップダウンが無い」ように見えてしまうため（2026-09-22、ユーザー指摘）。
+   見た目は簡素な吹き出し（白い角丸の箱＋上端に三角のつまみ）にする。 */
+/* Zensical既定の .md-tabs__list は overflow:auto + contain:content を持ち（横スクロール用）、
+   これがドロップダウンの吹き出しを縦方向にクリップして見えなくしてしまう（2026-09-22、実機で発覚。
+   z-indexをいくつ上げても直らず、devtoolsでcontain:contentが原因と特定）。
+   横スクロール（overflow-x）はモバイル対応のため残し、縦（overflow-y）とcontainだけ外す。 */
+.md-tabs,
+.md-tabs__list {
+  overflow: visible !important;
+  contain: none !important;
+}
+@media screen and (max-width: 76.234375em) {
+  .md-tabs__list {
+    overflow-x: auto !important;
+    overflow-y: visible !important;
+  }
+}
 .md-tabs__item--dropdown {
   position: relative;
+}
+.md-tabs__link--dropdown {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.3em;
+}
+.md-tabs__caret {
+  font-size: 0.6rem;
+  transition: transform 0.15s ease;
+}
+.md-tabs__item--dropdown.is-open .md-tabs__caret {
+  transform: rotate(180deg);
 }
 .md-tabs__dropdown {
   display: none;
   position: absolute;
-  top: 100%;
+  top: calc(100% + 10px);   /* つまみ(8px)ぶん本体を下げて隙間を作る */
   left: 0;
   z-index: 5;
   min-width: 9.5rem;
@@ -116,21 +145,34 @@
   padding: 4px;
   list-style: none;
   background: var(--md-default-bg-color);
-  border: 1px solid var(--md-card-border);
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
 }
-.md-tabs__item--dropdown:hover .md-tabs__dropdown,
-.md-tabs__item--dropdown:focus-within .md-tabs__dropdown {
+/* 吹き出しのつまみ（上向きの三角）。タブの文字の真下あたりに固定位置で置く簡易版 */
+.md-tabs__dropdown::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 1.1rem;
+  width: 12px;
+  height: 12px;
+  background: var(--md-default-bg-color);
+  transform: rotate(45deg);
+  border-radius: 2px 0 0 0;
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.08);   /* 本体の影を上端のつまみにも軽く続ける */
+}
+.md-tabs__item--dropdown.is-open .md-tabs__dropdown {
   display: block;
 }
 .md-tabs__dropdown-link {
   display: block;
+  position: relative;      /* つまみ(::before)より前面に出す */
+  z-index: 1;
   padding: 7px 10px;
   font-size: 0.7rem;
   color: var(--md-typeset-color) !important;
   text-decoration: none !important;
-  border-radius: 7px;
+  border-radius: 6px;
   white-space: nowrap;
 }
 .md-tabs__dropdown-link:hover,
@@ -138,9 +180,6 @@
   background: var(--surface-gray);
   color: var(--md-main-color) !important;
 }
-/* モバイル（タブが常時表示のスクロールバーになる幅）は :hover が働かないため、
-   タップでそのままタブの先頭ページ（2021年提訴）へ飛ぶ。他の2件へは各ページ冒頭の
-   相互リンク（.trial-year-nav）から移動する。 */
 
 /* 縦スクロールバー */
 .md-sidebar__inner {
