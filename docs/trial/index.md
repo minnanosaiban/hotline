@@ -56,20 +56,12 @@ hide:
 理由１・理由２は、いずれも法令等に違反する事実自体がなかったという構成になっており、<b>控訴審で先鋭化された通知義務の要否という争点は、その前提を欠くとして実質的に検討されないまま終わりました</b>。なお、ここでの「法令等」とは、契約も含みます。
 </p>
 
-<p class="width-40 margin02">
-以下では、訴訟資料を掲載しています。その前に、<b>高裁が何を根拠に請求を退けたのかを、判決文に書かれていることと、同じ訴訟記録の中に残っている資料とを一つずつ突き合わせて確かめた「高裁判決の根拠」</b>を置いています。判決への反論ではなく、判決文がもともと想定していた「記録を知っている読み手」の条件を、一般の読み手のために復元する作業です。
-</p>
-
-<p class="width-40 margin02 smallest">
-※裁判文書引用中の太字は引用者による強調です。
-</p>
-
 <p class="t-toc-head bar-title doc-side" id="bunseki">高裁判決の根拠</p>
 
 <div class="doc-rows" markdown>
 
 <details class="doc-acc" id="bunseki-nakatta" data-plain markdown>
-<summary>契約書の問題を指摘する通報は、そもそも無かった、とは。</summary>
+<summary>契約書の問題を指摘する通報は、そもそも無かった、とは</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-nakatta.md"
@@ -78,7 +70,7 @@ hide:
 </details>
 
 <details class="doc-acc" id="bunseki-goui" data-plain markdown>
-<summary>「海外消費税を支払う合意」をしていたと推認できる、とは。</summary>
+<summary>「海外消費税を支払う合意」をしていたと推認できる、とは</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-goui.md"
