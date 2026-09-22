@@ -72,12 +72,12 @@ document.addEventListener("DOMContentLoaded", function () {
   items.forEach(function (item) {
     var trigger = item.querySelector(".md-tabs__link--dropdown");
     if (!trigger) return;
-    // リスナーは <li> 全体に付ける（<a> だけだと、スマホでタップした位置が少しでも
-    // ずれると外れて反応しないことがあった。2026-09-22、実機で発覚）。
-    // ただし開いたあとの中の項目（.md-tabs__dropdown 内）のクリックは、開閉に関与させず
-    // 通常のリンク遷移に任せる。
-    item.addEventListener("click", function (e) {
-      if (e.target.closest(".md-tabs__dropdown")) return;
+    // リスナーはトリガーの <a> 自体に付ける。一度 <li> 全体に付け替えたが、
+    // iOS Safari は非アンカー要素（li/div）のclickイベントが確実に発火しない既知の癖があり、
+    // それがユーザーのスマホで直っていなかった実際の原因だった（2026-09-22）。
+    // 当たり判定の狭さ（前回の不具合の原因）は、<a> 自体を親<li>いっぱいに広げて
+    // 解決済み（02-layout.css の .md-tabs__link--dropdown）。
+    trigger.addEventListener("click", function (e) {
       e.preventDefault();
       var open = item.classList.toggle("is-open");
       trigger.setAttribute("aria-expanded", String(open));
