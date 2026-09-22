@@ -31,7 +31,7 @@ hide:
 <div class="toc-wrap doc-list" markdown>
 
 <p class="width-40 issue-lead sec-title">
-判決の概要
+2024年提訴<br>判決の概要
 </p>
 
 <p class="width-40 margin02 lead-normal-gap">
@@ -64,74 +64,38 @@ hide:
 
 <div class="doc-rows" markdown>
 
-<details class="doc-acc" id="bunseki-senryaku" data-plain markdown>
-<summary>ＥＮＥＯＳの主張は、どこまで判決に採用されたか</summary>
+<details class="doc-acc" id="bunseki-saiyo" data-plain markdown>
+<summary>ＥＮＥＯＳの主張のなかで、高裁判決に採用された主張はどれか</summary>
 <div class="doc-body" markdown>
 
---8<-- "parts/bunseki-senryaku.md"
+--8<-- "parts/bunseki-saiyo.md"
 
 </div>
 </details>
 
-<details class="doc-acc" id="bunseki-yomikata" data-plain markdown>
-<summary>この欄の読み方――何と何を照合しているか</summary>
+<details class="doc-acc" id="bunseki-teigi" data-plain markdown>
+<summary>高裁判決がいう「通報者が通知を受けるため必要とされる通報」とは</summary>
 <div class="doc-body" markdown>
 
---8<-- "parts/bunseki-yomikata.md"
+--8<-- "parts/bunseki-teigi.md"
 
 </div>
 </details>
 
-<details class="doc-acc" id="bunseki-riyu-1" data-plain markdown>
-<summary>理由１　契約書の問題を指摘する通報は、そもそも無かった</summary>
+<details class="doc-acc" id="bunseki-nakatta" data-plain markdown>
+<summary>「契約書の問題を指摘する通報は、そもそも無かった」とされたのは、なぜか</summary>
 <div class="doc-body" markdown>
 
---8<-- "parts/bunseki-riyu-1.md"
+--8<-- "parts/bunseki-nakatta.md"
 
 </div>
 </details>
 
-<details class="doc-acc" id="bunseki-riyu-2" data-plain markdown>
-<summary>理由２　「海外消費税を支払う合意」をしていたと推認できる</summary>
+<details class="doc-acc" id="bunseki-goui" data-plain markdown>
+<summary>「海外消費税を支払う合意」をしていたと推認されたのは、なぜか</summary>
 <div class="doc-body" markdown>
 
---8<-- "parts/bunseki-riyu-2.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-iimawashi" data-plain markdown>
-<summary>判決文の言い回しが、読み手に与える影響</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-iimawashi.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-seito" data-plain markdown>
-<summary>正当と評価できる部分</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-seito.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-timeline" data-plain markdown>
-<summary>判決文の認定事実に基づく事実のタイムライン</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-timeline.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-zenbun" data-plain markdown>
-<summary>判決文の全文</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-zenbun.md"
+--8<-- "parts/bunseki-goui.md"
 
 </div>
 </details>
@@ -336,7 +300,7 @@ hide:
 
 </div>
 
-<p class="t-toc-head bar-title doc-side">関係法令・規程、証拠</p>
+<p class="t-toc-head bar-title doc-side">関係法令・規程・証拠</p>
 
 <div class="doc-rows" markdown>
 
@@ -350,7 +314,7 @@ hide:
 </details>
 
 <details class="doc-acc" id="horei-handbook" data-plain markdown>
-<summary>公益通報ハンドブック　改正法（令和４年６月施行）準拠版</summary>
+<summary>公益通報ハンドブック　平成29年9月 発行</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/horei-handbook.md"

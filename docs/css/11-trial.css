@@ -127,7 +127,7 @@ body:has(.trial-doc-marker) .strong-rd-hover:hover {
 }
 
 /* 判決の概要：理由１・理由２行頭のアイコン。本文中なので黒だと強すぎる＝グレーに、
-   間隔はカード内ラベル（.f-label i）と同じ考え方で margin-right のみで詰める。 */
+   margin-right のみで間隔を詰める。 */
 body:has(.trial-doc-marker) .riyu-lead-icon {
   font-size: 0.85em;
   margin-right: 0.3em;
@@ -263,110 +263,9 @@ body:has(.trial-doc-marker) .t-toc-head + p.lead-normal-gap {
    （旧 .agm-hero-band / .agm-hero-share は統合済み）。 */
 
 /* =========================================================
-   認定事実タイムライン（judgement_2025 アコーディオン内）
-   縦線＋ノード＋経過時間ラベル。装飾は無彩色、色はリンクのみ。
-   ノード間の「約○か月」で、一文に畳まれた経過時間を見せる。
+   アコーディオン内の文書カード（「高裁判決の根拠」等の doc-acc 行）
+   グレーの箱＝実在の引用（.q-card）、白地＋破線＝説明用の例文（.ex-card）。
    ========================================================= */
-body:has(.trial-doc-marker) .tl-c {
-  list-style: none;
-  margin: 4.0em 0;
-  padding: 0;
-}
-body:has(.trial-doc-marker) .tl-c li {
-  position: relative;
-  margin: 0;
-  padding: 0 0 0.4rem 1.7rem;
-  font-size: 14px;
-}
-body:has(.trial-doc-marker) .tl-c li.tl-gap {
-  padding-top: 0.55rem;
-  padding-bottom: 0.95rem;
-  min-height: 1em; /* ラベル有無にかかわらず余白の高さを揃える */
-  font-size: 11.5px;
-  color: var(--md-default-fg-color--lighter);
-  letter-spacing: 0.05em;
-}
-body:has(.trial-doc-marker) .tl-c li::before { /* 縦線 */
-  content: "";
-  position: absolute;
-  left: 0.28rem;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: #c9ced4;
-}
-body:has(.trial-doc-marker) .tl-c li.tl-ev::before { top: 0.65rem; }
-body:has(.trial-doc-marker) .tl-c li:last-child::before { display: none; }
-body:has(.trial-doc-marker) .tl-c li.tl-ev::after { /* ノード（すべて白抜き◯で統一） */
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.42rem;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--md-typeset-bg-color);
-  border: 1.5px solid #8a929b;
-}
-body:has(.trial-doc-marker) .tl-c .tl-date {
-  display: block;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: var(--md-default-fg-color--light);
-  letter-spacing: 0.03em;
-  line-height: 1.5;
-  margin-bottom: 0.1rem;
-}
-body:has(.trial-doc-marker) .tl-c li.tl-ev.tl-out .tl-date::before { /* ★＝判決に現れない出来事（日付の頭に付ける） */
-  content: "★ ";
-  font-weight: 400;
-  color: #8a929b;
-}
-body:has(.trial-doc-marker) .tl-c .tl-body {
-  line-height: 1.75;
-}
-body:has(.trial-doc-marker) .tl-c .tl-quote { /* 判決文からの引用は本文の引用と同じ明朝 */
-  font-family: "Noto Serif JP", serif;
-  font-size: 13.5px;
-}
-body:has(.trial-doc-marker) .tl-c .tl-srcs { /* 認定事実・書証へのリンクをまとめる行（日付の下・本文の上） */
-  display: block;
-  width: fit-content;
-  margin: 0 0 0.25rem;
-}
-body:has(.trial-doc-marker) .tl-c .tl-src { /* 認定事実・書証へのリンク */
-  font-size: 12.5px;
-  color: var(--md-link-color) !important;
-  text-decoration: none;
-  border-bottom: 1px solid var(--md-link-color-faint);
-  white-space: nowrap;
-}
-body:has(.trial-doc-marker) .tl-star::before { /* 文中で★の意味を説明する用（タイムライン内の★と同じ記号） */
-  content: "★";
-  color: #8a929b;
-}
-body[data-md-color-scheme="slate"] .tl-c li::before {
-  background: rgba(255, 255, 255, 0.25);
-}
-body[data-md-color-scheme="slate"] .tl-c li.tl-ev::after {
-  background: var(--md-typeset-bg-color);
-  border-color: rgba(255, 255, 255, 0.45);
-}
-body[data-md-color-scheme="slate"] .tl-c li.tl-ev.tl-out .tl-date::before {
-  color: rgba(255, 255, 255, 0.45);
-}
-body[data-md-color-scheme="slate"] .tl-star::before {
-  color: rgba(255, 255, 255, 0.45);
-}
-
-/* =========================================================
-   アコーディオン内の文書カード（judgement_2025）
-   グレーの箱＝会社の文書の引用／白地＝検証の地の文。
-   .test-part は末尾の「見分け方」を囲う枠。
-   ========================================================= */
-body:has(.trial-doc-marker) .accordion-body .doc-lead {
-  margin-top: 3em;
-}
 body:has(.trial-doc-marker) .accordion-body .q-card {
   background: var(--surface-gray);
   border-radius: 6px;
@@ -380,48 +279,6 @@ body:has(.trial-doc-marker) .accordion-body .q-card > p {
 }
 body:has(.trial-doc-marker) .accordion-body .q-card > p + p {
   margin-top: 0.7rem;
-}
-body:has(.trial-doc-marker) .accordion-body .q-chip {
-  display: inline-block;
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  color: #70757a;
-  border: 1px solid #c9ced4;
-  border-radius: 3px;
-  background: var(--md-typeset-bg-color);
-  padding: 0.05em 0.55em;
-}
-body:has(.trial-doc-marker) .accordion-body .q-chip a {
-  color: inherit;
-  font-family: inherit;
-}
-/* 罫線でなく背景色(ごく薄いグレー)＋box-shadowで区切る（2026-08-18、borderから変更）。
-   .q-card(surface-gray)・.f-head(薄い青)より一段薄い背景にして、同じアコーディオン内で
-   意味が違う箱（実文/見出しでなく「まとめ」）として区別がつくようにする。
-   box-shadowのみだと薄すぎて境界が見えなかったため、背景色を追加（2026-08-18、続き）。 */
-body:has(.trial-doc-marker) .accordion-body .test-part {
-  background: var(--md-default-fg-color--lightest);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-  padding: 1.1rem 1.3rem 1.2rem;
-  margin-top: 2.6em;
-}
-[data-md-color-scheme="slate"] .accordion-body .test-part {
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
-}
-body:has(.trial-doc-marker) .accordion-body .test-part > p {
-  margin: 0;
-  line-height: 1.8; /* 「い。」のような1文字だけの孤立行を減らす（text-wrap:pretty と併用） */
-  text-wrap: pretty;
-}
-body[data-md-color-scheme="slate"] .accordion-body .q-chip {
-  color: #aaaaaa;
-  border-color: rgba(255, 255, 255, 0.3);
-}
-/* 問いの見出し（①〜④） */
-body:has(.trial-doc-marker) .accordion-body .q-lead {
-  margin-top: 2.2em;
 }
 /* 例文カード（白地＋破線＝サイト作成の実在しない例文。実文カード(q-card)と対） */
 body:has(.trial-doc-marker) .accordion-body .ex-card {
@@ -439,107 +296,6 @@ body:has(.trial-doc-marker) .accordion-body .ex-card > p {
 body:has(.trial-doc-marker) .accordion-body .ex-card > p + p {
   margin-top: 0.7rem;
 }
-/* ex-card 直後の一言キャプション（例：「→ このように誤解されています」） */
-body:has(.trial-doc-marker) .accordion-body .ex-caption {
-  margin: -1.0em 0 1.4em 0.3rem;
-  font-size: 12.5px;
-  color: var(--md-default-fg-color--light);
-}
-body:has(.trial-doc-marker) .accordion-body .ex-chip {
-  display: inline-block;
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  color: #70757a;
-  border: 1px dashed #c9ced4;
-  border-radius: 3px;
-  padding: 0.05em 0.55em;
-}
-body[data-md-color-scheme="slate"] .accordion-body .ex-chip {
-  color: #aaaaaa;
-  border-color: rgba(255, 255, 255, 0.3);
-}
-
-/* =========================================================
-   特徴・理由見出し（judgement_2025「理由１・２」「言い回し」アコーディオン）
-   番号ラベル＋タイトル＋一文（.f-spine）を .f-head にまとめる。
-   「検証」（これらが積み重なると…）だけは例外でタイトル1行のみ、地の文が続く。
-   .test-part は末尾「6つの質問」の枠にも流用（ol の間隔のみ追加）。
-   ========================================================= */
-/* 見出しカード（f-label＋f-title＋f-spineをひとつの箱にまとめる。
-   .q-card（引用＝グレー地の実線）と見分けやすいよう、薄い青系の色調にする。
-   ラベル（特徴１・理由１等）は青字＋左に fa-square-full の四角アイコン。 */
-body:has(.trial-doc-marker) .accordion-body .f-head {
-  position: relative;
-  background: rgba(0, 54, 130, 0.055);
-  border-radius: 6px;
-  padding: 0.9rem 1.1rem 1rem;
-  margin: 4.0em 0 3.2em;
-  scroll-margin-top: 4.5rem; /* ミニ目次からのジャンプ時、固定ヘッダーに隠れないように */
-}
-body:has(.trial-doc-marker) .accordion-body .f-label {
-  margin: 0 0 0.4em;
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  color: var(--md-link-color);
-}
-body:has(.trial-doc-marker) .accordion-body .f-label i {
-  font-size: 0.9em;
-  margin-right: 0.25em;
-  vertical-align: 0.05em;
-}
-body:has(.trial-doc-marker) .accordion-body .f-title {
-  margin: 0 0 0.35em;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-  color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
-}
-body:has(.trial-doc-marker) .accordion-body .f-spine {
-  margin: 0;
-  color: var(--md-default-fg-color--light);
-}
-body[data-md-color-scheme="slate"] .accordion-body .f-head {
-  background: rgba(77, 139, 204, 0.1);
-}
-body:has(.trial-doc-marker) .accordion-body .test-part ol {
-  margin: 0.8em 0 0;
-  padding-left: 1.3em;
-}
-body:has(.trial-doc-marker) .accordion-body .test-part ol li {
-  margin: 0.6em 0;
-  line-height: 1.8;
-  text-wrap: pretty;
-}
-body:has(.trial-doc-marker) .accordion-body .test-part ol li::marker {
-  color: var(--md-link-color);
-  font-weight: 700;
-}
-
-/* =========================================================
-   ミニ目次（judgement_2025 の長いアコーディオン冒頭）
-   開いた直後にリード文の下へ置き、各 .f-head へジャンプできるようにする。
-   本文の段落と紛れないよう、罫線なし・小さめ文字・矢印記号で「ナビ」だと分かるようにする。
-   ========================================================= */
-body:has(.trial-doc-marker) .accordion-body .f-jumpnav {
-  margin: 1.6em 0 3.4em;
-  padding: 0;
-  list-style: none;
-}
-body:has(.trial-doc-marker) .accordion-body .f-jumpnav li {
-  margin: 0.5em 0;
-  font-size: 13px;
-  line-height: 1.6;
-}
-body:has(.trial-doc-marker) .accordion-body .f-jumpnav a {
-  color: var(--md-link-color) !important;
-  text-decoration: none;
-  border-bottom: 1px solid var(--md-link-color-faint);
-}
-body:has(.trial-doc-marker) .accordion-body .f-jumpnav a:hover {
-  border-bottom-color: var(--md-link-color);
-}
-
 /* agm/index.md：対照表の直前に置く免責文（非公式メモである旨）。
    本文（16px）より一段小さく・グレーにして、太字の背骨主張と競合しないようにする。 */
 body:has(.trial-doc-marker) .disclaimer-note {
@@ -646,184 +402,26 @@ body:has(.trial-doc-marker) .qa-mark--eval {
   text-align: center;
 }
 
-
-/* =========================================================
-   照合ブロック（trial/index.md「高裁判決の根拠」。2026-09-21。旧称「判決文の答え合わせ」）
-   1つの照合＝1枚の .ac-card。中は必ず同じ順の段でできている：
-     判決の記述 → そのまま読むと → 記録を当てると →
-     （必要なら 反対からの読み方）→ 言えること／ここから先は言えない
-   段のラベルは CSS の擬似要素ではなく本文のテキストで書くこと。
-   このページはＡＩに読ませる読者が多く、擬似要素の文字は読み取られないため。
-   実文の引用は既存の .q-card、ＡＩ出力などの例文は .ex-card を流用する。
-   ========================================================= */
-body:has(.trial-doc-marker) .accordion-body .ac-card {
-  margin: 3.6em 0 0;
-  padding-top: 0.2em;
-  scroll-margin-top: 4.5rem; /* ミニ目次からのジャンプ時、固定ヘッダーに隠れないように */
-}
-/* 段のラベル（「そのまま読むと」「記録を当てると」）。
-   .f-title（16px 太字の青）より一段小さく、本文の段落と紛れない大きさにする。 */
-body:has(.trial-doc-marker) .accordion-body .ac-step {
-  margin: 2.4em 0 0.9em;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  color: var(--md-link-color) !important; /* .md-content p の !important 指定に対抗 */
-}
-body:has(.trial-doc-marker) .accordion-body .ac-step::before {
-  content: "";
-  display: inline-block;
-  width: 1.5em;
-  border-top: 1px solid var(--md-link-color-faint);
-  vertical-align: 0.32em;
-  margin-right: 0.6em;
-}
-/* 「反対からの読み方」＝こちら側に不利な読みを自分で置く段。
-   他の段と役割が違うことが見て分かるよう、色を落として破線にする。 */
-body:has(.trial-doc-marker) .accordion-body .ac-step-alt {
-  color: var(--md-default-fg-color--light) !important;
-}
-body:has(.trial-doc-marker) .accordion-body .ac-step-alt::before {
-  border-top-style: dashed;
-  border-top-color: var(--md-card-border);
-}
-/* 結論の対（言えること／ここから先は言えない）。必ず2つセットで置く。 */
-body:has(.trial-doc-marker) .accordion-body .ac-verdict {
-  margin: 2.4em 0 0;
-  border-left: 3px solid var(--md-link-color);
-  border-radius: 0 6px 6px 0;
-  background: rgba(0, 54, 130, 0.055);
-  padding: 1rem 1.2rem;
-}
-body[data-md-color-scheme="slate"] .accordion-body .ac-verdict {
-  background: rgba(77, 139, 204, 0.1);
-}
-body:has(.trial-doc-marker) .accordion-body .ac-verdict > p {
-  margin: 0;
-  line-height: 1.85;
-  text-wrap: pretty;
-}
-/* 2つ目（言えない側）は、1つ目と地続きに見えないよう破線で仕切り、色を落とす */
-body:has(.trial-doc-marker) .accordion-body .ac-nosay {
-  margin-top: 0.9rem !important;
-  padding-top: 0.9rem;
-  border-top: 1px dashed var(--md-card-border);
-  color: var(--md-default-fg-color--light) !important; /* .md-content p の !important 指定に対抗 */
-}
-body:has(.trial-doc-marker) .accordion-body .ac-vlabel {
-  display: block;
-  margin-bottom: 0.3em;
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  color: var(--md-link-color);
-}
-body:has(.trial-doc-marker) .accordion-body .ac-nosay .ac-vlabel {
-  color: var(--md-default-fg-color--light);
-}
-/* 「この欄の読み方」の凡例。チップ＋説明の2段組みにはせず、
-   チップを行頭に置いた1行にして、狭い画面でも折り返しで読めるようにする。 */
-body:has(.trial-doc-marker) .accordion-body .ac-legend {
-  margin: 1.6em 0 0;
-  padding: 0;
-  list-style: none;
-}
-body:has(.trial-doc-marker) .accordion-body .ac-legend li {
-  margin: 0.8em 0;
-  font-size: 13.5px;
-  line-height: 1.8;
-  text-wrap: pretty;
-}
-body:has(.trial-doc-marker) .accordion-body .ac-legend .ac-chip {
-  display: inline-block;
-  margin-right: 0.6em;
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  color: var(--md-link-color);
-  border: 1px solid var(--md-link-color-faint);
-  border-radius: 3px;
-  background: var(--md-typeset-bg-color);
-  padding: 0.05em 0.55em;
-  white-space: nowrap;
-}
-body:has(.trial-doc-marker) .accordion-body .ac-legend .ac-chip-alt {
-  color: var(--md-default-fg-color--light);
-  border-style: dashed;
-  border-color: var(--md-card-border);
-}
-
 /* 「高裁判決の根拠」の地の文：連続する段落のあいだを空ける（2026-09-21）。
    サイト共通の .md-content p は margin 0（行間 2.0 で読ませる作り）なので、
-   段落が続くと一続きの塊に見える。照合カードは1枚の中で話が何度も切り替わるため、
-   ここだけ段落の区切りを入れる。p + p なので、見出し・カードの直後の段落は動かない。
-   .q-card > p + p、.ac-verdict > p、.f-spine など、明示的に margin を持つものは
-   セレクタの詳細度が上なので影響を受けない。 */
+   段落が続くと一続きの塊に見える。p + p なので、見出し・カードの直後の段落は動かない。
+   .q-card > p + p など、明示的に margin を持つものはセレクタの詳細度が上なので影響を受けない。 */
 body:has(.trial-doc-marker) .accordion-body p + p {
   margin-top: 1.1em;
 }
 
-/* 行の中の「詳細」折りたたみ（2026-09-22）。
-   人が先に読む「答え」を短くして、根拠の細部（書面の引用・出典）は畳む。
-   Material の details（注記ボックス風）の装飾は、.doc-acc と同じ方法で打ち消す。
-   開閉の目印（＋／－）は飾りで、意味は summary の文字（本文）に持たせる。
-   #ac-3-2 のようなリンクで中の要素へ飛ぶと、doc-accordion.js の reveal() が親の details をすべて開く。 */
-.md-typeset details.ac-more {
-  background: none;
-  border: none;
-  border-top: 1px solid var(--md-card-border-soft);
-  border-radius: 0;
-  box-shadow: none !important;
-  margin: 3em 0 0 !important;
-  padding: 0 !important;
-  font-size: inherit;
-  overflow: visible;
-}
-.md-typeset details.ac-more > summary {
-  display: block;
-  margin: 0 !important;
-  padding: 0.9rem 0 !important;
-  border: none !important;
-  background: none !important;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.6;
-  color: var(--md-link-color) !important;
-  cursor: pointer;
-  list-style: none;
-}
-.md-typeset details.ac-more > summary::-webkit-details-marker { display: none; }
-.md-typeset details.ac-more > summary::after { display: none !important; }   /* Material の矢印 */
-.md-typeset details.ac-more > summary::before {
-  content: "＋";
-  display: inline-block !important;
-  position: static !important;
-  width: auto !important;
-  height: auto !important;
-  margin: 0 0.5em 0 0 !important;
-  background: none !important;
-  -webkit-mask: none !important;
-  mask: none !important;
-  color: inherit;
-}
-.md-typeset details.ac-more[open] > summary::before { content: "－"; }
-.md-typeset details.ac-more > summary:hover { text-decoration: underline; }
-.md-typeset details.ac-more > div { margin: 0; padding: 0; }
-
 /* 「高裁判決の根拠」の本文中のリンク（2026-09-22）。
    以前は、リンクの後ろに斜め上矢印のアイコン（<i class="bi bi-arrow-up-right">）を付けて目印にしていたが、
-   「読みにくい」との指摘で全部外し、下線に置き換えた（parts/bunseki-*.md の75か所）。
+   「読みにくい」との指摘で全部外し、下線に置き換えた。
    本文リンクの既定色は、本文と同じ黒に近い色（--md-typeset-a-color）で、矢印を外すとリンクと分からなくなるので、
-   リンク色（濃い青）＋薄い下線にする。目次（.f-jumpnav）とタイムラインの出典（.tl-src）は、
-   もともと薄い下線（border-bottom）を持つので除く（二重に引かない）。
-   引用の出典ラベル（.q-chip）の中は、ラベルの灰色のまま、下線だけ付ける。 */
-body:has(.trial-doc-marker) .accordion-body a[href]:not(.tl-src):not(.f-jumpnav a) {
+   リンク色（濃い青）＋薄い下線にする。 */
+body:has(.trial-doc-marker) .accordion-body a[href] {
   text-decoration: underline;
   text-decoration-color: var(--md-link-color-faint);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.22em;
-}
-body:has(.trial-doc-marker) .accordion-body a[href]:not(.tl-src):not(.f-jumpnav a):not(.q-chip a) {
   color: var(--md-link-color);
 }
-body:has(.trial-doc-marker) .accordion-body a[href]:not(.tl-src):not(.f-jumpnav a):hover {
+body:has(.trial-doc-marker) .accordion-body a[href]:hover {
   text-decoration-color: currentColor;
 }
