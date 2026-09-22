@@ -4,7 +4,7 @@
 
 ファイル名（scripts/add_pdf.py の付け方）から、区分・日付（または証拠番号）・書面名を読み取り、
 ページ数とファイルの大きさを調べて、静的なリンクの一覧にする。PDF へのリンクが、JavaScript を使わずに HTML にそのまま入るので、
-検索エンジンが PDF を見つけやすい。裁判文書ページ（提訴年ごとの trial/・trial2021/・trial2025/）に本文の行があるものには、「本文」のリンクも付く。
+検索エンジンが PDF を見つけやすい。裁判文書ページ（提訴年ごとの trial2026/・trial/・trial2021/）に本文の行があるものには、「本文」のリンクも付く。
 add_pdf.py は、PDF を足すたびに、これを自動で動かす。要 PyMuPDF。
 """
 import html
@@ -14,9 +14,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / "docs" / "pdf"
 TRIAL_PAGES = [  # (URLのパス, index.md) 「裁判文書公開」の各提訴年ページ。2026-09-22、複数年に分割したときに追加
+    ("../trial2026/", ROOT / "docs" / "trial2026" / "index.md"),
     ("../trial/", ROOT / "docs" / "trial" / "index.md"),
     ("../trial2021/", ROOT / "docs" / "trial2021" / "index.md"),
-    ("../trial2025/", ROOT / "docs" / "trial2025" / "index.md"),
 ]
 BASE = "https://minnanosaiban.github.io/eneos-hotline/"
 
