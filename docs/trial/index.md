@@ -65,7 +65,7 @@ hide:
 <div class="doc-rows" markdown>
 
 <details class="doc-acc" id="bunseki-senryaku" data-plain markdown>
-<summary>被告ＥＮＥＯＳの主張は、功を奏したか</summary>
+<summary>ＥＮＥＯＳの主張は、どこまで判決に採用されたか</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-senryaku.md"

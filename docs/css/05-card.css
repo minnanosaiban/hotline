@@ -104,6 +104,13 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+/* 行（.doc-acc）の中は、左右の余白を無くして、本文の端を行の端に揃える（2026-09-22）。
+   左は行のタイトル文字・見出しの縦線、右は区切り線の端。スマホ（≤767px）では、もともと無い（下の @media）。
+   入れ子のアコーディオン（.card-accordion）は、これまでどおり 1rem。 */
+.md-typeset .doc-acc .accordion-body {
+  padding-left: 0;
+  padding-right: 0;
+}
 /* アコーディオン同士が連続するときは margin02 相当の間隔より詰める */
 .md-typeset .card-accordion + .card-accordion {
   margin-top: 0.2rem !important;

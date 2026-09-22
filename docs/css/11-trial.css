@@ -807,3 +807,23 @@ body:has(.trial-doc-marker) .accordion-body p + p {
 .md-typeset details.ac-more[open] > summary::before { content: "－"; }
 .md-typeset details.ac-more > summary:hover { text-decoration: underline; }
 .md-typeset details.ac-more > div { margin: 0; padding: 0; }
+
+/* 「高裁判決の根拠」の本文中のリンク（2026-09-22）。
+   以前は、リンクの後ろに斜め上矢印のアイコン（<i class="bi bi-arrow-up-right">）を付けて目印にしていたが、
+   「読みにくい」との指摘で全部外し、下線に置き換えた（parts/bunseki-*.md の75か所）。
+   本文リンクの既定色は、本文と同じ黒に近い色（--md-typeset-a-color）で、矢印を外すとリンクと分からなくなるので、
+   リンク色（濃い青）＋薄い下線にする。目次（.f-jumpnav）とタイムラインの出典（.tl-src）は、
+   もともと薄い下線（border-bottom）を持つので除く（二重に引かない）。
+   引用の出典ラベル（.q-chip）の中は、ラベルの灰色のまま、下線だけ付ける。 */
+body:has(.trial-doc-marker) .accordion-body a[href]:not(.tl-src):not(.f-jumpnav a) {
+  text-decoration: underline;
+  text-decoration-color: var(--md-link-color-faint);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+body:has(.trial-doc-marker) .accordion-body a[href]:not(.tl-src):not(.f-jumpnav a):not(.q-chip a) {
+  color: var(--md-link-color);
+}
+body:has(.trial-doc-marker) .accordion-body a[href]:not(.tl-src):not(.f-jumpnav a):hover {
+  text-decoration-color: currentColor;
+}

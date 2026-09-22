@@ -15,12 +15,12 @@
 <p class="f-spine">認定されているのは「そう回答した」ことだけ——回答の中身は、記録のどこにもありません。</p>
 </div>
 
-認定事実の中では、「〜と回答した」という発言の記録と、「〜であった」という事実の記録が、同じ調子で並びます。たとえば判決には、会社が「税務アドバイザーを起用して検討を行った」と回答した、という記述があります（[認定事実ケ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-ke)）。ここで認定されているのは「そう回答した」ことだけで、相談が実際にあったことではありません（相談先・時期・内容は、記録のどこにも出てきません）。それでも読み手は、書かれていない中身を自分で補って読み進めます。
+認定事実の中では、「〜と回答した」という発言の記録と、「〜であった」という事実の記録が、同じ調子で並びます。たとえば判決には、会社が「税務アドバイザーを起用して検討を行った」と回答した、という記述があります（[認定事実ケ](#2025-kousai-judgment_nintei-ke)）。ここで認定されているのは「そう回答した」ことだけで、相談が実際にあったことではありません（相談先・時期・内容は、記録のどこにも出てきません）。それでも読み手は、書かれていない中身を自分で補って読み進めます。
 
 この「補い」は、実際に観察できます。この判決文だけを読ませたＡＩ（２０２６年８月）は、この箇所を次のように出力しました。
 
 <div class="q-card" markdown>
-<span class="q-chip">[高裁判決の認定事実ケ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-ke)</span>
+<span class="q-chip">[高裁判決の認定事実ケ](#2025-kousai-judgment_nintei-ke)</span>
 
 ……そのために税務アドバイザーを起用して検討を行ったことは対応として誤りではない……**などと回答する**とともに……
 </div>
@@ -51,13 +51,13 @@
 判決は「被控訴人は……令和２年６月までにその点の事実調査をし、その結果を控訴人に伝えている」と書きます。事実として誤りではありません。ただ、この一文に畳み込まれた半年の経緯は、判決自身の認定事実に記録されています。そして、経緯を畳んだ一文だけを読むことにより、会社の対応は自然で速やかに見えます。
 
 <ul class="tl-c">
-<li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答</span></li>
+<li class="tl-ev"><span class="tl-date">令和元年１２月２０日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ</a></span><span class="tl-body">契約書は<span class="tl-quote">「結論に関係がないので調べることはしない」</span>と回答</span></li>
 <li class="tl-gap">約１か月</li>
-<li class="tl-ev"><span class="tl-date">令和２年１月２３日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body"><span class="tl-quote">「これ以上調査する必要を認めない」</span>と調査打ち切り</span></li>
+<li class="tl-ev"><span class="tl-date">令和２年１月２３日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ke">認定事実ケ</a></span><span class="tl-body"><span class="tl-quote">「これ以上調査する必要を認めない」</span>と調査打ち切り</span></li>
 <li class="tl-gap">約２か月</li>
-<li class="tl-ev"><span class="tl-date">令和２年３月２７日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ko">認定事実コ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">通報者が社内ＳＮＳ「社長・太田さんの輪」に投稿</span></li>
+<li class="tl-ev"><span class="tl-date">令和２年３月２７日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-ko">認定事実コ</a></span><span class="tl-body">通報者が社内ＳＮＳ「社長・太田さんの輪」に投稿</span></li>
 <li class="tl-gap">約３か月</li>
-<li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ <i class="bi bi-arrow-up-right"></i></a></span><span class="tl-body">投稿への回答として<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span></span></li>
+<li class="tl-ev"><span class="tl-date">令和２年６月２５日</span><span class="tl-srcs"><a class="tl-src" href="#2025-kousai-judgment_nintei-sa">認定事実サ</a></span><span class="tl-body">投稿への回答として<span class="tl-quote">「今回改めて……契約書についても入手し、調査を行った」</span></span></li>
 </ul>
 
 
@@ -75,16 +75,16 @@
 認定事実の中で、通報者の行動はこう書かれています。
 
 <div class="q-card" markdown>
-<span class="q-chip">[高裁判決の認定事実キ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_ninteiki)</span>
+<span class="q-chip">[高裁判決の認定事実キ](#2025-kousai-judgment_ninteiki)</span>
 
 ……メールを**繰り返し**送信するなどし、**最終的に、自ら**……など**３０項目**……に分けて整理したパワーポイント資料を作成し、これを法務２グループ調査補助者に**送付するなどした**。
 </div>
 
 動詞は、受け取る法務グループの側から、届いたもの・負担として書かれています。「繰り返し」「３０項目」という量の言葉に、「自ら」の一語が「頼まれてもいないのに」という響きを加えます。「３０項目」には分母がありません——この資料が扱う経緯は約１年１０か月・複数論点にまたがり、分母を置けば月あたり１〜２項目という普通のペースです。
 
-ただ、この資料の正体は判決自身が記録しています。判決はこれを「**『通報情報に関する事実』を……整理したパワーポイント資料**」と呼び（[認定事実キ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_ninteiki)）、会社もこの３０項目を一つずつ調査して「**いずれも不正行為等に該当しない**」という結果を示しました（[認定事実ク <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-ku)）。同じ行為を作り手の側から書けば、「調査を求める事実を、調査できる形に整理して渡した」——規程２．５⑵（照会への協力義務）の履行そのものです。
+ただ、この資料の正体は判決自身が記録しています。判決はこれを「**『通報情報に関する事実』を……整理したパワーポイント資料**」と呼び（[認定事実キ](#2025-kousai-judgment_ninteiki)）、会社もこの３０項目を一つずつ調査して「**いずれも不正行為等に該当しない**」という結果を示しました（[認定事実ク](#2025-kousai-judgment_nintei-ku)）。同じ行為を作り手の側から書けば、「調査を求める事実を、調査できる形に整理して渡した」——規程２．５⑵（照会への協力義務）の履行そのものです。
 
-なぜ、説明は量を要したのか。正式な通知にあたる本件調査報告は、過去の経緯についての問合せに「**回答を差し控える**」としました（[認定事実エ <i class="bi bi-arrow-up-right"></i>](#2025-kousai-judgment_nintei-e)）。一方、詳しい情報が書かれていた本件メールは、部長を宛先とし通報者をＣＣに入れる社内メールで、被告自身が後の訴訟で「**本件通報に関して通知又は情報共有をしたわけではない**」と位置づけています（[被告準備書面（５） <i class="bi bi-arrow-up-right"></i>](#hikoku5_224u)）。正式な通知には中身がなく、中身のある文書は正式な通知ではない——通報者の手元に残るのは曖昧な情報だけです。その状態で追加通報をするには、経緯を自分で整理して説明するほかありません。「繰り返し」「３０項目」「自ら」は、その帰結を受け取る側から記録した姿です。
+なぜ、説明は量を要したのか。正式な通知にあたる本件調査報告は、過去の経緯についての問合せに「**回答を差し控える**」としました（[認定事実エ](#2025-kousai-judgment_nintei-e)）。一方、詳しい情報が書かれていた本件メールは、部長を宛先とし通報者をＣＣに入れる社内メールで、被告自身が後の訴訟で「**本件通報に関して通知又は情報共有をしたわけではない**」と位置づけています（[被告準備書面（５）](#hikoku5_224u)）。正式な通知には中身がなく、中身のある文書は正式な通知ではない——通報者の手元に残るのは曖昧な情報だけです。その状態で追加通報をするには、経緯を自分で整理して説明するほかありません。「繰り返し」「３０項目」「自ら」は、その帰結を受け取る側から記録した姿です。
 
 
 <div class="ac-verdict" markdown>
@@ -101,7 +101,7 @@
 
 <p class="smallest">検証は２０２６年７月２９日・３０日・８月１日・２日の複数回、複数の入力条件で実施しました。使用したプロンプト・出力全文の記録は、請求に応じて開示します。</p>
 
-その土台（「是正は済んだ」）自体、判決が引用する会社の報告は「**還付可能であることを確認している**」ＧＳＴの還付（[前提事実⑶ <i class="bi bi-arrow-up-right"></i>](#2025-tisai-judgment_zentei-3)）という自己限定の形で書かれており、豪州当局の還付通知のような外部の裏づけは記録上どこにも現れていません。それでも、判決文と規程だけを読んだＡＩは、この土台を確定事実に書き換えたうえで、通報対応の実務マニュアルとして次のような表現を使いました（同じ資料の異なる箇所より）。
+その土台（「是正は済んだ」）自体、判決が引用する会社の報告は「**還付可能であることを確認している**」ＧＳＴの還付（[前提事実⑶](#2025-tisai-judgment_zentei-3)）という自己限定の形で書かれており、豪州当局の還付通知のような外部の裏づけは記録上どこにも現れていません。それでも、判決文と規程だけを読んだＡＩは、この土台を確定事実に書き換えたうえで、通報対応の実務マニュアルとして次のような表現を使いました（同じ資料の異なる箇所より）。
 
 <div class="ex-card" markdown>
 <span class="ex-chip">判決文＋規程のみを読ませたＡＩの出力（２０２６年８月）</span>
