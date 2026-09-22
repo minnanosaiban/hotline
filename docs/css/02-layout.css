@@ -97,6 +97,51 @@
     text-underline-offset: 8px !important;
   }
 }
+/* タブのドロップダウン（「裁判文書公開」等、子ページが複数あるタブ）。
+   Zensical の既定テンプレートは子が複数あっても最初の1件しかタブバーに出さないため、
+   overrides/partials/tabs-item.html で子が2件以上のときだけ描く分岐を追加した。
+   見た目は .dmdmenu（14-doc-accordion.css。書面の .md/.pdf ボタンのメニュー）と同じ部品を流用し、
+   サイト内で「小さな浮き出るメニュー」の見た目を統一する。 */
+.md-tabs__item--dropdown {
+  position: relative;
+}
+.md-tabs__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  min-width: 9.5rem;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-card-border);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+.md-tabs__item--dropdown:hover .md-tabs__dropdown,
+.md-tabs__item--dropdown:focus-within .md-tabs__dropdown {
+  display: block;
+}
+.md-tabs__dropdown-link {
+  display: block;
+  padding: 7px 10px;
+  font-size: 0.7rem;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none !important;
+  border-radius: 7px;
+  white-space: nowrap;
+}
+.md-tabs__dropdown-link:hover,
+.md-tabs__dropdown-link--active {
+  background: var(--surface-gray);
+  color: var(--md-main-color) !important;
+}
+/* モバイル（タブが常時表示のスクロールバーになる幅）は :hover が働かないため、
+   タップでそのままタブの先頭ページ（2021年提訴）へ飛ぶ。他の2件へは各ページ冒頭の
+   相互リンク（.trial-year-nav）から移動する。 */
+
 /* 縦スクロールバー */
 .md-sidebar__inner {
   overflow: hidden;
