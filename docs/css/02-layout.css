@@ -123,6 +123,26 @@
 .md-sidebar--secondary {
   display: none !important;
 }
+/* トップへ戻るボタン（navigation.top）。既定は画面上部中央に固定表示され、
+   スクロールアップ中は本文の行に重なって読めなくなる（2026-09-22、ユーザーがスクリーンショットで指摘：「画面が崩れました」）。
+   本文の列（32rem〜40rem、中央寄せ）とは重ならない画面右下の固定ボタンに変える。 */
+.md-top {
+  top: auto !important;
+  bottom: 1.5rem !important;
+  left: auto !important;
+  right: 1rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  transform: none !important;
+}
+.md-top[hidden] {
+  transform: translateY(0.4rem) !important;
+}
+@media only screen and (max-width: 767px) {
+  .md-top {
+    right: 0.75rem !important;
+  }
+}
 /* フッター余白 */
 .md-footer {
   margin-top: 8rem;
