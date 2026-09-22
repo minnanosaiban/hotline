@@ -53,7 +53,7 @@ hide:
 </p>
 
 <p class="width-40 margin02">
-理由１・理由２は、いずれも法令等に違反する事実自体がなかったという構成になっており、<b>控訴審で先鋭化された通知義務の要否という争点は、その前提を欠くとして実質的に検討されないまま終わりました</b>。
+理由１・理由２は、いずれも法令等に違反する事実自体がなかったという構成になっており、<b>控訴審で先鋭化された通知義務の要否という争点は、その前提を欠くとして実質的に検討されないまま終わりました</b>。なお、ここでの「法令等」とは、契約も含みます。
 </p>
 
 <p class="width-40 margin02">
@@ -68,26 +68,8 @@ hide:
 
 <div class="doc-rows" markdown>
 
-<details class="doc-acc" id="bunseki-saiyo" data-plain markdown>
-<summary>ＥＮＥＯＳ側はどのような主張をして、何が高裁に認められたのか</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-saiyo.md"
-
-</div>
-</details>
-
-<details class="doc-acc" id="bunseki-teigi" data-plain markdown>
-<summary>高裁判決がいう「通報者が通知を受けるため必要とされる通報」とは</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-teigi.md"
-
-</div>
-</details>
-
 <details class="doc-acc" id="bunseki-nakatta" data-plain markdown>
-<summary>「契約書の問題を指摘する通報は、そもそも無かった」とされたのは、なぜか</summary>
+<summary>契約書の問題を指摘する通報は、そもそも無かった、とは。</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-nakatta.md"
@@ -96,7 +78,7 @@ hide:
 </details>
 
 <details class="doc-acc" id="bunseki-goui" data-plain markdown>
-<summary>「海外消費税を支払う合意」をしていたと推認されたのは、なぜか</summary>
+<summary>「海外消費税を支払う合意」をしていたと推認できる、とは。</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/bunseki-goui.md"
