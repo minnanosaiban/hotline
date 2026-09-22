@@ -9,6 +9,7 @@
  *           hotline 形式（:N X#id: マーカー、またはそれを焼き込んだ <p class="padN …"> 段落）の本文は平文の Markdown に戻す。
  *           サイドノート作成ツールの「ウェブ用」書き出しはそのまま。
  *  - 要約 … data-summary があれば有効（ポップアップ）。無ければグレー
+ *  - data-no-md … .pdf・要約は出すが、.md のアイコン自体を出さない（原文にこちらの注記を書き足した書面など）
  *  - #アンカー（書面の中の <a name> や書面id）で開いたとき、閉じている書面を開いてその位置へ移動する
  *  - サイドノート（段落の直後の <aside>）を、注番号 <sup>N</sup> の直後へ移して、参照している行と揃える
  */
@@ -131,7 +132,8 @@
     var pdfBtn = pdf
       ? '<a class="dbtn pdf" href="' + esc(pdf) + '" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>.pdf</a>'
       : '<span class="dbtn off"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>.pdf</span>';
-    var mdBtn = d.getAttribute('data-md')
+    // data-no-md: .pdf・要約は出すが、.md（コピー／ダウンロード）のアイコン自体を出さない
+    var mdBtn = d.hasAttribute('data-no-md') ? '' : d.getAttribute('data-md')
       ? '<span class="dmdwrap"><button type="button" class="dbtn" data-mdtoggle><i class="bi bi-clipboard" aria-hidden="true"></i>.md</button>' +
         '<span class="dmdmenu" hidden>' +
         '<button type="button" data-mdcopy><i class="bi bi-clipboard" aria-hidden="true"></i>コピーする</button>' +
