@@ -32,12 +32,14 @@ hide:
 
 <div class="toc-wrap doc-list" markdown>
 
-<p class="doc-lead">全26件・合計 19.9MB。PDF には文字情報が入っていて、検索やコピーができます。</p>
+<p class="doc-lead">全28件・合計 21.9MB。PDF には文字情報が入っていて、検索やコピーができます。</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
 <div class="doc-rows" markdown>
 
+<div class="pdf-row"><a class="pdf-main" href="ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2022年12月22日_東京地裁判決文.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> <span class="doc-title">東京地裁判決文</span></a><span class="doc-date">2022年12月22日</span><span class="doc-note">35ページ・1.7MB</span><a class="dbtn" href="../trial2021/#tisai2021">本文</a></div>
+<div class="pdf-row"><a class="pdf-main" href="ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2023年06月15日_東京高裁判決文.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> <span class="doc-title">東京高裁判決文</span></a><span class="doc-date">2023年06月15日</span><span class="doc-note">4ページ・278KB</span><a class="dbtn" href="../trial2021/#kousai2021">本文</a></div>
 <div class="pdf-row"><a class="pdf-main" href="ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2025年03月31日_東京地裁判決文.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> <span class="doc-title">東京地裁判決文</span></a><span class="doc-date">2025年03月31日</span><span class="doc-note">14ページ・1.5MB</span><a class="dbtn" href="../trial/#tisai">本文</a></div>
 <div class="pdf-row"><a class="pdf-main" href="ENEOS（エネオス）の内部通報制度をめぐる訴訟について――裁判所_2025年09月09日_東京高裁判決文.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> <span class="doc-title">東京高裁判決文</span></a><span class="doc-date">2025年09月09日</span><span class="doc-note">23ページ・1.7MB</span><a class="dbtn" href="../trial/#kousai">本文</a></div>
 

@@ -4,7 +4,7 @@
 
 ファイル名（scripts/add_pdf.py の付け方）から、区分・日付（または証拠番号）・書面名を読み取り、
 ページ数とファイルの大きさを調べて、静的なリンクの一覧にする。PDF へのリンクが、JavaScript を使わずに HTML にそのまま入るので、
-検索エンジンが PDF を見つけやすい。裁判文書ページ（docs/trial/index.md）に本文の行があるものには、「本文」のリンクも付く。
+検索エンジンが PDF を見つけやすい。裁判文書ページ（提訴年ごとの trial/・trial2021/・trial2025/）に本文の行があるものには、「本文」のリンクも付く。
 add_pdf.py は、PDF を足すたびに、これを自動で動かす。要 PyMuPDF。
 """
 import html
@@ -13,7 +13,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / "docs" / "pdf"
-TRIAL = ROOT / "docs" / "trial" / "index.md"
+TRIAL_PAGES = [  # (URLのパス, index.md) 「裁判文書公開」の各提訴年ページ。2026-09-22、複数年に分割したときに追加
+    ("../trial/", ROOT / "docs" / "trial" / "index.md"),
+    ("../trial2021/", ROOT / "docs" / "trial2021" / "index.md"),
+    ("../trial2025/", ROOT / "docs" / "trial2025" / "index.md"),
+]
 BASE = "https://minnanosaiban.github.io/eneos-hotline/"
 
 NAME = re.compile(r"^(?P<site>.+?)――(?P<side>ENEOS側|通報者側|裁判所)_(?P<label>\d{4}年\d{2}月\d{2}日|[甲乙]\d+(?:-\d+)?)_(?P<title>.+)$")
@@ -35,11 +39,15 @@ def _exhibit_key(label):
 
 
 def _text_rows():
-    """裁判文書ページの本文の行: PDF のファイル名 → 行の id"""
-    if not TRIAL.exists():
-        return {}
-    t = TRIAL.read_text(encoding="utf-8")
-    return {name: id_ for id_, name in re.findall(r'id="([a-z0-9-]+)" data-md="[^"]*" data-pdf="\.\./pdf/([^"]+)"', t)}
+    """裁判文書ページ（提訴年ごとに複数）の本文の行: PDF のファイル名 → (ページのURL, 行の id)"""
+    rows = {}
+    for url, path in TRIAL_PAGES:
+        if not path.exists():
+            continue
+        t = path.read_text(encoding="utf-8")
+        for id_, name in re.findall(r'id="([a-z0-9-]+)" data-md="[^"]*" data-pdf="\.\./pdf/([^"]+)"', t):
+            rows[name] = (url, id_)
+    return rows
 
 
 def collect():
@@ -106,7 +114,10 @@ hide:
             name = html.escape(i["file"], quote=True)
             head = f'{html.escape(i["label"])}　{title}' if exhibit else title
             date = "" if exhibit else f'<span class="doc-date">{html.escape(i["label"])}</span>'
-            link = f'<a class="dbtn" href="../trial/#{text_rows[i["file"]]}">本文</a>' if i["file"] in text_rows else ""
+            link = ""
+            if i["file"] in text_rows:
+                trial_url, row_id = text_rows[i["file"]]
+                link = f'<a class="dbtn" href="{trial_url}#{row_id}">本文</a>'
             out.append(
                 f'<div class="pdf-row"><a class="pdf-main" href="{name}" target="_blank" rel="noopener">'
                 f'<i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> <span class="doc-title">{head}</span></a>'
