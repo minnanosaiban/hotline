@@ -1,0 +1,62 @@
+{#-
+  Zensical の既定テンプレート（zensical/templates/partials/tabs-item.html）を上書き。
+  既定は、タブに子ページが複数あっても最初の1件（index優先）だけをリンクにし、残りは
+  タブバーから消えてしまう（トップの<li>を1つ作るだけで、子の一覧は描かない）。
+  「裁判文書公開」タブの下に「2021年提訴／2024年提訴／2025年提訴」を並べるため、
+  子が2件以上あるときだけ Bootstrap 風のドロップダウン（.md-tabs__item--dropdown）を描く分岐を追加した
+  （CSS は docs/css/02-layout.css「タブのドロップダウン」）。子が1件だけの既存タブ（Home／株主総会質疑応答）は
+  従来どおり子なしと同じ見た目になる（このファイルを上書きする前の挙動のまま）。
+-#}
+{% macro render_content(nav_item, ref) %}
+  {% set ref = ref or nav_item %}
+  {{ ref.title or nav_item.title }}
+{% endmacro %}
+{% macro render(nav_item, ref) %}
+  {% set ref = ref or nav_item %}
+  {% set class = "md-tabs__item" %}
+  {% if ref.active %}
+    {% set class = class ~ " md-tabs__item--active" %}
+  {% endif %}
+  {% if nav_item.children %}
+    {% set _ = namespace(index = none) %}
+      {% if "navigation.indexes" in features %}
+      {% for item in nav_item.children %}
+        {% if item.is_index and _.index is none %}
+          {% set _.index = item %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% set index = _.index %}
+    {% set first = index or nav_item.children | first %}
+    {% if first.children %}
+      {{ render(first, ref) }}
+    {% elif nav_item.children | length > 1 %}
+      <li class="{{ class }} md-tabs__item--dropdown">
+        <a href="{{ first.url | url }}" class="md-tabs__link">
+          {{ render_content(first, ref) }}
+        </a>
+        <ul class="md-tabs__dropdown">
+          {% for child in nav_item.children %}
+            <li>
+              <a href="{{ child.url | url }}" class="md-tabs__dropdown-link{% if child.active %} md-tabs__dropdown-link--active{% endif %}">
+                {{ child.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% else %}
+      <li class="{{ class }}">
+        <a href="{{ first.url | url }}" class="md-tabs__link">
+          {{ render_content(first, ref) }}
+        </a>
+      </li>
+    {% endif %}
+  {% else %}
+    <li class="{{ class }}">
+      <a href="{{ nav_item.url | url }}" class="md-tabs__link">
+        {{ render_content(nav_item) }}
+      </a>
+    </li>
+  {% endif %}
+{% endmacro %}
