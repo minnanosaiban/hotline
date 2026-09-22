@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
 // （ホバーだけだと、タップ操作やホバーせずクリックした場合に「ドロップダウンが無い」ように見えるため）。
 // 開いた状態は is-open クラスで表す。トリガーの <a href> はそのまま残してあるので、
 // このスクリプトが読み込まれない場合は先頭の子ページへの通常のリンクとして動く。
+// .md-tabs__dropdown は position:fixed にしてあり、開くたびにトリガーの位置から
+// top/left をここで計算してインライン style に置く（02-layout.css のコメント参照。
+// .md-tabs__list の overflow:auto が横スクロール用に必要で、CSSの仕様上それがあると
+// 縦方向も自動でクリップされてしまうため、absolute のままでは祖先の overflow から
+// 逃れられなかった。fixed + JS計算なら祖先の影響を受けず、画面右端からのはみ出しも防げる）。
 document.addEventListener("DOMContentLoaded", function () {
   var items = document.querySelectorAll(".md-tabs__item--dropdown");
   if (!items.length) return;
@@ -53,13 +58,30 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  function place(item, trigger) {
+    var dd = item.querySelector(".md-tabs__dropdown");
+    if (!dd) return;
+    var r = trigger.getBoundingClientRect();
+    var margin = 8;
+    var left = Math.min(r.left, window.innerWidth - dd.offsetWidth - margin);
+    left = Math.max(margin, left);
+    dd.style.top = Math.round(r.bottom + 10) + "px";
+    dd.style.left = Math.round(left) + "px";
+  }
+
   items.forEach(function (item) {
     var trigger = item.querySelector(".md-tabs__link--dropdown");
     if (!trigger) return;
-    trigger.addEventListener("click", function (e) {
+    // リスナーは <li> 全体に付ける（<a> だけだと、スマホでタップした位置が少しでも
+    // ずれると外れて反応しないことがあった。2026-09-22、実機で発覚）。
+    // ただし開いたあとの中の項目（.md-tabs__dropdown 内）のクリックは、開閉に関与させず
+    // 通常のリンク遷移に任せる。
+    item.addEventListener("click", function (e) {
+      if (e.target.closest(".md-tabs__dropdown")) return;
       e.preventDefault();
       var open = item.classList.toggle("is-open");
       trigger.setAttribute("aria-expanded", String(open));
+      if (open) place(item, trigger);
       closeAll(item);
     });
   });

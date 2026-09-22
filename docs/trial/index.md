@@ -29,7 +29,7 @@ hide:
 </p>
 
 <p class="trial-year-nav width-40" markdown>
-<a href="../trial2021/">2021年提訴</a>　<b>2024年提訴</b>　<a href="../trial2025/">2025年提訴</a>
+<a href="../trial2026/">2026年提訴</a>　<b>2024年提訴</b>　<a href="../trial2021/">2021年提訴</a>
 </p>
 
 <div class="toc-wrap doc-list" markdown>
@@ -340,21 +340,6 @@ hide:
 <div class="doc-body" markdown>
 
 --8<-- "parts/horei-cg-code.md"
-
-</div>
-</details>
-
-</div>
-
-<p class="t-toc-head bar-title doc-side">表示確認用（見本・削除可）</p>
-
-<div class="doc-rows" markdown>
-
-<details class="doc-acc" id="sample-web" data-md="md/sample-web.md.txt" data-summary="サイドノート作成ツールの「ウェブ用」書き出しをそのまま置いた場合の見え方を確かめる見本です。要約ポップアップの表示確認も兼ねています。" markdown>
-<summary>サイドノート表示の見本（ウェブ用書き出し形式）</summary>
-<div class="doc-body" markdown>
-
---8<-- "docs/trial/md/sample-web.md.txt"
 
 </div>
 </details>
