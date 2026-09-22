@@ -32,7 +32,7 @@ hide:
 
 <div class="toc-wrap doc-list" markdown>
 
-<p class="doc-lead">全28件・合計 21.9MB。PDF には文字情報が入っていて、検索やコピーができます。</p>
+<p class="doc-lead">全29件・合計 22.3MB。PDF には文字情報が入っていて、検索やコピーができます。</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
@@ -80,6 +80,14 @@ hide:
 
 <div class="doc-rows" markdown>
 
+
+</div>
+
+<p class="t-toc-head bar-title doc-side">関係法令・規程、証拠</p>
+
+<div class="doc-rows" markdown>
+
+<div class="pdf-row"><a class="pdf-main" href="ENEOS（エネオス）の内部通報制度をめぐる訴訟について――関係法令等_2017年09月01日_公益通報ハンドブック２１頁.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> <span class="doc-title">公益通報ハンドブック２１頁</span></a><span class="doc-date">2017年09月01日</span><span class="doc-note">1ページ・391KB</span></div>
 
 </div>
 
