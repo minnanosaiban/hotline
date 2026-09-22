@@ -127,15 +127,6 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="bunseki-horei" data-plain markdown>
-<summary>関係法令・規程</summary>
-<div class="doc-body" markdown>
-
---8<-- "parts/bunseki-horei.md"
-
-</div>
-</details>
-
 <details class="doc-acc" id="bunseki-zenbun" data-plain markdown>
 <summary>判決文の全文</summary>
 <div class="doc-body" markdown>
@@ -339,6 +330,48 @@ hide:
 <div class="doc-body" markdown>
 
 --8<-- "docs/trial/md/hoju2.md.txt"
+
+</div>
+</details>
+
+</div>
+
+<p class="t-toc-head bar-title doc-side">関係法令・規程、証拠</p>
+
+<div class="doc-rows" markdown>
+
+<details class="doc-acc" id="horei-shishin" data-plain markdown>
+<summary>公益通報者保護法に基づく指針（令和３年内閣府告示第１１８号）の解説</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/horei-shishin-kaisetsu.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="horei-handbook" data-plain markdown>
+<summary>公益通報ハンドブック　改正法（令和４年６月施行）準拠版</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/horei-handbook.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="horei-kitei" data-plain markdown>
+<summary>ＥＮＥＯＳ　コンプライアンスホットライン規程</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/horei-hotline-kitei.md"
+
+</div>
+</details>
+
+<details class="doc-acc" id="horei-cg-code" data-plain markdown>
+<summary>東京証券取引所　コーポレートガバナンスコード</summary>
+<div class="doc-body" markdown>
+
+--8<-- "parts/horei-cg-code.md"
 
 </div>
 </details>
