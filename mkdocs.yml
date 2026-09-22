@@ -68,7 +68,6 @@ theme:
     - navigation.tabs # タブ形式のナビゲーション
     - navigation.tabs.sticky # タブ形式のナビゲーションをスクロールしても上部に固定
     - navigation.expand # ナビゲーションメニューを最初からすべて展開
-    - navigation.top # トップへ戻るボタン
     - navigation.indexes # index.md を含むディレクトリをナビゲーションの親として扱う
     - navigation.expand # ナビゲーションメニューを最初からすべて展開
     - navigation.sections # 折りたたまずに全てフラットに表示
