@@ -36,60 +36,28 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("hashchange", openDetailsFromHash);
 });
 
-// タブのドロップダウン（「裁判文書公開」等）。ホバーではなくクリックで開閉する
-// （ホバーだけだと、タップ操作やホバーせずクリックした場合に「ドロップダウンが無い」ように見えるため）。
-// 開いた状態は is-open クラスで表す。トリガーの <a href> はそのまま残してあるので、
-// このスクリプトが読み込まれない場合は先頭の子ページへの通常のリンクとして動く。
-// .md-tabs__dropdown は position:fixed にしてあり、開くたびにトリガーの位置から
-// top/left をここで計算してインライン style に置く（02-layout.css のコメント参照。
-// .md-tabs__list の overflow:auto が横スクロール用に必要で、CSSの仕様上それがあると
-// 縦方向も自動でクリップされてしまうため、absolute のままでは祖先の overflow から
-// 逃れられなかった。fixed + JS計算なら祖先の影響を受けず、画面右端からのはみ出しも防げる）。
+// タブのドロップダウン（「裁判文書公開」等）。開閉そのものはネイティブの
+// <details>/<summary>（overrides/partials/tabs-item.html）がブラウザの機能として行うので、
+// このJSはあくまで補助（他のドロップダウンが開いていたら閉じる／外側クリックで閉じる）。
+// 独自クリック処理で開閉させていた前の版は、開発機では動いたがユーザーの実機Chromeでは
+// 反応しなかった（原因不明）ため、確実に動くネイティブな仕組みに切り替えた（2026-09-22）。
+// この補助JSが万一効かなくても、開閉・ページ遷移という核心の機能には影響しない。
 document.addEventListener("DOMContentLoaded", function () {
-  var items = document.querySelectorAll(".md-tabs__item--dropdown");
-  if (!items.length) return;
+  var details = document.querySelectorAll(".md-tabs__dropdown-details");
+  if (!details.length) return;
 
-  function closeAll(except) {
-    items.forEach(function (item) {
-      if (item === except) return;
-      item.classList.remove("is-open");
-      var a = item.querySelector(".md-tabs__link--dropdown");
-      if (a) a.setAttribute("aria-expanded", "false");
-    });
-  }
-
-  function place(item, trigger) {
-    var dd = item.querySelector(".md-tabs__dropdown");
-    if (!dd) return;
-    var r = trigger.getBoundingClientRect();
-    var margin = 8;
-    var left = Math.min(r.left, window.innerWidth - dd.offsetWidth - margin);
-    left = Math.max(margin, left);
-    dd.style.top = Math.round(r.bottom + 10) + "px";
-    dd.style.left = Math.round(left) + "px";
-  }
-
-  items.forEach(function (item) {
-    var trigger = item.querySelector(".md-tabs__link--dropdown");
-    if (!trigger) return;
-    // リスナーはトリガーの <a> 自体に付ける。一度 <li> 全体に付け替えたが、
-    // iOS Safari は非アンカー要素（li/div）のclickイベントが確実に発火しない既知の癖があり、
-    // それがユーザーのスマホで直っていなかった実際の原因だった（2026-09-22）。
-    // 当たり判定の狭さ（前回の不具合の原因）は、<a> 自体を親<li>いっぱいに広げて
-    // 解決済み（02-layout.css の .md-tabs__link--dropdown）。
-    trigger.addEventListener("click", function (e) {
-      e.preventDefault();
-      var open = item.classList.toggle("is-open");
-      trigger.setAttribute("aria-expanded", String(open));
-      if (open) place(item, trigger);
-      closeAll(item);
+  details.forEach(function (d) {
+    d.addEventListener("toggle", function () {
+      if (!d.open) return;
+      details.forEach(function (other) {
+        if (other !== d) other.open = false;
+      });
     });
   });
 
   document.addEventListener("click", function (e) {
-    if (!e.target.closest(".md-tabs__item--dropdown")) closeAll();
-  });
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closeAll();
+    details.forEach(function (d) {
+      if (d.open && !d.contains(e.target)) d.open = false;
+    });
   });
 });

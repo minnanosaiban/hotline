@@ -100,36 +100,43 @@
 /* タブのドロップダウン（「裁判文書公開」等、子ページが複数あるタブ）。
    Zensical の既定テンプレートは子が複数あっても最初の1件しかタブバーに出さないため、
    overrides/partials/tabs-item.html で子が2件以上のときだけ描く分岐を追加した。
-   開閉はホバーではなくクリック（docs/js/custom.js が .md-tabs__item--dropdown に
-   is-open クラスを付け外しする）。ホバーだけだと、タップしたときや、ホバーせずクリックした
-   ときに「ドロップダウンが無い」ように見えてしまうため（2026-09-22、ユーザー指摘）。
-   見た目は簡素な吹き出し（白い角丸の箱＋上端に三角のつまみ）にする。
-   位置は position:absolute ではなく position:fixed にし、開くたびに custom.js が
-   トリガーの位置から top/left を計算してインライン style で置く。
-   理由（2026-09-22、スマホ実機で発覚）: Zensical既定の .md-tabs__list は横スクロール用に
-   overflow-x:auto を持つが、CSSの仕様上「x が visible でなければ y も auto 扱いになる」ため、
-   overflow-yだけvisibleに上書きしても効かず、ドロップダウンが縦方向にクリップされて消えていた。
-   さらに absolute のままだと、画面の狭いスマホでは箱の右端が画面外にはみ出すことがあった。
-   fixed + JS計算なら、祖先のoverflowに影響されず、画面内に収まる位置へ自分で調整できる。 */
-/* トリガー<a>の当たり判定が文字部分(実測 100x18px)だけで、タブ行全体(124x48px)より
-   ずっと狭かった（2026-09-22、実機で「効かない」と再度の指摘。ユーザーのスマホでは
-   直っていなかった）。<li>にリスナーを付け替える案も試したが、iOS Safariは
-   非アンカー要素（li/div）のclickイベントが確実に発火しない既知の癖があるため、
-   代わりに<a>自体を親<li>いっぱいに広げて当たり判定を一致させた。
-   最初 position:absolute; inset:0 で試したが、それだと<a>が通常の流れから外れて
-   <li>の幅の計算に寄与しなくなり、<li>（延いてはタブ行全体）が潰れて隣のタブと
-   文字が重なる事故になった（2026-09-22、実機スクショで発覚）。
-   そこで absolute はやめ、既定の .md-tabs__item が持つ高さ(2.4rem)とパディング
-   (左右.6rem＝Material既定値, main.css で確認済み)を <li> から <a> 側へそのまま移し、
-   <a> を height:100%・横は通常のflowのままにして、<li>の幅の計算は今までどおり
-   <a>の中身（文字＋アイコン＋パディング）に任せている。 */
+   2026-09-22: 独自クリックJSでの開閉は、開発機では動いたがユーザーの実機Chromeでは
+   反応しなかった（原因不明。拡張機能・シークレットウィンドウでも再現）。
+   原因を特定できないまま何度も直すよりも確実な方法へ、と判断し、
+   このサイトの書面一覧などで実績のある `<details>/<summary>`（ブラウザが開閉を担う、
+   JS不要のネイティブな仕組み）に作り直した。custom.js は「他が開いていたら閉じる」等の
+   補助のみで、開閉そのものには関与しない（そのJSが効かなくても核心の機能は動く）。
+   Zensical既定の .md-tabs__list は横スクロール用に overflow-x:auto を持つが、
+   CSSの仕様上「x が visible でなければ y も auto 扱いになる」ため、
+   overflow-yだけ上書きしても効かず、ドロップダウンが縦方向にクリップされて消える
+   （実機で発覚）。.md-tabs と .md-tabs__list 自体の overflow/contain を外して解決。
+   トリガー<summary>の当たり判定がタブ行全体をきちんと覆うよう、Material既定の
+   .md-tabs__item が持つ高さ(2.4rem)とパディング(左右.6rem)を <li> から <summary> 側へ
+   移し、<summary> を height:100%・横は通常のflowのままにしている
+   （<li>の幅の計算は今までどおり<summary>の中身に任せる。position:absoluteで
+   広げる方式は、要素が通常のflowから外れて<li>の幅計算に寄与しなくなり、
+   タブ行全体が潰れて隣のタブと文字が重なる事故になったため採らない）。 */
+/* overflow は必ずショートハンドで上書きする（x/yを個別に指定すると、CSSの仕様上
+   「片方が visible でなければもう片方も自動的に non-visible 扱いになる」ため、
+   例えば overflow-x:auto; overflow-y:visible; と書いても overflow-y は結局 auto になり、
+   ドロップダウンが縦方向にクリップされて消える。実機で2回再発したハマりどころ）。
+   モバイル用の横スクロール（上の「モバイルでもタブを常時表示」の overflow-x:auto）より
+   後に書いて勝たせる必要があるため、この位置に置く。 */
+.md-tabs,
+.md-tabs__list {
+  overflow: visible !important;
+  contain: none !important;
+}
 .md-tabs__item--dropdown {
   position: relative;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.md-tabs__link--dropdown {
-  display: flex !important;
+.md-tabs__dropdown-details {
+  height: 100%;
+}
+.md-tabs__dropdown-details > summary {
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.3em;
@@ -137,18 +144,24 @@
   padding: 0 0.6rem;
   margin-top: 0 !important;   /* モバイル用の margin-top:0.6rem を打ち消し、height:100%の縦中央寄せに統一 */
   box-sizing: border-box;
+  cursor: pointer;
+  list-style: none;
+}
+.md-tabs__dropdown-details > summary::-webkit-details-marker {
+  display: none;   /* 既定の三角マーカーを消す（への字アイコンで代替） */
 }
 .md-tabs__caret {
   font-size: 0.6rem;
   transition: transform 0.15s ease;
 }
-.md-tabs__item--dropdown.is-open .md-tabs__caret {
+.md-tabs__dropdown-details[open] .md-tabs__caret {
   transform: rotate(180deg);
 }
 .md-tabs__dropdown {
-  display: none;
-  position: fixed;   /* top/left は custom.js が開くたびに計算してインラインで設定 */
-  z-index: 100;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
   min-width: 6.5rem;
   margin: 0;
   padding: 4px;
@@ -156,22 +169,6 @@
   background: var(--md-default-bg-color);
   border-radius: 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
-}
-/* 吹き出しのつまみ（上向きの三角）。JSがトリガーの左端に合わせて left を計算する */
-.md-tabs__dropdown::before {
-  content: "";
-  position: absolute;
-  top: -6px;
-  left: 1.1rem;
-  width: 12px;
-  height: 12px;
-  background: var(--md-default-bg-color);
-  transform: rotate(45deg);
-  border-radius: 2px 0 0 0;
-  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.08);   /* 本体の影を上端のつまみにも軽く続ける */
-}
-.md-tabs__item--dropdown.is-open .md-tabs__dropdown {
-  display: block;
 }
 .md-tabs__dropdown-link {
   display: block;
