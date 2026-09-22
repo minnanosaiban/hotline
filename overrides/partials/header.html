@@ -1,6 +1,13 @@
 {#-
   This file was automatically generated - do not edit
 -#}
+{#- ハンバーガーメニュー（モバイル用ドロワー開閉ボタン）は削除した（2026-09-22、ユーザー指摘）。
+    サイトの全ページが front matter で hide: navigation を指定しているため、
+    ドロワーの中身（.md-sidebar--primary）は base.html 側で常に hidden 属性が付き、
+    ボタンを押しても何も開かない（実機で確認済み）。チェックボックス #__drawer と
+    オーバーレイ自体は base.html（上書きしていない）に残るが、開くボタンが無いので
+    通常操作では到達しない＝無害。タブ（.md-tabs、スマホでは常時横スクロール表示）が
+    実質的なナビゲーションを担っている。 -#}
 {% set class = "md-header" %}
 {% if "navigation.tabs.sticky" in features %}
   {% set class = class ~ " md-header--shadow md-header--lifted" %}
@@ -9,10 +16,6 @@
 {% endif %}
 <header class="{{ class }}" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
-    <label class="md-header__button md-icon" for="__drawer">
-      {% set icon = config.theme.icon.menu or "material/menu" %}
-      {% include ".icons/" ~ icon ~ ".svg" %}
-    </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
