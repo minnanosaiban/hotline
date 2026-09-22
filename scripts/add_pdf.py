@@ -1,11 +1,14 @@
 """PDF を docs/pdf/ に入れる。検索されやすい名前とタイトルにそろえ、必要なら軽量化と文字層（OCR）も付ける。
 
-  python scripts/add_pdf.py <元のPDF> <ENEOS側|通報者側|裁判所> <YYYY-MM-DD|甲17> <書面名> [--shrink] [--ocr] [--out フォルダ]
+  python scripts/add_pdf.py <元のPDF> <ENEOS側|通報者側|裁判所|関係法令等> <YYYY-MM-DD|甲17> <書面名> [--shrink] [--ocr] [--out フォルダ]
 
   例) python scripts/add_pdf.py 02_答弁書_ENEOS_公開.pdf ENEOS側 2024-04-15 答弁書 --ocr
   →   docs/pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――ENEOS側_2024年04月15日_答弁書.pdf
   例) python scripts/add_pdf.py 甲17_税務処理の確認経緯_ENEOS_公開.pdf 通報者側 甲17 税務処理の確認経緯
   →   docs/pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――通報者側_甲17_税務処理の確認経緯.pdf   （証拠は、日付の代わりに証拠番号）
+  例) python scripts/add_pdf.py 公益通報ハンドブック_21頁.pdf 関係法令等 2017-09-01 公益通報ハンドブック２１頁
+  →   docs/pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――関係法令等_2017年09月01日_公益通報ハンドブック２１頁.pdf
+      （関係法令等は、裁判の当事者ではない参考資料。日付が分からない・重要でない場合も、YYYY-MM-DD の形で近い日付を入れる）
 
   --shrink  画像だけの白黒PDFを、A4・200dpi・1bit に作り直す（色つきのPDFは断る）。38MBの判決文が 1.4MB になる
   --ocr     文字情報の無いPDFに、透明な文字層を付ける（scan-ocr の OCR を使う。1ページ10〜25秒、CPUだけで動く）。
@@ -27,7 +30,7 @@ from pathlib import Path
 
 SITE = "ENEOS（エネオス）の内部通報制度をめぐる訴訟について"
 SEP = "――"                                    # サイト名と区分の間（ダッシュ。U+2015 を2つ）。変えるのはここだけ
-SIDES = ("ENEOS側", "通報者側", "裁判所")
+SIDES = ("ENEOS側", "通報者側", "裁判所", "関係法令等")
 OUT = Path(__file__).resolve().parent.parent / "docs" / "pdf"
 
 

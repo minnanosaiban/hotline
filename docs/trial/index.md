@@ -291,8 +291,8 @@ hide:
 </div>
 </details>
 
-<details class="doc-acc" id="horei-handbook" data-plain markdown>
-<summary>公益通報ハンドブック　平成29年9月 発行</summary>
+<details class="doc-acc" id="horei-handbook" data-no-md data-pdf="../pdf/ENEOS（エネオス）の内部通報制度をめぐる訴訟について――関係法令等_2017年09月01日_公益通報ハンドブック２１頁.pdf" markdown>
+<summary>公益通報ハンドブック　平成29年9月 発行　21頁</summary>
 <div class="doc-body" markdown>
 
 --8<-- "parts/horei-handbook.md"

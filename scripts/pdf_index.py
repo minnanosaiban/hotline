@@ -20,12 +20,13 @@ TRIAL_PAGES = [  # (URLのパス, index.md) 「裁判文書公開」の各提訴
 ]
 BASE = "https://minnanosaiban.github.io/eneos-hotline/"
 
-NAME = re.compile(r"^(?P<site>.+?)――(?P<side>ENEOS側|通報者側|裁判所)_(?P<label>\d{4}年\d{2}月\d{2}日|[甲乙]\d+(?:-\d+)?)_(?P<title>.+)$")
+NAME = re.compile(r"^(?P<site>.+?)――(?P<side>ENEOS側|通報者側|裁判所|関係法令等)_(?P<label>\d{4}年\d{2}月\d{2}日|[甲乙]\d+(?:-\d+)?)_(?P<title>.+)$")
 GROUPS = [   # 見出し、区分、証拠か
     ("裁判所", "裁判所", False),
     ("被告（ＥＮＥＯＳ）側", "ENEOS側", False),
     ("原告（通報者）側", "通報者側", False),
     ("原告（通報者）側の証拠（甲号証）", "通報者側", True),
+    ("関係法令・規程、証拠", "関係法令等", False),
 ]
 
 
@@ -45,7 +46,7 @@ def _text_rows():
         if not path.exists():
             continue
         t = path.read_text(encoding="utf-8")
-        for id_, name in re.findall(r'id="([a-z0-9-]+)" data-md="[^"]*" data-pdf="\.\./pdf/([^"]+)"', t):
+        for id_, name in re.findall(r'<details[^>]*\bid="([a-z0-9-]+)"[^>]*\bdata-pdf="\.\./pdf/([^"]+)"', t):
             rows[name] = (url, id_)
     return rows
 
