@@ -111,13 +111,32 @@
    overflow-yだけvisibleに上書きしても効かず、ドロップダウンが縦方向にクリップされて消えていた。
    さらに absolute のままだと、画面の狭いスマホでは箱の右端が画面外にはみ出すことがあった。
    fixed + JS計算なら、祖先のoverflowに影響されず、画面内に収まる位置へ自分で調整できる。 */
+/* トリガー<a>の当たり判定が文字部分(実測 100x18px)だけで、タブ行全体(124x48px)より
+   ずっと狭かった（2026-09-22、実機で「効かない」と再度の指摘。ユーザーのスマホでは
+   直っていなかった）。<li>にリスナーを付け替える案も試したが、iOS Safariは
+   非アンカー要素（li/div）のclickイベントが確実に発火しない既知の癖があるため、
+   代わりに<a>自体を親<li>いっぱいに広げて当たり判定を一致させた。
+   最初 position:absolute; inset:0 で試したが、それだと<a>が通常の流れから外れて
+   <li>の幅の計算に寄与しなくなり、<li>（延いてはタブ行全体）が潰れて隣のタブと
+   文字が重なる事故になった（2026-09-22、実機スクショで発覚）。
+   そこで absolute はやめ、既定の .md-tabs__item が持つ高さ(2.4rem)とパディング
+   (左右.6rem＝Material既定値, main.css で確認済み)を <li> から <a> 側へそのまま移し、
+   <a> を height:100%・横は通常のflowのままにして、<li>の幅の計算は今までどおり
+   <a>の中身（文字＋アイコン＋パディング）に任せている。 */
 .md-tabs__item--dropdown {
   position: relative;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .md-tabs__link--dropdown {
-  display: inline-flex !important;
+  display: flex !important;
   align-items: center;
+  justify-content: center;
   gap: 0.3em;
+  height: 100%;
+  padding: 0 0.6rem;
+  margin-top: 0 !important;   /* モバイル用の margin-top:0.6rem を打ち消し、height:100%の縦中央寄せに統一 */
+  box-sizing: border-box;
 }
 .md-tabs__caret {
   font-size: 0.6rem;
