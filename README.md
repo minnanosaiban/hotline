@@ -2,7 +2,7 @@
 
 「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」のサイト。公開先は **https://minnanosaiban.github.io/hotline/**（GitHub Pages）。
 
-元は MkDocs Material 製の `hotline` リポジトリ（現在は `kabuka` にリポジトリ名変更）にあったものから、株価分析（blog）と運営者ページを除いて切り出した。旧サイトの内容は今も `kabuka`（**https://minnanosaiban.github.io/kabuka/**）としてそのまま公開されている。2026-09-23 に、このリポジトリ（旧 `eneos-hotline`）が正式に `hotline` の名前とURLを引き継いだ。
+元は MkDocs Material 製の `hotline` リポジトリ（`kabuka` を経て現在は `tomo` にリポジトリ名変更）にあったものから、株価分析（blog）と運営者ページを除いて切り出した。旧サイトの内容は今も `tomo`（**https://minnanosaiban.github.io/tomo/**）としてそのまま公開されている（ツール紹介・ポートフォリオサイトへ改装済み）。2026-09-23 に、このリポジトリ（旧 `eneos-hotline`）が正式に `hotline` の名前とURLを引き継いだ。
 
 **ビルドは Zensical が主、MkDocs 1.6.1 は予備。** Python フックもプラグインも使わない作りなので、どちらでも同じ見た目になる（下の「検証」）。
 
