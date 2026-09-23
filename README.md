@@ -17,7 +17,7 @@ python -m venv .venv
 
 | 何をする | 方法 |
 |---|---|
-| ローカルで見る | `serve.bat`（`http://localhost:8000/`。開くと `/hotline/` に移る。**動かしたまま `build.bat`・`deploy.bat` を実行しない**: どれも同じ `site/` を作り直すので、`site/` が空になって全ページが 404 になることがある（2026-09-22 に発生。その場合は `serve.bat` の画面を閉じて、開き直す）。2026-09-23、`parts/` を `docs/trial2024/parts/` へ移してからは、`parts/` の中だけを直しても `serve` が普通に気づく（以前は `docs/` の外にあったため気づかなかった）） |
+| ローカルで見る | `serve.bat`（`http://localhost:8000/`。開くと `/hotline/` に移る。**動かしたまま `build.bat`・`deploy.bat` を実行しない**: どれも同じ `site/` を作り直すので、`site/` が空になって全ページが 404 になることがある（2026-09-22 に発生。その場合は `serve.bat` の画面を閉じて、開き直す）。2026-09-23、`parts/` を `docs/trial2024/.parts/` へ移してからは、`parts/` の中だけを直しても `serve` が普通に気づく（以前は `docs/` の外にあったため気づかなかった）） |
 | 公開用ファイルを作る | `build.bat`（`site/` に出力） |
 | **公開する** | **`deploy.bat`**（ビルド確認 → コミット・push → 公開の完了を確認、まで） |
 
@@ -235,8 +235,8 @@ python -m mkdocs build
 
 ## その他のファイル
 
-- `docs/trial2024/parts/bunseki-*.md.txt`（2本。旧「高裁判決の根拠」の `bunseki-nakatta`・`bunseki-goui`）: 「判決文の答え合わせ」の該当行の本文。`--8<--` で取り込むだけの部品。`.md` ボタンの元にする書面の本文は `docs/trial2024/md/` に置く
-- `docs/trial2024/parts/horei-*.md.txt`（4本。2026-09-22 新設）: 「関係法令・規程、証拠」の各行の本文。指針の解説・ＥＮＥＯＳ規程の2本は旧 `bunseki-horei.md` の分割、ハンドブック・ガバナンスコードの2本は新規。2026-09-23、`parts/` を `docs/` の外から `docs/trial2024/parts/` へ移し、拡張子を `.md.txt` に変更（`docs/trial2024/md/` と同じ理由: `.md` だと単独ページとして公開されてしまう）。ただし `docs/` の中にある以上、生ファイルとしては公開される（Zensical 0.0.63 が `exclude_docs` を読まないため。中身自体は index.md 側に全文表示済みなので実害はないと判断・容認）
+- `docs/trial2024/.parts/bunseki-*.md.txt`（2本。旧「高裁判決の根拠」の `bunseki-nakatta`・`bunseki-goui`）: 「判決文の答え合わせ」の該当行の本文。`--8<--` で取り込むだけの部品。`.md` ボタンの元にする書面の本文は `docs/trial2024/md/` に置く
+- `docs/trial2024/.parts/horei-*.md.txt`（4本。2026-09-22 新設）: 「関係法令・規程、証拠」の各行の本文。指針の解説・ＥＮＥＯＳ規程の2本は旧 `bunseki-horei.md` の分割、ハンドブック・ガバナンスコードの2本は新規。2026-09-23、`parts/` を `docs/` の外から `docs/trial2024/parts/` へ移し、拡張子を `.md.txt` に変更（`docs/trial2024/md/` と同じ理由: `.md` だと単独ページとして公開されてしまう）。ただし `docs/` の中の普通のフォルダ名だと生ファイルとしては公開されてしまう（Zensical 0.0.63 が `exclude_docs` を読まないため）ことが分かり、同日中にフォルダ名を `.parts/`（ドット始まり）へ変更。Zensical・MkDocs とも、ドット始まりのファイル/フォルダは site/ にコピーしない（実験で確認済み。`--8<--` 取り込み自体には影響しない）ため、これで完全に非公開へ戻った
 - `deploy.bat`・`scripts/wait_deploy.ps1`: 公開（上の「公開（GitHub Pages）」）。`serve.bat`・`build.bat`: 見る・ビルドする
 - `scripts/add_pdf.py`・`scripts/pdf_tools.py`・`scripts/pdf_index.py`: PDF を `docs/pdf/` に、検索されやすい名前とタイトルで入れる。軽量化・OCR・一覧ページ（上の「PDF」）
 - `scripts/extract_agm_panels.py`: agm のスライド画像の切り出し（元の hotline から）

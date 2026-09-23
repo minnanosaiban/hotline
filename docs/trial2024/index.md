@@ -64,7 +64,7 @@ hide:
 <summary>契約書の問題を指摘する通報は、そもそも無かった、とは</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial2024/parts/bunseki-nakatta.md.txt"
+--8<-- "docs/trial2024/.parts/bunseki-nakatta.md.txt"
 
 </div>
 </details>
@@ -73,7 +73,7 @@ hide:
 <summary>「海外消費税を支払う合意」をしていたと推認できる、とは</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial2024/parts/bunseki-goui.md.txt"
+--8<-- "docs/trial2024/.parts/bunseki-goui.md.txt"
 
 </div>
 </details>
@@ -286,7 +286,7 @@ hide:
 <summary>公益通報者保護法に基づく指針（令和３年内閣府告示第１１８号）の解説</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial2024/parts/horei-shishin-kaisetsu.md.txt"
+--8<-- "docs/trial2024/.parts/horei-shishin-kaisetsu.md.txt"
 
 </div>
 </details>
@@ -295,7 +295,7 @@ hide:
 <summary>公益通報ハンドブック　平成29年9月 発行　21頁</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial2024/parts/horei-handbook.md.txt"
+--8<-- "docs/trial2024/.parts/horei-handbook.md.txt"
 
 </div>
 </details>
@@ -304,7 +304,7 @@ hide:
 <summary>ＥＮＥＯＳ　コンプライアンスホットライン規程</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial2024/parts/horei-hotline-kitei.md.txt"
+--8<-- "docs/trial2024/.parts/horei-hotline-kitei.md.txt"
 
 </div>
 </details>
@@ -313,7 +313,7 @@ hide:
 <summary>東京証券取引所　コーポレートガバナンスコード</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial2024/parts/horei-cg-code.md.txt"
+--8<-- "docs/trial2024/.parts/horei-cg-code.md.txt"
 
 </div>
 </details>
