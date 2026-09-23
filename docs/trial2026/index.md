@@ -30,7 +30,7 @@ hide:
 </p>
 
 <p class="trial-year-nav width-40" markdown>
-<b>2026年提訴</b>　<a href="../trial/">2024年提訴</a>　<a href="../trial2021/">2021年提訴</a>
+<b>2026年提訴</b>　<a href="../trial2024/">2024年提訴</a>　<a href="../trial2021/">2021年提訴</a>
 </p>
 
 <div class="toc-wrap doc-list" markdown>
@@ -51,7 +51,7 @@ hide:
 <summary>サイドノート表示の見本（ウェブ用書き出し形式）</summary>
 <div class="doc-body" markdown>
 
---8<-- "docs/trial/md/sample-web.md.txt"
+--8<-- "docs/trial2024/md/sample-web.md.txt"
 
 </div>
 </details>

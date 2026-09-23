@@ -30,10 +30,12 @@
       2つ目のicon linkとして後に並ぶぶんブラウザ・クローラに優先されて壊れたアイコンになっていた
       （2026-08-22、Google検索結果でアイコンが出ない問題で発覚・削除）。 -#}
   {#- 転送だけのページ（旧 URL の受け皿。例: trial/judgement_2025.md）。front matter の redirect_to へ飛ばす。
-      GitHub Pages ではサーバー側の301が使えないので、meta refresh と JS で行う。検索結果には出さない。 -#}
+      GitHub Pages ではサーバー側の301が使えないので、meta refresh と JS で行う。検索結果には出さない。
+      JS 側は location.hash を転送先に引き継ぐ（例: 旧 trial/#toben のような、訪問者ごとに違うアンカー付き
+      URL を保存・共有していても、正しい行が開いた状態の新 URL に着地できるようにするため）。 -#}
   {% if page and page.meta and page.meta.redirect_to %}
     <meta http-equiv="refresh" content="0; url={{ page.meta.redirect_to | url }}">
-    <script>location.replace({{ (page.meta.redirect_to | url) | tojson }})</script>
+    <script>location.replace({{ (page.meta.redirect_to | url) | tojson }} + location.hash)</script>
     <meta name="robots" content="noindex">
   {% endif %}
   {#- 検索結果に出したくないページ（見本帳など）は、front matter に robots: noindex, nofollow と書く。 -#}

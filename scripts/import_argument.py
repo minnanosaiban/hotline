@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""eneos-saiban の argument.md にある「認否のサイドノート」を、trial の書面（docs/trial/md/*.md.txt）へ取り込む。
+"""eneos-saiban の argument.md にある「認否のサイドノート」を、trial の書面（docs/trial2024/md/*.md.txt）へ取り込む。
 
 argument.md（Jupyter Book）では、認否は本文の直前の {margin} ブロックに書いてある。
 trial 側では、サイドノート作成ツールの「ウェブ用」書き出しと同じ形（段落の直後の <aside class="sn-note">）に直す。
@@ -9,7 +9,7 @@ trial 側では、サイドノート作成ツールの「ウェブ用」書き�
 一度きりの移行用（2026-09-21 に実行済み）。merge の書面にすでにサイドノートがあれば、二重に足さないよう止まる。
 今後の書面は、サイドノートアプリの「ウェブ用」書き出しを貼る（README の「書面の追加・更新」）。
 
-  python scripts/import_argument.py [出力先フォルダ]      （既定は docs/trial/md。別の場所へ出して確かめたいときに指定する）
+  python scripts/import_argument.py [出力先フォルダ]      （既定は docs/trial2024/md。別の場所へ出して確かめたいときに指定する）
 """
 import html
 import re
@@ -20,7 +20,7 @@ from pathlib import Path
 
 SRC = Path(r'C:\minnanosaiban\eneos-saiban\argument.md')       # 元の主張書面と認否（Jupyter Book のソース）
 ROOT = Path(__file__).resolve().parent.parent
-MD = ROOT / 'docs' / 'trial' / 'md'
+MD = ROOT / 'docs' / 'trial2024' / 'md'
 
 # (argument.md の章番号, trial での id, merge | new)
 JOBS = [
