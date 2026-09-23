@@ -95,10 +95,11 @@ python -m mkdocs build
 
 ## 書面の追加・更新
 
-本文は**サイドノートアプリ**（sidenote-pdf-web、いずれ sidenote に統合）で作る。
+本文は**サイドノートアプリ**（`C:\minnanosaiban\sidenote`。旧 sidenote-pdf-web は2026-09に統合・廃止済み）で作る。
 
-1. アプリの「ウェブ用」書き出し（素の Markdown＋`<aside class="sn-note">`）をコピーして、`docs/trial/md/<id>.md.txt` に貼る（既にあるファイルなら上書き）
+1. アプリの「hotline用」ボタンで書き出す。`<p class="pad1 idt">` のような生HTML＋ノートは直後の `<aside class="sn-note">` になり、対応ブラウザ（Chrome/Edge）では選んだフォルダ（`docs/trial2024/md` 等）へファイル名だけでそのまま書き込める（次回以降は記憶したフォルダに書くだけ）。非対応ブラウザでは `.md.txt` としてダウンロードされるので、`docs/trial/md/<id>.md.txt` に貼る（既にあるファイルなら上書き）
    - 拡張子を `.md.txt` にしているのは、ビルダーが独立したページにしてしまわないようにするため
+   - 相互参照リンク・認否ノートの装飾（バッジ等）・アンカー（`<a name>`）はこの書き出しには含まれない。従来通り `import_argument.py` か手作業で追加する
 2. PDF があるときは、`python scripts/add_pdf.py …` で `docs/pdf/` に入れる（下の「PDF」。PDF 一覧ページも自動で作り直される）
 3. 書面を増やすときだけ、`docs/trial/index.md` の該当する欄（裁判所・被告（ＥＮＥＯＳ）側・原告（通報者）側）の `<div class="doc-rows" markdown>` に、次のブロックを1つ足す
 
