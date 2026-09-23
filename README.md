@@ -1,9 +1,8 @@
-# eneos-hotline
+# hotline
 
-「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」のサイト。公開先は **https://minnanosaiban.github.io/eneos-hotline/**（GitHub Pages）。
+「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」のサイト。公開先は **https://minnanosaiban.github.io/hotline/**（GitHub Pages）。
 
-元は `https://minnanosaiban.github.io/hotline/`（MkDocs Material、`hotline` リポジトリ）にあったものから、株価分析（blog）と運営者ページを除いて切り出した。
-元の `hotline` リポジトリには一切触れていない（旧サイトは今もそのまま公開されている）。
+元は MkDocs Material 製の `hotline` リポジトリ（現在は `kabuka` にリポジトリ名変更）にあったものから、株価分析（blog）と運営者ページを除いて切り出した。旧サイトの内容は今も `kabuka`（**https://minnanosaiban.github.io/kabuka/**）としてそのまま公開されている。2026-09-23 に、このリポジトリ（旧 `eneos-hotline`）が正式に `hotline` の名前とURLを引き継いだ。
 
 **ビルドは Zensical が主、MkDocs 1.6.1 は予備。** Python フックもプラグインも使わない作りなので、どちらでも同じ見た目になる（下の「検証」）。
 
@@ -18,7 +17,7 @@ python -m venv .venv
 
 | 何をする | 方法 |
 |---|---|
-| ローカルで見る | `serve.bat`（`http://localhost:8000/`。開くと `/eneos-hotline/` に移る。**動かしたまま `build.bat`・`deploy.bat` を実行しない**: どれも同じ `site/` を作り直すので、`site/` が空になって全ページが 404 になることがある（2026-09-22 に発生。その場合は `serve.bat` の画面を閉じて、開き直す）。**`parts/` の中だけを直したときは、`serve` が気づかない**（監視は `docs/` の中だけ）。`docs/trial/index.md` を保存し直すと、数秒で反映される） |
+| ローカルで見る | `serve.bat`（`http://localhost:8000/`。開くと `/hotline/` に移る。**動かしたまま `build.bat`・`deploy.bat` を実行しない**: どれも同じ `site/` を作り直すので、`site/` が空になって全ページが 404 になることがある（2026-09-22 に発生。その場合は `serve.bat` の画面を閉じて、開き直す）。**`parts/` の中だけを直したときは、`serve` が気づかない**（監視は `docs/` の中だけ）。`docs/trial/index.md` を保存し直すと、数秒で反映される） |
 | 公開用ファイルを作る | `build.bat`（`site/` に出力） |
 | **公開する** | **`deploy.bat`**（ビルド確認 → コミット・push → 公開の完了を確認、まで） |
 
@@ -45,7 +44,7 @@ python -m venv .venv
 
 ```
 pip install -r requirements-mkdocs.txt
-python -m mkdocs serve       # http://localhost:8000/eneos-hotline/
+python -m mkdocs serve       # http://localhost:8000/hotline/
 python -m mkdocs build
 ```
 
@@ -183,14 +182,14 @@ python -m mkdocs build
 - **フッターの1文**（`overrides/partials/copyright.html`）: 全ページの本文に「ENEOS（エネオス）」「通報」「裁判・訴訟」が入る
 - **検索結果に出したくないページ**: front matter に `robots: noindex, nofollow`（見本帳に付けてある）
 - **サイトマップ**: ビルドで `sitemap.xml` ができる（Zensical は nav にあるページだけ。MkDocs は全ページなので見本帳も入るが、noindex なので害はない）
-- `docs/robots.txt` は、**サブパス（`/eneos-hotline/`）に置いても検索エンジンは読まない**（読まれるのはホスト直下だけ）。害はないので残してある。
+- `docs/robots.txt` は、**サブパス（`/hotline/`）に置いても検索エンジンは読まない**（読まれるのはホスト直下だけ）。害はないので残してある。
   サイトマップは Search Console から送る
 - **Googlebot が読む HTML は先頭 2MB まで**（公式ドキュメント）。裁判文書ページ（`trial/index.html`）は今 約470KB。書面を増やして 2MB に近づいたら、ページを分ける
 - 効果が出るまでは、Search Console の登録と、サイトマップの送信が要る（下の「公開後にやること」）
 
 ## 公開後にやること
 
-1. **Google Search Console**: 「URL プレフィックス」でプロパティ `https://minnanosaiban.github.io/eneos-hotline/` を追加して所有権を確認する。
+1. **Google Search Console**: 「URL プレフィックス」でプロパティ `https://minnanosaiban.github.io/hotline/` を追加して所有権を確認する。
    HTML ファイル方式の確認用ファイル（`googlee01c….html`）はこの repo にも入れてあるが、通らなければ Search Console が出す新しいファイルを `docs/` に置いて push する。
    その後、サイトマップ `sitemap.xml` を送り、各ページを「URL 検査 > インデックス登録をリクエスト」する
 2. **Bing Webmaster Tools**: サイトを追加する（`msvalidate.01` の meta は `overrides/main.html` に入っている）。Search Console からのインポートも使える

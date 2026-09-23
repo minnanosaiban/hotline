@@ -18,7 +18,7 @@ TRIAL_PAGES = [  # (URLのパス, index.md) 「裁判文書公開」の各提訴
     ("../trial/", ROOT / "docs" / "trial" / "index.md"),
     ("../trial2021/", ROOT / "docs" / "trial2021" / "index.md"),
 ]
-BASE = "https://minnanosaiban.github.io/eneos-hotline/"
+BASE = "https://minnanosaiban.github.io/hotline/"
 
 NAME = re.compile(r"^(?P<site>.+?)――(?P<side>ENEOS側|通報者側|裁判所|関係法令等)_(?P<label>\d{4}年\d{2}月\d{2}日|[甲乙]\d+(?:-\d+)?)_(?P<title>.+)$")
 GROUPS = [   # 見出し、区分、証拠か

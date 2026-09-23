@@ -2,8 +2,8 @@
 title: 2026年提訴 ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
 description: このページは作成中です。
 seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜2026年提訴
-url: https://minnanosaiban.github.io/eneos-hotline/trial2026/
-image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
+url: https://minnanosaiban.github.io/hotline/trial2026/
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 robots: noindex, nofollow
 hide:
@@ -23,7 +23,7 @@ hide:
 </div>
 
 <p class="base00 hero-share">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos-hotline/trial2026/ &text=訴訟資料公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial2026/ &text=訴訟資料公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>

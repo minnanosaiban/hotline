@@ -23,9 +23,9 @@ param(
     [int]$Retries = 1         # how many times a stuck run is cancelled and re-run
 )
 
-$repo = 'minnanosaiban/eneos-hotline'
+$repo = 'minnanosaiban/hotline'
 $actions = "https://github.com/$repo/actions"
-$siteUrl = 'https://minnanosaiban.github.io/eneos-hotline/'
+$siteUrl = 'https://minnanosaiban.github.io/hotline/'
 
 if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
     Write-Host "GitHub CLI (gh) was not found, so the deploy was not checked. See: $actions"

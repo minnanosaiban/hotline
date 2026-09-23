@@ -1,6 +1,6 @@
 site_name: ＥＮＥＯＳの内部通報制度に関する訴訟について
 site_description: ENEOS（エネオス）の内部通報制度をめぐる裁判・訴訟の記録です。通報を受けた後、通報者を通報内容に関する情報から遮断したうえ、裏づけの確認できない情報を知らせた企業の対応について、判決文などの裁判文書とともに問題提起しています。
-site_url: https://minnanosaiban.github.io/eneos-hotline/
+site_url: https://minnanosaiban.github.io/hotline/
 site_dir: site
 
 # mkdocs serve --livereload 起動
@@ -200,5 +200,5 @@ markdown_extensions:
           # format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra:
-  # 「運営者について」は株価分析サイト側に置く（フッターのリンク先）。移動先が決まったらこの URL を差し替える。
-  about_url: https://minnanosaiban.github.io/hotline/about/
+  # 「運営者について」は株価分析サイト（kabuka、旧 hotline）側に置く（フッターのリンク先）。
+  about_url: https://minnanosaiban.github.io/kabuka/about/

@@ -2,8 +2,8 @@
 title: ENEOSの内部通報制度をめぐる訴訟について
 description: ENEOS（エネオス）の内部通報制度をめぐる裁判・訴訟の記録です。通報を受けた後、通報者を通報内容に関する情報から遮断したうえ、裏づけの確認できない情報を知らせた企業の対応について、判決文などの裁判文書とともに問題提起しています。
 seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜問題提起と裁判文書
-url: https://minnanosaiban.github.io/eneos-hotline/
-image: https://minnanosaiban.github.io/eneos-hotline/img/card1.png
+url: https://minnanosaiban.github.io/hotline/
+image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
 hide:
   - navigation
@@ -16,7 +16,7 @@ hide:
 </h1>
 
 <p class="base00 hero-share">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/eneos-hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/ &text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" class="x-share">
     <i class="fa-brands fa-x-twitter"></i> でシェア
   </a>

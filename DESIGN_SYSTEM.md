@@ -1,6 +1,6 @@
 # hotline デザインシステム — コンポーネント一覧
 
-> **この repo（eneos-hotline）での注意**: この文書は元の hotline リポジトリのもの。ブログ（`blog/`・`about/`）、Python フック（`add_blog_class.py`・`doc_indent.py`）、
+> **この repo（hotline）での注意**: この文書は元の hotline リポジトリのもの。ブログ（`blog/`・`about/`）、Python フック（`add_blog_class.py`・`doc_indent.py`）、
 > `mkdocs-glightbox`、`body.trial-doc` に関する記述は、そのままでは当てはまらない。フックは無くした（`body:has(.trial-doc-marker)` と各ページ先頭の目印 div、
 > ページ内の `<link>`／`<script>` に置き換え済み）。詳しくは `README.md` の「元の hotline との違い」を見る。CSS の部品の説明としては今も有効。
 
