@@ -1,5 +1,5 @@
 /* =========================================================
-   trial/index.md 専用レイアウト（.trial-page でスコープ）
+   trial2024/index.md 専用レイアウト（.trial-page でスコープ）
    方針:
    ・罫線で区切らず、一定リズムの余白でセクションを分ける
    ・タイトルは「太字」ではなく「大きさ」で見せる（Home は太字のまま）
@@ -184,7 +184,7 @@ body:has(.trial-doc-marker) h3 {
   }
 }
 
-/* trial/index.md：目次見出し＋目次カードを包む直接の子div。
+/* trial2024/index.md：目次見出し＋目次カードを包む直接の子div。
    .toc-grid の width:100% は「.center-container の直接の子」を前提にした指定のため、
    間にこの無名divが挟まると基準の幅が定まらず縮んでしまう（2026-07-26の構造変更で発生）。
    このdiv自身にも width:100% を明示し、直接の子の連鎖を保つ。
@@ -256,7 +256,7 @@ body:has(.trial-doc-marker) .t-toc-head + p.lead-normal-gap {
   }
 }
 
-/* agm/index.md・trial/index.md：ページ全体を Home と同じ .center-container（flex column + align-items:center）
+/* agm/index.md・trial2024/index.md：ページ全体を Home と同じ .center-container（flex column + align-items:center）
    で包む（HTML側で class="center-container" / "trial-page center-container" を付与）。
    これにより本文（見出し・段落）も Home と同じ仕組みで中央寄せされる。
    タイトル帯・シェアボタンは Home と共通の .hero-band / .hero-share（03-typeset.css）をそのまま使う

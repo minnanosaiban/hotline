@@ -16,7 +16,7 @@
   --out     出力先（既定は docs/pdf）
 
 ファイル名（.pdf を除く）は、PDF の「タイトル」（Info 辞書の Title）にも入れる。検索結果に出るタイトルは、このメタデータが使われる。
-docs/trial/index.md の data-pdf には、最後に表示される「../pdf/<ファイル名>」を書く。
+docs/trial2024/index.md の data-pdf には、最後に表示される「../pdf/<ファイル名>」を書く。
 終わると、PDF 一覧ページ（docs/pdf/index.md）も作り直す（scripts/pdf_index.py。単独でも動かせる）。
 
 要 PyMuPDF（このスクリプトだけで使う。サイトのビルドには要らない）:  pip install pymupdf

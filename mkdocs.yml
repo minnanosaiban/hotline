@@ -14,10 +14,10 @@ nav:
       - agm/index.md
   - 裁判文書公開:
       - 2026年提訴: trial2026/index.md
-      - 2024年提訴: trial/index.md
+      - 2024年提訴: trial2024/index.md
       - 2021年提訴: trial2021/index.md
 
-# 書面（被告側・原告側）は trial/index.md の1ページにアコーディオンで集約した（本文は docs/trial/md/*.md.txt）。
+# 書面（被告側・原告側）は trial2024/index.md の1ページにアコーディオンで集約した（本文は docs/trial2024/md/*.md.txt）。
 
 extra_css:
   - css/01-color.css
@@ -136,7 +136,7 @@ markdown_extensions:
   - pymdownx.details # detailsタグによる折り畳み処理
   - pymdownx.mark # markタグ（ハイライト）
   - pymdownx.betterem: # emタグやstrongタグ（強調）を区別する
-  - pymdownx.snippets: # --8<-- "パス" で別ファイルを取り込む（trial/index.md が書面の本文を取り込むのに使う）
+  - pymdownx.snippets: # --8<-- "パス" で別ファイルを取り込む（trial2024/index.md が書面の本文を取り込むのに使う）
       # パスは「コマンドを実行したフォルダ」基準。必ず mkdocs.yml のあるフォルダで実行する（serve.bat / build.bat はそうしている）。
       # （!relative $config_dir で基準を固定する手もあるが、Zensical 0.0.x はその書き方を読めない）
       check_paths: true # 取り込み先が見つからないときは、黙って空にせずエラーにする

@@ -1,11 +1,11 @@
 /*
  * doc-accordion.js
- * trial/index.md の書面アコーディオン（<details class="doc-acc" data-md="md/x.md.txt" data-pdf="…">）に、
+ * trial2024/index.md の書面アコーディオン（<details class="doc-acc" data-md="md/x.md.txt" data-pdf="…">）に、
  * .pdf / .md / 要約 のボタンと開閉マークを付ける。書面の本文は MkDocs がビルド時に HTML へ入れてあるので、
  * ここでは取得しない（検索エンジン・ページ内検索・Xカードにそのまま出る）。
  *
  *  - .pdf … data-pdf があれば有効。無ければグレー（court-calendar の訴訟資料一覧と同じ）
- *  - .md  … 「コピーする／ダウンロード」の2択。元は data-md の生ファイル（docs/trial/md/x.md.txt が静的に公開される）を取得する。
+ *  - .md  … 「コピーする／ダウンロード」の2択。元は data-md の生ファイル（docs/trial2024/md/x.md.txt が静的に公開される）を取得する。
  *           hotline 形式（:N X#id: マーカー、またはそれを焼き込んだ <p class="padN …"> 段落）の本文は平文の Markdown に戻す。
  *           サイドノート作成ツールの「ウェブ用」書き出しはそのまま。
  *  - 要約 … data-summary があれば有効（ポップアップ）。無ければグレー
