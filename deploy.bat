@@ -2,7 +2,7 @@
 setlocal
 
 rem ============================================================
-rem  eneos-hotline deploy (GitHub Pages, built by GitHub Actions)
+rem  hotline deploy (GitHub Pages, built by GitHub Actions)
 rem  Double-click after editing to publish the site.
 rem
 rem  Steps:
@@ -20,13 +20,13 @@ rem    python -m venv .venv
 rem    .venv\Scripts\pip install -r requirements.txt
 rem
 rem  Preview only: serve.bat     Build only: build.bat
-rem  Site:    https://minnanosaiban.github.io/eneos-hotline/
-rem  Actions: https://github.com/minnanosaiban/eneos-hotline/actions
+rem  Site:    https://minnanosaiban.github.io/hotline/
+rem  Actions: https://github.com/minnanosaiban/hotline/actions
 rem ============================================================
 
 set PYTHONUTF8=1
 
-echo === Deploy eneos-hotline to GitHub Pages ===
+echo === Deploy hotline to GitHub Pages ===
 cd /d "%~dp0"
 echo Current: %CD%
 
@@ -50,7 +50,7 @@ if %errorlevel% neq 0 (
 
 echo === Commit ^& Push to GitHub, master ===
 git add .
-git commit -m "Update eneos-hotline" || echo No changes to commit
+git commit -m "Update hotline" || echo No changes to commit
 
 rem Push only when there is something new: commits that are not on origin/master yet.
 set AHEAD=
@@ -85,13 +85,13 @@ if %errorlevel% equ 2 (
     echo [ERROR] GitHub did not finish publishing the site, even after one automatic re-run.
     echo         The previous version of the site stays online. Your commit is already pushed.
     echo         Wait a few minutes and run this again, or open:
-    echo         https://github.com/minnanosaiban/eneos-hotline/actions
+    echo         https://github.com/minnanosaiban/hotline/actions
     pause
     exit /b 1
 )
 if %errorlevel% neq 0 (
     echo [ERROR] The deploy on GitHub Actions failed. Open the log:
-    echo         https://github.com/minnanosaiban/eneos-hotline/actions
+    echo         https://github.com/minnanosaiban/hotline/actions
     pause
     exit /b 1
 )
