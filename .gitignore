@@ -4,3 +4,6 @@ site/
 __pycache__/
 *.pyc
 .obsidian/
+
+# 控え（ローカル退避用・Git 管理せず push しない）
+hikae/
