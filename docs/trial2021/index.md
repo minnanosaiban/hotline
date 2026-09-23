@@ -36,7 +36,7 @@ hide:
 <div class="toc-wrap doc-list" markdown>
 
 <p class="width-40 issue-lead sec-title">
-2021年提訴<br>判決の概要
+2021年提訴<br>判決の概要<br><span class="smaller">（AIによる解説、2026.09）</span>
 </p>
 
 <p class="width-40 margin02 lead-normal-gap">
