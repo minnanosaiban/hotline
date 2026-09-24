@@ -58,6 +58,30 @@ hide:
 高裁は、業務移管の通知が虚偽であるとの主張と、線形回帰分析を命じた業務命令がパワーハラスメントであるとの主張に応答する補正を加えたうえで、地裁の判断をそのまま引用し、控訴を棄却しました。<b>「調査は通報者個人のためのものではない」という地裁の判断は、控訴審でも維持されました</b>。
 </p>
 
+<p class="t-toc-head bar-title doc-side" id="gimon">地裁判決への疑問</p>
+
+<div class="doc-rows" markdown>
+
+<details class="doc-acc" id="gimon-gimonjikou" data-plain markdown>
+<summary>「疑問事項にすぎない」という切り捨て方への疑問</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial2021/.parts/gimon-gimonjikou.md.txt"
+
+</div>
+</details>
+
+<details class="doc-acc" id="gimon-higaisha" data-plain markdown>
+<summary>「直接被害を受けた者でなければ調査義務なし」という前提への疑問</summary>
+<div class="doc-body" markdown>
+
+--8<-- "docs/trial2021/.parts/gimon-higaisha.md.txt"
+
+</div>
+</details>
+
+</div>
+
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
 <div class="doc-rows" markdown>
