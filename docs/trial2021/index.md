@@ -51,7 +51,7 @@ hide:
 さらに地裁は、この点をおいても、次のように判断しました。<br>
 <i class="fa-solid fa-square-full riyu-lead-icon"></i>通報フォームに事実経過として記載しただけの事項や、調査の過程で伝えた疑問は、当然には調査の対象にならない<br>
 <i class="fa-solid fa-square-full riyu-lead-icon"></i>調査の具体的な方法は、会社の合理的な裁量に委ねられている（契約書や会計仕訳を確認しなくても不合理ではない）<br>
-<i class="fa-solid fa-square-full riyu-lead-icon"></i>業務の移管・業務命令・「グループ内庶務」の業務分担・社内ＳＮＳへの投稿に関する措置は、いずれも通報を理由とする不利益取扱いやパワーハラスメントではない
+<i class="fa-solid fa-square-full riyu-lead-icon"></i>業務の移管・業務命令・担当業務を「グループ内庶務」に限定・社内ＳＮＳへの投稿に関する措置は、いずれも通報を理由とする不利益取扱いやパワーハラスメントではない
 </p>
 
 <p class="width-40 margin02">
