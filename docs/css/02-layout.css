@@ -142,13 +142,23 @@
   gap: 0.3em;
   height: 100%;
   padding: 0 0.6rem;
-  margin-top: 0 !important;   /* モバイル用の margin-top:0.6rem を打ち消し、height:100%の縦中央寄せに統一 */
+  margin-top: 0 !important;   /* Material既定の.md-tabs__linkのmargin-topを打ち消し、height:100%の起点をタブ行の上端に固定 */
   box-sizing: border-box;
   cursor: pointer;
   list-style: none;
 }
 .md-tabs__dropdown-details > summary::-webkit-details-marker {
   display: none;   /* 既定の三角マーカーを消す（への字アイコンで代替） */
+}
+/* 「裁判文書公開」等のドロップダウンタブは、上の summary の height:100% で縦中央寄せにしているが、
+   隣の通常タブ（モバイル用に margin-top で少し上寄りに揃えている。上の「モバイルでもタブを常時表示」）
+   より2〜3px下にずれる。モバイル幅だけ下に余白を作って中央位置を合わせる
+   （実機のフォントサイズ・行送りで検証した値。この定義はカスケードの都合で
+   上の .md-tabs__dropdown-details > summary の padding より後ろに置く必要がある） */
+@media screen and (max-width: 76.234375em) {
+  .md-tabs__dropdown-details > summary {
+    padding-bottom: 0.29rem;
+  }
 }
 .md-tabs__caret {
   font-size: 0.6rem;
