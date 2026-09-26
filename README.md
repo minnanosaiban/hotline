@@ -198,11 +198,11 @@ python -m mkdocs build
 - **フック・プラグインを足さない**。Zensical は Python フックも MkDocs プラグインも読まない。処理が要るなら、ソースへの焼き込みか、ページ内の JS/CSS で
 - **`mkdocs.yml` に `watch:` を書かない**。`custom_dir` と併用すると、Zensical は何も出力しない（エラーも出ない）
 - **raw HTML の相対パス（`<a href>`・`<img src>`・`<script src>`・`<link href>`）は、ビルダーで解釈が違う**。Zensical はソースファイルの位置基準、MkDocs は書き換えず URL 基準。
-  両方で同じ意味になるのは `フォルダ/index.md` 形式のページ（`agm/`・`trial2021/`・`trial2024/`・`trial2026/`・`styleguide/`・`about/`）だけ。`docs/xxx.md` 直下のページで `../` を使うと壊れる。
+  両方で同じ意味になるのは `フォルダ/index.md` 形式のページ（`agm/`・`trial2021/`・`trial2024/`・`.trial2026/`・`styleguide/`・`about/`）だけ。`docs/xxx.md` 直下のページで `../` を使うと壊れる。
   `index.md` でないページ（今は転送だけの `trial2024/judgement_2025.md`）では、Markdown リンクは `index.md#id` 形式、raw HTML には絶対パスを使う。取り込み用ファイル（`docs/trial2024/.parts/`・`docs/trial2024/md/` など）の中のリンクは、**取り込み先のページから見た**書き方にする（`trial2024/index.md` に取り込むなら、`#id` や `../pdf/…`）
   （`judgement_2025.md` を `judgement_2025/index.md` にすると、Material の `navigation.indexes` が節の見出しページ扱いにして、ナビからその行が消える）
 - **`**強調**` が全角の句読点・括弧に隣接するとき、Zensical では強調にならない**ことがある（`pymdownx.betterem` の挙動差）。そういう箇所は `<strong>…</strong>` と書く
-- 裁判文書系のページ（`trial2021/`・`trial2024/`・`trial2026/`・`agm/`・`styleguide/`）は、先頭に `<div class="trial-doc-marker" hidden></div>` を置く。CSS が `body:has(.trial-doc-marker)` でページを見分けている
+- 裁判文書系のページ（`trial2021/`・`trial2024/`・`.trial2026/`・`agm/`・`styleguide/`）は、先頭に `<div class="trial-doc-marker" hidden></div>` を置く。CSS が `body:has(.trial-doc-marker)` でページを見分けている
 - サイドノートは画面幅 76.1875em 以下では出さない（本文列の外側の余白に置くため）
 - 各グループ（`.doc-rows`）の最後の行の下の罫線は、`details.doc-acc` の `border: none` に詳細度で負けるので、`14-doc-accordion.css` で詳細度を上げて出している（これが無いと、最後の行が `details` のグループには閉じの罫線が出ない）
 - アコーディオンの `summary` には `overflow: visible` が要る（`14-doc-accordion.css`）。テーマの `summary` は `overflow: hidden` で、`.md` ボタンのメニューが行の高さで切れてしまう
@@ -223,7 +223,7 @@ python -m mkdocs build
 ## URL・ドメインを変えるとき直す場所
 
 - `mkdocs.yml`: `site_url`、`extra.about_url`
-- 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial2021/index.md`・`docs/trial2024/index.md`・`docs/trial2026/index.md`・`docs/about/index.md`
+- 各ページ先頭の `url:`・`image:`（OGP）と、シェアボタンの `https://twitter.com/share?url=…`: `docs/index.md`・`docs/agm/index.md`・`docs/trial2021/index.md`・`docs/trial2024/index.md`・`docs/.trial2026/index.md`（非公開中）・`docs/about/index.md`
 - PDF 一覧ページの `url:`・シェアボタンの URL は `scripts/pdf_index.py` の `BASE` から作られる（変えたら `python scripts/pdf_index.py`）
 - `scripts/indexnow_ping.ps1` の `$keyLocation`
 - `docs/robots.txt`（`Sitemap:`）、`docs/e482d7edf83b50b925f361e389d57812.txt`（IndexNow のキー。`scripts/indexnow_ping.ps1` が使う）、`docs/googlee01c6dd3b7b5851f.html`（Search Console の所有確認）
@@ -243,6 +243,6 @@ python -m mkdocs build
 - **運営者ページ**: フッターのリンク先（`extra.about_url`）は `tomo`（`https://minnanosaiban.github.io/tomo/`）に決まった。このサイトの `about/`（2026-09-23 追加。`tomo` の Home を写した並行運用版、noindex）を残すか、どちらかに寄せるかは未定
 - **旧サイトとの重複**: 旧 `/hotline/` に同じ本文が残っている（上の「公開後にやること」4）
 - **`eneos-saiban` にまだ頼っているもの**: `dai5` 本文中の ChatGPT ページへのリンクだけ。nav の「主張書面全文と認否」（`argument.html`）は 2026-09-22 に外した（本文と認否のノートは裁判文書ページへ移し済み）。甲8-16 の PDF は `eneos-saiban` にも存在しないが、そこへのリンク（旧タイムラインの行）は、行ごと 2026-09-22 に削除されたので、今はリンク切れは無い。元のファイルが見つかれば `add_pdf.py` で移せる
-- `2026年提訴`（`trial2026/index.md`）の最後に「表示確認用（見本・削除可）」の行が出ている（2026-09-22 に `trial2024` から移した）。公開ページなので、消してよければ `sample-web` の行と `docs/trial2024/md/sample-web.md.txt` を削除する
+- `2026年提訴`（`docs/.trial2026/index.md`）は、中身が「このページは作成中です」のプレースホルダーと表示確認用の見本行だけだったため、2026-09-26 に当面非公開にした。フォルダ名を `trial2026/` → `.trial2026/`（ドット始まり）へ改名し、`mkdocs.yml` の nav と `trial2024/index.md`・`trial2021/index.md` の年別リンク（`trial-year-nav`）から外した（`.parts/` と同じ理由・同じ方法。上の「その他のファイル」参照。`git mv` で履歴は保持）。公開を再開するときは、フォルダ名を `trial2026/` に戻し、nav とリンクを元に戻す。最後に出ている「表示確認用（見本・削除可）」の行（`sample-web`）は、公開前に消してよければ `docs/trial2024/md/sample-web.md.txt` と併せて削除する
 - 見本帳（`styleguide/index.md`）は、音声カードや `.repo-link` などの部品例を含んだまま（音声用のCSSは `05-card.css` に残っている）
 - `mkdocs.yml` に、使っていない設定のコメントアウトが多く残っている（元のまま）
