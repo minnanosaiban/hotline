@@ -1,6 +1,6 @@
 ---
 title: PDF一覧
-description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の裁判文書の PDF の一覧です。判決文、準備書面、答弁書、控訴理由書、証拠（甲号証）の PDF を、区分・日付・書面名が分かるファイル名で並べています。
+description: ENEOS（エネオス）の通報をめぐる裁判・訴訟の裁判文書の PDF の一覧です。判決文、準備書面、答弁書、控訴理由書の PDF を、区分・日付・書面名が分かるファイル名で並べています。
 seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜裁判文書のPDF一覧
 url: https://minnanosaiban.github.io/hotline/pdf/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
@@ -77,11 +77,6 @@ hide:
 
 </div>
 
-
-<div class="doc-rows" markdown>
-
-
-</div>
 
 <p class="t-toc-head bar-title doc-side">関係法令・規程、証拠</p>
 
