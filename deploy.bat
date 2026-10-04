@@ -89,6 +89,11 @@ if %errorlevel% equ 2 (
     pause
     exit /b 1
 )
+if %errorlevel% equ 3 (
+    echo [WARN] The deploy could not be confirmed, so IndexNow is skipped.
+    echo        Check the site, then run scripts\indexnow_ping.ps1 by hand if needed.
+    goto done
+)
 if %errorlevel% neq 0 (
     echo [ERROR] The deploy on GitHub Actions failed. Open the log:
     echo         https://github.com/minnanosaiban/hotline/actions
@@ -100,5 +105,6 @@ echo === Notify IndexNow ===
 powershell -ExecutionPolicy Bypass -File "%~dp0scripts\indexnow_ping.ps1"
 if %errorlevel% neq 0 echo IndexNow ping failed - not fatal, continuing.
 
+:done
 echo === Done ===
 pause

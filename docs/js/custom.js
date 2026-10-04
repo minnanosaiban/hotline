@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     link.setAttribute("rel", "noopener noreferrer");
   });
   document.querySelectorAll('main a[href^="http"]').forEach(function (link) {
-    if (!link.href.includes(location.hostname)) {
+    if (link.hostname !== location.hostname) {
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
     }
