@@ -1,9 +1,10 @@
 // 質問パネルのカルーセル（.qa-carousel）初期化。
-// Swiper本体（CDN）は overrides/hooks/add_blog_class.py が agm/index.md にのみ注入している。
+// Swiper本体（CDN）は、使うページ（agm/index.md・styleguide/index.md）が <script> で直接読み込んでいる。
 // ページ内に .qa-carousel が複数あっても forEach で全部拾うので、
 // 同じHTML構造（.qa-carousel.swiper > .swiper-wrapper > .swiper-slide + .swiper-pagination）を
 // 別ページに増やすだけで、この初期化コードは変更なしに使い回せる。
 document.addEventListener("DOMContentLoaded", function () {
+  if (!window.Swiper) return;   // Swiper を読み込んでいないページでは何もしない
   document.querySelectorAll(".qa-carousel").forEach(function (el) {
     new Swiper(el, {
       slidesPerView: 1.3,

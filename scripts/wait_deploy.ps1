@@ -11,8 +11,9 @@
   is treated as stuck: it is cancelled and re-run automatically, -Retries times (default 1).
   The site keeps serving the previous version the whole time.
 
-  Exit code 0 = deployed, or nothing could be checked (GitHub CLI missing / not signed in /
-                run not found / the run status could not be read).
+  Exit code 0 = deployed.
+  Exit code 3 = nothing could be checked (GitHub CLI missing / not signed in /
+                run not found / the run status could not be read). Deploy not confirmed.
   Exit code 1 = the run failed.
   Exit code 2 = the run was still not finished after the automatic re-run(s).
   Needs the GitHub CLI (gh), signed in as the owner of the repository.
@@ -29,13 +30,13 @@ $siteUrl = 'https://minnanosaiban.github.io/hotline/'
 
 if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
     Write-Host "GitHub CLI (gh) was not found, so the deploy was not checked. See: $actions"
-    exit 0
+    exit 3
 }
 
 gh auth status *> $null
 if ($LASTEXITCODE -ne 0) {
     Write-Host "GitHub CLI (gh) is not signed in (run: gh auth login), so the deploy was not checked. See: $actions"
-    exit 0
+    exit 3
 }
 
 $sha = (git rev-parse HEAD).Trim()
@@ -48,7 +49,7 @@ for ($i = 0; $i -lt 30 -and -not $id; $i++) {
 }
 if (-not $id) {
     Write-Host "No GitHub Actions run was found for $($sha.Substring(0, 7)), so the deploy was not checked. See: $actions"
-    exit 0
+    exit 3
 }
 
 # Read the run once. Returns $null when gh fails (network trouble etc.).
@@ -143,6 +144,6 @@ while ($result -eq 'timeout' -and $restarts -lt $Retries) {
 switch ($result) {
     'success' { Write-Host "Deployed: $siteUrl"; exit 0 }
     'failed'  { Write-Host "The run failed."; exit 1 }
-    'unknown' { Write-Host "Could not read the run status (network?), so the deploy was not confirmed. See: $actions"; exit 0 }
+    'unknown' { Write-Host "Could not read the run status (network?), so the deploy was not confirmed. See: $actions"; exit 3 }
     default   { Write-Host "The run was still not finished after $TimeoutSec seconds (automatic re-runs: $restarts of $Retries). GitHub Pages may be having trouble. The previous version stays online. See: $actions"; exit 2 }
 }

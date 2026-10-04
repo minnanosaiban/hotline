@@ -19,6 +19,11 @@
   var SITE_TITLE = 'ＥＮＥＯＳの内部通報制度をめぐる訴訟';
   var MARKER_RE = /^[ \t]*:([0-9])(?:h2|h3|h|i|d)(?:#[A-Za-z0-9_\-]+)?:[ \t]*/;
 
+  // タグ1つ分。属性値の中の「>」（<a href="x>y"> など）で途切れないよう、引用符の中は丸ごと読む
+  var ATTRS = '(?:"[^"]*"|\'[^\']*\'|[^>"\'])*';
+  var ANY_TAG_RE = new RegExp('</?[a-z]' + ATTRS + '>', 'gi');
+  var BLOCK_TAG_RE = new RegExp('</?(?:p|div|span)\\b' + ATTRS + '>', 'gi');
+
   function esc(s) {
     return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; });
   }
@@ -36,7 +41,7 @@
     return inner.replace(/\n/g, ' ').split(/<br\s*\/?>/i).map(function (line) {
       return line.replace(DOT_ICON_RE, '●')
         .replace(/<i class="[^"]*arrow-right[^"]*"><\/i>/gi, '→').replace(/<i class="[^"]*arrow-left[^"]*"><\/i>/gi, '←')
-        .replace(/<\/?(?:b|strong)>/gi, '**').replace(/<\/?[a-z][^>]*>/gi, '').replace(/[ \t]{2,}/g, ' ').trim();
+        .replace(/<\/?(?:b|strong)>/gi, '**').replace(ANY_TAG_RE, '').replace(/[ \t]{2,}/g, ' ').trim();
     }).filter(Boolean).map(function (line) { return '> ' + line; }).join('\n');
   }
   // hotline 形式を平文の Markdown へ。インデント・ぶら下げの体裁は落ち、1つ1つの段落になる。
@@ -51,7 +56,7 @@
         .replace(/<a name="[^"]*"><\/a>/g, '')
         .replace(/<br\s*\/?>/gi, '  \n')
         .replace(/<\/?(?:b|strong)>/gi, '**')
-        .replace(/<\/?(?:p|div|span)\b[^>]*>/gi, ' ')
+        .replace(BLOCK_TAG_RE, ' ')
         .replace(/[ \t]{2,}(?!\n)/g, ' ')
         .trim();
     }).filter(Boolean).join('\n\n');

@@ -1,5 +1,6 @@
 // 画像クリックで拡大（GLightbox）。mkdocs-glightbox プラグインがビルド時にやっていたことを、ページ内のスクリプトで行う。
 // リンクに包まれていない <img> を <a class="glightbox"> で包み、GLightbox に拾わせる。
+// 読み込むのは agm・styleguide だけ。拡大させたくない画像（ロゴなど）には class="off-glb" を付ける。
 // agm のカルーセルは Swiper がスライドを複製するので、複製の前（このスクリプトは Swiper より先に読む）に包んでおく。
 (function () {
   document.querySelectorAll(".md-content__inner img").forEach(function (img) {

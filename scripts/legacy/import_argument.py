@@ -9,7 +9,7 @@ trial 側では、サイドノート作成ツールの「ウェブ用」書き�
 一度きりの移行用（2026-09-21 に実行済み）。merge の書面にすでにサイドノートがあれば、二重に足さないよう止まる。
 今後の書面は、サイドノートアプリの「ウェブ用」書き出しを貼る（README の「書面の追加・更新」）。
 
-  python scripts/import_argument.py [出力先フォルダ]      （既定は docs/trial2024/md。別の場所へ出して確かめたいときに指定する）
+  python scripts/legacy/import_argument.py [出力先フォルダ]      （既定は docs/trial2024/md。別の場所へ出して確かめたいときに指定する）
 """
 import html
 import re
@@ -19,7 +19,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 SRC = Path(r'C:\minnanosaiban\eneos-saiban\argument.md')       # 元の主張書面と認否（Jupyter Book のソース）
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 MD = ROOT / 'docs' / 'trial2024' / 'md'
 
 # (argument.md の章番号, trial での id, merge | new)
