@@ -255,3 +255,14 @@ body:has(.trial-doc-marker) .doc-acc .accordion-body blockquote li { font-size: 
 .pdf-row .pdf-main .bi { color: var(--md-warn-red); }
 .pdf-row .pdf-main:hover .doc-title { color: var(--md-main-color); }
 .pdf-row .dbtn { text-decoration: none; }
+
+/* 判決文の頁・行ラベル（.pl＝段落の開始位置、.pb＝段落内で頁が変わる位置）。PDFの頁と余白の行番号に対応 */
+.pl, .pb {
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #888;
+  margin-right: 0.4em;
+  white-space: nowrap;
+  text-indent: 0;
+}
+.pb { margin-left: 0.3em; }
