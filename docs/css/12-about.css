@@ -39,6 +39,9 @@
    項目内の余白は p をいったん 0 リセットして個別に付け直す */
 .md-typeset .about-work {
   margin-top: 4rem !important;
+  /* .width-40（max-width 32rem・中央寄せ）は内容に合わせて幅が縮む。文章の短い項目だけ縮んで
+     左端が他の項目とずれるのを防ぎ、常に最大幅（32rem、スマホは親の幅）にそろえる */
+  width: 100%;
 }
 @media only screen and (max-width: 767px) {
   /* 同じ「番号つき項目の並び」であるHome(3つの情報)・agm(株主質問N)はスマホでも
@@ -84,6 +87,15 @@
 /* タイトル左の青バーが、項目にカーソルが乗っている間だけ少し太くなる */
 .md-typeset .about-work:hover .about-work-title::before {
   width: 0.34rem;
+}
+/* タイトル右の GitHub リンク（アイコンのみ。文字色は控えめ、ホバーでリンク色） */
+.md-typeset .about-work .about-work-title .gh-link {
+  margin-left: 0.4em;
+  font-size: 0.9em;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .about-work .about-work-title .gh-link:hover {
+  color: var(--md-link-color);
 }
 .md-typeset .about-work p:has(> .about-btn),
 .md-typeset .about-work p:has(> .arrow-link) {
