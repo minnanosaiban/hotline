@@ -256,7 +256,8 @@ body:has(.trial-doc-marker) .doc-acc .accordion-body blockquote li { font-size: 
 .pdf-row .pdf-main:hover .doc-title { color: var(--md-main-color); }
 .pdf-row .dbtn { text-decoration: none; }
 
-/* 判決文の頁の切れ目（<span class="pg" data-p="n">）。目印は疑似要素で出すので、検索・コピーの文字列には入らない */
+/* 判決文の頁の切れ目（<span class="pg" data-p="n">）。表示は疑似要素なので、検索・コピーの文字列には入らない。
+   広い画面ではサイドノートと同じ余白（本文列の右）に「n頁」を出し、狭い画面では本文中に小さく［n頁］を出す */
 .pg::before {
   content: "［" attr(data-p) "頁］";
   font-size: 0.7em;
@@ -265,4 +266,24 @@ body:has(.trial-doc-marker) .doc-acc .accordion-body blockquote li { font-size: 
   margin: 0 0.3em;
   white-space: nowrap;
   text-indent: 0;
+}
+@media screen and (min-width: 76.1875em) {
+  body:has(.trial-doc-marker) .doc-body .pg {
+    --sn-w: clamp(9rem, calc((100vw - 32rem) / 2 - 3rem), 13rem);
+    float: right;
+    clear: right;
+    width: var(--sn-w);
+    margin: 0.2em calc(-1 * (var(--sn-w) + 2rem)) 0.8em 0;
+    text-indent: 0;
+    text-align: left;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+  }
+  body:has(.trial-doc-marker) .doc-body .pg::before {
+    content: attr(data-p) "頁";
+    margin: 0;
+    font-size: 0.85em;
+    font-weight: 700;
+    color: var(--md-default-fg-color--light);
+  }
 }
