@@ -1,0 +1,14 @@
+{#-
+  Zensical 既定の sitemap.xml に、robots に noindex を指定したページを載せない条件を足したもの。
+  noindex のページをサイトマップに載せると、Search Console に「noindex なのに送信されている」と警告が出るため。
+-#}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for page in pages -%}
+    {%- if page.canonical_url and 'noindex' not in (page.meta.robots | default('') | string) %}
+      <url>
+        <loc>{{ page.canonical_url }}</loc>
+      </url>
+    {%- endif -%}
+  {%- endfor %}
+</urlset>
