@@ -1,5 +1,5 @@
 ---
-title: 運営者について
+title: サイト運営者について
 description: 本サイトの運営者（通報者本人）と、ＰＤＦ墨消しツール・スクショＰＤＦ化ツール・サイドノート資料作成・公文書ウェブ掲載ツール・決算/株価データ分析連載・応援傍聴ナビ・Ｘスクショ管理アプリ・スキャンＰＤＦのＯＣＲ化ツールなど制作物の紹介です。
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
@@ -13,7 +13,7 @@ hide:
 <div class="center-container" markdown>
 
 <div class="hero-band" markdown>
-# 運営者について
+# サイト運営者について
 <p>
 本ウェブサイトは持ち前の技術を活かして通報者本人が作成しています。裁判に関する掲載以外に、実務経験（企業価値分析・Pythonデータ分析・Ｅ資格ホルダー）を活かして、「ちょっと面倒」を軽くするツールを作成しています。
 </p>
