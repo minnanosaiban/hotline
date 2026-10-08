@@ -1,7 +1,7 @@
 ---
 title: ENEOSの内部通報制度をめぐる訴訟について
-description: ENEOS（エネオス）の内部通報制度をめぐる裁判・訴訟の記録です。通報を受けた後、通報者を通報内容に関する情報から遮断したうえ、裏づけの確認できない情報を知らせた企業の対応について、判決文などの裁判文書とともに問題提起しています。
-seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜問題提起と裁判文書
+description: ENEOS（エネオス）の内部通報制度をめぐる裁判・訴訟の記録です。通報を受けた後の会社の対応を問題提起し、判決文・準備書面などの裁判文書と、株主総会2026での質疑応答を掲載しています。
+seo_title: ENEOS（エネオス）の通報をめぐる裁判｜判決文・株主総会の記録
 url: https://minnanosaiban.github.io/hotline/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
