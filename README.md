@@ -54,7 +54,7 @@ python -m mkdocs build
 ## 元の hotline との違い
 
 - **株価分析（blog/）を除いた**。nav・ブログ用CSS（`10-blog-reset.css` は廃止。判決ページの h2 と `.repo-link` だけ `11-trial.css` の先頭へ統合）・`docs/blog/` がなくなった
-- **運営者ページ**: フッターの「運営者について」のリンク先は `mkdocs.yml` の `extra.about_url` の1か所（今は `https://minnanosaiban.github.io/tomo/`）。2026-09-23 に、`tomo` の Home を写した `about/` も並行して置いた（`robots: noindex, nofollow`。フッターからはリンクしていない）
+- **運営者ページ**: フッターの「サイト運営者について」のリンク先は `mkdocs.yml` の `extra.about_url` の1か所（今は `https://minnanosaiban.github.io/tomo/`）。2026-09-23 に、`tomo` の Home を写した `about/` も並行して置いた（`robots: noindex, nofollow`。フッターからはリンクしていない）
 - **NotebookLM の音声解説は載せない**（とりあえず。判決ページ末尾のセクションと、旧 eneos ページのカードを外した）。音声ファイル（`*.m4a`・`*.wav`、約100MB）も持ち込んでいない
 - **目次（Toc）を完全に出さない**。右のサイドバーだけでなく、スマホのメニュー内の目次も。Material の `partials/toc.html` を空にして実現（右カラムは CSS でも `display: none`）
 - **検索窓を出さない**（`plugins: []` と、`overrides/partials/header.html`）
