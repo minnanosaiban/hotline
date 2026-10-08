@@ -1,6 +1,7 @@
 ---
 title: サイト運営者について
-description: 本サイトの運営者（通報者本人）と、ＰＤＦツール・サイドノート作成・RelaGrid・スキャン墨消し・スクショＰＤＦ化・Ｘスクショ管理ツール・応援傍聴ナビ・英文構造アナライザー・決算/株価データ分析連載・株価データ取得ツール・ＥＮＥＯＳの内部通報制度をめぐる訴訟など制作物の紹介です。
+description: ENEOS（エネオス）の内部通報をめぐる裁判・訴訟の通報者本人が作成した、制作物の紹介です。裁判・株主総会2026の記録サイトのほか、ＰＤＦツール、サイドノート作成、RelaGrid、スキャン墨消し、株価データ分析などを公開しています。
+seo_title: ENEOS（エネオス）通報者本人の制作物｜通報・裁判・株主総会の記録も
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary

@@ -1,7 +1,7 @@
 ---
 title: ENEOS（エネオス）株主総会2026 質疑応答
-description: ENEOS（エネオス）株主総会2026に株主として出席した記録です。第16回定時株主総会（2026年6月25日）の YouTube公式チャンネル（ENEOS TV）における質問要旨（パネル）と実際の株主質問の対照を掲載しています。
-seo_title: ENEOS（エネオス）株主総会2026 質疑応答｜質問要旨と実際の質問の対照
+description: ENEOS（エネオス）株主総会2026で、内部通報制度に関する個別案件への対応を質問した記録です。YouTube公式チャンネル（ENEOS TV）の質問要旨（パネル）と実際の質問を対照して掲載しています。通報をめぐる裁判の判決文は別ページに掲載しています。
+seo_title: ENEOS（エネオス）株主総会2026 質疑応答｜通報の件を質問
 url: https://minnanosaiban.github.io/hotline/agm/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
