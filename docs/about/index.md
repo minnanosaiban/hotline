@@ -123,7 +123,7 @@ hide:
 
 <div class="about-work width-40" markdown>
 <p class="about-work-num">０９</p>
-<p class="about-work-title">ＥＮＥＯＳの内部通報制度をめぐる訴訟について <a class="gh-link" aria-label="GitHub" href="https://github.com/minnanosaiban/hotline" target="_blank" rel="noopener"><i class="bi bi-github"></i></a></p>
+<p class="about-work-title">ウェブサイトデザイン <a class="gh-link" aria-label="GitHub" href="https://github.com/minnanosaiban/hotline" target="_blank" rel="noopener"><i class="bi bi-github"></i></a></p>
 <p>
 ＥＮＥＯＳをめぐる訴訟の記録サイトも自作しています。判決文・準備書面をアコーディオンで開いて読め、本文はMarkdownとしてコピー・ダウンロードもできます。
 </p>
