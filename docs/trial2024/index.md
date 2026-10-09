@@ -47,7 +47,7 @@ hide:
 </p>
 
 <p class="width-40 margin02">
-高裁は、この反論には正面から応じないまま、地裁の理由を全面的に書き改め、次の２つの独立した理由で退けました。<br>
+高裁は、この反論には正面から応じないまま、<b>地裁の理由を全面的に書き改め</b>、次の２つの独立した理由で退けました。<br>
 <i class="fa-solid fa-square-full riyu-lead-icon"></i>理由１　契約書の問題を指摘する通報は、そもそも無かった<br>
 <i class="fa-solid fa-square-full riyu-lead-icon"></i>理由２　「海外消費税を支払う合意」をしていたと推認できる
 </p>
