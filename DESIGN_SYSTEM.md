@@ -1,5 +1,5 @@
 > **2026-10-11 追記**: 共通のデザイン（色・余白・文字・共通部品のルール）は
-> [minna-design](https://github.com/minnanosaiban/minna-design) の `DESIGN_SYSTEM.md` が正本。このサイトの共通CSSは `docs/css/shared/`
+> [minna-design](https://github.com/minnanosaiban/minna-design) の `DESIGN_SYSTEM.md` が正本。このサイトの共通ＣＳＳは `docs/css/shared/`
 > （minna-design から `sync.bat` で同期。直接編集しない）に移り、`01-color.css`・`06-link-text.css` は削除、`02-layout.css`・`03-typeset.css`
 > から重複分を除いた。ＥＮＥＯＳの橙・サイドノート強調赤はこのサイト固有なので `01-site-color.css` に残した。この文書は hotline 固有のコンポーネントの記録として使う。
 
@@ -7,7 +7,7 @@
 
 > **この repo（hotline）での注意**: この文書は元の hotline リポジトリのもの。ブログ（`blog/`・`about/`）、Python フック（`add_blog_class.py`・`doc_indent.py`）、
 > `mkdocs-glightbox`、`body.trial-doc` に関する記述は、そのままでは当てはまらない。フックは無くした（`body:has(.trial-doc-marker)` と各ページ先頭の目印 div、
-> ページ内の `<link>`／`<script>` に置き換え済み）。詳しくは `README.md` の「元の hotline との違い」を見る。CSS の部品の説明としては今も有効。
+> ページ内の `<link>`／`<script>` に置き換え済み）。詳しくは `README.md` の「元の hotline との違い」を見る。ＣＳＳの部品の説明としては今も有効。
 
 作成: 2026-08-17。`docs/css/01〜12`（9ファイル）と実ページ（Home / agm / trial / about / blog）を突き合わせて棚卸しした。
 目的は2つ：①今後の手直しで一貫性を崩さないための正本、②「Markdownを知らなくてもMkDocs用mdが作れるアプリ」（sidenote-pdf応用）の部品パレット設計図。
@@ -15,7 +15,7 @@
 サイト全体の方針（[[hotline-design-preferences]]と同じ）：
 - 罫線より余白・背景色差・box-shadowで区切る
 - 見出しは太字でなくサイズ／色バーで立てる（Homeのメインタイトルだけ太字の例外）
-- 装飾は無彩色寄り、青とオレンジ（ENEOSブランド色）以外の色はほぼ使わない
+- 装飾は無彩色寄り、青とオレンジ（ＥＮＥＯＳブランド色）以外の色はほぼ使わない
 - **縦余白の単一所有の原則**（2026-08-20導入）：セクション間の縦余白は「下の要素が margin-top で持つ」。margin-bottom・flexのgap・マージン相殺の組み合わせで余白を決めない（詳細は0.5章）
 
 ---
@@ -24,7 +24,7 @@
 
 | 種類 | 定義場所 | 内容 |
 |---|---|---|
-| 色 | `01-color.css` | `--md-link-color`(青/メイン), `--md-warn-red`(警告赤), `--red-color-3`(サイドノート強調赤・ライト#dc3545/ダーク#f2545b), `--surface-gray`(灰背景), `--md-card-border`/`--md-card-border-soft`(枠線グレー), `--orange-color-1`(ENEOSブランド橙)。2026-08-20に未使用トークン23個を削除（値のメモは`hikae/color_memo.md`に退避）。定義するのは実際に使う色だけ |
+| 色 | `01-color.css` | `--md-link-color`(青/メイン), `--md-warn-red`(警告赤), `--red-color-3`(サイドノート強調赤・ライト#dc3545/ダーク#f2545b), `--surface-gray`(灰背景), `--md-card-border`/`--md-card-border-soft`(枠線グレー), `--orange-color-1`(ＥＮＥＯＳブランド橙)。2026-08-20に未使用トークン23個を削除（値のメモは`hikae/color_memo.md`に退避）。定義するのは実際に使う色だけ |
 | 文字サイズ | `03-typeset.css`冒頭コメント | h1 2.4rem／h2・`.larger` 1.6rem／`.large` 1.28rem／`.largest` 2.56rem／本文 16px／`.doc`系(裁判文書) 16px固定／h3・h4 18px／blog記事h1 1.6rem。太さは常に300〜400、強調はサイズで出す |
 | 本文幅 | `03-typeset.css` `.width-40` | `max-width:32rem`（①の「40字幅」の実体。スマホは100%） |
 | 余白 | 詳細は次章 | 基本スケールは1/2/4/6/8rem。詳細は「0.5 余白システム」参照 |
@@ -35,7 +35,7 @@
 
 罫線を使わない分、このサイトは余白の一貫性そのものが「区切り」の役割を担っている。実際、値は行き当たりばったりでなく、rem単位の倍々スケール＋モバイルでの個別圧縮＋flexギャップの補正、という3層で作り込まれていた。
 
-### 基本スケール（PC、本文カラム内）
+### 基本スケール（ＰＣ、本文カラム内）
 
 | 値 | 位置づけ | 主な使用箇所 |
 |---|---|---|
@@ -50,7 +50,7 @@
 
 ### モバイル（≤767px）での圧縮：基準値は3rem
 
-| PC | モバイル | 使用箇所 |
+| ＰＣ | モバイル | 使用箇所 |
 |---|---|---|
 | 8rem（h2） | 3rem | 本文見出し（この8rem→3remが全体の基準、[[hotline-mobile-tuning]]に明記） |
 | 6rem（`.gap-6`／`.agm-section`／`.issue-lead`／trial `--t-section-gap`） | **3rem に統一** | 各種セクション区切り（2026-08-17修正：issue-leadは3.5rem、trialは4remにズレていたのを3remへ統一） |
@@ -69,7 +69,7 @@
 
 - **縦余白は「下の要素」が margin-top だけで持つ。margin-bottom は使わない**（`.gap-6`の設計思想を全体に拡張）
 - `.agm-section`は`gap:0`。枠内は`> p + p`の隣接ルールで基本リズム10pxを持ち、`p + p.margin02`＝`calc(1.6rem+10px)`、`p + p.margin04`／`p + p.verdict-lead`＝`calc(4rem+10px)`（実質98px、枠外`.agree-gap`と同値）。値は全て「見た目の実余白そのもの」で、引き算のcalc補正は存在しない
-- リファクタ前後でPC・モバイル両方の全セクション間隔をブラウザ実測し、ピクセル単位で同一であることを確認済み
+- リファクタ前後でＰＣ・モバイル両方の全セクション間隔をブラウザ実測し、ピクセル単位で同一であることを確認済み
 
 **枠内に新しい段落を足すときは`.margin02`／`.margin04`を付けるだけでよい**。直前・直後との組み合わせ確認は不要になった。
 
@@ -135,18 +135,18 @@
 
 ## 2.5 カルーセル
 
-`.qa-carousel`（Swiper.js・CDN）：中央＋左右チラ見え＋自動送り（call4.jp参考）。agm/index.mdの質問パネル画像14枚専用（2026-08-20導入）。**配置上の制約：本文の無名`<div markdown>`ラッパーの中には置かない**。ラッパーはfit-content幅（＝最も広い子の固有幅）で決まるため、スライド列（固定幅×14枚）の固有幅に引っ張られてスマホで本文ごと画面外にはみ出す（2026-08-20に実際に発生・修正）。カルーセルはラッパーを一旦閉じて`center-container`直下（flex子）に置く——これで幅が「親の100%→上限56rem」と確定値で決まる。サイト全体のCSS/JSとは別系統で、`overrides/hooks/add_blog_class.py`が`agm/index.md`のときだけSwiper CDN・`docs/css/13-carousel.css`・`docs/js/qa-carousel.js`を注入する（他ページの読み込みには一切影響しない、という設計）。同じHTML構造（`.qa-carousel.swiper > .swiper-wrapper > .swiper-slide` + `.swiper-pagination`）を書けば`qa-carousel.js`のforEachが拾うので、別ページに増やす分には初期化コードの変更は不要（ただしSwiper CDN自体の注入は現状agm限定なので、他ページで使うならフックの条件分岐を広げる必要がある）。
+`.qa-carousel`（Swiper.js・ＣＤＮ）：中央＋左右チラ見え＋自動送り（call4.jp参考）。agm/index.mdの質問パネル画像14枚専用（2026-08-20導入）。**配置上の制約：本文の無名`<div markdown>`ラッパーの中には置かない**。ラッパーはfit-content幅（＝最も広い子の固有幅）で決まるため、スライド列（固定幅×14枚）の固有幅に引っ張られてスマホで本文ごと画面外にはみ出す（2026-08-20に実際に発生・修正）。カルーセルはラッパーを一旦閉じて`center-container`直下（flex子）に置く——これで幅が「親の100%→上限56rem」と確定値で決まる。サイト全体のＣＳＳ/JSとは別系統で、`overrides/hooks/add_blog_class.py`が`agm/index.md`のときだけSwiper ＣＤＮ・`docs/css/13-carousel.css`・`docs/js/qa-carousel.js`を注入する（他ページの読み込みには一切影響しない、という設計）。同じＨＴＭＬ構造（`.qa-carousel.swiper > .swiper-wrapper > .swiper-slide` + `.swiper-pagination`）を書けば`qa-carousel.js`のforEachが拾うので、別ページに増やす分には初期化コードの変更は不要（ただしSwiper ＣＤＮ自体の注入は現状agm限定なので、他ページで使うならフックの条件分岐を広げる必要がある）。
 
 ## 3. アコーディオン
 
-`.card-accordion`（`05-card.css`）：+/−開閉のグレーバー、`summary`をボタン風に。中の`blockquote`は明朝体(Noto Serif JP)で判決文引用と統一。judgement_2025で使用。
+`.card-accordion`（`05-card.css`）：+/−開閉のグレーバー、`summary`をボタン風に。中の`blockquote`は明朝体(Noto Serif ＪＰ)で判決文引用と統一。judgement_2025で使用。
 
 ---
 
 ## 4. 裁判文書特有の型（②に対応）
 
 ### インデント・ぶら下げインデント
-`03-typeset.css`で定義、明朝体(Noto Serif JP)・行間2.4・16px固定：
+`03-typeset.css`で定義、明朝体(Noto Serif ＪＰ)・行間2.4・16px固定：
 ```html
 <p class="idt">通常の字下げ（1em）</p>
 <p class="hg-idt">ぶら下げインデント（1em）</p>
@@ -157,7 +157,7 @@
 
 ## 5. まだ存在しないコンポーネント（③に対応）
 
-**2カラム余白ノート（サイドノート）**：`eneos-saiban/argument.html`のような、本文の横に注釈が並ぶレイアウト。sidenote-pdfアプリのMD書き出し（Jupyter Book方式、段落の直後に`<aside class="margin">`を埋め込む形）は実装済みだが、これを受け止めるCSS（float配置・margin計算）がhotline側にまだ無い。裁判文書ページ（trial/judgement系）に載せるなら、`.doc`/`.idt`/`.hg-idt*`と共存できる設計にする必要がある。
+**2カラム余白ノート（サイドノート）**：`eneos-saiban/argument.html`のような、本文の横に注釈が並ぶレイアウト。sidenote-pdfアプリのＭＤ書き出し（Jupyter Book方式、段落の直後に`<aside class="margin">`を埋め込む形）は実装済みだが、これを受け止めるＣＳＳ（float配置・margin計算）がhotline側にまだ無い。裁判文書ページ（trial/judgement系）に載せるなら、`.doc`/`.idt`/`.hg-idt*`と共存できる設計にする必要がある。
 
 ---
 
@@ -169,7 +169,7 @@
    - `.toc-card`：`background: var(--surface-gray)`、ホバーは境界色でなくbox-shadowの浮き上がりで表現
    - `.test-part`：同じアコーディオン内の`.q-card`(surface-gray)・`.f-head`(薄い青)と意味が違う（「まとめ」の箱）ため、それらより一段薄い`--md-default-fg-color--lightest`＋box-shadowで区別
 3. ~~「裁判所の判断」の青太字+アイコンラベルが未クラス化~~ → **2026-08-17対応済み**、`.text-main`をラベル・「こんなことも！？」（`.text-warn`）・地の文の赤字強調・Home box titleの色に統一適用
-4. ~~`.card-bule`の名前（"bule"はblueの誤字）~~ → **2026-08-18対応済み**、`.card-blue`にリネーム（CSS 2ファイル・markdown 2ファイル）
+4. ~~`.card-bule`の名前（"bule"はblueの誤字）~~ → **2026-08-18対応済み**、`.card-blue`にリネーム（ＣＳＳ 2ファイル・markdown 2ファイル）
 5. ~~6rem系のスマホ圧縮バラつき（issue-lead 3.5rem／trial 4rem）~~ → **2026-08-17対応済み**、3remに統一
 6. ~~4rem系（番号つき項目の並び）のスマホ圧縮バラつき（about `.about-work`だけ3remに圧縮）~~ → **2026-08-17対応済み**、Home「3つの情報」・agm `.q-num-gap`と同じ「圧縮なし(4remのまま)」に統一
 7. ~~`.x-share`のインラインstyle`color:#FFFFFF`が全6ページで重複~~ → **2026-08-17調査の結果、削除**。`.x-share`自体が`color:var(--md-typeset-color) !important`を持っており、インラインの方が非`!important`のため実際には一度も反映されていなかった死んだ指定と判明（薄いグレーの背景に白文字では視認性的にもおかしい）。クラス化ではなく単純削除で解決
@@ -181,23 +181,23 @@
 13. ~~`.sec-title`併記の`center`/`larger`/`margin02`が全て上書きされ死んでいた~~ → **2026-08-20対応済み**、Home3箇所・agm1箇所のマークアップから削除（`.sec-title`単独で完結）。`verdict-lead`の`margin02`併記も同様に削除
 14. ~~`strong { font-style: 700; }`（03-typeset.css）が無効値で一度も効いていなかった~~ → **2026-08-20対応済み**、削除（font-weightの誤記。太字はブラウザ既定で十分）
 15. ~~ヘッダーのサイト名（`.md-header__title`）の左端がタブ行（Home等）と8pxズレていた~~ → **2026-08-20対応済み**、Material既定の`margin-left:1rem(20px)`を`12px`へ縮小し、画面幅≥76.234375em（ドロワーボタン非表示）で完全一致に。ドロワーボタンが出る幅では、ボタンの占有スペース分だけ残る（アイコンとの重なりを避けるため詳細度は保持。全ページ・ダークモードで実測確認済み）
-16. `.x-share`（Xでシェアボタン）を無彩色チップからサイトの青（`--md-link-color`／地色に白文字、ホバーは`--md-link-hover-color`）へ変更（2026-08-20）。リンク・タブ下線と同じ「アクションの色」に統一する意図。オレンジ案（`--orange-color-1`）も試作したが、ＥＮＥＯＳロゴ文字だけに使う特別色のため見送り。音声プレーヤーの`accent-color`案は、Chromeのネイティブ音声コントロールは再生ボタン自体が着色されない（進捗バー・音量つまみのみ）ため効果が薄く見送り。`about-btn`のコメント（旧: .x-shareと同系の無彩色と説明）も実態に合わせて修正済み
+16. `.x-share`（Ｘでシェアボタン）を無彩色チップからサイトの青（`--md-link-color`／地色に白文字、ホバーは`--md-link-hover-color`）へ変更（2026-08-20）。リンク・タブ下線と同じ「アクションの色」に統一する意図。オレンジ案（`--orange-color-1`）も試作したが、ＥＮＥＯＳロゴ文字だけに使う特別色のため見送り。音声プレーヤーの`accent-color`案は、Chromeのネイティブ音声コントロールは再生ボタン自体が着色されない（進捗バー・音量つまみのみ）ため効果が薄く見送り。`about-btn`のコメント（旧: .x-shareと同系の無彩色と説明）も実態に合わせて修正済み
 
 ---
 
 ## 7. スタイルガイド見本帳ページ（2026-08-20作成）
 
-`docs/styleguide/index.md` → `/hotline/styleguide/`（**navには載せていない**。URL直打ちでアクセス）。本書の全コンポーネントを実物と同じマークアップで1ページに並べた見本帳。余白・CSSの変更後にこのページを目視すれば回帰を1画面で確認できる。友人HP構想のコンポーネントパレットとしても使う。
+`docs/styleguide/index.md` → `/hotline/styleguide/`（**navには載せていない**。ＵＲＬ直打ちでアクセス）。本書の全コンポーネントを実物と同じマークアップで1ページに並べた見本帳。余白・ＣＳＳの変更後にこのページを目視すれば回帰を1画面で確認できる。友人ＨＰ構想のコンポーネントパレットとしても使う。
 
-- 見本帳専用の最小スタイル（`.sg-label`見出し・`.sg-swatches`色見本）はページ内`<style>`ブロックに閉じ込め、サイト共通CSSには足していない
-- 対照カード（`body.trial-doc`スコープ）とカルーセル（Swiper CDN）を再現するため、（旧構成では）`add_blog_class.py`のフックに`styleguide.md`を追加していた。今はページ内の`<link>`／`<script>`で同じことをしている
+- 見本帳専用の最小スタイル（`.sg-label`見出し・`.sg-swatches`色見本）はページ内`<style>`ブロックに閉じ込め、サイト共通ＣＳＳには足していない
+- 対照カード（`body.trial-doc`スコープ）とカルーセル（Swiper ＣＤＮ）を再現するため、（旧構成では）`add_blog_class.py`のフックに`styleguide.md`を追加していた。今はページ内の`<link>`／`<script>`で同じことをしている
 - **見本帳作成で発見・修正した潜在バグ（2026-08-20）**：`.agm-section`と`.card-accordion`が「親=32rem」前提で自己センタリングを持っていなかった（`.width-40`と同型）。`.agm-section`にmargin-inline:auto追加、`.md-typeset details.card-accordion`のmargin shorthandを`1.4rem auto 0`に変更。**この修正前の状態がデプロイされていると、judgement_2025のアコーディオンが本文列より左にズレる**（width-40の自己センタリング追加により本文だけ中央へ動いたため）。修正後、styleguide/Home/judgementの全対象がセンター一致することを実測確認済み
 
 ## この一覧の使い道（sidenote-pdf応用アプリへの示唆）
 
 前回の分岐（本文系ページのみ／特殊レイアウトページも含む）は、③（裁判文書へのサイドノート要望）から「特殊レイアウトページも含む」と判断。ただし上の棚卸しからすると、特殊レイアウトの中身は大きく2種類に分かれる：
 
-- **文書系（`.doc`/`.idt`/`.hg-idt*`、将来の余白ノート）**：sidenote-pdfの編集モデル（段落単位の直接編集＋MD書き出し）と相性が良く、拡張の本命
-- **サイト構成系（`.hero-band`、`.agm-section`、`.card-accordion`、対照カード群）**：ページのフレーム自体を組む部品で、WYSIWYG化するなら別枠の「ページテンプレート選択」に近い設計になる（1文書エディタというより1ページビルダー）
+- **文書系（`.doc`/`.idt`/`.hg-idt*`、将来の余白ノート）**：sidenote-pdfの編集モデル（段落単位の直接編集＋ＭＤ書き出し）と相性が良く、拡張の本命
+- **サイト構成系（`.hero-band`、`.agm-section`、`.card-accordion`、対照カード群）**：ページのフレーム自体を組む部品で、ＷＹＳＩＷＹＧ化するなら別枠の「ページテンプレート選択」に近い設計になる（1文書エディタというより1ページビルダー）
 
-この2つを最初から同じUIで扱おうとすると設計が肥大化しそうなので、次に決めたいのは「まず文書系だけを対象にするか」です。
+この2つを最初から同じＵＩで扱おうとすると設計が肥大化しそうなので、次に決めたいのは「まず文書系だけを対象にするか」です。
