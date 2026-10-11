@@ -14,7 +14,7 @@ hide:
 </div>
 
 <style>
-/* この見本帳ページ専用の最小スタイル（サイト共通CSSには足さない） */
+/* この見本帳ページ専用の最小スタイル（サイト共通ＣＳＳには足さない） */
 .sg-label {
   display: block;
   font-family: ui-monospace, "Consolas", monospace;
@@ -66,7 +66,7 @@ hide:
 <span class="sg-swatch"><i style="background: var(--md-link-color)"></i>--md-link-color<br>メイン青</span>
 <span class="sg-swatch"><i style="background: var(--md-warn-red)"></i>--md-warn-red<br>警告赤</span>
 <span class="sg-swatch"><i style="background: var(--red-color-3)"></i>--red-color-3<br>サイドノート赤</span>
-<span class="sg-swatch"><i style="background: var(--md-accent-color)"></i>--md-accent-color<br>ENEOS橙</span>
+<span class="sg-swatch"><i style="background: var(--md-accent-color)"></i>--md-accent-color<br>ＥＮＥＯＳ橙</span>
 <span class="sg-swatch"><i style="background: var(--surface-gray)"></i>--surface-gray<br>面グレー</span>
 <span class="sg-swatch"><i style="background: var(--md-card-border)"></i>--md-card-border<br>枠線グレー</span>
 </div>
@@ -142,9 +142,9 @@ NotebookLM により生成（.smallest の注記行）
 対照カード（agm の質疑検証。.eneos-card ＝会社公表／.qa-turn ＝実際の質問・検証）：
 </p>
 <div class="eneos-card width-40">
-<span class="qa-mark qa-mark--eneos">ENEOSが公表する株主質問</span>
+<span class="qa-mark qa-mark--eneos">ＥＮＥＯＳが公表する株主質問</span>
 <p><b>個別案件を踏まえ、コンプライアンスと安全についてどのように考えているか伺いたい。</b></p>
-<a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2455s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ENEOS TV 40:55</a>
+<a class="eneos-timestamp" href="https://www.youtube.com/watch?v=0kWavfBMS30&t=2455s" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Youtube　ＥＮＥＯＳ ＴＶ 40:55</a>
 </div>
 <div class="qa-turn qa-turn--student width-40">
 <span class="qa-mark qa-mark--student">🧑</span>
