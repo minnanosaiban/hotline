@@ -20,11 +20,12 @@ nav:
 # 書面（被告側・原告側）は trial2024/index.md の1ページにアコーディオンで集約した（本文は docs/trial2024/md/*.md.txt）。
 
 extra_css:
-  - css/01-color.css
+  - css/shared/tokens.css   # 共通（minna-design から sync.bat で同期。直接編集しない）
+  - css/shared/base.css
+  - css/01-site-color.css
   - css/02-layout.css
   - css/03-typeset.css
   - css/05-card.css
-  - css/06-link-text.css
   - css/07-link-button.css
   - css/11-trial.css
   - css/12-about.css

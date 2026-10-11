@@ -1,3 +1,8 @@
+> **2026-10-11 追記**: 共通のデザイン（色・余白・文字・共通部品のルール）は
+> [minna-design](https://github.com/minnanosaiban/minna-design) の `DESIGN_SYSTEM.md` が正本。このサイトの共通CSSは `docs/css/shared/`
+> （minna-design から `sync.bat` で同期。直接編集しない）に移り、`01-color.css`・`06-link-text.css` は削除、`02-layout.css`・`03-typeset.css`
+> から重複分を除いた。ＥＮＥＯＳの橙・サイドノート強調赤はこのサイト固有なので `01-site-color.css` に残した。この文書は hotline 固有のコンポーネントの記録として使う。
+
 # hotline デザインシステム — コンポーネント一覧
 
 > **この repo（hotline）での注意**: この文書は元の hotline リポジトリのもの。ブログ（`blog/`・`about/`）、Python フック（`add_blog_class.py`・`doc_indent.py`）、

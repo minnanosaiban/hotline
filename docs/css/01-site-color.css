@@ -1,0 +1,13 @@
+/* hotline 固有の色トークン。共通の色は shared/tokens.css（minna-design）。
+   ここに置くのは、このサイトでだけ使う値のみ。 */
+:root {
+  --orange-color-1: #e94709; /* ENEOS ブランド橙（ＥＮＥＯＳのロゴ文字だけ。共通デザインには入れない） */
+}
+[data-md-color-scheme="default"] {
+  --red-color-3: #dc3545; /* サイドノート強調レッド（trial系 .strong-rd） */
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー（ＥＮＥＯＳのロゴ文字） */
+}
+[data-md-color-scheme="slate"] {
+  --red-color-3: #f2545b; /* ダークでは --md-warn-red と同値に寄せる（#dc3545 は暗背景でコントラスト不足） */
+  --md-accent-color: var(--orange-color-1); /* アクセントカラー（ＥＮＥＯＳのロゴ文字） */
+}
