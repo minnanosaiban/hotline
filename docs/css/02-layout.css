@@ -27,50 +27,6 @@
 .md-content__inner {
   padding-top: 0rem; 
 }
-/* ヘッダーのサイト名を固定（スクロールしてもページタイトルへ切り替えない） */
-/* 1つ目のtopic(サイト名)を常時表示。Material の .md-header__title--active 状態に勝つ */
-.md-header__title .md-header__topic:first-child,
-.md-header__title--active .md-header__topic:first-child {
-  opacity: 1 !important;
-  transform: none !important;
-  pointer-events: auto !important;
-  z-index: 0 !important;
-}
-/* 2つ目のtopic(ページタイトル)は常時非表示 */
-.md-header__title .md-header__topic + .md-header__topic,
-.md-header__title--active .md-header__topic + .md-header__topic {
-  display: none !important;
-}
-/* ヘッダーサイト名リンク：ホバー有無に関わらずリンク色で表示。CSS 変数でダーク対応 */
-.header-site-link,
-.header-site-link:hover {
-  color: var(--md-link-color) !important;
-  font-weight: 400 !important;
-}
-/* サイト名（ヘッダー）の左端を、直下のタブ行（Home等）の左端に揃える。
-   Material既定のmargin-left(1rem=20px)は、ドロワーボタン非表示時(画面幅≥76.234375em＝ボタン用の
-   予約スペースが無い状態)は単なる余分な空きになり、タブ側（グリッド基準+12px）と8pxだけズレていた。
-   12pxにするとその幅ではタブと厳密に一致する。ドロワーボタンが出る幅（＜76.234375em）ではボタンの
-   ぶんの余白が要るため完全一致はしないが、その分は残り、アイコンとの重なりも発生しない。 */
-.md-header__title {
-  margin-left: 12px !important;
-}
-
-/* タブ */
-/* タブのホバーはメインカラーの下線 */
-/* タブのアクティブはメインカラーの下線 */
-.md-tabs__link:hover {
-  color: var(--md-main-color) ;
-  text-decoration: underline;
-  text-underline-offset: 12px;
-  text-decoration-color: var(--md-main-color);
-}
-.md-tabs__item--active .md-tabs__link {
-  color: var(--md-main-color) ;
-  text-decoration: underline;
-  text-underline-offset: 12px;
-  text-decoration-color: var(--md-main-color);
-}
 /* モバイルでもタブを常時表示（隠さない） */
 @media screen and (max-width: 76.234375em) {
   .md-tabs {
@@ -205,32 +161,10 @@
   scrollbar-color: #0000;
   scrollbar-width: 1px;
 }
-/* サイドバーのテキスト */
-.md-nav__link { 
-  font-weight: 400 !important;
-  color: var(--md-typeset-color) !important;
-}
-.md-nav__link:hover {
-  color: var(--md-main-color) !important;
-  font-weight: 700 !important;
-}
-.md-nav__link--active, 
-.md-nav__link--active:hover {
-  color: var(--md-main-color) !important;
-  font-weight: 700 !important;
-}
-/* 目次（右カラム）は出さない。front matter に hide: toc を書き忘れたページでも、空の枠が幅を取らないようにする */
+/* サイドバーのテキスト（色・太さは shared/base.css） */
 .md-sidebar--secondary {
-  display: none !important;
-}
-/* フッター余白 */
-.md-footer {
-  margin-top: 8rem;
-}
-@media only screen and (max-width: 767px) {
-  .md-footer {
-    margin-top: 4rem;   /* スマホ：本文末〜フッターの空白を圧縮 */
-  }
+  overflow-wrap: normal;  /* 単語の途中での改行を抑制 */
+  white-space: nowrap;    /* テキストの改行を抑える */
 }
 /* フッター注記 */
 .md-footer-note {
@@ -309,19 +243,7 @@
   }
 }
 
-/* セクション前の余白（シンプル化）：上 6rem だけで決める。下は 0。
-   gap やマージン相殺に頼らず、この1クラスで「この要素の上に6rem空ける」を表す。
-   使用：裁判所の判断／通報者への措置の枠（グレー枠は .agm-section 側で同じ6rem）。 */
-.gap-6 {
-  margin-top: 6rem !important;
-  margin-bottom: 0 !important;
-}
-@media only screen and (max-width: 767px) {
-  /* スマホ：大きな縦の区切りは h2(8rem→3rem)と同じ思想で圧縮し、空白で間延びさせない */
-  .gap-6 {
-    margin-top: 3rem !important;
-  }
-}
+/* .gap-6 は shared/base.css（minna-design）。ここには、それと組み合わせる節見出しの例外だけを置く */
 /* 本文フロー中の節見出し（「再通報と新たな問題」）：上の余白はこの要素自身が margin-top で持つ
    （単一所有の原則＝下の要素が上の余白を持ち、margin-bottom は使わない。.gap-6 と同じ思想）。
    PC はセクション基準の 6rem。スマホは、直下のリード（.agree-gap = 4rem+10px、スマホでも圧縮なし）
