@@ -52,60 +52,12 @@
 .agm-section .width-40 .larger {
   font-size: 1.2rem !important;
 }
-/* ホーム導入の問題提起見出し（１・２・３）：枠内(agm-section)の説明見出しと同じ 1.2rem に揃える（太さ400・黒のまま／枠がないので左寄せ） */
-.larger.width-40.margin02 {
-  font-size: 1.2rem !important;
-}
-/* ホーム導入の問題提起見出し（１・２・３）：1.2rem 太字（.larger とは別スケール） */
-.issue-point {
-  font-size: 1.2rem !important;
-  font-weight: 700 !important;
-  line-height: 1.4 !important;
-}
-/* ホームの節見出し（本サイトの問題提起／確認できない３つの情報／再通報と新たな問題）：
-   サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。
-   フォントサイズ・太さはメインタイトル（h1.top-title-13）と同じに揃える（PC 2.4rem／スマホ 1.7rem・太さは常に300）。 */
-.sec-title {
-  font-size: 2.4rem !important;
-  font-weight: 300 !important;
-  line-height: 1.25 !important;
-  letter-spacing: 0.06em;
-  text-align: center !important;
-}
-@media only screen and (max-width: 767px) {
-  .sec-title {
-    font-size: 1.7rem !important;
-  }
-}
+
 /* .doc に small/smallest を併用したら、その文字サイズを優先（箱内の引用を本文と同じ大きさにする等） */
 .doc.smallest {
   font-size: 12px !important;
 }
-/* インデント */
-.doc {
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
-  line-height: 2.4 !important;
-  font-size: 16px !important;
-  margin: 0;
-  }
-.idt {
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
-  line-height: 2.4 !important;
-  font-size: 16px !important;
-  margin: 0;
-  text-indent:1em;
-  }
-.hg-idt {
-  margin-block-start: 0em !important;
-  margin-block-end: 0em !important;
-  line-height: 2.4 !important;
-  font-size: 16px !important;
-  margin: 0;
-  padding-left:1em;
-  text-indent:-1em;
-  }
+
 .hg-idt2 {
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
@@ -124,10 +76,7 @@
   padding-left:3em;
   text-indent:-3em;
   }
-                                                         
-.doc, .idt, .hg-idt, .hg-idt2, .hg-idt3 {
-  font-family: "Noto Serif JP", serif !important;
-}
+
 /* 裁判文書内で段落の前後にゆとりを持たせる修飾。.doc/.idt/.hg-idt*系のクラスと組み合わせて使う
    （両方欲しい時は2つとも付ける）。1.6em は .doc 系の文字サイズ(16px)基準の値で、
    サイト全体のrem尺度（.margin01/02/04）とは別スケール。
@@ -139,21 +88,7 @@
 .doc-gap-bottom {
   margin-bottom: 1.6em !important;
 }
-                                                  
-.doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a {
-  font-family: "Noto Sans JP", sans-serif !important;
-}
-/* 裁判文書内の太字強調（<b>/<strong>）：明朝の太字は判別しづらいため、リンクと同様にゴシックへ切り替える */
-.doc b, .idt b, .hg-idt b, .hg-idt2 b, .hg-idt3 b,
-.doc strong, .idt strong, .hg-idt strong, .hg-idt2 strong, .hg-idt3 strong {
-  font-family: "Noto Sans JP", sans-serif !important;
-}
-.pad1 {
-  padding-left:1em;
-  }
-.pad2 {
-  padding-left:2em;
-  }
+
 .pad3 {
   padding-left:3em;
   }
@@ -172,41 +107,6 @@
 .pad8 {
   padding-left:8em;
   }
-.pad9 {
-  padding-left:9em;
-  }
-/* ページ冒頭タイトルの共通枠組み（Home の <h1 class="hero-band top-title-13"> と
-   agm/trial の <div class="hero-band"> で共用。旧 .agm-hero-band と統合）。
-   本文幅(32rem)・上下余白(6rem 0)・グレー帯の画面端張り出しは全ページ共通。
-   グレー帯は ::before を画面端(100vw)まで敷き、top を大きめの負値にしてヘッダーの裏に隠すことで、
-   ヘッダー直下からグレーが途切れなく続くようにする。
-   ※ center-container は overflow:visible が前提（はみ出しをクリップしない） */
-.hero-band {
-  position: relative;
-  z-index: 0;
-  max-width: 32rem;
-  padding: 6rem 0;   /* サイト全体の余白リズム（6rem＝.issue-lead等と同じ）に揃える */
-  overflow-wrap: break-word;
-  white-space: normal;
-}
-.hero-band::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -10rem;
-  bottom: 0;
-  left: 50%;
-  margin-left: -50vw;
-  width: 100vw;
-  background: var(--surface-gray);   /* 共通変数（ライト#eef1f5／ダーク#16263c） */
-}
-@media only screen and (max-width: 767px) {
-  .hero-band {
-    max-width: 100%;
-    padding-top: 0.5rem;     /* スマホ：タイトル上の余白を詰める（既定 2rem を上書き） */
-    padding-bottom: 1.2rem;
-  }
-}
 
 /* Home 冒頭タイトル固有の文字組み（幅・余白・グレー帯は上の .hero-band 側で共通化済み） */
 /* タイトルの句単位改行：句のまとまりを inline-block にし、まとまりの“間”でだけ折る。

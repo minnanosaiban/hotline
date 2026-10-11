@@ -22,11 +22,13 @@ nav:
 extra_css:
   - css/shared/tokens.css   # 共通（minna-design から sync.bat で同期。直接編集しない）
   - css/shared/base.css
+  - css/shared/layout.css
+  - css/shared/components.css
+  - css/shared/parts.css
   - css/01-site-color.css
   - css/02-layout.css
   - css/03-typeset.css
   - css/05-card.css
-  - css/07-link-button.css
   - css/11-trial.css
   - css/12-about.css
   - css/14-doc-accordion.css

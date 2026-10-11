@@ -1,0 +1,475 @@
+/* minna-design / parts.css — tomo・hotline 共通のページ部品（タブのドロップダウン、タイトル帯、中央寄せカラム、
+   制作物一覧 .about-work、カードなど）。両サイトで使っているものだけ。
+   tokens.css・base.css・layout.css・components.css の後に読み込む。サイト側では編集しない（編集は minna-design）。 */
+
+/* モバイルでもタブを常時表示（隠さない） */
+@media screen and (max-width: 76.234375em) {
+  .md-tabs {
+    display: block;
+    background-color: var(--md-primary-fg-color);
+  }
+  .md-tabs__list {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .md-tabs__list::-webkit-scrollbar {
+    display: none;
+  }
+  .md-tabs__item {
+    flex-shrink: 0;
+    height: 2.4rem;
+  }
+  .md-tabs__link {
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+  }
+  .md-tabs__link--active {
+    text-underline-offset: 8px !important;
+  }
+}
+
+/* タブのドロップダウン（「裁判文書公開」等、子ページが複数あるタブ）。
+   Zensical の既定テンプレートは子が複数あっても最初の1件しかタブバーに出さないため、
+   overrides/partials/tabs-item.html で子が2件以上のときだけ描く分岐を追加した。
+   2026-09-22: 独自クリックJSでの開閉は、開発機では動いたがユーザーの実機Chromeでは
+   反応しなかった（原因不明。拡張機能・シークレットウィンドウでも再現）。
+   原因を特定できないまま何度も直すよりも確実な方法へ、と判断し、
+   このサイトの書面一覧などで実績のある `<details>/<summary>`（ブラウザが開閉を担う、
+   JS不要のネイティブな仕組み）に作り直した。custom.js は「他が開いていたら閉じる」等の
+   補助のみで、開閉そのものには関与しない（そのJSが効かなくても核心の機能は動く）。
+   Zensical既定の .md-tabs__list は横スクロール用に overflow-x:auto を持つが、
+   CSSの仕様上「x が visible でなければ y も auto 扱いになる」ため、
+   overflow-yだけ上書きしても効かず、ドロップダウンが縦方向にクリップされて消える
+   （実機で発覚）。.md-tabs と .md-tabs__list 自体の overflow/contain を外して解決。
+   トリガー<summary>の当たり判定がタブ行全体をきちんと覆うよう、Material既定の
+   .md-tabs__item が持つ高さ(2.4rem)とパディング(左右.6rem)を <li> から <summary> 側へ
+   移し、<summary> を height:100%・横は通常のflowのままにしている
+   （<li>の幅の計算は今までどおり<summary>の中身に任せる。position:absoluteで
+   広げる方式は、要素が通常のflowから外れて<li>の幅計算に寄与しなくなり、
+   タブ行全体が潰れて隣のタブと文字が重なる事故になったため採らない）。 */
+/* overflow は必ずショートハンドで上書きする（x/yを個別に指定すると、CSSの仕様上
+   「片方が visible でなければもう片方も自動的に non-visible 扱いになる」ため、
+   例えば overflow-x:auto; overflow-y:visible; と書いても overflow-y は結局 auto になり、
+   ドロップダウンが縦方向にクリップされて消える。実機で2回再発したハマりどころ）。
+   モバイル用の横スクロール（上の「モバイルでもタブを常時表示」の overflow-x:auto）より
+   後に書いて勝たせる必要があるため、この位置に置く。 */
+.md-tabs,
+.md-tabs__list {
+  overflow: visible !important;
+  contain: none !important;
+}
+
+.md-tabs__item--dropdown {
+  position: relative;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.md-tabs__dropdown-details {
+  height: 100%;
+}
+
+.md-tabs__dropdown-details > summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  height: 100%;
+  padding: 0 0.6rem;
+  margin-top: 0 !important;   /* Material既定の.md-tabs__linkのmargin-topを打ち消し、height:100%の起点をタブ行の上端に固定 */
+  box-sizing: border-box;
+  cursor: pointer;
+  list-style: none;
+}
+
+.md-tabs__dropdown-details > summary::-webkit-details-marker {
+  display: none;   /* 既定の三角マーカーを消す（への字アイコンで代替） */
+}
+
+/* 「裁判文書公開」等のドロップダウンタブは、上の summary の height:100% で縦中央寄せにしているが、
+   隣の通常タブ（モバイル用に margin-top で少し上寄りに揃えている。上の「モバイルでもタブを常時表示」）
+   より2〜3px下にずれる。モバイル幅だけ下に余白を作って中央位置を合わせる
+   （実機のフォントサイズ・行送りで検証した値。この定義はカスケードの都合で
+   上の .md-tabs__dropdown-details > summary の padding より後ろに置く必要がある） */
+@media screen and (max-width: 76.234375em) {
+  .md-tabs__dropdown-details > summary {
+    padding-bottom: 0.29rem;
+  }
+}
+
+.md-tabs__caret {
+  font-size: 0.6rem;
+  transition: transform 0.15s ease;
+}
+
+.md-tabs__dropdown-details[open] .md-tabs__caret {
+  transform: rotate(180deg);
+}
+
+.md-tabs__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  min-width: 6.5rem;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--md-default-bg-color);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+}
+
+.md-tabs__dropdown-link {
+  display: block;
+  position: relative;      /* つまみ(::before)より前面に出す */
+  z-index: 1;
+  padding: 7px 10px;
+  font-size: 0.7rem;
+  color: var(--md-typeset-color) !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.md-tabs__dropdown-link:hover,
+.md-tabs__dropdown-link--active {
+  background: var(--surface-gray);
+  color: var(--md-main-color) !important;
+}
+
+/* センタリング */
+.center-container {
+  display: flex;
+  flex-direction: column; /* ← 横並びではなく縦並びにする */
+  align-items: center;    /* 横方向の中央揃え */
+  gap: 0;                 /* セクション間は各要素の margin-top（.gap-6 等）で持たせる。gap は使わない */
+  max-width: 100%;
+  overflow: visible;  /* タイトルの全幅グレー帯(::before 100vw)を画面端まで出すためクリップしない（旧 hidden） */
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .center-container {
+    justify-content: flex-start;
+    overflow: visible;   /* スマホ：.agm-section の側面box-shadowを切らないため（box-shadowはレイアウト非関与なので横スクロールは出ない） */
+  }
+}
+
+/* PC：.md-main__inner の margin-top（0.5rem）などに由来する構造上の余白ぶんを打ち消し、
+   ヘッダー→タイトルの間が .top-title-13 の padding-top だけで決まるようにする
+   （実測でヘッダー側だけ0.9rem分余分だったための調整）。 */
+@media only screen and (min-width: 768px) {
+  .center-container {
+    margin-top: -0.9rem;
+  }
+}
+
+/* スマホ：Home 上部ユーティリティ（シェア）が右端に詰まらないよう右余白。PC は対象外。 */
+@media only screen and (max-width: 767px) {
+  .md-typeset p.base00 {
+    padding-right: 0.6rem;
+  }
+  .center-container {
+    padding-top: 0.9rem;
+  }
+}
+
+/* 本文フロー中の節見出し（「再通報と新たな問題」）：上の余白はこの要素自身が margin-top で持つ
+   （単一所有の原則＝下の要素が上の余白を持ち、margin-bottom は使わない。.gap-6 と同じ思想）。
+   PC はセクション基準の 6rem。スマホは、直下のリード（.agree-gap = 4rem+10px、スマホでも圧縮なし）
+   との上下対称を優先し、同じ 4rem+10px にする（3rem まで縮めると上だけ狭くなる）。 */
+.gap-6 + p.sec-title {
+  margin-top: 6rem !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .gap-6 + p.sec-title {
+    margin-top: calc(4rem + 10px) !important;
+  }
+}
+
+/* ホーム導入の問題提起見出し（１・２・３）：枠内(agm-section)の説明見出しと同じ 1.2rem に揃える（太さ400・黒のまま／枠がないので左寄せ） */
+.larger.width-40.margin02 {
+  font-size: 1.2rem !important;
+}
+
+/* ホーム導入の問題提起見出し（１・２・３）：1.2rem 太字（.larger とは別スケール） */
+.issue-point {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+}
+
+/* ホームの節見出し（本サイトの問題提起／確認できない３つの情報／再通報と新たな問題）：
+   サイズで“タイトル感”を出す（太字・罫線なし）。モバイルでも中央維持（.center の左寄せ化を上書き）。
+   フォントサイズ・太さはメインタイトル（h1.top-title-13）と同じに揃える（PC 2.4rem／スマホ 1.7rem・太さは常に300）。 */
+.sec-title {
+  font-size: 2.4rem !important;
+  font-weight: 300 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.06em;
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-title {
+    font-size: 1.7rem !important;
+  }
+}
+
+/* インデント */
+.doc {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4 !important;
+  font-size: 16px !important;
+  margin: 0;
+  }
+
+.idt {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4 !important;
+  font-size: 16px !important;
+  margin: 0;
+  text-indent:1em;
+  }
+
+.hg-idt {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  line-height: 2.4 !important;
+  font-size: 16px !important;
+  margin: 0;
+  padding-left:1em;
+  text-indent:-1em;
+  }
+
+.doc, .idt, .hg-idt, .hg-idt2, .hg-idt3 {
+  font-family: "Noto Serif JP", serif !important;
+}
+
+.doc a, .idt a, .hg-idt a, .hg-idt2 a, .hg-idt3 a {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+/* 裁判文書内の太字強調（<b>/<strong>）：明朝の太字は判別しづらいため、リンクと同様にゴシックへ切り替える */
+.doc b, .idt b, .hg-idt b, .hg-idt2 b, .hg-idt3 b,
+.doc strong, .idt strong, .hg-idt strong, .hg-idt2 strong, .hg-idt3 strong {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+.pad1 {
+  padding-left:1em;
+  }
+
+.pad2 {
+  padding-left:2em;
+  }
+
+.pad9 {
+  padding-left:9em;
+  }
+
+/* ページ冒頭タイトルの共通枠組み（Home の <h1 class="hero-band top-title-13"> と
+   agm/trial の <div class="hero-band"> で共用。旧 .agm-hero-band と統合）。
+   本文幅(32rem)・上下余白(6rem 0)・グレー帯の画面端張り出しは全ページ共通。
+   グレー帯は ::before を画面端(100vw)まで敷き、top を大きめの負値にしてヘッダーの裏に隠すことで、
+   ヘッダー直下からグレーが途切れなく続くようにする。
+   ※ center-container は overflow:visible が前提（はみ出しをクリップしない） */
+.hero-band {
+  position: relative;
+  z-index: 0;
+  max-width: 32rem;
+  padding: 6rem 0;   /* サイト全体の余白リズム（6rem＝.issue-lead等と同じ）に揃える */
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.hero-band::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -10rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50vw;
+  width: 100vw;
+  background: var(--surface-gray);   /* 共通変数（ライト#eef1f5／ダーク#16263c） */
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-band {
+    max-width: 100%;
+    padding-top: 0.5rem;     /* スマホ：タイトル上の余白を詰める（既定 2rem を上書き） */
+    padding-bottom: 1.2rem;
+  }
+}
+
+/* カード */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0;
+  padding: 1.6rem 3.2rem;
+  box-shadow: none;
+  width: 100%;
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+  padding: 1.6rem 0.8rem !important;
+  }
+  }
+
+/* 罫線でなく背景色で区切る（2026-08-18、border→背景に変更。名称も card-blue→card-blue に修正） */
+.card-blue {
+  background: var(--surface-gray);
+  border-radius: 8px;
+  padding: 1.6rem 3.2rem;
+  box-shadow: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .card-blue {
+  padding: 1.6rem 0.8rem !important;
+  }
+  }
+
+.card-blue, .card-blue * {
+  box-sizing: border-box;
+}
+
+/* 節見出し「制作物」：ページ題(h1 2.4rem)より一段小さく、字間で立てる。
+   直前の段落（JDLA資格・実務経験）とは margin-top 4rem で区切る
+   ＝ 直後の .about-work 間隔（4rem）と揃え、段落→見出し→各項目を均等リズムにする */
+.about-sec-title {
+  font-size: 1.35rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.45em;
+  text-indent: 0.45em; /* 末尾字間ぶんの中心ズレ補正 */
+  text-align: center !important;
+  line-height: 1.4 !important;
+  margin-top: 4rem !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-sec-title {
+    font-size: 1.2rem !important;
+    margin-top: 3rem !important;
+  }
+}
+
+/* 制作物の各項目：番号(無彩色)→タイトル(大きさで立てる)→本文→ボタン。
+   項目間は margin-top で区切る（見出し直後の1つ目も含め均等に4rem）。
+   項目内の余白は p をいったん 0 リセットして個別に付け直す */
+.md-typeset .about-work {
+  margin-top: 4rem !important;
+  /* .width-40（max-width 32rem・中央寄せ）は内容に合わせて幅が縮む。文章の短い項目だけ縮んで
+     左端が他の項目とずれるのを防ぎ、常に最大幅（32rem、スマホは親の幅）にそろえる */
+  width: 100%;
+  /* 左に大きな番号の列を取り、タイトル・リンク・本文は右の列にそろえる */
+  position: relative;
+  padding-left: 4.4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  /* 同じ「番号つき項目の並び」であるHome(3つの情報)・agm(株主質問N)はスマホでも
+     4remのまま圧縮していないため、こちらも合わせて圧縮なしにする（2026-08-17、3remから修正） */
+  .md-typeset .about-work {
+    margin-top: 4rem !important;
+    padding-left: 0; /* スマホでは番号の列を取らず、番号はタイトルの上に小さく置く */
+  }
+}
+
+.md-typeset .about-work p {
+  margin: 0 !important;
+}
+
+/* 番号は左の列に、大きく薄いグレーで置く。項目にカーソルが乗っている間だけ少し濃くなる。
+   タイトル（.about-work-title）の中にある span だが、項目（.about-work）を基準に左端へ出している */
+.md-typeset .about-work .about-work-no {
+  position: absolute;
+  left: 0;
+  top: -0.1rem;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  color: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+  transition: color 0.25s ease;
+}
+
+.md-typeset .about-work:hover .about-work-no {
+  color: var(--md-default-fg-color--light);
+}
+
+@media only screen and (max-width: 767px) {
+  .md-typeset .about-work .about-work-no {
+    position: static;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.2em;
+    color: var(--md-default-fg-color--light);
+  }
+}
+
+.md-typeset .about-work .about-work-title {
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.55rem !important;
+}
+
+/* タイトル右の GitHub リンク（アイコンのみ。文字色は控えめ、ホバーでリンク色） */
+.md-typeset .about-work .about-work-title .gh-link {
+  margin-left: 0.4em;
+  font-size: 0.9em;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .about-work .about-work-title .gh-link:hover {
+  color: var(--md-link-color);
+}
+
+/* タイトル自体のリンク（制作物の公開ページへ）。普段は見出しの色のまま、ホバーでリンク色（下線なし） */
+.md-typeset .about-work .about-work-title .work-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset .about-work .about-work-title .work-link:hover {
+  color: var(--md-link-color);
+}
+
+/* 制作物の項目内のリンク（技術解説へ・GitHubへ・全記事一覧）は青文字だけ。下線は付けない */
+.md-typeset .about-work .arrow-link,
+.md-typeset .about-work .arrow-link:hover {
+  text-decoration: none;
+}
+
+/* 「技術解説へ」「GitHubへ」は同じ段落に横並びで置く。2つ目の左に間隔を取る */
+.md-typeset .about-work .arrow-link + .arrow-link {
+  margin-left: 1.6em;
+}
+
+.md-typeset .about-work p:has(> .about-btn),
+.md-typeset .about-work p:has(> .arrow-link) {
+  margin-top: 0.9rem !important;
+}
+
+/* タイトルの下の「技術解説」「GitHub」リンク。番号と同じ大きさの文字で、青文字だけ（下線なし） */
+.md-typeset .about-work p.about-work-links {
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+  margin: 0 0 0.7rem 0 !important;
+}
+
+.md-typeset .about-work p.about-work-links .arrow-link i {
+  margin-right: 0.15em;
+}
