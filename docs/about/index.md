@@ -143,7 +143,7 @@ hide:
 </div>
 
 <div class="about-work width-40" markdown>
-<p class="about-work-title"><span class="about-work-no">11</span><a class="work-link" href="https://minnanosaiban.github.io/tomo/blog/">決算・株価データの分析連載</a> <a class="gh-link" aria-label="開く" href="https://minnanosaiban.github.io/tomo/blog/"><i class="bi bi-box-arrow-up-right"></i></a></p>
+<p class="about-work-title"><span class="about-work-no">11</span><a class="work-link" href="https://minnanosaiban.github.io/kessan-kabuka/">決算・株価データの分析連載</a> <a class="gh-link" aria-label="開く" href="https://minnanosaiban.github.io/kessan-kabuka/"><i class="bi bi-box-arrow-up-right"></i></a></p>
 <p class="about-work-links">
 <a class="arrow-link" href="https://github.com/minnanosaiban/blog" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
 </p>
@@ -152,12 +152,12 @@ hide:
 </p>
 <p class="fig-meta">使用技術：Python・pandas・matplotlib・Streamlit</p>
 <ul class="about-art-list">
-<li><span class="n">2-3</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-03_accrual_analysis/">アクルーアル分析</a><span class="d">ＥＮＥＯＳの最高益に「現金の裏付け」はあるか</span></li>
-<li><span class="n">2-8</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-08_enterprise_value/">ＥＶで見る「会社の値段」</a><span class="d">時価総額に借金を足し、13社を簡易ＤＣＦで検証</span></li>
-<li><span class="n">2-6</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-06_segment_core_stocks/">コングロマリット・ディスカウント</a><span class="d">総合商社・ＥＮＥＯＳをセグメントで読み解く</span></li>
+<li><span class="n">2-3</span><a href="https://minnanosaiban.github.io/kessan-kabuka/posts/02-03_accrual_analysis/">アクルーアル分析</a><span class="d">ＥＮＥＯＳの最高益に「現金の裏付け」はあるか</span></li>
+<li><span class="n">2-8</span><a href="https://minnanosaiban.github.io/kessan-kabuka/posts/02-08_enterprise_value/">ＥＶで見る「会社の値段」</a><span class="d">時価総額に借金を足し、13社を簡易ＤＣＦで検証</span></li>
+<li><span class="n">2-6</span><a href="https://minnanosaiban.github.io/kessan-kabuka/posts/02-06_segment_core_stocks/">コングロマリット・ディスカウント</a><span class="d">総合商社・ＥＮＥＯＳをセグメントで読み解く</span></li>
 </ul>
 <p>
-<a class="arrow-link" href="https://minnanosaiban.github.io/tomo/blog/">連載の全記事一覧はこちら</a>
+<a class="arrow-link" href="https://minnanosaiban.github.io/kessan-kabuka/">連載の全記事一覧はこちら</a>
 </p>
 </div>
 
