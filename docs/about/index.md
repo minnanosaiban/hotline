@@ -1,6 +1,6 @@
 ---
 title: サイト運営者について
-description: ENEOS（エネオス）の内部通報をめぐる裁判・訴訟の通報者本人が作成した、制作物の紹介です。裁判・株主総会2026の記録サイトのほか、ＰＤＦツール、サイドノート作成、RelaGrid、スキャン墨消し、株価データ分析などを公開しています。
+description: ENEOS（エネオス）の内部通報をめぐる裁判・訴訟の通報者本人が作成した、制作物の紹介です。裁判・株主総会2026の記録サイトのほか、PDFツール、サイドノート作成、RelaGrid、スキャン墨消し、株価データ分析などを公開しています。
 seo_title: ENEOS（エネオス）通報者本人の制作物｜通報・裁判・株主総会の記録も
 url: https://minnanosaiban.github.io/hotline/about/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
@@ -16,7 +16,7 @@ hide:
 <div class="hero-band" markdown>
 # サイト運営者について
 <p>
-ウェブサイト「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」は通報者本人が作成しています。裁判に関する掲載以外に、実務経験（企業価値分析・Pythonデータ分析・Ｅ資格ホルダー）を活かして、「ちょっと面倒」を軽くするツールを作成しています。
+ウェブサイト「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」は通報者本人が作成しています。裁判に関する掲載以外に、実務経験（企業価値分析・Pythonデータ分析・E資格ホルダー）を活かして、「ちょっと面倒」を軽くするツールを作成しています。
 </p>
 </div>
 
@@ -65,9 +65,9 @@ hide:
 <a class="arrow-link" href="https://github.com/minnanosaiban/scan-ocr" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
 </p>
 <p>
-スキャンしたPDF・画像を OCR して、テキストレイヤを載せるツールです。「墨消し」機能もあり、資料の個人名などの墨消し作業にも使えます。処理はすべてパソコンの中だけで完結します。
+スキャンしたＰＤＦ・画像をＯＣＲして、テキストレイヤを載せるツールです。「墨消し」機能もあり、資料の個人名などの墨消し作業にも使えます。処理はすべてパソコンの中だけで完結します。
 </p>
-<p class="fig-meta">使用技術：Python（ローカルＷｅｂアプリ）</p>
+<p class="fig-meta">使用技術：Python（ローカルWebアプリ）</p>
 </div>
 
 <div class="about-work width-40" markdown>
@@ -77,7 +77,7 @@ hide:
 <a class="arrow-link" href="https://github.com/minnanosaiban/screenshot-pdf" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
 </p>
 <p>
-スマホのスクリーンショットを２×２でＡ４に並べ、整理しやすいＰＤＦにまとめます。メールやチャットにその場でそのまま送れます。処理はすべてブラウザ内で完結し、外部送信はありません。
+スマホのスクリーンショットを2×2でA4に並べ、整理しやすいＰＤＦにまとめます。メールやチャットにその場でそのまま送れます。処理はすべてブラウザ内で完結し、外部送信はありません。
 </p>
 <p class="fig-meta">使用技術：JavaScript・pdf-lib（Cloudflare Pages）</p>
 </div>
@@ -115,7 +115,7 @@ hide:
 <p>
 ＴＯＥＩＣ対策向けの英語学習アプリです。文の構造（ＳＶＯＣ・文型・時制）の解説に加え、英文・単語のグループ分け、関係図・絵文字イラスト表示、読み上げでのシャドーイングに対応しています。
 </p>
-<p class="fig-meta">使用技術：JavaScript・Gemini API・Web Crypto（AES-GCM）・PWA（Cloudflare Workers・D1）</p>
+<p class="fig-meta">使用技術：JavaScript・Gemini API・Web Crypto（AES-GCM）・ＰＷＡ（Cloudflare Workers・D1）</p>
 </div>
 
 <div class="about-work width-40" markdown>
@@ -125,7 +125,7 @@ hide:
 <a class="arrow-link" href="https://github.com/minnanosaiban/hotline" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
 </p>
 <p>
-自身が公開したウェブサイト「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」は Zensical で作成しています。ミニマルデザインを取り入れ、Zensical の標準機能ではない部分は JS/CSS で実装しています。
+自身が公開したウェブサイト「ＥＮＥＯＳの内部通報制度をめぐる訴訟について」は Zensical で作成しています。ミニマルデザインを取り入れ、Zensical の標準機能ではない部分はＪＳ/CSS で実装しています。
 </p>
 <p class="fig-meta">使用技術：Zensical（MkDocs互換）・JavaScript・GitHub Pages</p>
 </div>
@@ -137,7 +137,7 @@ hide:
 <a class="arrow-link" href="https://github.com/minnanosaiban/company-analysis" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
 </p>
 <p>
-有価証券報告書を、業種や財務指標の条件で探して比べられる公開サイトです。東証の主要企業（約500社）を、ROE・PER・自己資本比率やキャッシュフローの型で絞り込み、セグメント別の利益や推移も見られます。
+有価証券報告書を、業種や財務指標の条件で探して比べられる公開サイトです。東証の主要企業（約500社）を、ＲＯＥ・ＰＥＲ・自己資本比率やキャッシュフローの型で絞り込み、セグメント別の利益や推移も見られます。
 </p>
 <p class="fig-meta">使用技術：JavaScript・Apache ECharts・GitHub Pages</p>
 </div>
@@ -153,7 +153,7 @@ hide:
 <p class="fig-meta">使用技術：Python・pandas・matplotlib・Streamlit</p>
 <ul class="about-art-list">
 <li><span class="n">2-3</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-03_accrual_analysis/">アクルーアル分析</a><span class="d">ＥＮＥＯＳの最高益に「現金の裏付け」はあるか</span></li>
-<li><span class="n">2-8</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-08_enterprise_value/">EVで見る「会社の値段」</a><span class="d">時価総額に借金を足し、13社を簡易DCFで検証</span></li>
+<li><span class="n">2-8</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-08_enterprise_value/">ＥＶで見る「会社の値段」</a><span class="d">時価総額に借金を足し、13社を簡易ＤＣＦで検証</span></li>
 <li><span class="n">2-6</span><a href="https://minnanosaiban.github.io/tomo/blog/posts/02-06_segment_core_stocks/">コングロマリット・ディスカウント</a><span class="d">総合商社・ＥＮＥＯＳをセグメントで読み解く</span></li>
 </ul>
 <p>
@@ -169,7 +169,7 @@ hide:
 <p>
 決算短信・有価証券報告書・株価・適時開示などのデータ取得と、データ品質のチェックを、ひとつの画面にまとめたツールです。日次セットのワンクリック実行、取得済み期間の確認、実行ログの表示に加え、データの遅れ・欠損・株式分割の取り込み漏れ・日付抜けを点検できます。データはすべてこのパソコンの中だけに保存されます。
 </p>
-<p class="fig-meta">使用技術：Python・FastAPI・JavaScript（ローカルＷｅｂアプリ）</p>
+<p class="fig-meta">使用技術：Python・FastAPI・JavaScript（ローカルWebアプリ）</p>
 </div>
 
 </div>

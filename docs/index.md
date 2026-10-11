@@ -57,7 +57,7 @@ hide:
 <div class="agm-section" markdown>
 
 <p class="sec-title">
-<span class="text-main">裏づけが<br>確認できない<br>３つの情報</span>
+<span class="text-main">裏づけが<br>確認できない<br>3つの情報</span>
 </p>
 
 <p class="width-40 verdict-lead">
