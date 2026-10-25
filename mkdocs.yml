@@ -24,6 +24,7 @@ extra_css:
   - css/shared/base.css
   - css/shared/layout.css
   - css/shared/components.css
+  - css/shared/tabs.css
   - css/shared/parts.css
   - css/01-site-color.css
   - css/02-layout.css
