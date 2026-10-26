@@ -48,7 +48,7 @@
   function toPlainMarkdown(text) {
     return String(text).replace(/^﻿/, '').replace(/\r\n?/g, '\n').trim().split(/\n{2,}/).map(function (block) {
       var note = /^\s*<aside\b[^>]*>([\s\S]*)<\/aside>\s*$/i.exec(block);
-      if (note) return noteToMarkdown(note[1]);
+      if (note) return /\bsn-own\b/.test(block.slice(0, block.indexOf('>'))) ? '' : noteToMarkdown(note[1]);   // sn-own: 管理者の個人的な注釈。.md には出さない
       var m = MARKER_RE.exec(block);
       var t = (m ? block.slice(m[0].length) : block).replace(/\n/g, ' ');
       return t
@@ -131,6 +131,84 @@
     dlg.showModal();
   }
 
+  // ---------------------------------------------------------------- まとめてダウンロード（zip）
+  // 一覧の書面を、見出し（裁判所／被告側／原告側／…）ごとのフォルダに分けて zip にする（court-calendar と同じ）。
+  // JSZip は押されたときに初めて読み込む。PDF は同じサイトの docs/pdf/ から取る。
+  var JSZIP_URL = 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';
+  function loadJSZip() {
+    if (window.JSZip) return Promise.resolve();
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = JSZIP_URL; s.onload = resolve; s.onerror = function () { reject(new Error('zip作成用の部品を読み込めませんでした')); };
+      document.head.appendChild(s);
+    });
+  }
+  function safeName(s) { return String(s || '').replace(/[\\\/:*?"<>|\x00-\x1f]/g, '_').trim() || '資料'; }
+  // 「2024.04.15_答弁書」。PDF のファイル名（…_2024年04月15日_答弁書.pdf）から拾い、無ければ見出しの文字を使う
+  function zipBase(d) {
+    var pdf = d.getAttribute('data-pdf') || '', name = pdf.split('/').pop();
+    try { name = decodeURIComponent(name); } catch (e) { /* そのまま */ }
+    var m = /_(\d{4})年(\d{2})月(\d{2})日_(.+)\.pdf$/.exec(name);
+    return m ? m[1] + '.' + m[2] + '.' + m[3] + '_' + safeName(m[4]) : safeName(titleOf(d));
+  }
+  function bulkRows(kind) {
+    return [].slice.call(document.querySelectorAll('details.doc-acc:not([data-plain])')).filter(function (d) {
+      return kind === 'pdf' ? d.getAttribute('data-pdf') : (d.getAttribute('data-md') && !d.hasAttribute('data-no-md'));
+    });
+  }
+  function bulkDownload(kind, btn) {
+    var rows = bulkRows(kind);
+    if (!rows.length) return;
+    var label = btn.querySelector('.zlabel'), orig = label.textContent;
+    btn.disabled = true; label.textContent = '作成中…';
+    var used = {};
+    var entries = rows.map(function (d) {                  // 先に名前を確定する（取得の順に左右されないように）
+      var side = safeName(sideOf(d) || 'その他'), ext = kind === 'pdf' ? '.pdf' : '.md', base = zipBase(d), name = base + ext, i = 2;
+      used[side] = used[side] || {};
+      while (used[side][name]) { name = base + '(' + i + ')' + ext; i++; }
+      used[side][name] = true;
+      return { d: d, side: side, name: name };
+    });
+    loadJSZip().then(function () {
+      var zip = new JSZip();
+      return Promise.all(entries.map(function (e) {
+        if (kind === 'pdf') {
+          return fetch(new URL(e.d.getAttribute('data-pdf'), location.href).href).then(function (r) {
+            if (!r.ok) throw new Error(titleOf(e.d) + 'の取得に失敗しました');
+            return r.arrayBuffer();
+          }).then(function (buf) { zip.folder(e.side).file(e.name, buf); });
+        }
+        return docMarkdown(e.d).then(function (md) { zip.folder(e.side).file(e.name, md); });
+      })).then(function () {
+        zip.file('はじめにお読みください.txt', [
+          'このファイルは「' + SITE_TITLE + '」（' + location.origin + location.pathname + '）に掲載している書面の' + (kind === 'pdf' ? 'PDF' : 'テキスト（.md）') + 'です。',
+          kind === 'md' ? '本文中の「> 」で始まる行は、右の余白に並べているサイドノート（相手方の書面での認否）です。' : ''
+        ].filter(Boolean).join('\n'));
+        return zip.generateAsync({ type: 'blob' });
+      });
+    }).then(function (blob) {
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = SITE_TITLE + '_' + (kind === 'pdf' ? 'PDF' : 'md') + '.zip';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+    }).catch(function (err) {
+      alert('まとめてダウンロードできませんでした：' + (err && err.message || err));
+    }).then(function () { btn.disabled = false; label.textContent = orig; });
+  }
+  // 最初の書面の見出し（裁判所）の手前に、2つのボタンを置く
+  function insertBulkButtons() {
+    var first = document.querySelector('details.doc-acc:not([data-plain])');
+    var rows = first && first.closest('.doc-rows'), head = rows && rows.previousElementSibling;
+    if (!head || document.querySelector('.doc-bulk')) return;
+    var p = document.createElement('p');
+    p.className = 'doc-bulk width-40';
+    p.innerHTML =
+      (bulkRows('pdf').length ? '<button type="button" class="dbtn" data-bulkzip="pdf"><i class="bi bi-file-earmark-zip" aria-hidden="true"></i><span class="zlabel">PDFをまとめてダウンロード</span></button>' : '') +
+      (bulkRows('md').length ? '<button type="button" class="dbtn" data-bulkzip="md"><i class="bi bi-file-earmark-zip" aria-hidden="true"></i><span class="zlabel">.mdをまとめてダウンロード</span></button>' : '');
+    head.parentNode.insertBefore(p, head);
+  }
+
   // ---------------------------------------------------------------- 行にボタンを付ける
   function btnHtml(d) {
     var pdf = d.getAttribute('data-pdf');
@@ -207,13 +285,16 @@
     var rows = document.querySelectorAll('details.doc-acc');
     if (!rows.length) return;
     rows.forEach(enhanceRow);
+    insertBulkButtons();
     alignSidenotes();
     reveal();
     window.addEventListener('hashchange', reveal);
 
     document.addEventListener('click', function (e) {
+      var bulk = e.target.closest && e.target.closest('[data-bulkzip]');
+      if (bulk) { bulkDownload(bulk.getAttribute('data-bulkzip'), bulk); return; }
       var t = e.target.closest && e.target.closest('[data-mdtoggle],[data-mdcopy],[data-mddl],[data-sumopen]');
-      if (!t) {                                       // メニューの外をクリックしたら閉じる
+      if (!t) {                                     // メニューの外をクリックしたら閉じる
         if (!(e.target.closest && e.target.closest('.dmdwrap'))) document.querySelectorAll('.dmdmenu').forEach(function (m) { m.hidden = true; });
         return;
       }
