@@ -34,9 +34,10 @@ hide:
 
 <div class="toc-wrap doc-list" markdown>
 
-<p class="width-40 issue-lead sec-title">
-2024年提訴<br>判決の概要
+<p class="width-40 issue-lead sec-title sec-has-sub">
+判決の概要
 </p>
+<p class="width-40 sec-sub">2024年提訴</p>
 
 <p class="width-40 margin02 lead-normal-gap">
 ＥＮＥＯＳに海外消費税を支払う義務がなかったにもかかわらず、海外消費税を支払っている旨の通報を受けた後、ＥＮＥＯＳは、「海外企業がＥＮＥＯＳへ海外消費税を請求できる」形へ契約変更しました。この契約変更について、<b>「通報を受けて講じた是正措置を通報者に通知しなかったこと」が裁判の争点</b>です。
@@ -80,9 +81,10 @@ hide:
 
 </div>
 
-<p class="width-40 issue-lead sec-title">
+<p class="width-40 issue-lead sec-title sec-has-sub">
 裁判文書
 </p>
+<p class="width-40 sec-sub">2024年提訴</p>
 
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
@@ -282,7 +284,10 @@ hide:
 
 </div>
 
-<p class="t-toc-head bar-title doc-side">関係法令・規程・証拠</p>
+<p class="width-40 issue-lead sec-title sec-has-sub">
+法令・規程
+</p>
+<p class="width-40 sec-sub">2024年提訴</p>
 
 <div class="doc-rows" markdown>
 
