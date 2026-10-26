@@ -118,17 +118,7 @@ body:has(.trial-doc-marker) .doc-body h2::before { display: none; }
 .dbtn.off { opacity: 0.4; cursor: default; background: none; }
 .dbtn.off:hover { border-color: var(--md-card-border); color: var(--md-typeset-color); }
 .dbtn.copied, .dbtn.copied .bi { color: #2f7d4f; border-color: #2f7d4f; }
-.doc-bulk {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin: 3rem auto 0;
-  padding: 0.8rem 1rem;
-  background: var(--md-code-bg-color, rgba(0, 0, 0, 0.03));
-  border: 1px solid var(--md-card-border);
-  border-radius: 10px;
-}
-.doc-bulk-title { font-size: 13px; color: var(--md-default-fg-color--light); }
+.doc-bulk { margin: 3rem auto 0; }
 .doc-bulk-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .dbtn:disabled { opacity: 0.6; cursor: progress; }
 .dmdwrap { position: relative; display: inline-flex; }
