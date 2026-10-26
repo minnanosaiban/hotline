@@ -201,11 +201,11 @@
     var first = document.querySelector('details.doc-acc:not([data-plain])');
     var rows = first && first.closest('.doc-rows'), head = rows && rows.previousElementSibling;
     if (!head || document.querySelector('.doc-bulk')) return;
-    var p = document.createElement('p');
+    var p = document.createElement('div');
     p.className = 'doc-bulk width-40';
-    p.innerHTML =
+    p.innerHTML = '<span class="doc-bulk-title">以下の書面を、まとめて保存できます</span><span class="doc-bulk-btns">' +
       (bulkRows('pdf').length ? '<button type="button" class="dbtn" data-bulkzip="pdf"><i class="bi bi-file-earmark-zip" aria-hidden="true"></i><span class="zlabel">PDFをまとめてダウンロード</span></button>' : '') +
-      (bulkRows('md').length ? '<button type="button" class="dbtn" data-bulkzip="md"><i class="bi bi-file-earmark-zip" aria-hidden="true"></i><span class="zlabel">.mdをまとめてダウンロード</span></button>' : '');
+      (bulkRows('md').length ? '<button type="button" class="dbtn" data-bulkzip="md"><i class="bi bi-file-earmark-zip" aria-hidden="true"></i><span class="zlabel">.mdをまとめてダウンロード</span></button>' : '') + '</span>';
     head.parentNode.insertBefore(p, head);
   }
 
