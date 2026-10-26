@@ -52,12 +52,14 @@
       var m = MARKER_RE.exec(block);
       var t = (m ? block.slice(m[0].length) : block).replace(/\n/g, ' ');
       return t
+        .replace(/<p\b[^>]*>/gi, '\n\n')      // 1行に <p> が並ぶ書面は、ここで段落に分ける
         .replace(DOT_ICON_RE, '●')
         .replace(/<a name="[^"]*"><\/a>/g, '')
         .replace(/<br\s*\/?>/gi, '  \n')
         .replace(/<\/?(?:b|strong)>/gi, '**')
         .replace(BLOCK_TAG_RE, ' ')
         .replace(/[ \t]{2,}(?!\n)/g, ' ')
+        .replace(/[ \t]*\n\n[ \t]*/g, '\n\n')
         .trim();
     }).filter(Boolean).join('\n\n');
   }
