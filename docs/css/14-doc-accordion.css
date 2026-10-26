@@ -119,6 +119,16 @@ body:has(.trial-doc-marker) .doc-body h2::before { display: none; }
 .dbtn.off:hover { border-color: var(--md-card-border); color: var(--md-typeset-color); }
 .dbtn.copied, .dbtn.copied .bi { color: #2f7d4f; border-color: #2f7d4f; }
 .doc-bulk { margin: 1.2rem auto 0; }
+/* 大見出し（.sec-title）の下に小さく添える補足（「2024年提訴」）。見出しとの間は詰め、その下は元の2rem */
+.sec-has-sub { margin-bottom: 0.3rem !important; }
+.sec-sub {
+  margin-top: 0 !important;
+  margin-bottom: 2rem !important;
+  text-align: center !important;
+  font-size: 1.05rem !important;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
 .doc-bulk-btns { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
 .dbtn:disabled { opacity: 0.6; cursor: progress; }
 .dmdwrap { position: relative; display: inline-flex; }
