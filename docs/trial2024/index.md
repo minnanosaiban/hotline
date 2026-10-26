@@ -80,6 +80,10 @@ hide:
 
 </div>
 
+<p class="width-40 issue-lead sec-title">
+裁判文書
+</p>
+
 <p class="t-toc-head bar-title doc-side">裁判所</p>
 
 <div class="doc-rows" markdown>
