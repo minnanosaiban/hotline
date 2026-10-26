@@ -119,7 +119,7 @@ body:has(.trial-doc-marker) .doc-body h2::before { display: none; }
 .dbtn.off:hover { border-color: var(--md-card-border); color: var(--md-typeset-color); }
 .dbtn.copied, .dbtn.copied .bi { color: #2f7d4f; border-color: #2f7d4f; }
 .doc-bulk { margin: 3rem auto 0; }
-.doc-bulk-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.doc-bulk-btns { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
 .dbtn:disabled { opacity: 0.6; cursor: progress; }
 .dmdwrap { position: relative; display: inline-flex; }
 .dmdmenu {
