@@ -1,5 +1,5 @@
 <p class="doc">
-<b>被告準備書面（４）</b>
+<b><span class="pg" data-p="1"></span>被告準備書面（４）</b>
 </p>
 
 <p class="doc">
@@ -11,7 +11,7 @@
 </p>
 
 <p class="doc">
-<b>目次</b>
+<b><span class="pg" data-p="2"></span>目次</b>
 </p>
 
 <p class="pad2 hg-idt">
@@ -55,7 +55,7 @@
 </p>
 
 <p class="pad1 hg-idt">
-<b>第１　緒言</b>
+<b><span class="pg" data-p="3"></span>第１　緒言</b>
 </p>
 
 <p class="pad1 idt">
@@ -117,7 +117,7 @@
 </p>
 
 <p class="pad4 idt">
-仮に被告が何者かに対して原告の主張するような義務を負っているとしても、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。
+仮に被告が何者かに対して原告の主張するような義務を負っているとして<span class="pg" data-p="4"></span>も、少なくとも被告がその従業員（原告を含む。）に対して負っている義務ではない。
 </p>
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
@@ -189,7 +189,7 @@
 
 <p class="pad4 hg-idt">
 <a name="hikoku4_213u"></a>
-ウ　第１の１ ⑶ ウ（「しかしながら」以下）（５頁）について
+<span class="pg" data-p="5"></span>ウ　第１の１ ⑶ ウ（「しかしながら」以下）（５頁）について
 </p>
 
 <p class="pad4 idt">
@@ -261,7 +261,7 @@
 
 <p class="pad4 hg-idt">
 <a name="hikoku4_213sa"></a>
-サ　第１の１ ⑶ サ（「よって」以下）（７頁）について
+<span class="pg" data-p="6"></span>サ　第１の１ ⑶ サ（「よって」以下）（７頁）について
 </p>
 
 <p class="pad4 idt">
@@ -307,7 +307,7 @@
 </p>
 
 <p class="pad1 idt">
-しかし、文書の送付を嘱託するためには、その文書につき証拠調べをする必要性があることを要するところ（民事訴訟法第１８１条第１項）、原告が原告第３準備書面第１の２以下において「明らかにすべき」と主張している「否認」又は「争う」の理由は、その理由の如何によって、本件訴訟の争点あるいは原告の主張に理由があるか否かの認定に影響を及ぼすものでない。
+しかし、文書の送付を嘱託するためには、その文書につき証拠調べをする必要性があることを要するところ（民事訴訟法第１８１条第１項）、原告が原告第３準備書面第１の２以下において「明らかにすべき」と主張している「否認」又は「<span class="pg" data-p="7"></span>争う」の理由は、その理由の如何によって、本件訴訟の争点あるいは原告の主張に理由があるか否かの認定に影響を及ぼすものでない。
 </p>
 
 <aside class="sn-note"><span class="strong-rd"><i class="fa-solid fa-arrow-left"></i></span> <span class="sn-badge">ＥＮＥＯＳの主張</span></aside>
