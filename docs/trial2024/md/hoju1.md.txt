@@ -135,7 +135,7 @@
 
 <p class="pad2 hg-idt">
 <a name="hoju1_22"></a>
-<b>２　<span class="pg" data-p="3"></span>改正公益通報者保護法第１１条第２項の適用</b>
+<b><span class="pg" data-p="3"></span>２　改正公益通報者保護法第１１条第２項の適用</b>
 </p>
 
 <p class="pad2 idt">
