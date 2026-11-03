@@ -181,7 +181,7 @@ hide:
 
 <p class="t-toc-head bar-title doc-side">原告（通報者）側</p>
 
-<p class="width-40 margin02 smaller">
+<p class="width-40 margin02 smaller lead-normal-gap">
 この欄の書面の本文は、訂正申立書を反映した版です。頁の表示とＰＤＦは、裁判所に提出した原本（訂正前）のものです。訂正の内容は、各訂正申立書をご覧ください。
 </p>
 
