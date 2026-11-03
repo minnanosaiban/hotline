@@ -234,7 +234,7 @@ body:has(.trial-doc-marker) .doc-body .sn-note .sn-badge {
   font-weight: 700;
 }
 /* 本文側の注番号（<sup>N</sup>） */
-body:has(.trial-doc-marker) .doc-body sup { color: var(--md-warn-red); font-weight: 700; font-size: 0.7em; }
+body:has(.trial-doc-marker) .doc-body sup { font-weight: 700; font-size: 0.7em; }
 /* 余白が取れない幅では出さない（既存の .sidenote と同じ方針。11-trial.css の 76.1875em 以下と同じ境目） */
 @media screen and (max-width: 76.1875em) {
   body:has(.trial-doc-marker) .doc-body .sn-note { display: none; }
