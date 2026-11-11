@@ -29,7 +29,7 @@ hide:
 </p>
 
 <p class="trial-year-nav width-40" markdown>
-<a href="../trial2025/">2025年提訴</a>　<b>2024年提訴</b>　<a href="../trial2021/">2021年提訴</a>
+<b>2024年提訴</b>　<a href="../trial2021/">2021年提訴</a>
 </p>
 
 <div class="toc-wrap doc-list" markdown>
@@ -81,7 +81,7 @@ hide:
 
 </div>
 
-<p class="width-40 issue-lead sec-title sec-has-sub">
+<p class="width-40 issue-lead sec-title sec-has-sub" id="bunsho">
 裁判文書
 </p>
 <p class="width-40 sec-sub">2024年提訴</p>
