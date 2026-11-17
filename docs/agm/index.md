@@ -39,6 +39,10 @@ ENEOSの株主総会2026の様子は、YouTube公式チャンネル（ENEOS TV�
 株主総会2026<br>公開内容の検証
 </p>
 
+<p class="larger center width-40 margin02">
+14の株主質問
+</p>
+
 <p class="width-40 margin02 agree-gap">
 ENEOS TV における質問要旨（パネル）と実際の株主質問の対照表です。14問中10問で、質問の性質そのものがすり替わっていました。要するに、<span class="text-warn">ENEOSは実際の質問の趣旨とは異なる内容を、株主質問として公開しています。</span>
 </p>
