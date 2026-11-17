@@ -87,47 +87,6 @@ hide:
 会社は通報者に、「海外子会社が本社の代わりに海外消費税の返金を受けた」ことを解決策として示しました。<br>
 ── しかし、記録として確認できるのは「海外子会社から本社への送金」だけで、「海外子会社が外部から実際に回収した」ことを示す記録は見つかりません。回収していないのなら、海外子会社は自らの資金で本社の支払を肩代わりしたことになり、送金そのものが問題になります。
 </p>
-<figure class="width-40 gst-flow" style="width:100%; margin:1.6rem auto 4.5rem;">
-<svg viewBox="0 0 400 316" role="img" aria-label="海外消費税（ＧＳＴ）の流れ。ＥＮＥＯＳが豪州取引先に支払い、取引先が豪州の税務当局に納付した。税務当局から海外子会社への還付は確認できないが、海外子会社から本社への送金は確認できる。" style="display:block; width:100%; height:auto; font-family:inherit;">
-<style>
-.gf-node { fill: var(--surface); }
-.gf-name { fill: var(--md-typeset-color); font-size: 14px; font-weight: 700; text-anchor: middle; }
-.gf-sub { fill: var(--muted); font-size: 11px; text-anchor: middle; }
-.gf-line { stroke: var(--md-link-color); stroke-width: 2; fill: none; }
-.gf-head { fill: var(--md-link-color); }
-.gf-label { fill: var(--md-typeset-color); font-size: 13px; }
-.gf-note { fill: var(--muted); font-size: 12px; }
-.gf-line-q { stroke: var(--md-warn-red); stroke-width: 2; stroke-dasharray: 6 5; fill: none; }
-.gf-head-q { fill: var(--md-warn-red); }
-.gf-q { fill: var(--md-warn-red); font-size: 13px; font-weight: 700; text-anchor: middle; }
-.gf-qmark { fill: var(--md-warn-red); font-size: 22px; font-weight: 700; text-anchor: middle; }
-</style>
-<rect class="gf-node" x="10" y="10" width="140" height="56" rx="4"/>
-<text class="gf-name" x="80" y="35">ＥＮＥＯＳ</text>
-<text class="gf-sub" x="80" y="53">（本社）</text>
-<rect class="gf-node" x="250" y="10" width="140" height="56" rx="4"/>
-<text class="gf-name" x="320" y="43">豪州取引先</text>
-<rect class="gf-node" x="250" y="250" width="140" height="56" rx="4"/>
-<text class="gf-name" x="320" y="283">豪州の税務当局</text>
-<rect class="gf-node" x="10" y="250" width="140" height="56" rx="4"/>
-<text class="gf-name" x="80" y="283">海外子会社</text>
-<line class="gf-line" x1="156" y1="38" x2="236" y2="38"/>
-<polygon class="gf-head" points="246,38 234,32 234,44"/>
-<text class="gf-label" x="200" y="27" text-anchor="middle">ＧＳＴを支払</text>
-<line class="gf-line" x1="320" y1="72" x2="320" y2="236"/>
-<polygon class="gf-head" points="320,246 314,234 326,234"/>
-<text class="gf-label" x="308" y="163" text-anchor="end">ＧＳＴを納付</text>
-<line class="gf-line-q" x1="244" y1="278" x2="166" y2="278"/>
-<polygon class="gf-head-q" points="154,278 166,272 166,284"/>
-<text class="gf-qmark" x="200" y="266">？</text>
-<text class="gf-q" x="200" y="300">確認できない</text>
-<line class="gf-line" x1="80" y1="244" x2="80" y2="82"/>
-<polygon class="gf-head" points="80,70 74,82 86,82"/>
-<text class="gf-label" x="92" y="155">本社へ送金</text>
-<text class="gf-note" x="92" y="173">（確認できる）</text>
-</svg>
-<figcaption style="margin:0.8rem 0 0; max-width:none; font-style:normal; text-wrap:balance; font-size:0.8rem; line-height:1.6; color:var(--muted); text-align:center;">図：ＥＮＥＯＳが支払った海外消費税（ＧＳＴ）の流れ<br>点線の「？」：海外子会社への還付は、記録で確認できません。</figcaption>
-</figure>
 
 <p class="width-40 margin04 bar-title">
 <span class="larger">コンサルに相談した</span><br>
