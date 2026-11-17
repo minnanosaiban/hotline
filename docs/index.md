@@ -85,8 +85,49 @@ hide:
 </p>
 <p class="width-40 margin02">
 会社は通報者に、「海外子会社が本社の代わりに海外消費税の返金を受けた」ことを解決策として示しました。<br>
-── しかし、記録として確認できるのは「海外子会社から本社への送金」だけで、「海外子会社が外部から実際に回収した」ことを示す記録は見つかりません。
+── しかし、記録として確認できるのは「海外子会社から本社への送金」だけで、「海外子会社が外部から実際に回収した」ことを示す記録は見つかりません。回収していないのなら、海外子会社は自らの資金で本社の支払を肩代わりしたことになり、送金そのものが問題になります。
 </p>
+<figure class="width-40 gst-flow" style="width:100%; margin:1.6rem auto 4.5rem;">
+<svg viewBox="0 0 400 316" role="img" aria-label="海外消費税（ＧＳＴ）の流れ。ＥＮＥＯＳが豪州取引先に支払い、取引先が豪州の税務当局に納付した。税務当局から海外子会社への還付は確認できないが、海外子会社から本社への送金は確認できる。" style="display:block; width:100%; height:auto; font-family:inherit;">
+<style>
+.gf-node { fill: var(--surface); }
+.gf-name { fill: var(--md-typeset-color); font-size: 14px; font-weight: 700; text-anchor: middle; }
+.gf-sub { fill: var(--muted); font-size: 11px; text-anchor: middle; }
+.gf-line { stroke: var(--md-link-color); stroke-width: 2; fill: none; }
+.gf-head { fill: var(--md-link-color); }
+.gf-label { fill: var(--md-typeset-color); font-size: 13px; }
+.gf-note { fill: var(--muted); font-size: 12px; }
+.gf-line-q { stroke: var(--md-warn-red); stroke-width: 2; stroke-dasharray: 6 5; fill: none; }
+.gf-head-q { fill: var(--md-warn-red); }
+.gf-q { fill: var(--md-warn-red); font-size: 13px; font-weight: 700; text-anchor: middle; }
+.gf-qmark { fill: var(--md-warn-red); font-size: 22px; font-weight: 700; text-anchor: middle; }
+</style>
+<rect class="gf-node" x="10" y="10" width="140" height="56" rx="4"/>
+<text class="gf-name" x="80" y="35">ＥＮＥＯＳ</text>
+<text class="gf-sub" x="80" y="53">（本社）</text>
+<rect class="gf-node" x="250" y="10" width="140" height="56" rx="4"/>
+<text class="gf-name" x="320" y="43">豪州取引先</text>
+<rect class="gf-node" x="250" y="250" width="140" height="56" rx="4"/>
+<text class="gf-name" x="320" y="283">豪州の税務当局</text>
+<rect class="gf-node" x="10" y="250" width="140" height="56" rx="4"/>
+<text class="gf-name" x="80" y="283">海外子会社</text>
+<line class="gf-line" x1="156" y1="38" x2="236" y2="38"/>
+<polygon class="gf-head" points="246,38 234,32 234,44"/>
+<text class="gf-label" x="200" y="27" text-anchor="middle">ＧＳＴを支払</text>
+<line class="gf-line" x1="320" y1="72" x2="320" y2="236"/>
+<polygon class="gf-head" points="320,246 314,234 326,234"/>
+<text class="gf-label" x="308" y="163" text-anchor="end">ＧＳＴを納付</text>
+<line class="gf-line-q" x1="244" y1="278" x2="166" y2="278"/>
+<polygon class="gf-head-q" points="154,278 166,272 166,284"/>
+<text class="gf-qmark" x="200" y="266">？</text>
+<text class="gf-q" x="200" y="300">確認できない</text>
+<line class="gf-line" x1="80" y1="244" x2="80" y2="82"/>
+<polygon class="gf-head" points="80,70 74,82 86,82"/>
+<text class="gf-label" x="92" y="155">本社へ送金</text>
+<text class="gf-note" x="92" y="173">（確認できる）</text>
+</svg>
+<figcaption style="margin:0.8rem 0 0; max-width:none; font-style:normal; text-wrap:balance; font-size:0.8rem; line-height:1.6; color:var(--muted); text-align:center;">図：ＥＮＥＯＳが支払った海外消費税（ＧＳＴ）の流れ<br>点線の「？」：海外子会社への還付は、記録で確認できません。</figcaption>
+</figure>
 
 <p class="width-40 margin04 bar-title">
 <span class="larger">コンサルに相談した</span><br>
@@ -103,21 +144,9 @@ hide:
 <b><span class="text-warn">こんなことも！？</span></b>　海外消費税の支払いについて、裁判所は「合意による支払い」と推認を示しました。なお、ＥＮＥＯＳ側からは、その「合意」の記録は示されておらず、「記録のない合意」となります。つまり、ＥＮＥＯＳは海外消費税を記録されない合意に基づいて支払っていたことになります。<span class="text-warn">── 「契約書に定めのない海外消費税を、記録されない合意に基づいて支払う」　これ自体が、企業の内部統制として問題です。</span>
 </p>
 
-<p class="sec-title">
-再通報と<br>新たな問題
-</p>
-<p class="width-40 retort-lead agree-gap">
-解決策とされた海外子会社から本社への送金について、通報者は改めて通報しました。不正な送金が疑われるからです。しかし、<span class="text-warn">会社は通報者に「解決済み」と伝えるだけで、不正の有無がどちらなのかすら、判然としないままでした。</span>
-</p>
-<p class="width-40 margin02">
-公益通報者保護法の指針は、調査結果を通報者に通知することを求めています。指針の解説によれば、解決済みの案件であれば調査をしない正当な理由になり得ますが、解決しているか否かの判断は「可能な限り客観的に」行うことが求められます。また、是正されたように見えても、再発したり新たな情報が寄せられたりする場合があるため、解決済みといえるか、以前の案件と同一といえるかは「慎重に検討する必要がある」とされています。
-</p>
-<p class="width-40 margin02">
-しかも、宮田社長は、元社長の不祥事を引き合いに、「コンプライアンスの再徹底」を掲げて、社員に内部通報制度の利用を促していました。本件の再通報は、その呼びかけに応じたものです。
-</p>
-<p class="width-40 margin02">
-社内外に掲げた「コンプライアンスの再徹底」<br>
-── この表明が本物なのかどうか、問われる事態です。
+<p class="width-40 gap-6">
+会社は通報者に、「法改正があった」「海外子会社が本社の代わりに返金を受けた」と説明しました。しかし、そのどちらにも裏づけが示されていません。<br>
+通報を受けた会社は、通報者に事実を説明したのか。本サイトが問うのは、その一点です。
 </p>
 
 </div>
