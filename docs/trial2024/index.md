@@ -29,7 +29,7 @@ hide:
 </p>
 
 <p class="trial-year-nav width-40" markdown>
-<b>2024年提訴</b>　<a href="../trial2021/">2021年提訴</a>
+<a href="../trial2025/">2025年……</a>　<b>2024年提訴</b>　<a href="../trial2021/">2021年提訴</a>
 </p>
 
 <div class="toc-wrap doc-list" markdown>

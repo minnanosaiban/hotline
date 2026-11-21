@@ -1,5 +1,5 @@
 ---
-title: 2025年提訴 ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
+title: 2025年…… ― ＥＮＥＯＳの内部通報制度をめぐる訴訟について
 description: ＥＮＥＯＳの内部通報制度をめぐる訴訟の、2025年提訴の裁判文書です。公開準備中です。
 seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜2025年提訴の裁判文書
 url: https://minnanosaiban.github.io/hotline/trial2025/
@@ -30,7 +30,7 @@ hide:
 </p>
 
 <p class="trial-year-nav width-40" markdown>
-<b>2025年提訴</b>　<a href="../trial2024/">2024年提訴</a>　<a href="../trial2021/">2021年提訴</a>
+<b>2025年……</b>　<a href="../trial2024/">2024年提訴</a>　<a href="../trial2021/">2021年提訴</a>
 </p>
 
 <div class="toc-wrap doc-list" markdown>
@@ -38,7 +38,7 @@ hide:
 <p class="width-40 issue-lead sec-title sec-has-sub">
 裁判文書
 </p>
-<p class="width-40 sec-sub">2025年提訴</p>
+<p class="width-40 sec-sub">2025年……</p>
 
 <p class="t-toc-head bar-title doc-side">内部通報</p>
 
