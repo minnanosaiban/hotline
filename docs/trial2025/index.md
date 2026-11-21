@@ -154,6 +154,34 @@ hide:
 
 </div>
 
+<p class="t-toc-head bar-title doc-side">内容証明</p>
+
+<div class="doc-rows" markdown>
+
+<details class="doc-acc" id="naiyo-shokaisho" markdown>
+<summary>2025年12月5日　照会書（内容証明）</summary>
+<div class="doc-body" markdown>
+
+送付：2025年12月5日　受取：2025年12月6日
+
+公開準備中です。
+
+</div>
+</details>
+
+<details class="doc-acc" id="naiyo-kaitosho" markdown>
+<summary>2025年12月19日　回答書（内容証明）</summary>
+<div class="doc-body" markdown>
+
+送付：2025年12月19日　受取：2025年12月20日
+
+公開準備中です。
+
+</div>
+</details>
+
+</div>
+
 </div>
 
 </div>
