@@ -64,8 +64,8 @@ hide:
 <path class="line thick" d="M264,160 H496" marker-end="url(#mf-a)"/>
 <text class="lab" x="380" y="84">通報後、一部返金</text>
 <text class="lab lab-b" x="380" y="200">きっかけ</text>
-<text class="lab-m" x="380" y="222">通報者の手続きで豪州消費税を支払い、</text>
-<text class="lab-m" x="380" y="241">不安になり窓口を利用</text>
+<text class="lab-m" x="380" y="222">通報者の手続きで豪州消費税を支払う</text>
+<text class="lab-m" x="380" y="241">その不安から窓口を利用</text>
 <path class="line thick" d="M60,385 H22 V160 H56" marker-end="url(#mf-a)"/>
 <path class="unk" d="M704,160 H738 V385 H704" marker-end="url(#mf-g)"/>
 <path class="unk" d="M496,385 H264" marker-end="url(#mf-g)"/>
