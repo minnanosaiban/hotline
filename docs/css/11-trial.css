@@ -439,7 +439,7 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 .money-fig svg text { font-family: inherit; }
 .money-fig .node { fill: var(--surface-gray); }
 .money-fig .node-t { fill: var(--md-main-color); font-weight: 700; font-size: 22px; text-anchor: middle; }
-.money-fig .node-s { fill: var(--muted); font-size: 13px; text-anchor: middle; }
+.money-fig .node-s { fill: var(--muted); font-size: 16px; text-anchor: middle; }
 .money-fig .line { stroke: var(--md-main-color); fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 .money-fig .thin { stroke-width: 2; }
 .money-fig .thick { stroke-width: 6; }
@@ -453,7 +453,7 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 .money-fig .line.red { stroke: var(--md-warn-red); stroke-width: 4; }
 .money-fig .unknown rect { fill: var(--md-warn-red); }
 .money-fig .unknown.blue rect { fill: var(--md-main-color); }
-.money-fig .unknown text { fill: #fff; font-weight: 700; font-size: 14px; text-anchor: middle; dominant-baseline: central; }
+.money-fig .unknown text { fill: #fff; font-weight: 700; font-size: 16px; text-anchor: middle; dominant-baseline: central; }
 .money-fig .legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin: .9rem .2rem 0; }
 .money-fig .legend i { display: inline-block; width: 28px; vertical-align: middle; margin-right: .4rem; }
 .money-fig .notes { display: grid; gap: 12px; margin-top: 1.2rem; }
