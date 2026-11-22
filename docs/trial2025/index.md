@@ -34,7 +34,9 @@ hide:
 </p>
 
 <div class="money-fig">
-<h2>通報後のお金の動き</h2>
+<p class="width-40 issue-lead sec-title">
+通報によって<br>引き起こされた問題
+</p>
 <p class="money-lead">通報のあと、豪州消費税の精算ルートが変わりました。会社の説明と、図の「不明」部分を並べています。</p>
 <div class="fig">
 <svg viewBox="0 0 760 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">

@@ -431,7 +431,7 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
    色は共通トークンに合わせ、ダークモードでも読めるようにしている（ENEOSの橙は共通トークンにないため紺で表す）。 */
 /* 幅は目次（.toc-wrap）・本文と同じ 32rem に揃える */
 .money-fig { width: 100%; max-width: 32rem; margin: var(--sp-2) auto var(--sp-4); }
-.money-fig h2 { margin: 0 0 .3rem; }
+
 .money-fig .money-lead { color: var(--muted); font-size: var(--fs-small); margin: 0 0 1rem; line-height: 1.8; }
 .money-fig .fig {
   background: var(--surface); border-radius: 12px; padding: 1rem;
