@@ -86,6 +86,9 @@ hide:
 <span><i style="border-top:3.5px dotted var(--muted)"></i>経路が確認できていない流れ</span>
 </div>
 </div>
+
+<p class="t-toc-head bar-title doc-side">通報者に伝えたことと伝えなかったこと</p>
+
 <div class="notes">
 <div class="note"><b>通報者への通知</b><span class="q">「子会社からの返金で精算した」</span>と通知。</div>
 <div class="note"><b>通報の後、密かに変更</b><span class="q">「豪州企業の判断で豪州消費税を請求できる形」</span>へ。</div>
