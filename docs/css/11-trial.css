@@ -425,3 +425,41 @@ body:has(.trial-doc-marker) .accordion-body a[href] {
 body:has(.trial-doc-marker) .accordion-body a[href]:hover {
   text-decoration-color: currentColor;
 }
+
+/* 2025年提訴ページ：「裁判文書」の上に置く図「通報後のお金の動き」（2026-11-22）
+   原案：eneos_pj/03-02_弁護士説明資料作成/04_GST支払フロー図_Web案.html
+   色は共通トークンに合わせ、ダークモードでも読めるようにしている（ENEOSの橙は共通トークンにないため紺で表す）。 */
+.money-fig { margin: var(--sp-2) 0 var(--sp-4); }
+.money-fig h2 { margin: 0 0 .3rem; }
+.money-fig .money-lead { color: var(--muted); font-size: var(--fs-small); margin: 0 0 1rem; line-height: 1.8; }
+.money-fig .fig {
+  background: var(--surface); border-radius: 12px; padding: 1rem;
+  box-shadow: 0 1px 6px rgba(0, 30, 70, .08);
+}
+.money-fig svg { display: block; width: 100%; height: auto; }
+.money-fig svg text { font-family: inherit; }
+.money-fig .node { fill: var(--surface-gray); }
+.money-fig .node-t { fill: var(--md-main-color); font-weight: 700; font-size: 22px; text-anchor: middle; }
+.money-fig .node-s { fill: var(--muted); font-size: 13px; text-anchor: middle; }
+.money-fig .line { stroke: var(--md-main-color); fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.money-fig .thin { stroke-width: 2; }
+.money-fig .thick { stroke-width: 6; }
+.money-fig .unk { fill: none; stroke: var(--muted); stroke-dasharray: 3 9; stroke-width: 3.5; stroke-linecap: round; }
+.money-fig .lab { fill: var(--md-main-color); font-size: 13px; text-anchor: middle; }
+.money-fig .lab-b { font-weight: 700; }
+.money-fig .lab-m { fill: var(--muted); font-size: 12.5px; text-anchor: middle; }
+.money-fig .arrow-main { fill: var(--md-main-color); }
+.money-fig .arrow-gray { fill: var(--muted); }
+.money-fig .unknown rect { fill: var(--md-warn-red); }
+.money-fig .unknown text { fill: #fff; font-weight: 700; font-size: 14px; text-anchor: middle; dominant-baseline: central; }
+.money-fig .legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin: .9rem .2rem 0; }
+.money-fig .legend i { display: inline-block; width: 28px; vertical-align: middle; margin-right: .4rem; }
+.money-fig .notes { display: grid; gap: 12px; margin-top: 1.2rem; }
+@media (min-width: 700px) { .money-fig .notes { grid-template-columns: repeat(3, 1fr); } }
+.money-fig .note {
+  background: var(--surface); border-left: var(--line-width) solid var(--md-main-color);
+  border-radius: 0 8px 8px 0; padding: .8rem 1rem; font-size: var(--fs-small); line-height: 1.8;
+  box-shadow: 0 1px 4px rgba(0, 30, 70, .06);
+}
+.money-fig .note b { font-weight: 700; }
+.money-fig .note .q { display: block; margin-top: .2rem; font-weight: 700; color: var(--md-main-color); }
