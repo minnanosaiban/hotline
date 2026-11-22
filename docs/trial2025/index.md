@@ -43,9 +43,10 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後のお金の流れ</p>
 
 <div class="fig">
-<svg viewBox="0 0 760 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
+<svg viewBox="-46 0 806 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
 <defs>
 <marker id="mf-a" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path class="arrow-main" d="M0,0 L10,5 L0,10 z"/></marker>
+<marker id="mf-r" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path class="arrow-red" d="M0,0 L10,5 L0,10 z"/></marker>
 <marker id="mf-g" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path class="arrow-gray" d="M0,0 L10,5 L0,10 z"/></marker>
 </defs>
 <rect class="node" x="60" y="40" width="200" height="170" rx="14"/>
@@ -69,6 +70,8 @@ hide:
 <path class="line thick" d="M60,385 H22 V160 H56" marker-end="url(#mf-a)"/>
 <path class="unk" d="M704,160 H738 V385 H704" marker-end="url(#mf-g)"/>
 <path class="unk" d="M496,385 H264" marker-end="url(#mf-g)"/>
+<path class="line red" d="M380,405 V390" marker-end="url(#mf-r)"/>
+<g class="unknown"><rect x="-38" y="253" width="120" height="34" rx="17"/><text x="22" y="270">子会社が返金!?</text></g>
 <g class="unknown"><rect x="318" y="408" width="124" height="34" rx="17"/><text x="380" y="426">不明点！</text></g>
 </svg>
 <div class="legend">

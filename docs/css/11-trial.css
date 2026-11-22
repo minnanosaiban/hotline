@@ -451,6 +451,8 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 .money-fig .lab-m { fill: var(--muted); font-size: 12.5px; text-anchor: middle; }
 .money-fig .arrow-main { fill: var(--md-main-color); }
 .money-fig .arrow-gray { fill: var(--muted); }
+.money-fig .arrow-red { fill: var(--md-warn-red); }
+.money-fig .line.red { stroke: var(--md-warn-red); stroke-width: 4; }
 .money-fig .unknown rect { fill: var(--md-warn-red); }
 .money-fig .unknown text { fill: #fff; font-weight: 700; font-size: 14px; text-anchor: middle; dominant-baseline: central; }
 .money-fig .legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin: .9rem .2rem 0; }
