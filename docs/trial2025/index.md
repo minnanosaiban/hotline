@@ -52,8 +52,7 @@ hide:
 
 <div class="fig">
 <div class="legend">
-<span><i style="border-top:3px solid var(--md-main-color)"></i>お金の流れ</span>
-<span><i style="border-top:3.5px dotted var(--muted)"></i>経路が確認できていない流れ</span>
+<span><svg class="leg-arrow" viewBox="0 0 32 12" aria-hidden="true"><path d="M0,6 H20" stroke="var(--md-main-color)" stroke-width="3"/><path d="M18,0 L32,6 L18,12 z" fill="var(--md-main-color)"/></svg>確認されているお金の流れ</span>
 </div>
 <svg viewBox="-56 0 856 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
 <defs>
