@@ -69,7 +69,7 @@ hide:
 <path class="line thick" d="M60,385 H22 V160 H56" marker-end="url(#mf-a)"/>
 <path class="unk" d="M704,160 H738 V385 H704" marker-end="url(#mf-g)"/>
 <path class="unk" d="M496,385 H264" marker-end="url(#mf-g)"/>
-<g class="unknown"><rect x="318" y="408" width="124" height="34" rx="17"/><text x="380" y="426">ここが不明！</text></g>
+<g class="unknown"><rect x="318" y="408" width="124" height="34" rx="17"/><text x="380" y="426">不明点！</text></g>
 </svg>
 <div class="legend">
 <span><i style="border-top:3px solid var(--md-main-color)"></i>お金の流れ</span>
