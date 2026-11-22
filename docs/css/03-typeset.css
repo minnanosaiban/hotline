@@ -131,37 +131,50 @@
    width:100% で列幅いっぱいに広げてから右寄せしないと、中身が短い行は中央に来てしまう。
    本文（width-40 の段落）の右端とシェアボタンの右端が揃う。 */
 .hero-share {
+  position: relative;
+  z-index: 1;                 /* .hero-band（z-index:0）のグレーの上に重ねる */
   width: 100%;
   max-width: 32rem;
+  height: 0;                  /* 縦の流れには寄与させない（直前のグレー帯の下余白の中に収める） */
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 0.2rem;
-  margin: 0.4rem 0 0 !important;
+  gap: 0.1rem;
+  margin: 0 !important;
+  transform: translateY(-2.2rem);   /* 帯の右下、下端から約0.7remの位置 */
 }
-/* 「シェア」＋Ｘ・ＬＩＮＥ・リンクコピーの無彩色アイコン（枠・背景なし。ホバーでサイトの青） */
+/* スマホはグレー帯の既定の下余白（1.2rem）にシェアボタンが収まらないので、直後にシェアボタンが続く帯だけ確保（PCは6remで足りる） */
+@media only screen and (max-width: 767px) {
+  .hero-band:has(+ .hero-share) {
+    padding-bottom: 3rem;
+  }
+}
+/* 「シェア」＋Ｘ・ＬＩＮＥ・リンクコピーの控えめな無彩色アイコン（枠・背景なし。ホバーでサイトの青） */
 .hero-share .share-label {
-  margin-right: 0.4rem;
-  font-size: 13px;
+  margin-right: 0.3rem;
+  font-size: 11px;
   letter-spacing: 0.2em;
   color: var(--md-default-fg-color--light);
+  opacity: 0.8;
 }
 .hero-share .share-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   padding: 0;
   border: 0;
   background: none;
-  font-size: 1.3rem;
+  font-size: 0.85rem;
   line-height: 1;
   color: var(--md-default-fg-color--light);
+  opacity: 0.8;
   cursor: pointer;
 }
 .hero-share .share-btn:hover {
   color: var(--md-link-color);
+  opacity: 1;
 }
 /* 提訴年の相互リンク（2026年提訴／2024年提訴／2021年提訴。hero-band 直下）。
    「訴訟資料公開」タブのドロップダウン（02-layout.css）はホバーが効くPC向けなので、
