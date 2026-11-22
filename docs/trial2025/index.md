@@ -51,9 +51,7 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後のお金の流れ</p>
 
 <div class="fig">
-<div class="legend">
-<span><svg class="leg-arrow" viewBox="0 0 32 12" aria-hidden="true"><path d="M0,6 H20" stroke="var(--md-main-color)" stroke-width="3"/><path d="M18,0 L32,6 L18,12 z" fill="var(--md-main-color)"/></svg>確認されているお金の流れ</span>
-</div>
+
 <svg viewBox="-56 0 856 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
 <defs>
 <marker id="mf-a" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path class="arrow-main" d="M0,0 L10,5 L0,10 z"/></marker>
@@ -64,6 +62,10 @@ hide:
 <rect class="node" x="500" y="40" width="200" height="160" rx="14"/>
 <rect class="node" x="60" y="330" width="200" height="110" rx="14"/>
 <rect class="node" x="500" y="330" width="200" height="110" rx="14"/>
+<path class="line" d="M664,10 H696" marker-end="url(#mf-a)"/>
+<text class="lab leg-t" x="800" y="10">お金の流れ</text>
+<path class="unk" d="M664,32 H700"/>
+<text class="lab leg-t" x="800" y="32">不明な流れ</text>
 <text class="node-t" x="160" y="130" style="font-size:26px">ENEOS</text>
 <text class="node-t" x="600" y="118">豪州企業</text>
 <text class="node-s" x="600" y="143">（コンサル料）</text>
