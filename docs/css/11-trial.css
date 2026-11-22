@@ -153,8 +153,7 @@ body:has(.trial-doc-marker) .md-content h2 {
    center-containerの外にあり幅の制約もない、素の.md-content__inner直下の要素だった
    （2026-08-22、「他のページと同様、中央で揃うように」というご指摘で発覚）。
    h2と同じ32rem・中央寄せにして左端を揃える。シェアボタンはHome等の.hero-shareと同じく
-   text-align:rightで列の右端に寄せる（中身の<a class="x-share">には触れず、
-   包む<p>だけを対象にする）。
+   列の右端に寄せる（包む<p class="hero-share">だけを対象にする）。
    注意：body.trial-docクラスは判決文・準備書面ページだけでなく agm/*・styleguide.md にも
    付与される（add_body_class.py）。agm・styleguideのh1／シェアボタンは.center-container
    （flexで中央寄せ済み）の中に2階層ネストしていて構造が別物なので、`.md-content__inner`の
@@ -165,11 +164,10 @@ body:has(.trial-doc-marker) .md-content__inner > h1 {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-body:has(.trial-doc-marker) .md-content__inner > p:has(> a.x-share) {
+body:has(.trial-doc-marker) .md-content__inner > p.hero-share {
   max-width: 32rem;
   margin-left: auto !important;
   margin-right: auto !important;
-  text-align: right;
 }
 
 /* 共通CSS側の h3 は margin:0（カード内の詰めた見出し用）のため、

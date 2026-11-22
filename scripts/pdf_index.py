@@ -97,10 +97,18 @@ hide:
 </div>
 
 <p class="base00 hero-share">
-  <a href="https://twitter.com/share?url={BASE}pdf/ &text=PDF一覧 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share">
-    <i class="fa-brands fa-x-twitter"></i> でシェア
+  <span class="share-label">シェア</span>
+  <a href="https://twitter.com/share?url={BASE}pdf/&text=PDF一覧 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+     target="_blank" rel="noopener" class="share-btn" aria-label="Ｘでシェア" title="Ｘでシェア">
+    <i class="fa-brands fa-x-twitter"></i>
   </a>
+  <a href="https://social-plugins.line.me/lineit/share?url={BASE}pdf/"
+     target="_blank" rel="noopener" class="share-btn" aria-label="ＬＩＮＥでシェア" title="ＬＩＮＥでシェア">
+    <i class="fa-brands fa-line"></i>
+  </a>
+  <button type="button" class="share-btn share-copy" data-url="{BASE}pdf/" aria-label="リンクをコピー" title="リンクをコピー">
+    <i class="fa-solid fa-link"></i>
+  </button>
 </p>
 
 <div class="toc-wrap doc-list" markdown>

@@ -95,10 +95,21 @@ hide:
 バー見出しの直後に来る本文段落。上余白は見出し側の .agree-gap（実質98px）が持つ。
 </p>
 
-<p class="sg-label">1.5 ボタン・リンク（.x-share／.repo-link）</p>
+<p class="sg-label">1.5 ボタン・リンク（.hero-share／.repo-link）</p>
 
-<p class="width-40">
-<a href="https://minnanosaiban.github.io/hotline/" class="x-share"><i class="fa-brands fa-x-twitter"></i> でシェア</a>
+<p class="base00 hero-share">
+  <span class="share-label">シェア</span>
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/styleguide/"
+     target="_blank" rel="noopener" class="share-btn" aria-label="Ｘでシェア" title="Ｘでシェア">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https://minnanosaiban.github.io/hotline/styleguide/"
+     target="_blank" rel="noopener" class="share-btn" aria-label="ＬＩＮＥでシェア" title="ＬＩＮＥでシェア">
+    <i class="fa-brands fa-line"></i>
+  </a>
+  <button type="button" class="share-btn share-copy" data-url="https://minnanosaiban.github.io/hotline/styleguide/" aria-label="リンクをコピー" title="リンクをコピー">
+    <i class="fa-solid fa-link"></i>
+  </button>
 </p>
 
 <div class="repo-link-wrap">

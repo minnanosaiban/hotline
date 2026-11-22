@@ -23,10 +23,18 @@ hide:
 </div>
 
 <p class="base00 hero-share">
-  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial2026/ &text=訴訟資料公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
-     target="_blank" class="x-share">
-    <i class="fa-brands fa-x-twitter"></i> でシェア
+  <span class="share-label">シェア</span>
+  <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/trial2026/&text=訴訟資料公開 - ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
+     target="_blank" rel="noopener" class="share-btn" aria-label="Ｘでシェア" title="Ｘでシェア">
+    <i class="fa-brands fa-x-twitter"></i>
   </a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https://minnanosaiban.github.io/hotline/trial2026/"
+     target="_blank" rel="noopener" class="share-btn" aria-label="ＬＩＮＥでシェア" title="ＬＩＮＥでシェア">
+    <i class="fa-brands fa-line"></i>
+  </a>
+  <button type="button" class="share-btn share-copy" data-url="https://minnanosaiban.github.io/hotline/trial2026/" aria-label="リンクをコピー" title="リンクをコピー">
+    <i class="fa-solid fa-link"></i>
+  </button>
 </p>
 
 <p class="trial-year-nav width-40" markdown>

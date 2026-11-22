@@ -133,8 +133,35 @@
 .hero-share {
   width: 100%;
   max-width: 32rem;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.2rem;
   margin: 0.4rem 0 0 !important;
+}
+/* 「シェア」＋Ｘ・ＬＩＮＥ・リンクコピーの無彩色アイコン（枠・背景なし。ホバーでサイトの青） */
+.hero-share .share-label {
+  margin-right: 0.4rem;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--md-default-fg-color--light);
+}
+.hero-share .share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+}
+.hero-share .share-btn:hover {
+  color: var(--md-link-color);
 }
 /* 提訴年の相互リンク（2026年提訴／2024年提訴／2021年提訴。hero-band 直下）。
    「訴訟資料公開」タブのドロップダウン（02-layout.css）はホバーが効くPC向けなので、

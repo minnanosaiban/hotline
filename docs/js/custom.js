@@ -11,6 +11,40 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// シェアボタンの「リンクをコピー」（.share-copy）。押すと1.6秒だけチェックマークに変わる。
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".share-copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var url = btn.getAttribute("data-url") || location.href;
+      var icon = btn.querySelector("i");
+      var label = btn.getAttribute("aria-label");
+      function done() {
+        icon.className = "fa-solid fa-check";
+        btn.setAttribute("aria-label", "コピーしました");
+        setTimeout(function () {
+          icon.className = "fa-solid fa-link";
+          btn.setAttribute("aria-label", label);
+        }, 1600);
+      }
+      function fallback() {
+        var ta = document.createElement("textarea");
+        ta.value = url;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        try { if (document.execCommand("copy")) done(); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done, fallback);
+      } else {
+        fallback();
+      }
+    });
+  });
+});
+
 // 本文内リンク（.acc-open）から対象のアコーディオン(details)を開いてスクロール
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll('a.acc-open[href^="#"]').forEach(function (link) {
