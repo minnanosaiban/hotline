@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("hashchange", openDetailsFromHash);
 });
 
-// タブのドロップダウン（「裁判文書公開」等）。開閉そのものはネイティブの
+// タブのドロップダウン（「訴訟資料公開」等）。開閉そのものはネイティブの
 // <details>/<summary>（overrides/partials/tabs-item.html）がブラウザの機能として行うので、
 // このJSはあくまで補助（他のドロップダウンが開いていたら閉じる／外側クリックで閉じる）。
 // 独自クリック処理で開閉させていた前の版は、開発機では動いたがユーザーの実機Chromeでは

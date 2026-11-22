@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / "docs" / "pdf"
 # 注意: 2026年ページは今は docs/.trial2026/ で非公開。公開に戻す（docs/trial2026/ へ戻す）と、ここは自動で効く。
 # 戻し忘れると、PDF 一覧の「本文」リンクだけが黙って抜ける。公開手順で必ず確認すること。
-TRIAL_PAGES = [  # (URLのパス, index.md) 「裁判文書公開」の各提訴年ページ。2026-09-22、複数年に分割したときに追加
+TRIAL_PAGES = [  # (URLのパス, index.md) 「訴訟資料公開」の各提訴年ページ。2026-09-22、複数年に分割したときに追加
     ("../trial2026/", ROOT / "docs" / "trial2026" / "index.md"),
     ("../trial2025/", ROOT / "docs" / "trial2025" / "index.md"),
     ("../trial2024/", ROOT / "docs" / "trial2024" / "index.md"),
@@ -92,7 +92,7 @@ hide:
 <div class="hero-band" markdown>
 # PDF一覧
 <p>
-ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟の、裁判文書の PDF です。本文（テキスト）は、<a href="../trial2024/">裁判文書公開</a>のページで読めます。
+ＥＮＥＯＳ（エネオス）の内部通報制度をめぐる訴訟の、裁判文書の PDF です。本文（テキスト）は、<a href="../trial2024/">訴訟資料公開</a>のページで読めます。
 </p>
 </div>
 

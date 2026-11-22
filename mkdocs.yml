@@ -12,7 +12,7 @@ nav:
       - index.md
   - 株主総会質疑応答:
       - agm/index.md
-  - 裁判文書公開:
+  - 訴訟資料公開:
       # 2026年提訴: trial2026/index.md は当面非公開（docs/.trial2026/ へ改名済み。詳しくは README.md）
       - 2025年……: trial2025/index.md # まだ提訴していないため「2025年……」と表記（提訴したら「2025年提訴」へ）
       - 2024年提訴: trial2024/index.md
