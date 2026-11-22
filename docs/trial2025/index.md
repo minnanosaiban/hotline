@@ -43,36 +43,35 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後のお金の流れ</p>
 
 <div class="fig">
-<svg viewBox="-46 0 806 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
+<svg viewBox="-40 0 840 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
 <defs>
 <marker id="mf-a" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path class="arrow-main" d="M0,0 L10,5 L0,10 z"/></marker>
 <marker id="mf-r" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path class="arrow-red" d="M0,0 L10,5 L0,10 z"/></marker>
 <marker id="mf-g" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path class="arrow-gray" d="M0,0 L10,5 L0,10 z"/></marker>
 </defs>
-<rect class="node" x="60" y="40" width="200" height="170" rx="14"/>
-<rect class="node" x="500" y="40" width="200" height="170" rx="14"/>
+<rect class="node" x="60" y="40" width="200" height="160" rx="14"/>
+<rect class="node" x="500" y="40" width="200" height="160" rx="14"/>
 <rect class="node" x="60" y="330" width="200" height="110" rx="14"/>
 <rect class="node" x="500" y="330" width="200" height="110" rx="14"/>
-<text class="node-t" x="160" y="136" style="font-size:26px">ENEOS</text>
-<text class="node-t" x="600" y="130">豪州企業</text>
-<text class="node-s" x="600" y="155">（コンサル料）</text>
+<text class="node-t" x="160" y="130" style="font-size:26px">ENEOS</text>
+<text class="node-t" x="600" y="118">豪州企業</text>
+<text class="node-s" x="600" y="143">（コンサル料）</text>
 <text class="node-t" x="160" y="378">ENEOS</text>
 <text class="node-t" x="160" y="408">豪州子会社</text>
 <text class="node-t" x="600" y="378">豪州</text>
 <text class="node-t" x="600" y="408">税務当局</text>
-<path class="line thin" d="M496,98 H264" marker-end="url(#mf-a)"/>
-<path class="line thin" d="M264,114 H496" marker-end="url(#mf-a)"/>
-<path class="line thick" d="M264,160 H496" marker-end="url(#mf-a)"/>
-<text class="lab" x="380" y="84">通報後、一部返金</text>
-<text class="lab lab-b" x="380" y="200">きっかけ</text>
-<text class="lab-m" x="380" y="222">通報者の手続きで豪州消費税を支払う</text>
-<text class="lab-m" x="380" y="241">その不安から窓口を利用</text>
-<path class="line thick" d="M60,385 H22 V160 H56" marker-end="url(#mf-a)"/>
-<path class="unk" d="M704,160 H738 V385 H704" marker-end="url(#mf-g)"/>
+<g class="unknown blue"><rect x="310" y="6" width="140" height="34" rx="17"/><text x="380" y="23">通報がきっかけ</text></g>
+<text class="lab-m" x="380" y="78">通報者の手続きで</text>
+<text class="lab-m" x="380" y="98">豪州消費税を支払う</text>
+<path class="line thick" d="M264,120 H496" marker-end="url(#mf-a)"/>
+<path class="line thin" d="M496,172 H264" marker-end="url(#mf-a)"/>
+<text class="lab" x="380" y="194">通報後、一部返金</text>
+<path class="line thick" d="M60,385 H22 V120 H56" marker-end="url(#mf-a)"/>
+<path class="unk" d="M704,120 H738 V385 H704" marker-end="url(#mf-g)"/>
 <path class="unk" d="M496,385 H264" marker-end="url(#mf-g)"/>
-<path class="line red" d="M380,405 V390" marker-end="url(#mf-r)"/>
-<g class="unknown"><rect x="-38" y="253" width="120" height="34" rx="17"/><text x="22" y="270">子会社が返金!?</text></g>
-<g class="unknown"><rect x="318" y="408" width="124" height="34" rx="17"/><text x="380" y="426">不明点！</text></g>
+<path class="line red" d="M380,448 V392" marker-end="url(#mf-r)"/>
+<g class="unknown blue"><rect x="-38" y="235" width="120" height="34" rx="17"/><text x="22" y="252">子会社が返金？</text></g>
+<g class="unknown"><rect x="318" y="436" width="124" height="34" rx="17"/><text x="380" y="454">不明点！</text></g>
 </svg>
 <div class="legend">
 <span><i style="border-top:3px solid var(--md-main-color)"></i>お金の流れ</span>

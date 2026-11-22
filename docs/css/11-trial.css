@@ -432,7 +432,7 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 /* 幅は目次（.toc-wrap）・本文と同じ 32rem に揃える */
 .money-fig { width: 100%; max-width: 32rem; margin: var(--sp-2) auto var(--sp-4); }
 
-.money-fig .money-lead { color: var(--muted); font-size: var(--fs-small); margin: 0 0 1rem; line-height: 1.8; }
+.money-fig .money-lead { font-size: var(--fs-body); line-height: var(--lh-body); margin: 0 0 1rem; }
 .money-fig .fig {
   background: var(--surface); border-radius: 12px; padding: 1rem;
   box-shadow: 0 1px 6px rgba(0, 30, 70, .08);
@@ -446,14 +446,15 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 .money-fig .thin { stroke-width: 2; }
 .money-fig .thick { stroke-width: 6; }
 .money-fig .unk { fill: none; stroke: var(--muted); stroke-dasharray: 3 9; stroke-width: 3.5; stroke-linecap: round; }
-.money-fig .lab { fill: var(--md-main-color); font-size: 13px; text-anchor: middle; }
+.money-fig .lab { fill: var(--muted); font-size: 13px; text-anchor: middle; }
 .money-fig .lab-b { font-weight: 700; }
-.money-fig .lab-m { fill: var(--muted); font-size: 12.5px; text-anchor: middle; }
+.money-fig .lab-m { fill: var(--muted); font-size: 13px; text-anchor: middle; }
 .money-fig .arrow-main { fill: var(--md-main-color); }
 .money-fig .arrow-gray { fill: var(--muted); }
 .money-fig .arrow-red { fill: var(--md-warn-red); }
 .money-fig .line.red { stroke: var(--md-warn-red); stroke-width: 4; }
 .money-fig .unknown rect { fill: var(--md-warn-red); }
+.money-fig .unknown.blue rect { fill: var(--md-main-color); }
 .money-fig .unknown text { fill: #fff; font-weight: 700; font-size: 14px; text-anchor: middle; dominant-baseline: central; }
 .money-fig .legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin: .9rem .2rem 0; }
 .money-fig .legend i { display: inline-block; width: 28px; vertical-align: middle; margin-right: .4rem; }
