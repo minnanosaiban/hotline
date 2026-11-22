@@ -87,7 +87,7 @@ hide:
 </svg>
 </div>
 
-<p class="t-toc-head bar-title doc-side">通報者に伝えたことと伝えなかったこと</p>
+<p class="t-toc-head bar-title doc-side">通報後に何をしたか</p>
 
 <div class="notes">
 <div class="note"><b>通報者への通知</b><span class="q">「子会社からの返金で精算した」</span>と通知。</div>
