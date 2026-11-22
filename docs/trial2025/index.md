@@ -40,7 +40,7 @@ hide:
 
 <p class="money-lead">豪州消費税を支払っているという通報を受けた後、ENEOSは、通報者に、自社の子会社から返金を受けたと通知しました。しかし、不明点があります。</p>
 
-<p class="t-toc-head bar-title doc-side">内部通報</p>
+<p class="t-toc-head bar-title doc-side">通報後のお金の流れ</p>
 
 <div class="fig">
 <svg viewBox="0 0 760 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
