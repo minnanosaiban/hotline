@@ -69,7 +69,7 @@ hide:
 <text class="node-t" x="600" y="378">豪州</text>
 <text class="node-t" x="600" y="408">税務当局</text>
 <g class="unknown blue"><rect x="310" y="6" width="140" height="34" rx="17"/><text x="380" y="23">通報がきっかけ</text></g>
-<text class="lab-m" x="380" y="74">通報者の手続きで</text>
+<text class="lab-m" x="380" y="72">通報者の手続きで</text>
 <text class="lab-m" x="380" y="96">豪州消費税を支払っていた</text>
 <path class="line thick" d="M264,120 H496" marker-end="url(#mf-a)"/>
 <path class="line thin" d="M496,172 H264" marker-end="url(#mf-a)"/>
