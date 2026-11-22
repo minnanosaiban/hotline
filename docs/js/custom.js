@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
       var icon = btn.querySelector("i");
       var label = btn.getAttribute("aria-label");
       function done() {
-        icon.className = "fa-solid fa-check";
+        icon.className = "bi bi-check2";
         btn.setAttribute("aria-label", "コピーしました");
         setTimeout(function () {
-          icon.className = "fa-solid fa-link";
+          icon.className = "bi bi-link-45deg";
           btn.setAttribute("aria-label", label);
         }, 1600);
       }

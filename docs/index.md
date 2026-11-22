@@ -19,14 +19,14 @@ hide:
   <span class="share-label">シェア</span>
   <a href="https://twitter.com/share?url=https://minnanosaiban.github.io/hotline/&text=ＥＮＥＯＳの内部通報制度をめぐる訴訟について"
      target="_blank" rel="noopener" class="share-btn" aria-label="Ｘでシェア" title="Ｘでシェア">
-    <i class="fa-brands fa-x-twitter"></i>
+    <i class="bi bi-twitter-x"></i>
   </a>
   <a href="https://social-plugins.line.me/lineit/share?url=https://minnanosaiban.github.io/hotline/"
      target="_blank" rel="noopener" class="share-btn" aria-label="ＬＩＮＥでシェア" title="ＬＩＮＥでシェア">
-    <i class="fa-brands fa-line"></i>
+    <i class="bi bi-line"></i>
   </a>
   <button type="button" class="share-btn share-copy" data-url="https://minnanosaiban.github.io/hotline/" aria-label="リンクをコピー" title="リンクをコピー">
-    <i class="fa-solid fa-link"></i>
+    <i class="bi bi-link-45deg"></i>
   </button>
 </p>
 
