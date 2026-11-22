@@ -444,9 +444,9 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 .money-fig .thin { stroke-width: 2; }
 .money-fig .thick { stroke-width: 6; }
 .money-fig .unk { fill: none; stroke: var(--muted); stroke-dasharray: 3 9; stroke-width: 3.5; stroke-linecap: round; }
-.money-fig .lab { fill: var(--muted); font-size: 13px; text-anchor: middle; }
+.money-fig .lab { fill: var(--muted); font-size: 17px; text-anchor: middle; }
 .money-fig .lab-b { font-weight: 700; }
-.money-fig .lab-m { fill: var(--muted); font-size: 13px; text-anchor: middle; }
+.money-fig .lab-m { fill: var(--muted); font-size: 17px; text-anchor: middle; }
 .money-fig .arrow-main { fill: var(--md-main-color); }
 .money-fig .arrow-gray { fill: var(--muted); }
 .money-fig .arrow-red { fill: var(--md-warn-red); }
