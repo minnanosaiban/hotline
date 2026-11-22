@@ -74,8 +74,8 @@ hide:
 <text class="node-t" x="600" y="378">豪州</text>
 <text class="node-t" x="600" y="408">税務当局</text>
 <g class="unknown blue"><rect x="310" y="6" width="140" height="34" rx="17"/><text x="380" y="23">通報がきっかけ</text></g>
-<text class="lab-m" x="380" y="72">通報者の手続きで</text>
-<text class="lab-m" x="380" y="96">豪州消費税を支払っていた</text>
+<text class="lab" x="380" y="72">通報者の手続きで</text>
+<text class="lab" x="380" y="96">豪州消費税を支払っていた</text>
 <path class="line thick" d="M264,120 H496" marker-end="url(#mf-a)"/>
 <path class="line thin" d="M496,172 H264" marker-end="url(#mf-a)"/>
 <text class="lab" x="380" y="194">通報後、一部返金</text>
@@ -91,9 +91,9 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後に何をしたか</p>
 
 <div class="notes">
-<div class="note"><b>通報者への通知</b><span class="q">「子会社からの返金で精算した」</span>と通知。</div>
-<div class="note"><b>通報の後、密かに変更</b><span class="q">「豪州企業の判断で豪州消費税を請求できる形」</span>へ。</div>
-<div class="note"><b>通報者への通知</b><span class="q">「法改正があったため」</span>と通知。</div>
+<div class="note">通報者へは、<span class="q">「子会社からの返金で精算した」</span>と通知</div>
+<div class="note"><span class="q">「豪州企業が豪州消費税を請求できる形」</span>へ契約変更（通報者には伝えず）</div>
+<div class="note">通報者へは、<span class="q">「法改正があったため」</span>と通知</div>
 </div>
 </div>
 
