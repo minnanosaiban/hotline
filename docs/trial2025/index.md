@@ -51,7 +51,11 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後のお金の流れ</p>
 
 <div class="fig">
-<svg viewBox="-48 0 848 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
+<div class="legend">
+<span><i style="border-top:3px solid var(--md-main-color)"></i>お金の流れ</span>
+<span><i style="border-top:3.5px dotted var(--muted)"></i>経路が確認できていない流れ</span>
+</div>
+<svg viewBox="-56 0 856 520" role="img" aria-label="ENEOS、豪州企業、豪州子会社、豪州税務当局の間のお金の流れ">
 <defs>
 <marker id="mf-a" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path class="arrow-main" d="M0,0 L10,5 L0,10 z"/></marker>
 <marker id="mf-r" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path class="arrow-red" d="M0,0 L10,5 L0,10 z"/></marker>
@@ -78,13 +82,9 @@ hide:
 <path class="unk" d="M704,120 H738 V385 H704" marker-end="url(#mf-g)"/>
 <path class="unk" d="M496,385 H264" marker-end="url(#mf-g)"/>
 <path class="line red" d="M380,448 V392" marker-end="url(#mf-r)"/>
-<g class="unknown blue"><rect x="-42" y="235" width="128" height="34" rx="17"/><text x="22" y="252">子会社が返金？</text></g>
+<g class="unknown blue"><rect x="-50" y="235" width="144" height="34" rx="17"/><text x="22" y="252">子会社が返金？</text></g>
 <g class="unknown"><rect x="318" y="436" width="124" height="34" rx="17"/><text x="380" y="454">不明点！</text></g>
 </svg>
-<div class="legend">
-<span><i style="border-top:3px solid var(--md-main-color)"></i>お金の流れ</span>
-<span><i style="border-top:3.5px dotted var(--muted)"></i>経路が確認できていない流れ</span>
-</div>
 </div>
 
 <p class="t-toc-head bar-title doc-side">通報者に伝えたことと伝えなかったこと</p>

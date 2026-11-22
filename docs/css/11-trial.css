@@ -454,7 +454,7 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
 .money-fig .unknown rect { fill: var(--md-warn-red); }
 .money-fig .unknown.blue rect { fill: var(--md-main-color); }
 .money-fig .unknown text { fill: #fff; font-weight: 700; font-size: 16px; text-anchor: middle; dominant-baseline: central; }
-.money-fig .legend { display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin: .9rem .2rem 0; }
+.money-fig .legend { display: flex; gap: 1.4rem; flex-wrap: wrap; justify-content: flex-end; font-size: 13px; color: var(--muted); margin: 0 .2rem .6rem; }
 .money-fig .legend i { display: inline-block; width: 28px; vertical-align: middle; margin-right: .4rem; }
 .money-fig .notes { display: grid; gap: 12px; margin-top: 1.2rem; }
 .money-fig .note {
