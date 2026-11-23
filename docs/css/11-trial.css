@@ -460,12 +460,12 @@ body:has(.trial-doc-marker) .accordion-body a[href]:hover {
   box-shadow: 0 1px 4px rgba(0, 30, 70, .06);
 }
 .money-fig .note .q { font-weight: 700; color: var(--md-main-color); }
-/* 「しかし、…」の指摘行：各通知の下に、細い縦棒（2px・サイトの青）＋本文色の太字で添える。枠・背景は付けない。 */
+/* 「しかし、…」の指摘行：各通知の下に、行頭に「─」を置き、本文色の通常の太さで添える。枠・背景は付けない。 */
 .money-fig .note .but {
   margin: .6rem 0 0 !important;
-  padding-left: .8rem;
-  border-left: 2px solid var(--md-link-color);
-  font-weight: 700;
   font-size: var(--fs-small);
   line-height: 1.7;
+}
+.money-fig .note .but::before {
+  content: "─ ";
 }
