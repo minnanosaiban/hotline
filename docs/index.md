@@ -42,19 +42,19 @@ hide:
 本サイトは、社内通報窓口を利用した従業員（以下「通報者」）が作成しています。
 </p>
 
-<p class="larger width-40 margin02 agree-gap bar-title">
+<p class="larger width-40 margin02 agree-gap bar-title home-head">
 調査事項を曖昧にして回答
 </p>
 <p class="width-40">
 通報したのは、豪州企業からの請求書に含まれていた海外消費税（ＧＳＴ）を「支払う必要がないのに払っている」という問題でした。ところが、会社が伝えた調査事項は曖昧で、肝心の「支払う必要があるか否か」は調査結果として示されませんでした。
 </p>
-<p class="larger width-40 margin02 agree-gap bar-title">
+<p class="larger width-40 margin02 agree-gap bar-title home-head">
 事実であるかのように通知
 </p>
 <p class="width-40">
 その後、会社は通報者に「法改正があったため」と知らせ、海外子会社は「本社の代わりに返金を受けた」として本社に送金しました。しかし、その「法改正」は未だに特定できず、返金を受けた事実も確認できません。この送金の会計処理には疑問が残ります。
 </p>
-<p class="larger width-40 margin02 agree-gap bar-title">
+<p class="larger width-40 margin02 agree-gap bar-title home-head">
 海外消費税の支払を契約化
 </p>
 <p class="width-40">
