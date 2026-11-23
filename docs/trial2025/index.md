@@ -64,7 +64,7 @@ hide:
 <rect class="node" x="500" y="330" width="200" height="110" rx="14"/>
 <path class="line" d="M664,-34 H696" marker-end="url(#mf-a)"/>
 <text class="lab leg-t" x="800" y="-34">お金の流れ</text>
-<path class="unk" d="M664,-10 H700"/>
+<path class="unk" d="M664,-10 H696" marker-end="url(#mf-g)"/>
 <text class="lab leg-t" x="800" y="-10">不明な流れ</text>
 <text class="node-t" x="160" y="130" style="font-size:26px">ENEOS</text>
 <text class="node-t" x="600" y="118">豪州企業</text>
@@ -91,9 +91,9 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後に何をしたか</p>
 
 <div class="notes">
-<div class="note">ＥＮＥＯＳの<span class="q">「豪州子会社からの返金で精算した」</span>と通報者に通知</div>
-<div class="note"><span class="q">「豪州企業が豪州消費税を請求できる形」</span>へ契約変更（通報者には伝えず）</div>
-<div class="note">豪州消費税支払いに関して、<span class="q">「法改正があったため」</span>と通報者に通知</div>
+<div class="note">ＥＮＥＯＳの<span class="q">「豪州子会社からの返金で精算した」</span>と通報者に通知<p class="but">しかし、お金の流れに不明点がある</p></div>
+<div class="note"><span class="q">「豪州企業が豪州消費税を請求できる形」</span>へ契約変更（通報者には伝えず）<p class="but">しかし、豪州消費税を支払う必要はない</p></div>
+<div class="note">豪州消費税支払いに関して、<span class="q">「法改正があったため」</span>と通報者に通知<p class="but">しかし、該当の法改正は見つからない</p></div>
 </div>
 </div>
 
