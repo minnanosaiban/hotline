@@ -77,7 +77,7 @@ hide:
 <text class="lab" x="380" y="96">豪州消費税を支払っていた</text>
 <path class="line thick" d="M264,120 H496" marker-end="url(#mf-a)"/>
 <path class="line thin" d="M496,172 H264" marker-end="url(#mf-a)"/>
-<text class="lab" x="380" y="194">通報後、一部返金</text>
+<text class="lab" x="380" y="194">通報後、一部は返金</text>
 <path class="line thick" d="M60,385 H22 V120 H56" marker-end="url(#mf-a)"/>
 <path class="unk" d="M704,120 H738 V385 H704" marker-end="url(#mf-g)"/>
 <path class="unk" d="M496,385 H264" marker-end="url(#mf-g)"/>
