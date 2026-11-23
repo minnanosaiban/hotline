@@ -190,3 +190,15 @@
   color: var(--md-link-color);
 }
 /* .width-40（本文幅40字・自己センタリング）は shared/base.css（minna-design） */
+/* 裁判所の判断：左に細い縦棒を置く引用風の装飾（枠・背景なし）。
+   縦棒は .bar-title(0.24rem) より細い 2px。段落間は .court-quote-next の上余白で空ける。 */
+.court-quote {
+  border-left: 2px solid var(--md-link-color);
+  padding-left: 0.9rem;
+}
+.court-quote > p {
+  margin: 0;
+}
+.court-quote > p.court-quote-next {
+  margin-top: 1rem;
+}

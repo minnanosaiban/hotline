@@ -46,7 +46,7 @@ hide:
 通報後の問題
 </p>
 
-<p class="money-lead">豪州消費税を支払っているという通報を受けた後、ENEOSは、通報者に、自社の子会社から返金を受けたと通知しました。しかし、<b><span class="text-warn">そのお金の流れには不明点があります。</span></b></p>
+<p class="money-lead">豪州消費税を支払っているという通報を受けた後、ＥＮＥＯＳは、通報者に、自社の子会社から返金を受けたと通知しました。しかし、<b><span class="text-warn">そのお金の流れには不明点があります。</span></b></p>
 
 <p class="t-toc-head bar-title doc-side">通報後のお金の流れ</p>
 
