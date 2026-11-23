@@ -7,7 +7,7 @@
 
 > **この repo（hotline）での注意**: この文書は元の hotline リポジトリのもの。ブログ（`blog/`・`about/`）、Python フック（`add_blog_class.py`・`doc_indent.py`）、
 > `mkdocs-glightbox`、`body.trial-doc` に関する記述は、そのままでは当てはまらない。フックは無くした（`body:has(.trial-doc-marker)` と各ページ先頭の目印 div、
-> ページ内の `<link>`／`<script>` に置き換え済み）。詳しくは `README.md` の「元の hotline との違い」を見る。ＣＳＳの部品の説明としては今も有効。
+> ページ内の `<link>`／`<script>` に置き換え済み）。詳しくは `HISTORY.md` の「元の hotline との違い」を見る。ＣＳＳの部品の説明としては今も有効。
 
 作成: 2026-08-17。`docs/css/01〜12`（9ファイル）と実ページ（Home / agm / trial / about / blog）を突き合わせて棚卸しした。
 目的は2つ：①今後の手直しで一貫性を崩さないための正本、②「Markdownを知らなくてもMkDocs用mdが作れるアプリ」（sidenote-pdf応用）の部品パレット設計図。
