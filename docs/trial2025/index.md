@@ -5,7 +5,6 @@ seo_title: ENEOS（エネオス）の通報をめぐる裁判・訴訟｜2025年
 url: https://minnanosaiban.github.io/hotline/trial2025/
 image: https://minnanosaiban.github.io/hotline/img/card1.png
 twitter_card: summary
-robots: noindex, nofollow
 hide:
   - navigation
   - toc
