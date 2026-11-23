@@ -204,7 +204,7 @@
 }
 
 /* ホームの問題提起見出し（調査事項を曖昧にして回答／事実であるかのように通知／海外消費税の支払を契約化）の下余白。
-   共通の .margin02（2rem）を、ホームのこの見出しだけ 1.6rem に詰める。上余白は .agree-gap のまま。 */
+   共通の .margin02（2rem）を、ホームのこの見出しだけ 1rem に詰める。上余白は .agree-gap のまま。 */
 .home-head.margin02 {
-  margin-bottom: 1.6rem !important;
+  margin-bottom: 1rem !important;
 }
