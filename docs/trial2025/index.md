@@ -91,7 +91,7 @@ hide:
 <p class="t-toc-head bar-title doc-side">通報後に何をしたか</p>
 
 <div class="notes">
-<div class="note"><span class="q">ＥＮＥＯＳの「豪州子会社からの返金で精算した」</span>と通報者に通知</div>
+<div class="note">ＥＮＥＯＳの<span class="q">「豪州子会社からの返金で精算した」</span>と通報者に通知</div>
 <div class="note"><span class="q">「豪州企業が豪州消費税を請求できる形」</span>へ契約変更（通報者には伝えず）</div>
 <div class="note">豪州消費税支払いに関して、<span class="q">「法改正があったため」</span>と通報者に通知</div>
 </div>
