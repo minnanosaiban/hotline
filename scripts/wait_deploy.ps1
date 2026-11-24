@@ -8,13 +8,13 @@
 
   A run normally takes about 30 seconds. GitHub Pages sometimes hangs in the last step
   ("Run actions/deploy-pages"), so a run that has not finished after -TimeoutSec (default 240)
-  is treated as stuck: it is cancelled and re-run automatically, -Retries times (default 1).
+  is treated as stuck, and a run that failed is treated the same way: it is cancelled/re-run automatically, -Retries times (default 1).
   The site keeps serving the previous version the whole time.
 
   Exit code 0 = deployed.
   Exit code 3 = nothing could be checked (GitHub CLI missing / not signed in /
                 run not found / the run status could not be read). Deploy not confirmed.
-  Exit code 1 = the run failed.
+  Exit code 1 = the run failed (also after the automatic re-run).
   Exit code 2 = the run was still not finished after the automatic re-run(s).
   Needs the GitHub CLI (gh), signed in as the owner of the repository.
 #>
@@ -130,9 +130,14 @@ Write-Host "Following GitHub Actions run $id for commit $($sha.Substring(0, 7))"
 $attempt = 1
 $result = Wait-Attempt 1 $true
 $restarts = 0
-while ($result -eq 'timeout' -and $restarts -lt $Retries) {
+while (($result -eq 'timeout' -or $result -eq 'failed') -and $restarts -lt $Retries) {
     $restarts++
-    Write-Host "[WARN] The run has not finished after $TimeoutSec seconds (it normally takes about 30). Cancelling it and running it again ($restarts of $Retries). The site keeps showing the previous version meanwhile."
+    if ($result -eq 'failed') {
+        Write-Host "[WARN] The run failed (often a temporary GitHub problem). Running it again ($restarts of $Retries). The site keeps showing the previous version meanwhile."
+    }
+    else {
+        Write-Host "[WARN] The run has not finished after $TimeoutSec seconds (it normally takes about 30). Cancelling it and running it again ($restarts of $Retries). The site keeps showing the previous version meanwhile."
+    }
     $next = $attempt + 1
     $how = Restart-Run
     if ($how -eq 'success') { $result = 'success'; break }
